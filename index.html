@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qingxi Meng</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <!-- ── Profile ──────────────────────────────── -->
+    <header class="profile-section">
+      <img class="profile-photo" src="profile.jpg" alt="Qingxi Meng">
+      <div class="profile-info">
+        <h1>Qingxi Meng</h1>
+        <p class="affiliation">Ph.D. Candidate &middot; Computer Science &middot; Rice University</p>
+        <p class="bio">
+          I am a fourth year Ph.D. student at Rice University advised by
+          <a href="https://www.cs.rice.edu/~kavraki/" target="_blank">Prof. Lydia Kavraki</a> and
+          <a href="https://unhelkar.github.io/" target="_blank">Prof. Vaibhav Unhelkar</a>,
+          and closely collaborating with
+          <a href="https://zkingston.com/" target="_blank">Prof. Zak Kingston</a> and
+          <a href="https://www.peizhuqian.com/" target="_blank">Prof. Pam Qian</a>.
+        </p>
+        <p class="bio">
+          My research interests include robot motion planning, robot perception, and human-robot
+          interaction especially in medical environments.
+        </p>
+        <p class="bio">
+          Outside of research, I love hiking, cooking, and visiting museums.
+        </p>
+        <div class="contact-links">
+          <a class="link-badge badge-email" href="mailto:qm15@rice.edu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/></svg>
+            qm15@rice.edu
+          </a>
+          <a class="link-badge badge-scholar" href="https://scholar.google.com/citations?user=bZzm1ecAAAAJ&hl=en" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M5.242 13.769 0 9.5 12 0l12 9.5-5.242 4.269C17.548 15.036 15 17.788 15 21H9c0-3.212-2.548-5.964-3.758-7.231z"/><path d="M12 10a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/></svg>
+            Google Scholar
+          </a>
+          <a class="link-badge badge-cv" href="Qingxi_Meng_Resume.pdf" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+            CV
+          </a>
+          <a class="link-badge badge-github" href="https://github.com/qm2/" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c.955.005 1.917.128 2.817.374 2.29-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- ── Publications ──────────────────────────── -->
+    <section id="publications">
+      <h2>Selected Publications</h2>
+
+      <!-- RAL 2026 -->
+      <div class="pub-entry">
+        <div class="pub-thumb">
+          <img src="mops.gif" alt="MOPS teaser">
+        </div>
+        <div class="pub-meta">
+          <p class="pub-title">Sampling-Based Motion Planning With Scene Graphs Under Perception Constraints</p>
+          <p class="pub-authors">
+            <strong>Qingxi Meng</strong><sup>*</sup>, Emiliano Flores<sup>*</sup>, Tung Duong, Vaibhav Unhelkar, Lydia E. Kavraki
+          </p>
+          <p class="pub-note"><sup>*</sup> Equal contribution</p>
+          <p class="pub-venue"><em>IEEE Robotics and Automation Letters (RA-L)</em>, 2026</p>
+          <div class="pub-links">
+            <a class="pub-badge badge-arxiv" href="https://arxiv.org/abs/2603.03514" target="_blank">arXiv 2603.03514</a>
+            <button class="toggle-btn" onclick="toggle('abs-ral')">Abstract</button>
+            <button class="toggle-btn" onclick="toggle('bib-ral')">BibTeX</button>
+          </div>
+          <div id="abs-ral" class="collapsible">
+            <p class="abstract-text">
+              It will be increasingly common for robots to operate in cluttered human-centered
+              environments such as homes, workplaces, and hospitals, where the robot is often
+              tasked to maintain perception constraints, such as monitoring people or multiple
+              objects, for safety and reliability while executing its task. However, existing
+              perception-aware approaches typically focus on low-degree-of-freedom (DoF) systems
+              or only consider a single object in the context of high-DoF robots. This motivates
+              us to consider the problem of perception-aware motion planning for high-DoF robots
+              that accounts for multi-object monitoring constraints. We employ a scene graph
+              representation of the environment, offering a great potential for incorporating
+              long-horizon task and motion planning thanks to its rich semantic and spatial
+              information. However, it does not capture perception-constrained information, such
+              as the viewpoints the user prefers. To address these challenges, we propose
+              MOPS-PRM, a roadmap-based motion planner, that integrates the perception cost of
+              observing multiple objects or humans directly into motion planning for high-DoF
+              robots. The perception cost is embedded to each object as part of a scene graph,
+              and used to selectively sample configurations for roadmap construction, implicitly
+              enforcing the perception constraints. Our method is extensively validated in both
+              simulated and real-world experiments, achieving more than ~36% improvement in the
+              average number of detected objects and ~17% better track rate against other
+              perception-constrained baselines, with comparable planning times and path lengths.
+            </p>
+          </div>
+          <div id="bib-ral" class="collapsible">
+            <pre class="bibtex-text">@article{meng2026mops,
+  title   = {Sampling-Based Motion Planning With Scene Graphs Under Perception Constraints},
+  author  = {Meng, Qingxi and Flores, Emiliano and Duong, Tung and Unhelkar, Vaibhav and Kavraki, Lydia E.},
+  journal = {IEEE Robotics and Automation Letters},
+  year    = {2026},
+  publisher = {IEEE}
+}</pre>
+          </div>
+        </div>
+      </div>
+
+      <!-- Look as You Leap -->
+      <div class="pub-entry">
+        <div class="pub-thumb">
+          <img src="TRO_manipulator_small.jpg" alt="Look as You Leap teaser">
+        </div>
+        <div class="pub-meta">
+          <p class="pub-title">Look as You Leap: Planning Simultaneous Motion and Perception for High-DoF Robots</p>
+          <p class="pub-authors">
+            <strong>Qingxi Meng</strong>, Emiliano Flores, Carlos Quintero-Pe&ntilde;a, Peizhu Qian,
+            Zachary Kingston, Shannan K. Hamlin, Vaibhav Unhelkar, and Lydia E. Kavraki
+          </p>
+          <p class="pub-venue"><em>IEEE Transactions on Robotics</em>, To Appear</p>
+          <div class="pub-links">
+            <a class="pub-badge badge-arxiv" href="https://arxiv.org/abs/2509.19610" target="_blank">arXiv 2509.19610</a>
+            <button class="toggle-btn" onclick="toggle('abs-layl')">Abstract</button>
+            <button class="toggle-btn" onclick="toggle('bib-layl')">BibTeX</button>
+          </div>
+          <div id="abs-layl" class="collapsible">
+            <p class="abstract-text">
+              In this work, we address the problem of planning robot motions for a
+              high-degree-of-freedom (DoF) robot that effectively achieves a given perception
+              task while the robot and the perception target move in a dynamic environment.
+              Achieving navigation and perception tasks simultaneously is challenging, as these
+              objectives often impose conflicting requirements. Existing methods that compute
+              motion under perception constraints fail to account for obstacles, are designed
+              for low-DoF robots, or rely on simplified models of perception. Furthermore, in
+              dynamic real-world environments, robots must replan and react quickly to changes
+              and directly evaluating the quality of perception (e.g., object detection
+              confidence) is often expensive or infeasible at runtime. This problem is especially
+              important in human-centered environments such as homes and hospitals, where
+              effective perception is essential for safe and reliable operation. To address these
+              challenges, we propose a GPU-parallelized perception-score-guided probabilistic
+              roadmap planner with a neural surrogate model (PS-PRM). The planner explicitly
+              incorporates the estimated quality of a perception task into motion planning for
+              high-DoF robots. Our method uses a learned model to approximate perception scores
+              and leverages GPU parallelism to enable efficient online replanning in dynamic
+              settings. We demonstrate that our planner, evaluated on high-DoF robots,
+              outperforms baseline methods in both static and dynamic environments in both
+              simulation and real-robot experiments.
+            </p>
+          </div>
+          <div id="bib-layl" class="collapsible">
+            <pre class="bibtex-text">@article{meng2025look,
+  title   = {Look as You Leap: Planning Simultaneous Motion and Perception for High-{DoF} Robots},
+  author  = {Meng, Qingxi and Flores, Emiliano and Quintero-Pe{\~n}a, Carlos and Qian, Peizhu
+             and Kingston, Zachary and Hamlin, Shannan K. and Unhelkar, Vaibhav and Kavraki, Lydia E.},
+  journal = {IEEE Transactions on Robotics},
+  note    = {To Appear},
+  year    = {2025}
+}</pre>
+          </div>
+        </div>
+      </div>
+
+      <!-- ASTRID / RSS 2025 -->
+      <div class="pub-entry">
+        <div class="pub-thumb">
+          <img src="rss_teaser.png" alt="ASTRID teaser">
+        </div>
+        <div class="pub-meta">
+          <p class="pub-title">ASTRID: A Robotic Tutor for Nurse Training to Reduce Healthcare-Associated Infections</p>
+          <p class="pub-authors">
+            Peizhu Qian, Filip Bajraktari, Carlos Quintero-Pe&ntilde;a, <strong>Qingxi Meng</strong>,
+            Shannan K. Hamlin, Lydia E. Kavraki, Vaibhav Unhelkar
+          </p>
+          <p class="pub-venue"><em>Robotics: Science and Systems (RSS)</em>, 2025</p>
+          <div class="pub-links">
+            <a class="pub-badge badge-pdf" href="https://www.kavrakilab.org/publications/qian2025-nurse-training.pdf" target="_blank">PDF</a>
+            <button class="toggle-btn" onclick="toggle('abs-astrid')">Abstract</button>
+            <button class="toggle-btn" onclick="toggle('bib-astrid')">BibTeX</button>
+          </div>
+          <div id="abs-astrid" class="collapsible">
+            <p class="abstract-text">
+              This work addresses the challenge of preventing central line-associated bloodstream
+              infections (CLABSI) through robotic tutoring. Developed through extensive engagement
+              with healthcare professionals, ASTRID provides real-time guidance to nursing students
+              during critical procedures. We conducted interviews with nurses and educators, then
+              created an interactive robotic system that delivers feedback and support. Evaluations
+              conducted in simulated clinical environments with nursing professionals demonstrated
+              the potential effectiveness of this robotic instructional approach for healthcare
+              education and infection prevention.
+            </p>
+          </div>
+          <div id="bib-astrid" class="collapsible">
+            <pre class="bibtex-text">@inproceedings{qian2025astrid,
+  title     = {{ASTRID}: A Robotic Tutor for Nurse Training to Reduce Healthcare-Associated Infections},
+  author    = {Qian, Peizhu and Bajraktari, Filip and Quintero-Pe{\~n}a, Carlos and Meng, Qingxi
+               and Hamlin, Shannan K. and Kavraki, Lydia E. and Unhelkar, Vaibhav},
+  booktitle = {Robotics: Science and Systems (RSS)},
+  year      = {2025}
+}</pre>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ── Honors & Awards ────────────────────────── -->
+    <section id="awards">
+      <h2>Honors &amp; Awards</h2>
+      <ul class="award-list">
+        <li>
+          <span class="award-name">Robert M. Janowiak Scholarship</span>
+          <span class="award-meta">University of Illinois Urbana-Champaign, 2020</span>
+        </li>
+        <li>
+          <span class="award-name">TIA Foundation Scholarship</span>
+          <span class="award-meta">University of Illinois Urbana-Champaign, 2020</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ── Teaching ───────────────────────────────── -->
+    <section id="teaching">
+      <h2>Teaching</h2>
+      <ul class="award-list">
+        <li>
+          <span class="award-name">Teaching Assistant &middot; COMP450/550: Algorithmic Robotics</span>
+          <span class="award-meta">Rice University, 2024, 2025</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ── Service ────────────────────────────────── -->
+    <section id="service">
+      <h2>Service</h2>
+
+      <h3>Workshop Organizing</h3>
+      <ul class="review-list">
+        <li>Co-organizer, ISMR 2025 Workshop on Robotics for Nursing, International Symposium on Medical Robotics (ISMR), 2025</li>
+      </ul>
+
+      <h3>Reviewing</h3>
+      <ul class="review-list">
+        <li>IEEE Robotics and Automation Letters (RA-L)</li>
+        <li>IEEE International Conference on Robotics and Automation (ICRA), 2025, 2026</li>
+        <li>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025, 2026</li>
+        <li>Workshop on Motion Planning and Control via Parallelization (Workshop @ RSS), 2025</li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>Last updated: August 2026 &nbsp;&middot;&nbsp; <a href="mailto:qm15@rice.edu">qm15@rice.edu</a></p>
+    </footer>
+  </div>
+
+  <script>
+    function toggle(id) {
+      document.getElementById(id).classList.toggle('open');
+    }
+  </script>
+</body>
+</html>
