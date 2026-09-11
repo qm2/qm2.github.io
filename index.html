@@ -109,7 +109,7 @@
         </div>
       </div>
 
-      <!-- Look as You Leap -->
+      <!-- TRO 2026 -->
       <div class="pub-entry">
         <div class="pub-thumb">
           <img src="TRO_manipulator_small.jpg" alt="Look as You Leap teaser">
@@ -120,44 +120,54 @@
             <strong>Qingxi Meng</strong>, Emiliano Flores, Carlos Quintero-Pe&ntilde;a, Peizhu Qian,
             Zachary Kingston, Shannan K. Hamlin, Vaibhav Unhelkar, and Lydia E. Kavraki
           </p>
-          <p class="pub-venue"><em>IEEE Transactions on Robotics</em>, To Appear</p>
+          <p class="pub-venue"><em>IEEE Transactions on Robotics (T-RO)</em>, 2026</p>
           <div class="pub-links">
+            <a class="pub-badge badge-doi" href="https://doi.org/10.1109/TRO.2026.3731487" target="_blank">IEEE Xplore</a>
+            <a class="pub-badge badge-pdf" href="https://www.kavrakilab.org/publications/meng_psprm_2026.pdf" target="_blank">PDF</a>
             <a class="pub-badge badge-arxiv" href="https://arxiv.org/abs/2509.19610" target="_blank">arXiv 2509.19610</a>
+            <a class="pub-badge badge-web" href="https://www.kavrakilab.org/2026-meng-psprm/" target="_blank">Project Page</a>
             <button class="toggle-btn" onclick="toggle('abs-layl')">Abstract</button>
             <button class="toggle-btn" onclick="toggle('bib-layl')">BibTeX</button>
           </div>
           <div id="abs-layl" class="collapsible">
             <p class="abstract-text">
-              In this work, we address the problem of planning robot motions for a
-              high-degree-of-freedom (DoF) robot that effectively achieves a given perception
-              task while the robot and the perception target move in a dynamic environment.
-              Achieving navigation and perception tasks simultaneously is challenging, as these
-              objectives often impose conflicting requirements. Existing methods that compute
-              motion under perception constraints fail to account for obstacles, are designed
-              for low-DoF robots, or rely on simplified models of perception. Furthermore, in
-              dynamic real-world environments, robots must replan and react quickly to changes
-              and directly evaluating the quality of perception (e.g., object detection
+              Most common tasks for robots in dynamic spaces require that the environment is
+              regularly and actively perceived. The perception task considered in this work can
+              represent a broad range of robot perception objectives, including object detection,
+              human activity recognition, and human face detection. For example, a service robot may
+              need to continuously detect and localize a target object during manipulation, while an
+              assistive robot in a healthcare setting may need to maintain reliable perception of a
+              human face or activity for interaction and safety monitoring. These tasks impose
+              perception constraints on the robot motion. However, solving motion and perception
+              tasks simultaneously is challenging, as these objectives often impose conflicting
+              requirements. Furthermore, while robots must react quickly to changes in the
+              environment, directly evaluating the quality of perception (e.g., object detection
               confidence) is often expensive or infeasible at runtime. This problem is especially
-              important in human-centered environments such as homes and hospitals, where
-              effective perception is essential for safe and reliable operation. To address these
-              challenges, we propose a GPU-parallelized perception-score-guided probabilistic
-              roadmap planner with a neural surrogate model (PS-PRM). The planner explicitly
-              incorporates the estimated quality of a perception task into motion planning for
-              high-DoF robots. Our method uses a learned model to approximate perception scores
-              and leverages GPU parallelism to enable efficient online replanning in dynamic
-              settings. We demonstrate that our planner, evaluated on high-DoF robots,
-              outperforms baseline methods in both static and dynamic environments in both
-              simulation and real-robot experiments.
+              important in human-centered environments, such as homes and hospitals, where effective
+              perception is essential for safe and reliable operation. In this work, we address the
+              challenge of solving motion planning problems for high-degree-of-freedom (DoF) robots
+              from a start to a goal configuration with continuous perception constraints under both
+              static and dynamic environments. Our solution is a GPU-parallelized
+              perception-score-guided probabilistic roadmap planner with a neural surrogate model
+              (PS-PRM). Unlike existing active perception-, visibility-aware or learning-based
+              planners, our work jointly considers perception tasks and constraints when searching
+              for a solution to the motion planning problem. Our method uses a neural surrogate
+              model to approximate perception scores, incorporates them into a roadmap-based
+              solution, and leverages GPU parallelism to enable efficient online replanning in
+              dynamic settings. We demonstrate that our planner, evaluated on high-DoF robots,
+              outperforms RL- and trajectory-optimization-based baseline methods in both static and
+              dynamic environments in both simulation and real-robot experiments.
             </p>
           </div>
           <div id="bib-layl" class="collapsible">
-            <pre class="bibtex-text">@article{meng2025look,
+            <pre class="bibtex-text">@article{meng2026look,
   title   = {Look as You Leap: Planning Simultaneous Motion and Perception for High-{DoF} Robots},
   author  = {Meng, Qingxi and Flores, Emiliano and Quintero-Pe{\~n}a, Carlos and Qian, Peizhu
              and Kingston, Zachary and Hamlin, Shannan K. and Unhelkar, Vaibhav and Kavraki, Lydia E.},
   journal = {IEEE Transactions on Robotics},
-  note    = {To Appear},
-  year    = {2025}
+  year    = {2026},
+  doi     = {10.1109/TRO.2026.3731487},
+  publisher = {IEEE}
 }</pre>
           </div>
         </div>
@@ -251,7 +261,7 @@
     </section>
 
     <footer>
-      <p>Last updated: August 2026 &nbsp;&middot;&nbsp; <a href="mailto:qm15@rice.edu">qm15@rice.edu</a></p>
+      <p>Last updated: September 2026 &nbsp;&middot;&nbsp; <a href="mailto:qm15@rice.edu">qm15@rice.edu</a></p>
     </footer>
   </div>
 
