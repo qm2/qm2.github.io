@@ -1,0 +1,925 @@
+{
+  "updated": "2026-09-20",
+  "museums": {
+    "rijks": [
+      "荷兰国立博物馆",
+      "阿姆斯特丹",
+      "Rijksmuseum"
+    ],
+    "guimet": [
+      "吉美亚洲艺术博物馆",
+      "巴黎",
+      "Musée Guimet"
+    ],
+    "cernuschi": [
+      "赛努奇博物馆",
+      "巴黎",
+      "Musée Cernuschi"
+    ],
+    "met": [
+      "大都会艺术博物馆",
+      "纽约",
+      "The Metropolitan Museum of Art"
+    ],
+    "nelson": [
+      "纳尔逊－阿特金斯艺术博物馆",
+      "堪萨斯城",
+      "The Nelson-Atkins Museum of Art"
+    ],
+    "cleveland": [
+      "克利夫兰艺术博物馆",
+      "克利夫兰",
+      "Cleveland Museum of Art"
+    ],
+    "honolulu": [
+      "檀香山艺术博物馆",
+      "檀香山",
+      "Honolulu Museum of Art"
+    ],
+    "walters": [
+      "沃尔特斯艺术博物馆",
+      "巴尔的摩",
+      "The Walters Art Museum"
+    ],
+    "penn": [
+      "宾夕法尼亚大学考古与人类学博物馆",
+      "费城",
+      "Penn Museum"
+    ],
+    "princeton": [
+      "普林斯顿大学艺术博物馆",
+      "普林斯顿",
+      "Princeton University Art Museum"
+    ],
+    "seattle": [
+      "西雅图艺术博物馆",
+      "西雅图",
+      "Seattle Art Museum / Seattle Asian Art Museum"
+    ],
+    "portland": [
+      "波特兰艺术博物馆",
+      "波特兰",
+      "Portland Art Museum"
+    ],
+    "houston": [
+      "休斯顿美术馆",
+      "休斯顿",
+      "The Museum of Fine Arts, Houston"
+    ],
+    "noma": [
+      "新奥尔良艺术博物馆",
+      "新奥尔良",
+      "New Orleans Museum of Art"
+    ]
+  },
+  "objects": [
+    {
+      "id": "object-215",
+      "photo": "nelson-215.jpg",
+      "source_photo": "Image_20260920173552_215_19.jpg",
+      "label_photos": [
+        "Image_20260920173554_216_19.jpg"
+      ],
+      "museum": "nelson",
+      "title": "南海观音",
+      "original_title": "Guanyin of the Southern Sea",
+      "date": "辽或金",
+      "material": "木，层层彩绘",
+      "material_group": "wood",
+      "group": "seated",
+      "accession": "34-10",
+      "observation": "右臂舒展，左足垂向莲花；岩座与衣裙上的红、绿残彩，使整个坐姿显得格外鲜活。",
+      "story": "馆方来源档案记载，这尊像至迟于1933—1934年由卢芹斋（C. T. Loo）经手，1934年由博物馆购入。档案还引述一则晚年的回忆：席克门早年在北京见到它时，拆开的部件曾散放在积雪的院子里。馆方同时指出，初见时间与商人身份仍有不确定之处。",
+      "url": "https://art.nelson-atkins.org/objects/597/guanyin-of-the-southern-sea",
+      "caveat": "",
+      "width": 1279,
+      "height": 1706
+    },
+    {
+      "id": "object-213",
+      "photo": "met-213.jpg",
+      "source_photo": "Image_20260920173323_213_19.jpg",
+      "label_photos": [
+        "Image_20260920173325_214_19.jpg"
+      ],
+      "museum": "met",
+      "title": "水月观音",
+      "original_title": "Bodhisattva Avalokiteshvara in Water Moon Form (Shuiyue Guanyin)",
+      "date": "辽，11世纪",
+      "material": "柳木，残存彩绘；多木块拼接",
+      "material_group": "wood",
+      "group": "seated",
+      "accession": "28.56",
+      "observation": "横向伸展的手臂和斜垂的衣纹，围绕着稳定的躯干展开；未被彩绘覆盖的木色让结构更容易辨认。",
+      "story": "馆方说明，这件作品以多个木块拼合，使用木榫和铁钉连接。水月形象在这里指向观音的净土补怛洛迦山；展厅里独立陈列的造像，原本属于宗教空间中的一个世界。",
+      "url": "https://www.metmuseum.org/art/collection/search/42731",
+      "caveat": "展签与馆方网页的拼接表述略有差异，此处依馆方现行记录。",
+      "width": 1279,
+      "height": 1706
+    },
+    {
+      "id": "object-226",
+      "photo": "cleveland-226.jpg",
+      "source_photo": "Image_20260920173815_226_19.jpg",
+      "label_photos": [
+        "Image_20260920173813_225_19.jpg"
+      ],
+      "museum": "cleveland",
+      "title": "观音坐像",
+      "original_title": "Seated Guanyin",
+      "date": "12世纪末—13世纪，金",
+      "material": "木，彩绘与贴金",
+      "material_group": "wood",
+      "group": "seated",
+      "accession": "1984.70",
+      "observation": "一膝抬起，另一腿垂下；失去原来的岩座后，身体的偏转与悬空的手臂更加醒目。",
+      "story": "馆方记载，入藏后的修复曾用手术刀和刻划工具逐层清理覆盖物，显露下方的彩绘与贴金。眼前的表面因此也记录着现代修复所作的选择。",
+      "url": "https://www.clevelandart.org/art/1984.70",
+      "caveat": "",
+      "width": 1279,
+      "height": 1706
+    },
+    {
+      "id": "object-195",
+      "photo": "rijks-195.jpg",
+      "source_photo": "Image_20260920172526_195_19.jpg",
+      "label_photos": [
+        "Image_20260920172528_196_19.jpg"
+      ],
+      "museum": "rijks",
+      "title": "观音坐像",
+      "original_title": "Guanyin",
+      "date": "约1100—1200年，中国山西",
+      "material": "柳木与泡桐木，彩绘、贴金",
+      "material_group": "wood",
+      "group": "seated",
+      "accession": "AK-MAK-84",
+      "observation": "宽阔的坐姿与向下放松的手腕形成呼应，膝部和下裙的红色仍然醒目。",
+      "story": "馆方列出的近代流转包括Paul Houo-Ming-Tse、Edgar Worch和Otto H. Kahn。1939年，亚洲艺术之友协会从Kahn遗孀处购入；作品后来借展于荷兰国立博物馆。收藏地点与所有权在这件作品上并不完全重合。",
+      "url": "https://www.rijksmuseum.nl/en/collection/object/Guanyin--f0a89d281d74f34cb0df0f13a22d4e00",
+      "caveat": "",
+      "width": 1706,
+      "height": 1279
+    },
+    {
+      "id": "object-235",
+      "photo": "honolulu-235.jpg",
+      "source_photo": "Image_20260920174013_235_19.jpg",
+      "label_photos": [
+        "Image_20260920174014_236_19.jpg"
+      ],
+      "museum": "honolulu",
+      "title": "观音菩萨坐像",
+      "original_title": "Guanyin Bodhisattva",
+      "date": "11世纪初",
+      "material": "木，残存彩绘",
+      "material_group": "wood",
+      "group": "seated",
+      "accession": "2400",
+      "observation": "手臂平缓展开，足部垂落；正面观看时，衣纹和两腿形成清楚而舒展的轮廓。",
+      "story": "展签记载作品于1927年购入，并将它视为较早的自在坐观音实例。这里沿用展签的世纪断代，不强行归入一个确定王朝。",
+      "url": "",
+      "caveat": "",
+      "width": 1706,
+      "height": 1279
+    },
+    {
+      "id": "object-247",
+      "photo": "princeton-247.jpg",
+      "source_photo": "Image_20260920174221_247_19.jpg",
+      "label_photos": [
+        "Image_20260920174223_248_19.jpg"
+      ],
+      "museum": "princeton",
+      "title": "自在坐观音",
+      "original_title": "Guanyin 觀音 seated in “royal-ease” pose",
+      "date": "约1250年，南宋",
+      "material": "木，白泥底层上残留蓝绿、红与金色及浮雕纹饰",
+      "material_group": "wood",
+      "group": "seated",
+      "accession": "y1950-66",
+      "observation": "衣裙表面的凸起纹样和舒展的坐姿值得分开看：造像的身体与装饰，可能来自不同的修整阶段。",
+      "story": "馆方认为，裙与披帛上的浮雕纹饰可能在明代补加。来源记录依次列出20世纪初的北京、至迟1923年经手的山中商会（Yamanaka & Co.）、纽约商人Mathias Komor，以及1950年的博物馆购藏。",
+      "url": "https://artmuseum.princeton.edu/art/collections/objects/23888",
+      "caveat": "",
+      "width": 1279,
+      "height": 1706
+    },
+    {
+      "id": "object-251",
+      "photo": "seattle-251.jpg",
+      "source_photo": "Image_20260920174513_251_19.jpg",
+      "label_photos": [
+        "Image_20260920174514_252_19.jpg"
+      ],
+      "museum": "seattle",
+      "title": "水月观音",
+      "original_title": "Water-Moon Guanyin",
+      "date": "12—13世纪，辽或金（展签）",
+      "material": "木，漆、底层、彩绘与贴金",
+      "material_group": "wood",
+      "group": "seated",
+      "accession": "35.17",
+      "observation": "高冠、项饰与层叠衣裙围绕身体展开，岩座把自在坐的姿态安置在起伏不平的地形上。",
+      "story": "展签将岩座解释为补怛洛迦山的象征。作品的坐姿、服饰与座具共同构成图像，水月观音并不一定需要在雕像旁实际刻出水面和月亮。",
+      "url": "https://art.seattleartmuseum.org/objects/11035/watermoon-guanyin",
+      "caveat": "馆方线上记录采用更宽的“10世纪至13世纪末”断代；此处保留照片中的展签年代供对照。",
+      "width": 1279,
+      "height": 1706
+    },
+    {
+      "id": "object-255",
+      "photo": "portland-255.jpg",
+      "source_photo": "Image_20260920174519_255_19.jpg",
+      "label_photos": [
+        "Image_20260920174521_256_19.jpg"
+      ],
+      "museum": "portland",
+      "title": "观音菩萨坐像",
+      "original_title": "Avalokitesvara (Guanyin)",
+      "date": "13—14世纪",
+      "material": "木，残存彩绘",
+      "material_group": "wood",
+      "group": "seated",
+      "accession": "38.52",
+      "observation": "一手自然下垂，另一手撑在身侧的岩座上；颈肩处的红彩与身体的木色形成对照。",
+      "story": "展签注明以Ella M. Hirsch基金购藏。尚未核实更早的流转记录，因此这里保留藏品编号作为后续查证的起点。",
+      "url": "",
+      "caveat": "",
+      "width": 1279,
+      "height": 1706
+    },
+    {
+      "id": "object-243",
+      "photo": "penn-243.jpg",
+      "source_photo": "Image_20260920174214_243_19.jpg",
+      "label_photos": [
+        "Image_20260920174215_244_19.jpg"
+      ],
+      "museum": "penn",
+      "title": "观音坐像",
+      "original_title": "Guanyin",
+      "date": "金或元",
+      "material": "木，底层、彩绘与贴金",
+      "material_group": "wood",
+      "group": "seated",
+      "accession": "C408A",
+      "observation": "一腿抬起、一腿垂下；衣裙的漆色与皱褶，让身体显得紧凑而厚重。",
+      "story": "馆方藏品记录注明，这件造像于1924年购自卢芹斋（C. T. Loo）。展签使用简称C408，线上条目则细分为C408A。",
+      "url": "https://www.penn.museum/collections/object/179391",
+      "caveat": "",
+      "width": 1279,
+      "height": 1706
+    },
+    {
+      "id": "object-224",
+      "photo": "nelson-224.jpg",
+      "source_photo": "Image_20260920173614_224_19.jpg",
+      "label_photos": [
+        "Image_20260920173612_223_19.jpg"
+      ],
+      "museum": "nelson",
+      "title": "漆金观音坐像",
+      "original_title": "Figure of Bodhisattva Guanyin",
+      "date": "元或更晚；表层或属18—19世纪",
+      "material": "木芯、泥层与金漆",
+      "material_group": "mixed",
+      "group": "seated",
+      "accession": "35-36",
+      "observation": "掌心撑地，另一臂搭在膝部；宽大的衣袖与平滑的金色表面，使轮廓显得柔和。",
+      "story": "展签说明，这尊像传统上断为元代，但外层有机材料的科学分析指向1700—1900年。内部可能较早，却尚未得到检测。这可能是一件后来重新覆泥、髹漆的旧像，断代仍需保留余地。",
+      "url": "",
+      "caveat": "",
+      "width": 1706,
+      "height": 1279
+    },
+    {
+      "id": "object-241",
+      "photo": "walters-241.jpg",
+      "source_photo": "Image_20260920174023_241_19.jpg",
+      "label_photos": [
+        "Image_20260920174025_242_19.jpg"
+      ],
+      "museum": "walters",
+      "title": "观音菩萨坐像",
+      "original_title": "Bodhisattva Guanyin",
+      "date": "14世纪末—15世纪，明",
+      "material": "填料漆塑、金与彩绘",
+      "material_group": "lacquer",
+      "group": "seated",
+      "accession": "25.256",
+      "observation": "金色面庞与暗红衣裙相映，手指与长袖形成流畅的曲线。",
+      "story": "馆方将材质记为bulked lacquer，即加入填料的漆塑。它与木雕具有相近的外观，却提示我们：相似的坐姿可以通过不同材料塑造。",
+      "url": "https://art.thewalters.org/object/25.256/",
+      "caveat": "",
+      "width": 1279,
+      "height": 1706
+    },
+    {
+      "id": "object-199",
+      "photo": "guimet-199.jpg",
+      "source_photo": "Image_20260920173010_199_19.jpg",
+      "label_photos": [
+        "Image_20260920173011_200_19.jpg"
+      ],
+      "museum": "guimet",
+      "title": "观音菩萨坐像",
+      "original_title": "Le bodhisattva Avalokiteshvara (chinois : Guanyin) assis",
+      "date": "宋或金",
+      "material": "石灰岩，残存彩绘",
+      "material_group": "stone",
+      "group": "seated",
+      "accession": "未辨清",
+      "observation": "倾斜的头部、微抬的左膝和靠近面颊的手，形成与其他自在坐像不同的节奏。",
+      "story": "展签材质写的是石灰岩，并非木。将它留在这里，可以对照不同材料如何处理相近的菩萨坐姿。",
+      "url": "",
+      "caveat": "展签照片较模糊，藏品编号尚未辨清；名称、年代与材质依据可辨文字整理。",
+      "width": 1279,
+      "height": 1706
+    },
+    {
+      "id": "object-197",
+      "photo": "guimet-197.jpg",
+      "source_photo": "Image_20260920173007_197_19.jpg",
+      "label_photos": [
+        "Image_20260920173008_198_19.jpg"
+      ],
+      "museum": "guimet",
+      "title": "八臂观音",
+      "original_title": "八臂观音（展签中文名）",
+      "date": "唐，9世纪末—10世纪初；敦煌",
+      "material": "杨木、象牙、黏土与稻草复合材料，残存彩绘",
+      "material_group": "mixed",
+      "group": "bodhisattva",
+      "accession": "EO 1119",
+      "observation": "多臂向身体两侧展开，持物与头顶的部分构件已经缺失。",
+      "story": "展签记载由伯希和考古队于1906—1909年收购。馆方根据敦煌同类图像推测，它可能原为十一面八臂观音；附加的十个头部应曾固定于头顶的复合材料结构上。这里保留“可能”的判断。",
+      "url": "",
+      "caveat": "",
+      "width": 1279,
+      "height": 1706
+    },
+    {
+      "id": "object-201",
+      "photo": "guimet-201.jpg",
+      "source_photo": "Image_20260920173014_201_19.jpg",
+      "label_photos": [
+        "Image_20260920173017_202_19.jpg"
+      ],
+      "museum": "guimet",
+      "title": "作说法手势的菩萨坐像",
+      "original_title": "Bodhisattva assis, esquissant le geste d’argumentation",
+      "date": "10世纪初，五代或辽；中国北方",
+      "material": "木，残存彩绘",
+      "material_group": "wood",
+      "group": "bodhisattva",
+      "accession": "MA 6995",
+      "observation": "双腿盘坐，双手在胸前作手势；大片脱落的表层与深色木胎并存。",
+      "story": "展签记录其于2002年入藏，得到Crédit Agricole Indosuez支持。馆方名称只写“菩萨”，本页也不把它进一步确定为观音。",
+      "url": "",
+      "caveat": "",
+      "width": 1279,
+      "height": 1706
+    },
+    {
+      "id": "object-203",
+      "photo": "guimet-203.jpg",
+      "source_photo": "Image_20260920173019_203_19.jpg",
+      "label_photos": [
+        "Image_20260920173020_204_19.jpg"
+      ],
+      "museum": "guimet",
+      "title": "观音菩萨立像",
+      "original_title": "Le bodhisattva Avalokiteshvara (chinois : Guanyin)",
+      "date": "10—11世纪，五代或宋；中国北方",
+      "material": "彩绘木雕",
+      "material_group": "wood",
+      "group": "bodhisattva",
+      "accession": "MG 19103",
+      "observation": "修长的身体与近乎垂直的衣裙形成庄严的正面形象，裙部仍留有大片红彩。",
+      "story": "展签注明1939年购入。与自在坐像并看，可以留意身体姿态的变化，而不把两种姿态简单看成先后替代。",
+      "url": "",
+      "caveat": "",
+      "width": 1279,
+      "height": 1706
+    },
+    {
+      "id": "object-209",
+      "photo": "met-209.jpg",
+      "source_photo": "Image_20260920173316_209_19.jpg",
+      "label_photos": [
+        "Image_20260920173318_210_19.jpg"
+      ],
+      "museum": "met",
+      "title": "胁侍菩萨像",
+      "original_title": "Attendant Bodhisattva",
+      "date": "10—11世纪，五代或辽",
+      "material": "柳木，底层与彩绘；单木块雕刻",
+      "material_group": "wood",
+      "group": "bodhisattva",
+      "accession": "28.122.1",
+      "observation": "头冠、肩上发辫和胸前系结仍很清楚；残损后的半身形态，突出躯干的体量。",
+      "story": "展签认为它很可能原属一组大型三尊像，佛居中央，两侧各有胁侍。今天看到的单件残像，原本可能与其他造像形成关系。",
+      "url": "",
+      "caveat": "",
+      "width": 1279,
+      "height": 1706
+    },
+    {
+      "id": "object-217",
+      "photo": "nelson-217.jpg",
+      "source_photo": "Image_20260920173556_217_19.jpg",
+      "label_photos": [
+        "Image_20260920173601_219_19.jpg"
+      ],
+      "museum": "nelson",
+      "title": "菩萨立像",
+      "original_title": "Standing Bodhisattva",
+      "date": "金；中国山西",
+      "material": "木，彩绘与贴金",
+      "material_group": "wood",
+      "group": "bodhisattva",
+      "accession": "51-42",
+      "observation": "衣带沿身体翻转，深刻的衣纹在展厅光线下形成鲜明的明暗。",
+      "story": "展签记载，封闭背腔内发现一份折叠文书，记录此像于1348年修缮、重彩，并列出工匠、施主及“大云寺禅堂”的名称。此处依照片中的展签转述。",
+      "url": "",
+      "caveat": "",
+      "width": 1279,
+      "height": 1706
+    },
+    {
+      "id": "object-218",
+      "photo": "nelson-218.jpg",
+      "source_photo": "Image_20260920173558_218_19.jpg",
+      "label_photos": [
+        "Image_20260920173601_219_19.jpg"
+      ],
+      "museum": "nelson",
+      "title": "观音菩萨头像",
+      "original_title": "Head of Guanyin Bodhisattva",
+      "date": "金，13世纪；中国山西",
+      "material": "木，贴金与彩绘",
+      "material_group": "wood",
+      "group": "bodhisattva",
+      "accession": "62-2",
+      "observation": "近距离可以看见面部的金色表层、眼睑的弧线，以及高冠中端坐的小佛。",
+      "story": "展签以冠中阿弥陀佛的形象作为辨认观音的依据。头像单独保存下来，也让原本位于高处的细节进入平视范围。",
+      "url": "",
+      "caveat": "",
+      "width": 1279,
+      "height": 1706
+    },
+    {
+      "id": "object-220",
+      "photo": "nelson-220.jpg",
+      "source_photo": "Image_20260920173603_220_19.jpg",
+      "label_photos": [
+        "Image_20260920173607_222_19.jpg"
+      ],
+      "museum": "nelson",
+      "title": "观音菩萨立像",
+      "original_title": "Guanyin Bodhisattva",
+      "date": "元",
+      "material": "彩绘木雕",
+      "material_group": "wood",
+      "group": "bodhisattva",
+      "accession": "59-70",
+      "observation": "身体略向一侧转动，胸前系结与肩头垂发加强了这个方向感。",
+      "story": "展签认为，它可能曾站在三尊造像中央主尊的一侧；冠中的小佛是馆方辨认为观音的依据。",
+      "url": "",
+      "caveat": "",
+      "width": 1279,
+      "height": 1706
+    },
+    {
+      "id": "object-227",
+      "photo": "cleveland-227.jpg",
+      "source_photo": "Image_20260920173818_227_19.jpg",
+      "label_photos": [
+        "Image_20260920173820_228_19.jpg"
+      ],
+      "museum": "cleveland",
+      "title": "观音立像",
+      "original_title": "Standing Guanyin",
+      "date": "1271—1368年，元",
+      "material": "木，残存底层、彩绘与贴金",
+      "material_group": "wood",
+      "group": "bodhisattva",
+      "accession": "1980.80",
+      "observation": "双足立于莲座，长裙直垂；高冠与额间装饰把目光引向面部。",
+      "story": "",
+      "url": "https://www.clevelandart.org/art/1980.80",
+      "caveat": "",
+      "width": 1279,
+      "height": 1706
+    },
+    {
+      "id": "object-229",
+      "photo": "cleveland-229.jpg",
+      "source_photo": "Image_20260920173821_229_19.jpg",
+      "label_photos": [
+        "Image_20260920173823_230_19.jpg"
+      ],
+      "museum": "cleveland",
+      "title": "菩萨立像",
+      "original_title": "Standing Bodhisattva",
+      "date": "13世纪，金",
+      "material": "木，残存彩绘与金箔",
+      "material_group": "wood",
+      "group": "bodhisattva",
+      "accession": "1963.581",
+      "observation": "胸前与腰部的装饰层层叠加，双手的缺失让原有手势无法完整复原。",
+      "story": "馆方以“菩萨”命名，未确定具体尊格；因此不与旁边的观音立像合并命名。",
+      "url": "https://www.clevelandart.org/art/1963.581",
+      "caveat": "",
+      "width": 1279,
+      "height": 1706
+    },
+    {
+      "id": "object-233",
+      "photo": "cleveland-233.jpg",
+      "source_photo": "Image_20260920173828_233_19.jpg",
+      "label_photos": [
+        "Image_20260920173829_234_19.jpg"
+      ],
+      "museum": "cleveland",
+      "title": "十一面观音",
+      "original_title": "Eleven-Headed Guanyin",
+      "date": "1100—1200年，北宋晚期至金",
+      "material": "木，彩绘与切金",
+      "material_group": "wood",
+      "group": "bodhisattva",
+      "accession": "1981.53",
+      "observation": "层叠的小头部位于主面之上，长裙的红色与腰间金色装饰依然可见。",
+      "story": "这件作品提供了观音另一种形象：多面强调其宗教身份，与自在坐观音的舒展姿态形成对照。",
+      "url": "https://www.clevelandart.org/art/1981.53",
+      "caveat": "",
+      "width": 1279,
+      "height": 1706
+    },
+    {
+      "id": "object-257",
+      "photo": "seattle-257.jpg",
+      "source_photo": "Image_20260920174522_257_19.jpg",
+      "label_photos": [
+        "Image_20260920174524_258_19.jpg"
+      ],
+      "museum": "seattle",
+      "title": "观音侍童",
+      "original_title": "Attendant to Guanyin",
+      "date": "16—17世纪，明",
+      "material": "木，彩绘与贴金",
+      "material_group": "wood",
+      "group": "bodhisattva",
+      "accession": "48.53",
+      "observation": "小像双手在胸前合拢，表情活泼；衣服上的凸起装饰保留了类似织绣的效果。",
+      "story": "展签称其为“金童”。背部封藏空间中留有小铜镜、藏文纸页和彩色织物，其中部分织物象征身体器官。这使造像内部也成为值得阅读的部分。",
+      "url": "",
+      "caveat": "",
+      "width": 1279,
+      "height": 1706
+    },
+    {
+      "id": "object-238",
+      "photo": "walters-238.jpg",
+      "source_photo": "Image_20260920174018_238_19.jpg",
+      "label_photos": [
+        "Image_20260920174021_240_19.jpg"
+      ],
+      "museum": "walters",
+      "title": "佛坐像",
+      "original_title": "Buddha",
+      "date": "约590年，隋",
+      "material": "木、漆与彩绘",
+      "material_group": "wood",
+      "group": "buddha",
+      "accession": "25.9",
+      "observation": "圆润的面庞、低垂的眼睑与贴体衣纹，呈现与高冠菩萨不同的安静形象。",
+      "story": "馆方记录其由十二块木料拼合，覆五层漆并施彩，可能表现阿弥陀佛。近代来源明确列出纽约山中商会；Henry Walters于1920年购入，1931年遗赠给博物馆。",
+      "url": "https://art.thewalters.org/object/25.9/",
+      "caveat": "",
+      "width": 1279,
+      "height": 1706
+    },
+    {
+      "id": "object-253",
+      "photo": "seattle-253.jpg",
+      "source_photo": "Image_20260920174516_253_19.jpg",
+      "label_photos": [
+        "Image_20260920174517_254_19.jpg"
+      ],
+      "museum": "seattle",
+      "title": "降龙罗汉",
+      "original_title": "Dragon Tamer Luohan",
+      "date": "约14世纪，元",
+      "material": "彩绘木雕",
+      "material_group": "wood",
+      "group": "buddha",
+      "accession": "36.13",
+      "observation": "紧张的目光、微张的嘴与屈坐的身体，使这件罗汉像显得富于动作感。",
+      "story": "展签将其解释为以禅定与神通召来、制伏龙的罗汉形象，并联系祈雨与收成的信仰。与观音的从容并看，表情的差异尤其明显。",
+      "url": "",
+      "caveat": "",
+      "width": 1279,
+      "height": 1706
+    },
+    {
+      "id": "object-245",
+      "photo": "penn-245.jpg",
+      "source_photo": "Image_20260920174217_245_19.jpg",
+      "label_photos": [
+        "Image_20260920174219_246_19.jpg"
+      ],
+      "museum": "penn",
+      "title": "释迦牟尼像",
+      "original_title": "Shakyamuni Buddha",
+      "date": "元，1271—1368年",
+      "material": "干漆",
+      "material_group": "lacquer",
+      "group": "buddha",
+      "accession": "C405A",
+      "observation": "身体前倾，双臂搭在抬起的膝部；脸上的微笑与清瘦的躯干形成对照。",
+      "story": "展签记载，中空像体内曾有五部带插图的木刻佛经，并发现香灰。表面衣褶也保存了制作过程中铺布形成的起伏。",
+      "url": "",
+      "caveat": "",
+      "width": 1279,
+      "height": 1706
+    },
+    {
+      "id": "object-249",
+      "photo": "princeton-249.jpg",
+      "source_photo": "Image_20260920174225_249_19.jpg",
+      "label_photos": [
+        "Image_20260920174227_250_19.jpg"
+      ],
+      "museum": "princeton",
+      "title": "苦行罗汉",
+      "original_title": "Luohan as an ascetic",
+      "date": "元，1271—1368年",
+      "material": "漆、贴金，残存白色与红色颜料",
+      "material_group": "lacquer",
+      "group": "buddha",
+      "accession": "y1972-16",
+      "observation": "双手托脸，肋骨突出，身体紧缩；与同一组照片里舒展的观音坐像构成强烈对照。",
+      "story": "展签将其命名为苦行罗汉。这里保留这一名称，不因为清瘦的外观就直接改称为释迦牟尼苦行像。",
+      "url": "",
+      "caveat": "",
+      "width": 1279,
+      "height": 1706
+    },
+    {
+      "id": "object-211",
+      "photo": "met-211.jpg",
+      "source_photo": "Image_20260920173319_211_19.jpg",
+      "label_photos": [
+        "Image_20260920173321_212_19.jpg"
+      ],
+      "museum": "met",
+      "title": "僧人像（可能为阿难）",
+      "original_title": "Monk, probably Ananda (Anantuo)",
+      "date": "唐，8世纪",
+      "material": "石灰岩，残存彩绘",
+      "material_group": "stone",
+      "group": "buddha",
+      "accession": "52.41",
+      "observation": "双手在胸前捧持物品，僧衣贴合身体；面部没有菩萨的高冠和繁复首饰。",
+      "story": "馆方认为它很可能表现阿难，原本属于包含佛、菩萨与护法的组合。身份仍是推定，标题保留“可能”。",
+      "url": "",
+      "caveat": "",
+      "width": 1279,
+      "height": 1706
+    },
+    {
+      "id": "object-231",
+      "photo": "cleveland-231.jpg",
+      "source_photo": "Image_20260920173824_231_19.jpg",
+      "label_photos": [
+        "Image_20260920173826_232_19.jpg"
+      ],
+      "museum": "cleveland",
+      "title": "干漆菩萨坐像",
+      "original_title": "Bodhisattva",
+      "date": "唐，8世纪",
+      "material": "干漆",
+      "material_group": "lacquer",
+      "group": "material",
+      "accession": "1983.86",
+      "observation": "表面呈深色，局部金饰与裂损清晰可见；小体量仍保留了自然的斜坐姿态。",
+      "story": "馆方说明，干漆像先在泥芯外铺覆浸漆织物，待固化后移除内芯，因此像体中空而轻。修复人员清除了后加的重绘与过度修补，显露下方的深色漆面。",
+      "url": "https://www.clevelandart.org/art/1983.86",
+      "caveat": "",
+      "width": 1279,
+      "height": 1706
+    },
+    {
+      "id": "object-205",
+      "photo": "cernuschi-205.jpg",
+      "source_photo": "Image_20260920173059_205_19.jpg",
+      "label_photos": [
+        "Image_20260920173100_206_19.jpg"
+      ],
+      "museum": "cernuschi",
+      "title": "观音菩萨坐像",
+      "original_title": "Bodhisattva Avalokiteśvara (Guanyin pusa)",
+      "date": "明，16—17世纪",
+      "material": "青铜，髹漆与贴金",
+      "material_group": "bronze",
+      "group": "material",
+      "accession": "M.C. 6274",
+      "observation": "莲座、镂空高冠和衣缘装饰层次分明，青铜表面与木雕残彩具有不同的质感。",
+      "story": "展签明确注明“Loo Ching-Tsai于1921年捐赠”，即卢芹斋。这里记录的是一次捐赠，与其他作品由博物馆向他购买的关系有所不同。",
+      "url": "https://www.parismuseescollections.paris.fr/fr/musee-cernuschi/oeuvres/guanyin-assise",
+      "caveat": "",
+      "width": 1279,
+      "height": 1706
+    },
+    {
+      "id": "object-207",
+      "photo": "cernuschi-207.jpg",
+      "source_photo": "Image_20260920173102_207_19.jpg",
+      "label_photos": [
+        "Image_20260920173103_208_19.jpg"
+      ],
+      "museum": "cernuschi",
+      "title": "观音菩萨立像",
+      "original_title": "Bodhisattva Avalokiteśvara (Guanyin pusa)",
+      "date": "隋，581—618年",
+      "material": "石",
+      "material_group": "stone",
+      "group": "material",
+      "accession": "M.C. 6020",
+      "observation": "两侧衣带与身前璎珞近乎对称，手中的瓶状物仍可辨认。",
+      "story": "展签注明1920年购入。石雕的正面性与装饰节奏，可以作为观看后世木雕的一个参照。",
+      "url": "",
+      "caveat": "",
+      "width": 1279,
+      "height": 1706
+    },
+    {
+      "id": "object-237",
+      "photo": "walters-237.jpg",
+      "source_photo": "Image_20260920174016_237_19.jpg",
+      "label_photos": [
+        "Image_20260920174020_239_19.jpg"
+      ],
+      "museum": "walters",
+      "title": "菩萨立像（可能为观音）",
+      "original_title": "Standing Bodhisattva",
+      "date": "隋，581—618年；中国山西",
+      "material": "石英砂岩，残存彩绘",
+      "material_group": "stone",
+      "group": "material",
+      "accession": "25.4",
+      "observation": "修长、直立的躯干上分布着细密的首饰和衣带；浅色石面与木雕形成鲜明差异。",
+      "story": "展签说明，能确定身份的标志已散失，因此只是推测它为观音。作品由Henry Walters于1931年以前购得。",
+      "url": "https://art.thewalters.org/object/25.4/",
+      "caveat": "",
+      "width": 1279,
+      "height": 1706
+    },
+    {
+      "id": "object-221",
+      "photo": "nelson-221.jpg",
+      "source_photo": "Image_20260920173605_221_19.jpg",
+      "label_photos": [
+        "Image_20260920173607_222_19.jpg"
+      ],
+      "museum": "nelson",
+      "title": "菩萨立像",
+      "original_title": "Bodhisattva",
+      "date": "明，1368—1644年",
+      "material": "青铜，残存贴金",
+      "material_group": "bronze",
+      "group": "material",
+      "accession": "39-26",
+      "observation": "花枝、手势和繁复首饰突出于身体之外；深色铜面使轮廓格外清楚。",
+      "story": "展签指出，持莲花的姿态接近莲花手菩萨，但冠上日月图案也可能指向其他尊格。因此本页沿用“菩萨”的宽泛名称。",
+      "url": "",
+      "caveat": "",
+      "width": 1279,
+      "height": 1706
+    },
+    {
+      "id": "object-259",
+      "photo": "houston-259.jpg",
+      "source_photo": "Image_20260920175346_259_19.jpg",
+      "label_photos": [
+        "Image_20260920175347_260_19.jpg"
+      ],
+      "museum": "houston",
+      "title": "佛首",
+      "original_title": "Buddha Head",
+      "date": "唐，8世纪",
+      "material": "中空夹纻干漆",
+      "material_group": "lacquer",
+      "group": "buddha",
+      "accession": "展签未列编号",
+      "observation": "低垂的双眼与圆润的面颊，保留着大型佛像的庄严感。",
+      "story": "展签记载，这颗佛首以中空干漆制作，眼睛嵌有深色玻璃。原像身体已失，馆方认为它更可能属于一尊坐佛。作品属于 Xuzhou Collection of Buddhist Art，曾在休斯顿美术馆展出。",
+      "url": "https://www.mfah.org/art/exhibitions/buddhanature",
+      "caveat": "这里的博物馆名称指展出地点；作品属于 Xuzhou Collection，并非据此认定为休斯顿美术馆馆藏。",
+      "source_title": "馆方展览资料",
+      "width": 960,
+      "height": 1282
+    },
+    {
+      "id": "object-263",
+      "photo": "noma-263.jpg",
+      "source_photo": "Image_20260920175351_263_19.jpg",
+      "label_photos": [
+        "Image_20260920175353_264_19.jpg"
+      ],
+      "museum": "noma",
+      "title": "观音立像",
+      "original_title": "Guanyin",
+      "date": "金，12世纪；有后世修整",
+      "material": "木、底料与彩绘",
+      "material_group": "wood",
+      "group": "bodhisattva",
+      "accession": "85.209",
+      "observation": "浅色面容与衣间残留的红绿色彩，让断臂后的身姿仍显得鲜明。",
+      "story": "1985年，这尊像由 Jun Tsei Tai 捐赠入馆后，检查人员在像内两个空腔中发现了供养文书与12世纪佛经。尽管外表经过后世改塑，这些藏在内部的文献仍为其金代断代提供了依据。下面的《佛说生天经》，就是随像发现的经卷之一。",
+      "url": "https://shihshansusanhuang.com/wp-content/uploads/2022/09/2014_Susan-Huang_Reassessing-Printed-Buddhist-Frontispieces-from-Xi-Xiacompress.pdf",
+      "caveat": "造像与经卷基本信息据现场展签，图像解释参见下列研究文献第153页、图27–28。文献图录中的经卷编号与展签有异，网页采用展签的85.209.4。经卷作为相关文献展示，不另计入造像数量。",
+      "source_title": "研究文献：黄士珊，2014",
+      "related_photos": [
+        {
+          "photo": "noma-267.jpg",
+          "source_photo": "Image_20260920181034_267_19.jpg",
+          "label_photos": [
+            "Image_20260920181035_268_19.jpg"
+          ],
+          "caption": "《佛说生天经》全貌 · 金，1155年 · 纸本木刻印刷 · 85.209.4",
+          "width": 1706,
+          "height": 1279
+        },
+        {
+          "photo": "noma-269.jpg",
+          "source_photo": "Image_20260920181037_269_19.jpg",
+          "label_photos": [
+            "Image_20260920181035_268_19.jpg"
+          ],
+          "caption": "经卷细节：卷首地藏菩萨图",
+          "width": 1706,
+          "height": 1279
+        },
+        {
+          "photo": "noma-270.jpg",
+          "source_photo": "Image_20260920181038_270_19.jpg",
+          "label_photos": [
+            "Image_20260920181035_268_19.jpg"
+          ],
+          "caption": "经卷细节：供养题记与贞元三年纪年",
+          "width": 1706,
+          "height": 1279
+        }
+      ],
+      "alternate_source_photos": [
+        "Image_20260920175350_262_19.jpg"
+      ],
+      "width": 1279,
+      "height": 1706,
+      "note_sections": [
+        {
+          "title": "藏在观音腹中的《佛说生天经》",
+          "text": "金，贞元三年（1155） · 山西 · 纸本木刻印刷 · 新奥尔良艺术博物馆，85.209.4。卷面题名作“佛說生天經”，英文展签译为 Heaven Ascending Sutra。这里沿用原物的“生天”二字。"
+        },
+        {
+          "title": "一张纸怎样留下一个年代",
+          "text": "全貌照片左端的供养题记留下“贞元三年三月”的纪年。据展签，它是这尊观音像内发现的最早文献。经卷有年款，雕像表面却经历过后世修整，两者放在一起，可以帮助理解作品的不同时间层次。不过，1155年是这份经卷的纪年，不能直接当作木雕的制作年或经卷封入像内的年份。"
+        },
+        {
+          "title": "卷首为何画着地藏",
+          "text": "照片右端是卷首图，旁边直接刻有“地藏菩萨”的题榜；持杖人物、建筑和云气，与中间密集的经文形成鲜明对照。馆方展签将地藏与救济地狱众生的愿行联系起来；黄士珊的研究进一步将图中场景解读为地藏立于地狱牢狱入口。观音像内保存着带地藏图像的经卷，让我们看到同一件造像中可以汇集不同的信仰实践。"
+        },
+        {
+          "title": "从经文读到供养人的愿望",
+          "text": "卷末不只有日期，还能看到长命村刘姓供养人、父母、后世与家眷，以及祈愿安乐的文字；另有出资刻印的记载。这些具体的愿望，让一尊失去原来寺院环境的造像重新与人的生活发生联系。经文本身还反复出现“不食肉”“不杀生”“不邪淫”“不饮酒”等劝诫。这里先呈现照片中能够辨认的线索，完整释文留待进一步校读。"
+        }
+      ]
+    },
+    {
+      "id": "object-265",
+      "photo": "met-265.jpg",
+      "source_photo": "Image_20260920180347_265_19.jpg",
+      "label_photos": [
+        "Image_20260920180349_266_19.jpg"
+      ],
+      "museum": "met",
+      "title": "佛坐像，可能为阿弥陀佛",
+      "original_title": "Buddha, probably Amitabha (Amituofo)",
+      "date": "唐，7世纪初",
+      "material": "中空夹纻干漆，残存彩绘与贴金",
+      "material_group": "lacquer",
+      "group": "buddha",
+      "accession": "19.186",
+      "observation": "宽展的双膝与层叠衣纹形成稳定的轮廓，双手已经缺失。",
+      "story": "馆方依据双臂的位置，推测原来的双手呈禅定姿势，因此将其认作可能的阿弥陀佛。干漆工艺用多层浸漆织物塑成躯体，制作过程中使用的内芯随后移除，留下中空结构。作品于1919年以 Rogers Fund 购入。",
+      "url": "https://www.metmuseum.org/art/collection/search/42163",
+      "caveat": "",
+      "source_title": "馆方藏品记录",
+      "width": 1279,
+      "height": 1706
+    }
+  ]
+}

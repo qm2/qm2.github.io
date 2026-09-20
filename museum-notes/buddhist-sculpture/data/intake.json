@@ -1,0 +1,23 @@
+{
+  "updated": "2026-09-20",
+  "duplicates": [
+    {
+      "source_photo": "Image_20260920175350_262_19.jpg",
+      "same_work_as": "Image_20260920181034_267_19.jpg",
+      "note": "同一经卷另一张全貌照，网页选用267，细节采用269与270。"
+    }
+  ],
+  "pending": [],
+  "excluded": [
+    {
+      "source_photo": "Image_20260920175348_261_19.jpg",
+      "type": "accidental_upload",
+      "label_title": "Buddhist Votive Stele",
+      "date": "北齐，550–577",
+      "material": "砂岩",
+      "accession": "2014.39",
+      "credit": "Gift by exchange from Abby Rae Catledge",
+      "note": "用户确认石碑展签误传；本次原意为上传《佛说生天经》。不再列入待补清单，原文件保留。"
+    }
+  ]
+}

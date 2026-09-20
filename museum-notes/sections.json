@@ -1,0 +1,28 @@
+{
+  "planned": [
+    {
+      "title": "伊斯兰艺术",
+      "description": "器物、装饰与书写。"
+    },
+    {
+      "title": "南亚艺术",
+      "description": "不同地区的造像与视觉传统。"
+    },
+    {
+      "title": "喜马拉雅艺术",
+      "description": "山地之间的形象、工艺与信仰。"
+    },
+    {
+      "title": "中国书画",
+      "description": "笔墨、画面与题跋。"
+    },
+    {
+      "title": "古希腊与罗马艺术",
+      "description": "雕塑、器物与古典世界。"
+    },
+    {
+      "title": "欧洲绘画",
+      "description": "从一幅画走向一位画家。"
+    }
+  ]
+}
