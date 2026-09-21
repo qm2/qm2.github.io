@@ -79,7 +79,7 @@ html=f'''<!doctype html>
 <div class="wrap">{material_nav()}</div>
 {collection_markup(objects)}
 <aside class="editorial-note wrap"><h2>关于这一辑</h2><p>照片均为Merton在博物馆参观时拍摄。藏品名称、年代、材质和编号根据对应展签整理；涉及收藏流转的补充资料附有馆方或研究文献链接。展签与线上记录存在差异时，保留说明。“水月与自在坐”是本页的比较视角，并不意味着组内每件作品都被馆方命名为水月观音。</p><p>作品下的观看提示描述照片中可见的细节；更早的寺院来源、未获证实的商人关系，不作推定。照片中的展厅布置记录的是参观时的状态。</p><p class="source">首辑整理：2026年9月 · 持续补充</p></aside>
-</main><footer class="site-footer wrap"><a href="../../">← 返回个人主页</a><span>Merton · 博物馆札记</span><a href="#top">回到顶部 ↑</a></footer>
+</main><footer class="site-footer wrap"><a href="../">← 返回博物馆首页</a><span>Merton · 博物馆札记</span><a href="#top">回到顶部 ↑</a></footer>
 {lightbox}
 </body></html>'''
 (PAGE/'index.html').write_text(html)
@@ -108,9 +108,9 @@ sections = json.loads((ROOT/'museum-notes'/'sections.json').read_text())
 future = ''.join(f'<li><h3>{e(section["title"])}</h3><p>{e(section["description"])}</p></li>' for section in sections['planned'])
 (ROOT/'museum-notes'/'index.html').write_text(f'''<!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>博物馆札记 | Merton</title><meta name="description" content="Merton的博物馆照片、作品资料与观看札记。从中国佛教艺术开始，逐步走向不同地区、时代与艺术传统。"><link rel="stylesheet" href="museum.css"></head><body>
-<header class="site-header"><a class="signature" href="./">Merton</a><a href="../">个人主页 ↗</a></header>
+<header class="site-header"><a class="signature" href="./">Merton</a><a href="./">博物馆首页</a></header>
 <main class="wrap notebook-index"><p class="eyebrow">MUSEUM NOTES</p><h1>博物馆札记</h1><p class="index-intro">把看过的作品留下来，<br>也为重看时的新发现留一点空白。</p>
 <section aria-labelledby="current-title"><p class="eyebrow">EXPLORE THE COLLECTIONS</p><h2 id="current-title">正在整理</h2><a class="issue-link" href="chinese-buddhist-art/"><img src="buddhist-sculpture/images/nelson-215.jpg" alt="纳尔逊－阿特金斯艺术博物馆的南海观音木雕" width="1279" height="1706"><div><p class="eyebrow">CHINESE BUDDHIST ART</p><h2>中国佛教艺术</h2><p>从宋辽金元的观音木雕开始，串起不同博物馆里的造像与像内经卷。</p><p class="issue-meta">{len(objects)} 件造像 · {len(museums)} 家博物馆<br>木雕 / 干漆与漆塑 / 石雕 / 金属 / 复合材料</p><span class="text-link">进入这个板块 →</span></div></a></section>
 <section class="future-collections" aria-labelledby="future-title"><p class="eyebrow">FURTHER JOURNEYS</p><h2 id="future-title">以后慢慢展开</h2><p class="directory-intro">还有一些旅途中的相遇，等待照片与记忆归位。</p><ul class="future-grid">{future}</ul><p class="directory-intro">也会循着专题回看：健陀罗与马图拉的早期佛像，或卡拉瓦乔的绘画。</p></section>
 <aside class="notebook-about"><h2>资料之外，也留下观看</h2><p>一件作品的年代、材料与流转，可以慢慢查证；个人的观看，也容得下零碎的记忆与后来重看的感受。</p><p>有些印象来自展厅，有些在重看照片时才浮现。能记起多少，就留下多少。</p></aside>
-</main><footer class="site-footer wrap"><a href="../">← 返回个人主页</a><span>摄影 / Merton</span></footer></body></html>''')
+</main><footer class="site-footer wrap"><a href="./">← 返回博物馆首页</a><span>摄影 / Merton</span></footer></body></html>''')
