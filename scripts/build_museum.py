@@ -17,7 +17,7 @@ def render_card(o, i, image_prefix="images/"):
     if o['url']: detail += f'<p class="source"><a href="{e(o["url"])}" target="_blank" rel="noopener noreferrer">{e(o.get("source_title", "馆方藏品记录"))} ↗</a></p>'
     for photo in o.get('related_photos', []):
         detail += f'<figure class="related-photo"><a class="photo-link" href="{image_prefix}{e(photo["photo"])}" data-caption="{e(photo["caption"])}" aria-label="放大照片：{e(photo["caption"])}"><img src="{image_prefix}{e(photo["photo"])}" alt="{e(photo["caption"])}" width="{photo["width"]}" height="{photo["height"]}" loading="lazy"><span class="photo-hint">查看大图 ↗</span></a><figcaption>{e(photo["caption"])}</figcaption></figure>'
-    detail += '<p class="source">基本信息据现场展签整理；照片 © Qingxi Meng。</p>'
+    detail += '<p class="source">基本信息据现场展签整理；照片 © Merton。</p>'
     personal = ''
     for note in o.get('personal_notes', []):
         if not note.get('text', '').strip():
@@ -63,14 +63,14 @@ lightbox = '''<dialog id="lightbox" aria-labelledby="lightbox-caption"><button c
 
 html=f'''<!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>自在之姿 · 佛教造像札记 | Qingxi Meng</title>
-<meta name="description" content="Qingxi Meng在欧美博物馆拍摄的{len(objects)}件中国佛教造像：以宋辽金元木雕与水月观音为线索，记录姿态、材料、修复与收藏历史。">
+<title>自在之姿 · 佛教造像札记 | Merton</title>
+<meta name="description" content="Merton在欧美博物馆拍摄的{len(objects)}件中国佛教造像：以宋辽金元木雕与水月观音为线索，记录姿态、材料、修复与收藏历史。">
 <link rel="stylesheet" href="../museum.css"><script src="../museum.js" defer></script></head>
 <body id="top"><a class="skip-link" href="#collection">跳至藏品</a>
-<header class="site-header"><a class="signature" href="../../">Qingxi Meng</a><nav aria-label="主导航"><a href="../chinese-buddhist-art/">中国佛教艺术</a><a href="#reading">阅读线索</a><a href="#collection">浏览藏品</a></nav></header>
+<header class="site-header"><a class="signature" href="../../">Merton</a><nav aria-label="主导航"><a href="../chinese-buddhist-art/">中国佛教艺术</a><a href="#reading">阅读线索</a><a href="#collection">浏览藏品</a></nav></header>
 <main>
 <nav class="breadcrumbs wrap" aria-label="当前位置"><a href="../">博物馆札记</a><span>/</span><a href="../chinese-buddhist-art/">中国佛教艺术</a><span>/</span><span>自在之姿</span></nav>
-<section class="hero wrap" aria-labelledby="page-title"><div class="hero-copy"><p class="eyebrow">MUSEUM NOTES &nbsp; / &nbsp; 001</p><p class="pretitle">中国佛教艺术 · 造像札记</p><h1 id="page-title">自在之姿</h1><p class="subtitle">从水月观音出发，<br>重看博物馆里的中国佛教造像。</p><p class="intro">把旅途中拍下的造像放在一起，慢慢看清一只手的垂落、一层衣纹的转折，以及木色与残彩之间留下的时间。</p><p class="intro">这一辑以宋辽金元时期的观音木雕为中心，也收录更早与更晚的作品，以及石、铜和漆塑造像。</p><a class="text-link" href="#collection">走近这批造像 <span aria-hidden="true">↓</span></a><div class="edition"><span><b>{len(objects)}</b> 件造像</span><span><b>{len(museums)}</b> 家博物馆</span><span>摄影 / Qingxi Meng</span></div></div>
+<section class="hero wrap" aria-labelledby="page-title"><div class="hero-copy"><p class="eyebrow">MUSEUM NOTES &nbsp; / &nbsp; 001</p><p class="pretitle">中国佛教艺术 · 造像札记</p><h1 id="page-title">自在之姿</h1><p class="subtitle">从水月观音出发，<br>重看博物馆里的中国佛教造像。</p><p class="intro">把旅途中拍下的造像放在一起，慢慢看清一只手的垂落、一层衣纹的转折，以及木色与残彩之间留下的时间。</p><p class="intro">这一辑以宋辽金元时期的观音木雕为中心，也收录更早与更晚的作品，以及石、铜和漆塑造像。</p><a class="text-link" href="#collection">走近这批造像 <span aria-hidden="true">↓</span></a><div class="edition"><span><b>{len(objects)}</b> 件造像</span><span><b>{len(museums)}</b> 家博物馆</span><span>摄影 / Merton</span></div></div>
 <figure class="hero-image"><img src="images/nelson-215.jpg" alt="纳尔逊－阿特金斯艺术博物馆的南海观音，彩绘木雕，一臂搭在抬起的膝上，坐于岩座。" width="1279" height="1706" fetchpriority="high"><figcaption>南海观音 · 辽或金<br><span>纳尔逊－阿特金斯艺术博物馆 / 34-10</span></figcaption></figure></section>
 <section id="reading" class="reading wrap" aria-labelledby="reading-title"><div class="section-heading"><p class="eyebrow">WAYS OF LOOKING</p><h2 id="reading-title">三条阅读线索</h2><p>从姿态到材料，再到一件作品的流转。</p></div>
 <div class="reading-grid"><article><span class="chapter-number">01</span><h3>同样自在，各不相同</h3><p>抬起的膝、舒展的臂、垂落的足，构成这批坐像之间的联系。各馆使用“水月”“南海”或“自在坐”等名称，这里保留各自的命名，一起比较。</p><a href="#object-213">从大都会的水月观音看起 ↗</a></article>
@@ -78,8 +78,8 @@ html=f'''<!doctype html>
 <article><span class="chapter-number">03</span><h3>从寺院走进博物馆</h3><p>有些来源只能追溯到近代市场。卢芹斋经手过纳尔逊馆的南海观音；山中商会则出现在沃尔特斯佛像的记录中。每条线索都落实到具体作品。</p><a href="#object-238">看山中商会经手的佛坐像 ↗</a></article></div></section>
 <div class="wrap">{material_nav()}</div>
 {collection_markup(objects)}
-<aside class="editorial-note wrap"><h2>关于这一辑</h2><p>照片均为Qingxi Meng在博物馆参观时拍摄。藏品名称、年代、材质和编号根据对应展签整理；涉及收藏流转的补充资料附有馆方或研究文献链接。展签与线上记录存在差异时，保留说明。“水月与自在坐”是本页的比较视角，并不意味着组内每件作品都被馆方命名为水月观音。</p><p>作品下的观看提示描述照片中可见的细节；更早的寺院来源、未获证实的商人关系，不作推定。照片中的展厅布置记录的是参观时的状态。</p><p class="source">首辑整理：2026年9月 · 持续补充</p></aside>
-</main><footer class="site-footer wrap"><a href="../../">← 返回个人主页</a><span>Qingxi Meng · 博物馆札记</span><a href="#top">回到顶部 ↑</a></footer>
+<aside class="editorial-note wrap"><h2>关于这一辑</h2><p>照片均为Merton在博物馆参观时拍摄。藏品名称、年代、材质和编号根据对应展签整理；涉及收藏流转的补充资料附有馆方或研究文献链接。展签与线上记录存在差异时，保留说明。“水月与自在坐”是本页的比较视角，并不意味着组内每件作品都被馆方命名为水月观音。</p><p>作品下的观看提示描述照片中可见的细节；更早的寺院来源、未获证实的商人关系，不作推定。照片中的展厅布置记录的是参观时的状态。</p><p class="source">首辑整理：2026年9月 · 持续补充</p></aside>
+</main><footer class="site-footer wrap"><a href="../../">← 返回个人主页</a><span>Merton · 博物馆札记</span><a href="#top">回到顶部 ↑</a></footer>
 {lightbox}
 </body></html>'''
 (PAGE/'index.html').write_text(html)
@@ -87,30 +87,30 @@ category_cards = ''.join(f'<a class="material-entry" href="../{key}/"><span clas
 CHINESE = ROOT/'museum-notes'/'chinese-buddhist-art'
 CHINESE.mkdir(exist_ok=True)
 (CHINESE/'index.html').write_text(f'''<!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>中国佛教艺术 · 博物馆札记 | Qingxi Meng</title><meta name="description" content="Qingxi Meng的博物馆参观照片与藏品札记。按材质浏览中国佛教造像，也循专题比较不同展厅里的作品。"><link rel="stylesheet" href="../museum.css"></head><body>
-<header class="site-header"><a class="signature" href="../../">Qingxi Meng</a><a href="../">博物馆札记 ↗</a></header><main class="wrap notebook-index"><p class="eyebrow">MUSEUM NOTES / CHINESE BUDDHIST ART</p><h1>中国佛教艺术</h1><p class="index-intro">从一尊造像到一卷经，<br>看形象、材料与信仰留下的痕迹。</p>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>中国佛教艺术 · 博物馆札记 | Merton</title><meta name="description" content="Merton的博物馆参观照片与藏品札记。按材质浏览中国佛教造像，也循专题比较不同展厅里的作品。"><link rel="stylesheet" href="../museum.css"></head><body>
+<header class="site-header"><a class="signature" href="../../">Merton</a><a href="../">博物馆札记 ↗</a></header><main class="wrap notebook-index"><p class="eyebrow">MUSEUM NOTES / CHINESE BUDDHIST ART</p><h1>中国佛教艺术</h1><p class="index-intro">从一尊造像到一卷经，<br>看形象、材料与信仰留下的痕迹。</p>
 <section class="material-directory" aria-labelledby="materials-title"><p class="eyebrow">BROWSE BY MATERIAL</p><h2 id="materials-title">从材料开始</h2><p class="directory-intro">先从中国佛教造像整理起。按主要结构与工艺归类，每件作品保留展签上的完整材料说明。</p><div class="material-grid">{category_cards}</div><a class="text-link" href="../buddhist-sculpture/#collection">浏览全部 {len(objects)} 件造像 →</a></section>
-<section class="topic-directory" aria-labelledby="topics-title"><p class="eyebrow">READ BY THEME</p><h2 id="topics-title">循着一个问题看</h2><a class="issue-link" href="../buddhist-sculpture/"><img src="../buddhist-sculpture/images/nelson-215.jpg" alt="彩绘木雕南海观音" width="1279" height="1706"><div><p class="eyebrow">001 / 中国佛教造像</p><h2>自在之姿</h2><p>从水月观音出发，观看木雕、石雕、铜像与漆塑中的姿态、色彩和时间。</p><p class="issue-meta">{len(objects)} 件造像 · {len(museums)} 家博物馆的相遇</p><span class="text-link">阅读这一辑 →</span></div></a><p class="featured-note"><a href="../buddhist-sculpture/#object-263">延伸阅读：藏在观音腹中的《佛说生天经》 →</a></p></section></main><footer class="site-footer wrap"><a href="../">← 返回博物馆札记</a><span>摄影 / Qingxi Meng</span></footer></body></html>''')
+<section class="topic-directory" aria-labelledby="topics-title"><p class="eyebrow">READ BY THEME</p><h2 id="topics-title">循着一个问题看</h2><a class="issue-link" href="../buddhist-sculpture/"><img src="../buddhist-sculpture/images/nelson-215.jpg" alt="彩绘木雕南海观音" width="1279" height="1706"><div><p class="eyebrow">001 / 中国佛教造像</p><h2>自在之姿</h2><p>从水月观音出发，观看木雕、石雕、铜像与漆塑中的姿态、色彩和时间。</p><p class="issue-meta">{len(objects)} 件造像 · {len(museums)} 家博物馆的相遇</p><span class="text-link">阅读这一辑 →</span></div></a><p class="featured-note"><a href="../buddhist-sculpture/#object-263">延伸阅读：藏在观音腹中的《佛说生天经》 →</a></p></section></main><footer class="site-footer wrap"><a href="../">← 返回博物馆札记</a><span>摄影 / Merton</span></footer></body></html>''')
 
 for key,name,description in materials:
     selection = [o for o in objects if o['material_group']==key]
     directory = ROOT/'museum-notes'/key
     directory.mkdir(exist_ok=True)
     directory.joinpath('index.html').write_text(f'''<!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{name} · 博物馆札记 | Qingxi Meng</title><meta name="description" content="{e(description)} Qingxi Meng拍摄的{len(selection)}件佛教造像。"><link rel="stylesheet" href="../museum.css"><script src="../museum.js" defer></script></head>
-<body id="top"><a class="skip-link" href="#collection">跳至藏品</a><header class="site-header"><a class="signature" href="../../">Qingxi Meng</a><nav aria-label="主导航"><a href="../chinese-buddhist-art/">中国佛教艺术</a><a href="../buddhist-sculpture/">自在之姿专题</a></nav></header>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{name} · 博物馆札记 | Merton</title><meta name="description" content="{e(description)} Merton拍摄的{len(selection)}件佛教造像。"><link rel="stylesheet" href="../museum.css"><script src="../museum.js" defer></script></head>
+<body id="top"><a class="skip-link" href="#collection">跳至藏品</a><header class="site-header"><a class="signature" href="../../">Merton</a><nav aria-label="主导航"><a href="../chinese-buddhist-art/">中国佛教艺术</a><a href="../buddhist-sculpture/">自在之姿专题</a></nav></header>
 <main><nav class="breadcrumbs wrap" aria-label="当前位置"><a href="../">博物馆札记</a><span>/</span><a href="../chinese-buddhist-art/">中国佛教艺术</a><span>/</span><span>{name}</span></nav><section class="category-header wrap"><p class="eyebrow">MUSEUM NOTES / MATERIAL</p><h1>{name}</h1><p class="index-intro">{description}</p><p class="category-count">{len(selection)} 件造像 · 持续补充</p>{material_nav(active=key)}</section>
 {collection_markup(selection, '../buddhist-sculpture/images/')}
-<aside class="editorial-note wrap"><h2>材料与归类</h2><p>彩绘、贴金与髹漆属于表面处理时，作品仍按主要结构归类。夹纻干漆与其他漆塑单列；多种材料共同成形的作品另列“复合材料”。具体工艺以每件作品的展签和札记为准。</p><p>同一件作品也可以出现在专题中。馆名记录参观地点，借展作品另注所属收藏。</p></aside></main><footer class="site-footer wrap"><a href="../chinese-buddhist-art/">← 返回中国佛教艺术</a><span>摄影 / Qingxi Meng</span><a href="#top">回到顶部 ↑</a></footer>{lightbox}</body></html>''')
+<aside class="editorial-note wrap"><h2>材料与归类</h2><p>彩绘、贴金与髹漆属于表面处理时，作品仍按主要结构归类。夹纻干漆与其他漆塑单列；多种材料共同成形的作品另列“复合材料”。具体工艺以每件作品的展签和札记为准。</p><p>同一件作品也可以出现在专题中。馆名记录参观地点，借展作品另注所属收藏。</p></aside></main><footer class="site-footer wrap"><a href="../chinese-buddhist-art/">← 返回中国佛教艺术</a><span>摄影 / Merton</span><a href="#top">回到顶部 ↑</a></footer>{lightbox}</body></html>''')
 print(f'Generated notebook, collection ({len(objects)} objects), and {len(materials)} material pages.')
 
 sections = json.loads((ROOT/'museum-notes'/'sections.json').read_text())
 future = ''.join(f'<li><h3>{e(section["title"])}</h3><p>{e(section["description"])}</p></li>' for section in sections['planned'])
 (ROOT/'museum-notes'/'index.html').write_text(f'''<!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>博物馆札记 | Qingxi Meng</title><meta name="description" content="Qingxi Meng的博物馆照片、作品资料与观看札记。从中国佛教艺术开始，逐步走向不同地区、时代与艺术传统。"><link rel="stylesheet" href="museum.css"></head><body>
-<header class="site-header"><a class="signature" href="../">Qingxi Meng</a><a href="../">个人主页 ↗</a></header>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>博物馆札记 | Merton</title><meta name="description" content="Merton的博物馆照片、作品资料与观看札记。从中国佛教艺术开始，逐步走向不同地区、时代与艺术传统。"><link rel="stylesheet" href="museum.css"></head><body>
+<header class="site-header"><a class="signature" href="../">Merton</a><a href="../">个人主页 ↗</a></header>
 <main class="wrap notebook-index"><p class="eyebrow">MUSEUM NOTES</p><h1>博物馆札记</h1><p class="index-intro">把看过的作品留下来，<br>也为重看时的新发现留一点空白。</p>
 <section aria-labelledby="current-title"><p class="eyebrow">EXPLORE THE COLLECTIONS</p><h2 id="current-title">正在整理</h2><a class="issue-link" href="chinese-buddhist-art/"><img src="buddhist-sculpture/images/nelson-215.jpg" alt="纳尔逊－阿特金斯艺术博物馆的南海观音木雕" width="1279" height="1706"><div><p class="eyebrow">CHINESE BUDDHIST ART</p><h2>中国佛教艺术</h2><p>从宋辽金元的观音木雕开始，串起不同博物馆里的造像与像内经卷。</p><p class="issue-meta">{len(objects)} 件造像 · {len(museums)} 家博物馆<br>木雕 / 干漆与漆塑 / 石雕 / 金属 / 复合材料</p><span class="text-link">进入这个板块 →</span></div></a></section>
 <section class="future-collections" aria-labelledby="future-title"><p class="eyebrow">FURTHER JOURNEYS</p><h2 id="future-title">以后慢慢展开</h2><p class="directory-intro">还有一些旅途中的相遇，等待照片与记忆归位。</p><ul class="future-grid">{future}</ul><p class="directory-intro">也会循着专题回看：健陀罗与马图拉的早期佛像，或卡拉瓦乔的绘画。</p></section>
 <aside class="notebook-about"><h2>资料之外，也留下观看</h2><p>一件作品的年代、材料与流转，可以慢慢查证；个人的观看，也容得下零碎的记忆与后来重看的感受。</p><p>有些印象来自展厅，有些在重看照片时才浮现。能记起多少，就留下多少。</p></aside>
-</main><footer class="site-footer wrap"><a href="../">← 返回个人主页</a><span>摄影 / Qingxi Meng</span></footer></body></html>''')
+</main><footer class="site-footer wrap"><a href="../">← 返回个人主页</a><span>摄影 / Merton</span></footer></body></html>''')

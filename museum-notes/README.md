@@ -78,3 +78,5 @@ Objects may optionally contain a `personal_notes` list. Each item requires `kind
 User preference: keep Chinese prose conversational and close to the user's own wording. Avoid generic lyrical introductions, formulaic conclusions and inflated descriptions. Personal impressions must come from the user; preserve short, incomplete memories without filling in invented experiences. Factual notes remain precise and sourced.
 
 As of this first publication, the 39 JPEGs total 9,676,342 bytes; all website files total approximately 12.1 MB. Keep original archives and future full-resolution camera files outside this repository. Prefer web-sized copies for new uploads; avoid repeatedly replacing large binaries, since Git keeps their history. Review image hosting/compression as the site grows into hundreds of MB. GitHub Pages currently limits published sites to 1 GB: https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits .
+
+Museum pages use the public name Merton in headings, metadata, photography credits and copyright notices. The academic homepage keeps its existing name.
