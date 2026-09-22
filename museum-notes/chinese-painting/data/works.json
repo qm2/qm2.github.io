@@ -1,0 +1,1015 @@
+{
+  "updated": "2026-09-21",
+  "museum": "纳尔逊－阿特金斯艺术博物馆",
+  "exhibition": {
+    "title": "Legendary Landscapes: Sublime Visions from China’s Song Dynasty",
+    "url": "https://www.nelson-atkins.org/art/exhibitions/legendary-landscapes-sublime-visions-from-chinas-song-dynasty/",
+    "start": "2026-03-21",
+    "end": "2026-09-27"
+  },
+  "periods": [
+    [
+      "five",
+      "五代",
+      "传世作品的归属与断代，保留展签中的不确定性。"
+    ],
+    [
+      "northern",
+      "北宋",
+      "山川、寺院、渔舟，也有苏轼的赤壁之游。"
+    ],
+    [
+      "jin",
+      "金",
+      "与南宋并行的北方绘画。"
+    ],
+    [
+      "southern",
+      "南宋",
+      "长卷、立轴和册页中的不同山水。"
+    ],
+    [
+      "yuan",
+      "元",
+      "从宋画接着往下看。"
+    ]
+  ],
+  "works": [
+    {
+      "id": "jing-hao-snow",
+      "title": "雪山行旅",
+      "artist": "传 荆浩",
+      "period": "five",
+      "date": "五代至宋（据现场展签）",
+      "medium": "绢本水墨设色，立轴裱于板上",
+      "form": "立轴",
+      "accession": "40-15",
+      "label_photo": "Image_20260921225256_295_19.jpg",
+      "cover": 294,
+      "sequence": [
+        {
+          "number": 294,
+          "caption": "作品与装裱全貌",
+          "photo": "nelson-294.jpg",
+          "source_photo": "Image_20260921225256_294_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0
+        }
+      ],
+      "extras": [],
+      "notes": [
+        "山路、松树和瀑布挤在层叠的雪山之间。先找出山脚的行人，再沿着小路往上看。",
+        "展签提到画上有荆浩别号“洪谷子”的题记，但作品经过较多修复，细节与制作年代都不容易判断。"
+      ],
+      "caveat": "展签中文列“五代（传）荆浩”，英文将作品年代放在五代至宋；线上记录列五代。这里在“五代”下收录，同时保留宽断代和“传”的归属。",
+      "url": "https://art.nelson-atkins.org/objects/20840/",
+      "featured": false
+    },
+    {
+      "id": "li-cheng-temple",
+      "title": "晴峦萧寺图",
+      "artist": "传 李成",
+      "period": "northern",
+      "date": "北宋",
+      "medium": "绢本水墨淡设色",
+      "form": "立轴",
+      "accession": "47-71",
+      "label_photo": "Image_20260921225256_312_19.jpg",
+      "cover": 310,
+      "sequence": [
+        {
+          "number": 310,
+          "caption": "画心全貌：山峰、寺院与山路",
+          "photo": "nelson-310.jpg",
+          "source_photo": "Image_20260921225256_310_19.jpg",
+          "width": 960,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 311,
+          "caption": "立轴装裱全貌",
+          "photo": "nelson-311.jpg",
+          "source_photo": "Image_20260921225256_311_19.jpg",
+          "width": 960,
+          "height": 1280,
+          "rotation": 0
+        }
+      ],
+      "extras": [],
+      "notes": [
+        "从左下角的行人往里看，山路把视线引向寺院，再往上是密集的峰峦。建筑很小，但层层屋顶和塔身都画得很清楚。",
+        "馆方来源记录列有梁清标旧藏；1947年，博物馆从东京的 Michelangelo Piacentini 处购入。"
+      ],
+      "caveat": "作者沿用展签及馆方记录的“传李成”，不将归属视为定论。",
+      "url": "https://art.nelson-atkins.org/objects/641/",
+      "featured": true
+    },
+    {
+      "id": "xu-daoning-fishermen",
+      "title": "渔父图卷",
+      "artist": "许道宁",
+      "period": "northern",
+      "date": "约1039—1052年",
+      "medium": "绢本水墨淡设色",
+      "form": "手卷",
+      "accession": "33-1559",
+      "label_photo": "Image_20260921225256_363_19.jpg",
+      "cover": 359,
+      "sequence": [
+        {
+          "number": 359,
+          "caption": "展柜中的画卷全貌",
+          "photo": "nelson-359.jpg",
+          "source_photo": "Image_20260921225256_359_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 360,
+          "caption": "局部：几条渔舟与舟上人物",
+          "photo": "nelson-360.jpg",
+          "source_photo": "Image_20260921225256_360_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 361,
+          "caption": "局部：水面上的渔舟",
+          "photo": "nelson-361.jpg",
+          "source_photo": "Image_20260921225256_361_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 362,
+          "caption": "局部：驴与渡船",
+          "photo": "nelson-362.jpg",
+          "source_photo": "Image_20260921225256_362_19.jpg",
+          "width": 1280,
+          "height": 960,
+          "rotation": 0
+        }
+      ],
+      "extras": [],
+      "notes": [
+        "先看全卷中陡直的山峰，再放大江面的几条船。人物只有很小几笔，却各有动作。",
+        "展签把舟上的相聚、渔获和赶驴上船的旅人联系起来读。山水中这些日常活动，是观看这卷画的一条具体线索。"
+      ],
+      "caveat": "全貌照用于看构图，其后三张是不同位置的人物特写，不是覆盖全卷的连续分段。",
+      "url": "https://art.nelson-atkins.org/objects/12243/",
+      "featured": true
+    },
+    {
+      "id": "winter-mountains",
+      "title": "雪山图",
+      "artist": "佚名",
+      "period": "northern",
+      "date": "11世纪末至12世纪初",
+      "medium": "绢本水墨，象牙轴头",
+      "form": "立轴",
+      "accession": "79-9",
+      "label_photo": "Image_20260921225256_358_19.jpg",
+      "cover": 357,
+      "sequence": [
+        {
+          "number": 357,
+          "caption": "立轴全貌",
+          "photo": "nelson-357.jpg",
+          "source_photo": "Image_20260921225256_357_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0
+        }
+      ],
+      "extras": [],
+      "notes": [
+        "绢色已经变深，雪地和山谷仍能从较亮的部分辨认出来。山间藏着建筑，桥上和路上还有行人与驴。",
+        "展签记载，作品由 John M. Crawford Jr. 捐赠，以纪念 Laurence Sickman。"
+      ],
+      "caveat": "",
+      "url": "https://art.nelson-atkins.org/objects/25750/",
+      "featured": false
+    },
+    {
+      "id": "qiao-zhongchang-red-cliff",
+      "title": "后赤壁赋图",
+      "artist": "乔仲常",
+      "period": "northern",
+      "date": "北宋；作者活跃于11世纪末至12世纪初",
+      "medium": "纸本水墨",
+      "form": "手卷",
+      "accession": "F80-5",
+      "label_photo": "Image_20260921225256_293_19.jpg",
+      "cover": 280,
+      "sequence": [
+        {
+          "number": 273,
+          "caption": "卷首：苏轼与客同行",
+          "photo": "nelson-273.jpg",
+          "source_photo": "Image_20260921225256_273_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": -90
+        },
+        {
+          "number": 274,
+          "caption": "行人经过的岸边",
+          "photo": "nelson-274.jpg",
+          "source_photo": "Image_20260921225256_274_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": -90
+        },
+        {
+          "number": 275,
+          "caption": "柳树与小桥",
+          "photo": "nelson-275.jpg",
+          "source_photo": "Image_20260921225256_275_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": -90
+        },
+        {
+          "number": 276,
+          "caption": "通向屋舍的路",
+          "photo": "nelson-276.jpg",
+          "source_photo": "Image_20260921225256_276_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": -90
+        },
+        {
+          "number": 277,
+          "caption": "回家取酒",
+          "photo": "nelson-277.jpg",
+          "source_photo": "Image_20260921225256_277_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": -90
+        },
+        {
+          "number": 278,
+          "caption": "屋舍后的山石",
+          "photo": "nelson-278.jpg",
+          "source_photo": "Image_20260921225256_278_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": -90
+        },
+        {
+          "number": 279,
+          "caption": "临江岩壁",
+          "photo": "nelson-279.jpg",
+          "source_photo": "Image_20260921225256_279_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": -90
+        },
+        {
+          "number": 280,
+          "caption": "再游赤壁：舟与人物",
+          "photo": "nelson-280.jpg",
+          "source_photo": "Image_20260921225256_280_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": -90
+        },
+        {
+          "number": 281,
+          "caption": "登山处的岩石与树木",
+          "photo": "nelson-281.jpg",
+          "source_photo": "Image_20260921225256_281_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": -90
+        },
+        {
+          "number": 282,
+          "caption": "山中树林（照片有展柜支架遮挡）",
+          "photo": "nelson-282.jpg",
+          "source_photo": "Image_20260921225256_282_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": -90
+        },
+        {
+          "number": 283,
+          "caption": "崖壁与赋文",
+          "photo": "nelson-283.jpg",
+          "source_photo": "Image_20260921225256_283_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 284,
+          "caption": "江岸与突出的岩石",
+          "photo": "nelson-284.jpg",
+          "source_photo": "Image_20260921225256_284_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 285,
+          "caption": "孤鹤与江上小舟",
+          "photo": "nelson-285.jpg",
+          "source_photo": "Image_20260921225256_285_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 287,
+          "caption": "泛舟段及相邻赋文",
+          "photo": "nelson-287.jpg",
+          "source_photo": "Image_20260921225256_287_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 288,
+          "caption": "归来后的屋舍与文字",
+          "photo": "nelson-288.jpg",
+          "source_photo": "Image_20260921225256_288_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 289,
+          "caption": "画面左端：屋舍与树木",
+          "photo": "nelson-289.jpg",
+          "source_photo": "Image_20260921225256_289_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        }
+      ],
+      "extras": [
+        {
+          "number": 365,
+          "caption": "展柜中的全卷与卷后题跋",
+          "photo": "nelson-365.jpg",
+          "source_photo": "Image_20260921225256_365_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 290,
+          "caption": "卷后题跋",
+          "photo": "nelson-290.jpg",
+          "source_photo": "Image_20260921225256_290_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        }
+      ],
+      "notes": [
+        "把画中的人物与旁边的赋文对着看，可以跟着苏轼走过取酒、重游赤壁、登山、泛舟和归来的过程。长卷里的人物会反复出现。",
+        "不同于李嵩《赤壁图》集中呈现一处场景，这卷把故事逐段展开。线条既画人物，也画树石，疏密和转折值得放大看。"
+      ],
+      "caveat": "分段按画卷从右至左排列；相邻照片有重叠。横置拍摄的照片仅在网页中转正显示，原文件未改动。树林段保留了现场支架的遮挡。",
+      "url": "https://art.nelson-atkins.org/objects/14981/",
+      "featured": true
+    },
+    {
+      "id": "taigu-yimin-traveling",
+      "title": "江山行旅",
+      "artist": "太古遗民",
+      "period": "jin",
+      "date": "13世纪前期至中期",
+      "medium": "纸本水墨",
+      "form": "手卷",
+      "accession": "F74-35",
+      "label_photo": "Image_20260921225256_325_19.jpg",
+      "cover": 318,
+      "sequence": [
+        {
+          "number": 313,
+          "caption": "卷首题字与收藏印",
+          "photo": "nelson-313.jpg",
+          "source_photo": "Image_20260921225256_313_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 314,
+          "caption": "卷首的树石与山路",
+          "photo": "nelson-314.jpg",
+          "source_photo": "Image_20260921225256_314_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 315,
+          "caption": "高峰与山间建筑",
+          "photo": "nelson-315.jpg",
+          "source_photo": "Image_20260921225256_315_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 316,
+          "caption": "相连的峰峦",
+          "photo": "nelson-316.jpg",
+          "source_photo": "Image_20260921225256_316_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 317,
+          "caption": "山谷中的道路",
+          "photo": "nelson-317.jpg",
+          "source_photo": "Image_20260921225256_317_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 318,
+          "caption": "河流、村落与桥梁",
+          "photo": "nelson-318.jpg",
+          "source_photo": "Image_20260921225256_318_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 319,
+          "caption": "近岸的山石",
+          "photo": "nelson-319.jpg",
+          "source_photo": "Image_20260921225256_319_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 320,
+          "caption": "隔水远山与近景",
+          "photo": "nelson-320.jpg",
+          "source_photo": "Image_20260921225256_320_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 321,
+          "caption": "开阔水面与村舍",
+          "photo": "nelson-321.jpg",
+          "source_photo": "Image_20260921225256_321_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 322,
+          "caption": "画卷左部的山峰与收藏印",
+          "photo": "nelson-322.jpg",
+          "source_photo": "Image_20260921225256_322_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 323,
+          "caption": "峰下细节",
+          "photo": "nelson-323.jpg",
+          "source_photo": "Image_20260921225256_323_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 324,
+          "caption": "画面左端与装裱边界",
+          "photo": "nelson-324.jpg",
+          "source_photo": "Image_20260921225256_324_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        }
+      ],
+      "extras": [
+        {
+          "number": 367,
+          "caption": "展柜中的画卷全貌",
+          "photo": "nelson-367.jpg",
+          "source_photo": "Image_20260921225256_367_19.jpg",
+          "width": 1280,
+          "height": 960,
+          "rotation": 0
+        }
+      ],
+      "notes": [
+        "可以沿着桥和路看这卷画：行旅的人、驴队、村舍与田地散布在山水中。展签特别指出，画里出现了五种桥。",
+        "“太古遗民”是署名，并非已知的真实姓名。馆方把这一称呼解释为对过去的追怀。",
+        "馆方来源记录列有卞永誉、清宫和陈仁涛旧藏；1974年由陈氏家族售予博物馆。"
+      ],
+      "caveat": "按展签归入金代；金与南宋在时间上并存，这里的分类不是把金排在南宋之前作为先后朝代。",
+      "url": "https://art.nelson-atkins.org/objects/25447/",
+      "featured": true
+    },
+    {
+      "id": "jiang-shen-verdant",
+      "title": "林峦积翠图",
+      "artist": "江参",
+      "period": "southern",
+      "date": "南宋",
+      "medium": "绢本水墨淡设色（据展签）",
+      "form": "手卷",
+      "accession": "53-49",
+      "label_photo": "Image_20260921225256_304_19.jpg",
+      "cover": 300,
+      "sequence": [
+        {
+          "number": 296,
+          "caption": "卷首：林间屋舍",
+          "photo": "nelson-296.jpg",
+          "source_photo": "Image_20260921225256_296_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 297,
+          "caption": "树林与上方题字",
+          "photo": "nelson-297.jpg",
+          "source_photo": "Image_20260921225256_297_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 298,
+          "caption": "开阔的河面",
+          "photo": "nelson-298.jpg",
+          "source_photo": "Image_20260921225256_298_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 299,
+          "caption": "山脚的树林",
+          "photo": "nelson-299.jpg",
+          "source_photo": "Image_20260921225256_299_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 300,
+          "caption": "层叠的山峰",
+          "photo": "nelson-300.jpg",
+          "source_photo": "Image_20260921225256_300_19.jpg",
+          "width": 1280,
+          "height": 960,
+          "rotation": 0
+        },
+        {
+          "number": 301,
+          "caption": "两山之间的水道与桥",
+          "photo": "nelson-301.jpg",
+          "source_photo": "Image_20260921225256_301_19.jpg",
+          "width": 1366,
+          "height": 1024,
+          "rotation": 0
+        },
+        {
+          "number": 302,
+          "caption": "左部山峰与塔",
+          "photo": "nelson-302.jpg",
+          "source_photo": "Image_20260921225256_302_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 303,
+          "caption": "画面左端",
+          "photo": "nelson-303.jpg",
+          "source_photo": "Image_20260921225256_303_19.jpg",
+          "width": 1280,
+          "height": 960,
+          "rotation": 0
+        }
+      ],
+      "extras": [
+        {
+          "number": 366,
+          "caption": "展柜中的画卷全貌",
+          "photo": "nelson-366.jpg",
+          "source_photo": "Image_20260921225256_366_19.jpg",
+          "width": 1280,
+          "height": 960,
+          "rotation": 0
+        }
+      ],
+      "notes": [
+        "卷首的树林里藏着屋舍，之后河流、桥梁和山路把一段段山景接起来。到画卷左部，可以找到山顶的塔。",
+        "画家生年约1090年、卒于1138年；这里按展签给作品标注的南宋归类，不用画家的生年替代作品年代。"
+      ],
+      "caveat": "现场展签注明水墨淡设色；馆方线上材料栏简写为绢本水墨。",
+      "url": "https://art.nelson-atkins.org/objects/17247/",
+      "featured": true
+    },
+    {
+      "id": "gazing-waterfall",
+      "title": "观瀑图",
+      "artist": "佚名",
+      "period": "southern",
+      "date": "12世纪中期",
+      "medium": "绢本水墨设色",
+      "form": "册页",
+      "accession": "2007.7",
+      "label_photo": "Image_20260921225256_340_19.jpg",
+      "cover": 339,
+      "sequence": [
+        {
+          "number": 339,
+          "caption": "册页全貌",
+          "photo": "nelson-339.jpg",
+          "source_photo": "Image_20260921225256_339_19.jpg",
+          "width": 960,
+          "height": 1280,
+          "rotation": 0
+        }
+      ],
+      "extras": [],
+      "notes": [
+        "崖壁占据右侧，亭中有人看瀑布，左下还有过桥的樵夫。小幅画里，两个人物给出了不同的观看位置。",
+        "展签注明由 Robert H. Ellsworth 捐赠。馆方来源记录将捐赠时间列为1970年，不能把藏品编号中的2007直接当作入藏年。"
+      ],
+      "caveat": "",
+      "url": "https://art.nelson-atkins.org/objects/29084/",
+      "featured": false
+    },
+    {
+      "id": "li-song-red-cliff",
+      "title": "赤壁图",
+      "artist": "李嵩",
+      "period": "southern",
+      "date": "南宋；作者生卒年据展签为1190—1230年",
+      "medium": "绢本设色，册页改装立轴",
+      "form": "册页",
+      "accession": "49-79",
+      "label_photo": "Image_20260921225256_309_19.jpg",
+      "cover": 308,
+      "sequence": [
+        {
+          "number": 308,
+          "caption": "画心全貌：赤壁、江面与小舟",
+          "photo": "nelson-308.jpg",
+          "source_photo": "Image_20260921225256_308_19.jpg",
+          "width": 1024,
+          "height": 1366,
+          "rotation": 0
+        },
+        {
+          "number": 307,
+          "caption": "改装为立轴后的装裱全貌",
+          "photo": "nelson-307.jpg",
+          "source_photo": "Image_20260921225256_307_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0
+        }
+      ],
+      "extras": [],
+      "notes": [
+        "圆形画面里，峭壁与水面占了很大部分，小舟就在翻涌的江水之间。可以和乔仲常《后赤壁赋图》对看：同是赤壁题材，一幅集中在眼前的场景，一幅展开为长卷。"
+      ],
+      "caveat": "",
+      "url": "https://art.nelson-atkins.org/objects/5220/",
+      "featured": false
+    },
+    {
+      "id": "ma-yuan-spring",
+      "title": "春游赋诗图",
+      "artist": "传 马远",
+      "period": "southern",
+      "date": "南宋；马远活跃于1189—1225年",
+      "medium": "绢本水墨设色",
+      "form": "手卷",
+      "accession": "63-19",
+      "label_photo": "Image_20260921225256_336_19.jpg",
+      "cover": 332,
+      "sequence": [
+        {
+          "number": 326,
+          "caption": "卷首：运送物品的人与牲畜",
+          "photo": "nelson-326.jpg",
+          "source_photo": "Image_20260921225256_326_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 327,
+          "caption": "江岸与渡桥",
+          "photo": "nelson-327.jpg",
+          "source_photo": "Image_20260921225256_327_19.jpg",
+          "width": 1280,
+          "height": 960,
+          "rotation": 0
+        },
+        {
+          "number": 328,
+          "caption": "桥边竹林",
+          "photo": "nelson-328.jpg",
+          "source_photo": "Image_20260921225256_328_19.jpg",
+          "width": 1280,
+          "height": 960,
+          "rotation": 0
+        },
+        {
+          "number": 329,
+          "caption": "竹石之间",
+          "photo": "nelson-329.jpg",
+          "source_photo": "Image_20260921225256_329_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 330,
+          "caption": "亭榭与栏杆",
+          "photo": "nelson-330.jpg",
+          "source_photo": "Image_20260921225256_330_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 331,
+          "caption": "园中的树石和建筑",
+          "photo": "nelson-331.jpg",
+          "source_photo": "Image_20260921225256_331_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 332,
+          "caption": "聚会赋诗的人物",
+          "photo": "nelson-332.jpg",
+          "source_photo": "Image_20260921225256_332_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 333,
+          "caption": "园中散步的人",
+          "photo": "nelson-333.jpg",
+          "source_photo": "Image_20260921225256_333_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 335,
+          "caption": "画面左端的岩石与树林",
+          "photo": "nelson-335.jpg",
+          "source_photo": "Image_20260921225256_335_19.jpg",
+          "width": 1366,
+          "height": 1024,
+          "rotation": 0
+        }
+      ],
+      "extras": [
+        {
+          "number": 368,
+          "caption": "展柜中的画卷全貌",
+          "photo": "nelson-368.jpg",
+          "source_photo": "Image_20260921225256_368_19.jpg",
+          "width": 1280,
+          "height": 960,
+          "rotation": 0
+        }
+      ],
+      "notes": [
+        "从卷首运送物品的人往左看，穿过竹林、桥和亭榭，才到围坐赋诗的人群。再往左，还有在园中走动的宾客。",
+        "馆方记录：1935年由古董商 Otto Burchard 在北京购得，后来流入美国私人收藏；1963年博物馆在纽约拍卖中购入。"
+      ],
+      "caveat": "现场展签直接署“马远”，馆方线上作者栏写 Attributed to Ma Yuan。网页采用“传马远”，并保留这一差异。",
+      "url": "https://art.nelson-atkins.org/objects/20646/",
+      "featured": false
+    },
+    {
+      "id": "xia-gui-twelve-views",
+      "title": "山水十二景图卷",
+      "artist": "夏圭",
+      "period": "southern",
+      "date": "南宋；作者活跃于1180—1224年",
+      "medium": "绢本水墨",
+      "form": "手卷",
+      "accession": "32-159/2",
+      "label_photo": "Image_20260921225256_354_19.jpg",
+      "cover": 347,
+      "sequence": [
+        {
+          "number": 341,
+          "caption": "第一景：遥山书雁",
+          "photo": "nelson-341.jpg",
+          "source_photo": "Image_20260921225256_341_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 343,
+          "caption": "第二景：烟村归渡",
+          "photo": "nelson-343.jpg",
+          "source_photo": "Image_20260921225256_343_19.jpg",
+          "width": 1366,
+          "height": 1024,
+          "rotation": 0
+        },
+        {
+          "number": 344,
+          "caption": "归渡段的水面与小舟",
+          "photo": "nelson-344.jpg",
+          "source_photo": "Image_20260921225256_344_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 345,
+          "caption": "向下一景过渡的水面",
+          "photo": "nelson-345.jpg",
+          "source_photo": "Image_20260921225256_345_19.jpg",
+          "width": 1280,
+          "height": 960,
+          "rotation": 0
+        },
+        {
+          "number": 346,
+          "caption": "第三景：渔笛清幽",
+          "photo": "nelson-346.jpg",
+          "source_photo": "Image_20260921225256_346_19.jpg",
+          "width": 1366,
+          "height": 1024,
+          "rotation": 0
+        },
+        {
+          "number": 347,
+          "caption": "渔舟、树木与岸边",
+          "photo": "nelson-347.jpg",
+          "source_photo": "Image_20260921225256_347_19.jpg",
+          "width": 1280,
+          "height": 960,
+          "rotation": 0
+        },
+        {
+          "number": 348,
+          "caption": "第四景：烟堤晚泊",
+          "photo": "nelson-348.jpg",
+          "source_photo": "Image_20260921225256_348_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 349,
+          "caption": "晚泊段的岸边",
+          "photo": "nelson-349.jpg",
+          "source_photo": "Image_20260921225256_349_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 350,
+          "caption": "现存画面左端",
+          "photo": "nelson-350.jpg",
+          "source_photo": "Image_20260921225256_350_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        }
+      ],
+      "extras": [
+        {
+          "number": 364,
+          "caption": "展柜中的现存画面全貌",
+          "photo": "nelson-364.jpg",
+          "source_photo": "Image_20260921225256_364_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 351,
+          "caption": "卷后题跋之一",
+          "photo": "nelson-351.jpg",
+          "source_photo": "Image_20260921225256_351_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 352,
+          "caption": "卷后题跋之二",
+          "photo": "nelson-352.jpg",
+          "source_photo": "Image_20260921225256_352_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 353,
+          "caption": "卷后题跋之三",
+          "photo": "nelson-353.jpg",
+          "source_photo": "Image_20260921225256_353_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        }
+      ],
+      "notes": [
+        "题名虽然叫“十二景”，如今只存四景。按右至左看，依次是遥山书雁、烟村归渡、渔笛清幽、烟堤晚泊。展签将各景题字归于谢皇后，但保留了“传”的意思。",
+        "水面留得很空，远山也很淡。人物、船、渔网和树木集中在少数地方，适合逐段放大看。",
+        "馆方来源记录里有一段意外的经历：1932年，这卷画经 Langdon Warner 从美国最高法院大法官 Owen Roberts 手中购入。"
+      ],
+      "caveat": "“只存四景”指作品的保存状况，不是照片漏拍八景。题跋列为补充图片，不混入宋代画面的分段顺序。",
+      "url": "https://art.nelson-atkins.org/objects/29474/",
+      "featured": true
+    },
+    {
+      "id": "temple-lofty-cliffs",
+      "title": "重岩古寺",
+      "artist": "佚名",
+      "period": "southern",
+      "date": "南宋晚期，13世纪；馆方线上列13世纪中期",
+      "medium": "绢本水墨设色，裱于框上",
+      "form": "框装绘画",
+      "accession": "34-267",
+      "label_photo": "Image_20260921225256_306_19.jpg",
+      "cover": 305,
+      "sequence": [
+        {
+          "number": 305,
+          "caption": "作品全貌",
+          "photo": "nelson-305.jpg",
+          "source_photo": "Image_20260921225256_305_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0
+        }
+      ],
+      "extras": [],
+      "notes": [
+        "先找江边的小船，再从右下角的山路往上看，寺院在重重山峰之间。",
+        "展签说明，此画断代曾有争议，目前倾向于南宋晚期、宫廷之外的画家所作。馆方来源记录显示，1934年由 Laurence Sickman 经手，从北京琉璃厂的 Ju Ku Chai 购入。"
+      ],
+      "caveat": "",
+      "url": "https://art.nelson-atkins.org/objects/31591/",
+      "featured": false
+    },
+    {
+      "id": "winter-ferry",
+      "title": "寒江待渡",
+      "artist": "佚名",
+      "period": "yuan",
+      "date": "元，14世纪初",
+      "medium": "绢本水墨",
+      "form": "册页",
+      "accession": "46-52",
+      "label_photo": "Image_20260921225256_338_19.jpg",
+      "cover": 337,
+      "sequence": [
+        {
+          "number": 337,
+          "caption": "册页全貌",
+          "photo": "nelson-337.jpg",
+          "source_photo": "Image_20260921225256_337_19.jpg",
+          "width": 960,
+          "height": 1280,
+          "rotation": 0
+        }
+      ],
+      "extras": [],
+      "notes": [
+        "枯树在岸边，船正驶向等待渡河的人。虽然已经进入元代，画中的冬景、渡船和山寺仍能和前面的宋画放在一起看。",
+        "据馆方来源记录，1946年 Laurence Sickman 在东京驻留期间，经 Michelangelo Piacentini 为博物馆购入此画。"
+      ],
+      "caveat": "",
+      "url": "https://art.nelson-atkins.org/objects/5242/",
+      "featured": false
+    }
+  ]
+}

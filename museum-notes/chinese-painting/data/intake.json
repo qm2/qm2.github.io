@@ -1,0 +1,774 @@
+{
+  "archive": "中国宋元书画.zip",
+  "files": [
+    {
+      "source_photo": "Image_20260921225256_294_19.jpg",
+      "work": "jing-hao-snow",
+      "role": "sequence",
+      "position": 1,
+      "selected": true,
+      "sha256": "41513bf3525f9b45f077cf2d7ed0b91172910f2dd18b7c568dc0b4c01ca06118"
+    },
+    {
+      "source_photo": "Image_20260921225256_295_19.jpg",
+      "work": "jing-hao-snow",
+      "role": "label",
+      "selected": false,
+      "note": "只用于核对资料，不放入作品图组"
+    },
+    {
+      "source_photo": "Image_20260921225256_310_19.jpg",
+      "work": "li-cheng-temple",
+      "role": "sequence",
+      "position": 1,
+      "selected": true,
+      "sha256": "4b168828d664564e7599baf1787b6559868554028efdca4a272b3f366f46767d"
+    },
+    {
+      "source_photo": "Image_20260921225256_311_19.jpg",
+      "work": "li-cheng-temple",
+      "role": "sequence",
+      "position": 2,
+      "selected": true,
+      "sha256": "68141e1cdc8cd6f1a3a621fe319f69f2bf1c5dbbce24cf88293fc4d05bd991a2"
+    },
+    {
+      "source_photo": "Image_20260921225256_312_19.jpg",
+      "work": "li-cheng-temple",
+      "role": "label",
+      "selected": false,
+      "note": "只用于核对资料，不放入作品图组"
+    },
+    {
+      "source_photo": "Image_20260921225256_359_19.jpg",
+      "work": "xu-daoning-fishermen",
+      "role": "sequence",
+      "position": 1,
+      "selected": true,
+      "sha256": "3a9d73736a2b7919a379a3298abd2cfaafb8a47275e3c12664a46ca658fa463c"
+    },
+    {
+      "source_photo": "Image_20260921225256_360_19.jpg",
+      "work": "xu-daoning-fishermen",
+      "role": "sequence",
+      "position": 2,
+      "selected": true,
+      "sha256": "3c84487eec87f3ad64a183bd501c4db7538b009fb4692279f439ac3df0a8c891"
+    },
+    {
+      "source_photo": "Image_20260921225256_361_19.jpg",
+      "work": "xu-daoning-fishermen",
+      "role": "sequence",
+      "position": 3,
+      "selected": true,
+      "sha256": "797b1c644ceee7c1cb6a36afc44e723694ede6f6d2adc0d58eb9211777b9d0f9"
+    },
+    {
+      "source_photo": "Image_20260921225256_362_19.jpg",
+      "work": "xu-daoning-fishermen",
+      "role": "sequence",
+      "position": 4,
+      "selected": true,
+      "sha256": "8210e7aadb80ab0e4c9e66748f22f2ea1c6cf20df5d39683d274e6fd3518258a"
+    },
+    {
+      "source_photo": "Image_20260921225256_363_19.jpg",
+      "work": "xu-daoning-fishermen",
+      "role": "label",
+      "selected": false,
+      "note": "只用于核对资料，不放入作品图组"
+    },
+    {
+      "source_photo": "Image_20260921225256_357_19.jpg",
+      "work": "winter-mountains",
+      "role": "sequence",
+      "position": 1,
+      "selected": true,
+      "sha256": "d25c2e253a5aa2712144e63318aaddfa650de83e404f607177714ca16ff71281"
+    },
+    {
+      "source_photo": "Image_20260921225256_358_19.jpg",
+      "work": "winter-mountains",
+      "role": "label",
+      "selected": false,
+      "note": "只用于核对资料，不放入作品图组"
+    },
+    {
+      "source_photo": "Image_20260921225256_273_19.jpg",
+      "work": "qiao-zhongchang-red-cliff",
+      "role": "sequence",
+      "position": 1,
+      "selected": true,
+      "sha256": "6eb68ef92dcc1f6601ee982c553abf7cf0788d5962eaf13887a23cc24f6735d5"
+    },
+    {
+      "source_photo": "Image_20260921225256_274_19.jpg",
+      "work": "qiao-zhongchang-red-cliff",
+      "role": "sequence",
+      "position": 2,
+      "selected": true,
+      "sha256": "710dc027156fed26ca9b2b4bd2c4e81832d7db2714a9984c4f82545eb9f0bd7f"
+    },
+    {
+      "source_photo": "Image_20260921225256_275_19.jpg",
+      "work": "qiao-zhongchang-red-cliff",
+      "role": "sequence",
+      "position": 3,
+      "selected": true,
+      "sha256": "4e268d51d955a0f8d1871bcb645d72e18399d4009ad549ecb0ff6522a29e1551"
+    },
+    {
+      "source_photo": "Image_20260921225256_276_19.jpg",
+      "work": "qiao-zhongchang-red-cliff",
+      "role": "sequence",
+      "position": 4,
+      "selected": true,
+      "sha256": "40b7e3ddac7e780439dcc5ea7182fe56765513082bb88ee34a2e3f1d69c281ea"
+    },
+    {
+      "source_photo": "Image_20260921225256_277_19.jpg",
+      "work": "qiao-zhongchang-red-cliff",
+      "role": "sequence",
+      "position": 5,
+      "selected": true,
+      "sha256": "0613cecc6872f44e3476f4dc9ec62f568a2465234becbee1cb7819f710c4e6d9"
+    },
+    {
+      "source_photo": "Image_20260921225256_278_19.jpg",
+      "work": "qiao-zhongchang-red-cliff",
+      "role": "sequence",
+      "position": 6,
+      "selected": true,
+      "sha256": "de92b519703786e00654e0ed382abaf4876c24af901bb000e92105830a6cd0d3"
+    },
+    {
+      "source_photo": "Image_20260921225256_279_19.jpg",
+      "work": "qiao-zhongchang-red-cliff",
+      "role": "sequence",
+      "position": 7,
+      "selected": true,
+      "sha256": "837623d495c7743fc6aed261fb30fc84ae4cd1972c60016df2ea783ea5869647"
+    },
+    {
+      "source_photo": "Image_20260921225256_280_19.jpg",
+      "work": "qiao-zhongchang-red-cliff",
+      "role": "sequence",
+      "position": 8,
+      "selected": true,
+      "sha256": "903c42d5ac37dbe9d45d5d1ce126e69bd69975bda10fc8a503d41cf1a60584cd"
+    },
+    {
+      "source_photo": "Image_20260921225256_281_19.jpg",
+      "work": "qiao-zhongchang-red-cliff",
+      "role": "sequence",
+      "position": 9,
+      "selected": true,
+      "sha256": "f1355f99cb333d7f235cd73f2af7f6ed7142189486ade2e750d97a2307fe405f"
+    },
+    {
+      "source_photo": "Image_20260921225256_282_19.jpg",
+      "work": "qiao-zhongchang-red-cliff",
+      "role": "sequence",
+      "position": 10,
+      "selected": true,
+      "sha256": "86f04c48323c2e1a40ffcdef7f92a1b5de2610e4ad17f87d8dc00af44bfb5cc5"
+    },
+    {
+      "source_photo": "Image_20260921225256_283_19.jpg",
+      "work": "qiao-zhongchang-red-cliff",
+      "role": "sequence",
+      "position": 11,
+      "selected": true,
+      "sha256": "48c1656b987d316bac8b76ec4c5d8c6ad373b7c410fcb579250a36a5951e6a6c"
+    },
+    {
+      "source_photo": "Image_20260921225256_284_19.jpg",
+      "work": "qiao-zhongchang-red-cliff",
+      "role": "sequence",
+      "position": 12,
+      "selected": true,
+      "sha256": "e3254fcfe359d87b47481f50800df0cff9f7ee0af7055f54bfd53f97cf15a0bc"
+    },
+    {
+      "source_photo": "Image_20260921225256_285_19.jpg",
+      "work": "qiao-zhongchang-red-cliff",
+      "role": "sequence",
+      "position": 13,
+      "selected": true,
+      "sha256": "5b643ba7789f4f539f4684f112dc8fc2eddfcd13d75121837a242a4545c4424e"
+    },
+    {
+      "source_photo": "Image_20260921225256_287_19.jpg",
+      "work": "qiao-zhongchang-red-cliff",
+      "role": "sequence",
+      "position": 14,
+      "selected": true,
+      "sha256": "0dd68877c1545262287b8946ceb652e38070f59764b33bc56836181fa49887c5"
+    },
+    {
+      "source_photo": "Image_20260921225256_288_19.jpg",
+      "work": "qiao-zhongchang-red-cliff",
+      "role": "sequence",
+      "position": 15,
+      "selected": true,
+      "sha256": "6147e9bc99bfb62fa7b989ba757a169cb0e441ffe18e8098920cbaaff579f63f"
+    },
+    {
+      "source_photo": "Image_20260921225256_289_19.jpg",
+      "work": "qiao-zhongchang-red-cliff",
+      "role": "sequence",
+      "position": 16,
+      "selected": true,
+      "sha256": "a535338170cb1aa95c203b376517f8cb89c3a914f23bc0a49a65e7d1f3306b38"
+    },
+    {
+      "source_photo": "Image_20260921225256_290_19.jpg",
+      "work": "qiao-zhongchang-red-cliff",
+      "role": "extras",
+      "position": 2,
+      "selected": true,
+      "sha256": "b6f455db859bed4145be2a186dea3f243ce6856639dcea873e30653ada50864e"
+    },
+    {
+      "source_photo": "Image_20260921225256_365_19.jpg",
+      "work": "qiao-zhongchang-red-cliff",
+      "role": "extras",
+      "position": 1,
+      "selected": true,
+      "sha256": "982295927975d1d610d577b1ad712f14f662952d5cbf22cfcbc9a52a398b828c"
+    },
+    {
+      "source_photo": "Image_20260921225256_293_19.jpg",
+      "work": "qiao-zhongchang-red-cliff",
+      "role": "label",
+      "selected": false,
+      "note": "只用于核对资料，不放入作品图组"
+    },
+    {
+      "source_photo": "Image_20260921225256_313_19.jpg",
+      "work": "taigu-yimin-traveling",
+      "role": "sequence",
+      "position": 1,
+      "selected": true,
+      "sha256": "d468ead5730bbc16b74db8000d185a8cdc9858413637124bae7fd621a405d3a8"
+    },
+    {
+      "source_photo": "Image_20260921225256_314_19.jpg",
+      "work": "taigu-yimin-traveling",
+      "role": "sequence",
+      "position": 2,
+      "selected": true,
+      "sha256": "88a163656e147e72a3da3cc1d22601e9d19c8ac691c39b2ca67f03476e598012"
+    },
+    {
+      "source_photo": "Image_20260921225256_315_19.jpg",
+      "work": "taigu-yimin-traveling",
+      "role": "sequence",
+      "position": 3,
+      "selected": true,
+      "sha256": "da7cfb13ca2bf54807b774ea001cb7ef3ee989175cb8af8927319124676bf466"
+    },
+    {
+      "source_photo": "Image_20260921225256_316_19.jpg",
+      "work": "taigu-yimin-traveling",
+      "role": "sequence",
+      "position": 4,
+      "selected": true,
+      "sha256": "e8b9e6d483180c64a524c14e1b9128f9d78603bafded71383d0cddb71af2b2d5"
+    },
+    {
+      "source_photo": "Image_20260921225256_317_19.jpg",
+      "work": "taigu-yimin-traveling",
+      "role": "sequence",
+      "position": 5,
+      "selected": true,
+      "sha256": "8637ccda639d90da109cf838ce64c558bd1e7782456fa4e7d120b61606090703"
+    },
+    {
+      "source_photo": "Image_20260921225256_318_19.jpg",
+      "work": "taigu-yimin-traveling",
+      "role": "sequence",
+      "position": 6,
+      "selected": true,
+      "sha256": "c15073813514fe650e221713cb98650f4cc30cec9f7f7938ff2e9c691eaca9d5"
+    },
+    {
+      "source_photo": "Image_20260921225256_319_19.jpg",
+      "work": "taigu-yimin-traveling",
+      "role": "sequence",
+      "position": 7,
+      "selected": true,
+      "sha256": "8619f0e2705f4f6a1363fed3078602b8582ba14c692a575cb58081cf6fc7942d"
+    },
+    {
+      "source_photo": "Image_20260921225256_320_19.jpg",
+      "work": "taigu-yimin-traveling",
+      "role": "sequence",
+      "position": 8,
+      "selected": true,
+      "sha256": "cb3ec7892a907980478b00145284fde54009f674c570209cf4567332aad3e77c"
+    },
+    {
+      "source_photo": "Image_20260921225256_321_19.jpg",
+      "work": "taigu-yimin-traveling",
+      "role": "sequence",
+      "position": 9,
+      "selected": true,
+      "sha256": "9750224ed5d36ab86cc5f0a425fe87734737c2e10d5ea621629a5cd03259a3c7"
+    },
+    {
+      "source_photo": "Image_20260921225256_322_19.jpg",
+      "work": "taigu-yimin-traveling",
+      "role": "sequence",
+      "position": 10,
+      "selected": true,
+      "sha256": "944cb009878d0958c89d42694e403f7722e0904e806e0ad760b2d392f4f20169"
+    },
+    {
+      "source_photo": "Image_20260921225256_323_19.jpg",
+      "work": "taigu-yimin-traveling",
+      "role": "sequence",
+      "position": 11,
+      "selected": true,
+      "sha256": "4722ce3bc4043389426c16237d279aaeeccc2360673a32c1054af09660d3d026"
+    },
+    {
+      "source_photo": "Image_20260921225256_324_19.jpg",
+      "work": "taigu-yimin-traveling",
+      "role": "sequence",
+      "position": 12,
+      "selected": true,
+      "sha256": "43ee8f094e32a09a6e704e688220c3cbe71f62c938cc5e2d76eb02c5f4b80a5e"
+    },
+    {
+      "source_photo": "Image_20260921225256_367_19.jpg",
+      "work": "taigu-yimin-traveling",
+      "role": "extras",
+      "position": 1,
+      "selected": true,
+      "sha256": "c3ca5214feca5126836fc6dfefe12bf491b2ec65cfb80a2cce03a61349b7a78a"
+    },
+    {
+      "source_photo": "Image_20260921225256_325_19.jpg",
+      "work": "taigu-yimin-traveling",
+      "role": "label",
+      "selected": false,
+      "note": "只用于核对资料，不放入作品图组"
+    },
+    {
+      "source_photo": "Image_20260921225256_296_19.jpg",
+      "work": "jiang-shen-verdant",
+      "role": "sequence",
+      "position": 1,
+      "selected": true,
+      "sha256": "e7b31815c83f5aa7c3ea10ca2547a0596a518c1e69b06f664da69afff9c993b0"
+    },
+    {
+      "source_photo": "Image_20260921225256_297_19.jpg",
+      "work": "jiang-shen-verdant",
+      "role": "sequence",
+      "position": 2,
+      "selected": true,
+      "sha256": "0b9e506abc855557ea6c8fa2c09b44d575d6ab13d8afc7f71f513b211ced219c"
+    },
+    {
+      "source_photo": "Image_20260921225256_298_19.jpg",
+      "work": "jiang-shen-verdant",
+      "role": "sequence",
+      "position": 3,
+      "selected": true,
+      "sha256": "14e6e4b8fc0c14109a0a289d7652fca1cfd7fbddaf40b81a55a205244fcb735d"
+    },
+    {
+      "source_photo": "Image_20260921225256_299_19.jpg",
+      "work": "jiang-shen-verdant",
+      "role": "sequence",
+      "position": 4,
+      "selected": true,
+      "sha256": "d3b8ca0d6746093839833d31d76f153230e7be16303663168102c3093b40ab71"
+    },
+    {
+      "source_photo": "Image_20260921225256_300_19.jpg",
+      "work": "jiang-shen-verdant",
+      "role": "sequence",
+      "position": 5,
+      "selected": true,
+      "sha256": "fc40bef9e0aae89beaaed7c208758a995d7c4636e2433b039c7a9b089e75a5d3"
+    },
+    {
+      "source_photo": "Image_20260921225256_301_19.jpg",
+      "work": "jiang-shen-verdant",
+      "role": "sequence",
+      "position": 6,
+      "selected": true,
+      "sha256": "776bb718fbbb398d57ae92957a382f25a396036cde9cf6ea51ce16f51db8d64c"
+    },
+    {
+      "source_photo": "Image_20260921225256_302_19.jpg",
+      "work": "jiang-shen-verdant",
+      "role": "sequence",
+      "position": 7,
+      "selected": true,
+      "sha256": "7a561e884d09d59285e75ab555c65a70e3d069cb39a727314a4bb6d89e4f368f"
+    },
+    {
+      "source_photo": "Image_20260921225256_303_19.jpg",
+      "work": "jiang-shen-verdant",
+      "role": "sequence",
+      "position": 8,
+      "selected": true,
+      "sha256": "1050a415dcc7248280aa278cfde87d3677fd3de959e0119a805bc4f31b924e6a"
+    },
+    {
+      "source_photo": "Image_20260921225256_366_19.jpg",
+      "work": "jiang-shen-verdant",
+      "role": "extras",
+      "position": 1,
+      "selected": true,
+      "sha256": "21165d2834bd9aafd7bb39f485eeedb30711c36210a296a6347b5727441292f7"
+    },
+    {
+      "source_photo": "Image_20260921225256_304_19.jpg",
+      "work": "jiang-shen-verdant",
+      "role": "label",
+      "selected": false,
+      "note": "只用于核对资料，不放入作品图组"
+    },
+    {
+      "source_photo": "Image_20260921225256_339_19.jpg",
+      "work": "gazing-waterfall",
+      "role": "sequence",
+      "position": 1,
+      "selected": true,
+      "sha256": "95d96ee237be094ff00c2fa482437f194b488eaa28a183514f776491b510bfff"
+    },
+    {
+      "source_photo": "Image_20260921225256_340_19.jpg",
+      "work": "gazing-waterfall",
+      "role": "label",
+      "selected": false,
+      "note": "只用于核对资料，不放入作品图组"
+    },
+    {
+      "source_photo": "Image_20260921225256_308_19.jpg",
+      "work": "li-song-red-cliff",
+      "role": "sequence",
+      "position": 1,
+      "selected": true,
+      "sha256": "d34fdb73c578557d2c16882028cd99021fdc9c248784c32568eb7b82cda6c998"
+    },
+    {
+      "source_photo": "Image_20260921225256_307_19.jpg",
+      "work": "li-song-red-cliff",
+      "role": "sequence",
+      "position": 2,
+      "selected": true,
+      "sha256": "ccb1132ddf6f5a8f1abed0b83eafebd0da8404bd161817e665b221d836729f4a"
+    },
+    {
+      "source_photo": "Image_20260921225256_309_19.jpg",
+      "work": "li-song-red-cliff",
+      "role": "label",
+      "selected": false,
+      "note": "只用于核对资料，不放入作品图组"
+    },
+    {
+      "source_photo": "Image_20260921225256_326_19.jpg",
+      "work": "ma-yuan-spring",
+      "role": "sequence",
+      "position": 1,
+      "selected": true,
+      "sha256": "93826777ec170091b8ad20dd76c482b2dad04f912116919ca13b357a3a8d9de3"
+    },
+    {
+      "source_photo": "Image_20260921225256_327_19.jpg",
+      "work": "ma-yuan-spring",
+      "role": "sequence",
+      "position": 2,
+      "selected": true,
+      "sha256": "da271b71f750af0d36e1a4fabead9eb1835a7dd0b0b6d5f4407d735a35dd5fd6"
+    },
+    {
+      "source_photo": "Image_20260921225256_328_19.jpg",
+      "work": "ma-yuan-spring",
+      "role": "sequence",
+      "position": 3,
+      "selected": true,
+      "sha256": "7bf579393d8757fccc87297471bc0461bab4dfbc7496ee864aaad660d2807675"
+    },
+    {
+      "source_photo": "Image_20260921225256_329_19.jpg",
+      "work": "ma-yuan-spring",
+      "role": "sequence",
+      "position": 4,
+      "selected": true,
+      "sha256": "663ce1032c1100b32c90abd683fa8f3dd3e426fe7d1b94b0eb7e1c4c3e49b502"
+    },
+    {
+      "source_photo": "Image_20260921225256_330_19.jpg",
+      "work": "ma-yuan-spring",
+      "role": "sequence",
+      "position": 5,
+      "selected": true,
+      "sha256": "5e0a0d2f2c07e4b382b26048cc87d93ccbd6c1deff9965b81d6c32f2f6cfe3b5"
+    },
+    {
+      "source_photo": "Image_20260921225256_331_19.jpg",
+      "work": "ma-yuan-spring",
+      "role": "sequence",
+      "position": 6,
+      "selected": true,
+      "sha256": "d76cda534c21fe89950192c737ed9c20cd2ef8d5e96376edb6afc85542dd057b"
+    },
+    {
+      "source_photo": "Image_20260921225256_332_19.jpg",
+      "work": "ma-yuan-spring",
+      "role": "sequence",
+      "position": 7,
+      "selected": true,
+      "sha256": "1d07814562db07cb4e643c330722e7684a5092660f1ee2cc22d63bab6970e63c"
+    },
+    {
+      "source_photo": "Image_20260921225256_333_19.jpg",
+      "work": "ma-yuan-spring",
+      "role": "sequence",
+      "position": 8,
+      "selected": true,
+      "sha256": "eaddecd3b6214ae789a866d52dd698da41f4d75b56dc47d02c4d65fbb952ae20"
+    },
+    {
+      "source_photo": "Image_20260921225256_335_19.jpg",
+      "work": "ma-yuan-spring",
+      "role": "sequence",
+      "position": 9,
+      "selected": true,
+      "sha256": "323c9e4d6bdc73bba8bbf807636a3762faa5dd27b0c1d435668502b32ed92c35"
+    },
+    {
+      "source_photo": "Image_20260921225256_368_19.jpg",
+      "work": "ma-yuan-spring",
+      "role": "extras",
+      "position": 1,
+      "selected": true,
+      "sha256": "808728e4ddefceab5b326e6027f9d057468792b8bb7ef7e93fc0ae0c300f5775"
+    },
+    {
+      "source_photo": "Image_20260921225256_336_19.jpg",
+      "work": "ma-yuan-spring",
+      "role": "label",
+      "selected": false,
+      "note": "只用于核对资料，不放入作品图组"
+    },
+    {
+      "source_photo": "Image_20260921225256_341_19.jpg",
+      "work": "xia-gui-twelve-views",
+      "role": "sequence",
+      "position": 1,
+      "selected": true,
+      "sha256": "788e218ec98333a92bd4cc35496f1fa0a25297bc080765e8e38a24625faba697"
+    },
+    {
+      "source_photo": "Image_20260921225256_343_19.jpg",
+      "work": "xia-gui-twelve-views",
+      "role": "sequence",
+      "position": 2,
+      "selected": true,
+      "sha256": "79afec5dcc9fb90a2fb1696520749330f188aa0b4d213ce4c37e0eb6ad10f810"
+    },
+    {
+      "source_photo": "Image_20260921225256_344_19.jpg",
+      "work": "xia-gui-twelve-views",
+      "role": "sequence",
+      "position": 3,
+      "selected": true,
+      "sha256": "5a78d747b850ea7146b004ae9ee7ca06eb5e9a6125a88fe8476b72c7668f6673"
+    },
+    {
+      "source_photo": "Image_20260921225256_345_19.jpg",
+      "work": "xia-gui-twelve-views",
+      "role": "sequence",
+      "position": 4,
+      "selected": true,
+      "sha256": "d0e2ded1e8b52198088197089d2fe35596483e16f58693f6b35cb1712e2f5c25"
+    },
+    {
+      "source_photo": "Image_20260921225256_346_19.jpg",
+      "work": "xia-gui-twelve-views",
+      "role": "sequence",
+      "position": 5,
+      "selected": true,
+      "sha256": "162882b0923f09d2553d4509d54f13dfb5df641fc5db91686c2987810fc00e0f"
+    },
+    {
+      "source_photo": "Image_20260921225256_347_19.jpg",
+      "work": "xia-gui-twelve-views",
+      "role": "sequence",
+      "position": 6,
+      "selected": true,
+      "sha256": "3f907b856278c47458d85273605314f563d0e7932ccec9bb28a574e29dd233f0"
+    },
+    {
+      "source_photo": "Image_20260921225256_348_19.jpg",
+      "work": "xia-gui-twelve-views",
+      "role": "sequence",
+      "position": 7,
+      "selected": true,
+      "sha256": "37a3c5d69a646101eb31df50d8f2aeb9e3ad73b80b3d0db424b010f2beedb19b"
+    },
+    {
+      "source_photo": "Image_20260921225256_349_19.jpg",
+      "work": "xia-gui-twelve-views",
+      "role": "sequence",
+      "position": 8,
+      "selected": true,
+      "sha256": "61c3d7e47de61f8801930052ebd6b90f59b760a0f34f11db20738116d5efc3eb"
+    },
+    {
+      "source_photo": "Image_20260921225256_350_19.jpg",
+      "work": "xia-gui-twelve-views",
+      "role": "sequence",
+      "position": 9,
+      "selected": true,
+      "sha256": "814f3223d65ced6721e7c9fbf4998a3f92dfb5d99634b62450becbf8f618e9ff"
+    },
+    {
+      "source_photo": "Image_20260921225256_364_19.jpg",
+      "work": "xia-gui-twelve-views",
+      "role": "extras",
+      "position": 1,
+      "selected": true,
+      "sha256": "c0cb9eaadf6649591257dd2f9bed7b4e167632119078c9d802a63b89b3413229"
+    },
+    {
+      "source_photo": "Image_20260921225256_351_19.jpg",
+      "work": "xia-gui-twelve-views",
+      "role": "extras",
+      "position": 2,
+      "selected": true,
+      "sha256": "36adbb6fb2c57023789c8d7543717d06e9458a0bd4192e35df3d160cda745f3e"
+    },
+    {
+      "source_photo": "Image_20260921225256_352_19.jpg",
+      "work": "xia-gui-twelve-views",
+      "role": "extras",
+      "position": 3,
+      "selected": true,
+      "sha256": "cd69c2553cc6396fb9aefa351f7034e16c9e8a236fd038a6aea21091c97e26c7"
+    },
+    {
+      "source_photo": "Image_20260921225256_353_19.jpg",
+      "work": "xia-gui-twelve-views",
+      "role": "extras",
+      "position": 4,
+      "selected": true,
+      "sha256": "6525659f69f1c82a0d4d99cb8acf97ed7459fe2223b4c84adfcbe153bfc6fef5"
+    },
+    {
+      "source_photo": "Image_20260921225256_354_19.jpg",
+      "work": "xia-gui-twelve-views",
+      "role": "label",
+      "selected": false,
+      "note": "只用于核对资料，不放入作品图组"
+    },
+    {
+      "source_photo": "Image_20260921225256_305_19.jpg",
+      "work": "temple-lofty-cliffs",
+      "role": "sequence",
+      "position": 1,
+      "selected": true,
+      "sha256": "f7a8c8a2ff1bcd0065949917f10c90290adb6e0d74f16764f6cc905520aace6d"
+    },
+    {
+      "source_photo": "Image_20260921225256_306_19.jpg",
+      "work": "temple-lofty-cliffs",
+      "role": "label",
+      "selected": false,
+      "note": "只用于核对资料，不放入作品图组"
+    },
+    {
+      "source_photo": "Image_20260921225256_337_19.jpg",
+      "work": "winter-ferry",
+      "role": "sequence",
+      "position": 1,
+      "selected": true,
+      "sha256": "66fe98de76c48c9115cd280b34fcf5ae3a068847d36d45dbf4e3c274e5c396e8"
+    },
+    {
+      "source_photo": "Image_20260921225256_338_19.jpg",
+      "work": "winter-ferry",
+      "role": "label",
+      "selected": false,
+      "note": "只用于核对资料，不放入作品图组"
+    },
+    {
+      "source_photo": "Image_20260921225256_286_19.jpg",
+      "work": "qiao-zhongchang-red-cliff",
+      "role": "alternate",
+      "selected": false,
+      "note": "同段赋文与树木，采用287及288覆盖，减少重复"
+    },
+    {
+      "source_photo": "Image_20260921225256_291_19.jpg",
+      "work": "qiao-zhongchang-red-cliff",
+      "role": "alternate",
+      "selected": false,
+      "note": "题跋左部近照，290已包含"
+    },
+    {
+      "source_photo": "Image_20260921225256_292_19.jpg",
+      "work": "qiao-zhongchang-red-cliff",
+      "role": "alternate",
+      "selected": false,
+      "note": "题跋右部及接缝，采用更完整的290"
+    },
+    {
+      "source_photo": "Image_20260921225256_334_19.jpg",
+      "work": "ma-yuan-spring",
+      "role": "alternate",
+      "selected": false,
+      "note": "与335重复，335保留左端装裱边界"
+    },
+    {
+      "source_photo": "Image_20260921225256_342_19.jpg",
+      "work": "xia-gui-twelve-views",
+      "role": "alternate",
+      "selected": false,
+      "note": "第一景重复，341保留更明确的右端边界"
+    },
+    {
+      "source_photo": "Image_20260921225256_355_19.jpg",
+      "work": "xia-gui-twelve-views",
+      "role": "alternate",
+      "selected": false,
+      "note": "斜拍全景，364更正面；题跋另用351—353"
+    },
+    {
+      "source_photo": "Image_20260921225256_356_19.jpg",
+      "work": "xia-gui-twelve-views",
+      "role": "alternate",
+      "selected": false,
+      "note": "斜拍展柜，重复且透视较强"
+    },
+    {
+      "source_photo": "Image_20260921225256_369_19.jpg",
+      "work": "li-cheng-temple",
+      "role": "alternate",
+      "selected": false,
+      "note": "装裱全貌重复，311更正面"
+    },
+    {
+      "source_photo": "Image_20260921225256_370_19.jpg",
+      "work": null,
+      "role": "gallery",
+      "selected": false,
+      "note": "展厅通道环境照，本次不作为作品图片"
+    },
+    {
+      "source_photo": "Image_20260921225256_371_19.jpg",
+      "work": null,
+      "role": "gallery",
+      "selected": false,
+      "note": "展厅通道环境照，本次不作为作品图片"
+    }
+  ]
+}

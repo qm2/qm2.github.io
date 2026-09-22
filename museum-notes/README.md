@@ -3,6 +3,7 @@
 Static pages for the existing GitHub Pages site. No client dependencies or build service.
 
 - `/museum-notes/`: cross-cultural notebook entrance.
+- `/museum-notes/chinese-painting/`: Chinese painting and calligraphy; first batch has 13 works and 76 photographs from the Nelson-Atkins Song landscape exhibition. See [section notes](chinese-painting/README.md) for pairing, ordering and attribution. Regenerate with `python3 scripts/build_paintings.py`, then `python3 scripts/build_museum.py`.
 - `/museum-notes/chinese-buddhist-art/`: Chinese Buddhist Art section, containing material entries and thematic reading.
 - `/museum-notes/buddhist-sculpture/`: first collection, 36 objects seen in 14 museums (including loaned works).
 - `/museum-notes/wood/`, `/lacquer/`, `/stone/`, `/bronze/`, `/mixed/` (all under `/museum-notes/`): permanent material pages, generated from the same data as the topic. The current counts are 22, 6, 4, 2, and 2. Classification follows structure and technique rather than surface color; the complete material description remains on each card.
@@ -80,3 +81,7 @@ User preference: keep Chinese prose conversational and close to the user's own w
 As of this first publication, the 39 JPEGs total 9,676,342 bytes; all website files total approximately 12.1 MB. Keep original archives and future full-resolution camera files outside this repository. Prefer web-sized copies for new uploads; avoid repeatedly replacing large binaries, since Git keeps their history. Review image hosting/compression as the site grows into hundreds of MB. GitHub Pages currently limits published sites to 1 GB: https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits .
 
 Museum pages use the public name Merton in headings, metadata, photography credits and copyright notices. The academic homepage keeps its existing name.
+
+## Chinese painting batch, 2026-09-21
+
+The new batch adds approximately 19.5 MB of unchanged JPEGs. Total website content is approximately 32 MB, excluding Git history. The 99-photo ZIP and extracted originals remain outside the repository; only 76 selected artwork photographs are published. Five era groups contain 1 Five Dynasties, 4 Northern Song, 1 Jin, 6 Southern Song and 1 Yuan work. Labels, repeated views and gallery context are accounted for in the section intake manifest.

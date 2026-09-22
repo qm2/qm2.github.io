@@ -105,12 +105,14 @@ for key,name,description in materials:
 print(f'Generated notebook, collection ({len(objects)} objects), and {len(materials)} material pages.')
 
 sections = json.loads((ROOT/'museum-notes'/'sections.json').read_text())
+painting_data = json.loads((ROOT/'museum-notes/chinese-painting/data/works.json').read_text())
+painting_count = len(painting_data['works'])
 future = ''.join(f'<li><h3>{e(section["title"])}</h3><p>{e(section["description"])}</p></li>' for section in sections['planned'])
 (ROOT/'museum-notes'/'index.html').write_text(f'''<!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>博物馆札记 | Merton</title><meta name="description" content="Merton的博物馆照片、作品资料与观看札记。从中国佛教艺术开始，逐步走向不同地区、时代与艺术传统。"><link rel="stylesheet" href="museum.css"></head><body>
 <header class="site-header"><a class="signature" href="./">Merton</a><a href="./">博物馆首页</a></header>
 <main class="wrap notebook-index"><p class="eyebrow">MUSEUM NOTES</p><h1>博物馆札记</h1><p class="index-intro">把看过的作品留下来，<br>也为重看时的新发现留一点空白。</p>
-<section aria-labelledby="current-title"><p class="eyebrow">EXPLORE THE COLLECTIONS</p><h2 id="current-title">正在整理</h2><a class="issue-link" href="chinese-buddhist-art/"><img src="buddhist-sculpture/images/nelson-215.jpg" alt="纳尔逊－阿特金斯艺术博物馆的南海观音木雕" width="1279" height="1706"><div><p class="eyebrow">CHINESE BUDDHIST ART</p><h2>中国佛教艺术</h2><p>从宋辽金元的观音木雕开始，串起不同博物馆里的造像与像内经卷。</p><p class="issue-meta">{len(objects)} 件造像 · {len(museums)} 家博物馆<br>木雕 / 干漆与漆塑 / 石雕 / 金属 / 复合材料</p><span class="text-link">进入这个板块 →</span></div></a></section>
+<section aria-labelledby="current-title"><p class="eyebrow">EXPLORE THE COLLECTIONS</p><h2 id="current-title">正在整理</h2><a class="issue-link" href="chinese-buddhist-art/"><img src="buddhist-sculpture/images/nelson-215.jpg" alt="纳尔逊－阿特金斯艺术博物馆的南海观音木雕" width="1279" height="1706"><div><p class="eyebrow">CHINESE BUDDHIST ART</p><h2>中国佛教艺术</h2><p>从宋辽金元的观音木雕开始，串起不同博物馆里的造像与像内经卷。</p><p class="issue-meta">{len(objects)} 件造像 · {len(museums)} 家博物馆<br>木雕 / 干漆与漆塑 / 石雕 / 金属 / 复合材料</p><span class="text-link">进入这个板块 →</span></div></a><a class="issue-link" href="chinese-painting/"><img src="chinese-painting/images/nelson-347.jpg" alt="夏圭《山水十二景图卷》局部" width="1706" height="1279" loading="lazy"><div><p class="eyebrow">CHINESE PAINTING &amp; CALLIGRAPHY</p><h2>中国书画</h2><p>先整理在纳尔逊看到的宋代山水。长卷逐段看，题跋也一起留下。</p><p class="issue-meta">{painting_count} 件作品 · 五代 / 北宋 / 金 / 南宋 / 元</p><span class="text-link">进入这个板块 →</span></div></a></section>
 <section class="future-collections" aria-labelledby="future-title"><p class="eyebrow">FURTHER JOURNEYS</p><h2 id="future-title">以后慢慢展开</h2><p class="directory-intro">还有一些旅途中的相遇，等待照片与记忆归位。</p><ul class="future-grid">{future}</ul><p class="directory-intro">也会循着专题回看：健陀罗与马图拉的早期佛像，或卡拉瓦乔的绘画。</p></section>
 <aside class="notebook-about"><h2>资料之外，也留下观看</h2><p>一件作品的年代、材料与流转，可以慢慢查证；个人的观看，也容得下零碎的记忆与后来重看的感受。</p><p>有些印象来自展厅，有些在重看照片时才浮现。能记起多少，就留下多少。</p></aside>
 </main><footer class="site-footer wrap"><a href="./">← 返回博物馆首页</a><span>摄影 / Merton</span></footer></body></html>''')
