@@ -85,3 +85,8 @@ Museum pages use the public name Merton in headings, metadata, photography credi
 ## Chinese painting batch, 2026-09-21
 
 The new batch adds approximately 19.5 MB of unchanged JPEGs. Total website content is approximately 32 MB, excluding Git history. The 99-photo ZIP and extracted originals remain outside the repository; only 76 selected artwork photographs are published. Five era groups contain 1 Five Dynasties, 4 Northern Song, 1 Jin, 6 Southern Song and 1 Yuan work. Labels, repeated views and gallery context are accounted for in the section intake manifest.
+
+
+## Painting expansion and topic links, 2026-09-21
+
+Chinese painting now includes 32 works / 150 photographs from two ZIP batches (197 inputs). The homepage cover is attributed Li Cheng's *A Solitary Temple Amid Clearing Peaks*. The Chinese Buddhist Art section now links to 14 Buddhist paintings, including an independent seven-work Dunhuang unit. All painting data and canonical work pages remain under `chinese-painting/`; the two topic indexes reuse those records and images. Run `python3 scripts/build_paintings.py` then `python3 scripts/build_museum.py` to regenerate. See the painting README for the full cover and intake audit.

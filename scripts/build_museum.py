@@ -83,13 +83,18 @@ html=f'''<!doctype html>
 {lightbox}
 </body></html>'''
 (PAGE/'index.html').write_text(html)
+painting_data = json.loads((ROOT/'museum-notes/chinese-painting/data/works.json').read_text())
+painting_count = len(painting_data['works'])
+buddhist_painting_count = sum(w['unit']!='scrolls' for w in painting_data['works'])
+dunhuang_count = sum(w['unit']=='dunhuang' for w in painting_data['works'])
 category_cards = ''.join(f'<a class="material-entry" href="../{key}/"><span class="eyebrow">{sum(o["material_group"]==key for o in objects):02d} 件造像</span><h3>{name} <span aria-hidden="true">↗</span></h3><p>{description}</p></a>' for key,name,description in materials)
 CHINESE = ROOT/'museum-notes'/'chinese-buddhist-art'
 CHINESE.mkdir(exist_ok=True)
 (CHINESE/'index.html').write_text(f'''<!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>中国佛教艺术 · 博物馆札记 | Merton</title><meta name="description" content="Merton的博物馆参观照片与藏品札记。按材质浏览中国佛教造像，也循专题比较不同展厅里的作品。"><link rel="stylesheet" href="../museum.css"></head><body>
-<header class="site-header"><a class="signature" href="../">Merton</a><a href="../">博物馆札记 ↗</a></header><main class="wrap notebook-index"><p class="eyebrow">MUSEUM NOTES / CHINESE BUDDHIST ART</p><h1>中国佛教艺术</h1><p class="index-intro">从一尊造像到一卷经，<br>看形象、材料与信仰留下的痕迹。</p>
+<header class="site-header"><a class="signature" href="../">Merton</a><a href="../">博物馆札记 ↗</a></header><main class="wrap notebook-index"><p class="eyebrow">MUSEUM NOTES / CHINESE BUDDHIST ART</p><h1>中国佛教艺术</h1><p class="index-intro">造像、经卷与绘画，<br>把不同博物馆里的作品慢慢放在一起。</p>
 <section class="material-directory" aria-labelledby="materials-title"><p class="eyebrow">BROWSE BY MATERIAL</p><h2 id="materials-title">从材料开始</h2><p class="directory-intro">先从中国佛教造像整理起。按主要结构与工艺归类，每件作品保留展签上的完整材料说明。</p><div class="material-grid">{category_cards}</div><a class="text-link" href="../buddhist-sculpture/#collection">浏览全部 {len(objects)} 件造像 →</a></section>
+<section class="material-directory" aria-labelledby="paintings-title"><p class="eyebrow">BUDDHIST PAINTING</p><h2 id="paintings-title">佛教绘画</h2><p class="directory-intro">壁画、卷轴与幡画，按原来的形制和使用环境整理。</p><div class="material-grid"><a class="material-entry" href="../dunhuang-painting/"><span class="eyebrow">{dunhuang_count} 件作品</span><h3>敦煌绘画 ↗</h3><p>吉美与弗利尔的供养画、菩萨幡和地藏像。</p></a><a class="material-entry" href="../buddhist-painting/#murals"><span class="eyebrow">寺院中的画</span><h3>寺院壁画 ↗</h3><p>广胜寺、慈胜寺与河南的壁画。</p></a><a class="material-entry" href="../buddhist-painting/#buddhist-scrolls"><span class="eyebrow">卷轴中的佛教形象</span><h3>佛教卷轴画 ↗</h3><p>从两幅元至明初的罗汉画开始。</p></a></div><a class="text-link" href="../buddhist-painting/">浏览全部 {buddhist_painting_count} 件佛教绘画 →</a></section>
 <section class="topic-directory" aria-labelledby="topics-title"><p class="eyebrow">READ BY THEME</p><h2 id="topics-title">循着一个问题看</h2><a class="issue-link" href="../buddhist-sculpture/"><img src="../buddhist-sculpture/images/nelson-215.jpg" alt="彩绘木雕南海观音" width="1279" height="1706"><div><p class="eyebrow">001 / 中国佛教造像</p><h2>自在之姿</h2><p>从水月观音出发，观看木雕、石雕、铜像与漆塑中的姿态、色彩和时间。</p><p class="issue-meta">{len(objects)} 件造像 · {len(museums)} 家博物馆的相遇</p><span class="text-link">阅读这一辑 →</span></div></a><p class="featured-note"><a href="../buddhist-sculpture/#object-263">延伸阅读：藏在观音腹中的《佛说生天经》 →</a></p></section></main><footer class="site-footer wrap"><a href="../">← 返回博物馆札记</a><span>摄影 / Merton</span></footer></body></html>''')
 
 for key,name,description in materials:
@@ -105,14 +110,13 @@ for key,name,description in materials:
 print(f'Generated notebook, collection ({len(objects)} objects), and {len(materials)} material pages.')
 
 sections = json.loads((ROOT/'museum-notes'/'sections.json').read_text())
-painting_data = json.loads((ROOT/'museum-notes/chinese-painting/data/works.json').read_text())
-painting_count = len(painting_data['works'])
+
 future = ''.join(f'<li><h3>{e(section["title"])}</h3><p>{e(section["description"])}</p></li>' for section in sections['planned'])
 (ROOT/'museum-notes'/'index.html').write_text(f'''<!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>博物馆札记 | Merton</title><meta name="description" content="Merton的博物馆照片、作品资料与观看札记。从中国佛教艺术开始，逐步走向不同地区、时代与艺术传统。"><link rel="stylesheet" href="museum.css"></head><body>
 <header class="site-header"><a class="signature" href="./">Merton</a><a href="./">博物馆首页</a></header>
 <main class="wrap notebook-index"><p class="eyebrow">MUSEUM NOTES</p><h1>博物馆札记</h1><p class="index-intro">把看过的作品留下来，<br>也为重看时的新发现留一点空白。</p>
-<section aria-labelledby="current-title"><p class="eyebrow">EXPLORE THE COLLECTIONS</p><h2 id="current-title">正在整理</h2><a class="issue-link" href="chinese-buddhist-art/"><img src="buddhist-sculpture/images/nelson-215.jpg" alt="纳尔逊－阿特金斯艺术博物馆的南海观音木雕" width="1279" height="1706"><div><p class="eyebrow">CHINESE BUDDHIST ART</p><h2>中国佛教艺术</h2><p>从宋辽金元的观音木雕开始，串起不同博物馆里的造像与像内经卷。</p><p class="issue-meta">{len(objects)} 件造像 · {len(museums)} 家博物馆<br>木雕 / 干漆与漆塑 / 石雕 / 金属 / 复合材料</p><span class="text-link">进入这个板块 →</span></div></a><a class="issue-link" href="chinese-painting/"><img src="chinese-painting/images/nelson-347.jpg" alt="夏圭《山水十二景图卷》局部" width="1706" height="1279" loading="lazy"><div><p class="eyebrow">CHINESE PAINTING &amp; CALLIGRAPHY</p><h2>中国书画</h2><p>先整理在纳尔逊看到的宋代山水。长卷逐段看，题跋也一起留下。</p><p class="issue-meta">{painting_count} 件作品 · 五代 / 北宋 / 金 / 南宋 / 元</p><span class="text-link">进入这个板块 →</span></div></a></section>
+<section aria-labelledby="current-title"><p class="eyebrow">EXPLORE THE COLLECTIONS</p><h2 id="current-title">正在整理</h2><a class="issue-link" href="chinese-buddhist-art/"><img src="buddhist-sculpture/images/nelson-215.jpg" alt="纳尔逊－阿特金斯艺术博物馆的南海观音木雕" width="1279" height="1706"><div><p class="eyebrow">CHINESE BUDDHIST ART</p><h2>中国佛教艺术</h2><p>从观音木雕与像内经卷，继续看到寺院壁画、敦煌绘画与罗汉图。</p><p class="issue-meta">{len(objects)} 件造像 · {buddhist_painting_count} 件绘画<br>造像 / 经卷 / 寺院壁画 / 敦煌绘画</p><span class="text-link">进入这个板块 →</span></div></a><a class="issue-link" href="chinese-painting/"><img src="chinese-painting/images/nelson-310.jpg" alt="传李成《晴峦萧寺图》" width="1280" height="1707" loading="lazy"><div><p class="eyebrow">CHINESE PAINTING &amp; CALLIGRAPHY</p><h2>中国书画</h2><p>从《晴峦萧寺图》与《后赤壁赋图》看起，再看人物、耕织与敦煌绘画。</p><p class="issue-meta">{painting_count} 件作品 · 按时代浏览<br>宋元书画 / 敦煌绘画 / 佛教绘画</p><span class="text-link">进入这个板块 →</span></div></a></section>
 <section class="future-collections" aria-labelledby="future-title"><p class="eyebrow">FURTHER JOURNEYS</p><h2 id="future-title">以后慢慢展开</h2><p class="directory-intro">还有一些旅途中的相遇，等待照片与记忆归位。</p><ul class="future-grid">{future}</ul><p class="directory-intro">也会循着专题回看：健陀罗与马图拉的早期佛像，或卡拉瓦乔的绘画。</p></section>
 <aside class="notebook-about"><h2>资料之外，也留下观看</h2><p>一件作品的年代、材料与流转，可以慢慢查证；个人的观看，也容得下零碎的记忆与后来重看的感受。</p><p>有些印象来自展厅，有些在重看照片时才浮现。能记起多少，就留下多少。</p></aside>
 </main><footer class="site-footer wrap"><a href="./">← 返回博物馆首页</a><span>摄影 / Merton</span></footer></body></html>''')

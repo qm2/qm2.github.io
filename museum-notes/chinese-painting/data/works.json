@@ -9,6 +9,11 @@
   },
   "periods": [
     [
+      "tang",
+      "唐至五代",
+      "敦煌幡画中较早的作品；宽断代仍在每件作品中注明。"
+    ],
+    [
       "five",
       "五代",
       "传世作品的归属与断代，保留展签中的不确定性。"
@@ -26,12 +31,17 @@
     [
       "southern",
       "南宋",
-      "长卷、立轴和册页中的不同山水。"
+      "山水、人物故事，也有对更早画稿的摹写。"
     ],
     [
       "yuan",
       "元",
       "从宋画接着往下看。"
+    ],
+    [
+      "yuan-ming",
+      "元至明初",
+      "断代跨朝代的作品单列。"
     ]
   ],
   "works": [
@@ -64,7 +74,11 @@
       ],
       "caveat": "展签中文列“五代（传）荆浩”，英文将作品年代放在五代至宋；线上记录列五代。这里在“五代”下收录，同时保留宽断代和“传”的归属。",
       "url": "https://art.nelson-atkins.org/objects/20840/",
-      "featured": false
+      "featured": false,
+      "museum": "纳尔逊－阿特金斯艺术博物馆",
+      "unit": "scrolls",
+      "batch": 1,
+      "cover_reason": "本批仅有这一张作品照片；保留真实拍摄效果。"
     },
     {
       "id": "li-cheng-temple",
@@ -104,7 +118,11 @@
       ],
       "caveat": "作者沿用展签及馆方记录的“传李成”，不将归属视为定论。",
       "url": "https://art.nelson-atkins.org/objects/641/",
-      "featured": true
+      "featured": true,
+      "museum": "纳尔逊－阿特金斯艺术博物馆",
+      "unit": "scrolls",
+      "batch": 1,
+      "cover_reason": "逐张复核后保留：现有照片中作品主体较清楚、构图最完整的一张。"
     },
     {
       "id": "xu-daoning-fishermen",
@@ -116,7 +134,7 @@
       "form": "手卷",
       "accession": "33-1559",
       "label_photo": "Image_20260921225256_363_19.jpg",
-      "cover": 359,
+      "cover": 360,
       "sequence": [
         {
           "number": 359,
@@ -162,7 +180,11 @@
       ],
       "caveat": "全貌照用于看构图，其后三张是不同位置的人物特写，不是覆盖全卷的连续分段。",
       "url": "https://art.nelson-atkins.org/objects/12243/",
-      "featured": true
+      "featured": true,
+      "museum": "纳尔逊－阿特金斯艺术博物馆",
+      "unit": "scrolls",
+      "batch": 1,
+      "cover_reason": "渔舟与岸边树林清楚，替换以展柜为主的359号全景。"
     },
     {
       "id": "winter-mountains",
@@ -193,7 +215,11 @@
       ],
       "caveat": "",
       "url": "https://art.nelson-atkins.org/objects/25750/",
-      "featured": false
+      "featured": false,
+      "museum": "纳尔逊－阿特金斯艺术博物馆",
+      "unit": "scrolls",
+      "batch": 1,
+      "cover_reason": "本批仅有这一张作品照片；保留真实拍摄效果。"
     },
     {
       "id": "qiao-zhongchang-red-cliff",
@@ -378,7 +404,11 @@
       ],
       "caveat": "分段按画卷从右至左排列；相邻照片有重叠。横置拍摄的照片仅在网页中转正显示，原文件未改动。树林段保留了现场支架的遮挡。",
       "url": "https://art.nelson-atkins.org/objects/14981/",
-      "featured": true
+      "featured": true,
+      "museum": "纳尔逊－阿特金斯艺术博物馆",
+      "unit": "scrolls",
+      "batch": 1,
+      "cover_reason": "逐张复核后保留：现有照片中作品主体较清楚、构图最完整的一张。"
     },
     {
       "id": "taigu-yimin-traveling",
@@ -390,7 +420,7 @@
       "form": "手卷",
       "accession": "F74-35",
       "label_photo": "Image_20260921225256_325_19.jpg",
-      "cover": 318,
+      "cover": 315,
       "sequence": [
         {
           "number": 313,
@@ -519,7 +549,11 @@
       ],
       "caveat": "按展签归入金代；金与南宋在时间上并存，这里的分类不是把金排在南宋之前作为先后朝代。",
       "url": "https://art.nelson-atkins.org/objects/25447/",
-      "featured": true
+      "featured": true,
+      "museum": "纳尔逊－阿特金斯艺术博物馆",
+      "unit": "scrolls",
+      "batch": 1,
+      "cover_reason": "主峰、山径和近景树木集中，较原318号空阔水面更能代表画卷。"
     },
     {
       "id": "jiang-shen-verdant",
@@ -531,7 +565,7 @@
       "form": "手卷",
       "accession": "53-49",
       "label_photo": "Image_20260921225256_304_19.jpg",
-      "cover": 300,
+      "cover": 299,
       "sequence": [
         {
           "number": 296,
@@ -623,7 +657,11 @@
       ],
       "caveat": "现场展签注明水墨淡设色；馆方线上材料栏简写为绢本水墨。",
       "url": "https://art.nelson-atkins.org/objects/17247/",
-      "featured": true
+      "featured": true,
+      "museum": "纳尔逊－阿特金斯艺术博物馆",
+      "unit": "scrolls",
+      "batch": 1,
+      "cover_reason": "选山峰、林木与水岸相接的一段；避开300号照片中央的玻璃缝。"
     },
     {
       "id": "gazing-waterfall",
@@ -654,7 +692,11 @@
       ],
       "caveat": "",
       "url": "https://art.nelson-atkins.org/objects/29084/",
-      "featured": false
+      "featured": false,
+      "museum": "纳尔逊－阿特金斯艺术博物馆",
+      "unit": "scrolls",
+      "batch": 1,
+      "cover_reason": "本批仅有这一张作品照片；保留真实拍摄效果。"
     },
     {
       "id": "li-song-red-cliff",
@@ -693,7 +735,11 @@
       ],
       "caveat": "",
       "url": "https://art.nelson-atkins.org/objects/5220/",
-      "featured": false
+      "featured": false,
+      "museum": "纳尔逊－阿特金斯艺术博物馆",
+      "unit": "scrolls",
+      "batch": 1,
+      "cover_reason": "逐张复核后保留：现有照片中作品主体较清楚、构图最完整的一张。"
     },
     {
       "id": "ma-yuan-spring",
@@ -806,7 +852,11 @@
       ],
       "caveat": "现场展签直接署“马远”，馆方线上作者栏写 Attributed to Ma Yuan。网页采用“传马远”，并保留这一差异。",
       "url": "https://art.nelson-atkins.org/objects/20646/",
-      "featured": false
+      "featured": false,
+      "museum": "纳尔逊－阿特金斯艺术博物馆",
+      "unit": "scrolls",
+      "batch": 1,
+      "cover_reason": "逐张复核后保留：现有照片中作品主体较清楚、构图最完整的一张。"
     },
     {
       "id": "xia-gui-twelve-views",
@@ -818,7 +868,7 @@
       "form": "手卷",
       "accession": "32-159/2",
       "label_photo": "Image_20260921225256_354_19.jpg",
-      "cover": 347,
+      "cover": 349,
       "sequence": [
         {
           "number": 341,
@@ -947,7 +997,11 @@
       ],
       "caveat": "“只存四景”指作品的保存状况，不是照片漏拍八景。题跋列为补充图片，不混入宋代画面的分段顺序。",
       "url": "https://art.nelson-atkins.org/objects/29474/",
-      "featured": true
+      "featured": true,
+      "museum": "纳尔逊－阿特金斯艺术博物馆",
+      "unit": "scrolls",
+      "batch": 1,
+      "cover_reason": "改选烟堤晚泊，岸线、泊舟和题字共同构成较完整的局部。"
     },
     {
       "id": "temple-lofty-cliffs",
@@ -978,7 +1032,11 @@
       ],
       "caveat": "",
       "url": "https://art.nelson-atkins.org/objects/31591/",
-      "featured": false
+      "featured": false,
+      "museum": "纳尔逊－阿特金斯艺术博物馆",
+      "unit": "scrolls",
+      "batch": 1,
+      "cover_reason": "本批仅有这一张作品照片；保留真实拍摄效果。"
     },
     {
       "id": "winter-ferry",
@@ -1009,7 +1067,1197 @@
       ],
       "caveat": "",
       "url": "https://art.nelson-atkins.org/objects/5242/",
-      "featured": false
+      "featured": false,
+      "museum": "纳尔逊－阿特金斯艺术博物馆",
+      "unit": "scrolls",
+      "batch": 1,
+      "cover_reason": "本批仅有这一张作品照片；保留真实拍摄效果。"
+    },
+    {
+      "id": "tejaprabha-assembly",
+      "title": "炽盛光佛说法图",
+      "artist": "佚名",
+      "period": "yuan",
+      "date": "元，14世纪初",
+      "medium": "泥质地仗，水墨与矿物颜料",
+      "form": "寺院壁画",
+      "accession": "32-91/1",
+      "museum": "纳尔逊－阿特金斯艺术博物馆",
+      "label_photo": "Image_20260921233611_380_19.jpg",
+      "unit": "murals",
+      "sequence": [
+        {
+          "number": 375,
+          "caption": "炽盛光佛与两侧菩萨",
+          "photo": "painting-375.jpg",
+          "source_photo": "Image_20260921233611_375_19.jpg",
+          "width": 1702,
+          "height": 1276,
+          "rotation": 0
+        },
+        {
+          "number": 373,
+          "caption": "壁画左侧人物",
+          "photo": "painting-373.jpg",
+          "source_photo": "Image_20260921233611_373_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0
+        },
+        {
+          "number": 374,
+          "caption": "菩萨局部",
+          "photo": "painting-374.jpg",
+          "source_photo": "Image_20260921233611_374_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0
+        },
+        {
+          "number": 376,
+          "caption": "壁画右侧人物",
+          "photo": "painting-376.jpg",
+          "source_photo": "Image_20260921233611_376_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0
+        },
+        {
+          "number": 377,
+          "caption": "人物与衣纹局部",
+          "photo": "painting-377.jpg",
+          "source_photo": "Image_20260921233611_377_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0
+        }
+      ],
+      "extras": [
+        {
+          "number": 379,
+          "caption": "展厅中的壁画，前方为另一件观音造像",
+          "photo": "painting-379.jpg",
+          "source_photo": "Image_20260921233611_379_19.jpg",
+          "width": 1702,
+          "height": 1276,
+          "rotation": 0
+        }
+      ],
+      "cover": 375,
+      "cover_reason": "核对本件全部照片，优先选择主体清楚、反光及遮挡较少的画面。",
+      "notes": [
+        "壁画来自山西广胜寺。中央的炽盛光佛与星曜信仰有关，周围的日、月、五星及其他星曜都化为人物出现。",
+        "展签提到，1303年的地震重创寺院，壁画有可能与灾后的修建有关。这是馆方提出的一种解释，不能直接当作确切的作画缘由。"
+      ],
+      "caveat": "这里保留整体关系和人物局部。展厅照片前方的观音是另一件藏品，并非壁画的一部分。",
+      "url": "https://www.nelson-atkins.org/art/conservation/nelson-atkins-case-studies/",
+      "featured": false,
+      "batch": 2
+    },
+    {
+      "id": "cisheng-ruyilun",
+      "title": "如意轮观音坐像",
+      "artist": "佚名",
+      "period": "five",
+      "date": "五代，后周广顺年间（951—953）",
+      "medium": "泥质地仗，水墨设色",
+      "form": "寺院壁画",
+      "accession": "52-6",
+      "museum": "纳尔逊－阿特金斯艺术博物馆",
+      "label_photo": "Image_20260921233611_382_19.jpg",
+      "unit": "murals",
+      "sequence": [
+        {
+          "number": 381,
+          "caption": "作品全貌",
+          "photo": "painting-381.jpg",
+          "source_photo": "Image_20260921233611_381_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0
+        }
+      ],
+      "extras": [],
+      "cover": 381,
+      "cover_reason": "核对本件全部照片，优先选择主体清楚、反光及遮挡较少的画面。",
+      "notes": [
+        "来自河南温县慈胜寺。观音坐在莲座上，冠中的小化佛和手中与宝珠、轮相关的持物，是展签辨认其身份的依据。",
+        "它原来属于寺院墙面上的一组图像。旁边两位焚香菩萨，也可以放在同样的礼仪环境里理解。"
+      ],
+      "caveat": "",
+      "url": "",
+      "featured": false,
+      "batch": 2,
+      "related": [
+        "cisheng-incense",
+        "cisheng-guanyin"
+      ]
+    },
+    {
+      "id": "cisheng-incense",
+      "title": "双菩萨焚香图",
+      "artist": "佚名",
+      "period": "five",
+      "date": "五代，后周广顺年间（951—953）",
+      "medium": "泥质地仗，水墨设色",
+      "form": "寺院壁画",
+      "accession": "50-64A",
+      "museum": "纳尔逊－阿特金斯艺术博物馆",
+      "label_photo": "Image_20260921233611_384_19.jpg",
+      "unit": "murals",
+      "sequence": [
+        {
+          "number": 383,
+          "caption": "作品全貌",
+          "photo": "painting-383.jpg",
+          "source_photo": "Image_20260921233611_383_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0
+        }
+      ],
+      "extras": [],
+      "cover": 383,
+      "cover_reason": "核对本件全部照片，优先选择主体清楚、反光及遮挡较少的画面。",
+      "notes": [
+        "两位菩萨正在焚香：一位揭起炉盖，另一位把香投入炉中。右侧还留下第三个人物持珠串的手。",
+        "展签注明这件壁画由卢芹斋赠予博物馆。更有意思的是，它下面还藏着一幅较早的观音画，两层后来经过修复人员分离。"
+      ],
+      "caveat": "",
+      "url": "",
+      "featured": false,
+      "batch": 2,
+      "related": [
+        "cisheng-guanyin"
+      ]
+    },
+    {
+      "id": "cisheng-guanyin",
+      "title": "观音菩萨壁画",
+      "artist": "佚名",
+      "period": "five",
+      "date": "五代，后晋天福二年（937）",
+      "medium": "泥质地仗，水墨设色",
+      "form": "寺院壁画",
+      "accession": "50-64B",
+      "museum": "纳尔逊－阿特金斯艺术博物馆",
+      "label_photo": "Image_20260921233611_386_19.jpg",
+      "unit": "murals",
+      "sequence": [
+        {
+          "number": 385,
+          "caption": "作品全貌",
+          "photo": "painting-385.jpg",
+          "source_photo": "Image_20260921233611_385_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0
+        }
+      ],
+      "extras": [],
+      "cover": 385,
+      "cover_reason": "核对本件全部照片，优先选择主体清楚、反光及遮挡较少的画面。",
+      "notes": [
+        "这幅观音原来被后绘的《双菩萨焚香图》覆盖。修复人员从地仗的一处破口发现下面还有颜色，才逐步分离出较早的一层。",
+        "覆盖层反而保护了下面的颜色。展签也提醒，有些地方经过修复；今天看到的画面并非完全未经处理。它与上层壁画都由卢芹斋赠予馆方。"
+      ],
+      "caveat": "",
+      "url": "",
+      "featured": false,
+      "batch": 2,
+      "related": [
+        "cisheng-incense"
+      ]
+    },
+    {
+      "id": "luo-river-nymph",
+      "title": "洛神图",
+      "artist": "佚名，据传顾恺之画稿",
+      "period": "southern",
+      "date": "南宋，12世纪中叶至13世纪中叶",
+      "medium": "绢本水墨设色",
+      "form": "手卷",
+      "accession": "F1914.53",
+      "museum": "史密森尼国立亚洲艺术博物馆（弗利尔美术馆）",
+      "label_photo": "Image_20260921233611_399_19.jpg",
+      "unit": "scrolls",
+      "sequence": [
+        {
+          "number": 388,
+          "caption": "洛神与空中神灵",
+          "photo": "painting-388.jpg",
+          "source_photo": "Image_20260921233611_388_19.jpg",
+          "width": 1276,
+          "height": 958,
+          "rotation": 0
+        },
+        {
+          "number": 390,
+          "caption": "神灵与人物",
+          "photo": "painting-390.jpg",
+          "source_photo": "Image_20260921233611_390_19.jpg",
+          "width": 1276,
+          "height": 958,
+          "rotation": 0
+        },
+        {
+          "number": 391,
+          "caption": "树下的人物",
+          "photo": "painting-391.jpg",
+          "source_photo": "Image_20260921233611_391_19.jpg",
+          "width": 1702,
+          "height": 1276,
+          "rotation": 0
+        },
+        {
+          "number": 392,
+          "caption": "水面与岸边过渡",
+          "photo": "painting-392.jpg",
+          "source_photo": "Image_20260921233611_392_19.jpg",
+          "width": 1276,
+          "height": 958,
+          "rotation": 0
+        },
+        {
+          "number": 393,
+          "caption": "水上的洛神",
+          "photo": "painting-393.jpg",
+          "source_photo": "Image_20260921233611_393_19.jpg",
+          "width": 1276,
+          "height": 958,
+          "rotation": 0
+        },
+        {
+          "number": 395,
+          "caption": "神舟与随从",
+          "photo": "painting-395.jpg",
+          "source_photo": "Image_20260921233611_395_19.jpg",
+          "width": 1362,
+          "height": 1022,
+          "rotation": 0
+        },
+        {
+          "number": 396,
+          "caption": "山岸与水面",
+          "photo": "painting-396.jpg",
+          "source_photo": "Image_20260921233611_396_19.jpg",
+          "width": 1276,
+          "height": 958,
+          "rotation": 0
+        },
+        {
+          "number": 398,
+          "caption": "岸边人物与舟首",
+          "photo": "painting-398.jpg",
+          "source_photo": "Image_20260921233611_398_19.jpg",
+          "width": 1276,
+          "height": 958,
+          "rotation": 0
+        },
+        {
+          "number": 397,
+          "caption": "舟中的人物",
+          "photo": "painting-397.jpg",
+          "source_photo": "Image_20260921233611_397_19.jpg",
+          "width": 1702,
+          "height": 1276,
+          "rotation": 0
+        }
+      ],
+      "extras": [
+        {
+          "number": 387,
+          "caption": "展柜中展开的画卷",
+          "photo": "painting-387.jpg",
+          "source_photo": "Image_20260921233611_387_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0
+        },
+        {
+          "number": 400,
+          "caption": "神舟局部",
+          "photo": "painting-400.jpg",
+          "source_photo": "Image_20260921233611_400_19.jpg",
+          "width": 1702,
+          "height": 1276,
+          "rotation": 0
+        },
+        {
+          "number": 401,
+          "caption": "洛神局部",
+          "photo": "painting-401.jpg",
+          "source_photo": "Image_20260921233611_401_19.jpg",
+          "width": 1276,
+          "height": 958,
+          "rotation": 0
+        },
+        {
+          "number": 402,
+          "caption": "树下人物局部",
+          "photo": "painting-402.jpg",
+          "source_photo": "Image_20260921233611_402_19.jpg",
+          "width": 1276,
+          "height": 958,
+          "rotation": 0
+        },
+        {
+          "number": 403,
+          "caption": "击鼓神灵局部",
+          "photo": "painting-403.jpg",
+          "source_photo": "Image_20260921233611_403_19.jpg",
+          "width": 1276,
+          "height": 958,
+          "rotation": 0
+        },
+        {
+          "number": 404,
+          "caption": "洛神衣带局部",
+          "photo": "painting-404.jpg",
+          "source_photo": "Image_20260921233611_404_19.jpg",
+          "width": 1276,
+          "height": 958,
+          "rotation": 0
+        },
+        {
+          "number": 405,
+          "caption": "空中神灵局部",
+          "photo": "painting-405.jpg",
+          "source_photo": "Image_20260921233611_405_19.jpg",
+          "width": 1276,
+          "height": 958,
+          "rotation": 0
+        }
+      ],
+      "cover": 404,
+      "cover_reason": "核对本件全部照片，优先选择主体清楚、反光及遮挡较少的画面。",
+      "notes": [
+        "这卷把曹植《洛神赋》中的相遇与离别画成连续场景。同一个人物会在画里反复出现，沿着画面走，也是在沿着故事走。",
+        "展签将它列为南宋作品，构图沿袭传为顾恺之的早期画稿。这里需要分开看：故事与画稿很早，眼前这件绢本画的制作年代则晚得多。"
+      ],
+      "caveat": "长卷分段按人物、树木与舟船的重叠关系排序；局部特写另列。作者保留为佚名，不直接署为顾恺之。",
+      "url": "https://asia-archive.si.edu/object/F1914.53/",
+      "featured": false,
+      "batch": 2
+    },
+    {
+      "id": "cheng-qi-tilling",
+      "title": "摹楼璹耕图",
+      "artist": "传 程棨",
+      "period": "yuan",
+      "date": "元，13世纪中后期（据馆方分类）",
+      "medium": "纸本水墨设色",
+      "form": "手卷",
+      "accession": "F1954.21",
+      "museum": "史密森尼国立亚洲艺术博物馆（弗利尔美术馆）",
+      "label_photo": "Image_20260921233611_412_19.jpg",
+      "unit": "scrolls",
+      "sequence": [
+        {
+          "number": 407,
+          "caption": "卷首浸种一景及题字",
+          "photo": "painting-407.jpg",
+          "source_photo": "Image_20260921233611_407_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 410,
+          "caption": "耕田",
+          "photo": "painting-410.jpg",
+          "source_photo": "Image_20260921233611_410_19.jpg",
+          "width": 1702,
+          "height": 1276,
+          "rotation": 0
+        },
+        {
+          "number": 408,
+          "caption": "耙田",
+          "photo": "painting-408.jpg",
+          "source_photo": "Image_20260921233611_408_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 409,
+          "caption": "耖田",
+          "photo": "painting-409.jpg",
+          "source_photo": "Image_20260921233611_409_19.jpg",
+          "width": 1702,
+          "height": 1276,
+          "rotation": 0
+        },
+        {
+          "number": 411,
+          "caption": "碌碡平田",
+          "photo": "painting-411.jpg",
+          "source_photo": "Image_20260921233611_411_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        }
+      ],
+      "extras": [
+        {
+          "number": 406,
+          "caption": "展柜中展开的卷首部分",
+          "photo": "painting-406.jpg",
+          "source_photo": "Image_20260921233611_406_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0
+        },
+        {
+          "number": 413,
+          "caption": "卷首题字与收藏印",
+          "photo": "painting-413.jpg",
+          "source_photo": "Image_20260921233611_413_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0
+        },
+        {
+          "number": 433,
+          "caption": "耖田的人物与农具",
+          "photo": "painting-433.jpg",
+          "source_photo": "Image_20260921233611_433_19.jpg",
+          "width": 1702,
+          "height": 1276,
+          "rotation": 0
+        },
+        {
+          "number": 434,
+          "caption": "耙田的人物与水牛",
+          "photo": "painting-434.jpg",
+          "source_photo": "Image_20260921233611_434_19.jpg",
+          "width": 1276,
+          "height": 958,
+          "rotation": 0
+        },
+        {
+          "number": 435,
+          "caption": "平田的农具",
+          "photo": "painting-435.jpg",
+          "source_photo": "Image_20260921233611_435_19.jpg",
+          "width": 1702,
+          "height": 1276,
+          "rotation": 0
+        },
+        {
+          "number": 436,
+          "caption": "耕田的水牛",
+          "photo": "painting-436.jpg",
+          "source_photo": "Image_20260921233611_436_19.jpg",
+          "width": 1276,
+          "height": 958,
+          "rotation": 0
+        },
+        {
+          "number": 437,
+          "caption": "水牛头部",
+          "photo": "painting-437.jpg",
+          "source_photo": "Image_20260921233611_437_19.jpg",
+          "width": 1276,
+          "height": 958,
+          "rotation": 0
+        },
+        {
+          "number": 438,
+          "caption": "水牛与犁具",
+          "photo": "painting-438.jpg",
+          "source_photo": "Image_20260921233611_438_19.jpg",
+          "width": 1276,
+          "height": 958,
+          "rotation": 0
+        }
+      ],
+      "cover": 434,
+      "cover_reason": "核对本件全部照片，优先选择主体清楚、反光及遮挡较少的画面。",
+      "notes": [
+        "从浸种、耕田到耙田、平田，农事被一项项画出来。画旁的篆书诗文可以和人物手里的农具对着看。",
+        "这类耕织图源自南宋楼璹的画稿。眼前两卷归在元代，后经乾隆收藏，画上又添了御题诗和大量印章。"
+      ],
+      "caveat": "照片记录展柜中展开的卷首和细节；《耕图》原卷共有21景，这组照片不作为全卷21景的完整覆盖。现场展签直署程棨，馆方线上资料作“传程棨”，这里保留“传”。",
+      "url": "https://asia.si.edu/education/educator-resources/teaching-china-with-the-smithsonian/explore-by-object/tilling-rice-after-lou-shou/",
+      "featured": false,
+      "batch": 2,
+      "related": [
+        "cheng-qi-weaving"
+      ]
+    },
+    {
+      "id": "cheng-qi-weaving",
+      "title": "摹楼璹蚕织图",
+      "artist": "传 程棨",
+      "period": "yuan",
+      "date": "元，13世纪中后期（据馆方分类）",
+      "medium": "纸本水墨设色",
+      "form": "手卷",
+      "accession": "F1954.20",
+      "museum": "史密森尼国立亚洲艺术博物馆（弗利尔美术馆）",
+      "label_photo": "Image_20260921233611_418_19.jpg",
+      "unit": "scrolls",
+      "sequence": [
+        {
+          "number": 415,
+          "caption": "卷首：庭院与蚕事的开始",
+          "photo": "painting-415.jpg",
+          "source_photo": "Image_20260921233611_415_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 416,
+          "caption": "室内蚕事与相邻诗文",
+          "photo": "painting-416.jpg",
+          "source_photo": "Image_20260921233611_416_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 417,
+          "caption": "蚕事的后续场景",
+          "photo": "painting-417.jpg",
+          "source_photo": "Image_20260921233611_417_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        }
+      ],
+      "extras": [
+        {
+          "number": 414,
+          "caption": "展柜中展开的部分",
+          "photo": "painting-414.jpg",
+          "source_photo": "Image_20260921233611_414_19.jpg",
+          "width": 1707,
+          "height": 1280,
+          "rotation": 0
+        },
+        {
+          "number": 420,
+          "caption": "蚕事人物与器具局部",
+          "photo": "painting-420.jpg",
+          "source_photo": "Image_20260921233611_420_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": -90
+        },
+        {
+          "number": 421,
+          "caption": "蚕事人物与器具局部",
+          "photo": "painting-421.jpg",
+          "source_photo": "Image_20260921233611_421_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": -90
+        },
+        {
+          "number": 422,
+          "caption": "蚕事人物与器具局部",
+          "photo": "painting-422.jpg",
+          "source_photo": "Image_20260921233611_422_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": -90
+        },
+        {
+          "number": 423,
+          "caption": "蚕事人物与器具局部",
+          "photo": "painting-423.jpg",
+          "source_photo": "Image_20260921233611_423_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": -90
+        },
+        {
+          "number": 424,
+          "caption": "蚕事人物与器具局部",
+          "photo": "painting-424.jpg",
+          "source_photo": "Image_20260921233611_424_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": -90
+        },
+        {
+          "number": 425,
+          "caption": "蚕事人物与器具局部",
+          "photo": "painting-425.jpg",
+          "source_photo": "Image_20260921233611_425_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": -90
+        },
+        {
+          "number": 426,
+          "caption": "画旁诗文",
+          "photo": "painting-426.jpg",
+          "source_photo": "Image_20260921233611_426_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0
+        },
+        {
+          "number": 427,
+          "caption": "画旁诗文",
+          "photo": "painting-427.jpg",
+          "source_photo": "Image_20260921233611_427_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0
+        },
+        {
+          "number": 428,
+          "caption": "画旁诗文",
+          "photo": "painting-428.jpg",
+          "source_photo": "Image_20260921233611_428_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0
+        },
+        {
+          "number": 429,
+          "caption": "画旁诗文",
+          "photo": "painting-429.jpg",
+          "source_photo": "Image_20260921233611_429_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0
+        },
+        {
+          "number": 430,
+          "caption": "画旁诗文",
+          "photo": "painting-430.jpg",
+          "source_photo": "Image_20260921233611_430_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0
+        },
+        {
+          "number": 431,
+          "caption": "卷首庭院人物",
+          "photo": "painting-431.jpg",
+          "source_photo": "Image_20260921233611_431_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": -90
+        },
+        {
+          "number": 432,
+          "caption": "卷首树木与人物",
+          "photo": "painting-432.jpg",
+          "source_photo": "Image_20260921233611_432_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": -90
+        }
+      ],
+      "cover": 422,
+      "cover_reason": "422号人物、蚕架与抱婴细节清楚，没有横贯主体的玻璃缝；网页转正后作封面。",
+      "notes": [
+        "《耕图》和《蚕织图》可以对着看，一卷画稻作，一卷画养蚕织丝。这里的日常活动被仔细拆成工序，房屋、器具和家人的分工也一并留下。",
+        "画卷曾被归给刘松年，馆方研究改作传程棨。配套研究资料记载，此卷经纽约通运公司流转。"
+      ],
+      "caveat": "这里只展示照片中实际展开的部分与特写，不把它标成完整的24道工序。横拍的照片在网页中转正，原文件保留。",
+      "url": "https://asia-archive.si.edu/wp-content/uploads/2017/10/F1954-20_Documentation.pdf",
+      "featured": false,
+      "batch": 2,
+      "related": [
+        "cheng-qi-tilling"
+      ]
+    },
+    {
+      "id": "luohan-fly-whisk",
+      "title": "拂尘罗汉像",
+      "artist": "佚名",
+      "period": "yuan-ming",
+      "date": "元至明初，14世纪",
+      "medium": "绢本水墨设色，立轴裱于板上",
+      "form": "立轴",
+      "accession": "F1916.521",
+      "museum": "史密森尼国立亚洲艺术博物馆（弗利尔美术馆）",
+      "label_photo": "Image_20260921233611_440_19.jpg",
+      "unit": "buddhist-scrolls",
+      "sequence": [
+        {
+          "number": 439,
+          "caption": "作品全貌",
+          "photo": "painting-439.jpg",
+          "source_photo": "Image_20260921233611_439_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0
+        }
+      ],
+      "extras": [],
+      "cover": 439,
+      "cover_reason": "核对本件全部照片，优先选择主体清楚、反光及遮挡较少的画面。",
+      "notes": [
+        "罗汉手中的拂尘，在展签里被解释为智慧的象征。衣袍和坐垫画得很细，与那道直望过来的目光形成对照。",
+        "它曾被归给吴道子，馆方现作佚名，年代放在元至明初。原来可能属于成组悬挂的罗汉画，单幅留下后，原来的组合关系已不容易恢复。"
+      ],
+      "caveat": "这张照片的玻璃反光较明显，先作为现场记录保留。旧传吴道子的署名不沿用。",
+      "url": "https://asia.si.edu/wp-content/uploads/2023/05/song-yuan-f1916-521_documentation.pdf",
+      "featured": false,
+      "batch": 2
+    },
+    {
+      "id": "arhat-taming-dragon",
+      "title": "降龙罗汉图",
+      "artist": "佚名",
+      "period": "yuan",
+      "date": "元，14世纪初",
+      "medium": "绢本水墨、矿物颜料",
+      "form": "立轴",
+      "accession": "AP 1987.03",
+      "museum": "金贝尔艺术博物馆",
+      "label_photo": "Image_20260921233611_445_19.jpg",
+      "unit": "buddhist-scrolls",
+      "sequence": [
+        {
+          "number": 442,
+          "caption": "画面全貌",
+          "photo": "painting-442.jpg",
+          "source_photo": "Image_20260921233611_442_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0
+        },
+        {
+          "number": 443,
+          "caption": "罗汉与随从",
+          "photo": "painting-443.jpg",
+          "source_photo": "Image_20260921233611_443_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0
+        },
+        {
+          "number": 444,
+          "caption": "水中龙与岩石",
+          "photo": "painting-444.jpg",
+          "source_photo": "Image_20260921233611_444_19.jpg",
+          "width": 960,
+          "height": 1280,
+          "rotation": 0
+        }
+      ],
+      "extras": [
+        {
+          "number": 441,
+          "caption": "作品与装裱",
+          "photo": "painting-441.jpg",
+          "source_photo": "Image_20260921233611_441_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0
+        }
+      ],
+      "cover": 443,
+      "cover_reason": "核对本件全部照片，优先选择主体清楚、反光及遮挡较少的画面。",
+      "notes": [
+        "罗汉、随从与水里现身的龙，被安排在一组紧张的视线里。可以先看罗汉，再看龙，最后找两者之间石上的钵。",
+        "展签将这一幕解释为罗汉把龙降伏、引入钵中。衣纹和水势的翻动，让静坐的人物也带着很强的动感。"
+      ],
+      "caveat": "封面取人物局部；全幅与装裱照片均保留，现场玻璃反光未作消除。",
+      "url": "https://kimbellart.org/collection/ap-198703",
+      "featured": false,
+      "batch": 2
+    },
+    {
+      "id": "tan-zhirui-bamboo",
+      "title": "竹石图",
+      "artist": "传 Tan Zhirui",
+      "period": "yuan",
+      "date": "约1275年，宋元之际；馆方归元",
+      "medium": "纸本水墨",
+      "form": "立轴",
+      "accession": "AP 2002.02",
+      "museum": "金贝尔艺术博物馆",
+      "label_photo": "Image_20260921233611_447_19.jpg",
+      "unit": "scrolls",
+      "sequence": [
+        {
+          "number": 446,
+          "caption": "作品全貌",
+          "photo": "painting-446.jpg",
+          "source_photo": "Image_20260921233611_446_19.jpg",
+          "width": 960,
+          "height": 1280,
+          "rotation": 0
+        }
+      ],
+      "extras": [],
+      "cover": 446,
+      "cover_reason": "核对本件全部照片，优先选择主体清楚、反光及遮挡较少的画面。",
+      "notes": [
+        "画面下方的竹与石占地不多，留出的大片空白使上方题诗也成为构图的一部分。题诗出自僧人一山一宁。",
+        "馆方将此画归为传Tan Zhirui，并记录它曾在日本松平家收藏。竹石题材与禅僧题诗有关，但它并不是一幅佛像画。"
+      ],
+      "caveat": "馆方同时使用“约1275年”与“元代”的分类；这里保留这个宋元交界的日期，不把它硬改成元代中期。 作者姓名暂照展签保留拼音。",
+      "url": "https://kimbellart.org/collection/ap-200202",
+      "featured": false,
+      "batch": 2
+    },
+    {
+      "id": "gong-kai-zhongshan",
+      "title": "中山出游图",
+      "artist": "龚开",
+      "period": "yuan",
+      "date": "元，13世纪末至14世纪初",
+      "medium": "纸本水墨",
+      "form": "手卷",
+      "accession": "F1938.4",
+      "museum": "史密森尼国立亚洲艺术博物馆（弗利尔美术馆）",
+      "label_photo": "Image_20260921233611_453_19.jpg",
+      "unit": "scrolls",
+      "sequence": [
+        {
+          "number": 448,
+          "caption": "钟馗与抬轿小鬼",
+          "photo": "painting-448.jpg",
+          "source_photo": "Image_20260921233611_448_19.jpg",
+          "width": 1702,
+          "height": 1276,
+          "rotation": 0
+        },
+        {
+          "number": 449,
+          "caption": "钟馗妹妹与随从",
+          "photo": "painting-449.jpg",
+          "source_photo": "Image_20260921233611_449_19.jpg",
+          "width": 1702,
+          "height": 1276,
+          "rotation": 0
+        },
+        {
+          "number": 450,
+          "caption": "队尾的小鬼与行李",
+          "photo": "painting-450.jpg",
+          "source_photo": "Image_20260921233611_450_19.jpg",
+          "width": 1702,
+          "height": 1276,
+          "rotation": 0
+        }
+      ],
+      "extras": [
+        {
+          "number": 451,
+          "caption": "小鬼局部",
+          "photo": "painting-451.jpg",
+          "source_photo": "Image_20260921233611_451_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": -90
+        },
+        {
+          "number": 452,
+          "caption": "卷后题跋",
+          "photo": "painting-452.jpg",
+          "source_photo": "Image_20260921233611_452_19.jpg",
+          "width": 1702,
+          "height": 1276,
+          "rotation": 0
+        }
+      ],
+      "cover": 448,
+      "cover_reason": "核对本件全部照片，优先选择主体清楚、反光及遮挡较少的画面。",
+      "notes": [
+        "钟馗和妹妹坐在轿中，周围挤着瘦骨嶙峋的小鬼。人物的黑白浓淡和夸张动作，让这支出游队伍很难被当作普通行旅来看。",
+        "馆方展签提出，这也可能与新年扮演钟馗、驱鬼逐疫的游行有关。对元代政治的讽喻是另一层解释，不必把画里每个小鬼都直接对应成某一类人。"
+      ],
+      "caveat": "这是一件钟馗题材的人物画，放在宋元书画中，不按佛教绘画归类。",
+      "url": "https://asia-archive.si.edu/object/F1938.4/",
+      "featured": false,
+      "batch": 2
+    },
+    {
+      "id": "dunhuang-ksitigarbha",
+      "title": "地藏菩萨像",
+      "artist": "佚名",
+      "period": "northern",
+      "date": "北宋，可能为11世纪初，亦可能为10世纪末",
+      "medium": "绢本水墨、设色与金",
+      "form": "立轴",
+      "accession": "F1935.11",
+      "museum": "史密森尼国立亚洲艺术博物馆（弗利尔美术馆）",
+      "label_photo": "Image_20260921233611_455_19.jpg",
+      "unit": "dunhuang",
+      "sequence": [
+        {
+          "number": 454,
+          "caption": "作品全貌",
+          "photo": "painting-454.jpg",
+          "source_photo": "Image_20260921233611_454_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0
+        }
+      ],
+      "extras": [],
+      "cover": 454,
+      "cover_reason": "核对本件全部照片，优先选择主体清楚、反光及遮挡较少的画面。",
+      "notes": [
+        "地藏坐在画面中央，右下角的供养人穿红衣、戴金色头饰。展签将她辨认为于阗王族的李氏公主，并把画面与亡者追荐联系起来。",
+        "画上留有一块没有填入文字的题记栏。馆方据此提出，这件画可能没有最终完成，也可能从未真正悬挂使用；这些都仍是解释，而非已经证实的经历。"
+      ],
+      "caveat": "来自敦煌。现场展签对10世纪末或11世纪初的断代保留余地，网页照录；玻璃反光保留。",
+      "url": "https://asia-archive.si.edu/wp-content/uploads/2017/10/F1935-11_Documentation.pdf",
+      "featured": false,
+      "batch": 2
+    },
+    {
+      "id": "guimet-akasagarbha",
+      "title": "虚空藏菩萨壁画",
+      "artist": "佚名",
+      "period": "five",
+      "date": "五代，10世纪",
+      "medium": "泥质地仗壁画",
+      "form": "寺院壁画",
+      "accession": "MA 5020",
+      "museum": "吉美亚洲艺术博物馆",
+      "label_photo": "Image_20260921233611_457_19.jpg",
+      "unit": "murals",
+      "sequence": [
+        {
+          "number": 456,
+          "caption": "作品全貌",
+          "photo": "painting-456.jpg",
+          "source_photo": "Image_20260921233611_456_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0
+        }
+      ],
+      "extras": [],
+      "cover": 456,
+      "cover_reason": "核对本件全部照片，优先选择主体清楚、反光及遮挡较少的画面。",
+      "notes": [
+        "菩萨结跏趺坐，右手托起莲花，花上承着如意宝珠。展签据这些持物，将其辨认为虚空藏菩萨。",
+        "这件来自河南的寺院壁画，与敦煌的绢画、麻布幡画分别归类。它们都属于佛教绘画，但原来的空间和使用方式并不相同。"
+      ],
+      "caveat": "现场展签列五代；法国国家藏品记录进一步列952年。年代说明保留两种精度。",
+      "url": "https://pop.culture.gouv.fr/notice/joconde/50060000962",
+      "featured": false,
+      "batch": 2
+    },
+    {
+      "id": "dunhuang-shakyamuni",
+      "title": "释迦牟尼说法图",
+      "artist": "佚名",
+      "period": "northern",
+      "date": "10世纪后半叶，北宋（据展签）",
+      "medium": "麻布淡设色",
+      "form": "供养画",
+      "accession": "MG 17798",
+      "museum": "吉美亚洲艺术博物馆",
+      "label_photo": "Image_20260921233611_459_19.jpg",
+      "unit": "dunhuang",
+      "sequence": [
+        {
+          "number": 458,
+          "caption": "作品全貌",
+          "photo": "painting-458.jpg",
+          "source_photo": "Image_20260921233611_458_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0
+        }
+      ],
+      "extras": [],
+      "cover": 458,
+      "cover_reason": "核对本件全部照片，优先选择主体清楚、反光及遮挡较少的画面。",
+      "notes": [
+        "释迦牟尼居中说法，文殊与观音在两侧。前方的两位菩萨跪着献花，宝盖、花鬘、祭坛和供器把整幅画组织成一个礼拜场景。",
+        "展签注明来自敦煌莫高窟，并列入伯希和1906—1909年考察带回的藏品。画上的人物题记，是辨认这场法会成员的重要线索。"
+      ],
+      "caveat": "",
+      "url": "",
+      "featured": false,
+      "batch": 2
+    },
+    {
+      "id": "dunhuang-life-guanyin",
+      "title": "延寿命观音图",
+      "artist": "佚名",
+      "period": "northern",
+      "date": "10世纪后半叶，北宋（据展签）",
+      "medium": "绢本淡设色、金彩",
+      "form": "供养画",
+      "accession": "EO 1143",
+      "museum": "吉美亚洲艺术博物馆",
+      "label_photo": "Image_20260921233611_461_19.jpg",
+      "unit": "dunhuang",
+      "sequence": [
+        {
+          "number": 460,
+          "caption": "作品全貌",
+          "photo": "painting-460.jpg",
+          "source_photo": "Image_20260921233611_460_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0
+        }
+      ],
+      "extras": [],
+      "cover": 460,
+      "cover_reason": "核对本件全部照片，优先选择主体清楚、反光及遮挡较少的画面。",
+      "notes": [
+        "观音戴有阿弥陀佛化佛的宝冠，坐在宝盖之下，周身围着火焰形背光。下方一排供养人分列两侧，题记留下了家庭成员与亡亲的关系。",
+        "展签将其称为延寿命观音。祈求寿命、追荐亡亲和家族供养，在同一幅画里并存。来自敦煌莫高窟，属伯希和考察带回的藏品。"
+      ],
+      "caveat": "",
+      "url": "",
+      "featured": false,
+      "batch": 2
+    },
+    {
+      "id": "dunhuang-maitreya",
+      "title": "弥勒净土图",
+      "artist": "佚名",
+      "period": "five",
+      "date": "五代，后晋天福五年（940）",
+      "medium": "绢本设色",
+      "form": "供养画",
+      "accession": "EO 1135",
+      "museum": "吉美亚洲艺术博物馆",
+      "label_photo": "Image_20260921233611_463_19.jpg",
+      "unit": "dunhuang",
+      "sequence": [
+        {
+          "number": 462,
+          "caption": "作品全貌",
+          "photo": "painting-462.jpg",
+          "source_photo": "Image_20260921233611_462_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0
+        }
+      ],
+      "extras": [],
+      "cover": 462,
+      "cover_reason": "核对本件全部照片，优先选择主体清楚、反光及遮挡较少的画面。",
+      "notes": [
+        "中央佛像的身份由题记确定为弥勒，旁边的阿难、目犍连和菩萨也有名字可循。下方的供养人把这场未来的法会与具体的人联系起来。",
+        "展签提醒，这里的弥勒净土指向弥勒降生后转化的世间，与通常理解的西方极乐世界并不是同一题材。画来自敦煌莫高窟，伯希和考察时带回。"
+      ],
+      "caveat": "",
+      "url": "",
+      "featured": false,
+      "batch": 2
+    },
+    {
+      "id": "dunhuang-standing-banner",
+      "title": "菩萨立像幡",
+      "artist": "佚名",
+      "period": "tang",
+      "date": "9或10世纪（？），唐至五代",
+      "medium": "麻布水墨淡设色",
+      "form": "双面幡画",
+      "accession": "MG 17688",
+      "museum": "吉美亚洲艺术博物馆",
+      "label_photo": "Image_20260921233611_465_19.jpg",
+      "unit": "dunhuang",
+      "sequence": [
+        {
+          "number": 464,
+          "caption": "作品全貌",
+          "photo": "painting-464.jpg",
+          "source_photo": "Image_20260921233611_464_19.jpg",
+          "width": 960,
+          "height": 1280,
+          "rotation": 0
+        }
+      ],
+      "extras": [],
+      "cover": 464,
+      "cover_reason": "核对本件全部照片，优先选择主体清楚、反光及遮挡较少的画面。",
+      "notes": [
+        "狭长的幡身把菩萨立像与下方长长的垂带连在一起。看这件时，形制和人物本身一样值得留意。",
+        "展签称它为双面幡，来自敦煌莫高窟，属伯希和考察带回的藏品。这里的照片只展示了拍到的一面。"
+      ],
+      "caveat": "年代中的问号来自展签，保留为9或10世纪的不确定断代。",
+      "url": "",
+      "featured": false,
+      "batch": 2
+    },
+    {
+      "id": "dunhuang-monastic-banner",
+      "title": "僧衣菩萨立像幡",
+      "artist": "佚名",
+      "period": "tang",
+      "date": "唐，9世纪",
+      "medium": "绢本水墨设色",
+      "form": "幡画",
+      "accession": "EO 1399 120",
+      "museum": "吉美亚洲艺术博物馆",
+      "label_photo": "Image_20260921233611_467_19.jpg",
+      "unit": "dunhuang",
+      "sequence": [
+        {
+          "number": 466,
+          "caption": "作品全貌",
+          "photo": "painting-466.jpg",
+          "source_photo": "Image_20260921233611_466_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0
+        }
+      ],
+      "extras": [],
+      "cover": 466,
+      "cover_reason": "核对本件全部照片，优先选择主体清楚、反光及遮挡较少的画面。",
+      "notes": [
+        "这位菩萨穿僧衣，红色下裙和浅色上衣在狭长画幅里很醒目。它与披璎珞、佩冠的菩萨形象可以放在一起看。",
+        "来自敦煌莫高窟。展签列为伯希和1906—1909年考察带回的藏品。这里保留展签的“僧衣菩萨”名称，不自行改认成某位具体菩萨。"
+      ],
+      "caveat": "",
+      "url": "",
+      "featured": false,
+      "batch": 2
+    },
+    {
+      "id": "dunhuang-willow-guanyin",
+      "title": "杨柳观音幡",
+      "artist": "佚名",
+      "period": "five",
+      "date": "10世纪，五代或北宋",
+      "medium": "麻布水墨设色",
+      "form": "幡画",
+      "accession": "EO 1129",
+      "museum": "吉美亚洲艺术博物馆",
+      "label_photo": "Image_20260921233611_469_19.jpg",
+      "unit": "dunhuang",
+      "sequence": [
+        {
+          "number": 468,
+          "caption": "作品全貌",
+          "photo": "painting-468.jpg",
+          "source_photo": "Image_20260921233611_468_19.jpg",
+          "width": 960,
+          "height": 1280,
+          "rotation": 0
+        }
+      ],
+      "extras": [],
+      "cover": 468,
+      "cover_reason": "核对本件全部照片，优先选择主体清楚、反光及遮挡较少的画面。",
+      "notes": [
+        "杨柳枝是展签辨认观音身份的线索。长幡中的立像与两侧垂带，把观看从人物一直引向下方。",
+        "这也是来自敦煌莫高窟、由伯希和考察带回的绘画。拍摄时玻璃和照明使部分画面较暗，先保留这份现场记录。"
+      ],
+      "caveat": "五代或北宋的跨代断代照录；年代目录暂放在五代下，不据此缩小作品年代。",
+      "url": "",
+      "featured": false,
+      "batch": 2
     }
-  ]
+  ],
+  "hero": {
+    "work": "li-cheng-temple",
+    "number": 310
+  }
 }

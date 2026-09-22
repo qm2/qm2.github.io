@@ -1,0 +1,858 @@
+{
+  "archive": "中国宋元书画2.zip",
+  "files": [
+    {
+      "source_photo": "Image_20260921233611_372_19.jpg",
+      "selected": false,
+      "sha256": "0313e9a36fb01af1b766f30f801ce63256772be6da0468d7bf1fad755a26d594",
+      "role": "excluded",
+      "reason": "展厅环境；三幅壁画分别有作品照片"
+    },
+    {
+      "source_photo": "Image_20260921233611_373_19.jpg",
+      "selected": true,
+      "sha256": "81bf14b97dd42e5a2ba60273804049f4b53d05ac4d6f49d0027655ff25accb65",
+      "work": "tejaprabha-assembly",
+      "role": "sequence",
+      "position": 2,
+      "published_photo": "painting-373.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_374_19.jpg",
+      "selected": true,
+      "sha256": "485efb894540f71e4b8cdd771d21b863c0a509c549e8f219dce1a867a98f0a85",
+      "work": "tejaprabha-assembly",
+      "role": "sequence",
+      "position": 3,
+      "published_photo": "painting-374.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_375_19.jpg",
+      "selected": true,
+      "sha256": "c20dff6af5b7ea054a96ac27ba27c53221659e00d646c2597d2cf1f33dae4449",
+      "work": "tejaprabha-assembly",
+      "role": "sequence",
+      "position": 1,
+      "published_photo": "painting-375.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_376_19.jpg",
+      "selected": true,
+      "sha256": "c252da30bcb5e67be2c8dcc2341f098b8e3421c32b3e1ed3d7ecdf9a06560600",
+      "work": "tejaprabha-assembly",
+      "role": "sequence",
+      "position": 4,
+      "published_photo": "painting-376.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_377_19.jpg",
+      "selected": true,
+      "sha256": "b79ecd9e6893f8be88bb76528ed9a597f5f71dc5dc5ba60858dabfad81ff51e1",
+      "work": "tejaprabha-assembly",
+      "role": "sequence",
+      "position": 5,
+      "published_photo": "painting-377.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_378_19.jpg",
+      "selected": false,
+      "sha256": "d8eb4da4462ab306d3bade3a7fa7bfb95d9baf0d7e64ec812a3fa494f42df34a",
+      "role": "excluded",
+      "reason": "与377相同人物的近似重复，377更完整"
+    },
+    {
+      "source_photo": "Image_20260921233611_379_19.jpg",
+      "selected": true,
+      "sha256": "0bc43982cf2026e414c7e2b5f2b15fc3bb65e188e4423bf186b8e693073c4f86",
+      "work": "tejaprabha-assembly",
+      "role": "extras",
+      "position": 1,
+      "published_photo": "painting-379.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_380_19.jpg",
+      "selected": false,
+      "sha256": "3d2fc1fa4964c0af5ccc2796cf6a26698b4c38956f4b97744cfcb6bfde887202",
+      "work": "tejaprabha-assembly",
+      "role": "label",
+      "reason": "作为资料来源保留，不在作品图组发布"
+    },
+    {
+      "source_photo": "Image_20260921233611_381_19.jpg",
+      "selected": true,
+      "sha256": "dc0d487b86e277a3db0c31d03bf4f0eefc0a49aff870734b1fede5c186597af6",
+      "work": "cisheng-ruyilun",
+      "role": "sequence",
+      "position": 1,
+      "published_photo": "painting-381.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_382_19.jpg",
+      "selected": false,
+      "sha256": "3004b6d4dfc3a8d3c5a758f7016116a75f82b2d58d1305c1af2505b8ffabe21b",
+      "work": "cisheng-ruyilun",
+      "role": "label",
+      "reason": "作为资料来源保留，不在作品图组发布"
+    },
+    {
+      "source_photo": "Image_20260921233611_383_19.jpg",
+      "selected": true,
+      "sha256": "4d13e5492a9b97b2f4ef67fe7fdba59b6b9542dc345ba3ce54386a4116c4379c",
+      "work": "cisheng-incense",
+      "role": "sequence",
+      "position": 1,
+      "published_photo": "painting-383.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_384_19.jpg",
+      "selected": false,
+      "sha256": "db1db973e6bde90f43383922d2b9aa987fe6243ee87fd372d2f43e3e7a0f3ce6",
+      "work": "cisheng-incense",
+      "role": "label",
+      "reason": "作为资料来源保留，不在作品图组发布"
+    },
+    {
+      "source_photo": "Image_20260921233611_385_19.jpg",
+      "selected": true,
+      "sha256": "9f0e3397df2066844b7263d7920e336babd0de28511d731a282c1dadd6503a56",
+      "work": "cisheng-guanyin",
+      "role": "sequence",
+      "position": 1,
+      "published_photo": "painting-385.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_386_19.jpg",
+      "selected": false,
+      "sha256": "a8f095bfb1cad5d94210cace807641ab6294c4441859dc455cc464c80a3accd6",
+      "work": "cisheng-guanyin",
+      "role": "label",
+      "reason": "作为资料来源保留，不在作品图组发布"
+    },
+    {
+      "source_photo": "Image_20260921233611_387_19.jpg",
+      "selected": true,
+      "sha256": "eedfcf981cfa7bdf4c1570015d32b28b7bbaf60f3edeb3295500e030f156acd0",
+      "work": "luo-river-nymph",
+      "role": "extras",
+      "position": 1,
+      "published_photo": "painting-387.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_388_19.jpg",
+      "selected": true,
+      "sha256": "e1e31d866f0e3472e51fdd6d84b767e871cf416c80968444f423ce69d2ba35ed",
+      "work": "luo-river-nymph",
+      "role": "sequence",
+      "position": 1,
+      "published_photo": "painting-388.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_389_19.jpg",
+      "selected": false,
+      "sha256": "8c6fa27f054c6c5f18bc454d7d0676ade0084937e2a0a4a11599a23174dd8662",
+      "role": "excluded",
+      "reason": "与388及390重叠，保留两侧覆盖"
+    },
+    {
+      "source_photo": "Image_20260921233611_390_19.jpg",
+      "selected": true,
+      "sha256": "38d2faf70a73f6506c3bc9355cd5ead835b888ecc5ebbabc368c3e0d21e3f0f2",
+      "work": "luo-river-nymph",
+      "role": "sequence",
+      "position": 2,
+      "published_photo": "painting-390.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_391_19.jpg",
+      "selected": true,
+      "sha256": "b27fb72fa55d007b49ff9ab402b3fe8cad4031f3b58f75e3fe528c4747a27743",
+      "work": "luo-river-nymph",
+      "role": "sequence",
+      "position": 3,
+      "published_photo": "painting-391.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_392_19.jpg",
+      "selected": true,
+      "sha256": "5f35a97b1d6558af193ae77fe70c3b354256e29211288c06ad25b7a1f54fd24e",
+      "work": "luo-river-nymph",
+      "role": "sequence",
+      "position": 4,
+      "published_photo": "painting-392.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_393_19.jpg",
+      "selected": true,
+      "sha256": "3eea0adc46a1f6c4b486144ce43dec19c297b58335da2e72ac5a9f1d6a4f7272",
+      "work": "luo-river-nymph",
+      "role": "sequence",
+      "position": 5,
+      "published_photo": "painting-393.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_394_19.jpg",
+      "selected": false,
+      "sha256": "2a19203d20222891804627257e35003e8788fa4fb69b07c3e70af897a537f4d3",
+      "role": "excluded",
+      "reason": "与395近似重复，395画面更完整"
+    },
+    {
+      "source_photo": "Image_20260921233611_395_19.jpg",
+      "selected": true,
+      "sha256": "9d463e78d966a7b91f9005acd56d2e16425b6dee85948c5aecbfc54db7448679",
+      "work": "luo-river-nymph",
+      "role": "sequence",
+      "position": 6,
+      "published_photo": "painting-395.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_396_19.jpg",
+      "selected": true,
+      "sha256": "d88e840037c43c8bcaa620ea616dc47cc1eb1df8cdd561a9bd1e54a4d64b006e",
+      "work": "luo-river-nymph",
+      "role": "sequence",
+      "position": 7,
+      "published_photo": "painting-396.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_397_19.jpg",
+      "selected": true,
+      "sha256": "2c22e112ff9830eb4a17524d24774045783d2403600a091ffdd9a8c4ebf3b959",
+      "work": "luo-river-nymph",
+      "role": "sequence",
+      "position": 9,
+      "published_photo": "painting-397.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_398_19.jpg",
+      "selected": true,
+      "sha256": "399e96803b6c4065767166d30d833ed4605dee19a22b76cb344f34c656c88595",
+      "work": "luo-river-nymph",
+      "role": "sequence",
+      "position": 8,
+      "published_photo": "painting-398.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_399_19.jpg",
+      "selected": false,
+      "sha256": "3e5102ae06a54712f948354c880f52d3137935fc712c5152f9f74d8c1ca45b2f",
+      "work": "luo-river-nymph",
+      "role": "label",
+      "reason": "作为资料来源保留，不在作品图组发布"
+    },
+    {
+      "source_photo": "Image_20260921233611_400_19.jpg",
+      "selected": true,
+      "sha256": "515615516d8d39de17cd723feb6b8b3cbdbead7b6beb1a9665350341958591a7",
+      "work": "luo-river-nymph",
+      "role": "extras",
+      "position": 2,
+      "published_photo": "painting-400.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_401_19.jpg",
+      "selected": true,
+      "sha256": "01ffbae0259109ce3960043954d8a8befa393b1d3db8a808ef70de159edfd98d",
+      "work": "luo-river-nymph",
+      "role": "extras",
+      "position": 3,
+      "published_photo": "painting-401.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_402_19.jpg",
+      "selected": true,
+      "sha256": "8154b276290bd1dcda2225b69c44d6c40533677ebfa5d14d66dc554e2f412371",
+      "work": "luo-river-nymph",
+      "role": "extras",
+      "position": 4,
+      "published_photo": "painting-402.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_403_19.jpg",
+      "selected": true,
+      "sha256": "7178f9e41b10326f60eb9ee9663dd75c35d10e94d1fdb3924902cee1de02b4db",
+      "work": "luo-river-nymph",
+      "role": "extras",
+      "position": 5,
+      "published_photo": "painting-403.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_404_19.jpg",
+      "selected": true,
+      "sha256": "766e14c13c84a808ceb2a4ea473b9f5399c9cb1b710bfd6872c655cf9970f438",
+      "work": "luo-river-nymph",
+      "role": "extras",
+      "position": 6,
+      "published_photo": "painting-404.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_405_19.jpg",
+      "selected": true,
+      "sha256": "2435a0e08bd8563193d263f39b16d263ad64d038e65edac173b44911e189b166",
+      "work": "luo-river-nymph",
+      "role": "extras",
+      "position": 7,
+      "published_photo": "painting-405.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_406_19.jpg",
+      "selected": true,
+      "sha256": "6347f5c3a7bffabac24ae0f350cf695809aa3961b44d1334f6fd5cd842a4c901",
+      "work": "cheng-qi-tilling",
+      "role": "extras",
+      "position": 1,
+      "published_photo": "painting-406.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_407_19.jpg",
+      "selected": true,
+      "sha256": "3c057e5f6884ee3fe3a01c31c44af7734ce9e45c89bf97fde81123d36c4aff6e",
+      "work": "cheng-qi-tilling",
+      "role": "sequence",
+      "position": 1,
+      "published_photo": "painting-407.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_408_19.jpg",
+      "selected": true,
+      "sha256": "64d2346f9e85adbfb75b7bbc847d7b2ff2672e7de14a2539983d555789a4de8b",
+      "work": "cheng-qi-tilling",
+      "role": "sequence",
+      "position": 3,
+      "published_photo": "painting-408.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_409_19.jpg",
+      "selected": true,
+      "sha256": "2f704203764fb206e591bcb15ff209e0d3e90a780946a094c325a64903fd5964",
+      "work": "cheng-qi-tilling",
+      "role": "sequence",
+      "position": 4,
+      "published_photo": "painting-409.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_410_19.jpg",
+      "selected": true,
+      "sha256": "3cc07e56d6420bf47731c4fe182ec86713ec64ba17781b9f04ac11a606573efd",
+      "work": "cheng-qi-tilling",
+      "role": "sequence",
+      "position": 2,
+      "published_photo": "painting-410.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_411_19.jpg",
+      "selected": true,
+      "sha256": "554395cfd28107f0d93fc34e97b6dc25f4da842fcac64627c52d53daebf0d3b3",
+      "work": "cheng-qi-tilling",
+      "role": "sequence",
+      "position": 5,
+      "published_photo": "painting-411.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_412_19.jpg",
+      "selected": false,
+      "sha256": "626d7d5345f8ac1d4472e7156188653c48e925a958040feee74b29e9765ac6c0",
+      "work": "cheng-qi-tilling",
+      "role": "label",
+      "reason": "作为资料来源保留，不在作品图组发布"
+    },
+    {
+      "source_photo": "Image_20260921233611_413_19.jpg",
+      "selected": true,
+      "sha256": "5caf9ba4f0f816dfccf347deee34a8f6013a8ea94ad13d7f43ba25a42dc9795b",
+      "work": "cheng-qi-tilling",
+      "role": "extras",
+      "position": 2,
+      "published_photo": "painting-413.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_414_19.jpg",
+      "selected": true,
+      "sha256": "7a68d629e005931f2243895bbb8903cdca57da58f53e5d0c7d333ed9edd4a55c",
+      "work": "cheng-qi-weaving",
+      "role": "extras",
+      "position": 1,
+      "published_photo": "painting-414.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_415_19.jpg",
+      "selected": true,
+      "sha256": "ef9de283ebb6c4a86c62fca8bd9b9cc54a9ecb114e1064ee619c086e43c142ff",
+      "work": "cheng-qi-weaving",
+      "role": "sequence",
+      "position": 1,
+      "published_photo": "painting-415.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_416_19.jpg",
+      "selected": true,
+      "sha256": "03a7cd4de8fe101d29b6032883381b79be2e967c5eda480037cd4a720d579f07",
+      "work": "cheng-qi-weaving",
+      "role": "sequence",
+      "position": 2,
+      "published_photo": "painting-416.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_417_19.jpg",
+      "selected": true,
+      "sha256": "553f25a675a4132b481d3f04eb56ffbbcac3f3ceee2f84008ddf3b4430b7c60c",
+      "work": "cheng-qi-weaving",
+      "role": "sequence",
+      "position": 3,
+      "published_photo": "painting-417.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_418_19.jpg",
+      "selected": false,
+      "sha256": "6cc65b1c7a3b831814316e7abadc0cab1c764956c7cb309f3ce440a2cfdf8d1d",
+      "work": "cheng-qi-weaving",
+      "role": "label",
+      "reason": "作为资料来源保留，不在作品图组发布"
+    },
+    {
+      "source_photo": "Image_20260921233611_419_19.jpg",
+      "selected": false,
+      "sha256": "0992e8d7d9908c96c458b30e27ac6f3a4c7303edd2eecd1ebf88266ecba992c2",
+      "role": "excluded",
+      "reason": "蚕织图的斜侧展柜视角，已有414正面概览"
+    },
+    {
+      "source_photo": "Image_20260921233611_420_19.jpg",
+      "selected": true,
+      "sha256": "0e3aa2854a0d3d181eed15a34b1142a55a99794b620236d21f9c65bce16d1592",
+      "work": "cheng-qi-weaving",
+      "role": "extras",
+      "position": 2,
+      "published_photo": "painting-420.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_421_19.jpg",
+      "selected": true,
+      "sha256": "1a37b5505ddc6917a4f85a5c5fb1cb7e23be7061a93fedcfc50565aa8af40897",
+      "work": "cheng-qi-weaving",
+      "role": "extras",
+      "position": 3,
+      "published_photo": "painting-421.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_422_19.jpg",
+      "selected": true,
+      "sha256": "e4964b34846b025d0ac8e71742c61d8e49a89b18ac56bbdba036e2ad5f29b599",
+      "work": "cheng-qi-weaving",
+      "role": "extras",
+      "position": 4,
+      "published_photo": "painting-422.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_423_19.jpg",
+      "selected": true,
+      "sha256": "df2be4e683d5c1b739dffc1b16f52ba2a3915824234e3666a7ab49bccb00e277",
+      "work": "cheng-qi-weaving",
+      "role": "extras",
+      "position": 5,
+      "published_photo": "painting-423.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_424_19.jpg",
+      "selected": true,
+      "sha256": "71b7dc9c4d3ca83fc2b896d7bd417bf92331d27cd9cb3eb18424bf8b2efbb04a",
+      "work": "cheng-qi-weaving",
+      "role": "extras",
+      "position": 6,
+      "published_photo": "painting-424.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_425_19.jpg",
+      "selected": true,
+      "sha256": "52427f5f325677c1ecb6838cf3f98f6c6b697fc6438c0e5c3f37a467cf6ba299",
+      "work": "cheng-qi-weaving",
+      "role": "extras",
+      "position": 7,
+      "published_photo": "painting-425.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_426_19.jpg",
+      "selected": true,
+      "sha256": "673f4dafe17e734741649b5eafef368bb979b28b8ad8c38c796f7191f30055b7",
+      "work": "cheng-qi-weaving",
+      "role": "extras",
+      "position": 8,
+      "published_photo": "painting-426.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_427_19.jpg",
+      "selected": true,
+      "sha256": "511b53b127f322c8db13d19e0a0ad0c30cd91da3d4d0823640c5584578bce80a",
+      "work": "cheng-qi-weaving",
+      "role": "extras",
+      "position": 9,
+      "published_photo": "painting-427.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_428_19.jpg",
+      "selected": true,
+      "sha256": "969193c2fe4541c9381c1899835d095a507587463362094f4b768b5858d03d57",
+      "work": "cheng-qi-weaving",
+      "role": "extras",
+      "position": 10,
+      "published_photo": "painting-428.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_429_19.jpg",
+      "selected": true,
+      "sha256": "744d6eeee2521af08f162e6571e6df400bdaaad123f629fcdf9baa546e8d63ff",
+      "work": "cheng-qi-weaving",
+      "role": "extras",
+      "position": 11,
+      "published_photo": "painting-429.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_430_19.jpg",
+      "selected": true,
+      "sha256": "a1de395b34a06235bef538245a331a4c879680a0b699ee3a5f33a23853690472",
+      "work": "cheng-qi-weaving",
+      "role": "extras",
+      "position": 12,
+      "published_photo": "painting-430.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_431_19.jpg",
+      "selected": true,
+      "sha256": "eac38fb1babfb3ae61aba35a36aecfea00abcf7b4956c08732638ce38d6ef608",
+      "work": "cheng-qi-weaving",
+      "role": "extras",
+      "position": 13,
+      "published_photo": "painting-431.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_432_19.jpg",
+      "selected": true,
+      "sha256": "4ef22cfa56841ebd66fce639068c47283a676769d89ef4df5b91dd7f52aba07b",
+      "work": "cheng-qi-weaving",
+      "role": "extras",
+      "position": 14,
+      "published_photo": "painting-432.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_433_19.jpg",
+      "selected": true,
+      "sha256": "113ca3b28716ae42a23c6ccc4dee0e8167197f6797a4207bdf3e0fca58337599",
+      "work": "cheng-qi-tilling",
+      "role": "extras",
+      "position": 3,
+      "published_photo": "painting-433.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_434_19.jpg",
+      "selected": true,
+      "sha256": "828ea7de5260005aab8c8debc0ea902f40ec1fa2a1334a21c867b1b2bce74e8c",
+      "work": "cheng-qi-tilling",
+      "role": "extras",
+      "position": 4,
+      "published_photo": "painting-434.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_435_19.jpg",
+      "selected": true,
+      "sha256": "eaf257dfea5f063b9cdb907f12d1de19eeff9a2a58e285a71fe9ad3bed79d49a",
+      "work": "cheng-qi-tilling",
+      "role": "extras",
+      "position": 5,
+      "published_photo": "painting-435.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_436_19.jpg",
+      "selected": true,
+      "sha256": "38f9ddda69f714b886d89bb4eb6ee869c01800e407b92ba1c9705df64327b9af",
+      "work": "cheng-qi-tilling",
+      "role": "extras",
+      "position": 6,
+      "published_photo": "painting-436.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_437_19.jpg",
+      "selected": true,
+      "sha256": "a593f66e4a90f7c8d373903bf7a76d2a2ae4b49fa9da295dcf0bcfdb80c366ab",
+      "work": "cheng-qi-tilling",
+      "role": "extras",
+      "position": 7,
+      "published_photo": "painting-437.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_438_19.jpg",
+      "selected": true,
+      "sha256": "4d9cfecde3d5bafb638b46145b1ef2b10e2f2a0ffa93eeeb8bc8f25497697dff",
+      "work": "cheng-qi-tilling",
+      "role": "extras",
+      "position": 8,
+      "published_photo": "painting-438.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_439_19.jpg",
+      "selected": true,
+      "sha256": "5a8b0d50322b230428cc2d9dcc249d53bf1b3bc8aea1d39edfc7e890cce8c979",
+      "work": "luohan-fly-whisk",
+      "role": "sequence",
+      "position": 1,
+      "published_photo": "painting-439.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_440_19.jpg",
+      "selected": false,
+      "sha256": "6ecaa0061afa035cd476737c527079c5e8e6e4e9ee0669d5f3a5fa42d79142e7",
+      "work": "luohan-fly-whisk",
+      "role": "label",
+      "reason": "作为资料来源保留，不在作品图组发布"
+    },
+    {
+      "source_photo": "Image_20260921233611_441_19.jpg",
+      "selected": true,
+      "sha256": "fb880161aa0e4af396eaa4861f5222f2df1fceee822f3a969f6f7733487a8332",
+      "work": "arhat-taming-dragon",
+      "role": "extras",
+      "position": 1,
+      "published_photo": "painting-441.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_442_19.jpg",
+      "selected": true,
+      "sha256": "9a02ef89460b3a30aa29a3bfc025758cb23f2a3c28dcf2fe8451383059b22c05",
+      "work": "arhat-taming-dragon",
+      "role": "sequence",
+      "position": 1,
+      "published_photo": "painting-442.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_443_19.jpg",
+      "selected": true,
+      "sha256": "b06d5dc1078714f18585746f34a11021d344ea09b94997aa319cbe8396450c79",
+      "work": "arhat-taming-dragon",
+      "role": "sequence",
+      "position": 2,
+      "published_photo": "painting-443.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_444_19.jpg",
+      "selected": true,
+      "sha256": "7bed166ee9ccec2e560af0fa2d9a208b71d9e7ce42ff9f583f06253032bcd590",
+      "work": "arhat-taming-dragon",
+      "role": "sequence",
+      "position": 3,
+      "published_photo": "painting-444.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_445_19.jpg",
+      "selected": false,
+      "sha256": "54cb90cb0f3adb31ae47a5b4340ee805fe214939fcfefd2246cc7a3e9fa44f8b",
+      "work": "arhat-taming-dragon",
+      "role": "label",
+      "reason": "作为资料来源保留，不在作品图组发布"
+    },
+    {
+      "source_photo": "Image_20260921233611_446_19.jpg",
+      "selected": true,
+      "sha256": "d9ff86de308df5946ed4cdb7679d6cddde592d8b71db0c963a01b43ba6acfd71",
+      "work": "tan-zhirui-bamboo",
+      "role": "sequence",
+      "position": 1,
+      "published_photo": "painting-446.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_447_19.jpg",
+      "selected": false,
+      "sha256": "aa3f65cbe70483a3b6a998140e2423b83d6a8d7fda339f03d18a34095baa540d",
+      "work": "tan-zhirui-bamboo",
+      "role": "label",
+      "reason": "作为资料来源保留，不在作品图组发布"
+    },
+    {
+      "source_photo": "Image_20260921233611_448_19.jpg",
+      "selected": true,
+      "sha256": "4d96d8f6ff40bf1fe07a9401675d7fa076cf34dfa4bb4f0172b83329ee099036",
+      "work": "gong-kai-zhongshan",
+      "role": "sequence",
+      "position": 1,
+      "published_photo": "painting-448.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_449_19.jpg",
+      "selected": true,
+      "sha256": "91d41073b2990aeb345ed3ddc855f707de4f182e0d5ee27b8f57af8b35dac051",
+      "work": "gong-kai-zhongshan",
+      "role": "sequence",
+      "position": 2,
+      "published_photo": "painting-449.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_450_19.jpg",
+      "selected": true,
+      "sha256": "3521017d9a24e17eab4859574023ecc1924b5bc1941cc8f0612782037794cc79",
+      "work": "gong-kai-zhongshan",
+      "role": "sequence",
+      "position": 3,
+      "published_photo": "painting-450.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_451_19.jpg",
+      "selected": true,
+      "sha256": "4847cbeec7b3a596c084d2c28f2e8fb37a815b268c551194910c47c9b57fe355",
+      "work": "gong-kai-zhongshan",
+      "role": "extras",
+      "position": 1,
+      "published_photo": "painting-451.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_452_19.jpg",
+      "selected": true,
+      "sha256": "d309b4d50022b1b7460d9cc46eb12c09fc34195d8a0e0b8a3e9a4d5df98127e2",
+      "work": "gong-kai-zhongshan",
+      "role": "extras",
+      "position": 2,
+      "published_photo": "painting-452.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_453_19.jpg",
+      "selected": false,
+      "sha256": "dba5810be619b8167e2031257596c38e84bcd0ccba7332f62d01acf46eafdfac",
+      "work": "gong-kai-zhongshan",
+      "role": "label",
+      "reason": "作为资料来源保留，不在作品图组发布"
+    },
+    {
+      "source_photo": "Image_20260921233611_454_19.jpg",
+      "selected": true,
+      "sha256": "2e83724adb9a14d00b6408a4178578c844ae441f2b14e794f3d53e980049ede4",
+      "work": "dunhuang-ksitigarbha",
+      "role": "sequence",
+      "position": 1,
+      "published_photo": "painting-454.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_455_19.jpg",
+      "selected": false,
+      "sha256": "8c1915d471514bf34a3b10da42dbf0c0a223363aca89d92f0c7be16b920f071c",
+      "work": "dunhuang-ksitigarbha",
+      "role": "label",
+      "reason": "作为资料来源保留，不在作品图组发布"
+    },
+    {
+      "source_photo": "Image_20260921233611_456_19.jpg",
+      "selected": true,
+      "sha256": "dd94fa381bf123c5aafb1e1f7655870baa1e030e8c10ee0451dbf07844212665",
+      "work": "guimet-akasagarbha",
+      "role": "sequence",
+      "position": 1,
+      "published_photo": "painting-456.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_457_19.jpg",
+      "selected": false,
+      "sha256": "f638c2230d067c9fb933572271de0ad1b460f1d7198b34599e63fa06a7f083d0",
+      "work": "guimet-akasagarbha",
+      "role": "label",
+      "reason": "作为资料来源保留，不在作品图组发布"
+    },
+    {
+      "source_photo": "Image_20260921233611_458_19.jpg",
+      "selected": true,
+      "sha256": "7c9d389cd8e51474d35c836db81d95446f698c8a96b26a33318ab0fb8f34c8de",
+      "work": "dunhuang-shakyamuni",
+      "role": "sequence",
+      "position": 1,
+      "published_photo": "painting-458.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_459_19.jpg",
+      "selected": false,
+      "sha256": "7d50f116eca434b4c0588a6c8b5b396a79bd52b8881c37eefe30f17eccfff1ba",
+      "work": "dunhuang-shakyamuni",
+      "role": "label",
+      "reason": "作为资料来源保留，不在作品图组发布"
+    },
+    {
+      "source_photo": "Image_20260921233611_460_19.jpg",
+      "selected": true,
+      "sha256": "3a895f70bf8bd2d4290817cdb6ea0d37458ca0e2509b5dee55dd98d13a80adaf",
+      "work": "dunhuang-life-guanyin",
+      "role": "sequence",
+      "position": 1,
+      "published_photo": "painting-460.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_461_19.jpg",
+      "selected": false,
+      "sha256": "c2670c9660587d4a466ab38f15a03bebe608320d4bff34070ae92e3eec195d51",
+      "work": "dunhuang-life-guanyin",
+      "role": "label",
+      "reason": "作为资料来源保留，不在作品图组发布"
+    },
+    {
+      "source_photo": "Image_20260921233611_462_19.jpg",
+      "selected": true,
+      "sha256": "7613fb457558dddea51d25fe0f98db3e00fe092aa9e7aa21a7e308434b318619",
+      "work": "dunhuang-maitreya",
+      "role": "sequence",
+      "position": 1,
+      "published_photo": "painting-462.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_463_19.jpg",
+      "selected": false,
+      "sha256": "f78452e3d686ae0f1af98621aa43d25ad3353de68dfd90c78f17792a31d3cb65",
+      "work": "dunhuang-maitreya",
+      "role": "label",
+      "reason": "作为资料来源保留，不在作品图组发布"
+    },
+    {
+      "source_photo": "Image_20260921233611_464_19.jpg",
+      "selected": true,
+      "sha256": "7966cad44729b053fa52dd8ce9a4af3cb81cf943ef98c4045ad9df933b49f282",
+      "work": "dunhuang-standing-banner",
+      "role": "sequence",
+      "position": 1,
+      "published_photo": "painting-464.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_465_19.jpg",
+      "selected": false,
+      "sha256": "e40ca21faf770d0d0ec671223f4fd679df6734beec883edbaaf472330e47e181",
+      "work": "dunhuang-standing-banner",
+      "role": "label",
+      "reason": "作为资料来源保留，不在作品图组发布"
+    },
+    {
+      "source_photo": "Image_20260921233611_466_19.jpg",
+      "selected": true,
+      "sha256": "02c3b6308cb063a8f071394081b129764b05550c0f1c1b13c2aa09162ea720ba",
+      "work": "dunhuang-monastic-banner",
+      "role": "sequence",
+      "position": 1,
+      "published_photo": "painting-466.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_467_19.jpg",
+      "selected": false,
+      "sha256": "33ce93ee0aa5a4747eeb7f9fd19a2a4c7ead5a8d2ea2a564b4bf6aaaf7550d92",
+      "work": "dunhuang-monastic-banner",
+      "role": "label",
+      "reason": "作为资料来源保留，不在作品图组发布"
+    },
+    {
+      "source_photo": "Image_20260921233611_468_19.jpg",
+      "selected": true,
+      "sha256": "a1f490832b8f11c74b5c6eae2f0aca3d71fd990e44ee26c4382d91b50d4ac7ab",
+      "work": "dunhuang-willow-guanyin",
+      "role": "sequence",
+      "position": 1,
+      "published_photo": "painting-468.jpg"
+    },
+    {
+      "source_photo": "Image_20260921233611_469_19.jpg",
+      "selected": false,
+      "sha256": "cd3ea7f90591f65ebda62f10b8e379949af7f2e31ec45144ed309d2f0a6f67bb",
+      "work": "dunhuang-willow-guanyin",
+      "role": "label",
+      "reason": "作为资料来源保留，不在作品图组发布"
+    }
+  ]
+}

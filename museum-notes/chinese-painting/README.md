@@ -1,5 +1,7 @@
 # Chinese painting and calligraphy
 
+Current collection: 32 works, 150 published photographs from four museums. The two source batches contain 197 files, fully accounted for in `intake.json` and `intake-2.json`.
+
 First batch: 13 works photographed by Merton at the Nelson-Atkins exhibition *Legendary Landscapes: Sublime Visions from China’s Song Dynasty*. Exhibition dates verified against the museum site (2026-03-21 to 2026-09-27); these are not inferred visit dates.
 
 ## Editing and regeneration
@@ -40,3 +42,29 @@ All 13 records link to the museum's object records. Basic details follow the pho
 - Gazing at a Waterfall: number 2007.7 is not treated as a donation date; online provenance explicitly dates Ellsworth's gift to 1970.
 
 Personal voice remains Merton. Notes describe visible details and paraphrase labels/linked museum research; no visit feelings, memories, exact visit dates or names of companions are invented. Original labels are not shown in the public image galleries.
+
+
+## Second batch and cover review, 2026-09-21
+
+`中国宋元书画2.zip` contains 98 images: 74 published artwork photographs, 19 labels and five excluded alternate/context views (372, 378, 389, 394, 419). Extracted originals remain in `/home/qingxi/museum/song-yuan-source-2/`. Every input is accounted for by SHA-256 and role in `data/intake-2.json`.
+
+The collection now has 18 general painting works, seven Dunhuang paintings, five temple murals and two Buddhist hanging scrolls. All works have one canonical page under `chinese-painting/`; the chronological index includes all 32. `/museum-notes/buddhist-painting/` references 14 works, and `/museum-notes/dunhuang-painting/` references seven of those. The Chinese Buddhist Art entrance links to both topics. Images and editorial records are not duplicated between topics.
+
+Covers are manually reviewed, with rationale in `cover_reason`. Li Cheng photo 310 replaces Xia Gui on both the notebook entrance and the painting index. Jiang Shen changes from 300 (central glass seam) to 299 (mountains and shoreline); Taigu Yimin from 318 to 315; Xu Daoning from cabinet view 359 to detail 360; Xia Gui from 347 to 349. Qiao Zhongchang 280 and attributed Ma Yuan 332 remain the best available representative details. Single-image works remain limited by the photographed view. No image generation, retouching, reconstruction or file cropping was applied; new sideways detail views are turned with CSS.
+
+### New photo groups
+
+- 373–379 / label 380: Tejaprabha mural, Nelson-Atkins 32-91/1. Keep 379 as gallery context showing a separate sculpture in front. 378 omitted as repeat.
+- 381/382, 383/384, 385/386: Cisheng monastery Ruyilun Guanyin, incense-burning bodhisattvas, and earlier Guanyin revealed beneath the latter. Labels distinguish 951–953 upper layer from 937 lower layer. Both 50-64A and B were gifts of C. T. Loo.
+- 387–405 / label 399: Freer F1914.53, Nymph of the Luo River. Right-to-left sequence 388,390,391,392,393,395,396,398,397; details 400–405 separately. 389/394 are alternate overlapping views. Southern Song copy following an earlier composition, never presented as a Gu Kaizhi autograph.
+- 406–413 and 433–438 / label 412: Freer F1954.21, Tilling Rice. Order of photographed opening scenes is 407,410,408,409,411 (soaking, plowing, raking, harrowing, rolling). The photographs cover the displayed opening portion and details, not all 21 scenes. Attribution follows online “Attributed to Cheng Qi”, with direct label attribution disclosed.
+- 414–432 / label 418: Freer F1954.20, Silk Weaving. Opening sequence 415,416,417; overall 414 and photographed details/texts retained separately; 419 omitted as oblique alternate. Do not claim full coverage of all 24 scenes. Photos 420–425,431–432 turn -90 degrees in CSS; text photos 426–430 remain upright.
+- 439/440: Freer F1916.521, Luohan Holding a Fly Whisk, Yuan to early Ming; reject obsolete Wu Daozi attribution, disclose substantial glare.
+- 441–445: Kimbell AP 1987.03, Arhat Taming the Dragon; main painting 442, details 443/444, mounting 441. Cover 443 is explicitly a detail.
+- 446/447: Kimbell AP 2002.02, Bamboo and Rocks; attribution remains the label spelling Tan Zhirui until Chinese name characters are securely established. ca. 1275 and museum Yuan classification both retained. This is bamboo painting, not a devotional icon despite the Buddhist inscription.
+- 448–453 / label 453: Freer F1938.4, Gong Kai, Zhongshan Going on Excursion. Sequence 448,449,450; rotated detail 451 and colophon 452 separately. Zhong Kui is not classified as Buddhist painting.
+- 454/455: Freer F1935.11, Dunhuang Ksitigarbha; early 11th / late 10th century uncertainty follows label. Patron and unfinished-state explanations attributed to the label, not facts invented from the photograph.
+- 456/457: Guimet MA 5020, Akasagarbha mural, Henan, Five Dynasties; French national inventory gives 952. Kept out of Dunhuang.
+- 458/459: Guimet MG 17798, Shakyamuni preaching, hemp; 460/461: EO 1143, life-prolonging Avalokiteshvara, silk with gold; 462/463: EO 1135, Maitreya Pure Land, dated 940; 464/465: MG 17688, double-sided bodhisattva banner, hemp, only one side photographed; 466/467: EO 1399 120, monastic-robed bodhisattva banner, silk; 468/469: EO 1129, willow Guanyin banner, hemp. These six Dunhuang works follow the photographed French labels, including Pelliot expedition provenance and dating uncertainty. They are portable cloth paintings, not detached cave-wall murals.
+
+New notes are short paraphrases of photographed labels and linked primary records. Where an individual online record has not been verified, the page cites the photographed label rather than presenting a generic URL as a verified object source. Original labels are retained locally, not published in galleries. All sources are recorded in `works.json`.
