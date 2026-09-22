@@ -1,5 +1,34 @@
 (() => {
   'use strict';
+  document.querySelectorAll('.painting-filters').forEach(filters => {
+    const cards = [...document.querySelectorAll('.painting-card')];
+    const sections = [...document.querySelectorAll('.period-section')];
+    const buttons = [...filters.querySelectorAll('[data-painting-filter]')];
+    function select(tag) {
+      cards.forEach(card => { card.hidden = tag !== 'all' && !card.dataset.tags.split(' ').includes(tag); });
+      sections.forEach(section => {
+        const count = section.querySelectorAll('.painting-card:not([hidden])').length;
+        section.hidden = count === 0;
+        document.querySelectorAll('.period-nav a').forEach(link => {
+          if (link.getAttribute('href') !== '#' + section.id) return;
+          link.hidden = count === 0;
+          const badge = link.querySelector('span');
+          if (badge) badge.textContent = count;
+        });
+      });
+      buttons.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.paintingFilter === tag)));
+      filters.querySelector('.filter-result').textContent = `显示 ${cards.filter(card => !card.hidden).length} 件作品 · 同一件作品可以属于多个题材`;
+    }
+    buttons.forEach(button => button.addEventListener('click', () => select(button.dataset.paintingFilter)));
+    filters.hidden = false; select('all');
+    function revealPeriod() {
+      if (sections.some(section => '#' + section.id === location.hash && section.hidden)) {
+        select('all'); document.getElementById(location.hash.slice(1)).scrollIntoView({block:'start'});
+      }
+    }
+    window.addEventListener('hashchange', revealPeriod);
+  });
+
   document.querySelectorAll('[data-gallery]').forEach(gallery => {
     const slides = [...gallery.querySelectorAll('.slide')];
     const controls = gallery.querySelector('.gallery-controls');

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21",
+  "updated": "2026-09-22",
   "museum": "纳尔逊－阿特金斯艺术博物馆",
   "exhibition": {
     "title": "Legendary Landscapes: Sublime Visions from China’s Song Dynasty",
@@ -78,7 +78,10 @@
       "museum": "纳尔逊－阿特金斯艺术博物馆",
       "unit": "scrolls",
       "batch": 1,
-      "cover_reason": "本批仅有这一张作品照片；保留真实拍摄效果。"
+      "cover_reason": "本批仅有这一张作品照片；保留真实拍摄效果。",
+      "tags": [
+        "landscape"
+      ]
     },
     {
       "id": "li-cheng-temple",
@@ -122,7 +125,10 @@
       "museum": "纳尔逊－阿特金斯艺术博物馆",
       "unit": "scrolls",
       "batch": 1,
-      "cover_reason": "逐张复核后保留：现有照片中作品主体较清楚、构图最完整的一张。"
+      "cover_reason": "逐张复核后保留：现有照片中作品主体较清楚、构图最完整的一张。",
+      "tags": [
+        "landscape"
+      ]
     },
     {
       "id": "xu-daoning-fishermen",
@@ -184,7 +190,10 @@
       "museum": "纳尔逊－阿特金斯艺术博物馆",
       "unit": "scrolls",
       "batch": 1,
-      "cover_reason": "渔舟与岸边树林清楚，替换以展柜为主的359号全景。"
+      "cover_reason": "渔舟与岸边树林清楚，替换以展柜为主的359号全景。",
+      "tags": [
+        "landscape"
+      ]
     },
     {
       "id": "winter-mountains",
@@ -219,7 +228,10 @@
       "museum": "纳尔逊－阿特金斯艺术博物馆",
       "unit": "scrolls",
       "batch": 1,
-      "cover_reason": "本批仅有这一张作品照片；保留真实拍摄效果。"
+      "cover_reason": "本批仅有这一张作品照片；保留真实拍摄效果。",
+      "tags": [
+        "landscape"
+      ]
     },
     {
       "id": "qiao-zhongchang-red-cliff",
@@ -408,7 +420,11 @@
       "museum": "纳尔逊－阿特金斯艺术博物馆",
       "unit": "scrolls",
       "batch": 1,
-      "cover_reason": "逐张复核后保留：现有照片中作品主体较清楚、构图最完整的一张。"
+      "cover_reason": "逐张复核后保留：现有照片中作品主体较清楚、构图最完整的一张。",
+      "tags": [
+        "narrative",
+        "literati"
+      ]
     },
     {
       "id": "taigu-yimin-traveling",
@@ -553,7 +569,10 @@
       "museum": "纳尔逊－阿特金斯艺术博物馆",
       "unit": "scrolls",
       "batch": 1,
-      "cover_reason": "主峰、山径和近景树木集中，较原318号空阔水面更能代表画卷。"
+      "cover_reason": "主峰、山径和近景树木集中，较原318号空阔水面更能代表画卷。",
+      "tags": [
+        "landscape"
+      ]
     },
     {
       "id": "jiang-shen-verdant",
@@ -661,7 +680,10 @@
       "museum": "纳尔逊－阿特金斯艺术博物馆",
       "unit": "scrolls",
       "batch": 1,
-      "cover_reason": "选山峰、林木与水岸相接的一段；避开300号照片中央的玻璃缝。"
+      "cover_reason": "选山峰、林木与水岸相接的一段；避开300号照片中央的玻璃缝。",
+      "tags": [
+        "landscape"
+      ]
     },
     {
       "id": "gazing-waterfall",
@@ -696,7 +718,10 @@
       "museum": "纳尔逊－阿特金斯艺术博物馆",
       "unit": "scrolls",
       "batch": 1,
-      "cover_reason": "本批仅有这一张作品照片；保留真实拍摄效果。"
+      "cover_reason": "本批仅有这一张作品照片；保留真实拍摄效果。",
+      "tags": [
+        "landscape"
+      ]
     },
     {
       "id": "li-song-red-cliff",
@@ -739,7 +764,11 @@
       "museum": "纳尔逊－阿特金斯艺术博物馆",
       "unit": "scrolls",
       "batch": 1,
-      "cover_reason": "逐张复核后保留：现有照片中作品主体较清楚、构图最完整的一张。"
+      "cover_reason": "逐张复核后保留：现有照片中作品主体较清楚、构图最完整的一张。",
+      "tags": [
+        "landscape",
+        "narrative"
+      ]
     },
     {
       "id": "ma-yuan-spring",
@@ -856,7 +885,10 @@
       "museum": "纳尔逊－阿特金斯艺术博物馆",
       "unit": "scrolls",
       "batch": 1,
-      "cover_reason": "逐张复核后保留：现有照片中作品主体较清楚、构图最完整的一张。"
+      "cover_reason": "逐张复核后保留：现有照片中作品主体较清楚、构图最完整的一张。",
+      "tags": [
+        "landscape"
+      ]
     },
     {
       "id": "xia-gui-twelve-views",
@@ -1001,7 +1033,10 @@
       "museum": "纳尔逊－阿特金斯艺术博物馆",
       "unit": "scrolls",
       "batch": 1,
-      "cover_reason": "改选烟堤晚泊，岸线、泊舟和题字共同构成较完整的局部。"
+      "cover_reason": "改选烟堤晚泊，岸线、泊舟和题字共同构成较完整的局部。",
+      "tags": [
+        "landscape"
+      ]
     },
     {
       "id": "temple-lofty-cliffs",
@@ -1036,7 +1071,10 @@
       "museum": "纳尔逊－阿特金斯艺术博物馆",
       "unit": "scrolls",
       "batch": 1,
-      "cover_reason": "本批仅有这一张作品照片；保留真实拍摄效果。"
+      "cover_reason": "本批仅有这一张作品照片；保留真实拍摄效果。",
+      "tags": [
+        "landscape"
+      ]
     },
     {
       "id": "winter-ferry",
@@ -1071,7 +1109,10 @@
       "museum": "纳尔逊－阿特金斯艺术博物馆",
       "unit": "scrolls",
       "batch": 1,
-      "cover_reason": "本批仅有这一张作品照片；保留真实拍摄效果。"
+      "cover_reason": "本批仅有这一张作品照片；保留真实拍摄效果。",
+      "tags": [
+        "landscape"
+      ]
     },
     {
       "id": "tejaprabha-assembly",
@@ -1152,7 +1193,11 @@
       "caveat": "这里保留整体关系和人物局部。展厅照片前方的观音是另一件藏品，并非壁画的一部分。",
       "url": "https://www.nelson-atkins.org/art/conservation/nelson-atkins-case-studies/",
       "featured": false,
-      "batch": 2
+      "batch": 2,
+      "tags": [
+        "murals",
+        "buddha-bodhisattva"
+      ]
     },
     {
       "id": "cisheng-ruyilun",
@@ -1191,6 +1236,10 @@
       "related": [
         "cisheng-incense",
         "cisheng-guanyin"
+      ],
+      "tags": [
+        "murals",
+        "buddha-bodhisattva"
       ]
     },
     {
@@ -1229,6 +1278,10 @@
       "batch": 2,
       "related": [
         "cisheng-guanyin"
+      ],
+      "tags": [
+        "murals",
+        "buddha-bodhisattva"
       ]
     },
     {
@@ -1267,6 +1320,10 @@
       "batch": 2,
       "related": [
         "cisheng-incense"
+      ],
+      "tags": [
+        "murals",
+        "buddha-bodhisattva"
       ]
     },
     {
@@ -1438,7 +1495,10 @@
       "caveat": "长卷分段按人物、树木与舟船的重叠关系排序；局部特写另列。作者保留为佚名，不直接署为顾恺之。",
       "url": "https://asia-archive.si.edu/object/F1914.53/",
       "featured": false,
-      "batch": 2
+      "batch": 2,
+      "tags": [
+        "narrative"
+      ]
     },
     {
       "id": "cheng-qi-tilling",
@@ -1585,6 +1645,9 @@
       "batch": 2,
       "related": [
         "cheng-qi-weaving"
+      ],
+      "tags": [
+        "narrative"
       ]
     },
     {
@@ -1768,6 +1831,9 @@
       "batch": 2,
       "related": [
         "cheng-qi-tilling"
+      ],
+      "tags": [
+        "narrative"
       ]
     },
     {
@@ -1803,7 +1869,11 @@
       "caveat": "这张照片的玻璃反光较明显，先作为现场记录保留。旧传吴道子的署名不沿用。",
       "url": "https://asia.si.edu/wp-content/uploads/2023/05/song-yuan-f1916-521_documentation.pdf",
       "featured": false,
-      "batch": 2
+      "batch": 2,
+      "tags": [
+        "buddhist-scrolls",
+        "arhat"
+      ]
     },
     {
       "id": "arhat-taming-dragon",
@@ -1866,12 +1936,16 @@
       "caveat": "封面取人物局部；全幅与装裱照片均保留，现场玻璃反光未作消除。",
       "url": "https://kimbellart.org/collection/ap-198703",
       "featured": false,
-      "batch": 2
+      "batch": 2,
+      "tags": [
+        "buddhist-scrolls",
+        "arhat"
+      ]
     },
     {
       "id": "tan-zhirui-bamboo",
       "title": "竹石图",
-      "artist": "传 Tan Zhirui",
+      "artist": "传 檀芝瑞",
       "period": "yuan",
       "date": "约1275年，宋元之际；馆方归元",
       "medium": "纸本水墨",
@@ -1896,12 +1970,16 @@
       "cover_reason": "核对本件全部照片，优先选择主体清楚、反光及遮挡较少的画面。",
       "notes": [
         "画面下方的竹与石占地不多，留出的大片空白使上方题诗也成为构图的一部分。题诗出自僧人一山一宁。",
-        "馆方将此画归为传Tan Zhirui，并记录它曾在日本松平家收藏。竹石题材与禅僧题诗有关，但它并不是一幅佛像画。"
+        "馆方将此画归为传檀芝瑞，并记录它曾在日本松平家收藏。竹石题材与禅僧题诗有关，但它并不是一幅佛像画。"
       ],
-      "caveat": "馆方同时使用“约1275年”与“元代”的分类；这里保留这个宋元交界的日期，不把它硬改成元代中期。 作者姓名暂照展签保留拼音。",
+      "caveat": "馆方同时使用“约1275年”与“元代”的分类；这里保留这个宋元交界的日期，不把它硬改成元代中期。",
       "url": "https://kimbellart.org/collection/ap-200202",
       "featured": false,
-      "batch": 2
+      "batch": 2,
+      "tags": [
+        "literati"
+      ],
+      "artist_en": "Attributed to Tan Zhirui"
     },
     {
       "id": "gong-kai-zhongshan",
@@ -1973,7 +2051,11 @@
       "caveat": "这是一件钟馗题材的人物画，放在宋元书画中，不按佛教绘画归类。",
       "url": "https://asia-archive.si.edu/object/F1938.4/",
       "featured": false,
-      "batch": 2
+      "batch": 2,
+      "tags": [
+        "narrative",
+        "literati"
+      ]
     },
     {
       "id": "dunhuang-ksitigarbha",
@@ -2008,7 +2090,11 @@
       "caveat": "来自敦煌。现场展签对10世纪末或11世纪初的断代保留余地，网页照录；玻璃反光保留。",
       "url": "https://asia-archive.si.edu/wp-content/uploads/2017/10/F1935-11_Documentation.pdf",
       "featured": false,
-      "batch": 2
+      "batch": 2,
+      "tags": [
+        "dunhuang",
+        "buddha-bodhisattva"
+      ]
     },
     {
       "id": "guimet-akasagarbha",
@@ -2043,7 +2129,11 @@
       "caveat": "现场展签列五代；法国国家藏品记录进一步列952年。年代说明保留两种精度。",
       "url": "https://pop.culture.gouv.fr/notice/joconde/50060000962",
       "featured": false,
-      "batch": 2
+      "batch": 2,
+      "tags": [
+        "murals",
+        "buddha-bodhisattva"
+      ]
     },
     {
       "id": "dunhuang-shakyamuni",
@@ -2078,7 +2168,11 @@
       "caveat": "",
       "url": "",
       "featured": false,
-      "batch": 2
+      "batch": 2,
+      "tags": [
+        "dunhuang",
+        "buddha-bodhisattva"
+      ]
     },
     {
       "id": "dunhuang-life-guanyin",
@@ -2113,7 +2207,11 @@
       "caveat": "",
       "url": "",
       "featured": false,
-      "batch": 2
+      "batch": 2,
+      "tags": [
+        "dunhuang",
+        "buddha-bodhisattva"
+      ]
     },
     {
       "id": "dunhuang-maitreya",
@@ -2148,7 +2246,11 @@
       "caveat": "",
       "url": "",
       "featured": false,
-      "batch": 2
+      "batch": 2,
+      "tags": [
+        "dunhuang",
+        "buddha-bodhisattva"
+      ]
     },
     {
       "id": "dunhuang-standing-banner",
@@ -2183,7 +2285,11 @@
       "caveat": "年代中的问号来自展签，保留为9或10世纪的不确定断代。",
       "url": "",
       "featured": false,
-      "batch": 2
+      "batch": 2,
+      "tags": [
+        "dunhuang",
+        "buddha-bodhisattva"
+      ]
     },
     {
       "id": "dunhuang-monastic-banner",
@@ -2218,7 +2324,11 @@
       "caveat": "",
       "url": "",
       "featured": false,
-      "batch": 2
+      "batch": 2,
+      "tags": [
+        "dunhuang",
+        "buddha-bodhisattva"
+      ]
     },
     {
       "id": "dunhuang-willow-guanyin",
@@ -2253,11 +2363,48 @@
       "caveat": "五代或北宋的跨代断代照录；年代目录暂放在五代下，不据此缩小作品年代。",
       "url": "",
       "featured": false,
-      "batch": 2
+      "batch": 2,
+      "tags": [
+        "dunhuang",
+        "buddha-bodhisattva"
+      ]
     }
   ],
   "hero": {
     "work": "li-cheng-temple",
     "number": 310
-  }
+  },
+  "comparison_groups": [
+    {
+      "id": "monumental-landscape",
+      "title": "北方巨碑式山水",
+      "description": "把主峰、山径、寺院与行人的大小关系放在一起看：一座山如何占满画面，又如何让人走得进去。这是观看上的比较，不把几件作品的归属或年代视为相同。",
+      "works": [
+        "li-cheng-temple",
+        "jing-hao-snow",
+        "winter-mountains",
+        "taigu-yimin-traveling"
+      ]
+    },
+    {
+      "id": "text-and-image",
+      "title": "从文学文本到图像",
+      "description": "《后赤壁赋图》与《洛神图》把故事沿手卷展开，人物会反复出现；李嵩《赤壁图》则把赤壁题意收进一幅小画。可以比较文字如何变成场景，以及画幅怎样改变阅读节奏。",
+      "works": [
+        "qiao-zhongchang-red-cliff",
+        "li-song-red-cliff",
+        "luo-river-nymph"
+      ]
+    },
+    {
+      "id": "southern-landscape",
+      "title": "南宋山水的不同展开方式",
+      "description": "夏圭的景段、马远画中的人物活动、江参连绵的林峦，可以比较疏密、留白和场景之间的过渡。放在一起看，并不意味着三者画风相同。",
+      "works": [
+        "xia-gui-twelve-views",
+        "ma-yuan-spring",
+        "jiang-shen-verdant"
+      ]
+    }
+  ]
 }

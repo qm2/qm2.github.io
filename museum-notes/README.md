@@ -90,3 +90,8 @@ The new batch adds approximately 19.5 MB of unchanged JPEGs. Total website conte
 ## Painting expansion and topic links, 2026-09-21
 
 Chinese painting now includes 32 works / 150 photographs from two ZIP batches (197 inputs). The homepage cover is attributed Li Cheng's *A Solitary Temple Amid Clearing Peaks*. The Chinese Buddhist Art section now links to 14 Buddhist paintings, including an independent seven-work Dunhuang unit. All painting data and canonical work pages remain under `chinese-painting/`; the two topic indexes reuse those records and images. Run `python3 scripts/build_paintings.py` then `python3 scripts/build_museum.py` to regenerate. See the painting README for the full cover and intake audit.
+
+
+## Main painting index reduced, 2026-09-22
+
+The Chinese painting homepage now counts/displays 18 traditional painting works, with overlapping subject filters. Fourteen Buddhist paintings remain in their own topic indexes; 32 total canonical work pages remain. Three reciprocal comparison groups connect ten works with editorial explanations. See the painting README for the tag and relationship schema. The bamboo painting's Chinese attribution follows the user's requested spelling, while the museum's English attribution remains in the detail page.

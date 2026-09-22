@@ -6,6 +6,8 @@ ROOT=Path(__file__).resolve().parents[1]
 PAGE=ROOT/'museum-notes/chinese-painting'
 data=json.loads((PAGE/'data/works.json').read_text())
 works=data['works'];periods=data['periods'];names={p[0]:p[1] for p in periods}
+main_works=[w for w in works if w['unit']=='scrolls']
+main_periods=[p for p in periods if any(w['period']==p[0] for w in main_works)]
 
 def asset(work,number):
     return next(p for p in work['sequence']+work['extras'] if p['number']==number)
@@ -37,18 +39,33 @@ def gallery(w,photos,title,gid,sequence=False):
 def card(w,prefix=''):
     p=asset(w,w['cover'])
     detail=w.get('cover_kind') or ('局部' if w['form']=='手卷' or w['cover'] in [375,443] else '全貌')
-    return f'''<article class="painting-card" data-unit="{w['unit']}"><a class="painting-thumb" href="{prefix}{w['id']}/">{picture(p,prefix+'images/',w['title']+' · '+p['caption'])}<span class="cover-kind">{detail}</span></a><div class="painting-card-body"><p class="painting-artist">{e(w['artist'])} · {e(w['form'])}</p><h3><a href="{prefix}{w['id']}/">{e(w['title'])}</a></h3><p>{e(w['date'])}</p><p class="card-museum">{e(w['museum'])}</p><a class="text-link" href="{prefix}{w['id']}/">{'逐段看画' if w['form']=='手卷' else '查看作品'} →</a></div></article>'''
+    return f'''<article class="painting-card" data-unit="{w['unit']}" data-tags="{e(' '.join(w.get('tags',[])))}"><a class="painting-thumb" href="{prefix}{w['id']}/">{picture(p,prefix+'images/',w['title']+' · '+p['caption'])}<span class="cover-kind">{detail}</span></a><div class="painting-card-body"><p class="painting-artist">{e(w['artist'])} · {e(w['form'])}</p><h3><a href="{prefix}{w['id']}/">{e(w['title'])}</a></h3><p>{e(w['date'])}</p><p class="card-museum">{e(w['museum'])}</p><a class="text-link" href="{prefix}{w['id']}/">{'逐段看画' if w['form']=='手卷' else '查看作品'} →</a></div></article>'''
+
+def filters(items,choices):
+    buttons=f'<button type="button" data-painting-filter="all" aria-pressed="true">全部 <span>{len(items)}</span></button>'
+    for key,label in choices:
+        count=sum(key in w.get('tags',[]) for w in items)
+        if count:buttons+=f'<button type="button" data-painting-filter="{key}" aria-pressed="false">{label} <span>{count}</span></button>'
+    return f'<div class="painting-filters wrap" aria-label="按题材浏览" hidden>{buttons}<p class="filter-result" role="status" aria-live="polite"></p></div>'
+
+def comparisons(w):
+    groups=[g for g in data.get('comparison_groups',[]) if w['id'] in g['works']]
+    if not groups:return ''
+    body=''
+    for g in groups:
+        links=''.join(f'<a href="../{wid}/">《{e(next(o["title"] for o in works if o["id"]==wid))}》 →</a>' for wid in g['works'] if wid!=w['id'])
+        body+=f'<div class="comparison-group"><h3>{e(g["title"])}</h3><p>{e(g["description"])}</p><div class="comparison-links">{links}</div></div>'
+    return f'<section class="work-comparisons wrap" aria-labelledby="compare-title"><h2 id="compare-title">你可能还想比较</h2>{body}</section>'
 
 unit_names={'scrolls':'宋元书画','murals':'寺院壁画','buddhist-scrolls':'佛教卷轴画','dunhuang':'敦煌绘画'}
 for index,w in enumerate(works):
     target=PAGE/w['id'];target.mkdir(exist_ok=True)
     rows=''.join(f'<div><dt>{label}</dt><dd>{e(value)}</dd></div>' for label,value in [('作者',w['artist']),('年代',w['date']),('形制',w['form']),('材质',w['medium']),('馆藏编号',w['accession'])])
+    if w.get('artist_en'):rows+=f'<div><dt>馆方署名</dt><dd lang="en">{e(w["artist_en"])}</dd></div>'
     paragraphs=''.join(f'<p>{e(p)}</p>' for p in w['notes'])
     note=f'<p class="record-note">{e(w["caveat"])}</p>' if w['caveat'] else ''
     extras=gallery(w,w['extras'],'全景、细节与题跋','extras') if w['extras'] else ''
     related_ids=w.get('related',[])
-    if w['id'] in ['qiao-zhongchang-red-cliff','li-song-red-cliff']:
-        related_ids=['li-song-red-cliff' if w['id']=='qiao-zhongchang-red-cliff' else 'qiao-zhongchang-red-cliff']
     related=''
     for rid in related_ids:
         ow=next(o for o in works if o['id']==rid)
@@ -60,30 +77,35 @@ for index,w in enumerate(works):
     return_url=f"../#{w['period']}";return_name='中国书画'
     if w['unit']=='dunhuang':return_url='../../dunhuang-painting/';return_name='敦煌绘画'
     elif w['unit']!='scrolls':return_url='../../buddhist-painting/#'+w['unit'];return_name='佛教绘画'
+    period_crumb=f'<a href="../#{w["period"]}">{names[w["period"]]}</a>' if w['unit']=='scrolls' else f'<span>{names[w["period"]]}</span>'
+    directory_link=f'<a href="{return_url}">在{return_name}中查看 →</a>'
     source=f'<br><a href="{e(w["url"])}" target="_blank" rel="noopener noreferrer">馆方资料 ↗</a>' if w['url'] else ''
-    content=f'''<nav class="breadcrumbs wrap" aria-label="当前位置"><a href="../../">博物馆札记</a><span>/</span><a href="{return_url}">{return_name}</a><span>/</span><a href="../#{w['period']}">{names[w['period']]}</a></nav>
+    content=f'''<nav class="breadcrumbs wrap" aria-label="当前位置"><a href="../../">博物馆札记</a><span>/</span><a href="{return_url}">{return_name}</a><span>/</span>{period_crumb}</nav>
 <header class="work-heading wrap"><p class="eyebrow">{names[w['period']]} / {e(w['form'])}</p><h1>{e(w['title'])}</h1><p class="work-byline">{e(w['artist'])} · {e(w['museum'])}</p></header>
 {gallery(w,w['sequence'],'看画','painting',True)}
-<section class="work-notes wrap"><div><h2>作品札记</h2>{paragraphs}{note}{related}</div><aside><dl>{rows}</dl><p class="source">基本信息据现场展签整理。{source}</p><p class="source">照片 © Merton</p><p class="source"><a href="../#{w['period']}">在中国书画年代目录中查看 →</a></p></aside></section>
-{extras}<nav class="work-pagination wrap" aria-label="前后作品">{prevlink}<a href="{return_url}">返回{return_name}</a>{nextlink}</nav>'''
+<section class="work-notes wrap"><div><h2>作品札记</h2>{paragraphs}{note}{related}</div><aside><dl>{rows}</dl><p class="source">基本信息据现场展签整理。{source}</p><p class="source">照片 © Merton</p><p class="source">{directory_link}</p></aside></section>
+{comparisons(w)}{extras}<nav class="work-pagination wrap" aria-label="前后作品">{prevlink}<a href="{return_url}">返回{return_name}</a>{nextlink}</nav>'''
     (target/'index.html').write_text(frame(w['title'],content,1,f'{w["artist"]}《{w["title"]}》，{w["date"]}。Merton在{w["museum"]}拍摄的作品照片与札记。'))
 
-nav=''.join(f'<a href="#{key}">{name}<span>{sum(w["period"]==key for w in works)}</span></a>' for key,name,_ in periods)
+nav=''.join(f'<a href="#{key}">{name}<span>{sum(w["period"]==key for w in main_works)}</span></a>' for key,name,_ in main_periods)
 sections=''
-for key,name,description in periods:
-    cards=''.join(card(w) for w in works if w['period']==key)
+for key,name,description in main_periods:
+    cards=''.join(card(w) for w in main_works if w['period']==key)
     sections+=f'<section class="period-section wrap" id="{key}" aria-labelledby="heading-{key}"><div class="period-heading"><h2 id="heading-{key}">{name}</h2><p>{description}</p></div><div class="paintings-grid">{cards}</div></section>'
+main_filters=filters(main_works,[('landscape','山水'),('narrative','人物 / 叙事'),('literati','文人画')])
 hero_work=next(w for w in works if w['id']==data['hero']['work']);hero=asset(hero_work,data['hero']['number'])
 featured_ids=['qiao-zhongchang-red-cliff','xu-daoning-fishermen','jiang-shen-verdant','taigu-yimin-traveling','xia-gui-twelve-views','luo-river-nymph','gong-kai-zhongshan']
 featured=''.join(f'<a href="{wid}/">{next(w["title"] for w in works if w["id"]==wid)} ↗</a>' for wid in featured_ids)
 counts={unit:sum(w['unit']==unit for w in works) for unit in unit_names}
-content=f'''<section class="painting-intro wrap"><p class="eyebrow">CHINESE PAINTING &amp; CALLIGRAPHY</p><h1>中国书画</h1><p class="subtitle">从看过的宋元书画，慢慢往前后整理。</p><div class="painting-intro-meta"><span>{len(works)} 件作品</span><span>{len(set(w['museum'] for w in works))} 家博物馆</span><span>摄影 / Merton</span></div>
+content=f'''<section class="painting-intro wrap"><p class="eyebrow">CHINESE PAINTING &amp; CALLIGRAPHY</p><h1>中国书画</h1><p class="subtitle">从看过的宋元书画，慢慢往前后整理。</p><div class="painting-intro-meta"><span>{len(main_works)} 件作品</span><span>{len(set(w['museum'] for w in main_works))} 家博物馆</span><span>摄影 / Merton</span></div>
 <div class="painting-lead"><figure class="painting-banner"><a href="{hero_work['id']}/">{picture(hero,'images/','传李成《晴峦萧寺图》',True)}</a><figcaption>传 李成《晴峦萧寺图》 · 北宋</figcaption></figure><div class="lead-copy"><p class="eyebrow">从这幅开始</p><h2>晴峦萧寺图</h2><p>先看山脚的行人，再找半山的寺院。整座山的尺度，是被这些很小的人和建筑慢慢带出来的。</p><a class="text-link" href="li-cheng-temple/">看这幅画 →</a><div class="lead-second"><h3>再展开《后赤壁赋图》</h3><p>沿着苏轼的文字和人物的行踪，一段一段看。</p><a href="qiao-zhongchang-red-cliff/">进入长卷 →</a></div></div></div></section>
 <section class="painting-start wrap"><h2>也可以从这些作品看起</h2><div class="featured-works">{featured}</div></section>
-<section class="painting-units wrap" aria-label="专题入口"><a href="#chronology"><h3>按时代看画</h3><p>从唐、五代到宋元，以宋元书画为主。</p><span>{len(works)} 件 · 进入年代目录 ↓</span></a><a href="../dunhuang-painting/"><h3>敦煌绘画</h3><p>供养画、菩萨幡与画中的供养人。</p><span>{counts['dunhuang']} 件 · 单独成篇 →</span></a><a href="../buddhist-painting/"><h3>佛教绘画</h3><p>寺院壁画、罗汉画与敦煌绘画。</p><span>{len(works)-counts['scrolls']} 件 · 进入专题 →</span></a></section>
+
+<section class="genre-intro wrap"><h2>从题材与观看方式进入</h2><p>山水、人物叙事与文人画可以交叉看。书法等有独立作品时再展开。</p><span class="pending-category">书法 · 待补</span></section>{main_filters}
 <nav class="period-nav wrap" id="chronology" aria-label="按时代浏览">{nav}</nav>{sections}
-<aside class="editorial-note wrap"><h2>关于这些照片</h2><p>第一批是在纳尔逊－阿特金斯艺术博物馆 <a href="{data['exhibition']['url']}" target="_blank" rel="noopener noreferrer">Legendary Landscapes</a> 展览中拍摄的13件作品。后来补入弗利尔、金贝尔和吉美的绘画，以及纳尔逊的寺院壁画。</p><p>年代目录收录全部作品；敦煌与佛教绘画也有独立的专题入口。金与南宋在时间上并存，跨朝代的断代和“传”的署名都在作品页保留。</p><p>封面逐件选取较清楚、有代表性的画面，长卷封面注明局部。看画页保留原有次序、全景和题跋；反光或遮挡明显但没有替代照片的作品，仍作为现场记录留下。</p></aside>'''
-(PAGE/'index.html').write_text(frame('中国书画',content,description=f'Merton在博物馆拍摄的{len(works)}件中国绘画：宋元书画、敦煌绘画与寺院壁画。'))
+<aside class="related-topics wrap"><p>也看佛教绘画：<a href="../dunhuang-painting/">敦煌绘画 · {counts['dunhuang']} 件 →</a>　<a href="../buddhist-painting/">全部佛教绘画 · {len(works)-counts['scrolls']} 件 →</a></p></aside>
+<aside class="editorial-note wrap"><h2>关于这些照片</h2><p>第一批是在纳尔逊－阿特金斯艺术博物馆 <a href="{data['exhibition']['url']}" target="_blank" rel="noopener noreferrer">Legendary Landscapes</a> 展览中拍摄的13件作品。这里也收录了弗利尔的人物与耕织图，以及金贝尔的《竹石图》。</p><p>主目录收录传世书画。敦煌供养画、幡画、寺院壁画与罗汉画放在佛教绘画专题中。金与南宋在时间上并存，跨朝代的断代和“传”的署名都在作品页保留。</p><p>封面逐件选取较清楚、有代表性的画面，长卷封面注明局部。看画页保留原有次序、全景和题跋；反光或遮挡明显但没有替代照片的作品，仍作为现场记录留下。</p></aside>'''
+(PAGE/'index.html').write_text(frame('中国书画',content,description=f'Merton在博物馆拍摄的{len(main_works)}件传世中国书画，按时代与题材浏览，并沿作品间的比较线索展开。'))
 
 # Topic pages reference the same canonical work pages and images.
 dunhuang=[w for w in works if w['unit']=='dunhuang']
@@ -95,10 +117,11 @@ for slug,title,items in [('dunhuang-painting','敦煌绘画',dunhuang),('buddhis
         note='这些作品画在绢或麻布上，并非从洞窟墙面切下来的壁画。吉美这组的展签注明来自莫高窟、属伯希和1906—1909年考察带回的藏品；弗利尔的地藏像另见其作品资料。'
     else:
         intro='从寺院墙面上的佛与菩萨，到可以悬挂的罗汉画与敦煌幡画。先按作品原来的形制和环境放在一起，再慢慢补。'
-        groups=[('murals','寺院壁画',[w for w in items if w['unit']=='murals']),('buddhist-scrolls','佛教卷轴画',[w for w in items if w['unit']=='buddhist-scrolls']),('dunhuang','敦煌绘画',dunhuang)]
-        note='宋元佛画暂不按朝代拆成很小的栏目。罗汉画放在“佛教卷轴画”，广胜寺与慈胜寺等壁画放在“寺院壁画”；敦煌自成一个单元。每件作品仍可从中国书画的年代目录找到。'
+        groups=[('murals','寺院壁画',[w for w in items if w['unit']=='murals']),('buddhist-scrolls','罗汉',[w for w in items if w['unit']=='buddhist-scrolls']),('dunhuang','敦煌绘画',dunhuang)]
+        note='宋元佛画暂不按朝代拆成很小的栏目。两幅罗汉画放在一起，广胜寺与慈胜寺等壁画放在“寺院壁画”；敦煌自成一个单元。佛菩萨画像也可以跨敦煌、壁画两组比较。'
     links=''.join(f'<a href="#{gid}">{gtitle}<span>{len(gitems)}</span></a>' for gid,gtitle,gitems in groups)
     body=f'<nav class="breadcrumbs wrap"><a href="../">博物馆札记</a><span>/</span><a href="../chinese-buddhist-art/">中国佛教艺术</a><span>/</span><span>{title}</span></nav><header class="painting-intro wrap"><p class="eyebrow">CHINESE BUDDHIST ART / PAINTING</p><h1>{title}</h1><p class="subtitle">{intro}</p><p class="intro">{len(items)} 件作品 · 摄影 / Merton</p><p class="topic-return"><a href="../chinese-painting/">中国书画年代目录 →</a>　<a href="../buddhist-painting/">佛教绘画 →</a>　<a href="../dunhuang-painting/">敦煌绘画 →</a></p></header><nav class="period-nav wrap">{links}</nav>'
+    if slug=='buddhist-painting':body+=filters(items,[('dunhuang','敦煌'),('murals','寺院壁画'),('arhat','罗汉'),('buddha-bodhisattva','佛菩萨画像')])
     for gid,gtitle,gitems in groups:
         body+=f'<section class="period-section wrap" id="{gid}"><div class="period-heading"><h2>{gtitle}</h2></div><div class="paintings-grid">'+''.join(card(w,'../chinese-painting/') for w in gitems)+'</div></section>'
     body+=f'<aside class="editorial-note wrap"><h2>这一单元</h2><p>{note}</p></aside>'
