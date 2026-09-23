@@ -1,0 +1,977 @@
+{
+  "title": "卡拉瓦乔",
+  "researched": "2026-09-22",
+  "museums": {
+    "kimbell": "金贝尔艺术博物馆 · 沃思堡",
+    "borghese": "博尔盖塞美术馆 · 罗马",
+    "capitoline": "卡比托利欧博物馆 · 罗马",
+    "barberini": "巴贝里尼宫 · 罗马",
+    "corsini": "巴贝里尼—科尔西尼国家古代艺术美术馆 · 罗马",
+    "louvre": "卢浮宫 · 巴黎",
+    "met": "大都会艺术博物馆 · 纽约",
+    "uffizi": "乌菲齐美术馆 · 佛罗伦萨",
+    "nelson": "纳尔逊－阿特金斯艺术博物馆 · 堪萨斯城",
+    "vatican": "梵蒂冈博物馆",
+    "louis": "圣路易吉法国人教堂 · 罗马",
+    "agostino": "圣奥古斯丁教堂 · 罗马"
+  },
+  "periods": [
+    {
+      "id": "early",
+      "title": "早年罗马",
+      "range": "1590年代",
+      "intro": "牌桌、果篮、音乐与神话。人离画面很近，颜色也还明亮。"
+    },
+    {
+      "id": "rome",
+      "title": "罗马时期的宗教画",
+      "range": "1599—1606",
+      "intro": "从私人画室走进礼拜堂。圣经故事里的手、脚和目光，都有了具体的重量。"
+    },
+    {
+      "id": "late",
+      "title": "转折与最后几年",
+      "range": "1606—1610",
+      "intro": "从1606年前后的沉思，到生命末年的几件画。动作渐少，情绪更难一眼读尽。"
+    },
+    {
+      "id": "question",
+      "title": "留下一个问号",
+      "range": "归属讨论",
+      "intro": "也把尚无定论的作品留下来，保留展签上的问号。"
+    }
+  ],
+  "groups": [
+    {
+      "id": "deception",
+      "title": "牌桌与手相",
+      "text": "目光吸引注意，手在另一处完成骗局。两幅《占卜者》与《纸牌作弊者》连着看。",
+      "works": [
+        "cardsharps",
+        "fortune-capitoline",
+        "fortune-louvre"
+      ]
+    },
+    {
+      "id": "john",
+      "title": "四次画约翰",
+      "text": "从抱公羊的笑容，到荒野里的沉思，再到晚年的疲惫。同一位圣人，没有固定的面孔。",
+      "works": [
+        "john-capitoline",
+        "john-corsini",
+        "john-nelson",
+        "john-borghese"
+      ]
+    },
+    {
+      "id": "matthew",
+      "title": "一座礼拜堂的三面墙",
+      "text": "左壁蒙召，中央书写，右壁殉道。一起看，也回到它们原来的空间。",
+      "works": [
+        "calling-matthew",
+        "inspiration-matthew",
+        "martyrdom-matthew"
+      ]
+    },
+    {
+      "id": "heads",
+      "title": "同样是被斩下的头",
+      "text": "《美杜莎》的惊惧、《朱迪思》的动作，以及《大卫》停下来的目光。",
+      "works": [
+        "medusa",
+        "judith",
+        "david"
+      ]
+    },
+    {
+      "id": "quiet",
+      "title": "把动作收起来",
+      "text": "书写、凝视头骨、否认自己的身份。几只手就足以撑起整个画面。",
+      "works": [
+        "saint-jerome",
+        "francis",
+        "denial-peter"
+      ]
+    },
+    {
+      "id": "young",
+      "title": "早年的年轻面孔",
+      "text": "果篮、酒杯和乐器都被放到身前。身体与静物一起占据画面。",
+      "works": [
+        "boy-fruit",
+        "sick-bacchus",
+        "bacchus",
+        "musicians"
+      ]
+    },
+    {
+      "id": "altars",
+      "title": "祭坛画的不同去向",
+      "text": "有的还在原处，有的被撤下，有的被运到巴黎又归还。收藏史从委托时就已经开始。",
+      "works": [
+        "madonna-pilgrims",
+        "madonna-palafrenieri",
+        "death-virgin",
+        "entombment"
+      ]
+    }
+  ],
+  "photos": {
+    "490": {
+      "file": "caravaggio-490.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "7d265f8c125e02077f2faedfac1efb10dfd50957d260f7b2b5e7895fad31f713"
+    },
+    "512": {
+      "file": "caravaggio-512.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "189047956440d0522821086a8302fbb5c877c949e7638fff9f7d3d434263336f"
+    },
+    "470": {
+      "file": "caravaggio-470.jpg",
+      "width": 1707,
+      "height": 1280,
+      "sha256": "852e5791e329d86f5deb92b8a943268f5882f8dcf22a3ac17b71a3d8d7944cdf"
+    },
+    "480": {
+      "file": "caravaggio-480.jpg",
+      "width": 1702,
+      "height": 1276,
+      "sha256": "ed264de90e4d869960c56c15e204556589aaa1457e156c0ea14ed2f8626054a2"
+    },
+    "508": {
+      "file": "caravaggio-508.jpg",
+      "width": 1702,
+      "height": 1276,
+      "sha256": "51943f9480a291a1735589a6f0928c2a0a311022693009c1fde1ec4e50b9f1b9"
+    },
+    "502": {
+      "file": "caravaggio-502.jpg",
+      "width": 1702,
+      "height": 1276,
+      "sha256": "228fea5f7c57de8aeca8ef3f7e9ef9dc24a07a090c0522bea7ab3b38e30f3a93"
+    },
+    "514": {
+      "file": "caravaggio-514.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "748d16cf36df2b0f58fbded1d8d2d3958c855c9555b1b2be356dcc569a6af1f6"
+    },
+    "518": {
+      "file": "caravaggio-518.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "37eb0b6ded404829673aaf9421b1d6540b2f85a89b996d142d02d30d23ffe09b"
+    },
+    "477": {
+      "file": "caravaggio-477.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "884582ed9ac5f2aeefc218a865b7c9855184ed34a2f8805e28d298ad77e2295a"
+    },
+    "478": {
+      "file": "caravaggio-478.jpg",
+      "width": 1702,
+      "height": 1276,
+      "sha256": "18b3ad6cb7b9c46a502a4569ea2da75dfe1d50e52e41430681279976d83d4543"
+    },
+    "475": {
+      "file": "caravaggio-475.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "aa7cc20737dc2a27e1c4129f2f8dad0b246cf9d500f81439f279336c97b545bb"
+    },
+    "476": {
+      "file": "caravaggio-476.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "1ce320183f6007f399c11fde16ae3be702e2493ba1af282caff731f9b0e0774e"
+    },
+    "498": {
+      "file": "caravaggio-498.jpg",
+      "width": 1702,
+      "height": 1276,
+      "sha256": "ae8292b3bd569589ec41819a8eecd6b9892b011e30c510df63a49fd57649c571"
+    },
+    "520": {
+      "file": "caravaggio-520.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "0bc6a34bcceb6745861b3694fa8504477c7ba8f1a266372f468377f96f97b17e"
+    },
+    "504": {
+      "file": "caravaggio-504.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "17637a08619bf57ab28c6d3e4ab85c5d0e2321e0124c751136b630d13f618f2f"
+    },
+    "516": {
+      "file": "caravaggio-516.jpg",
+      "width": 1702,
+      "height": 1276,
+      "sha256": "c44079a1264070d11689d6d4973ea1ecb27d1e4cfcc01509066a9e52fcde6066"
+    },
+    "496": {
+      "file": "caravaggio-496.jpg",
+      "width": 1702,
+      "height": 1276,
+      "sha256": "9bc0252257d6abc521493b474038afffd2aa1ff0d22ea931726336e5bb2cbbb3"
+    },
+    "521": {
+      "file": "caravaggio-521.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "31a98e3eab405b13e2efd856e637e0b8b75e3230bc4121de3d5d550c1db1e45d"
+    },
+    "500": {
+      "file": "caravaggio-500.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "f99b0b6780af43501636e040194f7a4e86128cb1606209badb67e14d742bb003"
+    },
+    "472": {
+      "file": "caravaggio-472.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "ac54789ea7ce41a8e85fbb17a5e004e6c98240f1b04a7c4541fcfa87989792c3"
+    },
+    "473": {
+      "file": "caravaggio-473.jpg",
+      "width": 1702,
+      "height": 1276,
+      "sha256": "ce9d7e20cbfcbbdffd3f51ba807024eef270f4c3a042fbfcf58513fda413444f"
+    },
+    "482": {
+      "file": "caravaggio-482.jpg",
+      "width": 1702,
+      "height": 1276,
+      "sha256": "1814fbe753faaebd9562569276a8ac288093b133e314ae667d8e793f090620eb"
+    },
+    "486": {
+      "file": "caravaggio-486.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "f771f514c08d08685f5724172cbbb7b38523bb584dc3584cd4c3369b39713c3b"
+    },
+    "510": {
+      "file": "caravaggio-510.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "846f018e4ba21cf39bd925d593625cbe6a8e116ba7010690ce35a8a47d0d22f7"
+    },
+    "494": {
+      "file": "caravaggio-494.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "b9e256a8b2d96ba8084ed1983875b59e7b57b6f4665f8ce6fe9e33a807da5ee9"
+    },
+    "484": {
+      "file": "caravaggio-484.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "e24b9a6227f5f6509d7eaf31e5d2ec1d88e326ac9035778892b69b6e96f6e547"
+    },
+    "488": {
+      "file": "caravaggio-488.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "43507622bd5c05c19ad497a215d7538a233e4199e422cab8be5113f911830c51"
+    },
+    "506": {
+      "file": "caravaggio-506.jpg",
+      "width": 1702,
+      "height": 1276,
+      "sha256": "bf12caf18965971fd1a46f60f5301aecbb50d507d0bb801d5b236463a86c806a"
+    },
+    "492": {
+      "file": "caravaggio-492.jpg",
+      "width": 1280,
+      "height": 1707,
+      "sha256": "498fc861fc1aaa14714d2659cafdc72a630c962b595acf2605beda8b3e5825dc"
+    }
+  },
+  "works": [
+    {
+      "id": "sick-bacchus",
+      "photo": "caravaggio-490.jpg",
+      "source_number": 490,
+      "title": "病中的酒神",
+      "original_title": "Self-portrait as Bacchus / Bacchino malato",
+      "date": "1593—1595年",
+      "year": 1594,
+      "period": "early",
+      "museum": "borghese",
+      "accession": "534",
+      "tags": [
+        "myth",
+        "early"
+      ],
+      "observation": "脸色发白，嘴唇也没有多少血色，手里的葡萄却还饱满。和乌菲齐的《酒神》并排看，这个年轻人显得更局促。",
+      "story": "博尔盖塞将它题作“扮作酒神的自画像”。“病中”的叫法来自对人物气色的解释，不能据此替画家诊断某种疾病。这幅画原在阿尔皮诺骑士的收藏中；1607年，其藏画被没收，随后由教皇保罗五世赠给侄子希皮奥内·博尔盖塞。",
+      "source_url": "https://www.collezionegalleriaborghese.it/en/opere/self-portrait-as-bacchus-known-as-sick-bacchus",
+      "source_note": "",
+      "artist": "卡拉瓦乔",
+      "material": "布面油画",
+      "label_number": 491
+    },
+    {
+      "id": "boy-fruit",
+      "photo": "caravaggio-512.jpg",
+      "source_number": 512,
+      "title": "捧果篮的男孩",
+      "original_title": "Boy with a Basket of Fruit",
+      "date": "约1595年",
+      "year": 1595,
+      "period": "early",
+      "museum": "borghese",
+      "accession": "136",
+      "tags": [
+        "early"
+      ],
+      "observation": "露出的肩膀、张开的嘴和拥到胸前的果篮挤在一处。果实有光泽，叶子却卷曲、破损；这篮水果并没有被画得样样完美。",
+      "story": "这幅画与《病中的酒神》有同一段收藏经历：1607年从阿尔皮诺骑士被没收的藏画中，转入博尔盖塞家族。它属于画家早年在罗马的作品，花果也让人看见他观察自然的本领。",
+      "source_url": "https://www.collezionegalleriaborghese.it/en/opere/boy-with-basket-of-fruit",
+      "source_note": "照片中的法文展签标为约1596年；博尔盖塞线上目录标为约1595年。所属收藏与拍摄地点分开记录。",
+      "artist": "卡拉瓦乔",
+      "material": "布面油画",
+      "visit": "雅克马尔—安德烈美术馆 · 巴黎（据展签标识）",
+      "extra_source": [
+        "雅克马尔—安德烈：博尔盖塞收藏展",
+        "https://www.musee-jacquemart-andre.com/en/masterpieces-borghese-gallery"
+      ],
+      "label_number": 513
+    },
+    {
+      "id": "cardsharps",
+      "photo": "caravaggio-470.jpg",
+      "source_number": 470,
+      "title": "纸牌作弊者",
+      "original_title": "The Cardsharps",
+      "date": "约1596—1597年",
+      "year": 1596,
+      "period": "early",
+      "museum": "kimbell",
+      "accession": "AP 1987.06",
+      "tags": [
+        "deception",
+        "early"
+      ],
+      "observation": "先看三个人的手：一个专心看牌，一个在背后打手势，另一个伸向腰后的暗牌。骗局已经摆在观众面前，桌边的年轻人还不知道。",
+      "story": "德尔·蒙特枢机买下这幅画，还给卡拉瓦乔提供住处，让他进入罗马重要的赞助人圈子。画作后来有近九十年下落不明，1987年在欧洲私人收藏中重新被认出；画背发现的德尔·蒙特印记，也帮助确认了这段早期来源。",
+      "source_url": "https://kimbellart.org/collection/ap-198706",
+      "source_note": "",
+      "artist": "卡拉瓦乔",
+      "material": "布面油画",
+      "label_number": 471
+    },
+    {
+      "id": "fortune-capitoline",
+      "photo": "caravaggio-480.jpg",
+      "source_number": 480,
+      "title": "占卜者 · 罗马本",
+      "original_title": "The Fortune Teller / La buona ventura",
+      "date": "1596—1597年",
+      "year": 1597,
+      "period": "early",
+      "museum": "capitoline",
+      "accession": "PC 131",
+      "tags": [
+        "deception",
+        "early"
+      ],
+      "observation": "两个人似乎只是交换目光。真正的事情发生在画面下方：看手相的接触，给了女子悄悄取下戒指的机会。",
+      "story": "这是卡比托利欧收藏的一本，与卢浮宫本是两件不同的作品。青年衣服的条纹、头上的羽饰和女子的动作，可以逐项对照。馆方目录记录它来自皮奥收藏；作品也与德尔·蒙特早年的收藏活动有关。",
+      "source_url": "https://www.museicapitolini.org/it/opera/la-buona-ventura",
+      "source_note": "现场展签标1597年；馆方线上记录采用1596—1597年。",
+      "artist": "卡拉瓦乔",
+      "material": "布面油画",
+      "extra_source": [
+        "金贝尔：《纸牌作弊者》及德尔·蒙特收藏印记",
+        "https://kimbellart.org/collection/ap-198706"
+      ],
+      "label_number": 481
+    },
+    {
+      "id": "fortune-louvre",
+      "photo": "caravaggio-508.jpg",
+      "source_number": 508,
+      "title": "占卜者 · 巴黎本",
+      "original_title": "The Fortune Teller / La diseuse de bonne aventure",
+      "date": "约1595—1598年",
+      "year": 1597,
+      "period": "early",
+      "museum": "louvre",
+      "accession": "INV 55",
+      "tags": [
+        "deception",
+        "early"
+      ],
+      "observation": "与罗马本相比，两人的距离、脸的转向和衣服的明暗都变了。先看他们怎样握住对方的手，再找那枚几乎不显眼的戒指。",
+      "story": "卢浮宫记录了这幅画从罗马维特里奇收藏、到多利亚—潘菲利家族、再到法国王室的路径。1665年，卡米洛·潘菲利亲王将它赠给路易十四。相似的罗马街头场景，就这样分别留在意大利和法国的收藏里。",
+      "source_url": "https://collections.louvre.fr/ark:/53355/cl010062329",
+      "source_note": "",
+      "artist": "卡拉瓦乔",
+      "material": "布面油画",
+      "label_number": 509
+    },
+    {
+      "id": "musicians",
+      "photo": "caravaggio-502.jpg",
+      "source_number": 502,
+      "title": "音乐家们",
+      "original_title": "The Musicians",
+      "date": "1597年",
+      "year": 1597,
+      "period": "early",
+      "museum": "met",
+      "accession": "52.81",
+      "tags": [
+        "early"
+      ],
+      "observation": "乐器和乐谱都已经准备好，人物却还各忙各的。左边摘葡萄的有翼少年，让这次排练又带上了寓意画的意味。",
+      "story": "大都会把它放在德尔·蒙特赞助的背景下理解：枢机本人也支持音乐活动。馆方指出，右起第二个少年包含画家的自画像。1952年，作品通过罗杰斯基金进入大都会收藏。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/435844",
+      "source_note": "",
+      "artist": "卡拉瓦乔",
+      "material": "布面油画",
+      "label_number": 503
+    },
+    {
+      "id": "bacchus",
+      "photo": "caravaggio-514.jpg",
+      "source_number": 514,
+      "title": "酒神",
+      "original_title": "Bacchus / Bacco",
+      "date": "约1598年",
+      "year": 1598,
+      "period": "early",
+      "museum": "uffizi",
+      "accession": "1890 n. 5312",
+      "tags": [
+        "myth",
+        "early"
+      ],
+      "observation": "举起的酒杯几乎递到了画外。白布、酒液、皮肤和熟透的水果各有质感，人物身后的黑暗在这里还没有吞掉整个空间。",
+      "story": "这幅画属于卡拉瓦乔受德尔·蒙特支持的早年罗马作品。乌菲齐在解说中特别强调静物：果篮和酒杯与人物同样值得看。画作曾长期留在馆内库房，直到20世纪初才重新受到重视。",
+      "source_url": "https://www.uffizi.it/en/artworks/caravaggio-bacchus",
+      "source_note": "现场展签标约1595—1597年，线上目录标约1598年；两者对重新发现的具体年份也不一致（1916／1913），这里保留差异，不把某一年写成定论。",
+      "artist": "卡拉瓦乔",
+      "material": "布面油画",
+      "label_number": 515,
+      "related_notes": [
+        {
+          "work": "narcissus",
+          "reason": "以年轻人的身体承载神话，但这里仍须保留作者归属的问号。"
+        }
+      ]
+    },
+    {
+      "id": "medusa",
+      "photo": "caravaggio-518.jpg",
+      "source_number": 518,
+      "title": "美杜莎",
+      "original_title": "Head of Medusa / Testa di Medusa",
+      "date": "约1597年（据展签）",
+      "year": 1597,
+      "period": "early",
+      "museum": "uffizi",
+      "accession": "1890 n. 1351",
+      "tags": [
+        "myth",
+        "heads"
+      ],
+      "observation": "画面就在一面凸起的盾上。脸像是向内陷去，蛇却在边缘扭动；张开的嘴把惊恐留在了被斩首的一瞬间。",
+      "story": "现场展签记载，德尔·蒙特于1598年把这面仪仗盾赠给托斯卡纳大公费迪南多一世，供军械收藏陈列。美杜莎的头本就与盾牌有关：神话中的雅典娜把它作为震慑敌人的形象。这件作品连承载画面的物体，也参与了故事。",
+      "source_url": "https://www.uffizi.it/mostre-virtuali/sguardi-dal-mondo",
+      "source_note": "展签标约1597年，乌菲齐虚拟展览采用1596—1598年。材质据展签：油彩绘于覆布的杨木盾面。",
+      "artist": "卡拉瓦乔",
+      "material": "覆布杨木盾面油画",
+      "label_number": 519
+    },
+    {
+      "id": "calling-matthew",
+      "photo": "caravaggio-477.jpg",
+      "source_number": 477,
+      "title": "圣马太蒙召",
+      "original_title": "The Calling of Saint Matthew",
+      "date": "1599—1600年",
+      "year": 1600,
+      "period": "rome",
+      "museum": "louis",
+      "accession": "孔塔雷利礼拜堂 · 左壁",
+      "tags": [
+        "matthew",
+        "altar"
+      ],
+      "observation": "右边伸进来一只手，光也从同一方向越过房间。桌边有人抬头，有人还盯着钱；故事发生在反应尚未一致的那一刻。",
+      "story": "它与对面的《圣马太殉道》是卡拉瓦乔走向大型公共宗教画的重要委托。礼拜堂以赞助人马蒂厄·孔特雷尔的名字命名，题材也选取他的主保圣人马太。今天仍可在原来的左壁看见它。",
+      "source_url": "https://saintlouis-rome.net/horaires-visite-opening-hours/caravage/",
+      "source_note": "",
+      "artist": "卡拉瓦乔",
+      "material": "布面油画",
+      "extra_source": [
+        "罗马旅游局：作品与年代",
+        "https://www.turismoroma.it/it/node/18610"
+      ],
+      "context": 478,
+      "label_number": 479
+    },
+    {
+      "id": "martyrdom-matthew",
+      "photo": "caravaggio-475.jpg",
+      "source_number": 475,
+      "title": "圣马太殉道",
+      "original_title": "The Martyrdom of Saint Matthew",
+      "date": "1599—1600年",
+      "year": 1600,
+      "period": "rome",
+      "museum": "louis",
+      "accession": "孔塔雷利礼拜堂 · 右壁",
+      "tags": [
+        "matthew",
+        "altar"
+      ],
+      "observation": "中央明亮的身体把人群撕开，旁边的少年向外逃走。画里的动作往四面散开，和《蒙召》中横向推进的光很不一样。",
+      "story": "这幅画位于礼拜堂右壁，与左壁的《圣马太蒙召》相对。一个是被召唤的开始，一个是生命的结局；放回祭坛两侧，才能看清这组画的叙事范围。",
+      "source_url": "https://www.turismoroma.it/it/node/18610",
+      "source_note": "",
+      "artist": "卡拉瓦乔",
+      "material": "布面油画",
+      "context": 478,
+      "label_number": 479
+    },
+    {
+      "id": "inspiration-matthew",
+      "photo": "caravaggio-476.jpg",
+      "source_number": 476,
+      "title": "圣马太与天使",
+      "original_title": "The Inspiration of Saint Matthew",
+      "date": "1602年",
+      "year": 1602,
+      "period": "rome",
+      "museum": "louis",
+      "accession": "孔塔雷利礼拜堂 · 祭坛",
+      "tags": [
+        "matthew",
+        "altar"
+      ],
+      "observation": "天使盘旋在上方，马太回头倾听，膝下的小凳仿佛贴着画面边缘。两人的手势把天上的声音接到了桌上的文字。",
+      "story": "1602年的这幅祭坛画位于两幅侧壁画之间，表现马太撰写福音书。参观照片保留了三幅画在礼拜堂中的位置：左边蒙召，中间书写，右边殉道。",
+      "source_url": "https://www.turismoroma.it/it/node/18610",
+      "source_note": "",
+      "artist": "卡拉瓦乔",
+      "material": "布面油画",
+      "context": 478,
+      "label_number": 479
+    },
+    {
+      "id": "judith",
+      "photo": "caravaggio-498.jpg",
+      "source_number": 498,
+      "title": "朱迪思斩杀荷罗孚尼",
+      "original_title": "Judith Beheading Holofernes",
+      "date": "约1600年（据展签）",
+      "year": 1600,
+      "period": "rome",
+      "museum": "barberini",
+      "accession": "2533",
+      "tags": [
+        "heads",
+        "drama"
+      ],
+      "observation": "朱迪思伸直双臂，身体却往后退。刀、手和颈部连成一条紧绷的线，身旁老妇人的脸又把这股紧张推近了一层。",
+      "story": "作品为银行家奥塔维奥·科斯塔而作。现场展签记载，它在1950年几乎偶然地被重新发现，1971年由国家美术馆购入。比起只讲一个骇人的故事，更值得留意的是画家怎样把犹豫、用力和惊惧压在同一瞬间。",
+      "source_url": "https://www.barberinicorsini.org/wp-content/uploads/2019/12/2019_12_Barberini_AlaNord_CartellaStampa.pdf",
+      "source_note": "",
+      "artist": "卡拉瓦乔",
+      "material": "布面油画",
+      "label_number": 499,
+      "related_notes": [
+        {
+          "work": "sacrifice-isaac",
+          "reason": "刀还在手中：一次被及时拦住，一次已经落下。"
+        }
+      ]
+    },
+    {
+      "id": "john-capitoline",
+      "photo": "caravaggio-520.jpg",
+      "source_number": 520,
+      "title": "施洗者约翰 · 抱公羊的少年",
+      "original_title": "Saint John the Baptist",
+      "date": "1602年",
+      "year": 1602,
+      "period": "rome",
+      "museum": "capitoline",
+      "accession": "PC 239",
+      "tags": [
+        "john"
+      ],
+      "observation": "少年扭过身来抱着公羊，直接向画外露出笑容。和这一辑里另外三幅约翰相比，他的神情格外轻快。",
+      "story": "馆方修复资料指出，画作是1602年为奇里亚科·马泰而作，与其儿子乔瓦尼·巴蒂斯塔的名字相呼应，原用于私人宫邸。少年的姿势还让人想到西斯廷礼拜堂中的裸体青年。作品于1750年进入卡比托利欧收藏。",
+      "source_url": "https://www.museicapitolini.org/it/opera/san-giovanni-battista",
+      "source_note": "这张照片没有配套展签；据画面与卡比托利欧馆方记录核对。",
+      "artist": "卡拉瓦乔",
+      "material": "布面油画",
+      "extra_source": [
+        "卡比托利欧：修复与委托背景",
+        "https://www.museicapitolini.org/it/museo/restauri/restauro_del_san_giovanni_battista_di_caravaggio"
+      ],
+      "label_number": null
+    },
+    {
+      "id": "holy-family",
+      "photo": "caravaggio-504.jpg",
+      "source_number": 504,
+      "title": "圣家与幼年施洗者约翰",
+      "original_title": "The Holy Family with the Infant Saint John the Baptist",
+      "date": "17世纪初",
+      "year": 1602,
+      "period": "rome",
+      "museum": "met",
+      "accession": "L.1998.71（借展编号）",
+      "tags": [
+        "devotion"
+      ],
+      "observation": "两个孩子挨得很近，圣母和约瑟把他们围在中间。光线柔和，人物关系也显得亲密，可以和那些为教堂远观而作的大画换着看。",
+      "story": "大都会将它列为卡拉瓦乔作品，认为它与画家当时对安尼巴莱·卡拉奇和拉斐尔传统的关注有关。这里尤其要分清展出与所有权：现场展签和馆方页面均注明私人收藏，借展于大都会。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/438382",
+      "source_note": "",
+      "artist": "卡拉瓦乔",
+      "material": "布面油画",
+      "ownership": "私人收藏；大都会艺术博物馆借展",
+      "label_number": 505,
+      "related_notes": [
+        {
+          "work": "madonna-pilgrims",
+          "reason": "同样是圣母与孩子，私人祈祷的小画和教堂祭坛画怎样拉近观众？"
+        },
+        {
+          "work": "madonna-palafrenieri",
+          "reason": "把亲密的家庭围合，与站立、向下踩蛇的动作放在一起。"
+        }
+      ]
+    },
+    {
+      "id": "sacrifice-isaac",
+      "photo": "caravaggio-516.jpg",
+      "source_number": 516,
+      "title": "献祭以撒",
+      "original_title": "Sacrifice of Isaac",
+      "date": "约1603年",
+      "year": 1603,
+      "period": "rome",
+      "museum": "uffizi",
+      "accession": "1890 n. 4659",
+      "tags": [
+        "drama"
+      ],
+      "observation": "一只手握刀，另一只手抓住持刀的手腕。以撒朝向观众，张嘴呼喊，右边却铺开了一片罕见的明亮风景。",
+      "story": "委托人马费奥·巴贝里尼后来成为教皇乌尔班八世。付款记录支持了作品的作者归属。它在1917年由约翰·费尔法克斯·默里捐给乌菲齐，而他买下时，这幅画曾被当作赫里特·凡·洪特霍斯特的作品。",
+      "source_url": "https://www.uffizi.it/en/artworks/sacrifice-of-isaac",
+      "source_note": "现场展签标约1603—1604年；乌菲齐线上目录标约1603年。",
+      "artist": "卡拉瓦乔",
+      "material": "布面油画",
+      "label_number": 517,
+      "related_notes": [
+        {
+          "work": "judith",
+          "reason": "刀还在手中：一次被及时拦住，一次已经落下。"
+        }
+      ]
+    },
+    {
+      "id": "john-corsini",
+      "photo": "caravaggio-496.jpg",
+      "source_number": 496,
+      "title": "施洗者约翰 · 科尔西尼本",
+      "original_title": "Saint John the Baptist",
+      "date": "1603—1606年（据展签）",
+      "year": 1604,
+      "period": "rome",
+      "museum": "corsini",
+      "accession": "433",
+      "tags": [
+        "john"
+      ],
+      "observation": "青年几乎侧坐在红布上，脸转入阴影。芦苇杖和小碗没有抢占视线，先看到的是一个安静、略显脆弱的身体。",
+      "story": "这件属于科尔西尼收藏，展签注明1883年的收藏记录。画中的圣人标志被压得很低：把它与抱公羊的少年、纳尔逊馆的荒野约翰并排看，会发现同一题材可以有完全不同的姿态和情绪。",
+      "source_url": "https://barberinicorsini.org/wp-content/uploads/2022/11/Pasolini.pdf",
+      "source_note": "年代、编号和收藏信息据现场展签；馆方展览资料亦确认这幅约翰来自科尔西尼收藏。这里不据照片顺序推定它当时所在的馆舍。",
+      "artist": "卡拉瓦乔",
+      "material": "布面油画",
+      "label_number": 497
+    },
+    {
+      "id": "john-nelson",
+      "photo": "caravaggio-521.jpg",
+      "source_number": 521,
+      "title": "荒野中的施洗者约翰",
+      "original_title": "Saint John the Baptist in the Wilderness",
+      "date": "1604年",
+      "year": 1604,
+      "period": "rome",
+      "museum": "nelson",
+      "accession": "52-25",
+      "tags": [
+        "john"
+      ],
+      "observation": "大片红布围着独坐的青年，眼窝压在阴影里。画面很满，情绪却收得很深，膝、肩和手臂的转折值得慢慢看。",
+      "story": "现场展签将委托与银行家奥塔维奥·科斯塔联系起来，原本服务于热那亚附近一处私人礼拜堂的祈祷。这也是《朱迪思》那位赞助人。纳尔逊馆于1952年通过威廉·罗克希尔·纳尔逊信托购入此画。",
+      "source_url": "https://art.nelson-atkins.org/objects/1130/saint-john-the-baptist-in-the-wilderness",
+      "source_note": "",
+      "artist": "卡拉瓦乔",
+      "material": "布面油画",
+      "label_number": 522
+    },
+    {
+      "id": "entombment",
+      "photo": "caravaggio-500.jpg",
+      "source_number": 500,
+      "title": "基督下葬",
+      "original_title": "The Entombment / Deposizione",
+      "date": "约1600—1604年",
+      "year": 1604,
+      "period": "rome",
+      "museum": "vatican",
+      "accession": "40386",
+      "tags": [
+        "altar",
+        "drama"
+      ],
+      "observation": "从上方举起的双手到下方垂落的手臂，人物一层层压向石板。那块突出的石角几乎把重量推到了观众面前。",
+      "story": "吉罗拉莫·维特里切为罗马新堂的家族礼拜堂订制此画。梵蒂冈的解说提醒：画中具体表现的是把遗体放在膏抹之石上的时刻。作品1797年被运往巴黎，1816年归还后进入教皇画廊。",
+      "source_url": "https://www.museivaticani.va/content/museivaticani/it/collezioni/musei/la-pinacoteca/sala-xii---secolo-xvii/caravaggio--deposizione-dalla-croce.html",
+      "source_note": "现场展签记载作品于1604年以前完成。",
+      "artist": "卡拉瓦乔",
+      "material": "布面油画",
+      "label_number": 501
+    },
+    {
+      "id": "madonna-pilgrims",
+      "photo": "caravaggio-472.jpg",
+      "source_number": 472,
+      "title": "朝圣者圣母",
+      "original_title": "Madonna of the Pilgrims / Madonna di Loreto",
+      "date": "1604—1606年（据展签）",
+      "year": 1604,
+      "period": "rome",
+      "museum": "agostino",
+      "accession": "卡瓦莱蒂礼拜堂 · 祭坛",
+      "tags": [
+        "altar",
+        "devotion"
+      ],
+      "observation": "圣母抱着孩子站在门槛旁，跪着的两位朝圣者离她很近。最靠近观众的是一双赤脚，神圣的相遇就发生在这样日常的门口。",
+      "story": "画作为卡瓦莱蒂家族礼拜堂而作，至今仍在原来的教堂空间中。教堂资料把委托与埃尔梅特·卡瓦莱蒂关于安葬和敬奉洛雷托圣母的遗愿联系起来。全景照片也保留了祭坛周围的壁画与建筑。",
+      "source_url": "https://www.santagostinoroma.it/le-opere/madonna-dei-pellegrini/",
+      "source_note": "",
+      "artist": "卡拉瓦乔",
+      "material": "布面油画",
+      "context": 473,
+      "label_number": 474,
+      "related_notes": [
+        {
+          "work": "holy-family",
+          "reason": "同样是圣母与孩子，私人祈祷的小画和教堂祭坛画怎样拉近观众？"
+        }
+      ]
+    },
+    {
+      "id": "saint-jerome",
+      "photo": "caravaggio-482.jpg",
+      "source_number": 482,
+      "title": "写作中的圣哲罗姆",
+      "original_title": "Saint Jerome Writing",
+      "date": "1605—1606年",
+      "year": 1605,
+      "period": "rome",
+      "museum": "borghese",
+      "accession": "56",
+      "tags": [
+        "meditation"
+      ],
+      "observation": "手臂细长地伸过桌面，头骨放在另一端。红布和书页把眼睛引到那只手，画面里最有力量的动作也最小。",
+      "story": "博尔盖塞目录援引17世纪传记作家贝洛里的记述，把作品与希皮奥内·博尔盖塞的委托联系起来。不过，它进入收藏的具体时间缺少完整文书，不宜把推断写成确定的交易记录。",
+      "source_url": "https://www.collezionegalleriaborghese.it/en/opere/saint-jerome",
+      "source_note": "",
+      "artist": "卡拉瓦乔",
+      "material": "布面油画",
+      "label_number": 483
+    },
+    {
+      "id": "madonna-palafrenieri",
+      "photo": "caravaggio-486.jpg",
+      "source_number": 486,
+      "title": "圣母子与圣安妮",
+      "original_title": "Madonna and Child with Saint Anne / Madonna dei Palafrenieri",
+      "date": "1605—1606年",
+      "year": 1606,
+      "period": "rome",
+      "museum": "borghese",
+      "accession": "110",
+      "tags": [
+        "altar",
+        "devotion"
+      ],
+      "observation": "圣母与孩子把脚踩向地上的蛇，圣安妮站在旁边看。三代人的身体、目光与动作，集中在画面下方那一点。",
+      "story": "这幅“马夫圣母”由教廷马夫兄弟会订制，1606年4月在圣彼得大教堂展出后不久即被撤下，后来由博尔盖塞以100斯库迪买入。馆方明确说，撤画原因仍不确定；衣着、儿童裸体或神学问题都是讨论中的解释。",
+      "source_url": "https://www.collezionegalleriaborghese.it/en/opere/madonna-and-child-with-saint-anne-madonna-dei-palafrenieri",
+      "source_note": "",
+      "artist": "卡拉瓦乔",
+      "material": "布面油画",
+      "label_number": 487,
+      "related_notes": [
+        {
+          "work": "holy-family",
+          "reason": "把亲密的家庭围合，与站立、向下踩蛇的动作放在一起。"
+        }
+      ]
+    },
+    {
+      "id": "death-virgin",
+      "photo": "caravaggio-510.jpg",
+      "source_number": 510,
+      "title": "圣母之死",
+      "original_title": "The Death of the Virgin / La Mort de la Vierge",
+      "date": "1601年受委托；1605年底至1606年初完成",
+      "year": 1606,
+      "period": "rome",
+      "museum": "louvre",
+      "accession": "INV 54",
+      "tags": [
+        "altar",
+        "drama"
+      ],
+      "observation": "红色帷幕垂在上方，下面的人低头、掩面，围着平放的身体。没有向上升起的动作，悲伤就停留在这个房间里。",
+      "story": "画作为罗马阶梯圣母堂订制，却遭教堂方面拒收。卢浮宫的来源记录随后依次出现曼托瓦的贡扎加收藏、英国查理一世、巴黎收藏家雅巴赫，以及1671年购入它的路易十四。一幅被撤下的祭坛画，最终走过了好几座宫廷。",
+      "source_url": "https://collections.louvre.fr/ark:/53355/cl010062304",
+      "source_note": "“以溺亡女子为模特”等流行传闻，这里不作为已经证实的创作事实。",
+      "artist": "卡拉瓦乔",
+      "material": "布面油画",
+      "label_number": 511
+    },
+    {
+      "id": "francis",
+      "photo": "caravaggio-494.jpg",
+      "source_number": 494,
+      "title": "圣方济各沉思",
+      "original_title": "Saint Francis in Meditation",
+      "date": "1606年（据展签）",
+      "year": 1606,
+      "period": "late",
+      "museum": "barberini",
+      "accession": "5130",
+      "tags": [
+        "meditation"
+      ],
+      "observation": "方济各双手托着头骨，目光也落在上面。粗布修袍、石头和木十字架，把画面的声音压得很低。",
+      "story": "这件作品的故事也关乎辨认原作。馆方研究资料记载，1968年卡尔皮内托罗马诺发现的这一版本，改变了人们原先对另一幅近似作品的判断；两画的并行修复与技术研究，把原作身份归给了这里的这一幅。",
+      "source_url": "https://www.barberinicorsini.org/wp-content/uploads/2017/06/2017_06_21_CaravaggioNelPatrimonioDelFEC.pdf",
+      "source_note": "来源据馆方研究资料为卡尔皮内托罗马诺圣彼得教堂；照片展签写圣方济各教堂，保留这项差异。1606年处于离开罗马前后的交界，不据此认定具体作画地点。",
+      "artist": "卡拉瓦乔",
+      "material": "布面油画",
+      "ownership": "宗教建筑基金（FEC）所属；寄存于巴贝里尼宫",
+      "label_number": 495
+    },
+    {
+      "id": "john-borghese",
+      "photo": "caravaggio-484.jpg",
+      "source_number": 484,
+      "title": "施洗者约翰 · 博尔盖塞本",
+      "original_title": "Saint John the Baptist",
+      "date": "1609—1610年",
+      "year": 1610,
+      "period": "late",
+      "museum": "borghese",
+      "accession": "267",
+      "tags": [
+        "john"
+      ],
+      "observation": "红布还在，少年却显得松弛而疲惫。身旁的公羊低头吃叶子，人与动物没有早年那幅拥抱时的亲密动作。",
+      "story": "博尔盖塞将它与画家1610年从那不勒斯返罗马的最后旅程联系起来：画作被用来争取枢机的帮助，而画家没能回到罗马。目录记录它1611年抵达希皮奥内手中。这一幅可以作为四张约翰比较的终点。",
+      "source_url": "https://www.collezionegalleriaborghese.it/en/opere/saint-john-the-baptist",
+      "source_note": "现场展签标约1610年；线上目录标1609—1610年。",
+      "artist": "卡拉瓦乔",
+      "material": "布面油画",
+      "label_number": 485
+    },
+    {
+      "id": "david",
+      "photo": "caravaggio-488.jpg",
+      "source_number": 488,
+      "title": "大卫与歌利亚的头",
+      "original_title": "David with the Head of Goliath",
+      "date": "1609—1610年（据现场展签）",
+      "year": 1610,
+      "period": "late",
+      "museum": "borghese",
+      "accession": "455",
+      "tags": [
+        "heads",
+        "meditation"
+      ],
+      "observation": "大卫没有把胜利展示给观众。他垂眼看着手里的头，神情更接近沉默与怜悯；可以回头比较《朱迪思》仍在进行中的动作。",
+      "story": "馆方将歌利亚的脸解释为卡拉瓦乔的自画像，并介绍一种常见解释：这幅画可能是送给希皮奥内·博尔盖塞、请求教皇赦免的礼物。这个解释很动人，但送画求赦的具体用意仍应作为推测来读。",
+      "source_url": "https://www.collezionegalleriaborghese.it/en/opere/david-with-the-head-of-goliath",
+      "source_note": "线上目录也列出1606—1607年的断代意见；具体创作年份与解释均有讨论。",
+      "artist": "卡拉瓦乔",
+      "material": "布面油画",
+      "label_number": 489
+    },
+    {
+      "id": "denial-peter",
+      "photo": "caravaggio-506.jpg",
+      "source_number": 506,
+      "title": "圣彼得否认基督",
+      "original_title": "The Denial of Saint Peter",
+      "date": "1610年",
+      "year": 1610,
+      "period": "late",
+      "museum": "met",
+      "accession": "1997.167",
+      "tags": [
+        "meditation",
+        "drama"
+      ],
+      "observation": "只剩三个人和几只指向彼得的手。明亮的脸与手从黑暗里浮出来，彼得把手收回自己胸前，像是被逼到无处可退。",
+      "story": "大都会把它定在卡拉瓦乔生命最后几个月、那不勒斯时期。士兵的一根手指和女子的两根手指，被馆方解读为三次指认与三次否认。1613年它已属于画家圭多·雷尼，是版画家卢卡·钱贝尔拉诺用来抵债的画。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/437986",
+      "source_note": "",
+      "artist": "卡拉瓦乔",
+      "material": "布面油画",
+      "label_number": 507
+    },
+    {
+      "id": "narcissus",
+      "photo": "caravaggio-492.jpg",
+      "source_number": 492,
+      "title": "纳西索斯",
+      "original_title": "Narcissus / Narciso",
+      "date": "1597—1598年（据展签；作者归属有争议）",
+      "year": 1598,
+      "period": "question",
+      "museum": "barberini",
+      "accession": "1569",
+      "tags": [
+        "myth",
+        "attribution"
+      ],
+      "observation": "双臂与倒影绕出一个圈，亮起的膝盖落在中央。水面以下的脸更暗，凝视自己的动作仿佛把人困在画里。",
+      "story": "展签在卡拉瓦乔名字后加了问号，并列出另一种归属：乔瓦尼·安东尼奥·加利，别名斯帕达里诺。馆方的展览资料也保留这个争议。因此这幅仍收在本辑，但单列在归属讨论中，不把它算作毫无争议的卡拉瓦乔。",
+      "source_url": "https://www.barberinicorsini.org/wp-content/uploads/2019/12/2019_12_Barberini_AlaNord_CartellaStampa.pdf",
+      "source_note": "1916年由B. Khwoshinsky捐赠，据现场展签。",
+      "artist": "传 卡拉瓦乔（或斯帕达里诺）",
+      "material": "布面油画",
+      "label_number": 493,
+      "related_notes": [
+        {
+          "work": "bacchus",
+          "reason": "以年轻人的身体承载神话，但这里仍须保留作者归属的问号。"
+        }
+      ]
+    }
+  ]
+}

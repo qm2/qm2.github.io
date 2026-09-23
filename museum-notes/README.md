@@ -70,7 +70,7 @@ Expanded object-263 notes cover the sutra title, dated dedication, distinction b
 
 ## Editorial hierarchy and personal notes
 
-The notebook home `/museum-notes/` is the cross-cultural entrance. `/museum-notes/chinese-buddhist-art/` is the parent section for the current objects, material pages and the 自在之姿 topic. Existing object, image and category URLs remain valid; breadcrumbs and return links expose the parent section. Future sections are listed in `sections.json`, as non-clickable plans until content exists. Gandhara/Mathura and Caravaggio are potential topics, not enforced peers of every cultural section. Additional topics should reference shared object records rather than duplicate editorial data.
+The notebook home `/museum-notes/` is the cross-cultural entrance. `/museum-notes/chinese-buddhist-art/` is the parent section for the current objects, material pages and the 自在之姿 topic. Existing object, image and category URLs remain valid; breadcrumbs and return links expose the parent section. Future sections are listed in `sections.json`, as non-clickable plans until content exists. Gandhara/Mathura remains a potential topic. Caravaggio is now a topic within European painting. Additional topics should reference shared object records rather than duplicate editorial data.
 
 Objects may optionally contain a `personal_notes` list. Each item requires `kind` (`visit_memory`, `photo_reflection`, or `onsite`) and `text`; `written_on` is an optional actual writing date, never an inferred visit date. Notes render under “我的观看” separately from visual descriptions and scholarly notes, on all pages featuring the object. Empty or missing notes produce no placeholder. No personal recollections have been authored on the user's behalf. Preserve uncertainty in the user's own wording, and distinguish current impressions from memories of the original visit.
 
@@ -95,3 +95,8 @@ Chinese painting now includes 32 works / 150 photographs from two ZIP batches (1
 ## Main painting index reduced, 2026-09-22
 
 The Chinese painting homepage now counts/displays 18 traditional painting works, with overlapping subject filters. Fourteen Buddhist paintings remain in their own topic indexes; 32 total canonical work pages remain. Three reciprocal comparison groups connect ten works with editorial explanations. See the painting README for the tag and relationship schema. The bamboo painting's Chinese attribution follows the user's requested spelling, while the museum's English attribution remains in the detail page.
+
+
+## European painting / Caravaggio, 2026-09-22
+
+European painting is now an active section (`european-painting/`), with Caravaggio as its first topic (`caravaggio/`). The new batch contains 27 works (including the disputed *Narcissus*), 29 unaltered artwork/context photographs, and seven reciprocal comparison groups. See [the section README](caravaggio/README.md) for source mappings and editorial decisions. Run `python3 scripts/build_caravaggio.py` and `python3 scripts/build_museum.py` after editing its data. The ZIP and 24 label photos stay outside the public repository.

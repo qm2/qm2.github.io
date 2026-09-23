@@ -1,0 +1,483 @@
+[
+  {
+    "source": "Image_20260922232802_470_19.jpg",
+    "role": "artwork",
+    "works": [
+      "cardsharps"
+    ],
+    "sha256": "852e5791e329d86f5deb92b8a943268f5882f8dcf22a3ac17b71a3d8d7944cdf",
+    "published": "caravaggio-470.jpg"
+  },
+  {
+    "source": "Image_20260922232802_471_19.jpg",
+    "role": "label",
+    "works": [
+      "cardsharps"
+    ],
+    "sha256": "f3d8342dfc1079a1bf198b5409d9a0b49b7e8e963817bbf6cb11028408152e79",
+    "published": null
+  },
+  {
+    "source": "Image_20260922232802_472_19.jpg",
+    "role": "artwork",
+    "works": [
+      "madonna-pilgrims"
+    ],
+    "sha256": "ac54789ea7ce41a8e85fbb17a5e004e6c98240f1b04a7c4541fcfa87989792c3",
+    "published": "caravaggio-472.jpg"
+  },
+  {
+    "source": "Image_20260922232802_473_19.jpg",
+    "role": "context",
+    "works": [
+      "madonna-pilgrims"
+    ],
+    "sha256": "ce9d7e20cbfcbbdffd3f51ba807024eef270f4c3a042fbfcf58513fda413444f",
+    "published": "caravaggio-473.jpg"
+  },
+  {
+    "source": "Image_20260922232802_474_19.jpg",
+    "role": "label",
+    "works": [
+      "madonna-pilgrims"
+    ],
+    "sha256": "ce509999d4e350aef659b221e6da6a3092685532eee52094de7c14c4db4ebfaf",
+    "published": null
+  },
+  {
+    "source": "Image_20260922232802_475_19.jpg",
+    "role": "artwork",
+    "works": [
+      "martyrdom-matthew"
+    ],
+    "sha256": "aa7cc20737dc2a27e1c4129f2f8dad0b246cf9d500f81439f279336c97b545bb",
+    "published": "caravaggio-475.jpg"
+  },
+  {
+    "source": "Image_20260922232802_476_19.jpg",
+    "role": "artwork",
+    "works": [
+      "inspiration-matthew"
+    ],
+    "sha256": "1ce320183f6007f399c11fde16ae3be702e2493ba1af282caff731f9b0e0774e",
+    "published": "caravaggio-476.jpg"
+  },
+  {
+    "source": "Image_20260922232802_477_19.jpg",
+    "role": "artwork",
+    "works": [
+      "calling-matthew"
+    ],
+    "sha256": "884582ed9ac5f2aeefc218a865b7c9855184ed34a2f8805e28d298ad77e2295a",
+    "published": "caravaggio-477.jpg"
+  },
+  {
+    "source": "Image_20260922232802_478_19.jpg",
+    "role": "context",
+    "works": [
+      "calling-matthew",
+      "martyrdom-matthew",
+      "inspiration-matthew"
+    ],
+    "sha256": "18b3ad6cb7b9c46a502a4569ea2da75dfe1d50e52e41430681279976d83d4543",
+    "published": "caravaggio-478.jpg"
+  },
+  {
+    "source": "Image_20260922232802_479_19.jpg",
+    "role": "label",
+    "works": [
+      "calling-matthew",
+      "martyrdom-matthew",
+      "inspiration-matthew"
+    ],
+    "sha256": "1d600027a0c5b5f6f9a3afc4f8e4f8bb958cb9fc41da79efd53d70fa6ca37db0",
+    "published": null
+  },
+  {
+    "source": "Image_20260922232802_480_19.jpg",
+    "role": "artwork",
+    "works": [
+      "fortune-capitoline"
+    ],
+    "sha256": "ed264de90e4d869960c56c15e204556589aaa1457e156c0ea14ed2f8626054a2",
+    "published": "caravaggio-480.jpg"
+  },
+  {
+    "source": "Image_20260922232802_481_19.jpg",
+    "role": "label",
+    "works": [
+      "fortune-capitoline"
+    ],
+    "sha256": "8e1b10d5c787011eb76a98c7b292d6a53b7383cb20f7ef9b2ed199ffda4e854b",
+    "published": null
+  },
+  {
+    "source": "Image_20260922232802_482_19.jpg",
+    "role": "artwork",
+    "works": [
+      "saint-jerome"
+    ],
+    "sha256": "1814fbe753faaebd9562569276a8ac288093b133e314ae667d8e793f090620eb",
+    "published": "caravaggio-482.jpg"
+  },
+  {
+    "source": "Image_20260922232802_483_19.jpg",
+    "role": "label",
+    "works": [
+      "saint-jerome"
+    ],
+    "sha256": "02b5d1da8d63ebcf4baa1bb4d2c7b95773b68775430ffbc40cff7d327286fa94",
+    "published": null
+  },
+  {
+    "source": "Image_20260922232802_484_19.jpg",
+    "role": "artwork",
+    "works": [
+      "john-borghese"
+    ],
+    "sha256": "e24b9a6227f5f6509d7eaf31e5d2ec1d88e326ac9035778892b69b6e96f6e547",
+    "published": "caravaggio-484.jpg"
+  },
+  {
+    "source": "Image_20260922232802_485_19.jpg",
+    "role": "label",
+    "works": [
+      "john-borghese"
+    ],
+    "sha256": "5940ad6c86fe1275ca5f640316f9dc09627e9871199254a3637562e2b06644fc",
+    "published": null
+  },
+  {
+    "source": "Image_20260922232802_486_19.jpg",
+    "role": "artwork",
+    "works": [
+      "madonna-palafrenieri"
+    ],
+    "sha256": "f771f514c08d08685f5724172cbbb7b38523bb584dc3584cd4c3369b39713c3b",
+    "published": "caravaggio-486.jpg"
+  },
+  {
+    "source": "Image_20260922232802_487_19.jpg",
+    "role": "label",
+    "works": [
+      "madonna-palafrenieri"
+    ],
+    "sha256": "b78e5d6626013ffe8436abcb754f46d2ca5bb2e4e193f19a1cc6366206660cda",
+    "published": null
+  },
+  {
+    "source": "Image_20260922232802_488_19.jpg",
+    "role": "artwork",
+    "works": [
+      "david"
+    ],
+    "sha256": "43507622bd5c05c19ad497a215d7538a233e4199e422cab8be5113f911830c51",
+    "published": "caravaggio-488.jpg"
+  },
+  {
+    "source": "Image_20260922232802_489_19.jpg",
+    "role": "label",
+    "works": [
+      "david"
+    ],
+    "sha256": "e6b4b842518b6e7eb761096733dd5f09f6c84e2c1cc556604318ae27c7578a0b",
+    "published": null
+  },
+  {
+    "source": "Image_20260922232802_490_19.jpg",
+    "role": "artwork",
+    "works": [
+      "sick-bacchus"
+    ],
+    "sha256": "7d265f8c125e02077f2faedfac1efb10dfd50957d260f7b2b5e7895fad31f713",
+    "published": "caravaggio-490.jpg"
+  },
+  {
+    "source": "Image_20260922232802_491_19.jpg",
+    "role": "label",
+    "works": [
+      "sick-bacchus"
+    ],
+    "sha256": "80c8549ffadf8066abbcd36844240de366db0dc4f1348e97604116e93fac0892",
+    "published": null
+  },
+  {
+    "source": "Image_20260922232802_492_19.jpg",
+    "role": "artwork",
+    "works": [
+      "narcissus"
+    ],
+    "sha256": "498fc861fc1aaa14714d2659cafdc72a630c962b595acf2605beda8b3e5825dc",
+    "published": "caravaggio-492.jpg"
+  },
+  {
+    "source": "Image_20260922232802_493_19.jpg",
+    "role": "label",
+    "works": [
+      "narcissus"
+    ],
+    "sha256": "bf1ec06b92973a438ca04d67af2d91676188dcfb9fc309d320a5265947f0fd68",
+    "published": null
+  },
+  {
+    "source": "Image_20260922232802_494_19.jpg",
+    "role": "artwork",
+    "works": [
+      "francis"
+    ],
+    "sha256": "b9e256a8b2d96ba8084ed1983875b59e7b57b6f4665f8ce6fe9e33a807da5ee9",
+    "published": "caravaggio-494.jpg"
+  },
+  {
+    "source": "Image_20260922232802_495_19.jpg",
+    "role": "label",
+    "works": [
+      "francis"
+    ],
+    "sha256": "954350c83e3caca66bb8ab17f1ffce78a9f85331c3933da4d44d8eac34412398",
+    "published": null
+  },
+  {
+    "source": "Image_20260922232802_496_19.jpg",
+    "role": "artwork",
+    "works": [
+      "john-corsini"
+    ],
+    "sha256": "9bc0252257d6abc521493b474038afffd2aa1ff0d22ea931726336e5bb2cbbb3",
+    "published": "caravaggio-496.jpg"
+  },
+  {
+    "source": "Image_20260922232802_497_19.jpg",
+    "role": "label",
+    "works": [
+      "john-corsini"
+    ],
+    "sha256": "4305416dfb789a6c8c57e4e3c614ea15c87869f57295f278258d86bbf73157f1",
+    "published": null
+  },
+  {
+    "source": "Image_20260922232802_498_19.jpg",
+    "role": "artwork",
+    "works": [
+      "judith"
+    ],
+    "sha256": "ae8292b3bd569589ec41819a8eecd6b9892b011e30c510df63a49fd57649c571",
+    "published": "caravaggio-498.jpg"
+  },
+  {
+    "source": "Image_20260922232802_499_19.jpg",
+    "role": "label",
+    "works": [
+      "judith"
+    ],
+    "sha256": "7975658dfede79da03f0c32de255f7a03b5e8ec00df30233e3fa7308e33acdcf",
+    "published": null
+  },
+  {
+    "source": "Image_20260922232802_500_19.jpg",
+    "role": "artwork",
+    "works": [
+      "entombment"
+    ],
+    "sha256": "f99b0b6780af43501636e040194f7a4e86128cb1606209badb67e14d742bb003",
+    "published": "caravaggio-500.jpg"
+  },
+  {
+    "source": "Image_20260922232802_501_19.jpg",
+    "role": "label",
+    "works": [
+      "entombment"
+    ],
+    "sha256": "4344c5ac712e440181d0e56fa323cc61bacdad35cfcbc5ba5071117ec5e72af8",
+    "published": null
+  },
+  {
+    "source": "Image_20260922232802_502_19.jpg",
+    "role": "artwork",
+    "works": [
+      "musicians"
+    ],
+    "sha256": "228fea5f7c57de8aeca8ef3f7e9ef9dc24a07a090c0522bea7ab3b38e30f3a93",
+    "published": "caravaggio-502.jpg"
+  },
+  {
+    "source": "Image_20260922232802_503_19.jpg",
+    "role": "label",
+    "works": [
+      "musicians"
+    ],
+    "sha256": "771e0d8217079543012c01e8167350ffc3c9e73a44ce7695ccf7dc25b55a6dd0",
+    "published": null
+  },
+  {
+    "source": "Image_20260922232802_504_19.jpg",
+    "role": "artwork",
+    "works": [
+      "holy-family"
+    ],
+    "sha256": "17637a08619bf57ab28c6d3e4ab85c5d0e2321e0124c751136b630d13f618f2f",
+    "published": "caravaggio-504.jpg"
+  },
+  {
+    "source": "Image_20260922232802_505_19.jpg",
+    "role": "label",
+    "works": [
+      "holy-family"
+    ],
+    "sha256": "53a3fd5e617a6e3257b529777ae3fbb10dd052cd547e74b182e9254960911ca9",
+    "published": null
+  },
+  {
+    "source": "Image_20260922232802_506_19.jpg",
+    "role": "artwork",
+    "works": [
+      "denial-peter"
+    ],
+    "sha256": "bf12caf18965971fd1a46f60f5301aecbb50d507d0bb801d5b236463a86c806a",
+    "published": "caravaggio-506.jpg"
+  },
+  {
+    "source": "Image_20260922232802_507_19.jpg",
+    "role": "label",
+    "works": [
+      "denial-peter"
+    ],
+    "sha256": "3e3f9e7c470476ca7b7e6637d563f1d850a972df8710e400944c82131c771e9d",
+    "published": null
+  },
+  {
+    "source": "Image_20260922232802_508_19.jpg",
+    "role": "artwork",
+    "works": [
+      "fortune-louvre"
+    ],
+    "sha256": "51943f9480a291a1735589a6f0928c2a0a311022693009c1fde1ec4e50b9f1b9",
+    "published": "caravaggio-508.jpg"
+  },
+  {
+    "source": "Image_20260922232802_509_19.jpg",
+    "role": "label",
+    "works": [
+      "fortune-louvre"
+    ],
+    "sha256": "e0e9907ffaa478d6d3c89ed509a264c2e1905fa9f2d7becf7e49fd57be344f24",
+    "published": null
+  },
+  {
+    "source": "Image_20260922232802_510_19.jpg",
+    "role": "artwork",
+    "works": [
+      "death-virgin"
+    ],
+    "sha256": "846f018e4ba21cf39bd925d593625cbe6a8e116ba7010690ce35a8a47d0d22f7",
+    "published": "caravaggio-510.jpg"
+  },
+  {
+    "source": "Image_20260922232802_511_19.jpg",
+    "role": "label",
+    "works": [
+      "death-virgin"
+    ],
+    "sha256": "b4f3f2c6aaffc8c3e7dce6e98162ca64bcd93ea2be5e85b7addfd0b9783733ca",
+    "published": null
+  },
+  {
+    "source": "Image_20260922232802_512_19.jpg",
+    "role": "artwork",
+    "works": [
+      "boy-fruit"
+    ],
+    "sha256": "189047956440d0522821086a8302fbb5c877c949e7638fff9f7d3d434263336f",
+    "published": "caravaggio-512.jpg"
+  },
+  {
+    "source": "Image_20260922232802_513_19.jpg",
+    "role": "label",
+    "works": [
+      "boy-fruit"
+    ],
+    "sha256": "06044601997fa5f5a7e546df1bf20b8e686b57c3630f224997dc4ff046e1db6c",
+    "published": null
+  },
+  {
+    "source": "Image_20260922232802_514_19.jpg",
+    "role": "artwork",
+    "works": [
+      "bacchus"
+    ],
+    "sha256": "748d16cf36df2b0f58fbded1d8d2d3958c855c9555b1b2be356dcc569a6af1f6",
+    "published": "caravaggio-514.jpg"
+  },
+  {
+    "source": "Image_20260922232802_515_19.jpg",
+    "role": "label",
+    "works": [
+      "bacchus"
+    ],
+    "sha256": "1443b20fbe472a759ebe3e6712d763d1b606e31922cf3ce6ab2ad741cf758aa3",
+    "published": null
+  },
+  {
+    "source": "Image_20260922232802_516_19.jpg",
+    "role": "artwork",
+    "works": [
+      "sacrifice-isaac"
+    ],
+    "sha256": "c44079a1264070d11689d6d4973ea1ecb27d1e4cfcc01509066a9e52fcde6066",
+    "published": "caravaggio-516.jpg"
+  },
+  {
+    "source": "Image_20260922232802_517_19.jpg",
+    "role": "label",
+    "works": [
+      "sacrifice-isaac"
+    ],
+    "sha256": "92f576c47736fa854bb8d3fee1c6a2b6fb32adf4878777d36030789fc0fbced3",
+    "published": null
+  },
+  {
+    "source": "Image_20260922232802_518_19.jpg",
+    "role": "artwork",
+    "works": [
+      "medusa"
+    ],
+    "sha256": "37eb0b6ded404829673aaf9421b1d6540b2f85a89b996d142d02d30d23ffe09b",
+    "published": "caravaggio-518.jpg"
+  },
+  {
+    "source": "Image_20260922232802_519_19.jpg",
+    "role": "label",
+    "works": [
+      "medusa"
+    ],
+    "sha256": "982f980343d26ae99dc5bc1cacfbab3484084d7d3b578de59c55bbf51ffdf88e",
+    "published": null
+  },
+  {
+    "source": "Image_20260922232802_520_19.jpg",
+    "role": "artwork",
+    "works": [
+      "john-capitoline"
+    ],
+    "sha256": "0bc6a34bcceb6745861b3694fa8504477c7ba8f1a266372f468377f96f97b17e",
+    "published": "caravaggio-520.jpg"
+  },
+  {
+    "source": "Image_20260922232802_521_19.jpg",
+    "role": "artwork",
+    "works": [
+      "john-nelson"
+    ],
+    "sha256": "31a98e3eab405b13e2efd856e637e0b8b75e3230bc4121de3d5d550c1db1e45d",
+    "published": "caravaggio-521.jpg"
+  },
+  {
+    "source": "Image_20260922232802_522_19.jpg",
+    "role": "label",
+    "works": [
+      "john-nelson"
+    ],
+    "sha256": "4ff436548164747e09d529c2e39058011300224cd932b286f191b558efee5ab9",
+    "published": null
+  }
+]
