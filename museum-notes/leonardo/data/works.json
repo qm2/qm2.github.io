@@ -1,0 +1,415 @@
+{
+  "museums": {
+    "louvre": "卢浮宫 · 巴黎",
+    "uffizi": "乌菲齐美术馆 · 佛罗伦萨",
+    "vatican": "梵蒂冈博物馆 · 梵蒂冈",
+    "nga": "美国国家美术馆 · 华盛顿"
+  },
+  "periods": [
+    {
+      "id": "florence",
+      "title": "佛罗伦萨：早期与未完成",
+      "range": "约1472—1482",
+      "intro": "从工作室里的合作，到肖像与祭坛画。有些画没有完成，却留下了难得的作画过程。"
+    },
+    {
+      "id": "milan",
+      "title": "米兰：岩洞与宫廷肖像",
+      "range": "约1483—1497",
+      "intro": "一幅把圣母子带入幽深的岩洞，一幅把人物留在几乎没有背景的黑暗里。"
+    },
+    {
+      "id": "late",
+      "title": "后来，反复画下去的几幅",
+      "range": "约1503—1519",
+      "intro": "这些年代彼此重叠。达·芬奇把作品留在身边多年，不能简单地按某一个年份排成直线。"
+    },
+    {
+      "id": "workshop",
+      "title": "工作室，以及后来的改动",
+      "range": "约1517—1520 / 后世改绘",
+      "intro": "也看看达·芬奇身边的人。沿用的姿态、不同的署名，以及后来被改写的主题，都值得单独留下。"
+    }
+  ],
+  "groups": [
+    {
+      "id": "portraits",
+      "title": "三张女性肖像",
+      "text": "从刺柏前的吉内芙拉，到黑背景前的米兰女子，再到《蒙娜丽莎》。比较身体转向、目光和背景：她们与画外观众的距离各不相同。",
+      "works": [
+        "ginevra-de-benci",
+        "belle-ferronniere",
+        "mona-lisa"
+      ]
+    },
+    {
+      "id": "unfinished",
+      "title": "未完成的画，留下了什么",
+      "text": "《三博士来朝》的人群与《圣哲罗姆》的身体，都保留着画稿与塑造明暗的痕迹。它们的未完成状态不相同，可以沿着线条与色层看一看。",
+      "works": [
+        "adoration-of-the-magi",
+        "saint-jerome"
+      ]
+    },
+    {
+      "id": "gestures",
+      "title": "顺着手势看过去",
+      "text": "从报喜天使与玛利亚的对坐，到岩洞里的四个人，再到圣安妮膝上的母女。用手、目光和身体的倾斜，把人物一一连起来。",
+      "works": [
+        "annunciation",
+        "virgin-of-the-rocks",
+        "saint-anne"
+      ]
+    },
+    {
+      "id": "john",
+      "title": "施洗者约翰的几种样子",
+      "text": "在合作画《基督受洗》中，他为基督施洗；在半身像里，他独自从暗处抬起手指。工作室的那幅后来被改成酒神，原来的宗教手势却还留着。三幅的作者署名不同，比较的是题材与姿态。",
+      "works": [
+        "baptism-of-christ",
+        "saint-john",
+        "john-bacchus"
+      ]
+    }
+  ],
+  "works": [
+    {
+      "id": "saint-anne",
+      "source_number": 523,
+      "photo": "leonardo-523.jpg",
+      "title": "圣母子与圣安妮",
+      "original_title": "La Vierge, l’Enfant Jésus et sainte Anne",
+      "museum": "louvre",
+      "period": "late",
+      "year": 1503,
+      "date": "约1503—1519年",
+      "material": "杨木板油画",
+      "accession": "INV 776",
+      "observation": "玛利亚坐在母亲安妮膝上，又向前俯身去抱耶稣。顺着她的手臂往下看，孩子正抓着羔羊；几个人的动作一环接着一环，远处却安静得只剩山色。",
+      "story": "达·芬奇把这幅画留在身边多年，一直画到生命晚期，去世时仍未彻底完成。羔羊暗示基督将来的牺牲，母亲伸出的手让这个熟悉的宗教主题多了一层亲近与不舍。卢浮宫认为它很可能在1518年进入弗朗索瓦一世的收藏，但早期流转仍有推测成分。",
+      "source_url": "https://collections.louvre.fr/ark:/53355/cl010066107",
+      "source_note": "",
+      "artist": "列奥纳多·达·芬奇",
+      "status": "autograph",
+      "tags": [
+        "sacred"
+      ]
+    },
+    {
+      "id": "belle-ferronniere",
+      "source_number": 525,
+      "photo": "leonardo-525.jpg",
+      "title": "女子肖像（俗称“美丽的费罗妮叶”）",
+      "original_title": "Portrait de femme, dit à tort La Belle Ferronnière",
+      "museum": "louvre",
+      "period": "milan",
+      "year": 1490,
+      "date": "约1490—1497年",
+      "material": "木板油画",
+      "accession": "INV 778",
+      "observation": "身体转向一侧，目光却几乎迎着观众。黑背景、额上的细带、横在前面的石栏，把注意力都收到了这张脸上。",
+      "story": "画中的人通常被认为与米兰宫廷有关，但身份并没有定论。卢浮宫展签提到的卢克蕾齐娅·克里韦利只是传统说法之一。“美丽的费罗妮叶”这个名字也来自与另一幅肖像的混淆；用这个熟悉的名字找画可以，却不能把它当成人物身份的证据。",
+      "source_url": "https://collections.louvre.fr/ark:/53355/cl010062372",
+      "source_note": "",
+      "artist": "列奥纳多·达·芬奇",
+      "status": "autograph",
+      "tags": [
+        "portrait"
+      ]
+    },
+    {
+      "id": "virgin-of-the-rocks",
+      "source_number": 527,
+      "photo": "leonardo-527.jpg",
+      "title": "岩间圣母 · 巴黎本",
+      "original_title": "La Vierge aux rochers",
+      "museum": "louvre",
+      "period": "milan",
+      "year": 1483,
+      "date": "1483—1494年（线上目录）",
+      "material": "原木板油画，后移至画布",
+      "accession": "INV 777",
+      "observation": "先看天使指向左边的手，再看玛利亚悬在孩子头顶的手。四个人靠目光和动作联系起来，岩洞像一个幽暗的房间，远处的水与山透进一点亮色。",
+      "story": "这件作品与1483年米兰圣方济各教堂“无原罪始胎兄弟会”的祭坛画委托有关。熟悉的宗教人物被放进岩洞，背景也成了画中很有分量的一部分。至于它怎样来到法国，早期线索并不完整；1625年在枫丹白露的记载才是可靠的落点。",
+      "source_url": "https://collections.louvre.fr/ark:/53355/cl010062373",
+      "source_note": "现场展签标约1483—1490年；卢浮宫线上目录标1483—1494年，保留两种年代。本页收录的是巴黎本。",
+      "artist": "列奥纳多·达·芬奇",
+      "status": "autograph",
+      "tags": [
+        "sacred"
+      ]
+    },
+    {
+      "id": "saint-john",
+      "source_number": 529,
+      "photo": "leonardo-529.jpg",
+      "title": "施洗者约翰",
+      "original_title": "Saint Jean Baptiste",
+      "museum": "louvre",
+      "period": "late",
+      "year": 1508,
+      "date": "约1508—1519年",
+      "material": "胡桃木板油画",
+      "accession": "INV 775",
+      "observation": "脸和肩膀从黑暗里慢慢浮出来，轮廓几乎找不到硬边。最后视线还是会落在那根向上的手指上：手势很明确，笑容却没有那么容易读懂。",
+      "story": "这幅画后来有过一段绕道英国的经历：17世纪进入查理一世的收藏，国王被处决后又随王室藏品出售。它经过巴黎收藏家雅巴赫之手，1662年由路易十四购入，才重新回到法国王室。一个小小的半身像，也走过了欧洲收藏史里很动荡的一段路。",
+      "source_url": "https://collections.louvre.fr/ark:/53355/cl010062374",
+      "source_note": "",
+      "artist": "列奥纳多·达·芬奇",
+      "status": "autograph",
+      "tags": [
+        "sacred",
+        "john"
+      ]
+    },
+    {
+      "id": "john-bacchus",
+      "source_number": 531,
+      "photo": "leonardo-531.jpg",
+      "title": "施洗者约翰（后改作酒神）",
+      "original_title": "Saint Jean Baptiste, transformé en Bacchus",
+      "museum": "louvre",
+      "period": "workshop",
+      "year": 1517,
+      "date": "约1517—1520年（线上目录）",
+      "material": "原木板油画，后移至画布",
+      "accession": "INV 780",
+      "observation": "他坐在树下，一只手指向上方，另一只手握着长杖。这个姿态很像宗教画，身边的葡萄、兽皮与酒神的属性却把画面带向了另一个故事。",
+      "story": "卢浮宫把这幅画列为达·芬奇工作室作品，归于学生弗朗切斯科·梅尔齐。它原来表现施洗者约翰，17世纪又被改成酒神巴克斯。旧有的向天手势与后来加入的酒神属性留在同一个画面里，也提醒人：今天看到的主题，未必就是最初的主题。",
+      "source_url": "https://collections.louvre.fr/ark:/53355/cl010062371",
+      "source_note": "现场展签标约1510—1520年；线上目录标1517—1520年。依馆方署名单列为工作室相关作品，不计入达·芬奇独立署名作品。",
+      "artist": "达·芬奇工作室，归于弗朗切斯科·梅尔齐",
+      "status": "workshop",
+      "tags": [
+        "john",
+        "myth"
+      ]
+    },
+    {
+      "id": "annunciation",
+      "source_number": 533,
+      "photo": "leonardo-533.jpg",
+      "title": "天使报喜",
+      "original_title": "Annunciazione",
+      "museum": "uffizi",
+      "period": "florence",
+      "year": 1472,
+      "date": "约1472—1475年（展签）",
+      "material": "木板油画",
+      "accession": "展签：1890 n. 1416；线上：1890 n. 1618",
+      "observation": "天使刚在草地上落下，玛利亚还坐在书前。前景的花、翅膀和石台都画得很具体，远处港湾却渐渐淡下去。横长的画面里，两个人之间留了很宽的一段空气。",
+      "story": "这是达·芬奇仍在委罗基奥工作室时期的早期作品，1867年从佛罗伦萨附近的圣巴托洛梅奥修院进入乌菲齐。玛利亚伸向书本的手臂显得偏长；现场展签提出，从右下方观看可能会减轻这种变形，因此推测它原来可能放在侧祭坛。原始委托与具体位置仍不能确定。",
+      "source_url": "https://www.uffizi.it/en/artworks/annunciation",
+      "source_note": "乌菲齐线上目录年代为约1472年。展签与线上目录的1890年清册编号不同，分别保留，不擅自判断哪一条应被更正。",
+      "artist": "列奥纳多·达·芬奇",
+      "status": "autograph",
+      "tags": [
+        "sacred"
+      ]
+    },
+    {
+      "id": "adoration-of-the-magi",
+      "source_number": 535,
+      "photo": "leonardo-535.jpg",
+      "title": "三博士来朝",
+      "original_title": "Adorazione dei Magi",
+      "museum": "uffizi",
+      "period": "florence",
+      "year": 1481,
+      "date": "约1481—1482年",
+      "material": "木板上的炭笔、墨色与油彩（未完成）",
+      "accession": "展签：1890 n. 479；线上：1890 n. 1594",
+      "observation": "围着圣母子的每张脸都像有自己的反应：有人俯身，有人抬手。往后看，台阶、残垣和骑马的人又把空间拉开。没有完全铺上的颜色，让这些动作和画稿的线条格外醒目。",
+      "story": "1481年，佛罗伦萨圣多纳托修院的奥古斯丁会士委托了这幅祭坛画。达·芬奇后来前往米兰，把它留在未完成的状态。修院最终另请菲利皮诺·利皮作画。乌菲齐在2012—2017年间对它进行修复；如今能看见的浅深层次，也包括这次清理重新显露的部分。",
+      "source_url": "https://www.uffizi.it/opere/leonardo-adorazione-dei-magi",
+      "source_note": "线上目录标约1482年。展签与线上目录的1890年清册编号不同，分别保留。",
+      "artist": "列奥纳多·达·芬奇",
+      "status": "autograph",
+      "tags": [
+        "sacred",
+        "unfinished"
+      ]
+    },
+    {
+      "id": "baptism-of-christ",
+      "source_number": 537,
+      "photo": "leonardo-537.jpg",
+      "title": "基督受洗",
+      "original_title": "Battesimo di Cristo",
+      "museum": "uffizi",
+      "period": "florence",
+      "year": 1475,
+      "date": "约1470—1475年（线上目录）",
+      "material": "木板蛋彩与油彩",
+      "accession": "1890 n. 8358",
+      "observation": "可以先找左下角侧过脸的天使，再看画面中央的基督。天使的卷发、脸部阴影和远处柔和的水岸，让这幅合作画很适合停下来比较不同部分的处理。",
+      "story": "这幅画来自委罗基奥的工作室，馆方将左侧天使以及部分风景与基督身体的油彩处理联系到年轻的达·芬奇。瓦萨里后来讲过一个故事：老师看见学生画得太好，便不再作画。这段轶闻很有名，但不能当成已经证实的现场经过；更值得看的，是一幅作品里真实留下的合作痕迹。",
+      "source_url": "https://www.uffizi.it/en/artworks/verrocchio-leonardo-baptism-of-christ",
+      "source_note": "现场展签年代为约1475年。作者依馆方并列署名，不能把整幅作品算作达·芬奇独作。",
+      "artist": "安德烈亚·德尔·委罗基奥、列奥纳多·达·芬奇",
+      "status": "collaboration",
+      "tags": [
+        "sacred",
+        "john"
+      ]
+    },
+    {
+      "id": "saint-jerome",
+      "source_number": 539,
+      "photo": "leonardo-539.jpg",
+      "title": "荒野中的圣哲罗姆",
+      "original_title": "San Girolamo nel deserto",
+      "museum": "vatican",
+      "period": "florence",
+      "year": 1481,
+      "date": "约1481—1482年",
+      "material": "木板绘画（未完成）",
+      "accession": "INV 40377",
+      "observation": "抬起的手臂、转过去的头、绷紧的颈部，把苦修者的身体拧成一个动作。脚边的狮子还大体停留在线稿状态；和已经塑出明暗的脸放在一起，能看见这幅画不同的完成程度。",
+      "story": "这块画板曾被切开，梵蒂冈指出实际上共有五块。关于拿破仑的舅舅费施枢机如何把散落的画找回，后来流传出不少故事；“分别找到两部分”的说法，馆方也明确称作传说。作品辗转易手，1856年由庇护九世购入。它的早期委托与去向仍不清楚。",
+      "source_url": "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/la-pinacoteca/sala-ix---secolo-xv-xvi/leonardo-da-vinci--s--girolamo.html",
+      "source_note": "",
+      "artist": "列奥纳多·达·芬奇",
+      "status": "autograph",
+      "tags": [
+        "sacred",
+        "unfinished"
+      ]
+    },
+    {
+      "id": "ginevra-de-benci",
+      "source_number": 541,
+      "photo": "leonardo-541.jpg",
+      "title": "吉内芙拉·德·本奇肖像",
+      "original_title": "Ginevra de’ Benci",
+      "museum": "nga",
+      "period": "florence",
+      "year": 1474,
+      "date": "约1474—1478年",
+      "material": "木板油画",
+      "accession": "1967.6.1.a（正面）",
+      "observation": "脸很亮，背后的刺柏却又密又暗。看过人物后，再从右边树丛的空隙望出去，水边的远景一下就把这张小肖像撑开了。",
+      "story": "这幅画在列支敦士登王室收藏中待了两百多年，1967年由华盛顿美国国家美术馆购入。运往美国时，修复师把它装在经过改造、可以监测温湿度的旅行箱里，还给它订了一个头等舱座位。这段像电影的旅程，是馆方档案中真实记录的收藏故事。",
+      "source_url": "https://www.nga.gov/artworks/50724-ginevra-de-benci-obverse",
+      "source_note": "本次上传的是正面照片。木板背面另有植物纹章与铭文，可通过馆方资料查看；这里不另计一件参观作品。",
+      "artist": "列奥纳多·达·芬奇",
+      "status": "autograph",
+      "tags": [
+        "portrait"
+      ],
+      "extra_source": [
+        "国家美术馆：肖像的收藏与运输故事",
+        "https://www.nga.gov/stories/articles/10-surprising-facts-about-leonardo-da-vincis-ginevra-de-benci"
+      ]
+    },
+    {
+      "id": "mona-lisa",
+      "source_number": 544,
+      "photo": "leonardo-544.jpg",
+      "title": "蒙娜丽莎",
+      "original_title": "Portrait de Lisa Gherardini, dit La Joconde",
+      "museum": "louvre",
+      "period": "late",
+      "year": 1503,
+      "date": "约1503—1519年",
+      "material": "杨木板油画",
+      "accession": "INV 779",
+      "observation": "先看交叠的双手，再顺着肩膀看向脸。后面的道路、水流和山地像延伸得很远，而嘴角和眼睛附近的阴影又轻得很难找到边界。",
+      "story": "这幅肖像通常与佛罗伦萨商人弗朗切斯科·德尔·焦孔多的妻子丽莎联系起来。达·芬奇长期把它留在身边，反复经营，并没有像普通委托肖像那样很快交付。卢浮宫将创作年代写为1503—1519年：今天看似安静的一瞬，背后其实是一段很长的作画时间。",
+      "source_url": "https://collections.louvre.fr/ark:/53355/cl010062370",
+      "source_note": "上传的三张照片为同一件作品。选较近的一张作主图，另留一张记录展厅中的观看距离；重复照片不另计作品。没有配套展签，名称、年代、材料和编号据卢浮宫目录核对。",
+      "artist": "列奥纳多·达·芬奇",
+      "status": "autograph",
+      "tags": [
+        "portrait"
+      ],
+      "context": 545
+    }
+  ],
+  "photos": {
+    "523": {
+      "file": "leonardo-523.jpg",
+      "width": 1280,
+      "height": 1707,
+      "caption": "圣母子与圣安妮",
+      "sha256": "22fccb4e1ed839549fb3e28080fea98ae3d15fc126ea66d0b12ee4b0924f1222"
+    },
+    "525": {
+      "file": "leonardo-525.jpg",
+      "width": 1280,
+      "height": 1707,
+      "caption": "女子肖像（俗称“美丽的费罗妮叶”）",
+      "sha256": "f3aa1803ad667b66901a38f473304871c6fdd10902b8914b54bd9713fe9d387e"
+    },
+    "527": {
+      "file": "leonardo-527.jpg",
+      "width": 1280,
+      "height": 1707,
+      "caption": "岩间圣母 · 巴黎本",
+      "sha256": "34eb18f2c5d4c9782d7149a645d1807d006a21ffb3da304599a39ba27ec387b8"
+    },
+    "529": {
+      "file": "leonardo-529.jpg",
+      "width": 1280,
+      "height": 1707,
+      "caption": "施洗者约翰",
+      "sha256": "483c93d713584f94e88ee67567179b499ff46480add5857e6132d44bc56d1686"
+    },
+    "531": {
+      "file": "leonardo-531.jpg",
+      "width": 1280,
+      "height": 1707,
+      "caption": "施洗者约翰（后改作酒神）",
+      "sha256": "21a0530ac8444b7cdb62adbdaa1b562ca42ff1314f51b7bdd98dbb75903675b3"
+    },
+    "533": {
+      "file": "leonardo-533.jpg",
+      "width": 1702,
+      "height": 1276,
+      "caption": "天使报喜",
+      "sha256": "935c2fc6f016d3ca35df325fe562ef2483f71db66c7f279c48ce663afd4ef84b"
+    },
+    "535": {
+      "file": "leonardo-535.jpg",
+      "width": 1702,
+      "height": 1276,
+      "caption": "三博士来朝",
+      "sha256": "7b01cd6457e9f65e06181f44e3e69aafed5ecc0360d65c48a5d4d0433f27b13e"
+    },
+    "537": {
+      "file": "leonardo-537.jpg",
+      "width": 1280,
+      "height": 1707,
+      "caption": "基督受洗",
+      "sha256": "f2512d18f55fe0b8293f714edde185100db12ade2f5deffecedef841b96e41c5"
+    },
+    "539": {
+      "file": "leonardo-539.jpg",
+      "width": 1280,
+      "height": 1707,
+      "caption": "荒野中的圣哲罗姆",
+      "sha256": "5cbd403cc2c6d50340b699ed751c6a02e012786824266714bc509c72b41e08de"
+    },
+    "541": {
+      "file": "leonardo-541.jpg",
+      "width": 1280,
+      "height": 1707,
+      "caption": "吉内芙拉·德·本奇肖像",
+      "sha256": "be84deb41cf061f31d9ab8695968798da222a78c3a8e2bb95e63348dc0942eb4"
+    },
+    "544": {
+      "file": "leonardo-544.jpg",
+      "width": 1280,
+      "height": 1707,
+      "caption": "蒙娜丽莎",
+      "sha256": "2ee4378fc7d06947abd51f580efbf283d154f8fd8cb1fa3953dcd8d68426ec6c"
+    },
+    "545": {
+      "file": "leonardo-545.jpg",
+      "width": 1280,
+      "height": 1707,
+      "caption": "《蒙娜丽莎》在展厅中的位置",
+      "sha256": "d743c5fce6cbc7f6862abf5e0d84f24857fd5f78e7a1f415afb1073362fb4adc"
+    }
+  }
+}

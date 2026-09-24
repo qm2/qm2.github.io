@@ -1,0 +1,209 @@
+[
+  {
+    "source": "Image_20260923234857_523_19.jpg",
+    "role": "artwork",
+    "works": [
+      "saint-anne"
+    ],
+    "sha256": "22fccb4e1ed839549fb3e28080fea98ae3d15fc126ea66d0b12ee4b0924f1222",
+    "published": "leonardo-523.jpg"
+  },
+  {
+    "source": "Image_20260923234857_524_19.jpg",
+    "role": "label",
+    "works": [
+      "saint-anne"
+    ],
+    "sha256": "c23e60e006bdefd32082b8b313616d32ce2c7c0c6e88390e993e71b8fba0382f",
+    "published": null
+  },
+  {
+    "source": "Image_20260923234857_525_19.jpg",
+    "role": "artwork",
+    "works": [
+      "belle-ferronniere"
+    ],
+    "sha256": "f3aa1803ad667b66901a38f473304871c6fdd10902b8914b54bd9713fe9d387e",
+    "published": "leonardo-525.jpg"
+  },
+  {
+    "source": "Image_20260923234857_526_19.jpg",
+    "role": "label",
+    "works": [
+      "belle-ferronniere"
+    ],
+    "sha256": "3144cd9f205decb33a82efd29a62d1cfd40928cc2f32ba2116dcf3a861da7442",
+    "published": null
+  },
+  {
+    "source": "Image_20260923234857_527_19.jpg",
+    "role": "artwork",
+    "works": [
+      "virgin-of-the-rocks"
+    ],
+    "sha256": "34eb18f2c5d4c9782d7149a645d1807d006a21ffb3da304599a39ba27ec387b8",
+    "published": "leonardo-527.jpg"
+  },
+  {
+    "source": "Image_20260923234857_528_19.jpg",
+    "role": "label",
+    "works": [
+      "virgin-of-the-rocks"
+    ],
+    "sha256": "bf9426795e518f4d9e846ebdc9341ebd6e69c247e5ee2c55bb2552ea8455d9ac",
+    "published": null
+  },
+  {
+    "source": "Image_20260923234857_529_19.jpg",
+    "role": "artwork",
+    "works": [
+      "saint-john"
+    ],
+    "sha256": "483c93d713584f94e88ee67567179b499ff46480add5857e6132d44bc56d1686",
+    "published": "leonardo-529.jpg"
+  },
+  {
+    "source": "Image_20260923234857_530_19.jpg",
+    "role": "label",
+    "works": [
+      "saint-john"
+    ],
+    "sha256": "5f87f043e5491cad11b7dc1cfa503fc639677649d61fb8cc603e8851f686485d",
+    "published": null
+  },
+  {
+    "source": "Image_20260923234857_531_19.jpg",
+    "role": "artwork",
+    "works": [
+      "john-bacchus"
+    ],
+    "sha256": "21a0530ac8444b7cdb62adbdaa1b562ca42ff1314f51b7bdd98dbb75903675b3",
+    "published": "leonardo-531.jpg"
+  },
+  {
+    "source": "Image_20260923234857_532_19.jpg",
+    "role": "label",
+    "works": [
+      "john-bacchus"
+    ],
+    "sha256": "019f7b3fff36744326ee3ed5cc3a8954861cdf92a1df04f933b7757e685f497f",
+    "published": null
+  },
+  {
+    "source": "Image_20260923234857_533_19.jpg",
+    "role": "artwork",
+    "works": [
+      "annunciation"
+    ],
+    "sha256": "935c2fc6f016d3ca35df325fe562ef2483f71db66c7f279c48ce663afd4ef84b",
+    "published": "leonardo-533.jpg"
+  },
+  {
+    "source": "Image_20260923234857_534_19.jpg",
+    "role": "label",
+    "works": [
+      "annunciation"
+    ],
+    "sha256": "4df1fa120ba66874b023f041ea6472ea0e30713fcec4633bf0b59d212c511ca5",
+    "published": null
+  },
+  {
+    "source": "Image_20260923234857_535_19.jpg",
+    "role": "artwork",
+    "works": [
+      "adoration-of-the-magi"
+    ],
+    "sha256": "7b01cd6457e9f65e06181f44e3e69aafed5ecc0360d65c48a5d4d0433f27b13e",
+    "published": "leonardo-535.jpg"
+  },
+  {
+    "source": "Image_20260923234857_536_19.jpg",
+    "role": "label",
+    "works": [
+      "adoration-of-the-magi"
+    ],
+    "sha256": "a224634f039332255b7f4a43b00ccc34a81c4b5c70d23bc4f86e1a2770954e67",
+    "published": null
+  },
+  {
+    "source": "Image_20260923234857_537_19.jpg",
+    "role": "artwork",
+    "works": [
+      "baptism-of-christ"
+    ],
+    "sha256": "f2512d18f55fe0b8293f714edde185100db12ade2f5deffecedef841b96e41c5",
+    "published": "leonardo-537.jpg"
+  },
+  {
+    "source": "Image_20260923234857_538_19.jpg",
+    "role": "label",
+    "works": [
+      "baptism-of-christ"
+    ],
+    "sha256": "aef7d6d2876e74a903db1af228ec0c20280178376ad0ddf72a6afa58d3d3e72f",
+    "published": null
+  },
+  {
+    "source": "Image_20260923234857_539_19.jpg",
+    "role": "artwork",
+    "works": [
+      "saint-jerome"
+    ],
+    "sha256": "5cbd403cc2c6d50340b699ed751c6a02e012786824266714bc509c72b41e08de",
+    "published": "leonardo-539.jpg"
+  },
+  {
+    "source": "Image_20260923234857_540_19.jpg",
+    "role": "label",
+    "works": [
+      "saint-jerome"
+    ],
+    "sha256": "6430e3f6a608cfba245ed0d7264ead8d6537659d4bf33c14006f07e84ec43c96",
+    "published": null
+  },
+  {
+    "source": "Image_20260923234857_541_19.jpg",
+    "role": "artwork",
+    "works": [
+      "ginevra-de-benci"
+    ],
+    "sha256": "be84deb41cf061f31d9ab8695968798da222a78c3a8e2bb95e63348dc0942eb4",
+    "published": "leonardo-541.jpg"
+  },
+  {
+    "source": "Image_20260923234857_542_19.jpg",
+    "role": "label",
+    "works": [
+      "ginevra-de-benci"
+    ],
+    "sha256": "053a7c09fa2b18d07b7cd44d5e3f9ddd2feff207ee89e4f806168e53adeb7e9d",
+    "published": null
+  },
+  {
+    "source": "Image_20260923235105_543_19.jpg",
+    "role": "alternate",
+    "works": [
+      "mona-lisa"
+    ],
+    "sha256": "8e3844636bda9db0c6c1eca3ade25b0f91d8f68a54b9ce941c1736089752ee46",
+    "published": null
+  },
+  {
+    "source": "Image_20260923235105_544_19.jpg",
+    "role": "artwork",
+    "works": [
+      "mona-lisa"
+    ],
+    "sha256": "2ee4378fc7d06947abd51f580efbf283d154f8fd8cb1fa3953dcd8d68426ec6c",
+    "published": "leonardo-544.jpg"
+  },
+  {
+    "source": "Image_20260923235105_545_19.jpg",
+    "role": "context",
+    "works": [
+      "mona-lisa"
+    ],
+    "sha256": "d743c5fce6cbc7f6862abf5e0d84f24857fd5f78e7a1f415afb1073362fb4adc",
+    "published": "leonardo-545.jpg"
+  }
+]
