@@ -35,7 +35,7 @@
     {
       "id": "portraits",
       "title": "三张女性肖像",
-      "text": "从刺柏前的吉内芙拉，到黑背景前的米兰女子，再到《蒙娜丽莎》。比较身体转向、目光和背景：她们与画外观众的距离各不相同。",
+      "text": "从刺柏前的吉内薇拉，到黑背景前的米兰女子，再到《蒙娜丽莎》。比较身体转向、目光和背景：她们与画外观众的距离各不相同。",
       "works": [
         "ginevra-de-benci",
         "belle-ferronniere",
@@ -93,6 +93,9 @@
       "status": "autograph",
       "tags": [
         "sacred"
+      ],
+      "search_aliases": [
+        "圣母子与圣安娜"
       ]
     },
     {
@@ -115,6 +118,9 @@
       "status": "autograph",
       "tags": [
         "portrait"
+      ],
+      "search_aliases": [
+        "美丽的费隆妮叶夫人"
       ]
     },
     {
@@ -160,6 +166,10 @@
       "tags": [
         "sacred",
         "john"
+      ],
+      "search_aliases": [
+        "施洗者圣约翰",
+        "施洗约翰"
       ]
     },
     {
@@ -183,6 +193,13 @@
       "tags": [
         "john",
         "myth"
+      ],
+      "search_aliases": [
+        "施洗者圣约翰",
+        "施洗约翰",
+        "酒神巴克斯",
+        "酒神巴库斯",
+        "梅尔兹"
       ]
     },
     {
@@ -205,6 +222,11 @@
       "status": "autograph",
       "tags": [
         "sacred"
+      ],
+      "search_aliases": [
+        "受胎告知",
+        "圣母领报",
+        "韦罗基奥"
       ]
     },
     {
@@ -228,6 +250,9 @@
       "tags": [
         "sacred",
         "unfinished"
+      ],
+      "search_aliases": [
+        "博士来拜"
       ]
     },
     {
@@ -251,6 +276,9 @@
       "tags": [
         "sacred",
         "john"
+      ],
+      "search_aliases": [
+        "韦罗基奥"
       ]
     },
     {
@@ -280,7 +308,7 @@
       "id": "ginevra-de-benci",
       "source_number": 541,
       "photo": "leonardo-541.jpg",
-      "title": "吉内芙拉·德·本奇肖像",
+      "title": "吉内薇拉·班琪肖像",
       "original_title": "Ginevra de’ Benci",
       "museum": "nga",
       "period": "florence",
@@ -300,6 +328,16 @@
       "extra_source": [
         "国家美术馆：肖像的收藏与运输故事",
         "https://www.nga.gov/stories/articles/10-surprising-facts-about-leonardo-da-vincis-ginevra-de-benci"
+      ],
+      "search_aliases": [
+        "吉内芙拉·德·本奇肖像",
+        "吉内芙拉"
+      ],
+      "naming_sources": [
+        [
+          "美国国家美术馆中文导览：吉内薇拉·班琪",
+          "https://www.nga.gov/node/856176?lang=zh-hans"
+        ]
       ]
     },
     {
@@ -394,7 +432,7 @@
       "file": "leonardo-541.jpg",
       "width": 1280,
       "height": 1707,
-      "caption": "吉内芙拉·德·本奇肖像",
+      "caption": "吉内薇拉·班琪肖像",
       "sha256": "be84deb41cf061f31d9ab8695968798da222a78c3a8e2bb95e63348dc0942eb4"
     },
     "544": {
