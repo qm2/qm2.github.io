@@ -1,0 +1,876 @@
+{
+  "museums": {
+    "rijks": "荷兰国立博物馆 · 阿姆斯特丹",
+    "mauritshuis": "莫瑞泰斯皇家美术馆 · 海牙",
+    "louvre": "卢浮宫 · 巴黎",
+    "met": "大都会艺术博物馆 · 纽约",
+    "nga": "美国国家美术馆 · 华盛顿",
+    "frick": "弗里克收藏馆 · 纽约",
+    "ngi": "爱尔兰国家美术馆 · 都柏林"
+  },
+  "periods": [
+    {
+      "id": "city",
+      "title": "城市与街道",
+      "range": "OUTSIDE",
+      "intro": "先从代尔夫特的水岸和砖墙看起。"
+    },
+    {
+      "id": "daily",
+      "title": "日常劳作与片刻停顿",
+      "range": "EVERYDAY LIFE",
+      "intro": "倒奶、针线、洗漱，还有一次打盹。"
+    },
+    {
+      "id": "faces",
+      "title": "回过头来的面容",
+      "range": "FACES",
+      "intro": "头巾、帽檐与耳环，不急着替画中人认定身份。"
+    },
+    {
+      "id": "letters",
+      "title": "读信、写信与等待",
+      "range": "LETTERS",
+      "intro": "信的内容看不见，手势与目光却留下了线索。"
+    },
+    {
+      "id": "music",
+      "title": "音乐与交谈",
+      "range": "MUSIC & COMPANY",
+      "intro": "有人调弦，有人举杯，有人忽然看向画外。"
+    },
+    {
+      "id": "thought",
+      "title": "知识、衡量与信仰",
+      "range": "THOUGHT & FAITH",
+      "intro": "同样的室内光线，也照着天球仪、天平与宗教象征。"
+    }
+  ],
+  "groups": [
+    {
+      "id": "letters",
+      "title": "五个房间，一封看不见的信",
+      "text": "先看独自读信与写信的两个人，再看2025年弗里克专题中的三件双人场景。同是书信，有人在阅读，有人在递交，也有人只是在等待。",
+      "works": [
+        "blue-letter",
+        "lady-writing",
+        "mistress-maid",
+        "love-letter",
+        "letter-maid"
+      ]
+    },
+    {
+      "id": "faces",
+      "title": "三张脸，三种回望",
+      "text": "海牙、纽约、华盛顿的三件作品放在一起：人物都朝我们转来，头巾、披巾、红帽与背景，却让每次对视各不相同。",
+      "works": [
+        "girl-pearl",
+        "young-woman",
+        "red-hat"
+      ]
+    },
+    {
+      "id": "delft",
+      "title": "远处的城，门前的小街",
+      "text": "一幅隔着水看城市，一幅站在街边看住家。比较人在画里的大小，再看建筑怎样被亮处与暗处重新组织。",
+      "works": [
+        "view-delft",
+        "little-street"
+      ]
+    },
+    {
+      "id": "hands",
+      "title": "注意力停在手上",
+      "text": "倒奶、编花边、拿水壶、触碰天球仪。题材各异，手与物之间很小的动作，却都能让整幅画安静下来。",
+      "works": [
+        "milkmaid",
+        "lacemaker",
+        "water-pitcher",
+        "astronomer"
+      ]
+    },
+    {
+      "id": "company",
+      "title": "房间里多了另一个人",
+      "text": "从等待合奏的琴手，到交谈的两个人，再到被打断的音乐。看椅子、桌子和窗户怎样安排人物之间的距离。",
+      "works": [
+        "lute",
+        "officer-laughing-girl",
+        "music-interrupted"
+      ]
+    },
+    {
+      "id": "interpretation",
+      "title": "不急着替画面下结论",
+      "text": "天平、宗教象征、打盹的女仆，都曾引出道德与信仰的解读。把它们并排看，也留意每幅画究竟交代了什么、又省去了什么。",
+      "works": [
+        "balance",
+        "faith",
+        "maid-asleep"
+      ]
+    }
+  ],
+  "works": [
+    {
+      "id": "milkmaid",
+      "source_number": 582,
+      "photo": "vermeer-582.jpg",
+      "title": "倒牛奶的女仆",
+      "original_title": "The Milkmaid",
+      "artist": "约翰内斯·维米尔",
+      "status": "autograph",
+      "museum": "rijks",
+      "period": "daily",
+      "year": 1660,
+      "date": "约1660年",
+      "accession": "SK-A-2344",
+      "material": "布面油画",
+      "observation": "她低头看着细细的奶流，桌上的面包却满是亮点。动作很小，围裙、手臂和陶罐却让整个人站得很稳。",
+      "story": "画中人从事的是厨房劳动，传统画名里的“挤奶女工”并不等于她正在挤奶。馆方把这件作品看作维米尔将日常劳作画得庄重的代表。明亮的墙面、面包上的颗粒与静止的人物，最后都围着那道正在流动的牛奶。",
+      "source_url": "https://www.rijksmuseum.nl/en/collection/object/The-Milkmaid--42dd0e658c2979aec8e144d2357c55c0",
+      "source_note": "",
+      "tags": [
+        "daily"
+      ],
+      "image_kind": "personal",
+      "search_aliases": [
+        "倒牛奶的女佣",
+        "挤奶女工"
+      ]
+    },
+    {
+      "id": "blue-letter",
+      "source_number": 584,
+      "photo": "vermeer-584.jpg",
+      "title": "读信的蓝衣女子",
+      "original_title": "Woman Reading a Letter",
+      "artist": "约翰内斯·维米尔",
+      "status": "autograph",
+      "museum": "rijks",
+      "period": "letters",
+      "year": 1663,
+      "date": "约1663年",
+      "accession": "SK-C-251",
+      "material": "布面油画",
+      "observation": "她把信举在胸前，嘴唇微张。椅子、桌子和墙上的地图都在，人物却像暂时忘了房间，所有注意力都收进了纸页。",
+      "story": "她的衣服并不是一整块均匀的蓝。馆方特别提醒观众看青金石蓝的衣料、浅灰的肤色，以及墙面上偏蓝的阴影。信的内容没有给我们看；比起替她编一个故事，可以先看颜色怎样让这个阅读的片刻变得安静。",
+      "source_url": "https://www.rijksmuseum.nl/en/collection/object/Woman-Reading-a-Letter--8e9e02c8045362ffb2171b2fb52953ba",
+      "source_note": "",
+      "tags": [
+        "letters"
+      ],
+      "image_kind": "personal",
+      "search_aliases": [
+        "读信的女子",
+        "蓝衣读信女子"
+      ]
+    },
+    {
+      "id": "girl-pearl",
+      "source_number": 586,
+      "photo": "vermeer-586.jpg",
+      "title": "戴珍珠耳环的少女",
+      "original_title": "Girl with a Pearl Earring",
+      "artist": "约翰内斯·维米尔",
+      "status": "autograph",
+      "museum": "mauritshuis",
+      "period": "faces",
+      "year": 1665,
+      "date": "约1665年",
+      "accession": "670",
+      "material": "布面油画",
+      "observation": "她转过头来，嘴唇与耳环上各有一点亮光。背景几乎全暗，蓝黄头巾把脸托了出来；目光看似近，人物的身份却很远。",
+      "story": "这类画在荷兰称为 tronie，着重表现面容、神态和特别的装束，不一定是为某位具名人物订制的肖像。因此，把她直接认作维米尔的女儿或小说中的女仆，都超过了现有证据。比起追问她是谁，先看这张脸怎样被光塑出来，也很有意思。",
+      "source_url": "https://www.mauritshuis.nl/en/our-collection/artworks/670-girl-with-a-pearl-earring",
+      "source_note": "",
+      "tags": [
+        "faces"
+      ],
+      "image_kind": "personal",
+      "search_aliases": [
+        "戴珍珠耳饰的少女"
+      ]
+    },
+    {
+      "id": "view-delft",
+      "source_number": 588,
+      "photo": "vermeer-588.jpg",
+      "title": "代尔夫特风景",
+      "original_title": "View of Delft",
+      "artist": "约翰内斯·维米尔",
+      "status": "autograph",
+      "museum": "mauritshuis",
+      "period": "city",
+      "year": 1660,
+      "date": "约1660—1661年",
+      "accession": "92",
+      "material": "布面油画",
+      "observation": "近处水岸暗，远处城墙亮，天空又占了大半幅画。城市倒映在水里，岸边的几个人很小，却让这片安静有了日常的尺度。",
+      "story": "这不是对城市毫无选择的照抄。莫瑞泰斯皇家美术馆指出，维米尔稍稍整理了建筑的样子，还把新教堂的尖塔移向画面中央，并让它沐浴在阳光里。水、城市、天空三条横带，把原本复杂的城景收得很稳。",
+      "source_url": "https://www.mauritshuis.nl/en/our-collection/artworks/92-view-of-delft",
+      "source_note": "",
+      "tags": [
+        "city"
+      ],
+      "image_kind": "personal",
+      "search_aliases": [
+        "代尔夫特远眺",
+        "德尔福远眺",
+        "台夫特风景"
+      ]
+    },
+    {
+      "id": "little-street",
+      "source_number": 590,
+      "photo": "vermeer-590.jpg",
+      "title": "小街",
+      "original_title": "View of Houses in Delft, Known as The Little Street",
+      "artist": "约翰内斯·维米尔",
+      "status": "autograph",
+      "museum": "rijks",
+      "period": "city",
+      "year": 1658,
+      "date": "约1658年",
+      "accession": "SK-A-2860",
+      "material": "布面油画",
+      "observation": "砖墙上的白灰、裂缝和窗格都值得慢慢看。门口有人做针线，巷子里有人忙着家务，两个孩子贴着地面玩耍，房子本身反而像主角。",
+      "story": "荷兰国立博物馆把画中的地点认定为代尔夫特弗拉明街40—42号，并指出右边的房子曾由维米尔的亲属与孩子们居住。它没有宏伟建筑或历史事件，却用很细的观察，给普通住宅留下了一幅郑重的画像。",
+      "source_url": "https://www.rijksmuseum.nl/en/collection/object/View-of-Houses-in-Delft-Known-as-The-Little-Street--a7dbf937cbd6f7c30f66f8aca4a0207c",
+      "source_note": "这张作品照片没有配套展签；名称、年代和编号据荷兰国立博物馆目录核对。",
+      "tags": [
+        "city"
+      ],
+      "image_kind": "personal",
+      "search_aliases": [
+        "代尔夫特的小街"
+      ]
+    },
+    {
+      "id": "astronomer",
+      "source_number": 591,
+      "photo": "vermeer-591.jpg",
+      "title": "天文学家",
+      "original_title": "L’Astronome",
+      "artist": "约翰内斯·维米尔",
+      "status": "autograph",
+      "museum": "louvre",
+      "period": "thought",
+      "year": 1668,
+      "date": "1668年",
+      "accession": "RF 1983 28",
+      "material": "布面油画",
+      "observation": "他的手伸向天球仪，身体也跟着前倾。窗光落在额头、手指和球体上，桌上的书与褶皱很多的织物把这个研究的动作围了起来。",
+      "story": "卢浮宫识别出画中的天球仪和天文学书籍，说明这些器物并非随意画出的“学者道具”。这幅画曾属于罗斯柴尔德收藏，二战时遭掠夺，战后归还，1983年进入卢浮宫。人物常被猜作列文虎克，但馆方明确指出这种身份认定缺乏证据。",
+      "source_url": "https://collections.louvre.fr/ark:/53355/cl010064324",
+      "source_note": "",
+      "tags": [
+        "thought"
+      ],
+      "image_kind": "personal",
+      "extra_source": [
+        "法国国家艺术史研究院：作品流转",
+        "https://collections.rothschild.inha.fr/fr/uvres/selection-d-oeuvres/toutes-les-oeuvres/l-astronome-par-johannes-vermeer.html"
+      ]
+    },
+    {
+      "id": "lacemaker",
+      "source_number": 593,
+      "photo": "vermeer-593.jpg",
+      "title": "花边女工",
+      "original_title": "La Dentellière",
+      "artist": "约翰内斯·维米尔",
+      "status": "autograph",
+      "museum": "louvre",
+      "period": "daily",
+      "year": 1669,
+      "date": "约1669—1670年",
+      "accession": "MI 1448",
+      "material": "布面油画，粘贴于木板",
+      "observation": "画很小，手指之间的线却把视线牢牢拉住。前景散开的红白丝线画得模糊，后面真正工作的那一小块反而清楚。",
+      "story": "卢浮宫把做花边的题材联系到当时关于家庭美德的观念。不过，传统画名不等于人物真的以此为职业；馆方认为她更可能是一位在家做针线的女子，也没有证据说明她就是维米尔的妻子。画面的光从右边来，在他的作品里并不常见。",
+      "source_url": "https://collections.louvre.fr/ark:/53355/cl010064918",
+      "source_note": "",
+      "tags": [
+        "daily"
+      ],
+      "image_kind": "personal",
+      "search_aliases": [
+        "编织花边的女工",
+        "织花边的女子"
+      ]
+    },
+    {
+      "id": "faith",
+      "source_number": 595,
+      "photo": "vermeer-595.jpg",
+      "title": "信仰的寓言",
+      "original_title": "Allegory of the Catholic Faith",
+      "artist": "约翰内斯·维米尔",
+      "status": "autograph",
+      "museum": "met",
+      "period": "thought",
+      "year": 1670,
+      "date": "约1670—1672年",
+      "accession": "32.100.18",
+      "material": "布面油画",
+      "observation": "女子一只脚踏在地球仪上，桌上有十字架和圣杯。前景还有苹果与被石块压住的蛇；这些物件的存在感，比平常的室内画强烈得多。",
+      "story": "这是明确表现天主教信仰的寓意画。大都会将它放回当时荷兰共和国限制公开举行弥撒的背景中理解：居家空间可能暗示私人住宅中的秘密教堂，女子与脚下的地球、石块与蛇都带有宗教象征。它与那些读信、弹琴的房间相似，却承担着不同的任务。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/437877",
+      "source_note": "",
+      "tags": [
+        "thought"
+      ],
+      "image_kind": "personal",
+      "search_aliases": [
+        "天主教信仰的寓言",
+        "信仰寓意"
+      ]
+    },
+    {
+      "id": "water-pitcher",
+      "source_number": 597,
+      "photo": "vermeer-597.jpg",
+      "title": "持水壶的女子",
+      "original_title": "Young Woman with a Water Pitcher",
+      "artist": "约翰内斯·维米尔",
+      "status": "autograph",
+      "museum": "met",
+      "period": "daily",
+      "year": 1662,
+      "date": "约1662年",
+      "accession": "89.15.21",
+      "material": "布面油画",
+      "observation": "一只手扶着窗，一只手停在水壶旁。白色头巾接住窗光，蓝裙、金属水盆和桌上的织物，则把光分成了不同的质感。",
+      "story": "大都会记录，这幅画由亨利·马昆德于1889年赠入馆藏，是最早进入美国收藏的维米尔作品。画中的洗漱原本是再普通不过的生活片刻，到了这里，窗、地图和桌面却围成了一个非常完整的小世界。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/437881",
+      "source_note": "",
+      "tags": [
+        "daily"
+      ],
+      "image_kind": "personal",
+      "search_aliases": [
+        "拿水壶的年轻女子",
+        "持水罐的年轻女子"
+      ]
+    },
+    {
+      "id": "young-woman",
+      "source_number": 599,
+      "photo": "vermeer-599.jpg",
+      "title": "少女肖像",
+      "original_title": "Study of a Young Woman",
+      "artist": "约翰内斯·维米尔",
+      "status": "autograph",
+      "museum": "met",
+      "period": "faces",
+      "year": 1665,
+      "date": "约1665—1667年",
+      "accession": "1979.396.1",
+      "material": "布面油画",
+      "observation": "她也戴着珍珠耳饰，肩上覆着轻软的披巾。与《戴珍珠耳环的少女》相比，这张脸的转向和表情更含蓄，嘴角像刚刚要动起来。",
+      "story": "馆方认为它很可能同样属于 tronie：以人物面容和服饰为重点的形象研究，而非某位顾客订制的肖像。1979年，赖特斯曼夫妇将它赠予大都会，以纪念馆员西奥多·卢梭。这里沿用常见中文画名“少女肖像”，但不据此推断模特身份。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/437879",
+      "source_note": "",
+      "tags": [
+        "faces"
+      ],
+      "image_kind": "personal",
+      "search_aliases": [
+        "年轻女子头像",
+        "年轻女子习作"
+      ]
+    },
+    {
+      "id": "lute",
+      "source_number": 601,
+      "photo": "vermeer-601.jpg",
+      "title": "弹鲁特琴的女子",
+      "original_title": "Young Woman with a Lute",
+      "artist": "约翰内斯·维米尔",
+      "status": "autograph",
+      "museum": "met",
+      "period": "music",
+      "year": 1662,
+      "date": "约1662—1663年",
+      "accession": "25.110.24",
+      "material": "布面油画",
+      "observation": "她的手停在琴上，目光却投向窗外。墙上的地图很大，桌边的人很安静；音乐似乎还没有真正开始。",
+      "story": "展签指出，她正在调弦，旁边的歌本和地上的维奥尔琴暗示可能还有人来合奏。音乐既是当时年轻人的教育内容，也给相识与亲近提供机会。欧洲地图把这个小房间和更大的世界接在一起，却没有替我们说出她究竟在等谁。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/437880",
+      "source_note": "",
+      "tags": [
+        "music"
+      ],
+      "image_kind": "personal",
+      "search_aliases": [
+        "持鲁特琴的年轻女子",
+        "弹琉特琴的女子"
+      ]
+    },
+    {
+      "id": "maid-asleep",
+      "source_number": 603,
+      "photo": "vermeer-603.jpg",
+      "title": "沉睡的女仆",
+      "original_title": "A Maid Asleep",
+      "artist": "约翰内斯·维米尔",
+      "status": "autograph",
+      "museum": "met",
+      "period": "daily",
+      "year": 1656,
+      "date": "约1656—1657年",
+      "accession": "14.40.611",
+      "material": "布面油画",
+      "observation": "她支着头睡着了，桌毯皱在前面，另一把椅子和敞开的门把视线引向空房。眼前似乎刚有过什么事，却没有一个明确的答案。",
+      "story": "大都会的技术检查发现，维米尔原本在门口画过一个男人，后来又将他抹去。17世纪的荷兰绘画常用打盹的女仆作道德劝诫，但这个被删去的人物让故事变得更难确定。看得见的房间和看不见的来客，恰好构成了它的悬念。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/437878",
+      "source_note": "",
+      "tags": [
+        "daily"
+      ],
+      "image_kind": "personal",
+      "search_aliases": [
+        "熟睡的女仆",
+        "睡着的女仆"
+      ]
+    },
+    {
+      "id": "balance",
+      "source_number": 605,
+      "photo": "vermeer-605.jpg",
+      "title": "持天平的女子",
+      "original_title": "Woman Holding a Balance",
+      "artist": "约翰内斯·维米尔",
+      "status": "autograph",
+      "museum": "nga",
+      "period": "thought",
+      "year": 1664,
+      "date": "约1664年",
+      "accession": "1942.9.97",
+      "material": "布面油画",
+      "observation": "她轻轻提起天平，动作几乎停在空气里。桌上有珠宝，身后的画里却是另一场衡量：基督主持的最后审判。",
+      "story": "天平的秤盘其实是空的。把它简单叫作“称珍珠的女人”，会让我们错过这个细节。馆方将人物的平静与背后的《最后的审判》一起讨论：珠宝、镜子和天平让日常物品带上了关于判断与节制的意味，而画面并不急着替观众下结论。",
+      "source_url": "https://www.nga.gov/artworks/1236-woman-holding-balance",
+      "source_note": "",
+      "tags": [
+        "thought"
+      ],
+      "image_kind": "personal",
+      "search_aliases": [
+        "持天平的女人",
+        "称珍珠的女人"
+      ]
+    },
+    {
+      "id": "lady-writing",
+      "source_number": 607,
+      "photo": "vermeer-607.jpg",
+      "title": "写信的女子",
+      "original_title": "A Lady Writing",
+      "artist": "约翰内斯·维米尔",
+      "status": "autograph",
+      "museum": "nga",
+      "period": "letters",
+      "year": 1665,
+      "date": "约1665年",
+      "accession": "1962.10.1",
+      "material": "布面油画",
+      "observation": "她握笔的手还留在纸边，人却已经转过来看我们。黄色外套和桌上的珍珠有亮点，身后那幅画则沉在暗处。",
+      "story": "在同样的书信题材里，这一幅让观众站得格外近。美国国家美术馆记录它于1962年由哈维迈耶家族捐赠入藏。和阿姆斯特丹专心读信的蓝衣女子并排看，一个没有抬头，一个恰好看向画外，观看关系就完全不同了。",
+      "source_url": "https://www.nga.gov/artworks/46437-lady-writing",
+      "source_note": "",
+      "tags": [
+        "letters"
+      ],
+      "image_kind": "personal",
+      "search_aliases": [
+        "写信女子",
+        "正在写信的女士"
+      ]
+    },
+    {
+      "id": "red-hat",
+      "source_number": 609,
+      "photo": "vermeer-609.jpg",
+      "title": "戴红帽的少女",
+      "original_title": "Girl with the Red Hat",
+      "artist": "约翰内斯·维米尔",
+      "status": "autograph",
+      "museum": "nga",
+      "period": "faces",
+      "year": 1669,
+      "date": "约1669年",
+      "accession": "1937.1.53",
+      "material": "木板油画",
+      "observation": "红帽很大，脸却藏在帽檐的阴影里。蓝衣、白领和椅子的狮头都有跳出来的亮点，画面很小，颜色一点也不安静。",
+      "story": "这件作品画在木板上，与本辑大多数布面作品不同。美国国家美术馆的研究发现，木板下面原本有一幅戴宽檐帽男子的半身像；维米尔将画板转了180度，再画上现在的人物。一张小小的画，也保留着这样的改画过程。",
+      "source_url": "https://www.nga.gov/artworks/60-girl-red-hat",
+      "source_note": "",
+      "tags": [
+        "faces"
+      ],
+      "image_kind": "personal",
+      "extra_source": [
+        "美国国家美术馆：技术研究",
+        "https://www.nga.gov/research/publications/dutch-paintings-seventeenth-century/johannes-vermeer-girl-red-hat-c-1669"
+      ],
+      "search_aliases": [
+        "戴红帽的女孩"
+      ]
+    },
+    {
+      "id": "mistress-maid",
+      "source_number": "mistress-maid",
+      "photo": "mistress-maid.jpg",
+      "title": "女主人与女仆",
+      "original_title": "Mistress and Maid",
+      "artist": "约翰内斯·维米尔",
+      "status": "autograph",
+      "museum": "frick",
+      "period": "letters",
+      "year": 1664,
+      "date": "约1664—1667年",
+      "accession": "1919.1.126",
+      "material": "布面油画",
+      "observation": "女仆递来一封信，女主人将手抬向下巴，笔还没有完全离开写字的动作。背景几乎退成一整片暗色，两个人之间的停顿就格外醒目。",
+      "story": "这是亨利·克莱·弗里克在1919年去世前购入的最后一件艺术品。2025年的书信专题也以它为中心，与阿姆斯特丹的《情书》和都柏林的《写信的女子与女仆》相聚。三个房间里都有两名女子，收信、写信与等待却各有不同。",
+      "source_url": "https://collections.frick.org/objects/274/mistress-and-maid",
+      "source_note": "",
+      "tags": [
+        "letters",
+        "frick-2025"
+      ],
+      "image_kind": "supplement",
+      "extra_source": [
+        "弗里克：收藏流转记录",
+        "https://www.frick.org/blogs/curatorial/mapping_provenance_vermeers_mistress_maid"
+      ],
+      "search_aliases": [
+        "女主人和女佣",
+        "女主人和女仆"
+      ],
+      "visit": "2025年8月 · 弗里克收藏馆（本人确认观看，无现场照片）"
+    },
+    {
+      "id": "love-letter",
+      "source_number": "love-letter",
+      "photo": "love-letter.jpg",
+      "title": "情书",
+      "original_title": "The Love Letter",
+      "artist": "约翰内斯·维米尔",
+      "status": "autograph",
+      "museum": "rijks",
+      "period": "letters",
+      "year": 1669,
+      "date": "约1669—1670年",
+      "accession": "SK-A-1595",
+      "material": "布面油画",
+      "observation": "我们像站在门外，隔着帘幕和走廊望进去。女子还拿着琴，抬头与女仆对视；信很小，却成了两人动作的中心。",
+      "story": "荷兰国立博物馆把墙上的海景画与爱情中的航行联系起来：海上风浪可以借喻感情的不确定。画中并未展示信的文字，标题“情书”的意味来自人物、乐器与画中画共同营造的语境。这件荷兰馆藏在2025年夏季借展弗里克，也是这次参观记录的一部分。",
+      "source_url": "https://www.rijksmuseum.nl/en/collection/object/The-Love-Letter--508513eb7ee162ec2f68ea3d3138d912",
+      "source_note": "",
+      "tags": [
+        "letters",
+        "frick-2025"
+      ],
+      "image_kind": "supplement",
+      "extra_source": [
+        "弗里克：2025年书信专题",
+        "https://www.frick.org/press/frick_vermeers_love_letters"
+      ],
+      "visit": "2025年8月 · 弗里克收藏馆（本人确认观看，无现场照片）"
+    },
+    {
+      "id": "letter-maid",
+      "source_number": "letter-maid",
+      "photo": "letter-maid.jpg",
+      "title": "写信的女子与女仆",
+      "original_title": "Woman Writing a Letter, with her Maid",
+      "artist": "约翰内斯·维米尔",
+      "status": "autograph",
+      "museum": "ngi",
+      "period": "letters",
+      "year": 1670,
+      "date": "约1670年",
+      "accession": "NGI.4535",
+      "material": "布面油画",
+      "observation": "女主人俯身写信，女仆双手交叠，转向窗外。一个忙，一个等；棋盘格地面和左边的帘幕，把两种不同的时间放在同一个房间里。",
+      "story": "爱尔兰国家美术馆记录，这幅画在维米尔去世后，由他的遗孀连同另一幅作品交给面包师，用来抵偿面包账。后来它进入贝特收藏，1987年被赠予国家美术馆。2025年8月，我是在纽约弗里克的书信专题里看到它的。",
+      "source_url": "https://onlinecollection.nationalgallery.ie/objects/8707/woman-writing-a-letter-with-her-maid",
+      "source_note": "",
+      "tags": [
+        "letters",
+        "frick-2025"
+      ],
+      "image_kind": "supplement",
+      "extra_source": [
+        "弗里克：2025年书信专题",
+        "https://www.frick.org/press/frick_vermeers_love_letters"
+      ],
+      "search_aliases": [
+        "写信的妇人与女佣",
+        "写信的贵妇与女仆"
+      ],
+      "visit": "2025年8月 · 弗里克收藏馆（本人确认观看，无现场照片）"
+    },
+    {
+      "id": "officer-laughing-girl",
+      "source_number": "officer-laughing-girl",
+      "photo": "officer-laughing-girl.jpg",
+      "title": "军官与微笑的女子",
+      "original_title": "Officer and Laughing Girl",
+      "artist": "约翰内斯·维米尔",
+      "status": "autograph",
+      "museum": "frick",
+      "period": "music",
+      "year": 1657,
+      "date": "约1657年",
+      "accession": "1911.1.127",
+      "material": "布面油画",
+      "observation": "军官背对我们，帽子和身体占去很大一块前景。对面的女子显得小，脸却全在光里，手里握着酒杯，笑容让这个房间不再那么沉静。",
+      "story": "弗里克的目录指出，墙上地图描绘荷兰与西弗里斯兰，方向是西方朝上，不能用今天常见的北向上地图去读。这幅画曾被当作德·霍赫的作品交易，1911年进入弗里克收藏。它的年代较早，人物之间的距离与交谈却已经很有维米尔自己的样子。",
+      "source_url": "https://collections.frick.org/objects/275/officer-and-laughing-girl",
+      "source_note": "",
+      "tags": [
+        "music",
+        "frick-2025"
+      ],
+      "image_kind": "supplement",
+      "search_aliases": [
+        "军官与笑女",
+        "军官与微笑的少女"
+      ],
+      "visit": "2025年8月 · 弗里克收藏馆（本人确认观看，无现场照片）"
+    },
+    {
+      "id": "music-interrupted",
+      "source_number": "music-interrupted",
+      "photo": "music-interrupted.jpg",
+      "title": "音乐课被打断的少女",
+      "original_title": "Girl Interrupted at Her Music",
+      "artist": "约翰内斯·维米尔",
+      "status": "autograph",
+      "museum": "frick",
+      "period": "music",
+      "year": 1658,
+      "date": "约1658—1659年",
+      "accession": "1901.1.125",
+      "material": "布面油画",
+      "observation": "女子从手边的乐谱转过头来，身后的男子却仍低头靠近她。桌上有酒杯与乐器，窗光把两个人从暗处引出来。",
+      "story": "这究竟是一堂音乐课，还是一次带着爱情意味的相会？弗里克保留了两种理解，并指出窗边的鸟笼出自后人的添笔。它在1901年进入弗里克收藏，是馆内三件维米尔中最早购入的一件。",
+      "source_url": "https://collections.frick.org/objects/273/girl-interrupted-at-her-music",
+      "source_note": "",
+      "tags": [
+        "music",
+        "frick-2025"
+      ],
+      "image_kind": "supplement",
+      "search_aliases": [
+        "中止奏乐的女孩",
+        "中断音乐的少女"
+      ],
+      "visit": "2025年8月 · 弗里克收藏馆（本人确认观看，无现场照片）"
+    }
+  ],
+  "photos": {
+    "582": {
+      "file": "vermeer-582.jpg",
+      "width": 1280,
+      "height": 1707,
+      "caption": "倒牛奶的女仆",
+      "sha256": "7b26b042e3c1f48e4133bf7e102491c9fac71f47ba9dc409defd7daa0b598d13",
+      "kind": "personal",
+      "credit": "参观照片 / Merton"
+    },
+    "584": {
+      "file": "vermeer-584.jpg",
+      "width": 1280,
+      "height": 1707,
+      "caption": "读信的蓝衣女子",
+      "sha256": "5478803418c8b32a76cb6a9f1983b51ac59f1481b314993214280132d6922234",
+      "kind": "personal",
+      "credit": "参观照片 / Merton"
+    },
+    "586": {
+      "file": "vermeer-586.jpg",
+      "width": 1280,
+      "height": 1707,
+      "caption": "戴珍珠耳环的少女",
+      "sha256": "7dcb8ba7c082e4191c1d999c9cb6b1f142d5132b7ccfaad86827ae064cf4ab1f",
+      "kind": "personal",
+      "credit": "参观照片 / Merton"
+    },
+    "588": {
+      "file": "vermeer-588.jpg",
+      "width": 1707,
+      "height": 1280,
+      "caption": "代尔夫特风景",
+      "sha256": "20b0b2b6a0e609ac52ac3ebfc29b1f28ca410a0fc0f21110fdc3743762b4d93e",
+      "kind": "personal",
+      "credit": "参观照片 / Merton"
+    },
+    "590": {
+      "file": "vermeer-590.jpg",
+      "width": 1280,
+      "height": 1707,
+      "caption": "小街",
+      "sha256": "f340cd49826e73a5f32a2d78dac6670b3548847a8ccc20f5d793d85e68e358c9",
+      "kind": "personal",
+      "credit": "参观照片 / Merton"
+    },
+    "591": {
+      "file": "vermeer-591.jpg",
+      "width": 1280,
+      "height": 1707,
+      "caption": "天文学家",
+      "sha256": "f21ff286c4e6fc6b9def187f0ef3a3b6993f8d33de650dce39656f477c0d41f3",
+      "kind": "personal",
+      "credit": "参观照片 / Merton"
+    },
+    "593": {
+      "file": "vermeer-593.jpg",
+      "width": 1280,
+      "height": 1707,
+      "caption": "花边女工",
+      "sha256": "c156030625866fb08845d3d5aed6344ecc2f3618ac00c562214cc2843721a73b",
+      "kind": "personal",
+      "credit": "参观照片 / Merton"
+    },
+    "595": {
+      "file": "vermeer-595.jpg",
+      "width": 1280,
+      "height": 1707,
+      "caption": "信仰的寓言",
+      "sha256": "03ef1840353ec2f8ecac02f9b0de81f1312786fe7bdafc83af36629120246a10",
+      "kind": "personal",
+      "credit": "参观照片 / Merton"
+    },
+    "597": {
+      "file": "vermeer-597.jpg",
+      "width": 1280,
+      "height": 1707,
+      "caption": "持水壶的女子",
+      "sha256": "fd806f0de4f2b800372f8b90c860368daf4c7fbe552335fb5c7e30dfdd76f3aa",
+      "kind": "personal",
+      "credit": "参观照片 / Merton"
+    },
+    "599": {
+      "file": "vermeer-599.jpg",
+      "width": 1280,
+      "height": 1707,
+      "caption": "少女肖像",
+      "sha256": "18a684fd8ecfd5f99c19bbcd4cd8fdea73d27c95cc7429cfe0713c0c3472658d",
+      "kind": "personal",
+      "credit": "参观照片 / Merton"
+    },
+    "601": {
+      "file": "vermeer-601.jpg",
+      "width": 1280,
+      "height": 1707,
+      "caption": "弹鲁特琴的女子",
+      "sha256": "6428b1d5ad536ff7068369f35e90f3d4c8832792093f7ef046636207f71e8504",
+      "kind": "personal",
+      "credit": "参观照片 / Merton"
+    },
+    "603": {
+      "file": "vermeer-603.jpg",
+      "width": 1280,
+      "height": 1707,
+      "caption": "沉睡的女仆",
+      "sha256": "60b4d0311e41f7569caff11df6ced4907e16292f50631f94408c2d7edf5c4489",
+      "kind": "personal",
+      "credit": "参观照片 / Merton"
+    },
+    "605": {
+      "file": "vermeer-605.jpg",
+      "width": 1280,
+      "height": 1707,
+      "caption": "持天平的女子",
+      "sha256": "0b08a8bf4e96b8d9951f7b468acf3becd90dac312fd7f273ee145d75f11e5be7",
+      "kind": "personal",
+      "credit": "参观照片 / Merton"
+    },
+    "607": {
+      "file": "vermeer-607.jpg",
+      "width": 1280,
+      "height": 1707,
+      "caption": "写信的女子",
+      "sha256": "f3ee1d8627302bc684b2228fffa8330f29dc176989b4c5685ce29f309074be52",
+      "kind": "personal",
+      "credit": "参观照片 / Merton"
+    },
+    "609": {
+      "file": "vermeer-609.jpg",
+      "width": 1280,
+      "height": 1707,
+      "caption": "戴红帽的少女",
+      "sha256": "c6244cf0a637b973a3fc2ad114a1bec13a16f3031643445f0e5f2e0ff658b1e4",
+      "kind": "personal",
+      "credit": "参观照片 / Merton"
+    },
+    "mistress-maid": {
+      "file": "mistress-maid.jpg",
+      "width": 1920,
+      "height": 2211,
+      "caption": "女主人与女仆",
+      "sha256": "774979c787c91d11f38df05d31efc4bac0e065b14a636a532b680c06dabeb236",
+      "kind": "supplement",
+      "credit": "补充图 / 弗里克收藏馆 / Google Arts & Culture · 经 Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Johannes_Vermeer_-_Mistress_and_Maid_-_Google_Arts_Project.jpg"
+    },
+    "love-letter": {
+      "file": "love-letter.jpg",
+      "width": 1920,
+      "height": 2228,
+      "caption": "情书",
+      "sha256": "1f854c8454586a479c51e72a3989736cb97829fc06c1680bd990a6634c7b0198",
+      "kind": "supplement",
+      "credit": "补充图 / 荷兰国立博物馆 · 经 Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:De_liefdesbrief_Rijksmuseum_SK-A-1595.jpeg"
+    },
+    "letter-maid": {
+      "file": "letter-maid.jpg",
+      "width": 1920,
+      "height": 2333,
+      "caption": "写信的女子与女仆",
+      "sha256": "317b04e10bf64ebaee5bd2903d479a3c4b4888ab4bce7fbaacaad6bc26d9903d",
+      "kind": "supplement",
+      "credit": "补充图 / 爱尔兰国家美术馆 · 经 Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Woman_writing_a_letter,_with_her_maid,_by_Johannes_Vermeer.jpg"
+    },
+    "officer-laughing-girl": {
+      "file": "officer-laughing-girl.jpg",
+      "width": 1920,
+      "height": 2092,
+      "caption": "军官与微笑的女子",
+      "sha256": "06db6b2ca49f5a2dd089e0ab35568b4d9bf78fcf59e010c659a07da5a5e1b230",
+      "kind": "supplement",
+      "credit": "补充图 / 弗里克收藏馆 / Google Arts & Culture · 经 Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Johannes_Vermeer_-_De_Soldaat_en_het_Lachende_Meisje_-_Google_Art_Project.jpg"
+    },
+    "music-interrupted": {
+      "file": "music-interrupted.jpg",
+      "width": 1081,
+      "height": 950,
+      "caption": "音乐课被打断的少女",
+      "sha256": "8c2bc2e258647c36345a7dddb9fa054d3e6f315c46be4a1a70ead5d397b438cd",
+      "kind": "supplement",
+      "credit": "补充图 / Web Gallery of Art · 经 Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Johannes_Vermeer_-_Girl_Interrupted_at_Her_Music_-_WGA24648.jpg"
+    }
+  },
+  "frick_exhibition": {
+    "title": "Vermeer’s Love Letters",
+    "visit": "2025年8月",
+    "source_url": "https://www.frick.org/press/frick_vermeers_love_letters",
+    "works": [
+      "mistress-maid",
+      "love-letter",
+      "letter-maid"
+    ],
+    "other_seen": [
+      "officer-laughing-girl",
+      "music-interrupted"
+    ]
+  }
+}

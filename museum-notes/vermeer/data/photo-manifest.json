@@ -1,0 +1,263 @@
+[
+  {
+    "source": "Image_20260925002649_582_19.jpg",
+    "role": "artwork",
+    "works": [
+      "milkmaid"
+    ],
+    "sha256": "7b26b042e3c1f48e4133bf7e102491c9fac71f47ba9dc409defd7daa0b598d13",
+    "published": "vermeer-582.jpg"
+  },
+  {
+    "source": "Image_20260925002649_583_19.jpg",
+    "role": "label",
+    "works": [
+      "milkmaid"
+    ],
+    "sha256": "95a582267a8c8ce6454c8ece1e6f19a5e2f6e7a637775c2304dbeb1b9ec4b82f",
+    "published": null
+  },
+  {
+    "source": "Image_20260925002649_584_19.jpg",
+    "role": "artwork",
+    "works": [
+      "blue-letter"
+    ],
+    "sha256": "5478803418c8b32a76cb6a9f1983b51ac59f1481b314993214280132d6922234",
+    "published": "vermeer-584.jpg"
+  },
+  {
+    "source": "Image_20260925002649_585_19.jpg",
+    "role": "label",
+    "works": [
+      "blue-letter"
+    ],
+    "sha256": "9daf5138617e5f950ec6a287adc401c7c52fa0e9847f32444ce2d6497d0b06d1",
+    "published": null
+  },
+  {
+    "source": "Image_20260925002649_586_19.jpg",
+    "role": "artwork",
+    "works": [
+      "girl-pearl"
+    ],
+    "sha256": "7dcb8ba7c082e4191c1d999c9cb6b1f142d5132b7ccfaad86827ae064cf4ab1f",
+    "published": "vermeer-586.jpg"
+  },
+  {
+    "source": "Image_20260925002649_587_19.jpg",
+    "role": "label",
+    "works": [
+      "girl-pearl"
+    ],
+    "sha256": "bfa1370d5c3b80e23cb41f975840164a2e10d058b9b57061ab871543e14cd954",
+    "published": null
+  },
+  {
+    "source": "Image_20260925002649_588_19.jpg",
+    "role": "artwork",
+    "works": [
+      "view-delft"
+    ],
+    "sha256": "20b0b2b6a0e609ac52ac3ebfc29b1f28ca410a0fc0f21110fdc3743762b4d93e",
+    "published": "vermeer-588.jpg"
+  },
+  {
+    "source": "Image_20260925002649_589_19.jpg",
+    "role": "label",
+    "works": [
+      "view-delft"
+    ],
+    "sha256": "ea98af127ac37c64bafab00d790935563d672da2acd5e4be5102dd652f8868ed",
+    "published": null
+  },
+  {
+    "source": "Image_20260925002649_590_19.jpg",
+    "role": "artwork",
+    "works": [
+      "little-street"
+    ],
+    "sha256": "f340cd49826e73a5f32a2d78dac6670b3548847a8ccc20f5d793d85e68e358c9",
+    "published": "vermeer-590.jpg"
+  },
+  {
+    "source": "Image_20260925002649_591_19.jpg",
+    "role": "artwork",
+    "works": [
+      "astronomer"
+    ],
+    "sha256": "f21ff286c4e6fc6b9def187f0ef3a3b6993f8d33de650dce39656f477c0d41f3",
+    "published": "vermeer-591.jpg"
+  },
+  {
+    "source": "Image_20260925002649_592_19.jpg",
+    "role": "label",
+    "works": [
+      "astronomer"
+    ],
+    "sha256": "7cffb67eb6bd210317c163d8d068dcaa0d0305f82c854a4844accf62c8bb1dc5",
+    "published": null
+  },
+  {
+    "source": "Image_20260925002649_593_19.jpg",
+    "role": "artwork",
+    "works": [
+      "lacemaker"
+    ],
+    "sha256": "c156030625866fb08845d3d5aed6344ecc2f3618ac00c562214cc2843721a73b",
+    "published": "vermeer-593.jpg"
+  },
+  {
+    "source": "Image_20260925002649_594_19.jpg",
+    "role": "label",
+    "works": [
+      "lacemaker"
+    ],
+    "sha256": "fda58db10230a5acd854915eb1c558baed601b0907f9658342f91f430c9cbb36",
+    "published": null
+  },
+  {
+    "source": "Image_20260925002649_595_19.jpg",
+    "role": "artwork",
+    "works": [
+      "faith"
+    ],
+    "sha256": "03ef1840353ec2f8ecac02f9b0de81f1312786fe7bdafc83af36629120246a10",
+    "published": "vermeer-595.jpg"
+  },
+  {
+    "source": "Image_20260925002649_596_19.jpg",
+    "role": "label",
+    "works": [
+      "faith"
+    ],
+    "sha256": "9754acddbd246acaa434431a4e621b246107a672fc12602881944ed94b16e0b0",
+    "published": null
+  },
+  {
+    "source": "Image_20260925002649_597_19.jpg",
+    "role": "artwork",
+    "works": [
+      "water-pitcher"
+    ],
+    "sha256": "fd806f0de4f2b800372f8b90c860368daf4c7fbe552335fb5c7e30dfdd76f3aa",
+    "published": "vermeer-597.jpg"
+  },
+  {
+    "source": "Image_20260925002649_598_19.jpg",
+    "role": "label",
+    "works": [
+      "water-pitcher"
+    ],
+    "sha256": "a561c22f8219050c7a90a32213f17ea874efd5687b2edcb3e4c8e31e8b08fa03",
+    "published": null
+  },
+  {
+    "source": "Image_20260925002649_599_19.jpg",
+    "role": "artwork",
+    "works": [
+      "young-woman"
+    ],
+    "sha256": "18a684fd8ecfd5f99c19bbcd4cd8fdea73d27c95cc7429cfe0713c0c3472658d",
+    "published": "vermeer-599.jpg"
+  },
+  {
+    "source": "Image_20260925002649_600_19.jpg",
+    "role": "label",
+    "works": [
+      "young-woman"
+    ],
+    "sha256": "6386bdadd2f33b507171982884f37cd55c91e142b855fcd9fe66b5e76d10bfcc",
+    "published": null
+  },
+  {
+    "source": "Image_20260925002649_601_19.jpg",
+    "role": "artwork",
+    "works": [
+      "lute"
+    ],
+    "sha256": "6428b1d5ad536ff7068369f35e90f3d4c8832792093f7ef046636207f71e8504",
+    "published": "vermeer-601.jpg"
+  },
+  {
+    "source": "Image_20260925002649_602_19.jpg",
+    "role": "label",
+    "works": [
+      "lute"
+    ],
+    "sha256": "f5086369d2f860880aec192d38fb8d148c931bb53edc61b58c5fc8362d2a13b4",
+    "published": null
+  },
+  {
+    "source": "Image_20260925002649_603_19.jpg",
+    "role": "artwork",
+    "works": [
+      "maid-asleep"
+    ],
+    "sha256": "60b4d0311e41f7569caff11df6ced4907e16292f50631f94408c2d7edf5c4489",
+    "published": "vermeer-603.jpg"
+  },
+  {
+    "source": "Image_20260925002649_604_19.jpg",
+    "role": "label",
+    "works": [
+      "maid-asleep"
+    ],
+    "sha256": "4b87f109aecc63b2346044350e7ccc535c77822129474d596aba78611f2044ae",
+    "published": null
+  },
+  {
+    "source": "Image_20260925002649_605_19.jpg",
+    "role": "artwork",
+    "works": [
+      "balance"
+    ],
+    "sha256": "0b08a8bf4e96b8d9951f7b468acf3becd90dac312fd7f273ee145d75f11e5be7",
+    "published": "vermeer-605.jpg"
+  },
+  {
+    "source": "Image_20260925002649_606_19.jpg",
+    "role": "label",
+    "works": [
+      "balance"
+    ],
+    "sha256": "cd152030a9d9e093b2b37fa1000f5f949f3fa2be6985f7611ea45575aeaddcbc",
+    "published": null
+  },
+  {
+    "source": "Image_20260925002649_607_19.jpg",
+    "role": "artwork",
+    "works": [
+      "lady-writing"
+    ],
+    "sha256": "f3ee1d8627302bc684b2228fffa8330f29dc176989b4c5685ce29f309074be52",
+    "published": "vermeer-607.jpg"
+  },
+  {
+    "source": "Image_20260925002649_608_19.jpg",
+    "role": "label",
+    "works": [
+      "lady-writing"
+    ],
+    "sha256": "2828d1bb4ce2cf38e40eccce13723965f68ab82e63af99635fe5f673f645d921",
+    "published": null
+  },
+  {
+    "source": "Image_20260925002649_609_19.jpg",
+    "role": "artwork",
+    "works": [
+      "red-hat"
+    ],
+    "sha256": "c6244cf0a637b973a3fc2ad114a1bec13a16f3031643445f0e5f2e0ff658b1e4",
+    "published": "vermeer-609.jpg"
+  },
+  {
+    "source": "Image_20260925002649_610_19.jpg",
+    "role": "label",
+    "works": [
+      "red-hat"
+    ],
+    "sha256": "67e717650be925b392cdbac261cf15814d37a92cb13da9754172ad7f5640ad2b",
+    "published": null
+  }
+]
