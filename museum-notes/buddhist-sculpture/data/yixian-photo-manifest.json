@@ -1,0 +1,58 @@
+[
+  {
+    "source": "Image_20261004125115_612_19.jpg",
+    "role": "artwork",
+    "object": "object-612",
+    "published": "guimet-612.jpg",
+    "sha256": "97a35576c9a53a2709d33b9561c7fff1b3e54a3d51354611a2c99af973ce7a85"
+  },
+  {
+    "source": "Image_20261004125116_613_19.jpg",
+    "role": "label",
+    "object": "object-612",
+    "published": null,
+    "sha256": "e856d46593e9188c3bb877c25c525dba1db8e2b23eba5b5417a06e8d454fbe01"
+  },
+  {
+    "source": "Image_20261004125117_614_19.jpg",
+    "role": "artwork",
+    "object": "object-614",
+    "published": "nelson-614.jpg",
+    "sha256": "a1ff95e844ba4af71a233a1384ab232fe7d22c5fc0e0596522e3741d1ecd3883"
+  },
+  {
+    "source": "Image_20261004125119_615_19.jpg",
+    "role": "label",
+    "object": "object-614",
+    "published": null,
+    "sha256": "7b256df43856fe8d6e6ca2e55252aea6d01c77c38515a33d94b3a786092a1604"
+  },
+  {
+    "source": "Image_20261004125120_616_19.jpg",
+    "role": "artwork",
+    "object": "object-616",
+    "published": "met-616.jpg",
+    "sha256": "87fa98fd11ec288e9f34c234ddc5ef0adf74785abae6b9c89d547b3a0a7f907f"
+  },
+  {
+    "source": "Image_20261004125122_617_19.jpg",
+    "role": "label",
+    "object": "object-616",
+    "published": null,
+    "sha256": "79ad242880fd25ec6c7523a899549f3a6b5688c1e5d64c226baa7b71ceaee72d"
+  },
+  {
+    "source": "Image_20261004125123_618_19.jpg",
+    "role": "artwork",
+    "object": "object-618",
+    "published": "met-618.jpg",
+    "sha256": "3e0eb0ed087fc44924ed9bc52973ccb1641aeef50843101e301cba03273683cf"
+  },
+  {
+    "source": "Image_20261004125125_619_19.jpg",
+    "role": "label",
+    "object": "object-618",
+    "published": null,
+    "sha256": "87b1aa7a6c454bd449bccab3a808842ef840403ab45185ae8a3ac06def91295a"
+  }
+]

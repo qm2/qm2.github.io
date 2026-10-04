@@ -3,3 +3,8 @@
 .topic-poem blockquote {margin: 1.8rem 0; font-family: "Noto Serif SC", "Songti SC", serif; font-size: clamp(1.15rem, 3.8vw, 1.65rem); line-height: 2.5; letter-spacing: .08em;}
 .topic-next {padding-block: 1rem 4rem;}
 .topic-next a {display: inline-block; margin: .5rem 2rem .5rem 0;}
+
+.topic-subgroup {margin-block: 2.5rem 4rem;}
+.topic-subgroup > h3 {font-weight: 400; font-size: 1.55rem; margin-bottom: 1.5rem;}
+
+.hero h1.topic-long-title {font-size: clamp(2.1rem, 5vw, 4.5rem); text-wrap: balance;}

@@ -37,6 +37,7 @@ def render_card(o, i, image_prefix="images/"):
       <details><summary>作品札记与资料 <span aria-hidden="true">＋</span></summary><div class="notes">{detail}</div></details></div>
     </article>'''
 materials = [
+    ('ceramic', '陶瓷造像', '三彩釉陶与炻器造像，逐件保留馆方材料记录。'),
     ('wood', '木雕', '以木为主要结构，保留彩绘、贴金与后世修整的记录。'),
     ('lacquer', '干漆与漆塑', '夹纻干漆与其他漆塑分别注明，细看不同的成形方式。'),
     ('stone', '石雕', '从砂岩到石灰岩，记录石质、雕刻与残存色彩。'),

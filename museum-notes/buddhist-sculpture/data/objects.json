@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20",
+  "updated": "2026-10-04",
   "museums": {
     "rijks": [
       "荷兰国立博物馆",
@@ -304,14 +304,14 @@
       "title": "观音菩萨坐像",
       "original_title": "Bodhisattva Guanyin",
       "date": "14世纪末—15世纪，明",
-      "material": "填料漆塑、金与彩绘",
+      "material": "夹纻干漆，填料漆层、金与彩绘（馆方材料栏：bulked lacquer）",
       "material_group": "lacquer",
       "group": "seated",
       "accession": "25.256",
       "observation": "金色面庞与暗红衣裙相映，手指与长袖形成流畅的曲线。",
-      "story": "馆方将材质记为bulked lacquer，即加入填料的漆塑。它与木雕具有相近的外观，却提示我们：相似的坐姿可以通过不同材料塑造。",
+      "story": "馆方说明，这尊像以浸漆织物包覆泥芯，硬化后脱去内芯，连纤细的手指也是中空的；X光检查还发现内壁有含朱砂的颜料。它经巴黎卢芹斋公司之手，由多丽丝·杜克于1937年10月7日购得，2006年由其慈善基金会捐赠沃尔特斯。",
       "url": "https://art.thewalters.org/object/25.256/",
-      "caveat": "",
+      "caveat": "材料栏的“bulked lacquer”与正文的浸漆织物脱芯工艺需合看，不能仅凭前者把它排除在夹纻干漆之外。",
       "width": 1279,
       "height": 1706
     },
@@ -640,10 +640,11 @@
       "accession": "C405A",
       "observation": "身体前倾，双臂搭在抬起的膝部；脸上的微笑与清瘦的躯干形成对照。",
       "story": "展签记载，中空像体内曾有五部带插图的木刻佛经，并发现香灰。表面衣褶也保存了制作过程中铺布形成的起伏。",
-      "url": "",
+      "url": "https://asia.si.edu/research/essays/lacquer-relics-and-self-mummification/",
       "caveat": "",
       "width": 1279,
-      "height": 1706
+      "height": 1706,
+      "source_title": "史密森尼国立亚洲艺术博物馆研究文章（图20）"
     },
     {
       "id": "object-249",
@@ -662,7 +663,7 @@
       "accession": "y1972-16",
       "observation": "双手托脸，肋骨突出，身体紧缩；与同一组照片里舒展的观音坐像构成强烈对照。",
       "story": "展签将其命名为苦行罗汉。这里保留这一名称，不因为清瘦的外观就直接改称为释迦牟尼苦行像。",
-      "url": "",
+      "url": "https://static.artmuseum.princeton.edu/asian-art/objects/31671",
       "caveat": "",
       "width": 1279,
       "height": 1706
@@ -920,6 +921,98 @@
       "source_title": "馆方藏品记录",
       "width": 1279,
       "height": 1706
+    },
+    {
+      "id": "object-612",
+      "photo": "guimet-612.jpg",
+      "source_photo": "Image_20261004125115_612_19.jpg",
+      "label_photos": [
+        "Image_20261004125116_613_19.jpg"
+      ],
+      "museum": "guimet",
+      "title": "三彩罗汉坐像（或为跋陀罗尊者）",
+      "original_title": "Arhat Tamrabhadra (?)",
+      "date": "辽或金，10—13世纪",
+      "material": "陶，三彩釉",
+      "material_group": "ceramic",
+      "group": "buddha",
+      "accession": "MA 6323",
+      "observation": "面容清瘦，双手停在身前；绿釉袈裟上的斑驳色块，与裸露胸口的浅色形成对照。",
+      "story": "现场展签记载，这尊像由香港的徐展堂（T. T. Tsui）于1997年捐赠。展签以问号保留了“佛陀第六弟子”的辨识；这里也不把具体尊者身份写死。",
+      "url": "https://depts.washington.edu/silkroad/museums/mg/mgchinaliaotoming.html",
+      "source_title": "华盛顿大学丝路项目：吉美馆藏资料",
+      "caveat": "展签仅标中国东北部，未直接写易县；本页将其作为通常与易县组像并置讨论的相关作品。具体组属仍保留余地。",
+      "width": 1280,
+      "height": 1707
+    },
+    {
+      "id": "object-614",
+      "photo": "nelson-614.jpg",
+      "source_photo": "Image_20261004125117_614_19.jpg",
+      "label_photos": [
+        "Image_20261004125119_615_19.jpg"
+      ],
+      "museum": "nelson",
+      "title": "三彩罗汉坐像",
+      "original_title": "Luohan",
+      "date": "辽至金，907—1234年",
+      "material": "陶，三彩铅釉",
+      "material_group": "ceramic",
+      "group": "buddha",
+      "accession": "34-6",
+      "observation": "双手叠放在膝前，头略抬起。宽厚的衣褶铺满双腿，岩座的孔洞让沉稳的坐姿多了一层变化。",
+      "story": "馆方将其记录为河北易县的辽金时期作品，由威廉·罗克希尔·纳尔逊信托出资购入。现场展签特别指出双手的禅定姿势，以及面部近似肖像的刻画。",
+      "url": "https://art.nelson-atkins.org/objects/15683/luohan",
+      "source_title": "纳尔逊馆方藏品记录",
+      "caveat": "",
+      "width": 1280,
+      "height": 1707
+    },
+    {
+      "id": "object-616",
+      "photo": "met-616.jpg",
+      "source_photo": "Image_20261004125120_616_19.jpg",
+      "label_photos": [
+        "Image_20261004125122_617_19.jpg"
+      ],
+      "museum": "met",
+      "title": "三彩罗汉坐像（21.76）",
+      "original_title": "Arhat (Luohan)",
+      "date": "辽，约1000年",
+      "material": "炻器，三彩釉",
+      "material_group": "ceramic",
+      "group": "buddha",
+      "accession": "21.76",
+      "observation": "眉眼和嘴角收得很紧，一只手抬到胸前；衣纹间的绿、黄与乳白釉色，把身体的起伏衬了出来。",
+      "story": "这尊像于1921年以 Frederick C. Hewitt Fund 购入。馆方把它与河北易县传出的罗汉组像联系起来，并据北京附近古窑址的考古材料，将年代定在10世纪末至11世纪。",
+      "url": "https://www.metmuseum.org/art/collection/search/44799",
+      "source_title": "大都会馆方藏品记录",
+      "caveat": "“易县”指传世来源线索，并不等于已经确定原来的寺院或制作窑场。",
+      "width": 1280,
+      "height": 1707
+    },
+    {
+      "id": "object-618",
+      "photo": "met-618.jpg",
+      "source_photo": "Image_20261004125123_618_19.jpg",
+      "label_photos": [
+        "Image_20261004125125_619_19.jpg"
+      ],
+      "museum": "met",
+      "title": "三彩罗汉坐像（20.114）",
+      "original_title": "Arhat (Luohan)",
+      "date": "辽，约1000年",
+      "material": "炻器，三彩釉",
+      "material_group": "ceramic",
+      "group": "buddha",
+      "accession": "20.114",
+      "observation": "头转向一侧，裸露的肩胸与厚重的袈裟相接；抬起的手与转头的动作，使它和另一尊大都会罗汉很不一样。",
+      "story": "大都会以 Fletcher Fund 于1920年购入此像。与另一尊馆藏放在一起看，最直接的差别在头部转向、手势和衣袍覆盖身体的方式；本页用藏品编号区分两尊同名作品。",
+      "url": "https://www.metmuseum.org/art/collection/search/42722",
+      "source_title": "大都会馆方藏品记录",
+      "caveat": "",
+      "width": 1280,
+      "height": 1707
     }
   ]
 }
