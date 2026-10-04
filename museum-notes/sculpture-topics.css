@@ -1,0 +1,5 @@
+.topic-poem {padding-block: 3rem 4rem; text-align: center; border-block: 1px solid var(--line, #ddd7ca);}
+.topic-poem h2 {font-size: 1.35rem; font-weight: 400;}
+.topic-poem blockquote {margin: 1.8rem 0; font-family: "Noto Serif SC", "Songti SC", serif; font-size: clamp(1.15rem, 3.8vw, 1.65rem); line-height: 2.5; letter-spacing: .08em;}
+.topic-next {padding-block: 1rem 4rem;}
+.topic-next a {display: inline-block; margin: .5rem 2rem .5rem 0;}

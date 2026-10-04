@@ -6,6 +6,7 @@
   const museum = document.querySelector('#museum');
   const material = document.querySelector('#material');
   const tabs = [...document.querySelectorAll('[data-filter]')];
+  if (search && museum && material) {
   let category = 'all';
   const normalize = text => text.normalize('NFKC').toLocaleLowerCase().trim();
   const texts = new Map(cards.map(card => [card, normalize(card.textContent)]));
@@ -41,6 +42,17 @@
   }
   window.addEventListener('hashchange', revealHash);
   if (location.hash) revealHash();
+  } else {
+    const reveal = () => {
+      const target = document.getElementById(location.hash.slice(1));
+      if (target && target.classList.contains('object-card')) {
+        target.querySelector('details').open = true;
+        target.scrollIntoView({block: 'start'});
+      }
+    };
+    window.addEventListener('hashchange', reveal);
+    if (location.hash) reveal();
+  }
   const dialog = document.querySelector('#lightbox');
   if (typeof dialog.showModal === 'function') {
     const large = document.querySelector('#lightbox-image');

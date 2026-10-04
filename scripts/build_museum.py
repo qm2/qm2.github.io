@@ -129,3 +129,6 @@ future = ''.join(f'<li><h3>{e(section["title"])}</h3><p>{e(section["description"
 <section class="future-collections" aria-labelledby="future-title"><p class="eyebrow">FURTHER JOURNEYS</p><h2 id="future-title">以后慢慢展开</h2><p class="directory-intro">还有一些旅途中的相遇，等待照片与记忆归位。</p><ul class="future-grid">{future}</ul><p class="directory-intro">也会循着专题回看：例如健陀罗与马图拉的早期佛像，以及不同地区的艺术交流。</p></section>
 <aside class="notebook-about"><h2>资料之外，也留下观看</h2><p>一件作品的年代、材料与流转，可以慢慢查证；个人的观看，也容得下零碎的记忆与后来重看的感受。</p><p>有些印象来自展厅，有些在重看照片时才浮现。能记起多少，就留下多少。</p></aside>
 </main><footer class="site-footer wrap"><a href="./">← 返回博物馆首页</a><span>参观记录 / Merton</span></footer></body></html>''')
+
+from build_sculpture_topics import build as build_sculpture_topics
+build_sculpture_topics(ROOT, objects, museums, render_card, lightbox)
