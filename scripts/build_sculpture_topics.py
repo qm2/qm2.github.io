@@ -7,7 +7,7 @@ def build(root, objects, museums, render_card, lightbox):
     topics=[
         dict(id='water-moon-guanyin',title='水月观音',subtitle='一膝支起，一臂舒展。',intro='把看过的水月、南海与自在坐观音放到一起。从夏威夷到波特兰，从木色、石面到金漆，同一个姿态有许多种样子。',ids=[215,213,226,195,235,247,251,255,243,241,199,224],hero=215,note='每件保留馆方名称，并不把所有自在坐像都改名为水月观音。以木雕为主体，另看沃尔特斯干漆、吉美石雕和纳尔逊复合材料像，比较相近姿态在不同材料中的变化。'),
         dict(id='song-liao-jin-wood',title='五代至元木雕',subtitle='站立、端坐，也有沉思。',intro='从五代、宋辽金看到元代，收在一起看菩萨、观音与罗汉。同期的水月观音另有专题；隋代佛像与明代侍童也作为前后参照留下。',ids=[201,203,209,233,217,229,218,263,220,227,253,238,257],hero=233,note='核心范围为五代至元，不因断代跨越宋、辽、金或元就删去作品。木雕水月观音集中在另一专题；隋代佛坐像和明代观音侍童列为时代前后的参照，保留实际年代。',subgroups=[dict(title='五代至宋辽金',ids=[201,203,209,233,217,229,218,263]),dict(title='元代',ids=[220,227,253]),dict(title='前后参照：隋与明',ids=[238,257])]),
-        dict(id='dry-lacquer',title='干漆与漆塑造像',subtitle='从中空的身体，看漆的层次。',intro='唐代的佛与菩萨、沃尔特斯的观音，以及两尊元代造像。把夹纻干漆与相关漆塑放在一起，逐件看清工艺与材料。',ids=[265,231,259,241,245,249,224],hero=241,note='沃尔特斯观音虽在材料栏记作 bulked lacquer，馆方正文明确说明其浸漆织物脱芯的中空结构，属于本辑重点。普林斯顿罗汉沿用馆方的漆塑记录；纳尔逊木芯、泥层与金漆观音单列作比较，不将其称为脱胎夹纻干漆。',subgroups=[dict(title='夹纻干漆',ids=[265,231,259,241,245]),dict(title='相关漆塑',ids=[249]),dict(title='材料比较：木芯与金漆',ids=[224])]),
+        dict(id='dry-lacquer',title='干漆与漆塑造像',subtitle='木胎、织物与漆，各有自己的结构。',intro='从沃尔特斯的隋代木胎漆佛，到唐代夹纻干漆、观音与元代漆塑。把佛与菩萨的身份、木胎与脱胎的工艺，逐件分清。',ids=[265,231,259,241,245,249,238,224],hero=238,note='沃尔特斯观音虽在材料栏记作 bulked lacquer，馆方正文明确说明其浸漆织物脱芯的中空结构，属于本辑重点。普林斯顿罗汉沿用馆方的漆塑记录；沃尔特斯隋代佛坐像（25.9）与纳尔逊木芯、泥层、金漆观音另列为木胎覆漆比较，不称为脱胎夹纻干漆。前者可能为阿弥陀佛，与同馆的观音（25.256）是两件不同的作品。',subgroups=[dict(title='夹纻干漆',ids=[265,231,259,241,245]),dict(title='相关漆塑',ids=[249]),dict(title='材料比较：木胎覆漆',ids=[238,224])]),
         dict(id='yixian-luohan',title='易县三彩罗汉',subtitle='同样的袈裟，不同的面孔。',intro='巴黎、堪萨斯城、纽约。把四尊三彩罗汉放到一起，先看眉眼与手势，再看它们离开原来环境之后的故事。',ids=[614,616,618,612],hero=614,note='大都会两尊断为辽代约1000年，纳尔逊保留辽金范围，吉美展签记辽或金。吉美像的具体尊者身份与易县组属保留说明。易县洞窟的发现叙述，不等于已知原属寺院；组像原有数量和确切来源仍有讨论。')]
     assert len(by_id)==len(objects)
     for t in topics:
@@ -15,6 +15,8 @@ def build(root, objects, museums, render_card, lightbox):
         assert all(f'object-{n}' in by_id for n in t['ids'])
         if t.get('subgroups'):
             assert [n for g in t['subgroups'] for n in g['ids']]==t['ids']
+    assert 238 not in topics[0]['ids'], 'The Walters Buddha is not Guanyin.'
+    assert 238 in topics[2]['ids'] and 241 in topics[2]['ids']
     selected={f'object-{n}' for t in topics for n in t['ids']}
     def shell(title,body):
         return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{title} · 博物馆札记 | Merton</title><link rel="stylesheet" href="../museum.css"><link rel="stylesheet" href="../sculpture-topics.css"><script src="../museum.js" defer></script></head><body id="top"><a class="skip-link" href="#main">跳至正文</a><header class="site-header"><a class="signature" href="../">Merton</a><nav aria-label="主导航"><a href="../chinese-buddhist-art/">中国佛教艺术</a><a href="../">博物馆首页</a></nav></header><main id="main">{body}</main><footer class="site-footer wrap"><a href="../chinese-buddhist-art/">← 中国佛教艺术</a><span>摄影 / Merton</span><a href="#top">回到顶部 ↑</a></footer>{lightbox}</body></html>'''
