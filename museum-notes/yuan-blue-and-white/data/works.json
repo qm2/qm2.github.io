@@ -91,17 +91,22 @@
     {
       "id": "wave-vase",
       "number": 630,
-      "title": "青花水波花卉纹瓶",
-      "original_title": "Vase",
+      "title": "青花水波牡丹纹瓶",
+      "original_title": "Bottle（现场展签：Vase）",
       "museum": "纳尔逊－阿特金斯艺术博物馆",
-      "date": "元，1279—1368年（据现场展签）",
-      "accession": "展签编号字样待核",
-      "material": "瓷，釉下青花（据现场展签）",
+      "date": "元，14世纪",
+      "accession": "33-7/9",
+      "material": "瓷，釉下青花",
       "unit": "blue",
       "observation": "细细的波纹铺满瓶身，白色花朵与枝叶从蓝色水纹中浮出来。细颈、垂腹与外撇的口沿，使轮廓显得轻巧。",
-      "story": "这只容易被单独记作“水波瓶”的器物，现场展签明确写着 Porcelain with underglaze blue decoration，并断为元代，因此本辑将它列入青花。展签另记由 Nelson Trust 出资购入。",
-      "note": "未找到可可靠对应的单件线上条目；编号暂不定录。中文标题按照片纹饰描述，展签原名仅为 Vase；断代与工艺目前以现场展签为据。",
-      "sources": [],
+      "story": "水波纹铺满瓶身，牡丹枝蔓在其间舒展。馆方记录，纽约山中商会至迟于1932—1933年经手此瓶，纳尔逊于1933年经兰登·华尔纳（Langdon Warner）从该商会购入；来源档案还保留了1932年商会致华尔纳信件的线索。",
+      "note": "已按馆方照片、器形与纹饰核对为同件。线上记录年代为14世纪，归入元代；现场展签原名为 Vase，线上为 Bottle。馆方另记瓶口有修补。中文标题依据馆方所述牡丹与水波纹命名。",
+      "sources": [
+        [
+          "纳尔逊馆方资料与来源档案",
+          "https://art.nelson-atkins.org/objects/29911/bottle"
+        ]
+      ],
       "photo": "yuan-630.jpg",
       "width": 1280,
       "height": 1707
