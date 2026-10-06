@@ -1,0 +1,100 @@
+[
+  {
+    "source": "Image_20261005225723_620_19.jpg",
+    "work": "shanxi-peony-jar",
+    "role": "artwork",
+    "published": "yuan-620.jpg",
+    "sha256": "13e3eb8cc706131ae970f1d00762bb41e788a0d63f1a5aa474c235cdd9667c01"
+  },
+  {
+    "source": "Image_20261005225723_621_19.jpg",
+    "work": "shanxi-peony-jar",
+    "role": "label",
+    "published": null,
+    "sha256": "a802c75e59cb7312ed6f12f69fd8de770d8a82803c5af2d3b2b75a9775f319b1"
+  },
+  {
+    "source": "Image_20261005225723_622_19.jpg",
+    "work": "richard-kan-meiping",
+    "role": "artwork",
+    "published": "yuan-622.jpg",
+    "sha256": "638dff09c3d8b164acf4be816c63f7ab5dce8c8f1e830867f0f26d1230a527bf"
+  },
+  {
+    "source": "Image_20261005225723_623_19.jpg",
+    "work": "richard-kan-meiping",
+    "role": "label",
+    "published": null,
+    "sha256": "725a06b568e3760ba328110095ec6fe9e27fbfafe1317c5eac5077cb1cea796f"
+  },
+  {
+    "source": "Image_20261005225723_626_19.jpg",
+    "work": "lion-head-jar",
+    "role": "artwork",
+    "published": "yuan-626.jpg",
+    "sha256": "6d98d4192765a898501ef163b0d7e57128c3dbda887215a3b8a18693b4280f52"
+  },
+  {
+    "source": "Image_20261005225723_627_19.jpg",
+    "work": "lion-head-jar",
+    "role": "label",
+    "published": null,
+    "sha256": "37aae330133c0f23bd81b6d5283a888f1e97d6f081020b647218cb13b80f6095"
+  },
+  {
+    "source": "Image_20261005225723_628_19.jpg",
+    "work": "phoenix-dish",
+    "role": "artwork",
+    "published": "yuan-628.jpg",
+    "sha256": "461a96c93cda94491b415036976fda56736a9e1157525b014a5305080d35273b"
+  },
+  {
+    "source": "Image_20261005225723_629_19.jpg",
+    "work": "phoenix-dish",
+    "role": "label",
+    "published": null,
+    "sha256": "3fd12ac4e926095e4870491e389459076f88d1bee089afe338d958607f554bfb"
+  },
+  {
+    "source": "Image_20261005225723_630_19.jpg",
+    "work": "wave-vase",
+    "role": "artwork",
+    "published": "yuan-630.jpg",
+    "sha256": "646f80cdc783391b1ace1bcdaf25803e5f82140edace90efea4ac27f9767faf0"
+  },
+  {
+    "source": "Image_20261005225723_631_19.jpg",
+    "work": "wave-vase",
+    "role": "label",
+    "published": null,
+    "sha256": "621bb42c43ae2e3a3605e150a069f0f1e3df0f84db5ae28734fb0d894a2cb0cb"
+  },
+  {
+    "source": "Image_20261005225723_624_19.jpg",
+    "work": "blue-glaze-dragon",
+    "role": "artwork",
+    "published": "yuan-624.jpg",
+    "sha256": "e0c249a5c64bec87cc192268d8aed76d1480fb9fec68ac06bae78cd3c388e41a"
+  },
+  {
+    "source": "Image_20261005225723_625_19.jpg",
+    "work": "blue-glaze-dragon",
+    "role": "label",
+    "published": null,
+    "sha256": "06242e6e437c8eaa36b78c89df72d45987f6425d6dc495cabac39ecf43ec7ca8"
+  },
+  {
+    "source": "Image_20261005225723_632_19.jpg",
+    "work": "dragon-stem-cup",
+    "role": "artwork",
+    "published": "yuan-632.jpg",
+    "sha256": "86b5d4ae6ca276d67f8059d5d669d709d609d7fdd337ede609ee99c2bffe6191"
+  },
+  {
+    "source": "Image_20261005225723_633_19.jpg",
+    "work": "dragon-stem-cup",
+    "role": "label",
+    "published": null,
+    "sha256": "2b290fc15d13e8ef11f0d1bb61dd6fd43c9bf51bf2f1ea0d6c62dec3feed6ac2"
+  }
+]

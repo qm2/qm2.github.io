@@ -1,0 +1,160 @@
+{
+  "updated": "2026-10-05",
+  "works": [
+    {
+      "id": "shanxi-peony-jar",
+      "number": 620,
+      "title": "青花缠枝牡丹纹罐",
+      "original_title": "Blue and white jar with interlocking branch and peony pattern",
+      "museum": "山西博物院",
+      "date": "元，1271—1368年",
+      "accession": "展签导览号 NO.11135（非确认馆藏号）",
+      "material": "瓷，釉下青花",
+      "unit": "blue",
+      "observation": "牡丹沿着圆鼓的腹部展开，枝叶穿插其间。肩部与足部各有纹样带，把大朵花留在最宽阔的位置。",
+      "story": "名称、年代与收藏机构依现场中文展签。先从这件看起，可以清楚地看到大罐如何分层：瓶口、肩、腹、足，各有一圈自己的纹样。",
+      "note": "尚未核得可靠的单件线上馆藏记录，不补写出土地点或收藏流转；展签所标收藏机构不直接等同于已确认的拍摄地点。",
+      "sources": [],
+      "photo": "yuan-620.jpg",
+      "width": 1280,
+      "height": 1707
+    },
+    {
+      "id": "richard-kan-meiping",
+      "number": 622,
+      "title": "青花牡丹凤纹梅瓶（简永桢瓶）",
+      "original_title": "Richard Kan Vase",
+      "museum": "吉美亚洲艺术博物馆 · 巴黎",
+      "date": "元，约1350年",
+      "accession": "MA 13162",
+      "material": "景德镇窑瓷，釉下钴蓝彩",
+      "unit": "blue",
+      "observation": "丰肩、小口，瓶身的纹饰分成几层；牡丹枝叶与凤凰沿着弧面展开，蓝色深浅随着笔触变化。",
+      "story": "这件梅瓶曾长期保存在法国一个家族中。吉美以简永桢（Richard Kan）之名称呼它；馆方把牡丹与凤纹的组合联系到元代宫廷的纹饰使用，并强调其六层横向布局。",
+      "note": "中文展签记2021年在简永桢赞助下购藏，法文馆方页面称捐赠；保留两种表述。御用身份是馆方依据纹饰所作的解释。",
+      "sources": [
+        [
+          "吉美馆方资料",
+          "https://www.guimet.fr/fr/nos-collections/chine/vase-richard-kan"
+        ]
+      ],
+      "photo": "yuan-622.jpg",
+      "width": 1280,
+      "height": 1707
+    },
+    {
+      "id": "lion-head-jar",
+      "number": 626,
+      "title": "青花双狮头罐",
+      "original_title": "Jar with Lion-Head Handles",
+      "museum": "克利夫兰艺术博物馆",
+      "date": "元，14世纪",
+      "accession": "1962.154",
+      "material": "景德镇窑瓷，釉下青花",
+      "unit": "blue",
+      "observation": "两只狮首贴在肩部，腹部的云肩形开光里安排着凤凰。上下几层花叶虽密，轮廓仍很分明。",
+      "story": "肩部白釉上刻有“宫”“南”二字，馆方认为可能与宫中存放位置有关。馆方也把云肩开光、花卉与凤纹同伊朗伊儿汗国的装饰艺术联系起来，并认为其钴料由伊朗输入，可能来自卡尚。",
+      "note": "“南宫”的具体使用地点没有在这里进一步推定。中文名称沿用馆方“青花雙獅頭罐”。",
+      "sources": [
+        [
+          "克利夫兰馆方资料",
+          "https://www.clevelandart.org/art/1962.154"
+        ]
+      ],
+      "photo": "yuan-626.jpg",
+      "width": 1280,
+      "height": 1707
+    },
+    {
+      "id": "phoenix-dish",
+      "number": 628,
+      "title": "青花凤鸟花卉纹大盘",
+      "original_title": "Dish with phoenix and flower motifs",
+      "museum": "西雅图艺术博物馆",
+      "date": "元，14世纪早期",
+      "accession": "76.7",
+      "material": "景德镇窑瓷，釉下钴蓝彩",
+      "unit": "blue",
+      "observation": "盘心凤鸟与花叶围在栏杆旁，外圈把白色花朵留在深蓝地上。由中心向外看，蓝白主次不断交换。",
+      "story": "馆方将这件直径47.6厘米的大盘，与中西亚市场对青花瓷的需求联系起来，并认为大尺寸适应了多人共食的习惯。它于1976年购入，为纪念 Elizabeth M. Fuller，由相关纪念基金与 Davis 基金会提供资金。",
+      "note": "用途说明来自馆方对器形与贸易背景的解释，不代表已知这只盘子的每一段实际使用经历。",
+      "sources": [
+        [
+          "西雅图馆方资料",
+          "https://art.seattleartmuseum.org/objects/3295/dish-with-phoenix-and-flower-motifs"
+        ]
+      ],
+      "photo": "yuan-628.jpg",
+      "width": 1280,
+      "height": 1707
+    },
+    {
+      "id": "wave-vase",
+      "number": 630,
+      "title": "青花水波花卉纹瓶",
+      "original_title": "Vase",
+      "museum": "纳尔逊－阿特金斯艺术博物馆",
+      "date": "元，1279—1368年（据现场展签）",
+      "accession": "展签编号字样待核",
+      "material": "瓷，釉下青花（据现场展签）",
+      "unit": "blue",
+      "observation": "细细的波纹铺满瓶身，白色花朵与枝叶从蓝色水纹中浮出来。细颈、垂腹与外撇的口沿，使轮廓显得轻巧。",
+      "story": "这只容易被单独记作“水波瓶”的器物，现场展签明确写着 Porcelain with underglaze blue decoration，并断为元代，因此本辑将它列入青花。展签另记由 Nelson Trust 出资购入。",
+      "note": "未找到可可靠对应的单件线上条目；编号暂不定录。中文标题按照片纹饰描述，展签原名仅为 Vase；断代与工艺目前以现场展签为据。",
+      "sources": [],
+      "photo": "yuan-630.jpg",
+      "width": 1280,
+      "height": 1707
+    },
+    {
+      "id": "blue-glaze-dragon",
+      "number": 624,
+      "title": "霁蓝釉留白划龙纹梅瓶",
+      "original_title": "Vase meiping à décor de dragon",
+      "museum": "吉美亚洲艺术博物馆 · 巴黎",
+      "date": "元，14世纪",
+      "accession": "G 1211",
+      "material": "景德镇窑瓷，蓝釉地留白、龙纹细部划刻",
+      "unit": "comparison",
+      "observation": "深蓝铺成整片底色，白龙绕着肩腹游动。放大看龙身，鳞片与轮廓的细部不是单靠蓝白对比。",
+      "story": "这件梅瓶来自格兰迪埃收藏，1894年捐赠。馆方特别指出，浓深蓝地需要大量钴料，白龙以留白并细刻的方式表现；龙的鳞片、爪与须，都要贴着瓶身弧面细看。",
+      "note": "虽同样使用钴呈蓝色，它是蓝釉留白装饰，不计入本辑的釉下青花数量。中文名称沿用现场展签。",
+      "sources": [
+        [
+          "吉美馆方资料",
+          "https://www.guimet.fr/fr/nos-collections/chine/vase-meiping"
+        ],
+        [
+          "格兰迪埃馆藏研究目录",
+          "https://guimet-grandidier.fr/notice/notice.php?id=470"
+        ]
+      ],
+      "photo": "yuan-624.jpg",
+      "width": 1280,
+      "height": 1707
+    },
+    {
+      "id": "dragon-stem-cup",
+      "number": 632,
+      "title": "浮雕云龙纹高足杯",
+      "original_title": "Stem Cup",
+      "museum": "纳尔逊－阿特金斯艺术博物馆",
+      "date": "14世纪；现场展签断为元代",
+      "accession": "35-533（线上）；展签写33-533",
+      "material": "瓷，浮雕与刻划装饰；内施浅蓝釉，外施褐黑釉",
+      "unit": "comparison",
+      "observation": "内壁的龙与云从釉下微微凸起，外壁颜色明显更深。杯身托在高足上，和旁边的大瓶、大罐是另一种尺度。",
+      "story": "馆方记录，它于1936年购自北京古董商 Otto Burchard。内壁为浅蓝釉下的浮雕云龙，外壁施褐黑釉；这里看到的浅蓝来自釉层，不把它当作青花绘画。",
+      "note": "线上记录为35-533，与现场展签33-533不一致；以器形、内外釉色及云龙纹核对为同件。线上年代为14世纪，标签同时涉及元、明，保留现场元代断代而不抹去差异。",
+      "sources": [
+        [
+          "纳尔逊馆方资料",
+          "https://art.nelson-atkins.org/objects/14672/stem-cup"
+        ]
+      ],
+      "photo": "yuan-632.jpg",
+      "width": 1280,
+      "height": 1707
+    }
+  ]
+}

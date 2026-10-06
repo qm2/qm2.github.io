@@ -133,3 +133,6 @@ future = ''.join(f'<li><h3>{e(section["title"])}</h3><p>{e(section["description"
 
 from build_sculpture_topics import build as build_sculpture_topics
 build_sculpture_topics(ROOT, objects, museums, render_card, lightbox)
+
+from build_ceramics import build as build_ceramics
+build_ceramics()
