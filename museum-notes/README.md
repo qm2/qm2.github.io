@@ -104,4 +104,4 @@ European painting is now an active section (`european-painting/`), with Caravagg
 
 ## European painting / Monet water lilies, 2026-10-06
 
-`monet-water-lilies/` adds 16 water-garden paintings, one Orangerie ensemble record and one related Wisteria, with 26 unchanged personal photographs and six comparison groups. The Seattle private loan keeps ownership separate from viewing location. See [the topic README](monet-water-lilies/README.md) for all 44 input-photo decisions and the Houston identification. Run `python3 scripts/build_monet.py`, then `python3 scripts/build_museum.py`.
+`monet-water-lilies/` adds 16 water-garden paintings, one Orangerie ensemble record, with 25 unchanged personal photographs and five comparison groups. The Seattle private loan keeps ownership separate from viewing location. See [the topic README](monet-water-lilies/README.md) for all 44 input-photo decisions and the Houston identification. Run `python3 scripts/build_monet.py`, then `python3 scripts/build_museum.py`.

@@ -5,7 +5,6 @@
     "houston": "休斯顿美术馆",
     "tokyo": "国立西洋美术馆 · 东京",
     "dallas": "达拉斯艺术博物馆",
-    "hague": "海牙艺术博物馆",
     "orangerie": "橘园美术馆 · 巴黎",
     "orsay": "奥赛博物馆 · 巴黎",
     "met": "大都会艺术博物馆 · 纽约",
@@ -48,12 +47,6 @@
       "title": "走进橘园",
       "range": "1915—1926 / 1927年陈列开放",
       "intro": "七张展厅照片合为一组，保留长幅绘画与弧形墙面的关系。"
-    },
-    {
-      "id": "garden",
-      "title": "池畔延伸：紫藤",
-      "range": "1917—1920",
-      "intro": "这一幅画的是紫藤，单独放在睡莲之外，看它与大型装饰计划的联系。"
     }
   ],
   "works": [
@@ -200,43 +193,6 @@
       "photo": "monet-639.jpg",
       "extra_photos": [],
       "record_kind": "painting"
-    },
-    {
-      "id": "wisteria-hague",
-      "source_number": 641,
-      "label_number": 642,
-      "title": "紫藤",
-      "original_title": "Wisteria / Blauweregen",
-      "artist": "克洛德·莫奈",
-      "museum": "hague",
-      "date": "1917—1920年",
-      "year": 1917,
-      "accession": "0333516",
-      "material": "布面油画",
-      "dimensions": "150.5 × 200.5厘米",
-      "period": "garden",
-      "tags": [
-        "garden"
-      ],
-      "observation": "紫藤从上方垂落，蓝紫色在花簇之间铺开。它画的是池边植物，不作为一幅睡莲计数。",
-      "paragraphs": [
-        "这幅保留在旁边，是因为它与睡莲确实有关系。海牙馆方介绍，莫奈曾设想在大型《睡莲》上方再安排一圈紫藤画，形成装饰带；后来确定使用橘园既有建筑，紫藤部分没有纳入最终陈列。",
-        "回到照片看，花簇主要集中在上缘，下方留下大片蓝色。这样的布局与睡莲从水面向上望见倒影的感觉不同，也让人想象，若紫藤真的悬在睡莲上方，两种画面会怎样共同包围观众。后一层是观看分析，并非对橘园现状的描述。"
-      ],
-      "sources": [
-        [
-          "海牙艺术博物馆：紫藤馆藏记录",
-          "https://www.kunstmuseum.nl/en/collection/wisteria"
-        ],
-        [
-          "海牙艺术博物馆：莫奈花园绘画与紫藤装饰计划",
-          "https://www.kunstmuseum.nl/en/exhibitions/monet"
-        ]
-      ],
-      "source_note": "",
-      "photo": "monet-641.jpg",
-      "extra_photos": [],
-      "record_kind": "related"
     },
     {
       "id": "orangerie-cycle",
@@ -756,15 +712,6 @@
         "portland-1914-15",
         "carnegie-panorama"
       ]
-    },
-    {
-      "id": "decoration",
-      "title": "睡莲旁边的一圈紫藤",
-      "text": "橘园是完成的空间，紫藤则通向一项未按原构想实现的装饰安排。这里比较的是两个方案中的位置与观看关系，不把紫藤改称睡莲。",
-      "works": [
-        "orangerie-cycle",
-        "wisteria-hague"
-      ]
     }
   ],
   "photos": {
@@ -797,14 +744,6 @@
       "width": 1707,
       "height": 1280,
       "caption": "睡莲池（云） · 达拉斯艺术博物馆",
-      "credit": "Merton参观照片",
-      "kind": "personal"
-    },
-    "641": {
-      "file": "monet-641.jpg",
-      "width": 1707,
-      "height": 1280,
-      "caption": "紫藤 · 海牙艺术博物馆",
       "credit": "Merton参观照片",
       "kind": "personal"
     },

@@ -13,8 +13,8 @@ for w in works:
     assert all(str(n) in photos for n in [w['source_number'],*w['extra_photos']])
 for p in photos.values(): assert (BASE/'images'/p['file']).is_file()
 for g in groups: assert len(set(g['works']))==len(g['works']) and all(x in by for x in g['works'])
-paintings=sum(w['record_kind']=='painting' for w in works);related_count=sum(w['record_kind']=='related' for w in works);ensemble_count=sum(w['record_kind']=='ensemble' for w in works)
-summary=f'{paintings}幅睡莲与池塘绘画 · {ensemble_count}组橘园记录 · {related_count}幅紫藤'
+paintings=sum(w['record_kind']=='painting' for w in works);ensemble_count=sum(w['record_kind']=='ensemble' for w in works)
+summary=f'{paintings}幅睡莲与池塘绘画 · {ensemble_count}组橘园记录'
 LIGHTBOX='''<dialog id="art-lightbox" aria-labelledby="lightbox-caption"><div class="lightbox-tools"><button type="button" id="photo-prev" aria-label="上一张照片">←</button><button type="button" id="photo-next" aria-label="下一张照片">→</button><button type="button" id="zoom-toggle" aria-pressed="false">放大细看 ＋</button><a id="original-photo" href="#" target="_blank" rel="noopener">原图 ↗</a><button type="button" id="photo-close" aria-label="关闭大图">关闭 ×</button></div><div id="photo-stage" tabindex="0" aria-label="照片区域；放大后可滚动查看"><img id="large-photo" alt=""></div><p id="lightbox-caption"></p></dialog>'''
 def shell(title,desc,body,depth=0):
     topic='../'*depth or './';note='../'*(depth+1)
@@ -37,16 +37,16 @@ def breadcrumb(tail='',depth=0):
 def citations(w):
     return '<div class="work-sources">'+''.join(f'<p><a href="{e(url)}" target="_blank" rel="noopener noreferrer">{e(label)} ↗</a></p>' for label,url in w['sources'])+'</div>'
 hero=by[d['hero']]
-intro=f'''{breadcrumb()}<section class="car-hero wrap"><div class="car-hero-copy"><p class="eyebrow">EUROPEAN PAINTING / 004</p><h1>莫奈的睡莲</h1><p class="artist-dates">CLAUDE MONET &nbsp; 1840—1926</p><p class="car-lede">同一座池塘，<br>在不同的地方重逢。</p><p class="car-intro">从日本桥走到水面，再走进橘园。把看过的睡莲放在一起，慢慢分辨花、倒影和笔触。</p><div class="hero-links"><a class="text-link" href="#collection">从池塘看起 ↓</a><a class="text-link" href="compare/">并排看画 →</a></div><p class="car-stats"><b>{paintings}</b> 幅睡莲与池塘绘画<br><b>{ensemble_count}</b> 组橘园记录 <span>另有 {related_count} 幅紫藤</span><br>{len(photos)} 张参观照片 · 含展厅与局部细节</p></div><figure class="car-hero-image"><a href="{hero['id']}/">{img(hero['source_number'],high=True)}</a><figcaption>{e(hero['title'])}<br><span>{e(museums[hero['museum']])}</span></figcaption></figure></section>'''
+intro=f'''{breadcrumb()}<section class="car-hero wrap"><div class="car-hero-copy"><p class="eyebrow">EUROPEAN PAINTING / 004</p><h1>莫奈的睡莲</h1><p class="artist-dates">CLAUDE MONET &nbsp; 1840—1926</p><p class="car-lede">同一座池塘，<br>在不同的地方重逢。</p><p class="car-intro">从日本桥走到水面，再走进橘园。把看过的睡莲放在一起，慢慢分辨花、倒影和笔触。</p><div class="hero-links"><a class="text-link" href="#collection">从池塘看起 ↓</a><a class="text-link" href="compare/">并排看画 →</a></div><p class="car-stats"><b>{paintings}</b> 幅睡莲与池塘绘画<br><b>{ensemble_count}</b> 组橘园记录<br>{len(photos)} 张参观照片 · 含展厅与局部细节</p></div><figure class="car-hero-image"><a href="{hero['id']}/">{img(hero['source_number'],high=True)}</a><figcaption>{e(hero['title'])}<br><span>{e(museums[hero['museum']])}</span></figcaption></figure></section>'''
 featured=[groups[0],groups[2],groups[4]]
-reading='<section class="wrap car-reading"><div class="car-heading"><div><p class="eyebrow">LOOK TOGETHER</p><h2>几条重看的线索</h2></div><a href="compare/">全部六组比较 →</a></div><div class="route-grid">'+''.join(f'<a class="reading-route" href="compare/#{g["id"]}"><span class="eyebrow">{len(g["works"])} 件／组</span><h3>{e(g["title"])} ↗</h3><p>{e(g["text"])}</p></a>' for g in featured)+'</div></section>'
+reading='<section class="wrap car-reading"><div class="car-heading"><div><p class="eyebrow">LOOK TOGETHER</p><h2>几条重看的线索</h2></div><a href="compare/">全部五组比较 →</a></div><div class="route-grid">'+''.join(f'<a class="reading-route" href="compare/#{g["id"]}"><span class="eyebrow">{len(g["works"])} 件／组</span><h3>{e(g["title"])} ↗</h3><p>{e(g["text"])}</p></a>' for g in featured)+'</div></section>'
 options=''.join(f'<option value="{k}">{e(v)}</option>' for k,v in museums.items())
 subjects=''.join(f'<option value="{p["id"]}">{e(p["title"])}</option>' for p in periods)
 filters=f'''<div class="art-controls" data-count-unit="条记录" hidden><div class="art-fields"><label>找一幅画<input type="search" id="art-search" placeholder="画名、博物馆、编号…" autocomplete="off"></label><label>收藏机构<select id="art-museum"><option value="all">全部收藏</option>{options}</select></label><label>主题／观看地点<select id="art-subject"><option value="all">全部主题</option>{subjects}<option value="seattle-loan">西雅图 · 私人借展</option></select></label></div><div class="art-results"><p id="art-count" role="status" aria-live="polite">{len(works)} 条记录（含组画与延伸作品）</p><div><button type="button" id="gallery-mode" aria-pressed="false">画廊模式</button><button type="button" id="art-reset">清除筛选</button></div></div></div>'''
 nav=''.join(f'<a href="#{p["id"]}">{p["title"]}<span>{sum(w["period"]==p["id"] for w in works)}</span></a>' for p in periods)
 sections=''.join(f'<section class="era-section" id="{p["id"]}" aria-labelledby="heading-{p["id"]}"><div class="era-heading"><p class="eyebrow">{p["range"]}</p><h2 id="heading-{p["id"]}">{p["title"]}</h2><p>{p["intro"]}</p></div><div class="art-grid">'+''.join(card(w) for w in sorted(works,key=lambda x:x['year']) if w['period']==p['id'])+'</div></section>' for p in periods)
 collection=f'<section class="wrap car-collection" id="collection"><div class="car-heading"><div><p class="eyebrow">THE WATER GARDEN</p><h2>沿着池塘慢慢看</h2></div><p>作品年代依展签与馆方记录；私人借展另注观看地点。</p></div><nav class="era-nav" aria-label="主题">{nav}</nav>{filters}<p id="art-empty" hidden>没有找到符合条件的作品，可以换个词或清除筛选。</p>{sections}</section>'
-about=f'''<aside class="editorial-note wrap"><h2>关于这一辑</h2><p>{summary}。橘园的七张照片按一组展厅记录整理，不把视角数量当作作品数量；《紫藤》作为相关作品单列。日本桥画的是同一座睡莲池，保留在专题开头。</p><p>照片均为现场拍摄，保留画框、反光和展厅视角；展签用于核对，不放入画廊。卡内基的局部照片附在同一作品下，近似重复的一张留在本地。</p><p>“看画”记录重看照片时可留意的细节，不代写当时的感受。作品来源与资料疑点分别标注。</p><p class="source">2026年10月整理 · {len(photos)}张现场照片。</p></aside>'''
+about=f'''<aside class="editorial-note wrap"><h2>关于这一辑</h2><p>{summary}。橘园的七张照片按一组展厅记录整理，不把视角数量当作作品数量。日本桥画的是同一座睡莲池，保留在专题开头。</p><p>照片均为现场拍摄，保留画框、反光和展厅视角；展签用于核对，不放入画廊。卡内基的局部照片附在同一作品下，近似重复的一张留在本地。</p><p>“看画”记录重看照片时可留意的细节，不代写当时的感受。作品来源与资料疑点分别标注。</p><p class="source">2026年10月整理 · {len(photos)}张现场照片。</p></aside>'''
 (BASE/'index.html').write_text(shell('莫奈的睡莲 · 欧洲绘画',summary+'，以现场照片、细节与收藏故事串起吉维尼水园。',intro+reading+collection+about))
 ordered=sorted(works,key=lambda w:([p['id'] for p in periods].index(w['period']),w['year']))
 for w in works:
@@ -74,7 +74,7 @@ for g in groups:
     comparisons+=f'<section class="compare-group" id="{g["id"]}" aria-labelledby="compare-{g["id"]}"><h2 id="compare-{g["id"]}">{e(g["title"])}</h2><p>{e(g["text"])}</p><div class="comparison-grid" style="--columns:{min(len(g["works"]),4)}">{cells}</div></section>'
 nav=''.join(f'<a href="#{g["id"]}">{e(g["title"])}</a>' for g in groups)
 body=breadcrumb('并排看画',1)+f'<header class="compare-header wrap"><p class="eyebrow">CLAUDE MONET / SIDE BY SIDE</p><h1>并排看睡莲</h1><p>从桥的位置、倒影与笔触开始。点击图片放大，点击画名读作品札记。</p><p class="source">照片排布不代表实物比例，也不是组画的数字复原。</p></header><div class="wrap"><nav class="compare-nav" aria-label="比较组">{nav}</nav>{comparisons}</div>'
-(BASE/'compare').mkdir(exist_ok=True);(BASE/'compare/index.html').write_text(shell('并排看睡莲 · 莫奈','日本桥、水面倒影与晚年大画幅的六组比较。',body,1))
+(BASE/'compare').mkdir(exist_ok=True);(BASE/'compare/index.html').write_text(shell('并排看睡莲 · 莫奈','日本桥、水面倒影与晚年大画幅的五组比较。',body,1))
 from build_european import build
 build()
 print(f'Built Monet: {summary}; {len(photos)} photographs; {len(groups)} comparisons.')

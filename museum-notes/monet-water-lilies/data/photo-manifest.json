@@ -74,19 +74,19 @@
   {
     "source": "Image_20261006233718_641_19.jpg",
     "number": 641,
-    "role": "artwork",
+    "role": "excluded",
     "work": "wisteria-hague",
-    "published": "monet-641.jpg",
-    "reason": "",
+    "published": null,
+    "reason": "按用户要求移出睡莲专题；原始照片和展签留在本地。",
     "sha256": "b64266a708893961f7e1619cf84173d387ddc1dd264245626d8d920674bb567d"
   },
   {
     "source": "Image_20261006233719_642_19.jpg",
     "number": 642,
-    "role": "label",
+    "role": "excluded",
     "work": "wisteria-hague",
     "published": null,
-    "reason": "",
+    "reason": "按用户要求移出睡莲专题；原始照片和展签留在本地。",
     "sha256": "26c72e17a11d979cdd8cb66495343515f1dec0897fc0302a77dd77ecdafc1350"
   },
   {

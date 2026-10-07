@@ -4,7 +4,7 @@ from html import escape as e
 import json
 ROOT=Path(__file__).resolve().parents[1]
 TOPICS=[
-    dict(id="monet-water-lilies",title="莫奈的睡莲",dates="CLAUDE MONET / 1840—1926",hero="nelson-agapanthus",intro="从日本桥走到水面，再走进橘园。也放大看看卡内基的笔触细节。",note="16幅池塘绘画、1组橘园记录、1幅紫藤",routes="水园主题 / 现场细节 / 六组比较"),
+    dict(id="monet-water-lilies",title="莫奈的睡莲",dates="CLAUDE MONET / 1840—1926",hero="nelson-agapanthus",intro="从日本桥走到水面，再走进橘园。也放大看看卡内基的笔触细节。",note="16幅池塘绘画、1组橘园记录",routes="水园主题 / 现场细节 / 五组比较"),
     dict(id='vermeer',title='维米尔',dates='JOHANNES VERMEER / 1632—1675',hero='view-delft',intro='从代尔夫特的水岸，走进读信、奏乐与日常劳作的房间。也记下2025年夏天在弗里克看到的五幅画。',note='含弗里克观看记录',routes='六组题材 / 收藏故事 / 并排看画'),
     dict(id='leonardo',title='达·芬奇',dates='LEONARDO DA VINCI / 1452—1519',hero='ginevra-de-benci',intro='三张女性肖像、两幅未完成的画，还有那些熟悉的手势与远山。把四家博物馆里的相遇放到一起。',note='含1件合作、1件工作室相关作品',routes='创作时期 / 收藏故事 / 四组作品比较'),
     dict(id='caravaggio',title='卡拉瓦乔',dates='CARAVAGGIO / 1571—1610',hero='cardsharps',intro='牌桌、果篮、礼拜堂。再看见那些曾经分开看过的画，以及它们之间的关系。',note='含1件归属讨论',routes='创作时期 / 收藏故事 / 七组作品比较')]
