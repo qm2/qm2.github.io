@@ -104,7 +104,7 @@ content=f'''<section class="painting-intro wrap"><p class="eyebrow">CHINESE PAIN
 <section class="genre-intro wrap"><h2>从题材与观看方式进入</h2><p>山水、人物叙事与文人画可以交叉看。书法等有独立作品时再展开。</p><span class="pending-category">书法 · 待补</span></section>{main_filters}
 <nav class="period-nav wrap" id="chronology" aria-label="按时代浏览">{nav}</nav>{sections}
 <aside class="related-topics wrap"><p>也看佛教绘画：<a href="../dunhuang-painting/">敦煌绘画 · {counts['dunhuang']} 件 →</a>　<a href="../buddhist-painting/">全部佛教绘画 · {len(works)-counts['scrolls']} 件 →</a></p></aside>
-<aside class="editorial-note wrap"><h2>关于这些照片</h2><p>第一批是在纳尔逊－阿特金斯艺术博物馆 <a href="{data['exhibition']['url']}" target="_blank" rel="noopener noreferrer">Legendary Landscapes</a> 展览中拍摄的13件作品。这里也收录了弗利尔的人物与耕织图，以及金贝尔的《竹石图》。</p><p>主目录收录传世书画。敦煌供养画、幡画、寺院壁画与罗汉画放在佛教绘画专题中。金与南宋在时间上并存，跨朝代的断代和“传”的署名都在作品页保留。</p><p>封面逐件选取较清楚、有代表性的画面，长卷封面注明局部。看画页保留原有次序、全景和题跋；反光或遮挡明显但没有替代照片的作品，仍作为现场记录留下。</p></aside>'''
+<aside class="editorial-note wrap"><h2>关于这些照片</h2><p>其中13件作品摄于纳尔逊－阿特金斯艺术博物馆 <a href="{data['exhibition']['url']}" target="_blank" rel="noopener noreferrer">Legendary Landscapes</a> 展览，另有弗利尔的人物与耕织图，以及金贝尔的《竹石图》。</p><p>主目录收录传世书画，敦煌供养画、幡画、寺院壁画与罗汉画另见佛教绘画专题。金与南宋在时间上并存；署名中的“传”表示作者归属尚未确定。</p></aside>'''
 (PAGE/'index.html').write_text(frame('中国书画',content,description=f'Merton在博物馆拍摄的{len(main_works)}件传世中国书画，按时代与题材浏览，并沿作品间的比较线索展开。'))
 
 # Topic pages reference the same canonical work pages and images.
@@ -116,9 +116,9 @@ for slug,title,items in [('dunhuang-painting','敦煌绘画',dunhuang),('buddhis
         groups=[('votive','供养画',[w for w in items if '幡' not in w['form']]),('banners','幡画',[w for w in items if '幡' in w['form']])]
         note='这些作品画在绢或麻布上，并非从洞窟墙面切下来的壁画。吉美这组的展签注明来自莫高窟、属伯希和1906—1909年考察带回的藏品；弗利尔的地藏像另见其作品资料。'
     else:
-        intro='从寺院墙面上的佛与菩萨，到可以悬挂的罗汉画与敦煌幡画。先按作品原来的形制和环境放在一起，再慢慢补。'
+        intro='从寺院墙面上的佛与菩萨，到可以悬挂的罗汉画与敦煌幡画。形制不同，观看的距离和礼拜的环境也各有不同。'
         groups=[('murals','寺院壁画',[w for w in items if w['unit']=='murals']),('buddhist-scrolls','罗汉',[w for w in items if w['unit']=='buddhist-scrolls']),('dunhuang','敦煌绘画',dunhuang)]
-        note='宋元佛画暂不按朝代拆成很小的栏目。两幅罗汉画放在一起，广胜寺与慈胜寺等壁画放在“寺院壁画”；敦煌自成一个单元。佛菩萨画像也可以跨敦煌、壁画两组比较。'
+        note='广胜寺与慈胜寺的壁画、成组悬挂的罗汉画、敦煌的供养画与幡画，呈现了佛教图像不同的使用环境。'
     links=''.join(f'<a href="#{gid}">{gtitle}<span>{len(gitems)}</span></a>' for gid,gtitle,gitems in groups)
     body=f'<nav class="breadcrumbs wrap"><a href="../">博物馆札记</a><span>/</span><a href="../chinese-buddhist-art/">中国佛教艺术</a><span>/</span><span>{title}</span></nav><header class="painting-intro wrap"><p class="eyebrow">CHINESE BUDDHIST ART / PAINTING</p><h1>{title}</h1><p class="subtitle">{intro}</p><p class="intro">{len(items)} 件作品 · 摄影 / Merton</p><p class="topic-return"><a href="../chinese-painting/">中国书画年代目录 →</a>　<a href="../buddhist-painting/">佛教绘画 →</a>　<a href="../dunhuang-painting/">敦煌绘画 →</a></p></header><nav class="period-nav wrap">{links}</nav>'
     if slug=='buddhist-painting':body+=filters(items,[('dunhuang','敦煌'),('murals','寺院壁画'),('arhat','罗汉'),('buddha-bodhisattva','佛菩萨画像')])
