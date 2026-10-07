@@ -18,7 +18,7 @@
       document.querySelectorAll('.era-section').forEach(section => {
         section.hidden = ![...section.querySelectorAll('.art-card')].some(card => !card.hidden);
       });
-      $('#art-count').textContent = `${count} / ${cards.length} 件作品`;
+      $('#art-count').textContent = `${count} / ${cards.length} ${controls.dataset.countUnit || '件作品'}`;
       $('#art-empty').hidden = count !== 0;
     };
     controls.hidden = false;

@@ -1,0 +1,980 @@
+{
+  "updated": "2026-10-06",
+  "hero": "nelson-agapanthus",
+  "museums": {
+    "houston": "休斯顿美术馆",
+    "tokyo": "国立西洋美术馆 · 东京",
+    "dallas": "达拉斯艺术博物馆",
+    "hague": "海牙艺术博物馆",
+    "orangerie": "橘园美术馆 · 巴黎",
+    "orsay": "奥赛博物馆 · 巴黎",
+    "met": "大都会艺术博物馆 · 纽约",
+    "nelson": "纳尔逊－阿特金斯艺术博物馆",
+    "cleveland": "克利夫兰艺术博物馆",
+    "honolulu": "檀香山艺术博物馆",
+    "nga": "美国国家美术馆 · 华盛顿",
+    "princeton": "普林斯顿大学艺术博物馆",
+    "private": "私人收藏",
+    "portland": "波特兰艺术博物馆",
+    "carnegie": "卡内基艺术博物馆 · 匹兹堡"
+  },
+  "periods": [
+    {
+      "id": "bridges",
+      "title": "池塘与日本桥",
+      "range": "1899—1900",
+      "intro": "桥还在，池岸也还在。先看能够辨认方向的花园。"
+    },
+    {
+      "id": "reflections",
+      "title": "水面与倒影",
+      "range": "1903—1908",
+      "intro": "岸边退出画面，天空开始出现在脚下。"
+    },
+    {
+      "id": "late",
+      "title": "晚年的睡莲",
+      "range": "1914—1919",
+      "intro": "仍是那座池塘，花、叶与倒影却有了更自由的笔触。"
+    },
+    {
+      "id": "panoramas",
+      "title": "展开的大画幅",
+      "range": "约1915—1926",
+      "intro": "纳尔逊、克利夫兰与卡内基。照片先记下全貌，再走近看。"
+    },
+    {
+      "id": "orangerie",
+      "title": "走进橘园",
+      "range": "1915—1926 / 1927年陈列开放",
+      "intro": "七张展厅照片合为一组，保留长幅绘画与弧形墙面的关系。"
+    },
+    {
+      "id": "garden",
+      "title": "池畔延伸：紫藤",
+      "range": "1917—1920",
+      "intro": "这一幅画的是紫藤，单独放在睡莲之外，看它与大型装饰计划的联系。"
+    }
+  ],
+  "works": [
+    {
+      "id": "houston-1907",
+      "source_number": 634,
+      "label_number": null,
+      "title": "睡莲（休斯顿）",
+      "original_title": "Water Lilies (Nymphéas)",
+      "artist": "克洛德·莫奈",
+      "museum": "houston",
+      "date": "1907年",
+      "year": 1907,
+      "accession": "68.31",
+      "material": "布面油画",
+      "dimensions": "92.1 × 81.2厘米",
+      "period": "reflections",
+      "tags": [
+        "reflections"
+      ],
+      "observation": "中间一道浅紫色的天光向下展开，两侧是深色树影，前景的睡莲把视线重新拉回水面。",
+      "paragraphs": [
+        "这幅没有拍到展签，但画面中央逐渐变宽的浅色倒影、下方的花叶位置，都与休斯顿馆方图像吻合。馆方记录为1907年，画布高92.1厘米、宽81.2厘米；竖幅把天空的倒影拉得很深，横向漂浮的叶片又提示我们，眼前其实是一片平的水面。",
+        "它参加过1909年巴黎杜朗－吕埃尔画廊的《睡莲》展览。收藏记录还显示，Hanszen夫人于1968年购得此画，同年捐给休斯顿美术馆。"
+      ],
+      "sources": [
+        [
+          "休斯顿美术馆：作品、来源与展览记录",
+          "https://emuseum.mfah.org/objects/882"
+        ],
+        [
+          "休斯顿馆方 Google Arts & Culture：图像核对",
+          "https://artsandculture.google.com/asset/water-lilies-nymph%C3%A9as-claude-monet/YQHBefRbORVLuA?hl=en"
+        ]
+      ],
+      "source_note": "没有现场展签；观看地点由本人确认，作品身份依据馆方图像及目录核对。",
+      "photo": "monet-634.jpg",
+      "extra_photos": [],
+      "record_kind": "painting"
+    },
+    {
+      "id": "tokyo-1916",
+      "source_number": 635,
+      "label_number": 636,
+      "title": "睡莲（东京）",
+      "original_title": "Water Lilies",
+      "artist": "克洛德·莫奈",
+      "museum": "tokyo",
+      "date": "1916年",
+      "year": 1916,
+      "accession": "P.1959-0151",
+      "material": "布面油画",
+      "dimensions": "200.5 × 201厘米",
+      "period": "late",
+      "tags": [
+        "late"
+      ],
+      "observation": "近乎正方形的画面里，浅色花朵与叶片一团团散开，长长的暗绿倒影向水下延伸。",
+      "paragraphs": [
+        "这幅画高、宽都约两米。放到屏幕上容易忽略尺度，实际上它能让人正面面对一大片池水。画中没有岸线，画面下方的睡莲团块与上方的远近关系，也更多依靠颜色和笔触来分辨。",
+        "它属于松方收藏。国立西洋美术馆的来源记录记载，松方幸次郎约于1921年12月直接向莫奈购买此画；后来经历法国政府接管，1959年移交日本政府并进入国立西洋美术馆。这里的《睡莲》不只是莫奈晚年绘画的一例，也是一件有具体松方收藏经历的作品。"
+      ],
+      "sources": [
+        [
+          "国立西洋美术馆：P.1959-0151 馆藏及来源记录",
+          "https://collection.nmwa.go.jp/P.1959-0151.html"
+        ]
+      ],
+      "source_note": "",
+      "photo": "monet-635.jpg",
+      "extra_photos": [],
+      "record_kind": "painting"
+    },
+    {
+      "id": "dallas-round-1908",
+      "source_number": 637,
+      "label_number": 638,
+      "title": "睡莲（达拉斯，圆幅）",
+      "original_title": "Water Lilies",
+      "artist": "克洛德·莫奈",
+      "museum": "dallas",
+      "date": "1908年",
+      "year": 1908,
+      "accession": "1981.128",
+      "material": "布面油画",
+      "dimensions": "",
+      "period": "reflections",
+      "tags": [
+        "reflections"
+      ],
+      "observation": "圆形边界截住花叶和倒影，画面没有一个明确的入口，目光容易在水面上来回游移。",
+      "paragraphs": [
+        "这一幅先让人注意到的，是圆。照片中的金色画框很醒目，但不妨暂时忽略框饰，只看圆内横向浮动的叶片：它们从边缘进入，又在另一边被截断，池塘似乎还在画外继续。",
+        "达拉斯馆方将它列入莫奈1909年在杜朗－吕埃尔画廊展出的48幅《睡莲》之中。与同馆1903年的《睡莲池（云）》并排看，一幅借明亮云影打开水面，一幅让圆形画面本身成为观看的边界。此画于1981年由 Meadows Foundation 捐赠。"
+      ],
+      "sources": [
+        [
+          "达拉斯艺术博物馆：睡莲",
+          "https://www.dma.org/art/collection/object/3310757"
+        ],
+        [
+          "达拉斯馆方展览展签：1908年睡莲",
+          "https://files.dma.org/assets/ImpressionistRevolution/ImpressionistRevolution-en1.pdf"
+        ]
+      ],
+      "source_note": "",
+      "photo": "monet-637.jpg",
+      "extra_photos": [],
+      "record_kind": "painting"
+    },
+    {
+      "id": "dallas-clouds-1903",
+      "source_number": 639,
+      "label_number": 640,
+      "title": "睡莲池（云）",
+      "original_title": "The Water Lily Pond (Clouds)",
+      "artist": "克洛德·莫奈",
+      "museum": "dallas",
+      "date": "1903年",
+      "year": 1903,
+      "accession": "2019.67.13.McD",
+      "material": "布面油画",
+      "dimensions": "",
+      "period": "reflections",
+      "tags": [
+        "reflections"
+      ],
+      "observation": "云影在画面中间留下明亮的空处，睡莲像是漂在天空上，水面与倒影一时难分。",
+      "paragraphs": [
+        "与休斯顿的竖幅相比，这张横幅把浅色云影铺得更开。先找那些贴在水面上的叶片，再看它们之间透出的蓝与白，会比较容易分清：画里的天空是倒映在池塘中的。",
+        "据达拉斯馆方介绍，这幅画在1917年拍卖时，清晰的云影曾让观看者以为画挂倒了。这件轶事恰好点出《睡莲》的观看难题：当池岸和地平线消失，画面里还能用什么判断上下？收藏署名将它与 Eugene 和 Margaret McDermott 的艺术基金及 Margaret McDermott 的遗赠联系起来。"
+      ],
+      "sources": [
+        [
+          "达拉斯艺术博物馆：睡莲池（云）",
+          "https://www.dma.org/art/collection/object/5336032"
+        ],
+        [
+          "诺顿美术馆：该画借展说明与1917年轶事",
+          "https://www.norton.org/exhibitions/special-guest-the-water-lily-pond-clouds"
+        ]
+      ],
+      "source_note": "作品及收藏署名与现场展签核对；馆藏编号依线上目录记录。",
+      "photo": "monet-639.jpg",
+      "extra_photos": [],
+      "record_kind": "painting"
+    },
+    {
+      "id": "wisteria-hague",
+      "source_number": 641,
+      "label_number": 642,
+      "title": "紫藤",
+      "original_title": "Wisteria / Blauweregen",
+      "artist": "克洛德·莫奈",
+      "museum": "hague",
+      "date": "1917—1920年",
+      "year": 1917,
+      "accession": "0333516",
+      "material": "布面油画",
+      "dimensions": "150.5 × 200.5厘米",
+      "period": "garden",
+      "tags": [
+        "garden"
+      ],
+      "observation": "紫藤从上方垂落，蓝紫色在花簇之间铺开。它画的是池边植物，不作为一幅睡莲计数。",
+      "paragraphs": [
+        "这幅保留在旁边，是因为它与睡莲确实有关系。海牙馆方介绍，莫奈曾设想在大型《睡莲》上方再安排一圈紫藤画，形成装饰带；后来确定使用橘园既有建筑，紫藤部分没有纳入最终陈列。",
+        "回到照片看，花簇主要集中在上缘，下方留下大片蓝色。这样的布局与睡莲从水面向上望见倒影的感觉不同，也让人想象，若紫藤真的悬在睡莲上方，两种画面会怎样共同包围观众。后一层是观看分析，并非对橘园现状的描述。"
+      ],
+      "sources": [
+        [
+          "海牙艺术博物馆：紫藤馆藏记录",
+          "https://www.kunstmuseum.nl/en/collection/wisteria"
+        ],
+        [
+          "海牙艺术博物馆：莫奈花园绘画与紫藤装饰计划",
+          "https://www.kunstmuseum.nl/en/exhibitions/monet"
+        ]
+      ],
+      "source_note": "",
+      "photo": "monet-641.jpg",
+      "extra_photos": [],
+      "record_kind": "related"
+    },
+    {
+      "id": "orangerie-cycle",
+      "source_number": 644,
+      "label_number": null,
+      "title": "睡莲组画（橘园）",
+      "original_title": "Les Nymphéas",
+      "artist": "克洛德·莫奈",
+      "museum": "orangerie",
+      "date": "1915—1926年；1927年陈列开放",
+      "year": 1915,
+      "accession": "橘园两间椭圆形展厅内的组画",
+      "material": "布面油画",
+      "dimensions": "",
+      "period": "orangerie",
+      "tags": [
+        "orangerie"
+      ],
+      "observation": "长幅睡莲沿弧形墙面展开，照片里的天窗、座椅与观看距离，也是这组记录的一部分。",
+      "paragraphs": [
+        "橘园的《睡莲》由八个构图组成，安排在两间椭圆形展厅里。这里把七张现场照片合为一组：照片数量不是作品数量，也不表示已经逐幅拍齐八个构图。保留展厅边缘，才能看见这些画怎样随着墙面延伸。",
+        "1918年11月停战后，莫奈向法国提出赠画，以和平为意；此后计划不断发展，最终在他去世后的1927年于橘园陈列。这里不是把独立画作挂满一间房，而是绘画与专门安排的观看空间共同成立。",
+        "可以先看那张暖色夕照，再回到深蓝的水面与柳树倒影。花叶的横向分布和柳干的竖向线条，让人在长幅之间有不同的停留方式。展厅照片不作数字拼接，保留当时拍摄的视角与弧度。"
+      ],
+      "sources": [
+        [
+          "橘园美术馆：莫奈睡莲组画与八个构图",
+          "https://www.musee-orangerie.fr/fr/collection/les-nympheas-de-claude-monet"
+        ]
+      ],
+      "source_note": "",
+      "photo": "monet-644.jpg",
+      "extra_photos": [
+        643,
+        645,
+        646,
+        647,
+        648,
+        649
+      ],
+      "record_kind": "ensemble"
+    },
+    {
+      "id": "orsay-pink-harmony",
+      "source_number": 650,
+      "label_number": 651,
+      "title": "睡莲池，粉红色的和谐",
+      "original_title": "Le Bassin aux nymphéas, harmonie rose",
+      "artist": "克洛德·莫奈",
+      "museum": "orsay",
+      "date": "1900年",
+      "year": 1900,
+      "accession": "RF 2005",
+      "material": "布面油画",
+      "dimensions": "90 × 100.5厘米",
+      "period": "bridges",
+      "tags": [
+        "bridges"
+      ],
+      "observation": "桥横过繁密的花园，粉色与紫色散在绿叶之间。先看桥的弧线，再看桥下水面上平行展开的花叶。",
+      "paragraphs": [
+        "粉红色并没有覆盖整幅画，而是分散在桥身、花朵和水面笔触之间，与大片绿意互相衬托。与1899年的几幅日本桥相比，这张的花园显得更拥挤，桥也更像被植物包围着。",
+        "奥赛的收藏记录很具体：杜朗－吕埃尔于1900年11月21日向莫奈购画，第二天便卖给伊萨克·德·卡蒙多伯爵。1911年随卡蒙多遗赠进入法国国家收藏，最初归卢浮宫，1986年划归奥赛。"
+      ],
+      "sources": [
+        [
+          "奥赛博物馆：作品与收藏流转记录",
+          "https://www.musee-orsay.fr/fr/oeuvres/le-bassin-aux-nympheas-harmonie-rose-1174"
+        ]
+      ],
+      "source_note": "",
+      "photo": "monet-650.jpg",
+      "extra_photos": [],
+      "record_kind": "painting"
+    },
+    {
+      "id": "met-1919",
+      "source_number": 652,
+      "label_number": 653,
+      "title": "睡莲（大都会，1919）",
+      "original_title": "Water Lilies",
+      "artist": "克洛德·莫奈",
+      "museum": "met",
+      "date": "1919年",
+      "year": 1919,
+      "accession": "1998.325.2",
+      "material": "布面油画",
+      "dimensions": "101 × 200厘米",
+      "period": "late",
+      "tags": [
+        "late"
+      ],
+      "observation": "浅色花叶聚在两侧，中央露出蓝紫色的水光。横幅让视线沿着池面慢慢展开。",
+      "paragraphs": [
+        "这幅画约一米高、两米宽。花朵并不平均地铺满画布，中间的水光留下了一条较空的通道；把它与同馆1916—1919年的《睡莲》并排看，可以比较浅色叶片和深色水面怎样交换主次。",
+        "据大都会的入藏研究，莫奈在1919年制作了一批较小的池塘画，作为大型装饰计划之外的调剂，并向 Bernheim-Jeune 画商兄弟介绍这些作品。这幅是当年售出的四幅有签名和纪年的画之一，后来进入安嫩伯格收藏，再以赠予与遗赠方式入藏大都会。"
+      ],
+      "sources": [
+        [
+          "大都会艺术博物馆：1919年睡莲",
+          "https://www.metmuseum.org/art/collection/search/438008"
+        ],
+        [
+          "大都会《Recent Acquisitions 1998–1999》：此画入藏研究，第60页",
+          "https://resources.metmuseum.org/resources/metpublications/pdf/Recent_Acquisitions_A_Selection_1998_1999_The_Metropolitan_Museum_of_Art_v_57_no_2_Fall_1999.pdf"
+        ]
+      ],
+      "source_note": "",
+      "photo": "monet-652.jpg",
+      "extra_photos": [],
+      "record_kind": "painting"
+    },
+    {
+      "id": "met-bridge",
+      "source_number": 654,
+      "label_number": 655,
+      "title": "睡莲池上的桥",
+      "original_title": "Bridge over a Pond of Water Lilies",
+      "artist": "克洛德·莫奈",
+      "museum": "met",
+      "date": "1899年",
+      "year": 1899,
+      "accession": "29.100.113",
+      "material": "布面油画",
+      "dimensions": "",
+      "period": "bridges",
+      "tags": [
+        "bridges"
+      ],
+      "observation": "竖幅把桥下的水面拉长，弧形桥身靠近上方，睡莲与倒影占据了更多空间。",
+      "paragraphs": [
+        "这张可以和华盛顿、普林斯顿的两幅横向或近方形构图并排看。同是一座桥，大都会这幅留给桥下水面的比例更大：眼睛越过桥栏以后，还会沿着一层层睡莲往下走。",
+        "馆方指出，竖幅在这组日本桥绘画中较不常见。莫奈在1899年开始一组十八幅桥景，并在当年夏天完成包括本画在内的十二幅。它属于哈夫迈耶收藏，1929年随哈夫迈耶夫人遗赠进入大都会。"
+      ],
+      "sources": [
+        [
+          "大都会艺术博物馆：睡莲池上的桥",
+          "https://www.metmuseum.org/art/collection/search/437127"
+        ]
+      ],
+      "source_note": "",
+      "photo": "monet-654.jpg",
+      "extra_photos": [],
+      "record_kind": "painting"
+    },
+    {
+      "id": "met-1916-19",
+      "source_number": 656,
+      "label_number": 657,
+      "title": "睡莲（大都会，1916—1919）",
+      "original_title": "Water Lilies",
+      "artist": "克洛德·莫奈",
+      "museum": "met",
+      "date": "1916—1919年",
+      "year": 1916,
+      "accession": "1983.532",
+      "material": "布面油画",
+      "dimensions": "130.2 × 200.7厘米",
+      "period": "late",
+      "tags": [
+        "late"
+      ],
+      "observation": "深紫和暗绿的水面里，几道浅色竖笔像倒影，也像直接留在画布上的痕迹。",
+      "paragraphs": [
+        "与同馆1919年的明亮横幅相比，这幅的睡莲更零散，水面也更深。左上几道浅色长笔触和下方较大的叶片，不急着把形状交代清楚，却让视线在画布表面不断移动。",
+        "大都会将它视为莫奈晚年接近抽象的一种画法：睡莲池仍是出发点，但花、水和倒影可以变成更流动的笔触关系。作品于1983年由 Louise Reinhardt Smith 捐赠；这里保留馆方的1916—1919年断代，不把它与1919年的另一幅《睡莲》混为一件。"
+      ],
+      "sources": [
+        [
+          "大都会艺术博物馆：1916—1919年睡莲",
+          "https://www.metmuseum.org/art/collection/search/437137"
+        ]
+      ],
+      "source_note": "",
+      "photo": "monet-656.jpg",
+      "extra_photos": [],
+      "record_kind": "painting"
+    },
+    {
+      "id": "nelson-agapanthus",
+      "source_number": 658,
+      "label_number": 659,
+      "title": "睡莲（百子莲三联画右幅）",
+      "original_title": "Water Lilies / The Agapanthus Triptych",
+      "artist": "克洛德·莫奈",
+      "museum": "nelson",
+      "date": "约1915—1926年",
+      "year": 1915,
+      "accession": "57-26",
+      "material": "布面油画",
+      "dimensions": "",
+      "period": "panoramas",
+      "tags": [
+        "panoramas"
+      ],
+      "observation": "蓝紫色在上方铺开，下方转成黄绿。几团睡莲把宽阔的水面分成疏密不同的区域。",
+      "paragraphs": [
+        "这不是一幅孤立的大画：纳尔逊藏品是“百子莲三联画”的右幅，左幅正是这一辑中的克利夫兰藏品，中幅藏于圣路易斯艺术博物馆。两张现场照片可以并排比较，但中间缺少一幅，不能直接拼成完整三联画。",
+        "它在1957年入藏纳尔逊，经历莫奈之子米歇尔、Katia Granoff画廊及Knoedler画廊的流转。馆方档案还记录了一个具体的地方故事：堪萨斯城艺术学院的90名师生曾联名支持购藏这幅画。",
+        "远看像一片连贯的水光，近看则是交叉、转折、反复覆盖的笔触。馆方研究指出，莫奈对这张画进行了多年修改；画面的鲜活感，并不等于它是一次迅速完成的户外写生。"
+      ],
+      "sources": [
+        [
+          "纳尔逊：睡莲馆藏及购藏档案",
+          "https://art.nelson-atkins.org/objects/6650/"
+        ],
+        [
+          "纳尔逊法国绘画研究目录：百子莲三联画与创作过程",
+          "https://nelson-atkins.org/fpc/catalogue/impressionism/632/"
+        ]
+      ],
+      "source_note": "",
+      "photo": "monet-658.jpg",
+      "extra_photos": [],
+      "record_kind": "painting"
+    },
+    {
+      "id": "cleveland-agapanthus",
+      "source_number": 660,
+      "label_number": 661,
+      "title": "睡莲（百子莲三联画左幅）",
+      "original_title": "Water Lilies (Agapanthus)",
+      "artist": "克洛德·莫奈",
+      "museum": "cleveland",
+      "date": "约1915—1926年",
+      "year": 1915,
+      "accession": "1960.81",
+      "material": "布面油画",
+      "dimensions": "201.3 × 425.6厘米",
+      "period": "panoramas",
+      "tags": [
+        "panoramas"
+      ],
+      "observation": "大片蓝紫水面向两侧展开，右下方的浅色花朵十分醒目，左下则像潜着一层草木。",
+      "paragraphs": [
+        "这幅宽约4.26米，是“百子莲三联画”的左幅。与纳尔逊右幅相比，照片中的蓝紫色区域更宽，花团也更疏散；两幅本来同属一组，却各自安排了水面上的停顿和重心。",
+        "为什么画名里有百子莲，却不容易找到？克利夫兰的修复研究给出了线索：X光显出左下方原有的百子莲叶丛，后来被莫奈覆盖。这项发现把画面与早期工作室照片联系起来，也让“百子莲”成为修改过程留下的名字，而不只是寻找眼前花种的提示。"
+      ],
+      "sources": [
+        [
+          "克利夫兰艺术博物馆：睡莲（百子莲）",
+          "https://www.clevelandart.org/art/1960.81"
+        ],
+        [
+          "克利夫兰修复研究：“Agapanthus” Exposed",
+          "https://www.clevelandart.org/articles/agapanthus-exposed"
+        ]
+      ],
+      "source_note": "",
+      "photo": "monet-660.jpg",
+      "extra_photos": [],
+      "record_kind": "painting"
+    },
+    {
+      "id": "honolulu-1917-19",
+      "source_number": 662,
+      "label_number": 663,
+      "title": "睡莲（檀香山）",
+      "original_title": "Water Lilies",
+      "artist": "克洛德·莫奈",
+      "museum": "honolulu",
+      "date": "1917—1919年",
+      "year": 1917,
+      "accession": "3385.1",
+      "material": "布面油画",
+      "dimensions": "",
+      "period": "late",
+      "tags": [
+        "late"
+      ],
+      "observation": "几团睡莲从左下斜着伸向远处，蓝色水光夹在绿叶之间，笔触的方向比轮廓更醒目。",
+      "paragraphs": [
+        "这幅没有清楚的地平线，水中树影与浮在表面的叶片互相穿插。可以先沿着浅色花朵找一条斜向的路径，再看周围弯转的绿笔触，体会画面怎样让人觉得水面在变动。",
+        "檀香山馆方记录，它于1966年为纪念 Robert Allerton 而购入。馆方还把画作与本馆中国庭院里的睡莲池联系起来，作为从室内绘画继续观察真实水面的一种方式。"
+      ],
+      "sources": [
+        [
+          "檀香山艺术博物馆：HoMA Selects—莫奈睡莲",
+          "https://honolulumuseum.org/homa-selects-claude-monet-s-water-lillies-zwy4"
+        ]
+      ],
+      "source_note": "",
+      "photo": "monet-662.jpg",
+      "extra_photos": [],
+      "record_kind": "painting"
+    },
+    {
+      "id": "washington-footbridge",
+      "source_number": 664,
+      "label_number": 665,
+      "title": "日本桥（华盛顿）",
+      "original_title": "The Japanese Footbridge",
+      "artist": "克洛德·莫奈",
+      "museum": "nga",
+      "date": "1899年",
+      "year": 1899,
+      "accession": "1992.9.1",
+      "material": "布面油画",
+      "dimensions": "81.3 × 101.6厘米",
+      "period": "bridges",
+      "tags": [
+        "bridges"
+      ],
+      "observation": "桥拱靠近画面上缘，下方留出一大片密集的睡莲，绿色几乎封住了花园的天空。",
+      "paragraphs": [
+        "桥并没有把画面平均分成上下两半，它高高地压在水面上方，让睡莲成为前景的主体。和大都会竖幅相比，这张更横向展开；与普林斯顿那幅相比，又少了一些明亮的天空倒影。",
+        "这幅曾在1920年进入匹兹堡卡内基学院，1953年售出，后来经过Mudd家族收藏，于1992年捐入美国国家美术馆。今天在华盛顿看见它，再想到这一辑最后的卡内基《睡莲》，两件作品也通过收藏史产生了一条联系。"
+      ],
+      "sources": [
+        [
+          "美国国家美术馆：日本桥与收藏流转",
+          "https://www.nga.gov/artworks/74796-japanese-footbridge"
+        ]
+      ],
+      "source_note": "",
+      "photo": "monet-664.jpg",
+      "extra_photos": [],
+      "record_kind": "painting"
+    },
+    {
+      "id": "princeton-bridge",
+      "source_number": 666,
+      "label_number": 667,
+      "title": "睡莲与日本桥",
+      "original_title": "Water Lilies and Japanese Bridge",
+      "artist": "克洛德·莫奈",
+      "museum": "princeton",
+      "date": "1899年",
+      "year": 1899,
+      "accession": "y1972-15",
+      "material": "布面油画",
+      "dimensions": "",
+      "period": "bridges",
+      "tags": [
+        "bridges"
+      ],
+      "observation": "桥栏泛着浅蓝，水面在花叶之间露出亮色，岸边繁密的植物围成一个安静的空间。",
+      "paragraphs": [
+        "这座桥与东京的浮世绘版画并不是简单的一一对应。普林斯顿馆方指出，莫奈收藏日本版画，也从拱桥与水园图像中受到启发；他在吉维尼营造的花园，本身就是被选择、种植和改造出来的景观。",
+        "这幅《睡莲与日本桥》来自 William Church Osborn 收藏，由其家族于1972年捐赠。并排看几幅日本桥，重点不只是找出“同一座桥”，而是看桥的高度、画幅比例及水面留白怎样改变观看距离。"
+      ],
+      "sources": [
+        [
+          "普林斯顿大学艺术博物馆：睡莲与日本桥",
+          "https://artmuseum.princeton.edu/art/collections/objects/31852"
+        ]
+      ],
+      "source_note": "",
+      "photo": "monet-666.jpg",
+      "extra_photos": [],
+      "record_kind": "painting"
+    },
+    {
+      "id": "private-pond-1919",
+      "source_number": 668,
+      "label_number": 669,
+      "title": "睡莲池（私人收藏）",
+      "original_title": "The Water Lily Pond",
+      "artist": "克洛德·莫奈",
+      "museum": "private",
+      "date": "1919年（据现场展签）",
+      "year": 1919,
+      "accession": "展签未列编号",
+      "material": "布面油画",
+      "dimensions": "",
+      "period": "late",
+      "tags": [
+        "late",
+        "seattle-loan"
+      ],
+      "observation": "花叶分布在两侧，中间留出紫蓝色的水光；横幅像是从池塘截取的一段。",
+      "paragraphs": [
+        "这件可以确认是在西雅图艺术博物馆展出的私人借藏。馆方发布的现场照片与这里的画面、画框及橙色墙面相符，并明确说明《睡莲池》由私人收藏借入 Impressionisms 展厅；现场展签给出的年份是1919年。",
+        "从照片看，睡莲团块在左侧和右侧交替出现，中央的竖向倒影把横幅水面又拉出一层深度。可与大都会1919年的《睡莲》比较类似的横向布局，但相近年份和题材并不等于同一件作品。"
+      ],
+      "sources": [
+        [
+          "西雅图艺术博物馆官方账号：私人借展睡莲池及现场照片",
+          "https://www.linkedin.com/posts/seattle-art-museum_new-on-view-the-water-lily-pond-by-claude-activity-7395188918645587968-WPxY"
+        ],
+        [
+          "西雅图艺术博物馆：Impressionisms 展厅",
+          "https://www.seattleartmuseum.org/whats-on/exhibitions/impressionisms"
+        ]
+      ],
+      "source_note": "收藏归属仍按现场展签记为私人收藏，观看地点为西雅图艺术博物馆。馆方公布的借展信息未披露藏家姓名，不把其他同名作品的流转记录移到这里。",
+      "photo": "monet-668.jpg",
+      "extra_photos": [],
+      "record_kind": "painting",
+      "visit": "西雅图艺术博物馆 · Impressionisms 展厅（私人借展）"
+    },
+    {
+      "id": "portland-1914-15",
+      "source_number": 670,
+      "label_number": 671,
+      "title": "睡莲（波特兰）",
+      "original_title": "Waterlilies",
+      "artist": "克洛德·莫奈",
+      "museum": "portland",
+      "date": "1914—1915年",
+      "year": 1914,
+      "accession": "59.16",
+      "material": "布面油画",
+      "dimensions": "",
+      "period": "late",
+      "tags": [
+        "late"
+      ],
+      "observation": "蓝色水面里穿插深绿的竖向倒影，浅色睡莲团块像停在这些笔触上。",
+      "paragraphs": [
+        "照片中最容易对比的是横向叶片与竖向倒影：前者贴住池面，后者却把视线往深处拉。画幅超过一米半高，接近身体尺度，叶片也不再只是远处几粒细小的花。",
+        "波特兰馆方记载，莫奈未曾出售此画，它在儿子家的餐厅悬挂多年，1959年才被博物馆购入。购藏后加上的非原作合成树脂清漆，后来逐渐改变画面观感；2024—2025年的保护修复去除了这层清漆，并在2025年专题展中重新呈现。这段修复史具体涉及后来添加的表层，不应说成重新绘制了莫奈的颜色。"
+      ],
+      "sources": [
+        [
+          "波特兰艺术博物馆：睡莲与收藏经历",
+          "https://portlandartmuseum.org/the-poster-project/waterlilies/"
+        ],
+        [
+          "波特兰艺术博物馆：睡莲保护修复项目",
+          "https://portlandartmuseum.org/unveiling-monets-waterlilies/"
+        ],
+        [
+          "波特兰艺术博物馆：2025年修复后展览",
+          "https://portlandartmuseum.org/event/monets-floating-worlds-at-giverny/"
+        ]
+      ],
+      "source_note": "",
+      "photo": "monet-670.jpg",
+      "extra_photos": [],
+      "record_kind": "painting"
+    },
+    {
+      "id": "carnegie-panorama",
+      "source_number": 672,
+      "label_number": 676,
+      "title": "睡莲（卡内基）",
+      "original_title": "Water Lilies (Nymphéas)",
+      "artist": "克洛德·莫奈",
+      "museum": "carnegie",
+      "date": "约1915—1926年",
+      "year": 1915,
+      "accession": "62.19.1",
+      "material": "布面油画",
+      "dimensions": "",
+      "period": "panoramas",
+      "tags": [
+        "panoramas"
+      ],
+      "observation": "远看是一整条池水；走近以后，花、叶与倒影分解成有厚薄和方向的色块。",
+      "paragraphs": [
+        "最后这件特意留下全景和局部两种距离。卡内基馆方形容画幅高约六英尺、宽近二十英尺，也就是宽约六米；缩成网页上的一张小图，很容易失去它在展厅里展开的尺度。",
+        "左侧细节里，紫色水光与黄绿色叶片相接，红色小花只是短短几笔；另一张细节则能看见竖向倒影怎样穿过浅色睡莲之间。先看局部，再回到全景，比较这些看似松散的笔触怎样重新合成水面。作品由 Alan M. Scaife 夫人的资助购藏，编号62.19.1。"
+      ],
+      "sources": [
+        [
+          "卡内基艺术博物馆：睡莲的尺度与收藏署名",
+          "https://carnegieart.org/resource/mothers-day-bouquet/"
+        ]
+      ],
+      "source_note": "局部照片均来自这件作品，不另计为新作品。两张相近的左侧细节择取较宽的一张，另一张保留在本地原始照片中。",
+      "photo": "monet-672.jpg",
+      "extra_photos": [
+        673,
+        675
+      ],
+      "record_kind": "painting"
+    }
+  ],
+  "groups": [
+    {
+      "id": "japanese-bridges",
+      "title": "同一座桥，四种取景",
+      "text": "大都会的竖幅、华盛顿的横幅、普林斯顿的近方形，以及奥赛的粉红色调。比较桥在画面中的高度，和桥下留给水面的空间。",
+      "works": [
+        "met-bridge",
+        "washington-footbridge",
+        "princeton-bridge",
+        "orsay-pink-harmony"
+      ]
+    },
+    {
+      "id": "sky-in-water",
+      "title": "水里为什么会有天空",
+      "text": "先看云影和树影，再找睡莲的位置。休斯顿与达拉斯的三幅画，可以连着看水面、倒影和画幅边界。",
+      "works": [
+        "houston-1907",
+        "dallas-clouds-1903",
+        "dallas-round-1908"
+      ]
+    },
+    {
+      "id": "agapanthus",
+      "title": "三联画里，已经遇见的两幅",
+      "text": "克利夫兰为左幅，纳尔逊为右幅，中幅藏于圣路易斯。本页只比较已经拍到的两幅，中间没有补图，也不把两张照片直接拼成一幅。",
+      "works": [
+        "cleveland-agapanthus",
+        "nelson-agapanthus"
+      ]
+    },
+    {
+      "id": "late-surfaces",
+      "title": "晚年水面的明暗与笔触",
+      "text": "同样没有地平线，东京的近方形、大都会的两幅横画与檀香山藏品，却有不同的疏密和明暗重心。",
+      "works": [
+        "tokyo-1916",
+        "met-1916-19",
+        "met-1919",
+        "honolulu-1917-19"
+      ]
+    },
+    {
+      "id": "paint-and-distance",
+      "title": "走近，再退远",
+      "text": "波特兰的保护修复让非原作清漆退去；卡内基的现场细节照片让笔触变得清楚。一个关于表层，一个关于距离，都在提醒人重新看颜料本身。",
+      "works": [
+        "portland-1914-15",
+        "carnegie-panorama"
+      ]
+    },
+    {
+      "id": "decoration",
+      "title": "睡莲旁边的一圈紫藤",
+      "text": "橘园是完成的空间，紫藤则通向一项未按原构想实现的装饰安排。这里比较的是两个方案中的位置与观看关系，不把紫藤改称睡莲。",
+      "works": [
+        "orangerie-cycle",
+        "wisteria-hague"
+      ]
+    }
+  ],
+  "photos": {
+    "634": {
+      "file": "monet-634.jpg",
+      "width": 1280,
+      "height": 1707,
+      "caption": "睡莲（休斯顿） · 休斯顿美术馆",
+      "credit": "Merton参观照片",
+      "kind": "personal"
+    },
+    "635": {
+      "file": "monet-635.jpg",
+      "width": 1280,
+      "height": 1707,
+      "caption": "睡莲（东京） · 国立西洋美术馆 · 东京",
+      "credit": "Merton参观照片",
+      "kind": "personal"
+    },
+    "637": {
+      "file": "monet-637.jpg",
+      "width": 1280,
+      "height": 1707,
+      "caption": "睡莲（达拉斯，圆幅） · 达拉斯艺术博物馆",
+      "credit": "Merton参观照片",
+      "kind": "personal"
+    },
+    "639": {
+      "file": "monet-639.jpg",
+      "width": 1707,
+      "height": 1280,
+      "caption": "睡莲池（云） · 达拉斯艺术博物馆",
+      "credit": "Merton参观照片",
+      "kind": "personal"
+    },
+    "641": {
+      "file": "monet-641.jpg",
+      "width": 1707,
+      "height": 1280,
+      "caption": "紫藤 · 海牙艺术博物馆",
+      "credit": "Merton参观照片",
+      "kind": "personal"
+    },
+    "644": {
+      "file": "monet-644.jpg",
+      "width": 1276,
+      "height": 958,
+      "caption": "睡莲组画（橘园） · 橘园美术馆 · 巴黎",
+      "credit": "Merton参观照片",
+      "kind": "personal"
+    },
+    "643": {
+      "file": "monet-643.jpg",
+      "width": 1702,
+      "height": 1276,
+      "caption": "橘园展厅：深色水面与睡莲",
+      "credit": "Merton参观照片",
+      "kind": "personal"
+    },
+    "645": {
+      "file": "monet-645.jpg",
+      "width": 1276,
+      "height": 958,
+      "caption": "橘园展厅：明亮水光与花叶",
+      "credit": "Merton参观照片",
+      "kind": "personal"
+    },
+    "646": {
+      "file": "monet-646.jpg",
+      "width": 1702,
+      "height": 1276,
+      "caption": "橘园展厅：夕照中的水面",
+      "credit": "Merton参观照片",
+      "kind": "personal"
+    },
+    "647": {
+      "file": "monet-647.jpg",
+      "width": 1276,
+      "height": 958,
+      "caption": "橘园展厅：柳树、弧墙与天窗",
+      "credit": "Merton参观照片",
+      "kind": "personal"
+    },
+    "648": {
+      "file": "monet-648.jpg",
+      "width": 1276,
+      "height": 958,
+      "caption": "橘园展厅：长幅水面与座椅",
+      "credit": "Merton参观照片",
+      "kind": "personal"
+    },
+    "649": {
+      "file": "monet-649.jpg",
+      "width": 1702,
+      "height": 1276,
+      "caption": "橘园展厅：柳树倒影的近景",
+      "credit": "Merton参观照片",
+      "kind": "personal"
+    },
+    "650": {
+      "file": "monet-650.jpg",
+      "width": 1702,
+      "height": 1276,
+      "caption": "睡莲池，粉红色的和谐 · 奥赛博物馆 · 巴黎",
+      "credit": "Merton参观照片",
+      "kind": "personal"
+    },
+    "652": {
+      "file": "monet-652.jpg",
+      "width": 1702,
+      "height": 1276,
+      "caption": "睡莲（大都会，1919） · 大都会艺术博物馆 · 纽约",
+      "credit": "Merton参观照片",
+      "kind": "personal"
+    },
+    "654": {
+      "file": "monet-654.jpg",
+      "width": 1280,
+      "height": 1707,
+      "caption": "睡莲池上的桥 · 大都会艺术博物馆 · 纽约",
+      "credit": "Merton参观照片",
+      "kind": "personal"
+    },
+    "656": {
+      "file": "monet-656.jpg",
+      "width": 1702,
+      "height": 1276,
+      "caption": "睡莲（大都会，1916—1919） · 大都会艺术博物馆 · 纽约",
+      "credit": "Merton参观照片",
+      "kind": "personal"
+    },
+    "658": {
+      "file": "monet-658.jpg",
+      "width": 1702,
+      "height": 1276,
+      "caption": "睡莲（百子莲三联画右幅） · 纳尔逊－阿特金斯艺术博物馆",
+      "credit": "Merton参观照片",
+      "kind": "personal"
+    },
+    "660": {
+      "file": "monet-660.jpg",
+      "width": 1707,
+      "height": 1280,
+      "caption": "睡莲（百子莲三联画左幅） · 克利夫兰艺术博物馆",
+      "credit": "Merton参观照片",
+      "kind": "personal"
+    },
+    "662": {
+      "file": "monet-662.jpg",
+      "width": 1707,
+      "height": 1280,
+      "caption": "睡莲（檀香山） · 檀香山艺术博物馆",
+      "credit": "Merton参观照片",
+      "kind": "personal"
+    },
+    "664": {
+      "file": "monet-664.jpg",
+      "width": 1702,
+      "height": 1276,
+      "caption": "日本桥（华盛顿） · 美国国家美术馆 · 华盛顿",
+      "credit": "Merton参观照片",
+      "kind": "personal"
+    },
+    "666": {
+      "file": "monet-666.jpg",
+      "width": 1305,
+      "height": 1280,
+      "caption": "睡莲与日本桥 · 普林斯顿大学艺术博物馆",
+      "credit": "Merton参观照片",
+      "kind": "personal"
+    },
+    "668": {
+      "file": "monet-668.jpg",
+      "width": 1707,
+      "height": 1280,
+      "caption": "睡莲池 · 私人收藏，西雅图艺术博物馆借展",
+      "credit": "Merton参观照片",
+      "kind": "personal"
+    },
+    "670": {
+      "file": "monet-670.jpg",
+      "width": 1280,
+      "height": 1707,
+      "caption": "睡莲（波特兰） · 波特兰艺术博物馆",
+      "credit": "Merton参观照片",
+      "kind": "personal"
+    },
+    "672": {
+      "file": "monet-672.jpg",
+      "width": 1366,
+      "height": 1024,
+      "caption": "睡莲（卡内基） · 卡内基艺术博物馆 · 匹兹堡",
+      "credit": "Merton参观照片",
+      "kind": "personal"
+    },
+    "673": {
+      "file": "monet-673.jpg",
+      "width": 1707,
+      "height": 1280,
+      "caption": "卡内基睡莲局部：紫色水光、黄绿叶片与红花",
+      "credit": "Merton参观照片",
+      "kind": "personal"
+    },
+    "675": {
+      "file": "monet-675.jpg",
+      "width": 1707,
+      "height": 1280,
+      "caption": "卡内基睡莲局部：浅色花叶与竖向倒影",
+      "credit": "Merton参观照片",
+      "kind": "personal"
+    }
+  }
+}

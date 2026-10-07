@@ -1,0 +1,9 @@
+/* Keep the existing painting notebook design; provide room for uncropped detail photos. */
+.photo-notes{margin-top:58px;padding-top:34px;border-top:1px solid var(--line)}
+.photo-notes>p:not(.eyebrow){font-size:13px;color:var(--muted)}
+.photo-notes-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px;margin-top:24px}
+.photo-notes-grid figure{margin:0;min-width:0}
+.photo-notes-grid img{display:block;width:100%;height:auto}
+.photo-notes-grid figcaption{font-size:12px;color:var(--muted);padding-top:12px}
+.work-sources{overflow-wrap:anywhere}
+@media(max-width:700px){.photo-notes-grid{grid-template-columns:1fr}.work-sequence{flex-wrap:wrap}.work-sequence>a{max-width:100%}}

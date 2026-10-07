@@ -1,0 +1,398 @@
+[
+  {
+    "source": "Image_20261005225723_633_19.jpg",
+    "number": 633,
+    "role": "excluded",
+    "work": null,
+    "published": null,
+    "reason": "误入：上一批元代高足杯展签，与莫奈专题无关。",
+    "sha256": "2b290fc15d13e8ef11f0d1bb61dd6fd43c9bf51bf2f1ea0d6c62dec3feed6ac2"
+  },
+  {
+    "source": "Image_20261006233658_634_19.jpg",
+    "number": 634,
+    "role": "artwork",
+    "work": "houston-1907",
+    "published": "monet-634.jpg",
+    "reason": "",
+    "sha256": "a67beb03d2e3ba52c825e7d457d1353b2e0d822d67178d916ce0dd94fcb62ef6"
+  },
+  {
+    "source": "Image_20261006233702_635_19.jpg",
+    "number": 635,
+    "role": "artwork",
+    "work": "tokyo-1916",
+    "published": "monet-635.jpg",
+    "reason": "",
+    "sha256": "0c2d5616ae45e0d71f2a200d0a4e1f9bf902863297442c58f95cbf29c51a9c31"
+  },
+  {
+    "source": "Image_20261006233704_636_19.jpg",
+    "number": 636,
+    "role": "label",
+    "work": "tokyo-1916",
+    "published": null,
+    "reason": "",
+    "sha256": "b174787f120d317744bbd4f5a652e83ac1c1047ec1791125fe50e16234339a36"
+  },
+  {
+    "source": "Image_20261006233706_637_19.jpg",
+    "number": 637,
+    "role": "artwork",
+    "work": "dallas-round-1908",
+    "published": "monet-637.jpg",
+    "reason": "",
+    "sha256": "0047623c0aa431493c6b02f014a91b5c1472ec73ce09c73a8a6c924112afa454"
+  },
+  {
+    "source": "Image_20261006233708_638_19.jpg",
+    "number": 638,
+    "role": "label",
+    "work": "dallas-round-1908",
+    "published": null,
+    "reason": "",
+    "sha256": "c5437585e2254105c3840ce4a3e3a5d2911f9198f7b4874e5662d8fa223bbd3f"
+  },
+  {
+    "source": "Image_20261006233710_639_19.jpg",
+    "number": 639,
+    "role": "artwork",
+    "work": "dallas-clouds-1903",
+    "published": "monet-639.jpg",
+    "reason": "",
+    "sha256": "b61a5b318c7e89b82a11fe9dbc8d05795fe5ce86364775b83003141a41c15365"
+  },
+  {
+    "source": "Image_20261006233715_640_19.jpg",
+    "number": 640,
+    "role": "label",
+    "work": "dallas-clouds-1903",
+    "published": null,
+    "reason": "",
+    "sha256": "e179bf88c6c57f363fe10ab371ced67eca002cfd47d6cb995ffdb62013873ec7"
+  },
+  {
+    "source": "Image_20261006233718_641_19.jpg",
+    "number": 641,
+    "role": "artwork",
+    "work": "wisteria-hague",
+    "published": "monet-641.jpg",
+    "reason": "",
+    "sha256": "b64266a708893961f7e1619cf84173d387ddc1dd264245626d8d920674bb567d"
+  },
+  {
+    "source": "Image_20261006233719_642_19.jpg",
+    "number": 642,
+    "role": "label",
+    "work": "wisteria-hague",
+    "published": null,
+    "reason": "",
+    "sha256": "26c72e17a11d979cdd8cb66495343515f1dec0897fc0302a77dd77ecdafc1350"
+  },
+  {
+    "source": "Image_20261006233721_643_19.jpg",
+    "number": 643,
+    "role": "artwork",
+    "work": "orangerie-cycle",
+    "published": "monet-643.jpg",
+    "reason": "",
+    "sha256": "acbf22a1ed0302315dd6568fb00d6b329f0c08aa817a4a8b6a7bd9dcc935304f"
+  },
+  {
+    "source": "Image_20261006233722_644_19.jpg",
+    "number": 644,
+    "role": "artwork",
+    "work": "orangerie-cycle",
+    "published": "monet-644.jpg",
+    "reason": "",
+    "sha256": "5aa509cd9da8e9fd3411f4f8589df67af8d0b6c1da584e3dd7dce50c35502abf"
+  },
+  {
+    "source": "Image_20261006233724_645_19.jpg",
+    "number": 645,
+    "role": "artwork",
+    "work": "orangerie-cycle",
+    "published": "monet-645.jpg",
+    "reason": "",
+    "sha256": "5577b40f05fddbb76e84486700429747576e4d3c436fae605f3496ac4c42acd0"
+  },
+  {
+    "source": "Image_20261006233725_646_19.jpg",
+    "number": 646,
+    "role": "artwork",
+    "work": "orangerie-cycle",
+    "published": "monet-646.jpg",
+    "reason": "",
+    "sha256": "14d3f6e0ffe21631cc7529f79a60bce0a3e75388fadd2242973659875b085928"
+  },
+  {
+    "source": "Image_20261006233726_647_19.jpg",
+    "number": 647,
+    "role": "artwork",
+    "work": "orangerie-cycle",
+    "published": "monet-647.jpg",
+    "reason": "",
+    "sha256": "40cf0c7976417ee87dd70e875b95cf39d4946183b2da1643a88bae825fceb4eb"
+  },
+  {
+    "source": "Image_20261006233728_648_19.jpg",
+    "number": 648,
+    "role": "artwork",
+    "work": "orangerie-cycle",
+    "published": "monet-648.jpg",
+    "reason": "",
+    "sha256": "49fb83d9a3cbe3e3b9b309ed19233935277a94cc3a1d645a11f8e5357a1e1cfa"
+  },
+  {
+    "source": "Image_20261006233729_649_19.jpg",
+    "number": 649,
+    "role": "artwork",
+    "work": "orangerie-cycle",
+    "published": "monet-649.jpg",
+    "reason": "",
+    "sha256": "a572e8083454f06eeb8dbea979f914fa132d413a462b9ffd137775238ba6ce73"
+  },
+  {
+    "source": "Image_20261006233731_650_19.jpg",
+    "number": 650,
+    "role": "artwork",
+    "work": "orsay-pink-harmony",
+    "published": "monet-650.jpg",
+    "reason": "",
+    "sha256": "ae87bfe3fa4eaefaa48ef4eda001d0e885f4d977fb59e5f6f2de62b42cf2a22a"
+  },
+  {
+    "source": "Image_20261006233732_651_19.jpg",
+    "number": 651,
+    "role": "label",
+    "work": "orsay-pink-harmony",
+    "published": null,
+    "reason": "",
+    "sha256": "4b2151e7e47d03b09738fdc2ae8fa28b3f80f8984952429c601851f9c4da792a"
+  },
+  {
+    "source": "Image_20261006233734_652_19.jpg",
+    "number": 652,
+    "role": "artwork",
+    "work": "met-1919",
+    "published": "monet-652.jpg",
+    "reason": "",
+    "sha256": "d0c5b8c612f2c3fb21722efeba1df2c1042bb7741b29dd734c0227a46cc5541e"
+  },
+  {
+    "source": "Image_20261006233735_653_19.jpg",
+    "number": 653,
+    "role": "label",
+    "work": "met-1919",
+    "published": null,
+    "reason": "",
+    "sha256": "9f6b4dbbd86d1be127a2343071da79d1c92890f3d987896f82ce7076e3524c6a"
+  },
+  {
+    "source": "Image_20261006233737_654_19.jpg",
+    "number": 654,
+    "role": "artwork",
+    "work": "met-bridge",
+    "published": "monet-654.jpg",
+    "reason": "",
+    "sha256": "7e16228fa5e2d2a2e6db95bc4c3b34d3cf949f1c0df25806b399d2250a1db88e"
+  },
+  {
+    "source": "Image_20261006233739_655_19.jpg",
+    "number": 655,
+    "role": "label",
+    "work": "met-bridge",
+    "published": null,
+    "reason": "",
+    "sha256": "bdc0333211a7b101997cb467a371ef5060f8e264c270c25047cdc6af04ac0b78"
+  },
+  {
+    "source": "Image_20261006233740_656_19.jpg",
+    "number": 656,
+    "role": "artwork",
+    "work": "met-1916-19",
+    "published": "monet-656.jpg",
+    "reason": "",
+    "sha256": "1c9c61173194aa13301a001c6f17649f74646bb2bba7814420210a474b1b78aa"
+  },
+  {
+    "source": "Image_20261006233742_657_19.jpg",
+    "number": 657,
+    "role": "label",
+    "work": "met-1916-19",
+    "published": null,
+    "reason": "",
+    "sha256": "90acf42d8e222323bea2d21940fe975d9ee64188fabd596ff93c7b616c7b417a"
+  },
+  {
+    "source": "Image_20261006233743_658_19.jpg",
+    "number": 658,
+    "role": "artwork",
+    "work": "nelson-agapanthus",
+    "published": "monet-658.jpg",
+    "reason": "",
+    "sha256": "0d93378f5c85924847c9c230b4f0fbbd273bd06ef61118b7b94fff127530200b"
+  },
+  {
+    "source": "Image_20261006233745_659_19.jpg",
+    "number": 659,
+    "role": "label",
+    "work": "nelson-agapanthus",
+    "published": null,
+    "reason": "",
+    "sha256": "817d27408d1a09374d107a9c5af0575520d9f7ae644ce5b454e13a4e6ea4039b"
+  },
+  {
+    "source": "Image_20261006233747_660_19.jpg",
+    "number": 660,
+    "role": "artwork",
+    "work": "cleveland-agapanthus",
+    "published": "monet-660.jpg",
+    "reason": "",
+    "sha256": "c1511f6f6283b725d7817e9db25fb4ea8c6284d7d9fb98be0019797a3bcd8d2b"
+  },
+  {
+    "source": "Image_20261006233749_661_19.jpg",
+    "number": 661,
+    "role": "label",
+    "work": "cleveland-agapanthus",
+    "published": null,
+    "reason": "",
+    "sha256": "5edcc9d481ededc3b3a3bc2fc684cf4f5139f02ed0bdd3fcb923cdb0e6127f52"
+  },
+  {
+    "source": "Image_20261006233751_662_19.jpg",
+    "number": 662,
+    "role": "artwork",
+    "work": "honolulu-1917-19",
+    "published": "monet-662.jpg",
+    "reason": "",
+    "sha256": "bc7eca9c742b52f4785ea0807ab1d15284b88b6b476058c94888f6b3db74bf07"
+  },
+  {
+    "source": "Image_20261006233753_663_19.jpg",
+    "number": 663,
+    "role": "label",
+    "work": "honolulu-1917-19",
+    "published": null,
+    "reason": "",
+    "sha256": "924cffa190bdbd5887fa17497fa5bb8a156a4a309a792722083440c462310fe7"
+  },
+  {
+    "source": "Image_20261006233755_664_19.jpg",
+    "number": 664,
+    "role": "artwork",
+    "work": "washington-footbridge",
+    "published": "monet-664.jpg",
+    "reason": "",
+    "sha256": "80163174edd6d5824f45dc63c62a8ba912496506dcd97d4fcdc8335a8fb0b911"
+  },
+  {
+    "source": "Image_20261006233756_665_19.jpg",
+    "number": 665,
+    "role": "label",
+    "work": "washington-footbridge",
+    "published": null,
+    "reason": "",
+    "sha256": "f006aa8018cfe200e366d0526c51e04bcc8e3ed65f39f74ccc2d18cecf465cea"
+  },
+  {
+    "source": "Image_20261006233759_666_19.jpg",
+    "number": 666,
+    "role": "artwork",
+    "work": "princeton-bridge",
+    "published": "monet-666.jpg",
+    "reason": "",
+    "sha256": "687a0fcc2e73d9513978f25b61cee7a06d3ba5fff4c6d943915627f965f305da"
+  },
+  {
+    "source": "Image_20261006233800_667_19.jpg",
+    "number": 667,
+    "role": "label",
+    "work": "princeton-bridge",
+    "published": null,
+    "reason": "",
+    "sha256": "ad11212fe0f6b1ca6383ad176674369fb4196108097d58b7f34d3f4eae0d47cc"
+  },
+  {
+    "source": "Image_20261006233802_668_19.jpg",
+    "number": 668,
+    "role": "artwork",
+    "work": "private-pond-1919",
+    "published": "monet-668.jpg",
+    "reason": "",
+    "sha256": "9d887b12fd418ea4339f93383e499a9a45eb656e9b76ba0c62448493cf281c0c"
+  },
+  {
+    "source": "Image_20261006233803_669_19.jpg",
+    "number": 669,
+    "role": "label",
+    "work": "private-pond-1919",
+    "published": null,
+    "reason": "",
+    "sha256": "0a2edb3c2c93508298d6213cfdecd5830658dd1e18998a806a6678af5eb6da0e"
+  },
+  {
+    "source": "Image_20261006233805_670_19.jpg",
+    "number": 670,
+    "role": "artwork",
+    "work": "portland-1914-15",
+    "published": "monet-670.jpg",
+    "reason": "",
+    "sha256": "48db597043ab0321aecee110ba45e7c25eb209464d382b979a933a905afdb0e6"
+  },
+  {
+    "source": "Image_20261006233806_671_19.jpg",
+    "number": 671,
+    "role": "label",
+    "work": "portland-1914-15",
+    "published": null,
+    "reason": "",
+    "sha256": "9d93e59bb132a40c1bc443a1f87697bd82c5f8ed549da5661f8b6b4d4840dc2b"
+  },
+  {
+    "source": "Image_20261006233807_672_19.jpg",
+    "number": 672,
+    "role": "artwork",
+    "work": "carnegie-panorama",
+    "published": "monet-672.jpg",
+    "reason": "",
+    "sha256": "04e7dabf84272a5f69e7355bc534a441a60ec8bae88ede1c66da3834e1078eec"
+  },
+  {
+    "source": "Image_20261006233809_673_19.jpg",
+    "number": 673,
+    "role": "artwork",
+    "work": "carnegie-panorama",
+    "published": "monet-673.jpg",
+    "reason": "",
+    "sha256": "1f582bfa104edd1adca6dc2e73804b203e4b8758d8b7c9bbcebe5a8360c6b57b"
+  },
+  {
+    "source": "Image_20261006233811_674_19.jpg",
+    "number": 674,
+    "role": "excluded",
+    "work": "carnegie-panorama",
+    "published": null,
+    "reason": "与673为同一左侧局部的近似重复，选673保留更宽视野。",
+    "sha256": "8717ff99f591139f73bd9a998b220b1bc36a341f4739605a465a1c0ad1711c82"
+  },
+  {
+    "source": "Image_20261006233812_675_19.jpg",
+    "number": 675,
+    "role": "artwork",
+    "work": "carnegie-panorama",
+    "published": "monet-675.jpg",
+    "reason": "",
+    "sha256": "0af2ad147fe8aab4d8458aee96698a462324ab4c9d917a872c07802d9d4c6d4d"
+  },
+  {
+    "source": "Image_20261006233814_676_19.jpg",
+    "number": 676,
+    "role": "label",
+    "work": "carnegie-panorama",
+    "published": null,
+    "reason": "",
+    "sha256": "702d32724affe10f0ecd39894bc159cf4f07ed3f32e2b5b878fc32671cf67b10"
+  }
+]
