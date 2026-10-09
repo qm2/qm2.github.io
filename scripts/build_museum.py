@@ -13,6 +13,8 @@ def render_card(o, i, image_prefix="images/"):
     detail = f'<p>{e(o["story"])}</p>' if o['story'] else ''
     for section in o.get('note_sections', []):
         detail += f'<section class="note-section"><h4>{e(section["title"])}</h4><p>{e(section["text"])}</p></section>'
+        if section.get('url'):
+            detail += f'<p class="source"><a href="{e(section["url"])}" target="_blank" rel="noopener noreferrer">{e(section["source_title"])} ↗</a></p>'
     if o['caveat']: detail += f'<p class="record-note">{e(o["caveat"])}</p>'
     if o['url']: detail += f'<p class="source"><a href="{e(o["url"])}" target="_blank" rel="noopener noreferrer">{e(o.get("source_title", "馆方藏品记录"))} ↗</a></p>'
     for photo in o.get('related_photos', []):

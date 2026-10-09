@@ -54,5 +54,19 @@
     "object": "object-618",
     "published": null,
     "sha256": "87b1aa7a6c454bd449bccab3a808842ef840403ab45185ae8a3ac06def91295a"
+  },
+  {
+    "source": "Image_20261008223022_741_19.jpg",
+    "role": "artwork",
+    "object": "object-741",
+    "published": "penn-741.jpg",
+    "sha256": "e130a25e74d095ad1f354275aff5344336769e1e86d83cece32b6e7c2de039c2"
+  },
+  {
+    "source": "Image_20261008223022_742_19.jpg",
+    "role": "label",
+    "object": "object-741",
+    "published": null,
+    "sha256": "19994e1b473ce2dce2d9e0c1da373f64ced876782a38e2e304138f7d4bbdfe4a"
   }
 ]

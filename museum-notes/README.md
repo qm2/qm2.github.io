@@ -113,3 +113,7 @@ Six inputs from `/home/qingxi/museum/extra` are accounted for in `extra-2026-10-
 ## Islamic art / al-Jazari, 2026-10-08
 
 `islamic-art/` is now an active section, beginning with `al-jazari/`: three manuscript leaves photographed at Freer and MFAH, three independent detail pages and a comparison. `al-jazari/data/works.json` is the editorial source; the intake manifest pairs all three photos with their labels and records original hashes. See [the topic README](al-jazari/README.md) for identity evidence and unresolved manuscript relationships. The main museum builder also regenerates this unit and its entrances.
+
+## Penn luohan addition, 2026-10-08
+
+Added photo 741 / label 742 from the Yixian folder as object-741. The five-work luohan topic, ceramic index, sculpture archive and both parent entrances share the same object record. C66A (statue, purchased from Worch 1914) and C66B (base, C. T. Loo gift 1916) retain distinct acquisition histories. The intake manifest now covers ten inputs / five unchanged artwork photos. Notes cite the individual Penn catalogue records and Steinhardt's 2010 article; the Liao/Jin dating and cave-origin uncertainty are preserved. Optional source links on note sections use the existing source styling.

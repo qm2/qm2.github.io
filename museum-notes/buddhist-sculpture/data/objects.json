@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04",
+  "updated": "2026-10-08",
   "museums": {
     "rijks": [
       "荷兰国立博物馆",
@@ -1034,6 +1034,43 @@
       "url": "https://www.metmuseum.org/art/collection/search/42722",
       "source_title": "大都会馆方藏品记录",
       "caveat": "",
+      "width": 1280,
+      "height": 1707
+    },
+    {
+      "id": "object-741",
+      "photo": "penn-741.jpg",
+      "source_photo": "Image_20261008223022_741_19.jpg",
+      "label_photos": [
+        "Image_20261008223022_742_19.jpg"
+      ],
+      "museum": "penn",
+      "title": "三彩罗汉坐像（宾大）",
+      "original_title": "Luohan",
+      "date": "辽或金，10—13世纪",
+      "material": "陶胎，三彩釉",
+      "material_group": "ceramic",
+      "group": "buddha",
+      "accession": "C66A（像身）、C66B（底座）",
+      "observation": "右手抬至胸前，左手停在膝上；深绿内衣与黄绿交错的袈裟，把两侧手臂的动作分得很清楚。",
+      "story": "脸部的浅色釉与衣袍的深绿形成鲜明对照。眉间微蹙，眼睛细长，嘴唇略微张开；胸前的手势让这尊像与纳尔逊双手作禅定姿势的罗汉有了不同的节奏。袈裟斜搭在左肩，绿釉内衣覆盖右肩与右臂，衣褶一直延续到交叠的双腿。脚下的岩座开出大小不一的孔洞，黄、绿釉色沿着起伏的表面流动。",
+      "note_sections": [
+        {
+          "title": "1914年来到费城",
+          "text": "宾大馆藏记录注明，此像于1914年购自巴黎的 Worch。馆方学者 Nancy Shatzman Steinhardt 在2010年的研究札记中进一步记述：古董商 Edgar Worch 安排它于1913年离开中国，博物馆在次年6月购入。照片中这张具体的面孔，也由此有了一段可以追溯的收藏经历。",
+          "url": "https://www.penn.museum/sites/expedition/the-luohan-that-came-from-afar/",
+          "source_title": "宾大馆刊：The Luohan that Came from Afar"
+        },
+        {
+          "title": "像身与底座，分别入藏",
+          "text": "展签上的 C66 A、B 分别对应像身和底座。像身的购藏年份是1914年，底座的馆藏记录则写作“卢芹斋捐赠，1916年”。今天连成一体的轮廓，保留着两笔不同的入藏记录；这也提醒人把造像与承托它的岩座分别看一遍。",
+          "url": "https://collections.penn.museum/collections/object/330382",
+          "source_title": "宾大博物馆：C66B 底座记录"
+        }
+      ],
+      "url": "https://www.penn.museum/collections/object/151869",
+      "source_title": "宾大博物馆：C66A 馆藏记录",
+      "caveat": "现场展签将来源写作“可能出自河北易州附近洞窟”，并保留辽或金的断代。馆方研究也指出，原属寺院、组像总数与确切制作年代仍有疑问；不把十六或十八尊视为已确认的原组数量。",
       "width": 1280,
       "height": 1707
     }
