@@ -1,0 +1,1994 @@
+{
+  "title": "响堂山石窟：海外所见",
+  "intro": "在不同博物馆里看过的佛头、菩萨、有翼兽与大浮雕，沿着原属洞窟重新联系起来。",
+  "works": [
+    {
+      "id": "CER-MC8763",
+      "accession": "M.C. 8763",
+      "cave_key": "D",
+      "cave_zh": "来源与年代待考",
+      "cave_confidence": "unresolved",
+      "material": "大理石，残留彩绘",
+      "scope": "disputed_related",
+      "name_en": "Bouddha Amitabha",
+      "sources": [
+        {
+          "title": "赛努奇博物馆说明",
+          "url": "https://www.cernuschi.paris.fr/fr/collections/collections-chinoises/epoque-des-six-dynasties/bouddha-amitabha"
+        },
+        {
+          "title": "Paris Musées 藏品数据库",
+          "url": "https://parismuseescollections.paris.fr/fr/musee-cernuschi/oeuvres/bouddha-amitabha"
+        }
+      ],
+      "visit_date": null,
+      "title": "阿弥陀佛坐像",
+      "slug": "cer-mc8763",
+      "museum_key": "CER",
+      "date": "北齐或辽代仿古，存在不同意见",
+      "observation": "背光周围的莲花与小人物，把坐佛联系到净土图像。",
+      "paragraphs": [
+        "白色大理石的坐佛周围，莲花中出现小小的人物。赛努奇馆方把它们解释为净土中的化生，并以阿弥陀佛命名。这一主题也出现在弗利尔的西方净土浮雕中，但题材相通并不能确定两件出自同一地点。",
+        "这件作品的年代与来源仍有不同意见。现场展签采用北齐年代，并提出可能来自响堂山；馆方网页的年代栏仍为550—577年，说明正文却把它解释为辽代（907—1125）的仿古作品，联系河北另一地区的雕刻传统。因此在这里单列为相关与待考。"
+      ],
+      "note": "",
+      "position": "",
+      "hero": 704,
+      "photos": [
+        704
+      ],
+      "labels": [
+        705
+      ],
+      "label": 705,
+      "museum": "巴黎赛努奇博物馆",
+      "group": "related"
+    },
+    {
+      "id": "MET-57.176",
+      "accession": "57.176",
+      "cave_key": "S36",
+      "cave_zh": "南响堂第三至第六窟范围",
+      "cave_confidence": "group_or_site_only",
+      "material": "石灰岩，残留彩绘",
+      "scope": "core_attributed",
+      "name_en": "Head of a Buddha",
+      "sources": [
+        {
+          "title": "芝加哥大学响堂山项目：作品条目",
+          "url": "https://xts.uchicago.edu/single-sculpture/35"
+        },
+        {
+          "title": "Met 馆藏条目",
+          "url": "https://www.metmuseum.org/art/collection/search/42704"
+        }
+      ],
+      "visit_date": null,
+      "title": "佛头像",
+      "slug": "met-57-176",
+      "museum_key": "MET",
+      "date": "北齐，约565—575年",
+      "observation": "低垂的眼帘与圆润的面颊，把视线收回到面部中央。",
+      "paragraphs": [
+        "佛头离开身体以后，颈部断面格外醒目。卷发排列得细密，眉眼却以宽缓的弧面衔接；深色石面上残存的彩绘，也提醒人留意它原来并非今天这样接近单色。",
+        "大都会将其定为约565—575年；响堂山项目把它联系到南响堂第三至第六窟这一范围。1957年由阿尔伯特·鲁特伯特夫妇（Mr. and Mrs. Albert Roothbert）捐赠入馆。与同属这一范围的波特兰佛头并看，可以比较发卷、眼睑和下颌的处理。"
+      ],
+      "note": "",
+      "position": "",
+      "hero": 706,
+      "photos": [
+        706
+      ],
+      "labels": [
+        707
+      ],
+      "label": 707,
+      "museum": "纽约大都会艺术博物馆",
+      "group": "S36"
+    },
+    {
+      "id": "MET-51.52",
+      "accession": "51.52",
+      "cave_key": "NM",
+      "cave_zh": "北响堂中洞",
+      "cave_confidence": "specific_cave_attributed",
+      "material": "石灰岩，残留彩绘",
+      "scope": "core_attributed",
+      "name_en": "Head of a bodhisattva",
+      "sources": [
+        {
+          "title": "芝加哥大学响堂山项目：作品条目",
+          "url": "https://xts.uchicago.edu/single-sculpture/34"
+        },
+        {
+          "title": "Met 馆藏条目",
+          "url": "https://www.metmuseum.org/art/collection/search/42715"
+        }
+      ],
+      "visit_date": null,
+      "title": "巨型菩萨头像",
+      "slug": "met-51-52",
+      "museum_key": "MET",
+      "date": "北齐，约565—575年",
+      "observation": "高达81.3厘米的头像，留下了洞窟入口造像的尺度。",
+      "paragraphs": [
+        "冠饰向上拔起，面部却显得宽阔而平静。把耳侧垂下的饰带与厚实的颈部连起来看，才能感觉到：眼前的“头像”原本只是巨大立像的一部分。大都会公布的高度为81.3厘米。",
+        "馆方将它联系到北响堂中洞入口的高大菩萨像，年代约565—575年。卢芹斋（C. T. Loo）于1951年将它捐给大都会。洞口造像原先与塔形洞窟外观一起迎向来者；今天的独立陈列，则让冠、脸和残断的颈部成为观看中心。"
+      ],
+      "note": "",
+      "position": "",
+      "hero": 708,
+      "photos": [
+        708
+      ],
+      "labels": [
+        709
+      ],
+      "label": 709,
+      "museum": "纽约大都会艺术博物馆",
+      "group": "NM"
+    },
+    {
+      "id": "MET-14.50",
+      "accession": "14.50",
+      "cave_key": "SU",
+      "cave_zh": "南响堂，具体窟未定",
+      "cave_confidence": "group_or_site_only",
+      "material": "石灰岩，残留彩绘",
+      "scope": "core_attributed",
+      "name_en": "Head of an attendant bodhisattva",
+      "sources": [
+        {
+          "title": "芝加哥大学响堂山项目：作品条目",
+          "url": "https://xts.uchicago.edu/single-sculpture/33"
+        },
+        {
+          "title": "Met 馆藏条目",
+          "url": "https://www.metmuseum.org/art/collection/search/42700"
+        }
+      ],
+      "visit_date": null,
+      "title": "侍立菩萨头像",
+      "slug": "met-14-50",
+      "museum_key": "MET",
+      "date": "北齐，约565—575年",
+      "observation": "冠与耳饰围住面部，残损处留下石像脱离身体的痕迹。",
+      "paragraphs": [
+        "这颗侍立菩萨头像的冠饰、耳旁装饰与柔和的面部形成了不同的雕刻节奏。将它与中洞的巨型菩萨头像并看，尺寸感之外，头饰的组织方式也很不同。",
+        "大都会记录其来自南响堂，约565—575年，以罗杰斯基金于1914年购入。响堂山项目没有进一步指定原窟，因此它在这一辑中仍归入“原窟未定”。"
+      ],
+      "note": "",
+      "position": "",
+      "hero": 710,
+      "photos": [
+        710
+      ],
+      "labels": [
+        711
+      ],
+      "label": 711,
+      "museum": "纽约大都会艺术博物馆",
+      "group": "unassigned"
+    },
+    {
+      "id": "MET-30.81",
+      "accession": "30.81",
+      "cave_key": "NN",
+      "cave_zh": "北响堂北洞（大佛洞）",
+      "cave_confidence": "specific_cave_attributed",
+      "material": "石灰岩，残留彩绘与贴金",
+      "scope": "core_attributed",
+      "name_en": "Right hand of Buddha",
+      "sources": [
+        {
+          "title": "芝加哥大学响堂山项目：作品条目",
+          "url": "https://xts.uchicago.edu/single-sculpture/11"
+        },
+        {
+          "title": "Met 馆藏条目",
+          "url": "https://www.metmuseum.org/art/collection/search/61650"
+        }
+      ],
+      "visit_date": null,
+      "title": "佛右手残件",
+      "slug": "met-30-81",
+      "museum_key": "MET",
+      "date": "北齐，约550—560年",
+      "observation": "一只长52.1厘米的手，足以让人重新估量原像的大小。",
+      "paragraphs": [
+        "手指的弯曲、指节的起伏和掌面宽度，在独立展示后变得像一件小雕塑。大都会公布其高度为52.1厘米；石面尚有彩绘与贴金残迹，原来的表面比今天所见丰富。",
+        "这件佛右手残件被联系到北响堂北洞，馆方定为约550—560年，1930年由卢芹斋捐赠。北洞中央塔柱及周围佛龛容纳了不同层级的造像；这只手提供了巨像尺度的线索，尚不能据此指定它属于哪一尊主佛。"
+      ],
+      "note": "",
+      "position": "",
+      "hero": 712,
+      "photos": [
+        712
+      ],
+      "labels": [
+        713
+      ],
+      "label": 713,
+      "museum": "纽约大都会艺术博物馆",
+      "group": "NN"
+    },
+    {
+      "id": "NEL-53-48",
+      "accession": "53-48",
+      "cave_key": "U",
+      "cave_zh": "响堂山，南北区及具体洞窟未定",
+      "cave_confidence": "group_or_site_only",
+      "material": "灰色石灰岩",
+      "scope": "core_attributed",
+      "name_en": "Bust of a Guardian King",
+      "sources": [
+        {
+          "title": "芝加哥大学响堂山项目：作品条目",
+          "url": "https://xts.uchicago.edu/single-sculpture/37"
+        },
+        {
+          "title": "Nelson-Atkins 馆藏条目",
+          "url": "https://art.nelson-atkins.org/objects/20305/bust-of-a-guardian-king"
+        }
+      ],
+      "visit_date": null,
+      "title": "天王胸像",
+      "slug": "nel-53-48",
+      "museum_key": "NEL",
+      "date": "北齐，约570—575年",
+      "observation": "高冠、铠甲与张开的嘴，把守护者的力量集中到胸像上。",
+      "paragraphs": [
+        "残存的胸甲仍把身体组织成厚重的一块。眉眼、鼻梁与开口比菩萨像的面部更用力，头部上方的冠饰又加强了向上的动势；即使下半身已经失去，守护者的姿态依然鲜明。",
+        "纳尔逊馆藏记录将它定为约570—575年。来源记录经迪克兰·凯莱基安商号（Dikran G. Kelekian, Inc.）进入博物馆，购藏于1953年。响堂山项目收录了它，但南北区及具体洞窟尚未确定。"
+      ],
+      "note": "",
+      "position": "",
+      "hero": 714,
+      "photos": [
+        714
+      ],
+      "labels": [
+        715,
+        719
+      ],
+      "label": 715,
+      "museum": "纳尔逊－阿特金斯艺术博物馆",
+      "group": "unassigned"
+    },
+    {
+      "id": "NEL-35-276",
+      "accession": "35-276",
+      "cave_key": "NN",
+      "cave_zh": "北响堂北洞（大佛洞）",
+      "cave_confidence": "specific_cave_attributed",
+      "material": "石灰岩",
+      "scope": "core_attributed",
+      "name_en": "Kneeling Winged Monster",
+      "sources": [
+        {
+          "title": "芝加哥大学响堂山项目：作品条目",
+          "url": "https://xts.uchicago.edu/single-sculpture/36"
+        },
+        {
+          "title": "NYU ISAW 展览作品说明",
+          "url": "https://isaw.nyu.edu/exhibitions/echoes/Kneeling%20Winged%20Monster"
+        }
+      ],
+      "visit_date": null,
+      "title": "跪姿有翼兽浮雕",
+      "slug": "nel-35-276",
+      "museum_key": "NEL",
+      "date": "北齐（550—577）",
+      "observation": "跪伏的身体与展开的翼纹，原来处在佛龛柱子的下方。",
+      "paragraphs": [
+        "兽怪把膝部收拢在身前，上半身却向外撑开。面部、手爪与卷曲翼纹挤在有限的石面中，身体的重量感与装饰线条同时存在。它与佛、菩萨的端整形象很不一样。",
+        "响堂山项目及纽约大学“Echoes of the Past”展览将它联系到北响堂北洞壁龛的柱座。放回建筑的上下关系中看，这种蹲踞姿态也带有承托的视觉作用。展签记北齐550—577年，纽约大学展览条目将年代收窄为550—559年。"
+      ],
+      "note": "",
+      "position": "",
+      "hero": 716,
+      "photos": [
+        716
+      ],
+      "labels": [
+        717
+      ],
+      "label": 717,
+      "museum": "纳尔逊－阿特金斯艺术博物馆",
+      "group": "NN"
+    },
+    {
+      "id": "CLE-1957.360",
+      "accession": "1957.360",
+      "cave_key": "NN",
+      "cave_zh": "北响堂北洞（大佛洞）",
+      "cave_confidence": "specific_cave_attributed",
+      "material": "石灰岩",
+      "scope": "core_attributed",
+      "name_en": "Kneeling Winged Monster",
+      "sources": [
+        {
+          "title": "芝加哥大学响堂山项目：作品条目",
+          "url": "https://xts.uchicago.edu/single-sculpture/16"
+        },
+        {
+          "title": "Cleveland 馆藏条目",
+          "url": "https://www.clevelandart.org/art/1957.360"
+        }
+      ],
+      "visit_date": null,
+      "title": "跪姿有翼兽",
+      "slug": "cle-1957-360",
+      "museum_key": "CLE",
+      "date": "北齐（550—577）",
+      "observation": "三指的手与外露的牙齿，使柱座上的兽怪有了自己的表情。",
+      "paragraphs": [
+        "兽怪的手按在腿部，手指不像人的五指；嘴部的牙齿、头上的突起和卷曲的翼纹，共同构成了混合的身体。宽大的胸腹与收起的腿，让整块石雕看起来紧凑而沉重。",
+        "馆方与响堂山项目将它归于北响堂北洞。与纳尔逊和弗利尔的五件同类作品放在一起，能看出同一种柱座形制怎样容纳不同的面孔和动作；同洞的关系并不意味着六件原来围绕同一个佛龛排列。"
+      ],
+      "note": "",
+      "position": "",
+      "hero": 720,
+      "photos": [
+        720
+      ],
+      "labels": [
+        721
+      ],
+      "label": 721,
+      "museum": "克利夫兰艺术博物馆",
+      "group": "NN"
+    },
+    {
+      "id": "CLE-1923.97",
+      "accession": "1923.97",
+      "cave_key": "NS",
+      "cave_zh": "北响堂南洞（刻经洞）",
+      "cave_confidence": "specific_cave_attributed",
+      "material": "石灰岩",
+      "scope": "core_attributed",
+      "name_en": "Head of Buddha",
+      "sources": [
+        {
+          "title": "芝加哥大学响堂山项目：作品条目",
+          "url": "https://xts.uchicago.edu/single-sculpture/15"
+        },
+        {
+          "title": "Cleveland 馆藏条目",
+          "url": "https://www.clevelandart.org/art/1923.97"
+        }
+      ],
+      "visit_date": null,
+      "title": "巨型佛头像",
+      "slug": "cle-1923-97",
+      "museum_key": "CLE",
+      "date": "北齐（550—577）",
+      "observation": "巨大而平缓的面部，让细小的发卷显得格外密集。",
+      "paragraphs": [
+        "佛头高62.2厘米。额头、双颊与下颌连成舒展的弧面，卷发则以密集的小单元覆盖头顶。残断的颈部把这种完整的面部轮廓突然截住。",
+        "它被归入北响堂南洞，即常称的刻经洞，1923年由卢芹斋捐赠给克利夫兰。南洞的造像雕刻存在阶段差异；将这件佛头与弗利尔同洞佛头并看，眉眼与口角的处理尤其值得细分。"
+      ],
+      "note": "",
+      "position": "",
+      "hero": 722,
+      "photos": [
+        722
+      ],
+      "labels": [
+        724
+      ],
+      "label": 724,
+      "museum": "克利夫兰艺术博物馆",
+      "group": "NS"
+    },
+    {
+      "id": "CLE-1972.166",
+      "accession": "1972.166",
+      "cave_key": "S36",
+      "cave_zh": "南响堂第三至第六窟范围",
+      "cave_confidence": "group_or_site_only",
+      "material": "石灰岩，残留彩绘",
+      "scope": "core_attributed",
+      "name_en": "Standing Disciple Mahakasyapa Holding a Cylindrical Reliquary",
+      "sources": [
+        {
+          "title": "芝加哥大学响堂山项目：作品条目",
+          "url": "https://xts.uchicago.edu/single-sculpture/26"
+        },
+        {
+          "title": "Cleveland 馆藏条目",
+          "url": "https://www.clevelandart.org/art/1972.166"
+        }
+      ],
+      "visit_date": null,
+      "title": "持舍利容器的迦叶立像",
+      "slug": "cle-1972-166",
+      "museum_key": "CLE",
+      "date": "北齐（550—577）",
+      "observation": "双手围住胸前的圆筒，人物的身份也由这个容器显现。",
+      "paragraphs": [
+        "人物剃发，眼帘低垂，双手把圆筒形器物持在身前。衣纹顺着身体向下落，装饰很少，视线自然集中到手与容器。馆方将人物识别为弟子摩诃迦叶，并将器物解释为舍利容器。",
+        "这件立像保留彩绘痕迹，被响堂山项目联系到南响堂第三至第六窟范围。克利夫兰于1972年以汉纳基金购藏。馆方说明以佛陀涅槃后的舍利崇奉解释人物所持之物，也使它与佩戴冠饰、璎珞的菩萨立像形成区别。"
+      ],
+      "note": "年代资料：现场展签写北齐（550—577）；克利夫兰现行网页进一步写为约550年。",
+      "position": "",
+      "hero": 723,
+      "photos": [
+        723
+      ],
+      "labels": [
+        724
+      ],
+      "label": 724,
+      "museum": "克利夫兰艺术博物馆",
+      "group": "S36"
+    },
+    {
+      "id": "FSG-F1921.2",
+      "accession": "F1921.2",
+      "cave_key": "S2",
+      "cave_zh": "南响堂第二窟",
+      "cave_confidence": "specific_cave_attributed",
+      "material": "石灰岩，残留彩绘",
+      "scope": "core_attributed",
+      "name_en": "Western Paradise of the Buddha Amitabha",
+      "sources": [
+        {
+          "title": "芝加哥大学响堂山项目：作品条目",
+          "url": "https://xts.uchicago.edu/single-sculpture/21"
+        },
+        {
+          "title": "Smithsonian / Freer 馆藏条目",
+          "url": "https://asia-archive.si.edu/object/F1921.2/"
+        },
+        {
+          "title": "响堂山项目：南响堂第二窟与净土浮雕原位",
+          "url": "https://xts.uchicago.edu/content/south-site-cave-2"
+        }
+      ],
+      "visit_date": null,
+      "title": "阿弥陀佛西方净土浮雕",
+      "slug": "fsg-f1921-2",
+      "museum_key": "FSG",
+      "date": "北齐（550—577）",
+      "observation": "从中央佛像向下看，莲池中出现了小小的化生人物。",
+      "paragraphs": [
+        "中央阿弥陀佛坐在华盖之下，周围层层排列菩萨与其他人物。下方莲池把画面向前展开，莲花中现出的小人物表达往生净土后的化生。细部照片将中央佛、华盖与池岸连在一起，适合沿着上下层次慢慢读。",
+        "这块宽334.5厘米的浮雕来自南响堂第二窟。响堂山项目将西方净土图定位于洞口内侧上方；原来进入洞窟的人，需要回望或仰视这一整片图像。现存的断裂边缘，使宏大的群像同时成为一件流散残件。",
+        "弗利尔档案记录，它与另一块诸佛菩萨集会浮雕经来远公司（Lai Yuan & Co.）购入，款项分期支付于1921—1922年。1921年铁路运输抵达时发生损坏，随后进行了修复。这段经历解释了为何收藏史也必须包含搬运与修补。"
+      ],
+      "note": "",
+      "position": "",
+      "hero": 725,
+      "photos": [
+        725,
+        727,
+        747
+      ],
+      "labels": [
+        728,
+        748
+      ],
+      "label": 728,
+      "museum": "弗利尔美术馆",
+      "group": "S2"
+    },
+    {
+      "id": "FSG-F1921.1",
+      "accession": "F1921.1",
+      "cave_key": "S2",
+      "cave_zh": "南响堂第二窟",
+      "cave_confidence": "specific_cave_attributed",
+      "material": "石灰岩，残留彩绘",
+      "scope": "core_attributed",
+      "name_en": "Gathering of Buddhas and Bodhisattvas",
+      "sources": [
+        {
+          "title": "芝加哥大学响堂山项目：作品条目",
+          "url": "https://xts.uchicago.edu/single-sculpture/20"
+        },
+        {
+          "title": "Smithsonian / Freer 馆藏条目",
+          "url": "https://asia-archive.si.edu/object/F1921.1/"
+        }
+      ],
+      "visit_date": null,
+      "title": "诸佛菩萨集会浮雕",
+      "slug": "fsg-f1921-1",
+      "museum_key": "FSG",
+      "date": "北齐（550—577）",
+      "observation": "树木、莲花与层叠人物，把横长石面组织成一场集会。",
+      "paragraphs": [
+        "人物不是在一条地面线上展开，而是在树木与莲花之间分层出现。看清较大的佛像以后，再寻找旁边较小的身影，石面的高低起伏会逐渐变成图像的远近与层次。",
+        "弗利尔将它题为“诸佛菩萨集会”，与同馆“阿弥陀佛西方净土”分别编目。两块都来自南响堂第二窟，但题名并不相同。此件宽340厘米，今日横向陈列的体量仍保留了建筑浮雕的尺度。",
+        "它同样由来远公司售予弗利尔，付款记录跨1921—1922年。与另一块浮雕一起阅读，可以比较两种群像如何安排主尊、树木和伴随人物，而不必先把它们合成同一种净土图。"
+      ],
+      "note": "",
+      "position": "",
+      "hero": 726,
+      "photos": [
+        726,
+        727
+      ],
+      "labels": [
+        728,
+        748
+      ],
+      "label": 728,
+      "museum": "弗利尔美术馆",
+      "group": "S2"
+    },
+    {
+      "id": "FSG-F1968.45",
+      "accession": "F1968.45",
+      "cave_key": "S2",
+      "cave_zh": "南响堂第二窟",
+      "cave_confidence": "specific_cave_attributed",
+      "material": "石灰岩，残留彩绘",
+      "scope": "core_attributed",
+      "name_en": "Standing Bodhisattva",
+      "sources": [
+        {
+          "title": "芝加哥大学响堂山项目：作品条目",
+          "url": "https://xts.uchicago.edu/single-sculpture/22"
+        },
+        {
+          "title": "Smithsonian / Freer 馆藏条目",
+          "url": "https://asia-archive.si.edu/object/F1968.45/"
+        }
+      ],
+      "visit_date": null,
+      "title": "菩萨立像",
+      "slug": "fsg-f1968-45",
+      "museum_key": "FSG",
+      "date": "北齐（550—577）",
+      "observation": "两块浮雕之间的立菩萨，是一件独立的圆雕。",
+      "paragraphs": [
+        "现场合照中央的菩萨站在莲座上，冠饰与胸前璎珞清楚可见，双手停在身体前方。细长衣褶与两旁浮雕的密集人物相对照，圆雕与建筑浮雕的差别也就显现出来。",
+        "响堂山项目将它归于南响堂第二窟。1914年它已出现在巴黎的古董交易记录中，后来进入尤金与艾格尼丝·迈耶（Eugene and Agnes E. Meyer）收藏，1968年由艾格尼丝捐给弗利尔。馆方题名仍为“菩萨立像”，没有进一步确定为观音或大势至。"
+      ],
+      "note": "",
+      "position": "合照中央的独立立像",
+      "hero": 727,
+      "photos": [
+        727
+      ],
+      "labels": [
+        728,
+        748
+      ],
+      "label": 728,
+      "museum": "弗利尔美术馆",
+      "group": "S2"
+    },
+    {
+      "id": "FSG-F1913.67",
+      "accession": "F1913.67",
+      "cave_key": "NS",
+      "cave_zh": "北响堂南洞（刻经洞）",
+      "cave_confidence": "specific_cave_attributed",
+      "material": "石灰岩，残留彩绘与贴金",
+      "scope": "core_attributed",
+      "name_en": "Head of a Buddha",
+      "sources": [
+        {
+          "title": "芝加哥大学响堂山项目：作品条目",
+          "url": "https://xts.uchicago.edu/single-sculpture/25"
+        },
+        {
+          "title": "Smithsonian / Freer 馆藏条目",
+          "url": "https://asia-archive.si.edu/object/F1913.67/"
+        }
+      ],
+      "visit_date": null,
+      "title": "佛头像",
+      "slug": "fsg-f1913-67",
+      "museum_key": "FSG",
+      "date": "北齐（550—577）",
+      "observation": "眼帘与嘴角之间，宽缓的石面保留了平静的表情。",
+      "paragraphs": [
+        "面部雕刻并不依靠很深的阴影，而让额、鼻、双颊之间慢慢转折。头顶卷发与脸部的平滑感形成对照，颈部以下的断裂则让原像的身体只能从比例中想象。馆藏记录注明仍有彩绘与贴金残迹。",
+        "这件佛头与克利夫兰的巨型佛头都被归于北响堂南洞。查尔斯·兰·弗利尔于1913年从纽约山中商会购得，1920年随其遗赠进入弗利尔美术馆。"
+      ],
+      "note": "",
+      "position": "",
+      "hero": 729,
+      "photos": [
+        729
+      ],
+      "labels": [
+        730
+      ],
+      "label": 730,
+      "museum": "弗利尔美术馆",
+      "group": "NS"
+    },
+    {
+      "id": "FSG-F1913.134",
+      "accession": "F1913.134",
+      "cave_key": "NS",
+      "cave_zh": "北响堂南洞（刻经洞）",
+      "cave_confidence": "specific_cave_attributed_with_conflicting_label",
+      "material": "石灰岩，残留彩绘",
+      "scope": "core_attributed",
+      "name_en": "Head of the disciple Ananda",
+      "sources": [
+        {
+          "title": "芝加哥大学响堂山项目：作品条目",
+          "url": "https://xts.uchicago.edu/single-sculpture/27"
+        },
+        {
+          "title": "Smithsonian / Freer 馆藏条目",
+          "url": "https://asia-archive.si.edu/object/F1913.134/"
+        }
+      ],
+      "visit_date": null,
+      "title": "年轻弟子头像（传阿难）",
+      "slug": "fsg-f1913-134",
+      "museum_key": "FSG",
+      "date": "北齐（550—577）",
+      "observation": "没有菩萨的冠饰，年轻弟子的身份落在头部形制与表情上。",
+      "paragraphs": [
+        "这颗头像的轮廓较为简洁，额头、眼睑与唇部构成主要的观看内容。馆方题名为弟子阿难；在这一辑中保留“传阿难”，也保留把它作为年轻弟子像来看的余地。",
+        "响堂山项目、现场展签及馆藏结构化资料把它联系到北响堂南洞。弗利尔于1913年从山中商会购得，1920年进入馆藏。与同洞佛头并看，弟子与佛的发式、脸形和面部塑造可以逐项对照。"
+      ],
+      "note": "归属资料：馆方年代、地理字段与响堂山项目采用北齐、北响堂南洞；同一馆藏网页的Label段仍保留龙门唐代说。两套说明尚未统一。",
+      "position": "",
+      "hero": 731,
+      "photos": [
+        731
+      ],
+      "labels": [
+        732
+      ],
+      "label": 732,
+      "museum": "弗利尔美术馆",
+      "group": "NS"
+    },
+    {
+      "id": "FSG-F1913.57",
+      "accession": "F1913.57",
+      "cave_key": "NN",
+      "cave_zh": "北响堂北洞（大佛洞）",
+      "cave_confidence": "specific_cave_attributed",
+      "material": "石灰岩，残留底层与彩绘",
+      "scope": "core_attributed",
+      "name_en": "Seated Bodhisattva",
+      "sources": [
+        {
+          "title": "芝加哥大学响堂山项目：作品条目",
+          "url": "https://xts.uchicago.edu/single-sculpture/9"
+        },
+        {
+          "title": "Smithsonian / Freer 馆藏条目",
+          "url": "https://asia-archive.si.edu/object/F1913.57/"
+        }
+      ],
+      "visit_date": null,
+      "title": "菩萨坐像",
+      "slug": "fsg-f1913-57",
+      "museum_key": "FSG",
+      "date": "北齐（550—577）",
+      "observation": "残缺的手臂之外，背光与璎珞仍把坐姿向四周展开。",
+      "paragraphs": [
+        "菩萨正面坐定，冠、项饰和垂下的衣带形成细密的装饰层次；背后的大背光把身体包在一个更宽的轮廓里。手臂残损，使前方原有的动作中断，而坐姿和膝部仍清晰可读。",
+        "这件坐菩萨被归入北响堂北洞，原来与洞内佛龛有关。今天弗利尔把它与四件有翼兽安排在相近位置；这些雕刻确有同洞联系，但现有陈列不是一组完整原装基座的复原。",
+        "馆藏档案还保存了1913年购藏时的通信：玛丽·迈耶－里夫施塔尔（Marie Meyer-Riefstahl）代弗利尔向古董商Edgar Worch购入此像。信中提到残存颜色，也注意到双手虽失，头部的表现仍很有力量；这些观察与今天照片里的残损恰好呼应。"
+      ],
+      "note": "",
+      "position": "",
+      "hero": 733,
+      "photos": [
+        733
+      ],
+      "labels": [
+        736,
+        746
+      ],
+      "label": 746,
+      "museum": "弗利尔美术馆",
+      "group": "NN"
+    },
+    {
+      "id": "FSG-F1953.86",
+      "accession": "F1953.86",
+      "cave_key": "NN",
+      "cave_zh": "北响堂北洞（大佛洞）",
+      "cave_confidence": "specific_cave_attributed",
+      "material": "石灰岩",
+      "scope": "core_attributed",
+      "name_en": "Kneeling winged monster",
+      "sources": [
+        {
+          "title": "芝加哥大学响堂山项目：作品条目",
+          "url": "https://xts.uchicago.edu/single-sculpture/30"
+        },
+        {
+          "title": "Smithsonian / Freer 馆藏条目",
+          "url": "https://asia-archive.si.edu/object/F1953.86/"
+        }
+      ],
+      "visit_date": null,
+      "title": "跪姿有翼兽（F1953.86）",
+      "slug": "fsg-f1953-86",
+      "museum_key": "FSG",
+      "date": "北齐（550—577）",
+      "observation": "合照右侧，双手按膝，宽厚的腹部向前突出。",
+      "paragraphs": [
+        "照片右侧这件兽怪双臂向下，手部压在膝旁。鼻梁与嘴部都很突出，卷曲纹样沿身体外侧展开；身体宽度和两手的支撑，使它显得稳稳蹲坐着。",
+        "馆方将它归于北响堂北洞，与佛龛柱座相联系。1953年从卢芹斋购藏。它与同年购入的F1953.87可以成对比较：一件较正面、平稳，另一件以抬手和折转的身体加强角部造型。"
+      ],
+      "note": "",
+      "position": "合照右侧",
+      "hero": 734,
+      "photos": [
+        734
+      ],
+      "labels": [
+        736,
+        746
+      ],
+      "label": 746,
+      "museum": "弗利尔美术馆",
+      "group": "NN"
+    },
+    {
+      "id": "FSG-F1953.87",
+      "accession": "F1953.87",
+      "cave_key": "NN",
+      "cave_zh": "北响堂北洞（大佛洞）",
+      "cave_confidence": "specific_cave_attributed",
+      "material": "石灰岩",
+      "scope": "core_attributed",
+      "name_en": "Kneeling winged monster",
+      "sources": [
+        {
+          "title": "芝加哥大学响堂山项目：作品条目",
+          "url": "https://xts.uchicago.edu/single-sculpture/31"
+        },
+        {
+          "title": "Smithsonian / Freer 馆藏条目",
+          "url": "https://asia-archive.si.edu/object/F1953.87/"
+        }
+      ],
+      "visit_date": null,
+      "title": "跪姿有翼兽（F1953.87）",
+      "slug": "fsg-f1953-87",
+      "museum_key": "FSG",
+      "date": "北齐（550—577）",
+      "observation": "合照左侧，抬起的一只手打破了左右对称。",
+      "paragraphs": [
+        "这件兽怪转折较强，举起的手与屈起的腿把身体撑向不同方向。头部的突起、嘴角与卷翼仍属于同一组装饰语汇，但动作明显比双手按膝的同伴活跃。",
+        "馆方把它联系到北响堂北洞中央塔柱附近的角部柱座，1953年从卢芹斋购入。角部的位置有助于理解石面为何折转，也让身体的动作与建筑的转角相呼应。"
+      ],
+      "note": "",
+      "position": "合照左侧",
+      "hero": 735,
+      "photos": [
+        735
+      ],
+      "labels": [
+        736,
+        746
+      ],
+      "label": 746,
+      "museum": "弗利尔美术馆",
+      "group": "NN"
+    },
+    {
+      "id": "FSG-F1977.8",
+      "accession": "F1977.8",
+      "cave_key": "NN",
+      "cave_zh": "北响堂北洞（大佛洞）",
+      "cave_confidence": "specific_cave_attributed_with_conflicting_label",
+      "material": "石灰岩",
+      "scope": "core_attributed",
+      "name_en": "Kneeling winged monster",
+      "sources": [
+        {
+          "title": "芝加哥大学响堂山项目：作品条目",
+          "url": "https://xts.uchicago.edu/single-sculpture/23"
+        },
+        {
+          "title": "Smithsonian / Freer 馆藏条目",
+          "url": "https://asia-archive.si.edu/object/F1977.8/"
+        }
+      ],
+      "visit_date": null,
+      "title": "跪姿有翼兽（F1977.8）",
+      "slug": "fsg-f1977-8",
+      "museum_key": "FSG",
+      "date": "北齐（550—577）",
+      "observation": "合照左侧，额鼻的竖向线条与膝上的卷纹彼此对照。",
+      "paragraphs": [
+        "在这张合照里，它位于左侧。头部中央的竖线很醒目，嘴与牙齿横向展开，膝边的卷曲纹样又把视线带回下方。与右侧较宽厚的一件相比，身体更紧凑。",
+        "馆藏来源记录可追溯到1936年的北京，随后经卢芹斋进入纽约，1941年由爱德华·冯·德·海特（Eduard von der Heydt）购得并借展于布法罗。后来转入美国政府及史密森学会系统，1977年正式移交弗利尔；编号中的1977并非它离开中国的年份。"
+      ],
+      "note": "原窟资料：馆方Geography、Provenance与响堂山项目均指向北响堂北洞；同页Label段却写“Cave 7”。这一内部差异尚待澄清。",
+      "position": "合照左侧",
+      "hero": 734,
+      "photos": [
+        734
+      ],
+      "labels": [
+        736,
+        746
+      ],
+      "label": 746,
+      "museum": "弗利尔美术馆",
+      "group": "NN"
+    },
+    {
+      "id": "FSG-F1977.9",
+      "accession": "F1977.9",
+      "cave_key": "NN",
+      "cave_zh": "北响堂北洞（大佛洞）",
+      "cave_confidence": "specific_cave_attributed",
+      "material": "石灰岩",
+      "scope": "core_attributed",
+      "name_en": "Kneeling winged monster",
+      "sources": [
+        {
+          "title": "芝加哥大学响堂山项目：作品条目",
+          "url": "https://xts.uchicago.edu/single-sculpture/24"
+        },
+        {
+          "title": "Smithsonian / Freer 馆藏条目",
+          "url": "https://asia-archive.si.edu/object/F1977.9/"
+        }
+      ],
+      "visit_date": null,
+      "title": "跪姿有翼兽（F1977.9）",
+      "slug": "fsg-f1977-9",
+      "museum_key": "FSG",
+      "date": "北齐（550—577）",
+      "observation": "合照右侧，整排牙齿与向下收束的身体尤其突出。",
+      "paragraphs": [
+        "这件兽怪位于合照右侧。横向露出的牙齿让嘴占据面部很大部分，胸腹与腿部的形状却向下收紧。它与左侧抬手的一件并置时，正面性与身体转折形成清楚的差别。",
+        "响堂山项目与馆方将它归于北响堂北洞。它与F1977.8有相近的近代流转经历：经卢芹斋、冯·德·海特收藏及布法罗借展，后来进入史密森学会，1977年转为弗利尔正式馆藏。两件的共同收藏史，可与它们在石窟中的柱座关系分开阅读。"
+      ],
+      "note": "",
+      "position": "合照右侧",
+      "hero": 735,
+      "photos": [
+        735
+      ],
+      "labels": [
+        736,
+        746
+      ],
+      "label": 746,
+      "museum": "弗利尔美术馆",
+      "group": "NN"
+    },
+    {
+      "id": "FSG-F1916.346",
+      "accession": "F1916.346a-b",
+      "cave_key": "S36",
+      "cave_zh": "南响堂第四至第六窟范围（馆方归属）",
+      "cave_confidence": "group_attribution_with_range_disagreement",
+      "material": "石灰岩，残留彩绘",
+      "scope": "core_attributed",
+      "name_en": "Head of the Bodhisattva Mahasthamaprapta (Dashizhi)",
+      "sources": [
+        {
+          "title": "芝加哥大学响堂山项目：作品条目",
+          "url": "https://xts.uchicago.edu/single-sculpture/10"
+        },
+        {
+          "title": "Freer 馆藏条目（完整编号）",
+          "url": "https://asia-archive.si.edu/object/F1916.346a-b/"
+        }
+      ],
+      "visit_date": null,
+      "title": "大势至菩萨头像",
+      "slug": "fsg-f1916-346",
+      "museum_key": "FSG",
+      "date": "北齐（550—577）",
+      "observation": "冠上的瓶形标识，是辨认大势至的重要线索。",
+      "paragraphs": [
+        "面部被冠与耳侧装饰围住，冠顶的小瓶形标识尤其值得放大看。馆方据此将头像命名为大势至菩萨：在阿弥陀佛相关造像中，冠饰往往比已经失去的手持物更能保留身份线索。",
+        "弗利尔于1916年从迪克兰·凯莱基安购得，1920年进入馆藏。馆方现行地理字段将它归于南响堂第四至第六窟范围；具体原窟仍未落实。"
+      ],
+      "note": "编号与范围：完整编号为F1916.346a-b，现场展签简称F1916.346。展签记第三至第七窟，响堂山项目记第三至第六窟，馆方现行字段记第四至第六窟。",
+      "position": "",
+      "hero": 737,
+      "photos": [
+        737
+      ],
+      "labels": [
+        738
+      ],
+      "label": 738,
+      "museum": "弗利尔美术馆",
+      "group": "S36"
+    },
+    {
+      "id": "PEN-C113",
+      "accession": "C113",
+      "cave_key": "S2",
+      "cave_zh": "南响堂第二窟",
+      "cave_confidence": "specific_cave_attributed",
+      "material": "石灰岩，残留彩绘",
+      "scope": "core_attributed",
+      "name_en": "Standing Bodhisattva Avalokitesvara (Guanyin)",
+      "sources": [
+        {
+          "title": "芝加哥大学响堂山项目：作品条目",
+          "url": "https://xts.uchicago.edu/single-sculpture/47"
+        },
+        {
+          "title": "Penn Museum 馆藏条目",
+          "url": "https://collections.penn.museum/collections/object/47063"
+        }
+      ],
+      "visit_date": null,
+      "title": "观音菩萨立像",
+      "slug": "pen-c113",
+      "museum_key": "PEN",
+      "date": "北齐（550—577）",
+      "observation": "合照左侧，冠中小佛像提示了观音的身份。",
+      "paragraphs": [
+        "三尊合照最左侧的立像，冠、胸前装饰与垂挂衣带保存了菩萨的形制。冠中的小阿弥陀佛是辨认观音的重要标识。沿着颈部到胸前，再看衣带如何向下垂落，装饰的层次比远看更清楚。",
+        "宾大博物馆记录其来自南响堂第二窟，1916年购自卢芹斋。它与同馆C151、C150同属一窟，但馆方指出C113与C151雕刻处理不同，可能并非原来同一组造像。"
+      ],
+      "note": "尺寸资料：馆藏网页与响堂山项目所列高度、宽度和深度不一致，尺寸暂缺。",
+      "position": "合照左侧",
+      "hero": 739,
+      "photos": [
+        739
+      ],
+      "labels": [
+        740
+      ],
+      "label": 740,
+      "museum": "宾夕法尼亚大学博物馆",
+      "group": "S2"
+    },
+    {
+      "id": "PEN-C151",
+      "accession": "C151",
+      "cave_key": "S2",
+      "cave_zh": "南响堂第二窟",
+      "cave_confidence": "specific_cave_attributed",
+      "material": "石灰岩，残留彩绘",
+      "scope": "core_attributed",
+      "name_en": "Standing Pratyekabuddha",
+      "sources": [
+        {
+          "title": "芝加哥大学响堂山项目：作品条目",
+          "url": "https://xts.uchicago.edu/single-sculpture/49"
+        },
+        {
+          "title": "Penn Museum 馆藏条目",
+          "url": "https://collections.penn.museum/collections/object/47064"
+        }
+      ],
+      "visit_date": null,
+      "title": "辟支佛立像",
+      "slug": "pen-c151",
+      "museum_key": "PEN",
+      "date": "北齐（550—577）",
+      "observation": "合照中央，双手捧着莲蕾，衣着比两旁菩萨朴素。",
+      "paragraphs": [
+        "辟支佛又称缘觉。中央人物没有两旁菩萨那样繁密的冠饰和璎珞，双手持莲蕾，厚实而简洁的衣纹顺身体落下。馆方描述其脸部略微上仰，眼睛接近闭合。",
+        "此像与左右两尊均被归入南响堂第二窟，1916年由宾大博物馆购自卢芹斋。馆藏说明特别保留了原组合的疑问：C113与C151的雕刻方式有差别，今日三尊并列，并不足以证明它们原先就是一组完整的三尊像。"
+      ],
+      "note": "尺寸资料：馆藏网页与响堂山项目所列高度、宽度和深度不一致，尺寸暂缺。",
+      "position": "合照中央",
+      "hero": 739,
+      "photos": [
+        739
+      ],
+      "labels": [
+        740
+      ],
+      "label": 740,
+      "museum": "宾夕法尼亚大学博物馆",
+      "group": "S2"
+    },
+    {
+      "id": "PEN-C150",
+      "accession": "C150",
+      "cave_key": "S2",
+      "cave_zh": "南响堂第二窟",
+      "cave_confidence": "specific_cave_attributed",
+      "material": "石灰岩，残留彩绘",
+      "scope": "core_attributed",
+      "name_en": "Standing Bodhisattva",
+      "sources": [
+        {
+          "title": "芝加哥大学响堂山项目：作品条目",
+          "url": "https://xts.uchicago.edu/single-sculpture/48"
+        },
+        {
+          "title": "Penn Museum 馆藏条目",
+          "url": "https://collections.penn.museum/collections/object/47062"
+        }
+      ],
+      "visit_date": null,
+      "title": "菩萨立像",
+      "slug": "pen-c150",
+      "museum_key": "PEN",
+      "date": "北齐（550—577）",
+      "observation": "合照右侧，冠饰与长长的璎珞把立像的正面拉成纵向。",
+      "paragraphs": [
+        "右侧菩萨的胸前装饰与衣带向下延伸，和中央缘觉像的简洁衣着形成鲜明对照。三尊放在同一张照片里，也让不同身份怎样通过衣饰表现变得容易辨认。",
+        "它来自南响堂第二窟，1916年购自卢芹斋。研究中曾讨论它可能是大势至，以及与中央塔柱主龛的关系；现有身份说明仍以“菩萨立像”为宜。它与弗利尔同窟立菩萨之间，可以比较冠饰、手势和衣褶，而不必先假定两者承担相同角色。"
+      ],
+      "note": "",
+      "position": "合照右侧",
+      "hero": 739,
+      "photos": [
+        739
+      ],
+      "labels": [
+        740
+      ],
+      "label": 740,
+      "museum": "宾夕法尼亚大学博物馆",
+      "group": "S2"
+    },
+    {
+      "id": "PAM-51.255",
+      "accession": "51.255",
+      "cave_key": "S36",
+      "cave_zh": "南响堂第三至第六窟范围",
+      "cave_confidence": "group_or_site_only",
+      "material": "石灰岩",
+      "scope": "core_attributed",
+      "name_en": "Head of Buddha",
+      "sources": [
+        {
+          "title": "芝加哥大学响堂山项目：作品条目",
+          "url": "https://xts.uchicago.edu/single-sculpture/8"
+        }
+      ],
+      "visit_date": null,
+      "title": "佛头像",
+      "slug": "pam-51-255",
+      "museum_key": "PAM",
+      "date": "北齐，560年（现场展签）",
+      "observation": "小小的发卷与宽圆的下颌，构成了另一种佛头比例。",
+      "paragraphs": [
+        "头顶的发卷一颗颗清楚凸起，眼睑与双颊的转折却十分缓和。颈部的断口贴近面部，整件作品的观看因此集中在头形、耳部与嘴角的关系上。",
+        "波特兰现场展签将其年代写为560年，材料为石灰岩，由小科尼利厄斯·拉克斯顿·洛夫（Cornelius Ruxton Love, Jr.）捐赠。响堂山项目把它联系到南响堂第三至第六窟范围，适合与大都会同一范围的佛头并看。"
+      ],
+      "note": "",
+      "position": "",
+      "hero": 743,
+      "photos": [
+        743
+      ],
+      "labels": [
+        744
+      ],
+      "label": 744,
+      "museum": "波特兰美术馆",
+      "group": "S36"
+    }
+  ],
+  "excluded": [
+    {
+      "id": "PEN-C66",
+      "accession": "C66A and B",
+      "existing_url": "/museum-notes/yixian-luohan/#object-741",
+      "reason": "辽金三彩罗汉，已收录于易县三彩罗汉，不计入响堂山。"
+    }
+  ],
+  "assets": [
+    {
+      "number": 704,
+      "original_filename": "Image_20261008221923_704_19.jpg",
+      "organized_path": "assets/disputed/cer/704-cer-mc8763-object.jpg",
+      "role": "object",
+      "work_ids": [
+        "CER-MC8763"
+      ],
+      "same_subject_group": "",
+      "sha256": "edcc9587b2b1ee806d75f5bc7d72e5a6ebbaebd9d78e0c69f059e48561c6b44f",
+      "width": 1280,
+      "height": 1707,
+      "notes": "",
+      "web_path": "images/704.jpg",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "thumbs/704.jpg",
+      "thumbnail_width": 450,
+      "thumbnail_height": 600
+    },
+    {
+      "number": 705,
+      "original_filename": "Image_20261008221925_705_19.jpg",
+      "organized_path": "assets/disputed/cer/705-cer-mc8763-label.jpg",
+      "role": "label",
+      "work_ids": [
+        "CER-MC8763"
+      ],
+      "same_subject_group": "",
+      "sha256": "76dbf1277bd451f1cb5d186c4d1849adb617dc73dbc98b974b33a9994c526027",
+      "width": 1702,
+      "height": 1276,
+      "notes": "",
+      "web_path": "images/705.jpg",
+      "web_width": 1702,
+      "web_height": 1276,
+      "thumbnail_path": "thumbs/705.jpg",
+      "thumbnail_width": 600,
+      "thumbnail_height": 450
+    },
+    {
+      "number": 706,
+      "original_filename": "Image_20261008221934_706_19.jpg",
+      "organized_path": "assets/core/met/706-met-57.176-object.jpg",
+      "role": "object",
+      "work_ids": [
+        "MET-57.176"
+      ],
+      "same_subject_group": "",
+      "sha256": "8b62a761603f8282b1630362fb945f6676ddd4fed29e2cc2d87879fa799f7427",
+      "width": 1280,
+      "height": 1707,
+      "notes": "",
+      "web_path": "images/706.jpg",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "thumbs/706.jpg",
+      "thumbnail_width": 450,
+      "thumbnail_height": 600
+    },
+    {
+      "number": 707,
+      "original_filename": "Image_20261008221936_707_19.jpg",
+      "organized_path": "assets/core/met/707-met-57.176-label.jpg",
+      "role": "label",
+      "work_ids": [
+        "MET-57.176"
+      ],
+      "same_subject_group": "",
+      "sha256": "da5d34b5f802faede42bb9fa1b5e191a3fd9c2aa82968166c7eb2cd60b57cd84",
+      "width": 1280,
+      "height": 1707,
+      "notes": "",
+      "web_path": "images/707.jpg",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "thumbs/707.jpg",
+      "thumbnail_width": 450,
+      "thumbnail_height": 600
+    },
+    {
+      "number": 708,
+      "original_filename": "Image_20261008221937_708_19.jpg",
+      "organized_path": "assets/core/met/708-met-51.52-object.jpg",
+      "role": "object",
+      "work_ids": [
+        "MET-51.52"
+      ],
+      "same_subject_group": "",
+      "sha256": "571bd10a99cf82368d98929d5c08b86594bdb2d712a90eaa90c5d8e532ea613e",
+      "width": 1280,
+      "height": 1707,
+      "notes": "",
+      "web_path": "images/708.jpg",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "thumbs/708.jpg",
+      "thumbnail_width": 450,
+      "thumbnail_height": 600
+    },
+    {
+      "number": 709,
+      "original_filename": "Image_20261008221939_709_19.jpg",
+      "organized_path": "assets/core/met/709-met-51.52-label.jpg",
+      "role": "label",
+      "work_ids": [
+        "MET-51.52"
+      ],
+      "same_subject_group": "",
+      "sha256": "931307778b27bbcbeb6c6e0ff81aa314fbac554998c4795e78ea6e99386f1758",
+      "width": 1280,
+      "height": 1707,
+      "notes": "",
+      "web_path": "images/709.jpg",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "thumbs/709.jpg",
+      "thumbnail_width": 450,
+      "thumbnail_height": 600
+    },
+    {
+      "number": 710,
+      "original_filename": "Image_20261008221940_710_19.jpg",
+      "organized_path": "assets/core/met/710-met-14.50-object.jpg",
+      "role": "object",
+      "work_ids": [
+        "MET-14.50"
+      ],
+      "same_subject_group": "",
+      "sha256": "6b2309ca98dfd2ad912c2836455f22791ad4ff41ee3e6124c5c8c40c04038538",
+      "width": 1280,
+      "height": 1707,
+      "notes": "",
+      "web_path": "images/710.jpg",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "thumbs/710.jpg",
+      "thumbnail_width": 450,
+      "thumbnail_height": 600
+    },
+    {
+      "number": 711,
+      "original_filename": "Image_20261008221941_711_19.jpg",
+      "organized_path": "assets/core/met/711-met-14.50-label.jpg",
+      "role": "label",
+      "work_ids": [
+        "MET-14.50"
+      ],
+      "same_subject_group": "",
+      "sha256": "ccbafa8e10754b5af954e7f40bac5176fb6c277ede9b8fb1c0ef65af88a42dc1",
+      "width": 1280,
+      "height": 1707,
+      "notes": "",
+      "web_path": "images/711.jpg",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "thumbs/711.jpg",
+      "thumbnail_width": 450,
+      "thumbnail_height": 600
+    },
+    {
+      "number": 712,
+      "original_filename": "Image_20261008221943_712_19.jpg",
+      "organized_path": "assets/core/met/712-met-30.81-object.jpg",
+      "role": "object",
+      "work_ids": [
+        "MET-30.81"
+      ],
+      "same_subject_group": "",
+      "sha256": "e2dc41902dd5c6c79f26f66e5c935a1dcc07a2783f9e32f74608cc973d81339d",
+      "width": 1280,
+      "height": 1707,
+      "notes": "",
+      "web_path": "images/712.jpg",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "thumbs/712.jpg",
+      "thumbnail_width": 450,
+      "thumbnail_height": 600
+    },
+    {
+      "number": 713,
+      "original_filename": "Image_20261008221944_713_19.jpg",
+      "organized_path": "assets/core/met/713-met-30.81-label.jpg",
+      "role": "label",
+      "work_ids": [
+        "MET-30.81"
+      ],
+      "same_subject_group": "",
+      "sha256": "d0961ebac63226a0ec526b1731870179b54c99e72e485e7511cd0b0d0aa5d331",
+      "width": 1280,
+      "height": 1707,
+      "notes": "",
+      "web_path": "images/713.jpg",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "thumbs/713.jpg",
+      "thumbnail_width": 450,
+      "thumbnail_height": 600
+    },
+    {
+      "number": 714,
+      "original_filename": "Image_20261008221946_714_19.jpg",
+      "organized_path": "assets/core/nel/714-nel-53-48-object.jpg",
+      "role": "object",
+      "work_ids": [
+        "NEL-53-48"
+      ],
+      "same_subject_group": "D01",
+      "sha256": "de24da689705aef58262cccdc216809f9790431f4a7ccba0f087ae5a0e2d7a4c",
+      "width": 1280,
+      "height": 1707,
+      "notes": "同一对象或标签的另一张拍摄；非字节完全重复，全部保留",
+      "web_path": "images/714.jpg",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "thumbs/714.jpg",
+      "thumbnail_width": 450,
+      "thumbnail_height": 600
+    },
+    {
+      "number": 715,
+      "original_filename": "Image_20261008221947_715_19.jpg",
+      "organized_path": "assets/core/nel/715-nel-53-48-label.jpg",
+      "role": "label",
+      "work_ids": [
+        "NEL-53-48"
+      ],
+      "same_subject_group": "D02",
+      "sha256": "7008e481d8e22c7b8df2d7d5456d5b4252f31c7e574cdfdbd69af5cb9a147f7b",
+      "width": 1280,
+      "height": 1707,
+      "notes": "同一对象或标签的另一张拍摄；非字节完全重复，全部保留",
+      "web_path": "images/715.jpg",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "thumbs/715.jpg",
+      "thumbnail_width": 450,
+      "thumbnail_height": 600
+    },
+    {
+      "number": 716,
+      "original_filename": "Image_20261008221949_716_19.jpg",
+      "organized_path": "assets/core/nel/716-nel-35-276-object.jpg",
+      "role": "object",
+      "work_ids": [
+        "NEL-35-276"
+      ],
+      "same_subject_group": "",
+      "sha256": "a28a65327b372264205a1065f493628fc6e40788ad7b6f29b8c97f1a88c06b46",
+      "width": 1280,
+      "height": 1707,
+      "notes": "",
+      "web_path": "images/716.jpg",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "thumbs/716.jpg",
+      "thumbnail_width": 450,
+      "thumbnail_height": 600
+    },
+    {
+      "number": 717,
+      "original_filename": "Image_20261008221950_717_19.jpg",
+      "organized_path": "assets/core/nel/717-nel-35-276-label.jpg",
+      "role": "label",
+      "work_ids": [
+        "NEL-35-276"
+      ],
+      "same_subject_group": "",
+      "sha256": "591d6552aef60c9ad12bd2c288bab0919aa68e3a763362c935aa13cb1700dc1f",
+      "width": 1280,
+      "height": 1707,
+      "notes": "",
+      "web_path": "images/717.jpg",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "thumbs/717.jpg",
+      "thumbnail_width": 450,
+      "thumbnail_height": 600
+    },
+    {
+      "number": 718,
+      "original_filename": "Image_20261008221952_718_19.jpg",
+      "organized_path": "assets/core/nel/718-nel-53-48-object.jpg",
+      "role": "object",
+      "work_ids": [
+        "NEL-53-48"
+      ],
+      "same_subject_group": "D01",
+      "sha256": "916c7248b647afa614d54573ee736a4c8ee0d51a765421d680dd8bb235cb153b",
+      "width": 1280,
+      "height": 1707,
+      "notes": "同一对象或标签的另一张拍摄；非字节完全重复，全部保留",
+      "web_path": "images/718.jpg",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "thumbs/718.jpg",
+      "thumbnail_width": 450,
+      "thumbnail_height": 600
+    },
+    {
+      "number": 719,
+      "original_filename": "Image_20261008221953_719_19.jpg",
+      "organized_path": "assets/core/nel/719-nel-53-48-label.jpg",
+      "role": "label",
+      "work_ids": [
+        "NEL-53-48"
+      ],
+      "same_subject_group": "D02",
+      "sha256": "fea9e17d5c6327c830bd5a68d2695bcdf1d9660f96e6e555012990847d58d1e4",
+      "width": 1280,
+      "height": 1707,
+      "notes": "同一对象或标签的另一张拍摄；非字节完全重复，全部保留",
+      "web_path": "images/719.jpg",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "thumbs/719.jpg",
+      "thumbnail_width": 450,
+      "thumbnail_height": 600
+    },
+    {
+      "number": 720,
+      "original_filename": "Image_20261008221955_720_19.jpg",
+      "organized_path": "assets/core/cle/720-cle-1957.360-object.jpg",
+      "role": "object",
+      "work_ids": [
+        "CLE-1957.360"
+      ],
+      "same_subject_group": "",
+      "sha256": "a9470d52eef8684d56d6e21a822d4eb5bc6ed5bb78319b874027bce1ac43c427",
+      "width": 1280,
+      "height": 1707,
+      "notes": "",
+      "web_path": "images/720.jpg",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "thumbs/720.jpg",
+      "thumbnail_width": 450,
+      "thumbnail_height": 600
+    },
+    {
+      "number": 721,
+      "original_filename": "Image_20261008221956_721_19.jpg",
+      "organized_path": "assets/core/cle/721-cle-1957.360-label.jpg",
+      "role": "label",
+      "work_ids": [
+        "CLE-1957.360"
+      ],
+      "same_subject_group": "",
+      "sha256": "ba44e155c6464d725be4dc15d5d3c33ea7ac0c90bb69556c8e0c88d7fd748cee",
+      "width": 1280,
+      "height": 1707,
+      "notes": "",
+      "web_path": "images/721.jpg",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "thumbs/721.jpg",
+      "thumbnail_width": 450,
+      "thumbnail_height": 600
+    },
+    {
+      "number": 722,
+      "original_filename": "Image_20261008221959_722_19.jpg",
+      "organized_path": "assets/core/cle/722-cle-1923.97-object.jpg",
+      "role": "object",
+      "work_ids": [
+        "CLE-1923.97"
+      ],
+      "same_subject_group": "",
+      "sha256": "bdb4c46b0f6bc4e2c5fe72f68cdd6be4b7982acd6b925eab895d4e4b65fdea2a",
+      "width": 1280,
+      "height": 1707,
+      "notes": "",
+      "web_path": "images/722.jpg",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "thumbs/722.jpg",
+      "thumbnail_width": 450,
+      "thumbnail_height": 600
+    },
+    {
+      "number": 723,
+      "original_filename": "Image_20261008222001_723_19.jpg",
+      "organized_path": "assets/core/cle/723-cle-1972.166-object.jpg",
+      "role": "object",
+      "work_ids": [
+        "CLE-1972.166"
+      ],
+      "same_subject_group": "",
+      "sha256": "2ef30e655bf8f5b2c9142f26735aa3bbe5e06884f27ffd8143cb27e99b117eff",
+      "width": 1280,
+      "height": 1707,
+      "notes": "",
+      "web_path": "images/723.jpg",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "thumbs/723.jpg",
+      "thumbnail_width": 450,
+      "thumbnail_height": 600
+    },
+    {
+      "number": 724,
+      "original_filename": "Image_20261008222003_724_19.jpg",
+      "organized_path": "assets/core/cle/724-cleveland-two-works-label.jpg",
+      "role": "label",
+      "work_ids": [
+        "CLE-1923.97",
+        "CLE-1972.166"
+      ],
+      "same_subject_group": "",
+      "sha256": "fac03ac2ffe40e05b3e929033b4e714f13406a1bed7633cca3b08795fc1b0827",
+      "width": 1280,
+      "height": 1707,
+      "notes": "标签上段1923.97，下段1972.166",
+      "web_path": "images/724.jpg",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "thumbs/724.jpg",
+      "thumbnail_width": 450,
+      "thumbnail_height": 600
+    },
+    {
+      "number": 725,
+      "original_filename": "Image_20261008222005_725_19.jpg",
+      "organized_path": "assets/core/fsg/725-fsg-f1921.2-object.jpg",
+      "role": "object",
+      "work_ids": [
+        "FSG-F1921.2"
+      ],
+      "same_subject_group": "",
+      "sha256": "206724526dfec0413fdbca0767377deb7f8edfb010432a7be8a6ff9868fbe93d",
+      "width": 1702,
+      "height": 1276,
+      "notes": "",
+      "web_path": "images/725.jpg",
+      "web_width": 1702,
+      "web_height": 1276,
+      "thumbnail_path": "thumbs/725.jpg",
+      "thumbnail_width": 600,
+      "thumbnail_height": 450
+    },
+    {
+      "number": 726,
+      "original_filename": "Image_20261008222006_726_19.jpg",
+      "organized_path": "assets/core/fsg/726-fsg-f1921.1-object.jpg",
+      "role": "object",
+      "work_ids": [
+        "FSG-F1921.1"
+      ],
+      "same_subject_group": "",
+      "sha256": "c0b8dd730146ee92220805a6014489ce6c2a8bcea27c34de4b188d1f34a346e8",
+      "width": 1702,
+      "height": 1276,
+      "notes": "",
+      "web_path": "images/726.jpg",
+      "web_width": 1702,
+      "web_height": 1276,
+      "thumbnail_path": "thumbs/726.jpg",
+      "thumbnail_width": 600,
+      "thumbnail_height": 450
+    },
+    {
+      "number": 727,
+      "original_filename": "Image_20261008222008_727_19.jpg",
+      "organized_path": "assets/core/fsg/727-freer-two-reliefs-and-bodhisattva-gallery.jpg",
+      "role": "group_photo",
+      "work_ids": [
+        "FSG-F1921.2",
+        "FSG-F1921.1",
+        "FSG-F1968.45"
+      ],
+      "same_subject_group": "",
+      "sha256": "86662a65fc83b08ca5bd4dd065911685f28db3a63ac3cedb7eec5f890a23246c",
+      "width": 1702,
+      "height": 1276,
+      "notes": "两块浮雕与中央F1968.45独立菩萨；展厅布置不等于原窟布局",
+      "web_path": "images/727.jpg",
+      "web_width": 1702,
+      "web_height": 1276,
+      "thumbnail_path": "thumbs/727.jpg",
+      "thumbnail_width": 600,
+      "thumbnail_height": 450
+    },
+    {
+      "number": 728,
+      "original_filename": "Image_20261008222009_728_19.jpg",
+      "organized_path": "assets/core/fsg/728-freer-cave2-three-works-label.jpg",
+      "role": "label",
+      "work_ids": [
+        "FSG-F1921.2",
+        "FSG-F1921.1",
+        "FSG-F1968.45"
+      ],
+      "same_subject_group": "D03",
+      "sha256": "9a9441d108b10447107549b5cfbb35de2cef433aec90e4e2153ef09d6d58d384",
+      "width": 1702,
+      "height": 1276,
+      "notes": "同一对象或标签的另一张拍摄；非字节完全重复，全部保留",
+      "web_path": "images/728.jpg",
+      "web_width": 1702,
+      "web_height": 1276,
+      "thumbnail_path": "thumbs/728.jpg",
+      "thumbnail_width": 600,
+      "thumbnail_height": 450
+    },
+    {
+      "number": 729,
+      "original_filename": "Image_20261008222011_729_19.jpg",
+      "organized_path": "assets/core/fsg/729-fsg-f1913.67-object.jpg",
+      "role": "object",
+      "work_ids": [
+        "FSG-F1913.67"
+      ],
+      "same_subject_group": "",
+      "sha256": "be3aa22379b77075e84af11628a7f899631244c570fc93401fed1903cc21ccce",
+      "width": 1280,
+      "height": 1707,
+      "notes": "",
+      "web_path": "images/729.jpg",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "thumbs/729.jpg",
+      "thumbnail_width": 450,
+      "thumbnail_height": 600
+    },
+    {
+      "number": 730,
+      "original_filename": "Image_20261008222013_730_19.jpg",
+      "organized_path": "assets/core/fsg/730-fsg-f1913.67-label.jpg",
+      "role": "label",
+      "work_ids": [
+        "FSG-F1913.67"
+      ],
+      "same_subject_group": "",
+      "sha256": "7e0713dae2d0c0f13e6ff03ae214e3fde582162ff862498177e2812474bccc5f",
+      "width": 1280,
+      "height": 1707,
+      "notes": "",
+      "web_path": "images/730.jpg",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "thumbs/730.jpg",
+      "thumbnail_width": 450,
+      "thumbnail_height": 600
+    },
+    {
+      "number": 731,
+      "original_filename": "Image_20261008222015_731_19.jpg",
+      "organized_path": "assets/core/fsg/731-fsg-f1913.134-object.jpg",
+      "role": "object",
+      "work_ids": [
+        "FSG-F1913.134"
+      ],
+      "same_subject_group": "",
+      "sha256": "7c9808d5fcfca5104a89cad4b8332cecd11c9794626fe989a09f6eca540b412f",
+      "width": 1024,
+      "height": 1366,
+      "notes": "",
+      "web_path": "images/731.jpg",
+      "web_width": 1024,
+      "web_height": 1366,
+      "thumbnail_path": "thumbs/731.jpg",
+      "thumbnail_width": 450,
+      "thumbnail_height": 600
+    },
+    {
+      "number": 732,
+      "original_filename": "Image_20261008222016_732_19.jpg",
+      "organized_path": "assets/core/fsg/732-fsg-f1913.134-label.jpg",
+      "role": "label",
+      "work_ids": [
+        "FSG-F1913.134"
+      ],
+      "same_subject_group": "",
+      "sha256": "aad342e6779a0c8d1a4e78af9d85aa949c6726779cf46ace2cc68377cca5bda3",
+      "width": 1280,
+      "height": 1707,
+      "notes": "",
+      "web_path": "images/732.jpg",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "thumbs/732.jpg",
+      "thumbnail_width": 450,
+      "thumbnail_height": 600
+    },
+    {
+      "number": 733,
+      "original_filename": "Image_20261008223022_733_19.jpg",
+      "organized_path": "assets/core/fsg/733-fsg-f1913.57-object.jpg",
+      "role": "object",
+      "work_ids": [
+        "FSG-F1913.57"
+      ],
+      "same_subject_group": "D04",
+      "sha256": "d9c7fa66de95da80806e5f2f91d05980804fa3bb96baf775d4d27599bdf0c5cc",
+      "width": 1280,
+      "height": 1707,
+      "notes": "同一对象或标签的另一张拍摄；非字节完全重复，全部保留",
+      "web_path": "images/733.jpg",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "thumbs/733.jpg",
+      "thumbnail_width": 450,
+      "thumbnail_height": 600
+    },
+    {
+      "number": 734,
+      "original_filename": "Image_20261008223022_734_19.jpg",
+      "organized_path": "assets/core/fsg/734-freer-four-monsters-pair-a.jpg",
+      "role": "group_photo",
+      "work_ids": [
+        "FSG-F1953.86",
+        "FSG-F1977.8"
+      ],
+      "same_subject_group": "",
+      "sha256": "0d471a599b95e82c09df99df5e63b09da86a49360eba0fde6c9d7c9bba5f0fd5",
+      "width": 1702,
+      "height": 1276,
+      "notes": "左F1977.8，右F1953.86；编号依据馆藏照片比较",
+      "web_path": "images/734.jpg",
+      "web_width": 1702,
+      "web_height": 1276,
+      "thumbnail_path": "thumbs/734.jpg",
+      "thumbnail_width": 600,
+      "thumbnail_height": 450
+    },
+    {
+      "number": 735,
+      "original_filename": "Image_20261008223022_735_19.jpg",
+      "organized_path": "assets/core/fsg/735-freer-four-monsters-pair-b.jpg",
+      "role": "group_photo",
+      "work_ids": [
+        "FSG-F1953.87",
+        "FSG-F1977.9"
+      ],
+      "same_subject_group": "",
+      "sha256": "57ad89c6826e4663ed705123d79f243dfe7dcb504a3fc55864e8157c2ca9395f",
+      "width": 1702,
+      "height": 1276,
+      "notes": "左F1953.87，右F1977.9；编号依据馆藏照片比较",
+      "web_path": "images/735.jpg",
+      "web_width": 1702,
+      "web_height": 1276,
+      "thumbnail_path": "thumbs/735.jpg",
+      "thumbnail_width": 600,
+      "thumbnail_height": 450
+    },
+    {
+      "number": 736,
+      "original_filename": "Image_20261008223022_736_19.jpg",
+      "organized_path": "assets/core/fsg/736-freer-seated-bodhisattva-and-four-monsters-label-rotated.jpg",
+      "role": "label_and_base_detail",
+      "work_ids": [
+        "FSG-F1913.57",
+        "FSG-F1953.86",
+        "FSG-F1953.87",
+        "FSG-F1977.8",
+        "FSG-F1977.9"
+      ],
+      "same_subject_group": "D05",
+      "sha256": "1357b9f4a2faae85b9cc492f3168d6e3b5fda5ee616eee2a6e304b1aaab35440",
+      "width": 1280,
+      "height": 1707,
+      "notes": "同一对象或标签的另一张拍摄；非字节完全重复，全部保留",
+      "web_path": "images/736.jpg",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "thumbs/736.jpg",
+      "thumbnail_width": 450,
+      "thumbnail_height": 600
+    },
+    {
+      "number": 737,
+      "original_filename": "Image_20261008223022_737_19.jpg",
+      "organized_path": "assets/core/fsg/737-fsg-f1916.346-object.jpg",
+      "role": "object",
+      "work_ids": [
+        "FSG-F1916.346"
+      ],
+      "same_subject_group": "",
+      "sha256": "6c87ebf7c1fbe8ce3260d8f6b419668673356f57bea839951941f1fb7a07a82f",
+      "width": 1280,
+      "height": 1707,
+      "notes": "",
+      "web_path": "images/737.jpg",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "thumbs/737.jpg",
+      "thumbnail_width": 450,
+      "thumbnail_height": 600
+    },
+    {
+      "number": 738,
+      "original_filename": "Image_20261008223022_738_19.jpg",
+      "organized_path": "assets/core/fsg/738-fsg-f1916.346-label.jpg",
+      "role": "label",
+      "work_ids": [
+        "FSG-F1916.346"
+      ],
+      "same_subject_group": "",
+      "sha256": "81f309e75cd0fbc3850b7c2263c912c0f10bbfb1052d2a33e9f6f9cab0a99442",
+      "width": 960,
+      "height": 1280,
+      "notes": "",
+      "web_path": "images/738.jpg",
+      "web_width": 960,
+      "web_height": 1280,
+      "thumbnail_path": "thumbs/738.jpg",
+      "thumbnail_width": 450,
+      "thumbnail_height": 600
+    },
+    {
+      "number": 739,
+      "original_filename": "Image_20261008223022_739_19.jpg",
+      "organized_path": "assets/core/pen/739-penn-three-standing-figures.jpg",
+      "role": "group_photo",
+      "work_ids": [
+        "PEN-C113",
+        "PEN-C151",
+        "PEN-C150"
+      ],
+      "same_subject_group": "",
+      "sha256": "2890fef15df65f48c160f31d47b614e74998577045d4d9b1937523e5d127b460",
+      "width": 1276,
+      "height": 958,
+      "notes": "左C113，中C151，右C150",
+      "web_path": "images/739.jpg",
+      "web_width": 1276,
+      "web_height": 958,
+      "thumbnail_path": "thumbs/739.jpg",
+      "thumbnail_width": 600,
+      "thumbnail_height": 450
+    },
+    {
+      "number": 740,
+      "original_filename": "Image_20261008223022_740_19.jpg",
+      "organized_path": "assets/core/pen/740-penn-three-standing-figures-label.jpg",
+      "role": "label",
+      "work_ids": [
+        "PEN-C113",
+        "PEN-C151",
+        "PEN-C150"
+      ],
+      "same_subject_group": "",
+      "sha256": "9f143e008eeedc65bfdbe13b91a675559287f4f526a322935411f9bebea0a8ac",
+      "width": 1280,
+      "height": 1707,
+      "notes": "",
+      "web_path": "images/740.jpg",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "thumbs/740.jpg",
+      "thumbnail_width": 450,
+      "thumbnail_height": 600
+    },
+    {
+      "number": 741,
+      "original_filename": "Image_20261008223022_741_19.jpg",
+      "organized_path": "assets/excluded/pen/741-pen-c66-object.jpg",
+      "role": "object",
+      "work_ids": [
+        "PEN-C66"
+      ],
+      "same_subject_group": "",
+      "sha256": "e130a25e74d095ad1f354275aff5344336769e1e86d83cece32b6e7c2de039c2",
+      "width": 1280,
+      "height": 1707,
+      "notes": "",
+      "reused_work": "/museum-notes/yixian-luohan/#object-741"
+    },
+    {
+      "number": 742,
+      "original_filename": "Image_20261008223022_742_19.jpg",
+      "organized_path": "assets/excluded/pen/742-pen-c66-label.jpg",
+      "role": "label",
+      "work_ids": [
+        "PEN-C66"
+      ],
+      "same_subject_group": "",
+      "sha256": "19994e1b473ce2dce2d9e0c1da373f64ced876782a38e2e304138f7d4bbdfe4a",
+      "width": 1280,
+      "height": 1707,
+      "notes": "",
+      "reused_work": "/museum-notes/yixian-luohan/#object-741"
+    },
+    {
+      "number": 743,
+      "original_filename": "Image_20261008223022_743_19.jpg",
+      "organized_path": "assets/core/pam/743-pam-51.255-object.jpg",
+      "role": "object",
+      "work_ids": [
+        "PAM-51.255"
+      ],
+      "same_subject_group": "",
+      "sha256": "2e31d3d830abc70e04d6558a3df884cf8e0c09d62a74ee6002bb75b5cff95432",
+      "width": 1280,
+      "height": 1707,
+      "notes": "",
+      "web_path": "images/743.jpg",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "thumbs/743.jpg",
+      "thumbnail_width": 450,
+      "thumbnail_height": 600
+    },
+    {
+      "number": 744,
+      "original_filename": "Image_20261008223022_744_19.jpg",
+      "organized_path": "assets/core/pam/744-pam-51.255-label.jpg",
+      "role": "label",
+      "work_ids": [
+        "PAM-51.255"
+      ],
+      "same_subject_group": "",
+      "sha256": "61c949a8ff104826e8824577014d5ce9af255e895944ef6023f7108b93e3adf7",
+      "width": 1280,
+      "height": 1707,
+      "notes": "",
+      "web_path": "images/744.jpg",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "thumbs/744.jpg",
+      "thumbnail_width": 450,
+      "thumbnail_height": 600
+    },
+    {
+      "number": 745,
+      "original_filename": "Image_20261008223022_745_19.jpg",
+      "organized_path": "assets/core/fsg/745-fsg-f1913.57-object.jpg",
+      "role": "object",
+      "work_ids": [
+        "FSG-F1913.57"
+      ],
+      "same_subject_group": "D04",
+      "sha256": "a9c9ce2590169849d52fc81aa0166c7d6c7cc7dbf25bb5f990fe188a28f8501b",
+      "width": 1280,
+      "height": 1707,
+      "notes": "同一对象或标签的另一张拍摄；非字节完全重复，全部保留",
+      "web_path": "images/745.jpg",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "thumbs/745.jpg",
+      "thumbnail_width": 450,
+      "thumbnail_height": 600
+    },
+    {
+      "number": 746,
+      "original_filename": "Image_20261008223022_746_19.jpg",
+      "organized_path": "assets/core/fsg/746-freer-seated-bodhisattva-base-and-five-works-label.jpg",
+      "role": "label_and_base_detail",
+      "work_ids": [
+        "FSG-F1913.57",
+        "FSG-F1953.86",
+        "FSG-F1953.87",
+        "FSG-F1977.8",
+        "FSG-F1977.9"
+      ],
+      "same_subject_group": "D05",
+      "sha256": "e652b1ec3833f59a640aed702a0077a0a2d1b52766b26336746d112d23142681",
+      "width": 1707,
+      "height": 1280,
+      "notes": "同一对象或标签的另一张拍摄；非字节完全重复，全部保留",
+      "web_path": "images/746.jpg",
+      "web_width": 1707,
+      "web_height": 1280,
+      "thumbnail_path": "thumbs/746.jpg",
+      "thumbnail_width": 600,
+      "thumbnail_height": 450
+    },
+    {
+      "number": 747,
+      "original_filename": "Image_20261008223022_747_19.jpg",
+      "organized_path": "assets/core/fsg/747-freer-western-paradise-detail.jpg",
+      "role": "object_detail",
+      "work_ids": [
+        "FSG-F1921.2"
+      ],
+      "same_subject_group": "",
+      "sha256": "f5ec9de68d49828089622e8d4c1e1131d3835f32bd43a4ae5b6a9d8eb5879353",
+      "width": 1707,
+      "height": 1280,
+      "notes": "F1921.2局部；不是新增作品",
+      "web_path": "images/747.jpg",
+      "web_width": 1707,
+      "web_height": 1280,
+      "thumbnail_path": "thumbs/747.jpg",
+      "thumbnail_width": 600,
+      "thumbnail_height": 450
+    },
+    {
+      "number": 748,
+      "original_filename": "Image_20261008223022_748_19.jpg",
+      "organized_path": "assets/core/fsg/748-freer-cave2-three-works-label-alternate.jpg",
+      "role": "label",
+      "work_ids": [
+        "FSG-F1921.2",
+        "FSG-F1921.1",
+        "FSG-F1968.45"
+      ],
+      "same_subject_group": "D03",
+      "sha256": "a1277b8396573a2b88fe2f8593ea7c8208508e8752dcc61ef54ff5bb52eb9d78",
+      "width": 1280,
+      "height": 1707,
+      "notes": "同一对象或标签的另一张拍摄；非字节完全重复，全部保留",
+      "web_path": "images/748.jpg",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "thumbs/748.jpg",
+      "thumbnail_width": 450,
+      "thumbnail_height": 600
+    }
+  ],
+  "source_archive": "xiangtangshan-organized.zip",
+  "research_checked_on": "2026-10-09"
+}

@@ -142,3 +142,6 @@ build_ceramics()
 
 from build_jazari import build as build_jazari
 build_jazari()
+
+from build_xiangtangshan import build as build_xiangtangshan
+build_xiangtangshan()

@@ -143,5 +143,19 @@
     "object-207",
     "object-237",
     "object-221"
-  ]
+  ],
+  "external_topics": [
+    {
+      "id": "xiangtangshan",
+      "title": "响堂山石窟：海外所见",
+      "data": "../../xiangtangshan/data/works.json",
+      "core_count": 24,
+      "related_count": 1,
+      "reused_ids": [
+        "object-741"
+      ]
+    }
+  ],
+  "selected_count": 59,
+  "related_count": 1
 }
