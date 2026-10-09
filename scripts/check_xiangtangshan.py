@@ -9,6 +9,16 @@ d=json.loads((base/'data/works.json').read_text());ws={w['id']:w for w in d['wor
 assert len(ws)==25 and Counter(w['scope'] for w in ws.values())=={'core_attributed':24,'disputed_related':1}
 assert Counter(w['group'] for w in ws.values())=={'NN':8,'NM':1,'NS':3,'S2':6,'S36':4,'unassigned':2,'related':1}
 assert len(a)==45 and len(d['excluded'])==1
+expected_crops={
+ 'FSG-F1977.8':(.055,.130,.385,.730), 'FSG-F1953.86':(.510,.105,.450,.855),
+ 'FSG-F1953.87':(.045,.065,.465,.875), 'FSG-F1977.9':(.570,.150,.330,.710),
+ 'PEN-C113':(.040,.090,.245,.850), 'PEN-C151':(.435,.170,.180,.770),
+ 'PEN-C150':(.780,.055,.220,.905), 'FSG-F1968.45':(.390,.005,.220,.990)}
+assert {w['id'] for w in ws.values() if 'display_crop' in w}==set(expected_crops)
+for i,coords in expected_crops.items():
+ c=ws[i]['display_crop'];assert tuple(c[k] for k in ('x','y','width','height'))==coords
+ assert c['x']+c['width']<=1 and c['y']+c['height']<=1
+assert Counter(w['museum_key'] for w in ws.values())=={'FSG':11,'MET':4,'CLE':3,'PEN':3,'NEL':2,'PAM':1,'CER':1}
 assert ws['FSG-F1916.346']['accession']=='F1916.346a-b'
 for i,pos in [('FSG-F1977.8','左'),('FSG-F1953.86','右'),('FSG-F1953.87','左'),('FSG-F1977.9','右'),('PEN-C113','左'),('PEN-C151','中央'),('PEN-C150','右')]:assert pos in ws[i]['position']
 assert a[747]['work_ids']==['FSG-F1921.2']

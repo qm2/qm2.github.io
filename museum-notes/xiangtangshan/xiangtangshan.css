@@ -1,3 +1,61 @@
-/* Reuse the notebook gallery; add only long-relief and label handling. */
-.xts-labels{border-top:1px solid var(--line);margin-top:24px;padding-top:14px;font-size:13px}.xts-labels summary{cursor:pointer;min-height:44px}.xts-labels figure{margin:16px 0}.xts-labels img{display:block;width:100%;height:auto}.xts-extra{display:grid;gap:28px}.xts-extra figure{margin:0}.xts-extra img{display:block;width:100%;height:auto}.xts-extra figcaption{font-size:12px;color:var(--muted);padding-top:12px}.work-sources a,.work-original{overflow-wrap:anywhere}.comparison-work figcaption>a{display:block;margin-top:10px}.era-section{scroll-margin-top:24px}.work-facts dd{overflow-wrap:anywhere}
-@media(max-width:700px){.car-hero h1{font-size:40px}.comparison-grid{grid-template-columns:1fr}.comparison-work>a{height:auto;min-height:220px}.comparison-work img{max-height:560px}.art-results{align-items:flex-start;gap:10px;flex-wrap:wrap}}
+/* Topic-local presentation. Source photographs are never cropped or rewritten. */
+.xts-page .xts-view{display:block;position:relative;overflow:hidden;flex-shrink:0;width:100%;margin-inline:auto}
+.xts-page .xts-view>img{position:absolute;display:block;max-width:none;max-height:none;margin:0;object-fit:fill}
+.xts-page .art-thumbnail{background:transparent;padding:0;height:360px}
+.xts-page .art-thumbnail .xts-view{width:min(100%,calc(360px * var(--crop-ratio)))}
+.xts-page .art-thumbnail>img{max-height:360px}
+.xts-page .car-hero-image{padding:6px;box-shadow:none}
+.xts-page .car-hero-image figcaption{padding:12px 8px 6px}
+.xts-page .work-photo{background:transparent;padding:0}
+.xts-page .work-photo .xts-view{width:min(100%,calc(74vh * var(--crop-ratio)))}
+.xts-page .work-photo figcaption{color:var(--muted)}
+.xts-page .xts-full-link{text-align:center;font-size:13px;margin:10px 0}
+.xts-page .xts-full-link a{display:inline-flex;align-items:center;min-height:44px}
+.xts-page .xts-labels,.xts-page .xts-note,.xts-page .xts-context{border-top:1px solid var(--line);margin-top:24px;padding-top:12px;font-size:13px}
+.xts-page summary{cursor:pointer;min-height:44px;line-height:1.8}
+.xts-page .xts-note p{font-size:13px;line-height:2}
+.xts-page .xts-labels figure,.xts-page .xts-context figure{margin:16px 0}
+.xts-page .xts-labels img,.xts-page .xts-context img{display:block;width:100%;height:auto}
+.xts-page .xts-extra{display:grid;gap:28px}
+.xts-page .xts-extra figure{margin:0}
+.xts-page .xts-extra img{display:block;width:100%;height:auto}
+.xts-page .xts-extra figcaption,.xts-page .xts-labels figcaption,.xts-page .xts-context figcaption{font-size:12px;line-height:1.8;color:var(--muted);padding-top:12px}
+.xts-page .work-sources a,.xts-page .work-original,.xts-page .work-facts dd{overflow-wrap:anywhere}
+.xts-page .era-section{scroll-margin-top:24px}
+.xts-page .era-nav a,.xts-page .card-actions a,.xts-page .relation-links a{display:inline-flex;align-items:center;min-height:44px}
+.xts-page .comparison-work>a{background:transparent;padding:0;height:390px}
+.xts-page .comparison-work .xts-view{width:min(100%,calc(390px * var(--crop-ratio)))}
+.xts-page .comparison-work figcaption>a{display:block;margin-top:10px}
+.xts-page .xts-wide{grid-column:1/-1}
+.xts-page .xts-wide>a{height:auto}
+.xts-page .xts-wide>a>img{width:auto;height:auto;max-width:100%;max-height:620px}
+.xts-page .xts-penn-group{grid-column:span 2}
+.xts-page #cave-two .comparison-work:not(.xts-wide)>a{height:520px}
+.xts-page #cave-two .xts-view{width:min(100%,calc(520px * var(--crop-ratio)))}
+.xts-page .xts-context-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.xts-page #photo-stage{display:block;overflow:auto;padding:6px}
+.xts-page #photo-stage .xts-view{margin:auto}
+.xts-page #photo-stage .xts-view>img{position:absolute;max-width:none;max-height:none;object-fit:fill;margin:0}
+.xts-page #lightbox-caption{overflow-wrap:anywhere}
+.xts-page .lightbox-tools{flex-wrap:wrap}
+.xts-page #art-lightbox{display:none}
+.xts-page #art-lightbox[open]{display:flex;flex-direction:column}
+.xts-page #photo-stage{flex:1;min-height:0;height:auto}
+.xts-page .lightbox-tools,.xts-page #lightbox-caption{flex-shrink:0}
+@media(max-width:700px){
+ .xts-page .car-hero h1{font-size:40px}
+ .xts-page .comparison-grid,.xts-page .xts-context-grid{grid-template-columns:1fr}
+ .xts-page .art-thumbnail,.xts-page .gallery-mode .art-thumbnail{height:auto;min-height:0}
+ .xts-page .art-thumbnail .xts-view{width:min(100%,calc(520px * var(--crop-ratio)))}
+ .xts-page .art-thumbnail>img{max-height:520px}
+ .xts-page .comparison-work>a{height:auto;min-height:0}
+ .xts-page .comparison-work .xts-view{width:min(100%,calc(540px * var(--crop-ratio)))}
+ .xts-page .comparison-work>a>img{max-height:540px}
+ .xts-page .xts-wide>a>img{max-height:none}
+ .xts-page .xts-penn-group{grid-column:1/-1}
+ .xts-page #cave-two .comparison-work:not(.xts-wide)>a{height:auto}
+ .xts-page .art-results{align-items:flex-start;gap:10px;flex-wrap:wrap}
+ .xts-page .art-results button,.xts-page .lightbox-tools button,.xts-page .lightbox-tools a{min-height:44px}
+ .xts-page .lightbox-tools{gap:4px;justify-content:flex-start}
+ .xts-page #lightbox-caption{font-size:11px;line-height:1.7;margin-block:8px 0}
+}
