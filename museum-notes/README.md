@@ -117,3 +117,9 @@ Six inputs from `/home/qingxi/museum/extra` are accounted for in `extra-2026-10-
 ## Penn luohan addition, 2026-10-08
 
 Added photo 741 / label 742 from the Yixian folder as object-741. The five-work luohan topic, ceramic index, sculpture archive and both parent entrances share the same object record. C66A (statue, purchased from Worch 1914) and C66B (base, C. T. Loo gift 1916) retain distinct acquisition histories. The intake manifest now covers ten inputs / five unchanged artwork photos. Notes cite the individual Penn catalogue records and Steinhardt's 2010 article; the Liao/Jin dating and cave-origin uncertainty are preserved. Optional source links on note sections use the existing source styling.
+
+## Wuhan four-loves meiping, 2026-10-08
+
+Added `yuan-blue-and-white/#wuhan-four-loves` from eight supplied Wuhan photographs (57–62, 64, 66). Photo 64 is the label; 60 is the cover / Zhou Dunyi scene, and 59 / 61 / 57 show Wang Xizhi / Lin Bu / Tao Yuanming respectively. Four JPEGs are copied unchanged; other views are accounted for as duplicates/context in the existing manifest. The unit now contains six blue-and-white works plus two comparisons, with eleven published photographs. The meiping comparison includes the Wuhan vessel and both Guimet examples. Optional `extra_photos` and `dimensions` fields reuse the existing related-photo and facts styling.
+
+The label identifies Wuhan Museum ownership and dimensions (height 37.6 cm, mouth 6.2 cm, base 13 cm). No accession number is invented. Iconographic names follow Wuhan Museum's illustrated explanation reproduced by The Paper in 2020; the municipal culture bureau's 2022 report supplies the 1987 antiquities-shop purchase and 2010 merger history. The other, Hubei Provincial Museum bottle's royal-tomb excavation history is not transferred. No visit date inferred from filenames. The four scenes follow museum interpretation, with the published scholarly abstract's attribution debate noted briefly.

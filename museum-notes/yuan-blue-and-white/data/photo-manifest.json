@@ -96,5 +96,69 @@
     "role": "label",
     "published": null,
     "sha256": "2b290fc15d13e8ef11f0d1bb61dd6fd43c9bf51bf2f1ea0d6c62dec3feed6ac2"
+  },
+  {
+    "source": "Image_20261007095823_57_70.jpg",
+    "work": "wuhan-four-loves",
+    "role": "artwork",
+    "published": "wuhan-four-loves-57.jpg",
+    "sha256": "960b682c1b5a4e67d40bb7d7213b8968fd0b8ad863a4ea98cb33f4e445ac87e7",
+    "selection_note": "四爱图不同侧面"
+  },
+  {
+    "source": "Image_20261007095823_58_70.jpg",
+    "work": "wuhan-four-loves",
+    "role": "artwork",
+    "published": null,
+    "sha256": "b7cc8ddb8d2cf5ffea1b7ba51094d325457c1ce4e23b6fdb25200b7a0910e393",
+    "selection_note": "重复角度或较远的展厅视图"
+  },
+  {
+    "source": "Image_20261007095824_59_70.jpg",
+    "work": "wuhan-four-loves",
+    "role": "artwork",
+    "published": "wuhan-four-loves-59.jpg",
+    "sha256": "d1a1864c263102f4fdfdfa43b0f3ceaaa6c12892ca7564b4aae117aba3ca8f01",
+    "selection_note": "四爱图不同侧面"
+  },
+  {
+    "source": "Image_20261007095824_60_70.jpg",
+    "work": "wuhan-four-loves",
+    "role": "artwork",
+    "published": "wuhan-four-loves-60.jpg",
+    "sha256": "ac5a74b1b8320497d2c9261e8fd77786880bb567f4e6b31fb44aa222d65b844e",
+    "selection_note": "四爱图不同侧面"
+  },
+  {
+    "source": "Image_20261007095825_61_70.jpg",
+    "work": "wuhan-four-loves",
+    "role": "artwork",
+    "published": "wuhan-four-loves-61.jpg",
+    "sha256": "82eb94d07ec68aeb9bd0dc0e415740da9b81b30b2799185e2927978e66813e41",
+    "selection_note": "四爱图不同侧面"
+  },
+  {
+    "source": "Image_20261007095826_62_70.jpg",
+    "work": "wuhan-four-loves",
+    "role": "artwork",
+    "published": null,
+    "sha256": "73049cad805a20522c56d21a8ada7451623475f3d9505042a0a24566bc6aaa09",
+    "selection_note": "重复角度或较远的展厅视图"
+  },
+  {
+    "source": "Image_20261007095855_64_70.jpg",
+    "work": "wuhan-four-loves",
+    "role": "label",
+    "published": null,
+    "sha256": "da9bfc3493a467d64fbd0ab50b724380715c1954beae2cc7d041ea80c0d4ebf9",
+    "selection_note": "展签"
+  },
+  {
+    "source": "Image_20261007095855_66_70.jpg",
+    "work": "wuhan-four-loves",
+    "role": "artwork",
+    "published": null,
+    "sha256": "9a2081d93bf2e479cfb3ce9f3d148f570c2771358ce39167a70b1a1190106e0a",
+    "selection_note": "重复角度或较远的展厅视图"
   }
 ]
