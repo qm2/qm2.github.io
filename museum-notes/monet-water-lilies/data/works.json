@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06",
+  "updated": "2026-10-08",
   "hero": "nelson-agapanthus",
   "museums": {
     "houston": "休斯顿美术馆",
@@ -21,8 +21,8 @@
     {
       "id": "bridges",
       "title": "池塘与日本桥",
-      "range": "1899—1900",
-      "intro": "桥还在，池岸也还在。先看能够辨认方向的花园。"
+      "range": "1899—1900 / 约1922",
+      "intro": "从清楚的桥拱与花叶，看到晚年浓密笔触中的同一座桥。"
     },
     {
       "id": "reflections",
@@ -660,18 +660,53 @@
         675
       ],
       "record_kind": "painting"
+    },
+    {
+      "id": "houston-japanese-bridge",
+      "source_number": 690,
+      "label_number": 691,
+      "title": "吉维尼的日本桥（休斯顿）",
+      "original_title": "The Japanese Footbridge, Giverny",
+      "artist": "克洛德·莫奈",
+      "museum": "houston",
+      "date": "约1922年",
+      "year": 1922,
+      "accession": "76.198",
+      "material": "布面油画",
+      "dimensions": "88.9 × 94.1厘米（馆方目录）",
+      "period": "bridges",
+      "tags": [
+        "bridges"
+      ],
+      "observation": "桥的弧线藏在深绿与暗红的笔触里，桥下几处黄光把水面照亮。先找横跨画面的桥，再看它怎样与周围的树影连成一片。",
+      "paragraphs": [
+        "与1899年前后的日本桥相比，这幅画里的栏杆、枝叶和水面更难一眼分开。红、黄、蓝绿的笔触交错覆盖，桥身像是从颜色中慢慢浮出来的。馆方研究还指出，画面上方的弧线属于后来增建的棚架；熟悉的池塘，连花园本身也在这些年里发生了变化。",
+        "馆方将它放在1918—1924年的晚期日本桥系列中，约1922年的断代带有推定性质。研究把浓重的颜色与莫奈当时的视力变化联系起来，也讨论他主动尝试不同画法的可能。同一时期，他仍在画橘园的大幅睡莲，两类作品的面貌很不一样。",
+        "这幅画属于 John A. and Audrey Jones Beck 收藏，由 Audrey Jones Beck 捐赠休斯顿美术馆。现场展签还提到，莫奈这些晚年作品曾长期不受重视，直到20世纪50年代才在年轻抽象画家的关注下重新获得评价。"
+      ],
+      "sources": [
+        [
+          "休斯顿美术馆：贝克收藏目录与作品研究",
+          "https://emuseum.mfah.org/catalogues/the_beck_collection/objects/3511/the-japanese-footbridge-giverny"
+        ]
+      ],
+      "source_note": "",
+      "photo": "monet-690.jpg",
+      "extra_photos": [],
+      "record_kind": "painting"
     }
   ],
   "groups": [
     {
       "id": "japanese-bridges",
-      "title": "同一座桥，四种取景",
-      "text": "大都会的竖幅、华盛顿的横幅、普林斯顿的近方形，以及奥赛的粉红色调。比较桥在画面中的高度，和桥下留给水面的空间。",
+      "title": "同一座桥，从早年到晚年",
+      "text": "大都会的竖幅、华盛顿的横幅、普林斯顿的近方形，与奥赛的粉红色调。再看休斯顿约1922年的日本桥：同一座桥的轮廓，怎样逐渐融进交错的色彩与笔触。",
       "works": [
         "met-bridge",
         "washington-footbridge",
         "princeton-bridge",
-        "orsay-pink-harmony"
+        "orsay-pink-harmony",
+        "houston-japanese-bridge"
       ]
     },
     {
@@ -912,6 +947,14 @@
       "width": 1707,
       "height": 1280,
       "caption": "卡内基睡莲局部：浅色花叶与竖向倒影",
+      "credit": "Merton参观照片",
+      "kind": "personal"
+    },
+    "690": {
+      "file": "monet-690.jpg",
+      "width": 1280,
+      "height": 1707,
+      "caption": "吉维尼的日本桥（约1922年） · 休斯顿美术馆",
       "credit": "Merton参观照片",
       "kind": "personal"
     }

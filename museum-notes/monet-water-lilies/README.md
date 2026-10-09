@@ -1,8 +1,8 @@
 # 莫奈的睡莲
 
-运行 `python3 scripts/build_monet.py` 生成专题、17个作品／组画页面、五组比较与欧洲绘画入口。运行 `python3 scripts/build_museum.py` 更新博物馆首页计数。无需网络或新增依赖；共用欧洲绘画的 CSS/JS，`monet.css` 仅处理附加照片排布。
+运行 `python3 scripts/build_monet.py` 生成专题、18个作品／组画页面、五组比较与欧洲绘画入口。运行 `python3 scripts/build_museum.py` 更新博物馆首页计数。无需网络或新增依赖；共用欧洲绘画的 CSS/JS，`monet.css` 仅处理附加照片排布。
 
-- 编辑来源：`data/works.json`。16幅睡莲／池塘绘画、1组橘园现场记录，不能把组画视角计成独立画作。
+- 编辑来源：`data/works.json`。17幅睡莲／池塘绘画、1组橘园现场记录，不能把组画视角计成独立画作。
 - 输入：`/home/qingxi/museum/monet water lilies` 中44张JPEG。`data/photo-manifest.json` 逐张记录配对、选择与SHA-256；25张公开照片逐字节复制；展签不公开。
 - 633是上一批高足杯展签，排除。674与673为相近的左侧细节，选673和右侧675；原件均保留在本地。
 - 634无展签。用户确认休斯顿观看地点，按MFAH 68.31及馆方Google Arts & Culture图像核对：1907年，92.1×81.2厘米。参考图只用于核对，未发布。
@@ -17,3 +17,5 @@
 - 达拉斯馆藏网页部分抓取受限，另按馆方公开展签PDF、Norton借展资料及DMA可检索的目录文字核对。
 
 2026-10-06：本批图片8,175,333字节（约8.2 MB）；保持静态网页结构与Merton署名。
+
+2026-10-08：从 `/home/qingxi/museum/extra` 新增690/691《吉维尼的日本桥》（约1922年，76.198），按现场展签及贝克收藏目录核对。加入日本桥比较组，共17幅绘画、1组橘园记录、26张照片。原始44张之外的两张输入在 manifest 中单列 source_directory；全批新增照片见 `../extra-2026-10-08.json`。

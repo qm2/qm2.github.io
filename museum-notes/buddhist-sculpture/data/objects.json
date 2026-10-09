@@ -802,10 +802,11 @@
     },
     {
       "id": "object-259",
-      "photo": "houston-259.jpg",
-      "source_photo": "Image_20260920175346_259_19.jpg",
+      "photo": "houston-688.jpg",
+      "source_photo": "Image_20261008213213_688_19.jpg",
       "label_photos": [
-        "Image_20260920175347_260_19.jpg"
+        "Image_20260920175347_260_19.jpg",
+        "Image_20261008213215_689_19.jpg"
       ],
       "museum": "houston",
       "title": "佛首",
@@ -820,8 +821,30 @@
       "url": "https://www.mfah.org/art/exhibitions/buddhanature",
       "caveat": "作品属于 Xuzhou Collection of Buddhist Art，在休斯顿美术馆展出。",
       "source_title": "馆方展览资料",
-      "width": 960,
-      "height": 1282
+      "width": 1280,
+      "height": 1707,
+      "related_photos": [
+        {
+          "photo": "houston-687.jpg",
+          "source_photo": "Image_20261008213212_687_19.jpg",
+          "label_photos": [
+            "Image_20261008213215_689_19.jpg"
+          ],
+          "caption": "佛首近景 · 眉弓、眼睑与面部漆层",
+          "width": 1280,
+          "height": 1707
+        },
+        {
+          "photo": "houston-686.jpg",
+          "source_photo": "Image_20261008213210_686_19.jpg",
+          "label_photos": [
+            "Image_20261008213215_689_19.jpg"
+          ],
+          "caption": "佛首在休斯顿美术馆的展厅陈列",
+          "width": 1280,
+          "height": 1707
+        }
+      ]
     },
     {
       "id": "object-263",

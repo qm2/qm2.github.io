@@ -394,5 +394,25 @@
     "published": null,
     "reason": "",
     "sha256": "702d32724affe10f0ecd39894bc159cf4f07ed3f32e2b5b878fc32671cf67b10"
+  },
+  {
+    "source": "Image_20261008213217_690_19.jpg",
+    "source_directory": "/home/qingxi/museum/extra",
+    "number": 690,
+    "role": "artwork",
+    "work": "houston-japanese-bridge",
+    "published": "monet-690.jpg",
+    "reason": "休斯顿晚期日本桥及配套展签，2026-10-08新增。",
+    "sha256": "33d7eb4290d950fe32cb46d94f97b8e925bd9928080ffbee0240e0aca3e5e072"
+  },
+  {
+    "source": "Image_20261008213218_691_19.jpg",
+    "source_directory": "/home/qingxi/museum/extra",
+    "number": 691,
+    "role": "label",
+    "work": "houston-japanese-bridge",
+    "published": null,
+    "reason": "休斯顿晚期日本桥及配套展签，2026-10-08新增。",
+    "sha256": "785c886a38e9c256a1d743059963b4a394bd33ee5162d3ce44fd5e2b1374ba10"
   }
 ]

@@ -105,3 +105,7 @@ European painting is now an active section (`european-painting/`), with Caravagg
 ## European painting / Monet water lilies, 2026-10-06
 
 `monet-water-lilies/` adds 16 water-garden paintings, one Orangerie ensemble record, with 25 unchanged personal photographs and five comparison groups. The Seattle private loan keeps ownership separate from viewing location. See [the topic README](monet-water-lilies/README.md) for all 44 input-photo decisions and the Houston identification. Run `python3 scripts/build_monet.py`, then `python3 scripts/build_museum.py`.
+
+## Houston additions, 2026-10-08
+
+Six inputs from `/home/qingxi/museum/extra` are accounted for in `extra-2026-10-08.json`. Monet 76.198 adds one painting and photograph (18 records / 26 photos total); the Japanese bridge group now includes the late Houston version. Sculpture object-259 keeps its identity, ownership and anchor: 688 replaces the main photo, 687 adds a close view, and 686 records the gallery. Label 689 supplements the existing label; all published images are unchanged copies. The old houston-259.jpg remains available at its original URL.

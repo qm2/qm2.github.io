@@ -1,0 +1,56 @@
+[
+  {
+    "source_directory": "/home/qingxi/museum/extra",
+    "source": "Image_20261008213210_686_19.jpg",
+    "number": 686,
+    "work": "object-259",
+    "role": "gallery-context",
+    "published": "buddhist-sculpture/images/houston-686.jpg",
+    "sha256": "9202d2c39856023ee94f9309bac6aed0e384c555c522d077e74cd05af7eda9af"
+  },
+  {
+    "source_directory": "/home/qingxi/museum/extra",
+    "source": "Image_20261008213212_687_19.jpg",
+    "number": 687,
+    "work": "object-259",
+    "role": "detail",
+    "published": "buddhist-sculpture/images/houston-687.jpg",
+    "sha256": "d1b031267a0bd34f64badae03d97aa87ffe7ea91874b013078d91b9e2518891d"
+  },
+  {
+    "source_directory": "/home/qingxi/museum/extra",
+    "source": "Image_20261008213213_688_19.jpg",
+    "number": 688,
+    "work": "object-259",
+    "role": "replacement-main",
+    "published": "buddhist-sculpture/images/houston-688.jpg",
+    "sha256": "bdf354721c05d71c59b54bf63c81b4a9204c7b89b40d3b9cd422b12dd32a4598"
+  },
+  {
+    "source_directory": "/home/qingxi/museum/extra",
+    "source": "Image_20261008213215_689_19.jpg",
+    "number": 689,
+    "work": "object-259",
+    "role": "label",
+    "published": null,
+    "sha256": "b4d3d808a49ac60b68913d2758c3fe4431246d176f5e4b4b845edd9e77baed60"
+  },
+  {
+    "source_directory": "/home/qingxi/museum/extra",
+    "source": "Image_20261008213217_690_19.jpg",
+    "number": 690,
+    "work": "houston-japanese-bridge",
+    "role": "main",
+    "published": "monet-water-lilies/images/monet-690.jpg",
+    "sha256": "33d7eb4290d950fe32cb46d94f97b8e925bd9928080ffbee0240e0aca3e5e072"
+  },
+  {
+    "source_directory": "/home/qingxi/museum/extra",
+    "source": "Image_20261008213218_691_19.jpg",
+    "number": 691,
+    "work": "houston-japanese-bridge",
+    "role": "label",
+    "published": null,
+    "sha256": "785c886a38e9c256a1d743059963b4a394bd33ee5162d3ce44fd5e2b1374ba10"
+  }
+]
