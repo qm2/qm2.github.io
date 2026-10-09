@@ -137,3 +137,6 @@ build_sculpture_topics(ROOT, objects, museums, render_card, lightbox)
 
 from build_ceramics import build as build_ceramics
 build_ceramics()
+
+from build_jazari import build as build_jazari
+build_jazari()

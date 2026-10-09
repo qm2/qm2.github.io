@@ -1,0 +1,44 @@
+[
+  {
+    "source": "Image_20261008214358_696_19.jpg",
+    "role": "artwork",
+    "work": "handwashing-servant",
+    "published": "images/handwashing-servant.jpg",
+    "sha256": "4ab102e217f8b283d547fcb07686ad8cf66d3e4508a310b890b605bc746d2380"
+  },
+  {
+    "source": "Image_20261008214358_697_19.jpg",
+    "role": "label",
+    "work": "handwashing-servant",
+    "published": null,
+    "sha256": "eff0245c4a92b5965124824126f358db9c421f59b886bcf012ece4e89e8c836f"
+  },
+  {
+    "source": "Image_20261008214358_698_19.jpg",
+    "role": "artwork",
+    "work": "water-clock-seated-man",
+    "published": "images/water-clock-seated-man.jpg",
+    "sha256": "a14420736af256e62ca650f0abc52ace6a38ef89f9b135b3082d4244a5c28c44"
+  },
+  {
+    "source": "Image_20261008214358_699_19.jpg",
+    "role": "label",
+    "work": "water-clock-seated-man",
+    "published": null,
+    "sha256": "52d23e481dcda1700f40e226ca0cea3e6fd052827c41718836c5775d2f376946"
+  },
+  {
+    "source": "Image_20261008214358_700_19.jpg",
+    "role": "artwork",
+    "work": "scribe-water-clock",
+    "published": "images/scribe-water-clock.jpg",
+    "sha256": "4895971e5e367184988ebac737f5e399f82de7b6e45e8d32d189fb9797b7f594"
+  },
+  {
+    "source": "Image_20261008214358_701_19.jpg",
+    "role": "label",
+    "work": "scribe-water-clock",
+    "published": null,
+    "sha256": "18afc0856163e7b3c38931ee164b1325112c4c45f651fc5e1ec302ed3a8e585d"
+  }
+]

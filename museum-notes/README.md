@@ -109,3 +109,7 @@ European painting is now an active section (`european-painting/`), with Caravagg
 ## Houston additions, 2026-10-08
 
 Six inputs from `/home/qingxi/museum/extra` are accounted for in `extra-2026-10-08.json`. Monet 76.198 adds one painting and photograph (18 records / 26 photos total); the Japanese bridge group now includes the late Houston version. Sculpture object-259 keeps its identity, ownership and anchor: 688 replaces the main photo, 687 adds a close view, and 686 records the gallery. Label 689 supplements the existing label; all published images are unchanged copies. The old houston-259.jpg remains available at its original URL.
+
+## Islamic art / al-Jazari, 2026-10-08
+
+`islamic-art/` is now an active section, beginning with `al-jazari/`: three manuscript leaves photographed at Freer and MFAH, three independent detail pages and a comparison. `al-jazari/data/works.json` is the editorial source; the intake manifest pairs all three photos with their labels and records original hashes. See [the topic README](al-jazari/README.md) for identity evidence and unresolved manuscript relationships. The main museum builder also regenerates this unit and its entrances.

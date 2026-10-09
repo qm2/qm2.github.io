@@ -1,0 +1,223 @@
+{
+  "title": "贾扎里的奇妙机械",
+  "subtitle": "《奇妙机械知识之书》",
+  "original_title": "The Book of Knowledge of Ingenious Mechanical Devices · Automata",
+  "intro": "我在弗利尔和休斯顿见过的三张书页：一位持壶的侍女、一位参与报时的男子，还有一位用笔尖指示时间的执笔人。沿着水路与人物的动作，读这些机械怎样被画在纸上。",
+  "background": "贾扎里（al-Jazari）曾在今土耳其迪亚巴克尔一带的阿尔图格王朝宫廷任职。《奇妙机械知识之书》于1206年完成，记述50种装置，包括计时器、宴饮与洗手器具、喷泉及提水机械。它以文字和图解传授构造知识，也保存了机械在宫廷日常与娱乐中的用途。这里的三页均出自14世纪抄本，与原著完成相隔一百多年。",
+  "background_sources": [
+    "history",
+    "masterpieces",
+    "freer-wash"
+  ],
+  "comparison": [
+    "洗手侍女把水送到宾客手边；两台水钟则让水的变化变成读得出的时间。前者的亭子包住人物，水路绕到台下；执笔人水钟反过来敞开容器，文字写进内部。1354年的水钟局部几乎把整页让给人物，装置的其余部分留在图外。",
+    "图中文字也有不同的任务：洗手装置周围散布部件标记，执笔人水钟有成段说明，坐着的男子一页则以形象为主。把它们并排看，既能读人物的姿态，也能比较机械知识如何分配在图、字与留白之间。",
+    "两张弗利尔书页分别作于1315年和1354年，明确来自不同抄本。萨巴赫书页同样标为1315年，但它与弗利尔洗手装置是否原属同一册，仍缺直接对应这两页的抄本编目证据。"
+  ],
+  "sources": {
+    "freer-wash": [
+      "弗利尔美术馆：F1930.75 馆藏记录",
+      "https://asia-archive.si.edu/object/F1930.75/"
+    ],
+    "freer-clock": [
+      "弗利尔美术馆：F1932.19 馆藏记录",
+      "https://asia-archive.si.edu/object/F1932.19/"
+    ],
+    "met-clock": [
+      "大都会艺术博物馆：另一抄本中的象形水钟 57.51.23",
+      "https://www.metmuseum.org/art/collection/search/451402"
+    ],
+    "sabah": [
+      "萨巴赫收藏：LNS 17 MS 的另一书页（持续奏笛装置）",
+      "https://thealsabahcollection.com/en/lns-17-ms-f-123v-en/"
+    ],
+    "mfah": [
+      "休斯顿美术馆：萨巴赫收藏借展",
+      "https://www.mfah.org/art/galleries/arts-of-islamic-lands-selections-from-the-al-sabah-collection-kuwait"
+    ],
+    "scribe": [
+      "1001 Inventions：书吏水钟原理与复原展示",
+      "https://artsandculture.google.com/asset/al-jazari-s-scribe-clock/DgEM9AXsomoGOg?hl=en"
+    ],
+    "checklist": [
+      "大都会《Court and Cosmos》展品说明，第43页（PDF）",
+      "https://libmma.contentdm.oclc.org/digital/api/collection/p16028coll12/id/18339/download#page=44"
+    ],
+    "history": [
+      "大都会《Islamic Painting》，1978年馆刊（PDF）",
+      "https://resources.metmuseum.org/resources/metpublications/pdf/Islamic_Art_The_Metropolitan_Museum_of_Art_Bulletin_v_36_no_2_Fall_1978.pdf"
+    ],
+    "masterpieces": [
+      "大都会伊斯兰艺术馆藏精选：第92项（PDF）",
+      "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf"
+    ]
+  },
+  "works": [
+    {
+      "id": "handwashing-servant",
+      "title": "持壶侍女洗手装置",
+      "original_title": "A hand-washing device in the form of a woman holding a pitcher",
+      "number": 696,
+      "label": 697,
+      "date": "1315年12月（伊斯兰历715年斋月）",
+      "region": "可能为叙利亚；马穆鲁克时期",
+      "material": "纸本墨、不透明水彩及金",
+      "dimensions": "31.1 × 21.6厘米",
+      "accession": "F1930.75，正面",
+      "collection": "史密森学会国家亚洲艺术博物馆 · 弗利尔收藏",
+      "visit": "华盛顿 · 弗利尔美术馆",
+      "copyist": "Farruq ibn Abd al-Latif（馆方拼写）",
+      "painter": "馆藏记录未单列绘画者",
+      "observation": "壶嘴伸出亭外，水落入左侧的盆；蓝色水路继续通向台座下方。",
+      "paragraphs": [
+        {
+          "title": "侍女、壶与洗手盆",
+          "text": "这是一台为宾客洗手而设计的机械侍从。现场展签描述的动作次序是：穹顶上的鸟鸣响，侍女从龙首壶嘴倾水，洗手结束后再递出左手持着的巾帕。壶、盆与巾帕都属于日常用具，在这里却由同一个装置安排先后。",
+          "sources": [],
+          "evidence": "label"
+        },
+        {
+          "title": "水流走到哪里",
+          "text": "馆方对排水部分的解释很具体：盆中的鸭子“饮”下用过的水，再从尾部把水排入平台下隐藏的容器。照片里，左下方鸟形部件旁的蓝色水路转向台座底部，与这一说明相呼应。供水与排水构成了可辨认的水路；鸟鸣、倒水和递巾之间的内部联动，单凭这幅外观与局部结构并置的图还不能完整还原。",
+          "sources": [
+            "freer-wash"
+          ],
+          "evidence": "research"
+        },
+        {
+          "title": "一张图里的两个尺度",
+          "text": "侍女的红袍、蓝色衣裙和亭上的花纹画得很细，台座下面却留出大片空白，画出一根垂线及其下端的碗形部件。建筑围住人物，细线又穿过这层装饰性的外壳。散布在壶、立柱和水路附近的字母，让画面兼具人物图与部件示意图的读法。",
+          "sources": [],
+          "evidence": "photo"
+        },
+        {
+          "title": "这张书页的来历",
+          "text": "书页由 Farruq ibn Abd al-Latif 抄写，贾扎里是原著作者。弗利尔于1930年向纽约的 Hagop Kevorkian 购入此页；馆藏记录把制作地点归为“可能为叙利亚”。",
+          "sources": [
+            "freer-wash"
+          ],
+          "evidence": "research"
+        }
+      ],
+      "note": "馆藏页面将本页列为散佚抄本的一部分；背面为21行文字。这里所见为正面插图。",
+      "sources": [
+        "freer-wash"
+      ],
+      "photo": "handwashing-servant.jpg",
+      "width": 1280,
+      "height": 1707
+    },
+    {
+      "id": "water-clock-seated-man",
+      "title": "水钟局部：坐着的男子",
+      "original_title": "Part of a water-clock, with a man seated",
+      "number": 698,
+      "label": 699,
+      "date": "1354年（伊斯兰历755年）",
+      "region": "埃及；马穆鲁克时期",
+      "material": "纸本墨、不透明水彩、金及银",
+      "dimensions": "39.7 × 27.5厘米",
+      "accession": "F1932.19，正面",
+      "collection": "史密森学会国家亚洲艺术博物馆 · 弗利尔收藏",
+      "visit": "华盛顿 · 弗利尔美术馆",
+      "copyist": "馆藏记录未注明",
+      "painter": "馆藏记录未注明",
+      "observation": "红衣男子两手伸向两侧圆盘，上方一列深色圆形沿半圆排开，下方建筑只剩轮廓。",
+      "paragraphs": [
+        {
+          "title": "没有画出大象的水钟",
+          "text": "现场展签把这幅不完整构图解释为象形水钟的上部：人物坐在高处，参与向下方龙口释放报时物的过程。眼前的书页没有画出大象，也没有呈现整套水路。它记录的是复杂装置的一个部分，而不是一幅独立的人物肖像。",
+          "sources": [],
+          "evidence": "label"
+        },
+        {
+          "title": "报时发生在人物之间",
+          "text": "象形水钟以水来计时，并把时间间隔转为一连串可见、可听的动作。大都会对另一抄本中完整象形水钟的说明是：每半小时，顶上的鸟鸣响，男子向龙口放下一颗球，象夫敲击大象。这个对照解释了高处人物在装置中的报时作用；它并不能补足1354年这张局部图未画出的水力传动。",
+          "sources": [
+            "met-clock"
+          ],
+          "evidence": "research"
+        },
+        {
+          "title": "完成的衣纹，未填满的建筑",
+          "text": "男子正面而坐，红袍的卷曲纹样几乎铺满整个身体；两旁金色圆盘的位置，恰好把目光引向手的动作。人物上方是一串深色圆形，下方则是细红线勾出的折曲轮廓。衣饰与轮廓的完成程度不同，使人的形象格外突出，也让这页保留了机械图尚未全部展开的感觉。",
+          "sources": [],
+          "evidence": "photo"
+        },
+        {
+          "title": "另一部抄本",
+          "text": "1354年的年代与埃及的制作地均据馆藏记录，与洗手侍女的1315年书页不同。此页曾经 Fredrik Robert Martin 及巴黎 H. Sevadjian 收藏，弗利尔在1932年经 K. Minassian 购入。抄写者与绘画者未见馆藏记录署名。",
+          "sources": [
+            "freer-clock"
+          ],
+          "evidence": "research"
+        }
+      ],
+      "note": "资料注：现场展签称人物释放的是“金色圆盘”；大都会另一抄本的说明用“球”。两者对应不同书页，这里保留措辞差别，不把另一图的部件形状直接移到本页。",
+      "sources": [
+        "freer-clock",
+        "met-clock"
+      ],
+      "photo": "water-clock-seated-man.jpg",
+      "width": 1280,
+      "height": 1707
+    },
+    {
+      "id": "scribe-water-clock",
+      "title": "执笔人水钟",
+      "original_title": "Folio from Kitab fi ma’rifat al-hiyal al-handasiyah (Book of the Knowledge of Ingenious Mechanical Devices)",
+      "number": 700,
+      "label": 701,
+      "date": "1315年12月（伊斯兰历715年斋月末）",
+      "region": "可能为伊拉克（休斯顿现场展签）",
+      "material": "纸本墨、不透明水彩及金",
+      "dimensions": "",
+      "accession": "LNS 17 MS，folio 30c（展签编号）",
+      "collection": "科威特 · 萨巴赫收藏（The al-Sabah Collection）",
+      "visit": "休斯顿美术馆 · 萨巴赫收藏借展",
+      "copyist": "此页展签未署名；相关目录将 LNS 17 MS 归于 Farrukh ibn Abd al-Latif",
+      "painter": "此页未有独立署名；参见资料注",
+      "observation": "长笔斜指左下，人物坐在容器上方；文字沿器壁内侧展开，几乎与机械结构融为一体。",
+      "paragraphs": [
+        {
+          "title": "笔尖指向时间",
+          "text": "坐在容器上的人手持一支长笔，笔在这里充当时间指针。按照休斯顿展签，人物下方的圆盘分成时段，容器里的水逐渐流出，滑轮带动人物旋转，笔尖随之移动。水的减少，由此变成圆盘上可以读出的时间。",
+          "sources": [],
+          "evidence": "label"
+        },
+        {
+          "title": "从水位到转动",
+          "text": "1001 Inventions 的书吏水钟复原说明进一步解释了这条传动链：水从孔口流出，浮子随水位下降，牵动绳索和滑轮，带着顶部人物转动。这是依据装置原理的解释。眼前书页把容器内部敞开画出，有中央竖杆、垂线和不同颜色的部件；各部件的逐一对应仍需结合本页原文，不能仅凭颜色认定。",
+          "sources": [
+            "scribe"
+          ],
+          "evidence": "research"
+        },
+        {
+          "title": "把说明写进容器",
+          "text": "与两张弗利尔书页相比，这页最显眼的是文字的位置。文字不是整齐排在图下，而是顺着两侧器壁与中间竖杆留下的空间书写。笔、人物和敞开的容器构成一条纵向线索，下部的蓝色波纹又把视线带向水。装置的外观与内部说明，在同一张图里上下衔接。",
+          "sources": [],
+          "evidence": "photo"
+        },
+        {
+          "title": "在休斯顿看到的科威特收藏",
+          "text": "编号 LNS 17 MS 属于萨巴赫收藏。收藏方公开了同编号下另一张持续奏笛装置书页；休斯顿美术馆则说明这一展厅来自与萨巴赫收藏及 Dar al-Athar al-Islamiyyah 的长期合作。这张执笔人水钟的页码、具体年代与材质据现场展签，观看地点与收藏归属在此分别记录。",
+          "sources": [
+            "sabah",
+            "mfah"
+          ],
+          "evidence": "research"
+        }
+      ],
+      "note": "资料注：此页展签归为“可能为伊拉克”；萨巴赫的同编号书页及大都会2016年目录采用“叙利亚或伊拉克”。该目录把 LNS 17 MS 的抄写与绘画归于 Farrukh ibn Abd al-Latif，但所列插图是持续奏笛装置，并非这里的30c页。",
+      "sources": [
+        "sabah",
+        "checklist",
+        "mfah"
+      ],
+      "photo": "scribe-water-clock.jpg",
+      "width": 1280,
+      "height": 1707
+    }
+  ]
+}
