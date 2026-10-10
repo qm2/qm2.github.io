@@ -1,0 +1,65 @@
+{
+  "title": "广胜寺壁画",
+  "subtitle": "在纽约与堪萨斯城，把同一座殿堂的三段画面重新联系起来。",
+  "works": [
+    {
+      "id": "guangsheng-medicine-buddha",
+      "wall": "东壁",
+      "intro": "先看主尊、日月轮与外侧护法，再退远看约十五米的画面如何展开。"
+    },
+    {
+      "id": "tejaprabha-assembly",
+      "wall": "西壁",
+      "intro": "从主尊走向星曜群像，也看墨线、矿物色与离寺后的拼接痕迹。"
+    },
+    {
+      "id": "guangsheng-sudhana",
+      "wall": "南壁",
+      "intro": "从大幅法会转向一次相遇：带头光的善财，走进孩子们的世界。"
+    }
+  ],
+  "history": [
+    {
+      "title": "先回到广胜下寺",
+      "text": "这三件都来自山西洪洞的广胜下寺大雄宝殿。药师佛与炽盛光佛原在东西两壁相对，善财童子的故事则在南壁展开。今天分处纽约和堪萨斯城的照片，由此有了一条共同的线索。",
+      "sources": [
+        {
+          "name": "纳尔逊：西壁位置与对壁关系",
+          "url": "https://art.nelson-atkins.org/objects/14590/the-assembly-of-tejaprabha"
+        },
+        {
+          "name": "纳尔逊：南壁善财故事",
+          "url": "https://art.nelson-atkins.org/objects/938/illustration-to-the-travels-of-sudhana-from-the-gandavyuha-o"
+        }
+      ]
+    },
+    {
+      "title": "地震之后，画什么样的佛",
+      "text": "1303年的地震重创广胜寺。此后的修建背景，使这两幅大壁画不只是风格上的近邻：药师佛关乎疗病与护佑，炽盛光佛则关乎星曜与禳灾。两馆都把这种组合与灾后的祈愿联系起来，但具体委托人和作画动机并未因此得到确认。",
+      "sources": [
+        {
+          "name": "大都会：历史背景与主尊辨识",
+          "url": "https://www.metmuseum.org/art/collection/search/42716"
+        },
+        {
+          "name": "纳尔逊：炽盛光佛与灾后背景",
+          "url": "https://art.nelson-atkins.org/objects/14590/the-assembly-of-tejaprabha"
+        }
+      ]
+    },
+    {
+      "title": "从墙面到博物馆",
+      "text": "20世纪上半叶，这些壁画被售出、分割并运往海外。纳尔逊的来源档案据1929年碑记，将出售壁画筹资修殿的事件记为1927年；大都会现行网页概述则写作20世纪30年代，年代口径尚有差异。炽盛光佛1932年由纳尔逊购入，善财残片1947年正式入藏，药师佛1965年受赠进入大都会。",
+      "sources": [
+        {
+          "name": "纳尔逊：来源档案与碑记说明",
+          "url": "https://art.nelson-atkins.org/objects/14590/the-assembly-of-tejaprabha"
+        },
+        {
+          "name": "大都会：馆藏记录",
+          "url": "https://www.metmuseum.org/art/collection/search/42716"
+        }
+      ]
+    }
+  ]
+}

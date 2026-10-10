@@ -79,3 +79,7 @@ The Chinese painting entrance and homepage count now include only 18 works with 
 `comparison_groups` define three reciprocal reading groups with explicit comparison reasons: northern monumental landscapes (Li Cheng, attributed Jing Hao, Winter Mountains, Taigu Yimin); text-to-image (Qiao Zhongchang, Li Song, Luo River); Southern Song landscape unfolding (Xia Gui, attributed Ma Yuan, Jiang Shen). Links are generated for every member. Other existing object relationships (Cisheng layered murals and paired tilling/weaving scrolls) remain intact.
 
 At the user's explicit editorial direction, Bamboo and Rocks now displays `传 檀芝瑞`. `artist_en: Attributed to Tan Zhirui` preserves the museum's spelling in the detail record. This change does not claim new independent verification of the Chinese spelling or remove the attribution qualifier.
+
+## Guangsheng expansion, 2026-10-09
+
+Current records: 34 works (18 general paintings; 16 Buddhist paintings, including 7 murals). Added Met 65.29.2 and Nelson 47-88; expanded existing Nelson 32-91/1 without changing its canonical URL. Topic/index/comparison reuse this JSON and image directory. Ten new original JPEGs; previous Tejaprabha assets retained. See [Guangsheng notes](../guangsheng-murals/README.md) and its complete 14-file intake manifest.

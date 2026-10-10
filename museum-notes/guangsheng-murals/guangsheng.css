@@ -1,0 +1,6 @@
+/* Topic-specific spacing; shared painting styles and viewer supply the rest. */
+.gs-history{max-width:850px}.gs-history section{margin:30px 0}.gs-history h3{font-size:23px}.gs-history p{line-height:1.95}.gs-card-note{margin-top:12px!important;line-height:1.9}.gs-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px;margin:30px 0}.gs-panel{margin:0;min-width:0}.gs-panel .photo-open{display:block;background:#e8e3d9;padding:10px;--photo-height:460px;cursor:zoom-in}.gs-panel h2{font-size:25px;margin:18px 0 10px}.gs-panel figcaption p{font-size:13px;color:var(--muted);margin:5px 0}.gs-small{margin-top:55px}.gs-small .gs-panel{max-width:850px;margin:25px auto}.gs-small .photo-open{--photo-height:650px}.source a{overflow-wrap:anywhere}
+@media(max-width:650px){.gs-pair{grid-template-columns:1fr;gap:35px}.gs-panel .photo-open{padding:0;--photo-height:380px}.gs-history h3{font-size:21px}}
+
+.painting-intro .painting-banner>a{--photo-height:600px}
+@media(max-width:650px){.painting-intro .painting-banner>a{--photo-height:380px}}

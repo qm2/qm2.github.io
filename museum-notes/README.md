@@ -128,3 +128,7 @@ The label identifies Wuhan Museum ownership and dimensions (height 37.6 cm, mout
 ## Xiangtangshan, 2026-10-09
 
 New `/museum-notes/xiangtangshan/` unit: 24 attributed sculptures, 1 separately disputed Cernuschi Buddha, 25 detail pages and 4 cross-museum comparison groups. Connected to the Chinese Buddhist Art directory as its fifth sculpture topic. Photo mappings, source discrepancies, excluded Penn luohan reuse and build commands are documented in [the topic README](xiangtangshan/README.md). Main build now generates this topic. Originals stay in the retained local ZIP; the site uses shared large JPEGs and thumbnails. Selected-sculpture summary: 59 + 1 disputed, deduplicated across topics.
+
+## Guangsheng Temple murals, 2026-10-09
+
+`/museum-notes/guangsheng-murals/` brings together three murals/fragments in two museums, with historical background and a comparison page. Two new canonical painting records join the existing Tejaprabha page, bringing Buddhist painting to 16 works. The topic reuses shared records and photographs; see [intake and research notes](guangsheng-murals/README.md). `build_museum.py` now also regenerates painting pages through `build_guangsheng.py`.

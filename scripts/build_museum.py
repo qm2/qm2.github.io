@@ -145,3 +145,6 @@ build_jazari()
 
 from build_xiangtangshan import build as build_xiangtangshan
 build_xiangtangshan()
+
+from build_guangsheng import build as build_guangsheng
+build_guangsheng()

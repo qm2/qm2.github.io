@@ -1,0 +1,170 @@
+{
+  "source_directory": "/home/qingxi/museum/广胜寺壁画",
+  "files": [
+    {
+      "original": "Image_20261009234010_750_19.jpg",
+      "number": 750,
+      "role": "artwork",
+      "sha256": "d69789e170248e9a6d07a04c1fac912e92c8291838bd4a161d98072551638f72",
+      "published": "../../chinese-painting/images/guangsheng-750.jpg"
+    },
+    {
+      "original": "Image_20261009234010_751_19.jpg",
+      "number": 751,
+      "role": "artwork",
+      "sha256": "126dffe9a8a85564ea6d85afde9ebd310a3bca5fd076897b5ead9bd2ebe7a029",
+      "published": "../../chinese-painting/images/guangsheng-751.jpg"
+    },
+    {
+      "original": "Image_20261009234010_752_19.jpg",
+      "number": 752,
+      "role": "label",
+      "sha256": "8853e27a6d226f666331e4354bb885bf5230de394128794cb536b2bb4ef79a13"
+    },
+    {
+      "original": "Image_20261009234010_753_19.jpg",
+      "number": 753,
+      "role": "artwork",
+      "sha256": "c67f7c113b62ef3c454d48922751384ed90b7f9316a14583f33f6731dd6e0e99",
+      "published": "../../chinese-painting/images/guangsheng-753.jpg"
+    },
+    {
+      "original": "Image_20261009234010_754_19.jpg",
+      "number": 754,
+      "role": "artwork",
+      "sha256": "a3430a74308c65f8306585e240d8578d41cd28760b6169db90f2c516ad77890d",
+      "published": "../../chinese-painting/images/guangsheng-754.jpg"
+    },
+    {
+      "original": "Image_20261009234010_755_19.jpg",
+      "number": 755,
+      "role": "artwork",
+      "sha256": "91361ec34a83c3e7309dcc1aee9d70c56967bd5a9d31d080e0d7c4a3c289466b",
+      "published": "../../chinese-painting/images/guangsheng-755.jpg"
+    },
+    {
+      "original": "Image_20261009234010_756_19.jpg",
+      "number": 756,
+      "role": "artwork",
+      "sha256": "12bf8787655a107ac23a874759d09f645b80966c731d24370b0982f9db7f7386",
+      "published": "../../chinese-painting/images/guangsheng-756.jpg"
+    },
+    {
+      "original": "Image_20261009234010_757_19.jpg",
+      "number": 757,
+      "role": "artwork",
+      "sha256": "4a09c2f6a28cc3beb58656824d946bdd543b3f549cee812318680a4f2536609a",
+      "published": "../../chinese-painting/images/guangsheng-757.jpg"
+    },
+    {
+      "original": "Image_20261009234010_758_19.jpg",
+      "number": 758,
+      "role": "artwork",
+      "sha256": "65d0d3c5ab54f1a319c0abedb7be2ce697501a5f622d266f3b640a912e4baf54",
+      "published": "../../chinese-painting/images/guangsheng-758.jpg"
+    },
+    {
+      "original": "Image_20261009234010_759_19.jpg",
+      "number": 759,
+      "role": "artwork",
+      "sha256": "cd6d63845175c6ad28e3716965bc70b60fdef87d7eef84f3c7a1068517fcca69",
+      "published": "../../chinese-painting/images/guangsheng-759.jpg"
+    },
+    {
+      "original": "Image_20261009234010_760_19.jpg",
+      "number": 760,
+      "role": "label",
+      "sha256": "e2f73e4ea2caac6f077c09a27546a6a4f932fce23e253d351897a3bd6c17a117"
+    },
+    {
+      "original": "Image_20261009234010_761_19.jpg",
+      "number": 761,
+      "role": "artwork",
+      "sha256": "33060f0a1fa355fbf75c497821f7a2a3aafb49a0fd91ec2cc2a2b0db92268c50",
+      "published": "../../chinese-painting/images/guangsheng-761.jpg"
+    },
+    {
+      "original": "Image_20261009234010_762_19.jpg",
+      "number": 762,
+      "role": "label",
+      "sha256": "e7141ed1cc471a83eb731570c6e87f0390b907d637562b0b5621a0cc7f9563bc"
+    },
+    {
+      "original": "Image_20261009234010_763_19.jpg",
+      "number": 763,
+      "role": "alternate",
+      "sha256": "278c1f0bb1fdc1a21f4ba0759fcc7c38d24bd8d3dd9d7c6242e54a1a232d5ddc"
+    }
+  ],
+  "previous_tejaprabha_selection": {
+    "sequence": [
+      {
+        "number": 375,
+        "caption": "炽盛光佛与两侧菩萨",
+        "photo": "painting-375.jpg",
+        "source_photo": "Image_20260921233611_375_19.jpg",
+        "width": 1702,
+        "height": 1276,
+        "rotation": 0
+      },
+      {
+        "number": 373,
+        "caption": "壁画左侧人物",
+        "photo": "painting-373.jpg",
+        "source_photo": "Image_20260921233611_373_19.jpg",
+        "width": 1280,
+        "height": 1707,
+        "rotation": 0
+      },
+      {
+        "number": 374,
+        "caption": "菩萨局部",
+        "photo": "painting-374.jpg",
+        "source_photo": "Image_20260921233611_374_19.jpg",
+        "width": 1280,
+        "height": 1707,
+        "rotation": 0
+      },
+      {
+        "number": 376,
+        "caption": "壁画右侧人物",
+        "photo": "painting-376.jpg",
+        "source_photo": "Image_20260921233611_376_19.jpg",
+        "width": 1280,
+        "height": 1707,
+        "rotation": 0
+      },
+      {
+        "number": 377,
+        "caption": "人物与衣纹局部",
+        "photo": "painting-377.jpg",
+        "source_photo": "Image_20260921233611_377_19.jpg",
+        "width": 1280,
+        "height": 1707,
+        "rotation": 0
+      }
+    ],
+    "extras": [
+      {
+        "number": 379,
+        "caption": "展厅中的壁画，前方为另一件观音造像",
+        "photo": "painting-379.jpg",
+        "source_photo": "Image_20260921233611_379_19.jpg",
+        "width": 1702,
+        "height": 1276,
+        "rotation": 0
+      }
+    ],
+    "cover": 375
+  },
+  "label_pairs": {
+    "750,751": 752,
+    "753–759,763": 760,
+    "761": 762
+  },
+  "notes": [
+    "All 14 inputs accounted for; labels and alternate 763 remain local.",
+    "Previous Tejaprabha image files preserved; old overview 375 retained in current gallery.",
+    "Original filenames do not establish visit dates."
+  ]
+}
