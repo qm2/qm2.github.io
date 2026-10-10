@@ -1,0 +1,74 @@
+{
+  "title": "慈胜寺壁画",
+  "subtitle": "从焚香的手势，到藏在画下的观音。",
+  "hero": "cisheng-ruyilun",
+  "intro": "堪萨斯城、普林斯顿与巴黎的五件壁画残片，沿着河南温县慈胜寺这条线索放在一起。寺址归属、年代和菩萨的具体身份，也都各有值得追问的地方。",
+  "groups": [
+    {
+      "id": "nelson",
+      "title": "纳尔逊：主尊、焚香与下层观音",
+      "description": "三件展品里，有两件曾经重叠在同一块墙面上。",
+      "works": [
+        "cisheng-ruyilun",
+        "cisheng-incense",
+        "cisheng-guanyin"
+      ]
+    },
+    {
+      "id": "related",
+      "title": "普林斯顿与吉美：沿着残片继续看",
+      "description": "一件保留成组胁侍的一侧，一件以坐姿和持物与这组壁画相联系。",
+      "works": [
+        "cisheng-attendants",
+        "guimet-akasagarbha"
+      ]
+    }
+  ],
+  "card_notes": {
+    "cisheng-ruyilun": "高冠、双手与莲座，沿中轴逐层展开。",
+    "cisheng-incense": "揭盖、投香，人物的手势在香炉上方交会。",
+    "cisheng-guanyin": "从焚香图下面分离出的更早一层。",
+    "cisheng-attendants": "托盘中的供物，以及残片之外的中心。",
+    "guimet-akasagarbha": "相关残片 · 吉美记录仅注明河南寺院来源。"
+  },
+  "history": [
+    {
+      "title": "寺院仍在，画的来处还要细读",
+      "text": "慈胜寺在河南温县。中山大学的实地教学记录指出，现存天王殿、大雄殿以元代木构为主体，寺内也还有壁画。这些现存建筑、留在寺里的画，与海外这组通常归入五代的残片，需要分别看待。",
+      "sources": [
+        {
+          "name": "中山大学：慈胜寺实地考察与来源讨论",
+          "url": "https://historyzh.sysu.edu.cn/node/135"
+        }
+      ]
+    },
+    {
+      "title": "“慈胜寺壁画”这个名称怎样形成",
+      "text": "这组残片的寺名与断代，是研究逐渐建立的联系。2021年的论文摘要回顾：何惠鉴据纳尔逊坐姿观音上的纪年，将一组壁画推定为后周广顺年间，并追溯到温县慈胜寺；论文也重新讨论了年代与图像辨识。馆方记录沿用的名称与学术讨论并存，尚不足以排出每片画原来的墙面位置。",
+      "sources": [
+        {
+          "name": "《传河南省温县慈胜寺壁画的制作时期与图像再考》（2021，摘要）",
+          "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002733973"
+        }
+      ]
+    },
+    {
+      "title": "卢芹斋之后，分藏不同城市",
+      "text": "纳尔逊的焚香图与下层观音来自卢芹斋1950年的赠品，普林斯顿1952年从他处购入胁侍菩萨。吉美的藏品记录也列卢芹斋旧藏，购藏时间则是1986年。今天单独装框的画片，保留着当年群像的残余手势、截断的人物，以及重绘留下的层次。",
+      "sources": [
+        {
+          "name": "纳尔逊：焚香图来源",
+          "url": "https://art.nelson-atkins.org/objects/6928/two-bodhisattvas-burning-ritual-incense"
+        },
+        {
+          "name": "普林斯顿：购藏记录",
+          "url": "https://artmuseum.princeton.edu/art/collections/objects/24192"
+        },
+        {
+          "name": "吉美：旧藏与购藏记录",
+          "url": "https://pop.culture.gouv.fr/notice/joconde/50060000962"
+        }
+      ]
+    }
+  ]
+}

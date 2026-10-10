@@ -33,7 +33,7 @@ def build():
     body+='</div></section><section class="editorial-note wrap gs-history" id="history"><h2>寺院与流转</h2>'
     for h in data['history']:
         body+=f'<section><h3>{e(h["title"])}</h3><p>{e(h["text"])}</p>{refs(h["sources"])}</section>'
-    body+='</section><aside class="related-topics wrap"><p><a href="compare/">把东壁、西壁与南壁放在一起看 →</a>　<a href="../buddhist-painting/#murals">再看其他寺院壁画 →</a></p></aside>'
+    body+='</section><aside class="related-topics wrap"><p><a href="compare/">把东壁、西壁与南壁放在一起看 →</a>　<a href="../buddhist-painting/#murals">再看其他寺院壁画 →</a>　<a href="../cisheng-murals/">慈胜寺壁画：焚香与画下的观音 →</a></p></aside>'
     (target/'index.html').write_text(shell('广胜寺壁画',body))
     def panel(w,n,caption):
         p=asset(w,n);alt=w['title']+' · '+caption

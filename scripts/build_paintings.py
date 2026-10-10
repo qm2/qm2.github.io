@@ -84,7 +84,7 @@ for index,w in enumerate(works):
     if w.get('topic'):
         return_url='../../'+w['topic']+'/'
         return_name=w['topic_title']
-        related+=f'<p class="featured-note"><a href="{return_url}compare/">把三段壁画放在一起看 →</a></p>'
+        related+=f'<p class="featured-note"><a href="{return_url}compare/">{e(w.get("compare_label","把三段壁画放在一起看 →"))}</a></p>'
     period_crumb=f'<a href="../#{w["period"]}">{names[w["period"]]}</a>' if w['unit']=='scrolls' else f'<span>{names[w["period"]]}</span>'
     directory_link=f'<a href="{return_url}">在{return_name}中查看 →</a>'
     source=f'<br><a href="{e(w["url"])}" target="_blank" rel="noopener noreferrer">馆方资料 ↗</a>' if w['url'] else ''
@@ -130,7 +130,7 @@ for slug,title,items in [('dunhuang-painting','敦煌绘画',dunhuang),('buddhis
         note='广胜寺与慈胜寺的壁画、成组悬挂的罗汉画、敦煌的供养画与幡画，呈现了佛教图像不同的使用环境。'
     links=''.join(f'<a href="#{gid}">{gtitle}<span>{len(gitems)}</span></a>' for gid,gtitle,gitems in groups)
     body=f'<nav class="breadcrumbs wrap"><a href="../">博物馆札记</a><span>/</span><a href="../chinese-buddhist-art/">中国佛教艺术</a><span>/</span><span>{title}</span></nav><header class="painting-intro wrap"><p class="eyebrow">CHINESE BUDDHIST ART / PAINTING</p><h1>{title}</h1><p class="subtitle">{intro}</p><p class="intro">{len(items)} 件作品 · 摄影 / Merton</p><p class="topic-return"><a href="../chinese-painting/">中国书画年代目录 →</a>　<a href="../buddhist-painting/">佛教绘画 →</a>　<a href="../dunhuang-painting/">敦煌绘画 →</a></p></header><nav class="period-nav wrap">{links}</nav>'
-    if slug=='buddhist-painting':body+='<aside class="related-topics wrap"><p><a href="../guangsheng-murals/">广胜寺壁画 · 三段画面，同一座殿堂 →</a></p></aside>'
+    if slug=='buddhist-painting':body+='<aside class="related-topics wrap"><p><a href="../guangsheng-murals/">广胜寺壁画 · 三段画面，同一座殿堂 →</a>　<a href="../cisheng-murals/">慈胜寺壁画 · 焚香与画下的观音 →</a></p></aside>'
     if slug=='buddhist-painting':body+=filters(items,[('dunhuang','敦煌'),('murals','寺院壁画'),('arhat','罗汉'),('buddha-bodhisattva','佛菩萨画像')])
     for gid,gtitle,gitems in groups:
         body+=f'<section class="period-section wrap" id="{gid}"><div class="period-heading"><h2>{gtitle}</h2></div><div class="paintings-grid">'+''.join(card(w,'../chinese-painting/') for w in gitems)+'</div></section>'

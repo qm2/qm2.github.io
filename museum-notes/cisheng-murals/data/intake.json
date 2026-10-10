@@ -1,0 +1,95 @@
+{
+  "source_directory": "/home/qingxi/museum/河南温县慈胜寺",
+  "files": [
+    {
+      "number": 372,
+      "original": "Image_20260921233611_372_19.jpg",
+      "sha256": "0313e9a36fb01af1b766f30f801ce63256772be6da0468d7bf1fad755a26d594",
+      "role": "context",
+      "published": "../../chinese-painting/images/cisheng-372.jpg",
+      "reused": false
+    },
+    {
+      "number": 381,
+      "original": "Image_20260921233611_381_19.jpg",
+      "sha256": "dc0d487b86e277a3db0c31d03bf4f0eefc0a49aff870734b1fede5c186597af6",
+      "role": "artwork",
+      "published": "../../chinese-painting/images/painting-381.jpg",
+      "reused": true
+    },
+    {
+      "number": 382,
+      "original": "Image_20260921233611_382_19.jpg",
+      "sha256": "3004b6d4dfc3a8d3c5a758f7016116a75f82b2d58d1305c1af2505b8ffabe21b",
+      "role": "label"
+    },
+    {
+      "number": 383,
+      "original": "Image_20260921233611_383_19.jpg",
+      "sha256": "4d13e5492a9b97b2f4ef67fe7fdba59b6b9542dc345ba3ce54386a4116c4379c",
+      "role": "artwork",
+      "published": "../../chinese-painting/images/painting-383.jpg",
+      "reused": true
+    },
+    {
+      "number": 384,
+      "original": "Image_20260921233611_384_19.jpg",
+      "sha256": "db1db973e6bde90f43383922d2b9aa987fe6243ee87fd372d2f43e3e7a0f3ce6",
+      "role": "label"
+    },
+    {
+      "number": 385,
+      "original": "Image_20260921233611_385_19.jpg",
+      "sha256": "9f0e3397df2066844b7263d7920e336babd0de28511d731a282c1dadd6503a56",
+      "role": "artwork",
+      "published": "../../chinese-painting/images/painting-385.jpg",
+      "reused": true
+    },
+    {
+      "number": 386,
+      "original": "Image_20260921233611_386_19.jpg",
+      "sha256": "a8f095bfb1cad5d94210cace807641ab6294c4441859dc455cc464c80a3accd6",
+      "role": "label"
+    },
+    {
+      "number": 456,
+      "original": "Image_20260921233611_456_19.jpg",
+      "sha256": "dd94fa381bf123c5aafb1e1f7655870baa1e030e8c10ee0451dbf07844212665",
+      "role": "artwork",
+      "published": "../../chinese-painting/images/painting-456.jpg",
+      "reused": true
+    },
+    {
+      "number": 457,
+      "original": "Image_20260921233611_457_19.jpg",
+      "sha256": "f638c2230d067c9fb933572271de0ad1b460f1d7198b34599e63fa06a7f083d0",
+      "role": "label"
+    },
+    {
+      "number": 764,
+      "original": "Image_20261009235824_764_19.jpg",
+      "sha256": "e92daca0d7b0107562aa0d470fc3d22461384acd38ead4030f5707553f314750",
+      "role": "artwork",
+      "published": "../../chinese-painting/images/cisheng-764.jpg",
+      "reused": false
+    },
+    {
+      "number": 765,
+      "original": "Image_20261009235825_765_19.jpg",
+      "sha256": "8bdd577309991b3231ad43f1e951dc9796bb99b2678fc64d3b4a97a2a260139b",
+      "role": "label"
+    }
+  ],
+  "label_pairs": {
+    "381": 382,
+    "383": 384,
+    "385": 386,
+    "456": 457,
+    "764": 765
+  },
+  "notes": [
+    "Four existing artwork images reused byte-for-byte; only 372 context and 764 new artwork copied.",
+    "Five labels remain local; no original date of visit inferred from filenames.",
+    "Guimet included as a related fragment, not an independently verified Cisheng provenance."
+  ]
+}

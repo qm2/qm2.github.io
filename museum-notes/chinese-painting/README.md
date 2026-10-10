@@ -83,3 +83,7 @@ At the user's explicit editorial direction, Bamboo and Rocks now displays `ä¼  æ
 ## Guangsheng expansion, 2026-10-09
 
 Current records: 34 works (18 general paintings; 16 Buddhist paintings, including 7 murals). Added Met 65.29.2 and Nelson 47-88; expanded existing Nelson 32-91/1 without changing its canonical URL. Topic/index/comparison reuse this JSON and image directory. Ten new original JPEGs; previous Tejaprabha assets retained. See [Guangsheng notes](../guangsheng-murals/README.md) and its complete 14-file intake manifest.
+
+## Cisheng unit, 2026-10-10
+
+35 canonical records: 18 general paintings and 17 Buddhist paintings (8 murals). Four existing Cisheng/related pages are expanded; Princeton y1952-41 is added. [Cisheng topic](../cisheng-murals/README.md) reuses the records and photo files, with only two new image copies. No original work URL changes. Optional `compare_label` supplies a topic-specific link without changing Guangsheng wording.

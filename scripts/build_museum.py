@@ -148,3 +148,6 @@ build_xiangtangshan()
 
 from build_guangsheng import build as build_guangsheng
 build_guangsheng()
+
+from build_cisheng import build as build_cisheng
+build_cisheng()
