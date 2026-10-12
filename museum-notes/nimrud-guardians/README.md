@@ -17,3 +17,7 @@ Checks: `python3 scripts/check_nimrud.py`; full-site links via `python3 scripts/
 ## Room identification follow-up
 
 The user supplied the S-06 / L-10 lead. Independently opened Cleveland’s printable collection record and CDLI https://cdli.earth/artifacts/427317: both explicitly identify S-06; the museum bibliography also cites Klaudia Englund, Room S, S-6. Nelson’s collection record was rechecked: provenance Room L and bibliography Meuszyński 1981 p.67 no.L-10. Updated canonical room fields, the two notes and the shared source note. CDLI uses Limestone for Cleveland; the displayed material continues to follow the holding museum’s Gypsum, as required. No original publication beyond these online records is claimed as directly read.
+
+## Context and citation cleanup
+
+Added an approximately 150-character paragraph from TARII’s Nimrud project report: 2015–2016 destruction, Iraqi Nimrud Rescue Team recovery and stabilization from 2017, subsequent TARII support and the 2025 emergency stabilization focus. These activities are not described as completed reconstruction. The historical introduction now states the Ashurbanipal/Nineveh distinction directly. Work-note citations are deduplicated and grouped at each entry’s end, preserving paragraph-level source associations in JSON. The readable Cleveland print record replaces its API link in public citations; earlier API research remains documented above.

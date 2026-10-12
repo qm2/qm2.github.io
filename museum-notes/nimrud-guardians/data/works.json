@@ -8,12 +8,8 @@
       "https://emuseum.mfah.org/fr/objects/5273/guardian-figure"
     ],
     "cleveland": [
-      "克利夫兰艺术博物馆：Saluting Protective Spirit",
-      "https://www.clevelandart.org/art/1943.246"
-    ],
-    "cleveland-api": [
-      "克利夫兰馆藏开放数据：1943.246 来源与铭文",
-      "https://openaccess-api.clevelandart.org/api/artworks/1943.246"
+      "克利夫兰馆藏打印页：作品、来源与S-06书目",
+      "https://www.clevelandart.org/print/art/1943.246"
     ],
     "nelson": [
       "纳尔逊：Winged Genie Fertilizing a Date Tree（含来源与书目）",
@@ -39,13 +35,13 @@
       "大英博物馆：亚述巴尼拔的猎狮浮雕",
       "https://www.britishmuseum.org/collection/galleries/assyria-lion-hunts"
     ],
-    "cleveland-room": [
-      "克利夫兰馆藏书目：S室与S-06壁板",
-      "https://www.clevelandart.org/print/art/1943.246"
-    ],
     "cdli-s06": [
       "楔形文字数字图书馆 CDLI：P427317／S-06",
       "https://cdli.earth/artifacts/427317"
+    ],
+    "tarii": [
+      "伊拉克学术研究所 TARII：尼姆鲁德的抢救、回收与修复",
+      "https://www.tarii.org/nimrud"
     ]
   },
   "works": [
@@ -102,14 +98,14 @@
         {
           "text": "密集的楔形文字横穿手臂、衣袍与羽翼，人物轮廓并没有让文字停下来。照片中的横向接缝显示壁板由数块拼合，共同构成一件馆藏浮雕。馆方书目与楔形文字数字图书馆（CDLI）的 P427317 条目，将它对应到西北宫S室的 S-06号壁板。",
           "sources": [
-            "cleveland-room",
+            "cleveland",
             "cdli-s06"
           ]
         },
         {
           "text": "馆方开放档案记录了它在阿默斯特学院的旧藏经历，随后经纽约布鲁默画廊，于1943年进入克利夫兰艺术博物馆。今天单独观看的这块高逾两米的石板，原本属于宫殿中连续排列的建筑装饰。",
           "sources": [
-            "cleveland-api"
+            "cleveland"
           ]
         }
       ]
@@ -151,7 +147,7 @@
   ],
   "background": [
     {
-      "text": "公元前9世纪，亚述纳西尔帕二世（Ashurnasirpal II，在位通常记为公元前883—859年）把古城卡尔胡（Kalhu）发展为重要王都。它位于今伊拉克北部，遗址今天称尼姆鲁德（Nimrud）。这位国王与两百多年后以猎狮浮雕闻名的亚述巴尼拔不是同一人；后者的宫殿在尼尼微，不能把两人的时代与营建混在一起。",
+      "text": "公元前9世纪，亚述纳西尔帕二世（Ashurnasirpal II，在位通常记为公元前883—859年）把古城卡尔胡（Kalhu）发展为重要王都。它位于今伊拉克北部，遗址今天称尼姆鲁德（Nimrud）。亚述巴尼拔的著名猎狮浮雕，则来自两百多年后的尼尼微。",
       "sources": [
         "met-nimrud",
         "kalhu",
@@ -170,6 +166,12 @@
       "sources": [
         "met-tree",
         "kalhu"
+      ]
+    },
+    {
+      "text": "2015—2016年，极端组织“伊斯兰国”以重型机械和炸药破坏尼姆鲁德，西北宫的建筑遗存、浮雕与雕像严重受损。自2017年起，伊拉克文物部门的尼姆鲁德救援队在史密森学会支持下，回收残片、稳固遗存并安全储藏。TARII随后参与项目，协助建设库房、记录回收物和制定修复规划；2025年的工作仍以紧急稳固为重点。",
+      "sources": [
+        "tarii"
       ]
     }
   ],
@@ -261,7 +263,7 @@
   "location_note": {
     "text": "克利夫兰对应西北宫S室的 S-06号壁板，依据馆方书目及 CDLI P427317；纳尔逊对应L室的 L-10号壁板，依据馆方来源档案及所引 Meuszyński 1981年研究。这些是古代宫殿房间与壁板编号。休斯顿的原房间尚未确认。",
     "sources": [
-      "cleveland-room",
+      "cleveland",
       "cdli-s06",
       "nelson"
     ]
