@@ -34,3 +34,7 @@ Mele historical photos are link-only: University of Zurich Ethnographic Museum c
 `python3 scripts/check_xiangtangshan.py` (whole-site local link/anchor scan)
 
 Desktop/mobile: check all photos, three initially closed labels, zoom/original links, diagram readability, no horizontal overflow, parent/home entrances. Navigation and photos remain usable without JS.
+
+## Focused reading refinements
+
+The cabinet photograph now has a founder sidebar for Cleveland **1993.160**, a 13th-century portrait of Phagmo Drupa Dorje Gyalpo (1110–1170). The museum lists Central Tibet, not a confirmed Densatil provenance; its published provenance starts with the 1993 David Tremayne Ltd. sale. The portrait remains contextual, not a fourth work group. The three groups' original-setting evidence is consolidated into a semantic comparison table (horizontally scrollable on small screens). Short numbered citations link to the full reference list, with return links to each occurrence. Mele figure 88 is a visual comparison for Seattle's looping scarves, never an asserted exact object match.
