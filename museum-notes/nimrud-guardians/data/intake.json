@@ -1,0 +1,65 @@
+{
+  "source_directory": "/home/qingxi/museum/亚述有翼精灵",
+  "photos": {
+    "768": {
+      "photo": "768.jpg",
+      "width": 1280,
+      "height": 1707,
+      "rotation": 0,
+      "source_filename": "Image_20261011222840_768_19.jpg",
+      "sha256": "05f1c0811a6bb9b312ec0c1e7554e5b4d119870467cbf8c8c3ab83d076e66b92",
+      "kind": "photo",
+      "work": "mfah-80-53"
+    },
+    "769": {
+      "photo": "769.jpg",
+      "width": 1280,
+      "height": 1707,
+      "rotation": 0,
+      "source_filename": "Image_20261011222840_769_19.jpg",
+      "sha256": "ebe57c38823771df960545a603c229b8a2915297a8eb5f9a85cc793a4a6e4110",
+      "kind": "label",
+      "work": "mfah-80-53"
+    },
+    "770": {
+      "photo": "770.jpg",
+      "width": 1280,
+      "height": 1707,
+      "rotation": 0,
+      "source_filename": "Image_20261011222840_770_19.jpg",
+      "sha256": "9c6d39d1a13e9745e8b62b296b2af1b7afe0561713e5fc9119d01938313f07e3",
+      "kind": "photo",
+      "work": "cleveland-1943-246"
+    },
+    "771": {
+      "photo": "771.jpg",
+      "width": 1707,
+      "height": 1280,
+      "rotation": 0,
+      "source_filename": "Image_20261011222840_771_19.jpg",
+      "sha256": "4b955a858ac48c8993852f4326c272a7edf727a5440900476680e314df72af0a",
+      "kind": "label",
+      "work": "cleveland-1943-246"
+    },
+    "772": {
+      "photo": "772.jpg",
+      "width": 1280,
+      "height": 1707,
+      "rotation": 0,
+      "source_filename": "Image_20261011222840_772_19.jpg",
+      "sha256": "1d1fef0cfb794179708b699a23d63e9cb60ecd3977ad775fc0aa0dabb1caeec6",
+      "kind": "photo",
+      "work": "nelson-40-17"
+    },
+    "773": {
+      "photo": "773.jpg",
+      "width": 1280,
+      "height": 1707,
+      "rotation": -90,
+      "source_filename": "Image_20261011222840_773_19.jpg",
+      "sha256": "07960057c5fa1166664deaf58d487977e8f1d7a24e48fcd5694f0b8107ad73e4",
+      "kind": "label",
+      "work": "nelson-40-17"
+    }
+  }
+}

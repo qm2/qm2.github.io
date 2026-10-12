@@ -151,3 +151,6 @@ build_guangsheng()
 
 from build_cisheng import build as build_cisheng
 build_cisheng()
+
+from build_nimrud import build as build_nimrud
+build_nimrud()
