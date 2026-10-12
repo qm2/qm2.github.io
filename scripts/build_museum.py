@@ -154,3 +154,6 @@ build_cisheng()
 
 from build_nimrud import build as build_nimrud
 build_nimrud()
+
+from build_densatil import build as build_densatil
+build_densatil()

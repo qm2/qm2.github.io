@@ -1,0 +1,84 @@
+{
+  "source_directory": "/home/qingxi/museum/丹萨替寺",
+  "photos": {
+    "776": {
+      "photo": "776.jpg",
+      "width": 1702,
+      "height": 1276,
+      "rotation": 0,
+      "source_filename": "Image_20261011232534_776_19.jpg",
+      "sha256": "9aff290fb55da2f4bdb0097d6f0eafc20707b595ee183206dc849aca1b9b7fe7",
+      "kind": "photo",
+      "work": "supports-cleveland"
+    },
+    "774": {
+      "photo": "774.jpg",
+      "width": 1280,
+      "height": 1707,
+      "rotation": 0,
+      "source_filename": "Image_20261011232534_774_19.jpg",
+      "sha256": "33156ceff9b8ed23ea9bfd09e51f42f27c4870ab12aa9160e536f01169878a1c",
+      "kind": "photo",
+      "work": "palden-lhamo-carlos"
+    },
+    "775": {
+      "photo": "775.jpg",
+      "width": 1280,
+      "height": 1707,
+      "rotation": 0,
+      "source_filename": "Image_20261011232534_775_19.jpg",
+      "sha256": "3061a35379c51190550eae1129d990031c16230d00d7c8ca5cd8e40411bd14f3",
+      "kind": "label",
+      "work": "palden-lhamo-carlos"
+    },
+    "778": {
+      "photo": "778.jpg",
+      "width": 1280,
+      "height": 1707,
+      "rotation": 0,
+      "source_filename": "Image_20261011232534_778_19.jpg",
+      "sha256": "12ca92bc25e22c7d0b0f7d865760b674a5e19e8b356912a7c30c049be40d2adf",
+      "kind": "photo",
+      "work": "vajravarahi-seattle"
+    },
+    "779": {
+      "photo": "779.jpg",
+      "width": 1702,
+      "height": 1276,
+      "rotation": 0,
+      "source_filename": "Image_20261011232534_779_19.jpg",
+      "sha256": "a64ef8bae20af8017c435ae784b610c5b4262c2b937f1ee443898d83d72eadb0",
+      "kind": "label",
+      "work": "vajravarahi-seattle"
+    },
+    "supports-label": {
+      "photo": "supports-label.jpg",
+      "width": 1706,
+      "height": 1279,
+      "rotation": 0,
+      "source_filename": "fdb9f37d9ba696ab47baa46b39d0ffaf.jpg",
+      "sha256": "3e237ec759e8a49f826518b8e16d7a61a23ed9a046aa29a529fa38d221a41267",
+      "kind": "label",
+      "work": "supports-cleveland"
+    }
+  },
+  "excluded": {
+    "777": {
+      "photo": "777.jpg",
+      "width": 1702,
+      "height": 1276,
+      "rotation": 0,
+      "source_filename": "Image_20261011232534_777_19.jpg",
+      "sha256": "fe8723b7c21886a2edc8d5a49380da97b74c0325a9750d2013a00aabf7ecfbda",
+      "kind": "excluded-label",
+      "work": null,
+      "reason": "中央帕木竹巴像的馆签，用户已明确不列为本专题作品。"
+    }
+  },
+  "notes": [
+    "776主体为两侧2011.144.1与2011.144.2，按馆方组合2011.144计一组；中央1993.160不计入。",
+    "用户补充supports-label后更正配对；777保留来源记录但不发布。",
+    "七张输入，六张原拍发布；没有参观日期记录。",
+    "历史及馆方图片仅提供资料链接。"
+  ]
+}
