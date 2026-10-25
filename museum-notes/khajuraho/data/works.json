@@ -1,0 +1,668 @@
+{
+  "title": "克久拉霍：众神、天女与情侣",
+  "subtitle": "美国博物馆中的克久拉霍及周边雕塑",
+  "intro": "举臂束发的天女、相拥的情侣、持武器的护卫女神，还有一座装下二十四位祖师的小神龛。八件作品分散在五家美国博物馆，馆方将它们与印度中部的克久拉霍及周边地区联系起来。先从仍然矗立的神庙看起，再近看展柜中的雕像。",
+  "sources": {
+    "unesco": [
+      "UNESCO：Khajuraho Group of Monuments",
+      "https://whc.unesco.org/en/list/240/"
+    ],
+    "asi": [
+      "印度考古调查局：Group of Temples, Khajuraho",
+      "https://asi.nic.in/pages/WorldHeritageKhajuraho"
+    ],
+    "desai": [
+      "Devangana Desai：《Khajuraho》（Oxford University Press，2000），第4—11、32—39、63、72页",
+      "https://ru.djvu.online/file/Hv5BonZXode36"
+    ],
+    "met": [
+      "大都会博物馆：Hinduism and Hindu Art（2007）",
+      "https://www.metmuseum.org/essays/hinduism-and-hindu-art"
+    ],
+    "mp": [
+      "中央邦旅游局：《Discovering Madhya Pradesh》，第101—103页",
+      "https://www.mptourism.com/pdf/Discovering-MP-Final-Book.pdf"
+    ],
+    "lakshmana": [
+      "印度旅游部：Lakshman Temple，建寺与954年奉献记录",
+      "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/khajuraho/lakshman-temple.html"
+    ],
+    "site-photo": [
+      "Paul Mannix：坎达里亚·马哈代瓦寺，2000年；Wikimedia Commons，CC BY-SA 2.0",
+      "https://commons.wikimedia.org/wiki/File:Khajuraho_-_Kandariya_Mahadeo_Temple.jpg"
+    ],
+    "monkey": [
+      "纳尔逊—阿特金斯：Celestial Woman Undressed by a Monkey，81-27/26",
+      "https://art.nelson-atkins.org/objects/21483/celestial-woman-undressed-by-a-monkey"
+    ],
+    "bracket": [
+      "纳尔逊—阿特金斯：Dancing Bracket Figure，40-18",
+      "https://art.nelson-atkins.org/objects/15008/dancing-bracket-figure"
+    ],
+    "female": [
+      "新奥尔良：Female Figure，94.324",
+      "https://noma.org/collection/female-figure/"
+    ],
+    "lovers": [
+      "克利夫兰：Lovers (Mithuna)，1982.64",
+      "https://www.clevelandart.org/print/art/1982.64"
+    ],
+    "uma": [
+      "西雅图：Uma-Maheshvara，38.23",
+      "https://art.seattleartmuseum.org/objects/2460/umamaheshvara-the-god-shiva-and-his-wife-parvati"
+    ],
+    "shiva": [
+      "纳尔逊—阿特金斯：Standing Shiva，60-68",
+      "https://art.nelson-atkins.org/objects/6442/standing-shiva"
+    ],
+    "chakra": [
+      "纳尔逊—阿特金斯：The Goddess Chakreshvari，60-82",
+      "https://art.nelson-atkins.org/objects/681/the-goddess-chakreshvari"
+    ],
+    "jinas": [
+      "国立亚洲艺术博物馆：Shrine with Twenty-Four Jinas，F1993.11；来源研究更新于2023年",
+      "https://asia.si.edu/explore-art-culture/collections/search/edanmdm%3Afsg_F1993.11/"
+    ],
+    "jinas-old": [
+      "弗利尔旧馆藏页：Jain shrine of Parshvanatha，F1993.11",
+      "https://asia-archive.si.edu/object/F1993.11/"
+    ],
+    "zh-tourism": [
+      "印度旅游部中文页面：卡久拉霍（寺庙中文名称参考）",
+      "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/zh/destinations/khajuraho.html"
+    ],
+    "zh-vishwanath": [
+      "印度旅游部中文页面：维什瓦纳特寺（仅参考同名神祇的译写；该页介绍的是瓦拉纳西寺庙）",
+      "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/zh/destinations/varanasi/vishwanath-mandir.html"
+    ]
+  },
+  "history": [
+    {
+      "title": "一片神庙，而非一座寺庙",
+      "paragraphs": [
+        {
+          "text": "克久拉霍（Khajuraho）位于今天印度中央邦（Madhya Pradesh）北部、历史上的本德尔坎德（Bundelkhand）地区。这里是一片由印度教与耆那教寺庙共同构成的建筑群，也是中世纪印度重要的雕塑艺术中心。UNESCO将其价值归于建筑与雕塑的结合：近看是层层人物，退远一些，雕像所在的墙面、阳台与高塔又组成完整的建筑。它们并非后来贴上的装饰。",
+          "sources": [
+            "unesco",
+            "desai"
+          ]
+        },
+        {
+          "text": "昌德拉王朝（Chandella／Chandela）由地方领主兴起，至10世纪中叶逐渐建立独立王权。建寺既是宗教供养，也是统治者展示地位的方式。约950—1050年是最著名的一批寺庙兴建的高峰，但营建延续的时间更长；参与者包括历代王室、地方首领和耆那教商人。今天相邻的寺庙，来自不同年代、不同信仰和不同的施主。",
+          "sources": [
+            "desai",
+            "unesco"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "从台基走向神的居所",
+      "paragraphs": [
+        {
+          "text": "拉克什曼寺尤其适合作为起点：它与亚绍瓦尔曼（Yashovarman）的赞助相联系，由其子丹加（Dhanga）在954年完成奉献，主尊是三首毗湿奴（Vishnu Vaikuntha）。这让“谁建寺”有了具体的人与年代。下表中的四座寺庙，是理解建筑群的参照，并非这八件馆藏已经确认的原属寺庙。",
+          "sources": [
+            "lakshmana"
+          ]
+        },
+        {
+          "text": "北印度式（Nagara）神庙通常从高台基、入口门廊进入柱厅，再经连接空间抵达供奉主尊的圣室；圣室上方升起曲线高塔。克久拉霍的大型寺庙还设绕行通道。礼拜者的观看发生在行走中：墙面凸出处显出人物，凹处收进阴影，转角又露出另一组形象。前方厅堂的较低屋顶逐级升向主塔，使神的居所从远处就具有山峰般的轮廓。",
+          "sources": [
+            "asi",
+            "met"
+          ]
+        },
+        {
+          "text": "墙上的形象各有角色。主神及相关神祇构成神话与信仰的中心；天女、舞者、植物、动物和吉祥情侣则表现生命、生长与丰饶。Mithuna首先指成对的亲昵人物，不等于每一组都表现性交；天女整理头发、起舞，也与明确的性爱场景不同。雕塑的意义还取决于它在门框、墙龛或建筑连接处的位置。学者对性爱图像有吉祥护佑、宗教象征与密教背景等不同解释，不能用一种解释包办整座建筑。",
+          "sources": [
+            "met",
+            "lovers",
+            "desai"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "建筑留下来，观看方式改变了",
+      "paragraphs": [
+        {
+          "text": "王朝的政治活动并不只围绕克久拉霍展开，马霍巴（Mahoba）、卡林贾尔（Kalinjar）等地也承担都城或军事据点的作用。随着王权衰落，克久拉霍失去昔日的营建条件，却仍延续宗教活动。后来部分建筑损毁、坍塌或埋入土丘，幸存者的保存程度也很不相同。“原有85座”来自地方传统，并不是一份逐座可核对的损毁清单；今天所见建筑也经历了修缮。",
+          "sources": [
+            "mp",
+            "asi"
+          ]
+        },
+        {
+          "text": "1838年，英国工程师伯特（T. S. Burt）在当地人的指引下到访，把寺庙写入殖民时期的调查记录。这是传播与研究的重要节点，却不是遗址第一次被人知道；当地人的礼拜与维护并未全然中断。随后有地方统治者修缮、坎宁安（Alexander Cunningham）的测绘调查，以及印度考古调查局的保护工作。1986年，建筑群列入世界遗产。考古仍在补充地表建筑之外的历史，例如附近比贾曼达尔（Bija Mandal）发掘出的巨大寺基。",
+          "sources": [
+            "mp",
+            "desai",
+            "unesco",
+            "asi"
+          ]
+        },
+        {
+          "text": "原址保留了尺度与位置：有的雕像需要仰视，有的要绕过墙角才出现。博物馆则把表情、首饰和石面细节放到近处。这批照片中，七件是石雕，一件是铜合金供奉神龛；馆方有的明确归于克久拉霍，有的只写周边地区，西雅图还保留“可能”。带着“它是谁、原来在哪里、如何被观看”三个问题，分散的作品便能互相参照，而不必假定它们曾来自同一座寺庙。",
+          "sources": []
+        }
+      ]
+    }
+  ],
+  "temples": [
+    {
+      "name": "拉克什曼寺",
+      "english": "Lakshmana",
+      "date": "954年奉献",
+      "deity": "三首毗湿奴（Vaikuntha）",
+      "feature": "主殿与四角小祠组成五祠式布局；高台基、墙面人物与圣室主像可连起来看。",
+      "sources": [
+        "lakshmana",
+        "asi"
+      ]
+    },
+    {
+      "name": "维什瓦纳特寺",
+      "english": "Vishvanatha",
+      "date": "约1000年",
+      "deity": "湿婆",
+      "feature": "丹加（Dhanga）时期；主殿与南迪牛亭相对，墙面雕塑随层带与凸凹布局展开。",
+      "sources": [
+        "desai",
+        "asi"
+      ]
+    },
+    {
+      "name": "坎达里亚·马哈代瓦寺",
+      "english": "Kandariya Mahadeva",
+      "date": "11世纪前半叶（约）",
+      "deity": "湿婆",
+      "feature": "层叠小塔簇拥主塔；从台基、雕像带到高塔形成连续上升的轮廓。",
+      "sources": [
+        "asi",
+        "site-photo"
+      ]
+    },
+    {
+      "name": "帕尔斯瓦那特寺",
+      "english": "Parshvanatha",
+      "date": "10世纪中后期",
+      "deity": "耆那祖师；早期阿迪纳特（Adinatha），现供帕尔斯瓦那特",
+      "feature": "耆那教施主参与营建；外墙亦见天女及印度教题材，体现共同的雕塑语汇。",
+      "sources": [
+        "desai"
+      ]
+    }
+  ],
+  "history_notes": [
+    {
+      "text": "寺庙数量：UNESCO概述为“约20座”；ASI列25座、保存状况不一，并将85座明确称为地方传统。两页未逐项说明计数差异，因此正文采用“建筑群”，不把数目之差换算成战争摧毁的数量。",
+      "sources": [
+        "unesco",
+        "asi"
+      ]
+    },
+    {
+      "text": "断代与赞助者：维什瓦纳特寺常见999年与1002年两种读法，表中概括为约1000年。坎达里亚寺的建造归属也有分歧：ASI与德赛的研究联系到不同统治者。这里保留约略年代，不指定唯一建造者。帕尔斯瓦那特寺现供像于1860年安置，今名不等于建成时的主尊身份。",
+      "sources": [
+        "desai",
+        "asi"
+      ]
+    },
+    {
+      "text": "性爱图像：艺术史学者德赛（Devangana Desai）特别从雕像所在的建筑连接处讨论象征，并不赞同把整组图像视为极端密教仪式的直接记录。吉祥护佑、象征性的结合与仪式背景是不同层次的解释；“克久拉霍就是《爱经》的石刻图解”不足以说明这些神庙。",
+      "sources": [
+        "desai"
+      ]
+    },
+    {
+      "text": "名称：克久拉霍在印度旅游部中文资料中亦作“卡久拉霍”。寺名保留原文便于对照；拉克什曼、坎达里亚·马哈代瓦、帕尔斯瓦那特参考该机构中文译写。维什瓦纳特是湿婆的称号，这里的寺庙位于克久拉霍，与瓦拉纳西的同名寺庙并非一处。",
+      "sources": [
+        "zh-tourism",
+        "zh-vishwanath"
+      ]
+    }
+  ],
+  "works": [
+    {
+      "id": "monkey",
+      "title": "被猴子扯衣的天女",
+      "original_title": "Celestial Woman Undressed by a Monkey",
+      "museum": "纳尔逊—阿特金斯艺术博物馆",
+      "accession": "81-27/26",
+      "date": "约975—1000年",
+      "medium": "浅黄色砂岩",
+      "dimensions": "60.33 × 26.04厘米",
+      "geography": "克久拉霍地区（现场展签）",
+      "photo": 933,
+      "label": 934,
+      "notes": [
+        {
+          "text": "她举臂束发，头部回转，背部、腰与臀部连成一道明显的扭势。薄裙下滑，身体旁边垂下的厚重衣褶却仍保留深深的沟槽；轻薄与厚重，被雕刻在同一块砂岩上。下方小猴扯衣的情节，使整理头发的动作多了一层诙谐。",
+          "sources": []
+        },
+        {
+          "text": "馆方将她归入天女中的surasundari，认为原来位于神庙外墙高处。现在的近距离观看显出背部转折，原来的仰视角度则会突出高举的手臂与头部轮廓。",
+          "sources": [
+            "monkey"
+          ]
+        },
+        {
+          "text": "1968年Karen Dean Bunting从纽约William H. Wolff购入，1981年遗赠博物馆。她曾以不同题名展出；1993年《Gods, Guardians, and Lovers》使用了今天“被猴子扯衣”的名称。",
+          "sources": [
+            "monkey"
+          ]
+        }
+      ],
+      "record_note": "旧描述曾将下方小形象称为genie；本页随现行题名与展签采用“猴子”。具体原寺庙未见确认。",
+      "section": "women",
+      "source": "monkey"
+    },
+    {
+      "id": "bracket",
+      "title": "芒果树下舞蹈的天女",
+      "original_title": "Dancing Bracket Figure / Dancing Celestial Female (Apsaras) Under a Mango Tree",
+      "museum": "纳尔逊—阿特金斯艺术博物馆",
+      "accession": "40-18",
+      "date": "11世纪晚期",
+      "medium": "浅黄色砂岩",
+      "dimensions": "高62.23厘米",
+      "geography": "克久拉霍地区（现场展签）",
+      "photo": 935,
+      "label": 936,
+      "notes": [
+        {
+          "text": "腰身扭向一侧，项链、腰带与成串珠饰随身体展开，头顶却接着一段近乎垂直的石柱。上方残存构件很重要：它让这尊人物仍显出与建筑相连的痕迹，而不仅是一具舞蹈的身体。",
+          "sources": []
+        },
+        {
+          "text": "馆方据头顶延伸的柱状构件推测，她可能是神庙天花区域的托架人物，从高处俯向进入厅堂的人。与外墙束发天女相比，舞姿在这里还可能承担室内结构与装饰之间的连接。",
+          "sources": [
+            "bracket"
+          ]
+        },
+        {
+          "text": "公开来源记录显示，1940年馆方从伦敦H. M. Calmann购入。更早的原址与离印经过尚未列出。",
+          "sources": [
+            "bracket"
+          ]
+        }
+      ],
+      "record_note": "展签下半部另介绍南印度门廊石柱，与这尊天女不是同一件作品。",
+      "section": "women",
+      "source": "bracket"
+    },
+    {
+      "id": "female",
+      "title": "女性半身残像",
+      "original_title": "Female Figure",
+      "museum": "新奥尔良艺术博物馆",
+      "accession": "94.324",
+      "date": "11世纪（现场展签）",
+      "medium": "红砂岩",
+      "dimensions": "高20⅞英寸（约53厘米）",
+      "geography": "官网归于克久拉霍；展签列中央邦并联系克久拉霍寺庙群",
+      "photo": 943,
+      "label": 944,
+      "notes": [
+        {
+          "text": "残存的部分集中在上身：发髻高耸，双眼微垂，项链一层层铺向胸前，较长的一条垂到断裂处。与纳尔逊两尊完整得多的天女相比，这件最突出的不是动作，而是面部的收束与首饰线条的密度。",
+          "sources": []
+        },
+        {
+          "text": "展签称它为建筑雕塑残件，并将其造型联系到克久拉霍寺庙群；官网产地则直接列Khajuraho。残像没有保留足够的持物与建筑边缘，本页沿用“女性像”，不另定具体女神或墙龛位置。馆方记为Mrs. Frederick M. Stafford赠藏。",
+          "sources": [
+            "female"
+          ]
+        }
+      ],
+      "record_note": "官网年代范围为昌德拉时期（950—1310年），现场展签较具体地断为11世纪；两种记录并存。",
+      "section": "women",
+      "source": "female"
+    },
+    {
+      "id": "lovers",
+      "title": "情侣",
+      "original_title": "Lovers (Mithuna)",
+      "museum": "克利夫兰艺术博物馆",
+      "accession": "1982.64",
+      "date": "11世纪",
+      "medium": "砂岩",
+      "dimensions": "高74厘米",
+      "geography": "克久拉霍（馆方）",
+      "photo": 931,
+      "label": 932,
+      "notes": [
+        {
+          "text": "两人的脸靠得很近，手臂环绕肩颈与腰部，女性的躯干强烈转向伴侣。珠串与腰饰的细线围住饱满的身体，彼此交叠的肢体几乎构成一块连续轮廓。残石上方仍留下原来雕刻边界的线索。",
+          "sources": []
+        },
+        {
+          "text": "馆方将这对理想化的情侣解释为诞生、繁荣与丰饶的吉祥形象。它表现亲昵拥抱，不能仅因题名Mithuna，就将它与神庙上明确表现性交的图像混为一谈。",
+          "sources": [
+            "lovers"
+          ]
+        },
+        {
+          "text": "馆方来源列Pan Asian Collection，随后由纽约安思远（Robert H. Ellsworth）于1982年售予克利夫兰。原来位于哪座寺庙、何时离开印度，公开条目没有交代。",
+          "sources": [
+            "lovers"
+          ]
+        }
+      ],
+      "record_note": "馆方地理栏直接归于克久拉霍，但没有提供具体寺庙的出土或拆卸记录。",
+      "section": "couples",
+      "source": "lovers"
+    },
+    {
+      "id": "uma",
+      "title": "湿婆与帕尔瓦蒂",
+      "original_title": "Uma-Maheshvara (the god Shiva and his wife Parvati)",
+      "museum": "西雅图艺术博物馆",
+      "accession": "38.23",
+      "date": "10世纪晚期至11世纪初",
+      "medium": "砂岩",
+      "dimensions": "47.63 × 32.39 × 13.97厘米",
+      "geography": "可能来自克久拉霍（现场展签）",
+      "photo": 941,
+      "label": 942,
+      "notes": [
+        {
+          "text": "湿婆（Shiva）与帕尔瓦蒂（Parvati）并坐，相互倾身，周围密布小形象。湿婆的发髻、三叉戟与下方的牛，是馆方指出的辨识线索。与克利夫兰情侣的身体交缠不同，这里的亲密被放在一个有主次、有眷属的神祇组合中。",
+          "sources": [
+            "uma"
+          ]
+        },
+        {
+          "text": "现场展签把原位解释为神庙外墙中央龛位，可能在上层；旁边用另一座寺庙作位置参照，并未认定此件就出自那座建筑。官网亦说明它不是圣室主尊，而是礼拜者顺时针绕行时经过的墙面神像。",
+          "sources": [
+            "uma"
+          ]
+        }
+      ],
+      "record_note": "展签写“probably Khajuraho”，官网简略字段只列Khajuraho；本页保留前者的限定。馆方列Eugene Fuller纪念收藏，未公布完整早期流转链。",
+      "section": "couples",
+      "source": "uma"
+    },
+    {
+      "id": "shiva",
+      "title": "站立湿婆",
+      "original_title": "Standing Shiva",
+      "museum": "纳尔逊—阿特金斯艺术博物馆",
+      "accession": "60-68",
+      "date": "11世纪初",
+      "medium": "砂岩",
+      "dimensions": "高78.74厘米",
+      "geography": "克久拉霍地区（现场展签）",
+      "photo": 937,
+      "label": 938,
+      "notes": [
+        {
+          "text": "这尊四臂湿婆以头、躯干和腿部的不同倾斜形成三屈姿。长柄三叉戟贴近身体，发髻高高隆起；小型侍从和南迪牛退在主尊身后，主次尺度因而十分清楚。与西雅图夫妻像并看，同一位神既能独立站立，也能以家庭组合出现。",
+          "sources": []
+        },
+        {
+          "text": "馆方说明上方双手另持莲花和蛇。题名虽已确认尊神身份，公开条目并未将它定位到克久拉霍某座寺庙或特定墙龛。入藏方式列为William Rockhill Nelson Trust资助购藏，网页未给出更早的交易链。",
+          "sources": [
+            "shiva"
+          ]
+        }
+      ],
+      "record_note": "",
+      "section": "couples",
+      "source": "shiva"
+    },
+    {
+      "id": "chakra",
+      "title": "护卫女神查克雷什瓦里",
+      "original_title": "The Goddess Chakreshvari",
+      "museum": "纳尔逊—阿特金斯艺术博物馆",
+      "accession": "60-82",
+      "date": "11世纪",
+      "medium": "砂岩",
+      "dimensions": "80.65 × 51.44 × 22.86厘米",
+      "geography": "克久拉霍地区（现场展签）",
+      "photo": 939,
+      "label": 940,
+      "notes": [
+        {
+          "text": "多条手臂在身侧展开，主尊端坐于人鸟结合的迦楼罗之上。冠饰、圆盘形持物与身体两侧的弧线很醒目；她的力量感，与后面金属神龛里祖师静坐的姿态形成鲜明区别。",
+          "sources": []
+        },
+        {
+          "text": "查克雷什瓦里（Chakreshvari）是耆那教第一位祖师阿迪纳特（Adinatha，又称Rishabhanatha）的护卫女神，名称与轮形武器chakra相关。轮与迦楼罗（Garuda）也见于毗湿奴图像，但这里的身份属于耆那教体系。",
+          "sources": [
+            "chakra"
+          ]
+        },
+        {
+          "text": "1960年8月，Laurence Sickman经古董商Louis Pappas介绍，在加州收藏家Robert Hanley Willoughby的花园里见到它；Pappas随后协助促成同年11月的购藏。这段经历来自馆方档案，花园之前的流转则未见说明。",
+          "sources": [
+            "chakra"
+          ]
+        }
+      ],
+      "record_note": "查克雷什瓦里为Chakreshvari的音译。具体原寺庙尚未确认。",
+      "section": "jain",
+      "source": "chakra"
+    },
+    {
+      "id": "jinas",
+      "title": "二十四耆那祖师神龛",
+      "original_title": "Shrine with Twenty-Four Jinas",
+      "museum": "国立亚洲艺术博物馆·弗利尔美术馆",
+      "accession": "F1993.11",
+      "date": "1097年",
+      "medium": "铜合金；现场展签作黄铜与铜合金",
+      "dimensions": "29.5 × 19.1 × 9.2厘米",
+      "geography": "克久拉霍地区（官网）；现场展签作克久拉霍",
+      "photo": 945,
+      "label": 946,
+      "notes": [
+        {
+          "text": "这件不到30厘米高的小神龛，以细柱、拱框和镂空纹饰围起坐立相间的祖师。中央坐像保持安静，周围构件却极为繁密。现场展签以“冥想与非暴力”为题，将静止的身体联系到耆那教修行。它是一座供奉用神龛，与前面的建筑石雕用途不同。",
+          "sources": []
+        },
+        {
+          "text": "馆方据背面铭文记其于1097年由施主奉献。1993年从安思远购入；更早“法国私人收藏”的说法见购藏备忘录，但馆方指出该信息来源不明，离印经过仍有空白。",
+          "sources": [
+            "jinas"
+          ]
+        }
+      ],
+      "record_note": "现行年代为1097年；购藏备忘录曾写1096年。旧页题名指帕尔斯瓦那特，说明却称主尊“可能为内米纳特（Neminatha）”，现行说明也保留这一不确定性。本页采用二十四祖师神龛，不指定中央祖师。",
+      "section": "jain",
+      "source": "jinas"
+    }
+  ],
+  "sections": [
+    {
+      "id": "women",
+      "title": "天女与建筑",
+      "intro": "束发、起舞与半身残像：动作之外，还有头顶的石柱、断裂的边缘，以及原来需要仰视的高度。"
+    },
+    {
+      "id": "couples",
+      "title": "情侣与神祇夫妻",
+      "intro": "亲昵的动作可以属于吉祥情侣，也可以出现在神祇之间。持物、坐骑与周围人物，让相似的姿态具有不同身份。"
+    },
+    {
+      "id": "jain",
+      "title": "耆那教的护卫与静观",
+      "intro": "持武器的护卫女神与静坐的祖师，同属耆那教的宗教世界。砂岩像与金属神龛，把不同尺度、不同用途的供奉方式放在一起。"
+    }
+  ],
+  "site_photo": {
+    "photo": "kandariya-mahadeva-paul-mannix.jpg",
+    "width": 1536,
+    "height": 1024,
+    "rotation": 0,
+    "author": "Paul Mannix",
+    "date": "2000-08-26",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "source": "site-photo",
+    "sha256": "11ac9aebabab221b225f7fd61bf57eec3a4f6f1ffef4d62e3b4c3b69845dcbf6"
+  },
+  "photos": {
+    "933": {
+      "photo": "monkey.jpg",
+      "width": 1280,
+      "height": 1707,
+      "rotation": 0,
+      "source_filename": "Image_20261025124215_933_19.jpg",
+      "sha256": "165e6eec34f166c49d1a29cf079f4c5b17dcf70502f52efc6adb4964157c5055",
+      "work": "monkey",
+      "kind": "photo"
+    },
+    "934": {
+      "photo": "monkey-label.jpg",
+      "width": 1280,
+      "height": 1707,
+      "rotation": 0,
+      "source_filename": "Image_20261025124215_934_19.jpg",
+      "sha256": "6330a8b656881800b57154a37bcc770b9f4c5b4236faa1134c1b63275aee3329",
+      "work": "monkey",
+      "kind": "label"
+    },
+    "935": {
+      "photo": "bracket.jpg",
+      "width": 1280,
+      "height": 1707,
+      "rotation": 0,
+      "source_filename": "Image_20261025124215_935_19.jpg",
+      "sha256": "d009584aa7de3d551e39bb8a5ab01229bf74a5c28a0094cfa3b650434847bdfc",
+      "work": "bracket",
+      "kind": "photo"
+    },
+    "936": {
+      "photo": "bracket-label.jpg",
+      "width": 1280,
+      "height": 1707,
+      "rotation": 0,
+      "source_filename": "Image_20261025124215_936_19.jpg",
+      "sha256": "506c2d9a067731863bcaf9329d414aac259ed0c5bd4250377e8f0015a83ed9c9",
+      "work": "bracket",
+      "kind": "label"
+    },
+    "943": {
+      "photo": "female.jpg",
+      "width": 1280,
+      "height": 1707,
+      "rotation": 0,
+      "source_filename": "Image_20261025124215_943_19.jpg",
+      "sha256": "f141a2e2a4f93b10f9f0b4bf1436beb6993c6b148687561ecb63935d229747b8",
+      "work": "female",
+      "kind": "photo"
+    },
+    "944": {
+      "photo": "female-label.jpg",
+      "width": 1707,
+      "height": 1280,
+      "rotation": 0,
+      "source_filename": "Image_20261025124215_944_19.jpg",
+      "sha256": "47b270493f1c293b0670fb9c2de0d15be93e0d209043ae64ca0fbfe24131682d",
+      "work": "female",
+      "kind": "label"
+    },
+    "931": {
+      "photo": "lovers.jpg",
+      "width": 1280,
+      "height": 1707,
+      "rotation": 0,
+      "source_filename": "Image_20261025124215_931_19.jpg",
+      "sha256": "740cd65b0f47fd25059e8363a7736650cad934e9f4f3fe47c72bbbc5ff9272c2",
+      "work": "lovers",
+      "kind": "photo"
+    },
+    "932": {
+      "photo": "lovers-label.jpg",
+      "width": 1280,
+      "height": 1707,
+      "rotation": 0,
+      "source_filename": "Image_20261025124215_932_19.jpg",
+      "sha256": "2b55525f9c66cec024c39eb9f98c8b15c79f66aaa9308f05dda83dadacc63550",
+      "work": "lovers",
+      "kind": "label"
+    },
+    "941": {
+      "photo": "uma.jpg",
+      "width": 1280,
+      "height": 1707,
+      "rotation": 0,
+      "source_filename": "Image_20261025124215_941_19.jpg",
+      "sha256": "b298a09eb09d88273e679f8f83669f6de16d87bc88de43d083ef4fc468477d2d",
+      "work": "uma",
+      "kind": "photo"
+    },
+    "942": {
+      "photo": "uma-label.jpg",
+      "width": 1280,
+      "height": 1707,
+      "rotation": 0,
+      "source_filename": "Image_20261025124215_942_19.jpg",
+      "sha256": "8dc6a90cd932a0250aadc61880590208efffead10d91f864f2c563b629d562e3",
+      "work": "uma",
+      "kind": "label"
+    },
+    "937": {
+      "photo": "shiva.jpg",
+      "width": 1280,
+      "height": 1707,
+      "rotation": 0,
+      "source_filename": "Image_20261025124215_937_19.jpg",
+      "sha256": "9bf036a0831f1d0b4fcaac9ed3af6be065fac674c5cc9996f0e6769a5b8e006b",
+      "work": "shiva",
+      "kind": "photo"
+    },
+    "938": {
+      "photo": "shiva-label.jpg",
+      "width": 1280,
+      "height": 1707,
+      "rotation": 0,
+      "source_filename": "Image_20261025124215_938_19.jpg",
+      "sha256": "bde181d9f346e07c9591ce13a6276cd89ec1882eee0fb01b87c6ba5c440bf4c4",
+      "work": "shiva",
+      "kind": "label"
+    },
+    "939": {
+      "photo": "chakra.jpg",
+      "width": 1280,
+      "height": 1707,
+      "rotation": 0,
+      "source_filename": "Image_20261025124215_939_19.jpg",
+      "sha256": "9473c65146c3ebcb9e204cf4a4e06204677cbe9ccb8f493abb4c034e94d0564b",
+      "work": "chakra",
+      "kind": "photo"
+    },
+    "940": {
+      "photo": "chakra-label.jpg",
+      "width": 1280,
+      "height": 1707,
+      "rotation": 0,
+      "source_filename": "Image_20261025124215_940_19.jpg",
+      "sha256": "28d0b22dcb728a15ea4511418b39a9bc49aafa64cae6b31367c9402b4c8c6256",
+      "work": "chakra",
+      "kind": "label"
+    },
+    "945": {
+      "photo": "jinas.jpg",
+      "width": 1280,
+      "height": 1707,
+      "rotation": 0,
+      "source_filename": "Image_20261025124215_945_19.jpg",
+      "sha256": "e31f10d3b0048153fc772014a97d501324a200e3a4d9b8bbadb983d3786495ec",
+      "work": "jinas",
+      "kind": "photo"
+    },
+    "946": {
+      "photo": "jinas-label.jpg",
+      "width": 1707,
+      "height": 1280,
+      "rotation": 0,
+      "source_filename": "Image_20261025124215_946_19.jpg",
+      "sha256": "3a455b489dee12bc998315092daaf2f76327e07b45af18d7de2bf99d3be9d9ca",
+      "work": "jinas",
+      "kind": "label"
+    }
+  }
+}

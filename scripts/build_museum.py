@@ -157,3 +157,6 @@ build_nimrud()
 
 from build_densatil import build as build_densatil
 build_densatil()
+
+from build_khajuraho import build as build_khajuraho
+build_khajuraho()
