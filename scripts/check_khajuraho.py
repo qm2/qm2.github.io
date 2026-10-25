@@ -29,9 +29,12 @@ class Page(HTMLParser):
 s=(B/'index.html').read_text();p=Page();p.feed(s)
 assert len(p.images)==len(set(p.images))==17
 assert len(p.ids)==len(set(p.ids)) and all(a in p.ids for a in p.anchors)
-assert len(p.details)==9 and all('open' not in a for a in p.details)
+assert len(p.details)==10 and all('open' not in a for a in p.details)
 assert '旃陀罗' not in s and '昌德拉王朝' in s
 assert 'CC BY-SA 2.0' in s and 'Paul Mannix' in s
 assert 'href="south-asian-art/"' in (R/'museum-notes/index.html').read_text()
 assert 'href="../khajuraho/"' in (R/'museum-notes/south-asian-art/index.html').read_text()
 print('PASS: 8 identities/16 photo-label pairs, 17 unchanged images, evidence qualifiers, naming, source anchors and both entrances.')
+
+assert s.index('id="collection"') < s.index('id="women"') < s.index('id="jain"') < s.index('id="history"')
+assert p.images[0]=="images/monkey.jpg" and p.images[-1]=="images/kandariya-mahadeva-paul-mannix.jpg"

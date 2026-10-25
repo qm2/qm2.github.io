@@ -51,3 +51,7 @@ Chinese Tourism pages were read in full indexed form when live requests timed ou
 ## Validation
 
 Eight objects, five museums, sixteen original photo/label images, one licensed site reference. Automated checks validate identifiers, exact photo hashes, qualified attribution, unique images/IDs and source anchors. Shared site check validates all local paths and anchors. Playwright tested 1440px desktop and 390px mobile: image decoding, folded labels, lightbox, zoom, Escape, footnotes/backlinks, horizontal table scroll, no page overflow and no JavaScript errors. Screenshots were inspected. No images cropped or digitally reconstructed.
+
+## Reading order refinement, 2026-10-25
+
+The opening now contains 264 Chinese characters (roughly 300 including names and punctuation), followed immediately by the eight-work overview and three object groups. The unchanged site photograph, detailed history, four-temple table and historical notes follow the works. Record discrepancies and a single shared attribution caveat are folded near the references; the unrelated-column label production note is removed. Source data, all photographs and citations remain. The checker also verifies reading order and that the first image is the original monkey/apsara photograph, with the site reference last. Desktop/mobile browser checks were rerun.

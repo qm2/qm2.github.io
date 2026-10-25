@@ -17,13 +17,8 @@ def build():
  def paragraphs(items):return ''.join('<p>'+e(p['text'])+cite(p['sources'])+'</p>' for p in items)
  def photo(p,caption,eager=False):
   return f'<a class="photo-open" href="images/{p["photo"]}" data-caption="{e(caption)}" aria-label="放大：{e(caption)}">{picture(p,"images/",caption,eager)}</a>'
- body=f'''<nav class="breadcrumbs wrap" aria-label="当前位置"><a href="../">博物馆札记</a><span>/</span><a href="../south-asian-art/">南亚艺术</a><span>/</span><span>克久拉霍</span></nav><header class="kh-intro wrap"><p class="eyebrow">KHAJURAHO / TEMPLE AND SCULPTURE</p><h1>{e(d['title'])}</h1><p class="subtitle">{e(d['subtitle'])}</p><p class="kh-measure">{e(d['intro'])}</p><nav class="kh-nav" aria-label="专题阅读"><a href="#history">神庙的世界</a><a href="#collection">八件作品 ↓</a><a href="#women">天女与建筑</a><a href="#couples">情侣与神祇</a><a href="#jain">耆那教</a></nav></header><section class="wrap kh-section" id="history"><h2>在雕像走进展柜之前</h2>'''
- site=d['site_photo'];caption='原址参考 · 坎达里亚·马哈代瓦寺（Kandariya Mahadeva），Paul Mannix摄，2000年'
- body+=f'''<figure class="kh-site">{photo(site,caption,True)}<figcaption>{e(caption)}。层叠的小塔、外墙雕像带与高台基，构成从地面向主塔上升的轮廓。<br><a href="{e(d['sources']['site-photo'][1])}">图片来源</a> · <a href="{site['license_url']}">{site['license']}</a> · 原图未改动</figcaption></figure><div class="kh-history">'''
- for h in d['history']:body+='<section><h3>'+e(h['title'])+'</h3>'+paragraphs(h['paragraphs'])+'</section>'
- body+='</div><h3>四座寺庙，四个参照</h3><p class="kh-small">以下介绍原址建筑，并不表示这八件馆藏已确定来自其中某座寺庙。</p><div class="kh-scroll" role="region" tabindex="0" aria-label="代表性寺庙对照表，可横向滚动"><table><thead><tr><th scope="col">寺庙</th><th scope="col">年代与供奉</th><th scope="col">建筑与雕塑</th></tr></thead><tbody>'
- for t in d['temples']:body+=f'<tr><th scope="row">{e(t["name"])}<span lang="en">{e(t["english"])}</span></th><td>{e(t["date"])}<br>{e(t["deity"])}</td><td>{e(t["feature"])}{cite(t["sources"])}</td></tr>'
- body+='</tbody></table></div><details class="kh-history-notes"><summary>年代、数量与名称的资料注</summary>'+paragraphs(d['history_notes'])+'</details></section><section class="wrap kh-section" id="collection"><p class="eyebrow">EIGHT WORKS / FIVE MUSEUMS</p><h2>从八件作品看起</h2><div class="kh-overview">'
+ body=f'''<nav class="breadcrumbs wrap" aria-label="当前位置"><a href="../">博物馆札记</a><span>/</span><a href="../south-asian-art/">南亚艺术</a><span>/</span><span>克久拉霍</span></nav><header class="kh-intro wrap"><p class="eyebrow">KHAJURAHO / TEMPLE AND SCULPTURE</p><h1>{e(d['title'])}</h1><p class="subtitle">{e(d['subtitle'])}</p><div class="kh-measure">{paragraphs(d['opening'])}</div><nav class="kh-nav" aria-label="专题阅读"><a href="#collection">八件作品 ↓</a><a href="#women">天女与建筑</a><a href="#couples">情侣与神祇</a><a href="#jain">耆那教</a><a href="#history">延伸阅读：神庙的世界</a></nav></header>'''
+ body+='<section class="wrap kh-section" id="collection"><p class="eyebrow">EIGHT WORKS / FIVE MUSEUMS</p><h2>从八件作品看起</h2><div class="kh-overview">'
  for i,w in enumerate(d['works']):
   body+=f'<a href="#{w["id"]}"><span class="eyebrow">{i+1:02d}</span><h3>{e(w["title"])}</h3><p>{e(w["museum"])}<br>{e(w["date"])}</p><p class="kh-small">{e(w["geography"])}</p></a>'
  body+='</div></section>'
@@ -32,11 +27,20 @@ def build():
   for w in [w for w in d['works'] if w['section']==sec['id']]:
    facts=[('收藏',w['museum']),('编号',w['accession']),('年代',w['date']),('材料',w['medium']),('尺寸',w['dimensions'])]
    cap=w['title']+' · '+w['museum']+' · '+w['accession']
-   body+=f'''<article class="kh-work" id="{w['id']}"><div class="kh-images"><figure>{photo(d['photos'][str(w['photo'])],cap)}<figcaption>{e(w['title'])} · Merton参观照片</figcaption></figure><details><summary>现场展签</summary><figure>{photo(d['photos'][str(w['label'])],cap+' · 现场展签')}<figcaption>{e(w['title'])} · 现场展签</figcaption></figure></details></div><div class="kh-notes"><h3>{e(w['title'])}</h3><p class="kh-original" lang="en">{e(w['original_title'])}</p><dl>{''.join('<div><dt>'+e(k)+'</dt><dd>'+e(v)+'</dd></div>' for k,v in facts)}</dl><p class="kh-attribution">{e(w['geography'])}</p>{paragraphs(w['notes'])}'''
-   if w['record_note']:body+='<p class="kh-record">'+e(w['record_note'])+'</p>'
+   body+=f'''<article class="kh-work" id="{w['id']}"><div class="kh-images"><figure>{photo(d['photos'][str(w['photo'])],cap,w['id']=='monkey')}<figcaption>{e(w['title'])} · Merton参观照片</figcaption></figure><details><summary>现场展签</summary><figure>{photo(d['photos'][str(w['label'])],cap+' · 现场展签')}<figcaption>{e(w['title'])} · 现场展签</figcaption></figure></details></div><div class="kh-notes"><h3>{e(w['title'])}</h3><p class="kh-original" lang="en">{e(w['original_title'])}</p><dl>{''.join('<div><dt>'+e(k)+'</dt><dd>'+e(v)+'</dd></div>' for k,v in facts)}</dl><p class="kh-attribution">{e(w['geography'])}</p>{paragraphs(w['notes'])}'''
    body+=f'<a class="text-link" href="{e(d["sources"][w["source"]][1])}">馆藏记录 ↗</a></div></article>'
   body+='</section>'
- body+='''<section class="wrap kh-section"><h2>地理归属与原来的位置</h2><p class="kh-measure">“克久拉霍地区”比具体遗址更宽；“可能来自”保留了馆方判断的余地。造型比较也不同于考古出土记录。这八件作品尚没有可据以确定原属寺庙的公开记录，但外墙、墙龛、托架与供坛的不同用途，仍让我们看到雕像如何参与建筑与礼拜。</p></section><section class="wrap kh-section kh-sources" id="sources"><h2>资料与延伸阅读</h2><ol>'''
+ body+='<section class="wrap kh-section" id="history"><p class="eyebrow">FURTHER READING</p><h2>回到神庙的世界</h2>'
+ site=d['site_photo'];caption='原址参考 · 坎达里亚·马哈代瓦寺（Kandariya Mahadeva），Paul Mannix摄，2000年'
+ body+=f'''<figure class="kh-site">{photo(site,caption)}<figcaption>{e(caption)}。层叠的小塔、外墙雕像带与高台基，构成从地面向主塔上升的轮廓。<br><a href="{e(d['sources']['site-photo'][1])}">图片来源</a> · <a href="{site['license_url']}">{site['license']}</a> · 原图未改动</figcaption></figure><div class="kh-history">'''
+ for h in d['history']:body+='<section><h3>'+e(h['title'])+'</h3>'+paragraphs(h['paragraphs'])+'</section>'
+ body+='</div><h3>四座寺庙，四个参照</h3><div class="kh-scroll" role="region" tabindex="0" aria-label="代表性寺庙对照表，可横向滚动"><table><thead><tr><th scope="col">寺庙</th><th scope="col">年代与供奉</th><th scope="col">建筑与雕塑</th></tr></thead><tbody>'
+ for t in d['temples']:body+=f'<tr><th scope="row">{e(t["name"])}<span lang="en">{e(t["english"])}</span></th><td>{e(t["date"])}<br>{e(t["deity"])}</td><td>{e(t["feature"])}{cite(t["sources"])}</td></tr>'
+ body+='</tbody></table></div><details class="kh-history-notes"><summary>年代、数量与名称的资料注</summary>'+paragraphs(d['history_notes'])+'</details></section>'
+ body+='<section class="wrap kh-section"><details class="kh-history-notes"><summary>作品归属与馆藏资料注</summary><p>“克久拉霍地区”比具体遗址更宽；“可能来自”保留了馆方判断的余地。目前这八件作品尚无可确定原属寺庙的公开记录。</p>'
+ for w in d['works']:
+  if w['record_note']:body+='<p><a href="#'+w['id']+'">'+e(w['title'])+'</a>：'+e(w['record_note'])+cite([w['source']])+('</p>')
+ body+='</details></section><section class="wrap kh-section kh-sources" id="sources"><h2>参考资料</h2><ol>'
  for k,(name,url) in d['sources'].items():
   back=' '.join(f'<a href="#{ref}" aria-label="返回资料{numbers[k]}第{i+1}处引用">↩{i+1}</a>' for i,ref in enumerate(refs[k]))
   body+=f'<li id="source-{k}"><a href="{e(url)}">{e(name)} ↗</a> <span class="kh-backrefs">{back}</span></li>'
