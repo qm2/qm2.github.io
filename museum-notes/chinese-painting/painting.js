@@ -72,7 +72,17 @@
   document.querySelectorAll('.photo-open').forEach(link => link.addEventListener('click', event => {
     if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
     event.preventDefault(); viewport.replaceChildren(link.querySelector('.image-box').cloneNode(true));
-    viewport.querySelector('img').loading = 'eager';
+    let image = viewport.querySelector('img');
+    if (link.dataset.fullSrc) {
+      viewport.querySelectorAll('source').forEach(source => source.remove());
+      const fullImage = document.createElement('img');
+      ['alt', 'width', 'height', 'decoding'].forEach(name => {
+        if (image.hasAttribute(name)) fullImage.setAttribute(name, image.getAttribute(name));
+      });
+      fullImage.src = link.dataset.fullSrc;
+      image.replaceWith(fullImage); image = fullImage;
+    }
+    image.loading = 'eager';
     viewport.classList.remove('zoomed'); toggle.setAttribute('aria-pressed','false');toggle.textContent='放大细节';
     document.querySelector('#zoom-caption').textContent=link.dataset.caption;
     document.querySelector('#zoom-original').href=link.href;

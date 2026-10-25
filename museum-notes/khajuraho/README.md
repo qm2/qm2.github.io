@@ -46,7 +46,7 @@ Chinese Tourism pages were read in full indexed form when live requests timed ou
 
 ## Reference photograph
 
-`images/kandariya-mahadeva-paul-mannix.jpg`: Paul Mannix, 26 August 2000, *Khajuraho - Kandariya Mahadeo Temple*, Wikimedia Commons (originally Flickr), CC BY-SA 2.0. The Commons file page and license were checked; image inspected; original unchanged. Attribution and license are adjacent to the photograph. This is one reference image, not a Merton visit or a ninth object. All 16 personal originals remain separate.
+`images/kandariya-mahadeva-sarah-welch-original.jpg`: Ms Sarah Welch, 18 December 2021, Wikimedia Commons, CC0. Downloaded the linked Original file, 4400 × 3300, 4,463,189 bytes; SHA-1 `7779402dde80dad8c4ca11f800a50a7e236c08c0` matches Commons. Original retained unchanged. Full-frame 800/1200/2400px JPEG derivatives generated with Pillow/Lanczos, no cropping. Desktop picture source offers 2400px at 1× and original at 2×; mobile uses 800/1200px width candidates. The optional shared lightbox `data-full-src` replaces responsive sources with the original only for this image. Caption and bibliography credit the new author/year/source/CC0. This reference is not a Merton visit or a ninth object.
 
 ## Validation
 
@@ -55,3 +55,5 @@ Eight objects, five museums, sixteen original photo/label images, one licensed s
 ## Reading order refinement, 2026-10-25
 
 The opening now contains 264 Chinese characters (roughly 300 including names and punctuation), followed immediately by the eight-work overview and three object groups. The unchanged site photograph, detailed history, four-temple table and historical notes follow the works. Record discrepancies and a single shared attribution caveat are folded near the references; the unrelated-column label production note is removed. Source data, all photographs and citations remain. The checker also verifies reading order and that the first image is the original monkey/apsara photograph, with the site reference last. Desktop/mobile browser checks were rerun.
+
+Responsive-image verification: actual `currentSrc` resources were checked at desktop 1440px (1×: 2400×1800; 2×: 4400×3300) and mobile 390px (1×/2×: 800×600). Rendered widths were approximately 827px and 354px respectively. Both mobile and desktop lightboxes load the original, without responsive source inheritance; personal photograph zoom still works. Full-frame desktop screenshot inspected.

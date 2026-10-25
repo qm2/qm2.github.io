@@ -10,9 +10,9 @@ for w in d['works']:
  assert (w['accession'],w['photo'],w['label'])==expected[w['id']]
  for kind in ['photo','label']:
   p=d['photos'][str(w[kind])];assert p['work']==w['id'] and p['kind']==kind
-for p in list(d['photos'].values())+[d['site_photo']]:
+for p in list(d['photos'].values())+[d['site_photo']]+d['site_photo']['variants']:
  assert hashlib.sha256((B/'images'/p['photo']).read_bytes()).hexdigest()==p['sha256']
- assert p['rotation']==0
+ assert p.get('rotation',0)==0
 w={w['id']:w for w in d['works']}
 assert '可能' in w['uma']['geography']
 assert '官网' in w['female']['geography'] and '现场展签' in w['female']['date']
@@ -31,10 +31,10 @@ assert len(p.images)==len(set(p.images))==17
 assert len(p.ids)==len(set(p.ids)) and all(a in p.ids for a in p.anchors)
 assert len(p.details)==10 and all('open' not in a for a in p.details)
 assert '旃陀罗' not in s and '昌德拉王朝' in s
-assert 'CC BY-SA 2.0' in s and 'Paul Mannix' in s
+assert 'CC0' in s and 'Ms Sarah Welch' in s
 assert 'href="south-asian-art/"' in (R/'museum-notes/index.html').read_text()
 assert 'href="../khajuraho/"' in (R/'museum-notes/south-asian-art/index.html').read_text()
-print('PASS: 8 identities/16 photo-label pairs, 17 unchanged images, evidence qualifiers, naming, source anchors and both entrances.')
+print('PASS: 8 identities/16 photo-label pairs, 16 original photos plus verified responsive site assets, evidence qualifiers, naming, source anchors and both entrances.')
 
 assert s.index('id="collection"') < s.index('id="women"') < s.index('id="jain"') < s.index('id="history"')
-assert p.images[0]=="images/monkey.jpg" and p.images[-1]=="images/kandariya-mahadeva-paul-mannix.jpg"
+assert p.images[0]=="images/monkey.jpg" and p.images[-1]=="images/kandariya-mahadeva-sarah-welch-1200.jpg"

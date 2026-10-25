@@ -17,6 +17,9 @@ def build():
  def paragraphs(items):return ''.join('<p>'+e(p['text'])+cite(p['sources'])+'</p>' for p in items)
  def photo(p,caption,eager=False):
   return f'<a class="photo-open" href="images/{p["photo"]}" data-caption="{e(caption)}" aria-label="放大：{e(caption)}">{picture(p,"images/",caption,eager)}</a>'
+ def site_picture(p,caption):
+  variants={v['width']:v['photo'] for v in p['variants']}
+  return f'<a class="photo-open" href="images/{p["photo"]}" data-full-src="images/{p["photo"]}" data-caption="{e(caption)}" aria-label="放大：{e(caption)}"><span class="image-box" style="--ratio:1.33333333;--native-width:4400px"><picture><source media="(min-width:651px)" srcset="images/{variants[2400]} 1x, images/{p["photo"]} 2x"><img src="images/{variants[1200]}" srcset="images/{variants[800]} 800w, images/{variants[1200]} 1200w" sizes="calc(100vw - 36px)" width="4400" height="3300" loading="lazy" decoding="async" alt="{e(caption)}"></picture></span></a>'
  body=f'''<nav class="breadcrumbs wrap" aria-label="当前位置"><a href="../">博物馆札记</a><span>/</span><a href="../south-asian-art/">南亚艺术</a><span>/</span><span>克久拉霍</span></nav><header class="kh-intro wrap"><p class="eyebrow">KHAJURAHO / TEMPLE AND SCULPTURE</p><h1>{e(d['title'])}</h1><p class="subtitle">{e(d['subtitle'])}</p><div class="kh-measure">{paragraphs(d['opening'])}</div><nav class="kh-nav" aria-label="专题阅读"><a href="#collection">八件作品 ↓</a><a href="#women">天女与建筑</a><a href="#couples">情侣与神祇</a><a href="#jain">耆那教</a><a href="#history">延伸阅读：神庙的世界</a></nav></header>'''
  body+='<section class="wrap kh-section" id="collection"><p class="eyebrow">EIGHT WORKS / FIVE MUSEUMS</p><h2>从八件作品看起</h2><div class="kh-overview">'
  for i,w in enumerate(d['works']):
@@ -31,8 +34,8 @@ def build():
    body+=f'<a class="text-link" href="{e(d["sources"][w["source"]][1])}">馆藏记录 ↗</a></div></article>'
   body+='</section>'
  body+='<section class="wrap kh-section" id="history"><p class="eyebrow">FURTHER READING</p><h2>回到神庙的世界</h2>'
- site=d['site_photo'];caption='原址参考 · 坎达里亚·马哈代瓦寺（Kandariya Mahadeva），Paul Mannix摄，2000年'
- body+=f'''<figure class="kh-site">{photo(site,caption)}<figcaption>{e(caption)}。层叠的小塔、外墙雕像带与高台基，构成从地面向主塔上升的轮廓。<br><a href="{e(d['sources']['site-photo'][1])}">图片来源</a> · <a href="{site['license_url']}">{site['license']}</a> · 原图未改动</figcaption></figure><div class="kh-history">'''
+ site=d['site_photo'];caption='原址参考 · 坎达里亚·马哈代瓦寺（Kandariya Mahadeva），Ms Sarah Welch摄，2021年'
+ body+=f'''<figure class="kh-site">{site_picture(site,caption)}<figcaption>{e(caption)}。层叠的小塔、外墙雕像带与高台基，构成从地面向主塔上升的轮廓。<br><a href="{e(d['sources']['site-photo'][1])}">Wikimedia Commons</a> · <a href="{site['license_url']}">{site['license']}</a></figcaption></figure><div class="kh-history">'''
  for h in d['history']:body+='<section><h3>'+e(h['title'])+'</h3>'+paragraphs(h['paragraphs'])+'</section>'
  body+='</div><h3>四座寺庙，四个参照</h3><div class="kh-scroll" role="region" tabindex="0" aria-label="代表性寺庙对照表，可横向滚动"><table><thead><tr><th scope="col">寺庙</th><th scope="col">年代与供奉</th><th scope="col">建筑与雕塑</th></tr></thead><tbody>'
  for t in d['temples']:body+=f'<tr><th scope="row">{e(t["name"])}<span lang="en">{e(t["english"])}</span></th><td>{e(t["date"])}<br>{e(t["deity"])}</td><td>{e(t["feature"])}{cite(t["sources"])}</td></tr>'

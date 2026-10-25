@@ -28,8 +28,8 @@
       "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/khajuraho/lakshman-temple.html"
     ],
     "site-photo": [
-      "Paul Mannix：坎达里亚·马哈代瓦寺，2000年；Wikimedia Commons，CC BY-SA 2.0",
-      "https://commons.wikimedia.org/wiki/File:Khajuraho_-_Kandariya_Mahadeo_Temple.jpg"
+      "Ms Sarah Welch：坎达里亚·马哈代瓦寺，2021年；Wikimedia Commons，CC0",
+      "https://commons.wikimedia.org/wiki/File:0121821_Kandariya_Mahadeva_temple,_Khajurajo_001.jpg"
     ],
     "monkey": [
       "纳尔逊—阿特金斯：Celestial Woman Undressed by a Monkey，81-27/26",
@@ -491,16 +491,36 @@
     }
   ],
   "site_photo": {
-    "photo": "kandariya-mahadeva-paul-mannix.jpg",
-    "width": 1536,
-    "height": 1024,
+    "photo": "kandariya-mahadeva-sarah-welch-original.jpg",
+    "width": 4400,
+    "height": 3300,
     "rotation": 0,
-    "author": "Paul Mannix",
-    "date": "2000-08-26",
-    "license": "CC BY-SA 2.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "author": "Ms Sarah Welch",
+    "date": "2021-12-18",
+    "license": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
     "source": "site-photo",
-    "sha256": "11ac9aebabab221b225f7fd61bf57eec3a4f6f1ffef4d62e3b4c3b69845dcbf6"
+    "sha256": "821f50b8b91881c34daefcabc7d0e06a5aa0fff40fbaa0034488191b34828482",
+    "variants": [
+      {
+        "photo": "kandariya-mahadeva-sarah-welch-800.jpg",
+        "width": 800,
+        "height": 600,
+        "sha256": "68eb21a8b022832eb394de3e2008baa98e0631c61102c97c1d74b7320887883b"
+      },
+      {
+        "photo": "kandariya-mahadeva-sarah-welch-1200.jpg",
+        "width": 1200,
+        "height": 900,
+        "sha256": "eb25262e1473ee711f11bdf21cb10a82f4c3e89f0d868c5815d222691bc8189a"
+      },
+      {
+        "photo": "kandariya-mahadeva-sarah-welch-2400.jpg",
+        "width": 2400,
+        "height": 1800,
+        "sha256": "aacdba661fc82e8cded779d233fe1560f250c696c74f31591b7516b9da6afa85"
+      }
+    ]
   },
   "photos": {
     "933": {
