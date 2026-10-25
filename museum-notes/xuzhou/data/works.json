@@ -1,0 +1,2669 @@
+{
+  "title": "虚舟收藏",
+  "subtitle": "三十余次观看之后",
+  "status": "local-review-ready",
+  "proposed_path": "/museum-notes/xuzhou/",
+  "personal_facts": [
+    "两三年中看过至少30次",
+    "对这一收藏感情很深"
+  ],
+  "works": [
+    {
+      "id": "x01",
+      "handoff_id": "X01",
+      "title": "五方佛之一，可能为阿閦佛",
+      "title_status": "reviewed-label-based",
+      "original_title": "One of the Five Wisdom Buddhas, Possibly Akshobhya",
+      "region_label": "西藏",
+      "date_label": "约12世纪",
+      "date_display": "约12世纪",
+      "material_label": "鎏金铜",
+      "collection": "xuzhou",
+      "main_photo": "955",
+      "label_photo": "959",
+      "detail_photos": [
+        "956",
+        "957",
+        "958",
+        "960",
+        "961"
+      ],
+      "evidence": {
+        "handoff_record": {
+          "id": "X01",
+          "working_title_zh": "五方佛之一，可能为阿閦佛",
+          "region_label": "西藏",
+          "date_label": "约12世纪",
+          "material_label": "鎏金铜",
+          "main_photo": 955,
+          "label_photo": 959,
+          "extra_photos": "956 957 958 960 961",
+          "collection_status": "展签明确虚舟",
+          "cautions": "保留可能；双手为现代补配，不能用其手势反推身份"
+        },
+        "independent_full_resolution_label_review": true,
+        "visual_review": "all-main-photos-compared; high-risk-details-opened-at-original-resolution",
+        "external_object_record": null
+      },
+      "research_questions": [
+        "保留可能；双手为现代补配，不能用其手势反推身份"
+      ],
+      "notes": [
+        {
+          "text": "高冠、长耳饰与胸前成排的璎珞，把这尊立像的面容围在中央。正面仍能看见大片金色；绕到背面，后脑、肩背和上臂的缺口显露出中空的内部。正背两面属于同一尊像，却让人看到很不一样的制造与保存状态。",
+          "kind": "visual-observation",
+          "sources": []
+        },
+        {
+          "text": "展签介绍的X射线研究，辨认出铸造时留下的气孔、补铸缺陷的金属条，以及髋部和腿内的铁质支撑。双手则是现代补配的实心铸件。原铸、修补和后加部分共同构成了今天的外观；胸背的残损，也不能全用一个年代来解释。",
+          "kind": "label-interpretation",
+          "sources": [
+            "label"
+          ]
+        }
+      ],
+      "short": "从冠饰与面容，绕到残损的背面。",
+      "record_note": "馆方题名为五方佛之一，可能是阿閦佛。双手既为现代补配，现有手势不足以单独确定身份。技术说明见959号展签，署名艺术保护科学家John Twilley；原寺院及具体损毁、修复经过尚未确定。",
+      "related": [
+        "x28",
+        "x06"
+      ],
+      "accession": null,
+      "dimensions": null,
+      "confidence": "现场展签及照片对应已核；独立图录条目未取得",
+      "label_original": {
+        "region": "Tibet",
+        "date": "c. 12th century",
+        "material": "Gilt copper"
+      },
+      "region_group": "himalaya",
+      "source_ids": [
+        "label"
+      ],
+      "sources": [
+        {
+          "id": "label",
+          "kind": "photographed-museum-label",
+          "photo": "959",
+          "reviewed": "2026-10-25"
+        }
+      ],
+      "visit_date": null
+    },
+    {
+      "id": "x02",
+      "handoff_id": "X02",
+      "title": "佛陀降魔浮雕",
+      "title_status": "reviewed-label-based",
+      "original_title": "Relief Panel of Buddha Triumphing over Mara",
+      "region_label": "孟加拉",
+      "date_label": "约6—7世纪；展签称笈多时期",
+      "date_display": "约6—7世纪；展签称笈多时期",
+      "material_label": "陶",
+      "collection": "xuzhou",
+      "main_photo": "962",
+      "label_photo": "965",
+      "detail_photos": [
+        "963",
+        "964"
+      ],
+      "evidence": {
+        "handoff_record": {
+          "id": "X02",
+          "working_title_zh": "佛陀降魔浮雕",
+          "region_label": "孟加拉",
+          "date_label": "约6—7世纪；展签称笈多时期",
+          "material_label": "陶",
+          "main_photo": 962,
+          "label_photo": 965,
+          "extra_photos": "963 964",
+          "collection_status": "展签明确虚舟",
+          "cautions": "不是砂岩；朝代与年代照录并查证，不擅自重定年"
+        },
+        "independent_full_resolution_label_review": true,
+        "visual_review": "all-main-photos-compared; high-risk-details-opened-at-original-resolution",
+        "external_object_record": null
+      },
+      "research_questions": [
+        "不是砂岩；朝代与年代照录并查证，不擅自重定年"
+      ],
+      "notes": [
+        {
+          "text": "中央佛陀的身体几乎完全正对观者，圆形头光和盘坐的双腿稳住画面。周围人物却不断侧身、挥臂、俯仰，枝叶与肢体挤在狭窄边缘。侧面的照片更能看出佛身突出于底板的厚度；这是一件陶塑浮雕。",
+          "kind": "visual-observation",
+          "sources": []
+        },
+        {
+          "text": "馆方将周围人物解释为魔罗及其军队、女儿，题材是佛陀成道前战胜魔罗的诱惑与威胁。右手垂向地面的触地印，关联请大地见证修行功德的故事。泰国和西藏的触地印坐像省去了这一圈叙事人物，单靠手势保留故事的关键。",
+          "kind": "label-interpretation",
+          "sources": [
+            "label"
+          ]
+        }
+      ],
+      "short": "静坐的佛陀，被翻腾的人物包围。",
+      "record_note": null,
+      "related": [
+        "x03",
+        "x04",
+        "x21"
+      ],
+      "accession": null,
+      "dimensions": null,
+      "confidence": "现场展签及照片对应已核；独立图录条目未取得",
+      "label_original": {
+        "region": "Bengal",
+        "date": "Gupta period, c. 6th–7th century",
+        "material": "Terracotta"
+      },
+      "region_group": "south-asia",
+      "source_ids": [
+        "label"
+      ],
+      "sources": [
+        {
+          "id": "label",
+          "kind": "photographed-museum-label",
+          "photo": "965",
+          "reviewed": "2026-10-25"
+        }
+      ],
+      "visit_date": null
+    },
+    {
+      "id": "x03",
+      "handoff_id": "X03",
+      "title": "触地印佛坐像",
+      "title_status": "reviewed-label-based",
+      "original_title": "Buddha Calling the Earth to Witness",
+      "region_label": "泰国",
+      "date_label": "14世纪",
+      "date_display": "14世纪",
+      "material_label": "青铜",
+      "collection": "xuzhou",
+      "main_photo": "966",
+      "label_photo": "968",
+      "detail_photos": [
+        "967"
+      ],
+      "evidence": {
+        "handoff_record": {
+          "id": "X03",
+          "working_title_zh": "触地印佛坐像",
+          "region_label": "泰国",
+          "date_label": "14世纪",
+          "material_label": "青铜",
+          "main_photo": 966,
+          "label_photo": 968,
+          "extra_photos": "967",
+          "collection_status": "展签明确虚舟",
+          "cautions": "未经核实不要擅加素可泰王朝或具体作坊"
+        },
+        "independent_full_resolution_label_review": true,
+        "visual_review": "all-main-photos-compared; high-risk-details-opened-at-original-resolution",
+        "external_object_record": null
+      },
+      "research_questions": [
+        "未经核实不要擅加素可泰王朝或具体作坊"
+      ],
+      "notes": [
+        {
+          "text": "右手沿膝盖自然下垂，指尖几乎与底座上缘相接；左手掌心向上，安放在盘起的双腿上。面容、挺直的躯干和宽阔的坐姿形成中轴，头顶细长的火焰形装饰把这条轴线继续向上延伸。",
+          "kind": "visual-observation",
+          "sources": []
+        },
+        {
+          "text": "展签以“请大地作证”解释右手的动作，指向佛陀降魔成道的时刻。与孟加拉的陶浮雕并看时，魔军与菩提树虽已退场，手势依然连接着同一个佛传故事。青铜表面深浅不一的颜色，也使胸前窄窄的衣缘更容易辨认。",
+          "kind": "label-interpretation",
+          "sources": [
+            "label"
+          ]
+        }
+      ],
+      "short": "从右手指尖，看到平稳的双膝与火焰形顶饰。",
+      "record_note": null,
+      "related": [
+        "x02",
+        "x04",
+        "x21"
+      ],
+      "accession": null,
+      "dimensions": null,
+      "confidence": "现场展签及照片对应已核；独立图录条目未取得",
+      "label_original": {
+        "region": "Thailand",
+        "date": "14th century",
+        "material": "Bronze"
+      },
+      "region_group": "southeast-asia",
+      "source_ids": [
+        "label"
+      ],
+      "sources": [
+        {
+          "id": "label",
+          "kind": "photographed-museum-label",
+          "photo": "968",
+          "reviewed": "2026-10-25"
+        }
+      ],
+      "visit_date": null
+    },
+    {
+      "id": "x04",
+      "handoff_id": "X04",
+      "title": "触地印佛坐像",
+      "title_status": "reviewed-label-based",
+      "original_title": "Buddha Calling the Earth to Witness",
+      "region_label": "印度",
+      "date_label": "波罗时期，10—11世纪",
+      "date_display": "帕拉王朝，10—11世纪",
+      "material_label": "青铜、嵌银",
+      "collection": "xuzhou",
+      "main_photo": "969",
+      "label_photo": "972",
+      "detail_photos": [
+        "970",
+        "971"
+      ],
+      "evidence": {
+        "handoff_record": {
+          "id": "X04",
+          "working_title_zh": "触地印佛坐像",
+          "region_label": "印度",
+          "date_label": "波罗时期，10—11世纪",
+          "material_label": "青铜、嵌银",
+          "main_photo": 969,
+          "label_photo": 972,
+          "extra_photos": "970 971",
+          "collection_status": "展签明确虚舟",
+          "cautions": "不可仅据地域补出原寺院"
+        },
+        "independent_full_resolution_label_review": true,
+        "visual_review": "all-main-photos-compared; high-risk-details-opened-at-original-resolution",
+        "external_object_record": null
+      },
+      "research_questions": [
+        "不可仅据地域补出原寺院"
+      ],
+      "notes": [
+        {
+          "text": "眼部的银色，与青铜身体形成鲜明对照。衣纹沿胸腹斜向展开，在盘腿处转成细密的弧线；下方莲瓣一层向上、一层向下，托住收拢的坐姿。和泰国那尊相比，这件的莲座、衣褶与眉眼都更适合靠近细看。",
+          "kind": "visual-observation",
+          "sources": []
+        },
+        {
+          "text": "馆方将它定为印度帕拉王朝时期的作品，题名同样指向请大地见证。手指、肩部和面容的塑造，与佛教关于理想身体的相好观念有关。嵌银在这里既是材料选择，也参与眼睛的表现。",
+          "kind": "label-interpretation",
+          "sources": [
+            "label"
+          ]
+        }
+      ],
+      "short": "嵌银的眼睛与双层莲座。",
+      "record_note": null,
+      "related": [
+        "x03",
+        "x21",
+        "x14"
+      ],
+      "accession": null,
+      "dimensions": null,
+      "confidence": "现场展签及照片对应已核；独立图录条目未取得",
+      "label_original": {
+        "region": "India",
+        "date": "Pala dynasty, 10th–11th century",
+        "material": "Bronze with silver inlay"
+      },
+      "region_group": "south-asia",
+      "source_ids": [
+        "label"
+      ],
+      "sources": [
+        {
+          "id": "label",
+          "kind": "photographed-museum-label",
+          "photo": "972",
+          "reviewed": "2026-10-25"
+        }
+      ],
+      "visit_date": null
+    },
+    {
+      "id": "x05",
+      "handoff_id": "X05",
+      "title": "禅定佛坐像",
+      "title_status": "reviewed-label-based",
+      "original_title": "Buddha in Meditation",
+      "region_label": "犍陀罗，今阿富汗或巴基斯坦",
+      "date_label": "约4—5世纪",
+      "date_display": "约4—5世纪",
+      "material_label": "灰泥（stucco）",
+      "collection": "xuzhou",
+      "main_photo": "973",
+      "label_photo": "976",
+      "detail_photos": [
+        "974",
+        "975"
+      ],
+      "evidence": {
+        "handoff_record": {
+          "id": "X05",
+          "working_title_zh": "禅定佛坐像",
+          "region_label": "犍陀罗，今阿富汗或巴基斯坦",
+          "date_label": "约4—5世纪",
+          "material_label": "灰泥 stucco",
+          "main_photo": 973,
+          "label_photo": 976,
+          "extra_photos": "974 975",
+          "collection_status": "展签明确虚舟",
+          "cautions": "不是石雕；保留展签地点二选一"
+        },
+        "independent_full_resolution_label_review": true,
+        "visual_review": "all-main-photos-compared; high-risk-details-opened-at-original-resolution",
+        "external_object_record": null
+      },
+      "research_questions": [
+        "不是石雕；保留展签地点二选一"
+      ],
+      "notes": [
+        {
+          "text": "衣褶从颈部一层层垂向双手，到了腿前又聚成悬垂的折线。双手在腹前相叠，低垂的眼睛与闭合的嘴保持安静。卷曲发束和尖起的顶髻，比身体上的褶皱更细碎，浅色表面让这些起伏格外清楚。",
+          "kind": "visual-observation",
+          "sources": []
+        },
+        {
+          "text": "这件以灰泥塑成，馆方归于今阿富汗或巴基斯坦一带的晚期犍陀罗。展签把衣褶、头发与希腊化传统联系起来，又把眼睑和眉线与印度笈多时期的造型比较。几种视觉语言在同一张面孔上相遇，并不意味着可以据此画出它本身的流转路线。",
+          "kind": "label-interpretation",
+          "sources": [
+            "label"
+          ]
+        }
+      ],
+      "short": "灰泥里的衣褶、卷发和低垂双眼。",
+      "record_note": null,
+      "related": [
+        "x07",
+        "x16",
+        "x17"
+      ],
+      "accession": null,
+      "dimensions": null,
+      "confidence": "现场展签及照片对应已核；独立图录条目未取得",
+      "label_original": {
+        "region": "Gandharan, Afghanistan or Pakistan",
+        "date": "c. 4th–5th century",
+        "material": "Stucco"
+      },
+      "region_group": "south-asia",
+      "source_ids": [
+        "label"
+      ],
+      "sources": [
+        {
+          "id": "label",
+          "kind": "photographed-museum-label",
+          "photo": "976",
+          "reviewed": "2026-10-25"
+        }
+      ],
+      "visit_date": null
+    },
+    {
+      "id": "x06",
+      "handoff_id": "X06",
+      "title": "佛坐像",
+      "title_status": "reviewed-label-based",
+      "original_title": "Seated Buddha",
+      "region_label": "西藏",
+      "date_label": "15世纪",
+      "date_display": "15世纪",
+      "material_label": "鎏金青铜、嵌银",
+      "collection": "xuzhou",
+      "main_photo": "977",
+      "label_photo": "979",
+      "detail_photos": [
+        "978"
+      ],
+      "evidence": {
+        "handoff_record": {
+          "id": "X06",
+          "working_title_zh": "佛坐像",
+          "region_label": "西藏",
+          "date_label": "15世纪",
+          "material_label": "鎏金青铜、嵌银",
+          "main_photo": 977,
+          "label_photo": 979,
+          "extra_photos": "978",
+          "collection_status": "展签明确虚舟",
+          "cautions": "可细读袈裟纹样；不凭装饰推断宗派"
+        },
+        "independent_full_resolution_label_review": true,
+        "visual_review": "all-main-photos-compared; high-risk-details-opened-at-original-resolution",
+        "external_object_record": null
+      },
+      "research_questions": [
+        "可细读袈裟纹样；不凭装饰推断宗派"
+      ],
+      "notes": [
+        {
+          "text": "身上的银色细线把袈裟分成一块块不规则的区域。顺着左肩往下看，线条绕过手臂、胸腹，再落到盘坐的腿上。金色表面与银色边线相互衬托，让衣服的结构比细密的褶皱更醒目。",
+          "kind": "visual-observation",
+          "sources": []
+        },
+        {
+          "text": "展签将这种分块与僧人拼布袈裟的传统相联系。朴素衣料的形制在这里通过鎏金与嵌银表现，贵重材料和出家衣着并置，也是供养造像的一种方式。馆方将本像断为西藏15世纪。",
+          "kind": "label-interpretation",
+          "sources": [
+            "label"
+          ]
+        }
+      ],
+      "short": "袈裟上的银线，像拼接衣料的缝边。",
+      "record_note": null,
+      "related": [
+        "x01",
+        "x04",
+        "x21"
+      ],
+      "accession": null,
+      "dimensions": null,
+      "confidence": "现场展签及照片对应已核；独立图录条目未取得",
+      "label_original": {
+        "region": "Tibet",
+        "date": "15th century",
+        "material": "Gilt bronze with silver inlay"
+      },
+      "region_group": "himalaya",
+      "source_ids": [
+        "label"
+      ],
+      "sources": [
+        {
+          "id": "label",
+          "kind": "photographed-museum-label",
+          "photo": "979",
+          "reviewed": "2026-10-25"
+        }
+      ],
+      "visit_date": null
+    },
+    {
+      "id": "x07",
+      "handoff_id": "X07",
+      "title": "禅定佛坐像",
+      "title_status": "reviewed-label-based",
+      "original_title": "Buddha in Seated Meditation",
+      "region_label": "斯里兰卡",
+      "date_label": "阿努拉德普勒时期，8世纪",
+      "date_display": "阿努拉德普勒时期，8世纪",
+      "material_label": "青铜、嵌水晶",
+      "collection": "xuzhou",
+      "main_photo": "980",
+      "label_photo": "983",
+      "detail_photos": [
+        "981",
+        "982"
+      ],
+      "evidence": {
+        "handoff_record": {
+          "id": "X07",
+          "working_title_zh": "禅定佛坐像",
+          "region_label": "斯里兰卡",
+          "date_label": "阿努拉德普勒时期，8世纪",
+          "material_label": "青铜、嵌水晶",
+          "main_photo": 980,
+          "label_photo": 983,
+          "extra_photos": "981 982",
+          "collection_status": "展签明确虚舟",
+          "cautions": "保留inlaid crystal的材料区别"
+        },
+        "independent_full_resolution_label_review": true,
+        "visual_review": "all-main-photos-compared; high-risk-details-opened-at-original-resolution",
+        "external_object_record": null
+      },
+      "research_questions": [
+        "保留inlaid crystal的材料区别"
+      ],
+      "notes": [
+        {
+          "text": "正面最先显出的，是宽肩与收束的腰，以及平稳铺开的双腿。薄衣几乎贴住身体，左肩下方的细褶一层层落向腹部。转到背面，衣纹仍沿肩胛向下排列；侧面又能看清胸部与背部的曲线。",
+          "kind": "visual-observation",
+          "sources": []
+        },
+        {
+          "text": "馆方记录眼部嵌有水晶。与金属身体不同的材料，把光引到眼睛所在的位置；照片里低垂的双眼，因此值得单独放大看。展签将作品定为斯里兰卡阿努拉德普勒时期、8世纪，并把展开的胸部和略内收的背部，与禅定时的呼吸姿态联系起来。",
+          "kind": "label-interpretation",
+          "sources": [
+            "label"
+          ]
+        }
+      ],
+      "short": "水晶眼、贴身薄衣与背面的衣纹。",
+      "record_note": null,
+      "related": [
+        "x05",
+        "x14",
+        "x23"
+      ],
+      "accession": null,
+      "dimensions": null,
+      "confidence": "现场展签及照片对应已核；独立图录条目未取得",
+      "label_original": {
+        "region": "Sri Lanka",
+        "date": "Anuradhapura period, 8th century",
+        "material": "Bronze with inlaid crystal"
+      },
+      "region_group": "south-asia",
+      "source_ids": [
+        "label"
+      ],
+      "sources": [
+        {
+          "id": "label",
+          "kind": "photographed-museum-label",
+          "photo": "983",
+          "reviewed": "2026-10-25"
+        }
+      ],
+      "visit_date": null
+    },
+    {
+      "id": "x08",
+      "handoff_id": "X08",
+      "title": "佛立像：镂空火焰背光",
+      "title_status": "reviewed-label-based",
+      "original_title": "Standing Buddha",
+      "region_label": "朝鲜半岛",
+      "date_label": "统一新罗，8世纪",
+      "date_display": "统一新罗，8世纪",
+      "material_label": "鎏金青铜",
+      "collection": "xuzhou",
+      "main_photo": "989",
+      "label_photo": "990",
+      "detail_photos": [],
+      "evidence": {
+        "handoff_record": {
+          "id": "X08",
+          "working_title_zh": "佛立像（镂空火焰背光）",
+          "region_label": "朝鲜半岛",
+          "date_label": "统一新罗，8世纪",
+          "material_label": "鎏金青铜",
+          "main_photo": 989,
+          "label_photo": 990,
+          "extra_photos": "",
+          "collection_status": "展签明确虚舟",
+          "cautions": "由1062整柜位置核对；勿与X09年代交换"
+        },
+        "independent_full_resolution_label_review": true,
+        "visual_review": "all-main-photos-compared; high-risk-details-opened-at-original-resolution",
+        "external_object_record": null
+      },
+      "research_questions": [
+        "由1062整柜位置核对；勿与X09年代交换"
+      ],
+      "notes": [
+        {
+          "text": "背光并非一片完整的金属板：火焰、卷草与圆形头光之间留出大量空隙，展厅的红墙从中透出来。站在中央的佛像很小，胸前U形衣纹却一层层落得清楚，莲座下还有翻卷的瓣片。",
+          "kind": "visual-observation",
+          "sources": []
+        },
+        {
+          "text": "展签将这尊立佛定为统一新罗8世纪。和旁边较晚、实心叶形背光的佛立像相比，这里强调的是轮廓与透空；另一件则让背光成为安置小佛像的表面。",
+          "kind": "label-interpretation",
+          "sources": [
+            "label"
+          ]
+        }
+      ],
+      "short": "红墙透过火焰与卷草，成为背光中的空隙。",
+      "record_note": null,
+      "related": [
+        "x09",
+        "x26",
+        "x27"
+      ],
+      "accession": null,
+      "dimensions": null,
+      "confidence": "现场展签及照片对应已核；独立图录条目未取得",
+      "label_original": {
+        "region": "Korea",
+        "date": "Unified Silla period, 8th century",
+        "material": "Gilt bronze"
+      },
+      "region_group": "east-asia",
+      "source_ids": [
+        "label"
+      ],
+      "sources": [
+        {
+          "id": "label",
+          "kind": "photographed-museum-label",
+          "photo": "990",
+          "reviewed": "2026-10-25"
+        }
+      ],
+      "visit_date": null
+    },
+    {
+      "id": "x09",
+      "handoff_id": "X09",
+      "title": "佛立像：实心叶形背光",
+      "title_status": "reviewed-label-based",
+      "original_title": "Standing Buddha",
+      "region_label": "朝鲜半岛",
+      "date_label": "统一新罗晚期至高丽初期，9世纪末—10世纪初",
+      "date_display": "统一新罗晚期至高丽初期，9世纪末—10世纪初",
+      "material_label": "鎏金青铜",
+      "collection": "xuzhou",
+      "main_photo": "991",
+      "label_photo": "992",
+      "detail_photos": [],
+      "evidence": {
+        "handoff_record": {
+          "id": "X09",
+          "working_title_zh": "佛立像（实心叶形背光）",
+          "region_label": "朝鲜半岛",
+          "date_label": "统一新罗晚期至高丽初期，9世纪末—10世纪初",
+          "material_label": "鎏金青铜",
+          "main_photo": 991,
+          "label_photo": 992,
+          "extra_photos": "",
+          "collection_status": "展签明确虚舟",
+          "cautions": "背光有三尊小佛；由1062位置核对"
+        },
+        "independent_full_resolution_label_review": true,
+        "visual_review": "all-main-photos-compared; high-risk-details-opened-at-original-resolution",
+        "external_object_record": null
+      },
+      "research_questions": [
+        "背光有三尊小佛；由1062位置核对"
+      ],
+      "notes": [
+        {
+          "text": "尖叶形背光上可以找到三尊小坐佛：一尊在顶端，两尊分列主像头部左右。背光与佛身之间并没有镂空火焰那样敞开的间隔，视线更多停留在板面上的浅浮雕、主像面容和层叠衣纹。",
+          "kind": "visual-observation",
+          "sources": []
+        },
+        {
+          "text": "馆方定年为统一新罗晚期至高丽初期，即9世纪末至10世纪初。它与8世纪的镂空背光佛，同属朝鲜半岛的金铜造像，却以不同方式组织主尊与光明的关系。",
+          "kind": "label-interpretation",
+          "sources": [
+            "label"
+          ]
+        }
+      ],
+      "short": "三尊小坐佛，围在主像头光周围。",
+      "record_note": null,
+      "related": [
+        "x08",
+        "x26"
+      ],
+      "accession": null,
+      "dimensions": null,
+      "confidence": "现场展签及照片对应已核；独立图录条目未取得",
+      "label_original": {
+        "region": "Korea",
+        "date": "Late Unified Silla–early Goryeo period, late 9th–early 10th century",
+        "material": "Gilt bronze"
+      },
+      "region_group": "east-asia",
+      "source_ids": [
+        "label"
+      ],
+      "sources": [
+        {
+          "id": "label",
+          "kind": "photographed-museum-label",
+          "photo": "992",
+          "reviewed": "2026-10-25"
+        }
+      ],
+      "visit_date": null
+    },
+    {
+      "id": "x10",
+      "handoff_id": "X10",
+      "title": "诞生佛",
+      "title_status": "reviewed-label-based",
+      "original_title": "Buddha at Birth",
+      "region_label": "朝鲜半岛",
+      "date_label": "三国时期，7世纪",
+      "date_display": "三国时期，7世纪",
+      "material_label": "鎏金青铜",
+      "collection": "xuzhou",
+      "main_photo": "993",
+      "label_photo": "994",
+      "detail_photos": [],
+      "evidence": {
+        "handoff_record": {
+          "id": "X10",
+          "working_title_zh": "诞生佛",
+          "region_label": "朝鲜半岛",
+          "date_label": "三国时期，7世纪",
+          "material_label": "鎏金青铜",
+          "main_photo": 993,
+          "label_photo": 994,
+          "extra_photos": "",
+          "collection_status": "展签明确虚舟",
+          "cautions": "不要与日本诞生佛展签混用"
+        },
+        "independent_full_resolution_label_review": true,
+        "visual_review": "all-main-photos-compared; high-risk-details-opened-at-original-resolution",
+        "external_object_record": null
+      },
+      "research_questions": [
+        "不要与日本诞生佛展签混用"
+      ],
+      "notes": [
+        {
+          "text": "这尊小像的肩臂已有残缺，胸腹和短裙般的衣饰仍清楚可见。细长的身体站在宽大的覆莲座上，残留的金色沿面部、胸口和双腿分布。它的童子形象，与同柜披袈裟的成年立佛很不一样。",
+          "kind": "visual-observation",
+          "sources": []
+        },
+        {
+          "text": "展签将其定为朝鲜半岛三国时期7世纪的诞生佛。这类形象关联佛陀诞生后行七步、宣示其身份的宗教叙事。与日本浴佛盆中的小像并看，还能从同一题材看到独立造像与仪式用具的关系。",
+          "kind": "label-interpretation",
+          "sources": [
+            "label"
+          ]
+        }
+      ],
+      "short": "童子形体与莲座，指向佛陀诞生的故事。",
+      "record_note": null,
+      "related": [
+        "x11",
+        "x08"
+      ],
+      "accession": null,
+      "dimensions": null,
+      "confidence": "现场展签及照片对应已核；独立图录条目未取得",
+      "label_original": {
+        "region": "Korea",
+        "date": "Three Kingdoms period, 7th century",
+        "material": "Gilt bronze"
+      },
+      "region_group": "east-asia",
+      "source_ids": [
+        "label"
+      ],
+      "sources": [
+        {
+          "id": "label",
+          "kind": "photographed-museum-label",
+          "photo": "994",
+          "reviewed": "2026-10-25"
+        }
+      ],
+      "visit_date": null
+    },
+    {
+      "id": "x11",
+      "handoff_id": "X11",
+      "title": "诞生佛与浴佛盆",
+      "title_status": "reviewed-label-based",
+      "original_title": "Buddha at Birth",
+      "region_label": "日本",
+      "date_label": "展签原文Nara period, 7th century（矛盾）",
+      "date_display": "年代有疑点：展签并列奈良时期与7世纪",
+      "material_label": "鎏金青铜；盆为后配",
+      "collection": "xuzhou",
+      "main_photo": "995",
+      "label_photo": "996",
+      "detail_photos": [],
+      "evidence": {
+        "handoff_record": {
+          "id": "X11",
+          "working_title_zh": "诞生佛与浴佛盆",
+          "region_label": "日本",
+          "date_label": "展签原文Nara period, 7th century（矛盾）",
+          "material_label": "鎏金青铜；盆为后配",
+          "main_photo": 995,
+          "label_photo": 996,
+          "extra_photos": "",
+          "collection_status": "展签明确虚舟",
+          "cautions": "奈良时期与7世纪冲突，必须核实；暂并列说明展签两种信息，不自动改为8世纪"
+        },
+        "independent_full_resolution_label_review": true,
+        "visual_review": "all-main-photos-compared; high-risk-details-opened-at-original-resolution",
+        "external_object_record": null
+      },
+      "research_questions": [
+        "奈良时期与7世纪冲突，必须核实；暂并列说明展签两种信息，不自动改为8世纪"
+      ],
+      "notes": [
+        {
+          "text": "高举的右臂让小像的轮廓超过头顶，另一只手垂在身侧。佛身居于浅盆中央，宽阔的盆沿把这个本来细小的形象围成一处可以接近的仪式空间；盆内反光与佛身深色形成对照。",
+          "kind": "visual-observation",
+          "sources": []
+        },
+        {
+          "text": "馆方把它与浴佛仪式联系起来：以香水沐浴诞生佛，纪念佛陀降生。展签同时注明盆为后配，今天所见并非可以直接视作原配的一整套器物。",
+          "kind": "label-interpretation",
+          "sources": [
+            "label"
+          ]
+        }
+      ],
+      "short": "一手指天、一手向下的小像，立在浅盆中。",
+      "record_note": "现场展签并列“Nara period”与“7th century”。奈良时代通常为710—794年，两项不一致；本页保留这一年代疑点，尚不能确定哪一项需要更正。",
+      "related": [
+        "x10"
+      ],
+      "accession": null,
+      "dimensions": null,
+      "confidence": "现场展签及照片对应已核；独立图录条目未取得",
+      "label_original": {
+        "region": "Japan",
+        "date": "Nara period, 7th century",
+        "material": "Gilt bronze, basin added later"
+      },
+      "record_sources": [
+        "nara"
+      ],
+      "region_group": "east-asia",
+      "source_ids": [
+        "label",
+        "nara"
+      ],
+      "sources": [
+        {
+          "id": "label",
+          "kind": "photographed-museum-label",
+          "photo": "996",
+          "reviewed": "2026-10-25"
+        }
+      ],
+      "visit_date": null
+    },
+    {
+      "id": "x12",
+      "handoff_id": "X12",
+      "title": "如意轮观音",
+      "title_status": "reviewed-label-based",
+      "original_title": "Avalokitesvara as Nyoirin Kannon",
+      "region_label": "日本",
+      "date_label": "镰仓时期，1185—1333年",
+      "date_display": "镰仓时期，1185—1333年",
+      "material_label": "鎏金青铜",
+      "collection": "xuzhou",
+      "main_photo": "997",
+      "label_photo": "998",
+      "detail_photos": [],
+      "evidence": {
+        "handoff_record": {
+          "id": "X12",
+          "working_title_zh": "如意轮观音",
+          "region_label": "日本",
+          "date_label": "镰仓时期，1185—1333年",
+          "material_label": "鎏金青铜",
+          "main_photo": 997,
+          "label_photo": 998,
+          "extra_photos": "",
+          "collection_status": "展签明确虚舟",
+          "cautions": "尊名以Nyoirin Kannon为检索依据"
+        },
+        "independent_full_resolution_label_review": true,
+        "visual_review": "all-main-photos-compared; high-risk-details-opened-at-original-resolution",
+        "external_object_record": null
+      },
+      "research_questions": [
+        "尊名以Nyoirin Kannon为检索依据"
+      ],
+      "notes": [
+        {
+          "text": "一只手抵近脸侧，其他手臂分布在身体两边，层次比正面第一眼所见更多。环绕主像的背光布满卷草，莲瓣则向外舒展，形成疏密不同的两圈。身体微侧，使沉思的动作显得更集中。",
+          "kind": "visual-observation",
+          "sources": []
+        },
+        {
+          "text": "馆方题名为日本的如意轮观音，年代属镰仓时期。展签辨认了胸前所持的宝珠，并指出一只手原持的轮已经缺失。这些持物与多臂形象共同构成身份线索；现存的手势并非全部仍保留原有器物。",
+          "kind": "label-interpretation",
+          "sources": [
+            "label"
+          ]
+        }
+      ],
+      "short": "多臂坐像与细密的镂空卷草。",
+      "record_note": null,
+      "related": [
+        "x15",
+        "x22"
+      ],
+      "accession": null,
+      "dimensions": null,
+      "confidence": "现场展签及照片对应已核；独立图录条目未取得",
+      "label_original": {
+        "region": "Japan",
+        "date": "Kamakura period, 1185–1333",
+        "material": "Gilt bronze"
+      },
+      "region_group": "east-asia",
+      "source_ids": [
+        "label"
+      ],
+      "sources": [
+        {
+          "id": "label",
+          "kind": "photographed-museum-label",
+          "photo": "998",
+          "reviewed": "2026-10-25"
+        }
+      ],
+      "visit_date": null
+    },
+    {
+      "id": "x13",
+      "handoff_id": "X13",
+      "title": "东方持国天王",
+      "title_status": "reviewed-label-based",
+      "original_title": "Jikokuten (Dhritarastra), Heavenly King of the East",
+      "region_label": "日本",
+      "date_label": "镰仓时期，13世纪—14世纪初",
+      "date_display": "镰仓时期，13世纪—14世纪初",
+      "material_label": "鎏金青铜",
+      "collection": "xuzhou",
+      "main_photo": "999",
+      "label_photo": "1000",
+      "detail_photos": [],
+      "evidence": {
+        "handoff_record": {
+          "id": "X13",
+          "working_title_zh": "东方持国天王",
+          "region_label": "日本",
+          "date_label": "镰仓时期，13世纪—14世纪初",
+          "material_label": "鎏金青铜",
+          "main_photo": 999,
+          "label_photo": 1000,
+          "extra_photos": "",
+          "collection_status": "展签明确虚舟",
+          "cautions": "Jikokuten / Dhritarashtra；不要写成多闻天王"
+        },
+        "independent_full_resolution_label_review": true,
+        "visual_review": "all-main-photos-compared; high-risk-details-opened-at-original-resolution",
+        "external_object_record": null
+      },
+      "research_questions": [
+        "Jikokuten / Dhritarashtra；不要写成多闻天王"
+      ],
+      "notes": [
+        {
+          "text": "这尊立像的动作由抬起的手臂和长兵器拉开，另一只手收在腰侧。甲片、袖口与腰腹层叠的衣饰使身体显得厚重，脚下伏着的形象又让站姿多了一层力量关系。",
+          "kind": "visual-observation",
+          "sources": []
+        },
+        {
+          "text": "展签明确题为东方持国天王，即日语Jikokuten、梵名Dhritarastra，属于守护四方的天王之一。馆方将这件日本鎏金青铜像定为13世纪至14世纪初。与同柜坐在莲花上的如意轮观音相比，护法的武装外观和姿态尤为鲜明。",
+          "kind": "label-interpretation",
+          "sources": [
+            "label"
+          ]
+        }
+      ],
+      "short": "甲胄、兵器与脚下的承托形象。",
+      "record_note": null,
+      "related": [
+        "x12"
+      ],
+      "accession": null,
+      "dimensions": null,
+      "confidence": "现场展签及照片对应已核；独立图录条目未取得",
+      "label_original": {
+        "region": "Japan",
+        "date": "Kamakura period, 13th–early 14th century",
+        "material": "Gilt bronze"
+      },
+      "region_group": "east-asia",
+      "source_ids": [
+        "label"
+      ],
+      "sources": [
+        {
+          "id": "label",
+          "kind": "photographed-museum-label",
+          "photo": "1000",
+          "reviewed": "2026-10-25"
+        }
+      ],
+      "visit_date": null
+    },
+    {
+      "id": "x14",
+      "handoff_id": "X14",
+      "title": "宝座上的佛陀",
+      "title_status": "reviewed-label-based",
+      "original_title": "Buddha Enthroned",
+      "region_label": "大克什米尔，今印度或巴基斯坦",
+      "date_label": "约8—9世纪",
+      "date_display": "约8—9世纪",
+      "material_label": "铜合金、嵌银",
+      "collection": "xuzhou",
+      "main_photo": "1001",
+      "label_photo": "1004",
+      "detail_photos": [
+        "1002",
+        "1003"
+      ],
+      "evidence": {
+        "handoff_record": {
+          "id": "X14",
+          "working_title_zh": "宝座上的佛陀",
+          "region_label": "大克什米尔，今印度或巴基斯坦",
+          "date_label": "约8—9世纪",
+          "material_label": "铜合金、嵌银",
+          "main_photo": 1001,
+          "label_photo": 1004,
+          "extra_photos": "1002 1003",
+          "collection_status": "展签明确虚舟",
+          "cautions": "Greater Kashmir是历史文化区域，不能径写单一现代国家"
+        },
+        "independent_full_resolution_label_review": true,
+        "visual_review": "all-main-photos-compared; high-risk-details-opened-at-original-resolution",
+        "external_object_record": null
+      },
+      "research_questions": [
+        "Greater Kashmir是历史文化区域，不能径写单一现代国家"
+      ],
+      "notes": [
+        {
+          "text": "佛陀双足垂下，胸前的双手组成紧凑的说法姿态。披肩边缘有成排垂饰，座架两边的动物又从腿侧探出头来。银色眼部与深色瞳孔，使面部成为整件像最醒目的亮点之一。",
+          "kind": "visual-observation",
+          "sources": []
+        },
+        {
+          "text": "馆方将它归于大克什米尔地区，约8—9世纪，材质为嵌银铜合金。座架的透空结构与莲瓣并用，形成了比普通莲座更复杂的宝座。馆方题名仅称佛陀，尚未确定为某一尊佛。",
+          "kind": "label-interpretation",
+          "sources": [
+            "label"
+          ]
+        }
+      ],
+      "short": "垂下的双足、胸前双手与透空座架。",
+      "record_note": null,
+      "related": [
+        "x07",
+        "x15"
+      ],
+      "accession": null,
+      "dimensions": null,
+      "confidence": "现场展签及照片对应已核；独立图录条目未取得",
+      "label_original": {
+        "region": "Greater Kashmir region, India or Pakistan",
+        "date": "c. 8th–9th century",
+        "material": "Copper alloy with silver inlay"
+      },
+      "region_group": "south-asia",
+      "source_ids": [
+        "label"
+      ],
+      "sources": [
+        {
+          "id": "label",
+          "kind": "photographed-museum-label",
+          "photo": "1004",
+          "reviewed": "2026-10-25"
+        }
+      ],
+      "visit_date": null
+    },
+    {
+      "id": "x15",
+      "handoff_id": "X15",
+      "title": "持莲观音",
+      "title_status": "reviewed-label-based",
+      "original_title": "Lotus-Bearing Avalokitesvara",
+      "region_label": "斯瓦特河谷，今巴基斯坦",
+      "date_label": "约7世纪",
+      "date_display": "约7世纪",
+      "material_label": "铜合金、嵌银",
+      "collection": "xuzhou",
+      "main_photo": "1005",
+      "label_photo": "1006",
+      "detail_photos": [],
+      "evidence": {
+        "handoff_record": {
+          "id": "X15",
+          "working_title_zh": "持莲观音",
+          "region_label": "斯瓦特河谷，今巴基斯坦",
+          "date_label": "约7世纪",
+          "material_label": "铜合金、嵌银",
+          "main_photo": 1005,
+          "label_photo": 1006,
+          "extra_photos": "",
+          "collection_status": "展签明确虚舟",
+          "cautions": "持莲观音为工作译名，保留Avalokiteshvara原名"
+        },
+        "independent_full_resolution_label_review": true,
+        "visual_review": "all-main-photos-compared; high-risk-details-opened-at-original-resolution",
+        "external_object_record": null
+      },
+      "research_questions": [
+        "持莲观音为工作译名，保留Avalokiteshvara原名"
+      ],
+      "notes": [
+        {
+          "text": "身体向右倾，右手指尖靠近面颊；左手持莲，花朵在肩旁展开。一条腿盘起，另一条腿垂落，坐垫与镂空座架又为这份不对称提供承托。沿着手、面颊和莲花看，能读出相互呼应的三处小动作。",
+          "kind": "visual-observation",
+          "sources": []
+        },
+        {
+          "text": "展签归于今巴基斯坦斯瓦特河谷、约7世纪，题名以莲花辨认观音。馆方将座具解释为带软垫的编织座，并指出垂下的足由莲花承托。铜合金上的嵌银，则为眼部等细节带来另一种光泽。",
+          "kind": "label-interpretation",
+          "sources": [
+            "label"
+          ]
+        }
+      ],
+      "short": "指尖靠近面颊，莲花升到肩侧。",
+      "record_note": null,
+      "related": [
+        "x14",
+        "x22",
+        "x12"
+      ],
+      "accession": null,
+      "dimensions": null,
+      "confidence": "现场展签及照片对应已核；独立图录条目未取得",
+      "label_original": {
+        "region": "Swat Valley, Pakistan",
+        "date": "c. 7th century",
+        "material": "Copper alloy with silver inlay"
+      },
+      "region_group": "south-asia",
+      "source_ids": [
+        "label"
+      ],
+      "sources": [
+        {
+          "id": "label",
+          "kind": "photographed-museum-label",
+          "photo": "1006",
+          "reviewed": "2026-10-25"
+        }
+      ],
+      "visit_date": null
+    },
+    {
+      "id": "x16",
+      "handoff_id": "X16",
+      "title": "悉达多太子出家浮雕",
+      "title_status": "reviewed-label-based",
+      "original_title": "The Renunciation of Prince Siddhartha",
+      "region_label": "犍陀罗，今巴基斯坦或阿富汗",
+      "date_label": "约2—3世纪",
+      "date_display": "约2—3世纪",
+      "material_label": "片岩、残留金彩",
+      "collection": "xuzhou",
+      "main_photo": "1007",
+      "label_photo": "1008",
+      "detail_photos": [],
+      "evidence": {
+        "handoff_record": {
+          "id": "X16",
+          "working_title_zh": "悉达多太子出家浮雕",
+          "region_label": "犍陀罗，今巴基斯坦或阿富汗",
+          "date_label": "约2—3世纪",
+          "material_label": "片岩、残留金彩",
+          "main_photo": 1007,
+          "label_photo": 1008,
+          "extra_photos": "",
+          "collection_status": "展签明确虚舟",
+          "cautions": "区分原物金彩残迹和现代照片亮斑"
+        },
+        "independent_full_resolution_label_review": true,
+        "visual_review": "all-main-photos-compared; high-risk-details-opened-at-original-resolution",
+        "external_object_record": null
+      },
+      "research_questions": [
+        "区分原物金彩残迹和现代照片亮斑"
+      ],
+      "notes": [
+        {
+          "text": "浮雕用上、下两层容纳人物：上方的床榻、帷幔和坐起的人物相连，下方几个人物姿态错落，有的垂首，有的相倚。深色片岩上散见金色残迹，衣饰、身体与背景之间的层次仍很清楚。",
+          "kind": "visual-observation",
+          "sources": []
+        },
+        {
+          "text": "馆方将画面解释为悉达多太子夜间醒来、决意离开宫廷的场景，包含妻子与熟睡的侍女。它表现的是出家叙事中的室内时刻，画面本身没有骑马出城的队列。年代约2—3世纪，属于古代犍陀罗地区。",
+          "kind": "label-interpretation",
+          "sources": [
+            "label"
+          ]
+        }
+      ],
+      "short": "寝室与睡眠中的人物，构成出家前的一幕。",
+      "record_note": null,
+      "related": [
+        "x02",
+        "x05",
+        "x17"
+      ],
+      "accession": null,
+      "dimensions": null,
+      "confidence": "现场展签及照片对应已核；独立图录条目未取得",
+      "label_original": {
+        "region": "Ancient Gandhara, Pakistan or Afghanistan",
+        "date": "c. 2nd–3rd century",
+        "material": "Schist stone and traces of gold"
+      },
+      "region_group": "south-asia",
+      "source_ids": [
+        "label"
+      ],
+      "sources": [
+        {
+          "id": "label",
+          "kind": "photographed-museum-label",
+          "photo": "1008",
+          "reviewed": "2026-10-25"
+        }
+      ],
+      "visit_date": null
+    },
+    {
+      "id": "x17",
+      "handoff_id": "X17",
+      "title": "释迦牟尼立像",
+      "title_status": "reviewed-label-based",
+      "original_title": "Buddha Shakyamuni",
+      "region_label": "犍陀罗，今巴基斯坦或阿富汗",
+      "date_label": "约6世纪",
+      "date_display": "约6世纪",
+      "material_label": "铜合金",
+      "collection": "xuzhou",
+      "main_photo": "1009",
+      "label_photo": "1013",
+      "detail_photos": [
+        "1010",
+        "1011",
+        "1012"
+      ],
+      "evidence": {
+        "handoff_record": {
+          "id": "X17",
+          "working_title_zh": "释迦牟尼立像",
+          "region_label": "犍陀罗，今巴基斯坦或阿富汗",
+          "date_label": "约6世纪",
+          "material_label": "铜合金",
+          "main_photo": 1009,
+          "label_photo": 1013,
+          "extra_photos": "1010 1011 1012",
+          "collection_status": "展签明确虚舟",
+          "cautions": "1010底座文字不够清楚，不能编造铭文释读"
+        },
+        "independent_full_resolution_label_review": true,
+        "visual_review": "all-main-photos-compared; high-risk-details-opened-at-original-resolution",
+        "external_object_record": null
+      },
+      "research_questions": [
+        "1010底座文字不够清楚，不能编造铭文释读"
+      ],
+      "notes": [
+        {
+          "text": "衣纹在胸前形成宽大的U形，往下逐渐拉长，覆盖到双腿前。右臂残缺，左手仍牵着衣缘；双足分开站在方台上。比起同地区的灰泥坐佛，这件金属立像的轮廓更紧凑，衣纹也更像沿身体垂下的线。",
+          "kind": "visual-observation",
+          "sources": []
+        },
+        {
+          "text": "展签将其定为古代犍陀罗约6世纪作品，并提及底座上尚未完全释读的奉献铭文。铭文把一尊独立陈列的佛像重新连到造像者、供养者及其祈愿；现有资料仍不足以补出完整原文和全部人名。",
+          "kind": "label-interpretation",
+          "sources": [
+            "label"
+          ]
+        }
+      ],
+      "short": "从通肩衣褶，看到独立的方形座。",
+      "record_note": null,
+      "related": [
+        "x05",
+        "x16",
+        "x24"
+      ],
+      "accession": null,
+      "dimensions": null,
+      "confidence": "现场展签及照片对应已核；独立图录条目未取得",
+      "label_original": {
+        "region": "Ancient Gandhara, Pakistan or Afghanistan",
+        "date": "c. 6th century",
+        "material": "Copper alloy"
+      },
+      "region_group": "south-asia",
+      "source_ids": [
+        "label"
+      ],
+      "sources": [
+        {
+          "id": "label",
+          "kind": "photographed-museum-label",
+          "photo": "1013",
+          "reviewed": "2026-10-25"
+        }
+      ],
+      "visit_date": null
+    },
+    {
+      "id": "x18",
+      "handoff_id": "X18",
+      "title": "阿弥陀佛坐像",
+      "title_status": "reviewed-label-based",
+      "original_title": "Buddha Amitabha",
+      "region_label": "爪哇，印度尼西亚",
+      "date_label": "9世纪",
+      "date_display": "9世纪",
+      "material_label": "青铜",
+      "collection": "xuzhou",
+      "main_photo": "1014",
+      "label_photo": "1015",
+      "detail_photos": [],
+      "evidence": {
+        "handoff_record": {
+          "id": "X18",
+          "working_title_zh": "阿弥陀佛坐像",
+          "region_label": "爪哇，印度尼西亚",
+          "date_label": "9世纪",
+          "material_label": "青铜",
+          "main_photo": 1014,
+          "label_photo": 1015,
+          "extra_photos": "",
+          "collection_status": "展签明确虚舟",
+          "cautions": "与馆藏邻展两件分开"
+        },
+        "independent_full_resolution_label_review": true,
+        "visual_review": "all-main-photos-compared; high-risk-details-opened-at-original-resolution",
+        "external_object_record": null
+      },
+      "research_questions": [
+        "与馆藏邻展两件分开"
+      ],
+      "notes": [
+        {
+          "text": "双手在腹前相叠，双腿平稳展开，头部、胸口与手掌都落在同一中轴上。袈裟薄贴身体，仅在肩缘与腿面留下轻浅的界线。下方莲座较低，不会盖过身体本身的形体。",
+          "kind": "visual-observation",
+          "sources": []
+        },
+        {
+          "text": "馆方将这尊青铜像题为阿弥陀佛，定为爪哇中部时期9世纪。展签用婆罗浮屠的大型佛像作造型参照。这是同时期形象的比较，本像的原安置地点仍无明确记录。",
+          "kind": "label-interpretation",
+          "sources": [
+            "label"
+          ]
+        }
+      ],
+      "short": "低垂的双眼与掌心相叠的双手。",
+      "record_note": null,
+      "related": [
+        "x07",
+        "x19"
+      ],
+      "accession": null,
+      "dimensions": null,
+      "confidence": "现场展签及照片对应已核；独立图录条目未取得",
+      "label_original": {
+        "region": "Indonesia",
+        "date": "Central Javanese period, 9th century",
+        "material": "Bronze"
+      },
+      "region_group": "southeast-asia",
+      "source_ids": [
+        "label"
+      ],
+      "sources": [
+        {
+          "id": "label",
+          "kind": "photographed-museum-label",
+          "photo": "1015",
+          "reviewed": "2026-10-25"
+        }
+      ],
+      "visit_date": null
+    },
+    {
+      "id": "x19",
+      "handoff_id": "X19",
+      "title": "金刚手菩萨",
+      "title_status": "reviewed-label-based",
+      "original_title": "Bodhisattva Vajrapani",
+      "region_label": "爪哇，印度尼西亚",
+      "date_label": "约9—10世纪",
+      "date_display": "约9—10世纪",
+      "material_label": "银、嵌金；铜合金底座",
+      "collection": "xuzhou",
+      "main_photo": "1017",
+      "label_photo": "1018",
+      "detail_photos": [
+        "1016"
+      ],
+      "evidence": {
+        "handoff_record": {
+          "id": "X19",
+          "working_title_zh": "金刚手菩萨",
+          "region_label": "爪哇，印度尼西亚",
+          "date_label": "约9—10世纪",
+          "material_label": "银、嵌金；铜合金底座",
+          "main_photo": 1017,
+          "label_photo": 1018,
+          "extra_photos": "1016",
+          "collection_status": "展签明确虚舟",
+          "cautions": "不要泛化为鎏金铜像"
+        },
+        "independent_full_resolution_label_review": true,
+        "visual_review": "all-main-photos-compared; high-risk-details-opened-at-original-resolution",
+        "external_object_record": null
+      },
+      "research_questions": [
+        "不要泛化为鎏金铜像"
+      ],
+      "notes": [
+        {
+          "text": "一腿盘起，一腿斜垂，背后的圆形头光与竖起的莲茎把身体围住。莲花上方的小型金刚杵，是辨认金刚手菩萨的关键；冠饰、项链与臂钏又使上半身比衣裙更繁密。",
+          "kind": "visual-observation",
+          "sources": []
+        },
+        {
+          "text": "馆方记录这件爪哇造像以银制成、嵌金，底座为铜合金。三种金属的关系不宜全归成“鎏金铜像”：银构成像身，金用于镶嵌，座又是另一种合金。它与旁边的青铜阿弥陀佛同属爪哇传统，却在姿态和材料上形成很好的对照。",
+          "kind": "label-interpretation",
+          "sources": [
+            "label"
+          ]
+        }
+      ],
+      "short": "肩侧莲花上的金刚杵，藏在精巧的轮廓里。",
+      "record_note": null,
+      "related": [
+        "x18",
+        "x23"
+      ],
+      "accession": null,
+      "dimensions": null,
+      "confidence": "现场展签及照片对应已核；独立图录条目未取得",
+      "label_original": {
+        "region": "Java, Indonesia",
+        "date": "c. 9th–10th century",
+        "material": "Silver with gold inlay and copper-alloy base"
+      },
+      "region_group": "southeast-asia",
+      "source_ids": [
+        "label"
+      ],
+      "sources": [
+        {
+          "id": "label",
+          "kind": "photographed-museum-label",
+          "photo": "1018",
+          "reviewed": "2026-10-25"
+        }
+      ],
+      "visit_date": null
+    },
+    {
+      "id": "n01",
+      "handoff_id": "N01",
+      "title": "肉髻形头饰",
+      "title_status": "reviewed-label-based",
+      "original_title": "Headdress in the Form of Buddha’s Ushnisa",
+      "region_label": "中爪哇",
+      "date_label": "约900年",
+      "date_display": "约900年",
+      "material_label": "金、水晶",
+      "collection": "mfah-neighbor",
+      "main_photo": "1019",
+      "label_photo": "1020",
+      "detail_photos": [],
+      "evidence": {
+        "handoff_record": {
+          "id": "N01",
+          "working_title_zh": "肉髻形头饰（工作译名）",
+          "region_label": "中爪哇",
+          "date_label": "约900年",
+          "material_label": "金、水晶",
+          "main_photo": 1019,
+          "label_photo": 1020,
+          "extra_photos": "",
+          "collection_status": "非虚舟：美术馆藏",
+          "cautions": "Alfred C. Glassell Jr.赠，2004.2248；不计入虚舟件数"
+        },
+        "independent_full_resolution_label_review": true,
+        "visual_review": "all-main-photos-compared; high-risk-details-opened-at-original-resolution",
+        "external_object_record": null
+      },
+      "research_questions": [
+        "Alfred C. Glassell Jr.赠，2004.2248；不计入虚舟件数"
+      ],
+      "notes": [
+        {
+          "text": "金质表面排列着一圈圈螺旋，向上逐渐收束；尖顶处是一颗被金属托起的水晶。下缘敞开，与完整的人物造像不同，观者看到的是一个可以从头部形象中分离出来的部件。",
+          "kind": "visual-observation",
+          "sources": []
+        },
+        {
+          "text": "休斯顿美术馆题名为肉髻形头饰，来自中爪哇、约900年。其具体佩戴与仪式用途仍有讨论。展签记为Alfred C. Glassell, Jr.捐赠，编号2004.2248，属于美术馆自有收藏。",
+          "kind": "label-interpretation",
+          "sources": [
+            "label"
+          ]
+        }
+      ],
+      "short": "螺旋发纹升向水晶顶饰。",
+      "record_note": null,
+      "related": [
+        "n02",
+        "x18"
+      ],
+      "accession": "2004.2248",
+      "dimensions": null,
+      "confidence": "现场展签及照片对应已核；独立图录条目未取得",
+      "label_original": {
+        "region": "Central Java",
+        "date": "c. 900",
+        "material": "Gold and crystal"
+      },
+      "region_group": "southeast-asia",
+      "source_ids": [
+        "label"
+      ],
+      "sources": [
+        {
+          "id": "label",
+          "kind": "photographed-museum-label",
+          "photo": "1020",
+          "reviewed": "2026-10-25"
+        }
+      ],
+      "visit_date": null
+    },
+    {
+      "id": "n02",
+      "handoff_id": "N02",
+      "title": "菩萨头像",
+      "title_status": "reviewed-label-based",
+      "original_title": "Head of a Bodhisattva",
+      "region_label": "爪哇，印度尼西亚",
+      "date_label": "9—10世纪",
+      "date_display": "9—10世纪",
+      "material_label": "安山岩",
+      "collection": "mfah-neighbor",
+      "main_photo": "1021",
+      "label_photo": "1022",
+      "detail_photos": [],
+      "evidence": {
+        "handoff_record": {
+          "id": "N02",
+          "working_title_zh": "菩萨头像",
+          "region_label": "爪哇，印度尼西亚",
+          "date_label": "9—10世纪",
+          "material_label": "安山岩",
+          "main_photo": 1021,
+          "label_photo": 1022,
+          "extra_photos": "",
+          "collection_status": "非虚舟：美术馆藏",
+          "cautions": "购藏，91.333；不计入虚舟件数"
+        },
+        "independent_full_resolution_label_review": true,
+        "visual_review": "all-main-photos-compared; high-risk-details-opened-at-original-resolution",
+        "external_object_record": null
+      },
+      "research_questions": [
+        "购藏，91.333；不计入虚舟件数"
+      ],
+      "notes": [
+        {
+          "text": "高冠与耳饰仍占据头像的大半轮廓，脸部的眉、鼻与嘴则受到磨蚀。放大后，石材颗粒与冠上有意雕出的花纹并排可见，很容易把材质本身的起伏和刻工区分开。",
+          "kind": "visual-observation",
+          "sources": []
+        },
+        {
+          "text": "馆方将它定为爪哇9—10世纪作品，材质是火山岩中的安山岩。现场展签记为美术馆购藏，资金由Terry Huffington及Ralph Ernest Dittman提供，编号91.333。它与虚舟作品相邻展出，收藏归属不同。",
+          "kind": "label-interpretation",
+          "sources": [
+            "label"
+          ]
+        }
+      ],
+      "short": "安山岩的粗颗粒与冠饰的细密层次。",
+      "record_note": null,
+      "related": [
+        "n01",
+        "x18"
+      ],
+      "accession": "91.333",
+      "dimensions": null,
+      "confidence": "现场展签及照片对应已核；独立图录条目未取得",
+      "label_original": {
+        "region": "Indonesia (Java)",
+        "date": "9th–10th century",
+        "material": "Volcanic stone (andesite)"
+      },
+      "region_group": "southeast-asia",
+      "source_ids": [
+        "label"
+      ],
+      "sources": [
+        {
+          "id": "label",
+          "kind": "photographed-museum-label",
+          "photo": "1022",
+          "reviewed": "2026-10-25"
+        }
+      ],
+      "visit_date": null
+    },
+    {
+      "id": "x20",
+      "handoff_id": "X20",
+      "title": "猪首女神（Anucara Varahi）",
+      "title_status": "reviewed-label-based",
+      "original_title": "Anucara Varahi, a Boar-Head Goddess",
+      "region_label": "西藏",
+      "date_label": "15—16世纪",
+      "date_display": "15—16世纪",
+      "material_label": "铜合金、嵌银、颜料",
+      "collection": "xuzhou",
+      "main_photo": "1023",
+      "label_photo": "1024",
+      "detail_photos": [],
+      "evidence": {
+        "handoff_record": {
+          "id": "X20",
+          "working_title_zh": "Anucara Varahi（暂保留原名）",
+          "region_label": "西藏",
+          "date_label": "15—16世纪",
+          "material_label": "铜合金、嵌银、颜料",
+          "main_photo": 1023,
+          "label_photo": 1024,
+          "extra_photos": "",
+          "collection_status": "展签明确虚舟",
+          "cautions": "中文尊名需核实，不直接等同泛称金刚亥母"
+        },
+        "independent_full_resolution_label_review": true,
+        "visual_review": "all-main-photos-compared; high-risk-details-opened-at-original-resolution",
+        "external_object_record": null
+      },
+      "research_questions": [
+        "中文尊名需核实，不直接等同泛称金刚亥母"
+      ],
+      "notes": [
+        {
+          "text": "头部向前伸出的口鼻，使这件坐像一眼区别于人面尊像。右臂举起弯刀，左手把颅器托在胸前；双腿交叠在莲座上，圆润腹部与细密首饰形成对照。",
+          "kind": "visual-observation",
+          "sources": []
+        },
+        {
+          "text": "展签题名为Anucara Varahi，将材质记为铜合金、嵌银与颜料，年代属西藏15—16世纪，并指出獠牙的银质镶嵌。刀、颅器与兽首共同构成这一形象；其具体坛城组合与原安置位置，现有记录没有说明。",
+          "kind": "label-interpretation",
+          "sources": [
+            "label"
+          ]
+        }
+      ],
+      "short": "小小的猪首，与上举的弯刀和胸前颅器。",
+      "record_note": null,
+      "related": [
+        "x19",
+        "x23"
+      ],
+      "accession": null,
+      "dimensions": null,
+      "confidence": "现场展签及照片对应已核；独立图录条目未取得",
+      "label_original": {
+        "region": "Tibet",
+        "date": "15th–16th century",
+        "material": "Copper alloy with silver inlay, pigment"
+      },
+      "region_group": "himalaya",
+      "source_ids": [
+        "label"
+      ],
+      "sources": [
+        {
+          "id": "label",
+          "kind": "photographed-museum-label",
+          "photo": "1024",
+          "reviewed": "2026-10-25"
+        }
+      ],
+      "visit_date": null
+    },
+    {
+      "id": "x21",
+      "handoff_id": "X21",
+      "title": "降魔佛坐像",
+      "title_status": "reviewed-label-based",
+      "original_title": "Buddha Maravijaya, Calling the Earth to Witness",
+      "region_label": "西藏",
+      "date_label": "约13世纪",
+      "date_display": "约13世纪",
+      "material_label": "铜合金、嵌铜和银、颜料",
+      "collection": "xuzhou",
+      "main_photo": "1025",
+      "label_photo": "1026",
+      "detail_photos": [],
+      "evidence": {
+        "handoff_record": {
+          "id": "X21",
+          "working_title_zh": "降魔佛坐像",
+          "region_label": "西藏",
+          "date_label": "约13世纪",
+          "material_label": "铜合金、嵌铜和银、颜料",
+          "main_photo": 1025,
+          "label_photo": 1026,
+          "extra_photos": "",
+          "collection_status": "展签明确虚舟",
+          "cautions": "说明中的阿閦佛识别语气需按原文保留"
+        },
+        "independent_full_resolution_label_review": true,
+        "visual_review": "all-main-photos-compared; high-risk-details-opened-at-original-resolution",
+        "external_object_record": null
+      },
+      "research_questions": [
+        "说明中的阿閦佛识别语气需按原文保留"
+      ],
+      "notes": [
+        {
+          "text": "右手垂过膝头，左手平放在腹前。衣服沿左肩斜落，肩头有一处花形细节，边缘的细线与珠点延伸到腿上；头发的蓝色和面部的金色，又把头部与躯干区别开来。",
+          "kind": "visual-observation",
+          "sources": []
+        },
+        {
+          "text": "馆方题名为降魔佛，联系释迦牟尼成道时请大地见证的故事，也说明同一触地手势在西藏可与阿閦佛相关。这里沿用本像的馆方题名。其表面同时包含铜合金、铜银镶嵌与颜料，多种材料共同参与了造像的观看。",
+          "kind": "label-interpretation",
+          "sources": [
+            "label"
+          ]
+        }
+      ],
+      "short": "触地印之外，还有衣缘、嵌饰与蓝色头发。",
+      "record_note": null,
+      "related": [
+        "x02",
+        "x04",
+        "x06"
+      ],
+      "accession": null,
+      "dimensions": null,
+      "confidence": "现场展签及照片对应已核；独立图录条目未取得",
+      "label_original": {
+        "region": "Tibet",
+        "date": "c. 13th century",
+        "material": "Copper alloy, copper and silver inlay, and pigment"
+      },
+      "region_group": "himalaya",
+      "source_ids": [
+        "label"
+      ],
+      "sources": [
+        {
+          "id": "label",
+          "kind": "photographed-museum-label",
+          "photo": "1026",
+          "reviewed": "2026-10-25"
+        }
+      ],
+      "visit_date": null
+    },
+    {
+      "id": "x22",
+      "handoff_id": "X22",
+      "title": "持莲观音",
+      "title_status": "reviewed-label-based",
+      "original_title": "Padmapani, Lotus-Bearing Avalokiteshvara",
+      "region_label": "尼泊尔",
+      "date_label": "约10世纪",
+      "date_display": "约10世纪",
+      "material_label": "鎏金铜、颜料",
+      "collection": "xuzhou",
+      "main_photo": "1027",
+      "label_photo": "1029",
+      "detail_photos": [
+        "1028"
+      ],
+      "evidence": {
+        "handoff_record": {
+          "id": "X22",
+          "working_title_zh": "持莲观音",
+          "region_label": "尼泊尔",
+          "date_label": "约10世纪",
+          "material_label": "鎏金铜、颜料",
+          "main_photo": 1027,
+          "label_photo": 1029,
+          "extra_photos": "1028",
+          "collection_status": "展签明确虚舟",
+          "cautions": "Padmapani；避免与Swat持莲观音混签"
+        },
+        "independent_full_resolution_label_review": true,
+        "visual_review": "all-main-photos-compared; high-risk-details-opened-at-original-resolution",
+        "external_object_record": null
+      },
+      "research_questions": [
+        "Padmapani；避免与Swat持莲观音混签"
+      ],
+      "notes": [
+        {
+          "text": "观音的身体略向一侧偏移，右手向外展开，左侧莲茎伸到肩旁。后面的环形头光和火焰纹仍保持轴线，因而更显出坐姿的轻微倾斜。莲座上宽大的瓣片，与裙上的细纹形成两种尺度。",
+          "kind": "visual-observation",
+          "sources": []
+        },
+        {
+          "text": "馆方将这件鎏金铜像归于尼泊尔、约10世纪，以所持莲花题名Padmapani。展签将张开的手掌解释为施予，并以莲花联系观音的慈悲、清净与智慧。表面还保留颜料，是金属之外的另一层装饰。",
+          "kind": "label-interpretation",
+          "sources": [
+            "label"
+          ]
+        }
+      ],
+      "short": "莲花、张开的手掌与向一侧倾斜的身体。",
+      "record_note": null,
+      "related": [
+        "x15",
+        "x23"
+      ],
+      "accession": null,
+      "dimensions": null,
+      "confidence": "现场展签及照片对应已核；独立图录条目未取得",
+      "label_original": {
+        "region": "Nepal",
+        "date": "c. 10th century",
+        "material": "Gilt copper and pigment"
+      },
+      "region_group": "himalaya",
+      "source_ids": [
+        "label"
+      ],
+      "sources": [
+        {
+          "id": "label",
+          "kind": "photographed-museum-label",
+          "photo": "1029",
+          "reviewed": "2026-10-25"
+        }
+      ],
+      "visit_date": null
+    },
+    {
+      "id": "x23",
+      "handoff_id": "X23",
+      "title": "童子相文殊菩萨",
+      "title_status": "reviewed-label-based",
+      "original_title": "Bodhisattva Manjushri Kumara",
+      "region_label": "尼泊尔",
+      "date_label": "10—11世纪",
+      "date_display": "10—11世纪",
+      "material_label": "局部鎏金银",
+      "collection": "xuzhou",
+      "main_photo": "1030",
+      "label_photo": "1031",
+      "detail_photos": [],
+      "evidence": {
+        "handoff_record": {
+          "id": "X23",
+          "working_title_zh": "童子相文殊菩萨（暂译）",
+          "region_label": "尼泊尔",
+          "date_label": "10—11世纪",
+          "material_label": "局部鎏金银",
+          "main_photo": 1030,
+          "label_photo": 1031,
+          "extra_photos": "",
+          "collection_status": "展签明确虚舟",
+          "cautions": "标题Manjushri Kumara；右侧说明疑误植为X21文字，不能采用为本像解说"
+        },
+        "independent_full_resolution_label_review": true,
+        "visual_review": "all-main-photos-compared; high-risk-details-opened-at-original-resolution",
+        "external_object_record": null
+      },
+      "research_questions": [
+        "标题Manjushri Kumara；右侧说明疑误植为X21文字，不能采用为本像解说"
+      ],
+      "notes": [
+        {
+          "text": "这尊像小，身体的转折却做得很完整：收腰、胸腹的起伏、盘起的腿，以及向外展开的手掌。银色表面并未全部覆金；项饰、臂钏和下身衣物上的金色，把装饰与肌肤区分开。肩侧竖着花茎与花头，发束则集中到头顶。",
+          "kind": "visual-observation",
+          "sources": []
+        },
+        {
+          "text": "展签题名Manjushri Kumara，即童子相文殊菩萨，定为尼泊尔10—11世纪，材质为局部鎏金银。与旁边爪哇的金刚手比较，两件都以银为重要材料，但一件是局部鎏金，一件是嵌金；表面的明暗不能代替工艺记录。",
+          "kind": "label-interpretation",
+          "sources": [
+            "label"
+          ]
+        }
+      ],
+      "short": "银色的身体，与衣饰上局部的金色。",
+      "record_note": "1031号展签的右侧正文，与1026号降魔佛展签重复，谈到触地印与阿閦佛，和本件题名、姿态不符。本页依据独立的题名、年代和材料栏，不采用这段错配说明。",
+      "related": [
+        "x19",
+        "x07",
+        "x22"
+      ],
+      "accession": null,
+      "dimensions": null,
+      "confidence": "现场展签及照片对应已核；独立图录条目未取得",
+      "label_original": {
+        "region": "Nepal",
+        "date": "10th–11th century",
+        "material": "Parcel-gilt silver"
+      },
+      "region_group": "himalaya",
+      "source_ids": [
+        "label"
+      ],
+      "sources": [
+        {
+          "id": "label",
+          "kind": "photographed-museum-label",
+          "photo": "1031",
+          "reviewed": "2026-10-25"
+        }
+      ],
+      "visit_date": null
+    },
+    {
+      "id": "x24",
+      "handoff_id": "X24",
+      "title": "佛三尊像",
+      "title_status": "reviewed-label-based",
+      "original_title": "Buddhist Triad",
+      "region_label": "中国",
+      "date_label": "北魏，526年",
+      "date_display": "北魏，526年",
+      "material_label": "石灰岩",
+      "collection": "xuzhou",
+      "main_photo": "1032",
+      "label_photo": "1038",
+      "detail_photos": [
+        "1033",
+        "1034",
+        "1035",
+        "1036",
+        "1037"
+      ],
+      "evidence": {
+        "handoff_record": {
+          "id": "X24",
+          "working_title_zh": "佛三尊像",
+          "region_label": "中国",
+          "date_label": "北魏，526年",
+          "material_label": "石灰岩",
+          "main_photo": 1032,
+          "label_photo": 1038,
+          "extra_photos": "1033 1034 1035 1036 1037",
+          "collection_status": "展签明确虚舟",
+          "cautions": "1037优先作铭文图，1036辅助；碑文必须逐字校对，不清则留白"
+        },
+        "independent_full_resolution_label_review": true,
+        "visual_review": "all-main-photos-compared; high-risk-details-opened-at-original-resolution",
+        "external_object_record": null,
+        "inscription_name_review": "1037原图可辨“比丘法興”，与1038展签Faxing相合；其余不补写完整释文。"
+      },
+      "research_questions": [
+        "1037优先作铭文图，1036辅助；碑文必须逐字校对，不清则留白"
+      ],
+      "notes": [
+        {
+          "text": "佛与两侧菩萨共用一片背屏。主像衣摆在膝前层叠下垂，两只狮子站在座旁，背屏上的火焰与卷草又向外舒展。台座正面的题记近在双足下方，观看雕像时也会遇到文字。",
+          "kind": "visual-observation",
+          "sources": []
+        },
+        {
+          "text": "展签将造像记为北魏526年，由僧人法兴发愿制作。按馆方对题记的译释，祈愿涉及国主、师徒、父母亲属及一切众生。造像因此不仅表现佛的身体，也把供养者希望回向功德的对象留在石面上。",
+          "kind": "label-interpretation",
+          "sources": [
+            "label"
+          ]
+        }
+      ],
+      "short": "衣摆、狮子和台座文字，把造像与供养连在一起。",
+      "record_note": "题记细部见1037号照片。这里转述馆方释义，未将照片中不清楚的字补写为完整释文。",
+      "related": [
+        "x26",
+        "x27",
+        "x17"
+      ],
+      "accession": null,
+      "dimensions": null,
+      "confidence": "现场展签及照片对应已核；独立图录条目未取得",
+      "label_original": {
+        "region": "China",
+        "date": "Northern Wei dynasty, dated AD 526",
+        "material": "Limestone"
+      },
+      "region_group": "china",
+      "source_ids": [
+        "label"
+      ],
+      "sources": [
+        {
+          "id": "label",
+          "kind": "photographed-museum-label",
+          "photo": "1038",
+          "reviewed": "2026-10-25"
+        }
+      ],
+      "visit_date": null
+    },
+    {
+      "id": "x25",
+      "handoff_id": "X25",
+      "title": "阿嵯耶观音",
+      "title_status": "reviewed-label-based",
+      "original_title": "Acuoye Avalokitesvara",
+      "region_label": "中国云南",
+      "date_label": "大理国，可能为12世纪",
+      "date_display": "大理国，可能为12世纪",
+      "material_label": "鎏金青铜",
+      "collection": "xuzhou",
+      "main_photo": "1039",
+      "label_photo": "1045",
+      "detail_photos": [
+        "1040",
+        "1041",
+        "1042",
+        "1043",
+        "1044"
+      ],
+      "evidence": {
+        "handoff_record": {
+          "id": "X25",
+          "working_title_zh": "阿嵯耶观音",
+          "region_label": "中国云南",
+          "date_label": "大理国，可能为12世纪",
+          "material_label": "鎏金青铜",
+          "main_photo": 1039,
+          "label_photo": 1045,
+          "extra_photos": "1040 1041 1042 1043 1044",
+          "collection_status": "展签明确虚舟",
+          "cautions": "保留probably；1041—1043文字在木座上，不冒充铜像原铸铭文"
+        },
+        "independent_full_resolution_label_review": true,
+        "visual_review": "all-main-photos-compared; high-risk-details-opened-at-original-resolution",
+        "external_object_record": null
+      },
+      "research_questions": [
+        "保留probably；1041—1043文字在木座上，不冒充铜像原铸铭文"
+      ],
+      "notes": [
+        {
+          "text": "从高冠到双足，像身保持修长、接近直立的轮廓。胸前璎珞较少，腰带和下裙的装饰反而更集中；裙纹垂直向下，衬出双手不对称的动作。与尼泊尔持莲观音的斜坐姿相比，这件更像以正面轮廓确立自身的形象。",
+          "kind": "visual-observation",
+          "sources": []
+        },
+        {
+          "text": "馆方将其归于大理国，可能为12世纪，并把阿嵯耶观音联系到云南地区的护国信仰。大都会对同类造像的说明，也强调其修长比例及与东南亚传统的联系。这些是理解类型的参照，本件具体由谁供养、原来安置何处，尚无明确记录。",
+          "kind": "label-interpretation",
+          "sources": [
+            "label",
+            "met-dali"
+          ]
+        }
+      ],
+      "short": "细长的身形、高冠与几乎垂直的裙纹。",
+      "record_note": "1041—1043号照片拍到的是木座上的文字，不能当作青铜像的原铸铭文。木座的制作与题写年代尚未确定。",
+      "related": [
+        "x22",
+        "x15"
+      ],
+      "accession": null,
+      "dimensions": null,
+      "confidence": "现场展签及照片对应已核；独立图录条目未取得",
+      "label_original": {
+        "region": "China",
+        "date": "Dali kingdom, probably 12th century",
+        "material": "Gilt bronze"
+      },
+      "region_group": "china",
+      "source_ids": [
+        "label",
+        "met-dali"
+      ],
+      "sources": [
+        {
+          "id": "label",
+          "kind": "photographed-museum-label",
+          "photo": "1045",
+          "reviewed": "2026-10-25"
+        }
+      ],
+      "visit_date": null
+    },
+    {
+      "id": "x26",
+      "handoff_id": "X26",
+      "title": "佛立像",
+      "title_status": "reviewed-label-based",
+      "original_title": "Standing Buddha",
+      "region_label": "中国",
+      "date_label": "北魏，471年",
+      "date_display": "北魏，471年",
+      "material_label": "鎏金青铜",
+      "collection": "xuzhou",
+      "main_photo": "1046",
+      "label_photo": "1051",
+      "detail_photos": [
+        "1047",
+        "1048",
+        "1049",
+        "1050"
+      ],
+      "evidence": {
+        "handoff_record": {
+          "id": "X26",
+          "working_title_zh": "佛立像",
+          "region_label": "中国",
+          "date_label": "北魏，471年",
+          "material_label": "鎏金青铜",
+          "main_photo": 1046,
+          "label_photo": 1051,
+          "extra_photos": "1047 1048 1049 1050",
+          "collection_status": "展签明确虚舟",
+          "cautions": "1049为同像背面，勿新增一件；铭文释读按证据"
+        },
+        "independent_full_resolution_label_review": true,
+        "visual_review": "all-main-photos-compared; high-risk-details-opened-at-original-resolution",
+        "external_object_record": null
+      },
+      "research_questions": [
+        "1049为同像背面，勿新增一件；铭文释读按证据"
+      ],
+      "notes": [
+        {
+          "text": "正面主佛周围排列五尊小坐佛，头光和叶形背光又用细密纹线围住它们。转到背面，另一尊形象以浅刻线条显现，视觉效果比正面浮起的金色人物含蓄得多；底座侧面还能看到题记。",
+          "kind": "visual-observation",
+          "sources": []
+        },
+        {
+          "text": "馆方将作品定为北魏471年，解释正面的小佛为过去佛、背面为弥勒，并提到供养者为父母来世发愿。前后两面因而各有内容，不能只凭正面照片理解这件造像。",
+          "kind": "label-interpretation",
+          "sources": [
+            "label"
+          ]
+        }
+      ],
+      "short": "正面五尊小佛，背面另有浅刻形象。",
+      "record_note": "1049号照片为本像背面，1050号为同件底座题记；年代与愿文大意依据现场展签。",
+      "related": [
+        "x24",
+        "x27",
+        "x09"
+      ],
+      "accession": null,
+      "dimensions": null,
+      "confidence": "现场展签及照片对应已核；独立图录条目未取得",
+      "label_original": {
+        "region": "China",
+        "date": "Northern Wei dynasty, 471",
+        "material": "Gilt bronze"
+      },
+      "region_group": "china",
+      "source_ids": [
+        "label"
+      ],
+      "sources": [
+        {
+          "id": "label",
+          "kind": "photographed-museum-label",
+          "photo": "1051",
+          "reviewed": "2026-10-25"
+        }
+      ],
+      "visit_date": null
+    },
+    {
+      "id": "x27",
+      "handoff_id": "X27",
+      "title": "持莲观音立像",
+      "title_status": "reviewed-label-based",
+      "original_title": "Padmapani, Lotus-Bearing Avalokitesvara",
+      "region_label": "中国",
+      "date_label": "北魏，470年",
+      "date_display": "北魏，470年",
+      "material_label": "鎏金青铜",
+      "collection": "xuzhou",
+      "main_photo": "1052",
+      "label_photo": "1055",
+      "detail_photos": [
+        "1053",
+        "1054"
+      ],
+      "evidence": {
+        "handoff_record": {
+          "id": "X27",
+          "working_title_zh": "持莲观音立像",
+          "region_label": "中国",
+          "date_label": "北魏，470年",
+          "material_label": "鎏金青铜",
+          "main_photo": 1052,
+          "label_photo": 1055,
+          "extra_photos": "1053 1054",
+          "collection_status": "展签明确虚舟",
+          "cautions": "必须区分相邻471年佛像"
+        },
+        "independent_full_resolution_label_review": true,
+        "visual_review": "all-main-photos-compared; high-risk-details-opened-at-original-resolution",
+        "external_object_record": null
+      },
+      "research_questions": [
+        "必须区分相邻471年佛像"
+      ],
+      "notes": [
+        {
+          "text": "细长立像置于莲座上，右手抬近胸前，莲花在肩旁升起。身后的火焰轮廓很高，中间留出的空隙使红墙显露出来；衣纹则密集落在双腿前，与外圈火焰的起伏相互衬托。",
+          "kind": "visual-observation",
+          "sources": []
+        },
+        {
+          "text": "馆方题名为持莲观音，将其断为北魏470年。展签提到一对供养者为父母祈愿，希望他们与观音同处。与旁边471年的佛立像相比，两件既接近于年代，也都保留了把个人愿望托付于造像的文字线索。",
+          "kind": "label-interpretation",
+          "sources": [
+            "label"
+          ]
+        }
+      ],
+      "short": "莲花与透空火焰背光，一起向上延伸。",
+      "record_note": null,
+      "related": [
+        "x26",
+        "x24",
+        "x08"
+      ],
+      "accession": null,
+      "dimensions": null,
+      "confidence": "现场展签及照片对应已核；独立图录条目未取得",
+      "label_original": {
+        "region": "China",
+        "date": "Northern Wei dynasty, 470",
+        "material": "Gilt bronze"
+      },
+      "region_group": "china",
+      "source_ids": [
+        "label"
+      ],
+      "sources": [
+        {
+          "id": "label",
+          "kind": "photographed-museum-label",
+          "photo": "1055",
+          "reviewed": "2026-10-25"
+        }
+      ],
+      "visit_date": null
+    },
+    {
+      "id": "x28",
+      "handoff_id": "X28",
+      "title": "脱胎干漆佛首",
+      "title_status": "reviewed-label-based",
+      "original_title": "Buddha Head",
+      "region_label": "中国",
+      "date_label": "唐代，8世纪",
+      "date_display": "唐代，8世纪",
+      "material_label": "脱胎干漆（Hollow-core dry lacquer）",
+      "collection": "xuzhou",
+      "main_photo": "1057",
+      "label_photo": "SUPP01",
+      "detail_photos": [
+        "1056",
+        "1058",
+        "1059",
+        "1060"
+      ],
+      "evidence": {
+        "handoff_record": {
+          "id": "X28",
+          "working_title_zh": "佛头像",
+          "region_label": "中国",
+          "date_label": "唐代，8世纪",
+          "material_label": "脱胎干漆（Hollow-core dry lacquer）",
+          "main_photo": 1057,
+          "label_photo": "SUPP01",
+          "extra_photos": "1056 1058 1059 1060",
+          "collection_status": "展签明确虚舟",
+          "cautions": "补充展签确认；工艺说明可按展签转述。展签介绍时代行像习俗，不等于证明本件参加过某次具体巡游。"
+        },
+        "independent_full_resolution_label_review": true,
+        "visual_review": "all-main-photos-compared; high-risk-details-opened-at-original-resolution",
+        "external_object_record": null
+      },
+      "research_questions": [
+        "补充展签确认；工艺说明可按展签转述。展签介绍时代行像习俗，不等于证明本件参加过某次具体巡游。"
+      ],
+      "notes": [
+        {
+          "text": "这颗佛首的眉弓、眼睑与唇部层次分明，脸颊的大片平面与细长耳垂相连。头顶已有残损，面部仍保留深浅不一的表层；换一个角度，嘴角和鼻翼的起伏会变得更清楚。",
+          "kind": "visual-observation",
+          "sources": []
+        },
+        {
+          "text": "补充展签明确记为唐代8世纪的脱胎干漆：先塑泥芯，再覆浸漆麻布，经过干燥、打磨与继续髹漆塑形，最后去除泥芯，留下轻而坚固的壳体。这种构造不同于实心石雕，也与保留木胎的漆像有别。",
+          "kind": "label-interpretation",
+          "sources": [
+            "label"
+          ]
+        },
+        {
+          "text": "展签同时介绍唐代节庆抬像巡行的习俗。轻质壳体有利于搬运，是理解这种工艺的一个角度；本件的原寺院、完整像身与实际行像记录尚不清楚。",
+          "kind": "label-context",
+          "sources": [
+            "label"
+          ]
+        }
+      ],
+      "short": "眼睑与唇线的细薄转折，来自漆布塑造。",
+      "record_note": null,
+      "related": [
+        "x01",
+        "x05"
+      ],
+      "accession": null,
+      "dimensions": null,
+      "confidence": "现场展签及照片对应已核；独立图录条目未取得",
+      "label_original": {
+        "region": "China",
+        "date": "Tang dynasty, 8th century",
+        "material": "Hollow-core dry lacquer"
+      },
+      "region_group": "china",
+      "source_ids": [
+        "label"
+      ],
+      "sources": [
+        {
+          "id": "label",
+          "kind": "photographed-museum-label",
+          "photo": "SUPP01",
+          "reviewed": "2026-10-25"
+        }
+      ],
+      "visit_date": null,
+      "shared_identity": {
+        "topic": "lacquer",
+        "id": "object-259",
+        "url": "../../lacquer/#object-259"
+      }
+    }
+  ],
+  "catalog_crosswalk_unverified": [
+    {
+      "book_cat_in_old_chat": "1",
+      "current_object_id": "X02",
+      "photo_number": "962",
+      "working_title": "降魔陶浮雕",
+      "status_and_caution": "旧对话前言明确提及Cat.1；地区说法比展签更宽"
+    },
+    {
+      "book_cat_in_old_chat": "2",
+      "current_object_id": "X04",
+      "photo_number": "969",
+      "working_title": "比哈尔降魔佛",
+      "status_and_caution": "旧对话约10世纪；本次展签10—11世纪；眼睛现代补配/移除须核书"
+    },
+    {
+      "book_cat_in_old_chat": "3",
+      "current_object_id": "X16",
+      "photo_number": "1007",
+      "working_title": "悉达多太子出家",
+      "status_and_caution": "片岩金彩及叙事识别"
+    },
+    {
+      "book_cat_in_old_chat": "4",
+      "current_object_id": "X05",
+      "photo_number": "973",
+      "working_title": "犍陀罗禅定佛",
+      "status_and_caution": "旧对话称约5世纪；本次展签约4—5世纪"
+    },
+    {
+      "book_cat_in_old_chat": "5",
+      "current_object_id": "X17",
+      "photo_number": "1009",
+      "working_title": "犍陀罗释迦牟尼立像",
+      "status_and_caution": "晚期金铜传统、修补和底座铭文待核"
+    },
+    {
+      "book_cat_in_old_chat": "6",
+      "current_object_id": "X15",
+      "photo_number": "1005",
+      "working_title": "斯瓦特持莲观音",
+      "status_and_caution": "思惟姿态、不对称耳饰、传播比较"
+    },
+    {
+      "book_cat_in_old_chat": "7",
+      "current_object_id": "X14",
+      "photo_number": "1001",
+      "working_title": "大克什米尔宝座佛",
+      "status_and_caution": "具体尊格、年代、产地保留不确定"
+    },
+    {
+      "book_cat_in_old_chat": "8",
+      "current_object_id": "X07",
+      "photo_number": "980",
+      "working_title": "斯里兰卡禅定佛",
+      "status_and_caution": "用户明确指出Cat.8已读；旧对话约8—9世纪，本次展签8世纪"
+    },
+    {
+      "book_cat_in_old_chat": "9",
+      "current_object_id": "X18",
+      "photo_number": "1014",
+      "working_title": "爪哇阿弥陀佛",
+      "status_and_caution": "婆罗浮屠比较，不证明原出婆罗浮屠"
+    },
+    {
+      "book_cat_in_old_chat": "10",
+      "current_object_id": "X19",
+      "photo_number": "1017",
+      "working_title": "爪哇金刚手",
+      "status_and_caution": "Rijksmuseum同工坊/同组说需找原出处"
+    },
+    {
+      "book_cat_in_old_chat": "11",
+      "current_object_id": "X03",
+      "photo_number": "966",
+      "working_title": "泰国降魔佛",
+      "status_and_caution": "旧对话称U-Thong/阿瑜陀耶，展签只到泰国14世纪，风格细分待核"
+    },
+    {
+      "book_cat_in_old_chat": "12",
+      "current_object_id": "X22",
+      "photo_number": "1027",
+      "working_title": "尼泊尔持莲观音",
+      "status_and_caution": "帕拉式坐姿与后期供奉颜料解释"
+    },
+    {
+      "book_cat_in_old_chat": "13",
+      "current_object_id": "X23",
+      "photo_number": "1030",
+      "working_title": "尼泊尔童子文殊",
+      "status_and_caution": "银质与局部鎏金、童子标识；可辅助解决1031误植说明"
+    },
+    {
+      "book_cat_in_old_chat": "14",
+      "current_object_id": "X01",
+      "photo_number": "955",
+      "working_title": "西藏智慧佛",
+      "status_and_caution": "Weldon身份讨论与Twilley技术研究分开"
+    },
+    {
+      "book_cat_in_old_chat": "15",
+      "current_object_id": "X21",
+      "photo_number": "1025",
+      "working_title": "西藏降魔佛",
+      "status_and_caution": "模仿/传承东印度圣像；小像尺寸材料待核"
+    },
+    {
+      "book_cat_in_old_chat": "16",
+      "current_object_id": "X06（待图像同件核实）",
+      "photo_number": "977",
+      "working_title": "拼布袈裟佛坐像",
+      "status_and_caution": "旧对话13世纪，本次展签15世纪；不能自动采旧断代"
+    },
+    {
+      "book_cat_in_old_chat": "17",
+      "current_object_id": "X20",
+      "photo_number": "1023",
+      "working_title": "Anucara Varahi",
+      "status_and_caution": "侍从型尊格及磨损解释有待原书核对"
+    }
+  ],
+  "sources": {
+    "mfah-press": {
+      "url": "https://www.mfah.org/press/buddha-nature-opens-at-mfah-in-march-2026",
+      "title": "MFAH：Buddha / Nature 新闻稿",
+      "read": "2026-10-25",
+      "supports": [
+        "私人收藏",
+        "收藏者匿名",
+        "长期借展",
+        "临展并非红墙常设陈列的名称"
+      ]
+    },
+    "mfah-exhibition": {
+      "url": "https://www.mfah.org/art/exhibitions/buddhanature",
+      "title": "MFAH：Buddha / Nature 展览页",
+      "read": "2026-10-25",
+      "supports": [
+        "自2021年长期借展",
+        "2026年3月1日至5月10日临展",
+        "五件虚舟藏品参加临展"
+      ]
+    },
+    "catalog-description": {
+      "url": "https://mfashop.mfah.org/products/approaching-the-buddha-transmission-and-transformation",
+      "title": "MFAH馆店：Approaching the Buddha: Transmission and Transformation",
+      "read": "2026-10-25",
+      "supports": [
+        "Hao Sheng列为Author，其他八人列Contributor",
+        "图录介绍28件作品"
+      ],
+      "limits": "只读馆店介绍，未取得图录原文；不证明本批与图录28件逐一相同。"
+    },
+    "nara": {
+      "title": "圣路易斯艺术博物馆：奈良时代（710—794）",
+      "url": "https://www.slam.org/collection/constituents/4035/",
+      "read": "2026-10-25",
+      "supports": [
+        "时代范围，不是本件断代依据"
+      ]
+    },
+    "met-dali": {
+      "title": "大都会艺术博物馆：大理观音42.25.28（同类参考）",
+      "url": "https://www.metmuseum.org/art/collection/search/36046",
+      "read": "2026-10-25",
+      "supports": [
+        "大理造像比例与区域艺术联系"
+      ],
+      "limits": "不同藏品；不移植其来源、材质检测及尺寸。"
+    },
+    "catalog-publisher": {
+      "title": "耶鲁大学出版社：Approaching the Buddha 书目信息",
+      "url": "https://yalebooks.yale.edu/book/9780300286427/approaching-the-buddha/",
+      "read": "2026-10-25",
+      "supports": [
+        "书名、作者与贡献者、2026年出版、128页、ISBN9780300286427"
+      ],
+      "limits": "出版简介，未取得正文，仅列延伸阅读。"
+    }
+  },
+  "features": [
+    {
+      "id": "casting",
+      "title": "一尊像的正面与背面",
+      "works": [
+        "x01"
+      ],
+      "photo": "960",
+      "text": "先看冠饰与低垂的双眼，再绕到残损的背面。X射线让原铸缺陷、金属补条和现代补手有了区别：今天所见，是多个时期留下的身体。"
+    },
+    {
+      "id": "lacquer",
+      "title": "佛首为什么可以很轻",
+      "works": [
+        "x28"
+      ],
+      "photo": "1057",
+      "text": "看起来厚重的面容，实际上由漆布壳体塑成。泥芯移除后，眉弓、眼睑和嘴唇仍由薄壳维持形状。工艺也改变了造像被搬运、观看的可能。"
+    },
+    {
+      "id": "eyes",
+      "title": "水晶眼与薄衣",
+      "works": [
+        "x07"
+      ],
+      "photo": "980",
+      "text": "斯里兰卡佛像的眼部嵌有水晶。正面看双眼与宽肩，侧面看胸背，背面看衣纹如何继续落下；这尊像并不只有一个值得停留的方向。"
+    },
+    {
+      "id": "silver",
+      "title": "银色的身体，局部的金色",
+      "works": [
+        "x23",
+        "x19"
+      ],
+      "photo": "1030",
+      "text": "文殊像的身体没有被金色完全覆盖，衣饰与肌肤因此分开。再看爪哇金刚手，同样涉及金银，使用的却是嵌金工艺，而非局部鎏金。"
+    },
+    {
+      "id": "earth",
+      "title": "一个手势，怎样留下一个故事",
+      "works": [
+        "x02",
+        "x03",
+        "x04",
+        "x21"
+      ],
+      "photo": "962",
+      "text": "孟加拉陶浮雕把魔军、菩提树和静坐的佛陀放在同一画面中。泰国、印度与西藏的独立坐像则让右手垂过膝头，以触地印保留成道故事的关键。"
+    },
+    {
+      "id": "halos",
+      "title": "背光里的空隙与小佛",
+      "works": [
+        "x08",
+        "x09"
+      ],
+      "photo": "989",
+      "text": "一件让红墙穿过镂空火焰，一件在叶形金属面上排列三尊小坐佛。两尊朝鲜半岛立像，把背光变成了不同的观看空间。"
+    },
+    {
+      "id": "dedication",
+      "title": "谁把愿望留在了像座上",
+      "works": [
+        "x24",
+        "x26",
+        "x27"
+      ],
+      "photo": "1037",
+      "text": "石灰岩三尊像与两件北魏金铜像，都把供养题记留在座上。从衣摆向下读到文字，造像便与父母、亲属及一切众生的祈愿连在一起。"
+    },
+    {
+      "id": "dali",
+      "title": "大理的修长观音",
+      "works": [
+        "x25"
+      ],
+      "photo": "1039",
+      "text": "高冠、窄腰与垂直裙纹构成鲜明轮廓。这种阿嵯耶观音联系着云南的地方信仰；木座文字是另一条线索，不能与像身的年代直接合并。"
+    }
+  ],
+  "intro": "两三年来，我在休斯顿美术馆看过虚舟收藏至少三十次，对这批造像也有了很深的感情。现在把照片放在一起，想给这些反复见过的作品留一个可以慢慢重看的地方。这里既有展柜中央的大像，也有需要靠近才能看清的小件：冠饰、衣纹、嵌入眼睛的水晶，以及像座上留下的愿望。先从几组细读开始，再按地区翻看图录。同一个手势在不同地方怎样改变，一尊像的表面又经历了怎样的修补，都值得从照片和资料里慢慢追问。",
+  "brief": "虚舟是私人佛教艺术收藏，自2021年起长期借展于休斯顿美术馆。这一辑整理我的28件虚舟作品照片，另列两件在相邻展柜看到的美术馆自有藏品。",
+  "groups": [
+    [
+      "south-asia",
+      "南亚与犍陀罗"
+    ],
+    [
+      "himalaya",
+      "西藏与尼泊尔"
+    ],
+    [
+      "china",
+      "中国：北魏、唐与大理"
+    ],
+    [
+      "east-asia",
+      "朝鲜半岛与日本"
+    ],
+    [
+      "southeast-asia",
+      "泰国与爪哇"
+    ]
+  ],
+  "hero": "986",
+  "review_date": "2026-10-25"
+}

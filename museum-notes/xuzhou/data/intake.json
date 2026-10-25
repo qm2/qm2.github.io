@@ -1,0 +1,12 @@
+{
+  "reviewed": "2026-10-25",
+  "total": 115,
+  "missing_originals": [],
+  "manifest": "photos.json",
+  "original_policy": "Byte-identical originals; uncropped resized WebP derivatives. No generative edits.",
+  "source_directory": "/home/qingxi/museum/佛教虚舟收藏",
+  "supplement": "/home/qingxi/museum/xuzhou_codex_handoff/supplement",
+  "all_label_originals_reviewed": true,
+  "main_photo_mapping_reviewed": true,
+  "book_pages_available": false
+}

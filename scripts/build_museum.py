@@ -160,3 +160,6 @@ build_densatil()
 
 from build_khajuraho import build as build_khajuraho
 build_khajuraho()
+
+from build_xuzhou import build as build_xuzhou
+build_xuzhou()

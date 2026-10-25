@@ -1,0 +1,2762 @@
+{
+  "952": {
+    "number": "952",
+    "original_filename": "Image_20261025173616_952_19.jpg",
+    "original": "originals/Image_20261025173616_952_19.jpg",
+    "sha256": "dfabc34b7ced86dc0f0c78d422731d1e25875e8fcacc6242026c09b9386dce02",
+    "bytes": 224323,
+    "width": 1707,
+    "height": 1280,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "952-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "952-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "context",
+    "role": "佛教传播地图与说明"
+  },
+  "953": {
+    "number": "953",
+    "original_filename": "Image_20261025173616_953_19.jpg",
+    "original": "originals/Image_20261025173616_953_19.jpg",
+    "sha256": "3a5ac24a7ab552b6003fb49576f7c084d6236814dfedf900f7473a91c92b4792",
+    "bytes": 208043,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "953-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "953-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "context",
+    "role": "Buddhist Art背景说明"
+  },
+  "954": {
+    "number": "954",
+    "original_filename": "Image_20261025173616_954_19.jpg",
+    "original": "originals/Image_20261025173616_954_19.jpg",
+    "sha256": "d1ac4b9c2f2c3b7f6d96c77d4416daf10d3073d19e4a29aa589cecdb12836b67",
+    "bytes": 243803,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "954-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "954-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "context",
+    "role": "虚舟收藏总说明"
+  },
+  "955": {
+    "number": "955",
+    "original_filename": "Image_20261025173616_955_19.jpg",
+    "original": "originals/Image_20261025173616_955_19.jpg",
+    "sha256": "91bfd8e6f792ab98170b7a99a2215c5877b1b6a6c7f31c019beaa42bd19857a5",
+    "bytes": 220937,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "955-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "955-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x01",
+    "role": "主图候选"
+  },
+  "956": {
+    "number": "956",
+    "original_filename": "Image_20261025173616_956_19.jpg",
+    "original": "originals/Image_20261025173616_956_19.jpg",
+    "sha256": "cf244a27f169d1c0f61832bbce2b91006c9440c31f378ab7fae76b194626db9c",
+    "bytes": 140254,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "956-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "956-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x01",
+    "role": "补充角度或细节"
+  },
+  "957": {
+    "number": "957",
+    "original_filename": "Image_20261025173616_957_19.jpg",
+    "original": "originals/Image_20261025173616_957_19.jpg",
+    "sha256": "6e388a8ec30fd398107cfe53661a97bbc82a787704acf2593df96096df12ce18",
+    "bytes": 145545,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "957-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "957-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x01",
+    "role": "补充角度或细节"
+  },
+  "958": {
+    "number": "958",
+    "original_filename": "Image_20261025173616_958_19.jpg",
+    "original": "originals/Image_20261025173616_958_19.jpg",
+    "sha256": "eb457895f26fe8365d735fd90490cb56abb9ab43b328620dee770b676f35f007",
+    "bytes": 200238,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "958-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "958-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x01",
+    "role": "补充角度或细节"
+  },
+  "959": {
+    "number": "959",
+    "original_filename": "Image_20261025173616_959_19.jpg",
+    "original": "originals/Image_20261025173616_959_19.jpg",
+    "sha256": "cbc9406908994ff0692aee74280789f36e7fba605347680b233611f5a500ae58",
+    "bytes": 214858,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "959-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "959-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x01",
+    "role": "展签"
+  },
+  "960": {
+    "number": "960",
+    "original_filename": "Image_20261025173616_960_19.jpg",
+    "original": "originals/Image_20261025173616_960_19.jpg",
+    "sha256": "eb07d52c256595138c144475a79784e588c4eaebb92b809a22ec524855ebf7c8",
+    "bytes": 307896,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "960-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "960-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x01",
+    "role": "补充角度或细节"
+  },
+  "961": {
+    "number": "961",
+    "original_filename": "Image_20261025173616_961_19.jpg",
+    "original": "originals/Image_20261025173616_961_19.jpg",
+    "sha256": "e824524a90dc9474de80747744acf47611ada563c8410f6aa2b62eabe8207a29",
+    "bytes": 241460,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "961-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "961-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x01",
+    "role": "补充角度或细节"
+  },
+  "962": {
+    "number": "962",
+    "original_filename": "Image_20261025173616_962_19.jpg",
+    "original": "originals/Image_20261025173616_962_19.jpg",
+    "sha256": "5ec95834182ae07cfc04156f32f93ed85c3b91866afadea0d7824f20eb043b85",
+    "bytes": 325320,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "962-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "962-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x02",
+    "role": "主图候选"
+  },
+  "963": {
+    "number": "963",
+    "original_filename": "Image_20261025173616_963_19.jpg",
+    "original": "originals/Image_20261025173616_963_19.jpg",
+    "sha256": "b3b8758301fab68bd9e0165be4f69e74284ede05d8bb813e2f243dd6bb00a095",
+    "bytes": 374972,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "963-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "963-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x02",
+    "role": "补充角度或细节"
+  },
+  "964": {
+    "number": "964",
+    "original_filename": "Image_20261025173616_964_19.jpg",
+    "original": "originals/Image_20261025173616_964_19.jpg",
+    "sha256": "2188cb9e0b64bccfe5b476c2f9206a06bb4c3a90b37f84fbcad61011fefdffc3",
+    "bytes": 283079,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "964-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "964-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x02",
+    "role": "补充角度或细节"
+  },
+  "965": {
+    "number": "965",
+    "original_filename": "Image_20261025173616_965_19.jpg",
+    "original": "originals/Image_20261025173616_965_19.jpg",
+    "sha256": "c85389fc3ea6e6a47da1488f02fce4c33a95fa22f214f2f9fe1c9efdc929d5db",
+    "bytes": 202250,
+    "width": 1702,
+    "height": 1276,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "965-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "965-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "x02",
+    "role": "展签"
+  },
+  "966": {
+    "number": "966",
+    "original_filename": "Image_20261025173616_966_19.jpg",
+    "original": "originals/Image_20261025173616_966_19.jpg",
+    "sha256": "877e01cbc61f896ec9c5e0452743048dbd4a189f7581cef3921526ce991bd213",
+    "bytes": 224657,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "966-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "966-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x03",
+    "role": "主图候选"
+  },
+  "967": {
+    "number": "967",
+    "original_filename": "Image_20261025173616_967_19.jpg",
+    "original": "originals/Image_20261025173616_967_19.jpg",
+    "sha256": "3e7258b4c5413248b0e43867e80343f4920d789dcd25b34cb58a829baf3884d7",
+    "bytes": 158478,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "967-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "967-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x03",
+    "role": "补充角度或细节"
+  },
+  "968": {
+    "number": "968",
+    "original_filename": "Image_20261025173616_968_19.jpg",
+    "original": "originals/Image_20261025173616_968_19.jpg",
+    "sha256": "7f74bf5a748bf801c35e52b542b9b5a68c899aadc108399ac8e7015e957087c6",
+    "bytes": 165307,
+    "width": 1702,
+    "height": 1276,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "968-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "968-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "x03",
+    "role": "展签"
+  },
+  "969": {
+    "number": "969",
+    "original_filename": "Image_20261025173616_969_19.jpg",
+    "original": "originals/Image_20261025173616_969_19.jpg",
+    "sha256": "170c645d5ce3253ace2277e3dce2694b07ff458f1c30fd7e5a35646117f2c965",
+    "bytes": 292487,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "969-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "969-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x04",
+    "role": "主图候选"
+  },
+  "970": {
+    "number": "970",
+    "original_filename": "Image_20261025173616_970_19.jpg",
+    "original": "originals/Image_20261025173616_970_19.jpg",
+    "sha256": "ffe5f89e1cfdad883235f9a0e8cf02a8ef57cd9b61554dd7df7736a7164dd319",
+    "bytes": 226360,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "970-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "970-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x04",
+    "role": "补充角度或细节"
+  },
+  "971": {
+    "number": "971",
+    "original_filename": "Image_20261025173616_971_19.jpg",
+    "original": "originals/Image_20261025173616_971_19.jpg",
+    "sha256": "79c99c23d2103205724a836b439de7647d68a756242991f5fe6a92cb80d3ed1f",
+    "bytes": 147517,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "971-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "971-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x04",
+    "role": "补充角度或细节"
+  },
+  "972": {
+    "number": "972",
+    "original_filename": "Image_20261025173616_972_19.jpg",
+    "original": "originals/Image_20261025173616_972_19.jpg",
+    "sha256": "f9aaa8c40404e8e09b07825b837ad9cb8720d74f81e96f96178eed27d6747a1e",
+    "bytes": 163810,
+    "width": 1702,
+    "height": 1276,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "972-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "972-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "x04",
+    "role": "展签"
+  },
+  "973": {
+    "number": "973",
+    "original_filename": "Image_20261025173616_973_19.jpg",
+    "original": "originals/Image_20261025173616_973_19.jpg",
+    "sha256": "51ba9c4bf9e447fd8a665d2d415304d2a311b4bd83c8293f200d36e276304cb1",
+    "bytes": 216018,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "973-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "973-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x05",
+    "role": "主图候选"
+  },
+  "974": {
+    "number": "974",
+    "original_filename": "Image_20261025173616_974_19.jpg",
+    "original": "originals/Image_20261025173616_974_19.jpg",
+    "sha256": "69a57bf5cd640b6ef6ea94a9301e5b905c1e80fb33daab94a5d3d34e0e00112f",
+    "bytes": 240638,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "974-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "974-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x05",
+    "role": "补充角度或细节"
+  },
+  "975": {
+    "number": "975",
+    "original_filename": "Image_20261025173616_975_19.jpg",
+    "original": "originals/Image_20261025173616_975_19.jpg",
+    "sha256": "036d61e2190cdb3e1d027aff5e6b7949f9ed80121421854bcd941b9726f4b45a",
+    "bytes": 183848,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "975-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "975-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x05",
+    "role": "补充角度或细节"
+  },
+  "976": {
+    "number": "976",
+    "original_filename": "Image_20261025173616_976_19.jpg",
+    "original": "originals/Image_20261025173616_976_19.jpg",
+    "sha256": "84d300ec27548c65d032cf150db00e926277fb546d174782413eb318fe41a739",
+    "bytes": 153567,
+    "width": 1702,
+    "height": 1276,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "976-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "976-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "x05",
+    "role": "展签"
+  },
+  "977": {
+    "number": "977",
+    "original_filename": "Image_20261025173616_977_19.jpg",
+    "original": "originals/Image_20261025173616_977_19.jpg",
+    "sha256": "063bb153ef0732fe67030382b9ff218f41e7697c59165cb7aef494b0f2a013bc",
+    "bytes": 223149,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "977-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "977-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x06",
+    "role": "主图候选"
+  },
+  "978": {
+    "number": "978",
+    "original_filename": "Image_20261025173616_978_19.jpg",
+    "original": "originals/Image_20261025173616_978_19.jpg",
+    "sha256": "d0a5827fc9e9b521dd4f09ecea716b2cb90d8567bad71b00e93256f1608c8cc9",
+    "bytes": 200261,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "978-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "978-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x06",
+    "role": "补充角度或细节"
+  },
+  "979": {
+    "number": "979",
+    "original_filename": "Image_20261025173616_979_19.jpg",
+    "original": "originals/Image_20261025173616_979_19.jpg",
+    "sha256": "ca1347bc9a52c5455382b0f8f6dd5de6be43cd744bad548c3a319ea6ad78f6dc",
+    "bytes": 151749,
+    "width": 1702,
+    "height": 1276,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "979-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "979-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "x06",
+    "role": "展签"
+  },
+  "980": {
+    "number": "980",
+    "original_filename": "Image_20261025173616_980_19.jpg",
+    "original": "originals/Image_20261025173616_980_19.jpg",
+    "sha256": "9c15b42f80a3800b883b8ce72cba45a4a6978541e995260da5211358c4c3756d",
+    "bytes": 264228,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "980-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "980-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x07",
+    "role": "主图候选"
+  },
+  "981": {
+    "number": "981",
+    "original_filename": "Image_20261025173616_981_19.jpg",
+    "original": "originals/Image_20261025173616_981_19.jpg",
+    "sha256": "e032b34c14c17299cade06c4df1278b7acd9da5872f6b6cbe534e216d4d7e6ce",
+    "bytes": 217295,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "981-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "981-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x07",
+    "role": "补充角度或细节"
+  },
+  "982": {
+    "number": "982",
+    "original_filename": "Image_20261025173616_982_19.jpg",
+    "original": "originals/Image_20261025173616_982_19.jpg",
+    "sha256": "9d00aac1d3eb630327de96e83040bda9569f9889d1baf833bd4f0359218326a1",
+    "bytes": 179527,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "982-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "982-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x07",
+    "role": "补充角度或细节"
+  },
+  "983": {
+    "number": "983",
+    "original_filename": "Image_20261025173616_983_19.jpg",
+    "original": "originals/Image_20261025173616_983_19.jpg",
+    "sha256": "84f4fcee6040c53c8d1e813ed1f258ab1f7a228447f6d4b707a2393e51a69df4",
+    "bytes": 142465,
+    "width": 1707,
+    "height": 1280,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "983-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "983-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "x07",
+    "role": "展签"
+  },
+  "984": {
+    "number": "984",
+    "original_filename": "Image_20261025173616_984_19.jpg",
+    "original": "originals/Image_20261025173616_984_19.jpg",
+    "sha256": "b895fc7379590c20e8323d0af5be8ae09ddaa959fabe5b020c3911122c20846f",
+    "bytes": 155728,
+    "width": 1707,
+    "height": 1280,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "984-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "984-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "context",
+    "role": "展厅近景"
+  },
+  "985": {
+    "number": "985",
+    "original_filename": "Image_20261025173616_985_19.jpg",
+    "original": "originals/Image_20261025173616_985_19.jpg",
+    "sha256": "5d03f5d930b80e673d80cec9d814739576cf7e374d6d434df903ac1317be5bea",
+    "bytes": 116060,
+    "width": 1707,
+    "height": 1280,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "985-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "985-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "context",
+    "role": "倾斜广角展厅：不建议主视觉"
+  },
+  "986": {
+    "number": "986",
+    "original_filename": "Image_20261025173616_986_19.jpg",
+    "original": "originals/Image_20261025173616_986_19.jpg",
+    "sha256": "6a269e331c32479b95305299008a9588af9a86fed2014b15fbc2f69aed20e873",
+    "bytes": 148706,
+    "width": 1707,
+    "height": 1280,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "986-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "986-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "context",
+    "role": "展厅全景：首选入口图候选"
+  },
+  "987": {
+    "number": "987",
+    "original_filename": "Image_20261025173616_987_19.jpg",
+    "original": "originals/Image_20261025173616_987_19.jpg",
+    "sha256": "981e941201dbea50874c20c71f951e123838c5b75348eb4fc16177982c209928",
+    "bytes": 121447,
+    "width": 1707,
+    "height": 1280,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "987-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "987-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "context",
+    "role": "展厅近景：偏暗，备选"
+  },
+  "988": {
+    "number": "988",
+    "original_filename": "Image_20261025173616_988_19.jpg",
+    "original": "originals/Image_20261025173616_988_19.jpg",
+    "sha256": "c83192a1148261b76f889a3b1ce20e55bf4f11247b98891f510a3ccf8e5c17de",
+    "bytes": 158566,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "988-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "988-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "context",
+    "role": "走廊全景"
+  },
+  "989": {
+    "number": "989",
+    "original_filename": "Image_20261025173616_989_19.jpg",
+    "original": "originals/Image_20261025173616_989_19.jpg",
+    "sha256": "71871f2f1a03d6f269fb04a3d65ed9e71f94db5c758c4f29fb3944389f297f84",
+    "bytes": 254220,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "989-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "989-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x08",
+    "role": "主图候选"
+  },
+  "990": {
+    "number": "990",
+    "original_filename": "Image_20261025173616_990_19.jpg",
+    "original": "originals/Image_20261025173616_990_19.jpg",
+    "sha256": "f4ed810ea0f2b6a54271550dc1ceca66fb8640db025efa92cfa6dff697976b1a",
+    "bytes": 212946,
+    "width": 1702,
+    "height": 1276,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "990-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "990-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "x08",
+    "role": "展签"
+  },
+  "991": {
+    "number": "991",
+    "original_filename": "Image_20261025173616_991_19.jpg",
+    "original": "originals/Image_20261025173616_991_19.jpg",
+    "sha256": "5f23ec0a302a002fd938fd16d71a793f0a8159ac89e36f813e15572492351a13",
+    "bytes": 245203,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "991-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "991-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x09",
+    "role": "主图候选"
+  },
+  "992": {
+    "number": "992",
+    "original_filename": "Image_20261025173616_992_19.jpg",
+    "original": "originals/Image_20261025173616_992_19.jpg",
+    "sha256": "7b0a7344f2997de8b298386a8130376cdac4ba73872f848407a6b54addd949ac",
+    "bytes": 188677,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "992-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "992-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x09",
+    "role": "展签"
+  },
+  "993": {
+    "number": "993",
+    "original_filename": "Image_20261025173616_993_19.jpg",
+    "original": "originals/Image_20261025173616_993_19.jpg",
+    "sha256": "9b8951c7fb76ad4ab387b832c7f81e19d274a191fafb81e57698b75fec354a45",
+    "bytes": 236587,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "993-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "993-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x10",
+    "role": "主图候选"
+  },
+  "994": {
+    "number": "994",
+    "original_filename": "Image_20261025173616_994_19.jpg",
+    "original": "originals/Image_20261025173616_994_19.jpg",
+    "sha256": "9767d49ac159aad1ea3c127d82124070f8f081cbf3a9da464d881b3948e0a52c",
+    "bytes": 286351,
+    "width": 1702,
+    "height": 1276,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "994-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "994-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "x10",
+    "role": "展签"
+  },
+  "995": {
+    "number": "995",
+    "original_filename": "Image_20261025173616_995_19.jpg",
+    "original": "originals/Image_20261025173616_995_19.jpg",
+    "sha256": "d6fc60e545f448a764a46c10711e3c0cfab7ec0fea51d40341785979ef44c1db",
+    "bytes": 200039,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "995-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "995-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x11",
+    "role": "主图候选"
+  },
+  "996": {
+    "number": "996",
+    "original_filename": "Image_20261025173616_996_19.jpg",
+    "original": "originals/Image_20261025173616_996_19.jpg",
+    "sha256": "01c57c77de49be6aec3526b8f5e7703f91cbf83a8f6365927236899f34b3bd14",
+    "bytes": 253199,
+    "width": 1702,
+    "height": 1276,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "996-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "996-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "x11",
+    "role": "展签"
+  },
+  "997": {
+    "number": "997",
+    "original_filename": "Image_20261025173616_997_19.jpg",
+    "original": "originals/Image_20261025173616_997_19.jpg",
+    "sha256": "0854e45c0bb45ed629701ac1a631c581cd173d0644f578a057749e876e1028e8",
+    "bytes": 272127,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "997-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "997-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x12",
+    "role": "主图候选"
+  },
+  "998": {
+    "number": "998",
+    "original_filename": "Image_20261025173616_998_19.jpg",
+    "original": "originals/Image_20261025173616_998_19.jpg",
+    "sha256": "cc2681f74f0f52aadeb635aeaaa1e526f938464d2bd101c54671809ae4f03eb1",
+    "bytes": 241168,
+    "width": 1702,
+    "height": 1276,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "998-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "998-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "x12",
+    "role": "展签"
+  },
+  "999": {
+    "number": "999",
+    "original_filename": "Image_20261025173616_999_19.jpg",
+    "original": "originals/Image_20261025173616_999_19.jpg",
+    "sha256": "d5462e99425676482f80a397901a94f2fd3e3a48f519bcdf381460bfb5c8cfb9",
+    "bytes": 177946,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "999-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "999-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x13",
+    "role": "主图候选"
+  },
+  "1000": {
+    "number": "1000",
+    "original_filename": "Image_20261025173616_1000_19.jpg",
+    "original": "originals/Image_20261025173616_1000_19.jpg",
+    "sha256": "087083f089ddb0be006d56f1fc436efc0bfd7ac0a305b1a7eaed82377fc44c20",
+    "bytes": 183681,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1000-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1000-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x13",
+    "role": "展签"
+  },
+  "1001": {
+    "number": "1001",
+    "original_filename": "Image_20261025173616_1001_19.jpg",
+    "original": "originals/Image_20261025173616_1001_19.jpg",
+    "sha256": "d136f4020dd86b480a9b09cb5acff3e8c36581584a9ec1c31ca5093f2cbe4700",
+    "bytes": 203016,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1001-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1001-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x14",
+    "role": "主图候选"
+  },
+  "1002": {
+    "number": "1002",
+    "original_filename": "Image_20261025173616_1002_19.jpg",
+    "original": "originals/Image_20261025173616_1002_19.jpg",
+    "sha256": "b0ec234aef24509783419e033b543b01f2e6fce8d929baa1c9d0be63e21f364e",
+    "bytes": 271613,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1002-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1002-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x14",
+    "role": "补充角度或细节"
+  },
+  "1003": {
+    "number": "1003",
+    "original_filename": "Image_20261025173616_1003_19.jpg",
+    "original": "originals/Image_20261025173616_1003_19.jpg",
+    "sha256": "5a6bc60b36e22d86ce0d6a71f88f604b003d62fd9c3a7ea597b4e71df01c4c44",
+    "bytes": 203308,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1003-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1003-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x14",
+    "role": "补充角度或细节"
+  },
+  "1004": {
+    "number": "1004",
+    "original_filename": "Image_20261025173616_1004_19.jpg",
+    "original": "originals/Image_20261025173616_1004_19.jpg",
+    "sha256": "787bf233535fc523aba6910459b45a26f9ac6a5487d073915ebc2ab2f9298e3c",
+    "bytes": 241553,
+    "width": 1702,
+    "height": 1276,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1004-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "1004-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "x14",
+    "role": "展签"
+  },
+  "1005": {
+    "number": "1005",
+    "original_filename": "Image_20261025173616_1005_19.jpg",
+    "original": "originals/Image_20261025173616_1005_19.jpg",
+    "sha256": "a185b1b80cc1739c03fda6bcd48ce2562d3fbad0ee132dd3b2c0afd822c336e2",
+    "bytes": 279656,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1005-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1005-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x15",
+    "role": "主图候选"
+  },
+  "1006": {
+    "number": "1006",
+    "original_filename": "Image_20261025173616_1006_19.jpg",
+    "original": "originals/Image_20261025173616_1006_19.jpg",
+    "sha256": "3b64a82c66c6ee9a356c52da3c51f4a1f3fd56a1238c8c1501a6b521f9bdd967",
+    "bytes": 232938,
+    "width": 1702,
+    "height": 1276,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1006-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "1006-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "x15",
+    "role": "展签"
+  },
+  "1007": {
+    "number": "1007",
+    "original_filename": "Image_20261025173616_1007_19.jpg",
+    "original": "originals/Image_20261025173616_1007_19.jpg",
+    "sha256": "e28fa9b13c1720e735e213850074806bf6c9d12abef5425a063619a1d4dcc8b4",
+    "bytes": 418005,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1007-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1007-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x16",
+    "role": "主图候选"
+  },
+  "1008": {
+    "number": "1008",
+    "original_filename": "Image_20261025173616_1008_19.jpg",
+    "original": "originals/Image_20261025173616_1008_19.jpg",
+    "sha256": "01682ca4dca845bf46569539e8689df55fe86a9b7607784bfeeefb1c74f3c190",
+    "bytes": 249719,
+    "width": 1702,
+    "height": 1276,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1008-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "1008-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "x16",
+    "role": "展签"
+  },
+  "1009": {
+    "number": "1009",
+    "original_filename": "Image_20261025173616_1009_19.jpg",
+    "original": "originals/Image_20261025173616_1009_19.jpg",
+    "sha256": "0813d021315f81c4bdefa5a39d6d318b787ad4429d817403ee5ab2d0794eb5fd",
+    "bytes": 211037,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1009-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1009-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x17",
+    "role": "主图候选"
+  },
+  "1010": {
+    "number": "1010",
+    "original_filename": "Image_20261025173616_1010_19.jpg",
+    "original": "originals/Image_20261025173616_1010_19.jpg",
+    "sha256": "1e7adf192b27e62ead514030b8e959720c20eb8bb10c79c592669b4390a49d22",
+    "bytes": 412553,
+    "width": 1702,
+    "height": 1276,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1010-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "1010-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "x17",
+    "role": "补充角度或细节"
+  },
+  "1011": {
+    "number": "1011",
+    "original_filename": "Image_20261025173616_1011_19.jpg",
+    "original": "originals/Image_20261025173616_1011_19.jpg",
+    "sha256": "5cbad04b63e779762ed276616d0551a388ac5ee96564776e388b015dd98bb099",
+    "bytes": 263980,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1011-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1011-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x17",
+    "role": "补充角度或细节"
+  },
+  "1012": {
+    "number": "1012",
+    "original_filename": "Image_20261025173616_1012_19.jpg",
+    "original": "originals/Image_20261025173616_1012_19.jpg",
+    "sha256": "87bc08a819c049b5b925e529f561efe078e5512a1f5ba976dae2f182e4eba338",
+    "bytes": 185742,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1012-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1012-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x17",
+    "role": "补充角度或细节"
+  },
+  "1013": {
+    "number": "1013",
+    "original_filename": "Image_20261025173616_1013_19.jpg",
+    "original": "originals/Image_20261025173616_1013_19.jpg",
+    "sha256": "bc09dae686e2cf2d4c2a5f584cdb52f956d5a2749006878c85f13c4a84a68ffa",
+    "bytes": 224511,
+    "width": 1702,
+    "height": 1276,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1013-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "1013-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "x17",
+    "role": "展签"
+  },
+  "1014": {
+    "number": "1014",
+    "original_filename": "Image_20261025173616_1014_19.jpg",
+    "original": "originals/Image_20261025173616_1014_19.jpg",
+    "sha256": "d931c03b25f08184d509a3e64b9097d54c9d9fecdb0efd20592df900f6664f4d",
+    "bytes": 334708,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1014-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1014-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x18",
+    "role": "主图候选"
+  },
+  "1015": {
+    "number": "1015",
+    "original_filename": "Image_20261025173616_1015_19.jpg",
+    "original": "originals/Image_20261025173616_1015_19.jpg",
+    "sha256": "54884c3df0e96cb186119814a8ce35a6cf1960d790f10a92d66c560fe951892d",
+    "bytes": 166124,
+    "width": 1702,
+    "height": 1276,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1015-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "1015-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "x18",
+    "role": "展签"
+  },
+  "1016": {
+    "number": "1016",
+    "original_filename": "Image_20261025173616_1016_19.jpg",
+    "original": "originals/Image_20261025173616_1016_19.jpg",
+    "sha256": "2b1b41c9cf8f314f26b2d78d8f112a30c6120b6bcc240a79cbe7ea7c67542702",
+    "bytes": 233823,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1016-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1016-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x19",
+    "role": "补充角度或细节"
+  },
+  "1017": {
+    "number": "1017",
+    "original_filename": "Image_20261025173616_1017_19.jpg",
+    "original": "originals/Image_20261025173616_1017_19.jpg",
+    "sha256": "82bb53165eff3327f754c2378321dbea16a7c1e9c681b76a62ff576335dddda4",
+    "bytes": 254369,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1017-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1017-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x19",
+    "role": "主图候选"
+  },
+  "1018": {
+    "number": "1018",
+    "original_filename": "Image_20261025173616_1018_19.jpg",
+    "original": "originals/Image_20261025173616_1018_19.jpg",
+    "sha256": "a2f489d23dce6eaf58e17b352a767b31219d0c1f08c42254774348d4aa105a25",
+    "bytes": 207456,
+    "width": 1702,
+    "height": 1276,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1018-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "1018-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "x19",
+    "role": "展签"
+  },
+  "1019": {
+    "number": "1019",
+    "original_filename": "Image_20261025173616_1019_19.jpg",
+    "original": "originals/Image_20261025173616_1019_19.jpg",
+    "sha256": "122279b49c7e95c3c7806e7009026dd08d0a763d7aeda5f11f6e06e5ab218bcb",
+    "bytes": 157014,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1019-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1019-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "n01",
+    "role": "主图候选"
+  },
+  "1020": {
+    "number": "1020",
+    "original_filename": "Image_20261025173616_1020_19.jpg",
+    "original": "originals/Image_20261025173616_1020_19.jpg",
+    "sha256": "c2ab4b4338b8130fa95103dd676c9dfbea6c88b7e74d8c7919969376ba28a81c",
+    "bytes": 160022,
+    "width": 1707,
+    "height": 1280,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1020-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "1020-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "n01",
+    "role": "展签"
+  },
+  "1021": {
+    "number": "1021",
+    "original_filename": "Image_20261025173616_1021_19.jpg",
+    "original": "originals/Image_20261025173616_1021_19.jpg",
+    "sha256": "506ddaa0c5a018ccf515101f3b7fc88b29ba35226879ec48c7ed8cd8cc4fd426",
+    "bytes": 313202,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1021-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1021-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "n02",
+    "role": "主图候选"
+  },
+  "1022": {
+    "number": "1022",
+    "original_filename": "Image_20261025173616_1022_19.jpg",
+    "original": "originals/Image_20261025173616_1022_19.jpg",
+    "sha256": "a55841c4536b700b1974c8785ebc81d152c622dbf95e27de9c0ede061de69237",
+    "bytes": 128908,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1022-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1022-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "n02",
+    "role": "展签"
+  },
+  "1023": {
+    "number": "1023",
+    "original_filename": "Image_20261025173616_1023_19.jpg",
+    "original": "originals/Image_20261025173616_1023_19.jpg",
+    "sha256": "5940a337e2a85558a5f721a36c16ffafd21b5106845e07650bd70421ac3f5d66",
+    "bytes": 327447,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1023-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1023-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x20",
+    "role": "主图候选"
+  },
+  "1024": {
+    "number": "1024",
+    "original_filename": "Image_20261025173616_1024_19.jpg",
+    "original": "originals/Image_20261025173616_1024_19.jpg",
+    "sha256": "f998b09c56c5c2c4dad798c23167711cc6a9e533f4c7f87c719f7bfe35fc8b1e",
+    "bytes": 236314,
+    "width": 1702,
+    "height": 1276,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1024-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "1024-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "x20",
+    "role": "展签"
+  },
+  "1025": {
+    "number": "1025",
+    "original_filename": "Image_20261025173616_1025_19.jpg",
+    "original": "originals/Image_20261025173616_1025_19.jpg",
+    "sha256": "97383fac219fdd34af2563f65472f8df150f87c744834bab3cc5926ada56780f",
+    "bytes": 315181,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1025-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1025-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x21",
+    "role": "主图候选"
+  },
+  "1026": {
+    "number": "1026",
+    "original_filename": "Image_20261025173616_1026_19.jpg",
+    "original": "originals/Image_20261025173616_1026_19.jpg",
+    "sha256": "8ecdb638fbf632590e3fee91a5a97ae338dbc313877a9d3572c9451b8f7c5eb9",
+    "bytes": 248422,
+    "width": 1702,
+    "height": 1276,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1026-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "1026-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "x21",
+    "role": "展签"
+  },
+  "1027": {
+    "number": "1027",
+    "original_filename": "Image_20261025173616_1027_19.jpg",
+    "original": "originals/Image_20261025173616_1027_19.jpg",
+    "sha256": "bfa8e8ee8f22ca951e793c45243cef7ecc010c4876f4d6c6db835bb3ea3c59e3",
+    "bytes": 335145,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1027-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1027-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x22",
+    "role": "主图候选"
+  },
+  "1028": {
+    "number": "1028",
+    "original_filename": "Image_20261025173616_1028_19.jpg",
+    "original": "originals/Image_20261025173616_1028_19.jpg",
+    "sha256": "040c4fe954d87aa24fbb4507218a90510213ecc89f27550c7741b69736e2b5de",
+    "bytes": 290385,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1028-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1028-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x22",
+    "role": "补充角度或细节"
+  },
+  "1029": {
+    "number": "1029",
+    "original_filename": "Image_20261025173616_1029_19.jpg",
+    "original": "originals/Image_20261025173616_1029_19.jpg",
+    "sha256": "5216898b0bc877dab1b72ae669c11cbfe1414cd1b05cfea63199cf3896e94126",
+    "bytes": 253093,
+    "width": 1702,
+    "height": 1276,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1029-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "1029-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "x22",
+    "role": "展签"
+  },
+  "1030": {
+    "number": "1030",
+    "original_filename": "Image_20261025173616_1030_19.jpg",
+    "original": "originals/Image_20261025173616_1030_19.jpg",
+    "sha256": "9b7311933b9007f4fb3121f8a79a9254fc50611afe023d7fa07fd863a6bb110a",
+    "bytes": 233995,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1030-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1030-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x23",
+    "role": "主图候选"
+  },
+  "1031": {
+    "number": "1031",
+    "original_filename": "Image_20261025173616_1031_19.jpg",
+    "original": "originals/Image_20261025173616_1031_19.jpg",
+    "sha256": "3bac673dc7ab3a6385ea2de48d4b219e7f60b195c952c1d0fc8a4b905c553f93",
+    "bytes": 228528,
+    "width": 1702,
+    "height": 1276,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1031-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "1031-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "x23",
+    "role": "展签"
+  },
+  "1032": {
+    "number": "1032",
+    "original_filename": "Image_20261025173616_1032_19.jpg",
+    "original": "originals/Image_20261025173616_1032_19.jpg",
+    "sha256": "13f9ccd7657d39c27d0c4459723ef8c3f1fdef380a613d624d284c4f26480653",
+    "bytes": 365287,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1032-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1032-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x24",
+    "role": "主图候选"
+  },
+  "1033": {
+    "number": "1033",
+    "original_filename": "Image_20261025173616_1033_19.jpg",
+    "original": "originals/Image_20261025173616_1033_19.jpg",
+    "sha256": "f559505b259bd550efc36626ccd79469c1e077c9bf638153a5c63a67be9e11dd",
+    "bytes": 411432,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1033-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1033-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x24",
+    "role": "补充角度或细节"
+  },
+  "1034": {
+    "number": "1034",
+    "original_filename": "Image_20261025173616_1034_19.jpg",
+    "original": "originals/Image_20261025173616_1034_19.jpg",
+    "sha256": "c21e679e7ea4e5ea54857121dddad8c20b200fcb2e1e942da2d4b50d40a09a3f",
+    "bytes": 498195,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1034-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1034-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x24",
+    "role": "补充角度或细节"
+  },
+  "1035": {
+    "number": "1035",
+    "original_filename": "Image_20261025173616_1035_19.jpg",
+    "original": "originals/Image_20261025173616_1035_19.jpg",
+    "sha256": "45f28fd7b8e1a5b44f1b1e4e55b41344e45d708703438f186472ed0d7b07df66",
+    "bytes": 265731,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1035-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1035-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x24",
+    "role": "补充角度或细节"
+  },
+  "1036": {
+    "number": "1036",
+    "original_filename": "Image_20261025173616_1036_19.jpg",
+    "original": "originals/Image_20261025173616_1036_19.jpg",
+    "sha256": "66395924fd76da59a6e8f12d80101042f416da3d84214ec799f0d4f219ac5a2d",
+    "bytes": 286779,
+    "width": 1702,
+    "height": 1276,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1036-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "1036-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "x24",
+    "role": "补充角度或细节"
+  },
+  "1037": {
+    "number": "1037",
+    "original_filename": "Image_20261025173616_1037_19.jpg",
+    "original": "originals/Image_20261025173616_1037_19.jpg",
+    "sha256": "90c7bfd688f2551bfb32b06639ed77a76f582a5a480d6c642517e2ecc715d5c6",
+    "bytes": 316245,
+    "width": 1702,
+    "height": 1276,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1037-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "1037-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "x24",
+    "role": "补充角度或细节"
+  },
+  "1038": {
+    "number": "1038",
+    "original_filename": "Image_20261025173616_1038_19.jpg",
+    "original": "originals/Image_20261025173616_1038_19.jpg",
+    "sha256": "48b7b4051f9c922ab8f088cc3bfb98aef64f3bd5e231065336f731aa81778ba1",
+    "bytes": 161728,
+    "width": 1702,
+    "height": 1276,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1038-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "1038-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "x24",
+    "role": "展签"
+  },
+  "1039": {
+    "number": "1039",
+    "original_filename": "Image_20261025173616_1039_19.jpg",
+    "original": "originals/Image_20261025173616_1039_19.jpg",
+    "sha256": "c1ce6a33444738472fb134b4b014ecae0587c39451af82f53c9a12065b95261f",
+    "bytes": 144059,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1039-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1039-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x25",
+    "role": "主图候选"
+  },
+  "1040": {
+    "number": "1040",
+    "original_filename": "Image_20261025173616_1040_19.jpg",
+    "original": "originals/Image_20261025173616_1040_19.jpg",
+    "sha256": "0aee68b19698e90b6599d7c962f1707bd7f3fc54e7c174fbc8685145f51a750f",
+    "bytes": 195828,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1040-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1040-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x25",
+    "role": "补充角度或细节"
+  },
+  "1041": {
+    "number": "1041",
+    "original_filename": "Image_20261025173616_1041_19.jpg",
+    "original": "originals/Image_20261025173616_1041_19.jpg",
+    "sha256": "f08b64d4b153abd5e24a8222f43dc87b63f2f17aa955e070aaafc4c2a7a341f9",
+    "bytes": 267854,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1041-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1041-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x25",
+    "role": "补充角度或细节"
+  },
+  "1042": {
+    "number": "1042",
+    "original_filename": "Image_20261025173616_1042_19.jpg",
+    "original": "originals/Image_20261025173616_1042_19.jpg",
+    "sha256": "9f89d9e72b33b12dc4ff350d2492747ba907112580c39b48277e8a12d36a2b1f",
+    "bytes": 247412,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1042-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1042-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x25",
+    "role": "补充角度或细节"
+  },
+  "1043": {
+    "number": "1043",
+    "original_filename": "Image_20261025173616_1043_19.jpg",
+    "original": "originals/Image_20261025173616_1043_19.jpg",
+    "sha256": "b9051a317e804b8c2b616b71d1b18abbcfa41e106799a39ccf3d8cd8bff0b37b",
+    "bytes": 174246,
+    "width": 960,
+    "height": 1280,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1043-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1043-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x25",
+    "role": "补充角度或细节"
+  },
+  "1044": {
+    "number": "1044",
+    "original_filename": "Image_20261025173616_1044_19.jpg",
+    "original": "originals/Image_20261025173616_1044_19.jpg",
+    "sha256": "b41b415ef116ce9dbb57788ae3619d313a9372584afe5b358959e2ca520c1e26",
+    "bytes": 154678,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1044-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1044-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x25",
+    "role": "补充角度或细节"
+  },
+  "1045": {
+    "number": "1045",
+    "original_filename": "Image_20261025173616_1045_19.jpg",
+    "original": "originals/Image_20261025173616_1045_19.jpg",
+    "sha256": "724d4bdb28786c2d94f4492a2fac6f9a923b52f744ccd940bc4c94a313776cee",
+    "bytes": 162899,
+    "width": 1702,
+    "height": 1276,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1045-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "1045-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "x25",
+    "role": "展签"
+  },
+  "1046": {
+    "number": "1046",
+    "original_filename": "Image_20261025173842_1046_19.jpg",
+    "original": "originals/Image_20261025173842_1046_19.jpg",
+    "sha256": "62d90bc0e0577e96ce9f0828c61b88c797321abbb5258c91c6e3c7824f526eed",
+    "bytes": 254958,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1046-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1046-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x26",
+    "role": "主图候选"
+  },
+  "1047": {
+    "number": "1047",
+    "original_filename": "Image_20261025173842_1047_19.jpg",
+    "original": "originals/Image_20261025173842_1047_19.jpg",
+    "sha256": "c13c371d1d5852603f959ac0bf574e3ff4b8a8ce7fe8f4e12fba8ea3a7d1d033",
+    "bytes": 250662,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1047-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1047-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x26",
+    "role": "补充角度或细节"
+  },
+  "1048": {
+    "number": "1048",
+    "original_filename": "Image_20261025173842_1048_19.jpg",
+    "original": "originals/Image_20261025173842_1048_19.jpg",
+    "sha256": "b7299f6f75afcf89540636cf4fa18691053125ff698c78e56f8929e7186f28de",
+    "bytes": 368274,
+    "width": 1702,
+    "height": 1276,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1048-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "1048-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "x26",
+    "role": "补充角度或细节"
+  },
+  "1049": {
+    "number": "1049",
+    "original_filename": "Image_20261025173842_1049_19.jpg",
+    "original": "originals/Image_20261025173842_1049_19.jpg",
+    "sha256": "321f281b6d1572dbf345881a0da03ae97119bf7fa99b3ca58bd3216015af189b",
+    "bytes": 261857,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1049-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1049-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x26",
+    "role": "补充角度或细节"
+  },
+  "1050": {
+    "number": "1050",
+    "original_filename": "Image_20261025173842_1050_19.jpg",
+    "original": "originals/Image_20261025173842_1050_19.jpg",
+    "sha256": "e604975c45932936f85e13ae978aeb367f09db068b733240442b57e952427ae3",
+    "bytes": 310483,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1050-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1050-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x26",
+    "role": "补充角度或细节"
+  },
+  "1051": {
+    "number": "1051",
+    "original_filename": "Image_20261025173842_1051_19.jpg",
+    "original": "originals/Image_20261025173842_1051_19.jpg",
+    "sha256": "cf59441b459bdef87a8215cc2872f4a30f47b5f1d5a26e6ee88c8f42d5384ef9",
+    "bytes": 198571,
+    "width": 1702,
+    "height": 1276,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1051-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "1051-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "x26",
+    "role": "展签"
+  },
+  "1052": {
+    "number": "1052",
+    "original_filename": "Image_20261025173842_1052_19.jpg",
+    "original": "originals/Image_20261025173842_1052_19.jpg",
+    "sha256": "aa9038f2acac8097bb64ba8578e4815417e073822935b0c2499e3b8547db1b15",
+    "bytes": 235411,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1052-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1052-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x27",
+    "role": "主图候选"
+  },
+  "1053": {
+    "number": "1053",
+    "original_filename": "Image_20261025173842_1053_19.jpg",
+    "original": "originals/Image_20261025173842_1053_19.jpg",
+    "sha256": "027c698b6731870e4fe045ed08ad3bd8cb84918311a4fdb7255c920d9d666d04",
+    "bytes": 419189,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1053-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1053-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x27",
+    "role": "补充角度或细节"
+  },
+  "1054": {
+    "number": "1054",
+    "original_filename": "Image_20261025173842_1054_19.jpg",
+    "original": "originals/Image_20261025173842_1054_19.jpg",
+    "sha256": "aecb289fc23de31759fc579fa660081c8bcbe4761555fb25a53a26ab9ead2c39",
+    "bytes": 214884,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1054-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1054-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x27",
+    "role": "补充角度或细节"
+  },
+  "1055": {
+    "number": "1055",
+    "original_filename": "Image_20261025173842_1055_19.jpg",
+    "original": "originals/Image_20261025173842_1055_19.jpg",
+    "sha256": "24d8b9257bf7f49367f04ed17b11f46b95fb366a2913d206cf9b7298680ebec1",
+    "bytes": 154514,
+    "width": 1702,
+    "height": 1276,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1055-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "1055-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "x27",
+    "role": "展签"
+  },
+  "1056": {
+    "number": "1056",
+    "original_filename": "Image_20261025173842_1056_19.jpg",
+    "original": "originals/Image_20261025173842_1056_19.jpg",
+    "sha256": "1d937d33d02cccd33f6a0bb7c27b89ff11a947037d39532484748aaf63527565",
+    "bytes": 85553,
+    "width": 960,
+    "height": 1280,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1056-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1056-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x28",
+    "role": "补充角度或细节"
+  },
+  "1057": {
+    "number": "1057",
+    "original_filename": "Image_20261025173842_1057_19.jpg",
+    "original": "originals/Image_20261025173842_1057_19.jpg",
+    "sha256": "ed68038a6c175d3f0e07e3019608abb4771982b158eb6b2e0f6069542bbbfd35",
+    "bytes": 129158,
+    "width": 960,
+    "height": 1280,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1057-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1057-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x28",
+    "role": "主图候选"
+  },
+  "1058": {
+    "number": "1058",
+    "original_filename": "Image_20261025173842_1058_19.jpg",
+    "original": "originals/Image_20261025173842_1058_19.jpg",
+    "sha256": "f19c81e84d5c6235a31af72639630026410c7e1226096227a6bec18ace4d5b5b",
+    "bytes": 210235,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1058-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1058-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x28",
+    "role": "补充角度或细节"
+  },
+  "1059": {
+    "number": "1059",
+    "original_filename": "Image_20261025173842_1059_19.jpg",
+    "original": "originals/Image_20261025173842_1059_19.jpg",
+    "sha256": "b2a938909f1490f5723f835c129bee83295c87915b7941f0a16012fa6555b2d5",
+    "bytes": 158595,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1059-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1059-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x28",
+    "role": "补充角度或细节"
+  },
+  "1060": {
+    "number": "1060",
+    "original_filename": "Image_20261025173842_1060_19.jpg",
+    "original": "originals/Image_20261025173842_1060_19.jpg",
+    "sha256": "2340a12424af7da9de98c8e3d7ea23a4a4cec3457a32f56fc1bb65cddda0b045",
+    "bytes": 233112,
+    "width": 1280,
+    "height": 1707,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1060-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "file": "1060-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "object_id": "x28",
+    "role": "补充角度或细节"
+  },
+  "1061": {
+    "number": "1061",
+    "original_filename": "Image_20261025173842_1061_19.jpg",
+    "original": "originals/Image_20261025173842_1061_19.jpg",
+    "sha256": "96a6d1ff8216331da2b97a6f9dbfe5520916597cc87019677c30936426cab6ad",
+    "bytes": 171522,
+    "width": 1702,
+    "height": 1276,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1061-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "1061-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "context",
+    "role": "走廊反向全景"
+  },
+  "1062": {
+    "number": "1062",
+    "original_filename": "Image_20261025173842_1062_19.jpg",
+    "original": "originals/Image_20261025173842_1062_19.jpg",
+    "sha256": "8c7ee8c9371bc3a7bed7480d18b9e541b6619537d3d84fde07aaeb7c1dafd3cb",
+    "bytes": 130515,
+    "width": 1702,
+    "height": 1276,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1062-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "1062-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "context",
+    "role": "东亚整柜：韩国两立佛展签配对证据"
+  },
+  "1063": {
+    "number": "1063",
+    "original_filename": "Image_20261025173842_1063_19.jpg",
+    "original": "originals/Image_20261025173842_1063_19.jpg",
+    "sha256": "a243573a84c6204dcb13f83b94dabc6a32e49f5b5c35c98c8d23a73557f70a11",
+    "bytes": 165891,
+    "width": 1702,
+    "height": 1276,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1063-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "1063-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "context",
+    "role": "克什米尔与犍陀罗整柜"
+  },
+  "1064": {
+    "number": "1064",
+    "original_filename": "Image_20261025173842_1064_19.jpg",
+    "original": "originals/Image_20261025173842_1064_19.jpg",
+    "sha256": "c8c4480569f6277b966929acf76afb1cee201d1498e1b34df3f1687b4d589572",
+    "bytes": 159022,
+    "width": 1702,
+    "height": 1276,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1064-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "1064-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "context",
+    "role": "爪哇整柜：包括两件非虚舟馆藏"
+  },
+  "1065": {
+    "number": "1065",
+    "original_filename": "Image_20261025173842_1065_19.jpg",
+    "original": "originals/Image_20261025173842_1065_19.jpg",
+    "sha256": "c3172dfea7561cdf1247b171293b78a0fe483209d7f9d7238195902a98f07b40",
+    "bytes": 138512,
+    "width": 1702,
+    "height": 1276,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "1065-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "1065-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "context",
+    "role": "喜马拉雅整柜：展签配对证据"
+  },
+  "SUPP01": {
+    "number": "SUPP01",
+    "original_filename": "30544ed57d589d64d994729d28a64807.jpg",
+    "original": "originals/30544ed57d589d64d994729d28a64807.jpg",
+    "sha256": "b4d3d808a49ac60b68913d2758c3fe4431246d176f5e4b4b845edd9e77baed60",
+    "bytes": 186285,
+    "width": 1702,
+    "height": 1276,
+    "rotation": 0,
+    "variants": [
+      {
+        "file": "SUPP01-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "file": "SUPP01-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ],
+    "object_id": "x28",
+    "role": "补充独立展签"
+  }
+}
