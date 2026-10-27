@@ -24,7 +24,7 @@ def build():
   return ' · '.join(f'<a href="{prefix}{i}/">{e(byid[i]["title"])} →</a>' for i in ids)
  def card(w,prefix=''):
   return f'<article class="xz-card" id="{w["id"]}" data-region="{w["region_group"]}"><a href="{prefix}{w["id"]}/">{photo(w["main_photo"],w["title"]+" · "+w["region_label"],prefix,card=True)}<h3>{e(w["title"])}</h3></a><p class="xz-meta">{e(w["region_label"])} · {e(w["date_display"])}</p><p class="xz-material">{e(w["material_label"])}</p><p>{e(w["short"])}</p></article>'
- body=f'<div class="wrap xz-heading"><p class="eyebrow">THE XUZHOU COLLECTION / HOUSTON</p><h1>{d["title"]}</h1><p class="subtitle">{d["subtitle"]}</p><nav class="xz-nav" aria-label="专题章节"><a href="#reading">八组细读</a><a href="#catalogue">浏览图录</a><a href="#neighbors">邻展作品</a><a href="#about">收藏与资料</a></nav></div>'
+ body=f'<div class="wrap xz-heading"><p class="eyebrow">THE XUZHOU COLLECTION / HOUSTON</p><h1>{d["title"]}</h1><p class="subtitle">{d["subtitle"]}</p><nav class="xz-nav" aria-label="专题章节"><a href="#reading">八组细读</a><a href="#catalogue">浏览图录</a><a href="#about">收藏与资料</a></nav></div>'
  intro_paragraphs=''.join('<p>'+e(t)+'</p>' for t in d['intro'])
  body+=f'<figure class="wrap xz-hero">{photo(d["hero"],"休斯顿美术馆的虚舟收藏展厅 · 中央为智慧佛立像",eager=True)}<figcaption>休斯顿美术馆 · 展厅中央的智慧佛与周围造像 · Merton摄</figcaption></figure><section class="wrap xz-intro"><blockquote class="xz-epigraph"><p>“{e(d["epigraph"]["text"])}”</p><footer>——{e(d["epigraph"]["source"])}</footer></blockquote>{intro_paragraphs}<p class="xz-meta">{e(d["brief"])} <a href="#about">关于这份收藏 ↓</a></p></section>'
  body+='<section class="wrap xz-section" id="reading"><p class="eyebrow">LOOKING CLOSER</p><h2>从八个问题看起</h2><div class="xz-reading-grid">'
@@ -33,8 +33,7 @@ def build():
  body+='</div></section><section class="wrap xz-section" id="catalogue"><p class="eyebrow">THE NOTEBOOK / 28 WORKS</p><h2>虚舟图录</h2><p>按地区翻看，也从一尊像走向相近的姿态、材料或故事。</p><div class="xz-filters" hidden aria-label="按地区筛选"><button type="button" data-region-filter="all" aria-pressed="true">全部</button>'+''.join(f'<button type="button" data-region-filter="{k}" aria-pressed="false">{e(t)}</button>' for k,t in d['groups'])+'</div><p class="xz-count" role="status" aria-live="polite">28件虚舟收藏作品</p>'
  for k,t in d['groups']:
   body+=f'<section class="xz-region" data-region-section="{k}"><h3>{e(t)}</h3><div class="xz-grid">'+''.join(card(w) for w in works if w['collection']=='xuzhou' and w['region_group']==k)+'</div></section>'
- body+='</section><section class="wrap xz-section" id="neighbors"><p class="eyebrow">NEARBY IN THE GALLERIES</p><h2>展厅中的邻展作品</h2><p>同一次观看中的两件爪哇作品，均属休斯顿美术馆自有收藏，另列于虚舟图录之外。</p><div class="xz-neighbors">'+''.join(card(w) for w in works if w['collection']=='mfah-neighbor')+'</div></section>'
- body+='<section class="wrap xz-section xz-prose" id="about"><p class="eyebrow">COLLECTION / CONTEXT</p><h2>在休斯顿重看亚洲造像</h2><p>虚舟收藏由一位不具名的私人收藏者建立，自2021年起长期借展于休斯顿美术馆。南亚、东南亚、喜马拉雅与东亚的造像，在这里共同呈现。参观时所见的地区名称有不同尺度：犍陀罗是历史文化区域，斯瓦特是河谷，大克什米尔也不等同于一条现代国界。</p>'+sources(['mfah-press','mfah-exhibition'])
+ body+='</section><section class="wrap xz-section xz-prose" id="about"><p class="eyebrow">COLLECTION / CONTEXT</p><h2>在休斯顿重看亚洲造像</h2><p>虚舟收藏由一位不具名的私人收藏者建立，自2021年起长期借展于休斯顿美术馆。南亚、东南亚、喜马拉雅与东亚的造像，在这里共同呈现。参观时所见的地区名称有不同尺度：犍陀罗是历史文化区域，斯瓦特是河谷，大克什米尔也不等同于一条现代国界。</p>'+sources(['mfah-press','mfah-exhibition'])
  body+='<p>展厅总说明把“虚舟”联系到佛教以舟筏比喻教法的传统：借助教法渡越无明。回到作品上，材料、手势与题记各自提供了入口。漆布怎样塑成佛首，嵌银怎样显出衣缝，供养者怎样把父母的愿望写入像座，这些具体的问题，让不同地区的造像有了可以互相参照的地方。</p><details><summary>展厅说明与观看空间</summary><div class="xz-context">'
  for n,c in [('954','虚舟收藏总说明'),('1062','同柜的朝鲜半岛与日本造像'),('988','展厅与相邻空间')]:body+=f'<figure>{photo(n,c)}<figcaption>{c} · Merton摄</figcaption></figure>'
  body+='</div></details><details class="xz-glossary"><summary>几个反复遇到的造像词语</summary><dl>'
@@ -97,7 +96,7 @@ def build():
  home=ROOT/'museum-notes/index.html';s=re.sub(r'<!-- xuzhou-entry -->.*?<!-- /xuzhou-entry -->','',home.read_text(),flags=re.S)
  anchor='</section>\n<section class="future-collections"';assert anchor in s
  p=photos[d['hero']];v=p['variants'][0]
- entry=f'<a class="issue-link" href="xuzhou/"><img src="xuzhou/images/{v["file"]}" alt="休斯顿美术馆虚舟收藏展厅" width="{p["width"]}" height="{p["height"]}" loading="lazy"><div><p class="eyebrow">THE XUZHOU COLLECTION / HOUSTON</p><h2>虚舟收藏</h2><p>三十余次观看之后。从冠饰与修复，看到水晶眼、漆布壳体与像座上的愿望。</p><p class="issue-meta">28件虚舟造像 · 另附2件邻展馆藏<br>南亚 / 东南亚 / 喜马拉雅 / 东亚</p><span class="text-link">进入这个专题 →</span></div></a>'
+ entry=f'<a class="issue-link" href="xuzhou/"><img src="xuzhou/images/{v["file"]}" alt="休斯顿美术馆虚舟收藏展厅" width="{p["width"]}" height="{p["height"]}" loading="lazy"><div><p class="eyebrow">THE XUZHOU COLLECTION / HOUSTON</p><h2>虚舟收藏</h2><p>三十余次观看之后。从冠饰与修复，看到水晶眼、漆布壳体与像座上的愿望。</p><p class="issue-meta">28件虚舟造像<br>南亚 / 东南亚 / 喜马拉雅 / 东亚</p><span class="text-link">进入这个专题 →</span></div></a>'
  home.write_text(s.replace(anchor,'<!-- xuzhou-entry -->'+entry+'<!-- /xuzhou-entry -->'+anchor,1))
- print('Built Xuzhou: 28 collection works + 2 MFAH neighbors; 8 readings; 31 pages.')
+ print('Built Xuzhou: 28 collection works; 8 readings; 29 pages.')
 if __name__=='__main__':build()
