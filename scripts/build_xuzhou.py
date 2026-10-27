@@ -57,7 +57,8 @@ def build():
    def history_sources(keys):
     return '<p class="source">'+' · '.join('<a href="'+e(h['sources'][k]['url'])+'">'+e(h['sources'][k]['title'])+' ↗</a>' for k in keys)+'</p>' if keys else ''
    b+='<section class="wrap xz-section xz-history" id="wood-stand"><div class="xz-prose wrap"><h2>'+e(h['title'])+'</h2>'
-   for p in h['paragraphs']:b+='<p>'+e(p['text'])+'</p>'+history_sources(p['sources'])
+   for p in h['paragraphs']:b+='<p>'+e(p['text'])+'</p>'
+   b+=history_sources(list(dict.fromkeys(k for p in h['paragraphs'] for k in p['sources'])))
    b+='</div><div class="xz-inscription-photos">'
    for p in h['photos']:
     b+='<figure id="photo-'+p['number']+'">'+photo(p['number'],p['caption'],prefix)+'<figcaption>'+e(p['caption'])+'</figcaption></figure>'
