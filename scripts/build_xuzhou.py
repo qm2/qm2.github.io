@@ -94,7 +94,7 @@ def build():
  home=ROOT/'museum-notes/index.html';s=re.sub(r'<!-- xuzhou-entry -->.*?<!-- /xuzhou-entry -->','',home.read_text(),flags=re.S)
  anchor='</section>\n<section class="future-collections"';assert anchor in s
  p=photos[d['hero']];v=p['variants'][0]
- entry=f'<a class="issue-link" href="xuzhou/"><img src="xuzhou/images/{v["file"]}" alt="休斯顿美术馆虚舟收藏展厅" width="{p["width"]}" height="{p["height"]}" loading="lazy"><div><p class="eyebrow">THE XUZHOU COLLECTION / HOUSTON</p><h2>虚舟收藏</h2><p>三十余次观看之后。从冠饰与修复，看到水晶眼、漆布壳体与像座上的愿望。</p><p class="issue-meta">28件虚舟造像<br>南亚 / 东南亚 / 喜马拉雅 / 东亚</p><span class="text-link">进入这个专题 →</span></div></a>'
+ entry=f'<a class="issue-link" href="xuzhou/"><img src="xuzhou/images/{v["file"]}" alt="休斯顿美术馆虚舟收藏展厅" width="{p["width"]}" height="{p["height"]}" loading="lazy"><div><p class="eyebrow">THE XUZHOU COLLECTION / HOUSTON</p><h2>虚舟收藏</h2><blockquote class="xz-entry-epigraph"><p>“{e(d["epigraph"]["text"])}”</p><cite>——{e(d["epigraph"]["source"])}</cite></blockquote><p class="issue-meta">28件虚舟造像<br>南亚 / 东南亚 / 喜马拉雅 / 东亚</p><span class="text-link">进入这个专题 →</span></div></a>'
  home.write_text(s.replace(anchor,'<!-- xuzhou-entry -->'+entry+'<!-- /xuzhou-entry -->'+anchor,1))
  print('Built Xuzhou: 28 collection works; 8 readings; 29 pages.')
 if __name__=='__main__':build()
