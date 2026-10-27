@@ -49,12 +49,26 @@ def build():
   b+=''.join(f'<div><dt>{e(k)}</dt><dd>{e(v)}</dd></div>' for k,v in facts)+'</dl><a class="text-link" href="#label">查看现场展签 ↓</a></div></section><section class="wrap xz-notes xz-prose"><h2>作品札记</h2>'
   for p in w['notes']:b+='<p>'+e(p['text'])+'</p>'
   b+='<p class="source"><a href="#label">休斯顿美术馆现场展签 · 照片'+w['label_photo']+'</a></p>'+sources(w['source_ids'])
-  if w['record_note']:b+='<details class="xz-record"><summary>资料注</summary><p>'+e(w['record_note'])+'</p></details>'
+  if w['record_note'] and not w.get('history'):b+='<details class="xz-record"><summary>资料注</summary><p>'+e(w['record_note'])+'</p></details>'
   b+='</section>'
+  history_photos=set()
+  if w.get('history'):
+   h=w['history'];history_photos={p['number'] for p in h['photos']}
+   def history_sources(keys):
+    return '<p class="source">'+' · '.join('<a href="'+e(h['sources'][k]['url'])+'">'+e(h['sources'][k]['title'])+' ↗</a>' for k in keys)+'</p>' if keys else ''
+   b+='<section class="wrap xz-section xz-history" id="wood-stand"><div class="xz-prose wrap"><h2>'+e(h['title'])+'</h2>'
+   for p in h['paragraphs']:b+='<p>'+e(p['text'])+'</p>'+history_sources(p['sources'])
+   b+='</div><div class="xz-inscription-photos">'
+   for p in h['photos']:
+    b+='<figure id="photo-'+p['number']+'">'+photo(p['number'],p['caption'],prefix)+'<figcaption>'+e(p['caption'])+'</figcaption></figure>'
+   b+='</div><div class="xz-prose wrap"><p class="xz-meta">'+e(h['photo_note'])+'</p><h3>公开拍卖记录</h3><ol class="xz-provenance">'
+   for t in h['timeline']:b+='<li><h4>'+e(t['date'])+'</h4><p>'+e(t['text'])+'</p><p class="xz-meta">'+e(t['status'])+'</p>'+history_sources(t['sources'])+'</li>'
+   b+='</ol><details class="xz-record"><summary>题记与递藏：资料注</summary>'+''.join('<p>'+e(t)+'</p>' for t in h['notes'])+'</details></div></section>'
   if w['detail_photos']:
    b+='<section class="wrap work-gallery xz-section" data-gallery data-direction="ltr" aria-labelledby="details-title"><h2 id="details-title">其他角度与细部</h2><div class="gallery-controls" hidden><button type="button" data-prev>上一张</button><span class="gallery-count" role="status" aria-live="polite"></span><button type="button" data-next>下一张</button><button type="button" data-show-all aria-pressed="false">展开全部</button></div><div class="gallery-stage">'
    special={'958':'背面残损与中空像身','960':'面容与胸前璎珞','961':'斜侧面与冠饰','981':'侧面：胸背与衣纹','982':'背面衣纹','1037':'台座正面题记','1041':'木座正面文字','1042':'木座侧面文字','1043':'木座另一侧文字','1049':'背光的背面','1050':'底座题记'}
    for n in w['detail_photos']:
+    if n in history_photos:continue
     cap=w['title']+' · '+special.get(n,'另一角度与细部')+' · 照片'+n
     b+=f'<figure class="slide" id="photo-{n}">{photo(n,cap,prefix)}<figcaption>{e(cap)}</figcaption></figure>'
    b+='</div><div class="gallery-thumbs" aria-label="选择照片" hidden></div></section>'
