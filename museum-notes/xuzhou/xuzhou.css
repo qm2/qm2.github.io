@@ -6,4 +6,4 @@
 
 .xz-dedication blockquote{margin:1.5rem 0;padding:1rem 1.3rem;border-left:3px solid #b9afa0;font-size:1.12rem;line-height:2;overflow-wrap:anywhere}.xz-collation{margin-top:2rem}.xz-collation h4{margin-bottom:.5rem}.xz-collation p{margin-top:.5rem}
 
-.xz-intro .xz-epigraph{margin:0 0 2.4rem;padding:0;border:0;font-size:.94em;line-height:1.9}.xz-epigraph p{margin:0 0 .55rem}.xz-epigraph footer{font-size:.85em;color:var(--muted,#6c665e);font-weight:400}.xz-intro>p+p{margin-top:1.4em}
+.xz-heading .xz-epigraph{margin:1.4rem 0 2rem;padding:0;border:0;font-size:1rem;line-height:1.9;max-width:790px}.xz-epigraph p{margin:0 0 .55rem}.xz-epigraph footer{font-size:.85em;color:var(--muted,#6c665e);font-weight:400}.xz-intro>p+p{margin-top:1.4em}

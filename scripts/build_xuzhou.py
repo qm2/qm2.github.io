@@ -24,9 +24,9 @@ def build():
   return ' · '.join(f'<a href="{prefix}{i}/">{e(byid[i]["title"])} →</a>' for i in ids)
  def card(w,prefix=''):
   return f'<article class="xz-card" id="{w["id"]}" data-region="{w["region_group"]}"><a href="{prefix}{w["id"]}/">{photo(w["main_photo"],w["title"]+" · "+w["region_label"],prefix,card=True)}<h3>{e(w["title"])}</h3></a><p class="xz-meta">{e(w["region_label"])} · {e(w["date_display"])}</p><p class="xz-material">{e(w["material_label"])}</p><p>{e(w["short"])}</p></article>'
- body=f'<div class="wrap xz-heading"><p class="eyebrow">THE XUZHOU COLLECTION / HOUSTON</p><h1>{d["title"]}</h1><p class="subtitle">{d["subtitle"]}</p><nav class="xz-nav" aria-label="专题章节"><a href="#reading">八组细读</a><a href="#catalogue">浏览图录</a><a href="#about">收藏与资料</a></nav></div>'
+ body=f'<div class="wrap xz-heading"><p class="eyebrow">THE XUZHOU COLLECTION / HOUSTON</p><h1>{d["title"]}</h1><blockquote class="xz-epigraph"><p>“{e(d["epigraph"]["text"])}”</p><footer>——{e(d["epigraph"]["source"])}</footer></blockquote><nav class="xz-nav" aria-label="专题章节"><a href="#reading">八组细读</a><a href="#catalogue">浏览图录</a><a href="#about">收藏与资料</a></nav></div>'
  intro_paragraphs=''.join('<p>'+e(t)+'</p>' for t in d['intro'])
- body+=f'<figure class="wrap xz-hero">{photo(d["hero"],"休斯顿美术馆的虚舟收藏展厅 · 中央为智慧佛立像",eager=True)}<figcaption>休斯顿美术馆 · 展厅中央的智慧佛与周围造像 · Merton摄</figcaption></figure><section class="wrap xz-intro"><blockquote class="xz-epigraph"><p>“{e(d["epigraph"]["text"])}”</p><footer>——{e(d["epigraph"]["source"])}</footer></blockquote>{intro_paragraphs}<p class="xz-meta">{e(d["brief"])} <a href="#about">关于这份收藏 ↓</a></p></section>'
+ body+=f'<figure class="wrap xz-hero">{photo(d["hero"],"休斯顿美术馆的虚舟收藏展厅 · 中央为智慧佛立像",eager=True)}<figcaption>休斯顿美术馆 · 展厅中央的智慧佛与周围造像 · Merton摄</figcaption></figure><section class="wrap xz-intro">{intro_paragraphs}<p class="xz-meta">{e(d["brief"])} <a href="#about">关于这份收藏 ↓</a></p></section>'
  body+='<section class="wrap xz-section" id="reading"><p class="eyebrow">LOOKING CLOSER</p><h2>从八个问题看起</h2><div class="xz-reading-grid">'
  for f in d['features']:
   body+=f'<article class="xz-feature" id="{f["id"]}"><a href="{f["works"][0]}/">{photo(f["photo"],f["title"],card=True)}<h3>{e(f["title"])}</h3></a><p>{e(f["text"])}</p><p class="xz-related">{links(f["works"])}</p></article>'
