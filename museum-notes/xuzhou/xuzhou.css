@@ -5,3 +5,5 @@
 .xz-history .xz-prose{width:100%;padding-left:0;padding-right:0}.xz-history p{line-height:1.95}.xz-inscription-photos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.3rem;margin:2rem 0}.xz-inscription-photos .image-box{--photo-height:70vh}.xz-inscription-photos figcaption{font-size:.9rem;line-height:1.8;margin-top:.7rem}.xz-provenance{list-style:none;padding:0;border-left:1px solid #c8beb0}.xz-provenance li{padding:.3rem 0 1rem 1.3rem}.xz-provenance h4{font-size:1.08rem;margin:.5rem 0}.xz-provenance p{margin:.5rem 0}@media(max-width:700px){.xz-inscription-photos{grid-template-columns:1fr;gap:2rem}.xz-history .xz-prose{max-width:100%}}
 
 .xz-dedication blockquote{margin:1.5rem 0;padding:1rem 1.3rem;border-left:3px solid #b9afa0;font-size:1.12rem;line-height:2;overflow-wrap:anywhere}.xz-collation{margin-top:2rem}.xz-collation h4{margin-bottom:.5rem}.xz-collation p{margin-top:.5rem}
+
+.xz-intro .xz-epigraph{margin:0 0 2.4rem;padding:0;border:0;font-size:.94em;line-height:1.9}.xz-epigraph p{margin:0 0 .55rem}.xz-epigraph footer{font-size:.85em;color:var(--muted,#6c665e);font-weight:400}.xz-intro>p+p{margin-top:1.4em}
