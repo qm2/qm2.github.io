@@ -45,32 +45,45 @@ def build():
   out=BASE/w['id'];out.mkdir(exist_ok=True);prefix='../';owned=w['collection']=='mfah-neighbor'
   b=f'<nav class="breadcrumbs wrap" aria-label="当前位置"><a href="../../">博物馆札记</a><span>/</span><a href="../">虚舟收藏</a><span>/</span><span>{"邻展作品" if owned else e(w["region_label"])}</span></nav><section class="wrap xz-work-heading"><p class="eyebrow">{"MFAH COLLECTION / NEIGHBORING WORK" if owned else "THE XUZHOU COLLECTION"}</p><h1>{e(w["title"])}</h1><p class="xz-original" lang="en">{e(w["original_title"])}</p><p class="subtitle">{e(w["short"])}</p></section><section class="wrap xz-work"><figure>{photo(w["main_photo"],w["title"]+" · Merton摄",prefix,True)}<figcaption>{e(w["title"])} · 休斯顿美术馆所见 · 点击放大</figcaption></figure><div class="xz-facts"><dl>'
   facts=[('地区',w['region_label']),('年代',w['date_display']),('材料',w['material_label']),('收藏','休斯顿美术馆' if owned else '虚舟收藏（私人收藏）'),('观看地点','休斯顿美术馆（MFAH）')]
+  if w.get('dimensions'):facts.append(('尺寸',w['dimensions']))
   if w['accession']:facts.append(('馆藏号',w['accession']))
   b+=''.join(f'<div><dt>{e(k)}</dt><dd>{e(v)}</dd></div>' for k,v in facts)+'</dl><a class="text-link" href="#label">查看现场展签 ↓</a></div></section><section class="wrap xz-notes xz-prose"><h2>作品札记</h2>'
   for p in w['notes']:b+='<p>'+e(p['text'])+'</p>'
-  b+='<p class="source"><a href="#label">休斯顿美术馆现场展签 · 照片'+w['label_photo']+'</a></p>'+sources(w['source_ids'])
+  b+='<p class="source"><a href="#label">休斯顿美术馆现场展签'+('' if w.get('natural_captions') else ' · 照片'+w['label_photo'])+'</a></p>'+sources(w['source_ids'])
+  if w.get('inscription'):b+='<p class="source"><a href="'+e(w['inscription']['source']['url'])+'">佳士得：本件造像与纹饰说明 ↗</a></p>'
   if w['record_note'] and not w.get('history'):b+='<details class="xz-record"><summary>资料注</summary><p>'+e(w['record_note'])+'</p></details>'
   b+='</section>'
   history_photos=set()
+  if w.get('inscription'):
+   ins=w['inscription'];n=ins['photo'];history_photos.add(n)
+   b+='<section class="wrap xz-section xz-prose xz-dedication" id="inscription"><h2>'+e(ins['title'])+'</h2><figure id="photo-'+n+'">'+photo(n,ins['caption'],prefix)+'<figcaption>'+e(ins['caption'])+'</figcaption></figure><p class="xz-meta">'+e(ins['credit'])+'</p><blockquote>'+e(ins['text'])+'</blockquote><p class="source"><a href="'+e(ins['source']['url'])+'">'+e(ins['source']['title'])+' ↗</a></p><h3>发愿文说了什么</h3>'
+   b+=''.join('<p>'+e(t)+'</p>' for t in ins['reading'])
+   b+='<div class="xz-collation"><h3>两处校读</h3>'+''.join('<h4>'+e(t['title'])+'</h4><p>'+e(t['text'])+'</p>' for t in ins['collation'])+'</div></section>'
   if w.get('history'):
-   h=w['history'];history_photos={p['number'] for p in h['photos']}
+   h=w['history'];history_photos.update(p['number'] for p in h['photos'])
    def history_sources(keys):
     return '<p class="source">'+' · '.join('<a href="'+e(h['sources'][k]['url'])+'">'+e(h['sources'][k]['title'])+' ↗</a>' for k in keys)+'</p>' if keys else ''
-   b+='<section class="wrap xz-section xz-history" id="wood-stand"><div class="xz-prose wrap"><h2>'+e(h['title'])+'</h2>'
+   b+='<section class="wrap xz-section xz-history" id="'+e(h.get('id','wood-stand'))+'"><div class="xz-prose wrap"><h2>'+e(h['title'])+'</h2>'
    for p in h['paragraphs']:b+='<p>'+e(p['text'])+'</p>'
    b+=history_sources(list(dict.fromkeys(k for p in h['paragraphs'] for k in p['sources'])))
-   b+='</div><div class="xz-inscription-photos">'
+   b+='</div>'
+   if h['photos']:b+='<div class="xz-inscription-photos">'
    for p in h['photos']:
     b+='<figure id="photo-'+p['number']+'">'+photo(p['number'],p['caption'],prefix)+'<figcaption>'+e(p['caption'])+'</figcaption></figure>'
-   b+='</div><div class="xz-prose wrap"><p class="xz-meta">'+e(h['photo_note'])+'</p><h3>公开拍卖记录</h3><ol class="xz-provenance">'
+   if h['photos']:b+='</div>'
+   b+='<div class="xz-prose wrap">'+('<p class="xz-meta">'+e(h['photo_note'])+'</p>' if h['photo_note'] else '')+'<h3>'+e(h.get('timeline_title','公开拍卖记录'))+'</h3><ol class="xz-provenance">'
    for t in h['timeline']:b+='<li><h4>'+e(t['date'])+'</h4><p>'+e(t['text'])+'</p><p class="xz-meta">'+e(t['status'])+'</p>'+history_sources(t['sources'])+'</li>'
-   b+='</ol><details class="xz-record"><summary>题记与递藏：资料注</summary>'+''.join('<p>'+e(t)+'</p>' for t in h['notes'])+'</details></div></section>'
+   b+='</ol>'
+   if h.get('publications'):
+    pub=h['publications'];b+='<h3>出版记录</h3><p class="xz-meta">'+e(pub['note'])+'</p><ul>'+''.join('<li>'+e(t)+'</li>' for t in pub['entries'])+'</ul>'+history_sources(pub['sources'])
+   b+='<details class="xz-record"><summary>题记与递藏：资料注</summary>'+''.join('<p>'+e(t)+'</p>' for t in h['notes'])+'</details></div></section>'
   if w['detail_photos']:
    b+='<section class="wrap work-gallery xz-section" data-gallery data-direction="ltr" aria-labelledby="details-title"><h2 id="details-title">其他角度与细部</h2><div class="gallery-controls" hidden><button type="button" data-prev>上一张</button><span class="gallery-count" role="status" aria-live="polite"></span><button type="button" data-next>下一张</button><button type="button" data-show-all aria-pressed="false">展开全部</button></div><div class="gallery-stage">'
    special={'958':'背面残损与中空像身','960':'面容与胸前璎珞','961':'斜侧面与冠饰','981':'侧面：胸背与衣纹','982':'背面衣纹','1037':'台座正面题记','1041':'木座正面文字','1042':'木座侧面文字','1043':'木座另一侧文字','1049':'背光的背面','1050':'底座题记'}
    for n in w['detail_photos']:
     if n in history_photos:continue
     cap=w['title']+' · '+special.get(n,'另一角度与细部')+' · 照片'+n
+    if w.get('natural_captions'):cap=w.get('photo_captions',{}).get(n,w['title']+' · 另一角度与细部')
     b+=f'<figure class="slide" id="photo-{n}">{photo(n,cap,prefix)}<figcaption>{e(cap)}</figcaption></figure>'
    b+='</div><div class="gallery-thumbs" aria-label="选择照片" hidden></div></section>'
   b+='<section class="wrap xz-prose xz-section" id="label"><details><summary>现场展签与原始记录</summary><figure>'+photo(w['label_photo'],w['title']+' · 现场展签',prefix)+'<figcaption>休斯顿美术馆现场展签 · Merton摄</figcaption></figure><dl class="xz-label-record">'+''.join('<div><dt>'+k+'</dt><dd lang="en">'+e(v)+'</dd></div>' for k,v in [('题名',w['original_title']),('地区',w['label_original']['region']),('年代',w['label_original']['date']),('材料',w['label_original']['material'])])+'</dl></details></section>'
