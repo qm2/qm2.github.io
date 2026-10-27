@@ -36,9 +36,7 @@ def build():
  body+='</section><section class="wrap xz-section xz-prose" id="about"><p class="eyebrow">COLLECTION / CONTEXT</p><h2>在休斯顿重看亚洲造像</h2><p>虚舟收藏由一位不具名的私人收藏者建立，自2021年起长期借展于休斯顿美术馆。南亚、东南亚、喜马拉雅与东亚的造像，在这里共同呈现。参观时所见的地区名称有不同尺度：犍陀罗是历史文化区域，斯瓦特是河谷，大克什米尔也不等同于一条现代国界。</p>'+sources(['mfah-press','mfah-exhibition'])
  body+='<p>展厅总说明把“虚舟”联系到佛教以舟筏比喻教法的传统：借助教法渡越无明。回到作品上，材料、手势与题记各自提供了入口。漆布怎样塑成佛首，嵌银怎样显出衣缝，供养者怎样把父母的愿望写入像座，这些具体的问题，让不同地区的造像有了可以互相参照的地方。</p><details><summary>展厅说明与观看空间</summary><div class="xz-context">'
  for n,c in [('954','虚舟收藏总说明'),('1062','同柜的朝鲜半岛与日本造像'),('988','展厅与相邻空间')]:body+=f'<figure>{photo(n,c)}<figcaption>{c} · Merton摄</figcaption></figure>'
- body+='</div></details><details class="xz-glossary"><summary>几个反复遇到的造像词语</summary><dl>'
- for t,p in [('触地印','右手垂过膝头、指向地面，常与佛陀成道时请大地见证的故事相关；尊格仍需结合题名和其他特征判断。'),('禅定印','双手安放在腹前或腿上、掌心相叠，表现禅定。斯里兰卡佛与爪哇阿弥陀佛可并看。'),('背光与头光','围绕身体或头部的光明形象，可以是一片刻纹金属，也可以镂空成火焰、卷草。'),('肉髻','佛头顶部的隆起，是佛的相好之一；与冠饰、头发的具体造型需分别观察。'),('佛与菩萨','题名往往结合宗教身份、手势与持物。冠饰和璎珞是线索，却不能仅凭是否戴冠来判断：本辑智慧佛同样冠饰繁复。')]:body+=f'<div><dt>{t}</dt><dd>{p}</dd></div>'
- body+='</dl></details><h3>继续阅读</h3><p><cite>Approaching the Buddha: Transmission and Transformation</cite>，Hao Sheng著，另有八位研究者参与撰写，休斯顿美术馆出版、耶鲁大学出版社发行，2026年，128页。图录从供养、观看、传播与保护研究等方面讨论这一收藏。</p>'+sources(['catalog-description','catalog-publisher'])
+ body+='</div></details><h3>继续阅读</h3><p><cite>Approaching the Buddha: Transmission and Transformation</cite>，Hao Sheng著，另有八位研究者参与撰写，休斯顿美术馆出版、耶鲁大学出版社发行，2026年，128页。图录从供养、观看、传播与保护研究等方面讨论这一收藏。</p>'+sources(['catalog-description','catalog-publisher'])
  body+='<details id="sources"><summary>资料说明与参考链接</summary><p>逐件年代、材质与题名主要依据现场展签，照片可在作品页展开查看；观看分析来自所附实拍。图录列作延伸阅读。尚有分歧的年代、展签错配及未释清的题记，分别记在相关作品的资料注中。</p><ul>'+''.join(f'<li><a href="{e(v["url"])}">{e(v["title"])} ↗</a></li>' for v in d['sources'].values())+'</ul></details></section>'
  (BASE/'index.html').write_text(shell(d['title'],body))
  for w in works:
