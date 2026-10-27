@@ -58,7 +58,8 @@ def build():
    ins=w['inscription'];n=ins['photo'];history_photos.add(n)
    b+='<section class="wrap xz-section xz-prose xz-dedication" id="inscription"><h2>'+e(ins['title'])+'</h2><figure id="photo-'+n+'">'+photo(n,ins['caption'],prefix)+'<figcaption>'+e(ins['caption'])+'</figcaption></figure><p class="xz-meta">'+e(ins['credit'])+'</p><blockquote>'+e(ins['text'])+'</blockquote><p class="source"><a href="'+e(ins['source']['url'])+'">'+e(ins['source']['title'])+' ↗</a></p><h3>发愿文说了什么</h3>'
    b+=''.join('<p>'+e(t)+'</p>' for t in ins['reading'])
-   b+='<div class="xz-collation"><h3>两处校读</h3>'+''.join('<h4>'+e(t['title'])+'</h4><p>'+e(t['text'])+'</p>' for t in ins['collation'])+'</div></section>'
+   if ins.get('collation'):b+='<div class="xz-collation"><h3>校读说明</h3>'+''.join('<h4>'+e(t['title'])+'</h4><p>'+e(t['text'])+'</p>' for t in ins['collation'])+'</div>'
+   b+='</section>'
   if w.get('history'):
    h=w['history'];history_photos.update(p['number'] for p in h['photos'])
    def history_sources(keys):
