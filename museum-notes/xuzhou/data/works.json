@@ -752,14 +752,13 @@
         "external_object_record": null,
         "research_update": {
           "date": "2026-10-27",
-          "catalog_basis": "user-supplied research summary, Cat.23 p.98; original catalogue pages not accessed or stored",
+          "catalog_basis": "User confirms research based on collector-provided catalogue page, Cat.23 p.98; implementation used supplied summary, not direct page access; no catalogue page stored or published.",
           "photo_review": "993 and 994 full-resolution originals; arms present, local finger damage",
           "comparison": "Official Freer F2005.9a-b frontal image viewed; no third-party image published",
           "official_record_link": "asia-archive.si.edu record read; si.edu/object/fsg_F2005.9a-b returned 404"
         }
       },
       "research_questions": [
-        "Cat.23原页尚未核读，尺寸与图录解释依据提供的研究摘要",
         "原寺院、出土地、原配浴盆、实际仪式使用及完整递藏经历未确认"
       ],
       "notes": [
@@ -769,11 +768,9 @@
           "sources": []
         },
         {
-          "text": "圆润的胸腹和面容带着孩童感，头顶却已有肉髻，双耳也被拉长。展签将这些特征联系到未来成佛的预示：这里表现的不只是一个新生婴儿，也是已显露佛陀相好的诞生形象。图录称眉间白毫已磨蚀，不能将它当作现场照片中仍清楚可见的细节。",
-          "kind": "label-and-catalog-summary",
-          "sources": [
-            "label"
-          ],
+          "text": "圆润的胸腹和面容带着孩童感，头顶却已有肉髻，双耳也被拉长。收藏图录将这些特征联系到未来成佛的预示：这里表现的不只是一个新生婴儿，也是已显露佛陀相好的诞生形象。图录称眉间白毫已磨蚀，不能将它当作现场照片中仍清楚可见的细节。",
+          "kind": "catalog-interpretation",
+          "sources": [],
           "references": [
             "catalog"
           ]
@@ -813,7 +810,7 @@
       ],
       "accession": null,
       "dimensions": "12.1 × 4.4 × 3.8厘米（据收藏图录Cat.23）",
-      "confidence": "现场照片与展签已复核；图录条目依用户提供研究摘要，未核读原页；比较馆藏及百科条目已读取",
+      "confidence": "现场照片与展签已复核；用户确认Cat.23研究依据为藏家提供的图录页面，执行更新时采用研究摘要；比较馆藏及百科条目已读取",
       "label_original": {
         "region": "Korea",
         "date": "Three Kingdoms period, 7th century",
@@ -865,7 +862,7 @@
         {
           "title": "书目与资料说明",
           "paragraphs": [
-            "Hao Sheng著，多位学者参与撰写，《Approaching the Buddha: Transmission and Transformation》，休斯顿美术馆出版、耶鲁大学出版社发行，2026年，128页，ISBN 9780300286427。本件为Cat.23，p.98；条目内容与尺寸据研究摘要整理，图录原页尚未核读。出版社页面用于核对出版信息。",
+            "Hao Sheng著，多位学者参与撰写，《Approaching the Buddha: Transmission and Transformation》，休斯顿美术馆出版、耶鲁大学出版社发行，2026年，128页，ISBN 9780300286427。本件为Cat.23，p.98；尺寸与条目解读依据藏家提供的图录页面整理，出版信息另据出版社官网核对。",
             "地区、时期与材质沿用现场展签：朝鲜半岛，三国时期，7世纪，鎏金青铜。现有资料不足以进一步指定高句丽、百济或新罗，也尚未确认出土地、原寺院、原配浴盆、拍卖记录及完整递藏经历。1978年专题仅用于了解仪式背景，不采用其中的存世数量作为今日统计。"
           ],
           "references": [
