@@ -11,3 +11,5 @@
 .xz-hero>figcaption{text-align:center}
 
 .xz-work-epigraph{margin:1.8rem 0 2rem;padding:0;border:0;max-width:790px;font-size:1.04rem;line-height:1.95}.xz-work-epigraph p{margin:0 0 .6rem}.xz-work-epigraph footer{font-size:.85rem;color:var(--muted,#6c665e);line-height:1.8}
+
+.xz-work-epigraph p{white-space:pre-line}.xz-note-quote{margin:1.2rem 0;padding:.2rem 0 .2rem 1.2rem;border-left:2px solid var(--line,#d9d0c4);overflow-wrap:anywhere}.xz-note-quote p{margin:0;line-height:1.85}

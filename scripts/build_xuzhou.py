@@ -53,7 +53,10 @@ def build():
    return '<p class="source">'+' · '.join('<a href="'+e(w['references'][k]['url'])+'">'+e(w['references'][k]['title'])+' ↗</a>' for k in keys)+'</p>' if keys else ''
   for p in w['notes']:
    if p.get('heading'):b+='<h3>'+e(p['heading'])+'</h3>'
-   b+='<p>'+e(p['text'])+'</p>'+work_references(p.get('references',[]))
+   b+='<p>'+e(p['text'])+'</p>'
+   if p.get('quote'):
+    q=p['quote'];b+='<blockquote class="xz-note-quote" lang="'+e(q['lang'])+'"><p>'+e(q['text'])+'</p></blockquote><p class="xz-meta">'+e(q['credit'])+'</p>'
+   b+=work_references(p.get('references',[]))
   for note in w.get('reading_notes',[]):
    b+='<details class="xz-record"><summary>'+e(note['title'])+'</summary>'+''.join('<p>'+e(t)+'</p>' for t in note['paragraphs'])+work_references(note.get('references',[]))+'</details>'
   b+='<p class="source"><a href="#label">休斯顿美术馆现场展签'+('' if w.get('natural_captions') else ' · 照片'+w['label_photo'])+'</a></p>'+sources(w['source_ids'])
