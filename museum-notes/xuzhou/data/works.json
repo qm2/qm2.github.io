@@ -749,22 +749,59 @@
         },
         "independent_full_resolution_label_review": true,
         "visual_review": "all-main-photos-compared; high-risk-details-opened-at-original-resolution",
-        "external_object_record": null
+        "external_object_record": null,
+        "research_update": {
+          "date": "2026-10-27",
+          "catalog_basis": "user-supplied research summary, Cat.23 p.98; original catalogue pages not accessed or stored",
+          "photo_review": "993 and 994 full-resolution originals; arms present, local finger damage",
+          "comparison": "Official Freer F2005.9a-b frontal image viewed; no third-party image published",
+          "official_record_link": "asia-archive.si.edu record read; si.edu/object/fsg_F2005.9a-b returned 404"
+        }
       },
       "research_questions": [
-        "不要与日本诞生佛展签混用"
+        "Cat.23原页尚未核读，尺寸与图录解释依据提供的研究摘要",
+        "原寺院、出土地、原配浴盆、实际仪式使用及完整递藏经历未确认"
       ],
       "notes": [
         {
-          "text": "这尊小像的肩臂已有残缺，胸腹和短裙般的衣饰仍清楚可见。细长的身体站在宽大的覆莲座上，残留的金色沿面部、胸口和双腿分布。它的童子形象，与同柜披袈裟的成年立佛很不一样。",
+          "text": "这尊小像只有十二厘米高，站在宽大的覆莲座上。残留的金色沿面部、胸腹和双腿分布，腰间的衣饰向两侧垂落。右臂屈肘，前臂抬向肩前，左臂垂下，一手指天、一手指地。照片中双臂轮廓仍在，手指有局部损伤。",
           "kind": "visual-observation",
           "sources": []
         },
         {
-          "text": "展签将其定为朝鲜半岛三国时期7世纪的诞生佛。这类形象关联佛陀诞生后行七步、宣示其身份的宗教叙事。与日本浴佛盆中的小像并看，还能从同一题材看到独立造像与仪式用具的关系。",
-          "kind": "label-interpretation",
+          "text": "圆润的胸腹和面容带着孩童感，头顶却已有肉髻，双耳也被拉长。展签将这些特征联系到未来成佛的预示：这里表现的不只是一个新生婴儿，也是已显露佛陀相好的诞生形象。图录称眉间白毫已磨蚀，不能将它当作现场照片中仍清楚可见的细节。",
+          "kind": "label-and-catalog-summary",
           "sources": [
             "label"
+          ],
+          "references": [
+            "catalog"
+          ]
+        },
+        {
+          "text": "指天的动作并没有把整条手臂高高伸直，而是以抬起前臂完成，显得舒缓。图录注意到身体轻微的S形曲线，以及左足略向前、向外的姿势；作者还指出，从背后看，臀部有轻微倾斜。这一背面细节依据图录记载。重心的小幅变化，让小像在站定之中仍像有下一步，也使宣示身份的姿态保留了一点孩童感。",
+          "kind": "catalog-summary-and-visual-interpretation",
+          "sources": [],
+          "references": [
+            "catalog"
+          ]
+        },
+        {
+          "heading": "在灌沐中相遇",
+          "text": "浴佛时，诞生佛置于盆中，参与者以清水或香水灌沐，将佛诞传说中的沐浴转化为可以亲身参与的仪式。小像不仅供人远观，也借由一次次灌沐，与信众建立联系。图录作者认为，这尊像各面都受到重视，可能与人们围绕水盆、轮流灌沐的观看方式有关。这是对造型与仪式关系的解释，尚不能确定本像曾在何处、以何种方式使用。",
+          "kind": "ritual-background-and-catalog-interpretation",
+          "sources": [],
+          "references": [
+            "catalog",
+            "asuka"
+          ]
+        },
+        {
+          "text": "“天上天下，唯我独尊”若只读前一句，容易被理解为自我夸耀。《韩国民族文化大百科全书》“诞生佛”条目引用的传说，还接着说“三界皆苦，我当安之”。这里的宣言也关乎救苦：新生的佛陀承诺回应众生的苦难。不同叙述的措辞未必相同，这里采用的是该条目所引的表述。",
+          "kind": "encyclopedia-interpretation",
+          "sources": [],
+          "references": [
+            "encykorea"
           ]
         }
       ],
@@ -775,8 +812,8 @@
         "x08"
       ],
       "accession": null,
-      "dimensions": null,
-      "confidence": "现场展签及照片对应已核；独立图录条目未取得",
+      "dimensions": "12.1 × 4.4 × 3.8厘米（据收藏图录Cat.23）",
+      "confidence": "现场照片与展签已复核；图录条目依用户提供研究摘要，未核读原页；比较馆藏及百科条目已读取",
       "label_original": {
         "region": "Korea",
         "date": "Three Kingdoms period, 7th century",
@@ -794,7 +831,48 @@
           "reviewed": "2026-10-25"
         }
       ],
-      "visit_date": null
+      "visit_date": null,
+      "natural_captions": true,
+      "references": {
+        "catalog": {
+          "title": "《Approaching the Buddha: Transmission and Transformation》（2026），Cat.23，p.98",
+          "url": "https://yalebooks.yale.edu/book/9780300286427/approaching-the-buddha/"
+        },
+        "asuka": {
+          "title": "飞鸟资料馆：1978年诞生佛专题（浴佛仪式）",
+          "url": "https://www.nabunken.go.jp/english/e-catalogue/5.html"
+        },
+        "encykorea": {
+          "title": "《韩国民族文化大百科全书》：탄생불（诞生佛）",
+          "url": "https://encykorea.aks.ac.kr/Article/E0058782"
+        },
+        "freer": {
+          "title": "史密森尼国家亚洲艺术博物馆：The Buddha at Birth，F2005.9a-b",
+          "url": "https://asia-archive.si.edu/object/F2005.9a-b/"
+        }
+      },
+      "reading_notes": [
+        {
+          "title": "比较阅读：另一种指天的姿态",
+          "paragraphs": [
+            "弗利尔收藏的日本飞鸟时代诞生佛，同样作于7世纪，藏品号F2005.9a-b，连底座通高约11.7厘米。官方正面照片中，右臂形成一道向上的弧线，手举过头顶，腰身较收束，裙褶呈细密的垂线；虚舟这尊的抬手停在肩前，腹部较圆，衣饰向两侧分开。同一题材可以有不同的身体节奏。弗利尔馆方注明其底座后配。",
+            "弗利尔馆藏书目也列出2003年《Transmitting the Forms of Divinity: Early Buddhist Art from Korea and Japan》，Cat.25，pp.240–241，与虚舟图录研究摘要中的注释相合。这里只比较姿态，不由相似处推定同一工坊或具体传播路线；2003年图录原页尚未核读。"
+          ],
+          "references": [
+            "freer"
+          ]
+        },
+        {
+          "title": "书目与资料说明",
+          "paragraphs": [
+            "Hao Sheng著，多位学者参与撰写，《Approaching the Buddha: Transmission and Transformation》，休斯顿美术馆出版、耶鲁大学出版社发行，2026年，128页，ISBN 9780300286427。本件为Cat.23，p.98；条目内容与尺寸据研究摘要整理，图录原页尚未核读。出版社页面用于核对出版信息。",
+            "地区、时期与材质沿用现场展签：朝鲜半岛，三国时期，7世纪，鎏金青铜。现有资料不足以进一步指定高句丽、百济或新罗，也尚未确认出土地、原寺院、原配浴盆、拍卖记录及完整递藏经历。1978年专题仅用于了解仪式背景，不采用其中的存世数量作为今日统计。"
+          ],
+          "references": [
+            "catalog"
+          ]
+        }
+      ]
     },
     {
       "id": "x11",

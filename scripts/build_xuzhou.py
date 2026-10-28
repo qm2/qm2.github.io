@@ -46,7 +46,13 @@ def build():
   if w.get('dimensions'):facts.append(('尺寸',w['dimensions']))
   if w['accession']:facts.append(('馆藏号',w['accession']))
   b+=''.join(f'<div><dt>{e(k)}</dt><dd>{e(v)}</dd></div>' for k,v in facts)+'</dl><a class="text-link" href="#label">查看现场展签 ↓</a></div></section><section class="wrap xz-notes xz-prose"><h2>作品札记</h2>'
-  for p in w['notes']:b+='<p>'+e(p['text'])+'</p>'
+  def work_references(keys):
+   return '<p class="source">'+' · '.join('<a href="'+e(w['references'][k]['url'])+'">'+e(w['references'][k]['title'])+' ↗</a>' for k in keys)+'</p>' if keys else ''
+  for p in w['notes']:
+   if p.get('heading'):b+='<h3>'+e(p['heading'])+'</h3>'
+   b+='<p>'+e(p['text'])+'</p>'+work_references(p.get('references',[]))
+  for note in w.get('reading_notes',[]):
+   b+='<details class="xz-record"><summary>'+e(note['title'])+'</summary>'+''.join('<p>'+e(t)+'</p>' for t in note['paragraphs'])+work_references(note.get('references',[]))+'</details>'
   b+='<p class="source"><a href="#label">休斯顿美术馆现场展签'+('' if w.get('natural_captions') else ' · 照片'+w['label_photo'])+'</a></p>'+sources(w['source_ids'])
   if w.get('inscription'):b+='<p class="source"><a href="'+e(w['inscription']['source']['url'])+'">佳士得：本件造像与纹饰说明 ↗</a></p>'
   if w['record_note'] and not w.get('history'):b+='<details class="xz-record"><summary>资料注</summary><p>'+e(w['record_note'])+'</p></details>'
