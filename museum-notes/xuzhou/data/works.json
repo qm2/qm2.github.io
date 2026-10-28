@@ -792,14 +792,6 @@
             "catalog",
             "asuka"
           ]
-        },
-        {
-          "text": "“天上天下，唯我独尊”若只读前一句，容易被理解为自我夸耀。《韩国民族文化大百科全书》“诞生佛”条目引用的传说，还接着说“三界皆苦，我当安之”。这里的宣言也关乎救苦：新生的佛陀承诺回应众生的苦难。不同叙述的措辞未必相同，这里采用的是该条目所引的表述。",
-          "kind": "encyclopedia-interpretation",
-          "sources": [],
-          "references": [
-            "encykorea"
-          ]
         }
       ],
       "short": "童子形体与莲座，指向佛陀诞生的故事。",
@@ -839,10 +831,6 @@
           "title": "飞鸟资料馆：1978年诞生佛专题（浴佛仪式）",
           "url": "https://www.nabunken.go.jp/english/e-catalogue/5.html"
         },
-        "encykorea": {
-          "title": "《韩国民族文化大百科全书》：탄생불（诞生佛）",
-          "url": "https://encykorea.aks.ac.kr/Article/E0058782"
-        },
         "freer": {
           "title": "史密森尼国家亚洲艺术博物馆：The Buddha at Birth，F2005.9a-b",
           "url": "https://asia-archive.si.edu/object/F2005.9a-b/"
@@ -869,7 +857,15 @@
             "catalog"
           ]
         }
-      ]
+      ],
+      "epigraph": {
+        "text": "天上天下，唯我为尊。三界皆苦，吾当安之。",
+        "source": "《修行本起经》卷上〈菩萨降身品第二〉",
+        "url": "https://dlbs.liberal.ntu.edu.tw/BDLM/sutra/html/T03/T03n0184.htm",
+        "location": "《大正藏》第3册，第184号，p.463c14–16",
+        "reviewed": "2026-10-27",
+        "editorial_note": "据台大所存CBETA全文核对，用字唯我為尊、吾當安之；展示转简体，标点今加。"
+      }
     },
     {
       "id": "x11",

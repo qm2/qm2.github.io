@@ -41,7 +41,10 @@ def build():
  (BASE/'index.html').write_text(shell(d['title'],body))
  for w in works:
   out=BASE/w['id'];out.mkdir(exist_ok=True);prefix='../';owned=w['collection']=='mfah-neighbor'
-  b=f'<nav class="breadcrumbs wrap" aria-label="当前位置"><a href="../../">博物馆札记</a><span>/</span><a href="../">虚舟收藏</a><span>/</span><span>{"邻展作品" if owned else e(w["region_label"])}</span></nav><section class="wrap xz-work-heading"><p class="eyebrow">{"MFAH COLLECTION / NEIGHBORING WORK" if owned else "THE XUZHOU COLLECTION"}</p><h1>{e(w["title"])}</h1><p class="xz-original" lang="en">{e(w["original_title"])}</p><p class="subtitle">{e(w["short"])}</p></section><section class="wrap xz-work"><figure>{photo(w["main_photo"],w["title"]+" · Merton摄",prefix,True)}<figcaption>{e(w["title"])} · 休斯顿美术馆所见 · 点击放大</figcaption></figure><div class="xz-facts"><dl>'
+  epigraph=''
+  if w.get('epigraph'):
+   q=w['epigraph'];epigraph='<blockquote class="xz-work-epigraph"><p>“'+e(q['text'])+'”</p><footer>——<a href="'+e(q['url'])+'" title="'+e(q['location'])+'">'+e(q['source'])+'</a></footer></blockquote>'
+  b=f'<nav class="breadcrumbs wrap" aria-label="当前位置"><a href="../../">博物馆札记</a><span>/</span><a href="../">虚舟收藏</a><span>/</span><span>{"邻展作品" if owned else e(w["region_label"])}</span></nav><section class="wrap xz-work-heading"><p class="eyebrow">{"MFAH COLLECTION / NEIGHBORING WORK" if owned else "THE XUZHOU COLLECTION"}</p><h1>{e(w["title"])}</h1><p class="xz-original" lang="en">{e(w["original_title"])}</p><p class="subtitle">{e(w["short"])}</p>{epigraph}</section><section class="wrap xz-work"><figure>{photo(w["main_photo"],w["title"]+" · Merton摄",prefix,True)}<figcaption>{e(w["title"])} · 休斯顿美术馆所见 · 点击放大</figcaption></figure><div class="xz-facts"><dl>'
   facts=[('地区',w['region_label']),('年代',w['date_display']),('材料',w['material_label']),('收藏','休斯顿美术馆' if owned else '虚舟收藏（私人收藏）'),('观看地点','休斯顿美术馆（MFAH）')]
   if w.get('dimensions'):facts.append(('尺寸',w['dimensions']))
   if w['accession']:facts.append(('馆藏号',w['accession']))

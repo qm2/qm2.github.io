@@ -9,3 +9,5 @@
 .xz-intro .xz-epigraph{margin:0 0 2.4rem;padding:0;border:0;font-size:.94em;line-height:1.9}.xz-epigraph p{margin:0 0 .55rem}.xz-epigraph footer{font-size:.85em;color:var(--muted,#6c665e);font-weight:400}.xz-intro>p+p{margin-top:1.4em}
 
 .xz-hero>figcaption{text-align:center}
+
+.xz-work-epigraph{margin:1.8rem 0 2rem;padding:0;border:0;max-width:790px;font-size:1.04rem;line-height:1.95}.xz-work-epigraph p{margin:0 0 .6rem}.xz-work-epigraph footer{font-size:.85rem;color:var(--muted,#6c665e);line-height:1.8}
