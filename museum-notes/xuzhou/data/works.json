@@ -766,7 +766,8 @@
           "inscription": "English interpretation quoted as supplied; no reconstruction of Chinese original",
           "scripture": "T0262/1 quoted lines verified on deerpark; reading epigraph only, not object inscription",
           "temple": "VISITKOREA used only for temple name, not foundation date or object provenance",
-          "bibliography": "NDL verifies Tokyo London Gallery 2010.10; object entry not read"
+          "bibliography": "NDL verifies Tokyo London Gallery 2010.10; object entry not read",
+          "author_name": "Chinese name follows 田辺三郎助, confirmed against NDL article record R000000004-I729367; Tanabe Saburō retained as supplied in the indirect reference, not asserted as full standardized romanization."
         }
       },
       "research_questions": [
@@ -798,7 +799,7 @@
           ]
         },
         {
-          "text": "与同辑8世纪的镂空背光佛相比，那件以贴体衣褶显出胸腹与腿部的饱满，卷草之间能透过红墙；这一件的衣纹更深，背光更完整，目光停留在金属表面的形象与线条上。这样的差别不必理解为从精美走向粗糙。图录把较早形式的重新采用放在新罗末至高丽初的变化中理解，讨论的是造型如何延续，并不能由此推知供养者个人的政治立场。",
+          "text": "与同辑8世纪的镂空背光佛相比，那件以贴体衣褶显出胸腹与腿部的饱满，卷草之间能透过红墙；这一件的衣纹更深，背光更完整，目光停留在金属表面的形象与线条上。这样的差别不必理解为从精美走向粗糙。图录把较早形式的重新采用放在新罗末至高丽初的变化中理解，讨论的是造型如何延续。",
           "kind": "comparison-and-catalog-interpretation",
           "sources": [],
           "references": [
@@ -808,7 +809,7 @@
         },
         {
           "heading": "背光后，留下一个名字",
-          "text": "正面照片之外，收藏图录还记录了背光后的题记。依其英文释意，一位名为 Wang Yu 的在家弟子与高丽的 Jeungshimsa 寺有关，并恭敬造立此像。这使观看从佛的面容转向供养者：留在造像上的，不只有被礼敬的形象，还有一个曾经发心礼敬的人。现有实拍没有呈现这段背面文字，下面保留图录的英文释意。",
+          "text": "正面照片之外，收藏图录还记录了背光后的题记。依其英文释意，一位名为 Wang Yu 的在家弟子与高丽的 Jeungshimsa 寺有关，并恭敬造立此像。这使观看从佛的面容转向供养者：留在造像上的，不只有被礼敬的形象，还有一个曾经发心礼敬的人。",
           "kind": "catalog-inscription-translation",
           "sources": [],
           "quote": {
@@ -821,7 +822,7 @@
           ]
         },
         {
-          "text": "“在家弟子”说明他是一位信众，而非僧人；造立此像也不等于亲手铸造。我们尚不知道他为何发愿，题记的这份释意也没有交代具体祈求。名字仍以 Wang Yu 保留，既让这个人进入作品的故事，也给未能辨清的原字留下余地。由面容、衣纹看到一个供养者的名字，小像便多了一层与人有关的意义。",
+          "text": "他的具体心愿已难以知晓，名字却留了下来，让眼前的造像与一个曾经礼敬它的人相连。",
           "kind": "inscription-interpretation",
           "sources": []
         }
@@ -885,8 +886,9 @@
       },
       "reading_notes": [
         {
-          "title": "寺名与“高丽”",
+          "title": "铭文、寺名与“高丽”",
           "paragraphs": [
+            "现有实拍未呈现背面铭文，英文释意依据收藏图录。“在家弟子”指信众而非僧人；“造立”不等于本人亲手铸造。人名原字与具体祈愿尚未确认，保留 Wang Yu。图录对较早形式的讨论属于艺术史解释，不能据此推知供养者的政治立场。",
             "图录作者认为，Jeungshimsa很可能指今光州的证心寺（證心寺，증심사）。韩国观光公社页面可核实中文寺名；与本像的联系则来自图录解释，尚不能据此确认出土地或原供奉地点。",
             "图录提醒，较早的高句丽也曾使用“高丽”之名；结合本像风格，作者倾向将这里的名称理解为王建建立的高丽。页面仍沿用现场展签的9世纪末—10世纪初断代，不由国名推算精确年份。"
           ],
@@ -899,7 +901,7 @@
           "title": "书目与旧著录",
           "paragraphs": [
             "Hao Sheng著，多位学者参与撰写，《Approaching the Buddha: Transmission and Transformation》，休斯顿美术馆出版、耶鲁大学出版社发行，2026年，128页，ISBN 9780300286427。本件为Cat.25，p.102；尺寸与条目解读依据读者提供的图录页面整理。",
-            "据2026年收藏图录注释5，本件另见Tanabe Saburō在2010年《拈华微笑Ⅱ》中的相关著录，所列页码为316、352–353。日本国立国会图书馆著录书名为《拈華微笑Ⅱ：仏の道》，东京London Gallery出版，2010年10月；该书本件原条目尚未核读。",
+            "据2026年收藏图录注释5转引，本件另见田边三郎助（Tanabe Saburō）在2010年《拈华微笑Ⅱ》中的相关著录，所列页码为316、352–353。日本国立国会图书馆著录书名为《拈華微笑Ⅱ：仏の道》，东京London Gallery出版，2010年10月；该书本件原条目尚未核读。",
             "这项记录是出版线索，不能据此建立London Gallery旧藏、交易或参展经历。目前没有可确认的本件拍卖记录。"
           ],
           "references": [
