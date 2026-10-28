@@ -570,7 +570,7 @@
     {
       "id": "x08",
       "handoff_id": "X08",
-      "title": "佛立像：镂空火焰背光",
+      "title": "佛立像",
       "title_status": "reviewed-label-based",
       "original_title": "Standing Buddha",
       "region_label": "朝鲜半岛",
@@ -596,22 +596,66 @@
         },
         "independent_full_resolution_label_review": true,
         "visual_review": "all-main-photos-compared; high-risk-details-opened-at-original-resolution",
-        "external_object_record": null
+        "external_object_record": null,
+        "research_update": {
+          "date": "2026-10-27",
+          "catalog": "Cat.24 p.100; user-supplied research summary, no catalogue page received, stored or published",
+          "photo_review": "989, 990 and comparison 991 originals viewed",
+          "scripture": "deerpark T0125/28 original text checked; spoken by ministers to King Udayana, not Buddha or inscription"
+        }
       },
       "research_questions": [
-        "由1062整柜位置核对；勿与X09年代交换"
+        "原供奉地点与具体使用方式未明",
+        "具体佛名不能仅凭优填王式确认",
+        "背光与像身是否同时制作尚无检测或修复报告"
       ],
       "notes": [
         {
-          "text": "背光并非一片完整的金属板：火焰、卷草与圆形头光之间留出大量空隙，展厅的红墙从中透出来。站在中央的佛像很小，胸前U形衣纹却一层层落得清楚，莲座下还有翻卷的瓣片。",
+          "text": "双肩覆在衣下，胸前的U形衣纹一层层垂落，到了下身，又拉成长长的弧线。衣服没有把身体藏进一整块金属里：胸腹的隆起、并立双腿的体量，仍从褶纹之间显现。金色留在衣褶的凸面，与凹处的暗色交替，使这些曲线更容易辨认。",
           "kind": "visual-observation",
           "sources": []
         },
         {
-          "text": "展签将这尊立佛定为统一新罗8世纪。和旁边较晚、实心叶形背光的佛立像相比，这里强调的是轮廓与透空；另一件则让背光成为安置小佛像的表面。",
-          "kind": "label-interpretation",
+          "text": "收藏图录将这种贴体衣褶联系到“湿衣式”：说的是衣料仿佛贴着身体的视觉效果。作者把它放在7世纪末至8世纪东亚共享的造型风尚中理解，既涉及唐代对印度相关传统的吸收，也有统一新罗的本地化处理，不能据此画出本像确定的传承路线。",
+          "kind": "catalog-interpretation",
+          "sources": [],
+          "references": [
+            "catalog"
+          ]
+        },
+        {
+          "text": "右手抬起、掌心向前，与施无畏印相联系；较低的左手向外敞开，与与愿印相联系。两只手传达安慰与回应愿望的意思。图录还提到统一新罗造像较大的头部和近于孩童的比例；这尊面容圆满、身体紧凑，因而显得亲近，却仍是成年佛的形象。小型造像适于近距离供养礼敬，本像原来供在何处、由谁使用，尚不清楚。",
+          "kind": "catalog-and-visual-interpretation",
           "sources": [
             "label"
+          ],
+          "references": [
+            "catalog"
+          ]
+        },
+        {
+          "text": "红墙透过火焰与卷草，成为背光中的空隙。圆形头光围住面容，外缘火焰向上伸展，卷草在其间回旋。图录作者认为，镂空减轻了金属在视觉上的沉重感，与中央饱满的身体呼应。目光可以停在衣纹上，也可以穿过背光：实与空的交替，让小像不显得局促。",
+          "kind": "catalog-and-visual-observation",
+          "sources": [],
+          "references": [
+            "catalog"
+          ]
+        },
+        {
+          "heading": "让思念有一个可以礼敬的形象",
+          "text": "《增壹阿含经》的传说中，佛陀暂离人间，优填王因思念而忧苦，群臣于是提议造像，王命工匠以栴檀制作如来形像。开篇引文正是群臣的话。形像让思念有了可以面对、承事与作礼的对象；这是经典对造像的讲述，并非已经证实的佛像起源史。",
+          "kind": "scriptural-narrative",
+          "sources": [],
+          "references": [
+            "sutra"
+          ]
+        },
+        {
+          "text": "收藏图录把本像的双手手印、通肩衣与贴体U形衣纹联系到传统所谓“优填王式”，同时提醒：这种形式后来也用于其他佛的造像。因此，这个名称提示的是图像传统，不能单独确认本像的佛名，更不能把它视为传说中的原像。",
+          "kind": "catalog-interpretation",
+          "sources": [],
+          "references": [
+            "catalog"
           ]
         }
       ],
@@ -623,8 +667,8 @@
         "x27"
       ],
       "accession": null,
-      "dimensions": null,
-      "confidence": "现场展签及照片对应已核；独立图录条目未取得",
+      "dimensions": "12.1 × 4.4 × 3.8厘米（据收藏图录）",
+      "confidence": "照片与展签已复核；Cat.24解读据用户提供研究摘要，经文原文及出版信息另核",
       "label_original": {
         "region": "Korea",
         "date": "Unified Silla period, 8th century",
@@ -642,7 +686,50 @@
           "reviewed": "2026-10-25"
         }
       ],
-      "visit_date": null
+      "visit_date": null,
+      "natural_captions": true,
+      "epigraph": {
+        "text": "我等欲作形像，亦可恭敬承事作礼。",
+        "source": "《增壹阿含经》卷二十八〈听法品第三十六〉",
+        "url": "https://deerpark.app/cbeta/T0125/28",
+        "location": "群臣向优填王建议造如来形像的段落",
+        "reviewed": "2026-10-27"
+      },
+      "references": {
+        "catalog": {
+          "title": "《Approaching the Buddha: Transmission and Transformation》（2026），Cat.24，p.100",
+          "url": "https://yalebooks.yale.edu/book/9780300286427/approaching-the-buddha/"
+        },
+        "sutra": {
+          "title": "《增壹阿含经》卷二十八〈听法品第三十六〉",
+          "url": "https://deerpark.app/cbeta/T0125/28"
+        },
+        "comparison": {
+          "title": "同辑比较：实心叶形背光佛立像",
+          "url": "../x09/"
+        }
+      },
+      "reading_notes": [
+        {
+          "title": "比较阅读：两种背光",
+          "paragraphs": [
+            "与同辑较晚的实心叶形背光佛并看，区别不只在外轮廓。那件的背光承载三尊小坐佛，视线停留在板面；这一件则让红墙穿过卷草，把中央佛身衬得更饱满。两件以不同方式组织身体与背光，也让照片中的背景参与了观看。"
+          ],
+          "references": [
+            "comparison"
+          ]
+        },
+        {
+          "title": "书目与资料说明",
+          "paragraphs": [
+            "Hao Sheng著，多位学者参与撰写，《Approaching the Buddha: Transmission and Transformation》，休斯顿美术馆出版、耶鲁大学出版社发行，2026年，128页，ISBN 9780300286427。本件为Cat.24，p.100；尺寸与条目解读依据本次提供的研究资料整理，出版信息另据出版社官网核对。",
+            "地区、年代与材料沿用现场展签：朝鲜半岛，统一新罗，8世纪，鎏金青铜。没有检测或修复报告，背光与像身是否同时制作尚不能确认。"
+          ],
+          "references": [
+            "catalog"
+          ]
+        }
+      ]
     },
     {
       "id": "x09",
