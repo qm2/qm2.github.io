@@ -69,54 +69,63 @@
       ],
       "places": [
         {
-          "title": "蓝毗尼、菩提伽耶、鹿野苑",
-          "text": "三处圣地分别联系佛陀的诞生、成道与初次说法。它们分处今尼泊尔与印度，朝圣将生命故事与具体地点连接起来。",
+          "title": "蓝毗尼、菩提伽耶、鹿野苑（Lumbini / Bodhgaya / Sarnath）",
+          "text": "三处圣地分别联系佛陀的诞生、成道与初次说法。蓝毗尼的阿育王石柱留下古代朝圣的记录，菩提伽耶围绕成道地形成寺院建筑，鹿野苑则让说法的故事有了可礼拜的地点。",
           "sources": [
             "lumbini",
             "bodhgaya",
             "sarnath"
           ],
-          "supplementary": false
+          "supplementary": false,
+          "id": "place-1"
         },
         {
           "title": "那烂陀（Nalanda）",
-          "text": "今印度比哈尔邦的寺院教育遗址。僧侣在此生活与研习，远道求法者参与知识交流；它是学术共同体，不只是交通停靠点。",
+          "text": "七世纪，玄奘和义净先后来到今印度比哈尔邦的那烂陀求学。经论研习、梵语学习与僧团生活在此相连；他们的记录也帮助后世认识这座寺院教育中心的建筑、戒律和日常生活。",
           "sources": [
-            "nalanda"
+            "nalanda",
+            "nalanda-travellers"
           ],
-          "supplementary": false
+          "supplementary": false,
+          "id": "place-2"
         },
         {
-          "title": "犍陀罗与马图拉",
-          "text": "犍陀罗是历史区域，马图拉是今印度的一座城市。两地形成不同的早期造像传统，面容、衣褶与身体处理提供了比较的入口。",
+          "title": "犍陀罗与马图拉（Gandhara / Mathura）",
+          "text": "贵霜时期，犍陀罗与马图拉都是佛教造像的重要中心。前者位于印度西北的历史区域，后者是今印度北部城市；两地在面容、袈裟与身体塑造上的不同选择，让佛的形象呈现多种面貌。",
           "sources": [
-            "gandhara"
+            "gandhara",
+            "kushan"
           ],
-          "supplementary": false
+          "supplementary": false,
+          "id": "place-3"
         },
         {
           "title": "巴米扬（Bamiyan）",
-          "text": "今阿富汗的一处山谷及佛教遗址群。石窟、寺院遗迹与不同文化传统的交会相联系，显示佛教艺术并不限于便携的小型造像。",
+          "text": "今阿富汗的巴米扬山谷曾有大型立佛、石窟与僧院，佛教艺术在这里吸收不同地区的形式。2001年，两尊大佛被塔利班摧毁；残存佛龛与周围洞窟仍保存着原来宗教空间的轮廓。",
           "sources": [
             "bamiyan"
           ],
-          "supplementary": false
+          "supplementary": false,
+          "id": "place-4"
         },
         {
-          "title": "敦煌与莫高窟",
-          "text": "敦煌是绿洲城市，莫高窟是其附近的石窟群。交通与宗教活动在此交汇，壁画、塑像和经卷使跨地域交流留下可读的痕迹。",
+          "title": "敦煌与莫高窟（Dunhuang / Mogao）",
+          "text": "敦煌的绿洲交通连接商旅与求法者，莫高窟的营造则从四世纪延续了约千年。壁画、塑像与藏经洞文书，让僧侣、供养人及日常生活留下了不同于王朝纪年的记录。",
           "sources": [
             "mogao"
           ],
-          "supplementary": false
+          "supplementary": false,
+          "id": "place-5"
         },
         {
-          "title": "长安与洛阳",
-          "text": "两座历史都城也是道路网络的重要节点。城市、寺院与石窟共同参与佛教活动；地图上的城名不能代替一件造像的具体产地。",
+          "title": "长安、洛阳与龙门（Chang’an / Luoyang / Longmen）",
+          "text": "645年玄奘携经像回到长安，随后在弘福寺、大慈恩寺等处译经。洛阳南面的龙门石窟则在北魏晚期至唐代持续营造：城市中的译场与山崖上的佛龛，呈现佛教知识和造像活动的两种空间。",
           "sources": [
-            "silk"
+            "xuanzang",
+            "longmen"
           ],
-          "supplementary": false
+          "supplementary": false,
+          "id": "place-6"
         }
       ],
       "works": [
@@ -144,29 +153,33 @@
       ],
       "places": [
         {
-          "title": "斯瓦特与大克什米尔",
-          "text": "斯瓦特是河谷，大克什米尔是艺术史中较宽的区域称谓。两者不能当成同一地点，却能帮助理解印度西北与山地间的造像联系。",
+          "title": "斯瓦特与大克什米尔（Swat / Greater Kashmir）",
+          "text": "斯瓦特河谷与克什米尔周边在中世纪发展出重要的金属造像传统。小型佛像、菩萨像与经书通过寺院网络流动，克什米尔工匠也接受跨地区委托；精细衣饰与镶嵌可放在这一背景中观看。",
           "sources": [
             "himalaya"
           ],
-          "supplementary": true
+          "supplementary": true,
+          "id": "place-7"
         },
         {
-          "title": "加德满都谷地",
-          "text": "今尼泊尔的城市与宗教建筑密集区域，佛教和印度教传统并存。纽瓦尔工艺在本地发展，也通过跨地域委托影响西藏艺术。",
+          "title": "加德满都谷地（Kathmandu Valley）",
+          "text": "谷地城市长期供养佛教与印度教艺术，纽瓦尔工匠以金属造像等技艺参与跨地域营造。十三世纪来自帕坦的阿尼哥进入元廷，主持白塔工程，是这类工艺往来的一个具体例子。",
           "sources": [
-            "kathmandu",
-            "himalaya"
+            "himalaya",
+            "arniko"
           ],
-          "supplementary": true
+          "supplementary": true,
+          "id": "place-8"
         },
         {
-          "title": "拉萨与大昭寺",
-          "text": "拉萨是城市，大昭寺是其中的重要宗教场所。将城市、寺院与更广的西藏文化区域分开，有助于理解朝圣、礼拜和造像的不同尺度。",
+          "title": "拉萨与大昭寺（Lhasa / Jokhang）",
+          "text": "大昭寺始建于七世纪，联系吐蕃时期佛教的发展。寺内受崇敬的释迦牟尼像，使这里成为长期的朝圣目的地；今日建筑经过历代增修，不能将所见殿堂都视作最初创建时的原貌。",
           "sources": [
-            "lhasa"
+            "lhasa",
+            "jokhang"
           ],
-          "supplementary": false
+          "supplementary": false,
+          "id": "place-9"
         }
       ],
       "works": [
@@ -197,20 +210,24 @@
       ],
       "places": [
         {
-          "title": "朝鲜半岛",
-          "text": "这里先后存在多个政权，各自与邻近地区往来。三国时期和统一新罗的造像，有不同的取舍与转化，不能只看成外来样式的复制。",
+          "title": "朝鲜半岛（Korea）",
+          "text": "六世纪，百济使节参与了佛教向日本的传入；半岛僧侣也赴中国乃至印度求法。此后统一新罗造像发展出圆阔面容与充实体量，说明经像的往来始终伴随本地工匠的选择和转化。",
           "sources": [
             "korea"
           ],
-          "supplementary": false
+          "supplementary": false,
+          "id": "place-10"
         },
         {
           "title": "奈良（Nara）",
-          "text": "日本八世纪的都城，寺院与其他历史建筑共同保存城市的宗教文化。它提供理解日本佛教艺术的背景，并非本辑日本作品已知的原址。",
+          "text": "奈良于710年建都，佛教此前已传入日本。八世纪圣武天皇推动国分寺体系和东大寺大佛营造，752年举行大佛开眼仪式；国家祈愿、僧侣教育与艺术制作在这些寺院中汇合。",
           "sources": [
-            "nara"
+            "nara",
+            "todaiji",
+            "korea"
           ],
-          "supplementary": false
+          "supplementary": false,
+          "id": "place-11"
         }
       ],
       "works": [
@@ -238,27 +255,31 @@
       "places": [
         {
           "title": "阿努拉德普勒（Anuradhapura）",
-          "text": "斯里兰卡的历史城市与佛教中心。寺院、佛塔及菩提树崇敬相互联系，让人看到僧团生活、朝圣与王室支持形成的宗教空间。",
+          "text": "这座斯里兰卡古都长期也是佛教中心。当地菩提树被奉为印度成道树的分枝，传统将其带入联系到公元前三世纪的僧伽蜜多；佛塔与大型寺院围绕礼拜、僧团生活和王室供养发展。",
           "sources": [
             "anuradhapura"
           ],
-          "supplementary": false
+          "supplementary": false,
+          "id": "place-12"
         },
         {
-          "title": "室利佛逝与巨港",
-          "text": "室利佛逝是历史政权与海上交流网络中的重要名称；巨港是今苏门答腊的一座城市。理解义净的停留，应保留政权与城市的尺度差别。",
+          "title": "室利佛逝与巨港（Srivijaya / Palembang）",
+          "text": "七世纪义净往返印度时在室利佛逝停留，学习梵语与经书。苏门答腊因而不只是航程中的中转地，也是求法的课堂。巨港常与这一历史政权相联系；义净的具体驻留寺院尚难落实到某处遗址。",
           "sources": [
-            "acri"
+            "acri",
+            "palembang"
           ],
-          "supplementary": false
+          "supplementary": false,
+          "id": "place-13"
         },
         {
-          "title": "爪哇与婆罗浮屠",
-          "text": "爪哇是岛屿，婆罗浮屠是其中一处八至九世纪的佛教建筑群。层层平台、浮雕与佛塔组织礼拜空间，显出当地佛教文化的具体面貌。",
+          "title": "爪哇与婆罗浮屠（Java / Borobudur）",
+          "text": "八至九世纪，爪哇岛中部建起婆罗浮屠。方形回廊上的叙事浮雕、上层圆台的镂空佛塔与佛像，把绕行和逐层上升组织成礼拜空间；岛上的小型金属像，则提供了另一种观看距离。",
           "sources": [
             "borobudur"
           ],
-          "supplementary": false
+          "supplementary": false,
+          "id": "place-14"
         }
       ],
       "works": [
@@ -349,6 +370,142 @@
     "gandhara": {
       "title": "京都国立博物馆：菩萨立像与犍陀罗、马图拉造像背景",
       "url": "https://knmdb.kyohaku.go.jp/eng/4094.html"
+    },
+    "sanchi": {
+      "title": "UNESCO：桑奇佛教古迹",
+      "url": "https://whc.unesco.org/en/list/524/"
+    },
+    "ellora": {
+      "title": "UNESCO：埃洛拉石窟",
+      "url": "https://whc.unesco.org/en/list/243/"
+    },
+    "yungang": {
+      "title": "UNESCO：云冈石窟",
+      "url": "https://whc.unesco.org/en/list/1039/"
+    },
+    "longmen": {
+      "title": "UNESCO：龙门石窟",
+      "url": "https://whc.unesco.org/en/list/1003/"
+    },
+    "bulguksa": {
+      "title": "UNESCO：石窟庵与佛国寺",
+      "url": "https://whc.unesco.org/en/list/736/"
+    },
+    "kyoto": {
+      "title": "UNESCO：古京都的历史遗迹",
+      "url": "https://whc.unesco.org/en/list/688/"
+    },
+    "sigiriya": {
+      "title": "UNESCO：锡吉里耶古城",
+      "url": "https://whc.unesco.org/en/list/202/"
+    },
+    "pyu": {
+      "title": "UNESCO：骠人古城",
+      "url": "https://whc.unesco.org/en/list/1444/"
+    },
+    "bagan": {
+      "title": "UNESCO：蒲甘",
+      "url": "https://whc.unesco.org/en/list/1588/"
+    },
+    "luang": {
+      "title": "UNESCO：琅勃拉邦",
+      "url": "https://whc.unesco.org/en/list/479/"
+    },
+    "ayutthaya": {
+      "title": "UNESCO：大城历史城",
+      "url": "https://whc.unesco.org/en/list/576/"
+    },
+    "xuanzang": {
+      "title": "西安曲江新区：玄奘广场（求法归国与长安译经）",
+      "url": "https://qjxq.xa.gov.cn/zjqj/gyqj/tsqj/5df21c54fd8508098d284dea.html"
+    },
+    "nalanda-travellers": {
+      "title": "Mary Stewart：Xuanzang and Yijing: Seventh Century Chinese Monks at Nalanda，英国佛教协会讲座简介",
+      "url": "https://www.thebuddhistsociety.org/page/xuanzang-and-yijing-seventh-century-chinese-monks-at-nalanda"
+    },
+    "jokhang": {
+      "title": "牛津大学皮特里弗斯博物馆／大英博物馆：Jokhang entrance，1937年照片及研究说明",
+      "url": "https://tibet.prm.ox.ac.uk/photo_BMR.86.1.16.2.html"
+    },
+    "todaiji": {
+      "title": "东大寺：History of Tōdai-ji Temple",
+      "url": "https://www.todaiji.or.jp/en/history/"
+    },
+    "kapilavastu": {
+      "title": "UNESCO世界遗产委员会：Tilaurakot-Kapilavastu，2025年审议决定47 COM 8B.19",
+      "url": "https://whc.unesco.org/en/decisions/8953/"
+    },
+    "kushinagara": {
+      "title": "印度北方邦拘尸那迦地区政府：Places of Interest",
+      "url": "https://kushinagar.nic.in/places-of-interest/"
+    },
+    "ajanta": {
+      "title": "印度考古调查局：阿旃陀世界遗产定期报告，2002年，第1、7页（UNESCO存档）",
+      "url": "https://whc.unesco.org/document/162845"
+    },
+    "amaravati": {
+      "title": "大都会艺术博物馆：Central Museum Madras: Group 27，阿马拉瓦蒂佛塔雕刻说明",
+      "url": "https://www.metmuseum.org/art/collection/search/282072"
+    },
+    "kushan": {
+      "title": "大都会亚洲艺术部：Kushan Empire（2000）",
+      "url": "https://www.metmuseum.org/essays/kushan-empire-ca-second-century-b-c-third-century-a-d"
+    },
+    "wanfosi": {
+      "title": "Zelan Liu：Reconstructing the Archaeological Context of Free-Standing Buddhist Images: Considerations of the Wanfosi Hoard in Chengdu (Sichuan)，Religions 14(6)，2023，759",
+      "url": "https://www.mdpi.com/2077-1444/14/6/759"
+    },
+    "arniko": {
+      "title": "北京市文物局／白塔寺：中尼文化使者——阿尼哥（2022）",
+      "url": "https://wwj.beijing.gov.cn/bjww/wwjzzcslm/1730488/1730490/1730493/1730495/1730956/index.html"
+    },
+    "sigiriya-history": {
+      "title": "ICOMOS：Ancient City of Sigiriya评估，1982，第1—2页（早期僧院与王宫遗址）",
+      "url": "https://whc.unesco.org/archive/advisory_body_evaluation/202.pdf"
+    },
+    "thai-art": {
+      "title": "M. C. Subhadradis Diskul：Art in Thailand: A Brief History，第7版，1991，第11—12页（Angkor Database所存公开PDF）",
+      "url": "https://cdn.angkordatabase.asia/libs/docs/BK_01_038ArtinThailand1991.pdf"
+    },
+    "sundstrom": {
+      "title": "Sofia Sundström：The Compassionate Bodhisattva，2020，第45—55、77—80页（桑巴斯与吴哥通）",
+      "url": "https://www.sidestone.com/openaccess/9789088906176.pdf"
+    },
+    "jayavarman": {
+      "title": "柬埔寨国家博物馆：Jayavarman VII，肖像与生平研究",
+      "url": "https://www.nmc.gov.kh/index.php/post-formats/stone/96-jayavaraman-vii"
+    },
+    "hue": {
+      "title": "承天顺化省／顺化古迹保护中心：遗产管理规划（2015），第52页天姥寺条（UNESCO存档）",
+      "url": "https://whc.unesco.org/document/138791"
+    },
+    "jambi": {
+      "title": "印度尼西亚提交UNESCO预备名单：Muarajambi Temple Compound（2025），遗址与河道说明",
+      "url": "https://whc.unesco.org/en/tentativelists/6827"
+    },
+    "batujaya": {
+      "title": "Judith Cameron、Agustijanto Indradjaja、Pierre-Yves Manguin：Asbestos textiles from Batujaya，BEFEO 101（2015），第160页遗址背景",
+      "url": "https://www.persee.fr/doc/befeo_0336-1519_2015_num_101_1_6212?pageId=T6_160"
+    },
+    "bali": {
+      "title": "布勒冷文化与旅游部门：Pusaka Budaya Bali Utara（2015），Kalibukbuk遗址条",
+      "url": "https://disbudpar.bulelengkab.go.id/informasi/detail/artikel/pusaka-budaya-bali-utara-89"
+    },
+    "sempaga": {
+      "title": "Christian Pelras：The Bugis，1996，第25页（Sempaga佛像；OXIS研究项目所存PDF）",
+      "url": "https://oxis.org/books/pelras-1996.pdf"
+    },
+    "sempaga-dates": {
+      "title": "Ekologi dalam Perspektif Sastra, Bahasa, dan Budaya（2025），第197—198页（桑帕加佛像断代研究综述）",
+      "url": "https://repository.usd.ac.id/56205/1/13142_Ekologi%2BSastra%2BBahasa%2BBudaya.pdf"
+    },
+    "surigao": {
+      "title": "菲律宾国家博物馆：Bulawan: Archaeological and Historical Accounts of the Pre-colonial Gold of Butuan and Surigao（2022）",
+      "url": "https://www.nationalmuseum.gov.ph/2022/09/30/bulawan-archaeological-and-historical-accounts-of-the-pre-colonial-gold-of-butuan-and-surigao/"
+    },
+    "palembang": {
+      "title": "法国文化部／EFEO—BRIN：Bumiayu考古项目（室利佛逝与巨港的地域背景）",
+      "url": "https://archeologie.culture.gouv.fr/monde/fr/bumiayu"
     }
   },
   "map_notes": [
@@ -387,5 +544,247 @@
       "sha256": "dd58adb0b83a1bb4cd0c50ab4b455fd7036879b9a3909dc988d325e62f4ea31e",
       "published": true
     }
-  ]
+  ],
+  "name_index": {
+    "title": "地图上的其他名字",
+    "intro": "展厅地图还标出了许多圣地、都城、寺院和造像发现地点。有些因佛陀的生命故事受到礼拜，有些因王室营造或出土文物进入艺术史。展开一个地区，可以看看这些名字各自留下了什么。",
+    "groups": [
+      {
+        "id": "india-northwest",
+        "title": "印度与西北地区",
+        "places": [
+          {
+            "id": "kapilavastu",
+            "title": "迦毗罗卫（Kapilavastu）",
+            "text": "释迦族故城，是太子成长与出家故事的重要背景。今尼泊尔提罗拉科特等遗址被提出与它对应，具体定位仍有讨论；古城之名也承载了后来朝圣者的记忆。",
+            "sources": [
+              "kapilavastu"
+            ]
+          },
+          {
+            "id": "kushinagara",
+            "title": "拘尸那迦（Kushinagara）",
+            "text": "佛教传统中的涅槃圣地，今在印度北方邦。卧佛、涅槃寺与相关佛塔把佛陀最后的生命故事留在当地，也是法显、玄奘等求法者记述的地点。",
+            "sources": [
+              "kushinagara"
+            ]
+          },
+          {
+            "id": "sanchi",
+            "title": "桑奇（Sanchi）",
+            "text": "中印度的佛塔群，营造可追溯至阿育王时期，后世不断扩建。塔门浮雕讲述佛传与宗教故事，栏楯和环绕通道则让观看与绕塔礼拜相连。",
+            "sources": [
+              "sanchi"
+            ]
+          },
+          {
+            "id": "ajanta",
+            "title": "阿旃陀（Ajanta）",
+            "text": "西印度的佛教石窟群，早期洞窟始于公元前，五至六世纪又有密集营造。礼拜堂与僧房相邻，壁画中的本生故事将佛陀前生的叙事带入僧院空间。",
+            "sources": [
+              "ajanta"
+            ]
+          },
+          {
+            "id": "ellora",
+            "title": "埃洛拉（Ellora）",
+            "text": "玄武岩山崖上分布佛教、印度教和耆那教洞窟，主要在公元600—1000年陆续营造。不同信仰的礼拜空间并列保存，并非同一时代的一次统一工程。",
+            "sources": [
+              "ellora"
+            ]
+          },
+          {
+            "id": "amaravati",
+            "title": "阿马拉瓦蒂（Amaravati）",
+            "text": "印度东南部的重要佛塔与雕刻中心。大塔在不同阶段增建，塔门与塔身石刻讲述佛传与供养故事；今天散藏的雕刻原来属于这样的建筑环境。",
+            "sources": [
+              "amaravati"
+            ]
+          },
+          {
+            "id": "bactria",
+            "title": "巴克特里亚（Bactria）",
+            "text": "以今阿富汗北部及邻近地区为核心的历史区域。贵霜兴起与这里的大月氏活动有关，商贸把中亚、伊朗和印度的文化联系起来；它不是单一城市的名字。",
+            "sources": [
+              "kushan"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "china-eastasia",
+        "title": "中国与东亚",
+        "places": [
+          {
+            "id": "yungang",
+            "title": "云冈（Yungang）",
+            "text": "山西大同附近的石窟群，五至六世纪在北魏皇室支持下营造。昙曜五窟的大像将南亚、中亚的造像形式与本地营造相结合，也让王朝的佛教支持变得可见。",
+            "sources": [
+              "yungang"
+            ]
+          },
+          {
+            "id": "chengdu",
+            "title": "成都（Chengdu）",
+            "text": "万佛寺相关地点自十九世纪末陆续出土佛教石雕，其中不少可据铭文断为南朝梁代。这批像让四川在南朝佛教艺术中的地位，有了具体可见的作品。",
+            "sources": [
+              "wanfosi"
+            ]
+          },
+          {
+            "id": "khanbaliq",
+            "title": "汗八里／北京（Khanbaliq / Beijing）",
+            "text": "元大都是跨地域宫廷艺术的中心。1271年忽必烈命来自尼泊尔的阿尼哥主持白塔工程；今日妙应寺白塔仍让藏传佛教营造与纽瓦尔工艺的联系清晰可见。",
+            "sources": [
+              "arniko"
+            ]
+          },
+          {
+            "id": "bulguksa",
+            "title": "佛国寺（Bulguksa）",
+            "text": "庆州的统一新罗寺院，主要营造联系八世纪，与附近石窟庵共同构成重要宗教建筑群。石阶、台基和佛塔组织礼拜空间；地图写的是寺名，而不是另一座城市。",
+            "sources": [
+              "bulguksa"
+            ]
+          },
+          {
+            "id": "kyoto",
+            "title": "京都（Kyoto）",
+            "text": "794年建都后，京都长期汇集宫廷、寺院与艺术制作。佛教此前早已传入日本；这里的重要性在于延续千年的寺院网络、木构建筑及园林传统。",
+            "sources": [
+              "kyoto",
+              "korea"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "srilanka-mainland",
+        "title": "斯里兰卡与东南亚大陆",
+        "places": [
+          {
+            "id": "sigiriya",
+            "title": "锡吉里耶／狮子岩（Sigiriya）",
+            "text": "五世纪末，迦叶波一世在岩顶营建王宫，壁画与园林共同构成遗址的面貌。这里也保存佛教僧人的岩窟居住痕迹，王宫故事之外还有更早的宗教生活。",
+            "sources": [
+              "sigiriya",
+              "sigiriya-history"
+            ]
+          },
+          {
+            "id": "sri-ksetra",
+            "title": "室利差呾罗（Sri Ksetra）",
+            "text": "伊洛瓦底江流域的骠人古城之一。砖砌佛塔与城墙、灌溉遗迹并存，让缅甸早期佛教显出城市与农业社会的背景，而不只是一组孤立造像。",
+            "sources": [
+              "pyu"
+            ]
+          },
+          {
+            "id": "bagan",
+            "title": "蒲甘（Bagan）",
+            "text": "十一至十三世纪的王都与塔寺营造中心。供养者通过建塔、修寺与绘画积累功德；密集遗址中的壁画和造像，至今仍显示这种持续投入的规模。",
+            "sources": [
+              "bagan"
+            ]
+          },
+          {
+            "id": "luang-prabang",
+            "title": "琅勃拉邦（Luang Prabang）",
+            "text": "十四至十六世纪曾是澜沧王国的都城，也是区域佛教中心。城名联系受崇敬的勃拉邦佛像；王室、寺院和城市身份由此紧密相连。",
+            "sources": [
+              "luang"
+            ]
+          },
+          {
+            "id": "ayutthaya",
+            "title": "阿瑜陀耶／大城（Ayutthaya）",
+            "text": "约1350年建立的暹罗王都，河道联系海外商贸。大型寺院、佛塔与王宫共同组织城市，工艺也吸收往来各地的形式；它的重要营造比蒲甘晚得多。",
+            "sources": [
+              "ayutthaya"
+            ]
+          },
+          {
+            "id": "chaiya",
+            "title": "猜耶（Chaiya）",
+            "text": "泰国南部的佛教遗迹中心，以佛塔与观音青铜像著名。现藏曼谷国家博物馆的观音像可见精细冠饰和肩上的兽皮，相关形式联系半岛与爪哇的造像传统。",
+            "sources": [
+              "thai-art"
+            ]
+          },
+          {
+            "id": "angkor-thom",
+            "title": "吴哥通／大吴哥（Angkor Thom）",
+            "text": "阇耶跋摩七世在十二世纪末营建的王都，中心是巴戎寺，其佛教营造与大乘信仰相关。城内高塔与尊像的组合，应与较早以毗湿奴崇拜为背景的吴哥窟区分。",
+            "sources": [
+              "jayavarman",
+              "sundstrom"
+            ]
+          },
+          {
+            "id": "hue",
+            "title": "顺化（Hue）",
+            "text": "越南中部较晚的政治与佛教中心。香江畔的天姥寺始建于1601年，后经多次修建，钟、碑与佛殿留下不同阶段的供养记录，反映当地长期延续的寺院生活。",
+            "sources": [
+              "hue"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "islands",
+        "title": "东南亚岛屿",
+        "places": [
+          {
+            "id": "muaro-jambi",
+            "title": "穆阿罗占碑（Muaro Jambi）",
+            "text": "苏门答腊巴当哈里河附近的大型寺院遗址群，砖构寺院与水池、人工运河相连。河流参与交通与日常生活；这里与巨港是不同地点，义净的记述不能直接定位到此。",
+            "sources": [
+              "jambi"
+            ]
+          },
+          {
+            "id": "batujaya",
+            "title": "巴图贾亚（Batujaya）",
+            "text": "西爪哇北岸附近的佛教遗址。考古发现砖砌佛塔及更早聚落层；研究将主要佛教建筑置于七至十一世纪，更早地层也发现佛教痕迹，显示多阶段的发展。",
+            "sources": [
+              "batujaya"
+            ]
+          },
+          {
+            "id": "bali",
+            "title": "巴厘岛（Bali）",
+            "text": "除今天熟知的印度教传统，岛上也保存佛教遗存。北部Kalibukbuk出土小型泥塔、泥印与砖构建筑，考古研究将相关遗址联系到八至十四世纪的礼拜活动。",
+            "sources": [
+              "bali"
+            ]
+          },
+          {
+            "id": "sambas",
+            "title": "桑巴斯（Sambas）",
+            "text": "婆罗洲西部一处佛教造像窖藏的发现地，金、银等材质的佛与菩萨像后来进入大英博物馆。窖藏保存了同处埋藏的组合，但并不因此证明诸像都在当地制作。",
+            "sources": [
+              "sundstrom"
+            ]
+          },
+          {
+            "id": "sampaga",
+            "title": "桑帕加（Sampaga / Sempaga）",
+            "text": "苏拉威西卡拉马河口附近以一尊青铜佛像的发现闻名，衣褶常与阿马拉瓦蒂传统比较。研究对它的断代和来源仍有讨论，尚未形成一致的结论。",
+            "sources": [
+              "sempaga",
+              "sempaga-dates"
+            ]
+          },
+          {
+            "id": "surigao",
+            "title": "苏里高（Surigao）",
+            "text": "菲律宾棉兰老岛的重要古代金器发现地区。金饰与伴出的中国陶瓷，让海上交流有了实物线索；这些发现尚不足以将当地描述为大型佛教中心。",
+            "sources": [
+              "surigao"
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

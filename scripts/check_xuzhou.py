@@ -41,6 +41,15 @@ for g in guide['groups']:
  assert all(w['id'] in ws for w in g['works'])
  assert all(k in guide['sources'] for k in g['sources'])
  for place in g['places']:assert all(k in guide['sources'] for k in place['sources'])
+index=guide['name_index']
+assert len(index['groups'])==4
+index_places=[p for g in index['groups'] for p in g['places']]
+assert len(index_places)==26 and len({p['id'] for p in index_places})==26
+assert all(p['sources'] and all(k in guide['sources'] for k in p['sources']) for p in index_places)
+map_html=(base/'map/index.html').read_text()
+assert map_html.index('id="sea"')<map_html.index('id="other-names"')<map_html.index('道路之外，也有人的愿望')
+for g in index['groups']:
+ assert '<details class="xz-map-places" id="index-'+g['id']+'">' in map_html
 for key,p in guide['photos'].items():
  original=base/'images'/p['original']
  assert hashlib.sha256(original.read_bytes()).hexdigest()==p['sha256']
@@ -49,4 +58,4 @@ for key,p in guide['photos'].items():
   with Image.open(base/'images'/v['file']) as im:
    assert im.width==v['width']<=p['width'] and abs(im.height-im.width*p['height']/p['width'])<=1
 assert 'map/' in html and (base/'map/index.html').exists()
-print('PASS map guide: 4 networks, 14 place groups, verified work links, 3 unchanged exhibit photos + 6 uncropped derivatives; 30 Xuzhou pages total.')
+print('PASS map guide: 4 networks, 14 place groups + 26 indexed names, verified work links, 3 unchanged exhibit photos + 6 uncropped derivatives; 30 Xuzhou pages total.')

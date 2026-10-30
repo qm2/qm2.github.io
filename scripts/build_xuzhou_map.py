@@ -31,6 +31,14 @@ def render(d, works, photo):
         b+='</div>'
         if g['id']=='sea':b+='<details><summary>展厅地图的海域局部</summary>'+figure('map-sea')+'</details>'
         b+='</section>'
+    index=d['name_index']
+    b+='<section class="wrap xz-section xz-prose" id="other-names"><h2>'+e(index['title'])+'</h2><p>'+e(index['intro'])+'</p>'
+    for group in index['groups']:
+        b+='<details class="xz-map-places" id="index-'+group['id']+'"><summary>'+e(group['title'])+'</summary><dl>'
+        for place in group['places']:
+            b+='<div><dt>'+e(place['title'])+'</dt><dd>'+e(place['text'])+refs(place['sources'])+'</dd></div>'
+        b+='</dl></details>'
+    b+='</section>'
     b+='<section class="wrap xz-section xz-prose"><h2>道路之外，也有人的愿望</h2><p>造像承载的不只是样式。<a href="../x10/">诞生佛与灌沐</a>、<a href="../x24/">法兴像座上的发愿文</a>，以及<a href="../x09/">背光后留下的供养者姓名</a>，让礼拜与供养有了具体的形象。地图帮助辨认远近，作品则留下人与信仰相遇的细节。</p><details id="references"><summary>资料与延伸阅读</summary><p>地图照片记录休斯顿美术馆的展厅表达；网络与地点说明另据以下资料。藏品的年代、地区与个别研究依据，见各作品页。</p><ol class="xz-map-sources">'
     for key in order:
         s=d['sources'][key];b+='<li id="ref-'+key+'"><a href="'+e(s['url'])+'">'+e(s['title'])+' ↗</a></li>'
