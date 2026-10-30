@@ -29,5 +29,19 @@
       if (details) details.open = true;
     });
   });
+  function revealReference() {
+    if (!location.hash.startsWith('#ref-')) return;
+    const target = document.getElementById(location.hash.slice(1));
+    const details = target?.closest('details');
+    if (details) { details.open = true; target.scrollIntoView(); }
+  }
+  window.addEventListener('hashchange', revealReference);
+  document.querySelectorAll('.xz-map-cites a').forEach(link => {
+    link.addEventListener('click', () => {
+      const details = document.querySelector('#references');
+      if (details) details.open = true;
+    });
+  });
+  revealReference();
   revealLabel();
 })();

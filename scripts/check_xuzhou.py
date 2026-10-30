@@ -31,4 +31,22 @@ for n,p in ps.items():
 html=(base/'index.html').read_text();assert html.count('class="xz-card"')==28 and html.count('class="xz-feature"')==8
 assert 'neighbors' not in html and '邻展' not in html
 assert 'xuzhou/' in (ROOT/'museum-notes/index.html').read_text()
-print('PASS Xuzhou: 28 collection identities, 2 unpublished archived records, 115 SHA-256 originals, 230 uncropped derivatives, labels, source IDs, 8 readings, 29 generated pages.')
+print('PASS Xuzhou: 28 collection identities, 2 unpublished archived records, 115 SHA-256 originals, 230 uncropped derivatives, labels, source IDs, 8 readings, 29 collection pages.')
+# Map assets are separate from the immutable collection photo inventory.
+guide=json.loads((base/'data/map-guide.json').read_text())
+assert len(guide['groups'])==4 and sum(len(g['places']) for g in guide['groups'])==14
+assert len(guide['source_inventory'])==6
+for g in guide['groups']:
+ assert 2<=len(g['works'])<=4
+ assert all(w['id'] in ws for w in g['works'])
+ assert all(k in guide['sources'] for k in g['sources'])
+ for place in g['places']:assert all(k in guide['sources'] for k in place['sources'])
+for key,p in guide['photos'].items():
+ original=base/'images'/p['original']
+ assert hashlib.sha256(original.read_bytes()).hexdigest()==p['sha256']
+ with Image.open(original) as im:assert im.size==(p['width'],p['height'])
+ for v in p['variants']:
+  with Image.open(base/'images'/v['file']) as im:
+   assert im.width==v['width']<=p['width'] and abs(im.height-im.width*p['height']/p['width'])<=1
+assert 'map/' in html and (base/'map/index.html').exists()
+print('PASS map guide: 4 networks, 14 place groups, verified work links, 3 unchanged exhibit photos + 6 uncropped derivatives; 30 Xuzhou pages total.')

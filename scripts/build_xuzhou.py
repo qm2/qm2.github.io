@@ -3,10 +3,12 @@ from pathlib import Path
 from html import escape as e
 import json,re
 from build_paintings import frame
+from build_xuzhou_map import entry as map_entry, render as map_page
 ROOT=Path(__file__).resolve().parents[1]
 BASE=ROOT/'museum-notes/xuzhou'
 def build():
  d=json.loads((BASE/'data/works.json').read_text());photos=json.loads((BASE/'data/photos.json').read_text());works=d['works'];byid={w['id']:w for w in works}
+ guide=json.loads((BASE/'data/map-guide.json').read_text());photos.update(guide['photos'])
  def photo(n,caption,prefix='',eager=False,card=False):
   p=photos[n];src=prefix+'images/'+p['original'];variants=p['variants'];v=variants[0 if card else -1]
   sizes='(max-width: 600px) 90vw, (max-width: 1000px) 45vw, 360px' if card else '(max-width: 700px) 90vw, 960px'
@@ -34,11 +36,14 @@ def build():
  for k,t in d['groups']:
   body+=f'<section class="xz-region" data-region-section="{k}"><h3>{e(t)}</h3><div class="xz-grid">'+''.join(card(w) for w in works if w['collection']=='xuzhou' and w['region_group']==k)+'</div></section>'
  body+='</section><section class="wrap xz-section xz-prose" id="about"><p class="eyebrow">COLLECTION / CONTEXT</p><h2>在休斯顿重看亚洲造像</h2><p>虚舟收藏由一位不具名的私人收藏者建立，自2021年起长期借展于休斯顿美术馆。南亚、东南亚、喜马拉雅与东亚的造像，在这里共同呈现。参观时所见的地区名称有不同尺度：犍陀罗是历史文化区域，斯瓦特是河谷，大克什米尔也不等同于一条现代国界。</p>'+sources(['mfah-press','mfah-exhibition'])
+ body+=map_entry(guide,photo)
  body+='<p>展厅总说明把“虚舟”联系到佛教以舟筏比喻教法的传统：借助教法渡越无明。回到作品上，材料、手势与题记各自提供了入口。漆布怎样塑成佛首，嵌银怎样显出衣缝，供养者怎样把父母的愿望写入像座，这些具体的问题，让不同地区的造像有了可以互相参照的地方。</p><details><summary>展厅说明与观看空间</summary><div class="xz-context">'
  for n,c in [('954','虚舟收藏总说明'),('1062','同柜的朝鲜半岛与日本造像'),('988','展厅与相邻空间')]:body+=f'<figure>{photo(n,c)}<figcaption>{c} · Merton摄</figcaption></figure>'
  body+='</div></details><h3>继续阅读</h3><p><cite>Approaching the Buddha: Transmission and Transformation</cite>，Hao Sheng著，另有八位研究者参与撰写，休斯顿美术馆出版、耶鲁大学出版社发行，2026年，128页。图录从供养、观看、传播与保护研究等方面讨论这一收藏。</p>'+sources(['catalog-description','catalog-publisher'])
  body+='<details id="sources"><summary>资料说明与参考链接</summary><p>逐件年代、材质与题名主要依据现场展签，照片可在作品页展开查看；观看分析来自所附实拍。图录列作延伸阅读。尚有分歧的年代、展签错配及未释清的题记，分别记在相关作品的资料注中。</p><ul>'+''.join(f'<li><a href="{e(v["url"])}">{e(v["title"])} ↗</a></li>' for v in d['sources'].values())+'</ul></details></section>'
  (BASE/'index.html').write_text(shell(d['title'],body))
+ (BASE/'map').mkdir(exist_ok=True)
+ (BASE/'map/index.html').write_text(shell(guide['title'],map_page(guide,byid,photo),True))
  for w in works:
   out=BASE/w['id'];out.mkdir(exist_ok=True);prefix='../';owned=w['collection']=='mfah-neighbor'
   epigraph=''
@@ -108,5 +113,5 @@ def build():
  p=photos[d['hero']];v=p['variants'][0]
  entry=f'<a class="issue-link" href="xuzhou/"><img src="xuzhou/images/{v["file"]}" alt="休斯顿美术馆虚舟收藏展厅" width="{p["width"]}" height="{p["height"]}" loading="lazy"><div><p class="eyebrow">THE XUZHOU COLLECTION / HOUSTON</p><h2>虚舟收藏</h2><blockquote class="xz-entry-epigraph"><p>“{e(d["epigraph"]["text"])}”</p><cite>——{e(d["epigraph"]["source"])}</cite></blockquote><p class="issue-meta">28件虚舟造像<br>南亚 / 东南亚 / 喜马拉雅 / 东亚</p><span class="text-link">进入这个专题 →</span></div></a>'
  home.write_text(s.replace(anchor,'<!-- xuzhou-entry -->'+entry+'<!-- /xuzhou-entry -->'+anchor,1))
- print('Built Xuzhou: 28 collection works; 8 readings; 29 pages.')
+ print('Built Xuzhou: 28 collection works; 8 readings; map guide; 30 pages.')
 if __name__=='__main__':build()

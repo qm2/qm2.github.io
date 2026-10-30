@@ -1,0 +1,391 @@
+{
+  "title": "山海之间：佛教传播与造像的相遇",
+  "intro": "佛教传播伴随僧侣、商旅、经书、图像与工匠的流动。不同地方接受并改变这些传统，形成彼此联系又各具面貌的造像。从展厅地图回到一尊佛的衣纹、一双手的姿势，也能看见交流如何落实为具体形象。这里汇合了不同时期的线索，并非同时发生，更不是这些藏品已经确认的迁移记录。",
+  "entry": "从绿洲、山地与海路，认识造像之间的历史联系，再回到展厅里的一尊尊佛。",
+  "photos": {
+    "map-full": {
+      "original": "map/map-full.jpg",
+      "source_file": "dd90e1b0e9ae7bac8f7ceda22e4a0f35.jpg",
+      "sha256": "dd58adb0b83a1bb4cd0c50ab4b455fd7036879b9a3909dc988d325e62f4ea31e",
+      "width": 1280,
+      "height": 1707,
+      "variants": [
+        {
+          "file": "map/map-full-480.webp",
+          "width": 480
+        },
+        {
+          "file": "map/map-full-960.webp",
+          "width": 960
+        }
+      ],
+      "caption": "休斯顿美术馆展厅佛教传播示意图，Merton摄"
+    },
+    "map-sea": {
+      "original": "map/map-sea.jpg",
+      "source_file": "1ca8a14d0ffde1263e5f4996977f5772.jpg",
+      "sha256": "6386e90c4907d56fe5060e51b1cc94b60f67e74adf7e2ed9ed30d548095a8b06",
+      "width": 1280,
+      "height": 1707,
+      "variants": [
+        {
+          "file": "map/map-sea-480.webp",
+          "width": 480
+        },
+        {
+          "file": "map/map-sea-960.webp",
+          "width": 960
+        }
+      ],
+      "caption": "展厅地图局部：东南亚岛屿与海域，Merton摄"
+    },
+    "map-legend": {
+      "original": "map/map-legend.jpg",
+      "source_file": "9344571a345a7e53d171d2c05cee7b7a.jpg",
+      "sha256": "5fd4c64ba628a41be97e45c7312b9f5af2f2b8976938b68d7650c79bf1ea0494",
+      "width": 1280,
+      "height": 1707,
+      "variants": [
+        {
+          "file": "map/map-legend-480.webp",
+          "width": 480
+        },
+        {
+          "file": "map/map-legend-960.webp",
+          "width": 960
+        }
+      ],
+      "caption": "展厅地图局部：图例与斯里兰卡，Merton摄"
+    }
+  },
+  "groups": [
+    {
+      "id": "land",
+      "title": "陆路与绿洲",
+      "text": "从印度西北和犍陀罗到中亚，再到中国，僧侣与商旅利用的是彼此交织的河谷、山口和绿洲通道。经书需要翻译，图像也在新的寺院和石窟中获得不同面貌。敦煌既是交通节点，也是保存经卷与造像的场所；长安、洛阳则连接城市生活、翻译活动与佛教营建。今天并看犍陀罗雕刻与中国造像，可以从衣纹和叙事方式辨认各自的选择。",
+      "sources": [
+        "silk",
+        "mogao"
+      ],
+      "places": [
+        {
+          "title": "蓝毗尼、菩提伽耶、鹿野苑",
+          "text": "三处圣地分别联系佛陀的诞生、成道与初次说法。它们分处今尼泊尔与印度，朝圣将生命故事与具体地点连接起来。",
+          "sources": [
+            "lumbini",
+            "bodhgaya",
+            "sarnath"
+          ],
+          "supplementary": false
+        },
+        {
+          "title": "那烂陀（Nalanda）",
+          "text": "今印度比哈尔邦的寺院教育遗址。僧侣在此生活与研习，远道求法者参与知识交流；它是学术共同体，不只是交通停靠点。",
+          "sources": [
+            "nalanda"
+          ],
+          "supplementary": false
+        },
+        {
+          "title": "犍陀罗与马图拉",
+          "text": "犍陀罗是历史区域，马图拉是今印度的一座城市。两地形成不同的早期造像传统，面容、衣褶与身体处理提供了比较的入口。",
+          "sources": [
+            "gandhara"
+          ],
+          "supplementary": false
+        },
+        {
+          "title": "巴米扬（Bamiyan）",
+          "text": "今阿富汗的一处山谷及佛教遗址群。石窟、寺院遗迹与不同文化传统的交会相联系，显示佛教艺术并不限于便携的小型造像。",
+          "sources": [
+            "bamiyan"
+          ],
+          "supplementary": false
+        },
+        {
+          "title": "敦煌与莫高窟",
+          "text": "敦煌是绿洲城市，莫高窟是其附近的石窟群。交通与宗教活动在此交汇，壁画、塑像和经卷使跨地域交流留下可读的痕迹。",
+          "sources": [
+            "mogao"
+          ],
+          "supplementary": false
+        },
+        {
+          "title": "长安与洛阳",
+          "text": "两座历史都城也是道路网络的重要节点。城市、寺院与石窟共同参与佛教活动；地图上的城名不能代替一件造像的具体产地。",
+          "sources": [
+            "silk"
+          ],
+          "supplementary": false
+        }
+      ],
+      "works": [
+        {
+          "id": "x05",
+          "relation": "本收藏中来自犍陀罗的作品"
+        },
+        {
+          "id": "x16",
+          "relation": "本收藏中来自犍陀罗的叙事浮雕"
+        },
+        {
+          "id": "x24",
+          "relation": "可联系造像发愿与汉字铭文观看"
+        }
+      ]
+    },
+    {
+      "id": "mountains",
+      "title": "喜马拉雅山地之间",
+      "text": "山地并未隔断往来。印度、克什米尔、尼泊尔与西藏之间，求法、译经与工艺交流在不同时期展开。藏传佛教的前弘主要联系七至九世纪，后弘则自十世纪后期继续发展；这并非一条路线的两次重演。克什米尔与尼泊尔工匠的传统参与了西藏造像的形成。并看斯瓦特、尼泊尔与西藏作品，衣饰、镶嵌和莲座的差异与相近之处都值得细读。",
+      "sources": [
+        "rubin",
+        "himalaya"
+      ],
+      "places": [
+        {
+          "title": "斯瓦特与大克什米尔",
+          "text": "斯瓦特是河谷，大克什米尔是艺术史中较宽的区域称谓。两者不能当成同一地点，却能帮助理解印度西北与山地间的造像联系。",
+          "sources": [
+            "himalaya"
+          ],
+          "supplementary": true
+        },
+        {
+          "title": "加德满都谷地",
+          "text": "今尼泊尔的城市与宗教建筑密集区域，佛教和印度教传统并存。纽瓦尔工艺在本地发展，也通过跨地域委托影响西藏艺术。",
+          "sources": [
+            "kathmandu",
+            "himalaya"
+          ],
+          "supplementary": true
+        },
+        {
+          "title": "拉萨与大昭寺",
+          "text": "拉萨是城市，大昭寺是其中的重要宗教场所。将城市、寺院与更广的西藏文化区域分开，有助于理解朝圣、礼拜和造像的不同尺度。",
+          "sources": [
+            "lhasa"
+          ],
+          "supplementary": false
+        }
+      ],
+      "works": [
+        {
+          "id": "x15",
+          "relation": "本收藏中来自斯瓦特的作品"
+        },
+        {
+          "id": "x14",
+          "relation": "本收藏中归于大克什米尔的作品"
+        },
+        {
+          "id": "x22",
+          "relation": "本收藏中来自尼泊尔的作品"
+        },
+        {
+          "id": "x01",
+          "relation": "本收藏中来自西藏的作品"
+        }
+      ]
+    },
+    {
+      "id": "east",
+      "title": "跨海进入东亚",
+      "text": "中国、朝鲜半岛与日本之间，经典、僧侣和图像随使节、求法与海上往来流动。半岛僧侣赴中国乃至印度学习，百济也参与了日本早期佛教的传入；各地接受佛教的时间并不相同。造像形式在不同的供养环境中被选择、调整和重新制作。这里的小型金铜像，可以从身体比例与背光并看，再从两地的诞生佛接近共同的浴佛实践。",
+      "sources": [
+        "korea"
+      ],
+      "places": [
+        {
+          "title": "朝鲜半岛",
+          "text": "这里先后存在多个政权，各自与邻近地区往来。三国时期和统一新罗的造像，有不同的取舍与转化，不能只看成外来样式的复制。",
+          "sources": [
+            "korea"
+          ],
+          "supplementary": false
+        },
+        {
+          "title": "奈良（Nara）",
+          "text": "日本八世纪的都城，寺院与其他历史建筑共同保存城市的宗教文化。它提供理解日本佛教艺术的背景，并非本辑日本作品已知的原址。",
+          "sources": [
+            "nara"
+          ],
+          "supplementary": false
+        }
+      ],
+      "works": [
+        {
+          "id": "x08",
+          "relation": "本收藏中来自朝鲜半岛的作品"
+        },
+        {
+          "id": "x10",
+          "relation": "可联系诞生佛与浴佛题材观看"
+        },
+        {
+          "id": "x11",
+          "relation": "可与朝鲜半岛诞生佛比较的日本作品"
+        }
+      ]
+    },
+    {
+      "id": "sea",
+      "title": "季风与海路",
+      "text": "季风帮助船只往返印度、斯里兰卡、东南亚岛屿与中国南方港口，僧侣也借商船旅行。七世纪，义净往返印度途中在室利佛逝停留，学习梵文与经书，海岛因而也是知识交流的中心。海上往来跨越不同佛教传统，方向并不单一。斯里兰卡、泰国与爪哇的造像，可以放在这一广阔背景中比较；它们具体经过哪些港口，仍是另一层收藏史问题。",
+      "sources": [
+        "acri"
+      ],
+      "places": [
+        {
+          "title": "阿努拉德普勒（Anuradhapura）",
+          "text": "斯里兰卡的历史城市与佛教中心。寺院、佛塔及菩提树崇敬相互联系，让人看到僧团生活、朝圣与王室支持形成的宗教空间。",
+          "sources": [
+            "anuradhapura"
+          ],
+          "supplementary": false
+        },
+        {
+          "title": "室利佛逝与巨港",
+          "text": "室利佛逝是历史政权与海上交流网络中的重要名称；巨港是今苏门答腊的一座城市。理解义净的停留，应保留政权与城市的尺度差别。",
+          "sources": [
+            "acri"
+          ],
+          "supplementary": false
+        },
+        {
+          "title": "爪哇与婆罗浮屠",
+          "text": "爪哇是岛屿，婆罗浮屠是其中一处八至九世纪的佛教建筑群。层层平台、浮雕与佛塔组织礼拜空间，显出当地佛教文化的具体面貌。",
+          "sources": [
+            "borobudur"
+          ],
+          "supplementary": false
+        }
+      ],
+      "works": [
+        {
+          "id": "x07",
+          "relation": "本收藏中来自斯里兰卡的作品"
+        },
+        {
+          "id": "x03",
+          "relation": "本收藏中来自泰国的作品"
+        },
+        {
+          "id": "x18",
+          "relation": "本收藏中来自爪哇的作品"
+        },
+        {
+          "id": "x19",
+          "relation": "可与爪哇佛像并看的金属造像"
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "silk": {
+      "title": "UNESCO：长安—天山廊道路网",
+      "url": "https://whc.unesco.org/en/list/1442/"
+    },
+    "nalanda": {
+      "title": "UNESCO：那烂陀寺院遗址",
+      "url": "https://whc.unesco.org/en/list/1502/"
+    },
+    "anuradhapura": {
+      "title": "UNESCO：阿努拉德普勒圣城",
+      "url": "https://whc.unesco.org/en/list/200/"
+    },
+    "mogao": {
+      "title": "UNESCO：莫高窟",
+      "url": "https://whc.unesco.org/en/list/440/"
+    },
+    "bamiyan": {
+      "title": "UNESCO：巴米扬谷文化景观与考古遗址",
+      "url": "https://whc.unesco.org/en/list/208/"
+    },
+    "borobudur": {
+      "title": "UNESCO：婆罗浮屠寺庙群",
+      "url": "https://whc.unesco.org/en/list/592/"
+    },
+    "lumbini": {
+      "title": "UNESCO：蓝毗尼",
+      "url": "https://whc.unesco.org/en/list/666/"
+    },
+    "bodhgaya": {
+      "title": "UNESCO：菩提伽耶摩诃菩提寺建筑群",
+      "url": "https://whc.unesco.org/en/list/1056/"
+    },
+    "sarnath": {
+      "title": "UNESCO：鹿野苑",
+      "url": "https://whc.unesco.org/en/list/927/"
+    },
+    "nara": {
+      "title": "UNESCO：古奈良的历史遗迹",
+      "url": "https://whc.unesco.org/en/list/870/"
+    },
+    "kathmandu": {
+      "title": "UNESCO：加德满都谷地",
+      "url": "https://whc.unesco.org/en/list/121/"
+    },
+    "lhasa": {
+      "title": "UNESCO：拉萨布达拉宫历史建筑群（含大昭寺）",
+      "url": "https://whc.unesco.org/en/list/707/"
+    },
+    "rubin": {
+      "title": "Rubin Museum：Tibetan Buddhism",
+      "url": "https://rubinmuseum.org/projecthimalayanart/glossary/tibetan-buddhism/"
+    },
+    "acri": {
+      "title": "Andrea Acri，Maritime Buddhism（2018），尤其第14—15页",
+      "url": "https://courtauld.ac.uk/wp-content/uploads/2022/06/MaritimeBuddhismAndreaAccri.pdf"
+    },
+    "korea": {
+      "title": "Soyoung Lee：Korean Buddhist Sculpture (5th–9th Century)，大都会艺术博物馆",
+      "url": "https://www.metmuseum.org/essays/korean-buddhist-sculpture-5th-9th-century"
+    },
+    "himalaya": {
+      "title": "John Guy：Arts of the Greater Himalayas: Kashmir, Tibet, and Nepal（2021），大都会艺术博物馆",
+      "url": "https://www.metmuseum.org/essays/arts-of-the-greater-himalayas"
+    },
+    "gandhara": {
+      "title": "京都国立博物馆：菩萨立像与犍陀罗、马图拉造像背景",
+      "url": "https://knmdb.kyohaku.go.jp/eng/4094.html"
+    }
+  },
+  "map_notes": [
+    "这幅展厅地图汇集不同历史时期的传播线索，是概括示意，不是某一时代的疆域或精确交通图。邻近地点的年代，也不一定是该城或寺院的建造年代。",
+    "图例中的早期佛教诸部派、大乘、上座部与金刚乘并非彼此互斥的类别，也没有各自唯一、固定的道路。公元前第三世纪的早期传播，不能直接等同于后来成熟的上座部佛教格局。",
+    "现代国界不等于古代文化区域，底色也不能用来读取某时某地的佛教人口比例。下列地点介绍结合独立资料撰写；“补充地点”用来帮助理解本收藏，并非原图明确标出的标签。"
+  ],
+  "source_inventory": [
+    {
+      "file": "1ca8a14d0ffde1263e5f4996977f5772.jpg",
+      "sha256": "6386e90c4907d56fe5060e51b1cc94b60f67e74adf7e2ed9ed30d548095a8b06",
+      "published": true
+    },
+    {
+      "file": "5b45cb2b3614e754672609f7479f83ff.jpg",
+      "sha256": "a30c658d1cdd2d2a4c48b0ba920cd57a555d7e7f41822c3f52b49e2def7d850f",
+      "published": false
+    },
+    {
+      "file": "6dac944e2024f2457091a82ba686cd2a.jpg",
+      "sha256": "613d7370d02e0b1274b7da33e15b3bee6a3657f6f0752538ca714a5afcc21f52",
+      "published": false
+    },
+    {
+      "file": "9344571a345a7e53d171d2c05cee7b7a.jpg",
+      "sha256": "5fd4c64ba628a41be97e45c7312b9f5af2f2b8976938b68d7650c79bf1ea0494",
+      "published": true
+    },
+    {
+      "file": "a6eae6a8084d648b28758434c1d84cd2.jpg",
+      "sha256": "176618f755887fc164a8e2377d937b171671695213f214690df4edb3cf73f548",
+      "published": false
+    },
+    {
+      "file": "dd90e1b0e9ae7bac8f7ceda22e4a0f35.jpg",
+      "sha256": "dd58adb0b83a1bb4cd0c50ab4b455fd7036879b9a3909dc988d325e62f4ea31e",
+      "published": true
+    }
+  ]
+}
