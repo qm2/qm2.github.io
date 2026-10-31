@@ -2650,30 +2650,62 @@
         },
         "independent_full_resolution_label_review": true,
         "visual_review": "all-main-photos-compared; high-risk-details-opened-at-original-resolution",
-        "external_object_record": null
+        "external_object_record": null,
+        "research_update": {
+          "date": "2026-10-31",
+          "basis": "User-supplied 2026 technical-study summary; original book-page files not found, no page numbers asserted. Publisher and Rijksmuseum catalogue independently read.",
+          "auction_identity": "Sothebys 2013 lot120 official photograph visually matched to 1057: central hair remnant, urna outline, facial surface and neck losses.",
+          "public_study": "Read Strahan/McCarthy web essay; cited for seated-Buddha construction comparison only. Private head image access failed; 2023 volume contents read, not represented as fully read.",
+          "images": "No new public assets; all original collection photos preserved."
+        }
       },
       "research_questions": [
-        "补充展签确认；工艺说明可按展签转述。展签介绍时代行像习俗，不等于证明本件参加过某次具体巡游。"
+        "2026年技术文章具体页码尚待核对；本轮未取得四张书页文件",
+        "公开旧研究私人佛首的图像及尺寸对应未完全核实，不作为本件技术细节的独立依据",
+        "原寺院、出土地、完整递藏与2013年买家及入藏虚舟经过未确认"
       ],
       "notes": [
         {
-          "text": "这颗佛首的眉弓、眼睑与唇部层次分明，脸颊的大片平面与细长耳垂相连。头顶已有残损，面部仍保留深浅不一的表层；换一个角度，嘴角和鼻翼的起伏会变得更清楚。",
+          "text": "这颗佛首的眉弓、低垂眼睑与唇部层次分明，饱满的面颊向细长耳垂展开。头顶大片发纹已经脱落，额际仍留着梳拢般的细线；面部深浅不一的表层之间，唇线保留一点红色。换一个角度，嘴角和鼻翼的起伏会变得更清楚。",
           "kind": "visual-observation",
           "sources": []
         },
         {
-          "text": "补充展签明确记为唐代8世纪的脱胎干漆：先塑泥芯，再覆浸漆麻布，经过干燥、打磨与继续髹漆塑形，最后去除泥芯，留下轻而坚固的壳体。这种构造不同于实心石雕，也与保留木胎的漆像有别。",
-          "kind": "label-interpretation",
-          "sources": [
-            "label"
+          "text": "面容看似沉厚，主要结构却是麻布与漆层构成的中空壳体。工匠先塑泥芯，覆上浸漆布条，再逐层施加含填料的漆层，待结构成形后移除泥芯。漆需要一层层固化，才能继续塑造与整饰；这种轻质并不意味着制作省工或廉价。",
+          "kind": "catalog-summary",
+          "sources": [],
+          "heading": "厚重的面容，轻质的构造",
+          "references": [
+            "catalog"
           ]
         },
         {
-          "text": "展签同时介绍唐代节庆抬像巡行的习俗。轻质壳体有利于搬运，是理解这种工艺的一个角度；本件的原寺院、完整像身与实际行像记录尚不清楚。",
-          "kind": "label-context",
-          "sources": [
-            "label"
+          "text": "Strahan对本件的技术研究说明，制作阶段头顶留有开口，泥芯移除后，工匠便能接近面部内侧。双眼从里面安放，用漆灰及局部布片固定，内部工作完成后再接合头顶。今天从眼睑下看见的黑亮瞳部，经分析为含铅玻璃；眼神的形成，既靠外部塑形，也靠藏在面容后面的安置。",
+          "kind": "catalog-summary",
+          "sources": [],
+          "heading": "双眼从里面安放",
+          "references": [
+            "catalog"
           ]
+        },
+        {
+          "text": "眉间原来还有白毫嵌饰，现已缺失并被覆盖，其嵌置结构在X光中仍可辨认。白毫与双眼一起参与佛的面貌，却不是普通意义上的“第三只眼”。这部分内部结构依据技术研究，现场照片只能看见眉间浅浅的圆形痕迹。",
+          "kind": "catalog-summary",
+          "sources": []
+        },
+        {
+          "text": "原来的泥芯虽已移除，漆布内壁仍承接了它的起伏。研究者扫描内壁，再按内壁几何形状制作正形3D打印模型，用来理解泥芯原有的细节；得到的是研究模型，并非找回泥芯或复原整尊佛像。耳垂则以U形铁丝为支撑，外加泥与漆层。残存的壳体，让塑形、贴布和安置双眼的次序重新显露。",
+          "kind": "catalog-summary",
+          "sources": [],
+          "heading": "泥芯留下的痕迹",
+          "references": [
+            "catalog"
+          ]
+        },
+        {
+          "text": "展签介绍了唐代节庆抬像巡行的习俗，轻质构造有利于搬运，但本件是否参与行像尚无记录。开篇《法华经》的偈句，与专题首页的造像偈出自同一段：胶、漆、布也可以成为造像的材料，使制作与供养相接。经文提供的是理解造像的信仰背景，并非这颗佛首自身的题记。",
+          "kind": "label-context-and-scripture-reading",
+          "sources": []
         }
       ],
       "short": "眼睑与唇线的细薄转折，来自漆布塑造。",
@@ -2684,7 +2716,7 @@
       ],
       "accession": null,
       "dimensions": null,
-      "confidence": "现场展签及照片对应已核；独立图录条目未取得",
+      "confidence": "现场照片与2013年苏富比Lot 120图像已对照；技术说明据读者提供的2026年研究摘要，文章题名与出版信息独立核实，页码未核实。",
       "label_original": {
         "region": "China",
         "date": "Tang dynasty, 8th century",
@@ -2707,7 +2739,81 @@
         "topic": "lacquer",
         "id": "object-259",
         "url": "../../lacquer/#object-259"
-      }
+      },
+      "natural_captions": true,
+      "epigraph": {
+        "text": "或以胶漆布，严饰作佛像。",
+        "source": "《妙法莲华经·方便品第二》，鸠摩罗什译",
+        "url": "https://deerpark.app/cbeta/T0262/1",
+        "location": "CBETA《大正藏》T0262，卷一，方便品第二",
+        "reviewed": "2026-10-31"
+      },
+      "references": {
+        "catalog": {
+          "title": "Donna K. Strahan：A Tang Dynasty Hollow-Core Lacquer Buddha Head，载《Approaching the Buddha》（2026）",
+          "url": "https://yalebooks.yale.edu/book/9780300286427/approaching-the-buddha/"
+        },
+        "catalog-contents": {
+          "title": "荷兰国立博物馆图书馆：2026年收藏图录目录与出版记录",
+          "url": "https://www.rijksmuseum.nl/en/collection/publication/Approaching-the-Buddha-transmission-and-transformation--f80b9228a6933731998b7a69833d720d"
+        },
+        "construction": {
+          "title": "Donna Strahan、Blythe McCarthy：Construction from the Inside Out: Early Chinese Lacquer Buddha Fabrication",
+          "url": "https://asia.si.edu/research/essays/construction-from-the-inside-out-early-chinese-lacquer-buddha-fabrication/"
+        },
+        "auction": {
+          "title": "苏富比香港：2013年坂本五郎专场，Lot 120（来源、展览与品相记录）",
+          "url": "https://www.sothebys.com/en/auctions/ecatalogue/2013/chinese-art-through-the-eye-of-sakamoto-goro-hk0490/lot.120.html"
+        }
+      },
+      "reading_notes": [
+        {
+          "title": "材料细读：麻布、填料与曾经的颜色",
+          "paragraphs": [
+            "据2026年技术研究，布层纤维经显微分析辨认为大麻纤维；“夹纻”是传统工艺名称，不能据此把材料直接认作苎麻。漆层里的填料由较粗颗粒过渡到较细表面层，分别参与塑形与整饰。",
+            "研究发现磨碎且部分烧灼的骨质填料，蛋白质分析指向马、驴等马科动物。这里讨论的是制作材料，不能将其写成人骨、舍利或仪式遗存。",
+            "头发检出石青，唇部检出朱砂，耳附近还留有贴金痕迹。作者也指出历次重绘的存在，因此今天灰暗斑驳的面容并非原初设色，而检出的颜料也不能全部直接归入唐代原层。",
+            "耳垂铁丝是技术研究所讨论的构造；2013年拍卖品相报告另记耳垂断裂、重接及旧金属支撑。制作与修复属于不同层次，不能把所见金属一概视为现代修补。"
+          ],
+          "references": [
+            "catalog",
+            "auction"
+          ]
+        },
+        {
+          "title": "拍卖与公开展出记录",
+          "paragraphs": [
+            "1950—60年代：据苏富比目录，坂本五郎在这一时期购得本件。",
+            "2005年：九州国立博物馆开馆特别出品，图录编号30；这项展览记录据2013年拍卖目录。",
+            "2013年10月8日：苏富比香港“Chinese Art Through the Eye of Sakamoto Gorō”专场，第120号，题名“A Magnificent Dry-Lacquer Head of Buddha, Tang Dynasty”。拍卖照片中的额际残存发纹、眉间圆痕、唇线和颈部断口，与本页现场照片相合。",
+            "目前在休斯顿美术馆以虚舟收藏作品展出。2013年买家身份、此后进入虚舟的时间与渠道，以及原寺院、出土地和完整递藏经历，尚未确认。"
+          ],
+          "references": [
+            "auction"
+          ]
+        },
+        {
+          "title": "比较阅读：脱胎与保留木芯",
+          "paragraphs": [
+            "唐代大型脱胎干漆造像存世稀少。弗利尔收藏F1944.46与大都会19.186坐佛，可从中空壳体和内部支撑来比较；沃尔特斯25.9坐佛则保留木芯，不能一并称为脱胎。构造的差别也提示我们，漆塑并不只有一种制作方法。",
+            "Strahan与McCarthy的公开研究分别说明这些坐佛的布层、漆层和内部支撑。这样的比较有助于理解工艺，不足以认定同一工坊、寺院或造像组合。"
+          ],
+          "references": [
+            "construction"
+          ]
+        },
+        {
+          "title": "书目与研究依据",
+          "paragraphs": [
+            "Donna K. Strahan，“A Tang Dynasty Hollow-Core Lacquer Buddha Head”，载Hao Sheng《Approaching the Buddha: Transmission and Transformation》，休斯顿美术馆出版、耶鲁大学出版社发行，2026年，ISBN 9780300286427。本文的技术解读依据读者提供的图录研究摘要整理；出版信息及文章题名另据出版社与荷兰国立博物馆图书馆记录核对。该文是独立技术研究，不与Cat.21作品条目混同，具体页码尚待核对。",
+            "本页沿用现场展签的定名与年代：中国，唐代，8世纪，脱胎干漆佛首。公开研究“Construction from the Inside Out”另使用“bodhisattva head”这一旧称；此处仅引用其中已核读的坐佛构造比较，不据旧称改变本页定名。"
+          ],
+          "references": [
+            "catalog",
+            "catalog-contents"
+          ]
+        }
+      ]
     }
   ],
   "catalog_crosswalk_unverified": [
