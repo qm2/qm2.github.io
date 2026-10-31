@@ -2686,10 +2686,11 @@
           "heading": "双眼从里面安放",
           "references": [
             "catalog"
-          ]
+          ],
+          "photo": "1060"
         },
         {
-          "text": "眉间原来还有白毫嵌饰，现已缺失并被覆盖，其嵌置结构在X光中仍可辨认。白毫与双眼一起参与佛的面貌，却不是普通意义上的“第三只眼”。这部分内部结构依据技术研究，现场照片只能看见眉间浅浅的圆形痕迹。",
+          "text": "眉间原来还有白毫嵌饰，现已缺失并被覆盖，其嵌置结构在X光中仍可辨认。眉间白毫是佛陀的相好标志，原有嵌饰与双眼共同构成面部的细节。这部分内部结构依据技术研究，现场照片只能看见眉间浅浅的圆形痕迹。",
           "kind": "catalog-summary",
           "sources": []
         },
@@ -2751,7 +2752,8 @@
       "references": {
         "catalog": {
           "title": "Donna K. Strahan：A Tang Dynasty Hollow-Core Lacquer Buddha Head，载《Approaching the Buddha》（2026）",
-          "url": "https://yalebooks.yale.edu/book/9780300286427/approaching-the-buddha/"
+          "url": "https://yalebooks.yale.edu/book/9780300286427/approaching-the-buddha/",
+          "short_title": "Strahan，2026年技术研究"
         },
         "catalog-contents": {
           "title": "荷兰国立博物馆图书馆：2026年收藏图录目录与出版记录",
@@ -2771,7 +2773,7 @@
           "title": "材料细读：麻布、填料与曾经的颜色",
           "paragraphs": [
             "据2026年技术研究，布层纤维经显微分析辨认为大麻纤维；“夹纻”是传统工艺名称，不能据此把材料直接认作苎麻。漆层里的填料由较粗颗粒过渡到较细表面层，分别参与塑形与整饰。",
-            "研究发现磨碎且部分烧灼的骨质填料，蛋白质分析指向马、驴等马科动物。这里讨论的是制作材料，不能将其写成人骨、舍利或仪式遗存。",
+            "研究发现磨碎且部分烧灼的骨质填料，蛋白质分析指向马、驴等马科动物。这些骨质颗粒作为填料参与漆层的塑形与整饰。",
             "头发检出石青，唇部检出朱砂，耳附近还留有贴金痕迹。作者也指出历次重绘的存在，因此今天灰暗斑驳的面容并非原初设色，而检出的颜料也不能全部直接归入唐代原层。",
             "耳垂铁丝是技术研究所讨论的构造；2013年拍卖品相报告另记耳垂断裂、重接及旧金属支撑。制作与修复属于不同层次，不能把所见金属一概视为现代修补。"
           ],
@@ -2805,7 +2807,7 @@
         {
           "title": "书目与研究依据",
           "paragraphs": [
-            "Donna K. Strahan，“A Tang Dynasty Hollow-Core Lacquer Buddha Head”，载Hao Sheng《Approaching the Buddha: Transmission and Transformation》，休斯顿美术馆出版、耶鲁大学出版社发行，2026年，ISBN 9780300286427。本文的技术解读依据读者提供的图录研究摘要整理；出版信息及文章题名另据出版社与荷兰国立博物馆图书馆记录核对。该文是独立技术研究，不与Cat.21作品条目混同，具体页码尚待核对。",
+            "Donna K. Strahan，“A Tang Dynasty Hollow-Core Lacquer Buddha Head”，载Hao Sheng《Approaching the Buddha: Transmission and Transformation》，休斯顿美术馆出版、耶鲁大学出版社发行，2026年，ISBN 9780300286427。本页技术部分据Donna K. Strahan对本件的研究整理。出版信息及文章题名另据出版社与荷兰国立博物馆图书馆记录核对。该文是独立技术研究，不与Cat.21作品条目混同，具体页码尚待核对。",
             "本页沿用现场展签的定名与年代：中国，唐代，8世纪，脱胎干漆佛首。公开研究“Construction from the Inside Out”另使用“bodhisattva head”这一旧称；此处仅引用其中已核读的坐佛构造比较，不据旧称改变本页定名。"
           ],
           "references": [
@@ -2813,7 +2815,14 @@
             "catalog-contents"
           ]
         }
-      ]
+      ],
+      "photo_layout": "aligned",
+      "photo_captions": {
+        "1056": "展柜与展厅背景中的佛首",
+        "1058": "侧面：鼻梁、低垂眼睑与细长耳垂",
+        "1059": "另一侧面：面颊、耳垂与额际残存发纹",
+        "1060": "面部近景：眉间圆痕、眼睑与唇线"
+      }
     }
   ],
   "catalog_crosswalk_unverified": [

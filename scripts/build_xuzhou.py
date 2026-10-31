@@ -46,6 +46,9 @@ def build():
  (BASE/'map/index.html').write_text(shell(guide['title'],map_page(guide,byid,photo),True))
  for w in works:
   out=BASE/w['id'];out.mkdir(exist_ok=True);prefix='../';owned=w['collection']=='mfah-neighbor'
+  def aligned_figure(n,caption,classes='',eager=False):
+   ratio=photos[n]['width']/photos[n]['height']
+   return f'<figure class="xz-fitted-photo {classes}" style="--figure-ratio:{ratio:.8f}">'+photo(n,caption,prefix,eager)+'<figcaption>'+e(caption)+'</figcaption></figure>'
   epigraph=''
   if w.get('epigraph'):
    q=w['epigraph'];epigraph='<blockquote class="xz-work-epigraph"><p>“'+e(q['text'])+'”</p><footer>——<a href="'+e(q['url'])+'" title="'+e(q['location'])+'">'+e(q['source'])+'</a></footer></blockquote>'
@@ -54,21 +57,22 @@ def build():
   if w.get('dimensions'):facts.append(('尺寸',w['dimensions']))
   if w['accession']:facts.append(('馆藏号',w['accession']))
   b+=''.join(f'<div><dt>{e(k)}</dt><dd>{e(v)}</dd></div>' for k,v in facts)+'</dl><a class="text-link" href="#label">查看现场展签 ↓</a></div></section><section class="wrap xz-notes xz-prose"><h2>作品札记</h2>'
-  def work_references(keys):
-   return '<p class="source">'+' · '.join('<a href="'+e(w['references'][k]['url'])+'">'+e(w['references'][k]['title'])+' ↗</a>' for k in keys)+'</p>' if keys else ''
+  def work_references(keys,full=False):
+   return '<p class="source">'+' · '.join('<a href="'+e(w['references'][k]['url'])+'">'+e(w['references'][k]['title'] if full else w['references'][k].get('short_title',w['references'][k]['title']))+' ↗</a>' for k in keys)+'</p>' if keys else ''
   for p in w['notes']:
    if p.get('heading'):b+='<h3>'+e(p['heading'])+'</h3>'
+   if p.get('photo'):b+=aligned_figure(p['photo'],w['photo_captions'][p['photo']],'xz-inline-photo').replace('<figure ', '<figure id="photo-'+p['photo']+'" ',1)
    b+='<p>'+e(p['text'])+'</p>'
    if p.get('quote'):
     q=p['quote'];b+='<blockquote class="xz-note-quote" lang="'+e(q['lang'])+'"><p>'+e(q['text'])+'</p></blockquote><p class="xz-meta">'+e(q['credit'])+'</p>'
    b+=work_references(p.get('references',[]))
   for note in w.get('reading_notes',[]):
-   b+='<details class="xz-record"><summary>'+e(note['title'])+'</summary>'+''.join('<p>'+e(t)+'</p>' for t in note['paragraphs'])+work_references(note.get('references',[]))+'</details>'
+   b+='<details class="xz-record"><summary>'+e(note['title'])+'</summary>'+''.join('<p>'+e(t)+'</p>' for t in note['paragraphs'])+work_references(note.get('references',[]),full=True)+'</details>'
   b+='<p class="source"><a href="#label">休斯顿美术馆现场展签'+('' if w.get('natural_captions') else ' · 照片'+w['label_photo'])+'</a></p>'+sources(w['source_ids'])
   if w.get('inscription'):b+='<p class="source"><a href="'+e(w['inscription']['source']['url'])+'">佳士得：本件造像与纹饰说明 ↗</a></p>'
   if w['record_note'] and not w.get('history'):b+='<details class="xz-record"><summary>资料注</summary><p>'+e(w['record_note'])+'</p></details>'
   b+='</section>'
-  history_photos=set()
+  history_photos={p['photo'] for p in w['notes'] if p.get('photo')}
   if w.get('inscription'):
    ins=w['inscription'];n=ins['photo'];history_photos.add(n)
    b+='<section class="wrap xz-section xz-prose xz-dedication" id="inscription"><h2>'+e(ins['title'])+'</h2><figure id="photo-'+n+'">'+photo(n,ins['caption'],prefix)+'<figcaption>'+e(ins['caption'])+'</figcaption></figure><p class="xz-meta">'+e(ins['credit'])+'</p><blockquote>'+e(ins['text'])+'</blockquote><p class="source"><a href="'+e(ins['source']['url'])+'">'+e(ins['source']['title'])+' ↗</a></p><h3>发愿文说了什么</h3>'
@@ -100,13 +104,20 @@ def build():
     if n in history_photos:continue
     cap=w['title']+' · '+special.get(n,'另一角度与细部')+' · 照片'+n
     if w.get('natural_captions'):cap=w.get('photo_captions',{}).get(n,w['title']+' · 另一角度与细部')
-    b+=f'<figure class="slide" id="photo-{n}">{photo(n,cap,prefix)}<figcaption>{e(cap)}</figcaption></figure>'
+    if w.get('photo_layout')=='aligned':b+=aligned_figure(n,cap,'slide').replace('<figure ',f'<figure id="photo-{n}" ',1)
+    else:b+=f'<figure class="slide" id="photo-{n}">{photo(n,cap,prefix)}<figcaption>{e(cap)}</figcaption></figure>'
    b+='</div><div class="gallery-thumbs" aria-label="选择照片" hidden></div></section>'
   b+='<section class="wrap xz-prose xz-section" id="label"><details><summary>现场展签与原始记录</summary><figure>'+photo(w['label_photo'],w['title']+' · 现场展签',prefix)+'<figcaption>休斯顿美术馆现场展签 · Merton摄</figcaption></figure><dl class="xz-label-record">'+''.join('<div><dt>'+k+'</dt><dd lang="en">'+e(v)+'</dd></div>' for k,v in [('题名',w['original_title']),('地区',w['label_original']['region']),('年代',w['label_original']['date']),('材料',w['label_original']['material'])])+'</dl></details></section>'
   if w['related']:b+='<section class="wrap xz-prose xz-section"><h2>放在一起看</h2><p class="xz-related">'+links(w['related'],'../')+'</p></section>'
   if w.get('shared_identity'):b+='<p class="wrap xz-prose"><a href="'+e(w['shared_identity']['url'])+'">同一件佛首，也见于夹纻干漆专题 →</a></p>'
   b+='<nav class="wrap xz-bottom-nav" aria-label="图录导航"><a href="../#'+('neighbors' if owned else 'catalogue')+'">← 返回'+('邻展作品' if owned else '虚舟图录')+'</a></nav>'
-  (out/'index.html').write_text(shell(w['title'],b,True))
+  if w.get('photo_layout')=='aligned':
+   start=b.index('<figure>',b.index('class="wrap xz-work"'));end=b.index('</figure>',start)+len('</figure>')
+   b=b[:start]+aligned_figure(w['main_photo'],w['title']+' · 休斯顿美术馆所见 · 点击放大','xz-main-photo',True)+b[end:]
+   b='<div class="xz-photo-aligned">'+b+'</div>'
+   page=shell(w['title'],b,True).replace('</head>','<link rel="stylesheet" href="../x28.css"></head>')
+  else:page=shell(w['title'],b,True)
+  (out/'index.html').write_text(page)
  # Main index is regenerated before this idempotent insertion.
  home=ROOT/'museum-notes/index.html';s=re.sub(r'<!-- xuzhou-entry -->.*?<!-- /xuzhou-entry -->','',home.read_text(),flags=re.S)
  anchor='</section>\n<section class="future-collections"';assert anchor in s

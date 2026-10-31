@@ -1,0 +1,8 @@
+/* X28 only: the figure, photograph and caption share a single width. */
+.xz-photo-aligned .xz-fitted-photo{width:min(100%,calc(var(--figure-height,62vh) * var(--figure-ratio)));max-width:100%;margin:0 auto 1.5rem;background:transparent}
+.xz-photo-aligned .xz-main-photo{--figure-height:76vh;margin-bottom:0}
+.xz-photo-aligned .xz-inline-photo{--figure-height:70vh;margin-top:1.3rem;margin-bottom:1.5rem}
+.xz-photo-aligned .xz-fitted-photo>.photo-open{display:block;padding:0}
+.xz-photo-aligned .xz-fitted-photo>.photo-open>.image-box{width:100%;max-width:none;margin:0}
+.xz-photo-aligned .xz-fitted-photo>figcaption{position:static;padding:0;margin:.5rem 0 0;background:transparent;text-align:left;font-size:.85rem;line-height:1.7;color:var(--muted)}
+@media(max-width:600px){.xz-photo-aligned .xz-main-photo{--figure-height:70vh}.xz-photo-aligned .xz-fitted-photo.slide{--figure-height:60vh}}
