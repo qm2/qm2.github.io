@@ -1,0 +1,2048 @@
+{
+  "1": {
+    "width": 1707,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "images/001-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/001-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/001-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/gallery/gallery_001.jpg"
+  },
+  "5": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/005-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/005-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/005-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/trout-breaking/main.jpg"
+  },
+  "13": {
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/013-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "path": "images/013-960.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "path": "images/013-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "original": "data/originals/works/playing-old-soldier/main.jpg"
+  },
+  "15": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/015-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/015-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/015-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/eight-bells/main.jpg"
+  },
+  "19": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/019-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/019-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/019-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/gloucester-mackerel-fleet-at-dawn/main.jpg"
+  },
+  "21": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/021-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/021-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/021-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/gloucester-mackerel-fleet-at-sunset/main.jpg"
+  },
+  "23": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/023-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/023-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/023-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/rocky-coast-and-gulls/main.jpg"
+  },
+  "26": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/026-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/026-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/026-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/the-dinner-horn/main.jpg"
+  },
+  "28": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/028-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/028-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/028-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/bo-peep-girl-with-shepherd-s-crook-seated-by-a-tree/main.jpg"
+  },
+  "30": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/030-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/030-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/030-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/two-girls-looking-at-a-book/main.jpg"
+  },
+  "32": {
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/032-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "path": "images/032-960.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "path": "images/032-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "original": "data/originals/works/the-shepherdess/main.jpg"
+  },
+  "34": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/034-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/034-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/034-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/driving-cows-to-pasture/main.jpg"
+  },
+  "36": {
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/036-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "path": "images/036-960.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "path": "images/036-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "original": "data/originals/works/autumn-foliage-with-two-youths-fishing/main.jpg"
+  },
+  "38": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/038-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/038-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/038-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/twilight-at-leeds-new-york/main.jpg"
+  },
+  "40": {
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/040-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "path": "images/040-960.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "path": "images/040-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "original": "data/originals/works/sheep-and-cattle/main.jpg"
+  },
+  "42": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/042-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/042-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/042-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/boy-and-girl-on-a-hillside/main.jpg"
+  },
+  "44": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/044-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/044-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/044-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/on-the-edge-of-the-farm/main.jpg"
+  },
+  "46": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/046-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/046-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/046-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/watching-the-harbor/main.jpg"
+  },
+  "48": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/048-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/048-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/048-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/three-boys-on-a-beached-dory/main.jpg"
+  },
+  "54": {
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/054-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "path": "images/054-960.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "path": "images/054-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "original": "data/originals/works/old-settlers/main.jpg"
+  },
+  "60": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/060-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/060-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/060-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/the-fallen-deer/main.jpg"
+  },
+  "64": {
+    "width": 1707,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "images/064-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/064-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/064-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/trout-fishing-lake-st-john-quebec/main.jpg"
+  },
+  "66": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/066-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/066-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/066-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/montagnais-indians-pointe-bleue-quebec/main.jpg"
+  },
+  "70": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/070-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/070-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/070-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/the-guide-and-woodsman-adirondacks/main.jpg"
+  },
+  "78": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/078-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/078-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/078-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/street-corner-santiago-de-cuba/main.jpg"
+  },
+  "88": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/088-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/088-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/088-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/perils-of-the-sea/main.jpg"
+  },
+  "91": {
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/091-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "path": "images/091-960.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "path": "images/091-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "original": "data/originals/works/civil-war-soldier-in-zouave-cap/main.jpg"
+  },
+  "93": {
+    "width": 1707,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "images/093-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/093-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/093-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/rebel-works-seen-from-general-porter-s-division-yorktown/main.jpg"
+  },
+  "95": {
+    "width": 1707,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "images/095-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/095-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/095-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/reconnaissance-in-force-by-general-gorman-before-yorktown/main.jpg"
+  },
+  "97": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/097-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/097-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/097-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/on-guard-watching-the-cows-paired-studies/main.jpg"
+  },
+  "99": {
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/099-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "path": "images/099-960.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "path": "images/099-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "original": "data/originals/works/on-the-road-to-lake-george-wood-engraving/main.jpg"
+  },
+  "101": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/101-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/101-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/101-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/on-the-road-to-lake-george-preliminary-study/main.jpg"
+  },
+  "105": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/105-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/105-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/105-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/rocket-ship/main.jpg"
+  },
+  "107": {
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/107-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "path": "images/107-960.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "path": "images/107-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "original": "data/originals/works/the-dinner-horn-wood-engraving/main.jpg"
+  },
+  "116": {
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/116-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "path": "images/116-960.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "path": "images/116-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "original": "data/originals/historical-material/winsor-newton-watercolor-box_116.jpg"
+  },
+  "118": {
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/118-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "path": "images/118-960.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "path": "images/118-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "original": "data/originals/historical-material/winsor-newton-pigment-chart_118.jpg"
+  },
+  "120": {
+    "width": 1707,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "images/120-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/120-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/120-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/gallery/gallery_120.jpg"
+  },
+  "124": {
+    "width": 1707,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "images/124-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/124-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/124-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/gallery/gallery_124.jpg"
+  },
+  "130": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/130-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/130-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/130-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/children-playing-under-a-gloucester-wharf/main.jpg"
+  },
+  "132": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/132-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/132-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/132-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/the-green-dory/main.jpg"
+  },
+  "134": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/134-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/134-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/134-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/gloucester-harbor/main.jpg"
+  },
+  "136": {
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "path": "images/136-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/136-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/136-1600.webp",
+        "width": 1280,
+        "height": 960
+      }
+    ],
+    "original": "data/originals/works/clamming/main.jpg"
+  },
+  "138": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/138-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/138-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/138-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/coast-scene-with-boats-women-and-children-cullercoats-beach-tynemouth/main.jpg"
+  },
+  "141": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/141-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/141-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/141-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/an-afterglow/alternate_141.jpg"
+  },
+  "144": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/144-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/144-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/144-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/a-fresh-breeze/main.jpg"
+  },
+  "149": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/149-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/149-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/149-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/tynemouth-sands/main.jpg"
+  },
+  "151": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/151-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/151-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/151-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/fisherwomen/main.jpg"
+  },
+  "154": {
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/154-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "path": "images/154-960.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "path": "images/154-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "original": "data/originals/works/fox-hill-bahamas/main.jpg"
+  },
+  "157": {
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/157-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "path": "images/157-960.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "path": "images/157-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "original": "data/originals/works/hunter-in-the-everglades/main.jpg"
+  },
+  "159": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/159-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/159-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/159-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/rocky-shore-bermuda/main.jpg"
+  },
+  "161": {
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/161-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "path": "images/161-960.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "path": "images/161-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "original": "data/originals/works/palm-trees-florida/main.jpg"
+  },
+  "163": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/163-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/163-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/163-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/thornhill-bar-florida/main.jpg"
+  },
+  "167": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/167-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/167-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/167-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/the-dory/main.jpg"
+  },
+  "169": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/169-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/169-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/169-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/storm-on-the-english-coast-w-h-flamborough-head/main.jpg"
+  },
+  "171": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/171-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/171-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/171-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/bridlington-quay/main.jpg"
+  },
+  "173": {
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/173-480.webp",
+        "width": 480,
+        "height": 640
+      },
+      {
+        "path": "images/173-960.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "path": "images/173-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "original": "data/originals/works/custom-house-santiago-de-cuba/main.jpg"
+  },
+  "175": {
+    "width": 1707,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "images/175-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/175-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/175-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/street-corner-santiago-de-cuba/alternate_175.jpg"
+  },
+  "178": {
+    "width": 1707,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "images/178-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/178-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/178-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/the-blue-boat/detail_178.jpg"
+  },
+  "179": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/179-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/179-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/179-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/the-blue-boat/detail_179.jpg"
+  },
+  "180": {
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "path": "images/180-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/180-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/180-1600.webp",
+        "width": 1280,
+        "height": 960
+      }
+    ],
+    "original": "data/originals/works/leaping-trout/detail_180.jpg"
+  },
+  "181": {
+    "width": 1276,
+    "height": 958,
+    "variants": [
+      {
+        "path": "images/181-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/181-960.webp",
+        "width": 960,
+        "height": 721
+      },
+      {
+        "path": "images/181-1600.webp",
+        "width": 1276,
+        "height": 958
+      }
+    ],
+    "original": "data/originals/works/leaping-trout/detail_181.jpg"
+  },
+  "182": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/182-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/182-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/182-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/leaping-trout/detail_182.jpg"
+  },
+  "183": {
+    "width": 1276,
+    "height": 958,
+    "variants": [
+      {
+        "path": "images/183-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/183-960.webp",
+        "width": 960,
+        "height": 721
+      },
+      {
+        "path": "images/183-1600.webp",
+        "width": 1276,
+        "height": 958
+      }
+    ],
+    "original": "data/originals/works/leaping-trout/detail_183.jpg"
+  },
+  "184": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/184-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/184-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/184-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/woodsman-and-fallen-tree/detail_184.jpg"
+  },
+  "185": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/185-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/185-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/185-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/woodsman-and-fallen-tree/detail_185.jpg"
+  },
+  "186": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/186-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/186-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/186-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/breaking-wave-prouts-neck/detail_186.jpg"
+  },
+  "187": {
+    "width": 1707,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "images/187-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/187-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/187-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/breaking-wave-prouts-neck/detail_187.jpg"
+  },
+  "188": {
+    "width": 1707,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "images/188-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/188-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/188-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/ouananiche-fishing-lake-st-john-province-of-quebec/detail_188.jpg"
+  },
+  "189": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/189-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/189-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/189-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/ouananiche-fishing-lake-st-john-province-of-quebec/detail_189.jpg"
+  },
+  "190": {
+    "width": 1707,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "images/190-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/190-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/190-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/an-afterglow/detail_190.jpg"
+  },
+  "191": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/191-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/191-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/191-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/an-afterglow/detail_191.jpg"
+  },
+  "192": {
+    "width": 1707,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "images/192-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/192-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/192-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/the-guide/detail_192.jpg"
+  },
+  "193": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/193-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/193-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/193-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/the-guide/detail_193.jpg"
+  },
+  "194": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/194-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/194-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/194-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/girl-with-red-stockings/detail_194.jpg"
+  },
+  "195": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/195-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/195-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/195-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/girl-with-red-stockings/detail_195.jpg"
+  },
+  "196": {
+    "width": 1707,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "images/196-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/196-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/196-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/fishing-for-ouananiche-lake-st-john-p-q-canada-no-2/detail_196.jpg"
+  },
+  "197": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/197-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/197-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/197-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/fishing-for-ouananiche-lake-st-john-p-q-canada-no-2/detail_197.jpg"
+  },
+  "198": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/198-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/198-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/198-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/the-sponge-diver/detail_198.jpg"
+  },
+  "199": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/199-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/199-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/199-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/the-sponge-diver/detail_199.jpg"
+  },
+  "201": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/201-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/201-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/201-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/adirondack-lake/detail_201.jpg"
+  },
+  "202": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/202-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/202-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/202-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/adirondack-lake/detail_202.jpg"
+  },
+  "203": {
+    "width": 1366,
+    "height": 1024,
+    "variants": [
+      {
+        "path": "images/203-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/203-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/203-1600.webp",
+        "width": 1366,
+        "height": 1024
+      }
+    ],
+    "original": "data/originals/works/grand-discharge-lake-st-john-province-of-quebec/detail_203.jpg"
+  },
+  "204": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/204-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/204-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/204-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/grand-discharge-lake-st-john-province-of-quebec/detail_204.jpg"
+  },
+  "206": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/206-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/206-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/206-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/driftwood/detail_206.jpg"
+  },
+  "207": {
+    "width": 1707,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "images/207-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/207-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/207-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/driftwood/detail_207.jpg"
+  },
+  "208": {
+    "width": 1707,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "images/208-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/208-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/208-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/two-boys-rowing/detail_208.jpg"
+  },
+  "209": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/209-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/209-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/209-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/two-boys-rowing/detail_209.jpg"
+  },
+  "210": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/210-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/210-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/210-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/boys-in-a-pasture/detail_210.jpg"
+  },
+  "211": {
+    "width": 1276,
+    "height": 958,
+    "variants": [
+      {
+        "path": "images/211-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/211-960.webp",
+        "width": 960,
+        "height": 721
+      },
+      {
+        "path": "images/211-1600.webp",
+        "width": 1276,
+        "height": 958
+      }
+    ],
+    "original": "data/originals/works/boys-in-a-pasture/detail_211.jpg"
+  },
+  "212": {
+    "width": 1340,
+    "height": 960,
+    "variants": [
+      {
+        "path": "images/212-480.webp",
+        "width": 480,
+        "height": 344
+      },
+      {
+        "path": "images/212-960.webp",
+        "width": 960,
+        "height": 688
+      },
+      {
+        "path": "images/212-1600.webp",
+        "width": 1340,
+        "height": 960
+      }
+    ],
+    "original": "data/originals/works/fisherman-s-family-the-lookout/detail_212.jpg"
+  },
+  "213": {
+    "width": 1276,
+    "height": 958,
+    "variants": [
+      {
+        "path": "images/213-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/213-960.webp",
+        "width": 960,
+        "height": 721
+      },
+      {
+        "path": "images/213-1600.webp",
+        "width": 1276,
+        "height": 958
+      }
+    ],
+    "original": "data/originals/works/fisherman-s-family-the-lookout/detail_213.jpg"
+  },
+  "214": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/214-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/214-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/214-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/the-dunes/detail_214.jpg"
+  },
+  "215": {
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "path": "images/215-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/215-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/215-1600.webp",
+        "width": 1280,
+        "height": 960
+      }
+    ],
+    "original": "data/originals/works/the-dunes/detail_215.jpg"
+  }
+}

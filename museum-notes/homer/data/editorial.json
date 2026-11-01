@@ -1,0 +1,86 @@
+{
+  "title": "光与空气之间",
+  "subtitle": "温斯洛·霍默的水彩世界",
+  "intro": [
+    "我喜欢徒步、爬山，也喜欢划船。北美的森林、湖泊与海洋，是我愿意反复走近的地方。在休斯顿美术馆看霍默的画时，最打动我的，也是那种置身自然之中的感觉。",
+    "独木舟有时只占湖面的一点颜色，人也未必能掌握眼前的水势。多次走进这场展览之后，我把照片收拢在这里：从田野与海岸看起，走进山林，再回到浪边。想慢慢重看的，不只是他画了什么，还有人怎样在其中停留。"
+  ],
+  "exhibition": "Of Light and Air: Winslow Homer from the Museum of Fine Arts, Boston",
+  "dates": "2026年11月1日—2027年2月7日",
+  "sources": [
+    {
+      "id": "mfah",
+      "title": "MFAH：展览正式页面与休斯顿展期",
+      "url": "https://www.mfah.org/art/exhibitions/of-light-and-air-winslow-homer-from-the-mfa-boston"
+    },
+    {
+      "id": "press",
+      "title": "MFAH：展览介绍（2026年7月7日）",
+      "url": "https://www.mfah.org/press/mfah-presents-watercolors-of-winslow-homer-from-renowned-holdings-of-mfa-boston"
+    },
+    {
+      "id": "boston",
+      "title": "MFA Boston：Of Light and Air: Winslow Homer in Watercolor",
+      "url": "https://www.mfa.org/exhibition/of-light-and-air-winslow-homer-in-watercolor"
+    },
+    {
+      "id": "natural-earth",
+      "title": "Natural Earth：公有领域地图数据与使用说明",
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/"
+    }
+  ],
+  "gallery": [
+    {
+      "photo": 1,
+      "caption": "休斯顿美术馆 · 展览入口 · Merton摄"
+    },
+    {
+      "photo": 120,
+      "caption": "展厅之间的通道与深绿色展墙 · Merton摄"
+    },
+    {
+      "photo": 124,
+      "caption": "山林与独木舟题材在展厅中的陈列 · Merton摄"
+    }
+  ],
+  "materials": [
+    {
+      "photo": 116,
+      "caption": "Winsor & Newton水彩盒，约1841—1855年 · 休斯顿美术馆，2021.402 · Merton摄"
+    },
+    {
+      "photo": 118,
+      "caption": "John Scott Taylor，1887年水彩材料手册中的色样 · Hirsch Library，LIB.874 · 展柜现场摄影／Merton"
+    }
+  ],
+  "material_text": "留白、罩染、提色与刮擦，让同一张纸有了不同的光。《沙丘》衣裙的亮处来自未着色的纸，《眺望港湾》的花朵则用不透明白色点出；《跃起的鳟鱼》又以吸除和刮去颜料制造亮痕。展厅里的便携水彩盒与色样，补上了这些画背后的材料环境。盒子是同时代用品，并非已确认的霍默自用物。",
+  "comparisons": [
+    {
+      "id": "boats",
+      "title": "舟行与静观",
+      "works": [
+        11,
+        62
+      ],
+      "text": "《蓝色小舟》让我们靠近舟中人，浓蓝船身与反光划过前景；《阿迪朗达克湖》把舟缩小，大片树影包围它。两幅都有人在水上，距离却改变了风景的重心。"
+    },
+    {
+      "id": "waves",
+      "title": "同一片浪，不同的位置",
+      "works": [
+        74,
+        72
+      ],
+      "text": "水彩《碎浪》几乎把全部空间交给翻卷的海水；二十二年后的油画《漂木》，在岸边留下一个用力的人。浅色与深色如何交错，也随材料而改变。"
+    },
+    {
+      "id": "tonality",
+      "title": "从浓色到灰调",
+      "works": [
+        46,
+        64
+      ],
+      "text": "早期的草坡堆着浓色与白花，后来的湖面近乎单色。两幅画都安排人物面向远处，纸上的光却走了不同的路。"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "adirondacks",
+    "name": "Adirondack Mountains, New York",
+    "lat": 44.0,
+    "lon": -74.1,
+    "precision": "regional",
+    "description": "Wilderness and canoe journeys; marker is regional, not an artwork creation coordinate."
+  },
+  {
+    "id": "lake-st-jean",
+    "name": "Lac Saint-Jean, Québec",
+    "lat": 48.55,
+    "lon": -71.73,
+    "precision": "regional",
+    "description": "Canadian fishing scenes; lake-scale approximate marker."
+  },
+  {
+    "id": "mashteuiatsh",
+    "name": "Mashteuiatsh / Pointe-Bleue, Québec",
+    "lat": 48.58,
+    "lon": -72.23,
+    "precision": "town",
+    "description": "Innu community named in historical painting title; marker approximate."
+  },
+  {
+    "id": "quebec",
+    "name": "Québec (region)",
+    "lat": 47.0,
+    "lon": -71.6,
+    "precision": "regional",
+    "description": "Guide from Quebec; precise artwork site unverified."
+  },
+  {
+    "id": "maine",
+    "name": "Prouts Neck and southern Maine coast",
+    "lat": 43.53,
+    "lon": -70.32,
+    "precision": "regional",
+    "description": "For Prouts Neck paintings; other Maine coast paintings have uncertain precise sites."
+  },
+  {
+    "id": "gloucester",
+    "name": "Gloucester, Massachusetts",
+    "lat": 42.61,
+    "lon": -70.66,
+    "precision": "city",
+    "description": "Gloucester harbor and fleet."
+  },
+  {
+    "id": "england",
+    "name": "Cullercoats and North East England",
+    "lat": 55.03,
+    "lon": -1.43,
+    "precision": "regional",
+    "description": "English fisherfolk subjects; specific painting scenes may vary."
+  },
+  {
+    "id": "bridlington",
+    "name": "Bridlington, England",
+    "lat": 54.08,
+    "lon": -0.2,
+    "precision": "town",
+    "description": "Bridlington Quay subject."
+  },
+  {
+    "id": "flamborough",
+    "name": "Flamborough Head, England",
+    "lat": 54.12,
+    "lon": -0.08,
+    "precision": "regional",
+    "description": "Storm on English Coast subject."
+  },
+  {
+    "id": "santiago",
+    "name": "Santiago de Cuba, Cuba",
+    "lat": 20.02,
+    "lon": -75.83,
+    "precision": "city",
+    "description": "Cuban city street and customs house."
+  },
+  {
+    "id": "bahamas",
+    "name": "Nassau / Fox Hill, New Providence, Bahamas",
+    "lat": 25.04,
+    "lon": -77.29,
+    "precision": "regional",
+    "description": "Fox Hill and Bahamian work; sponge diver not site-specific."
+  },
+  {
+    "id": "bermuda",
+    "name": "Bermuda",
+    "lat": 32.3,
+    "lon": -64.75,
+    "precision": "island",
+    "description": "Rocky Shore subject."
+  },
+  {
+    "id": "florida",
+    "name": "Florida",
+    "lat": 27.5,
+    "lon": -81.5,
+    "precision": "state",
+    "description": "Palm Trees/Thornhill Bar; no exact location established."
+  },
+  {
+    "id": "everglades",
+    "name": "Everglades, Florida",
+    "lat": 25.86,
+    "lon": -80.8,
+    "precision": "regional",
+    "description": "Hunter in the Everglades."
+  },
+  {
+    "id": "lake-george",
+    "name": "Lake George, New York",
+    "lat": 43.5,
+    "lon": -73.7,
+    "precision": "regional",
+    "description": "Early graphite study."
+  },
+  {
+    "id": "new-york-state",
+    "name": "New York State countryside",
+    "lat": 42.9,
+    "lon": -74.0,
+    "precision": "state",
+    "description": "Pastoral group; avoid interpreting pin as exact site."
+  },
+  {
+    "id": "new-england",
+    "name": "New England coast (unspecified)",
+    "lat": 42.7,
+    "lon": -70.5,
+    "precision": "regional",
+    "description": "Approximate group anchor only."
+  },
+  {
+    "id": "north-atlantic",
+    "name": "North Atlantic (unspecified)",
+    "lat": 43.0,
+    "lon": -68.0,
+    "precision": "conceptual",
+    "description": "Do not map as precise work location."
+  },
+  {
+    "id": "civil-war",
+    "name": "American Civil War (multiple places)",
+    "lat": 38.5,
+    "lon": -77.0,
+    "precision": "conceptual",
+    "description": "Multiple battle/camp sites; do not show as a precise location."
+  },
+  {
+    "id": "uncertain",
+    "name": "Location not established",
+    "lat": null,
+    "lon": null,
+    "precision": "unknown",
+    "description": "No map marker."
+  }
+]

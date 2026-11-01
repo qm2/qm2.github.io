@@ -1,0 +1,143 @@
+[
+  {
+    "id": "adirondacks",
+    "name": "Adirondack Mountains, New York",
+    "lat": 44.0,
+    "lon": -74.1,
+    "precision": "regional",
+    "description": "Wilderness and canoe journeys; marker is regional, not an artwork creation coordinate.",
+    "name_cn": "阿迪朗达克山脉",
+    "text": "森林与独木舟在纽约州北部相遇。小舟、向导与深色林影，是这一章反复重看的线索。",
+    "works": [
+      11,
+      62,
+      17
+    ],
+    "section": "woods"
+  },
+  {
+    "id": "lake-st-jean",
+    "name": "Lac Saint-Jean, Québec",
+    "lat": 48.55,
+    "lon": -71.73,
+    "precision": "regional",
+    "description": "Canadian fishing scenes; lake-scale approximate marker.",
+    "name_cn": "圣让湖与魁北克",
+    "text": "湖区的垂钓、出口急流与向导生活。布卢角的另一幅画呈现因努社群，树皮舟也是当地生活的一部分。",
+    "works": [
+      56,
+      58,
+      66,
+      68
+    ],
+    "section": "wildlife"
+  },
+  {
+    "id": "maine",
+    "name": "Prouts Neck and southern Maine coast",
+    "lat": 43.53,
+    "lon": -70.32,
+    "precision": "regional",
+    "description": "For Prouts Neck paintings; other Maine coast paintings have uncertain precise sites.",
+    "name_cn": "缅因州南部海岸",
+    "text": "普劳茨岬的浪与岩石，以及邻近海岸的沙丘生活。这里的标记代表海岸区域。",
+    "works": [
+      74,
+      72,
+      9
+    ],
+    "section": "finale"
+  },
+  {
+    "id": "gloucester",
+    "name": "Gloucester, Massachusetts",
+    "lat": 42.61,
+    "lon": -70.66,
+    "precision": "city",
+    "description": "Gloucester harbor and fleet.",
+    "name_cn": "格洛斯特",
+    "text": "港湾、渔船与小艇。海面既是劳动场所，也出现在孩子的日常与游戏里。",
+    "works": [
+      128,
+      48,
+      134
+    ],
+    "section": "coast"
+  },
+  {
+    "id": "england",
+    "name": "Cullercoats and North East England",
+    "lat": 55.03,
+    "lon": -1.43,
+    "precision": "regional",
+    "description": "English fisherfolk subjects; specific painting scenes may vary.",
+    "name_cn": "英格兰东北部海岸",
+    "text": "卡勒科茨、泰恩茅斯与更南面的布里德灵顿等海岸，留下渔民家庭、船帆和等待的身影。",
+    "works": [
+      7,
+      144,
+      76
+    ],
+    "section": "coast"
+  },
+  {
+    "id": "santiago",
+    "name": "Santiago de Cuba, Cuba",
+    "lat": 20.02,
+    "lon": -75.83,
+    "precision": "city",
+    "description": "Cuban city street and customs house.",
+    "name_cn": "古巴圣地亚哥",
+    "text": "两幅城市水彩围绕街角和海关建筑展开，暖色墙面把光与阴影分成清楚的块面。",
+    "works": [
+      78,
+      173
+    ],
+    "section": "caribbean"
+  },
+  {
+    "id": "bahamas",
+    "name": "Nassau / Fox Hill, New Providence, Bahamas",
+    "lat": 25.04,
+    "lon": -77.29,
+    "precision": "regional",
+    "description": "Fox Hill and Bahamian work; sponge diver not site-specific.",
+    "name_cn": "巴哈马",
+    "text": "福克斯山的黑人社区与海上采海绵劳动，提醒人们阳光下也有不同的生活处境。",
+    "works": [
+      154,
+      165
+    ],
+    "section": "caribbean"
+  },
+  {
+    "id": "bermuda",
+    "name": "Bermuda",
+    "lat": 32.3,
+    "lon": -64.75,
+    "precision": "island",
+    "description": "Rocky Shore subject.",
+    "name_cn": "百慕大",
+    "text": "岩岸、水面与近处小小的人物，在岛屿的蓝绿色海景中相互映衬。",
+    "works": [
+      159
+    ],
+    "section": "caribbean"
+  },
+  {
+    "id": "florida",
+    "name": "Florida",
+    "lat": 27.5,
+    "lon": -81.5,
+    "precision": "state",
+    "description": "Palm Trees/Thornhill Bar; no exact location established.",
+    "name_cn": "佛罗里达",
+    "text": "从棕榈到湿地：州级标记涵盖不同地点，大沼泽地与索恩希尔沙洲并非同一处风景。",
+    "works": [
+      161,
+      157,
+      163
+    ],
+    "section": "caribbean"
+  }
+]

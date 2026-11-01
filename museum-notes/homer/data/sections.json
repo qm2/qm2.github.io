@@ -1,0 +1,51 @@
+[
+  {
+    "id": "origins",
+    "title": "从战地报道到水彩实验",
+    "en": "Origins and Experiments",
+    "theme": "Early drawings, graphic design and oil studies, 1860s; a concise prologue.",
+    "intro": "从一张战地速写到一块蚀刻版，线条、明暗与叙事先在不同材料间试探。这里从两件较早的作品看起，再走向水彩中的乡间和水面。"
+  },
+  {
+    "id": "pastoral",
+    "title": "乡间的阳光",
+    "en": "Pastoral Years",
+    "theme": "Children, fields, paper whites, and the emergence of watercolor, 1870s.",
+    "intro": "草坡上的孩子、田间的牛羊、午餐时响起的号角。霍默在1870年代反复画这些日常，也在水彩里尝试浓色、纸白与刮擦留下的亮痕。"
+  },
+  {
+    "id": "coast",
+    "title": "海岸与人",
+    "en": "Atlantic Shores",
+    "theme": "Gloucester and English fisherfolk, sea-facing life and light, 1880s.",
+    "intro": "从格洛斯特的小艇到英格兰的渔民家庭，水边有游戏，也有等待和工作。同样的风，可以鼓起帆，也可以把衣裙吹向身体的一侧。"
+  },
+  {
+    "id": "woods",
+    "title": "林深处，舟行时",
+    "en": "The North Woods",
+    "theme": "Adirondacks and Québec, canoe journeys, guides and forests; personal essay center.",
+    "intro": "我喜欢徒步、爬山，也喜欢划船。看这些画时，最让我停下来的，是人并未离开风景，却也没有占据它：一条舟、一支桨、一段树影，足以让人感到自己正在其中。"
+  },
+  {
+    "id": "wildlife",
+    "title": "流水、鱼与生命",
+    "en": "Fish, Wildlife and River Currents",
+    "theme": "Action, hunting ethics and flowing water, 1889–1902.",
+    "intro": "平静的湖水会翻成急流，鱼会跃出水面，狩猎也会留下死亡。这里不只有野外活动的自由，还有人与其他生命相遇时不那么轻松的一面。"
+  },
+  {
+    "id": "caribbean",
+    "title": "南方的光",
+    "en": "Florida and the Caribbean",
+    "theme": "Florida, Bahamas, Bermuda and Cuba; show stylistic change and historical context.",
+    "intro": "棕榈、白船和浅色墙壁改变了纸上的光。向南看去，风景里仍有人在维生、行走与工作；明亮的颜色没有消除他们所处的社会差异。"
+  },
+  {
+    "id": "finale",
+    "title": "浪与时间",
+    "en": "Turn, Turn, Tumble",
+    "theme": "Breaking Wave versus Driftwood; end with visual comparison, no invented authorial intent.",
+    "intro": "最后回到海边。把1887年的水彩与1909年的油画放在一起，浪的运动相似，人的位置却变了。画面可以停住，水势似乎仍在继续。"
+  }
+]
