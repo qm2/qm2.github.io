@@ -11,7 +11,7 @@ def build():
     read=lambda name:json.loads((BASE/'data'/f'{name}.json').read_text())
     works=read('works');photos=read('photos');pby={p['id']:p for p in photos};by={w['photo']:w for w in works};edit=read('editorial');sections=read('sections');regions=read('map');land=json.loads((BASE/'data/ne_110m_land.geojson').read_text())
     selected=[w for w in works if w['presentation']!='archive']
-    assert len(works)==67 and len(photos)==215 and len(selected)==33
+    assert len(works)==67 and len(photos)==215 and len(selected)==35
     used={w['display_photo'] for w in works}|{n for w in works for n in w['detail_photos']}|{p['photo'] for p in edit['gallery']+edit['materials']}|{edit['hero']['photo']}|{p['photo'] for p in edit['techniques'] if isinstance(p['photo'],int)}
     (BASE/'images').mkdir(exist_ok=True)
     manifest={}
@@ -50,8 +50,8 @@ def build():
     def sources(w,prefix=''):
         return f'<p class="hm-source">作品信息与文中展签说明据<a href="{prefix}{pby[w["label"]]["original"]}" target="_blank" rel="noopener">现场展签 ↗</a>。</p>'
     def details(w,prefix=''):
-        return '<details class="hm-details"><summary>走近看局部</summary><div class="hm-details-grid">'+''.join(figure(n,w['title_cn']+' · '+detail_caption.get(n,'局部'),prefix,small=True) for n in w['detail_photos'])+'</div></details>' if w['detail_photos'] else ''
-    detail_caption={179:'局部：舟中人、船身与倒影',181:'局部：跃鱼与暗水',182:'局部：鱼头与鳞纹',183:'局部：叶片与水面色痕',185:'局部：林中人与倒木枝杈',187:'局部：浪顶与泡沫',189:'局部：跃鱼、钓者与鱼线',191:'局部：船间的人物',193:'局部：向导与独木舟',195:'局部：提篮女子与海浪',197:'局部：舟中人和跃鱼',199:'局部：潜水者的肩背与海绵',202:'局部：小舟、钓线与树影',204:'局部：急流的浅色浪沫与暗水',207:'局部：岸边人物、漂木与海浪',209:'局部：两名男孩与小艇',211:'局部：草地上的两个男孩',213:'局部：崖边的一家人',215:'局部：沙丘上的两名女子'}
+        return f'<details class="hm-details"><summary>{"完整照片与局部" if w["photo"] in [50,146,76] else "走近看局部"}</summary><div class="hm-details-grid">'+''.join(figure(n,w['title_cn']+' · '+detail_caption.get(n,'局部'),prefix,small=True) for n in w['detail_photos'])+'</div></details>' if w['detail_photos'] else ''
+    detail_caption={50:'完整构图与画框',146:'完整构图与画框',141:'完整构图（另次拍摄）',179:'局部：舟中人、船身与倒影',181:'局部：跃鱼与暗水',182:'局部：鱼头与鳞纹',183:'局部：叶片与水面色痕',185:'局部：林中人与倒木枝杈',187:'局部：浪顶与泡沫',189:'局部：跃鱼、钓者与鱼线',191:'局部：船间的人物',193:'局部：向导与独木舟',195:'局部：提篮女子与海浪',197:'局部：舟中人和跃鱼',199:'局部：潜水者的肩背与海绵',202:'局部：小舟、钓线与树影',204:'局部：急流的浅色浪沫与暗水',207:'局部：岸边人物、漂木与海浪',209:'局部：两名男孩与小艇',211:'局部：草地上的两个男孩',213:'局部：崖边的一家人',215:'局部：沙丘上的两名女子'}
     def mini(w,prefix='',anchor=False):
         href=prefix+(('#work-'+w['slug']) if anchor and w in selected else w['slug']+'/')
         return f'<a class="hm-mini" href="{href}">{image(w["display_photo"],w["title_cn"]+" · 现场整幅照片",prefix,small="thumb")}<span>{e(w["title_cn"])}<small>{date(w)} · {e(w["title"])}</small></span></a>'
@@ -61,6 +61,9 @@ def build():
     def comparison(g):
         return f'<section class="compare-group hm-compare" id="compare-{g["id"]}"><p class="eyebrow">SIDE BY SIDE</p><h3>{e(g["title"])}</h3><p class="hm-prose">{e(g["text"])}</p><div class="hm-pair">'+''.join(figure(by[n]['display_photo'],caption(by[n])) for n in g['works'])+'</div><p class="hm-source">整幅现场照片；未按原作尺寸等比例排列。'+ ' · '.join(f'<a href="{by[n]["slug"]}/">{e(by[n]["title_cn"])}札记 →</a>' for n in g['works'])+'</p></section>'
     intro=f'<nav class="breadcrumbs" aria-label="当前位置"><a href="../">博物馆札记</a><span>/</span><span>美国绘画 · 霍默</span></nav><header class="hm-heading"><p class="eyebrow">WINSLOW HOMER / OF LIGHT AND AIR</p><h1>{edit["title"]}<span>{edit["subtitle"]}</span></h1></header>'+figure(edit['hero']['photo'],edit['hero']['caption'],high=True,cls='hm-hero')+'<div class="hm-intro">'+''.join(f'<p>{e(p)}</p>' for p in edit['intro'])+f'<p class="hm-source">{e(edit["exhibition"])}<br>休斯顿美术馆（MFAH） · {edit["dates"]}<br>由波士顿美术馆（MFA Boston）组织，休斯顿展出。<a href="#source-mfah">展览资料 [1]</a></p></div>'
+    favorites='<section class="hm-favorites" id="favorites" aria-labelledby="favorites-title"><h2 id="favorites-title">'+e(edit['favorites']['title'])+'</h2><p>'+e(edit['favorites']['intro'])+'</p><nav class="hm-favorite-index" aria-label="五幅私心最爱，跳至作品">'+''.join(mini(by[n],anchor=True) for n in edit['favorites']['works'])+'</nav></section>'
+    def related(w,prefix=''):
+        return '<p class="hm-more">相互参看：'+ ' · '.join(f'<a href="{prefix}{by[n]["slug"]}/">{e(by[n]["title_cn"])}</a>' for n in w['related_works'])+'</p>' if w.get('related_works') else ''
     # Static geographic SVG, enhanced by local JS. Natural Earth land only; no external tile requests.
     def svg_map(view):
         bounds=(-90,10,12,65) if view=='atlantic' else (-79,-64,39,52)
@@ -97,10 +100,12 @@ def build():
             featured=w.get('featured',False)
             cls='hm-featured' if featured else 'hm-editorial'
             # The introduction to a work on the chapter page is distinct from its close reading.
-            chapters+=f'<article class="hm-work {cls}" id="work-{w["slug"]}" data-presentation="{w["presentation"]}"><header><h3><a href="{w["slug"]}/">{e(w["title_cn"])}</a></h3><p class="hm-original">{e(w["title"])} · {date(w)}</p></header>'
+            favorite_note='<p class="hm-personal-note">私心最爱</p>' if w.get('personal_favorite') else ''
+            chapters+=f'<article class="hm-work {cls}" id="work-{w["slug"]}" data-presentation="{w["presentation"]}"><header>{favorite_note}<h3><a href="{w["slug"]}/">{e(w["title_cn"])}</a></h3><p class="hm-original">{e(w["title"])} · {date(w)}</p></header>'
             chapters+=figure(w['display_photo'],w['material_cn']+' · '+w['collection'],small=not featured,context=w['title_cn']+' · '+date(w)+' · ')
             chapters+='<div class="hm-work-note"><p class="hm-prose">'+e(w['home_note'])+'</p>'
             chapters+=f'<p class="hm-more"><a href="{w["slug"]}/">细读与完整资料 →</a> · <a href="{pby[w["label"]]["original"]}" target="_blank" rel="noopener">现场展签 ↗</a></p></div>'
+            chapters+=related(w)
             if featured and w['photo']!=11:chapters+=details(w)
             chapters+='</article>'
         chapters+='</div>'
@@ -117,15 +122,15 @@ def build():
         w=by[t['work']]
         materials+=f'<article class="hm-technique" id="technique-{t["id"]}"><h3>{e(t["title"])}</h3>'+figure(t['photo'],t['caption'],small=True)+'<p>'+e(t['text'])+f'</p><p class="hm-more"><a href="{w["slug"]}/">完整构图与札记 →</a> · <a href="{pby[w["label"]]["original"]}" target="_blank" rel="noopener">展签依据 ↗</a></p></article>'
     materials+='</div><details class="hm-details"><summary>展厅里的水彩材料</summary><p class="hm-prose">便携水彩盒与色样补上了材料环境；盒子是同时代用品，并非已确认的霍默自用物。</p><div class="hm-pair">'+''.join(figure(p['photo'],p['caption'],small=True) for p in edit['materials'])+'</div><p class="hm-source">材料信息据现场说明：'+ ' · '.join(f'<a href="{pby[n]["original"]}">水彩{t}展签 ↗</a>' for n,t in [(117,'盒'),(119,'色样')])+'</p></details></section>'
-    end='<details class="hm-details hm-exhibition"><summary>展厅之间</summary><div class="hm-details-grid">'+''.join(figure(p['photo'],p['caption'],small=True) for p in edit['gallery'])+'</div></details>'+'<section class="hm-section hm-sources" id="sources"><h2>资料与这份观看记录</h2><p>作品与现场摄影由作者拍摄记录；作品信息据现场展签及馆方说明整理。画面细读与个人感受是这份札记的阅读，文中“展签指出”等表述另标明依据。</p><p>中文题名作阅读译名，英文题名保留展签写法。展览由波士顿美术馆组织，休斯顿展场还包括本馆与私人收藏借展；各件收藏归属分别列在图注与作品页。</p><ol>'+''.join(f'<li id="source-{s["id"]}"><a href="{e(s["url"])}" target="_blank" rel="noopener">{e(s["title"])} ↗</a></li>' for s in edit['sources'])+'</ol><p class="hm-source">2026年11月整理 · 215张现场照片归为67条作品／成组记录，正文选取33件。本站未使用馆方作品图片或图录复制图。</p></section>'
-    (BASE/'index.html').write_text(shell(edit['title']+'｜'+edit['subtitle'],intro+map_html+nav+chapters+materials+catalogue+end))
+    end='<details class="hm-details hm-exhibition"><summary>展厅之间</summary><div class="hm-details-grid">'+''.join(figure(p['photo'],p['caption'],small=True) for p in edit['gallery'])+'</div></details>'+'<section class="hm-section hm-sources" id="sources"><h2>资料与这份观看记录</h2><p>作品与现场摄影由作者拍摄记录；作品信息据现场展签及馆方说明整理。画面细读与个人感受是这份札记的阅读，文中“展签指出”等表述另标明依据。</p><p>中文题名作阅读译名，英文题名保留展签写法。展览由波士顿美术馆组织，休斯顿展场还包括本馆与私人收藏借展；各件收藏归属分别列在图注与作品页。</p><ol>'+''.join(f'<li id="source-{s["id"]}"><a href="{e(s["url"])}" target="_blank" rel="noopener">{e(s["title"])} ↗</a></li>' for s in edit['sources'])+'</ol><p class="hm-source">2026年11月整理 · 215张现场照片归为67条作品／成组记录，正文选取35件。本站未使用馆方作品图片或图录复制图。</p></section>'
+    (BASE/'index.html').write_text(shell(edit['title']+'｜'+edit['subtitle'],intro+favorites+map_html+nav+chapters+materials+catalogue+end))
     for w in works:
         fields=[('作者／制作者',w['artist']),('年代',date(w)),('媒介',w['material_cn']),('展签原文',w['medium']),('收藏',w['collection']),('编号',w['accession'] or '展签未列'),('观看地点','休斯顿美术馆 · Of Light and Air')]
         if w['credit']:fields.append(('入藏来源',w['credit']))
         body=f'<nav class="breadcrumbs" aria-label="当前位置"><a href="../../">博物馆札记</a><span>/</span><a href="../">霍默</a><span>/</span><span>{e(w["title_cn"])}</span></nav><header class="hm-heading hm-work-heading"><p class="eyebrow">WINSLOW HOMER / LOOK CLOSER</p><h1>{e(w["title_cn"])}</h1><p class="hm-original">{e(w["title"])}</p></header>'+figure(w['display_photo'],caption(w),'../',high=True)+'<div class="hm-work-reading"><dl class="hm-facts">'+''.join(f'<div><dt>{k}</dt><dd>{e(v)}</dd></div>' for k,v in fields)+'</dl>'
         if w['paragraphs']:body+='<section class="hm-prose"><h2>在画前</h2>'+''.join(f'<p>{e(t)}</p>' for t in w['paragraphs'])+'</section>'
         if w.get('record_note'):body+='<p class="hm-prose">'+e(w['record_note'])+'</p>'
-        body+=sources(w,'../')+details(w,'../')+'</div>'
+        body+=sources(w,'../')+related(w,'../')+details(w,'../')+'</div>'
         siblings=[a for a in selected if a['section']==w['section'] and a!=w][:3]
         body+='<section class="hm-section"><h2>继续看这一章</h2><div class="hm-region-works">'+''.join(mini(a,'../') for a in siblings)+f'</div><a class="text-link" href="../#{w["section"]}">返回章节 →</a> · <a href="../#catalogue">完整观展目录 →</a></section>'
         dest=BASE/w['slug'];dest.mkdir(exist_ok=True);(dest/'index.html').write_text(shell(w['title_cn']+' · 霍默',body,1))

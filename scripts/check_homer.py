@@ -6,9 +6,9 @@ import hashlib,json,re
 ROOT=Path(__file__).resolve().parents[1];BASE=ROOT/'museum-notes/homer'
 load=lambda n:json.loads((BASE/'data'/f'{n}.json').read_text())
 w=load('works');p=load('photos');d=load('derivatives');s=load('editorial_shortlist')
-assert len(w)==67 and len(p)==215 and len(s)==33
-assert sum(a['presentation']=='deep-dive' for a in w)==12
-assert sum(a['presentation']=='gallery-card' for a in w)==21
+assert len(w)==67 and len(p)==215 and len(s)==35
+assert sum(a['presentation']=='deep-dive' for a in w)==15
+assert sum(a['presentation']=='gallery-card' for a in w)==20
 assert {a['slug'] for a in s}=={a['slug'] for a in w if a['presentation']!='archive'}
 pb={a['id']:a for a in p};wb={a['photo']:a for a in w}
 for photo in p:
@@ -58,13 +58,13 @@ for row in d.values():
  for v in row['variants']:
   assert (BASE/v['path']).is_file();assert v['width']<=row['width']
 assert len(parsed)==68
-print(f'Homer checks passed: 215 unchanged originals, 67 matched records, 33 selected (12/21), {len(parsed)} pages, {len(d)} responsive photo sets; local links and corrections checked.')
+print(f'Homer checks passed: 215 unchanged originals, 67 matched records, 35 selected (15/20), {len(parsed)} pages, {len(d)} responsive photo sets; local links and corrections checked.')
 
 edit=load('editorial');sections=load('sections')
 assert edit['hero']['photo']==179 and wb[11]['display_photo']==11
-assert {a['photo'] for a in w if a.get('featured')}=={11,62,3,17,58,74,72}
+assert {a['photo'] for a in w if a.get('featured')}=={11,62,3,17,58,74,72,50,146,76,56}
 assert len(sections)==7 and sections[0]['works']==[95,13,46]
-assert len({n for section in sections for n in section['works']})==33
+assert len({n for section in sections for n in section['works']})==35
 assert wb[15]['section']=='finale'
 assert len(edit['techniques'])==4
 from PIL import Image,ImageOps
@@ -72,4 +72,12 @@ for crop in edit['crops']:
  row=d[crop['id']];source=ImageOps.exif_transpose(Image.open(BASE/row['source_original'])).convert('RGB')
  actual=Image.open(BASE/row['original']).convert('RGB')
  assert actual.tobytes()==source.crop(tuple(row['crop_box'])).tobytes(),crop['id']
-print('Refinement checks passed: 33 selections, seven featured works, four technique examples; lossless editorial crops match unchanged originals.')
+print('Refinement checks passed: 35 selections, eleven featured works, four technique examples; lossless editorial crops match unchanged originals.')
+
+assert edit['favorites']['works']==[11,76,56,146,50]
+assert wb[56]['year']=='1897' and wb[56]['display_photo']==188 and 52 not in edit['favorites']['works']
+assert wb[50]['medium']=='Oil on canvas' and wb[50]['accession']=='53.2552' and wb[50]['display_photo']==210
+assert wb[146]['year']=='1882' and wb[146]['accession']=='48.727' and wb[146]['display_photo']==194
+assert wb[50]['photo'] in wb[50]['detail_photos'] and wb[146]['photo'] in wb[146]['detail_photos']
+assert all(wb[n].get('featured') and wb[n].get('personal_favorite') for n in edit['favorites']['works'])
+print('Personal selection checked: five distinct works, 1897 fishing scene, two new featured works and their original views.')

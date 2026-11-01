@@ -61,3 +61,14 @@
  .hm-heading:has(+ .hm-hero) .eyebrow{margin-bottom:8px}
  .hm-hero{width:min(100%,1000px,calc(max(350px,100svh - 400px) * var(--ratio)))}
 }
+/* An unnumbered personal index; existing chapter plates retain their proportions. */
+.hm-favorites{border-top:1px solid var(--line);padding:30px 0 36px;margin:0 0 20px}
+.hm-favorites h2{font-size:27px;margin:0 0 12px}.hm-favorites>p{font-size:14px;color:var(--muted);margin:0 0 25px}
+.hm-favorite-index{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:24px}
+.hm-favorite-index .hm-mini img{height:150px;object-fit:contain;object-position:center bottom;margin-bottom:12px}
+.hm-favorite-index .hm-mini{font-family:var(--serif);font-size:16px}
+.hm-favorite-index .hm-mini small{font-family:var(--sans);font-size:10px;line-height:1.6}
+.hm-personal-note{font-size:12px;letter-spacing:.12em;color:var(--accent);margin:0 0 10px}
+.hm-featured>.hm-more{max-width:780px;margin:12px auto 0}
+@media(max-width:900px){.hm-favorite-index{gap:18px}.hm-favorite-index .hm-mini img{height:110px}}
+@media(max-width:650px){.hm-favorites{padding:24px 0}.hm-favorite-index{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 18px}.hm-favorite-index .hm-mini img{height:118px}.hm-favorite-index .hm-mini{font-size:15px}}

@@ -8,7 +8,8 @@
     "order": 1,
     "section": "origins",
     "presentation": "gallery-card",
-    "featured": false
+    "featured": false,
+    "personal_favorite": false
   },
   {
     "order": 2,
@@ -22,7 +23,8 @@
     "image": "assets/works/playing-old-soldier/main.jpg",
     "label": "assets/works/playing-old-soldier/label.jpg",
     "details": [],
-    "featured": false
+    "featured": false,
+    "personal_favorite": false
   },
   {
     "order": 3,
@@ -36,7 +38,8 @@
     "image": "assets/works/watching-the-harbor/main.jpg",
     "label": "assets/works/watching-the-harbor/label.jpg",
     "details": [],
-    "featured": false
+    "featured": false,
+    "personal_favorite": false
   },
   {
     "order": 4,
@@ -50,10 +53,26 @@
     "image": "assets/works/the-dinner-horn/main.jpg",
     "label": "assets/works/the-dinner-horn/label.jpg",
     "details": [],
-    "featured": false
+    "featured": false,
+    "personal_favorite": false
   },
   {
+    "slug": "boys-in-a-pasture",
+    "title": "Boys in a Pasture",
+    "image": "assets/works/boys-in-a-pasture/detail_210.jpg",
+    "label": "assets/works/boys-in-a-pasture/label.jpg",
+    "details": [
+      "assets/works/boys-in-a-pasture/detail_210.jpg",
+      "assets/works/boys-in-a-pasture/detail_211.jpg"
+    ],
     "order": 5,
+    "section": "pastoral",
+    "presentation": "deep-dive",
+    "featured": true,
+    "personal_favorite": true
+  },
+  {
+    "order": 6,
     "slug": "driving-cows-to-pasture",
     "title": "Driving Cows to Pasture",
     "section": "pastoral",
@@ -64,10 +83,11 @@
     "image": "assets/works/driving-cows-to-pasture/main.jpg",
     "label": "assets/works/driving-cows-to-pasture/label.jpg",
     "details": [],
-    "featured": false
+    "featured": false,
+    "personal_favorite": false
   },
   {
-    "order": 6,
+    "order": 7,
     "slug": "sheep-and-cattle",
     "title": "Sheep and Cattle",
     "section": "pastoral",
@@ -78,10 +98,11 @@
     "image": "assets/works/sheep-and-cattle/main.jpg",
     "label": "assets/works/sheep-and-cattle/label.jpg",
     "details": [],
-    "featured": false
+    "featured": false,
+    "personal_favorite": false
   },
   {
-    "order": 7,
+    "order": 8,
     "slug": "three-boys-on-a-beached-dory",
     "title": "Three Boys on a Beached Dory",
     "section": "coast",
@@ -92,10 +113,11 @@
     "image": "assets/works/three-boys-on-a-beached-dory/main.jpg",
     "label": "assets/works/three-boys-on-a-beached-dory/label.jpg",
     "details": [],
-    "featured": false
+    "featured": false,
+    "personal_favorite": false
   },
   {
-    "order": 8,
+    "order": 9,
     "slug": "two-boys-rowing",
     "title": "Two Boys Rowing",
     "section": "coast",
@@ -109,10 +131,11 @@
       "assets/works/two-boys-rowing/detail_208.jpg",
       "assets/works/two-boys-rowing/detail_209.jpg"
     ],
-    "featured": false
+    "featured": false,
+    "personal_favorite": false
   },
   {
-    "order": 9,
+    "order": 10,
     "slug": "fisherman-s-family-the-lookout",
     "title": "Fisherman's Family (The Lookout)",
     "section": "coast",
@@ -126,10 +149,11 @@
       "assets/works/fisherman-s-family-the-lookout/detail_212.jpg",
       "assets/works/fisherman-s-family-the-lookout/detail_213.jpg"
     ],
-    "featured": false
+    "featured": false,
+    "personal_favorite": false
   },
   {
-    "order": 10,
+    "order": 11,
     "slug": "coast-scene-with-boats-women-and-children-cullercoats-beach-tynemouth",
     "title": "Coast Scene, with Boats, Women, and Children (Cullercoats Beach, Tynemouth)",
     "section": "coast",
@@ -140,10 +164,26 @@
     "image": "assets/works/coast-scene-with-boats-women-and-children-cullercoats-beach-tynemouth/main.jpg",
     "label": "assets/works/coast-scene-with-boats-women-and-children-cullercoats-beach-tynemouth/label.jpg",
     "details": [],
-    "featured": false
+    "featured": false,
+    "personal_favorite": false
   },
   {
-    "order": 11,
+    "slug": "girl-with-red-stockings",
+    "title": "Girl with Red Stockings",
+    "image": "assets/works/girl-with-red-stockings/detail_194.jpg",
+    "label": "assets/works/girl-with-red-stockings/label.jpg",
+    "details": [
+      "assets/works/girl-with-red-stockings/detail_194.jpg",
+      "assets/works/girl-with-red-stockings/detail_195.jpg"
+    ],
+    "order": 12,
+    "section": "coast",
+    "presentation": "deep-dive",
+    "featured": true,
+    "personal_favorite": true
+  },
+  {
+    "order": 13,
     "slug": "a-fresh-breeze",
     "title": "A Fresh Breeze",
     "section": "coast",
@@ -154,10 +194,11 @@
     "image": "assets/works/a-fresh-breeze/main.jpg",
     "label": "assets/works/a-fresh-breeze/label.jpg",
     "details": [],
-    "featured": false
+    "featured": false,
+    "personal_favorite": false
   },
   {
-    "order": 12,
+    "order": 14,
     "slug": "fisherwomen",
     "title": "Fisherwomen",
     "section": "coast",
@@ -168,10 +209,30 @@
     "image": "assets/works/fisherwomen/main.jpg",
     "label": "assets/works/fisherwomen/label.jpg",
     "details": [],
-    "featured": false
+    "featured": false,
+    "personal_favorite": false
   },
   {
-    "order": 13,
+    "order": 15,
+    "slug": "an-afterglow",
+    "title": "An Afterglow",
+    "section": "coast",
+    "presentation": "deep-dive",
+    "headline": "",
+    "essay_angle": "",
+    "looking_tip": "",
+    "image": "assets/works/an-afterglow/detail_190.jpg",
+    "label": "assets/works/an-afterglow/label.jpg",
+    "details": [
+      "assets/works/an-afterglow/alternate_141.jpg",
+      "assets/works/an-afterglow/detail_190.jpg",
+      "assets/works/an-afterglow/detail_191.jpg"
+    ],
+    "featured": true,
+    "personal_favorite": true
+  },
+  {
+    "order": 16,
     "slug": "the-dunes",
     "title": "The Dunes",
     "section": "coast",
@@ -185,28 +246,11 @@
       "assets/works/the-dunes/detail_214.jpg",
       "assets/works/the-dunes/detail_215.jpg"
     ],
-    "featured": false
+    "featured": false,
+    "personal_favorite": false
   },
   {
-    "order": 14,
-    "slug": "an-afterglow",
-    "title": "An Afterglow",
-    "section": "coast",
-    "presentation": "gallery-card",
-    "headline": "",
-    "essay_angle": "",
-    "looking_tip": "",
-    "image": "assets/works/an-afterglow/detail_190.jpg",
-    "label": "assets/works/an-afterglow/label.jpg",
-    "details": [
-      "assets/works/an-afterglow/alternate_141.jpg",
-      "assets/works/an-afterglow/detail_190.jpg",
-      "assets/works/an-afterglow/detail_191.jpg"
-    ],
-    "featured": false
-  },
-  {
-    "order": 15,
+    "order": 17,
     "slug": "the-blue-boat",
     "title": "The Blue Boat",
     "section": "woods",
@@ -220,10 +264,11 @@
       "assets/works/the-blue-boat/detail_178.jpg",
       "assets/works/the-blue-boat/detail_179.jpg"
     ],
-    "featured": true
+    "featured": true,
+    "personal_favorite": true
   },
   {
-    "order": 16,
+    "order": 18,
     "slug": "adirondack-lake",
     "title": "Adirondack Lake",
     "section": "woods",
@@ -238,10 +283,11 @@
       "assets/works/adirondack-lake/detail_201.jpg",
       "assets/works/adirondack-lake/detail_202.jpg"
     ],
-    "featured": true
+    "featured": true,
+    "personal_favorite": false
   },
   {
-    "order": 17,
+    "order": 19,
     "slug": "woodsman-and-fallen-tree",
     "title": "Woodsman and Fallen Tree",
     "section": "woods",
@@ -255,10 +301,11 @@
       "assets/works/woodsman-and-fallen-tree/detail_184.jpg",
       "assets/works/woodsman-and-fallen-tree/detail_185.jpg"
     ],
-    "featured": true
+    "featured": true,
+    "personal_favorite": false
   },
   {
-    "order": 18,
+    "order": 20,
     "slug": "old-settlers",
     "title": "Old Settlers",
     "section": "woods",
@@ -269,10 +316,11 @@
     "image": "assets/works/old-settlers/main.jpg",
     "label": "assets/works/old-settlers/label.jpg",
     "details": [],
-    "featured": false
+    "featured": false,
+    "personal_favorite": false
   },
   {
-    "order": 19,
+    "order": 21,
     "slug": "trout-fishing-lake-st-john-quebec",
     "title": "Trout Fishing, Lake St. John, Quebec",
     "section": "woods",
@@ -283,10 +331,11 @@
     "image": "assets/works/trout-fishing-lake-st-john-quebec/main.jpg",
     "label": "assets/works/trout-fishing-lake-st-john-quebec/label.jpg",
     "details": [],
-    "featured": false
+    "featured": false,
+    "personal_favorite": false
   },
   {
-    "order": 20,
+    "order": 22,
     "slug": "the-guide",
     "title": "The Guide",
     "section": "woods",
@@ -300,10 +349,11 @@
       "assets/works/the-guide/detail_192.jpg",
       "assets/works/the-guide/detail_193.jpg"
     ],
-    "featured": false
+    "featured": false,
+    "personal_favorite": false
   },
   {
-    "order": 21,
+    "order": 23,
     "slug": "leaping-trout",
     "title": "Leaping Trout",
     "section": "wildlife",
@@ -319,10 +369,11 @@
       "assets/works/leaping-trout/detail_182.jpg",
       "assets/works/leaping-trout/detail_183.jpg"
     ],
-    "featured": true
+    "featured": true,
+    "personal_favorite": false
   },
   {
-    "order": 22,
+    "order": 24,
     "slug": "ouananiche-fishing-lake-st-john-province-of-quebec",
     "title": "Ouananiche Fishing, Lake St. John, Province of Quebec",
     "section": "wildlife",
@@ -336,10 +387,11 @@
       "assets/works/ouananiche-fishing-lake-st-john-province-of-quebec/detail_188.jpg",
       "assets/works/ouananiche-fishing-lake-st-john-province-of-quebec/detail_189.jpg"
     ],
-    "featured": false
+    "featured": true,
+    "personal_favorite": true
   },
   {
-    "order": 23,
+    "order": 25,
     "slug": "fishing-for-ouananiche-lake-st-john-p-q-canada-no-2",
     "title": "Fishing for Ouananiche, Lake St. John, P.Q. Canada, no. 2",
     "section": "wildlife",
@@ -353,10 +405,11 @@
       "assets/works/fishing-for-ouananiche-lake-st-john-p-q-canada-no-2/detail_196.jpg",
       "assets/works/fishing-for-ouananiche-lake-st-john-p-q-canada-no-2/detail_197.jpg"
     ],
-    "featured": false
+    "featured": false,
+    "personal_favorite": false
   },
   {
-    "order": 24,
+    "order": 26,
     "slug": "grand-discharge-lake-st-john-province-of-quebec",
     "title": "Grand Discharge, Lake St. John, Province of Quebec",
     "section": "wildlife",
@@ -370,10 +423,11 @@
       "assets/works/grand-discharge-lake-st-john-province-of-quebec/detail_203.jpg",
       "assets/works/grand-discharge-lake-st-john-province-of-quebec/detail_204.jpg"
     ],
-    "featured": true
+    "featured": true,
+    "personal_favorite": false
   },
   {
-    "order": 25,
+    "order": 27,
     "slug": "the-fallen-deer",
     "title": "The Fallen Deer",
     "section": "wildlife",
@@ -384,7 +438,8 @@
     "image": "assets/works/the-fallen-deer/main.jpg",
     "label": "assets/works/the-fallen-deer/label.jpg",
     "details": [],
-    "featured": false
+    "featured": false,
+    "personal_favorite": false
   },
   {
     "slug": "street-corner-santiago-de-cuba",
@@ -394,13 +449,14 @@
     "details": [
       "assets/works/street-corner-santiago-de-cuba/alternate_175.jpg"
     ],
-    "order": 26,
+    "order": 28,
     "section": "caribbean",
     "presentation": "gallery-card",
-    "featured": false
+    "featured": false,
+    "personal_favorite": false
   },
   {
-    "order": 27,
+    "order": 29,
     "slug": "fox-hill-bahamas",
     "title": "Fox Hill, Bahamas",
     "section": "caribbean",
@@ -411,10 +467,11 @@
     "image": "assets/works/fox-hill-bahamas/main.jpg",
     "label": "assets/works/fox-hill-bahamas/label.jpg",
     "details": [],
-    "featured": false
+    "featured": false,
+    "personal_favorite": false
   },
   {
-    "order": 28,
+    "order": 30,
     "slug": "the-sponge-diver",
     "title": "The Sponge Diver",
     "section": "caribbean",
@@ -428,7 +485,8 @@
       "assets/works/the-sponge-diver/detail_198.jpg",
       "assets/works/the-sponge-diver/detail_199.jpg"
     ],
-    "featured": false
+    "featured": false,
+    "personal_favorite": false
   },
   {
     "slug": "rocky-shore-bermuda",
@@ -436,13 +494,14 @@
     "image": "assets/works/rocky-shore-bermuda/main.jpg",
     "label": "assets/works/rocky-shore-bermuda/label.jpg",
     "details": [],
-    "order": 29,
+    "order": 31,
     "section": "caribbean",
     "presentation": "gallery-card",
-    "featured": false
+    "featured": false,
+    "personal_favorite": false
   },
   {
-    "order": 30,
+    "order": 32,
     "slug": "palm-trees-florida",
     "title": "Palm Trees, Florida",
     "section": "caribbean",
@@ -453,10 +512,11 @@
     "image": "assets/works/palm-trees-florida/main.jpg",
     "label": "assets/works/palm-trees-florida/label.jpg",
     "details": [],
-    "featured": false
+    "featured": false,
+    "personal_favorite": false
   },
   {
-    "order": 31,
+    "order": 33,
     "slug": "breaking-wave-prouts-neck",
     "title": "Breaking Wave (Prouts Neck)",
     "section": "finale",
@@ -470,10 +530,11 @@
       "assets/works/breaking-wave-prouts-neck/detail_186.jpg",
       "assets/works/breaking-wave-prouts-neck/detail_187.jpg"
     ],
-    "featured": true
+    "featured": true,
+    "personal_favorite": false
   },
   {
-    "order": 32,
+    "order": 34,
     "slug": "eight-bells",
     "title": "Eight Bells",
     "section": "finale",
@@ -484,10 +545,11 @@
     "image": "assets/works/eight-bells/main.jpg",
     "label": "assets/works/eight-bells/label.jpg",
     "details": [],
-    "featured": false
+    "featured": false,
+    "personal_favorite": false
   },
   {
-    "order": 33,
+    "order": 35,
     "slug": "driftwood",
     "title": "Driftwood",
     "section": "finale",
@@ -501,6 +563,7 @@
       "assets/works/driftwood/detail_206.jpg",
       "assets/works/driftwood/detail_207.jpg"
     ],
-    "featured": true
+    "featured": true,
+    "personal_favorite": false
   }
 ]

@@ -439,6 +439,28 @@
     ],
     "original": "data/originals/works/three-boys-on-a-beached-dory/main.jpg"
   },
+  "50": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/050-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/050-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/050-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/boys-in-a-pasture/main.jpg"
+  },
   "54": {
     "width": 1280,
     "height": 1707,
@@ -1010,6 +1032,28 @@
       }
     ],
     "original": "data/originals/works/a-fresh-breeze/main.jpg"
+  },
+  "146": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/146-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/146-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/146-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/girl-with-red-stockings/main.jpg"
   },
   "149": {
     "width": 1702,
