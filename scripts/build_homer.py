@@ -49,8 +49,14 @@ def build():
     def caption(w):return f'{w["title_cn"]} · {date(w)} · {w["material_cn"]} · {w["collection"]}'+(f'，{w["accession"]}' if w['accession'] else '')+' · Merton摄'
     def sources(w,prefix=''):
         return f'<p class="hm-source">作品信息与文中展签说明据<a href="{prefix}{pby[w["label"]]["original"]}" target="_blank" rel="noopener">现场展签 ↗</a>。</p>'
+    def close_reading(w,prefix=''):
+        detail=w.get('reading_detail')
+        if not detail:return ''
+        return '<section class="hm-close-reading" aria-label="局部细读">'+figure(detail['photo'],w['title_cn']+' · 局部：'+detail['caption'],prefix,small=True)+'<div class="hm-close-note"><p class="eyebrow">走近看</p><p>'+e(detail['text'])+'</p></div></section>'
     def details(w,prefix=''):
-        return f'<details class="hm-details"><summary>{"完整照片与局部" if w["photo"] in [50,146,76] else "走近看局部"}</summary><div class="hm-details-grid">'+''.join(figure(n,w['title_cn']+' · '+detail_caption.get(n,'局部'),prefix,small=True) for n in w['detail_photos'])+'</div></details>' if w['detail_photos'] else ''
+        nums=[n for n in w['detail_photos'] if n!=w.get('reading_detail',{}).get('photo')]
+        title='其他现场照片' if w.get('reading_detail') else ('完整照片与局部' if w['photo'] in [50,146,76] else '走近看局部')
+        return f'<details class="hm-details"><summary>{title}</summary><div class="hm-details-grid">'+''.join(figure(n,w['title_cn']+' · '+detail_caption.get(n,'局部'),prefix,small=True) for n in nums)+'</div></details>' if nums else ''
     detail_caption={50:'完整构图与画框',146:'完整构图与画框',141:'完整构图（另次拍摄）',179:'局部：舟中人、船身与倒影',181:'局部：跃鱼与暗水',182:'局部：鱼头与鳞纹',183:'局部：叶片与水面色痕',185:'局部：林中人与倒木枝杈',187:'局部：浪顶与泡沫',189:'局部：跃鱼、钓者与鱼线',191:'局部：船间的人物',193:'局部：向导与独木舟',195:'局部：提篮女子与海浪',197:'局部：舟中人和跃鱼',199:'局部：潜水者的肩背与海绵',202:'局部：小舟、钓线与树影',204:'局部：急流的浅色浪沫与暗水',207:'局部：岸边人物、漂木与海浪',209:'局部：两名男孩与小艇',211:'局部：草地上的两个男孩',213:'局部：崖边的一家人',215:'局部：沙丘上的两名女子'}
     def mini(w,prefix='',anchor=False):
         href=prefix+(('#work-'+w['slug']) if anchor and w in selected else w['slug']+'/')
@@ -61,7 +67,10 @@ def build():
     def comparison(g):
         return f'<section class="compare-group hm-compare" id="compare-{g["id"]}"><p class="eyebrow">SIDE BY SIDE</p><h3>{e(g["title"])}</h3><p class="hm-prose">{e(g["text"])}</p><div class="hm-pair">'+''.join(figure(by[n]['display_photo'],caption(by[n])) for n in g['works'])+'</div><p class="hm-source">整幅现场照片；未按原作尺寸等比例排列。'+ ' · '.join(f'<a href="{by[n]["slug"]}/">{e(by[n]["title_cn"])}札记 →</a>' for n in g['works'])+'</p></section>'
     intro=f'<nav class="breadcrumbs" aria-label="当前位置"><a href="../">博物馆札记</a><span>/</span><span>美国绘画 · 霍默</span></nav><header class="hm-heading"><p class="eyebrow">WINSLOW HOMER / OF LIGHT AND AIR</p><h1>{edit["title"]}<span>{edit["subtitle"]}</span></h1></header>'+figure(edit['hero']['photo'],edit['hero']['caption'],high=True,cls='hm-hero')+'<div class="hm-intro">'+''.join(f'<p>{e(p)}</p>' for p in edit['intro'])+f'<p class="hm-source">{e(edit["exhibition"])}<br>休斯顿美术馆（MFAH） · {edit["dates"]}<br>由波士顿美术馆（MFA Boston）组织，休斯顿展出。<a href="#source-mfah">展览资料 [1]</a></p></div>'
-    favorites='<section class="hm-favorites" id="favorites" aria-labelledby="favorites-title"><h2 id="favorites-title">'+e(edit['favorites']['title'])+'</h2><p>'+e(edit['favorites']['intro'])+'</p><nav class="hm-favorite-index" aria-label="五幅私心最爱，跳至作品">'+''.join(mini(by[n],anchor=True) for n in edit['favorites']['works'])+'</nav></section>'
+    def favorite_mini(w):
+        detail=w['reading_detail']
+        return f'<a class="hm-mini" href="#work-{w["slug"]}">'+image(detail['photo'],w['title_cn']+' · 局部：'+detail['caption'],small='thumb')+f'<span>{e(w["title_cn"])}<small>{date(w)} · 局部<br>{e(w["title"])}</small></span></a>'
+    favorites='<section class="hm-favorites" id="favorites" aria-labelledby="favorites-title"><h2 id="favorites-title">'+e(edit['favorites']['title'])+'</h2><p>'+e(edit['favorites']['intro'])+'</p><nav class="hm-favorite-index" aria-label="五幅私心最爱的细节导览，跳至完整作品">'+''.join(favorite_mini(by[n]) for n in edit['favorites']['works'])+'</nav></section>'
     def related(w,prefix=''):
         return '<p class="hm-more">相互参看：'+ ' · '.join(f'<a href="{prefix}{by[n]["slug"]}/">{e(by[n]["title_cn"])}</a>' for n in w['related_works'])+'</p>' if w.get('related_works') else ''
     # Static geographic SVG, enhanced by local JS. Natural Earth land only; no external tile requests.
@@ -104,9 +113,13 @@ def build():
             chapters+=f'<article class="hm-work {cls}" id="work-{w["slug"]}" data-presentation="{w["presentation"]}"><header>{favorite_note}<h3><a href="{w["slug"]}/">{e(w["title_cn"])}</a></h3><p class="hm-original">{e(w["title"])} · {date(w)}</p></header>'
             chapters+=figure(w['display_photo'],w['material_cn']+' · '+w['collection'],small=not featured,context=w['title_cn']+' · '+date(w)+' · ')
             chapters+='<div class="hm-work-note"><p class="hm-prose">'+e(w['home_note'])+'</p>'
-            chapters+=f'<p class="hm-more"><a href="{w["slug"]}/">细读与完整资料 →</a> · <a href="{pby[w["label"]]["original"]}" target="_blank" rel="noopener">现场展签 ↗</a></p></div>'
+            if w.get('reading_detail'):
+                chapters+='</div>'+close_reading(w)
+                chapters+=f'<p class="hm-more"><a href="{w["slug"]}/">细读与完整资料 →</a> · <a href="{pby[w["label"]]["original"]}" target="_blank" rel="noopener">现场展签 ↗</a></p>'
+            else:
+                chapters+=f'<p class="hm-more"><a href="{w["slug"]}/">细读与完整资料 →</a> · <a href="{pby[w["label"]]["original"]}" target="_blank" rel="noopener">现场展签 ↗</a></p></div>'
             chapters+=related(w)
-            if featured and w['photo']!=11:chapters+=details(w)
+            if featured:chapters+=details(w)
             chapters+='</article>'
         chapters+='</div>'
         if s['id']=='woods':chapters+=comparison(edit['comparisons'][0])
@@ -127,10 +140,14 @@ def build():
     for w in works:
         fields=[('作者／制作者',w['artist']),('年代',date(w)),('媒介',w['material_cn']),('展签原文',w['medium']),('收藏',w['collection']),('编号',w['accession'] or '展签未列'),('观看地点','休斯顿美术馆 · Of Light and Air')]
         if w['credit']:fields.append(('入藏来源',w['credit']))
-        body=f'<nav class="breadcrumbs" aria-label="当前位置"><a href="../../">博物馆札记</a><span>/</span><a href="../">霍默</a><span>/</span><span>{e(w["title_cn"])}</span></nav><header class="hm-heading hm-work-heading"><p class="eyebrow">WINSLOW HOMER / LOOK CLOSER</p><h1>{e(w["title_cn"])}</h1><p class="hm-original">{e(w["title"])}</p></header>'+figure(w['display_photo'],caption(w),'../',high=True)+'<div class="hm-work-reading"><dl class="hm-facts">'+''.join(f'<div><dt>{k}</dt><dd>{e(v)}</dd></div>' for k,v in fields)+'</dl>'
+        body=f'<nav class="breadcrumbs" aria-label="当前位置"><a href="../../">博物馆札记</a><span>/</span><a href="../">霍默</a><span>/</span><span>{e(w["title_cn"])}</span></nav><header class="hm-heading hm-work-heading"><p class="eyebrow">WINSLOW HOMER / LOOK CLOSER</p><h1>{e(w["title_cn"])}</h1><p class="hm-original">{e(w["title"])}</p></header>'+figure(w['display_photo'],caption(w),'../',high=True)+'<div class="hm-work-reading">'
+        facts='<dl class="hm-facts">'+''.join(f'<div><dt>{k}</dt><dd>{e(v)}</dd></div>' for k,v in fields)+'</dl>'
+        if not w.get('reading_detail'):body+=facts
         if w['paragraphs']:body+='<section class="hm-prose"><h2>在画前</h2>'+''.join(f'<p>{e(t)}</p>' for t in w['paragraphs'])+'</section>'
         if w.get('record_note'):body+='<p class="hm-prose">'+e(w['record_note'])+'</p>'
-        body+=sources(w,'../')+related(w,'../')+details(w,'../')+'</div>'
+        body+=close_reading(w,'../')+sources(w,'../')+related(w,'../')+details(w,'../')
+        if w.get('reading_detail'):body+='<details class="hm-details"><summary>作品资料</summary>'+facts+'</details>'
+        body+='</div>'
         siblings=[a for a in selected if a['section']==w['section'] and a!=w][:3]
         body+='<section class="hm-section"><h2>继续看这一章</h2><div class="hm-region-works">'+''.join(mini(a,'../') for a in siblings)+f'</div><a class="text-link" href="../#{w["section"]}">返回章节 →</a> · <a href="../#catalogue">完整观展目录 →</a></section>'
         dest=BASE/w['slug'];dest.mkdir(exist_ok=True);(dest/'index.html').write_text(shell(w['title_cn']+' · 霍默',body,1))

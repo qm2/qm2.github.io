@@ -72,3 +72,10 @@
 .hm-featured>.hm-more{max-width:780px;margin:12px auto 0}
 @media(max-width:900px){.hm-favorite-index{gap:18px}.hm-favorite-index .hm-mini img{height:110px}}
 @media(max-width:650px){.hm-favorites{padding:24px 0}.hm-favorite-index{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 18px}.hm-favorite-index .hm-mini img{height:118px}.hm-favorite-index .hm-mini{font-size:15px}}
+/* The five personal thumbnails are untrimmed, near-4:3 detail photographs. */
+.hm-favorite-index .hm-mini img{height:auto;aspect-ratio:4/3;object-fit:contain;object-position:center}
+.hm-close-reading{max-width:1000px;margin:30px auto;display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);gap:30px;align-items:center}
+.hm-close-reading .hm-figure{width:100%;margin:0}.hm-close-note{font-size:14px;line-height:1.95;min-width:0}
+.hm-close-note .eyebrow{font-size:11px;margin:0 0 10px}.hm-close-note p:last-child{margin:0}
+.hm-work-reading .hm-close-reading{gap:24px}.hm-work-reading>.hm-details .hm-facts{margin:20px 0}
+@media(max-width:650px){.hm-close-reading{grid-template-columns:1fr;gap:16px;margin:24px auto}.hm-work-reading .hm-close-reading{gap:16px}.hm-close-note{font-size:14px}}

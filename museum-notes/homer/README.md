@@ -71,3 +71,11 @@ The user selected *The Blue Boat*, *An Afterglow*, the **1897** *Ouananiche Fish
 - *An Afterglow* and the1897 fishing watercolor now use full featured layouts. The former receives a fuller detail-page reading, using its existing photo190 and detail191. Alternate photo141 is correctly captioned as another full view, not a detail.
 
 Total selections:35, catalogue records:67, unchanged original photos:215. Earlier33 selections and all factual metadata remain. Two original framed photos receive responsive derivatives; no external images, new crops or source-image edits. Browser checks cover all five anchor links, mobile/desktop index layout, the two new large plates and their detail-page galleries, lightbox zoom/close and original-photo links.
+
+## Detail-led personal guide, 2026-11-01
+
+The five-photo index is now titled“细节导览”. Each thumbnail uses an existing, untrimmed near-4:3 personal detail photograph:179 (*The Blue Boat*),191 (*An Afterglow*),189 (1897 *Ouananiche Fishing*),195 (*Girl with Red Stockings*),211 (*Boys in a Pasture*). No new crop, colour adjustment, external image or source-image change is introduced. All five retain their titles, a visible“局部”caption and the existing work anchors.
+
+`works.json:reading_detail` provides the photo, descriptive caption and short observation for both the chapter and detail pages. The sequence is now complete composition → existing reading → one visible detail with observation → sources/optional records. Main display photos remain11,190,188,194,210 respectively. Original framed photos50/146 and alternate full photo141 remain under“其他现场照片”; facts on the five individual pages are retained in“作品资料”after the reading. Other works and site sections retain their existing structure. Existing crop-based technique examples are unchanged.
+
+Browser verification checks all five thumbnail-to-work links, untrimmed image proportions and shared sizing, correct complete views, visible detail figures and their lightboxes, optional original photographs and facts, keyboard access, desktop/mobile light/dark layout and existing map/archive controls.

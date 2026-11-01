@@ -81,3 +81,12 @@ assert wb[146]['year']=='1882' and wb[146]['accession']=='48.727' and wb[146]['d
 assert wb[50]['photo'] in wb[50]['detail_photos'] and wb[146]['photo'] in wb[146]['detail_photos']
 assert all(wb[n].get('featured') and wb[n].get('personal_favorite') for n in edit['favorites']['works'])
 print('Personal selection checked: five distinct works, 1897 fishing scene, two new featured works and their original views.')
+
+expected_details={11:179,76:191,56:189,146:195,50:211}
+for n,photo in expected_details.items():
+ assert wb[n]['reading_detail']['photo']==photo
+ assert photo in wb[n]['detail_photos'] and photo!=wb[n]['display_photo']
+ assert pb[photo]['folder']==pb[n]['folder']
+ assert wb[n]['reading_detail']['caption'] and wb[n]['reading_detail']['text']
+assert [wb[n]['display_photo'] for n in edit['favorites']['works']]==[11,190,188,194,210]
+print('Detail guide checked: five own detail photos; all five complete-composition displays unchanged.')
