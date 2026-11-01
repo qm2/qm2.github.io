@@ -67,6 +67,11 @@ def build():
    if p.get('quote'):
     q=p['quote'];b+='<blockquote class="xz-note-quote" lang="'+e(q['lang'])+'"><p>'+e(q['text'])+'</p></blockquote><p class="xz-meta">'+e(q['credit'])+'</p>'
    b+=work_references(p.get('references',[]))
+   if p.get('comparison'):
+    c=p['comparison'];b+='<aside class="xz-comparison" id="related-standing-figures"><h3>'+e(c['title'])+'</h3><p>'+e(c['intro'])+'</p><details class="xz-record"><summary>'+e(c['summary'])+'</summary>'
+    for item in c['entries']:
+     b+='<h4>'+e(item['heading'])+'</h4><p>'+e(item['text'])+'</p>'+work_references(item['references'])
+    b+='</details></aside>'
   for note in w.get('reading_notes',[]):
    b+='<details class="xz-record"><summary>'+e(note['title'])+'</summary>'+''.join('<p>'+e(t)+'</p>' for t in note['paragraphs'])+work_references(note.get('references',[]),full=True)+'</details>'
   b+='<p class="source"><a href="#label">休斯顿美术馆现场展签'+('' if w.get('natural_captions') else ' · 照片'+w['label_photo'])+'</a></p>'+sources(w['source_ids'])

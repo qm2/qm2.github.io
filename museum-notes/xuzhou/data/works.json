@@ -47,7 +47,8 @@
           "date": "2026-10-31",
           "catalog_basis": "User-supplied summary of already-read Cat.14 and Twilley technical essay; first page 118 supplied, end page not inferred. No book images accessed or published.",
           "photo_review": "955–961 all viewed at original resolution including 959 label signed John Twilley.",
-          "external_sources": "Yale publication page and Rubin C2003.24.1 record read; comparison damage/provenance not transferred."
+          "external_sources": "Yale publication page and Rubin C2003.24.1 record read; comparison damage/provenance not transferred.",
+          "comparison_addition": "HAR 65315/19961/19960 remote images visually inspected; set5076 and item metadata read. Ortiz/Pal correspondences remain inferred from supplied Weldon summary; 2003 originals and Casey communication not independently read. No third-party image assets added."
         }
       },
       "research_questions": [
@@ -69,7 +70,51 @@
           "heading": "为什么仍要保留“可能”",
           "references": [
             "weldon"
-          ]
+          ],
+          "comparison": {
+            "title": "散落各处的相近立像",
+            "intro": "高冠、项链、圣线、上臂饰件、腰间横束带与正直站姿，把这些立像联系起来。其他像残存的姿态，为失去原双手的虚舟立像提供了复原线索；装饰相近仍不足以确定佛名、工坊或原寺。",
+            "summary": "展开四尊比较像与两种分类",
+            "entries": [
+              {
+                "heading": "鲁宾博物馆：仍名“菩萨”",
+                "text": "C2003.24.1为西藏12世纪作品，左手保留禅定姿态，右臂残缺。Weldon在五方佛解释中以排除法推测为不空成就佛；鲁宾官网仍称“Bodhisattva”，并未采用此佛名。",
+                "references": [
+                  "rubin",
+                  "har-rubin"
+                ]
+              },
+              {
+                "heading": "HAR 19961：与Ortiz藏像描述相符",
+                "text": "右手下垂、掌心向外，左手作禅定姿态，与Weldon所述George Ortiz藏像吻合；作者据此提出宝生佛的解释。此对应依据图录描述与公开图片，HAR只标“私人收藏”“身份未定的男性菩萨”，未确认Ortiz归属或现藏情况。",
+                "references": [
+                  "har-ortiz"
+                ]
+              },
+              {
+                "heading": "HAR 19960：胸前相接的双手",
+                "text": "双前臂抬起、双手在胸前相接，与Weldon引述Pal《Himalayas: An Aesthetic Adventure》（2003）Cat.118的立像相符。他提出可能为毗卢遮那佛，原手势或为智拳印，但双手可能经过修复。HAR仍列私人收藏、身份未定的男性菩萨；上述2003年原书条目均尚未核读。",
+                "references": [
+                  "har-raised"
+                ]
+              },
+              {
+                "heading": "第四尊：仅存于图录线索",
+                "text": "Weldon另记一尊双手作禅定姿态的立像，推测为阿弥陀佛，依据是Jane Casey于2018年12月19日的私人通信，所述照片摄于2003年7月28日。这里只转述图录，公开图像与收藏信息尚待核实。",
+                "references": [
+                  "weldon"
+                ]
+              },
+              {
+                "heading": "八大菩萨，还是五方佛？",
+                "text": "Jeff Watt在2017年9月的HAR专题中将上述三尊列入八大菩萨组合，提出可能另有中央主佛；Weldon于2026年提出五方佛解释，两者时间及材料范围可能不同，尚无依据认定旧说已被推翻或形成共识，也未见双方专门论辩的证据。原属同组是研究判断，HAR标题中的“Gyantse”不证明本件出自江孜某寺；各像残损程度不同，残存高度也不能直接比较原始大小。",
+                "references": [
+                  "har-set",
+                  "weldon"
+                ]
+              }
+            ]
+          }
         },
         {
           "text": "再绕到背后，后脑、肩背和上臂的大片缺口显露出中空的内部。金色外表在断裂边缘突然终止，正面看不见的厚薄与起伏也露了出来。正背两面属于同一尊像，却呈现很不一样的制造与保存状态。",
@@ -173,6 +218,22 @@
           "title": "鲁宾博物馆：Bodhisattva，西藏，12世纪，C2003.24.1",
           "short_title": "鲁宾博物馆，C2003.24.1",
           "url": "https://rubinmuseum.org/collection/c2003-24-1/"
+        },
+        "har-rubin": {
+          "title": "HAR 65315：鲁宾立像",
+          "url": "https://www.himalayanart.org/items/65315"
+        },
+        "har-ortiz": {
+          "title": "HAR 19961：私人收藏立像",
+          "url": "https://www.himalayanart.org/items/19961"
+        },
+        "har-raised": {
+          "title": "HAR 19960：双前臂抬起的立像",
+          "url": "https://www.himalayanart.org/items/19960"
+        },
+        "har-set": {
+          "title": "Jeff Watt：Eight Bodhisattvas (Gyantse)，2017年9月",
+          "url": "https://www.himalayanart.org/search/set.cfm?setID=5076"
         }
       },
       "reading_notes": [
@@ -198,15 +259,12 @@
           ]
         },
         {
-          "title": "组像推测与尼瓦尔工匠",
+          "title": "尼瓦尔工匠与风格联系",
           "paragraphs": [
-            "Weldon比较的五尊像中，鲁宾博物馆与George Ortiz收藏的立像保留了讨论原始姿态的线索。五方佛的组合解释来自对站姿、装饰与姿态的综合判断，并非已获考古证实的同寺出土关系。",
-            "鲁宾官网仍将C2003.24.1称为“Bodhisattva（菩萨）”，断为西藏12世纪，介绍圣线、冠饰等特征，并提出可能由尼瓦尔工匠制作。这与Weldon在本图录中提出的五方佛解释应分别看待。",
             "Weldon还将本件与色拉寺相近时期造像作风格比较，认为腰间束带等细节提示尼瓦尔工匠参与。来自加德满都谷地的工艺传统，有助于理解跨喜马拉雅的艺术联系；本件的工匠姓名、工坊与原寺院仍未确认。"
           ],
           "references": [
-            "weldon",
-            "rubin"
+            "weldon"
           ]
         },
         {
