@@ -6,9 +6,9 @@ import hashlib,json,re
 ROOT=Path(__file__).resolve().parents[1];BASE=ROOT/'museum-notes/homer'
 load=lambda n:json.loads((BASE/'data'/f'{n}.json').read_text())
 w=load('works');p=load('photos');d=load('derivatives');s=load('editorial_shortlist')
-assert len(w)==67 and len(p)==215 and len(s)==30
+assert len(w)==67 and len(p)==215 and len(s)==33
 assert sum(a['presentation']=='deep-dive' for a in w)==12
-assert sum(a['presentation']=='gallery-card' for a in w)==18
+assert sum(a['presentation']=='gallery-card' for a in w)==21
 assert {a['slug'] for a in s}=={a['slug'] for a in w if a['presentation']!='archive'}
 pb={a['id']:a for a in p};wb={a['photo']:a for a in w}
 for photo in p:
@@ -21,7 +21,9 @@ for a in w:
  assert a['material_cn'] and a['collection'] and a['title_cn']
  n=sum(len(t) for t in a['paragraphs'])
  if a['presentation']=='deep-dive':assert 120<=n<=250,(a['slug'],n)
- if a['presentation']=='gallery-card':assert 30<=n<=80,(a['slug'],n)
+ if a['presentation']!='archive':
+  assert a['home_note'] and a['home_note'] not in a['paragraphs']
+  assert n>0
  assert (BASE/a['slug']/'index.html').is_file()
 assert wb[154]['year']=='1885' and wb[151]['year']=='1881–82' and wb[136]['year']=='1887'
 assert wb[157]['year']=='c. 1886' and wb[171]['year']=='1883'
@@ -56,4 +58,18 @@ for row in d.values():
  for v in row['variants']:
   assert (BASE/v['path']).is_file();assert v['width']<=row['width']
 assert len(parsed)==68
-print(f'Homer checks passed: 215 unchanged originals, 67 matched records, 30 selected (12/18), {len(parsed)} pages, {len(d)} responsive photo sets; local links and corrections checked.')
+print(f'Homer checks passed: 215 unchanged originals, 67 matched records, 33 selected (12/21), {len(parsed)} pages, {len(d)} responsive photo sets; local links and corrections checked.')
+
+edit=load('editorial');sections=load('sections')
+assert edit['hero']['photo']==179 and wb[11]['display_photo']==11
+assert {a['photo'] for a in w if a.get('featured')}=={11,62,3,17,58,74,72}
+assert len(sections)==7 and sections[0]['works']==[95,13,46]
+assert len({n for section in sections for n in section['works']})==33
+assert wb[15]['section']=='finale'
+assert len(edit['techniques'])==4
+from PIL import Image,ImageOps
+for crop in edit['crops']:
+ row=d[crop['id']];source=ImageOps.exif_transpose(Image.open(BASE/row['source_original'])).convert('RGB')
+ actual=Image.open(BASE/row['original']).convert('RGB')
+ assert actual.tobytes()==source.crop(tuple(row['crop_box'])).tobytes(),crop['id']
+print('Refinement checks passed: 33 selections, seven featured works, four technique examples; lossless editorial crops match unchanged originals.')

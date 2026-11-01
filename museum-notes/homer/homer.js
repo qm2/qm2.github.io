@@ -1,11 +1,34 @@
 (() => {
   'use strict';
   const all = q => [...document.querySelectorAll(q)];
+  const regions = all('.hm-region');
+  let picker;
+  const selectRegion = target => {
+    regions.forEach(region => { region.open = region === target; region.hidden = region !== target; });
+    if (picker) [...picker.children].forEach(b => b.setAttribute('aria-expanded', String(Boolean(target && b.getAttribute('aria-controls') === target.id))));
+  };
+  if (regions.length) {
+    document.getElementById('journeys').classList.add('hm-map-enhanced');
+    picker = document.createElement('div'); picker.className = 'hm-region-picker';
+    picker.setAttribute('role', 'group'); picker.setAttribute('aria-label', '选择地区，展开对应作品');
+    regions.forEach(region => {
+      const button = document.createElement('button'); button.type = 'button';
+      button.textContent = region.querySelector('summary span').textContent;
+      button.setAttribute('aria-controls', region.id); button.setAttribute('aria-expanded', 'false');
+      button.addEventListener('click', () => {
+        const next = region.open ? null : region; selectRegion(next);
+        history.replaceState(null, '', next ? '#' + region.id : '#journeys');
+      });
+      picker.append(button);
+    });
+    document.querySelector('.hm-regions').before(picker); selectRegion(null);
+  }
   const catalogue = document.querySelector('.hm-catalogue');
   const revealHash = () => {
     const target = document.getElementById(location.hash.slice(1));
     if (!target) return;
-    if (target.matches('details')) target.open = true;
+    if (target.matches('.hm-region')) selectRegion(target);
+    else if (target.matches('details')) target.open = true;
     if (target.id === 'catalogue' && catalogue) catalogue.open = true;
     for (let p = target.parentElement; p; p = p.parentElement) if (p.matches('details')) p.open = true;
   };
@@ -23,7 +46,7 @@
   }));
   all('[data-region]').forEach(link => link.addEventListener('click', () => {
     const target = document.getElementById('region-' + link.dataset.region);
-    if (target) { target.open = true; requestAnimationFrame(() => target.querySelector('summary').focus()); }
+    if (target) { selectRegion(target); requestAnimationFrame(() => picker.querySelector('[aria-controls="' + target.id + '"]').focus({preventScroll:true})); }
   }));
   if (!catalogue) return;
   const input = document.getElementById('hm-search'), medium = document.getElementById('hm-medium'), era = document.getElementById('hm-era');

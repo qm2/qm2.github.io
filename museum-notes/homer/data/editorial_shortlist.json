@@ -1,6 +1,309 @@
 [
   {
+    "slug": "reconnaissance-in-force-by-general-gorman-before-yorktown",
+    "title": "Reconnaissance in Force by General Gorman before Yorktown",
+    "image": "assets/works/reconnaissance-in-force-by-general-gorman-before-yorktown/main.jpg",
+    "label": "assets/works/reconnaissance-in-force-by-general-gorman-before-yorktown/label.jpg",
+    "details": [],
     "order": 1,
+    "section": "origins",
+    "presentation": "gallery-card",
+    "featured": false
+  },
+  {
+    "order": 2,
+    "slug": "playing-old-soldier",
+    "title": "Playing Old Soldier",
+    "section": "origins",
+    "presentation": "gallery-card",
+    "headline": "",
+    "essay_angle": "",
+    "looking_tip": "",
+    "image": "assets/works/playing-old-soldier/main.jpg",
+    "label": "assets/works/playing-old-soldier/label.jpg",
+    "details": [],
+    "featured": false
+  },
+  {
+    "order": 3,
+    "slug": "watching-the-harbor",
+    "title": "Watching the Harbor",
+    "section": "origins",
+    "presentation": "deep-dive",
+    "headline": "学会用水彩看世界",
+    "essay_angle": "1873年的早期水彩，水彩尚有油画式的饱满色彩。",
+    "looking_tip": "看雏菊上不透明的白色与大面积蓝色海水。",
+    "image": "assets/works/watching-the-harbor/main.jpg",
+    "label": "assets/works/watching-the-harbor/label.jpg",
+    "details": [],
+    "featured": false
+  },
+  {
+    "order": 4,
+    "slug": "the-dinner-horn",
+    "title": "The Dinner Horn",
+    "section": "pastoral",
+    "presentation": "gallery-card",
+    "headline": "",
+    "essay_angle": "",
+    "looking_tip": "",
+    "image": "assets/works/the-dinner-horn/main.jpg",
+    "label": "assets/works/the-dinner-horn/label.jpg",
+    "details": [],
+    "featured": false
+  },
+  {
+    "order": 5,
+    "slug": "driving-cows-to-pasture",
+    "title": "Driving Cows to Pasture",
+    "section": "pastoral",
+    "presentation": "gallery-card",
+    "headline": "",
+    "essay_angle": "",
+    "looking_tip": "",
+    "image": "assets/works/driving-cows-to-pasture/main.jpg",
+    "label": "assets/works/driving-cows-to-pasture/label.jpg",
+    "details": [],
+    "featured": false
+  },
+  {
+    "order": 6,
+    "slug": "sheep-and-cattle",
+    "title": "Sheep and Cattle",
+    "section": "pastoral",
+    "presentation": "gallery-card",
+    "headline": "",
+    "essay_angle": "",
+    "looking_tip": "",
+    "image": "assets/works/sheep-and-cattle/main.jpg",
+    "label": "assets/works/sheep-and-cattle/label.jpg",
+    "details": [],
+    "featured": false
+  },
+  {
+    "order": 7,
+    "slug": "three-boys-on-a-beached-dory",
+    "title": "Three Boys on a Beached Dory",
+    "section": "coast",
+    "presentation": "gallery-card",
+    "headline": "",
+    "essay_angle": "",
+    "looking_tip": "",
+    "image": "assets/works/three-boys-on-a-beached-dory/main.jpg",
+    "label": "assets/works/three-boys-on-a-beached-dory/label.jpg",
+    "details": [],
+    "featured": false
+  },
+  {
+    "order": 8,
+    "slug": "two-boys-rowing",
+    "title": "Two Boys Rowing",
+    "section": "coast",
+    "presentation": "gallery-card",
+    "headline": "",
+    "essay_angle": "",
+    "looking_tip": "",
+    "image": "assets/works/two-boys-rowing/detail_208.jpg",
+    "label": "assets/works/two-boys-rowing/label.jpg",
+    "details": [
+      "assets/works/two-boys-rowing/detail_208.jpg",
+      "assets/works/two-boys-rowing/detail_209.jpg"
+    ],
+    "featured": false
+  },
+  {
+    "order": 9,
+    "slug": "fisherman-s-family-the-lookout",
+    "title": "Fisherman's Family (The Lookout)",
+    "section": "coast",
+    "presentation": "gallery-card",
+    "headline": "",
+    "essay_angle": "",
+    "looking_tip": "",
+    "image": "assets/works/fisherman-s-family-the-lookout/detail_212.jpg",
+    "label": "assets/works/fisherman-s-family-the-lookout/label.jpg",
+    "details": [
+      "assets/works/fisherman-s-family-the-lookout/detail_212.jpg",
+      "assets/works/fisherman-s-family-the-lookout/detail_213.jpg"
+    ],
+    "featured": false
+  },
+  {
+    "order": 10,
+    "slug": "coast-scene-with-boats-women-and-children-cullercoats-beach-tynemouth",
+    "title": "Coast Scene, with Boats, Women, and Children (Cullercoats Beach, Tynemouth)",
+    "section": "coast",
+    "presentation": "gallery-card",
+    "headline": "",
+    "essay_angle": "",
+    "looking_tip": "",
+    "image": "assets/works/coast-scene-with-boats-women-and-children-cullercoats-beach-tynemouth/main.jpg",
+    "label": "assets/works/coast-scene-with-boats-women-and-children-cullercoats-beach-tynemouth/label.jpg",
+    "details": [],
+    "featured": false
+  },
+  {
+    "order": 11,
+    "slug": "a-fresh-breeze",
+    "title": "A Fresh Breeze",
+    "section": "coast",
+    "presentation": "gallery-card",
+    "headline": "",
+    "essay_angle": "",
+    "looking_tip": "",
+    "image": "assets/works/a-fresh-breeze/main.jpg",
+    "label": "assets/works/a-fresh-breeze/label.jpg",
+    "details": [],
+    "featured": false
+  },
+  {
+    "order": 12,
+    "slug": "fisherwomen",
+    "title": "Fisherwomen",
+    "section": "coast",
+    "presentation": "gallery-card",
+    "headline": "",
+    "essay_angle": "",
+    "looking_tip": "",
+    "image": "assets/works/fisherwomen/main.jpg",
+    "label": "assets/works/fisherwomen/label.jpg",
+    "details": [],
+    "featured": false
+  },
+  {
+    "order": 13,
+    "slug": "the-dunes",
+    "title": "The Dunes",
+    "section": "coast",
+    "presentation": "gallery-card",
+    "headline": "",
+    "essay_angle": "",
+    "looking_tip": "",
+    "image": "assets/works/the-dunes/detail_214.jpg",
+    "label": "assets/works/the-dunes/label.jpg",
+    "details": [
+      "assets/works/the-dunes/detail_214.jpg",
+      "assets/works/the-dunes/detail_215.jpg"
+    ],
+    "featured": false
+  },
+  {
+    "order": 14,
+    "slug": "an-afterglow",
+    "title": "An Afterglow",
+    "section": "coast",
+    "presentation": "gallery-card",
+    "headline": "",
+    "essay_angle": "",
+    "looking_tip": "",
+    "image": "assets/works/an-afterglow/detail_190.jpg",
+    "label": "assets/works/an-afterglow/label.jpg",
+    "details": [
+      "assets/works/an-afterglow/alternate_141.jpg",
+      "assets/works/an-afterglow/detail_190.jpg",
+      "assets/works/an-afterglow/detail_191.jpg"
+    ],
+    "featured": false
+  },
+  {
+    "order": 15,
+    "slug": "the-blue-boat",
+    "title": "The Blue Boat",
+    "section": "woods",
+    "presentation": "deep-dive",
+    "headline": "划入自然",
+    "essay_angle": "蓝色小舟与远山、树影构成一个既宁静又充满生命的瞬间。",
+    "looking_tip": "比较舟身浓蓝与倒影中色块；留意略带湿痕的树叶。",
+    "image": "assets/works/the-blue-boat/main.jpg",
+    "label": "assets/works/the-blue-boat/label.jpg",
+    "details": [
+      "assets/works/the-blue-boat/detail_178.jpg",
+      "assets/works/the-blue-boat/detail_179.jpg"
+    ],
+    "featured": true
+  },
+  {
+    "order": 16,
+    "slug": "adirondack-lake",
+    "title": "Adirondack Lake",
+    "section": "woods",
+    "presentation": "deep-dive",
+    "headline": "静水深处",
+    "essay_angle": "浓密森林、倒影和一叶小舟形成沉静的空间。",
+    "looking_tip": "看小舟几乎隐入远景时如何仍然成为观看焦点。",
+    "image": "assets/works/adirondack-lake/detail_201.jpg",
+    "label": "assets/works/adirondack-lake/label.jpg",
+    "details": [
+      "assets/works/adirondack-lake/detail_200.jpg",
+      "assets/works/adirondack-lake/detail_201.jpg",
+      "assets/works/adirondack-lake/detail_202.jpg"
+    ],
+    "featured": true
+  },
+  {
+    "order": 17,
+    "slug": "woodsman-and-fallen-tree",
+    "title": "Woodsman and Fallen Tree",
+    "section": "woods",
+    "presentation": "deep-dive",
+    "headline": "秋日山林",
+    "essay_angle": "横斜树干把观看者引向一位静立的向导，景物与人相互渗透。",
+    "looking_tip": "看枯木结构、天空白色以及秋叶的红橙色。",
+    "image": "assets/works/woodsman-and-fallen-tree/detail_184.jpg",
+    "label": "assets/works/woodsman-and-fallen-tree/label.jpg",
+    "details": [
+      "assets/works/woodsman-and-fallen-tree/detail_184.jpg",
+      "assets/works/woodsman-and-fallen-tree/detail_185.jpg"
+    ],
+    "featured": true
+  },
+  {
+    "order": 18,
+    "slug": "old-settlers",
+    "title": "Old Settlers",
+    "section": "woods",
+    "presentation": "gallery-card",
+    "headline": "",
+    "essay_angle": "",
+    "looking_tip": "",
+    "image": "assets/works/old-settlers/main.jpg",
+    "label": "assets/works/old-settlers/label.jpg",
+    "details": [],
+    "featured": false
+  },
+  {
+    "order": 19,
+    "slug": "trout-fishing-lake-st-john-quebec",
+    "title": "Trout Fishing, Lake St. John, Quebec",
+    "section": "woods",
+    "presentation": "gallery-card",
+    "headline": "",
+    "essay_angle": "",
+    "looking_tip": "",
+    "image": "assets/works/trout-fishing-lake-st-john-quebec/main.jpg",
+    "label": "assets/works/trout-fishing-lake-st-john-quebec/label.jpg",
+    "details": [],
+    "featured": false
+  },
+  {
+    "order": 20,
+    "slug": "the-guide",
+    "title": "The Guide",
+    "section": "woods",
+    "presentation": "gallery-card",
+    "headline": "",
+    "essay_angle": "",
+    "looking_tip": "",
+    "image": "assets/works/the-guide/detail_192.jpg",
+    "label": "assets/works/the-guide/label.jpg",
+    "details": [
+      "assets/works/the-guide/detail_192.jpg",
+      "assets/works/the-guide/detail_193.jpg"
+    ],
+    "featured": false
+  },
+  {
+    "order": 21,
     "slug": "leaping-trout",
     "title": "Leaping Trout",
     "section": "wildlife",
@@ -15,129 +318,11 @@
       "assets/works/leaping-trout/detail_181.jpg",
       "assets/works/leaping-trout/detail_182.jpg",
       "assets/works/leaping-trout/detail_183.jpg"
-    ]
+    ],
+    "featured": true
   },
   {
-    "order": 2,
-    "slug": "fisherman-s-family-the-lookout",
-    "title": "Fisherman's Family (The Lookout)",
-    "section": "coast",
-    "presentation": "gallery-card",
-    "headline": "",
-    "essay_angle": "",
-    "looking_tip": "",
-    "image": "assets/works/fisherman-s-family-the-lookout/detail_212.jpg",
-    "label": "assets/works/fisherman-s-family-the-lookout/label.jpg",
-    "details": [
-      "assets/works/fisherman-s-family-the-lookout/detail_212.jpg",
-      "assets/works/fisherman-s-family-the-lookout/detail_213.jpg"
-    ]
-  },
-  {
-    "order": 3,
-    "slug": "the-dunes",
-    "title": "The Dunes",
-    "section": "coast",
-    "presentation": "gallery-card",
-    "headline": "",
-    "essay_angle": "",
-    "looking_tip": "",
-    "image": "assets/works/the-dunes/detail_214.jpg",
-    "label": "assets/works/the-dunes/label.jpg",
-    "details": [
-      "assets/works/the-dunes/detail_214.jpg",
-      "assets/works/the-dunes/detail_215.jpg"
-    ]
-  },
-  {
-    "order": 4,
-    "slug": "the-blue-boat",
-    "title": "The Blue Boat",
-    "section": "woods",
-    "presentation": "deep-dive",
-    "headline": "划入自然",
-    "essay_angle": "蓝色小舟与远山、树影构成一个既宁静又充满生命的瞬间。",
-    "looking_tip": "比较舟身浓蓝与倒影中色块；留意略带湿痕的树叶。",
-    "image": "assets/works/the-blue-boat/detail_178.jpg",
-    "label": "assets/works/the-blue-boat/label.jpg",
-    "details": [
-      "assets/works/the-blue-boat/detail_178.jpg",
-      "assets/works/the-blue-boat/detail_179.jpg"
-    ]
-  },
-  {
-    "order": 5,
-    "slug": "woodsman-and-fallen-tree",
-    "title": "Woodsman and Fallen Tree",
-    "section": "woods",
-    "presentation": "deep-dive",
-    "headline": "秋日山林",
-    "essay_angle": "横斜树干把观看者引向一位静立的向导，景物与人相互渗透。",
-    "looking_tip": "看枯木结构、天空白色以及秋叶的红橙色。",
-    "image": "assets/works/woodsman-and-fallen-tree/detail_184.jpg",
-    "label": "assets/works/woodsman-and-fallen-tree/label.jpg",
-    "details": [
-      "assets/works/woodsman-and-fallen-tree/detail_184.jpg",
-      "assets/works/woodsman-and-fallen-tree/detail_185.jpg"
-    ]
-  },
-  {
-    "order": 6,
-    "slug": "driving-cows-to-pasture",
-    "title": "Driving Cows to Pasture",
-    "section": "pastoral",
-    "presentation": "gallery-card",
-    "headline": "",
-    "essay_angle": "",
-    "looking_tip": "",
-    "image": "assets/works/driving-cows-to-pasture/main.jpg",
-    "label": "assets/works/driving-cows-to-pasture/label.jpg",
-    "details": []
-  },
-  {
-    "order": 7,
-    "slug": "watching-the-harbor",
-    "title": "Watching the Harbor",
-    "section": "pastoral",
-    "presentation": "deep-dive",
-    "headline": "学会用水彩看世界",
-    "essay_angle": "1873年的早期水彩，水彩尚有油画式的饱满色彩。",
-    "looking_tip": "看雏菊上不透明的白色与大面积蓝色海水。",
-    "image": "assets/works/watching-the-harbor/main.jpg",
-    "label": "assets/works/watching-the-harbor/label.jpg",
-    "details": []
-  },
-  {
-    "order": 8,
-    "slug": "fishing-for-ouananiche-lake-st-john-p-q-canada-no-2",
-    "title": "Fishing for Ouananiche, Lake St. John, P.Q. Canada, no. 2",
-    "section": "wildlife",
-    "presentation": "gallery-card",
-    "headline": "",
-    "essay_angle": "",
-    "looking_tip": "",
-    "image": "assets/works/fishing-for-ouananiche-lake-st-john-p-q-canada-no-2/detail_196.jpg",
-    "label": "assets/works/fishing-for-ouananiche-lake-st-john-p-q-canada-no-2/label.jpg",
-    "details": [
-      "assets/works/fishing-for-ouananiche-lake-st-john-p-q-canada-no-2/detail_196.jpg",
-      "assets/works/fishing-for-ouananiche-lake-st-john-p-q-canada-no-2/detail_197.jpg"
-    ]
-  },
-  {
-    "order": 9,
-    "slug": "old-settlers",
-    "title": "Old Settlers",
-    "section": "woods",
-    "presentation": "gallery-card",
-    "headline": "",
-    "essay_angle": "",
-    "looking_tip": "",
-    "image": "assets/works/old-settlers/main.jpg",
-    "label": "assets/works/old-settlers/label.jpg",
-    "details": []
-  },
-  {
-    "order": 10,
+    "order": 22,
     "slug": "ouananiche-fishing-lake-st-john-province-of-quebec",
     "title": "Ouananiche Fishing, Lake St. John, Province of Quebec",
     "section": "wildlife",
@@ -150,10 +335,28 @@
     "details": [
       "assets/works/ouananiche-fishing-lake-st-john-province-of-quebec/detail_188.jpg",
       "assets/works/ouananiche-fishing-lake-st-john-province-of-quebec/detail_189.jpg"
-    ]
+    ],
+    "featured": false
   },
   {
-    "order": 11,
+    "order": 23,
+    "slug": "fishing-for-ouananiche-lake-st-john-p-q-canada-no-2",
+    "title": "Fishing for Ouananiche, Lake St. John, P.Q. Canada, no. 2",
+    "section": "wildlife",
+    "presentation": "gallery-card",
+    "headline": "",
+    "essay_angle": "",
+    "looking_tip": "",
+    "image": "assets/works/fishing-for-ouananiche-lake-st-john-p-q-canada-no-2/detail_196.jpg",
+    "label": "assets/works/fishing-for-ouananiche-lake-st-john-p-q-canada-no-2/label.jpg",
+    "details": [
+      "assets/works/fishing-for-ouananiche-lake-st-john-p-q-canada-no-2/detail_196.jpg",
+      "assets/works/fishing-for-ouananiche-lake-st-john-p-q-canada-no-2/detail_197.jpg"
+    ],
+    "featured": false
+  },
+  {
+    "order": 24,
     "slug": "grand-discharge-lake-st-john-province-of-quebec",
     "title": "Grand Discharge, Lake St. John, Province of Quebec",
     "section": "wildlife",
@@ -166,10 +369,11 @@
     "details": [
       "assets/works/grand-discharge-lake-st-john-province-of-quebec/detail_203.jpg",
       "assets/works/grand-discharge-lake-st-john-province-of-quebec/detail_204.jpg"
-    ]
+    ],
+    "featured": true
   },
   {
-    "order": 12,
+    "order": 25,
     "slug": "the-fallen-deer",
     "title": "The Fallen Deer",
     "section": "wildlife",
@@ -179,134 +383,24 @@
     "looking_tip": "看鹿眼与水面倒影，结合背面手写批注所揭示的态度。",
     "image": "assets/works/the-fallen-deer/main.jpg",
     "label": "assets/works/the-fallen-deer/label.jpg",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
-    "order": 13,
-    "slug": "adirondack-lake",
-    "title": "Adirondack Lake",
-    "section": "woods",
-    "presentation": "deep-dive",
-    "headline": "静水深处",
-    "essay_angle": "浓密森林、倒影和一叶小舟形成沉静的空间。",
-    "looking_tip": "看小舟几乎隐入远景时如何仍然成为观看焦点。",
-    "image": "assets/works/adirondack-lake/detail_201.jpg",
-    "label": "assets/works/adirondack-lake/label.jpg",
+    "slug": "street-corner-santiago-de-cuba",
+    "title": "Street Corner, Santiago de Cuba",
+    "image": "assets/works/street-corner-santiago-de-cuba/main.jpg",
+    "label": "assets/works/street-corner-santiago-de-cuba/label.jpg",
     "details": [
-      "assets/works/adirondack-lake/detail_200.jpg",
-      "assets/works/adirondack-lake/detail_201.jpg",
-      "assets/works/adirondack-lake/detail_202.jpg"
-    ]
-  },
-  {
-    "order": 14,
-    "slug": "trout-fishing-lake-st-john-quebec",
-    "title": "Trout Fishing, Lake St. John, Quebec",
-    "section": "woods",
+      "assets/works/street-corner-santiago-de-cuba/alternate_175.jpg"
+    ],
+    "order": 26,
+    "section": "caribbean",
     "presentation": "gallery-card",
-    "headline": "",
-    "essay_angle": "",
-    "looking_tip": "",
-    "image": "assets/works/trout-fishing-lake-st-john-quebec/main.jpg",
-    "label": "assets/works/trout-fishing-lake-st-john-quebec/label.jpg",
-    "details": []
+    "featured": false
   },
   {
-    "order": 15,
-    "slug": "the-guide",
-    "title": "The Guide",
-    "section": "woods",
-    "presentation": "gallery-card",
-    "headline": "",
-    "essay_angle": "",
-    "looking_tip": "",
-    "image": "assets/works/the-guide/detail_192.jpg",
-    "label": "assets/works/the-guide/label.jpg",
-    "details": [
-      "assets/works/the-guide/detail_192.jpg",
-      "assets/works/the-guide/detail_193.jpg"
-    ]
-  },
-  {
-    "order": 16,
-    "slug": "driftwood",
-    "title": "Driftwood",
-    "section": "finale",
-    "presentation": "deep-dive",
-    "headline": "人与大海",
-    "essay_angle": "晚年油画中人物紧握漂木，在巨浪面前显得渺小。",
-    "looking_tip": "关注画中人物与海浪的尺度；自传式解释仅是可能性。",
-    "image": "assets/works/driftwood/main.jpg",
-    "label": "assets/works/driftwood/label.jpg",
-    "details": [
-      "assets/works/driftwood/detail_206.jpg",
-      "assets/works/driftwood/detail_207.jpg"
-    ]
-  },
-  {
-    "order": 17,
-    "slug": "breaking-wave-prouts-neck",
-    "title": "Breaking Wave (Prouts Neck)",
-    "section": "finale",
-    "presentation": "deep-dive",
-    "headline": "海浪的呼吸",
-    "essay_angle": "水彩中海水的透明色层与白色泡沫非常精彩。",
-    "looking_tip": "和1909年的《Driftwood》对看：同一海岸、不同媒介与人生阶段。",
-    "image": "assets/works/breaking-wave-prouts-neck/detail_186.jpg",
-    "label": "assets/works/breaking-wave-prouts-neck/label.jpg",
-    "details": [
-      "assets/works/breaking-wave-prouts-neck/detail_186.jpg",
-      "assets/works/breaking-wave-prouts-neck/detail_187.jpg"
-    ]
-  },
-  {
-    "order": 18,
-    "slug": "an-afterglow",
-    "title": "An Afterglow",
-    "section": "coast",
-    "presentation": "gallery-card",
-    "headline": "",
-    "essay_angle": "",
-    "looking_tip": "",
-    "image": "assets/works/an-afterglow/detail_190.jpg",
-    "label": "assets/works/an-afterglow/label.jpg",
-    "details": [
-      "assets/works/an-afterglow/alternate_141.jpg",
-      "assets/works/an-afterglow/detail_190.jpg",
-      "assets/works/an-afterglow/detail_191.jpg"
-    ]
-  },
-  {
-    "order": 19,
-    "slug": "two-boys-rowing",
-    "title": "Two Boys Rowing",
-    "section": "coast",
-    "presentation": "gallery-card",
-    "headline": "",
-    "essay_angle": "",
-    "looking_tip": "",
-    "image": "assets/works/two-boys-rowing/detail_208.jpg",
-    "label": "assets/works/two-boys-rowing/label.jpg",
-    "details": [
-      "assets/works/two-boys-rowing/detail_208.jpg",
-      "assets/works/two-boys-rowing/detail_209.jpg"
-    ]
-  },
-  {
-    "order": 20,
-    "slug": "a-fresh-breeze",
-    "title": "A Fresh Breeze",
-    "section": "coast",
-    "presentation": "gallery-card",
-    "headline": "",
-    "essay_angle": "",
-    "looking_tip": "",
-    "image": "assets/works/a-fresh-breeze/main.jpg",
-    "label": "assets/works/a-fresh-breeze/label.jpg",
-    "details": []
-  },
-  {
-    "order": 21,
+    "order": 27,
     "slug": "fox-hill-bahamas",
     "title": "Fox Hill, Bahamas",
     "section": "caribbean",
@@ -316,23 +410,11 @@
     "looking_tip": "",
     "image": "assets/works/fox-hill-bahamas/main.jpg",
     "label": "assets/works/fox-hill-bahamas/label.jpg",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
-    "order": 22,
-    "slug": "palm-trees-florida",
-    "title": "Palm Trees, Florida",
-    "section": "caribbean",
-    "presentation": "deep-dive",
-    "headline": "另一种阳光",
-    "essay_angle": "佛罗里达的棕榈树与北方松树在构图和色调上构成鲜明对照。",
-    "looking_tip": "比较叶片与天空的留白，避免将不同地点混为一谈。",
-    "image": "assets/works/palm-trees-florida/main.jpg",
-    "label": "assets/works/palm-trees-florida/label.jpg",
-    "details": []
-  },
-  {
-    "order": 23,
+    "order": 28,
     "slug": "the-sponge-diver",
     "title": "The Sponge Diver",
     "section": "caribbean",
@@ -345,97 +427,80 @@
     "details": [
       "assets/works/the-sponge-diver/detail_198.jpg",
       "assets/works/the-sponge-diver/detail_199.jpg"
-    ]
+    ],
+    "featured": false
   },
   {
-    "order": 24,
-    "slug": "playing-old-soldier",
-    "title": "Playing Old Soldier",
-    "section": "origins",
+    "slug": "rocky-shore-bermuda",
+    "title": "Rocky Shore, Bermuda",
+    "image": "assets/works/rocky-shore-bermuda/main.jpg",
+    "label": "assets/works/rocky-shore-bermuda/label.jpg",
+    "details": [],
+    "order": 29,
+    "section": "caribbean",
     "presentation": "gallery-card",
-    "headline": "",
-    "essay_angle": "",
-    "looking_tip": "",
-    "image": "assets/works/playing-old-soldier/main.jpg",
-    "label": "assets/works/playing-old-soldier/label.jpg",
-    "details": []
+    "featured": false
   },
   {
-    "order": 25,
+    "order": 30,
+    "slug": "palm-trees-florida",
+    "title": "Palm Trees, Florida",
+    "section": "caribbean",
+    "presentation": "deep-dive",
+    "headline": "另一种阳光",
+    "essay_angle": "佛罗里达的棕榈树与北方松树在构图和色调上构成鲜明对照。",
+    "looking_tip": "比较叶片与天空的留白，避免将不同地点混为一谈。",
+    "image": "assets/works/palm-trees-florida/main.jpg",
+    "label": "assets/works/palm-trees-florida/label.jpg",
+    "details": [],
+    "featured": false
+  },
+  {
+    "order": 31,
+    "slug": "breaking-wave-prouts-neck",
+    "title": "Breaking Wave (Prouts Neck)",
+    "section": "finale",
+    "presentation": "deep-dive",
+    "headline": "海浪的呼吸",
+    "essay_angle": "水彩中海水的透明色层与白色泡沫非常精彩。",
+    "looking_tip": "和1909年的《Driftwood》对看：同一海岸、不同媒介与人生阶段。",
+    "image": "assets/works/breaking-wave-prouts-neck/detail_186.jpg",
+    "label": "assets/works/breaking-wave-prouts-neck/label.jpg",
+    "details": [
+      "assets/works/breaking-wave-prouts-neck/detail_186.jpg",
+      "assets/works/breaking-wave-prouts-neck/detail_187.jpg"
+    ],
+    "featured": true
+  },
+  {
+    "order": 32,
     "slug": "eight-bells",
     "title": "Eight Bells",
-    "section": "origins",
+    "section": "finale",
     "presentation": "gallery-card",
     "headline": "",
     "essay_angle": "",
     "looking_tip": "",
     "image": "assets/works/eight-bells/main.jpg",
     "label": "assets/works/eight-bells/label.jpg",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
-    "order": 26,
-    "slug": "coast-scene-with-boats-women-and-children-cullercoats-beach-tynemouth",
-    "title": "Coast Scene, with Boats, Women, and Children (Cullercoats Beach, Tynemouth)",
-    "section": "coast",
-    "presentation": "gallery-card",
-    "headline": "",
-    "essay_angle": "",
-    "looking_tip": "",
-    "image": "assets/works/coast-scene-with-boats-women-and-children-cullercoats-beach-tynemouth/main.jpg",
-    "label": "assets/works/coast-scene-with-boats-women-and-children-cullercoats-beach-tynemouth/label.jpg",
-    "details": []
-  },
-  {
-    "order": 27,
-    "slug": "fisherwomen",
-    "title": "Fisherwomen",
-    "section": "coast",
-    "presentation": "gallery-card",
-    "headline": "",
-    "essay_angle": "",
-    "looking_tip": "",
-    "image": "assets/works/fisherwomen/main.jpg",
-    "label": "assets/works/fisherwomen/label.jpg",
-    "details": []
-  },
-  {
-    "order": 28,
-    "slug": "sheep-and-cattle",
-    "title": "Sheep and Cattle",
-    "section": "pastoral",
-    "presentation": "gallery-card",
-    "headline": "",
-    "essay_angle": "",
-    "looking_tip": "",
-    "image": "assets/works/sheep-and-cattle/main.jpg",
-    "label": "assets/works/sheep-and-cattle/label.jpg",
-    "details": []
-  },
-  {
-    "order": 29,
-    "slug": "three-boys-on-a-beached-dory",
-    "title": "Three Boys on a Beached Dory",
-    "section": "coast",
-    "presentation": "gallery-card",
-    "headline": "",
-    "essay_angle": "",
-    "looking_tip": "",
-    "image": "assets/works/three-boys-on-a-beached-dory/main.jpg",
-    "label": "assets/works/three-boys-on-a-beached-dory/label.jpg",
-    "details": []
-  },
-  {
-    "order": 30,
-    "slug": "the-dinner-horn",
-    "title": "The Dinner Horn",
-    "section": "pastoral",
-    "presentation": "gallery-card",
-    "headline": "",
-    "essay_angle": "",
-    "looking_tip": "",
-    "image": "assets/works/the-dinner-horn/main.jpg",
-    "label": "assets/works/the-dinner-horn/label.jpg",
-    "details": []
+    "order": 33,
+    "slug": "driftwood",
+    "title": "Driftwood",
+    "section": "finale",
+    "presentation": "deep-dive",
+    "headline": "人与大海",
+    "essay_angle": "晚年油画中人物紧握漂木，在巨浪面前显得渺小。",
+    "looking_tip": "关注画中人物与海浪的尺度；自传式解释仅是可能性。",
+    "image": "assets/works/driftwood/main.jpg",
+    "label": "assets/works/driftwood/label.jpg",
+    "details": [
+      "assets/works/driftwood/detail_206.jpg",
+      "assets/works/driftwood/detail_207.jpg"
+    ],
+    "featured": true
   }
 ]

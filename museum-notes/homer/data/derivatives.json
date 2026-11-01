@@ -43,6 +43,28 @@
     ],
     "original": "data/originals/works/trout-breaking/main.jpg"
   },
+  "11": {
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/011-480.webp",
+        "width": 480,
+        "height": 360
+      },
+      {
+        "path": "images/011-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "images/011-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "original": "data/originals/works/the-blue-boat/main.jpg"
+  },
   "13": {
     "width": 1280,
     "height": 1707,
@@ -1253,28 +1275,6 @@
     ],
     "original": "data/originals/works/street-corner-santiago-de-cuba/alternate_175.jpg"
   },
-  "178": {
-    "width": 1707,
-    "height": 1280,
-    "variants": [
-      {
-        "path": "images/178-480.webp",
-        "width": 480,
-        "height": 360
-      },
-      {
-        "path": "images/178-960.webp",
-        "width": 960,
-        "height": 720
-      },
-      {
-        "path": "images/178-1600.webp",
-        "width": 1600,
-        "height": 1200
-      }
-    ],
-    "original": "data/originals/works/the-blue-boat/detail_178.jpg"
-  },
   "179": {
     "width": 1702,
     "height": 1276,
@@ -2044,5 +2044,95 @@
       }
     ],
     "original": "data/originals/works/the-dunes/detail_215.jpg"
+  },
+  "crop-harbor": {
+    "width": 612,
+    "height": 382,
+    "variants": [
+      {
+        "path": "images/crop-harbor-480.webp",
+        "width": 480,
+        "height": 300
+      },
+      {
+        "path": "images/crop-harbor-960.webp",
+        "width": 612,
+        "height": 382
+      },
+      {
+        "path": "images/crop-harbor-1600.webp",
+        "width": 612,
+        "height": 382
+      }
+    ],
+    "original": "images/crop-harbor-native.webp",
+    "source_original": "data/originals/works/watching-the-harbor/main.jpg",
+    "source_photo": 46,
+    "crop_box": [
+      477,
+      447,
+      1089,
+      829
+    ]
+  },
+  "crop-trout": {
+    "width": 569,
+    "height": 812,
+    "variants": [
+      {
+        "path": "images/crop-trout-480.webp",
+        "width": 480,
+        "height": 685
+      },
+      {
+        "path": "images/crop-trout-960.webp",
+        "width": 569,
+        "height": 812
+      },
+      {
+        "path": "images/crop-trout-1600.webp",
+        "width": 569,
+        "height": 812
+      }
+    ],
+    "original": "images/crop-trout-native.webp",
+    "source_original": "data/originals/works/leaping-trout/detail_180.jpg",
+    "source_photo": 180,
+    "crop_box": [
+      45,
+      62,
+      614,
+      874
+    ]
+  },
+  "crop-afterglow": {
+    "width": 461,
+    "height": 308,
+    "variants": [
+      {
+        "path": "images/crop-afterglow-480.webp",
+        "width": 461,
+        "height": 308
+      },
+      {
+        "path": "images/crop-afterglow-960.webp",
+        "width": 461,
+        "height": 308
+      },
+      {
+        "path": "images/crop-afterglow-1600.webp",
+        "width": 461,
+        "height": 308
+      }
+    ],
+    "original": "images/crop-afterglow-native.webp",
+    "source_original": "data/originals/works/an-afterglow/detail_190.jpg",
+    "source_photo": 190,
+    "crop_box": [
+      1024,
+      294,
+      1485,
+      602
+    ]
   }
 }

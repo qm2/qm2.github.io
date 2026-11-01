@@ -6,3 +6,58 @@
 /* Override the shared notes summary's flex row: place bilingual labels on separate lines. */
 .hm-page summary{display:list-item}.hm-region[open]{grid-column:1/-1}.hm-region[open]>p{max-width:730px}.hm-region[open] .hm-region-works{grid-template-columns:repeat(4,minmax(0,1fr));max-width:950px}.hm-map-panel svg{min-width:0}.hm-map-expanded .hm-map-panel svg{min-width:900px;max-height:none}.hm-page .hm-region summary small{margin-left:0}.hm-page summary::after{content:none}
 @media(max-width:650px){.hm-region[open] .hm-region-works{grid-template-columns:repeat(2,minmax(0,1fr))}.hm-map-tools button{font-size:12px;padding:8px 10px}.hm-map-expanded .hm-map-panel svg{min-width:700px}}
+/* Editorial refinement: seven large plates, quieter supporting works, complete image ratios. */
+.hm-hero{width:min(100%,1000px,calc(73vh * var(--ratio)));margin:12px auto 28px}
+.hm-heading{padding-bottom:12px}.hm-intro{margin-bottom:42px}
+.hm-work .hm-figure{margin-top:0}.hm-work header{margin-bottom:15px}
+.hm-work .hm-original{margin:4px 0 0}.hm-work-note .hm-prose{margin:0 0 12px}
+.hm-featured{grid-column:1/-1;padding:24px 0 30px}
+.hm-featured>header,.hm-featured>.hm-work-note{max-width:780px;margin-left:auto;margin-right:auto}
+.hm-featured>.hm-figure{width:min(100%,1060px);margin-bottom:25px}
+.hm-featured>header h3{font-size:34px}.hm-featured>.hm-details{margin-top:20px}
+.hm-editorial>header h3{font-size:24px}.hm-editorial .hm-prose{font-size:14px;line-height:1.9}
+.hm-editorial>.hm-figure{width:min(100%,calc(420px * var(--ratio)))}
+.hm-editorial .hm-more,.hm-featured .hm-more{margin:10px 0 0;font-size:12px}
+/* A horizontal pause between early sketches and the next chapter's colour. */
+#work-watching-the-harbor{grid-column:1/-1;display:grid;grid-template-columns:1.2fr 1fr;gap:0 38px;align-items:center;margin-top:12px}
+#work-watching-the-harbor>header{grid-column:2;grid-row:1;align-self:end}
+#work-watching-the-harbor>.hm-figure{grid-column:1;grid-row:1/3;margin:0}
+#work-watching-the-harbor>.hm-work-note{grid-column:2;align-self:start}
+.hm-techniques{display:grid;grid-template-columns:1fr 1fr;gap:42px 48px;margin:30px 0}
+.hm-technique{min-width:0}.hm-technique h3{font-size:23px}.hm-technique>p{font-size:14px;line-height:1.9}
+.hm-technique .hm-figure{width:min(100%,var(--native),calc(320px * var(--ratio)));margin:18px auto}
+.hm-technique .hm-more{font-size:12px}
+/* Compact map chooser, with native details as the no-JavaScript fallback. */
+.hm-regions{gap:0 20px}.hm-region{padding:10px 0}.hm-region summary{font-size:14px}
+.hm-region summary small{font-size:10px}.hm-region-body h3{font-size:22px;margin:0 0 15px}
+.hm-region-body h3 small{display:block;font:12px/1.7 var(--sans);color:var(--muted);margin-top:4px}
+.hm-region-body>p{max-width:730px;font-size:14px}.hm-region-body .text-link{display:inline-block;margin-top:18px}
+.hm-region-picker{display:flex;flex-wrap:wrap;gap:8px 20px;margin:20px 0 6px}
+.hm-region-picker button{background:none;border:0;border-bottom:1px solid transparent;padding:8px 0;color:var(--muted);font:14px/1.6 var(--serif);min-height:42px;text-align:left;cursor:pointer}
+.hm-region-picker button[aria-expanded=true]{color:var(--accent);border-color:var(--accent)}
+.hm-region-picker button:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+.hm-map-enhanced .hm-region>summary{display:none}.hm-map-enhanced .hm-region{padding:22px 0 0}
+.hm-map-enhanced .hm-regions{display:block;margin-top:10px}
+.hm-map-enhanced .hm-region[hidden]{display:none}
+.hm-map-enhanced .hm-region-works{grid-template-columns:repeat(4,minmax(0,1fr));max-width:900px}
+.hm-map-enhanced .hm-mini img{height:125px}.hm-map-enhanced .hm-mini{font-size:13px}
+@media(min-width:900px){#work-palm-trees-florida{max-width:440px;margin-left:auto;margin-right:auto}}
+@media(max-width:650px){
+ .hm-hero{width:100%;margin:12px auto 20px}.hm-featured{grid-column:auto;padding:10px 0 22px}
+ .hm-featured>header h3{font-size:28px}.hm-featured>.hm-figure{width:100%;margin-bottom:18px}
+ .hm-featured>.hm-work-note .hm-prose{font-size:16px}
+ .hm-editorial{margin:0 0 8px}.hm-editorial>.hm-figure{width:100%}
+ #work-watching-the-harbor{display:block;margin-top:0}#work-watching-the-harbor>.hm-figure{margin:0 0 18px}
+ .hm-techniques{gap:32px;grid-template-columns:1fr}.hm-technique .hm-figure{width:min(100%,var(--native),calc(300px * var(--ratio)))}
+ .hm-regions{grid-template-columns:1fr 1fr;gap:0 15px}
+ .hm-region-picker{display:grid;grid-template-columns:1fr 1fr;gap:2px 16px}
+ .hm-region-picker button{font-size:13px;padding:8px 0}
+ .hm-map-enhanced .hm-region-works{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .hm-exhibition .hm-details-grid .hm-figure{flex-basis:100%;max-width:100%}
+}
+@media(min-width:900px){
+ .hm-heading:has(+ .hm-hero){padding:18px 0 8px}
+ .hm-heading:has(+ .hm-hero) h1{font-size:54px;margin:12px 0}
+ .hm-heading:has(+ .hm-hero) .eyebrow{margin-bottom:8px}
+ .hm-hero{width:min(100%,1000px,calc(max(350px,100svh - 400px) * var(--ratio)))}
+}
