@@ -53,7 +53,8 @@ for f in rivers['features']:
  for line in f['geometry']['coordinates']:
   assert len(line)>1 and all(60<lon<92 and 9<lat<41 for lon,lat in line)
 home=(B/'index.html').read_text();preface=read('introduction.json')['preface']
-assert home.count(preface)==1 and home.index('eb-hero')<home.index(preface)<home.index('id="places"')
+for paragraph in preface.split('\n\n'):
+ assert home.count(paragraph)==1 and home.index('eb-hero')<home.index(paragraph)<home.index('id="places"')
 for p in geo['places']:
  if p['coordinate']:
   lon,lat=p['coordinate'];assert 62<lon<90 and 9<lat<40

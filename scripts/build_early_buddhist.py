@@ -38,7 +38,7 @@ def build():
    name='虚舟收藏' if 'Xuzhou' in w['private_collection'] else w['private_collection']
    return name+(' · 在'+museums[w['viewing_museum']]['name_zh']+'展出' if w['viewing_museum'] else ' · 展出机构未详')
   return museums[w['collection_museum']]['name_zh'] if w['collection_museum'] else '收藏机构未详'
- def caption(w):return w['title']+' · '+w['date']+' · '+w['material']+'｜'+collection(w)+((' · '+w['accession']) if w['accession'] else '')
+ def caption(w,short=False):return w['title']+' · '+(w.get('date_short',w['date']) if short else w['date'])+' · '+w['material']+'｜'+collection(w)+((' · '+w['accession']) if w['accession'] else '')
  def img(n,alt,pre='',high=False,small=False):
   m=manifest[n];v=m['variants'];ss=', '.join(pre+x['path']+' '+str(x['width'])+'w' for x in {x['width']:x for x in v}.values())
   sizes='(max-width: 680px) 43vw, 300px' if small else '(max-width: 680px) calc(100vw - 40px), (max-width: 1100px) 80vw, 780px'
@@ -112,7 +112,7 @@ def build():
   ws=[w for w in works if (w['museum_map'] or 'unlocated')==m['id']]
   maphtml+=f'<section id="museum-{m["id"]}"><h3>{m["name_zh"]}</h3><ul>'+''.join(f'<li><a href="#{w["id"]}">{w["title"]}</a> · {collection(w)}</li>' for w in ws)+'</ul></section>'
  maphtml+='</details></div><p class="eb-note">年代按范围相交筛选；私人借展以实际展出馆定位，与永久馆藏分别标注。未确定的原址仍可从目录阅读。</p></section>'
- intro='<nav class="breadcrumbs" aria-label="当前位置"><a href="../">博物馆札记</a><span>/</span><a href="../south-asian-art/">南亚艺术</a></nav><header class="eb-heading"><p class="eyebrow">EARLY BUDDHIST ART</p><h1>早期佛教艺术</h1><p>从早期佛塔艺术到笈多及其余绪——我的亲见作品录</p></header>'+figure('1351',caption(by['w1351'])+' · Merton摄',high=True,cls='eb-hero')+'<div class="eb-intro"><p class="eb-personal-preface">'+e(read('introduction.json')['preface'])+'</p><p class="eb-scope">'+e(read('introduction.json')['scope'])+'</p></div>'
+ intro='<nav class="breadcrumbs" aria-label="当前位置"><a href="../">博物馆札记</a><span>/</span><a href="../south-asian-art/">南亚艺术</a></nav><header class="eb-heading"><p class="eyebrow">EARLY BUDDHIST ART</p><h1>早期佛教艺术</h1><p>从早期佛塔艺术到笈多及其余绪——我的亲见作品录</p></header>'+figure('1351',caption(by['w1351'],short=True)+' · Merton摄',high=True,cls='eb-hero')+'<div class="eb-intro">'+''.join('<p class="eb-personal-preface">'+e(p)+'</p>' for p in read('introduction.json')['preface'].split('\n\n'))+'<p class="eb-scope">'+e(read('introduction.json')['scope'])+'</p></div>'
  chapter_intros={'stupa':'沿着栏楯与佛塔，先看礼拜发生的地方。','images':'同是佛与菩萨，身体、袈裟和装束有不同的表达。','stories':'树、宫殿、山洞与人群，让石面上的故事继续展开。','late':'泥与灰泥构成面容，也把人物带入龛和塔的空间。','gupta':'马图拉与鹿野苑并看，再由铜像和供养铭文收束。'}
  nav='<nav class="eb-chapter-nav" aria-label="五章细读">'+''.join(f'<a href="#chapter-{c["id"]}"><small>0{i+1}</small><span>{e(c["title"])}</span></a>' for i,c in enumerate(chapters))+'</nav>'
  body=intro+maphtml+nav
@@ -120,7 +120,7 @@ def build():
   body+=f'<section id="chapter-{c["id"]}" class="eb-section eb-chapter"><header><p class="eyebrow">CHAPTER 0{i+1}</p><h2>{e(c["title"])}</h2><p>{chapter_intros[c["id"]]}</p></header><div class="eb-readings">'
   for j,r in enumerate(u for u in units if u['chapter']==c['id']):
    w=by[r['works'][0]];large=r['id'] in ['u03','u04','u07','u09','u15','u17']
-   body+=f'<article class="eb-reading {"eb-wide" if large else ""}" id="reading-{r["id"]}"><a class="eb-reading-photo" href="{r["id"]}/">'+img(w['photo'],caption(w))+'</a><div><p class="eyebrow">'+r['id'][1:]+' / 细读</p><h3><a href="'+r['id']+'/">'+e(r['title'])+'</a></h3><p>'+e(r['teaser'])+'</p><p class="eb-note">'+e(w['title'])+' · '+e(w['date'])+'</p><a class="text-link" href="'+r['id']+'/">展开照片与札记 →</a></div></article>'
+   body+=f'<article class="eb-reading {"eb-wide" if large else ""}" id="reading-{r["id"]}"><a class="eb-reading-photo" href="{r["id"]}/">'+img(w['photo'],caption(w,short=True))+'</a><div><p class="eyebrow">'+r['id'][1:]+' / 细读</p><h3><a href="'+r['id']+'/">'+e(r['title'])+'</a></h3><p>'+e(r['teaser'])+'</p><p class="eb-note">'+e(w['title'])+' · '+e(w.get('date_short',w['date']))+'</p><a class="text-link" href="'+r['id']+'/">展开照片与札记 →</a></div></article>'
   body+='</div><p class="eb-return"><a href="#places">回到地域导览 ↑</a></p></section>'
  body+='<section class="eb-section" id="catalogue"><p class="eyebrow">THE VIEWING RECORD</p><h2>完整亲见目录</h2><p class="eb-prose">'+str(len(works))+'条作品记录。多次拍摄合并，同框作品分别登记；一对手沿用馆方的成组编号。</p><details id="eb-catalogue"><summary>展开目录 · 按地域、年代或馆藏查找</summary><div class="eb-catalogue-controls" hidden><label>搜索 <input id="eb-search" type="search" placeholder="题名、材料、馆号"></label><label>地域 <select id="eb-region-filter"><option value="all">全部</option>'+''.join(f'<option value="{p["id"]}">{p["name_zh"]}</option>' for p in geo['places'])+'</select></label><label>馆藏／展出 <select id="eb-museum-filter"><option value="all">全部</option>'+''.join(f'<option value="{m["id"]}">{m["name_zh"]}</option>' for m in geo['museums'])+'<option value="unlocated">私人收藏／地点未详</option></select></label><label>年代 <select id="eb-date-filter">'+''.join(f'<option value="{p["id"]}">{p["label"]}</option>' for p in geo['periods'])+'<option value="unknown">年代未详</option></select></label><button id="eb-reset">重置</button><p id="eb-count" role="status"></p></div><div class="eb-catalogue-grid">'
  for w in works:
