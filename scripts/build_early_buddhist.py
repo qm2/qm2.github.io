@@ -43,8 +43,8 @@ def build():
   m=manifest[n];v=m['variants'];ss=', '.join(pre+x['path']+' '+str(x['width'])+'w' for x in {x['width']:x for x in v}.values())
   sizes='(max-width: 680px) 43vw, 300px' if small else '(max-width: 680px) calc(100vw - 40px), (max-width: 1100px) 80vw, 780px'
   return f'<img src="{pre}{v[0 if small else 1]["path"]}" srcset="{ss}" sizes="{sizes}" width="{m["width"]}" height="{m["height"]}" alt="{e(alt)}" decoding="async" '+('fetchpriority="high"' if high else 'loading="lazy"')+'>'
- def figure(n,cap,pre='',high=False,cls=''):
-  m=manifest[n];return f'<figure class="eb-figure {cls}" style="--ratio:{m["width"]/m["height"]:.5f};--native:{m["width"]}px"><a data-photo href="{pre}{m["full"]}" data-caption="{e(cap)}">{img(n,cap,pre,high)}</a><figcaption>{e(cap)}</figcaption></figure>'
+ def figure(n,cap,pre='',high=False,cls='',alt=None):
+  m=manifest[n];return f'<figure class="eb-figure {cls}" style="--ratio:{m["width"]/m["height"]:.5f};--native:{m["width"]}px"><a data-photo href="{pre}{m["full"]}" data-caption="{e(cap)}">{img(n,alt or cap,pre,high)}</a><figcaption>{e(cap)}</figcaption></figure>'
  def mini(w,pre='',direct=False):
   href=(pre+w['units'][0]+'/#'+w['id']) if w['units'] and not direct else pre+'#'+w['id']
   return f'<a class="eb-mini" href="{href}">{img(w["photo"],w["title"],pre,small=True)}<span>{e(w["title"])}<small>{e(w["date"])}</small></span></a>'
@@ -112,7 +112,8 @@ def build():
   ws=[w for w in works if (w['museum_map'] or 'unlocated')==m['id']]
   maphtml+=f'<section id="museum-{m["id"]}"><h3>{m["name_zh"]}</h3><ul>'+''.join(f'<li><a href="#{w["id"]}">{w["title"]}</a> · {collection(w)}</li>' for w in ws)+'</ul></section>'
  maphtml+='</details></div><p class="eb-note">年代按范围相交筛选；私人借展以实际展出馆定位，与永久馆藏分别标注。未确定的原址仍可从目录阅读。</p></section>'
- intro='<nav class="breadcrumbs" aria-label="当前位置"><a href="../">博物馆札记</a><span>/</span><a href="../south-asian-art/">南亚艺术</a></nav><header class="eb-heading"><p class="eyebrow">EARLY BUDDHIST ART</p><h1>早期佛教艺术</h1><p>从早期佛塔艺术到笈多及其余绪——我的亲见作品录</p></header>'+figure('1351',caption(by['w1351'],short=True)+' · Merton摄',high=True,cls='eb-hero')+'<div class="eb-intro">'+''.join('<p class="eb-personal-preface">'+e(p)+'</p>' for p in read('introduction.json')['preface'].split('\n\n'))+'<p class="eb-scope">'+e(read('introduction.json')['scope'])+'</p></div>'
+ introduction=read('introduction.json');cover=introduction['cover']
+ intro='<nav class="breadcrumbs" aria-label="当前位置"><a href="../">博物馆札记</a><span>/</span><a href="../south-asian-art/">南亚艺术</a></nav><header class="eb-heading"><p class="eyebrow">EARLY BUDDHIST ART</p><h1>早期佛教艺术</h1><p>从早期佛塔艺术到笈多及其余绪——我的亲见作品录</p></header>'+figure(cover['photo'],cover['caption'],high=True,cls='eb-hero',alt=cover['alt'])+'<div class="eb-intro">'+''.join('<p class="eb-personal-preface">'+e(p)+'</p>' for p in introduction['preface'].split('\n\n'))+'<p class="eb-scope">'+e(introduction['scope'])+'</p></div>'
  chapter_intros={'stupa':'沿着栏楯与佛塔，先看礼拜发生的地方。','images':'同是佛与菩萨，身体、袈裟和装束有不同的表达。','stories':'树、宫殿、山洞与人群，让石面上的故事继续展开。','late':'泥与灰泥构成面容，也把人物带入龛和塔的空间。','gupta':'马图拉与鹿野苑并看，再由铜像和供养铭文收束。'}
  nav='<nav class="eb-chapter-nav" aria-label="五章细读">'+''.join(f'<a href="#chapter-{c["id"]}"><small>0{i+1}</small><span>{e(c["title"])}</span></a>' for i,c in enumerate(chapters))+'</nav>'
  body=intro+maphtml+nav
@@ -188,7 +189,7 @@ def build():
   article+='<nav class="eb-next" aria-label="前后细读">'+(f'<a href="../{units[idx-1]["id"]}/">← {e(units[idx-1]["title"])}</a>' if idx else '<a href="../">← 专题首页</a>')+(f'<a href="../{units[idx+1]["id"]}/">{e(units[idx+1]["title"])} →</a>' if idx+1<len(units) else '<a href="../#catalogue">完整目录 →</a>')+'</nav>'
   dest=B/r['id'];dest.mkdir(exist_ok=True);(dest/'index.html').write_text(shell(r['title'],article,1))
  # Marker-controlled entrances survive full builds and repeated focused builds.
- entry='<a class="issue-link" href="../early-buddhist-art/"><img src="../early-buddhist-art/images/1351-900.webp" width="'+str(manifest['1351']['width'])+'" height="'+str(manifest['1351']['height'])+'" alt="树冠下的佛三尊与台座铭文" loading="lazy" style="object-fit:contain"><div><p class="eyebrow">EARLY BUDDHIST ART</p><h2>早期佛教艺术</h2><p>从早期佛塔艺术到笈多及其余绪，沿着身体、衣纹与礼拜重新看。</p><p class="issue-meta">五章 · 十八篇细读 · 地域与馆藏地图</p><span class="text-link">走进这一辑 →</span></div></a>'
+ entry='<a class="issue-link" href="../early-buddhist-art/"><img src="../early-buddhist-art/images/'+cover['photo']+'-900.webp" width="'+str(manifest[cover['photo']]['width'])+'" height="'+str(manifest[cover['photo']]['height'])+'" alt="'+e(cover['alt'])+'" loading="lazy" style="object-fit:contain"><div><p class="eyebrow">EARLY BUDDHIST ART</p><h2>早期佛教艺术</h2><p>从早期佛塔艺术到笈多及其余绪，沿着身体、衣纹与礼拜重新看。</p><p class="issue-meta">五章 · 十八篇细读 · 地域与馆藏地图</p><span class="text-link">走进这一辑 →</span></div></a>'
  parent=ROOT/'museum-notes/south-asian-art/index.html';s=re.sub(r'<!-- early-buddhist-entry -->.*?<!-- /early-buddhist-entry -->','',parent.read_text(),flags=re.S);anchor='<a class="issue-link" href="../khajuraho/">';assert anchor in s;s=s.replace(anchor,'<!-- early-buddhist-entry -->'+entry+'<!-- /early-buddhist-entry -->'+anchor,1);s=s.replace('从一片神庙，走近不同的形象与信仰。','从佛塔到神庙，走近不同的形象与信仰。');parent.write_text(s)
  home=ROOT/'museum-notes/index.html';s=re.sub(r'<!-- early-buddhist-home -->.*?<!-- /early-buddhist-home -->','',home.read_text(),flags=re.S);anchor='<!-- khajuraho-home -->';assert anchor in s;home.write_text(s.replace(anchor,'<!-- early-buddhist-home -->'+entry.replace('href="../early-buddhist-art/"','href="early-buddhist-art/"').replace('src="../early-buddhist-art/','src="early-buddhist-art/')+'<!-- /early-buddhist-home -->'+anchor,1))
  print(f'Built early Buddhist art: {len(works)} object records, {len(units)} reading pages, {len(used)} used photographs; original archive remains separate.')
