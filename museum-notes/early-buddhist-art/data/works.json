@@ -1,0 +1,2577 @@
+[
+  {
+    "id": "w1323",
+    "group_id": "G1323",
+    "title": "哈达佛塔 TK121",
+    "title_original": "Stupa TK121",
+    "date": "4—5世纪",
+    "date_range": [
+      300,
+      499
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "灰泥",
+    "dimensions": null,
+    "accession": "SN AFGH 19",
+    "collection_museum": "guimet",
+    "private_collection": null,
+    "viewing_museum": "guimet",
+    "place": "hadda",
+    "place_relation": "哈达 Tapa-Kalan，TK121；展签记法国考古队1926—1927年发掘",
+    "findspot_known": true,
+    "photos": [
+      "1323"
+    ],
+    "photo": "1323",
+    "labels": [
+      "1324"
+    ],
+    "sources": [],
+    "notes": [],
+    "units": [
+      "u13"
+    ],
+    "museum_map": "guimet"
+  },
+  {
+    "id": "w1325",
+    "group_id": "G1325",
+    "title": "菩萨立像",
+    "title_original": "Bodhisattva debout",
+    "date": "1—3世纪",
+    "date_range": [
+      1,
+      299
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "片岩",
+    "dimensions": "120 × 42 × 15厘米",
+    "accession": "AO 2907",
+    "collection_museum": "guimet",
+    "private_collection": null,
+    "viewing_museum": "guimet",
+    "place": "shahbaz-garhi",
+    "place_relation": "来自沙巴兹加里附近的 Mekhasanda 寺院",
+    "findspot_known": true,
+    "photos": [
+      "1325"
+    ],
+    "photo": "1325",
+    "labels": [
+      "1326"
+    ],
+    "sources": [
+      "w1325"
+    ],
+    "notes": [],
+    "units": [
+      "u06"
+    ],
+    "museum_map": "guimet"
+  },
+  {
+    "id": "w1327",
+    "group_id": "G1327",
+    "title": "结跏趺坐菩萨残像",
+    "title_original": "Bodhisattva in Full Lotus Position",
+    "date": "2世纪",
+    "date_range": [
+      100,
+      199
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "红砂岩",
+    "dimensions": null,
+    "accession": "2000.5.1",
+    "collection_museum": "carlos",
+    "private_collection": null,
+    "viewing_museum": "carlos",
+    "place": "mathura",
+    "place_relation": "归属制作中心：马图拉",
+    "findspot_known": false,
+    "photos": [
+      "1327"
+    ],
+    "photo": "1327",
+    "labels": [
+      "1328"
+    ],
+    "sources": [],
+    "notes": [],
+    "units": [
+      "u04"
+    ],
+    "museum_map": "carlos"
+  },
+  {
+    "id": "w1329",
+    "group_id": "G1329",
+    "title": "王子装束的菩萨胸像",
+    "title_original": "Bodhisattva in the Guise of a Prince",
+    "date": "2—3世纪",
+    "date_range": [
+      100,
+      299
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "灰片岩",
+    "dimensions": null,
+    "accession": "2013.14.1",
+    "collection_museum": "carlos",
+    "private_collection": null,
+    "viewing_museum": "carlos",
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1329"
+    ],
+    "photo": "1329",
+    "labels": [
+      "1330"
+    ],
+    "sources": [],
+    "notes": [],
+    "units": [],
+    "museum_map": "carlos"
+  },
+  {
+    "id": "w1331",
+    "group_id": "G1331",
+    "title": "思惟菩萨",
+    "title_original": "Thinking Bodhisattva",
+    "date": "4—6世纪",
+    "date_range": [
+      300,
+      599
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "陶土，表面施泥浆",
+    "dimensions": "82.19 × 62.23 × 26.67厘米",
+    "accession": "2010.17",
+    "collection_museum": "dma",
+    "private_collection": null,
+    "viewing_museum": "dma",
+    "place": "hadda",
+    "place_relation": "哈达地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1331"
+    ],
+    "photo": "1331",
+    "labels": [
+      "1332"
+    ],
+    "sources": [
+      "w1331"
+    ],
+    "notes": [],
+    "units": [
+      "u14"
+    ],
+    "museum_map": "dma"
+  },
+  {
+    "id": "w1333",
+    "group_id": "G1333",
+    "title": "佛首",
+    "title_original": "Head of Buddha",
+    "date": "3世纪",
+    "date_range": [
+      200,
+      299
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "片岩",
+    "dimensions": null,
+    "accession": "1993.7",
+    "collection_museum": "dma",
+    "private_collection": null,
+    "viewing_museum": "dma",
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1333"
+    ],
+    "photo": "1333",
+    "labels": [
+      "1334"
+    ],
+    "sources": [],
+    "notes": [],
+    "units": [],
+    "museum_map": "dma"
+  },
+  {
+    "id": "w1335",
+    "group_id": "G1335",
+    "title": "菩萨胸像",
+    "title_original": "Bust of a Bodhisattva",
+    "date": "2—3世纪",
+    "date_range": [
+      100,
+      299
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "灰片岩",
+    "dimensions": null,
+    "accession": "1973.81",
+    "collection_museum": "dma",
+    "private_collection": null,
+    "viewing_museum": "dma",
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1335"
+    ],
+    "photo": "1335",
+    "labels": [
+      "1336"
+    ],
+    "sources": [],
+    "notes": [],
+    "units": [
+      "u06"
+    ],
+    "museum_map": "dma"
+  },
+  {
+    "id": "w1339",
+    "group_id": "G1339",
+    "title": "大型菩萨躯干",
+    "title_original": "Torso of a Monumental Bodhisattva",
+    "date": "约5世纪",
+    "date_range": [
+      400,
+      499
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "片岩",
+    "dimensions": null,
+    "accession": "1995.419",
+    "collection_museum": "met",
+    "private_collection": null,
+    "viewing_museum": "met",
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1339"
+    ],
+    "photo": "1339",
+    "labels": [
+      "1340"
+    ],
+    "sources": [],
+    "notes": [],
+    "units": [],
+    "museum_map": "met"
+  },
+  {
+    "id": "w1341",
+    "group_id": "G1341",
+    "title": "苦修佛残躯",
+    "title_original": "Fasting Buddha Shakyamuni",
+    "date": "3—5世纪",
+    "date_range": [
+      200,
+      499
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "片岩",
+    "dimensions": "高27.8厘米",
+    "accession": "1987.218.5",
+    "collection_museum": "met",
+    "private_collection": null,
+    "viewing_museum": "met",
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1341"
+    ],
+    "photo": "1341",
+    "labels": [
+      "1342"
+    ],
+    "sources": [
+      "w1341"
+    ],
+    "notes": [],
+    "units": [
+      "u11"
+    ],
+    "museum_map": "met"
+  },
+  {
+    "id": "w1343",
+    "group_id": "G1343",
+    "title": "施无畏印佛立像",
+    "title_original": "Standing Buddha Offering Protection",
+    "date": "5世纪晚期",
+    "date_range": [
+      450,
+      499
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "红砂岩",
+    "dimensions": "85.5 × 42.5 × 16.5厘米",
+    "accession": "1979.6",
+    "collection_museum": "met",
+    "private_collection": null,
+    "viewing_museum": "met",
+    "place": "mathura",
+    "place_relation": "归属制作中心：马图拉",
+    "findspot_known": false,
+    "photos": [
+      "1343",
+      "1464"
+    ],
+    "photo": "1343",
+    "labels": [
+      "1344",
+      "1465"
+    ],
+    "sources": [
+      "w1343"
+    ],
+    "notes": [
+      "两次拍摄记录合并为同一件大都会藏品；另一张照片的展出地点未单独确定。"
+    ],
+    "units": [
+      "u16"
+    ],
+    "museum_map": "met"
+  },
+  {
+    "id": "w1345",
+    "group_id": "G1345",
+    "title": "坐菩萨与供养者、象的龛",
+    "title_original": "Niche with a Seated Bodhisattva",
+    "date": "约5世纪",
+    "date_range": [
+      400,
+      499
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "灰泥",
+    "dimensions": null,
+    "accession": "2005.314",
+    "collection_museum": "met",
+    "private_collection": null,
+    "viewing_museum": "met",
+    "place": "hadda",
+    "place_relation": "犍陀罗；可能与哈达地区有关",
+    "findspot_known": false,
+    "photos": [
+      "1345"
+    ],
+    "photo": "1345",
+    "labels": [
+      "1346"
+    ],
+    "sources": [],
+    "notes": [],
+    "units": [
+      "u13"
+    ],
+    "museum_map": "met"
+  },
+  {
+    "id": "w1349",
+    "group_id": "G1349",
+    "title": "菩萨立像，可能为弥勒",
+    "title_original": "Standing Bodhisattva, probably Maitreya",
+    "date": "约3世纪",
+    "date_range": [
+      200,
+      299
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "片岩",
+    "dimensions": null,
+    "accession": "13.96.16",
+    "collection_museum": "met",
+    "private_collection": null,
+    "viewing_museum": "met",
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1349"
+    ],
+    "photo": "1349",
+    "labels": [
+      "1350"
+    ],
+    "sources": [],
+    "notes": [],
+    "units": [],
+    "museum_map": "met"
+  },
+  {
+    "id": "w1351",
+    "group_id": "G1351",
+    "title": "“五年”纪年佛三尊",
+    "title_original": "Schist Buddha Triad (Year 5)",
+    "date": "3世纪；展签作235年，研究倾向232年",
+    "date_range": [
+      232,
+      235
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "片岩",
+    "dimensions": "61.6 × 59.1厘米",
+    "accession": null,
+    "collection_museum": null,
+    "private_collection": "私人收藏",
+    "viewing_museum": "met",
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1351"
+    ],
+    "photo": "1351",
+    "labels": [
+      "1352"
+    ],
+    "sources": [
+      "w1351"
+    ],
+    "notes": [
+      "现场展签作235年；2023年铭文研究将“五年”与贵霜纪年及风格比较结合，倾向232年。原出土地不详。"
+    ],
+    "units": [
+      "u07"
+    ],
+    "museum_map": "met"
+  },
+  {
+    "id": "w1353",
+    "group_id": "G1353",
+    "title": "戴冠菩萨像",
+    "title_original": "Crowned Bodhisattva",
+    "date": "3世纪（据现场展签）",
+    "date_range": [
+      200,
+      299
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "砂岩",
+    "dimensions": null,
+    "accession": "2016.210.70",
+    "collection_museum": "met",
+    "private_collection": null,
+    "viewing_museum": "met",
+    "place": "mathura",
+    "place_relation": "归属制作中心：马图拉",
+    "findspot_known": false,
+    "photos": [
+      "1353"
+    ],
+    "photo": "1353",
+    "labels": [
+      "1354"
+    ],
+    "sources": [],
+    "notes": [],
+    "units": [],
+    "museum_map": "met"
+  },
+  {
+    "id": "w1355",
+    "group_id": "G1355",
+    "title": "佛涅槃浮雕",
+    "title_original": "The Death of the Buddha (Parinirvana)",
+    "date": "约3世纪",
+    "date_range": [
+      200,
+      299
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "片岩",
+    "dimensions": null,
+    "accession": "2015.500.4.1",
+    "collection_museum": "met",
+    "private_collection": null,
+    "viewing_museum": "met",
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1355"
+    ],
+    "photo": "1355",
+    "labels": [
+      "1356"
+    ],
+    "sources": [],
+    "notes": [],
+    "units": [
+      "u09"
+    ],
+    "museum_map": "met"
+  },
+  {
+    "id": "w1357",
+    "group_id": "G1357",
+    "title": "嵌石榴石眼的佛首",
+    "title_original": "Head of the Buddha",
+    "date": "5—6世纪",
+    "date_range": [
+      400,
+      599
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "泥，石榴石嵌眼",
+    "dimensions": null,
+    "accession": "1986.2",
+    "collection_museum": "met",
+    "private_collection": null,
+    "viewing_museum": "met",
+    "place": "hadda",
+    "place_relation": "犍陀罗；可能与哈达地区有关",
+    "findspot_known": false,
+    "photos": [
+      "1357"
+    ],
+    "photo": "1357",
+    "labels": [
+      "1358"
+    ],
+    "sources": [],
+    "notes": [],
+    "units": [
+      "u15"
+    ],
+    "museum_map": "met"
+  },
+  {
+    "id": "w1359",
+    "group_id": "G1359",
+    "title": "佛立像",
+    "title_original": "Standing Buddha",
+    "date": "3世纪",
+    "date_range": [
+      200,
+      299
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "片岩",
+    "dimensions": null,
+    "accession": "2014.138",
+    "collection_museum": "met",
+    "private_collection": null,
+    "viewing_museum": "met",
+    "place": "takht-i-bahi",
+    "place_relation": "可能来自塔赫特巴希",
+    "findspot_known": false,
+    "photos": [
+      "1359"
+    ],
+    "photo": "1359",
+    "labels": [
+      "1360"
+    ],
+    "sources": [],
+    "notes": [],
+    "units": [
+      "u05"
+    ],
+    "museum_map": "met"
+  },
+  {
+    "id": "w1361",
+    "group_id": "G1361",
+    "title": "青铜佛坐像",
+    "title_original": "Seated Buddha",
+    "date": "1世纪至2世纪中叶",
+    "date_range": [
+      1,
+      150
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "青铜，残存金层",
+    "dimensions": "16.8 × 11.4 × 10.2厘米",
+    "accession": "2003.593.1",
+    "collection_museum": "met",
+    "private_collection": null,
+    "viewing_museum": "met",
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1361"
+    ],
+    "photo": "1361",
+    "labels": [
+      "1362"
+    ],
+    "sources": [
+      "w1361"
+    ],
+    "notes": [],
+    "units": [
+      "u08"
+    ],
+    "museum_map": "met"
+  },
+  {
+    "id": "w1363",
+    "group_id": "G1363",
+    "title": "菩提树前的悉达多",
+    "title_original": "Siddhartha at the Bodhi Tree",
+    "date": "2—3世纪",
+    "date_range": [
+      100,
+      299
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "片岩",
+    "dimensions": "73.7 × 57.2厘米",
+    "accession": "1997.151",
+    "collection_museum": "cma",
+    "private_collection": null,
+    "viewing_museum": "cma",
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1363"
+    ],
+    "photo": "1363",
+    "labels": [
+      "1364"
+    ],
+    "sources": [
+      "cma-1997.151"
+    ],
+    "notes": [],
+    "units": [],
+    "museum_map": "cma"
+  },
+  {
+    "id": "w1365",
+    "group_id": "G1365",
+    "title": "佛传故事浮雕",
+    "title_original": "Scenes from the Life of Buddha",
+    "date": "2世纪",
+    "date_range": [
+      100,
+      199
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "片岩",
+    "dimensions": "Overall: 68 x 41.3 cm (26 3/4 x 16 1/4 in.)",
+    "accession": "1958.474",
+    "collection_museum": "cma",
+    "private_collection": null,
+    "viewing_museum": "cma",
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1365"
+    ],
+    "photo": "1365",
+    "labels": [
+      "1366"
+    ],
+    "sources": [
+      "cma-1958.474"
+    ],
+    "notes": [],
+    "units": [
+      "u10"
+    ],
+    "official_title": "Scenes from the Life of Buddha",
+    "museum_map": "cma"
+  },
+  {
+    "id": "w1367",
+    "group_id": "G1367",
+    "title": "观音菩萨头像",
+    "title_original": "Head of Avalokiteshvara",
+    "date": "4—5世纪",
+    "date_range": [
+      300,
+      499
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "灰泥，残存彩绘",
+    "dimensions": "Overall: 45.7 x 35.5 cm (18 x 14 in.)",
+    "accession": "1985.31",
+    "collection_museum": "cma",
+    "private_collection": null,
+    "viewing_museum": "cma",
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1367"
+    ],
+    "photo": "1367",
+    "labels": [
+      "1368"
+    ],
+    "sources": [
+      "cma-1985.31"
+    ],
+    "notes": [],
+    "units": [
+      "u15"
+    ],
+    "official_title": "Head of Bodhisattva Avalokiteshvara",
+    "museum_map": "cma"
+  },
+  {
+    "id": "w1369",
+    "group_id": "G1369",
+    "title": "礼拜者像",
+    "title_original": "Adoring Attendant",
+    "date": "约4—5世纪",
+    "date_range": [
+      300,
+      499
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "灰泥",
+    "dimensions": "Overall: 54.6 cm (21 1/2 in.)",
+    "accession": "1943.395",
+    "collection_museum": "cma",
+    "private_collection": null,
+    "viewing_museum": "cma",
+    "place": "hadda",
+    "place_relation": "哈达地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1369"
+    ],
+    "photo": "1369",
+    "labels": [
+      "1370"
+    ],
+    "sources": [
+      "cma-1943.395"
+    ],
+    "notes": [],
+    "units": [],
+    "official_title": "Adoring Attendant from a Buddhist Shrine",
+    "museum_map": "cma"
+  },
+  {
+    "id": "w1376",
+    "group_id": "G1376",
+    "title": "菩萨立像",
+    "title_original": "Standing Bodhisattva",
+    "date": "2世纪晚期",
+    "date_range": [
+      175,
+      199
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "片岩",
+    "dimensions": "Overall: 132.4 cm (52 1/8 in.)",
+    "accession": "1965.476",
+    "collection_museum": "cma",
+    "private_collection": null,
+    "viewing_museum": "cma",
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1376"
+    ],
+    "photo": "1376",
+    "labels": [
+      "1377"
+    ],
+    "sources": [
+      "cma-1965.476"
+    ],
+    "notes": [],
+    "units": [],
+    "official_title": "Bodhisattva",
+    "museum_map": "cma"
+  },
+  {
+    "id": "w1378",
+    "group_id": "G1378",
+    "title": "佛立像",
+    "title_original": "Standing Buddha",
+    "date": "150—200年",
+    "date_range": [
+      150,
+      200
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "片岩",
+    "dimensions": "Overall: 119.7 cm (47 1/8 in.); Head: 1.5 x 3.2 cm (9/16 x 1 1/4 in.)",
+    "accession": "1972.43",
+    "collection_museum": "cma",
+    "private_collection": null,
+    "viewing_museum": "cma",
+    "place": "takht-i-bahi",
+    "place_relation": "可能来自塔赫特巴希",
+    "findspot_known": false,
+    "photos": [
+      "1378"
+    ],
+    "photo": "1378",
+    "labels": [
+      "1380"
+    ],
+    "sources": [
+      "cma-1972.43"
+    ],
+    "notes": [],
+    "units": [
+      "u05"
+    ],
+    "official_title": "Standing Buddha",
+    "museum_map": "cma"
+  },
+  {
+    "id": "w1379",
+    "group_id": "G1379",
+    "title": "乐师浮雕",
+    "title_original": "Celestial Musicians",
+    "date": "2世纪",
+    "date_range": [
+      100,
+      199
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "片岩",
+    "dimensions": "Overall: 37.5 cm (14 3/4 in.)",
+    "accession": "1980.15",
+    "collection_museum": "cma",
+    "private_collection": null,
+    "viewing_museum": "cma",
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1379"
+    ],
+    "photo": "1379",
+    "labels": [
+      "1380"
+    ],
+    "sources": [
+      "cma-1980.15"
+    ],
+    "notes": [],
+    "units": [],
+    "official_title": "Bracket with Two Musicians",
+    "museum_map": "cma"
+  },
+  {
+    "id": "w1381",
+    "group_id": "G1381",
+    "title": "弥勒菩萨立像",
+    "title_original": "Maitreya",
+    "date": "约3世纪",
+    "date_range": [
+      200,
+      299
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "灰片岩",
+    "dimensions": "Overall: 66.3 cm (26 1/8 in.)",
+    "accession": "1969.61",
+    "collection_museum": "cma",
+    "private_collection": null,
+    "viewing_museum": "cma",
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1381"
+    ],
+    "photo": "1381",
+    "labels": [
+      "1383"
+    ],
+    "sources": [
+      "cma-1969.61"
+    ],
+    "notes": [],
+    "units": [],
+    "official_title": "Maitreya",
+    "museum_map": "cma"
+  },
+  {
+    "id": "w1389",
+    "group_id": "G1389",
+    "title": "菩萨头像",
+    "title_original": "Head of a Bodhisattva",
+    "date": "约75年至2世纪初",
+    "date_range": [
+      75,
+      125
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "红砂岩",
+    "dimensions": "Overall: 50.8 x 25.4 cm (20 x 10 in.)",
+    "accession": "1984.220",
+    "collection_museum": "cma",
+    "private_collection": null,
+    "viewing_museum": "cma",
+    "place": "mathura",
+    "place_relation": "归属制作中心：马图拉",
+    "findspot_known": false,
+    "photos": [
+      "1389"
+    ],
+    "photo": "1389",
+    "labels": [
+      "1390"
+    ],
+    "sources": [
+      "cma-1984.220"
+    ],
+    "notes": [
+      "现场展签作125—150年；此处采用馆方现行记录“75年至2世纪初”。"
+    ],
+    "units": [],
+    "official_title": "Head of a Bodhisattva",
+    "museum_map": "cma"
+  },
+  {
+    "id": "w1391",
+    "group_id": "G1391",
+    "title": "圣树前的礼拜者",
+    "title_original": "Worshippers at a Sacred Tree",
+    "date": "约前50年至公元50年",
+    "date_range": [
+      -50,
+      50
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "石灰岩",
+    "dimensions": "Overall: 80 x 57.1 cm (31 1/2 x 22 1/2 in.)",
+    "accession": "1970.43",
+    "collection_museum": "cma",
+    "private_collection": null,
+    "viewing_museum": "cma",
+    "place": "amaravati",
+    "place_relation": "归属阿马拉瓦蒂地区",
+    "findspot_known": false,
+    "photos": [
+      "1391"
+    ],
+    "photo": "1391",
+    "labels": [
+      "1392"
+    ],
+    "sources": [
+      "cma-1970.43"
+    ],
+    "notes": [
+      "现场展签作前100年至公元100年；此处采用馆方现行约前50年至公元50年的范围与题名。"
+    ],
+    "units": [
+      "u02"
+    ],
+    "official_title": "Worshippers at a sacred tree",
+    "museum_map": "cma"
+  },
+  {
+    "id": "w1393",
+    "group_id": "G1393",
+    "title": "火柱与礼拜者",
+    "title_original": "Worship of the Fiery Pillar",
+    "date": "3世纪",
+    "date_range": [
+      200,
+      299
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "石灰岩",
+    "dimensions": "Overall: 59 cm (23 1/4 in.)",
+    "accession": "1943.72",
+    "collection_museum": "cma",
+    "private_collection": null,
+    "viewing_museum": "cma",
+    "place": "nagarjunakonda",
+    "place_relation": "归属龙树山遗址",
+    "findspot_known": false,
+    "photos": [
+      "1393"
+    ],
+    "photo": "1393",
+    "labels": [
+      "1394"
+    ],
+    "sources": [
+      "cma-1943.72"
+    ],
+    "notes": [],
+    "units": [
+      "u02"
+    ],
+    "official_title": "Veneration of the Buddha as a Fiery Pillar",
+    "museum_map": "cma"
+  },
+  {
+    "id": "w1395",
+    "group_id": "G1395",
+    "title": "整石雕栏楯",
+    "title_original": "Monolithic Railing",
+    "date": "约150—250年",
+    "date_range": [
+      150,
+      250
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "红砂岩",
+    "dimensions": "Overall: 53.3 x 45.8 cm (21 x 18 1/16 in.)",
+    "accession": "1943.71",
+    "collection_museum": "cma",
+    "private_collection": null,
+    "viewing_museum": "cma",
+    "place": "mathura",
+    "place_relation": "归属制作中心：马图拉",
+    "findspot_known": false,
+    "photos": [
+      "1395"
+    ],
+    "photo": "1395",
+    "labels": [
+      "1396"
+    ],
+    "sources": [
+      "cma-1943.71"
+    ],
+    "notes": [],
+    "units": [],
+    "official_title": "Section of Monolithic Railing with Bather and Lotus Medallions",
+    "museum_map": "cma"
+  },
+  {
+    "id": "w1397",
+    "group_id": "G1397",
+    "title": "佛坐像",
+    "title_original": "Seated Buddha",
+    "date": "约120年",
+    "date_range": [
+      100,
+      140
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "杂色红砂岩",
+    "dimensions": "Overall: 51.4 cm (20 1/4 in.)",
+    "accession": "1970.63",
+    "collection_museum": "cma",
+    "private_collection": null,
+    "viewing_museum": "cma",
+    "place": "mathura",
+    "place_relation": "归属制作中心：马图拉",
+    "findspot_known": false,
+    "photos": [
+      "1397"
+    ],
+    "photo": "1397",
+    "labels": [
+      "1398"
+    ],
+    "sources": [
+      "cma-1970.63"
+    ],
+    "notes": [],
+    "units": [
+      "u04"
+    ],
+    "official_title": "Seated Shakyamuni Buddha",
+    "museum_map": "cma"
+  },
+  {
+    "id": "w1399",
+    "group_id": "G1399",
+    "title": "佛塔栏楯横栏",
+    "title_original": "Double-Sided Crossbar from a Railing",
+    "date": "约前150年",
+    "date_range": [
+      -170,
+      -130
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "紫红色砂岩",
+    "dimensions": "Overall: 55.9 x 66 cm (22 x 26 in.)",
+    "accession": "1982.44",
+    "collection_museum": "cma",
+    "private_collection": null,
+    "viewing_museum": "cma",
+    "place": "bharhut",
+    "place_relation": "巴尔胡特佛塔栏楯构件",
+    "findspot_known": false,
+    "photos": [
+      "1399"
+    ],
+    "photo": "1399",
+    "labels": [
+      "1400"
+    ],
+    "sources": [
+      "cma-1982.44"
+    ],
+    "notes": [],
+    "units": [
+      "u01"
+    ],
+    "official_title": "Double-Faced Crossbar from a Railing",
+    "museum_map": "cma"
+  },
+  {
+    "id": "w1401",
+    "group_id": "G1401",
+    "title": "菩萨立像",
+    "title_original": "Standing Bodhisattva",
+    "date": "3世纪",
+    "date_range": [
+      200,
+      299
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "灰片岩",
+    "dimensions": null,
+    "accession": "57.003.8",
+    "collection_museum": null,
+    "private_collection": null,
+    "viewing_museum": null,
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1401"
+    ],
+    "photo": "1401",
+    "labels": [
+      "1402"
+    ],
+    "sources": [],
+    "notes": [
+      "基本资料据现场展签；照片尚不能确认收藏机构，故未标入今日馆藏地图。"
+    ],
+    "units": [],
+    "museum_map": null
+  },
+  {
+    "id": "w1403",
+    "group_id": "G1403",
+    "title": "佛涅槃浮雕",
+    "title_original": "Parinirvana of the Buddha",
+    "date": "约100年（据现场展签）",
+    "date_range": [
+      80,
+      120
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "石",
+    "dimensions": null,
+    "accession": "2719",
+    "collection_museum": "homa",
+    "private_collection": null,
+    "viewing_museum": "homa",
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1403"
+    ],
+    "photo": "1403",
+    "labels": [
+      "1404"
+    ],
+    "sources": [],
+    "notes": [],
+    "units": [],
+    "museum_map": "homa"
+  },
+  {
+    "id": "w1405",
+    "group_id": "G1405",
+    "title": "说法佛",
+    "title_original": "Buddha Preaching",
+    "date": "3世纪",
+    "date_range": [
+      200,
+      299
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "片岩",
+    "dimensions": "71.1 × 53.3 × 22.9厘米（不含现代底座）",
+    "accession": "25.266",
+    "collection_museum": "walters",
+    "private_collection": null,
+    "viewing_museum": "walters",
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1405"
+    ],
+    "photo": "1405",
+    "labels": [
+      "1406"
+    ],
+    "sources": [
+      "w1405"
+    ],
+    "notes": [],
+    "units": [],
+    "museum_map": "walters"
+  },
+  {
+    "id": "w1407",
+    "group_id": "G1407",
+    "title": "佛传故事浮雕",
+    "title_original": "Narrative Relief Panels",
+    "date": "2世纪",
+    "date_range": [
+      100,
+      199
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "灰片岩",
+    "dimensions": null,
+    "accession": "25.259",
+    "collection_museum": "walters",
+    "private_collection": null,
+    "viewing_museum": "walters",
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1407"
+    ],
+    "photo": "1407",
+    "labels": [
+      "1408"
+    ],
+    "sources": [
+      "w1407"
+    ],
+    "notes": [],
+    "units": [
+      "u12"
+    ],
+    "museum_map": "walters"
+  },
+  {
+    "id": "w1417",
+    "group_id": "G1417",
+    "title": "佛立像残躯",
+    "title_original": "Standing Buddha",
+    "date": "约320—485年",
+    "date_range": [
+      320,
+      485
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "砂岩",
+    "dimensions": null,
+    "accession": "F1994.17",
+    "collection_museum": "nmaa",
+    "private_collection": null,
+    "viewing_museum": "nmaa",
+    "place": "mathura",
+    "place_relation": "归属制作中心：马图拉",
+    "findspot_known": false,
+    "photos": [
+      "1417"
+    ],
+    "photo": "1417",
+    "labels": [
+      "1418"
+    ],
+    "sources": [
+      "w1417"
+    ],
+    "notes": [],
+    "units": [
+      "u16"
+    ],
+    "museum_map": "nmaa"
+  },
+  {
+    "id": "w1422",
+    "group_id": "G1422",
+    "title": "禅定佛",
+    "title_original": "Meditating Buddha",
+    "date": "4—5世纪",
+    "date_range": [
+      300,
+      499
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "灰泥",
+    "dimensions": null,
+    "accession": null,
+    "collection_museum": null,
+    "private_collection": "The Xuzhou Collection of Buddhist Art / 虚舟收藏",
+    "viewing_museum": "mfah",
+    "place": "hadda",
+    "place_relation": "犍陀罗；可能与哈达地区有关",
+    "findspot_known": false,
+    "photos": [
+      "1422"
+    ],
+    "photo": "1422",
+    "labels": [
+      "1423"
+    ],
+    "sources": [],
+    "notes": [],
+    "units": [],
+    "museum_map": "mfah"
+  },
+  {
+    "id": "w1424",
+    "group_id": "G1424",
+    "title": "释迦牟尼佛立像",
+    "title_original": "Standing Buddha Shakyamuni",
+    "date": "约6世纪",
+    "date_range": [
+      500,
+      599
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "铜合金",
+    "dimensions": null,
+    "accession": null,
+    "collection_museum": null,
+    "private_collection": "The Xuzhou Collection of Buddhist Art / 虚舟收藏",
+    "viewing_museum": "mfah",
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1424"
+    ],
+    "photo": "1424",
+    "labels": [
+      "1425"
+    ],
+    "sources": [],
+    "notes": [],
+    "units": [
+      "u18"
+    ],
+    "museum_map": "mfah"
+  },
+  {
+    "id": "w1426",
+    "group_id": "G1426",
+    "title": "菩萨立像",
+    "title_original": "Standing Bodhisattva",
+    "date": "3—4世纪",
+    "date_range": [
+      200,
+      399
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "片岩",
+    "dimensions": null,
+    "accession": "2006.370",
+    "collection_museum": "mfah",
+    "private_collection": null,
+    "viewing_museum": "mfah",
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1426"
+    ],
+    "photo": "1426",
+    "labels": [
+      "1427"
+    ],
+    "sources": [],
+    "notes": [],
+    "units": [],
+    "museum_map": "mfah"
+  },
+  {
+    "id": "w1428",
+    "group_id": "G1428",
+    "title": "菩萨立像",
+    "title_original": "Bodhisattva",
+    "date": "2世纪中叶至3世纪中叶",
+    "date_range": [
+      150,
+      250
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "片岩",
+    "dimensions": null,
+    "accession": "44.63",
+    "collection_museum": "sam",
+    "private_collection": null,
+    "viewing_museum": "sam",
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1428"
+    ],
+    "photo": "1428",
+    "labels": [
+      "1429"
+    ],
+    "sources": [],
+    "notes": [],
+    "units": [
+      "u06"
+    ],
+    "museum_map": "sam"
+  },
+  {
+    "id": "w1430",
+    "group_id": "G1430",
+    "title": "莲座说法佛",
+    "title_original": "Preaching Buddha Seated on a Lotus Throne",
+    "date": "2—3世纪",
+    "date_range": [
+      100,
+      299
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "灰片岩",
+    "dimensions": null,
+    "accession": "59.14",
+    "collection_museum": "pam",
+    "private_collection": null,
+    "viewing_museum": "pam",
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1430"
+    ],
+    "photo": "1430",
+    "labels": [
+      "1431"
+    ],
+    "sources": [],
+    "notes": [
+      "题名、年代、材料与59.14据现场展签；尚未取得可直接核对的现行馆藏网页。"
+    ],
+    "units": [
+      "u07"
+    ],
+    "museum_map": "pam"
+  },
+  {
+    "id": "w1432",
+    "group_id": "G1432",
+    "title": "佛塔外饰石板",
+    "title_original": "Casing Slab from a Buddhist Stupa",
+    "date": "约200—250年",
+    "date_range": [
+      200,
+      250
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "石灰岩",
+    "dimensions": "82.55 × 66.68厘米",
+    "accession": "49-29",
+    "collection_museum": "nelson",
+    "private_collection": null,
+    "viewing_museum": "nelson",
+    "place": "gummadidurru",
+    "place_relation": "有发掘记录：Gummadidurru",
+    "findspot_known": true,
+    "photos": [
+      "1432"
+    ],
+    "photo": "1432",
+    "labels": [
+      "1433"
+    ],
+    "sources": [
+      "w1432"
+    ],
+    "notes": [],
+    "units": [
+      "u03"
+    ],
+    "museum_map": "nelson"
+  },
+  {
+    "id": "w1434",
+    "group_id": "G1434",
+    "title": "佛半身像",
+    "title_original": "Bust of Buddha",
+    "date": "3世纪",
+    "date_range": [
+      200,
+      299
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "石灰岩",
+    "dimensions": null,
+    "accession": "81-27/25",
+    "collection_museum": "nelson",
+    "private_collection": null,
+    "viewing_museum": "nelson",
+    "place": "amaravati",
+    "place_relation": "归属阿马拉瓦蒂地区",
+    "findspot_known": false,
+    "photos": [
+      "1434"
+    ],
+    "photo": "1434",
+    "labels": [
+      "1435"
+    ],
+    "sources": [],
+    "notes": [],
+    "units": [
+      "u03"
+    ],
+    "museum_map": "nelson"
+  },
+  {
+    "id": "w1436",
+    "group_id": "G1436",
+    "title": "佛立像残躯：马图拉",
+    "title_original": "Torso of a Buddha",
+    "date": "5世纪",
+    "date_range": [
+      400,
+      499
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "杂色红砂岩",
+    "dimensions": "114.94 × 52.07厘米",
+    "accession": "45-15",
+    "collection_museum": "nelson",
+    "private_collection": null,
+    "viewing_museum": "nelson",
+    "place": "mathura",
+    "place_relation": "归属制作中心：马图拉",
+    "findspot_known": false,
+    "photos": [
+      "1436",
+      "N03"
+    ],
+    "photo": "N03",
+    "labels": [
+      "1437",
+      "N04"
+    ],
+    "sources": [
+      "w1436"
+    ],
+    "notes": [],
+    "units": [
+      "u17"
+    ],
+    "museum_map": "nelson"
+  },
+  {
+    "id": "w1440",
+    "group_id": "G1440",
+    "title": "佛首",
+    "title_original": "Head of Buddha",
+    "date": "2世纪晚期",
+    "date_range": [
+      175,
+      199
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "石膏岩",
+    "dimensions": null,
+    "accession": "33-350",
+    "collection_museum": "nelson",
+    "private_collection": null,
+    "viewing_museum": "nelson",
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1440"
+    ],
+    "photo": "1440",
+    "labels": [
+      "1441"
+    ],
+    "sources": [],
+    "notes": [],
+    "units": [
+      "u15"
+    ],
+    "museum_map": "nelson"
+  },
+  {
+    "id": "w1442",
+    "group_id": "G1442",
+    "title": "弥勒菩萨",
+    "title_original": "The Bodhisattva Maitreya",
+    "date": "2世纪",
+    "date_range": [
+      100,
+      199
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "千枚岩，残存彩绘",
+    "dimensions": "139.7 × 44.45 × 26.67厘米",
+    "accession": "35-32",
+    "collection_museum": "nelson",
+    "private_collection": null,
+    "viewing_museum": "nelson",
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1442"
+    ],
+    "photo": "1442",
+    "labels": [
+      "1443"
+    ],
+    "sources": [
+      "w1442"
+    ],
+    "notes": [],
+    "units": [],
+    "museum_map": "nelson"
+  },
+  {
+    "id": "w1444",
+    "group_id": "G1444",
+    "title": "佛传浮雕",
+    "title_original": "Scenes from the Life of the Buddha",
+    "date": "2—3世纪",
+    "date_range": [
+      100,
+      299
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "灰片岩",
+    "dimensions": null,
+    "accession": "55-105",
+    "collection_museum": "nelson",
+    "private_collection": null,
+    "viewing_museum": "nelson",
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1444"
+    ],
+    "photo": "1444",
+    "labels": [
+      "1445"
+    ],
+    "sources": [],
+    "notes": [],
+    "units": [
+      "u12"
+    ],
+    "museum_map": "nelson"
+  },
+  {
+    "id": "w1446",
+    "group_id": "G1446",
+    "title": "帝释访佛浮雕残片",
+    "title_original": "Indra’s Visit to the Buddha Meditating in a Cave",
+    "date": "2—3世纪",
+    "date_range": [
+      100,
+      299
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "片岩",
+    "dimensions": null,
+    "accession": "F99-2",
+    "collection_museum": "nelson",
+    "private_collection": null,
+    "viewing_museum": "nelson",
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1446"
+    ],
+    "photo": "1446",
+    "labels": [
+      "1447"
+    ],
+    "sources": [],
+    "notes": [],
+    "units": [
+      "u12"
+    ],
+    "museum_map": "nelson"
+  },
+  {
+    "id": "w1451",
+    "group_id": "G1451",
+    "title": "佛立像",
+    "title_original": "Standing Buddha",
+    "date": "约400年",
+    "date_range": [
+      380,
+      420
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "青铜",
+    "dimensions": "37.15 × 13.34 × 10.8厘米",
+    "accession": "44-13",
+    "collection_museum": "nelson",
+    "private_collection": null,
+    "viewing_museum": "nelson",
+    "place": "north-india",
+    "place_relation": "归属北印度地区",
+    "findspot_known": false,
+    "photos": [
+      "1451"
+    ],
+    "photo": "1451",
+    "labels": [
+      "1452"
+    ],
+    "sources": [
+      "w1451"
+    ],
+    "notes": [],
+    "units": [
+      "u18"
+    ],
+    "museum_map": "nelson"
+  },
+  {
+    "id": "w1454",
+    "group_id": "G1454",
+    "title": "有纪年铭文的菩萨残躯",
+    "title_original": "Torso of a Bodhisattva",
+    "date": "2世纪",
+    "date_range": [
+      100,
+      199
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "杂色红砂岩",
+    "dimensions": null,
+    "accession": "2005.184",
+    "collection_museum": null,
+    "private_collection": null,
+    "viewing_museum": null,
+    "place": "mathura",
+    "place_relation": "归属制作中心：马图拉",
+    "findspot_known": false,
+    "photos": [
+      "1454"
+    ],
+    "photo": "1454",
+    "labels": [
+      "1455"
+    ],
+    "sources": [],
+    "notes": [
+      "基本资料据现场展签；照片尚不能确认收藏机构，故未标入今日馆藏地图。"
+    ],
+    "units": [],
+    "museum_map": null
+  },
+  {
+    "id": "w1456",
+    "group_id": "G1456",
+    "title": "菩萨立像",
+    "title_original": "Standing Bodhisattva",
+    "date": "2—3世纪",
+    "date_range": [
+      100,
+      299
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "灰片岩",
+    "dimensions": "150.2 × 76.2 × 25.4厘米",
+    "accession": "AP 1997.04",
+    "collection_museum": "kimbell",
+    "private_collection": null,
+    "viewing_museum": "kimbell",
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1456"
+    ],
+    "photo": "1456",
+    "labels": [
+      "1457"
+    ],
+    "sources": [
+      "w1456"
+    ],
+    "notes": [],
+    "units": [
+      "u06"
+    ],
+    "museum_map": "kimbell"
+  },
+  {
+    "id": "w1458",
+    "group_id": "G1458",
+    "title": "佛与二胁侍",
+    "title_original": "Seated Buddha with Two Attendants",
+    "date": "2世纪早期",
+    "date_range": [
+      100,
+      150
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "红砂岩",
+    "dimensions": null,
+    "accession": "AP 1986.06",
+    "collection_museum": "kimbell",
+    "private_collection": null,
+    "viewing_museum": "kimbell",
+    "place": "mathura",
+    "place_relation": "归属制作中心：马图拉",
+    "findspot_known": false,
+    "photos": [
+      "1458"
+    ],
+    "photo": "1458",
+    "labels": [
+      "1459"
+    ],
+    "sources": [],
+    "notes": [
+      "现场展签换算为约131年；此处以2世纪早期表示年代范围。"
+    ],
+    "units": [
+      "u04"
+    ],
+    "museum_map": "kimbell"
+  },
+  {
+    "id": "w1460",
+    "group_id": "G1460",
+    "title": "悉达多出家之夜",
+    "title_original": "The Departure of Prince Siddhartha",
+    "date": "2—3世纪",
+    "date_range": [
+      100,
+      299
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "片岩",
+    "dimensions": null,
+    "accession": null,
+    "collection_museum": null,
+    "private_collection": "The Xuzhou Collection of Buddhist Art / 虚舟收藏",
+    "viewing_museum": "mfah",
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1460"
+    ],
+    "photo": "1460",
+    "labels": [
+      "1461"
+    ],
+    "sources": [],
+    "notes": [],
+    "units": [
+      "u10"
+    ],
+    "museum_map": "mfah"
+  },
+  {
+    "id": "w1462",
+    "group_id": "G1462",
+    "title": "说法佛山墙浮雕",
+    "title_original": "Gable Relief with a Teaching Buddha",
+    "date": "3—4世纪",
+    "date_range": [
+      200,
+      399
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "片岩",
+    "dimensions": null,
+    "accession": null,
+    "collection_museum": null,
+    "private_collection": "Robert Gottschall Collection",
+    "viewing_museum": null,
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1462"
+    ],
+    "photo": "1462",
+    "labels": [
+      "1463"
+    ],
+    "sources": [],
+    "notes": [
+      "展签明确列 Robert Gottschall 收藏；现场展出机构未确认。"
+    ],
+    "units": [],
+    "museum_map": null
+  },
+  {
+    "id": "wn01",
+    "group_id": "G-NELSON-39-19",
+    "title": "佛立像残躯：鹿野苑",
+    "title_original": "Torso of a Buddha",
+    "date": "5世纪",
+    "date_range": [
+      400,
+      499
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "浅黄色砂岩",
+    "dimensions": "86.36 × 36.83 × 17.78厘米",
+    "accession": "39-19",
+    "collection_museum": "nelson",
+    "private_collection": null,
+    "viewing_museum": "nelson",
+    "place": "sarnath",
+    "place_relation": "归属制作中心：鹿野苑",
+    "findspot_known": false,
+    "photos": [
+      "N01"
+    ],
+    "photo": "N01",
+    "labels": [
+      "N02"
+    ],
+    "sources": [
+      "wn01"
+    ],
+    "notes": [],
+    "units": [
+      "u17"
+    ],
+    "museum_map": "nelson"
+  },
+  {
+    "id": "wn05",
+    "group_id": "G-CMA-1943-278",
+    "title": "佛立像残躯：鹿野苑",
+    "title_original": "Torso of a Buddha",
+    "date": "5世纪",
+    "date_range": [
+      400,
+      499
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "砂岩",
+    "dimensions": "高76.2厘米",
+    "accession": "1943.278",
+    "collection_museum": "cma",
+    "private_collection": null,
+    "viewing_museum": "cma",
+    "place": "sarnath",
+    "place_relation": "归属制作中心：鹿野苑",
+    "findspot_known": false,
+    "photos": [
+      "N05"
+    ],
+    "photo": "N05",
+    "labels": [
+      "N06"
+    ],
+    "sources": [
+      "cma-1943.278"
+    ],
+    "notes": [],
+    "units": [
+      "u17"
+    ],
+    "official_title": "Standing Buddha",
+    "museum_map": "cma"
+  },
+  {
+    "id": "wn07",
+    "group_id": "G-CMA-1968-40",
+    "title": "有供养铭文的佛立像",
+    "title_original": "Standing Buddha",
+    "date": "591年",
+    "date_range": [
+      591,
+      591
+    ],
+    "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
+    "material": "青铜",
+    "dimensions": "含座46.5 × 15.4 × 13.4厘米",
+    "accession": "1968.40",
+    "collection_museum": "cma",
+    "private_collection": null,
+    "viewing_museum": "cma",
+    "place": "north-india",
+    "place_relation": "归属北印度地区",
+    "findspot_known": false,
+    "photos": [
+      "N07"
+    ],
+    "photo": "N07",
+    "labels": [
+      "N08",
+      "N06"
+    ],
+    "sources": [
+      "cma-1968.40"
+    ],
+    "notes": [],
+    "units": [
+      "u18"
+    ],
+    "official_title": "Standing Buddha",
+    "museum_map": "cma"
+  },
+  {
+    "id": "w1371-buddha",
+    "group_id": "G1371",
+    "title": "佛坐像",
+    "title_original": "Seated Buddha",
+    "date": "约300年",
+    "date_range": [
+      280,
+      320
+    ],
+    "date_range_basis": "馆方显示年代的筛选包络",
+    "material": "灰泥",
+    "dimensions": "Overall: 36.9 x 26 x 10.1 cm (14 1/2 x 10 1/4 x 4 in.)",
+    "accession": "1967.39",
+    "collection_museum": "cma",
+    "private_collection": null,
+    "viewing_museum": "cma",
+    "place": "hadda",
+    "place_relation": "哈达地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1371"
+    ],
+    "photo": "1371",
+    "labels": [
+      "1372",
+      "1373"
+    ],
+    "sources": [
+      "cma-1967.39"
+    ],
+    "notes": [],
+    "units": [
+      "u13"
+    ],
+    "photo_caption": "同框左侧：佛坐像；右侧两位礼拜者分别登记",
+    "official_title": "Seated Buddha",
+    "museum_map": "cma",
+    "catalogue_photo": "w1371-buddha-crop"
+  },
+  {
+    "id": "w1371-lay",
+    "group_id": "G1371",
+    "title": "在家礼拜者",
+    "title_original": "Lay Worshipper",
+    "date": "约300年",
+    "date_range": [
+      280,
+      320
+    ],
+    "date_range_basis": "馆方显示年代的筛选包络",
+    "material": "灰泥，嵌珍珠母",
+    "dimensions": "Overall: 25.3 x 9 x 5 cm (9 15/16 x 3 9/16 x 1 15/16 in.)",
+    "accession": "1967.40",
+    "collection_museum": "cma",
+    "private_collection": null,
+    "viewing_museum": "cma",
+    "place": "hadda",
+    "place_relation": "哈达地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1371"
+    ],
+    "photo": "1371",
+    "labels": [
+      "1372",
+      "1373"
+    ],
+    "sources": [
+      "cma-1967.40"
+    ],
+    "notes": [],
+    "units": [
+      "u13"
+    ],
+    "photo_caption": "同框中央：在家礼拜者",
+    "official_title": "Layman bearing offerings",
+    "museum_map": "cma",
+    "catalogue_photo": "w1371-lay-crop"
+  },
+  {
+    "id": "w1371-monk",
+    "group_id": "G1371",
+    "title": "僧人礼拜者",
+    "title_original": "Monk Worshipper",
+    "date": "约300年",
+    "date_range": [
+      280,
+      320
+    ],
+    "date_range_basis": "馆方显示年代的筛选包络",
+    "material": "灰泥",
+    "dimensions": "Overall: 27.3 x 10.3 x 5.4 cm (10 3/4 x 4 1/16 x 2 1/8 in.)",
+    "accession": "1967.41",
+    "collection_museum": "cma",
+    "private_collection": null,
+    "viewing_museum": "cma",
+    "place": "hadda",
+    "place_relation": "哈达地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1371"
+    ],
+    "photo": "1371",
+    "labels": [
+      "1372",
+      "1373"
+    ],
+    "sources": [
+      "cma-1967.41"
+    ],
+    "notes": [],
+    "units": [
+      "u13"
+    ],
+    "photo_caption": "同框右侧：僧人礼拜者",
+    "official_title": "Monk bearing offerings",
+    "museum_map": "cma",
+    "catalogue_photo": "w1371-monk-crop"
+  },
+  {
+    "id": "w1382-1",
+    "group_id": "G1382",
+    "title": "舞者与乐师",
+    "title_original": "Dancers and Musicians from Phrygia",
+    "date": "1—100年",
+    "date_range": [
+      1,
+      100
+    ],
+    "date_range_basis": "馆方显示年代的筛选包络",
+    "material": "片岩",
+    "dimensions": "Overall: 17.1 x 44.5 cm (6 3/4 x 17 1/2 in.)",
+    "accession": "1930.328.1",
+    "collection_museum": "cma",
+    "private_collection": null,
+    "viewing_museum": "cma",
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1382"
+    ],
+    "photo": "1382",
+    "labels": [
+      "1383"
+    ],
+    "sources": [
+      "cma-1930.328.1"
+    ],
+    "notes": [],
+    "units": [],
+    "photo_caption": "同框第1层：舞者与乐师；三块佛塔构件分别登记",
+    "official_title": "Dancers and Musicians from Phrygia",
+    "museum_map": "cma",
+    "catalogue_photo": "w1382-1-crop"
+  },
+  {
+    "id": "w1382-2",
+    "group_id": "G1382",
+    "title": "饮酒场景",
+    "title_original": "Bacchanalian Scene",
+    "date": "1—100年",
+    "date_range": [
+      1,
+      100
+    ],
+    "date_range_basis": "馆方显示年代的筛选包络",
+    "material": "片岩",
+    "dimensions": "Overall: 16.5 x 53 cm (6 1/2 x 20 7/8 in.)",
+    "accession": "1930.328.2",
+    "collection_museum": "cma",
+    "private_collection": null,
+    "viewing_museum": "cma",
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1382"
+    ],
+    "photo": "1382",
+    "labels": [
+      "1383"
+    ],
+    "sources": [
+      "cma-1930.328.2"
+    ],
+    "notes": [],
+    "units": [],
+    "photo_caption": "同框最下层：饮酒场景；原现场全景含三块浮雕",
+    "official_title": "Bacchanalian Scene",
+    "museum_map": "cma",
+    "catalogue_photo": "w1382-2-crop"
+  },
+  {
+    "id": "w1382-3",
+    "group_id": "G1382",
+    "title": "行进中的人群",
+    "title_original": "Procession of Non-Buddhists",
+    "date": "1—100年",
+    "date_range": [
+      1,
+      100
+    ],
+    "date_range_basis": "馆方显示年代的筛选包络",
+    "material": "片岩",
+    "dimensions": "Overall: 16 x 53 cm (6 5/16 x 20 7/8 in.)",
+    "accession": "1930.328.3",
+    "collection_museum": "cma",
+    "private_collection": null,
+    "viewing_museum": "cma",
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1382"
+    ],
+    "photo": "1382",
+    "labels": [
+      "1383"
+    ],
+    "sources": [
+      "cma-1930.328.3"
+    ],
+    "notes": [],
+    "units": [],
+    "photo_caption": "同框中层：行进中的人群；原现场全景含三块浮雕",
+    "official_title": "Procession of Non-Buddhists",
+    "museum_map": "cma",
+    "catalogue_photo": "w1382-3-crop"
+  },
+  {
+    "id": "w1409",
+    "group_id": "G1409",
+    "title": "佛诞生",
+    "title_original": "Birth of the Buddha",
+    "date": "2世纪晚期至3世纪初",
+    "date_range": [
+      175,
+      225
+    ],
+    "date_range_basis": "馆方显示年代的筛选包络",
+    "material": "片岩",
+    "dimensions": null,
+    "accession": "F1949.9a–d（组号）",
+    "collection_museum": "nmaa",
+    "private_collection": null,
+    "viewing_museum": "nmaa",
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1409"
+    ],
+    "photo": "1409",
+    "labels": [
+      "1410",
+      "1412",
+      "1414",
+      "1416"
+    ],
+    "sources": [
+      "four-events"
+    ],
+    "notes": [
+      "馆方以 F1949.9a–d 发表整组；单幅字母后缀尚未逐一对应，尺寸不套用整组总宽。"
+    ],
+    "units": [
+      "u09"
+    ],
+    "photo_caption": "佛诞生 · 四大事迹浮雕之一",
+    "museum_map": "nmaa"
+  },
+  {
+    "id": "w1411",
+    "group_id": "G1409",
+    "title": "佛成道",
+    "title_original": "Enlightenment of the Buddha",
+    "date": "2世纪晚期至3世纪初",
+    "date_range": [
+      175,
+      225
+    ],
+    "date_range_basis": "馆方显示年代的筛选包络",
+    "material": "片岩",
+    "dimensions": null,
+    "accession": "F1949.9a–d（组号）",
+    "collection_museum": "nmaa",
+    "private_collection": null,
+    "viewing_museum": "nmaa",
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1411"
+    ],
+    "photo": "1411",
+    "labels": [
+      "1410",
+      "1412",
+      "1414",
+      "1416"
+    ],
+    "sources": [
+      "four-events"
+    ],
+    "notes": [
+      "馆方以 F1949.9a–d 发表整组；单幅字母后缀尚未逐一对应，尺寸不套用整组总宽。"
+    ],
+    "units": [
+      "u09"
+    ],
+    "photo_caption": "佛成道 · 四大事迹浮雕之一",
+    "museum_map": "nmaa"
+  },
+  {
+    "id": "w1413",
+    "group_id": "G1409",
+    "title": "初次说法",
+    "title_original": "First Sermon",
+    "date": "2世纪晚期至3世纪初",
+    "date_range": [
+      175,
+      225
+    ],
+    "date_range_basis": "馆方显示年代的筛选包络",
+    "material": "片岩",
+    "dimensions": null,
+    "accession": "F1949.9a–d（组号）",
+    "collection_museum": "nmaa",
+    "private_collection": null,
+    "viewing_museum": "nmaa",
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1413"
+    ],
+    "photo": "1413",
+    "labels": [
+      "1410",
+      "1412",
+      "1414",
+      "1416"
+    ],
+    "sources": [
+      "four-events"
+    ],
+    "notes": [
+      "馆方以 F1949.9a–d 发表整组；单幅字母后缀尚未逐一对应，尺寸不套用整组总宽。"
+    ],
+    "units": [
+      "u09"
+    ],
+    "photo_caption": "初次说法 · 四大事迹浮雕之一",
+    "museum_map": "nmaa"
+  },
+  {
+    "id": "w1415",
+    "group_id": "G1409",
+    "title": "佛涅槃",
+    "title_original": "Parinirvana",
+    "date": "2世纪晚期至3世纪初",
+    "date_range": [
+      175,
+      225
+    ],
+    "date_range_basis": "馆方显示年代的筛选包络",
+    "material": "片岩",
+    "dimensions": null,
+    "accession": "F1949.9a–d（组号）",
+    "collection_museum": "nmaa",
+    "private_collection": null,
+    "viewing_museum": "nmaa",
+    "place": "gandhara",
+    "place_relation": "犍陀罗地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1415"
+    ],
+    "photo": "1415",
+    "labels": [
+      "1410",
+      "1412",
+      "1414",
+      "1416"
+    ],
+    "sources": [
+      "four-events"
+    ],
+    "notes": [
+      "馆方以 F1949.9a–d 发表整组；单幅字母后缀尚未逐一对应，尺寸不套用整组总宽。"
+    ],
+    "units": [
+      "u09"
+    ],
+    "photo_caption": "佛涅槃 · 四大事迹浮雕之一",
+    "museum_map": "nmaa"
+  },
+  {
+    "id": "w1419",
+    "group_id": "G1419",
+    "title": "礼拜佛塔",
+    "title_original": "Worship of a Stupa",
+    "date": "前2世纪早期",
+    "date_range": [
+      -200,
+      -170
+    ],
+    "date_range_basis": "馆方显示年代的筛选包络",
+    "material": "砂岩",
+    "dimensions": "47.5 × 51.9 × 8厘米",
+    "accession": "F1932.26",
+    "collection_museum": "nmaa",
+    "private_collection": null,
+    "viewing_museum": "nmaa",
+    "place": "bharhut",
+    "place_relation": "巴尔胡特佛塔栏楯构件",
+    "findspot_known": false,
+    "photos": [
+      "1419"
+    ],
+    "photo": "1419",
+    "labels": [
+      "1421"
+    ],
+    "sources": [
+      "w1419"
+    ],
+    "notes": [],
+    "units": [
+      "u01"
+    ],
+    "photo_caption": "佛塔前后反复出现的礼拜者",
+    "museum_map": "nmaa"
+  },
+  {
+    "id": "w1420",
+    "group_id": "G1419",
+    "title": "礼拜法轮与宝座",
+    "title_original": "Worship of the Wheel and Throne",
+    "date": "前2世纪早期",
+    "date_range": [
+      -200,
+      -170
+    ],
+    "date_range_basis": "馆方显示年代的筛选包络",
+    "material": "石",
+    "dimensions": "48 × 52.8 × 8.9厘米",
+    "accession": "F1932.25",
+    "collection_museum": "nmaa",
+    "private_collection": null,
+    "viewing_museum": "nmaa",
+    "place": "bharhut",
+    "place_relation": "巴尔胡特佛塔栏楯构件",
+    "findspot_known": false,
+    "photos": [
+      "1420"
+    ],
+    "photo": "1420",
+    "labels": [
+      "1421"
+    ],
+    "sources": [
+      "w1420"
+    ],
+    "notes": [],
+    "units": [
+      "u01"
+    ],
+    "photo_caption": "法轮、空座与礼拜者",
+    "museum_map": "nmaa"
+  },
+  {
+    "id": "w1448",
+    "group_id": "G1448",
+    "title": "佛坐像",
+    "title_original": "Seated Buddha",
+    "date": "4—5世纪",
+    "date_range": [
+      300,
+      499
+    ],
+    "date_range_basis": "馆方显示年代的筛选包络",
+    "material": "灰泥，彩绘",
+    "dimensions": null,
+    "accession": "37-31/13",
+    "collection_museum": "nelson",
+    "private_collection": null,
+    "viewing_museum": "nelson",
+    "place": "hadda",
+    "place_relation": "哈达地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1448"
+    ],
+    "photo": "1448",
+    "labels": [
+      "1450"
+    ],
+    "sources": [],
+    "notes": [],
+    "units": [
+      "u13"
+    ],
+    "photo_caption": "佛坐像 · 馆方归于哈达 Tapa-Kalan",
+    "museum_map": "nelson"
+  },
+  {
+    "id": "w1449",
+    "group_id": "G1448",
+    "title": "一对手",
+    "title_original": "Pair of Hands",
+    "date": "4—5世纪",
+    "date_range": [
+      300,
+      499
+    ],
+    "date_range_basis": "馆方显示年代的筛选包络",
+    "material": "灰泥，彩绘",
+    "dimensions": null,
+    "accession": "37-31/16",
+    "collection_museum": "nelson",
+    "private_collection": null,
+    "viewing_museum": "nelson",
+    "place": "hadda",
+    "place_relation": "哈达地区；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "1449"
+    ],
+    "photo": "1449",
+    "labels": [
+      "1450"
+    ],
+    "sources": [],
+    "notes": [],
+    "units": [
+      "u13"
+    ],
+    "photo_caption": "一对手作为一条馆藏记录；不拼接到坐佛上",
+    "museum_map": "nelson"
+  }
+]

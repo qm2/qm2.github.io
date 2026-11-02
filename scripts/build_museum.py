@@ -166,3 +166,6 @@ build_xuzhou()
 
 from build_homer import build as build_homer
 build_homer()
+
+from build_early_buddhist import build as build_early_buddhist
+build_early_buddhist()

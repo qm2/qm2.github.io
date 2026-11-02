@@ -1,0 +1,389 @@
+{
+  "places": [
+    {
+      "id": "bharhut",
+      "name_zh": "巴尔胡特",
+      "name_en": "Bharhut",
+      "kind": "archaeological_site",
+      "display_geometry": "point_after_verification",
+      "coordinate": [
+        80.87,
+        24.44
+      ],
+      "coordinate_status": "resolve_conflicting_gazetteer_record",
+      "source_ids": [
+        "map-bharhut-conflict",
+        "cma-bharhut",
+        "freer-wheel"
+      ],
+      "description": "前2世纪的佛塔栏楯，让莲花圆饰与绕塔礼拜相遇。",
+      "parent": null,
+      "label_position": null
+    },
+    {
+      "id": "mathura",
+      "name_zh": "马图拉",
+      "name_en": "Mathura",
+      "kind": "production_center",
+      "display_geometry": "city_anchor",
+      "coordinate": [
+        77.6833,
+        27.502
+      ],
+      "coordinate_status": "reference_point_verified",
+      "source_ids": [
+        "map-mathura"
+      ],
+      "description": "红砂岩、结实的身体与衣纹；贵霜和笈多时期共用这个地域入口。",
+      "parent": null,
+      "label_position": null
+    },
+    {
+      "id": "sarnath",
+      "name_zh": "鹿野苑",
+      "name_en": "Sarnath",
+      "kind": "site_and_production_center",
+      "display_geometry": "site_reference",
+      "coordinate": [
+        83.0254,
+        25.3768
+      ],
+      "coordinate_status": "reference_point_verified",
+      "source_ids": [
+        "map-sarnath"
+      ],
+      "description": "鹿野苑的浅色砂岩造像，以衣缘轻轻勾出身体。",
+      "parent": null,
+      "label_position": null
+    },
+    {
+      "id": "amaravati",
+      "name_zh": "阿马拉瓦蒂",
+      "name_en": "Amaravati / Amaravathi",
+      "kind": "archaeological_site",
+      "display_geometry": "point_after_verification",
+      "coordinate": [
+        80.35,
+        16.566667
+      ],
+      "coordinate_status": "published_archaeology_minute_precision",
+      "source_ids": [
+        "map-amaravati"
+      ],
+      "description": "安得拉地区的佛塔与石灰岩雕刻中心；与相邻遗址分别登记。",
+      "parent": "andhra",
+      "label_position": null
+    },
+    {
+      "id": "nagarjunakonda",
+      "name_zh": "龙树山",
+      "name_en": "Nagarjunakonda",
+      "kind": "archaeological_site",
+      "display_geometry": "point_after_verification",
+      "coordinate": [
+        79.233333,
+        16.516667
+      ],
+      "coordinate_status": "asi_site_area_minute_precision",
+      "source_ids": [
+        "map-nagarjunakonda"
+      ],
+      "description": "龙树山古代谷地已有部分淹没；图上为遗址区域，不是某件作品的出土坑。",
+      "parent": "andhra",
+      "label_position": null
+    },
+    {
+      "id": "gummadidurru",
+      "name_zh": "Gummadidurru",
+      "name_en": "Gummadidurru",
+      "kind": "archaeological_site",
+      "display_geometry": "point_after_verification",
+      "coordinate": [
+        80.3,
+        16.866667
+      ],
+      "coordinate_status": "needs_site_geocoding",
+      "source_ids": [
+        "map-gummadidurru",
+        "nelson-stupa"
+      ],
+      "description": "纳尔逊49-29的发掘记录指向这里，与阿马拉瓦蒂是不同遗址。",
+      "parent": "andhra",
+      "label_position": null
+    },
+    {
+      "id": "gandhara",
+      "name_zh": "犍陀罗",
+      "name_en": "Gandhara",
+      "kind": "historical_region",
+      "display_geometry": "soft_region_label",
+      "coordinate": null,
+      "coordinate_status": "region_anchor_to_prepare",
+      "source_ids": [
+        "gupta-context"
+      ],
+      "description": "涵盖今巴基斯坦西北与阿富汗部分地区的历史艺术区域；不以一个城市代表所有原址。",
+      "parent": null,
+      "label_position": [
+        73,
+        35.8
+      ]
+    },
+    {
+      "id": "hadda",
+      "name_zh": "哈达",
+      "name_en": "Hadda",
+      "kind": "site_cluster",
+      "display_geometry": "site_cluster_after_verification",
+      "coordinate": [
+        70.47,
+        34.37
+      ],
+      "coordinate_status": "needs_site_cluster_geocoding",
+      "source_ids": [
+        "dma-thinking"
+      ],
+      "description": "今阿富汗贾拉拉巴德附近的寺院群，陶土与灰泥造像在此构成建筑空间。",
+      "parent": null,
+      "label_position": null
+    },
+    {
+      "id": "shahbaz-garhi",
+      "name_zh": "沙巴兹加里",
+      "name_en": "Shahbaz Garhi",
+      "kind": "site_or_locality",
+      "display_geometry": "point_after_verification",
+      "coordinate": null,
+      "coordinate_status": "needs_site_geocoding",
+      "source_ids": [],
+      "description": "吉美菩萨的馆方记录指向附近 Mekhasanda 寺院；此入口只列地点关系，不设精确图钉。",
+      "parent": "gandhara",
+      "label_position": null
+    },
+    {
+      "id": "takht-i-bahi",
+      "name_zh": "塔赫特巴希",
+      "name_en": "Takht-i-Bahi",
+      "kind": "archaeological_site",
+      "display_geometry": "site_reference",
+      "coordinate": [
+        71.947222,
+        34.286111
+      ],
+      "coordinate_status": "unesco_component_reference",
+      "source_ids": [
+        "map-takht"
+      ],
+      "description": "今巴基斯坦的佛教寺院遗址；相关佛立像的来源仍保留“可能”。",
+      "parent": "gandhara",
+      "label_position": null
+    },
+    {
+      "id": "north-india",
+      "name_zh": "北印度",
+      "name_en": "Northern India",
+      "kind": "broad_region",
+      "display_geometry": "soft_region_label",
+      "coordinate": null,
+      "coordinate_status": "broad_region_no_exact_pin",
+      "source_ids": [
+        "cma-591"
+      ],
+      "description": "北印度的大范围归属，包括约400年的铜佛和591年的风格延续。",
+      "parent": null,
+      "label_position": [
+        80,
+        31
+      ]
+    },
+    {
+      "id": "andhra",
+      "name_zh": "安得拉地区",
+      "name_en": "Andhra",
+      "coordinate": null,
+      "label_position": [
+        81.8,
+        18.5
+      ],
+      "parent": null,
+      "kind": "historical_region",
+      "description": "阿马拉瓦蒂、龙树山和 Gummadidurru：相近材料与不同建筑来历。"
+    }
+  ],
+  "museums": [
+    {
+      "id": "guimet",
+      "name_zh": "吉美国立亚洲艺术博物馆",
+      "city": "Paris",
+      "coordinate_precision": "approximate_city_or_campus_anchor",
+      "verify_before_precise_pin": true,
+      "coordinate": [
+        2.29,
+        48.86
+      ]
+    },
+    {
+      "id": "carlos",
+      "name_zh": "迈克尔·卡洛斯博物馆",
+      "city": "Atlanta",
+      "coordinate_precision": "approximate_city_or_campus_anchor",
+      "verify_before_precise_pin": true,
+      "coordinate": [
+        -84.32,
+        33.79
+      ]
+    },
+    {
+      "id": "dma",
+      "name_zh": "达拉斯艺术博物馆",
+      "city": "Dallas",
+      "coordinate_precision": "approximate_city_or_campus_anchor",
+      "verify_before_precise_pin": true,
+      "coordinate": [
+        -96.8,
+        32.79
+      ]
+    },
+    {
+      "id": "met",
+      "name_zh": "大都会艺术博物馆",
+      "city": "New York",
+      "coordinate_precision": "approximate_city_or_campus_anchor",
+      "verify_before_precise_pin": true,
+      "coordinate": [
+        -73.96,
+        40.78
+      ]
+    },
+    {
+      "id": "cma",
+      "name_zh": "克利夫兰艺术博物馆",
+      "city": "Cleveland",
+      "coordinate_precision": "approximate_city_or_campus_anchor",
+      "verify_before_precise_pin": true,
+      "coordinate": [
+        -81.61,
+        41.51
+      ]
+    },
+    {
+      "id": "nmaa",
+      "name_zh": "国家亚洲艺术博物馆／弗利尔",
+      "city": "Washington, DC",
+      "coordinate_precision": "approximate_city_or_campus_anchor",
+      "verify_before_precise_pin": true,
+      "coordinate": [
+        -77.03,
+        38.89
+      ]
+    },
+    {
+      "id": "walters",
+      "name_zh": "沃尔特斯艺术博物馆",
+      "city": "Baltimore",
+      "coordinate_precision": "approximate_city_or_campus_anchor",
+      "verify_before_precise_pin": true,
+      "coordinate": [
+        -76.62,
+        39.3
+      ]
+    },
+    {
+      "id": "mfah",
+      "name_zh": "休斯顿美术馆",
+      "city": "Houston",
+      "coordinate_precision": "approximate_city_or_campus_anchor",
+      "verify_before_precise_pin": true,
+      "coordinate": [
+        -95.39,
+        29.73
+      ]
+    },
+    {
+      "id": "sam",
+      "name_zh": "西雅图艺术博物馆／亚洲艺术博物馆",
+      "city": "Seattle",
+      "coordinate_precision": "approximate_city_or_campus_anchor",
+      "verify_before_precise_pin": true,
+      "coordinate": [
+        -122.31,
+        47.63
+      ]
+    },
+    {
+      "id": "pam",
+      "name_zh": "波特兰艺术博物馆",
+      "city": "Portland",
+      "coordinate_precision": "approximate_city_or_campus_anchor",
+      "verify_before_precise_pin": true,
+      "coordinate": [
+        -122.68,
+        45.52
+      ]
+    },
+    {
+      "id": "nelson",
+      "name_zh": "纳尔逊—阿特金斯艺术博物馆",
+      "city": "Kansas City",
+      "coordinate_precision": "approximate_city_or_campus_anchor",
+      "verify_before_precise_pin": true,
+      "coordinate": [
+        -94.58,
+        39.04
+      ]
+    },
+    {
+      "id": "kimbell",
+      "name_zh": "金贝尔艺术博物馆",
+      "city": "Fort Worth",
+      "coordinate_precision": "approximate_city_or_campus_anchor",
+      "verify_before_precise_pin": true,
+      "coordinate": [
+        -97.37,
+        32.75
+      ]
+    },
+    {
+      "id": "homa",
+      "name_zh": "檀香山艺术博物馆",
+      "city": "Honolulu",
+      "coordinate_precision": "approximate_city_or_campus_anchor",
+      "verify_before_precise_pin": true,
+      "coordinate": [
+        -157.85,
+        21.3
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "all",
+      "label": "全部年代",
+      "range": null
+    },
+    {
+      "id": "bce",
+      "label": "前2—1世纪",
+      "range": [
+        -200,
+        -1
+      ]
+    },
+    {
+      "id": "early",
+      "label": "1—3世纪",
+      "range": [
+        1,
+        299
+      ]
+    },
+    {
+      "id": "late",
+      "label": "4—6世纪",
+      "range": [
+        300,
+        599
+      ]
+    }
+  ]
+}
