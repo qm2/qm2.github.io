@@ -1141,10 +1141,10 @@
     "date_range_basis": "世纪、馆方区间或约年筛选包络；不代替显示年代",
     "material": "灰片岩",
     "dimensions": null,
-    "accession": "57.003.8",
-    "collection_museum": null,
+    "accession": "4308.1",
+    "collection_museum": "homa",
     "private_collection": null,
-    "viewing_museum": null,
+    "viewing_museum": "homa",
     "place": "gandhara",
     "place_relation": "犍陀罗地区；具体原址未详",
     "findspot_known": false,
@@ -1157,10 +1157,10 @@
     ],
     "sources": [],
     "notes": [
-      "基本资料据现场展签；照片尚不能确认收藏机构，故未标入今日馆藏地图。"
+      "现场展签记为1975年购入，编号4308.1；57.003.8与本件的对应关系尚待核实。"
     ],
     "units": [],
-    "museum_map": null
+    "museum_map": "homa"
   },
   {
     "id": "w1403",
@@ -1762,9 +1762,9 @@
     "material": "杂色红砂岩",
     "dimensions": null,
     "accession": "2005.184",
-    "collection_museum": null,
+    "collection_museum": "noma",
     "private_collection": null,
-    "viewing_museum": null,
+    "viewing_museum": "noma",
     "place": "mathura",
     "place_relation": "归属制作中心：马图拉",
     "findspot_known": false,
@@ -1776,11 +1776,9 @@
       "1455"
     ],
     "sources": [],
-    "notes": [
-      "基本资料据现场展签；照片尚不能确认收藏机构，故未标入今日馆藏地图。"
-    ],
+    "notes": [],
     "units": [],
-    "museum_map": null
+    "museum_map": "noma"
   },
   {
     "id": "w1456",
@@ -1903,7 +1901,7 @@
     "dimensions": null,
     "accession": null,
     "collection_museum": null,
-    "private_collection": "Robert Gottschall Collection",
+    "private_collection": "Robert Gibbins 私人收藏",
     "viewing_museum": null,
     "place": "gandhara",
     "place_relation": "犍陀罗地区；具体原址未详",
@@ -1917,7 +1915,7 @@
     ],
     "sources": [],
     "notes": [
-      "展签明确列 Robert Gottschall 收藏；现场展出机构未确认。"
+      "现场展签列为Robert Gibbins收藏；展出机构未详。"
     ],
     "units": [],
     "museum_map": null

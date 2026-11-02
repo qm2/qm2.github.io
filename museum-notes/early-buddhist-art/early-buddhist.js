@@ -21,8 +21,8 @@
   const writeHash = id => history.replaceState(null, '', '#' + id);
   const render = () => {
     const p = layer === 'ancient' ? places[selected] : museums[selected];
-    const title = p?.name_zh || '地点未详';
-    const description = layer === 'ancient' ? p.description : selected === 'unlocated' ? '这些现场记录尚未确认今日馆藏或展出地点，仍保留在亲见目录。' : '城市级参考位置。私人收藏与馆藏的关系见各件说明；这里不表示作品的古代产地。';
+    const title = p?.name_zh || '私人收藏／地点未详';
+    const description = layer === 'ancient' ? p.description : selected === 'unlocated' ? '这些作品的现场展出地点尚未确认；已知的私人收藏名称见各件说明。' : '城市级参考位置。私人收藏与馆藏的关系见各件说明；这里不表示作品的古代产地。';
     const ws = works.filter(w => (layer === 'ancient' ? matchesPlace(w, selected) : (w.museum_map || 'unlocated') === selected) && matchesDate(w, $('#eb-period').value) && (!$('#eb-featured').checked || w.units.length));
     $('#eb-map-result').innerHTML = `<h3>${esc(title)}<small>${esc(p?.name_en || p?.city || '')}</small></h3><p>${esc(description)}</p><p class="eb-note">${ws.length} 条作品记录</p>` + (ws.length ? ws.map(w => `<a class="eb-mini" href="${w.units.length ? w.units[0] + '/#' + w.id : '#' + w.id}"><img src="${esc(w.thumbnail)}" alt="${esc(w.title)}" loading="lazy" width="95" height="105"><span>${esc(w.title)}<small>${esc(w.date)}<br>${esc(w.collection_display)}<br>${esc(w.place_relation)}</small></span></a>`).join('') : '<p>这个年代范围内暂无对应作品。可切换“全部年代”继续浏览。</p>');
     $$('[data-map-layer]').forEach(el => el.hidden = el.dataset.mapLayer !== layer);

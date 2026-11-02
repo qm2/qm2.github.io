@@ -365,6 +365,20 @@
         -157.85,
         21.3
       ]
+    },
+    {
+      "id": "noma",
+      "name_zh": "新奥尔良艺术博物馆",
+      "name_en": "New Orleans Museum of Art",
+      "city": "New Orleans",
+      "coordinate_precision": "approximate_city_or_campus_anchor",
+      "verify_before_precise_pin": true,
+      "coordinate": [
+        -90.08,
+        29.97
+      ],
+      "coordinate_source": "https://noma.org/visit/visitor-information/",
+      "coordinate_note": "City-level reference rounded from the museum’s official embedded map; not an exact entrance pin."
     }
   ],
   "periods": [
