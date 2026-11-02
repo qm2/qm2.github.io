@@ -50,7 +50,7 @@
     let count = 0;
     cards.forEach(el => {
       const w = by[el.dataset.work];
-      const haystack = [w.title,w.title_original,w.date,w.material,w.accession,w.collection_display,w.place_relation].join(' ').toLocaleLowerCase();
+      const haystack = [w.title,w.title_original,w.date,w.material,w.accession,w.collection_display,w.place_relation,places[w.place]?.name_zh,places[w.place]?.name_en,...(places[w.place]?.aliases_zh || [])].join(' ').toLocaleLowerCase();
       el.hidden = !(query.split(/\s+/).every(t => haystack.includes(t)) && (place === 'all' || matchesPlace(w, place)) && (museum === 'all' || (w.museum_map || 'unlocated') === museum) && matchesDate(w, date));
       if (!el.hidden) count++;
     });

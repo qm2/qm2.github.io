@@ -34,9 +34,12 @@
       "source_ids": [
         "map-mathura"
       ],
-      "description": "红砂岩、结实的身体与衣纹；贵霜和笈多时期共用这个地域入口。",
+      "description": "马图拉亦作秣菟罗。红砂岩、结实的身体与衣纹；贵霜和笈多时期共用这个地域入口。",
       "parent": null,
-      "label_position": null
+      "label_position": null,
+      "aliases_zh": [
+        "秣菟罗"
+      ]
     },
     {
       "id": "sarnath",
@@ -52,9 +55,12 @@
       "source_ids": [
         "map-sarnath"
       ],
-      "description": "鹿野苑的浅色砂岩造像，以衣缘轻轻勾出身体。",
+      "description": "鹿野苑亦称萨尔纳特；这里的浅色砂岩造像，以衣缘轻轻勾出身体。",
       "parent": null,
-      "label_position": null
+      "label_position": null,
+      "aliases_zh": [
+        "萨尔纳特"
+      ]
     },
     {
       "id": "amaravati",
@@ -72,7 +78,10 @@
       ],
       "description": "安得拉地区的佛塔与石灰岩雕刻中心；与相邻遗址分别登记。",
       "parent": "andhra",
-      "label_position": null
+      "label_position": null,
+      "aliases_zh": [
+        "阿玛拉瓦蒂"
+      ]
     },
     {
       "id": "nagarjunakonda",
@@ -149,7 +158,7 @@
     },
     {
       "id": "shahbaz-garhi",
-      "name_zh": "沙巴兹加里",
+      "name_zh": "Shahbaz Garhi",
       "name_en": "Shahbaz Garhi",
       "kind": "site_or_locality",
       "display_geometry": "point_after_verification",
@@ -162,7 +171,7 @@
     },
     {
       "id": "takht-i-bahi",
-      "name_zh": "塔赫特巴希",
+      "name_zh": "塔克特依巴依",
       "name_en": "Takht-i-Bahi",
       "kind": "archaeological_site",
       "display_geometry": "site_reference",
@@ -176,7 +185,10 @@
       ],
       "description": "今巴基斯坦的佛教寺院遗址；相关佛立像的来源仍保留“可能”。",
       "parent": "gandhara",
-      "label_position": null
+      "label_position": null,
+      "aliases_zh": [
+        "塔赫特巴希"
+      ]
     },
     {
       "id": "north-india",

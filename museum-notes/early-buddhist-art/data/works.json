@@ -17,7 +17,7 @@
     "private_collection": null,
     "viewing_museum": "guimet",
     "place": "hadda",
-    "place_relation": "哈达 Tapa-Kalan，TK121；展签记法国考古队1926—1927年发掘",
+    "place_relation": "哈达的塔帕—卡兰（Tapa-Kalan），TK121；展签记法国考古队1926—1927年发掘",
     "findspot_known": true,
     "photos": [
       "1323"
@@ -51,7 +51,7 @@
     "private_collection": null,
     "viewing_museum": "guimet",
     "place": "shahbaz-garhi",
-    "place_relation": "来自沙巴兹加里附近的 Mekhasanda 寺院",
+    "place_relation": "来自 Shahbaz Garhi 附近的 Mekhasanda 寺院",
     "findspot_known": true,
     "photos": [
       "1325"
@@ -567,7 +567,7 @@
     "private_collection": null,
     "viewing_museum": "met",
     "place": "takht-i-bahi",
-    "place_relation": "可能来自塔赫特巴希",
+    "place_relation": "可能来自塔克特依巴依",
     "findspot_known": false,
     "photos": [
       "1359"
@@ -815,7 +815,7 @@
     "private_collection": null,
     "viewing_museum": "cma",
     "place": "takht-i-bahi",
-    "place_relation": "可能来自塔赫特巴希",
+    "place_relation": "可能来自塔克特依巴依",
     "findspot_known": false,
     "photos": [
       "1378"
@@ -2536,7 +2536,7 @@
     "units": [
       "u13"
     ],
-    "photo_caption": "佛坐像 · 馆方归于哈达 Tapa-Kalan",
+    "photo_caption": "佛坐像 · 馆方归于哈达的塔帕—卡兰（Tapa-Kalan）",
     "museum_map": "nelson"
   },
   {
