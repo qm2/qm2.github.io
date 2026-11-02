@@ -3526,5 +3526,245 @@
       1139,
       1647
     ]
+  },
+  "year5-canopy": {
+    "width": 808,
+    "height": 568,
+    "variants": [
+      {
+        "path": "images/year5-canopy-400.webp",
+        "width": 400,
+        "height": 281
+      },
+      {
+        "path": "images/year5-canopy-900.webp",
+        "width": 808,
+        "height": 568
+      },
+      {
+        "path": "images/year5-canopy-1600.webp",
+        "width": 808,
+        "height": 568
+      }
+    ],
+    "full": "images/year5-canopy-full.webp",
+    "original": "images/originals/Image_20261101231741_1351_19.jpg",
+    "source_photo": "1351",
+    "crop_box": [
+      451,
+      6,
+      1259,
+      574
+    ]
+  },
+  "year5-inscription": {
+    "width": 1149,
+    "height": 197,
+    "variants": [
+      {
+        "path": "images/year5-inscription-400.webp",
+        "width": 400,
+        "height": 69
+      },
+      {
+        "path": "images/year5-inscription-900.webp",
+        "width": 900,
+        "height": 154
+      },
+      {
+        "path": "images/year5-inscription-1600.webp",
+        "width": 1149,
+        "height": 197
+      }
+    ],
+    "full": "images/year5-inscription-full.webp",
+    "original": "images/originals/Image_20261101231741_1351_19.jpg",
+    "source_photo": "1351",
+    "crop_box": [
+      281,
+      1034,
+      1430,
+      1231
+    ]
+  },
+  "mathura-collar": {
+    "width": 729,
+    "height": 401,
+    "variants": [
+      {
+        "path": "images/mathura-collar-400.webp",
+        "width": 400,
+        "height": 220
+      },
+      {
+        "path": "images/mathura-collar-900.webp",
+        "width": 729,
+        "height": 401
+      },
+      {
+        "path": "images/mathura-collar-1600.webp",
+        "width": 729,
+        "height": 401
+      }
+    ],
+    "full": "images/mathura-collar-full.webp",
+    "original": "images/originals/e32e417a3276377070e3a97774ff229c.jpg",
+    "source_photo": "N03",
+    "crop_box": [
+      314,
+      43,
+      1043,
+      444
+    ]
+  },
+  "sarnath-collar": {
+    "width": 742,
+    "height": 418,
+    "variants": [
+      {
+        "path": "images/sarnath-collar-400.webp",
+        "width": 400,
+        "height": 225
+      },
+      {
+        "path": "images/sarnath-collar-900.webp",
+        "width": 742,
+        "height": 418
+      },
+      {
+        "path": "images/sarnath-collar-1600.webp",
+        "width": 742,
+        "height": 418
+      }
+    ],
+    "full": "images/sarnath-collar-full.webp",
+    "original": "images/originals/2cde63f0919488655c7c384c9e666901.jpg",
+    "source_photo": "N01",
+    "crop_box": [
+      282,
+      26,
+      1024,
+      444
+    ]
+  },
+  "mathura-abdomen": {
+    "width": 538,
+    "height": 598,
+    "variants": [
+      {
+        "path": "images/mathura-abdomen-400.webp",
+        "width": 400,
+        "height": 445
+      },
+      {
+        "path": "images/mathura-abdomen-900.webp",
+        "width": 538,
+        "height": 598
+      },
+      {
+        "path": "images/mathura-abdomen-1600.webp",
+        "width": 538,
+        "height": 598
+      }
+    ],
+    "full": "images/mathura-abdomen-full.webp",
+    "original": "images/originals/e32e417a3276377070e3a97774ff229c.jpg",
+    "source_photo": "N03",
+    "crop_box": [
+      384,
+      418,
+      922,
+      1016
+    ]
+  },
+  "sarnath-abdomen": {
+    "width": 519,
+    "height": 598,
+    "variants": [
+      {
+        "path": "images/sarnath-abdomen-400.webp",
+        "width": 400,
+        "height": 461
+      },
+      {
+        "path": "images/sarnath-abdomen-900.webp",
+        "width": 519,
+        "height": 598
+      },
+      {
+        "path": "images/sarnath-abdomen-1600.webp",
+        "width": 519,
+        "height": 598
+      }
+    ],
+    "full": "images/sarnath-abdomen-full.webp",
+    "original": "images/originals/2cde63f0919488655c7c384c9e666901.jpg",
+    "source_photo": "N01",
+    "crop_box": [
+      403,
+      418,
+      922,
+      1016
+    ]
+  },
+  "mathura-hem": {
+    "width": 653,
+    "height": 495,
+    "variants": [
+      {
+        "path": "images/mathura-hem-400.webp",
+        "width": 400,
+        "height": 303
+      },
+      {
+        "path": "images/mathura-hem-900.webp",
+        "width": 653,
+        "height": 495
+      },
+      {
+        "path": "images/mathura-hem-1600.webp",
+        "width": 653,
+        "height": 495
+      }
+    ],
+    "full": "images/mathura-hem-full.webp",
+    "original": "images/originals/e32e417a3276377070e3a97774ff229c.jpg",
+    "source_photo": "N03",
+    "crop_box": [
+      333,
+      1024,
+      986,
+      1519
+    ]
+  },
+  "sarnath-hem": {
+    "width": 666,
+    "height": 589,
+    "variants": [
+      {
+        "path": "images/sarnath-hem-400.webp",
+        "width": 400,
+        "height": 354
+      },
+      {
+        "path": "images/sarnath-hem-900.webp",
+        "width": 666,
+        "height": 589
+      },
+      {
+        "path": "images/sarnath-hem-1600.webp",
+        "width": 666,
+        "height": 589
+      }
+    ],
+    "full": "images/sarnath-hem-full.webp",
+    "original": "images/originals/2cde63f0919488655c7c384c9e666901.jpg",
+    "source_photo": "N01",
+    "crop_box": [
+      339,
+      1024,
+      1005,
+      1613
+    ]
   }
 }

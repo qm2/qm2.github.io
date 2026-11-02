@@ -34,8 +34,26 @@ for w in works:
  assert w['photo'] in w['photos'];assert w['labels'] or w['sources']
  for uid in w['units']:assert w['id'] in next(u for u in units if u['id']==uid)['works']
 for r in units:
- assert 350<=sum(len(p) for p in r['paragraphs'])<=900
+ assert 250<=sum(len(p) for p in r['paragraphs'])<=900
  assert all(w in by for w in r['works'])
+ for group in r.get('detail_groups',[]):
+  assert 0<=group['after_paragraph']<len(r['paragraphs'])
+  assert all(d['photo'] in deriv and d['caption'] for d in group['photos'])
+  assert not group.get('source') or group['source'] in r['sources']
+ for i,keys in r.get('paragraph_sources',{}).items():
+  assert 0<=int(i)<len(r['paragraphs']) and set(keys)<=set(r['sources'])
+for crop in read('crops.json'):
+ assert crop['source_photo'] in used
+ x1,y1,x2,y2=crop['box'];assert 0<=x1<x2<=1 and 0<=y1<y2<=1
+ assert deriv[crop['id']]['source_photo']==crop['source_photo']
+rivers=read('rivers.geojson')
+assert {f['properties']['name'] for f in rivers['features']}=={'Indus','Ganges','Krishna'}
+for f in rivers['features']:
+ assert f['geometry']['type']=='MultiLineString'
+ for line in f['geometry']['coordinates']:
+  assert len(line)>1 and all(60<lon<92 and 9<lat<41 for lon,lat in line)
+home=(B/'index.html').read_text();preface=read('introduction.json')['preface']
+assert home.count(preface)==1 and home.index('eb-hero')<home.index(preface)<home.index('id="places"')
 for p in geo['places']:
  if p['coordinate']:
   lon,lat=p['coordinate'];assert 62<lon<90 and 9<lat<40

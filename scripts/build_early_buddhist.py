@@ -55,7 +55,7 @@ def build():
   out='<section class="eb-sources"><h2>资料与来源</h2><ol>'
   for i,k in enumerate(keys):s=sources[k];out+=f'<li id="source-{k}"><a href="{e(s["url"])}">{e(s["title"])} ↗</a></li>'
   out+='</ol>'
-  if labels:out+='<details><summary>现场展签</summary><p class="eb-note">以下为现场拍摄的展签，基本资料保留馆方表述；正文中的比较与观看分析另行组织。</p><div class="eb-labels">'+''.join(figure(n,'现场展签 · '+', '.join(dict.fromkeys(by[w]['title'] for w in labels[n])),pre) for n in labels)+'</div></details>'
+  if labels:out+='<details><summary>现场展签</summary><div class="eb-labels">'+''.join(figure(n,'现场展签 · '+', '.join(dict.fromkeys(by[w]['title'] for w in labels[n])),pre) for n in labels)+'</div></details>'
   return out+'</section>'
  def facts(w,pre='',link=True):
   fields=[('原题名',w['title_original']),('年代',w['date']),('材料',w['material']),('尺寸',w['dimensions']),('编号',w['accession']),('收藏／展出',collection(w)),('地域关系',w['place_relation'])]
@@ -65,6 +65,7 @@ def build():
   return html
  # Static geographic maps: same offline Natural Earth land as the existing Homer notebook.
  land=json.loads((ROOT/'museum-notes/homer/data/ne_110m_land.geojson').read_text())
+ rivers=read('rivers.geojson')
  def svg(mode):
   bounds=(62,90,9,40) if mode=='ancient' else (-175,15,10,57);xmin,xmax,ymin,ymax=bounds;ww,hh=(690,550) if mode=='ancient' else (900,420)
   xy=lambda lon,lat:((lon-xmin)/(xmax-xmin)*ww,(ymax-lat)/(ymax-ymin)*hh)
@@ -75,9 +76,17 @@ def build():
     pts=rings[0]
     if max(a[0] for a in pts)<xmin or min(a[0] for a in pts)>xmax or max(a[1] for a in pts)<ymin or min(a[1] for a in pts)>ymax:continue
     paths.append('<path d="'+' '.join(('M' if i==0 else 'L')+f'{xy(*p)[0]:.1f},{xy(*p)[1]:.1f}' for i,p in enumerate(pts))+' Z"/>')
-  markers=[]
+  markers=[];river_html=''
   if mode=='ancient':
-   offsets={'bharhut':(35,40),'mathura':(-55,-25),'sarnath':(40,0),'hadda':(-50,-35),'andhra':(35,0),'gandhara':(60,-15),'north-india':(50,-10),'amaravati':(65,25),'gummadidurru':(65,-22),'nagarjunakonda':(-75,15),'takht-i-bahi':(65,10)}
+   river_paths=[]
+   for f in rivers['features']:
+    for line in f['geometry']['coordinates']:
+     river_paths.append('<path d="'+' '.join(('M' if i==0 else 'L')+f'{xy(*p)[0]:.1f},{xy(*p)[1]:.1f}' for i,p in enumerate(line))+'"/>')
+   river_labels=[]
+   for name,lon,lat in [('印度河',69.8,29.8),('恒河',84.8,27.4),('克里希纳河',76.9,18.2)]:
+    x,y=xy(lon,lat);river_labels.append(f'<text x="{x:.1f}" y="{y:.1f}" text-anchor="middle">{name}</text>')
+   river_html='<g class="eb-rivers" clip-path="url(#clip-ancient)" role="img" aria-label="印度河、恒河与克里希纳河的现代河道示意">'+''.join(river_paths)+'</g><g class="eb-river-labels" aria-hidden="true">'+''.join(river_labels)+'</g>'
+   offsets={'bharhut':(35,40),'mathura':(-55,-25),'sarnath':(40,0),'hadda':(-50,-35),'andhra':(35,0),'gandhara':(60,-15),'north-india':(50,-10),'amaravati':(65,25),'gummadidurru':(65,-68),'nagarjunakonda':(-75,15),'takht-i-bahi':(65,10)}
    for p in geo['places']:
     coord=p['coordinate'] or p.get('label_position')
     if not coord:continue
@@ -92,9 +101,9 @@ def build():
     x,y=xy(*m['coordinate']);lx,ly=pos[m['id']]
     markers.append(f'<a href="#museum-{m["id"]}" data-map-key="{m["id"]}" aria-label="{e(m["name_zh"])}"><line x1="{x:.1f}" y1="{y:.1f}" x2="{lx}" y2="{ly}"/><circle cx="{x:.1f}" cy="{y:.1f}" r="4"/><text x="{lx}" y="{ly}" text-anchor="middle">{e(m["city"])}</text></a>')
    country=''
-  return f'<svg viewBox="0 0 {ww} {hh}" role="group" aria-label="'+('古代地域参考地图' if mode=='ancient' else '现代馆藏与借展的城市参考地图')+f'"><defs><clipPath id="clip-{mode}"><rect width="{ww}" height="{hh}"/></clipPath></defs><g class="eb-land" clip-path="url(#clip-{mode})">'+''.join(paths)+'</g>'+country+'<g class="eb-map-pins">'+''.join(markers)+'</g></svg>'
+  return f'<svg viewBox="0 0 {ww} {hh}" role="group" aria-label="'+('古代地域参考地图' if mode=='ancient' else '现代馆藏与借展的城市参考地图')+f'"><defs><clipPath id="clip-{mode}"><rect width="{ww}" height="{hh}"/></clipPath></defs><g class="eb-land" clip-path="url(#clip-{mode})">'+''.join(paths)+'</g>'+river_html+country+'<g class="eb-map-pins">'+''.join(markers)+'</g></svg>'
  def place_matches(w,p):return w['place']==p or places[w['place']].get('parent')==p
- maphtml='<section id="places" class="eb-section"><p class="eyebrow">PLACES &amp; IMAGES</p><h2>从地域走近作品</h2><p class="eb-prose">同一个马图拉，既有贵霜时期的坐佛，也有笈多时期的立像。地图上的位置是阅读的起点；点选地域，再看材料、年代与作品之间的差别。</p><div class="eb-map-controls" hidden><div role="group" aria-label="地图图层"><button data-layer="ancient" aria-pressed="true">古代地域</button><button data-layer="modern" aria-pressed="false">今日馆藏／借展</button></div><label>年代 <select id="eb-period">'+''.join(f'<option value="{p["id"]}">{p["label"]}</option>' for p in geo['periods'])+'</select></label><label><input type="checkbox" id="eb-featured"> 只看正文作品</label></div><div class="eb-map-layout"><div><div data-map-layer="ancient" class="eb-map">'+svg('ancient')+'</div><div data-map-layer="modern" class="eb-map" hidden>'+svg('modern')+'</div><p class="eb-note">实点为遗址或城市参考位置，斜体区域名不代表精确出土地。现代国名仅用于方位参照。<a href="#map-sources">底图与坐标资料 ↓</a></p><nav class="eb-place-buttons" aria-label="古代地域">'+''.join(f'<a href="#place-{p["id"]}" data-select-place="{p["id"]}">{p["name_zh"]}</a>' for p in geo['places'])+'</nav><nav class="eb-museum-buttons" aria-label="今日馆藏" hidden>'+''.join(f'<a href="#museum-{m["id"]}" data-select-museum="{m["id"]}">{m["name_zh"]}</a>' for m in geo['museums'])+'<a href="#museum-unlocated" data-select-museum="unlocated">地点未详</a></nav></div><div id="eb-map-result" class="eb-map-result" hidden aria-live="polite"></div></div><div class="eb-map-fallback"><details><summary>按地域查找作品</summary>'
+ maphtml='<section id="places" class="eb-section"><p class="eyebrow">PLACES &amp; IMAGES</p><h2>从地域走近作品</h2><p class="eb-prose">同一个马图拉，既有贵霜时期的坐佛，也有笈多时期的立像。地图上的位置是阅读的起点；点选地域，再看材料、年代与作品之间的差别。</p><div class="eb-map-controls" hidden><div role="group" aria-label="地图图层"><button data-layer="ancient" aria-pressed="true">古代地域</button><button data-layer="modern" aria-pressed="false">今日馆藏／借展</button></div><label>年代 <select id="eb-period">'+''.join(f'<option value="{p["id"]}">{p["label"]}</option>' for p in geo['periods'])+'</select></label><label><input type="checkbox" id="eb-featured"> 只看正文作品</label></div><div class="eb-map-layout"><div><div data-map-layer="ancient" class="eb-map">'+svg('ancient')+'</div><div data-map-layer="modern" class="eb-map" hidden>'+svg('modern')+'</div><p class="eb-note">实点为遗址或城市参考位置，斜体区域名不代表精确出土地。现代国名与河道用于方位参照。<a href="#map-sources">Natural Earth · 地图资料 ↓</a></p><nav class="eb-place-buttons" aria-label="古代地域">'+''.join(f'<a href="#place-{p["id"]}" data-select-place="{p["id"]}">{p["name_zh"]}</a>' for p in geo['places'])+'</nav><nav class="eb-museum-buttons" aria-label="今日馆藏" hidden>'+''.join(f'<a href="#museum-{m["id"]}" data-select-museum="{m["id"]}">{m["name_zh"]}</a>' for m in geo['museums'])+'<a href="#museum-unlocated" data-select-museum="unlocated">地点未详</a></nav></div><div id="eb-map-result" class="eb-map-result" hidden aria-live="polite"></div></div><div class="eb-map-fallback"><details><summary>按地域查找作品</summary>'
  for p in geo['places']:
   ws=[w for w in works if place_matches(w,p['id'])]
   maphtml+=f'<section id="place-{p["id"]}"><h3>{p["name_zh"]} <small>{p["name_en"]}</small></h3><p>{p["description"]}</p><ul>'+''.join(f'<li><a href="#{w["id"]}">{w["title"]}</a> · {w["date"]} · {collection(w)}</li>' for w in ws)+'</ul></section>'
@@ -103,7 +112,7 @@ def build():
   ws=[w for w in works if (w['museum_map'] or 'unlocated')==m['id']]
   maphtml+=f'<section id="museum-{m["id"]}"><h3>{m["name_zh"]}</h3><ul>'+''.join(f'<li><a href="#{w["id"]}">{w["title"]}</a> · {collection(w)}</li>' for w in ws)+'</ul></section>'
  maphtml+='</details></div><p class="eb-note">年代按范围相交筛选；私人借展以实际展出馆定位，与永久馆藏分别标注。未确定的原址仍可从目录阅读。</p></section>'
- intro='<nav class="breadcrumbs" aria-label="当前位置"><a href="../">博物馆札记</a><span>/</span><a href="../south-asian-art/">南亚艺术</a></nav><header class="eb-heading"><p class="eyebrow">EARLY BUDDHIST ART</p><h1>早期佛教艺术</h1><p>从早期佛塔艺术到笈多及其余绪——我的亲见作品录</p></header>'+figure('1351',caption(by['w1351'])+' · Merton摄',high=True,cls='eb-hero')+'<div class="eb-intro"><p>从佛塔周围的莲花、宝座与礼拜者，到有面容、有手势的佛与菩萨，这一辑沿着亲见照片，重看公元前2世纪至公元6世纪晚期的佛教艺术。马图拉的红砂岩、犍陀罗的衣褶、哈达的泥与灰泥、鹿野苑轻薄的衣缘，各有自己的表达。五章细读关心的，是这些形象怎样被制作、安置和观看；地图则把跨馆相遇的作品重新放回各自的地域关系。</p></div>'
+ intro='<nav class="breadcrumbs" aria-label="当前位置"><a href="../">博物馆札记</a><span>/</span><a href="../south-asian-art/">南亚艺术</a></nav><header class="eb-heading"><p class="eyebrow">EARLY BUDDHIST ART</p><h1>早期佛教艺术</h1><p>从早期佛塔艺术到笈多及其余绪——我的亲见作品录</p></header>'+figure('1351',caption(by['w1351'])+' · Merton摄',high=True,cls='eb-hero')+'<div class="eb-intro"><p class="eb-personal-preface">'+e(read('introduction.json')['preface'])+'</p><p class="eb-scope">'+e(read('introduction.json')['scope'])+'</p></div>'
  chapter_intros={'stupa':'沿着栏楯与佛塔，先看礼拜发生的地方。','images':'同是佛与菩萨，身体、袈裟和装束有不同的表达。','stories':'树、宫殿、山洞与人群，让石面上的故事继续展开。','late':'泥与灰泥构成面容，也把人物带入龛和塔的空间。','gupta':'马图拉与鹿野苑并看，再由铜像和供养铭文收束。'}
  nav='<nav class="eb-chapter-nav" aria-label="五章细读">'+''.join(f'<a href="#chapter-{c["id"]}"><small>0{i+1}</small><span>{e(c["title"])}</span></a>' for i,c in enumerate(chapters))+'</nav>'
  body=intro+maphtml+nav
@@ -122,7 +131,7 @@ def build():
   body+=(f'<p><a data-photo href="{manifest[w["photo"]]["full"]}" data-caption="同框现场全景 · {e(w["photo_caption"])}">同框完整照片 ↗</a></p>' if w.get('catalogue_photo') else '')
   body+='<p class="eb-note">'+ ' · '.join(f'<a data-photo href="{manifest[n]["full"]}" data-caption="{e(w["title"])} · 现场展签">现场展签'+(str(i+1) if len(w['labels'])>1 else '')+' ↗</a>' for i,n in enumerate(w['labels']))+'</p></details></article>'
  body+='</div><p id="eb-empty" hidden>没有符合条件的作品。</p></details></section>'
- body+='<section class="eb-section" id="map-sources"><h2>地域与资料</h2><details><summary>地图的坐标与阅读方式</summary><p>遗址点表示地理参考，作品与它的关系仍以每条作品资料为准。哈达是寺院群；龙树山点位表示古代遗址区域，不能当作现代岛上博物馆内某件雕塑的出土坐标。Shahbaz Garhi 的具体点位暂不绘制，相关寺院关系保留在列表。</p><ul><li>底图：<a href="https://www.naturalearthdata.com/about/terms-of-use/">Natural Earth，公共领域陆地数据</a>，离线使用；不绘制古代政权边界。</li><li>巴尔胡特：<a href="https://jatakastories.div.ed.ac.uk/artistic-sites/bharhut">爱丁堡大学 Jātaka Stories 遗址记录</a>。</li><li>马图拉、鹿野苑：Getty TGN <a href="https://www.getty.edu/vow/TGNFullDisplay?find=Mathura&place=&nation=&subjectid=7001569">7001569</a>、<a href="https://www.getty.edu/vow/TGNFullDisplay?find=Sarnath&place=&nation=&subjectid=7001588">7001588</a>的地域参考点。</li><li>阿马拉瓦蒂、Gummadidurru：<a href="https://ignca.gov.in/Asi_data/50352.pdf">Debala Mitra，《Buddhist Monuments》，第200、212页</a>刊载的分级坐标。</li><li>龙树山：<a href="https://www.museumsofindia.gov.in/repository/museum/nkm_hyd">印度考古调查局馆舍与遗址说明</a>；哈达：<a href="https://chre.ashmus.ox.ac.uk/hoard/18819">牛津 Ashmolean CHRE 地点参考</a>（取村镇位置，不用于推断雕像出土点）；塔克特依巴依：<a href="https://whc.unesco.org/en/list/140/maps/">UNESCO 遗产地图</a>。</li><li>今日馆藏图使用城市级近似位置；不表示作者的旅行先后，也不把私人收藏称为展出馆永久藏品。</li></ul></details><p>作品资料据现场展签及各篇链接的馆藏记录整理。照片均为 Merton 现场拍摄；未引用未读图录作为直接证据。</p></section>'
+ body+='<section class="eb-section" id="map-sources"><h2>地域与资料</h2><details><summary>地图的坐标与阅读方式</summary><p>遗址点表示地理参考，作品与它的关系仍以每条作品资料为准。哈达是寺院群；龙树山点位表示古代遗址区域，不能当作现代岛上博物馆内某件雕塑的出土坐标。Shahbaz Garhi 的具体点位暂不绘制，相关寺院关系保留在列表。</p><ul><li>底图：<a href="https://www.naturalearthdata.com/about/terms-of-use/">Natural Earth，公共领域陆地数据</a>，离线使用；不绘制古代政权边界。</li><li>河道：<a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/">Natural Earth 1:10m Rivers + lake centerlines，5.0.0</a>，公共领域；选取印度河、恒河与克里希纳河，以0.02度容差简化。这里显示现代地理参照，不复原古代河道。</li><li>巴尔胡特：<a href="https://jatakastories.div.ed.ac.uk/artistic-sites/bharhut">爱丁堡大学 Jātaka Stories 遗址记录</a>。</li><li>马图拉、鹿野苑：Getty TGN <a href="https://www.getty.edu/vow/TGNFullDisplay?find=Mathura&place=&nation=&subjectid=7001569">7001569</a>、<a href="https://www.getty.edu/vow/TGNFullDisplay?find=Sarnath&place=&nation=&subjectid=7001588">7001588</a>的地域参考点。</li><li>阿马拉瓦蒂、Gummadidurru：<a href="https://ignca.gov.in/Asi_data/50352.pdf">Debala Mitra，《Buddhist Monuments》，第200、212页</a>刊载的分级坐标。</li><li>龙树山：<a href="https://www.museumsofindia.gov.in/repository/museum/nkm_hyd">印度考古调查局馆舍与遗址说明</a>；哈达：<a href="https://chre.ashmus.ox.ac.uk/hoard/18819">牛津 Ashmolean CHRE 地点参考</a>（取村镇位置，不用于推断雕像出土点）；塔克特依巴依：<a href="https://whc.unesco.org/en/list/140/maps/">UNESCO 遗产地图</a>。</li><li>今日馆藏图使用城市级近似位置；不表示作者的旅行先后，也不把私人收藏称为展出馆永久藏品。</li></ul></details><p>作品资料据现场展签及各篇链接的馆藏记录整理。照片均为 Merton 现场拍摄。</p></section>'
  # Chinese alternatives belong in the reference area, without lengthening every label.
  naming='<details id="place-names"><summary>地名与中文异译</summary><p>马图拉亦作秣菟罗，鹿野苑亦称萨尔纳特。两组写法可对照程金城《丝绸之路艺术史纲（下）》第23页及复旦大学的佛教艺术史讲座介绍；本辑沿用马图拉与鹿野苑。<a href="https://dflt.qdu.edu.cn/__local/5/13/81/653A67520AC2ED8DDBD5465361F_5065BE5C_16AF65.pdf">《东方论坛》论文 ↗</a> · <a href="https://clcrr.fudan.edu.cn/Data/View/214">复旦大学讲座介绍 ↗</a></p><p>阿马拉瓦蒂见于大英博物馆中文导览；巴尔胡特见于复旦大学的佛塔研究讲座纪要。龙树山与犍陀罗的写法见《紫禁城》所刊《犍陀罗艺术引介》，该文将 Amaravati 写作阿玛拉瓦蒂。<a href="https://britishmuseum.org.cn/G_33a.html">大英博物馆：阿马拉瓦蒂 ↗</a> · <a href="https://clcrr.fudan.edu.cn/Data/View/260">复旦大学：早期印度佛塔象征含义研究 ↗</a> · <a href="https://www.dpm.org.cn/Uploads/File/2023/05/08/u6458b201c3473.pdf">《犍陀罗艺术引介》，第30页 ↗</a></p><p>哈达、塔帕—卡兰采用吉美博物馆中文页面的译名；塔克特依巴依采用联合国教科文组织中文遗产条目的名称。Shahbaz Garhi、Gummadidurru、Mekhasanda、Dhanesar Khera 保留原文，以便与馆藏及考古记录对应。<a href="https://www.guimet.fr/zh-hans/nos-collections/afghanistan-pakistan/le-genie-aux-fleurs">吉美博物馆：持花精灵 ↗</a> · <a href="https://whc.unesco.org/zh/list/140">UNESCO：塔克特依巴依佛教遗址 ↗</a></p></details>'
  end=body.rfind('</section>');body=body[:end]+naming+body[end:]
@@ -136,14 +145,24 @@ def build():
   article=f'<nav class="breadcrumbs"><a href="../">早期佛教艺术</a><span>/</span><a href="../#chapter-{c["id"]}">{e(c["title"])}</a></nav><header class="eb-heading"><p class="eyebrow">{r["id"][1:]} / {e(c["title"])}</p><h1>{e(r["title"])}</h1><p>{e(r["teaser"])}</p></header>'
   mainphotos=r['primary_photos'][:r['show_first']]
   article+='<div class="eb-plates compare-group">'+''.join(figure(n,caption(next(by[wid] for wid in r['works'] if by[wid]['photo']==n)),pre,high=i==0) for i,n in enumerate(mainphotos))+'</div>'
-  if len(mainphotos)>1:article+='<p class="eb-note eb-prose">照片保留完整轮廓；并排为阅读比较，不按实物尺寸等比例排列。</p>'
+  if len(r['works'])>1:
+   scale='全图与局部均各自缩放，每组局部对应同一身体部位，并非实物等比例；实际残高见下方资料表。' if r['id']=='u17' else '图片各自缩放，非实物等比例；尺寸见作品资料。'
+   article+='<p class="eb-note eb-scale">'+scale+'</p>'
   article+='<div class="eb-prose eb-body">'
   for i,p in enumerate(r['paragraphs']):
    # A short citation points to the unit's evidence list rather than repeating full titles.
    cites=''
-   if i==1 and keys:cites=' <span class="eb-cites">'+''.join(f'<a href="#source-{k}" aria-label="资料{numbers[k]}">[{numbers[k]}]</a>' for k in keys)+'</span>'
+   paragraph_keys=r.get('paragraph_sources',{}).get(str(i),keys if i==1 else [])
+   if paragraph_keys:cites=' <span class="eb-cites">'+''.join(f'<a href="#source-{k}" aria-label="资料{numbers[k]}">[{numbers[k]}]</a>' for k in paragraph_keys)+'</span>'
    if i==1 and not keys:cites=' <a class="eb-cites" href="#object-records">[现场展签]</a>'
    article+='<p>'+e(p)+cites+'</p>'
+   for group in r.get('detail_groups',[]):
+    if group['after_paragraph']!=i:continue
+    article+='</div><section class="eb-details" id="detail-'+group['id']+'"><h2>'+e(group['title'])+'</h2>'
+    if group.get('note'):
+     cite=f' <a href="#source-{group["source"]}" class="eb-cites">[{numbers[group["source"]]}]</a>' if group.get('source') else ''
+     article+='<p class="eb-note">'+e(group['note'])+cite+'</p>'
+    article+='<div class="eb-plates compare-group">'+''.join(figure(d['photo'],d['caption'],pre) for d in group['photos'])+'</div></section><div class="eb-prose eb-body">'
   article+='</div>'
   if r.get('details'):article+='<section class="eb-section"><h2>近看石面</h2><div class="eb-plates compare-group">'+''.join(figure(d['photo'],d['caption'],pre) for d in r['details'])+'</div></section>'
   others=[n for n in r['primary_photos'] if n not in mainphotos]
@@ -153,7 +172,7 @@ def build():
     w=next(by[wid] for wid in r['works'] if by[wid]['photo']==n);cap=caption(w)
     if n=='1371':cap='佛坐像、在家礼拜者与僧人 · 克利夫兰 · 三件分别登记'
     article+=figure(n,cap,pre)
-   article+='</div><p class="eb-note">照片保留现场整体；不同作品未按实物比例排列。</p></section>'
+   article+='</div></section>'
   if r['id']=='u17':article+='<div class="eb-table"><table><caption>三件躯干的材料与残高</caption><thead><tr><th>馆藏号</th><th>归属</th><th>材料</th><th>残高</th></tr></thead><tbody><tr><td>45-15</td><td>马图拉</td><td>杂色红砂岩</td><td>114.94厘米</td></tr><tr><td>39-19</td><td>鹿野苑</td><td>浅黄色砂岩</td><td>86.36厘米</td></tr><tr><td>1943.278</td><td>鹿野苑</td><td>砂岩</td><td>76.2厘米</td></tr></tbody></table></div>'
   article+='<section id="object-records" class="eb-section"><h2>本篇作品</h2>'
   for wid in r['works']:
