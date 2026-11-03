@@ -172,3 +172,5 @@ build_early_buddhist()
 
 from build_himalayan import build as build_himalayan
 build_himalayan()
+from build_yongle_xuande import build as build_yongle_xuande
+build_yongle_xuande()

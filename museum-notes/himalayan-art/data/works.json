@@ -1474,7 +1474,7 @@
   },
   {
     "work_id": "w1512",
-    "title_zh": "永乐款佛坐像",
+    "title_zh": "永乐款释迦牟尼坐像",
     "title_en": "Seated Buddha",
     "date_label": "明永乐时期，1403—1424年",
     "date_start": 1403,
@@ -1482,7 +1482,7 @@
     "region_ids": [
       "china-court"
     ],
-    "accession": null,
+    "accession": "1908,0420.4",
     "primary_photo": "h1512",
     "art_photos": [
       "h1512"
@@ -1494,21 +1494,22 @@
     "tier": "catalogue",
     "scope": "himalayan",
     "religious_context": "Buddhist",
-    "editorial_notes": "大英博物馆藏；实际展出馆待核。",
-    "metadata_basis": "photographed_label",
-    "verification_status": "photo_label_checked",
-    "source_ids": [],
-    "uncertainties": [
-      "I15"
+    "editorial_notes": "大英博物馆藏；用户确认在纽约大都会观看借展。佛身与一体莲座、方台与背光的研究判断据Wang与Priewe（2013）。",
+    "metadata_basis": "photographed_labels_and_official_records_technical_study",
+    "verification_status": "official_records_and_photos_checked",
+    "source_ids": [
+      "S98",
+      "S99"
     ],
+    "uncertainties": [],
     "input_group_id": "bm-loan",
     "public": true,
     "scope_reason": "明确藏传图像、供养或仪式关联的宫廷／汉藏交流作品；公开置于交流小节。",
     "label_source_ids": [
       "L_h1513"
     ],
-    "materials_display": "鎏金铜合金",
-    "material_status": "photographed_label_checked",
+    "materials_display": "鎏金铜合金；佛身及莲座为黄铜铸造，方台与背光另用铜板制作",
+    "material_status": "reviewed",
     "reading_unit_ids": [],
     "chapter_ids": [
       "c6"
@@ -1529,9 +1530,9 @@
       }
     ],
     "collection_museum_id": "british",
-    "display_museum_id": null,
-    "collection_label": "大英博物馆藏；拍摄展出地点待核",
-    "museum_label": "大英博物馆藏；拍摄展出地点待核",
+    "display_museum_id": "met",
+    "collection_label": "大英博物馆",
+    "museum_label": "纽约大都会艺术博物馆（借展）",
     "has_shared_frame": false,
     "default_gallery_photos": [
       "h1512"
@@ -1539,11 +1540,20 @@
     "alternate_photos": [],
     "object_type": "sculpture",
     "map_enabled": true,
-    "image_alt_zh": "永乐款佛坐像 · 明永乐时期，1403—1424年 · Merton现场摄影",
+    "image_alt_zh": "永乐款释迦牟尼坐像 · 明永乐时期，1403—1424年 · Merton现场摄影",
     "primary_path": "images/originals/h1512.jpg",
     "thumbnail_path": "images/h1512-400.webp",
     "reader_notes": [
-      "大英博物馆收藏，本次照片的借展场馆尚未确认。"
+      "纽约大都会借展所见。2013年技术研究支持佛身及一体莲座为永乐制作，方台和背光更可能为18世纪增配。"
+    ],
+    "viewing_basis": "user_confirmed_Met_loan_exhibition",
+    "dimensions_display": "佛身连一体铸造莲座高37厘米（不含方台与背光）",
+    "physical_object_count": 1,
+    "site_links": [
+      {
+        "href": "../../yongle-xuande/#w1512",
+        "label": "永宣宫廷造像 · 作品细读"
+      }
     ]
   },
   {
@@ -1556,7 +1566,7 @@
     "region_ids": [
       "china-court"
     ],
-    "accession": null,
+    "accession": "I D 31831",
     "primary_photo": "h1516",
     "art_photos": [
       "h1516"
@@ -1569,12 +1579,12 @@
     "scope": "himalayan",
     "religious_context": "Buddhist",
     "editorial_notes": "柏林民族学博物馆藏；中藏图像融合的宫廷作品，保留完整孔雀。",
-    "metadata_basis": "photographed_label",
-    "verification_status": "photo_label_checked",
-    "source_ids": [],
-    "uncertainties": [
-      "I16"
+    "metadata_basis": "photographed_labels_and_official_records",
+    "verification_status": "official_records_and_photos_checked",
+    "source_ids": [
+      "S100"
     ],
+    "uncertainties": [],
     "input_group_id": "berlin-loan",
     "public": true,
     "scope_reason": "明确藏传图像、供养或仪式关联的宫廷／汉藏交流作品；公开置于交流小节。",
@@ -1582,7 +1592,7 @@
       "L_h1517"
     ],
     "materials_display": "鎏金铜合金",
-    "material_status": "photographed_label_checked",
+    "material_status": "reviewed",
     "reading_unit_ids": [],
     "chapter_ids": [
       "c6"
@@ -1591,7 +1601,7 @@
     "date_values_usage": "date_start/end仅用于宽年代筛选；以date_label及date_history呈现学术断代，不作为精确制作年。",
     "date_history": [],
     "origin_status": "region_only",
-    "origin_note": "按照片展签的地域／风格归属登记；不是完整来源史。",
+    "origin_note": "馆录将北京列为可能制作地，带问号；没有确认具体工坊。",
     "scope_basis": "sino_tibetan_exchange",
     "style_region_ids": [],
     "research_state": "catalogued",
@@ -1603,9 +1613,9 @@
       }
     ],
     "collection_museum_id": "berlin",
-    "display_museum_id": null,
-    "collection_label": "柏林民族学博物馆藏；拍摄展出地点待核",
-    "museum_label": "柏林民族学博物馆藏；拍摄展出地点待核",
+    "display_museum_id": "met",
+    "collection_label": "柏林民族学博物馆",
+    "museum_label": "纽约大都会艺术博物馆（借展）",
     "has_shared_frame": false,
     "default_gallery_photos": [
       "h1516"
@@ -1617,7 +1627,16 @@
     "primary_path": "images/originals/h1516.jpg",
     "thumbnail_path": "images/h1516-400.webp",
     "reader_notes": [
-      "柏林民族学博物馆收藏，本次照片的借展场馆尚未确认。"
+      "在纽约大都会艺术博物馆观看的借展作品；参观日期未记录。"
+    ],
+    "viewing_basis": "user_confirmed_Met_loan_exhibition",
+    "dimensions_display": "含尾羽整体145 × 120 × 65厘米；不含尾羽94 × 87 × 45厘米",
+    "physical_object_count": 1,
+    "site_links": [
+      {
+        "href": "../../yongle-xuande/#w1516",
+        "label": "永宣宫廷造像 · 作品细读"
+      }
     ]
   },
   {
@@ -3384,9 +3403,9 @@
     "work_id": "w1567",
     "title_zh": "大成就者毗瓦巴",
     "title_en": "Mahasiddha Virupa",
-    "date_label": "15世纪早期",
-    "date_start": 1400,
-    "date_end": 1425,
+    "date_label": "明永乐时期，1403—1424年",
+    "date_start": 1403,
+    "date_end": 1424,
     "region_ids": [
       "china-court"
     ],
@@ -3415,7 +3434,7 @@
     "label_source_ids": [
       "L_h1568"
     ],
-    "materials_display": "鎏金铜合金、银、宝石、彩",
+    "materials_display": "鎏金铜合金、银、嵌石与彩绘",
     "material_status": "reviewed",
     "reading_unit_ids": [
       "u23"
@@ -3449,10 +3468,18 @@
     "alternate_photos": [],
     "object_type": "sculpture",
     "map_enabled": true,
-    "image_alt_zh": "大成就者毗瓦巴 · 15世纪早期 · Merton现场摄影",
+    "image_alt_zh": "大成就者毗瓦巴 · 明永乐时期，1403—1424年 · Merton现场摄影",
     "primary_path": "images/originals/h1567.jpg",
     "thumbnail_path": "images/h1567-400.webp",
-    "reader_notes": []
+    "reader_notes": [],
+    "dimensions_display": "高43.6厘米",
+    "physical_object_count": 1,
+    "site_links": [
+      {
+        "href": "../../yongle-xuande/#w1567",
+        "label": "永宣宫廷造像 · 作品细读"
+      }
+    ]
   },
   {
     "work_id": "w1569",
@@ -3530,9 +3557,9 @@
     "work_id": "w1571",
     "title_zh": "永乐宫廷仪式斧与钺刀",
     "title_en": "Ritual Axe and Flaying Knife",
-    "date_label": "15世纪早期",
-    "date_start": 1400,
-    "date_end": 1425,
+    "date_label": "约1407—1410年",
+    "date_start": 1407,
+    "date_end": 1410,
     "region_ids": [
       "china-court"
     ],
@@ -3552,7 +3579,8 @@
     "metadata_basis": "photographed_label",
     "verification_status": "official_record_checked",
     "source_ids": [
-      "S45"
+      "S45",
+      "S103"
     ],
     "uncertainties": [],
     "input_group_id": "cleveland",
@@ -3561,7 +3589,7 @@
     "label_source_ids": [
       "L_h1573"
     ],
-    "materials_display": "铁合金嵌金与银（斧）；钺刀依原签",
+    "materials_display": "铁合金嵌金、银",
     "material_status": "reviewed",
     "reading_unit_ids": [
       "u23"
@@ -3595,18 +3623,26 @@
     "alternate_photos": [],
     "object_type": "ritual_object",
     "map_enabled": true,
-    "image_alt_zh": "永乐宫廷仪式斧与钺刀 · 15世纪早期 · Merton现场摄影",
+    "image_alt_zh": "永乐宫廷仪式斧与钺刀 · 约1407—1410年 · Merton现场摄影",
     "primary_path": "images/originals/h1571.jpg",
     "thumbnail_path": "images/h1571-400.webp",
-    "reader_notes": []
+    "reader_notes": [],
+    "physical_object_count": 2,
+    "site_links": [
+      {
+        "href": "../../yongle-xuande/#w1571",
+        "label": "永宣宫廷造像 · 作品细读"
+      }
+    ],
+    "dimensions_display": "斧全高40.4厘米；钺刀全高17.4厘米"
   },
   {
     "work_id": "w1572",
     "title_zh": "永乐宫廷香炉",
     "title_en": "Incense Burner",
-    "date_label": "15世纪早期",
-    "date_start": 1400,
-    "date_end": 1425,
+    "date_label": "明永乐时期，1403—1424年",
+    "date_start": 1403,
+    "date_end": 1424,
     "region_ids": [
       "china-court"
     ],
@@ -3667,10 +3703,18 @@
     "alternate_photos": [],
     "object_type": "ritual_object",
     "map_enabled": true,
-    "image_alt_zh": "永乐宫廷香炉 · 15世纪早期 · Merton现场摄影",
+    "image_alt_zh": "永乐宫廷香炉 · 明永乐时期，1403—1424年 · Merton现场摄影",
     "primary_path": "images/originals/h1572.jpg",
     "thumbnail_path": "images/h1572-400.webp",
-    "reader_notes": []
+    "reader_notes": [],
+    "physical_object_count": 1,
+    "site_links": [
+      {
+        "href": "../../yongle-xuande/#w1572",
+        "label": "永宣宫廷造像 · 作品细读"
+      }
+    ],
+    "dimensions_display": "16.5 × 15.2厘米（馆录未另标高、宽）"
   },
   {
     "work_id": "w1574a",
@@ -6237,9 +6281,11 @@
     "scope": "himalayan",
     "religious_context": "Buddhist",
     "editorial_notes": "重复拍摄合并；1658为足边赐款独立细节。",
-    "metadata_basis": "photographed_label",
-    "verification_status": "photo_label_checked",
-    "source_ids": [],
+    "metadata_basis": "photographed_labels_and_official_records",
+    "verification_status": "official_records_and_photos_checked",
+    "source_ids": [
+      "S97"
+    ],
     "uncertainties": [],
     "primary_selection_reason": "1657主体周围留白较完整、额部反光相对轻；1658为赐款细节，必须另留。",
     "input_group_id": "seattle",
@@ -6249,7 +6295,7 @@
       "L_h1659",
       "L_h1644"
     ],
-    "materials_display": "鎏金铜合金",
+    "materials_display": "鎏金铜合金，红、蓝颜料",
     "material_status": "reviewed",
     "reading_unit_ids": [
       "u23"
@@ -6289,7 +6335,17 @@
     "image_alt_zh": "宣德赐款观音 · 1426—1435年 · Merton现场摄影",
     "primary_path": "images/originals/h1657.jpg",
     "thumbnail_path": "images/h1657-400.webp",
-    "reader_notes": []
+    "reader_notes": [
+      "馆方现行记录断为15世纪；两张现场展签写宣德1425—1435年。本站采用宣德年号的1426—1435年，保留展签起年差异。"
+    ],
+    "dimensions_display": "25.4 × 16.51 × 15.24厘米",
+    "physical_object_count": 1,
+    "site_links": [
+      {
+        "href": "../../yongle-xuande/#w1643",
+        "label": "永宣宫廷造像 · 作品细读"
+      }
+    ]
   },
   {
     "work_id": "w1645",
@@ -8414,6 +8470,95 @@
     ],
     "reader_notes": [
       "现场展签的题名与说明段内容不符；本页采用题名、地区与年代，不据该段辨认手印或尊神。"
+    ]
+  },
+  {
+    "work_id": "w1486",
+    "title_zh": "旃檀瑞像传统佛立像",
+    "title_en": "Standing Buddha in the Udayana Image Tradition",
+    "date_label": "明宣德时期，1426—1435年",
+    "date_start": 1426,
+    "date_end": 1435,
+    "region_ids": [
+      "china-court"
+    ],
+    "accession": "M.C. 686",
+    "primary_photo": "h1514",
+    "art_photos": [
+      "h1514",
+      "h1486"
+    ],
+    "label_photos": [
+      "h1487",
+      "h1515"
+    ],
+    "detail_photos": [],
+    "tier": "comparison",
+    "scope": "chinese_buddhist_comparison",
+    "religious_context": "Buddhist",
+    "editorial_notes": "核对两组照片、展签及馆录，纠正旧包中“不同件”的说法；w1514并入w1486。",
+    "metadata_basis": "photographed_labels_and_official_records",
+    "verification_status": "official_records_and_photos_checked",
+    "source_ids": [
+      "S102"
+    ],
+    "uncertainties": [],
+    "input_group_id": "cernuschi",
+    "public": true,
+    "scope_reason": "收入永宣宫廷造像及中国佛教艺术；不收入喜马拉雅默认目录。",
+    "label_source_ids": [
+      "L_h1487",
+      "L_h1515"
+    ],
+    "materials_display": "铜鎏金",
+    "material_status": "reviewed",
+    "reading_unit_ids": [],
+    "chapter_ids": [],
+    "exchange_extension": false,
+    "date_values_usage": "date_start/end仅用于宽年代筛选；以date_label及date_history呈现学术断代，不作为精确制作年。",
+    "date_history": [],
+    "origin_status": "region_only",
+    "origin_note": "按照片展签的地域／风格归属登记；不是完整来源史。",
+    "scope_basis": "regional_tradition",
+    "style_region_ids": [],
+    "research_state": "catalogued",
+    "map_associations": [
+      {
+        "place_id": "china-court",
+        "relationship": "regional_attribution",
+        "certainty": "regional_only"
+      }
+    ],
+    "collection_museum_id": "cernuschi",
+    "display_museum_id": null,
+    "collection_label": "赛努奇博物馆",
+    "museum_label": "赛努奇博物馆收藏；两组照片的观看地点未核定",
+    "has_shared_frame": false,
+    "default_gallery_photos": [
+      "h1514"
+    ],
+    "alternate_photos": [
+      "h1486"
+    ],
+    "object_type": "sculpture",
+    "map_enabled": false,
+    "image_alt_zh": "旃檀瑞像传统佛立像 · 明宣德时期，1426—1435年 · Merton现场摄影",
+    "himalayan_default_inclusion": false,
+    "primary_path": "images/originals/h1514.jpg",
+    "thumbnail_path": "images/h1514-400.webp",
+    "aliases": [
+      "w1514"
+    ],
+    "dimensions_display": "高63.5厘米",
+    "reader_notes": [
+      "两组不同展陈中的照片记录同一件M.C.686；观看日期与第二组的展出地点尚未确认。"
+    ],
+    "physical_object_count": 1,
+    "site_links": [
+      {
+        "href": "../../yongle-xuande/#w1486",
+        "label": "永宣宫廷造像 · 作品细读"
+      }
     ]
   }
 ]

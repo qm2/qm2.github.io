@@ -1138,5 +1138,89 @@
     "kind": "research",
     "checked_on": "2026-11-03",
     "primary": true
+  },
+  {
+    "source_id": "S97",
+    "title": "西雅图艺术博物馆：Bodhisattva Avalokiteshvara，59.59",
+    "url": "https://art.seattleartmuseum.org/objects/6201/bodhisattva-avalokiteshvara",
+    "work_ids": [
+      "w1643"
+    ],
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "primary": true,
+    "claims": "本轮读取官方对象记录，核对照片身份、年代、尺寸与相应图像／收藏说明。"
+  },
+  {
+    "source_id": "S98",
+    "title": "大都会借展记录：Buddha Shakyamuni，大英博物馆1908,0420.4",
+    "url": "https://www.metmuseum.org/art/collection/search/903520",
+    "work_ids": [
+      "w1512"
+    ],
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "primary": true,
+    "claims": "本轮读取官方对象记录，核对照片身份、年代、尺寸与相应图像／收藏说明。"
+  },
+  {
+    "source_id": "S99",
+    "title": "Quanyu Wang、Sascha Priewe：Scientific analysis of a Buddha attributed to the Yongle period of the Ming dynasty，British Museum Technical Research Bulletin 7（2013），61–68页",
+    "url": "https://www.asianart.com/articles/yongle/Yongle_Buddha_BM.pdf",
+    "work_ids": [
+      "w1512"
+    ],
+    "kind": "research",
+    "checked_on": "2026-11-03",
+    "primary": true,
+    "claims": "全文核读61—68页；射线、合金、制作结构、18世纪增配的判断与限度。"
+  },
+  {
+    "source_id": "S100",
+    "title": "柏林国家博物馆：Mahamayuri，I D 31831",
+    "url": "https://search.smb.museum/object/obj-147802",
+    "work_ids": [
+      "w1516"
+    ],
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "primary": true,
+    "claims": "全文读取馆录及转载的Bröskamp作品说明；未核读2023整本图录。"
+  },
+  {
+    "source_id": "S101",
+    "title": "赛努奇博物馆：Bouddha，M.C.686",
+    "url": "https://www.cernuschi.paris.fr/fr/collections/collections-chinoises/dynastie-ming/bouddha",
+    "work_ids": [
+      "w1486"
+    ],
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "primary": true,
+    "claims": "本轮503维护页，未核读正文；保留官方地址作为后续查询线索。资料采用S102及现场展签。"
+  },
+  {
+    "source_id": "S102",
+    "title": "巴黎市立博物馆馆藏数据库：Buddha，M.C.686",
+    "url": "https://www.parismuseescollections.paris.fr/en/musee-cernuschi/oeuvres/buddha",
+    "work_ids": [
+      "w1486"
+    ],
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "primary": true,
+    "claims": "本轮读取官方对象记录，核对照片身份、年代、尺寸与相应图像／收藏说明。"
+  },
+  {
+    "source_id": "S103",
+    "title": "克利夫兰艺术博物馆：Ritual Flaying Knife，1978.9.3",
+    "url": "https://www.clevelandart.org/art/1978.9.3",
+    "work_ids": [
+      "w1571"
+    ],
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "primary": true,
+    "claims": "本轮读取官方对象记录，核对照片身份、年代、尺寸与相应图像／收藏说明。"
   }
 ]

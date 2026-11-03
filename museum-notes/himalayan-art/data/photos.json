@@ -2972,5 +2972,51 @@
     "do_not_publish": false,
     "visit_id": null,
     "caption": ""
+  },
+  {
+    "photo_id": "h1486",
+    "sequence": 1486,
+    "original_filename": "originals/h1486.jpg",
+    "path": "images/originals/h1486.jpg",
+    "sha256": "bef76019c20e8196e08cd561e6f25621489d038c13b275d9fc75e993dcc833b8",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 200107,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1486"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1486-400.webp",
+    "sha256_preserved": true,
+    "default_use": "alternate",
+    "do_not_publish": false,
+    "visit_id": "cernuschi-view-a",
+    "caption": ""
+  },
+  {
+    "photo_id": "h1514",
+    "sequence": 1514,
+    "original_filename": "originals/h1514.jpg",
+    "path": "images/originals/h1514.jpg",
+    "sha256": "6f34cd4eff83444c86d710a65872703ff4f3038b5f56fac8411135629accdf78",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 346336,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1486"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1514-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": "cernuschi-view-b",
+    "caption": ""
   }
 ]

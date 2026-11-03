@@ -64,6 +64,8 @@
   const p=document.createElement('p');p.className='ha-note';p.textContent='地图筛选暂时无法载入，下方章节与完整目录仍可阅读。';$('#ha-map-status').replaceWith(p);
  });
  function start(data){
+  const externalWork=new URLSearchParams(location.search).get('work')||location.hash.slice(1);
+  if(data.external_works?.[externalWork]){location.replace(data.external_works[externalWork]);return;}
   const ws=data.works, groups=data.groups, places=data.places, wb=new Map(ws.map(w=>[w.work_id,w]));
   const groupsBy=new Map(groups.map(g=>[g.id,g]));
   const parentGroup=id=>groupsBy.get(id) || groups.find(g=>g.members.includes(id));

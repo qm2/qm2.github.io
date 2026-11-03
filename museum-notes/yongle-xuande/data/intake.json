@@ -1,0 +1,170 @@
+{
+  "source_archive": "Yongle_Xuande_Codex_Research.zip",
+  "archive_sha256": "6ff45f3d47c1f953cbfae15a8ea7a5387164e47981b0fe42c76fcdeb5cf9e4c7",
+  "checked_on": "2026-11-03",
+  "photos": [
+    {
+      "photo_id": "h1486",
+      "sha256": "bef76019c20e8196e08cd561e6f25621489d038c13b275d9fc75e993dcc833b8",
+      "role": "artwork_or_detail",
+      "handling": "new_shared_original",
+      "canonical_work_ids": [
+        "w1486"
+      ]
+    },
+    {
+      "photo_id": "h1487",
+      "sha256": "d3c178266494dd6b4284b228e2697ddfb7f51cd0f32a42e5c7e14906718b08ab",
+      "role": "label",
+      "handling": "private_reference_original_retained",
+      "canonical_work_ids": [
+        "w1486"
+      ]
+    },
+    {
+      "photo_id": "h1512",
+      "sha256": "fb968f6f3c9a4ac3343ec093961859ee1a2ce142959f6ad977e11d0476bf0b31",
+      "role": "artwork_or_detail",
+      "handling": "existing_shared_original",
+      "canonical_work_ids": [
+        "w1512"
+      ]
+    },
+    {
+      "photo_id": "h1513",
+      "sha256": "38f3d96e6fcf96c1dd0c29beaea9b4a2a9329320cd4312c039eb321b7edc5a17",
+      "role": "label",
+      "handling": "private_reference_original_retained",
+      "canonical_work_ids": [
+        "w1512"
+      ]
+    },
+    {
+      "photo_id": "h1514",
+      "sha256": "6f34cd4eff83444c86d710a65872703ff4f3038b5f56fac8411135629accdf78",
+      "role": "artwork_or_detail",
+      "handling": "new_shared_original",
+      "canonical_work_ids": [
+        "w1486"
+      ]
+    },
+    {
+      "photo_id": "h1515",
+      "sha256": "0ecf7241e893e1cc5487be2733f8e648d1679860bf3d931917df33678cc7c1bb",
+      "role": "label",
+      "handling": "private_reference_original_retained",
+      "canonical_work_ids": [
+        "w1486"
+      ]
+    },
+    {
+      "photo_id": "h1516",
+      "sha256": "53cfec002184ac5b5b303e3fb152cc98a56e78863a5833a0e7d4f8d72ded13e1",
+      "role": "artwork_or_detail",
+      "handling": "existing_shared_original",
+      "canonical_work_ids": [
+        "w1516"
+      ]
+    },
+    {
+      "photo_id": "h1517",
+      "sha256": "b193ccd82dc23ca14f54954e1aa849d9f9e85022ce3445e2c7d2b1735c9a2cef",
+      "role": "label",
+      "handling": "private_reference_original_retained",
+      "canonical_work_ids": [
+        "w1516"
+      ]
+    },
+    {
+      "photo_id": "h1567",
+      "sha256": "a7416c76554f69ab779fe046b85ee075b3d5c34ddca1423d8141101bc2f3c650",
+      "role": "artwork_or_detail",
+      "handling": "existing_shared_original",
+      "canonical_work_ids": [
+        "w1567"
+      ]
+    },
+    {
+      "photo_id": "h1568",
+      "sha256": "5f3d25a20d0825f3ceae786cd44936bcf7a0adccfb9441e062928b4ef95c2d90",
+      "role": "label",
+      "handling": "private_reference_original_retained",
+      "canonical_work_ids": [
+        "w1567"
+      ]
+    },
+    {
+      "photo_id": "h1571",
+      "sha256": "8a7fa06bba1ed9a3b3e1250f74f423fcadda1f0c2e5e088eb7652f7c6fff38c0",
+      "role": "artwork_or_detail",
+      "handling": "existing_shared_original",
+      "canonical_work_ids": [
+        "w1571"
+      ]
+    },
+    {
+      "photo_id": "h1572",
+      "sha256": "def1fd6d93c74100431e53d7aa7c8f5460927280ec8c16e8b3f4a704ae2377b5",
+      "role": "artwork_or_detail",
+      "handling": "existing_shared_original",
+      "canonical_work_ids": [
+        "w1572"
+      ]
+    },
+    {
+      "photo_id": "h1573",
+      "sha256": "ba4bf4023e37df25db02c211edd73143fa23726a939ab8e8b9b240c5ccffbde0",
+      "role": "label",
+      "handling": "private_reference_original_retained",
+      "canonical_work_ids": [
+        "w1571",
+        "w1572"
+      ]
+    },
+    {
+      "photo_id": "h1643",
+      "sha256": "d4f5bdc389ffe98578091a5cbc19621dec19837c3ddb953764d32b1da9e3050d",
+      "role": "artwork_or_detail",
+      "handling": "existing_shared_original",
+      "canonical_work_ids": [
+        "w1643"
+      ]
+    },
+    {
+      "photo_id": "h1644",
+      "sha256": "dfad51e8fd0010ff18cf44bd0572cc6d117565c5c29ca0490f9ba1a55526eafb",
+      "role": "label",
+      "handling": "private_reference_original_retained",
+      "canonical_work_ids": [
+        "w1643"
+      ]
+    },
+    {
+      "photo_id": "h1657",
+      "sha256": "a5dd9bb698aa263014a08885079f8fb2b03b6fbd76f0e1e263a26dc1e8c0a12a",
+      "role": "artwork_or_detail",
+      "handling": "existing_shared_original",
+      "canonical_work_ids": [
+        "w1643"
+      ]
+    },
+    {
+      "photo_id": "h1658",
+      "sha256": "0c90555fda7910dd34fce5fe02195b7b7483f0c37e647444bc3eea5c9ad0e8a7",
+      "role": "artwork_or_detail",
+      "handling": "existing_shared_original",
+      "canonical_work_ids": [
+        "w1643"
+      ]
+    },
+    {
+      "photo_id": "h1659",
+      "sha256": "0278e70f1770cc8f6300fda2e5b2b97b9b8629eef68046c963b348b526ab44f4",
+      "role": "label",
+      "handling": "private_reference_original_retained",
+      "canonical_work_ids": [
+        "w1643"
+      ]
+    }
+  ]
+}

@@ -88,3 +88,5 @@
  .ha-guide-body .ha-history-works{grid-template-columns:1fr}
 }
 @media(prefers-reduced-motion:reduce){.ha-guide-entry>summary::after{transition:none}}
+/* Small cross-topic entrances; preserve the existing six-chapter rhythm. */
+.ha-topic-links{margin:40px 0 50px;border-top:1px solid var(--line);padding-top:24px;scroll-margin-top:24px}.ha-topic-links>h2{font-size:23px}.ha-topic-links>div{display:grid;grid-template-columns:1fr 1fr;gap:36px}.ha-topic-links a{display:flex;gap:22px;align-items:center;text-decoration:none;padding:12px 0}.ha-topic-links img{width:105px;height:140px;object-fit:contain;flex-shrink:0}.ha-topic-links strong{display:block;font:500 21px var(--serif);margin-bottom:12px}.ha-topic-links span span{display:block;line-height:1.85;font-size:14px;color:var(--muted)}.ha-topic-return{border-top:1px solid var(--line);padding-top:22px;margin-top:30px}.ha-page .ha-topic-return h2{font-size:23px}@media(max-width:650px){.ha-topic-links>div{grid-template-columns:1fr;gap:12px}.ha-topic-links img{width:90px;height:120px}.ha-topic-links a{gap:18px}}

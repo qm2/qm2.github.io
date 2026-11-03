@@ -16,8 +16,10 @@ wb = {w['work_id']: w for w in works}
 pb = {p['photo_id']: p for p in photos}
 assert len(wb) == len(works) and len(pb) == len(photos)
 assert all(w['public'] for w in works)
-assert not {'w1486','w1514','w1625','w1627','w1717'} & wb.keys()
-assert not {'h1486','h1487','h1514','h1515','h1625','h1626','h1627','h1628','h1717','h1718'} & pb.keys()
+assert not {'w1514','w1625','w1627','w1717'} & wb.keys()
+assert wb['w1486']['himalayan_default_inclusion'] is False
+assert read('work_aliases')['w1514']=='w1486'
+assert not {'h1487','h1515','h1625','h1626','h1627','h1628','h1717','h1718'} & pb.keys()
 assert set(p.stem for p in (BASE/'images/originals').glob('*')) == pb.keys()
 assert all(not p['do_not_publish'] and p['public_asset'] for p in photos)
 allowed = {n for w in works for n in w['art_photos'] + w['detail_photos'] + [w['primary_photo']]}
@@ -140,7 +142,7 @@ with tempfile.TemporaryDirectory(prefix='himalayan-growth-') as tmp:
     for n,d in [('works',ws),('photos',ps),('museums',museums),('places',places),('visits',fixture_visits),('updates',fixture_updates)]: save(n,d)
     build(fixture, integrate=False)
     nav=json.loads((fixture/'data/navigation.json').read_text()); html=(fixture/'index.html').read_text()
-    assert len(nav['works']) == len(works)+1
+    assert len(nav['works']) == sum(w.get('himalayan_default_inclusion',True) for w in works)+1
     assert any(g['id']=='test-region' for g in nav['groups'])
     assert 'data-museum="test-museum"' in html and 'data-region="test-region"' in html
     assert 'test-revisit.jpg' in (fixture/ws[0]['work_id']/'index.html').read_text()

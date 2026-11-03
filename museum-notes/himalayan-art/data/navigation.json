@@ -618,7 +618,7 @@
     },
     {
       "work_id": "w1512",
-      "title_zh": "永乐款佛坐像",
+      "title_zh": "永乐款释迦牟尼坐像",
       "title_en": "Seated Buddha",
       "date_start": 1403,
       "date_end": 1424,
@@ -626,7 +626,7 @@
       "region_ids": [
         "china-court"
       ],
-      "display_museum_id": null,
+      "display_museum_id": "met",
       "collection_museum_id": "british",
       "map_enabled": true,
       "map_associations": [
@@ -640,10 +640,10 @@
       "chapter_ids": [
         "c6"
       ],
-      "collection": "大英博物馆藏；拍摄展出地点待核",
-      "search": "永乐款佛坐像 Seated Buddha  鎏金铜合金 大英博物馆藏；拍摄展出地点待核 大英博物馆藏；拍摄展出地点待核",
+      "collection": "大英博物馆 · 在纽约大都会艺术博物馆展出",
+      "search": "永乐款释迦牟尼坐像 Seated Buddha 1908,0420.4 鎏金铜合金；佛身及莲座为黄铜铸造，方台与背光另用铜板制作 大英博物馆 纽约大都会艺术博物馆（借展）",
       "material": "金属",
-      "theme": "佛",
+      "theme": "其他尊神与人物",
       "reading_unit_ids": []
     },
     {
@@ -656,7 +656,7 @@
       "region_ids": [
         "china-court"
       ],
-      "display_museum_id": null,
+      "display_museum_id": "met",
       "collection_museum_id": "berlin",
       "map_enabled": true,
       "map_associations": [
@@ -670,8 +670,8 @@
       "chapter_ids": [
         "c6"
       ],
-      "collection": "柏林民族学博物馆藏；拍摄展出地点待核",
-      "search": "宣德款孔雀明王 Mahamayuri on Peacock  鎏金铜合金 柏林民族学博物馆藏；拍摄展出地点待核 柏林民族学博物馆藏；拍摄展出地点待核",
+      "collection": "柏林民族学博物馆 · 在纽约大都会艺术博物馆展出",
+      "search": "宣德款孔雀明王 Mahamayuri on Peacock I D 31831 鎏金铜合金 柏林民族学博物馆 纽约大都会艺术博物馆（借展）",
       "material": "金属",
       "theme": "其他尊神与人物",
       "reading_unit_ids": []
@@ -1422,9 +1422,9 @@
       "work_id": "w1567",
       "title_zh": "大成就者毗瓦巴",
       "title_en": "Mahasiddha Virupa",
-      "date_start": 1400,
-      "date_end": 1425,
-      "date_label": "15世纪早期",
+      "date_start": 1403,
+      "date_end": 1424,
+      "date_label": "明永乐时期，1403—1424年",
       "region_ids": [
         "china-court"
       ],
@@ -1443,7 +1443,7 @@
         "c6"
       ],
       "collection": "克利夫兰美术馆",
-      "search": "大成就者毗瓦巴 Mahasiddha Virupa 1972.96 鎏金铜合金、银、宝石、彩 克利夫兰美术馆 克利夫兰美术馆",
+      "search": "大成就者毗瓦巴 Mahasiddha Virupa 1972.96 鎏金铜合金、银、嵌石与彩绘 克利夫兰美术馆 克利夫兰美术馆",
       "material": "金属",
       "theme": "其他尊神与人物",
       "reading_unit_ids": [
@@ -1484,9 +1484,9 @@
       "work_id": "w1571",
       "title_zh": "永乐宫廷仪式斧与钺刀",
       "title_en": "Ritual Axe and Flaying Knife",
-      "date_start": 1400,
-      "date_end": 1425,
-      "date_label": "15世纪早期",
+      "date_start": 1407,
+      "date_end": 1410,
+      "date_label": "约1407—1410年",
       "region_ids": [
         "china-court"
       ],
@@ -1505,7 +1505,7 @@
         "c6"
       ],
       "collection": "克利夫兰美术馆",
-      "search": "永乐宫廷仪式斧与钺刀 Ritual Axe and Flaying Knife 1978.9.1; 1978.9.3 铁合金嵌金与银（斧）；钺刀依原签 克利夫兰美术馆 克利夫兰美术馆",
+      "search": "永乐宫廷仪式斧与钺刀 Ritual Axe and Flaying Knife 1978.9.1; 1978.9.3 铁合金嵌金、银 克利夫兰美术馆 克利夫兰美术馆",
       "material": "金属",
       "theme": "器物与供养",
       "reading_unit_ids": [
@@ -1516,9 +1516,9 @@
       "work_id": "w1572",
       "title_zh": "永乐宫廷香炉",
       "title_en": "Incense Burner",
-      "date_start": 1400,
-      "date_end": 1425,
-      "date_label": "15世纪早期",
+      "date_start": 1403,
+      "date_end": 1424,
+      "date_label": "明永乐时期，1403—1424年",
       "region_ids": [
         "china-court"
       ],
@@ -2639,7 +2639,7 @@
         "c6"
       ],
       "collection": "西雅图亚洲艺术博物馆／SAM",
-      "search": "宣德赐款观音 Bodhisattva Avalokiteshvara 59.59 鎏金铜合金 西雅图亚洲艺术博物馆／SAM 西雅图亚洲艺术博物馆／SAM",
+      "search": "宣德赐款观音 Bodhisattva Avalokiteshvara 59.59 鎏金铜合金，红、蓝颜料 西雅图亚洲艺术博物馆／SAM 西雅图亚洲艺术博物馆／SAM",
       "material": "金属",
       "theme": "观音",
       "reading_unit_ids": [
@@ -3525,6 +3525,10 @@
       "reading_unit_ids": []
     }
   ],
+  "external_works": {
+    "w1486": "../yongle-xuande/#w1486",
+    "w1514": "../yongle-xuande/#w1486"
+  },
   "units": [
     {
       "id": "u01",
@@ -4301,6 +4305,16 @@
       "latitude": 32.749,
       "longitude": -97.365,
       "url": "https://kimbellart.org/",
+      "coordinates_precision": "institution_navigation"
+    },
+    {
+      "museum_id": "cernuschi",
+      "label_zh": "赛努奇博物馆",
+      "name_en": "Musée Cernuschi",
+      "city": "巴黎",
+      "latitude": 48.879,
+      "longitude": 2.312,
+      "url": "https://www.cernuschi.paris.fr/",
       "coordinates_precision": "institution_navigation"
     }
   ]

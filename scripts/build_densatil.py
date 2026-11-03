@@ -40,6 +40,8 @@ def build():
   back=' '.join(f'<a class="ds-backref" href="#{ref}" aria-label="返回资料{numbers[k]}的第{i+1}处引用">↩{i+1}</a>' for i,ref in enumerate(references[k]))
   body+=f'<li id="source-{k}"><a href="{e(url)}">{e(name)} ↗</a> <span class="ds-backrefs">{back}</span></li>'
  body+='</ol><p>2014年展览图录由Olaf Czaja与Adriana Proser编。上文展品号及页码据各馆公开书目；具体塔位讨论另据所链接的Estournel研究。</p></section>'
+ body+='<aside class="wrap ds-section" id="related-background"><h2>从这座寺院继续读</h2><nav class="ds-nav" aria-label="相关背景"><a href="../himalayan-art/#topic-studies">喜马拉雅艺术总览 →</a><a href="../himalayan-art/teachers/#phagmodrupa">帕木竹巴与传承 →</a><a href="../himalayan-art/history/#tibet-networks">寺院与供养网络 →</a><a href="../himalayan-art/iconography/#vajravarahi">金刚亥母的不同形态 →</a><a href="../chinese-buddhist-art/">中国佛教艺术 →</a></nav></aside>'
+ body=body.replace('<a href="#positions">它原来在哪里</a>','<a href="#positions">它原来在哪里</a><a href="#related-background">相关历史与人物</a>',1)
 
  page=frame(d['title'],body,description=d['intro'],sibling=True).replace('<a href="../chinese-painting/">中国书画</a>','<a href="../chinese-buddhist-art/">中国佛教艺术</a>').replace('</head>','<link rel="stylesheet" href="densatil.css"></head>')
  (base/'index.html').write_text(page)

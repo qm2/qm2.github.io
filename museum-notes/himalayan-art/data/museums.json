@@ -169,5 +169,15 @@
     "longitude": -97.365,
     "url": "https://kimbellart.org/",
     "coordinates_precision": "institution_navigation"
+  },
+  {
+    "museum_id": "cernuschi",
+    "label_zh": "赛努奇博物馆",
+    "name_en": "Musée Cernuschi",
+    "city": "巴黎",
+    "latitude": 48.879,
+    "longitude": 2.312,
+    "url": "https://www.cernuschi.paris.fr/",
+    "coordinates_precision": "institution_navigation"
   }
 ]

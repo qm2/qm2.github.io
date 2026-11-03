@@ -13,7 +13,9 @@ BASE=ROOT/'museum-notes/himalayan-art'
 def build(base=BASE, integrate=True):
     read=lambda n:json.loads((base/'data'/f'{n}.json').read_text())
     dump=lambda n,d:(base/'data'/f'{n}.json').write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')
-    works=read('works'); by={w['work_id']:w for w in works}; units=read('reading_units'); ub={u['unit_id']:u for u in units}
+    records=read('works'); works=[w for w in records if w.get('himalayan_default_inclusion',True)]
+    by={w['work_id']:w for w in records}; units=read('reading_units'); ub={u['unit_id']:u for u in units}
+    aliases=read('work_aliases'); topic_links=read('topic_links')
     chapters=read('chapters'); places=read('places'); pb={p['place_id']:p for p in places}; museums=read('museums'); mb={m['museum_id']:m for m in museums}
     sources={s['source_id']:s for s in read('sources')}; photos=read('photos'); caps=read('photo_captions')
     introduction=read('introduction'); visits=read('visits'); updates=read('updates'); history=read('history'); crops=read('photo_crops')
@@ -38,7 +40,8 @@ def build(base=BASE, integrate=True):
     recent=sorted([u for u in updates if u.get('public',False)],key=lambda u:u['published_on'],reverse=True)[:3]
     # Keep HTML, navigation and scoped assets on the same revision after publishing.
     revision=hashlib.sha256(b''.join(p.read_bytes() for p in [base/'himalayan.js',base/'himalayan.css']+sorted(p for p in (base/'data').glob('*.json') if p.stem not in {'navigation','derivatives'}))).hexdigest()[:12]
-    assert len(by)==len(works) and all(w['public'] for w in works)
+    assert len(by)==len(records) and all(w['public'] for w in records)
+    assert all(old not in by and target in by for old,target in aliases.items())
     def derive(p):
         n=p['photo_id']; src=base/'images/originals'/f'{n}.jpg'
         im=ImageOps.exif_transpose(Image.open(src)).convert('RGB'); variants=[]
@@ -123,13 +126,16 @@ def build(base=BASE, integrate=True):
     def write(route,title,body,photo='h1677'):
         dest=base/route;dest.mkdir(parents=True,exist_ok=True);(dest/'index.html').write_text(shell(title,body,bool(route),photo))
     # Individual records: unchanged original photographs and compact label-based facts.
-    for w in works:
+    for w in records:
         wid=w['work_id'];photo=w['primary_photo'];body=f'<nav class="breadcrumbs"><a href="../">喜马拉雅艺术</a><span>/</span><a href="../#catalogue">亲见目录</a></nav><header class="ha-heading"><p class="eyebrow">OBJECT NOTE</p><h1>{e(w["title_zh"])}</h1><p>{e(w["date_label"])}</p></header>'
+        if not w.get('himalayan_default_inclusion',True):
+            body=body.replace('<a href="../">喜马拉雅艺术</a><span>/</span><a href="../#catalogue">亲见目录</a>','<a href="../../chinese-buddhist-art/">中国佛教艺术</a><span>/</span><a href="../../yongle-xuande/">永宣宫廷造像</a>')
         body+=gallery(w) if wid=='w1692' else fig(photo,caption(w),'../',True)
         us=[ub[u] for u in w['reading_unit_ids'] if u in ub]
         if us:
             body+='<div class="ha-prose"><p>'+e('；'.join(us[0]['look_for'][:2]))+'。</p><p>'+' · '.join(f'<a href="../{u["unit_id"]}/">细读：{e(u["title_zh"])} →</a>' for u in us)+'</p></div>'
-        body+=notes(w)+(gallery(w) if wid!='w1692' else '')+f'<section class="ha-section ha-prose"><h2>作品资料</h2>{facts(w)}{links(w)}<p><a href="../?work={wid}#places">在地图中看相关地区 →</a></p></section>'
+        maplink=f'<p><a href="../?work={wid}#places">在地图中看相关地区 →</a></p>' if w.get('himalayan_default_inclusion',True) else ''
+        body+=notes(w)+(gallery(w) if wid!='w1692' else '')+f'<section class="ha-section ha-prose"><h2>作品资料</h2>{facts(w)}{links(w)}{maplink}</section>'
         # Independent labels are explicitly private in the supplied photo manifest.
         if w['label_photos']:body+='<details class="ha-prose"><summary>现场资料</summary><p>基本资料依据现场展签整理。'+e(w['title_en'])+(('；馆藏号 '+w['accession']) if w.get('accession') else '')+'。</p>'+notes(w)+'</details>'
         others=[n for n in w['art_photos'] if n!=photo]
@@ -146,6 +152,11 @@ def build(base=BASE, integrate=True):
                 body+='</article>'
             body+='</section>'
         body+=history_links(wid)+refs(w['source_ids']);write(wid,w['title_zh'],body,photo)
+    # Stable aliases retain old URLs without creating another work or photo record.
+    for old,target in aliases.items():
+        dest=base/old;dest.mkdir(exist_ok=True)
+        href=f'../{target}/'
+        (dest/'index.html').write_text('<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="0;url='+href+'"><link rel="canonical" href="https://qm2.github.io/museum-notes/himalayan-art/'+target+'/"><title>'+e(by[target]['title_zh'])+'</title><p>这件作品的两组照片已合并。<a href="'+href+'">查看作品与照片 →</a></p></html>')
     # Reading units: the photograph leads, comparisons remain optional.
     for index,u in enumerate(units):
         w=by[u['focus_work_id']];wid=w['work_id'];ids=list(u['source_ids'])+w['source_ids']
@@ -158,6 +169,8 @@ def build(base=BASE, integrate=True):
             if u.get('notes'):body+='<details class="ha-research-notes"><summary>资料注 · 记录与解释</summary>'+research_sections(u['notes'],ids)+'</details>'
         else:body+='<p class="ha-look">细看：'+e('；'.join(u['look_for']))+'。</p>'
         body+='</div>'
+        if u.get('topic_link'):
+            t=u['topic_link'];body+='<aside class="ha-topic-return ha-prose"><h2><a href="'+e(t['href'])+'">'+e(t['label'])+' →</a></h2><p>'+e(t['text'])+'</p></aside>'
         if wid!='w1692':body+=gallery(w)
         body+=f'<p class="ha-prose ha-note"><a href="../{wid}/">完整作品资料 →</a> · <a href="../?work={wid}#places">看相关地区 →</a></p>'+links(w)
         if u['comparison_work_ids']:
@@ -216,7 +229,9 @@ def build(base=BASE, integrate=True):
     for w in works:
         mat,tag=filter_tags(w)
         client.append({**{k:w.get(k) for k in ['work_id','title_zh','title_en','date_start','date_end','date_label','region_ids','display_museum_id','collection_museum_id','map_enabled','map_associations','primary_photo','chapter_ids']},'collection':collection(w),'search':' '.join(str(w.get(k) or '') for k in ['title_zh','title_en','accession','materials_display','collection_label','museum_label']),'material':mat,'theme':tag,'reading_unit_ids':[u['unit_id'] for u in units if w['work_id'] in u['work_ids']]})
-    dump('navigation',{'works':client,'units':[{'id':u['unit_id'],'title':u['title_zh'],'works':u['work_ids']} for u in units],'groups':groups,'places':places,'museums':museums})
+    external={w['work_id']:'../yongle-xuande/#'+w['work_id'] for w in records if not w.get('himalayan_default_inclusion',True)}
+    external.update({old:external[target] for old,target in aliases.items() if target in external})
+    dump('navigation',{'works':client,'external_works':external,'units':[{'id':u['unit_id'],'title':u['title_zh'],'works':u['work_ids']} for u in units],'groups':groups,'places':places,'museums':museums})
     # Natural Earth paths are embedded: the map stays usable without network tiles.
     land=json.loads((ROOT/'museum-notes/homer/data/ne_110m_land.geojson').read_text())
     def map_svg(mode,bounds):
@@ -281,6 +296,10 @@ def build(base=BASE, integrate=True):
     body+='<section class="ha-preface ha-prose" id="preface" aria-labelledby="preface-title"><h2 id="preface-title">缘起</h2><blockquote class="ha-epigraph"><p>'+'<br>'.join(e(line) for line in epigraph['lines'])+'</p><cite><a href="'+e(epigraph['source_url'])+'" title="'+e(epigraph['source_title'])+'">'+e(epigraph['credit'])+'</a></cite></blockquote><div class="ha-personal-text">'+''.join('<p>'+e(t)+'</p>' for t in introduction['paragraphs'])+'</div></section>'
     body+='<p class="ha-scope">从斯瓦特、克什米尔与尼泊尔到西藏，也收入与这些传统相连的东印度作品及部分宫廷供养器物。</p>'+maphtml
     body+='<aside class="ha-history-entry" id="history-entry"><p class="eyebrow">HISTORY &amp; LOOKING</p><h2><a href="history/">历史与观看</a></h2><p>从一个地名、一件持物或一位上师，重新连接看过的作品。看展前重温，回来后继续追问。</p>'+learning_nav(prefix='')+'<p><a href="thangka/">怎样看一幅唐卡 →</a> · <a href="regions/">山谷与寺院之间 →</a></p></aside>'
+    body+='<section class="ha-topic-links" id="topic-studies" aria-labelledby="topic-studies-title"><h2 id="topic-studies-title">专题深读</h2><div>'
+    for t in topic_links:body+='<a href="'+e(t['href'])+'">'+img(t['photo'],t['title'],small=True)+'<span><strong>'+e(t['title'])+'</strong><span>'+e(t['text'])+'</span></span></a>'
+    body+='</div></section>'
+    body=body.replace('<a href="#chapters">开始阅读 ↓</a>','<a href="#chapters">开始阅读 ↓</a> · <a href="#topic-studies">专题深读 ↓</a>',1)
     body+='<nav class="ha-chapters" id="chapters" aria-label="章节阅读">'+''.join(f'<a href="#{c["chapter_id"]}"><small>{i+1:02d}</small>{e(c["title_zh"])}</a>' for i,c in enumerate(chapters))+'</nav>'
     for c in chapters:
         body+=f'<section class="ha-section" id="{c["chapter_id"]}"><header><p class="eyebrow">{e(c["subtitle_zh"])}</p><h2>{e(c["title_zh"])}</h2><p>{e(c["intro_zh"])}</p></header><div class="ha-readings">'
@@ -288,7 +307,9 @@ def build(base=BASE, integrate=True):
             u=ub[uid];w=by[u['focus_work_id']]
             featured=i==0 or u.get('featured',False)
             body+=f'<article class="ha-reading {"ha-featured" if featured else ""}" data-reading="{uid}"><a href="{uid}/" class="ha-reading-image">{img(w["primary_photo"],w["image_alt_zh"],small=not featured)}</a><div><p class="eyebrow">{uid[1:]} / 细读</p><h3><a href="{uid}/">{e(u["title_zh"])}</a></h3><p>{e(u["teaser"])}</p><p class="ha-note">{e(w["title_zh"])} · {e(w["date_label"])}</p><a class="text-link" href="{uid}/">展开照片与札记 →</a></div></article>'
-        body+='</div><p class="ha-return"><a href="#places">回到地域导览 ↑</a></p></section>'
+        body+='</div>'
+        if c.get('topic_link'):body+='<p class="ha-topic-return"><a href="'+e(c['topic_link']['href'])+'">'+e(c['topic_link']['label'])+' →</a></p>'
+        body+='<p class="ha-return"><a href="#places">回到地域导览 ↑</a></p></section>'
     if recent:
         body+='<section class="ha-recent ha-section" id="recent-notes" aria-labelledby="recent-title"><h2 id="recent-title">最近新增／重访札记</h2><ul>'
         for update in recent:
@@ -301,6 +322,7 @@ def build(base=BASE, integrate=True):
     for w in works:
         body+=f'<article class="ha-record" id="{w["work_id"]}" data-work="{w["work_id"]}"><a href="{w["work_id"]}/">{img(w["primary_photo"],w["image_alt_zh"],small=True)}<h3>{e(w["title_zh"])}</h3></a><p class="ha-note">{e(w["date_label"])}<br>{e(collection(w))}</p><button class="ha-map-work" data-focus="{w["work_id"]}" hidden>在地图中看</button></article>'
     body+='</div><p id="ha-empty" hidden>没有符合条件的记录。<button data-reset>清除筛选</button></p></details></section><section class="ha-section"><h2>沿着同一件作品继续读</h2><p><a href="../xuzhou/">虚舟收藏 →</a>　<a href="../densatil/">丹萨替寺造像 →</a>　<a href="../early-buddhist-art/">早期佛教艺术 →</a></p><details><summary>资料与摄影</summary><p>现场摄影：Merton。作品资料依据拍摄展签及各馆公开记录；具体来源随作品列出。地域图中的点与圆用于阅读导航，收藏机构与拍摄展馆分别记录。</p><p>作品年代及归属可能随研究更新，旧展签与现行馆录的差异保留在相应作品页。</p></details></section>'
+    for old,target in external.items():body+='<p class="ha-prose" id="'+old+'" hidden><a href="'+e(target)+'">这件作品已收入永宣宫廷造像 →</a></p>'
     write('', '喜马拉雅艺术',body)
     if integrate:
         home=ROOT/'museum-notes/index.html';h=home.read_text();entry='<!-- himalayan-home --><a class="issue-link" href="himalayan-art/"><img src="himalayan-art/images/h1677-900.webp" width="1280" height="1707" loading="lazy" alt="古格观音全貌，冠饰、双手与底座；Merton现场摄影" style="object-fit:contain"><div><p class="eyebrow">HIMALAYAN ART</p><h2>喜马拉雅艺术</h2><p>山口、河谷与神圣的形体。从供养铭文到曼荼罗，重新连接散见于不同博物馆的作品。</p><p class="issue-meta">'+str(len(chapters))+'章 · '+str(len(units))+'篇细读 · 地域与观看机构导览</p><span class="text-link">走进这一辑 →</span></div></a><!-- /himalayan-home -->'

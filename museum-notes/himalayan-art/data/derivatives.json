@@ -2965,5 +2965,51 @@
     ],
     "original": "images/originals/h1725.jpg",
     "sha256": "db50b91006f79ca03fb29a8b133f3b443f52f94d6d0d60dcf80de7f5b7ae8c6c"
+  },
+  "h1486": {
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/h1486-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/h1486-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "path": "images/h1486-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "original": "images/originals/h1486.jpg",
+    "sha256": "bef76019c20e8196e08cd561e6f25621489d038c13b275d9fc75e993dcc833b8"
+  },
+  "h1514": {
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/h1514-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/h1514-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "path": "images/h1514-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "original": "images/originals/h1514.jpg",
+    "sha256": "6f34cd4eff83444c86d710a65872703ff4f3038b5f56fac8411135629accdf78"
   }
 }
