@@ -169,3 +169,6 @@ build_homer()
 
 from build_early_buddhist import build as build_early_buddhist
 build_early_buddhist()
+
+from build_himalayan import build as build_himalayan
+build_himalayan()

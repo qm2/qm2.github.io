@@ -1,0 +1,666 @@
+[
+  {
+    "source_id": "S01",
+    "url": "https://www.metmuseum.org/art/collection/search/76445",
+    "title": "Enthroned Buddha Granting Boons",
+    "work_ids": [
+      "w1520"
+    ],
+    "claims": "约600年；王后Mangalahamsika供养；2011.19；鎏金黄铜嵌银与铜。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn55view0",
+    "primary": true
+  },
+  {
+    "source_id": "S02",
+    "url": "https://www.metmuseum.org/art/collection/search/38640",
+    "title": "Meditating Buddha Attended by Two Bodhisattvas",
+    "work_ids": [
+      "w1506"
+    ],
+    "claims": "7—8世纪，斯瓦特，大理石，1995.570.2。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn56search4",
+    "primary": true
+  },
+  {
+    "source_id": "S03",
+    "url": "https://www.metmuseum.org/art/collection/search/38123",
+    "title": "Buddha Preaching the First Sermon at Sarnath",
+    "work_ids": [
+      "w1508"
+    ],
+    "claims": "11世纪，比哈尔、可能那烂陀；黑石；Vijaka署名；鹿野苑为故事地点。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn63view0",
+    "primary": true
+  },
+  {
+    "source_id": "S04",
+    "url": "https://art.nelson-atkins.org/objects/18094/the-bodhisattva-maitreya",
+    "title": "The Bodhisattva Maitreya",
+    "work_ids": [
+      "w1526"
+    ],
+    "claims": "66-22；8世纪；黄铜嵌银；官网偏重克什米尔风格，旧展签列斯瓦特／吉尔吉特／克什米尔。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn63search0",
+    "primary": true
+  },
+  {
+    "source_id": "S05",
+    "url": "https://art.nelson-atkins.org/objects/11003/padmapani-avalokiteshvara",
+    "title": "Padmapani Avalokiteshvara",
+    "work_ids": [
+      "w1524"
+    ],
+    "claims": "54-73，9世纪，青铜残留鎏金。供养者名来自用户展签。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn60search2",
+    "primary": true
+  },
+  {
+    "source_id": "S06",
+    "url": "https://art.nelson-atkins.org/objects/12663/traveling-shrine-of-vairocana-and-eight-bodhisattvas",
+    "title": "Traveling Shrine of Vairocana and Eight Bodhisattvas",
+    "work_ids": [
+      "w1664"
+    ],
+    "claims": "44-18；8—9世纪；木质残彩、金；现行官网文化字段Chinese，旧签产地有争议。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn60search3",
+    "primary": true
+  },
+  {
+    "source_id": "S07",
+    "url": "https://www.guimet.fr/en/our-collections/himalayan-world/priest-crown",
+    "title": "Priest crown",
+    "work_ids": [
+      "w1484"
+    ],
+    "claims": "1145年；MA 4929；鎏金铜嵌宝石；五佛、仪式与供养／制作铭文。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn56search3",
+    "primary": true
+  },
+  {
+    "source_id": "S08",
+    "url": "https://collections.carlos.emory.edu/objects/9011/palden-lhamo",
+    "title": "Palden Lhamo",
+    "work_ids": [
+      "w1494"
+    ],
+    "claims": "Carlos馆，2001.019.001，15世纪，鎏金铜合金嵌半宝石。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn48search1",
+    "primary": true
+  },
+  {
+    "source_id": "S09",
+    "url": "https://emuseum.mfah.org/objects/99219/visit",
+    "title": "Shastradhara Hevajra",
+    "work_ids": [
+      "w1536"
+    ],
+    "claims": "2009.554，约1531年，尼泊尔，鎏金铜带彩；持兵器形喜金刚。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn54search1",
+    "primary": true
+  },
+  {
+    "source_id": "S10",
+    "url": "https://www.clevelandart.org/art/1966.30",
+    "title": "Standing Buddha",
+    "work_ids": [
+      "w1546"
+    ],
+    "claims": "约900年，克什米尔；黄铜嵌银与铜；藏文题铭涉及王族僧人Nagaraja。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn52view3",
+    "primary": true
+  },
+  {
+    "source_id": "S11",
+    "url": "https://www.clevelandart.org/art/1986.70",
+    "title": "Fasting Buddha",
+    "work_ids": [
+      "w1554"
+    ],
+    "claims": "8世纪克什米尔象牙，12×9.5厘米；苦行与接受供养的佛传叙事。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn52view0",
+    "primary": true
+  },
+  {
+    "source_id": "S12",
+    "url": "https://www.clevelandart.org/art/1971.18",
+    "title": "Temptation of Buddha by the Evil Forces of Mara",
+    "work_ids": [
+      "w1556"
+    ],
+    "claims": "8世纪克什米尔象牙，残金彩，13×8.9厘米。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn52view1",
+    "primary": true
+  },
+  {
+    "source_id": "S13",
+    "url": "https://www.clevelandart.org/art/1968.280",
+    "title": "Bodhisattva of Compassion (Avalokiteshvara)",
+    "work_ids": [
+      "w1558"
+    ],
+    "claims": "却英多杰，1647—48或1658，象牙；与西南中国流亡经历有关，实际制作地点保留可能。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn52view2",
+    "primary": true
+  },
+  {
+    "source_id": "S14",
+    "url": "https://www.clevelandart.org/art/1964.103",
+    "title": "Goddess Vajravarahi",
+    "work_ids": [
+      "w1563"
+    ],
+    "claims": "现行断代约1040—1310；未烧制泥与彩绘；铁骨架、绳；与旧签15世纪不同。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn57view0",
+    "primary": true
+  },
+  {
+    "source_id": "S15",
+    "url": "https://www.clevelandart.org/art/2000.67",
+    "title": "Votive initiation card (tsakali) with preaching Buddha Shakyamuni",
+    "work_ids": [
+      "w1548"
+    ],
+    "claims": "11世纪，托林寺；纸本，胶彩、墨、金；独立灌顶小画。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn57view1",
+    "primary": true
+  },
+  {
+    "source_id": "S16",
+    "url": "https://www.clevelandart.org/art/1960.206",
+    "title": "Vajradhara, Nairatmya, and mahasiddhas Virupa and Kanha",
+    "work_ids": [
+      "w1550"
+    ],
+    "claims": "约1450，俄尔寺；棉布胶彩与金；传承四尊。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn57view2",
+    "primary": true
+  },
+  {
+    "source_id": "S17",
+    "url": "https://www.clevelandart.org/art/1993.160",
+    "title": "Portrait of Phagmo Drupa Dorje Gyalpo",
+    "work_ids": [
+      "w1574a"
+    ],
+    "claims": "13世纪；中藏；丹萨替首任领袖肖像；鎏金铜合金、多种镶嵌。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn57view3",
+    "primary": true
+  },
+  {
+    "source_id": "S18",
+    "url": "https://www.clevelandart.org/art/2011.144.1",
+    "title": "Support with Addorsed Figures",
+    "work_ids": [
+      "w1574b"
+    ],
+    "claims": "现行记录15世纪，丹萨替，鎏金铜；本源仅直接核验一件，另一件号来自展签。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn58view2",
+    "primary": true
+  },
+  {
+    "source_id": "S19",
+    "url": "https://www.clevelandart.org/art/1970.10",
+    "title": "Akshobhya: the Buddha of the East",
+    "work_ids": [
+      "w1581"
+    ],
+    "claims": "9世纪晚期，俱利诃尔，青铜嵌银与铜；底座金刚杵。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn58view3",
+    "primary": true
+  },
+  {
+    "source_id": "S20",
+    "url": "https://www.clevelandart.org/art/1986.6",
+    "title": "Seated Buddha",
+    "work_ids": [
+      "w1542"
+    ],
+    "claims": "11世纪，西喜马拉雅、可能拉达克或拉胡尔；彩绘木雕。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn58view0",
+    "primary": true
+  },
+  {
+    "source_id": "S21",
+    "url": "https://www.clevelandart.org/art/1972.96",
+    "title": "Virupa",
+    "work_ids": [
+      "w1567"
+    ],
+    "claims": "15世纪早期，明永乐；鎏金铜合金、银、石、彩；供藏地僧人的宫廷礼物。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn58view1",
+    "primary": true
+  },
+  {
+    "source_id": "S22",
+    "url": "https://art.thewalters.org/object/25.270/",
+    "title": "Vajravarahi",
+    "work_ids": [
+      "w1617"
+    ],
+    "claims": "15世纪尼泊尔；未烧制泥、金属骨架、彩绘、玻璃与金属箔；25.270。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn59search0",
+    "primary": true
+  },
+  {
+    "source_id": "S23",
+    "url": "https://art.thewalters.org/object/54.3098/",
+    "title": "Bodhisattva Avalokiteshvara",
+    "work_ids": [
+      "w1587"
+    ],
+    "claims": "约1400西藏，可能尼瓦尔工匠；装藏背部开口、开眼礼；鎏金铜。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn59search1",
+    "primary": true
+  },
+  {
+    "source_id": "S24",
+    "url": "https://art.thewalters.org/object/54.3101/",
+    "title": "Hevajra and Nairatmya",
+    "work_ids": [
+      "w1621"
+    ],
+    "claims": "14世纪末—15世纪，西藏，鎏金铜合金；颅器持物及双身像。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn59search2",
+    "primary": true
+  },
+  {
+    "source_id": "S25",
+    "url": "https://www1.seattleartmuseum.org/tours/media/88",
+    "title": "Vashya-Vajravarahi / Densatil Monastery",
+    "work_ids": [
+      "w1631"
+    ],
+    "claims": "70.2，14末15初，丹萨替；鎏金铜合金嵌石；原建筑历史照片说明。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn59search3",
+    "primary": true
+  },
+  {
+    "source_id": "S26",
+    "url": "https://art.seattleartmuseum.org/objects/15362/partial-votive-structure-with-the-buddhist-cosmos",
+    "title": "Partial votive structure with the Buddhist Cosmos",
+    "work_ids": [
+      "w1651"
+    ],
+    "claims": "48.166，9世纪后半，象牙，孟加拉；四面宇宙模型，上部缺失。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn56search2",
+    "primary": true
+  },
+  {
+    "source_id": "S27",
+    "url": "https://rubinmuseum.org/collection/c2005-16-40/enlarge/altviews/948/",
+    "title": "Mandala of Vajrabhairava",
+    "work_ids": [
+      "w1623"
+    ],
+    "claims": "C2005.16.40；1515—35俄尔寺；布本彩绘；Rubin藏、Seattle借展。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn56search1",
+    "primary": true
+  },
+  {
+    "source_id": "S28",
+    "url": "https://rubinmuseum.org/collection/c2006-66-417/",
+    "title": "Ratnasambhava, Ratna Heruka, and Peaceful and Wrathful Deities of the Bardo",
+    "work_ids": [
+      "w1645"
+    ],
+    "claims": "C2006.66.417，18世纪，西藏，布本彩绘；Rubin藏。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn60search0",
+    "primary": true
+  },
+  {
+    "source_id": "S29",
+    "url": "https://www.seattleartmuseum.org/whats-on/exhibitions/boundless",
+    "title": "Boundless: Stories of Asian Art",
+    "work_ids": [
+      "w1623",
+      "w1645"
+    ],
+    "claims": "2026—27借展信息佐证收藏与展出地分开；不据此倒推用户到访日期。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn56search0",
+    "primary": true
+  },
+  {
+    "source_id": "S30",
+    "url": "https://asia-archive.si.edu/object/F2000.5/",
+    "title": "Bodhisattva White Avalokiteshvara (Amoghapasha Lokeshvara)",
+    "work_ids": [
+      "w1679"
+    ],
+    "claims": "F2000.5，14世纪尼泊尔，彩绘木雕；沐浴与再施彩礼拜。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn51search0",
+    "primary": true
+  },
+  {
+    "source_id": "S31",
+    "url": "https://asia.si.edu/explore-art-culture/collections/search/edanmdm%3Afsg_S2012.2/",
+    "title": "Vasudhara (Bearer of Gems)",
+    "work_ids": [
+      "w1683"
+    ],
+    "claims": "S2012.2，1082年冬，尼泊尔；夫妻Abonana和Maina供养；鎏金铜嵌石。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn48search2",
+    "primary": true
+  },
+  {
+    "source_id": "S32",
+    "url": "https://artsandculture.google.com/asset/avalokiteshvara-the-bodhisattva-of-compassion/bgH3hRJtRP5jYw?hl=en",
+    "title": "Avalokiteshvara, the Bodhisattva of Compassion — NMAA提供",
+    "work_ids": [
+      "w1677"
+    ],
+    "claims": "1000—1050，古格／阿里，F2001.2a–d；黄铜嵌铜与锡、残金彩与蜡。Google Arts页面的机构内容，未以猜测URL替代。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn51search1",
+    "primary": true
+  },
+  {
+    "source_id": "S33",
+    "url": "https://kimbellart.org/collection/ap-197901",
+    "title": "Standing Buddha Shakyamuni",
+    "work_ids": [
+      "w1700"
+    ],
+    "claims": "AP 1979.01；7世纪尼泊尔李查维；鎏金铜；与笈多样式相关。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn48search0",
+    "primary": true
+  },
+  {
+    "source_id": "S34",
+    "url": "https://kimbellart.org/collection/ap-200001",
+    "title": "Four Mandalas of the Vajravali Series",
+    "work_ids": [
+      "w1692"
+    ],
+    "claims": "AP 2000.01；1429—56俄尔寺；棉布彩绘；四曼荼罗与供养者。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn50search0",
+    "primary": true
+  },
+  {
+    "source_id": "S35",
+    "url": "https://kimbellart.org/collection/ap-197013",
+    "title": "Bodhisattva Khasarpana Lokeshvara",
+    "work_ids": [
+      "w1698"
+    ],
+    "claims": "AP 1970.13，11—12世纪，孟加拉帕拉，灰色片岩。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn54search0",
+    "primary": true
+  },
+  {
+    "source_id": "S36",
+    "url": "https://www.dpm.org.cn/lemmas/244766.html",
+    "title": "六品佛楼",
+    "work_ids": [
+      "w1474"
+    ],
+    "claims": "故宫关于六品制度的定义；本组作品1758—78年与九件组合来自照片展签。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn51search4",
+    "primary": true
+  },
+  {
+    "source_id": "S37",
+    "url": "https://www.si.edu/exhibitions/tibetan-buddhist-shrine-room%3Aevent-exhib-6593",
+    "title": "The Tibetan Buddhist Shrine Room",
+    "work_ids": [
+      "w1689"
+    ],
+    "claims": "Kandell佛堂的陈设说明；缺用户现场展签，照片匹配仅暂定NMAA，不据相邻照片即断言。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn62search3",
+    "primary": true
+  },
+  {
+    "source_id": "S38",
+    "url": "https://commons.wikimedia.org/wiki/Category%3AMetalwork_in_the_Portland_Art_Museum",
+    "title": "Portland Art Museum 金属器馆藏照片目录",
+    "work_ids": [
+      "w1660"
+    ],
+    "claims": "辅助识别同名噶当佛塔及馆属；官方单件馆录仍待补。",
+    "kind": "supporting_identification",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn48search4",
+    "primary": false
+  },
+  {
+    "source_id": "S39",
+    "url": "https://journal.thewalters.org/wp-content/uploads/JWAM_73.pdf",
+    "title": "Journal of the Walters Art Museum 73",
+    "work_ids": [
+      "w1601"
+    ],
+    "claims": "Buddha Vajrasattva，13世纪，54.3097；当前源提供馆藏号线索，仍需核本照片对应。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn59search8",
+    "primary": true
+  },
+  {
+    "source_id": "S40",
+    "url": "https://www.clevelandart.org/art/1989.367",
+    "title": "Crowned Buddha Seated on a Lion Throne",
+    "work_ids": [
+      "w1540"
+    ],
+    "claims": "复核题名、年代、材质、馆藏号。断代更新另见work.date_history。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn64view1",
+    "primary": true
+  },
+  {
+    "source_id": "S41",
+    "url": "https://www.clevelandart.org/art/1975.101",
+    "title": "Eleven-Headed Bodhisattva of Compassion",
+    "work_ids": [
+      "w1544"
+    ],
+    "claims": "复核题名、年代、材质、馆藏号。断代更新另见work.date_history。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn64view2",
+    "primary": true
+  },
+  {
+    "source_id": "S42",
+    "url": "https://www.clevelandart.org/art/1982.49",
+    "title": "Goddess Uma",
+    "work_ids": [
+      "w1561"
+    ],
+    "claims": "复核题名、年代、材质、馆藏号。断代更新另见work.date_history。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn64view4",
+    "primary": true
+  },
+  {
+    "source_id": "S43",
+    "url": "https://www.clevelandart.org/art/1956.8",
+    "title": "Bodhisattva of Wisdom Manjushri",
+    "work_ids": [
+      "w1565"
+    ],
+    "claims": "复核题名、年代、材质、馆藏号。断代更新另见work.date_history。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn64view5",
+    "primary": true
+  },
+  {
+    "source_id": "S44",
+    "url": "https://www.clevelandart.org/art/1969.120",
+    "title": "Hevajra and Consort",
+    "work_ids": [
+      "w1569"
+    ],
+    "claims": "复核题名、年代、材质、馆藏号。断代更新另见work.date_history。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn64view6",
+    "primary": true
+  },
+  {
+    "source_id": "S45",
+    "url": "https://www.clevelandart.org/art/1978.9.1",
+    "title": "Ritual Axe",
+    "work_ids": [
+      "w1571"
+    ],
+    "claims": "复核题名、年代、材质、馆藏号。断代更新另见work.date_history。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn64view7",
+    "primary": true
+  },
+  {
+    "source_id": "S46",
+    "url": "https://www.clevelandart.org/art/1983.154",
+    "title": "Incense Burner",
+    "work_ids": [
+      "w1572"
+    ],
+    "claims": "复核题名、年代、材质、馆藏号。断代更新另见work.date_history。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn64view8",
+    "primary": true
+  },
+  {
+    "source_id": "S47",
+    "url": "https://www.clevelandart.org/art/1968.214",
+    "title": "Portable Shrine",
+    "work_ids": [
+      "w1577"
+    ],
+    "claims": "复核题名、年代、材质、馆藏号。断代更新另见work.date_history。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn64view9",
+    "primary": true
+  },
+  {
+    "source_id": "S48",
+    "url": "https://www.clevelandart.org/art/1935.146",
+    "title": "Buddha Calling on Earth to Witness",
+    "work_ids": [
+      "w1579"
+    ],
+    "claims": "复核题名、年代、材质、馆藏号。断代更新另见work.date_history。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn64view10",
+    "primary": true
+  },
+  {
+    "source_id": "S49",
+    "url": "https://www.clevelandart.org/art/1964.370",
+    "title": "Bodhisattva of Wisdom Manjushri",
+    "work_ids": [
+      "w1552"
+    ],
+    "claims": "复核题名、年代、材质、馆藏号。断代更新另见work.date_history。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn65search1",
+    "primary": true
+  },
+  {
+    "source_id": "S50",
+    "url": "https://www.clevelandart.org/art/1965.557",
+    "title": "Surya, the Sun God",
+    "work_ids": [
+      "w1538"
+    ],
+    "claims": "复核题名、年代、材质、馆藏号。断代更新另见work.date_history。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn65search2",
+    "primary": true
+  },
+  {
+    "source_id": "S51",
+    "url": "https://art.thewalters.org/object/54.3097/",
+    "title": "Buddha Vajrasattva",
+    "work_ids": [
+      "w1601"
+    ],
+    "claims": "13世纪，54.3097，黄铜嵌铜；Tibetan (?) / Himalayan (?)归属。",
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "retrieval_ref": "turn65search4",
+    "primary": true
+  }
+]

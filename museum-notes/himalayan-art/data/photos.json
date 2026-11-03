@@ -1,0 +1,2976 @@
+[
+  {
+    "photo_id": "h1474",
+    "sequence": 1474,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1474_19.jpg",
+    "path": "images/originals/h1474.jpg",
+    "sha256": "14a3f31a442e97f4af6cbe556f308e791bdd13f86247363b0372dcad01542dc4",
+    "width": 1707,
+    "height": 1280,
+    "bytes": 284309,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1474"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1474-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1476",
+    "sequence": 1476,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1476_19.jpg",
+    "path": "images/originals/h1476.jpg",
+    "sha256": "6866bc8e303a76ea93f0aa362fecfe1c4158e039f3bf624adc977da1448885fd",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 392038,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1476"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1476-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1478",
+    "sequence": 1478,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1478_19.jpg",
+    "path": "images/originals/h1478.jpg",
+    "sha256": "f6ead58ab79d16f6ed8c1854d8f10354bdc00925a4cd5b1f7e0b71d566c678a8",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 428027,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1478"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1478-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1480",
+    "sequence": 1480,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1480_19.jpg",
+    "path": "images/originals/h1480.jpg",
+    "sha256": "942093a054f331d9119662e53c5695bd853e1da08e7c4c336a60ea24254a6aad",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 212244,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1480"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1480-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1482",
+    "sequence": 1482,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1482_19.jpg",
+    "path": "images/originals/h1482.jpg",
+    "sha256": "ba0f1a2a1eb694b9efbe9db8a566cbfb7533f2775fa95c20f74a0d81f7903495",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 308753,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1482a",
+      "w1482b"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1482-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1484",
+    "sequence": 1484,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1484_19.jpg",
+    "path": "images/originals/h1484.jpg",
+    "sha256": "61675b57c580f15c067fc87f48414040a7b6d36c201875f71b64bbb382c10ea5",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 317407,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1484"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1484-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1488",
+    "sequence": 1488,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1488_19.jpg",
+    "path": "images/originals/h1488.jpg",
+    "sha256": "2887c91a6fbe1bf13843195e06998118a4b241c06cc6b320c47630cd8a898b77",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 440372,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1488"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1488-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1490",
+    "sequence": 1490,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1490_19.jpg",
+    "path": "images/originals/h1490.jpg",
+    "sha256": "9dab3fa172d7ba85663168cc8af118fbddd948ee095f792d9a89753186f5afa7",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 301745,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1490"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1490-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1492",
+    "sequence": 1492,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1492_19.jpg",
+    "path": "images/originals/h1492.jpg",
+    "sha256": "6de9f9363b11e16ecbd328eeb6d42e4ce75de115793516d040a54842a80e4c9f",
+    "width": 1702,
+    "height": 1276,
+    "bytes": 340241,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1492a",
+      "w1492b"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1492-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1494",
+    "sequence": 1494,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1494_19.jpg",
+    "path": "images/originals/h1494.jpg",
+    "sha256": "17634d2a75a2a9a1b0883f3d648dbd7eaff9b060cc97777399efe0f66c4c3fed",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 401944,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1494"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1494-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1496",
+    "sequence": 1496,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1496_19.jpg",
+    "path": "images/originals/h1496.jpg",
+    "sha256": "d7c928678ad23656559ed04538c63d750f9d783eb70774f1b629d388a7392b16",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 211328,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1496"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1496-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1498",
+    "sequence": 1498,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1498_19.jpg",
+    "path": "images/originals/h1498.jpg",
+    "sha256": "d1c35fc3043b1622d539739d2645c24959fbac79016a56838ce74356b3b398c4",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 336978,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1498"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1498-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1500",
+    "sequence": 1500,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1500_19.jpg",
+    "path": "images/originals/h1500.jpg",
+    "sha256": "c9425c826d63c6b4c27b774ead285b9fc272333a422445d3722f3d50a549248b",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 254600,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1500"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1500-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1502",
+    "sequence": 1502,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1502_19.jpg",
+    "path": "images/originals/h1502.jpg",
+    "sha256": "59a51f8edefffb6d6f5f4a41e6f4af53c66c866382f316d2634a800775e0c51c",
+    "width": 1702,
+    "height": 1276,
+    "bytes": 381276,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1502"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1502-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1504",
+    "sequence": 1504,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1504_19.jpg",
+    "path": "images/originals/h1504.jpg",
+    "sha256": "6ceafbf18edc882e2ed51c117c9343a72b7c9830342fb868f879c76211d65713",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 199975,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1504"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1504-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1506",
+    "sequence": 1506,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1506_19.jpg",
+    "path": "images/originals/h1506.jpg",
+    "sha256": "327782d008f4f87932ad841b89bb1392483a8865f1fc3ea78cc2a8b3f2b691c1",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 311703,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1506"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1506-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1508",
+    "sequence": 1508,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1508_19.jpg",
+    "path": "images/originals/h1508.jpg",
+    "sha256": "706e7747291a48e58de5c437085d9443d07b1c246198f776daf8cd45491f70c4",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 319155,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1508"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1508-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1510",
+    "sequence": 1510,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1510_19.jpg",
+    "path": "images/originals/h1510.jpg",
+    "sha256": "5f9ef143a0450d569172ad62753a62f1dd9b3e5be783bbc6b0b11463d7efcac5",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 303967,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1510"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1510-400.webp",
+    "sha256_preserved": true,
+    "default_use": "alternative_or_context_view",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1512",
+    "sequence": 1512,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1512_19.jpg",
+    "path": "images/originals/h1512.jpg",
+    "sha256": "fb968f6f3c9a4ac3343ec093961859ee1a2ce142959f6ad977e11d0476bf0b31",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 456075,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1512"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1512-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1516",
+    "sequence": 1516,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1516_19.jpg",
+    "path": "images/originals/h1516.jpg",
+    "sha256": "53cfec002184ac5b5b303e3fb152cc98a56e78863a5833a0e7d4f8d72ded13e1",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 436815,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1516"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1516-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1518",
+    "sequence": 1518,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1518_19.jpg",
+    "path": "images/originals/h1518.jpg",
+    "sha256": "576146a874bc189ff8dcc22b95b78f89c0e497ced1cf77cb937a4ffd19611e30",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 273187,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1510"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1518-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1520",
+    "sequence": 1520,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1520_19.jpg",
+    "path": "images/originals/h1520.jpg",
+    "sha256": "7d9952dad46f3b47de30742698ea72535944a804770d0d32ebdebb3c4ceb8be8",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 214139,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1520"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1520-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1522",
+    "sequence": 1522,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1522_19.jpg",
+    "path": "images/originals/h1522.jpg",
+    "sha256": "bf98e0d9b2983d8bd60b75a34331bad30e829bba07a1c47d86568533367c7eaf",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 337188,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1522"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1522-400.webp",
+    "sha256_preserved": true,
+    "default_use": "alternative_or_context_view",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1524",
+    "sequence": 1524,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1524_19.jpg",
+    "path": "images/originals/h1524.jpg",
+    "sha256": "e391ffdf7ed448773d4d09c208344077b1653b573141b3d4660a86404d72127f",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 322354,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1524"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1524-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1526",
+    "sequence": 1526,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1526_19.jpg",
+    "path": "images/originals/h1526.jpg",
+    "sha256": "a79eb707d13404ae1ac1535249d790c2f1d5f93b14afdf20d13cb8b31edfb0cb",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 277446,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1526"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1526-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1528",
+    "sequence": 1528,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1528_19.jpg",
+    "path": "images/originals/h1528.jpg",
+    "sha256": "2fe48edc13928520a71f12f5bcf5532edcf1eb3b78ddaf783c47d2e4139b2a8c",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 254931,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1528"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1528-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1530",
+    "sequence": 1530,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1530_19.jpg",
+    "path": "images/originals/h1530.jpg",
+    "sha256": "6b919366c6cdf44bcc67c8f106a0205d39a7896065dd3be94c42b945281083dc",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 236716,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1530"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1530-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1532",
+    "sequence": 1532,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1532_19.jpg",
+    "path": "images/originals/h1532.jpg",
+    "sha256": "eafd8c693dd113d5f202ae73cac0a5193e887394f69bfcaef9961e0a2610e07f",
+    "width": 1702,
+    "height": 1276,
+    "bytes": 255550,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1532"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1532-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1534",
+    "sequence": 1534,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1534_19.jpg",
+    "path": "images/originals/h1534.jpg",
+    "sha256": "37c93eff17a794c84ce90a7e4b12f64f00ffd3011a7a76c2a4d8b3b82bd57071",
+    "width": 1702,
+    "height": 1276,
+    "bytes": 172243,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1534"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1534-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1536",
+    "sequence": 1536,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1536_19.jpg",
+    "path": "images/originals/h1536.jpg",
+    "sha256": "4d1d6e7697e07a48e37e926f0b851a3afcfdaa0754f30152d87131ceda59aca0",
+    "width": 1702,
+    "height": 1276,
+    "bytes": 290128,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1536"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1536-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1538",
+    "sequence": 1538,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1538_19.jpg",
+    "path": "images/originals/h1538.jpg",
+    "sha256": "27548bf30d26949a28478407038cd57bc6d375bb160c56dd06e311f54fd56449",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 205818,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1538"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1538-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1540",
+    "sequence": 1540,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1540_19.jpg",
+    "path": "images/originals/h1540.jpg",
+    "sha256": "48fe2e62d4b0c4f12f3c8778acf6e96e49c83938149942685c14c2d091b48542",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 368936,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1540"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1540-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1542",
+    "sequence": 1542,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1542_19.jpg",
+    "path": "images/originals/h1542.jpg",
+    "sha256": "53e8eee843f3522da4f153bb9722da0147a74036912bb942c172120b6fa70bf5",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 323615,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1542"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1542-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1544",
+    "sequence": 1544,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1544_19.jpg",
+    "path": "images/originals/h1544.jpg",
+    "sha256": "e63c301a14936e4627a4dda5a2da05540f11171da64a7879ab18dea3a848d54a",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 332954,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1544"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1544-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1546",
+    "sequence": 1546,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1546_19.jpg",
+    "path": "images/originals/h1546.jpg",
+    "sha256": "46bf5ab308af4015092f70384bfda6ee0e07575a4e1abd6684541f59de547bb1",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 210355,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1546"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1546-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1548",
+    "sequence": 1548,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1548_19.jpg",
+    "path": "images/originals/h1548.jpg",
+    "sha256": "38f7a79a63f9e7552e9c26c76cd92dcd7f2f423d322c9608e18e7467ed377c7c",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 350783,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1548"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1548-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1550",
+    "sequence": 1550,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1550_19.jpg",
+    "path": "images/originals/h1550.jpg",
+    "sha256": "0d5f0a0f1bb859cd6a62f8cc5fc8d68510ed5f0c114a2b53935130e1b5e7f0f0",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 489729,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1550"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1550-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1552",
+    "sequence": 1552,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1552_19.jpg",
+    "path": "images/originals/h1552.jpg",
+    "sha256": "5944a14602066dc79d89e4a6664dbd6e0c376b4ea305c4ffeb67b4b855c7625b",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 296711,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1552"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1552-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1554",
+    "sequence": 1554,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1554_19.jpg",
+    "path": "images/originals/h1554.jpg",
+    "sha256": "7953528b634d99680cef10e093cd4abb5a71f95c5e4fbcbc22df70cd7e51cbf1",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 410887,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1554"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1554-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1556",
+    "sequence": 1556,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1556_19.jpg",
+    "path": "images/originals/h1556.jpg",
+    "sha256": "cebe1ecb590694ea977b14d8cb58b36b5019be10239284455bca7a16189b7741",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 361908,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1556"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1556-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1558",
+    "sequence": 1558,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1558_19.jpg",
+    "path": "images/originals/h1558.jpg",
+    "sha256": "9a48831de8b230ea7ccd050cdb73388d99642d806d09161fa1184dbf6894b6e7",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 254683,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1558"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1558-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1561",
+    "sequence": 1561,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1561_19.jpg",
+    "path": "images/originals/h1561.jpg",
+    "sha256": "65c3ca744439db7d4de58a91311e88964a601f9038d9b21ed6b763b8389c2244",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 465160,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1561"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1561-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1563",
+    "sequence": 1563,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1563_19.jpg",
+    "path": "images/originals/h1563.jpg",
+    "sha256": "1a9666f8dfd82575c1fe190819ac4584435f0b4fdbbdcedb8a0eec4a9e8e004d",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 407591,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1563"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1563-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1565",
+    "sequence": 1565,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1565_19.jpg",
+    "path": "images/originals/h1565.jpg",
+    "sha256": "dfa2647fb7ad01130462fb806cb63aeff63d7319191588e4aa0db35a9716256a",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 296886,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1565"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1565-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1567",
+    "sequence": 1567,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1567_19.jpg",
+    "path": "images/originals/h1567.jpg",
+    "sha256": "a7416c76554f69ab779fe046b85ee075b3d5c34ddca1423d8141101bc2f3c650",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 360585,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1567"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1567-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1569",
+    "sequence": 1569,
+    "original_filename": "喜马拉雅艺术/Image_20261102230200_1569_19.jpg",
+    "path": "images/originals/h1569.jpg",
+    "sha256": "1c064b18da6bd4bddf68dbee6397a33a5650d9dc273c3d0fc9415cba25c72741",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 361781,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1569"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1569-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1571",
+    "sequence": 1571,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1571_19.jpg",
+    "path": "images/originals/h1571.jpg",
+    "sha256": "8a7fa06bba1ed9a3b3e1250f74f423fcadda1f0c2e5e088eb7652f7c6fff38c0",
+    "width": 1702,
+    "height": 1276,
+    "bytes": 502986,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1571"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1571-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1572",
+    "sequence": 1572,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1572_19.jpg",
+    "path": "images/originals/h1572.jpg",
+    "sha256": "def1fd6d93c74100431e53d7aa7c8f5460927280ec8c16e8b3f4a704ae2377b5",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 329333,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1572"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1572-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1574",
+    "sequence": 1574,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1574_19.jpg",
+    "path": "images/originals/h1574.jpg",
+    "sha256": "83f1b0a5e22fe16047d468cb5cef0cd3abe24a7b6449530a76c676f25d6ad4fe",
+    "width": 1702,
+    "height": 1276,
+    "bytes": 301342,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1574a",
+      "w1574b"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1574-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1577",
+    "sequence": 1577,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1577_19.jpg",
+    "path": "images/originals/h1577.jpg",
+    "sha256": "ad0e59042d4ab250021dbbb7efe6971a66ac0f0deff301d141e36ea687b8d7fa",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 340999,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1577"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1577-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1579",
+    "sequence": 1579,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1579_19.jpg",
+    "path": "images/originals/h1579.jpg",
+    "sha256": "61f5fa4a9ac3260405ba800ba98773cd547d27a2920178e40b79c0a3c9baf5c7",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 428634,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1579"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1579-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1581",
+    "sequence": 1581,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1581_19.jpg",
+    "path": "images/originals/h1581.jpg",
+    "sha256": "23f5f876de0a6cc8b68557888d1bb6590ee75bd6c41802304d8a6d37072acd13",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 334000,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1581"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1581-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1583",
+    "sequence": 1583,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1583_19.jpg",
+    "path": "images/originals/h1583.jpg",
+    "sha256": "d165e266e036d6a294711849db2d64be39950e7bf028f88a7b7b697c1c8fe90e",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 629314,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1583"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1583-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1585",
+    "sequence": 1585,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1585_19.jpg",
+    "path": "images/originals/h1585.jpg",
+    "sha256": "1c1b04eb330a8de6ea65e7f91405bdee9e7346ab95db40ae9521e73e606c7f01",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 290533,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1585"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1585-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1587",
+    "sequence": 1587,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1587_19.jpg",
+    "path": "images/originals/h1587.jpg",
+    "sha256": "d2c220b2ff50d149c3c224859bfc1d049c5ff0ecb340475923092cb68c4345d7",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 215771,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1587"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1587-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1589",
+    "sequence": 1589,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1589_19.jpg",
+    "path": "images/originals/h1589.jpg",
+    "sha256": "f15aa4f9cf5c92c3af54cd22408a8d1fbdc5dd3a3df3e8ed2fabb9f78b9ce173",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 246612,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1589"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1589-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1591",
+    "sequence": 1591,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1591_19.jpg",
+    "path": "images/originals/h1591.jpg",
+    "sha256": "d14c097f560efcc24c9517cd3edac6b303f418fe6f1a450ef73294e5a8165421",
+    "width": 1702,
+    "height": 1276,
+    "bytes": 462714,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1591"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1591-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1593",
+    "sequence": 1593,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1593_19.jpg",
+    "path": "images/originals/h1593.jpg",
+    "sha256": "902764bb4d50164e239e9d7e5be218419da243e2a56d48312b80457861b9159b",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 259432,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1593",
+      "w1594",
+      "w1595"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1593-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1594",
+    "sequence": 1594,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1594_19.jpg",
+    "path": "images/originals/h1594.jpg",
+    "sha256": "dd097873257404c44d83c169921463d72b18ce9cedfc49395e7eea6071fce66e",
+    "width": 1702,
+    "height": 1276,
+    "bytes": 245780,
+    "roles": [
+      "artwork",
+      "label"
+    ],
+    "work_ids": [
+      "w1593",
+      "w1594"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1594-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1595",
+    "sequence": 1595,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1595_19.jpg",
+    "path": "images/originals/h1595.jpg",
+    "sha256": "7c346094dc81ca9615950677cb80eb5a3096ae2303ead0ae7c526a7ddcc39a0c",
+    "width": 1702,
+    "height": 1276,
+    "bytes": 458672,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1595"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1595-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1597",
+    "sequence": 1597,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1597_19.jpg",
+    "path": "images/originals/h1597.jpg",
+    "sha256": "029152b68d15ca53659db67b0385dab053d9c202cef76e798340edc1c968c56c",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 196776,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1597"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1597-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1599",
+    "sequence": 1599,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1599_19.jpg",
+    "path": "images/originals/h1599.jpg",
+    "sha256": "8e1104849d358214962b931a3adc9a9ea0a6f4afad9f7fe19c451db58f91072b",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 229497,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1599"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1599-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1601",
+    "sequence": 1601,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1601_19.jpg",
+    "path": "images/originals/h1601.jpg",
+    "sha256": "3e7997c2a659c09e2603109de55689319f93693c3cf87a906f15278ea8e40133",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 285028,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1601"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1601-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1603",
+    "sequence": 1603,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1603_19.jpg",
+    "path": "images/originals/h1603.jpg",
+    "sha256": "2aeadc5bd81d9419fb59f5a0b376564edfea2e8de8828d4377031ec75b2eb923",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 247247,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1603"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1603-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1605",
+    "sequence": 1605,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1605_19.jpg",
+    "path": "images/originals/h1605.jpg",
+    "sha256": "9b3ef7224b2bc377b6d4f0abbf0bebde4c0c9d7cd1c24be74881f91621b955c7",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 265403,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1605"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1605-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1607",
+    "sequence": 1607,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1607_19.jpg",
+    "path": "images/originals/h1607.jpg",
+    "sha256": "f4254224d4338d93a632167b73734cccb528534326180a4f3cd8f4fb6fba51c7",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 308877,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1607"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1607-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1609",
+    "sequence": 1609,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1609_19.jpg",
+    "path": "images/originals/h1609.jpg",
+    "sha256": "0e81dd9c6b3ce28d35421816a19823edf23ecdb355d2e6a91393deaf70128d34",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 299274,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1609"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1609-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1611",
+    "sequence": 1611,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1611_19.jpg",
+    "path": "images/originals/h1611.jpg",
+    "sha256": "d5f7beb3c3236da3738cf8f19bb14e8d42e124f7a7aceefae950a6cb83704300",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 239866,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1611"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1611-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1613",
+    "sequence": 1613,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1613_19.jpg",
+    "path": "images/originals/h1613.jpg",
+    "sha256": "5de8ad0000ce86160d91cee88b85fbcf868f2885255720b95b64ecdf7fdd15de",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 265477,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1613"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1613-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1615",
+    "sequence": 1615,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1615_19.jpg",
+    "path": "images/originals/h1615.jpg",
+    "sha256": "ec5fcea3bb48fb762ad4ce92ecafae48fad1e5aab093ddb16c07116d1edc4471",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 462423,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1615"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1615-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1617",
+    "sequence": 1617,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1617_19.jpg",
+    "path": "images/originals/h1617.jpg",
+    "sha256": "140cc14335ba1fac1708b7883acd30a7e38bed73a89976661ef2d208a79b73e7",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 223263,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1617"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1617-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1619",
+    "sequence": 1619,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1619_19.jpg",
+    "path": "images/originals/h1619.jpg",
+    "sha256": "965ffca949971779116a766ddcd681c9436fbe80f30413097d3d7880c764d622",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 290166,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1619"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1619-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1621",
+    "sequence": 1621,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1621_19.jpg",
+    "path": "images/originals/h1621.jpg",
+    "sha256": "08268a89c4f41d3b1bbd2f2abb5ba309b06ffe1a34bd245a4b704fee70923586",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 234283,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1621"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1621-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1623",
+    "sequence": 1623,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1623_19.jpg",
+    "path": "images/originals/h1623.jpg",
+    "sha256": "11022103429e3d82c478892665fadc407784286885773f6f026ba3e32afd8edc",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 340724,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1623"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1623-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1629",
+    "sequence": 1629,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1629_19.jpg",
+    "path": "images/originals/h1629.jpg",
+    "sha256": "3398b9505609ac3172cccb615af1eab2c886eed1bbd7dd8ac985995bc99b880e",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 163470,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1629"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1629-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1631",
+    "sequence": 1631,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1631_19.jpg",
+    "path": "images/originals/h1631.jpg",
+    "sha256": "8961d7fd5a1f59735fd99168b563cbccd04833f005efe329e77b702021d503a8",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 252377,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1631"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1631-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1633",
+    "sequence": 1633,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1633_19.jpg",
+    "path": "images/originals/h1633.jpg",
+    "sha256": "16f47f9745f4de4903e3f129b0484d0bc743726dc48c8f0cf9790c0362a67b26",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 208187,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1633"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1633-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1635",
+    "sequence": 1635,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1635_19.jpg",
+    "path": "images/originals/h1635.jpg",
+    "sha256": "f13e309674a81b4695b130397b2e082f3ad8c09c0dd2f94c390be312b93ecc00",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 165779,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1635"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1635-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1637",
+    "sequence": 1637,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1637_19.jpg",
+    "path": "images/originals/h1637.jpg",
+    "sha256": "9236c3dd424da1bcae78f005f2441bab4f2f1dcb11d3619ff89775bf3cf105f5",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 188000,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1637"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1637-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1639",
+    "sequence": 1639,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1639_19.jpg",
+    "path": "images/originals/h1639.jpg",
+    "sha256": "3e7f61374483eb294b25d68c2fcb6a25a1bcba03b64ee8d460403d5408180106",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 155703,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1639"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1639-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1641",
+    "sequence": 1641,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1641_19.jpg",
+    "path": "images/originals/h1641.jpg",
+    "sha256": "7dac3f02f97918314396bc6f4ae5f483c01cc7674edc73f974fb2f9519ff855c",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 269166,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1641"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1641-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1643",
+    "sequence": 1643,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1643_19.jpg",
+    "path": "images/originals/h1643.jpg",
+    "sha256": "d4f5bdc389ffe98578091a5cbc19621dec19837c3ddb953764d32b1da9e3050d",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 254978,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1643"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1643-400.webp",
+    "sha256_preserved": true,
+    "default_use": "alternative_or_context_view",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1645",
+    "sequence": 1645,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1645_19.jpg",
+    "path": "images/originals/h1645.jpg",
+    "sha256": "d7c12451054014bfd384b520f644b178620b06e1a4d8b4b49b837d52594fd07e",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 272333,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1645"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1645-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1647",
+    "sequence": 1647,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1647_19.jpg",
+    "path": "images/originals/h1647.jpg",
+    "sha256": "9d30bf5e19510703411aa371680318623b3ecc1b9065bd9f7ba72b606dfb1b60",
+    "width": 1707,
+    "height": 1280,
+    "bytes": 231018,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1647"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1647-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1649",
+    "sequence": 1649,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1649_19.jpg",
+    "path": "images/originals/h1649.jpg",
+    "sha256": "75290eb35b4db1fdcacd785d292b1a940e595ba9aa692e3611dbe4025df6b916",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 379023,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1649"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1649-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1651",
+    "sequence": 1651,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1651_19.jpg",
+    "path": "images/originals/h1651.jpg",
+    "sha256": "80f4f0b4492ab77c7cc119470ec834ea38ffc9a13b0426328d248b916dd21bf7",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 197797,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1651"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1651-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1653",
+    "sequence": 1653,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1653_19.jpg",
+    "path": "images/originals/h1653.jpg",
+    "sha256": "02c4654cdf4f4736a525accd212b7168510ccbbcf4441b4211184c0509287f1c",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 149298,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1653"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1653-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1655",
+    "sequence": 1655,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1655_19.jpg",
+    "path": "images/originals/h1655.jpg",
+    "sha256": "a5cb9e7e871208cf454111a1b944556c510cde4f015ff8a4cc477ea7f903480e",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 185026,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1633"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1655-400.webp",
+    "sha256_preserved": true,
+    "default_use": "alternative_or_context_view",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1657",
+    "sequence": 1657,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1657_19.jpg",
+    "path": "images/originals/h1657.jpg",
+    "sha256": "a5dd9bb698aa263014a08885079f8fb2b03b6fbd76f0e1e263a26dc1e8c0a12a",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 230555,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1643"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1657-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1658",
+    "sequence": 1658,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1658_19.jpg",
+    "path": "images/originals/h1658.jpg",
+    "sha256": "0c90555fda7910dd34fce5fe02195b7b7483f0c37e647444bc3eea5c9ad0e8a7",
+    "width": 960,
+    "height": 1280,
+    "bytes": 148900,
+    "roles": [
+      "detail"
+    ],
+    "work_ids": [
+      "w1643"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1658-400.webp",
+    "sha256_preserved": true,
+    "default_use": "detail",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "观音足边的宣德赐款 · 现场细部"
+  },
+  {
+    "photo_id": "h1660",
+    "sequence": 1660,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1660_19.jpg",
+    "path": "images/originals/h1660.jpg",
+    "sha256": "b2c88b0b57e3d4be69a88abc8c2fe6d08ae302aca72dee43727ff8e5b0416439",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 192634,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1660"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1660-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1662",
+    "sequence": 1662,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1662_19.jpg",
+    "path": "images/originals/h1662.jpg",
+    "sha256": "2bf7445cd9abb375593ab7e8febd3146fae85eb4c9c6b25447f5e3bd6c157519",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 488677,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1662"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1662-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1664",
+    "sequence": 1664,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1664_19.jpg",
+    "path": "images/originals/h1664.jpg",
+    "sha256": "e6ebdf19b977965161a164ca4406a0b141e8a7784a682b01e0d75aab5d996ff5",
+    "width": 1707,
+    "height": 1280,
+    "bytes": 361113,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1664"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1664-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1666",
+    "sequence": 1666,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1666_19.jpg",
+    "path": "images/originals/h1666.jpg",
+    "sha256": "e68c14009c6bd92e9357f049b587fb861ef422e6bf22fc41549b49aeb9b24e65",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 283325,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1524"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1666-400.webp",
+    "sha256_preserved": true,
+    "default_use": "alternative_or_context_view",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1668",
+    "sequence": 1668,
+    "original_filename": "喜马拉雅艺术/Image_20261102231949_1668_19.jpg",
+    "path": "images/originals/h1668.jpg",
+    "sha256": "ead8afb5ff07f02350958ae3536d3787b28f77d3481af992a026e50e65c79e09",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 305962,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1522"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1668-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1670",
+    "sequence": 1670,
+    "original_filename": "喜马拉雅艺术/Image_20261102233108_1670_19.jpg",
+    "path": "images/originals/h1670.jpg",
+    "sha256": "6fdd597fa951b701f2a4f61549eb5cbbca0eac91a66cfd48662ad950daa4110d",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 219532,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1526"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1670-400.webp",
+    "sha256_preserved": true,
+    "default_use": "alternative_or_context_view",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1672",
+    "sequence": 1672,
+    "original_filename": "喜马拉雅艺术/Image_20261102233108_1672_19.jpg",
+    "path": "images/originals/h1672.jpg",
+    "sha256": "eb136e5f50c3cf90051b117876c2a818e1773b4577ff732a5ad21291ed07e4aa",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 198565,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1530"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1672-400.webp",
+    "sha256_preserved": true,
+    "default_use": "alternative_or_context_view",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1674",
+    "sequence": 1674,
+    "original_filename": "喜马拉雅艺术/Image_20261102233108_1674_19.jpg",
+    "path": "images/originals/h1674.jpg",
+    "sha256": "d31a89df41007797b0b9c7159a092d2d561a4fdd4c5e74d08aa5b1df3d197edb",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 250180,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1674"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1674-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1676",
+    "sequence": 1676,
+    "original_filename": "喜马拉雅艺术/Image_20261102233108_1676_19.jpg",
+    "path": "images/originals/h1676.jpg",
+    "sha256": "309ed907156973b9b8efab31c30537a42b69b17ac9f433cc7e5e2a1e93d4bed1",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 209820,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1528"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1676-400.webp",
+    "sha256_preserved": true,
+    "default_use": "alternative_or_context_view",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1677",
+    "sequence": 1677,
+    "original_filename": "喜马拉雅艺术/Image_20261102233108_1677_19.jpg",
+    "path": "images/originals/h1677.jpg",
+    "sha256": "c546397a0d5fd56377bad1de24ead64a165a362515e3f28805a20f80e4e30be7",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 201376,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1677"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1677-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1679",
+    "sequence": 1679,
+    "original_filename": "喜马拉雅艺术/Image_20261102233108_1679_19.jpg",
+    "path": "images/originals/h1679.jpg",
+    "sha256": "29daaf14a9718fcc232af4a34e79fae315bb3fb8533e50aa3fd8766cefd7fde5",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 223977,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1679"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1679-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1681",
+    "sequence": 1681,
+    "original_filename": "喜马拉雅艺术/Image_20261102233108_1681_19.jpg",
+    "path": "images/originals/h1681.jpg",
+    "sha256": "86e429062f3ded86bda0061cff037a2df5d5b4036305480b6e3d911911c1c3ae",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 244912,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1681"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1681-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1683",
+    "sequence": 1683,
+    "original_filename": "喜马拉雅艺术/Image_20261102233108_1683_19.jpg",
+    "path": "images/originals/h1683.jpg",
+    "sha256": "e544b61b2f52fa068b35a83d62cc543c79d9a407e7aa12a12afc679df1a338a3",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 308610,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1683"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1683-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1685",
+    "sequence": 1685,
+    "original_filename": "喜马拉雅艺术/Image_20261102233108_1685_19.jpg",
+    "path": "images/originals/h1685.jpg",
+    "sha256": "5e9b179af7b780e8b176d812f54e4471e13c8a3d8a555a71f1a58f903bda31a8",
+    "width": 1707,
+    "height": 1280,
+    "bytes": 420656,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1685"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1685-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1687",
+    "sequence": 1687,
+    "original_filename": "喜马拉雅艺术/Image_20261102233108_1687_19.jpg",
+    "path": "images/originals/h1687.jpg",
+    "sha256": "95e7f5916c386bcd02c05bf9f04fe0a214fd7b97f1d6526e88e96e2bd6bb6729",
+    "width": 1707,
+    "height": 1280,
+    "bytes": 267330,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1687"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1687-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1689",
+    "sequence": 1689,
+    "original_filename": "喜马拉雅艺术/Image_20261102233108_1689_19.jpg",
+    "path": "images/originals/h1689.jpg",
+    "sha256": "307cedf40b8810fbbbc0b68ade5332d757d70ee54a2c2d9f721a0a2871c391b6",
+    "width": 1707,
+    "height": 1280,
+    "bytes": 506576,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1689"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1689-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "佛堂陈设 · 正面"
+  },
+  {
+    "photo_id": "h1690",
+    "sequence": 1690,
+    "original_filename": "喜马拉雅艺术/Image_20261102233108_1690_19.jpg",
+    "path": "images/originals/h1690.jpg",
+    "sha256": "9a5fe9fdadaf789f558a1eb1df04903e8b6e0db7c88a7316f7926537a43d6774",
+    "width": 1707,
+    "height": 1280,
+    "bytes": 393720,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1689"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1690-400.webp",
+    "sha256_preserved": true,
+    "default_use": "alternative_or_context_view",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "佛堂陈设 · 左侧区域"
+  },
+  {
+    "photo_id": "h1691",
+    "sequence": 1691,
+    "original_filename": "喜马拉雅艺术/Image_20261102233108_1691_19.jpg",
+    "path": "images/originals/h1691.jpg",
+    "sha256": "71400be80d215f4e4937cbfb9e0abcc5fcd0ec1a7b8b3f26e3388dd966ac0ed7",
+    "width": 1707,
+    "height": 1280,
+    "bytes": 368256,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1689"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1691-400.webp",
+    "sha256_preserved": true,
+    "default_use": "alternative_or_context_view",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "佛堂陈设 · 右侧区域"
+  },
+  {
+    "photo_id": "h1692",
+    "sequence": 1692,
+    "original_filename": "喜马拉雅艺术/Image_20261102233108_1692_19.jpg",
+    "path": "images/originals/h1692.jpg",
+    "sha256": "000b1a7e337c8ca42d0eac5a719a2f24fc626ab4db844abbc0a45b19cf56cd3a",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 658091,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1692"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1692-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "金刚鬘四曼荼罗 · 全图"
+  },
+  {
+    "photo_id": "h1693",
+    "sequence": 1693,
+    "original_filename": "喜马拉雅艺术/Image_20261102233108_1693_19.jpg",
+    "path": "images/originals/h1693.jpg",
+    "sha256": "74612708f8c4909e0615540ebd2f096fd9222cd07f52f89a6327071b7e85b4c1",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 622136,
+    "roles": [
+      "detail"
+    ],
+    "work_ids": [
+      "w1692"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1693-400.webp",
+    "sha256_preserved": true,
+    "default_use": "detail",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "右上曼荼罗局部 · 宫门与中心尊像"
+  },
+  {
+    "photo_id": "h1694",
+    "sequence": 1694,
+    "original_filename": "喜马拉雅艺术/Image_20261102233108_1694_19.jpg",
+    "path": "images/originals/h1694.jpg",
+    "sha256": "6b28567bfa1580613e95f76aceab7902ee610f0fbee15a60934be3b731155b47",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 614681,
+    "roles": [
+      "detail"
+    ],
+    "work_ids": [
+      "w1692"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1694-400.webp",
+    "sha256_preserved": true,
+    "default_use": "detail",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "左上曼荼罗局部 · 中心与眷属"
+  },
+  {
+    "photo_id": "h1695",
+    "sequence": 1695,
+    "original_filename": "喜马拉雅艺术/Image_20261102233108_1695_19.jpg",
+    "path": "images/originals/h1695.jpg",
+    "sha256": "3aba2d0b19177440010d542b33fd5956006f9387246fa60b405c9e1e0f3215bf",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 593214,
+    "roles": [
+      "detail"
+    ],
+    "work_ids": [
+      "w1692"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1695-400.webp",
+    "sha256_preserved": true,
+    "default_use": "detail",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "右下曼荼罗局部 · 莲瓣中的尊像"
+  },
+  {
+    "photo_id": "h1696",
+    "sequence": 1696,
+    "original_filename": "喜马拉雅艺术/Image_20261102233108_1696_19.jpg",
+    "path": "images/originals/h1696.jpg",
+    "sha256": "bfe17058d2fb0bbef7289d88f62d80a4d07a3f46f5f4c575b36c17e3d7225c46",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 595821,
+    "roles": [
+      "detail"
+    ],
+    "work_ids": [
+      "w1692"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1696-400.webp",
+    "sha256_preserved": true,
+    "default_use": "detail",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "左下曼荼罗局部 · 中心、外圈与下方传承人物"
+  },
+  {
+    "photo_id": "h1698",
+    "sequence": 1698,
+    "original_filename": "喜马拉雅艺术/Image_20261102233108_1698_19.jpg",
+    "path": "images/originals/h1698.jpg",
+    "sha256": "4bfb717abe16921f906e95c7c5cba181c1d0417353ba557a74092e7a7ddff66a",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 390277,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1698"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1698-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1700",
+    "sequence": 1700,
+    "original_filename": "喜马拉雅艺术/Image_20261102233108_1700_19.jpg",
+    "path": "images/originals/h1700.jpg",
+    "sha256": "d9457038e7ff536a2b9a55a0dccfb91c6a6e46d2e8aa98a0601c15de44c7aad7",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 201541,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1700"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1700-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1701",
+    "sequence": 1701,
+    "original_filename": "喜马拉雅艺术/Image_20261102233108_1701_19.jpg",
+    "path": "images/originals/h1701.jpg",
+    "sha256": "f9a3c20f813db6db341a194a2102f28de4d8027bcea0260bff4a378677651a1f",
+    "width": 1702,
+    "height": 1276,
+    "bytes": 274109,
+    "roles": [
+      "detail"
+    ],
+    "work_ids": [
+      "w1700"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1701-400.webp",
+    "sha256_preserved": true,
+    "default_use": "detail",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "佛立像底座铭文 · 现场细部"
+  },
+  {
+    "photo_id": "h1702",
+    "sequence": 1702,
+    "original_filename": "喜马拉雅艺术/Image_20261102233108_1702_19.jpg",
+    "path": "images/originals/h1702.jpg",
+    "sha256": "ec692a72aecb87fd257b711880f85263105418492107f2b592e06f7f928c7afa",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 220787,
+    "roles": [
+      "detail"
+    ],
+    "work_ids": [
+      "w1700"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1702-400.webp",
+    "sha256_preserved": true,
+    "default_use": "detail",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "佛立像面容、手掌与衣纹细部"
+  },
+  {
+    "photo_id": "h1703",
+    "sequence": 1703,
+    "original_filename": "喜马拉雅艺术/Image_20261102233108_1703_19.jpg",
+    "path": "images/originals/h1703.jpg",
+    "sha256": "33a67d5914260df1c1c0a89e817aacf2d328f3b120ad153b7a387fc109e23578",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 188520,
+    "roles": [
+      "detail"
+    ],
+    "work_ids": [
+      "w1700"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1703-400.webp",
+    "sha256_preserved": true,
+    "default_use": "detail",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "佛立像背面 · 衣服轮廓与表面留存"
+  },
+  {
+    "photo_id": "h1705",
+    "sequence": 1705,
+    "original_filename": "喜马拉雅艺术/Image_20261102233108_1705_19.jpg",
+    "path": "images/originals/h1705.jpg",
+    "sha256": "8667546f448c5c8632909475d02355bfe2ac022d37cdde742f6548d64aea77af",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 220937,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1705"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1705-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1706",
+    "sequence": 1706,
+    "original_filename": "喜马拉雅艺术/Image_20261102233108_1706_19.jpg",
+    "path": "images/originals/h1706.jpg",
+    "sha256": "7372134618a3607bf4c717a003f68ad4d5ea1459d25b5fa21a5c528e0fff43ce",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 307896,
+    "roles": [
+      "detail"
+    ],
+    "work_ids": [
+      "w1705"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1706-400.webp",
+    "sha256_preserved": true,
+    "default_use": "detail",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "冠饰、面容与胸前璎珞细部"
+  },
+  {
+    "photo_id": "h1707",
+    "sequence": 1707,
+    "original_filename": "喜马拉雅艺术/Image_20261102233108_1707_19.jpg",
+    "path": "images/originals/h1707.jpg",
+    "sha256": "3d3dc2f5046a3755b33717509b01dc7a91cad683209842258aa9074d1f3c876f",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 241460,
+    "roles": [
+      "detail"
+    ],
+    "work_ids": [
+      "w1705"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1707-400.webp",
+    "sha256_preserved": true,
+    "default_use": "detail",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "侧面 · 手臂与像身体量"
+  },
+  {
+    "photo_id": "h1709",
+    "sequence": 1709,
+    "original_filename": "喜马拉雅艺术/Image_20261102233108_1709_19.jpg",
+    "path": "images/originals/h1709.jpg",
+    "sha256": "efa84bb0eb4af6c58c8fc96efa3c660fdc0fedbb7fd1d3f536cc62292620e410",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 292487,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1709"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1709-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1711",
+    "sequence": 1711,
+    "original_filename": "喜马拉雅艺术/Image_20261102233108_1711_19.jpg",
+    "path": "images/originals/h1711.jpg",
+    "sha256": "302c1e9c5bc86b8dcac2f496c014d1eaabd7b527773f81a2f0085661a31fbf9a",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 223149,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1711"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1711-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1713",
+    "sequence": 1713,
+    "original_filename": "喜马拉雅艺术/Image_20261102233108_1713_19.jpg",
+    "path": "images/originals/h1713.jpg",
+    "sha256": "783984aa570a4931eab5c8f071f0eb51879064446b22d91f689e906213c33c56",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 203016,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1713"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1713-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1715",
+    "sequence": 1715,
+    "original_filename": "喜马拉雅艺术/Image_20261102233108_1715_19.jpg",
+    "path": "images/originals/h1715.jpg",
+    "sha256": "b0fdb0049ef3d5dbcf8eb5016ba12438f07b4f44d74c74e09445b28aa9646135",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 279656,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1715"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1715-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1719",
+    "sequence": 1719,
+    "original_filename": "喜马拉雅艺术/Image_20261102233108_1719_19.jpg",
+    "path": "images/originals/h1719.jpg",
+    "sha256": "34d733f02720567d35c10fc4234e605bf34cbf3e56ff9c1d121012a8d9c55cbd",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 327447,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1719"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1719-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1721",
+    "sequence": 1721,
+    "original_filename": "喜马拉雅艺术/Image_20261102233108_1721_19.jpg",
+    "path": "images/originals/h1721.jpg",
+    "sha256": "1bff73be394c0b2da35e0e9fd39d51692845e4b1057dd91e2d90b1624ad964bd",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 315181,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1721"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1721-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1723",
+    "sequence": 1723,
+    "original_filename": "喜马拉雅艺术/Image_20261102233108_1723_19.jpg",
+    "path": "images/originals/h1723.jpg",
+    "sha256": "06784c47d306a23ca30c455ad55963484db7430bf0ffd5af4b93944478fdab5c",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 335145,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1723"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1723-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  },
+  {
+    "photo_id": "h1725",
+    "sequence": 1725,
+    "original_filename": "喜马拉雅艺术/Image_20261102233108_1725_19.jpg",
+    "path": "images/originals/h1725.jpg",
+    "sha256": "db50b91006f79ca03fb29a8b133f3b443f52f94d6d0d60dcf80de7f5b7ae8c6c",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 233995,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "w1725"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "images/h1725-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": ""
+  }
+]

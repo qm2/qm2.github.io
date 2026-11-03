@@ -1,0 +1,173 @@
+[
+  {
+    "museum_id": "guimet",
+    "label_zh": "吉美博物馆",
+    "name_en": "Musée Guimet",
+    "city": "巴黎",
+    "latitude": 48.865,
+    "longitude": 2.294,
+    "url": "https://www.guimet.fr/",
+    "coordinates_precision": "institution_navigation"
+  },
+  {
+    "museum_id": "carlos",
+    "label_zh": "迈克尔·C·卡洛斯博物馆",
+    "name_en": "Michael C. Carlos Museum",
+    "city": "亚特兰大",
+    "latitude": 33.791,
+    "longitude": -84.323,
+    "url": "https://carlos.emory.edu/",
+    "coordinates_precision": "institution_navigation"
+  },
+  {
+    "museum_id": "dallas",
+    "label_zh": "达拉斯艺术博物馆",
+    "name_en": "Dallas Museum of Art",
+    "city": "达拉斯",
+    "latitude": 32.788,
+    "longitude": -96.801,
+    "url": "https://dma.org/",
+    "coordinates_precision": "institution_navigation"
+  },
+  {
+    "museum_id": "met",
+    "label_zh": "纽约大都会艺术博物馆",
+    "name_en": "The Metropolitan Museum of Art",
+    "city": "纽约",
+    "latitude": 40.779,
+    "longitude": -73.963,
+    "url": "https://www.metmuseum.org/",
+    "coordinates_precision": "institution_navigation"
+  },
+  {
+    "museum_id": "nelson",
+    "label_zh": "纳尔逊—阿特金斯艺术博物馆",
+    "name_en": "The Nelson-Atkins Museum of Art",
+    "city": "堪萨斯城",
+    "latitude": 39.045,
+    "longitude": -94.581,
+    "url": "https://nelson-atkins.org/",
+    "coordinates_precision": "institution_navigation"
+  },
+  {
+    "museum_id": "mfah",
+    "label_zh": "休斯顿美术馆",
+    "name_en": "The Museum of Fine Arts, Houston",
+    "city": "休斯顿",
+    "latitude": 29.726,
+    "longitude": -95.39,
+    "url": "https://www.mfah.org/",
+    "coordinates_precision": "institution_navigation"
+  },
+  {
+    "museum_id": "cleveland",
+    "label_zh": "克利夫兰美术馆",
+    "name_en": "Cleveland Museum of Art",
+    "city": "克利夫兰",
+    "latitude": 41.509,
+    "longitude": -81.612,
+    "url": "https://www.clevelandart.org/",
+    "coordinates_precision": "institution_navigation"
+  },
+  {
+    "museum_id": "sf-asian",
+    "label_zh": "旧金山亚洲艺术博物馆",
+    "name_en": "Asian Art Museum",
+    "city": "旧金山",
+    "latitude": 37.78,
+    "longitude": -122.417,
+    "url": "https://asianart.org/",
+    "coordinates_precision": "institution_navigation"
+  },
+  {
+    "museum_id": "walters",
+    "label_zh": "沃尔特斯艺术博物馆",
+    "name_en": "The Walters Art Museum",
+    "city": "巴尔的摩",
+    "latitude": 39.297,
+    "longitude": -76.616,
+    "url": "https://thewalters.org/",
+    "coordinates_precision": "institution_navigation"
+  },
+  {
+    "museum_id": "seattle",
+    "label_zh": "西雅图亚洲艺术博物馆／SAM",
+    "name_en": "Seattle Asian Art Museum / Seattle Art Museum",
+    "city": "西雅图",
+    "latitude": 47.63,
+    "longitude": -122.315,
+    "url": "https://www.seattleartmuseum.org/",
+    "coordinates_precision": "institution_navigation"
+  },
+  {
+    "museum_id": "portland",
+    "label_zh": "波特兰艺术博物馆",
+    "name_en": "Portland Art Museum",
+    "city": "波特兰",
+    "latitude": 45.516,
+    "longitude": -122.684,
+    "url": "https://portlandartmuseum.org/",
+    "coordinates_precision": "institution_navigation"
+  },
+  {
+    "museum_id": "nmaa",
+    "label_zh": "史密森尼国立亚洲艺术博物馆",
+    "name_en": "National Museum of Asian Art",
+    "city": "华盛顿",
+    "latitude": 38.888,
+    "longitude": -77.027,
+    "url": "https://asia.si.edu/",
+    "coordinates_precision": "institution_navigation"
+  },
+  {
+    "museum_id": "rubin",
+    "label_zh": "鲁宾喜马拉雅艺术博物馆",
+    "name_en": "Rubin Museum of Himalayan Art",
+    "city": "纽约（收藏机构；不代表当前馆舍）",
+    "latitude": null,
+    "longitude": null,
+    "url": "https://rubinmuseum.org/",
+    "coordinates_precision": "institution_navigation",
+    "map_note": "收藏机构保留；本包Rubin三件借展拍于Seattle。不根据机构名称推定现时展址。"
+  },
+  {
+    "museum_id": "palace",
+    "label_zh": "故宫博物院",
+    "name_en": "The Palace Museum",
+    "city": "北京",
+    "latitude": 39.917,
+    "longitude": 116.391,
+    "url": "https://www.dpm.org.cn/",
+    "coordinates_precision": "institution_navigation"
+  },
+  {
+    "museum_id": "british",
+    "label_zh": "大英博物馆",
+    "name_en": "The British Museum",
+    "city": "伦敦",
+    "latitude": 51.519,
+    "longitude": -0.127,
+    "url": "https://www.britishmuseum.org/",
+    "coordinates_precision": "institution_navigation"
+  },
+  {
+    "museum_id": "berlin",
+    "label_zh": "柏林民族学博物馆",
+    "name_en": "Ethnologisches Museum, Staatliche Museen zu Berlin",
+    "city": "柏林",
+    "latitude": 52.517,
+    "longitude": 13.402,
+    "url": "https://www.smb.museum/en/museums-institutions/ethnologisches-museum/home/",
+    "coordinates_precision": "institution_navigation"
+  },
+  {
+    "museum_id": "kimbell",
+    "label_zh": "金贝尔艺术博物馆",
+    "name_en": "Kimbell Art Museum",
+    "city": "沃思堡",
+    "latitude": 32.749,
+    "longitude": -97.365,
+    "url": "https://kimbellart.org/",
+    "coordinates_precision": "institution_navigation"
+  }
+]

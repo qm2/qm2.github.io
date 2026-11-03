@@ -1,0 +1,262 @@
+[
+  {
+    "place_id": "swat",
+    "label_zh": "斯瓦特河谷",
+    "latitude": 34.8,
+    "longitude": 72.4,
+    "radius_km": 90,
+    "precision": "region",
+    "coordinate_basis": "编辑用现代地理参照；约略位置",
+    "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+  },
+  {
+    "place_id": "gilgit",
+    "label_zh": "吉尔吉特",
+    "latitude": 35.9,
+    "longitude": 74.3,
+    "radius_km": 90,
+    "precision": "region",
+    "coordinate_basis": "编辑用现代地理参照；约略位置",
+    "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+  },
+  {
+    "place_id": "kashmir",
+    "label_zh": "克什米尔",
+    "latitude": 34.1,
+    "longitude": 74.8,
+    "radius_km": 170,
+    "precision": "region",
+    "coordinate_basis": "编辑用现代地理参照；约略位置",
+    "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+  },
+  {
+    "place_id": "greater-kashmir",
+    "label_zh": "广义克什米尔",
+    "latitude": 34.4,
+    "longitude": 75.0,
+    "radius_km": 260,
+    "precision": "region",
+    "coordinate_basis": "编辑用现代地理参照；约略位置",
+    "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+  },
+  {
+    "place_id": "western-himalaya",
+    "label_zh": "西喜马拉雅：拉达克／拉胡尔等",
+    "latitude": 33.3,
+    "longitude": 77.6,
+    "radius_km": 250,
+    "precision": "region",
+    "coordinate_basis": "编辑用现代地理参照；约略位置",
+    "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+  },
+  {
+    "place_id": "western-tibet",
+    "label_zh": "西藏西部",
+    "latitude": 31.5,
+    "longitude": 80.8,
+    "radius_km": 330,
+    "precision": "region",
+    "coordinate_basis": "编辑用现代地理参照；约略位置",
+    "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+  },
+  {
+    "place_id": "guge",
+    "label_zh": "古格／阿里",
+    "latitude": 31.5,
+    "longitude": 80.0,
+    "radius_km": 150,
+    "precision": "region",
+    "coordinate_basis": "编辑用现代地理参照；约略位置",
+    "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+  },
+  {
+    "place_id": "tholing",
+    "label_zh": "托林寺相关地区",
+    "latitude": 31.5,
+    "longitude": 79.8,
+    "radius_km": 40,
+    "precision": "associated_site_region",
+    "coordinate_basis": "编辑用现代地理参照；约略位置",
+    "note": "馆方关联托林寺；示意点并非经证实的绘画工坊。"
+  },
+  {
+    "place_id": "central-tibet",
+    "label_zh": "西藏中部",
+    "latitude": 29.7,
+    "longitude": 90.8,
+    "radius_km": 300,
+    "precision": "region",
+    "coordinate_basis": "编辑用现代地理参照；约略位置",
+    "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+  },
+  {
+    "place_id": "tibet-broad",
+    "label_zh": "西藏：具体地区未定",
+    "latitude": 31.5,
+    "longitude": 88.5,
+    "radius_km": 700,
+    "precision": "broad_region",
+    "coordinate_basis": "编辑用现代地理参照；约略位置",
+    "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+  },
+  {
+    "place_id": "tsang",
+    "label_zh": "后藏",
+    "latitude": 29.3,
+    "longitude": 88.9,
+    "radius_km": 180,
+    "precision": "region",
+    "coordinate_basis": "编辑用现代地理参照；约略位置",
+    "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+  },
+  {
+    "place_id": "ngor",
+    "label_zh": "后藏／俄尔寺传统",
+    "latitude": 29.2,
+    "longitude": 88.8,
+    "radius_km": 80,
+    "precision": "associated_site_region",
+    "coordinate_basis": "编辑用现代地理参照；约略位置",
+    "note": "按俄尔寺关联分组，示意点不精确定位创作工坊。"
+  },
+  {
+    "place_id": "densatil",
+    "label_zh": "丹萨替相关地区",
+    "latitude": 29.3,
+    "longitude": 91.8,
+    "radius_km": 70,
+    "precision": "associated_site_region",
+    "coordinate_basis": "编辑用现代地理参照；约略位置",
+    "note": "根据馆方丹萨替关联；不以此证明各件来自同一座塔。"
+  },
+  {
+    "place_id": "eastern-tibet",
+    "label_zh": "西藏东部",
+    "latitude": 31.5,
+    "longitude": 96.0,
+    "radius_km": 450,
+    "precision": "region",
+    "coordinate_basis": "编辑用现代地理参照；约略位置",
+    "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+  },
+  {
+    "place_id": "pala-india",
+    "label_zh": "帕拉东印度：具体地区未定",
+    "latitude": 25.0,
+    "longitude": 86.8,
+    "radius_km": 420,
+    "precision": "broad_region",
+    "coordinate_basis": "编辑用现代地理参照；约略位置",
+    "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+  },
+  {
+    "place_id": "pala-bihar",
+    "label_zh": "帕拉比哈尔",
+    "latitude": 25.1,
+    "longitude": 85.4,
+    "radius_km": 190,
+    "precision": "region",
+    "coordinate_basis": "编辑用现代地理参照；约略位置",
+    "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+  },
+  {
+    "place_id": "nalanda",
+    "label_zh": "那烂陀相关地区",
+    "latitude": 25.1,
+    "longitude": 85.4,
+    "radius_km": 40,
+    "precision": "associated_site_region",
+    "coordinate_basis": "编辑用现代地理参照；约略位置",
+    "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+  },
+  {
+    "place_id": "kurkihar",
+    "label_zh": "俱利诃尔相关地区",
+    "latitude": 24.8,
+    "longitude": 85.3,
+    "radius_km": 45,
+    "precision": "associated_site_region",
+    "coordinate_basis": "编辑用现代地理参照；约略位置",
+    "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+  },
+  {
+    "place_id": "tetravan",
+    "label_zh": "特特拉万相关地区",
+    "latitude": 25.1,
+    "longitude": 85.5,
+    "radius_km": 50,
+    "precision": "associated_site_region",
+    "coordinate_basis": "编辑用现代地理参照；约略位置",
+    "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+  },
+  {
+    "place_id": "pala-bengal",
+    "label_zh": "帕拉孟加拉",
+    "latitude": 24.0,
+    "longitude": 89.0,
+    "radius_km": 380,
+    "precision": "region",
+    "coordinate_basis": "编辑用现代地理参照；约略位置",
+    "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+  },
+  {
+    "place_id": "kathmandu-valley",
+    "label_zh": "尼泊尔／加德满都山谷传统",
+    "latitude": 27.7,
+    "longitude": 85.3,
+    "radius_km": 80,
+    "precision": "region",
+    "coordinate_basis": "编辑用现代地理参照；约略位置",
+    "note": "部分展签只写Nepal；以山谷传统作导航，不把所有尼泊尔作品精确定位于一城。"
+  },
+  {
+    "place_id": "china-court",
+    "label_zh": "中国宫廷：具体工坊未定",
+    "latitude": 35.0,
+    "longitude": 115.0,
+    "radius_km": 1050,
+    "precision": "broad_region",
+    "coordinate_basis": "编辑用现代地理参照；约略位置",
+    "note": "仅用于明确藏传关联的宫廷作品；不统一视为北京制造。"
+  },
+  {
+    "place_id": "beijing-court",
+    "label_zh": "北京清宫",
+    "latitude": 39.9,
+    "longitude": 116.4,
+    "radius_km": 35,
+    "precision": "associated_site_region",
+    "coordinate_basis": "编辑用现代地理参照；约略位置",
+    "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+  },
+  {
+    "place_id": "mongolia",
+    "label_zh": "蒙古地区",
+    "latitude": 46.5,
+    "longitude": 103.0,
+    "radius_km": 750,
+    "precision": "broad_region",
+    "coordinate_basis": "编辑用现代地理参照；约略位置",
+    "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+  },
+  {
+    "place_id": "yunnan",
+    "label_zh": "云南",
+    "latitude": 26.0,
+    "longitude": 100.5,
+    "radius_km": 240,
+    "precision": "region",
+    "coordinate_basis": "编辑用现代地理参照；约略位置",
+    "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+  },
+  {
+    "place_id": "central-asia",
+    "label_zh": "高昌／吐鲁番候选地区",
+    "latitude": 42.9,
+    "longitude": 89.5,
+    "radius_km": 110,
+    "precision": "candidate_region",
+    "coordinate_basis": "编辑用现代地理参照；约略位置",
+    "note": "只在44-18归属争议比较时显示；不是已证实的制作地址。"
+  }
+]

@@ -1,0 +1,4292 @@
+{
+  "works": [
+    {
+      "work_id": "w1474",
+      "title_zh": "六品佛楼佛像组合",
+      "title_en": "Set of Buddhist Sculptures in a Building of Six Classes of Sutra and Tantra",
+      "date_start": 1758,
+      "date_end": 1778,
+      "date_label": "1758—1778年",
+      "region_ids": [
+        "beijing-court"
+      ],
+      "display_museum_id": null,
+      "collection_museum_id": "palace",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "beijing-court",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1474",
+      "chapter_ids": [
+        "c6"
+      ],
+      "collection": "故宫博物院藏",
+      "search": "六品佛楼佛像组合 Set of Buddhist Sculptures in a Building of Six Classes of Sutra and Tantra  鎏金铜合金 故宫博物院藏 故宫博物院藏",
+      "material": "金属",
+      "theme": "佛",
+      "reading_unit_ids": [
+        "u23"
+      ]
+    },
+    {
+      "work_id": "w1476",
+      "title_zh": "佛自忉利天降下",
+      "title_en": "Buddha Descending from the Trayastrimsha Heaven",
+      "date_start": 800,
+      "date_end": 899,
+      "date_label": "9世纪",
+      "region_ids": [
+        "pala-bihar"
+      ],
+      "display_museum_id": null,
+      "collection_museum_id": null,
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "pala-bihar",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1476",
+      "chapter_ids": [
+        "c2"
+      ],
+      "collection": "私人收藏；展出地点待核",
+      "search": "佛自忉利天降下 Buddha Descending from the Trayastrimsha Heaven   私人收藏；展出地点待核 私人收藏；展出地点待核",
+      "material": "其他／未详",
+      "theme": "佛",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1478",
+      "title_zh": "金刚萨埵与明妃",
+      "title_en": "Vajrasattva and Consort",
+      "date_start": 1200,
+      "date_end": 1250,
+      "date_label": "13世纪上半叶",
+      "region_ids": [
+        "central-tibet"
+      ],
+      "display_museum_id": "guimet",
+      "collection_museum_id": "guimet",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "central-tibet",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1478",
+      "chapter_ids": [
+        "c5"
+      ],
+      "collection": "吉美博物馆",
+      "search": "金刚萨埵与明妃 Vajrasattva and Consort MA 1089 布本胶彩 吉美博物馆 吉美博物馆",
+      "material": "绘画与织物",
+      "theme": "本尊与护法",
+      "reading_unit_ids": [
+        "u17"
+      ]
+    },
+    {
+      "work_id": "w1480",
+      "title_zh": "湿婆怖畏面具",
+      "title_en": "Mask of Shiva Bhairava",
+      "date_start": 1575,
+      "date_end": 1625,
+      "date_label": "16世纪末—17世纪初",
+      "region_ids": [
+        "kathmandu-valley"
+      ],
+      "display_museum_id": "guimet",
+      "collection_museum_id": "guimet",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "kathmandu-valley",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1480",
+      "chapter_ids": [
+        "c3"
+      ],
+      "collection": "吉美博物馆",
+      "search": "湿婆怖畏面具 Mask of Shiva Bhairava MA 5941 彩绘金属仪式面具 吉美博物馆 吉美博物馆",
+      "material": "其他／未详",
+      "theme": "印度教诸神",
+      "reading_unit_ids": [
+        "u11"
+      ]
+    },
+    {
+      "work_id": "w1482a",
+      "title_zh": "降伏水牛魔的难近母",
+      "title_en": "Durga Mahishasuramardini",
+      "date_start": 1600,
+      "date_end": 1699,
+      "date_label": "17世纪",
+      "region_ids": [
+        "kathmandu-valley"
+      ],
+      "display_museum_id": "guimet",
+      "collection_museum_id": "guimet",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "kathmandu-valley",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1482",
+      "chapter_ids": [
+        "c3"
+      ],
+      "collection": "吉美博物馆",
+      "search": "降伏水牛魔的难近母 Durga Mahishasuramardini MA 13004 鎏金錾揲铜 吉美博物馆 吉美博物馆",
+      "material": "金属",
+      "theme": "印度教诸神",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1482b",
+      "title_zh": "吉祥天—那罗延合体像",
+      "title_en": "Lakshminarayana",
+      "date_start": 1400,
+      "date_end": 1499,
+      "date_label": "15世纪",
+      "region_ids": [
+        "kathmandu-valley"
+      ],
+      "display_museum_id": "guimet",
+      "collection_museum_id": "guimet",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "kathmandu-valley",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1482",
+      "chapter_ids": [
+        "c3"
+      ],
+      "collection": "吉美博物馆",
+      "search": "吉祥天—那罗延合体像 Lakshminarayana MA 12161 鎏金铜嵌宝石 吉美博物馆 吉美博物馆",
+      "material": "金属",
+      "theme": "其他尊神与人物",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1484",
+      "title_zh": "纪年1145年的仪式法冠",
+      "title_en": "Ritual Crown",
+      "date_start": 1145,
+      "date_end": 1145,
+      "date_label": "1145年",
+      "region_ids": [
+        "kathmandu-valley"
+      ],
+      "display_museum_id": "guimet",
+      "collection_museum_id": "guimet",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "kathmandu-valley",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1484",
+      "chapter_ids": [
+        "c3"
+      ],
+      "collection": "吉美博物馆",
+      "search": "纪年1145年的仪式法冠 Ritual Crown MA 4929 鎏金铜嵌青金石、石榴石、绿松石、水晶 吉美博物馆 吉美博物馆",
+      "material": "金属",
+      "theme": "器物与供养",
+      "reading_unit_ids": [
+        "u10"
+      ]
+    },
+    {
+      "work_id": "w1488",
+      "title_zh": "释迦牟尼降魔成道",
+      "title_en": "Shakyamuni Buddha’s Defeat of Mara",
+      "date_start": 900,
+      "date_end": 999,
+      "date_label": "10世纪",
+      "region_ids": [
+        "pala-india"
+      ],
+      "display_museum_id": "carlos",
+      "collection_museum_id": "carlos",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "pala-india",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1488",
+      "chapter_ids": [
+        "c2"
+      ],
+      "collection": "迈克尔·C·卡洛斯博物馆",
+      "search": "释迦牟尼降魔成道 Shakyamuni Buddha’s Defeat of Mara 2001.001.007 黑石 迈克尔·C·卡洛斯博物馆 迈克尔·C·卡洛斯博物馆",
+      "material": "石",
+      "theme": "其他尊神与人物",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1490",
+      "title_zh": "释迦牟尼坐像",
+      "title_en": "Shakyamuni Buddha",
+      "date_start": 1200,
+      "date_end": 1399,
+      "date_label": "约13—14世纪",
+      "region_ids": [
+        "tibet-broad"
+      ],
+      "display_museum_id": "carlos",
+      "collection_museum_id": "carlos",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "tibet-broad",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1490",
+      "chapter_ids": [
+        "c5"
+      ],
+      "collection": "迈克尔·C·卡洛斯博物馆",
+      "search": "释迦牟尼坐像 Shakyamuni Buddha 2002.035.001 鎏金青铜、颜料 迈克尔·C·卡洛斯博物馆 迈克尔·C·卡洛斯博物馆",
+      "material": "金属",
+      "theme": "其他尊神与人物",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1492a",
+      "title_zh": "小型释迦牟尼坐像",
+      "title_en": "Buddha Shakyamuni Shrine Statue",
+      "date_start": 1300,
+      "date_end": 1399,
+      "date_label": "14世纪",
+      "region_ids": [
+        "tibet-broad"
+      ],
+      "display_museum_id": "carlos",
+      "collection_museum_id": "carlos",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "tibet-broad",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1492",
+      "chapter_ids": [
+        "c5"
+      ],
+      "collection": "迈克尔·C·卡洛斯博物馆",
+      "search": "小型释迦牟尼坐像 Buddha Shakyamuni Shrine Statue 2001.001.002 青铜嵌铜 迈克尔·C·卡洛斯博物馆 迈克尔·C·卡洛斯博物馆",
+      "material": "金属",
+      "theme": "其他尊神与人物",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1492b",
+      "title_zh": "小型弥勒坐像",
+      "title_en": "Maitreya Shrine Statue",
+      "date_start": 1400,
+      "date_end": 1499,
+      "date_label": "15世纪",
+      "region_ids": [
+        "tibet-broad"
+      ],
+      "display_museum_id": "carlos",
+      "collection_museum_id": "carlos",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "tibet-broad",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1492",
+      "chapter_ids": [
+        "c5"
+      ],
+      "collection": "迈克尔·C·卡洛斯博物馆",
+      "search": "小型弥勒坐像 Maitreya Shrine Statue 2001.001.001 青铜、银、嵌铜及颜料 迈克尔·C·卡洛斯博物馆 迈克尔·C·卡洛斯博物馆",
+      "material": "金属",
+      "theme": "其他尊神与人物",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1494",
+      "title_zh": "吉祥天母：丹萨替纪念塔构件",
+      "title_en": "Palden Lhamo",
+      "date_start": 1400,
+      "date_end": 1499,
+      "date_label": "15世纪",
+      "region_ids": [
+        "densatil"
+      ],
+      "display_museum_id": "carlos",
+      "collection_museum_id": "carlos",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "densatil",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1494",
+      "chapter_ids": [
+        "c4"
+      ],
+      "collection": "迈克尔·C·卡洛斯博物馆",
+      "search": "吉祥天母：丹萨替纪念塔构件 Palden Lhamo 2001.019.001 鎏金铜合金嵌半宝石 迈克尔·C·卡洛斯博物馆 迈克尔·C·卡洛斯博物馆",
+      "material": "金属",
+      "theme": "其他尊神与人物",
+      "reading_unit_ids": [
+        "u16"
+      ]
+    },
+    {
+      "work_id": "w1496",
+      "title_zh": "弥勒坐像",
+      "title_en": "Maitreya",
+      "date_start": 1500,
+      "date_end": 1699,
+      "date_label": "16—17世纪",
+      "region_ids": [
+        "tibet-broad"
+      ],
+      "display_museum_id": "dallas",
+      "collection_museum_id": "dallas",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "tibet-broad",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1496",
+      "chapter_ids": [
+        "c5"
+      ],
+      "collection": "达拉斯艺术博物馆",
+      "search": "弥勒坐像 Maitreya PG.2007.31 鎏金青铜，宝石与珐琅镶嵌 达拉斯艺术博物馆 达拉斯艺术博物馆",
+      "material": "金属",
+      "theme": "其他尊神与人物",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1498",
+      "title_zh": "文殊菩萨坐像",
+      "title_en": "Manjushri",
+      "date_start": 1700,
+      "date_end": 1899,
+      "date_label": "18—19世纪",
+      "region_ids": [
+        "tibet-broad"
+      ],
+      "display_museum_id": "dallas",
+      "collection_museum_id": "dallas",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "tibet-broad",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1498",
+      "chapter_ids": [
+        "c5"
+      ],
+      "collection": "达拉斯艺术博物馆",
+      "search": "文殊菩萨坐像 Manjushri 1955.19 鎏金青铜、半宝石 达拉斯艺术博物馆 达拉斯艺术博物馆",
+      "material": "金属",
+      "theme": "文殊",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1500",
+      "title_zh": "绿度母",
+      "title_en": "Green Tara",
+      "date_start": 1700,
+      "date_end": 1799,
+      "date_label": "18世纪",
+      "region_ids": [
+        "tibet-broad"
+      ],
+      "display_museum_id": "dallas",
+      "collection_museum_id": "dallas",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "tibet-broad",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1500",
+      "chapter_ids": [
+        "c5"
+      ],
+      "collection": "达拉斯艺术博物馆",
+      "search": "绿度母 Green Tara 2005.28 鎏金铜合金、绿松石 达拉斯艺术博物馆 达拉斯艺术博物馆",
+      "material": "金属",
+      "theme": "其他尊神与人物",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1502",
+      "title_zh": "喜金刚唐卡",
+      "title_en": "Thangka with Hevajra",
+      "date_start": 1700,
+      "date_end": 1799,
+      "date_label": "18世纪",
+      "region_ids": [
+        "tibet-broad"
+      ],
+      "display_museum_id": "dallas",
+      "collection_museum_id": "dallas",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "tibet-broad",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1502",
+      "chapter_ids": [
+        "c5"
+      ],
+      "collection": "达拉斯艺术博物馆",
+      "search": "喜金刚唐卡 Thangka with Hevajra 2002.13 布本胶彩 达拉斯艺术博物馆 达拉斯艺术博物馆",
+      "material": "绘画与织物",
+      "theme": "绘画与传承",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1504",
+      "title_zh": "佛塔",
+      "title_en": "Stupa",
+      "date_start": 1100,
+      "date_end": 1399,
+      "date_label": "12—14世纪",
+      "region_ids": [
+        "tibet-broad"
+      ],
+      "display_museum_id": "dallas",
+      "collection_museum_id": "dallas",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "tibet-broad",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1504",
+      "chapter_ids": [
+        "c5"
+      ],
+      "collection": "达拉斯艺术博物馆",
+      "search": "佛塔 Stupa 2001.263 青铜及微量其他金属 达拉斯艺术博物馆 达拉斯艺术博物馆",
+      "material": "金属",
+      "theme": "器物与供养",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1506",
+      "title_zh": "佛与二菩萨禅定像",
+      "title_en": "Meditating Buddha Attended by Two Bodhisattvas",
+      "date_start": 600,
+      "date_end": 799,
+      "date_label": "7—8世纪",
+      "region_ids": [
+        "swat"
+      ],
+      "display_museum_id": "met",
+      "collection_museum_id": "met",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "swat",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1506",
+      "chapter_ids": [
+        "c1"
+      ],
+      "collection": "纽约大都会艺术博物馆",
+      "search": "佛与二菩萨禅定像 Meditating Buddha Attended by Two Bodhisattvas 1995.570.2 大理石 纽约大都会艺术博物馆 纽约大都会艺术博物馆",
+      "material": "石",
+      "theme": "佛",
+      "reading_unit_ids": [
+        "u01"
+      ]
+    },
+    {
+      "work_id": "w1508",
+      "title_zh": "佛初转法轮：有雕刻者署名的石像",
+      "title_en": "Buddha Preaching the First Sermon at Sarnath",
+      "date_start": 1000,
+      "date_end": 1099,
+      "date_label": "11世纪",
+      "region_ids": [
+        "nalanda"
+      ],
+      "display_museum_id": "met",
+      "collection_museum_id": "met",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "nalanda",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1508",
+      "chapter_ids": [
+        "c2"
+      ],
+      "collection": "纽约大都会艺术博物馆",
+      "search": "佛初转法轮：有雕刻者署名的石像 Buddha Preaching the First Sermon at Sarnath 20.43 黑石 纽约大都会艺术博物馆 纽约大都会艺术博物馆",
+      "material": "石",
+      "theme": "佛",
+      "reading_unit_ids": [
+        "u05"
+      ]
+    },
+    {
+      "work_id": "w1510",
+      "title_zh": "世间自在观音",
+      "title_en": "Bodhisattva Lokanatha Avalokiteshvara",
+      "date_start": 1075,
+      "date_end": 1125,
+      "date_label": "约1100年",
+      "region_ids": [
+        "pala-bihar"
+      ],
+      "display_museum_id": "met",
+      "collection_museum_id": null,
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "pala-bihar",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1518",
+      "chapter_ids": [
+        "c2"
+      ],
+      "collection": "私人收藏；在大都会借展 · 在纽约大都会艺术博物馆展出",
+      "search": "世间自在观音 Bodhisattva Lokanatha Avalokiteshvara  黑石 私人收藏；在大都会借展 纽约大都会艺术博物馆",
+      "material": "石",
+      "theme": "观音",
+      "reading_unit_ids": [
+        "u07"
+      ]
+    },
+    {
+      "work_id": "w1512",
+      "title_zh": "永乐款佛坐像",
+      "title_en": "Seated Buddha",
+      "date_start": 1403,
+      "date_end": 1424,
+      "date_label": "明永乐时期，1403—1424年",
+      "region_ids": [
+        "china-court"
+      ],
+      "display_museum_id": null,
+      "collection_museum_id": "british",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "china-court",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1512",
+      "chapter_ids": [
+        "c6"
+      ],
+      "collection": "大英博物馆藏；拍摄展出地点待核",
+      "search": "永乐款佛坐像 Seated Buddha  鎏金铜合金 大英博物馆藏；拍摄展出地点待核 大英博物馆藏；拍摄展出地点待核",
+      "material": "金属",
+      "theme": "佛",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1516",
+      "title_zh": "宣德款孔雀明王",
+      "title_en": "Mahamayuri on Peacock",
+      "date_start": 1426,
+      "date_end": 1435,
+      "date_label": "明宣德时期，1426—1435年",
+      "region_ids": [
+        "china-court"
+      ],
+      "display_museum_id": null,
+      "collection_museum_id": "berlin",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "china-court",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1516",
+      "chapter_ids": [
+        "c6"
+      ],
+      "collection": "柏林民族学博物馆藏；拍摄展出地点待核",
+      "search": "宣德款孔雀明王 Mahamayuri on Peacock  鎏金铜合金 柏林民族学博物馆藏；拍摄展出地点待核 柏林民族学博物馆藏；拍摄展出地点待核",
+      "material": "金属",
+      "theme": "其他尊神与人物",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1520",
+      "title_zh": "王后供养的施愿佛",
+      "title_en": "Enthroned Buddha Granting Boons",
+      "date_start": 575,
+      "date_end": 625,
+      "date_label": "约600年",
+      "region_ids": [
+        "gilgit"
+      ],
+      "display_museum_id": "met",
+      "collection_museum_id": "met",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "gilgit",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1520",
+      "chapter_ids": [
+        "c1"
+      ],
+      "collection": "纽约大都会艺术博物馆",
+      "search": "王后供养的施愿佛 Enthroned Buddha Granting Boons 2011.19 鎏金黄铜嵌银与铜 纽约大都会艺术博物馆 纽约大都会艺术博物馆",
+      "material": "金属",
+      "theme": "佛",
+      "reading_unit_ids": [
+        "u01"
+      ]
+    },
+    {
+      "work_id": "w1522",
+      "title_zh": "那烂陀文殊",
+      "title_en": "Manjushri",
+      "date_start": 800,
+      "date_end": 850,
+      "date_label": "9世纪早期",
+      "region_ids": [
+        "nalanda"
+      ],
+      "display_museum_id": "nelson",
+      "collection_museum_id": "nelson",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "nalanda",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1668",
+      "chapter_ids": [
+        "c2"
+      ],
+      "collection": "纳尔逊—阿特金斯艺术博物馆",
+      "search": "那烂陀文殊 Manjushri 75-32/4 青铜 纳尔逊—阿特金斯艺术博物馆 纳尔逊—阿特金斯艺术博物馆",
+      "material": "金属",
+      "theme": "文殊",
+      "reading_unit_ids": [
+        "u06"
+      ]
+    },
+    {
+      "work_id": "w1524",
+      "title_zh": "持莲观音：长老供养铭文",
+      "title_en": "Padmapani Avalokiteshvara",
+      "date_start": 800,
+      "date_end": 899,
+      "date_label": "9世纪",
+      "region_ids": [
+        "nalanda"
+      ],
+      "display_museum_id": "nelson",
+      "collection_museum_id": "nelson",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "nalanda",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1524",
+      "chapter_ids": [
+        "c2"
+      ],
+      "collection": "纳尔逊—阿特金斯艺术博物馆",
+      "search": "持莲观音：长老供养铭文 Padmapani Avalokiteshvara 54-73 青铜，残留鎏金 纳尔逊—阿特金斯艺术博物馆 纳尔逊—阿特金斯艺术博物馆",
+      "material": "金属",
+      "theme": "观音",
+      "reading_unit_ids": [
+        "u06"
+      ]
+    },
+    {
+      "work_id": "w1526",
+      "title_zh": "弥勒：斯瓦特、吉尔吉特或克什米尔",
+      "title_en": "Bodhisattva Maitreya",
+      "date_start": 700,
+      "date_end": 799,
+      "date_label": "8世纪",
+      "region_ids": [
+        "swat",
+        "gilgit",
+        "kashmir"
+      ],
+      "display_museum_id": "nelson",
+      "collection_museum_id": "nelson",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "swat",
+          "relationship": "candidate_origin",
+          "certainty": "proposed"
+        },
+        {
+          "place_id": "gilgit",
+          "relationship": "candidate_origin",
+          "certainty": "proposed"
+        },
+        {
+          "place_id": "kashmir",
+          "relationship": "candidate_origin",
+          "certainty": "proposed"
+        }
+      ],
+      "primary_photo": "h1526",
+      "chapter_ids": [
+        "c1"
+      ],
+      "collection": "纳尔逊—阿特金斯艺术博物馆",
+      "search": "弥勒：斯瓦特、吉尔吉特或克什米尔 Bodhisattva Maitreya 66-22 黄铜嵌银，残彩 纳尔逊—阿特金斯艺术博物馆 纳尔逊—阿特金斯艺术博物馆",
+      "material": "金属",
+      "theme": "其他尊神与人物",
+      "reading_unit_ids": [
+        "u02"
+      ]
+    },
+    {
+      "work_id": "w1528",
+      "title_zh": "克什米尔佛立像",
+      "title_en": "Standing Buddha",
+      "date_start": 800,
+      "date_end": 999,
+      "date_label": "9—10世纪",
+      "region_ids": [
+        "kashmir"
+      ],
+      "display_museum_id": "nelson",
+      "collection_museum_id": "nelson",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "kashmir",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1528",
+      "chapter_ids": [
+        "c1"
+      ],
+      "collection": "纳尔逊—阿特金斯艺术博物馆",
+      "search": "克什米尔佛立像 Standing Buddha 51-55 青铜嵌银 纳尔逊—阿特金斯艺术博物馆 纳尔逊—阿特金斯艺术博物馆",
+      "material": "金属",
+      "theme": "佛",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1530",
+      "title_zh": "克什米尔持莲观音",
+      "title_en": "Padmapani Avalokiteshvara",
+      "date_start": 900,
+      "date_end": 999,
+      "date_label": "10世纪",
+      "region_ids": [
+        "kashmir"
+      ],
+      "display_museum_id": "nelson",
+      "collection_museum_id": "nelson",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "kashmir",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1530",
+      "chapter_ids": [
+        "c1"
+      ],
+      "collection": "纳尔逊—阿特金斯艺术博物馆",
+      "search": "克什米尔持莲观音 Padmapani Avalokiteshvara 54-74 青铜 纳尔逊—阿特金斯艺术博物馆 纳尔逊—阿特金斯艺术博物馆",
+      "material": "金属",
+      "theme": "观音",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1532",
+      "title_zh": "触地印佛坐像",
+      "title_en": "Buddha Calling the Earth to Witness",
+      "date_start": 1700,
+      "date_end": 1799,
+      "date_label": "18世纪",
+      "region_ids": [
+        "kathmandu-valley"
+      ],
+      "display_museum_id": "mfah",
+      "collection_museum_id": "mfah",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "kathmandu-valley",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1532",
+      "chapter_ids": [
+        "c3"
+      ],
+      "collection": "休斯顿美术馆",
+      "search": "触地印佛坐像 Buddha Calling the Earth to Witness 2018.128 鎏金青铜 休斯顿美术馆 休斯顿美术馆",
+      "material": "金属",
+      "theme": "佛",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1534",
+      "title_zh": "噶当式佛塔",
+      "title_en": "Stupa in the Kadampa Style",
+      "date_start": 1200,
+      "date_end": 1299,
+      "date_label": "13世纪",
+      "region_ids": [
+        "tibet-broad"
+      ],
+      "display_museum_id": "mfah",
+      "collection_museum_id": "mfah",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "tibet-broad",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1534",
+      "chapter_ids": [
+        "c6"
+      ],
+      "collection": "休斯顿美术馆",
+      "search": "噶当式佛塔 Stupa in the Kadampa Style 2017.248 铜合金 休斯顿美术馆 休斯顿美术馆",
+      "material": "金属",
+      "theme": "器物与供养",
+      "reading_unit_ids": [
+        "u22"
+      ]
+    },
+    {
+      "work_id": "w1536",
+      "title_zh": "持兵器形喜金刚与无我佛母",
+      "title_en": "Hevajra in Weapon-Bearing Form",
+      "date_start": 1531,
+      "date_end": 1531,
+      "date_label": "约1531年",
+      "region_ids": [
+        "kathmandu-valley"
+      ],
+      "display_museum_id": "mfah",
+      "collection_museum_id": "mfah",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "kathmandu-valley",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1536",
+      "chapter_ids": [
+        "c5"
+      ],
+      "collection": "休斯顿美术馆",
+      "search": "持兵器形喜金刚与无我佛母 Hevajra in Weapon-Bearing Form 2009.554 鎏金铜，带彩 休斯顿美术馆 休斯顿美术馆",
+      "material": "金属",
+      "theme": "本尊与护法",
+      "reading_unit_ids": [
+        "u18"
+      ]
+    },
+    {
+      "work_id": "w1538",
+      "title_zh": "太阳神苏利耶",
+      "title_en": "Surya, the Sun God",
+      "date_start": 700,
+      "date_end": 750,
+      "date_label": "8世纪早期",
+      "region_ids": [
+        "kashmir"
+      ],
+      "display_museum_id": "cleveland",
+      "collection_museum_id": "cleveland",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "kashmir",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1538",
+      "chapter_ids": [
+        "c1"
+      ],
+      "collection": "克利夫兰美术馆",
+      "search": "太阳神苏利耶 Surya, the Sun God 1965.557 黄铜，眼嵌银、唇嵌铜 克利夫兰美术馆 克利夫兰美术馆",
+      "material": "金属",
+      "theme": "印度教诸神",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1540",
+      "title_zh": "狮座宝冠佛",
+      "title_en": "Crowned Buddha Seated on a Lion Throne",
+      "date_start": 700,
+      "date_end": 799,
+      "date_label": "8世纪",
+      "region_ids": [
+        "kashmir"
+      ],
+      "display_museum_id": "cleveland",
+      "collection_museum_id": "cleveland",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "kashmir",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1540",
+      "chapter_ids": [
+        "c1"
+      ],
+      "collection": "克利夫兰美术馆",
+      "search": "狮座宝冠佛 Crowned Buddha Seated on a Lion Throne 1989.367 黄铜 克利夫兰美术馆 克利夫兰美术馆",
+      "material": "金属",
+      "theme": "佛",
+      "reading_unit_ids": [
+        "u02"
+      ]
+    },
+    {
+      "work_id": "w1542",
+      "title_zh": "彩绘木佛坐像",
+      "title_en": "Seated Buddha",
+      "date_start": 1000,
+      "date_end": 1099,
+      "date_label": "11世纪",
+      "region_ids": [
+        "western-himalaya"
+      ],
+      "display_museum_id": "cleveland",
+      "collection_museum_id": "cleveland",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "western-himalaya",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1542",
+      "chapter_ids": [
+        "c4"
+      ],
+      "collection": "克利夫兰美术馆",
+      "search": "彩绘木佛坐像 Seated Buddha 1986.6 彩绘木 克利夫兰美术馆 克利夫兰美术馆",
+      "material": "木",
+      "theme": "佛",
+      "reading_unit_ids": [
+        "u13"
+      ]
+    },
+    {
+      "work_id": "w1544",
+      "title_zh": "十一面观音",
+      "title_en": "Eleven-Headed Avalokiteshvara",
+      "date_start": 975,
+      "date_end": 1025,
+      "date_label": "约1000年（现行馆录）",
+      "region_ids": [
+        "western-himalaya"
+      ],
+      "display_museum_id": "cleveland",
+      "collection_museum_id": "cleveland",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "western-himalaya",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1544",
+      "chapter_ids": [
+        "c1"
+      ],
+      "collection": "克利夫兰美术馆",
+      "search": "十一面观音 Eleven-Headed Avalokiteshvara 1975.101 鎏金铜合金嵌银与铜 克利夫兰美术馆 克利夫兰美术馆",
+      "material": "金属",
+      "theme": "观音",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1546",
+      "title_zh": "曾由西藏王族僧人供奉的克什米尔佛",
+      "title_en": "Standing Buddha",
+      "date_start": 875,
+      "date_end": 925,
+      "date_label": "约900年",
+      "region_ids": [
+        "kashmir"
+      ],
+      "display_museum_id": "cleveland",
+      "collection_museum_id": "cleveland",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "kashmir",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1546",
+      "chapter_ids": [
+        "c1"
+      ],
+      "collection": "克利夫兰美术馆",
+      "search": "曾由西藏王族僧人供奉的克什米尔佛 Standing Buddha 1966.30 黄铜嵌银与铜 克利夫兰美术馆 克利夫兰美术馆",
+      "material": "金属",
+      "theme": "佛",
+      "reading_unit_ids": [
+        "u02"
+      ]
+    },
+    {
+      "work_id": "w1548",
+      "title_zh": "托林寺说法佛灌顶小画",
+      "title_en": "Votive Initiation Card with Preaching Shakyamuni",
+      "date_start": 1000,
+      "date_end": 1099,
+      "date_label": "11世纪",
+      "region_ids": [
+        "tholing"
+      ],
+      "display_museum_id": "cleveland",
+      "collection_museum_id": "cleveland",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "tholing",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1548",
+      "chapter_ids": [
+        "c4"
+      ],
+      "collection": "克利夫兰美术馆",
+      "search": "托林寺说法佛灌顶小画 Votive Initiation Card with Preaching Shakyamuni 2000.67 纸本胶彩、墨、金 克利夫兰美术馆 克利夫兰美术馆",
+      "material": "绘画与织物",
+      "theme": "佛",
+      "reading_unit_ids": [
+        "u13"
+      ]
+    },
+    {
+      "work_id": "w1550",
+      "title_zh": "金刚持、无我佛母与毗瓦巴、甘诃",
+      "title_en": "Vajradhara, Nairatmya, Virupa and Kanha",
+      "date_start": 1425,
+      "date_end": 1475,
+      "date_label": "约1450年",
+      "region_ids": [
+        "ngor"
+      ],
+      "display_museum_id": "cleveland",
+      "collection_museum_id": "cleveland",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "ngor",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1550",
+      "chapter_ids": [
+        "c4"
+      ],
+      "collection": "克利夫兰美术馆",
+      "search": "金刚持、无我佛母与毗瓦巴、甘诃 Vajradhara, Nairatmya, Virupa and Kanha 1960.206 棉布胶彩与金 克利夫兰美术馆 克利夫兰美术馆",
+      "material": "绘画与织物",
+      "theme": "本尊与护法",
+      "reading_unit_ids": [
+        "u14"
+      ]
+    },
+    {
+      "work_id": "w1552",
+      "title_zh": "四臂文殊",
+      "title_en": "Bodhisattva of Wisdom Manjushri",
+      "date_start": 1400,
+      "date_end": 1499,
+      "date_label": "15世纪",
+      "region_ids": [
+        "kathmandu-valley"
+      ],
+      "display_museum_id": "cleveland",
+      "collection_museum_id": "cleveland",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "kathmandu-valley",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1552",
+      "chapter_ids": [
+        "c3"
+      ],
+      "collection": "克利夫兰美术馆",
+      "search": "四臂文殊 Bodhisattva of Wisdom Manjushri 1964.370 鎏金铜合金、宝石、胶彩与冷金 克利夫兰美术馆 克利夫兰美术馆",
+      "material": "金属",
+      "theme": "文殊",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1554",
+      "title_zh": "克什米尔象牙苦修佛龛",
+      "title_en": "Fasting Buddha",
+      "date_start": 700,
+      "date_end": 799,
+      "date_label": "8世纪",
+      "region_ids": [
+        "kashmir"
+      ],
+      "display_museum_id": "cleveland",
+      "collection_museum_id": "cleveland",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "kashmir",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1554",
+      "chapter_ids": [
+        "c1"
+      ],
+      "collection": "克利夫兰美术馆",
+      "search": "克什米尔象牙苦修佛龛 Fasting Buddha 1986.70 象牙 克利夫兰美术馆 克利夫兰美术馆",
+      "material": "象牙",
+      "theme": "器物与供养",
+      "reading_unit_ids": [
+        "u03"
+      ]
+    },
+    {
+      "work_id": "w1556",
+      "title_zh": "克什米尔象牙魔军扰佛龛",
+      "title_en": "Temptation of Buddha by the Evil Forces of Mara",
+      "date_start": 700,
+      "date_end": 799,
+      "date_label": "8世纪",
+      "region_ids": [
+        "kashmir"
+      ],
+      "display_museum_id": "cleveland",
+      "collection_museum_id": "cleveland",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "kashmir",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1556",
+      "chapter_ids": [
+        "c1"
+      ],
+      "collection": "克利夫兰美术馆",
+      "search": "克什米尔象牙魔军扰佛龛 Temptation of Buddha by the Evil Forces of Mara 1971.18 象牙，残留金彩 克利夫兰美术馆 克利夫兰美术馆",
+      "material": "象牙",
+      "theme": "器物与供养",
+      "reading_unit_ids": [
+        "u03"
+      ]
+    },
+    {
+      "work_id": "w1558",
+      "title_zh": "却英多杰象牙观音",
+      "title_en": "Avalokiteshvara by Choying Dorje",
+      "date_start": 1647,
+      "date_end": 1658,
+      "date_label": "1647—1648年或1658年",
+      "region_ids": [
+        "yunnan",
+        "tibet-broad"
+      ],
+      "display_museum_id": "cleveland",
+      "collection_museum_id": "cleveland",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "yunnan",
+          "relationship": "candidate_origin",
+          "certainty": "proposed"
+        },
+        {
+          "place_id": "tibet-broad",
+          "relationship": "candidate_origin",
+          "certainty": "proposed"
+        }
+      ],
+      "primary_photo": "h1558",
+      "chapter_ids": [
+        "c5"
+      ],
+      "collection": "克利夫兰美术馆",
+      "search": "却英多杰象牙观音 Avalokiteshvara by Choying Dorje 1968.280 象牙 克利夫兰美术馆 克利夫兰美术馆",
+      "material": "象牙",
+      "theme": "观音",
+      "reading_unit_ids": [
+        "u20"
+      ]
+    },
+    {
+      "work_id": "w1561",
+      "title_zh": "乌玛女神",
+      "title_en": "Goddess Uma",
+      "date_start": 1000,
+      "date_end": 1099,
+      "date_label": "11世纪",
+      "region_ids": [
+        "kathmandu-valley"
+      ],
+      "display_museum_id": "cleveland",
+      "collection_museum_id": "cleveland",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "kathmandu-valley",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1561",
+      "chapter_ids": [
+        "c3"
+      ],
+      "collection": "克利夫兰美术馆",
+      "search": "乌玛女神 Goddess Uma 1982.49 鎏金铜合金嵌半宝石 克利夫兰美术馆 克利夫兰美术馆",
+      "material": "金属",
+      "theme": "印度教诸神",
+      "reading_unit_ids": [
+        "u12"
+      ]
+    },
+    {
+      "work_id": "w1563",
+      "title_zh": "泥塑金刚亥母",
+      "title_en": "Goddess Vajravarahi",
+      "date_start": 1040,
+      "date_end": 1310,
+      "date_label": "约1040—1310年（馆方现行断代）",
+      "region_ids": [
+        "kathmandu-valley"
+      ],
+      "display_museum_id": "cleveland",
+      "collection_museum_id": "cleveland",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "kathmandu-valley",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1563",
+      "chapter_ids": [
+        "c5"
+      ],
+      "collection": "克利夫兰美术馆",
+      "search": "泥塑金刚亥母 Goddess Vajravarahi 1964.103 未烧制泥、彩绘，铁、绳与木支撑 克利夫兰美术馆 克利夫兰美术馆",
+      "material": "泥塑",
+      "theme": "本尊与护法",
+      "reading_unit_ids": [
+        "u19"
+      ]
+    },
+    {
+      "work_id": "w1565",
+      "title_zh": "文殊菩萨立像",
+      "title_en": "Bodhisattva of Wisdom Manjushri",
+      "date_start": 1400,
+      "date_end": 1499,
+      "date_label": "15世纪",
+      "region_ids": [
+        "kathmandu-valley"
+      ],
+      "display_museum_id": "cleveland",
+      "collection_museum_id": "cleveland",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "kathmandu-valley",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1565",
+      "chapter_ids": [
+        "c3"
+      ],
+      "collection": "克利夫兰美术馆",
+      "search": "文殊菩萨立像 Bodhisattva of Wisdom Manjushri 1956.8 鎏金铜 克利夫兰美术馆 克利夫兰美术馆",
+      "material": "金属",
+      "theme": "文殊",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1567",
+      "title_zh": "大成就者毗瓦巴",
+      "title_en": "Mahasiddha Virupa",
+      "date_start": 1400,
+      "date_end": 1425,
+      "date_label": "15世纪早期",
+      "region_ids": [
+        "china-court"
+      ],
+      "display_museum_id": "cleveland",
+      "collection_museum_id": "cleveland",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "china-court",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1567",
+      "chapter_ids": [
+        "c6"
+      ],
+      "collection": "克利夫兰美术馆",
+      "search": "大成就者毗瓦巴 Mahasiddha Virupa 1972.96 鎏金铜合金、银、宝石、彩 克利夫兰美术馆 克利夫兰美术馆",
+      "material": "金属",
+      "theme": "其他尊神与人物",
+      "reading_unit_ids": [
+        "u23"
+      ]
+    },
+    {
+      "work_id": "w1569",
+      "title_zh": "喜金刚与明妃",
+      "title_en": "Hevajra and Consort",
+      "date_start": 1600,
+      "date_end": 1699,
+      "date_label": "17世纪",
+      "region_ids": [
+        "tibet-broad"
+      ],
+      "display_museum_id": "cleveland",
+      "collection_museum_id": "cleveland",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "tibet-broad",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1569",
+      "chapter_ids": [
+        "c5"
+      ],
+      "collection": "克利夫兰美术馆",
+      "search": "喜金刚与明妃 Hevajra and Consort 1969.120 鎏金铜合金嵌半宝石 克利夫兰美术馆 克利夫兰美术馆",
+      "material": "金属",
+      "theme": "本尊与护法",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1571",
+      "title_zh": "永乐宫廷仪式斧与钺刀",
+      "title_en": "Ritual Axe and Flaying Knife",
+      "date_start": 1400,
+      "date_end": 1425,
+      "date_label": "15世纪早期",
+      "region_ids": [
+        "china-court"
+      ],
+      "display_museum_id": "cleveland",
+      "collection_museum_id": "cleveland",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "china-court",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1571",
+      "chapter_ids": [
+        "c6"
+      ],
+      "collection": "克利夫兰美术馆",
+      "search": "永乐宫廷仪式斧与钺刀 Ritual Axe and Flaying Knife 1978.9.1; 1978.9.3 铁合金嵌金与银（斧）；钺刀依原签 克利夫兰美术馆 克利夫兰美术馆",
+      "material": "金属",
+      "theme": "器物与供养",
+      "reading_unit_ids": [
+        "u23"
+      ]
+    },
+    {
+      "work_id": "w1572",
+      "title_zh": "永乐宫廷香炉",
+      "title_en": "Incense Burner",
+      "date_start": 1400,
+      "date_end": 1425,
+      "date_label": "15世纪早期",
+      "region_ids": [
+        "china-court"
+      ],
+      "display_museum_id": "cleveland",
+      "collection_museum_id": "cleveland",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "china-court",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1572",
+      "chapter_ids": [
+        "c6"
+      ],
+      "collection": "克利夫兰美术馆",
+      "search": "永乐宫廷香炉 Incense Burner 1983.154 铁嵌金与银 克利夫兰美术馆 克利夫兰美术馆",
+      "material": "金属",
+      "theme": "其他尊神与人物",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1574a",
+      "title_zh": "帕木竹巴·多吉杰布肖像",
+      "title_en": "Portrait of Phagmo Drupa Dorje Gyalpo",
+      "date_start": 1200,
+      "date_end": 1299,
+      "date_label": "13世纪",
+      "region_ids": [
+        "central-tibet"
+      ],
+      "display_museum_id": "cleveland",
+      "collection_museum_id": "cleveland",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "central-tibet",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1574",
+      "chapter_ids": [
+        "c4"
+      ],
+      "collection": "克利夫兰美术馆",
+      "search": "帕木竹巴·多吉杰布肖像 Portrait of Phagmo Drupa Dorje Gyalpo 1993.160 鎏金铜合金，金银铜与宝石镶嵌 克利夫兰美术馆 克利夫兰美术馆",
+      "material": "金属",
+      "theme": "绘画与传承",
+      "reading_unit_ids": [
+        "u16"
+      ]
+    },
+    {
+      "work_id": "w1574b",
+      "title_zh": "丹萨替背向双面人物支柱一对",
+      "title_en": "Supports with Addorsed Figures",
+      "date_start": 1400,
+      "date_end": 1499,
+      "date_label": "15世纪（官网）；旧签1360—1430年",
+      "region_ids": [
+        "densatil"
+      ],
+      "display_museum_id": "cleveland",
+      "collection_museum_id": "cleveland",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "densatil",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1574",
+      "chapter_ids": [
+        "c4"
+      ],
+      "collection": "克利夫兰美术馆",
+      "search": "丹萨替背向双面人物支柱一对 Supports with Addorsed Figures 2011.144.1–2 鎏金铜合金 克利夫兰美术馆 克利夫兰美术馆",
+      "material": "金属",
+      "theme": "其他尊神与人物",
+      "reading_unit_ids": [
+        "u16"
+      ]
+    },
+    {
+      "work_id": "w1577",
+      "title_zh": "便携木佛龛",
+      "title_en": "Portable Shrine",
+      "date_start": 1475,
+      "date_end": 1525,
+      "date_label": "约1500年",
+      "region_ids": [
+        "tibet-broad"
+      ],
+      "display_museum_id": "cleveland",
+      "collection_museum_id": "cleveland",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "tibet-broad",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1577",
+      "chapter_ids": [
+        "c1",
+        "c6"
+      ],
+      "collection": "克利夫兰美术馆",
+      "search": "便携木佛龛 Portable Shrine 1968.214 木、矿物颜料、金属 克利夫兰美术馆 克利夫兰美术馆",
+      "material": "木",
+      "theme": "器物与供养",
+      "reading_unit_ids": [
+        "u04",
+        "u22"
+      ]
+    },
+    {
+      "work_id": "w1579",
+      "title_zh": "特特拉万触地印佛",
+      "title_en": "Buddha Calling on Earth to Witness",
+      "date_start": 800,
+      "date_end": 899,
+      "date_label": "9世纪",
+      "region_ids": [
+        "tetravan"
+      ],
+      "display_museum_id": "cleveland",
+      "collection_museum_id": "cleveland",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "tetravan",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1579",
+      "chapter_ids": [
+        "c2"
+      ],
+      "collection": "克利夫兰美术馆",
+      "search": "特特拉万触地印佛 Buddha Calling on Earth to Witness 1935.146 绿泥石片岩 克利夫兰美术馆 克利夫兰美术馆",
+      "material": "泥塑",
+      "theme": "佛",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1581",
+      "title_zh": "俱利诃尔不动佛",
+      "title_en": "Akshobhya, Buddha of the East",
+      "date_start": 875,
+      "date_end": 899,
+      "date_label": "9世纪晚期",
+      "region_ids": [
+        "kurkihar"
+      ],
+      "display_museum_id": "cleveland",
+      "collection_museum_id": "cleveland",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "kurkihar",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1581",
+      "chapter_ids": [
+        "c2"
+      ],
+      "collection": "克利夫兰美术馆",
+      "search": "俱利诃尔不动佛 Akshobhya, Buddha of the East 1970.10 青铜嵌银与铜 克利夫兰美术馆 克利夫兰美术馆",
+      "material": "金属",
+      "theme": "佛",
+      "reading_unit_ids": [
+        "u08"
+      ]
+    },
+    {
+      "work_id": "w1583",
+      "title_zh": "尼泊尔佛坛",
+      "title_en": "Altar",
+      "date_start": 1700,
+      "date_end": 1899,
+      "date_label": "18—19世纪",
+      "region_ids": [
+        "kathmandu-valley"
+      ],
+      "display_museum_id": "sf-asian",
+      "collection_museum_id": "sf-asian",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "kathmandu-valley",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1583",
+      "chapter_ids": [
+        "c6"
+      ],
+      "collection": "旧金山亚洲艺术博物馆",
+      "search": "尼泊尔佛坛 Altar 10709.1a–c 木、铜、绿松石、象牙、青金石、珊瑚 旧金山亚洲艺术博物馆 旧金山亚洲艺术博物馆",
+      "material": "象牙",
+      "theme": "器物与供养",
+      "reading_unit_ids": [
+        "u24"
+      ]
+    },
+    {
+      "work_id": "w1585",
+      "title_zh": "怖畏湿婆木建筑斜撑",
+      "title_en": "Strut with Bhairava",
+      "date_start": 1675,
+      "date_end": 1725,
+      "date_label": "约1700年",
+      "region_ids": [
+        "kathmandu-valley"
+      ],
+      "display_museum_id": "walters",
+      "collection_museum_id": "walters",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "kathmandu-valley",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1585",
+      "chapter_ids": [
+        "c3"
+      ],
+      "collection": "沃尔特斯艺术博物馆",
+      "search": "怖畏湿婆木建筑斜撑 Strut with Bhairava 25.271 木 沃尔特斯艺术博物馆 沃尔特斯艺术博物馆",
+      "material": "木",
+      "theme": "印度教诸神",
+      "reading_unit_ids": [
+        "u11"
+      ]
+    },
+    {
+      "work_id": "w1587",
+      "title_zh": "开光与装藏的观音立像",
+      "title_en": "Bodhisattva Avalokiteshvara",
+      "date_start": 1375,
+      "date_end": 1425,
+      "date_label": "约1400年",
+      "region_ids": [
+        "central-tibet"
+      ],
+      "display_museum_id": "walters",
+      "collection_museum_id": "walters",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "central-tibet",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1587",
+      "chapter_ids": [
+        "c6"
+      ],
+      "collection": "沃尔特斯艺术博物馆",
+      "search": "开光与装藏的观音立像 Bodhisattva Avalokiteshvara 54.3098 鎏金铜、残彩、半宝石 沃尔特斯艺术博物馆 沃尔特斯艺术博物馆",
+      "material": "金属",
+      "theme": "观音",
+      "reading_unit_ids": [
+        "u21"
+      ]
+    },
+    {
+      "work_id": "w1589",
+      "title_zh": "十一面观音：像内的经卷",
+      "title_en": "Eleven-Headed Avalokiteshvara",
+      "date_start": 1775,
+      "date_end": 1825,
+      "date_label": "约1800年",
+      "region_ids": [
+        "tibet-broad"
+      ],
+      "display_museum_id": "walters",
+      "collection_museum_id": "walters",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "tibet-broad",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1589",
+      "chapter_ids": [
+        "c6"
+      ],
+      "collection": "沃尔特斯艺术博物馆",
+      "search": "十一面观音：像内的经卷 Eleven-Headed Avalokiteshvara 54.3087 银、鎏金银与鎏金铜 沃尔特斯艺术博物馆 沃尔特斯艺术博物馆",
+      "material": "金属",
+      "theme": "观音",
+      "reading_unit_ids": [
+        "u21"
+      ]
+    },
+    {
+      "work_id": "w1591",
+      "title_zh": "印度教三女神与仪式图",
+      "title_en": "Hindu Goddesses",
+      "date_start": 1775,
+      "date_end": 1825,
+      "date_label": "约1800年",
+      "region_ids": [
+        "kathmandu-valley"
+      ],
+      "display_museum_id": "walters",
+      "collection_museum_id": "walters",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "kathmandu-valley",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1591",
+      "chapter_ids": [
+        "c3"
+      ],
+      "collection": "沃尔特斯艺术博物馆",
+      "search": "印度教三女神与仪式图 Hindu Goddesses 2024.30.4 布本胶彩 沃尔特斯艺术博物馆 沃尔特斯艺术博物馆",
+      "material": "绘画与织物",
+      "theme": "器物与供养",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1593",
+      "title_zh": "仪式金刚橛与曲刀组合",
+      "title_en": "Ritual Dagger and Curved Knife",
+      "date_start": 1400,
+      "date_end": 1499,
+      "date_label": "15世纪",
+      "region_ids": [
+        "tibet-broad"
+      ],
+      "display_museum_id": "walters",
+      "collection_museum_id": "walters",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "tibet-broad",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1593",
+      "chapter_ids": [
+        "c5"
+      ],
+      "collection": "沃尔特斯艺术博物馆",
+      "search": "仪式金刚橛与曲刀组合 Ritual Dagger and Curved Knife  鎏金铜合金 沃尔特斯艺术博物馆 沃尔特斯艺术博物馆",
+      "material": "金属",
+      "theme": "器物与供养",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1594",
+      "title_zh": "手持转经轮",
+      "title_en": "Portable Prayer Wheel",
+      "date_start": 1600,
+      "date_end": 1799,
+      "date_label": "17—18世纪",
+      "region_ids": [
+        "tibet-broad",
+        "mongolia"
+      ],
+      "display_museum_id": "walters",
+      "collection_museum_id": "walters",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "tibet-broad",
+          "relationship": "candidate_origin",
+          "certainty": "proposed"
+        },
+        {
+          "place_id": "mongolia",
+          "relationship": "candidate_origin",
+          "certainty": "proposed"
+        }
+      ],
+      "primary_photo": "h1594",
+      "chapter_ids": [
+        "c5"
+      ],
+      "collection": "沃尔特斯艺术博物馆",
+      "search": "手持转经轮 Portable Prayer Wheel 57.1448 银、玉、红宝石、绿松石及半宝石 沃尔特斯艺术博物馆 沃尔特斯艺术博物馆",
+      "material": "金属",
+      "theme": "器物与供养",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1595",
+      "title_zh": "银制仪式盒",
+      "title_en": "Ritual Box",
+      "date_start": 1700,
+      "date_end": 1799,
+      "date_label": "18世纪",
+      "region_ids": [
+        "tibet-broad"
+      ],
+      "display_museum_id": "walters",
+      "collection_museum_id": "walters",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "tibet-broad",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1595",
+      "chapter_ids": [
+        "c5"
+      ],
+      "collection": "沃尔特斯艺术博物馆",
+      "search": "银制仪式盒 Ritual Box  银，局部金饰 沃尔特斯艺术博物馆 沃尔特斯艺术博物馆",
+      "material": "金属",
+      "theme": "器物与供养",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1597",
+      "title_zh": "弥勒与金属镶嵌",
+      "title_en": "Bodhisattva Maitreya",
+      "date_start": 1475,
+      "date_end": 1525,
+      "date_label": "约1500年",
+      "region_ids": [
+        "tsang"
+      ],
+      "display_museum_id": "walters",
+      "collection_museum_id": "walters",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "tsang",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1597",
+      "chapter_ids": [
+        "c5"
+      ],
+      "collection": "沃尔特斯艺术博物馆",
+      "search": "弥勒与金属镶嵌 Bodhisattva Maitreya 54.3090 黄铜嵌铜与银 沃尔特斯艺术博物馆 沃尔特斯艺术博物馆",
+      "material": "金属",
+      "theme": "其他尊神与人物",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1599",
+      "title_zh": "身份未定的佛教神祇",
+      "title_en": "Buddhist Deity",
+      "date_start": 1400,
+      "date_end": 1499,
+      "date_label": "15世纪",
+      "region_ids": [
+        "kathmandu-valley"
+      ],
+      "display_museum_id": "walters",
+      "collection_museum_id": "walters",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "kathmandu-valley",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1599",
+      "chapter_ids": [
+        "c3"
+      ],
+      "collection": "沃尔特斯艺术博物馆",
+      "search": "身份未定的佛教神祇 Buddhist Deity F.190 鎏金铜合金、残彩及半宝石 沃尔特斯艺术博物馆 沃尔特斯艺术博物馆",
+      "material": "金属",
+      "theme": "佛",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1601",
+      "title_zh": "金刚萨埵",
+      "title_en": "Buddha Vajrasattva",
+      "date_start": 1200,
+      "date_end": 1299,
+      "date_label": "13世纪",
+      "region_ids": [
+        "western-himalaya",
+        "tibet-broad"
+      ],
+      "display_museum_id": "walters",
+      "collection_museum_id": "walters",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "western-himalaya",
+          "relationship": "candidate_origin",
+          "certainty": "proposed"
+        },
+        {
+          "place_id": "tibet-broad",
+          "relationship": "candidate_origin",
+          "certainty": "proposed"
+        }
+      ],
+      "primary_photo": "h1601",
+      "chapter_ids": [
+        "c1"
+      ],
+      "collection": "沃尔特斯艺术博物馆",
+      "search": "金刚萨埵 Buddha Vajrasattva 54.3097 黄铜嵌铜 沃尔特斯艺术博物馆 沃尔特斯艺术博物馆",
+      "material": "金属",
+      "theme": "本尊与护法",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1603",
+      "title_zh": "大黑天",
+      "title_en": "Mahakala",
+      "date_start": 1400,
+      "date_end": 1499,
+      "date_label": "15世纪",
+      "region_ids": [
+        "tsang"
+      ],
+      "display_museum_id": "walters",
+      "collection_museum_id": "walters",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "tsang",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1603",
+      "chapter_ids": [
+        "c5"
+      ],
+      "collection": "沃尔特斯艺术博物馆",
+      "search": "大黑天 Mahakala 54.3099 鎏金铜合金、彩及半宝石 沃尔特斯艺术博物馆 沃尔特斯艺术博物馆",
+      "material": "金属",
+      "theme": "本尊与护法",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1605",
+      "title_zh": "狮面空行母",
+      "title_en": "Simhavaktra",
+      "date_start": 1700,
+      "date_end": 1799,
+      "date_label": "18世纪",
+      "region_ids": [
+        "china-court"
+      ],
+      "display_museum_id": "walters",
+      "collection_museum_id": "walters",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "china-court",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1605",
+      "chapter_ids": [
+        "c6"
+      ],
+      "collection": "沃尔特斯艺术博物馆",
+      "search": "狮面空行母 Simhavaktra 54.3085A–B 鎏金铜合金、彩及半宝石 沃尔特斯艺术博物馆 沃尔特斯艺术博物馆",
+      "material": "金属",
+      "theme": "本尊与护法",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1607",
+      "title_zh": "大成就者札兰达拉巴",
+      "title_en": "Mahasiddha Jalandharapa",
+      "date_start": 1400,
+      "date_end": 1499,
+      "date_label": "15世纪",
+      "region_ids": [
+        "tibet-broad"
+      ],
+      "display_museum_id": "walters",
+      "collection_museum_id": "walters",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "tibet-broad",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1607",
+      "chapter_ids": [
+        "c5"
+      ],
+      "collection": "沃尔特斯艺术博物馆",
+      "search": "大成就者札兰达拉巴 Mahasiddha Jalandharapa 54.3102 鎏金铜合金、彩及半宝石 沃尔特斯艺术博物馆 沃尔特斯艺术博物馆",
+      "material": "金属",
+      "theme": "其他尊神与人物",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1609",
+      "title_zh": "苦行上师",
+      "title_en": "Ascetic Master",
+      "date_start": 1500,
+      "date_end": 1599,
+      "date_label": "16世纪",
+      "region_ids": [
+        "tibet-broad"
+      ],
+      "display_museum_id": "walters",
+      "collection_museum_id": "walters",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "tibet-broad",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1609",
+      "chapter_ids": [
+        "c5"
+      ],
+      "collection": "沃尔特斯艺术博物馆",
+      "search": "苦行上师 Ascetic Master 54.3009 铜合金嵌铜与银 沃尔特斯艺术博物馆 沃尔特斯艺术博物馆",
+      "material": "金属",
+      "theme": "其他尊神与人物",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1611",
+      "title_zh": "龙树：匝巴南杰造像",
+      "title_en": "Nagarjuna by Tsapa Namgyal",
+      "date_start": 1600,
+      "date_end": 1699,
+      "date_label": "17世纪",
+      "region_ids": [
+        "central-tibet"
+      ],
+      "display_museum_id": "walters",
+      "collection_museum_id": "walters",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "central-tibet",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1611",
+      "chapter_ids": [
+        "c5"
+      ],
+      "collection": "沃尔特斯艺术博物馆",
+      "search": "龙树：匝巴南杰造像 Nagarjuna by Tsapa Namgyal 54.3008 鎏金铜合金、彩 沃尔特斯艺术博物馆 沃尔特斯艺术博物馆",
+      "material": "金属",
+      "theme": "其他尊神与人物",
+      "reading_unit_ids": [
+        "u20"
+      ]
+    },
+    {
+      "work_id": "w1613",
+      "title_zh": "宝冠佛坐像",
+      "title_en": "Crowned Buddha",
+      "date_start": 1000,
+      "date_end": 1199,
+      "date_label": "11—12世纪",
+      "region_ids": [
+        "tibet-broad"
+      ],
+      "display_museum_id": "walters",
+      "collection_museum_id": "walters",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "tibet-broad",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1613",
+      "chapter_ids": [
+        "c5"
+      ],
+      "collection": "沃尔特斯艺术博物馆",
+      "search": "宝冠佛坐像 Crowned Buddha 54.3082 铜合金，残留鎏金与彩 沃尔特斯艺术博物馆 沃尔特斯艺术博物馆",
+      "material": "金属",
+      "theme": "佛",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1615",
+      "title_zh": "普巴金刚与明妃刺绣",
+      "title_en": "Vajrakila with Consort",
+      "date_start": 1400,
+      "date_end": 1499,
+      "date_label": "15世纪",
+      "region_ids": [
+        "china-court"
+      ],
+      "display_museum_id": "walters",
+      "collection_museum_id": "walters",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "china-court",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1615",
+      "chapter_ids": [
+        "c6"
+      ],
+      "collection": "沃尔特斯艺术博物馆",
+      "search": "普巴金刚与明妃刺绣 Vajrakila with Consort 2024.30.1 丝织物刺绣 沃尔特斯艺术博物馆 沃尔特斯艺术博物馆",
+      "material": "绘画与织物",
+      "theme": "本尊与护法",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1617",
+      "title_zh": "泥塑金刚亥母",
+      "title_en": "Vajravarahi",
+      "date_start": 1400,
+      "date_end": 1499,
+      "date_label": "15世纪",
+      "region_ids": [
+        "kathmandu-valley"
+      ],
+      "display_museum_id": "walters",
+      "collection_museum_id": "walters",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "kathmandu-valley",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1617",
+      "chapter_ids": [
+        "c5"
+      ],
+      "collection": "沃尔特斯艺术博物馆",
+      "search": "泥塑金刚亥母 Vajravarahi 25.270 未烧制泥、金属骨架、彩绘、反绘玻璃与金属箔 沃尔特斯艺术博物馆 沃尔特斯艺术博物馆",
+      "material": "泥塑",
+      "theme": "本尊与护法",
+      "reading_unit_ids": [
+        "u19"
+      ]
+    },
+    {
+      "work_id": "w1619",
+      "title_zh": "时轮金刚与明妃",
+      "title_en": "Kalachakra and Vishvamata",
+      "date_start": 1475,
+      "date_end": 1525,
+      "date_label": "约1500年",
+      "region_ids": [
+        "eastern-tibet",
+        "china-court"
+      ],
+      "display_museum_id": "walters",
+      "collection_museum_id": "walters",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "eastern-tibet",
+          "relationship": "candidate_origin",
+          "certainty": "proposed"
+        },
+        {
+          "place_id": "china-court",
+          "relationship": "candidate_origin",
+          "certainty": "proposed"
+        }
+      ],
+      "primary_photo": "h1619",
+      "chapter_ids": [
+        "c5"
+      ],
+      "collection": "沃尔特斯艺术博物馆",
+      "search": "时轮金刚与明妃 Kalachakra and Vishvamata 54.3103 鎏金铜合金、残彩 沃尔特斯艺术博物馆 沃尔特斯艺术博物馆",
+      "material": "金属",
+      "theme": "本尊与护法",
+      "reading_unit_ids": [
+        "u17"
+      ]
+    },
+    {
+      "work_id": "w1621",
+      "title_zh": "喜金刚与无我佛母",
+      "title_en": "Hevajra and Nairatmya",
+      "date_start": 1375,
+      "date_end": 1499,
+      "date_label": "14世纪末—15世纪",
+      "region_ids": [
+        "tibet-broad"
+      ],
+      "display_museum_id": "walters",
+      "collection_museum_id": "walters",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "tibet-broad",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1621",
+      "chapter_ids": [
+        "c5"
+      ],
+      "collection": "沃尔特斯艺术博物馆",
+      "search": "喜金刚与无我佛母 Hevajra and Nairatmya 54.3101 鎏金铜合金、彩与半宝石 沃尔特斯艺术博物馆 沃尔特斯艺术博物馆",
+      "material": "金属",
+      "theme": "本尊与护法",
+      "reading_unit_ids": [
+        "u18"
+      ]
+    },
+    {
+      "work_id": "w1623",
+      "title_zh": "俄尔寺大威德金刚曼荼罗",
+      "title_en": "Mandala of Vajrabhairava",
+      "date_start": 1515,
+      "date_end": 1535,
+      "date_label": "约1515—1535年",
+      "region_ids": [
+        "ngor"
+      ],
+      "display_museum_id": "seattle",
+      "collection_museum_id": "rubin",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "ngor",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1623",
+      "chapter_ids": [
+        "c4"
+      ],
+      "collection": "Rubin Museum of Himalayan Art藏 · 在西雅图亚洲艺术博物馆／SAM展出",
+      "search": "俄尔寺大威德金刚曼荼罗 Mandala of Vajrabhairava C2005.16.40 布本彩绘 Rubin Museum of Himalayan Art藏 西雅图亚洲艺术博物馆／SAM",
+      "material": "绘画与织物",
+      "theme": "绘画与传承",
+      "reading_unit_ids": [
+        "u15"
+      ]
+    },
+    {
+      "work_id": "w1629",
+      "title_zh": "十一面六臂观音",
+      "title_en": "Ekadashamukha Avalokiteshvara",
+      "date_start": 1200,
+      "date_end": 1799,
+      "date_label": "13—18世纪",
+      "region_ids": [
+        "kathmandu-valley"
+      ],
+      "display_museum_id": "seattle",
+      "collection_museum_id": "seattle",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "kathmandu-valley",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1629",
+      "chapter_ids": [
+        "c3"
+      ],
+      "collection": "西雅图亚洲艺术博物馆／SAM",
+      "search": "十一面六臂观音 Ekadashamukha Avalokiteshvara 70.30 鎏金青铜 西雅图亚洲艺术博物馆／SAM 西雅图亚洲艺术博物馆／SAM",
+      "material": "金属",
+      "theme": "观音",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1631",
+      "title_zh": "摄召金刚亥母：丹萨替构件",
+      "title_en": "Vashya-Vajravarahi",
+      "date_start": 1375,
+      "date_end": 1425,
+      "date_label": "14世纪末—15世纪初",
+      "region_ids": [
+        "densatil"
+      ],
+      "display_museum_id": "seattle",
+      "collection_museum_id": "seattle",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "densatil",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1631",
+      "chapter_ids": [
+        "c4"
+      ],
+      "collection": "西雅图亚洲艺术博物馆／SAM",
+      "search": "摄召金刚亥母：丹萨替构件 Vashya-Vajravarahi 70.2 鎏金铜合金嵌半宝石 西雅图亚洲艺术博物馆／SAM 西雅图亚洲艺术博物馆／SAM",
+      "material": "金属",
+      "theme": "本尊与护法",
+      "reading_unit_ids": [
+        "u16"
+      ]
+    },
+    {
+      "work_id": "w1633",
+      "title_zh": "施愿印文殊",
+      "title_en": "Bodhisattva Manjushri in Varada Mudra",
+      "date_start": 1275,
+      "date_end": 1399,
+      "date_label": "13世纪末—14世纪",
+      "region_ids": [
+        "central-tibet"
+      ],
+      "display_museum_id": "seattle",
+      "collection_museum_id": "seattle",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "central-tibet",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1633",
+      "chapter_ids": [
+        "c5"
+      ],
+      "collection": "西雅图亚洲艺术博物馆／SAM",
+      "search": "施愿印文殊 Bodhisattva Manjushri in Varada Mudra 70.62 铜合金嵌银与绿松石 西雅图亚洲艺术博物馆／SAM 西雅图亚洲艺术博物馆／SAM",
+      "material": "金属",
+      "theme": "文殊",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1635",
+      "title_zh": "明初触地印佛",
+      "title_en": "Buddha Shakyamuni in Bhumisparsha Mudra",
+      "date_start": 1300,
+      "date_end": 1499,
+      "date_label": "14—15世纪",
+      "region_ids": [
+        "china-court"
+      ],
+      "display_museum_id": "seattle",
+      "collection_museum_id": "seattle",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "china-court",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1635",
+      "chapter_ids": [
+        "c6"
+      ],
+      "collection": "西雅图亚洲艺术博物馆／SAM",
+      "search": "明初触地印佛 Buddha Shakyamuni in Bhumisparsha Mudra  铜合金、黑漆、嵌金与银 西雅图亚洲艺术博物馆／SAM 西雅图亚洲艺术博物馆／SAM",
+      "material": "金属",
+      "theme": "佛",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1637",
+      "title_zh": "说法印佛坐像",
+      "title_en": "Buddha Shakyamuni in Dharmachakra Mudra",
+      "date_start": 775,
+      "date_end": 825,
+      "date_label": "8世纪末—9世纪初",
+      "region_ids": [
+        "kashmir"
+      ],
+      "display_museum_id": "seattle",
+      "collection_museum_id": "seattle",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "kashmir",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1637",
+      "chapter_ids": [
+        "c1"
+      ],
+      "collection": "西雅图亚洲艺术博物馆／SAM",
+      "search": "说法印佛坐像 Buddha Shakyamuni in Dharmachakra Mudra 74.70 铜合金嵌银与铜 西雅图亚洲艺术博物馆／SAM 西雅图亚洲艺术博物馆／SAM",
+      "material": "金属",
+      "theme": "佛",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1639",
+      "title_zh": "因陀罗",
+      "title_en": "Indra, Lord of Storms",
+      "date_start": 1300,
+      "date_end": 1399,
+      "date_label": "约14世纪",
+      "region_ids": [
+        "kathmandu-valley"
+      ],
+      "display_museum_id": "seattle",
+      "collection_museum_id": "seattle",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "kathmandu-valley",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1639",
+      "chapter_ids": [
+        "c3"
+      ],
+      "collection": "西雅图亚洲艺术博物馆／SAM",
+      "search": "因陀罗 Indra, Lord of Storms 51.101 铜合金、半宝石 西雅图亚洲艺术博物馆／SAM 西雅图亚洲艺术博物馆／SAM",
+      "material": "金属",
+      "theme": "印度教诸神",
+      "reading_unit_ids": [
+        "u12"
+      ]
+    },
+    {
+      "work_id": "w1641",
+      "title_zh": "俄尔寺堪布桑杰僧格肖像",
+      "title_en": "Ngor Abbot Sanggye Sengge as Lineal Guru",
+      "date_start": 1580,
+      "date_end": 1599,
+      "date_label": "1580—1590年代",
+      "region_ids": [
+        "ngor"
+      ],
+      "display_museum_id": "seattle",
+      "collection_museum_id": "rubin",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "ngor",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1641",
+      "chapter_ids": [
+        "c4"
+      ],
+      "collection": "Rubin Museum of Himalayan Art藏 · 在西雅图亚洲艺术博物馆／SAM展出",
+      "search": "俄尔寺堪布桑杰僧格肖像 Ngor Abbot Sanggye Sengge as Lineal Guru F1996.26.1 布本彩绘 Rubin Museum of Himalayan Art藏 西雅图亚洲艺术博物馆／SAM",
+      "material": "绘画与织物",
+      "theme": "绘画与传承",
+      "reading_unit_ids": [
+        "u14"
+      ]
+    },
+    {
+      "work_id": "w1643",
+      "title_zh": "宣德赐款观音",
+      "title_en": "Bodhisattva Avalokiteshvara",
+      "date_start": 1426,
+      "date_end": 1435,
+      "date_label": "1426—1435年",
+      "region_ids": [
+        "china-court"
+      ],
+      "display_museum_id": "seattle",
+      "collection_museum_id": "seattle",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "china-court",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1657",
+      "chapter_ids": [
+        "c6"
+      ],
+      "collection": "西雅图亚洲艺术博物馆／SAM",
+      "search": "宣德赐款观音 Bodhisattva Avalokiteshvara 59.59 鎏金铜合金 西雅图亚洲艺术博物馆／SAM 西雅图亚洲艺术博物馆／SAM",
+      "material": "金属",
+      "theme": "观音",
+      "reading_unit_ids": [
+        "u23"
+      ]
+    },
+    {
+      "work_id": "w1645",
+      "title_zh": "宝生佛、忿怒尊与中阴诸尊",
+      "title_en": "Ratnasambhava, Ratna Heruka and Deities of the Bardo",
+      "date_start": 1700,
+      "date_end": 1799,
+      "date_label": "18世纪",
+      "region_ids": [
+        "tibet-broad"
+      ],
+      "display_museum_id": "seattle",
+      "collection_museum_id": "rubin",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "tibet-broad",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1645",
+      "chapter_ids": [
+        "c5"
+      ],
+      "collection": "Rubin Museum of Himalayan Art藏 · 在西雅图亚洲艺术博物馆／SAM展出",
+      "search": "宝生佛、忿怒尊与中阴诸尊 Ratnasambhava, Ratna Heruka and Deities of the Bardo C2006.66.417 布本彩绘 Rubin Museum of Himalayan Art藏 西雅图亚洲艺术博物馆／SAM",
+      "material": "绘画与织物",
+      "theme": "佛",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1647",
+      "title_zh": "新娘项链塔约",
+      "title_en": "Tayo Bridal Necklace",
+      "date_start": 1875,
+      "date_end": 1925,
+      "date_label": "19世纪末—20世纪初",
+      "region_ids": [
+        "kathmandu-valley"
+      ],
+      "display_museum_id": "seattle",
+      "collection_museum_id": "seattle",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "kathmandu-valley",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1647",
+      "chapter_ids": [
+        "c3"
+      ],
+      "collection": "西雅图亚洲艺术博物馆／SAM",
+      "search": "新娘项链塔约 Tayo Bridal Necklace  鎏金黄铜嵌多种宝石、珊瑚与珍珠，天鹅绒 西雅图亚洲艺术博物馆／SAM 西雅图亚洲艺术博物馆／SAM",
+      "material": "金属",
+      "theme": "器物与供养",
+      "reading_unit_ids": [
+        "u10"
+      ]
+    },
+    {
+      "work_id": "w1649",
+      "title_zh": "降魔成道佛",
+      "title_en": "Buddha Shakyamuni Triumphing over Mara",
+      "date_start": 825,
+      "date_end": 875,
+      "date_label": "约9世纪中叶",
+      "region_ids": [
+        "kurkihar"
+      ],
+      "display_museum_id": "seattle",
+      "collection_museum_id": "seattle",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "kurkihar",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1649",
+      "chapter_ids": [
+        "c2"
+      ],
+      "collection": "西雅图亚洲艺术博物馆／SAM",
+      "search": "降魔成道佛 Buddha Shakyamuni Triumphing over Mara 39.35 黑石 西雅图亚洲艺术博物馆／SAM 西雅图亚洲艺术博物馆／SAM",
+      "material": "石",
+      "theme": "佛",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1651",
+      "title_zh": "佛教宇宙供养结构残部",
+      "title_en": "Partial Votive Structure with the Buddhist Cosmos",
+      "date_start": 850,
+      "date_end": 900,
+      "date_label": "约850—900年",
+      "region_ids": [
+        "pala-bengal"
+      ],
+      "display_museum_id": "seattle",
+      "collection_museum_id": "seattle",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "pala-bengal",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1651",
+      "chapter_ids": [
+        "c2"
+      ],
+      "collection": "西雅图亚洲艺术博物馆／SAM",
+      "search": "佛教宇宙供养结构残部 Partial Votive Structure with the Buddhist Cosmos 48.166 象牙 西雅图亚洲艺术博物馆／SAM 西雅图亚洲艺术博物馆／SAM",
+      "material": "象牙",
+      "theme": "佛",
+      "reading_unit_ids": [
+        "u08"
+      ]
+    },
+    {
+      "work_id": "w1653",
+      "title_zh": "触地印释迦牟尼",
+      "title_en": "Buddha Shakyamuni in Bhumisparsha Mudra",
+      "date_start": 1300,
+      "date_end": 1399,
+      "date_label": "14世纪",
+      "region_ids": [
+        "western-tibet",
+        "central-tibet"
+      ],
+      "display_museum_id": "seattle",
+      "collection_museum_id": "seattle",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "western-tibet",
+          "relationship": "candidate_origin",
+          "certainty": "proposed"
+        },
+        {
+          "place_id": "central-tibet",
+          "relationship": "candidate_origin",
+          "certainty": "proposed"
+        }
+      ],
+      "primary_photo": "h1653",
+      "chapter_ids": [
+        "c5"
+      ],
+      "collection": "西雅图亚洲艺术博物馆／SAM",
+      "search": "触地印释迦牟尼 Buddha Shakyamuni in Bhumisparsha Mudra 69.144 铜合金 西雅图亚洲艺术博物馆／SAM 西雅图亚洲艺术博物馆／SAM",
+      "material": "金属",
+      "theme": "其他尊神与人物",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1660",
+      "title_zh": "噶当式供养佛塔",
+      "title_en": "Kadampa Votive Stupa",
+      "date_start": 1100,
+      "date_end": 1199,
+      "date_label": "12世纪",
+      "region_ids": [
+        "tibet-broad"
+      ],
+      "display_museum_id": "portland",
+      "collection_museum_id": "portland",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "tibet-broad",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1660",
+      "chapter_ids": [
+        "c5"
+      ],
+      "collection": "波特兰艺术博物馆",
+      "search": "噶当式供养佛塔 Kadampa Votive Stupa 2011.71 青铜 波特兰艺术博物馆 波特兰艺术博物馆",
+      "material": "金属",
+      "theme": "器物与供养",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1662",
+      "title_zh": "帕拉佛坐像",
+      "title_en": "Seated Buddha",
+      "date_start": 800,
+      "date_end": 999,
+      "date_label": "9—10世纪",
+      "region_ids": [
+        "pala-bihar"
+      ],
+      "display_museum_id": "nelson",
+      "collection_museum_id": "nelson",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "pala-bihar",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1662",
+      "chapter_ids": [
+        "c2"
+      ],
+      "collection": "纳尔逊—阿特金斯艺术博物馆",
+      "search": "帕拉佛坐像 Seated Buddha 31-63 片岩 纳尔逊—阿特金斯艺术博物馆 纳尔逊—阿特金斯艺术博物馆",
+      "material": "其他／未详",
+      "theme": "佛",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1664",
+      "title_zh": "毗卢遮那与八大菩萨旅行佛龛",
+      "title_en": "Traveling Shrine with Vairocana and Eight Bodhisattvas",
+      "date_start": 700,
+      "date_end": 899,
+      "date_label": "8—9世纪",
+      "region_ids": [
+        "kashmir",
+        "central-asia"
+      ],
+      "display_museum_id": "nelson",
+      "collection_museum_id": "nelson",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "kashmir",
+          "relationship": "style_and_candidate_origin",
+          "certainty": "proposed"
+        },
+        {
+          "place_id": "central-asia",
+          "relationship": "candidate_origin",
+          "certainty": "proposed"
+        }
+      ],
+      "primary_photo": "h1664",
+      "chapter_ids": [
+        "c1"
+      ],
+      "collection": "纳尔逊—阿特金斯艺术博物馆",
+      "search": "毗卢遮那与八大菩萨旅行佛龛 Traveling Shrine with Vairocana and Eight Bodhisattvas 44-18 木，残彩与金 纳尔逊—阿特金斯艺术博物馆 纳尔逊—阿特金斯艺术博物馆",
+      "material": "木",
+      "theme": "器物与供养",
+      "reading_unit_ids": [
+        "u04"
+      ]
+    },
+    {
+      "work_id": "w1674",
+      "title_zh": "至上婆苏提婆—那罗延与化身",
+      "title_en": "Para Vasudeva-Narayana with Vyuhas",
+      "date_start": 800,
+      "date_end": 899,
+      "date_label": "9世纪",
+      "region_ids": [
+        "kashmir"
+      ],
+      "display_museum_id": "nelson",
+      "collection_museum_id": "nelson",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "kashmir",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1674",
+      "chapter_ids": [
+        "c1"
+      ],
+      "collection": "纳尔逊—阿特金斯艺术博物馆",
+      "search": "至上婆苏提婆—那罗延与化身 Para Vasudeva-Narayana with Vyuhas  黄铜嵌铜与银 纳尔逊—阿特金斯艺术博物馆 纳尔逊—阿特金斯艺术博物馆",
+      "material": "金属",
+      "theme": "印度教诸神",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1677",
+      "title_zh": "从高处降下的观音",
+      "title_en": "Avalokiteshvara, the Lord Who Comes Down from on High",
+      "date_start": 1000,
+      "date_end": 1050,
+      "date_label": "1000—1050年",
+      "region_ids": [
+        "guge"
+      ],
+      "display_museum_id": "nmaa",
+      "collection_museum_id": "nmaa",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "guge",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1677",
+      "chapter_ids": [
+        "c5"
+      ],
+      "collection": "史密森尼国立亚洲艺术博物馆",
+      "search": "从高处降下的观音 Avalokiteshvara, the Lord Who Comes Down from on High F2001.2a–d 黄铜合金嵌铜与锡，彩蜡、残金与颜料 史密森尼国立亚洲艺术博物馆 史密森尼国立亚洲艺术博物馆",
+      "material": "金属",
+      "theme": "观音",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1679",
+      "title_zh": "白观音：不空羂索观音",
+      "title_en": "White Avalokiteshvara (Amoghapasha Lokeshvara)",
+      "date_start": 1300,
+      "date_end": 1399,
+      "date_label": "14世纪",
+      "region_ids": [
+        "kathmandu-valley"
+      ],
+      "display_museum_id": "nmaa",
+      "collection_museum_id": "nmaa",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "kathmandu-valley",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1679",
+      "chapter_ids": [
+        "c3"
+      ],
+      "collection": "史密森尼国立亚洲艺术博物馆",
+      "search": "白观音：不空羂索观音 White Avalokiteshvara (Amoghapasha Lokeshvara) F2000.5 彩绘木 史密森尼国立亚洲艺术博物馆 史密森尼国立亚洲艺术博物馆",
+      "material": "木",
+      "theme": "观音",
+      "reading_unit_ids": [
+        "u11"
+      ]
+    },
+    {
+      "work_id": "w1681",
+      "title_zh": "触地印佛坐像",
+      "title_en": "The Buddha (Awakened One)",
+      "date_start": 1300,
+      "date_end": 1399,
+      "date_label": "14世纪",
+      "region_ids": [
+        "central-tibet"
+      ],
+      "display_museum_id": "nmaa",
+      "collection_museum_id": "nmaa",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "central-tibet",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1681",
+      "chapter_ids": [
+        "c5"
+      ],
+      "collection": "史密森尼国立亚洲艺术博物馆",
+      "search": "触地印佛坐像 The Buddha (Awakened One)  鎏金黄铜与彩 史密森尼国立亚洲艺术博物馆 史密森尼国立亚洲艺术博物馆",
+      "material": "金属",
+      "theme": "佛",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1683",
+      "title_zh": "持世佛母：纪年1082年",
+      "title_en": "Vasudhara, Bearer of Gems",
+      "date_start": 1082,
+      "date_end": 1082,
+      "date_label": "1082年冬",
+      "region_ids": [
+        "kathmandu-valley"
+      ],
+      "display_museum_id": "nmaa",
+      "collection_museum_id": "nmaa",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "kathmandu-valley",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1683",
+      "chapter_ids": [
+        "c3"
+      ],
+      "collection": "史密森尼国立亚洲艺术博物馆",
+      "search": "持世佛母：纪年1082年 Vasudhara, Bearer of Gems S2012.2 鎏金铜、半宝石、朱砂痕迹 史密森尼国立亚洲艺术博物馆 史密森尼国立亚洲艺术博物馆",
+      "material": "金属",
+      "theme": "佛",
+      "reading_unit_ids": [
+        "u12"
+      ]
+    },
+    {
+      "work_id": "w1685",
+      "title_zh": "甘珠尔经板：传承人物",
+      "title_en": "Cover for a Volume of the Kanjur",
+      "date_start": 1700,
+      "date_end": 1799,
+      "date_label": "18世纪",
+      "region_ids": [
+        "tibet-broad"
+      ],
+      "display_museum_id": "nmaa",
+      "collection_museum_id": "nmaa",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "tibet-broad",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1685",
+      "chapter_ids": [
+        "c6"
+      ],
+      "collection": "史密森尼国立亚洲艺术博物馆",
+      "search": "甘珠尔经板：传承人物 Cover for a Volume of the Kanjur S2004.8 木、金与残彩 史密森尼国立亚洲艺术博物馆 史密森尼国立亚洲艺术博物馆",
+      "material": "木",
+      "theme": "器物与供养",
+      "reading_unit_ids": [
+        "u22"
+      ]
+    },
+    {
+      "work_id": "w1687",
+      "title_zh": "六字观音经板",
+      "title_en": "Book Cover with Shadakshari Avalokiteshvara",
+      "date_start": null,
+      "date_end": 1799,
+      "date_label": "约18世纪或更早",
+      "region_ids": [
+        "tibet-broad"
+      ],
+      "display_museum_id": "nmaa",
+      "collection_museum_id": "nmaa",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "tibet-broad",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1687",
+      "chapter_ids": [
+        "c6"
+      ],
+      "collection": "史密森尼国立亚洲艺术博物馆",
+      "search": "六字观音经板 Book Cover with Shadakshari Avalokiteshvara S2023.4.1 木、金与彩 史密森尼国立亚洲艺术博物馆 史密森尼国立亚洲艺术博物馆",
+      "material": "木",
+      "theme": "观音",
+      "reading_unit_ids": [
+        "u22"
+      ]
+    },
+    {
+      "work_id": "w1689",
+      "title_zh": "藏传佛教佛堂陈设",
+      "title_en": "Tibetan Buddhist Shrine Room Installation",
+      "date_start": null,
+      "date_end": null,
+      "date_label": "组合陈设；单件年代不一",
+      "region_ids": [
+        "tibet-broad"
+      ],
+      "display_museum_id": null,
+      "collection_museum_id": null,
+      "map_enabled": false,
+      "map_associations": [
+        {
+          "place_id": "tibet-broad",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1689",
+      "chapter_ids": [
+        "c6"
+      ],
+      "collection": "佛堂陈设，归属待核；NMAA Kandell佛堂为候选",
+      "search": "藏传佛教佛堂陈设 Tibetan Buddhist Shrine Room Installation  多种材料的组合陈设 佛堂陈设，归属待核；NMAA Kandell佛堂为候选 佛堂陈设，归属待核；NMAA Kandell佛堂为候选",
+      "material": "其他／未详",
+      "theme": "佛",
+      "reading_unit_ids": [
+        "u24"
+      ]
+    },
+    {
+      "work_id": "w1692",
+      "title_zh": "金刚鬘四曼荼罗",
+      "title_en": "Four Mandalas of the Vajravali Series",
+      "date_start": 1429,
+      "date_end": 1456,
+      "date_label": "约1429—1456年",
+      "region_ids": [
+        "ngor"
+      ],
+      "display_museum_id": "kimbell",
+      "collection_museum_id": "kimbell",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "ngor",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1692",
+      "chapter_ids": [
+        "c4"
+      ],
+      "collection": "金贝尔艺术博物馆",
+      "search": "金刚鬘四曼荼罗 Four Mandalas of the Vajravali Series AP 2000.01 棉布彩绘 金贝尔艺术博物馆 金贝尔艺术博物馆",
+      "material": "绘画与织物",
+      "theme": "绘画与传承",
+      "reading_unit_ids": [
+        "u15"
+      ]
+    },
+    {
+      "work_id": "w1698",
+      "title_zh": "空行观音",
+      "title_en": "Bodhisattva Khasarpana Lokeshvara",
+      "date_start": 1000,
+      "date_end": 1199,
+      "date_label": "11—12世纪",
+      "region_ids": [
+        "pala-bengal"
+      ],
+      "display_museum_id": "kimbell",
+      "collection_museum_id": "kimbell",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "pala-bengal",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1698",
+      "chapter_ids": [
+        "c2"
+      ],
+      "collection": "金贝尔艺术博物馆",
+      "search": "空行观音 Bodhisattva Khasarpana Lokeshvara AP 1970.13 灰色片岩 金贝尔艺术博物馆 金贝尔艺术博物馆",
+      "material": "其他／未详",
+      "theme": "观音",
+      "reading_unit_ids": [
+        "u07"
+      ]
+    },
+    {
+      "work_id": "w1700",
+      "title_zh": "尼泊尔释迦牟尼立像",
+      "title_en": "Standing Buddha Shakyamuni",
+      "date_start": 600,
+      "date_end": 699,
+      "date_label": "7世纪",
+      "region_ids": [
+        "kathmandu-valley"
+      ],
+      "display_museum_id": "kimbell",
+      "collection_museum_id": "kimbell",
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "kathmandu-valley",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1700",
+      "chapter_ids": [
+        "c3"
+      ],
+      "collection": "金贝尔艺术博物馆",
+      "search": "尼泊尔释迦牟尼立像 Standing Buddha Shakyamuni AP 1979.01 鎏金铜 金贝尔艺术博物馆 金贝尔艺术博物馆",
+      "material": "金属",
+      "theme": "其他尊神与人物",
+      "reading_unit_ids": [
+        "u09"
+      ]
+    },
+    {
+      "work_id": "w1705",
+      "title_zh": "五方佛之一，可能为阿閦佛",
+      "title_en": "One of the Five Wisdom Buddhas, Possibly Akshobhya",
+      "date_start": 1100,
+      "date_end": 1199,
+      "date_label": "约12世纪",
+      "region_ids": [
+        "tibet-broad"
+      ],
+      "display_museum_id": "mfah",
+      "collection_museum_id": null,
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "tibet-broad",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1705",
+      "chapter_ids": [
+        "c6"
+      ],
+      "collection": "虚舟收藏（The Xuzhou Collection of Buddhist Art） · 在休斯顿美术馆展出",
+      "search": "五方佛之一，可能为阿閦佛 One of the Five Wisdom Buddhas, Possibly Akshobhya  鎏金铜 虚舟收藏（The Xuzhou Collection of Buddhist Art） 休斯顿美术馆",
+      "material": "金属",
+      "theme": "佛",
+      "reading_unit_ids": [
+        "u21"
+      ]
+    },
+    {
+      "work_id": "w1709",
+      "title_zh": "触地印佛",
+      "title_en": "Buddha Calling the Earth to Witness",
+      "date_start": 900,
+      "date_end": 1099,
+      "date_label": "10—11世纪",
+      "region_ids": [
+        "pala-india"
+      ],
+      "display_museum_id": "mfah",
+      "collection_museum_id": null,
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "pala-india",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1709",
+      "chapter_ids": [
+        "c2"
+      ],
+      "collection": "虚舟收藏（The Xuzhou Collection of Buddhist Art） · 在休斯顿美术馆展出",
+      "search": "触地印佛 Buddha Calling the Earth to Witness  青铜嵌银 虚舟收藏（The Xuzhou Collection of Buddhist Art） 休斯顿美术馆",
+      "material": "金属",
+      "theme": "佛",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1711",
+      "title_zh": "银镶衣缝的佛坐像",
+      "title_en": "Seated Buddha",
+      "date_start": 1400,
+      "date_end": 1499,
+      "date_label": "15世纪",
+      "region_ids": [
+        "tibet-broad"
+      ],
+      "display_museum_id": "mfah",
+      "collection_museum_id": null,
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "tibet-broad",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1711",
+      "chapter_ids": [
+        "c5"
+      ],
+      "collection": "虚舟收藏（The Xuzhou Collection of Buddhist Art） · 在休斯顿美术馆展出",
+      "search": "银镶衣缝的佛坐像 Seated Buddha  鎏金青铜嵌银 虚舟收藏（The Xuzhou Collection of Buddhist Art） 休斯顿美术馆",
+      "material": "金属",
+      "theme": "佛",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1713",
+      "title_zh": "垂足说法佛",
+      "title_en": "Buddha Enthroned",
+      "date_start": 700,
+      "date_end": 899,
+      "date_label": "8—9世纪",
+      "region_ids": [
+        "greater-kashmir"
+      ],
+      "display_museum_id": "mfah",
+      "collection_museum_id": null,
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "greater-kashmir",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1713",
+      "chapter_ids": [
+        "c1"
+      ],
+      "collection": "虚舟收藏（The Xuzhou Collection of Buddhist Art） · 在休斯顿美术馆展出",
+      "search": "垂足说法佛 Buddha Enthroned  铜合金嵌银 虚舟收藏（The Xuzhou Collection of Buddhist Art） 休斯顿美术馆",
+      "material": "金属",
+      "theme": "佛",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1715",
+      "title_zh": "斯瓦特持莲观音",
+      "title_en": "Lotus-Bearing Avalokiteshvara",
+      "date_start": 600,
+      "date_end": 699,
+      "date_label": "约7世纪",
+      "region_ids": [
+        "swat"
+      ],
+      "display_museum_id": "mfah",
+      "collection_museum_id": null,
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "swat",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1715",
+      "chapter_ids": [
+        "c1"
+      ],
+      "collection": "虚舟收藏（The Xuzhou Collection of Buddhist Art） · 在休斯顿美术馆展出",
+      "search": "斯瓦特持莲观音 Lotus-Bearing Avalokiteshvara  铜合金嵌银 虚舟收藏（The Xuzhou Collection of Buddhist Art） 休斯顿美术馆",
+      "material": "金属",
+      "theme": "观音",
+      "reading_unit_ids": [
+        "u01"
+      ]
+    },
+    {
+      "work_id": "w1719",
+      "title_zh": "随从形亥母",
+      "title_en": "Anucara Varahi",
+      "date_start": 1400,
+      "date_end": 1599,
+      "date_label": "15—16世纪",
+      "region_ids": [
+        "tibet-broad"
+      ],
+      "display_museum_id": "mfah",
+      "collection_museum_id": null,
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "tibet-broad",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1719",
+      "chapter_ids": [
+        "c5"
+      ],
+      "collection": "虚舟收藏（The Xuzhou Collection of Buddhist Art） · 在休斯顿美术馆展出",
+      "search": "随从形亥母 Anucara Varahi  铜合金嵌银、颜料 虚舟收藏（The Xuzhou Collection of Buddhist Art） 休斯顿美术馆",
+      "material": "金属",
+      "theme": "本尊与护法",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1721",
+      "title_zh": "降魔触地印佛",
+      "title_en": "Buddha Maravijaya",
+      "date_start": 1200,
+      "date_end": 1299,
+      "date_label": "约13世纪",
+      "region_ids": [
+        "tibet-broad"
+      ],
+      "display_museum_id": "mfah",
+      "collection_museum_id": null,
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "tibet-broad",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1721",
+      "chapter_ids": [
+        "c5"
+      ],
+      "collection": "虚舟收藏（The Xuzhou Collection of Buddhist Art） · 在休斯顿美术馆展出",
+      "search": "降魔触地印佛 Buddha Maravijaya  铜合金嵌铜与银、颜料 虚舟收藏（The Xuzhou Collection of Buddhist Art） 休斯顿美术馆",
+      "material": "金属",
+      "theme": "佛",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1723",
+      "title_zh": "尼泊尔持莲观音",
+      "title_en": "Padmapani Avalokiteshvara",
+      "date_start": 900,
+      "date_end": 999,
+      "date_label": "约10世纪",
+      "region_ids": [
+        "kathmandu-valley"
+      ],
+      "display_museum_id": "mfah",
+      "collection_museum_id": null,
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "kathmandu-valley",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1723",
+      "chapter_ids": [
+        "c3"
+      ],
+      "collection": "虚舟收藏（The Xuzhou Collection of Buddhist Art） · 在休斯顿美术馆展出",
+      "search": "尼泊尔持莲观音 Padmapani Avalokiteshvara  鎏金铜、颜料 虚舟收藏（The Xuzhou Collection of Buddhist Art） 休斯顿美术馆",
+      "material": "金属",
+      "theme": "观音",
+      "reading_unit_ids": []
+    },
+    {
+      "work_id": "w1725",
+      "title_zh": "文殊童子",
+      "title_en": "Bodhisattva Manjushri Kumara",
+      "date_start": 900,
+      "date_end": 1099,
+      "date_label": "10—11世纪",
+      "region_ids": [
+        "kathmandu-valley"
+      ],
+      "display_museum_id": "mfah",
+      "collection_museum_id": null,
+      "map_enabled": true,
+      "map_associations": [
+        {
+          "place_id": "kathmandu-valley",
+          "relationship": "regional_attribution",
+          "certainty": "regional_only"
+        }
+      ],
+      "primary_photo": "h1725",
+      "chapter_ids": [
+        "c3"
+      ],
+      "collection": "虚舟收藏（The Xuzhou Collection of Buddhist Art） · 在休斯顿美术馆展出",
+      "search": "文殊童子 Bodhisattva Manjushri Kumara  局部鎏金银 虚舟收藏（The Xuzhou Collection of Buddhist Art） 休斯顿美术馆",
+      "material": "金属",
+      "theme": "文殊",
+      "reading_unit_ids": []
+    }
+  ],
+  "units": [
+    {
+      "id": "u01",
+      "title": "一位王后留下的名字",
+      "works": [
+        "w1520",
+        "w1506",
+        "w1715"
+      ]
+    },
+    {
+      "id": "u02",
+      "title": "克什米尔的身体，与藏文的痕迹",
+      "works": [
+        "w1546",
+        "w1540",
+        "w1526"
+      ]
+    },
+    {
+      "id": "u03",
+      "title": "掌心里的佛传",
+      "works": [
+        "w1554",
+        "w1556"
+      ]
+    },
+    {
+      "id": "u04",
+      "title": "可以合拢的神圣空间",
+      "works": [
+        "w1664",
+        "w1577"
+      ]
+    },
+    {
+      "id": "u05",
+      "title": "石匠 Vijaka 的署名",
+      "works": [
+        "w1508"
+      ]
+    },
+    {
+      "id": "u06",
+      "title": "供养者与一朵莲花",
+      "works": [
+        "w1524",
+        "w1522"
+      ]
+    },
+    {
+      "id": "u07",
+      "title": "石头也可以有柔软的重量",
+      "works": [
+        "w1510",
+        "w1698"
+      ]
+    },
+    {
+      "id": "u08",
+      "title": "从一个身体，到一个宇宙",
+      "works": [
+        "w1651",
+        "w1581"
+      ]
+    },
+    {
+      "id": "u09",
+      "title": "笈多之后，山谷中的佛",
+      "works": [
+        "w1700"
+      ]
+    },
+    {
+      "id": "u10",
+      "title": "把五佛戴在头上",
+      "works": [
+        "w1484",
+        "w1647"
+      ]
+    },
+    {
+      "id": "u11",
+      "title": "木与面具：被礼拜的表面",
+      "works": [
+        "w1679",
+        "w1480",
+        "w1585"
+      ]
+    },
+    {
+      "id": "u12",
+      "title": "智慧、丰饶与山谷中的诸神",
+      "works": [
+        "w1683",
+        "w1561",
+        "w1639"
+      ]
+    },
+    {
+      "id": "u13",
+      "title": "托林寺的一小片颜色",
+      "works": [
+        "w1548",
+        "w1542"
+      ]
+    },
+    {
+      "id": "u14",
+      "title": "画出一条传承",
+      "works": [
+        "w1550",
+        "w1641"
+      ]
+    },
+    {
+      "id": "u15",
+      "title": "慢慢进入曼荼罗",
+      "works": [
+        "w1692",
+        "w1623"
+      ]
+    },
+    {
+      "id": "u16",
+      "title": "散落在不同展柜里的丹萨替",
+      "works": [
+        "w1631",
+        "w1494",
+        "w1574a",
+        "w1574b"
+      ]
+    },
+    {
+      "id": "u17",
+      "title": "双身像中的寂静与力量",
+      "works": [
+        "w1478",
+        "w1619"
+      ]
+    },
+    {
+      "id": "u18",
+      "title": "同为喜金刚，手中并不相同",
+      "works": [
+        "w1536",
+        "w1621"
+      ]
+    },
+    {
+      "id": "u19",
+      "title": "泥塑也能保存强烈的生命",
+      "works": [
+        "w1563",
+        "w1617"
+      ]
+    },
+    {
+      "id": "u20",
+      "title": "当艺术家不再无名",
+      "works": [
+        "w1558",
+        "w1611"
+      ]
+    },
+    {
+      "id": "u21",
+      "title": "像的里面，还有一个世界",
+      "works": [
+        "w1587",
+        "w1589",
+        "w1705"
+      ]
+    },
+    {
+      "id": "u22",
+      "title": "经板与佛塔：另一种形体",
+      "works": [
+        "w1687",
+        "w1685",
+        "w1534",
+        "w1577"
+      ]
+    },
+    {
+      "id": "u23",
+      "title": "藏传艺术与宫廷供养",
+      "works": [
+        "w1643",
+        "w1567",
+        "w1571",
+        "w1474"
+      ]
+    },
+    {
+      "id": "u24",
+      "title": "回到佛堂之中",
+      "works": [
+        "w1583",
+        "w1689"
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "id": "northwest",
+      "label": "斯瓦特与吉尔吉特",
+      "members": [
+        "swat",
+        "gilgit"
+      ],
+      "longitude": 72.7,
+      "latitude": 35.8
+    },
+    {
+      "id": "kashmir-tradition",
+      "label": "克什米尔",
+      "members": [
+        "kashmir",
+        "greater-kashmir"
+      ],
+      "longitude": 74.9,
+      "latitude": 33.3
+    },
+    {
+      "id": "west-himalaya",
+      "label": "西喜马拉雅",
+      "members": [
+        "western-himalaya"
+      ],
+      "longitude": 77.6,
+      "latitude": 36.3
+    },
+    {
+      "id": "west-tibet",
+      "label": "古格与西藏西部",
+      "members": [
+        "western-tibet",
+        "guge",
+        "tholing"
+      ],
+      "longitude": 80.5,
+      "latitude": 31.9
+    },
+    {
+      "id": "nepal",
+      "label": "加德满都山谷",
+      "members": [
+        "kathmandu-valley"
+      ],
+      "longitude": 85.3,
+      "latitude": 27.7
+    },
+    {
+      "id": "east-india",
+      "label": "帕拉东印度",
+      "members": [
+        "pala-india",
+        "pala-bihar",
+        "nalanda",
+        "kurkihar",
+        "tetravan",
+        "pala-bengal"
+      ],
+      "longitude": 87.1,
+      "latitude": 23.7
+    },
+    {
+      "id": "tibet",
+      "label": "西藏与中部传统",
+      "members": [
+        "central-tibet",
+        "tibet-broad",
+        "tsang",
+        "ngor",
+        "densatil"
+      ],
+      "longitude": 90.8,
+      "latitude": 30.7
+    },
+    {
+      "id": "east-tibet",
+      "label": "西藏东部",
+      "members": [
+        "eastern-tibet"
+      ],
+      "longitude": 96,
+      "latitude": 33
+    },
+    {
+      "id": "court",
+      "label": "宫廷交流",
+      "members": [
+        "china-court",
+        "beijing-court"
+      ],
+      "longitude": 115,
+      "latitude": 36,
+      "extension": true
+    },
+    {
+      "id": "mongolia",
+      "label": "蒙古地区",
+      "members": [
+        "mongolia"
+      ],
+      "longitude": 103,
+      "latitude": 46.5,
+      "extension": true
+    },
+    {
+      "id": "yunnan",
+      "label": "云南",
+      "members": [
+        "yunnan"
+      ],
+      "longitude": 100.5,
+      "latitude": 26,
+      "extension": true
+    },
+    {
+      "id": "central-asia",
+      "label": "高昌候选地区",
+      "members": [
+        "central-asia"
+      ],
+      "longitude": 89.5,
+      "latitude": 42.9,
+      "extension": true
+    }
+  ],
+  "places": [
+    {
+      "place_id": "swat",
+      "label_zh": "斯瓦特河谷",
+      "latitude": 34.8,
+      "longitude": 72.4,
+      "radius_km": 90,
+      "precision": "region",
+      "coordinate_basis": "编辑用现代地理参照；约略位置",
+      "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+    },
+    {
+      "place_id": "gilgit",
+      "label_zh": "吉尔吉特",
+      "latitude": 35.9,
+      "longitude": 74.3,
+      "radius_km": 90,
+      "precision": "region",
+      "coordinate_basis": "编辑用现代地理参照；约略位置",
+      "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+    },
+    {
+      "place_id": "kashmir",
+      "label_zh": "克什米尔",
+      "latitude": 34.1,
+      "longitude": 74.8,
+      "radius_km": 170,
+      "precision": "region",
+      "coordinate_basis": "编辑用现代地理参照；约略位置",
+      "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+    },
+    {
+      "place_id": "greater-kashmir",
+      "label_zh": "广义克什米尔",
+      "latitude": 34.4,
+      "longitude": 75.0,
+      "radius_km": 260,
+      "precision": "region",
+      "coordinate_basis": "编辑用现代地理参照；约略位置",
+      "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+    },
+    {
+      "place_id": "western-himalaya",
+      "label_zh": "西喜马拉雅：拉达克／拉胡尔等",
+      "latitude": 33.3,
+      "longitude": 77.6,
+      "radius_km": 250,
+      "precision": "region",
+      "coordinate_basis": "编辑用现代地理参照；约略位置",
+      "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+    },
+    {
+      "place_id": "western-tibet",
+      "label_zh": "西藏西部",
+      "latitude": 31.5,
+      "longitude": 80.8,
+      "radius_km": 330,
+      "precision": "region",
+      "coordinate_basis": "编辑用现代地理参照；约略位置",
+      "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+    },
+    {
+      "place_id": "guge",
+      "label_zh": "古格／阿里",
+      "latitude": 31.5,
+      "longitude": 80.0,
+      "radius_km": 150,
+      "precision": "region",
+      "coordinate_basis": "编辑用现代地理参照；约略位置",
+      "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+    },
+    {
+      "place_id": "tholing",
+      "label_zh": "托林寺相关地区",
+      "latitude": 31.5,
+      "longitude": 79.8,
+      "radius_km": 40,
+      "precision": "associated_site_region",
+      "coordinate_basis": "编辑用现代地理参照；约略位置",
+      "note": "馆方关联托林寺；示意点并非经证实的绘画工坊。"
+    },
+    {
+      "place_id": "central-tibet",
+      "label_zh": "西藏中部",
+      "latitude": 29.7,
+      "longitude": 90.8,
+      "radius_km": 300,
+      "precision": "region",
+      "coordinate_basis": "编辑用现代地理参照；约略位置",
+      "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+    },
+    {
+      "place_id": "tibet-broad",
+      "label_zh": "西藏：具体地区未定",
+      "latitude": 31.5,
+      "longitude": 88.5,
+      "radius_km": 700,
+      "precision": "broad_region",
+      "coordinate_basis": "编辑用现代地理参照；约略位置",
+      "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+    },
+    {
+      "place_id": "tsang",
+      "label_zh": "后藏",
+      "latitude": 29.3,
+      "longitude": 88.9,
+      "radius_km": 180,
+      "precision": "region",
+      "coordinate_basis": "编辑用现代地理参照；约略位置",
+      "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+    },
+    {
+      "place_id": "ngor",
+      "label_zh": "后藏／俄尔寺传统",
+      "latitude": 29.2,
+      "longitude": 88.8,
+      "radius_km": 80,
+      "precision": "associated_site_region",
+      "coordinate_basis": "编辑用现代地理参照；约略位置",
+      "note": "按俄尔寺关联分组，示意点不精确定位创作工坊。"
+    },
+    {
+      "place_id": "densatil",
+      "label_zh": "丹萨替相关地区",
+      "latitude": 29.3,
+      "longitude": 91.8,
+      "radius_km": 70,
+      "precision": "associated_site_region",
+      "coordinate_basis": "编辑用现代地理参照；约略位置",
+      "note": "根据馆方丹萨替关联；不以此证明各件来自同一座塔。"
+    },
+    {
+      "place_id": "eastern-tibet",
+      "label_zh": "西藏东部",
+      "latitude": 31.5,
+      "longitude": 96.0,
+      "radius_km": 450,
+      "precision": "region",
+      "coordinate_basis": "编辑用现代地理参照；约略位置",
+      "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+    },
+    {
+      "place_id": "pala-india",
+      "label_zh": "帕拉东印度：具体地区未定",
+      "latitude": 25.0,
+      "longitude": 86.8,
+      "radius_km": 420,
+      "precision": "broad_region",
+      "coordinate_basis": "编辑用现代地理参照；约略位置",
+      "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+    },
+    {
+      "place_id": "pala-bihar",
+      "label_zh": "帕拉比哈尔",
+      "latitude": 25.1,
+      "longitude": 85.4,
+      "radius_km": 190,
+      "precision": "region",
+      "coordinate_basis": "编辑用现代地理参照；约略位置",
+      "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+    },
+    {
+      "place_id": "nalanda",
+      "label_zh": "那烂陀相关地区",
+      "latitude": 25.1,
+      "longitude": 85.4,
+      "radius_km": 40,
+      "precision": "associated_site_region",
+      "coordinate_basis": "编辑用现代地理参照；约略位置",
+      "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+    },
+    {
+      "place_id": "kurkihar",
+      "label_zh": "俱利诃尔相关地区",
+      "latitude": 24.8,
+      "longitude": 85.3,
+      "radius_km": 45,
+      "precision": "associated_site_region",
+      "coordinate_basis": "编辑用现代地理参照；约略位置",
+      "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+    },
+    {
+      "place_id": "tetravan",
+      "label_zh": "特特拉万相关地区",
+      "latitude": 25.1,
+      "longitude": 85.5,
+      "radius_km": 50,
+      "precision": "associated_site_region",
+      "coordinate_basis": "编辑用现代地理参照；约略位置",
+      "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+    },
+    {
+      "place_id": "pala-bengal",
+      "label_zh": "帕拉孟加拉",
+      "latitude": 24.0,
+      "longitude": 89.0,
+      "radius_km": 380,
+      "precision": "region",
+      "coordinate_basis": "编辑用现代地理参照；约略位置",
+      "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+    },
+    {
+      "place_id": "kathmandu-valley",
+      "label_zh": "尼泊尔／加德满都山谷传统",
+      "latitude": 27.7,
+      "longitude": 85.3,
+      "radius_km": 80,
+      "precision": "region",
+      "coordinate_basis": "编辑用现代地理参照；约略位置",
+      "note": "部分展签只写Nepal；以山谷传统作导航，不把所有尼泊尔作品精确定位于一城。"
+    },
+    {
+      "place_id": "china-court",
+      "label_zh": "中国宫廷：具体工坊未定",
+      "latitude": 35.0,
+      "longitude": 115.0,
+      "radius_km": 1050,
+      "precision": "broad_region",
+      "coordinate_basis": "编辑用现代地理参照；约略位置",
+      "note": "仅用于明确藏传关联的宫廷作品；不统一视为北京制造。"
+    },
+    {
+      "place_id": "beijing-court",
+      "label_zh": "北京清宫",
+      "latitude": 39.9,
+      "longitude": 116.4,
+      "radius_km": 35,
+      "precision": "associated_site_region",
+      "coordinate_basis": "编辑用现代地理参照；约略位置",
+      "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+    },
+    {
+      "place_id": "mongolia",
+      "label_zh": "蒙古地区",
+      "latitude": 46.5,
+      "longitude": 103.0,
+      "radius_km": 750,
+      "precision": "broad_region",
+      "coordinate_basis": "编辑用现代地理参照；约略位置",
+      "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+    },
+    {
+      "place_id": "yunnan",
+      "label_zh": "云南",
+      "latitude": 26.0,
+      "longitude": 100.5,
+      "radius_km": 240,
+      "precision": "region",
+      "coordinate_basis": "编辑用现代地理参照；约略位置",
+      "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+    },
+    {
+      "place_id": "central-asia",
+      "label_zh": "高昌／吐鲁番候选地区",
+      "latitude": 42.9,
+      "longitude": 89.5,
+      "radius_km": 110,
+      "precision": "candidate_region",
+      "coordinate_basis": "编辑用现代地理参照；约略位置",
+      "note": "只在44-18归属争议比较时显示；不是已证实的制作地址。"
+    }
+  ],
+  "museums": [
+    {
+      "museum_id": "guimet",
+      "label_zh": "吉美博物馆",
+      "name_en": "Musée Guimet",
+      "city": "巴黎",
+      "latitude": 48.865,
+      "longitude": 2.294,
+      "url": "https://www.guimet.fr/",
+      "coordinates_precision": "institution_navigation"
+    },
+    {
+      "museum_id": "carlos",
+      "label_zh": "迈克尔·C·卡洛斯博物馆",
+      "name_en": "Michael C. Carlos Museum",
+      "city": "亚特兰大",
+      "latitude": 33.791,
+      "longitude": -84.323,
+      "url": "https://carlos.emory.edu/",
+      "coordinates_precision": "institution_navigation"
+    },
+    {
+      "museum_id": "dallas",
+      "label_zh": "达拉斯艺术博物馆",
+      "name_en": "Dallas Museum of Art",
+      "city": "达拉斯",
+      "latitude": 32.788,
+      "longitude": -96.801,
+      "url": "https://dma.org/",
+      "coordinates_precision": "institution_navigation"
+    },
+    {
+      "museum_id": "met",
+      "label_zh": "纽约大都会艺术博物馆",
+      "name_en": "The Metropolitan Museum of Art",
+      "city": "纽约",
+      "latitude": 40.779,
+      "longitude": -73.963,
+      "url": "https://www.metmuseum.org/",
+      "coordinates_precision": "institution_navigation"
+    },
+    {
+      "museum_id": "nelson",
+      "label_zh": "纳尔逊—阿特金斯艺术博物馆",
+      "name_en": "The Nelson-Atkins Museum of Art",
+      "city": "堪萨斯城",
+      "latitude": 39.045,
+      "longitude": -94.581,
+      "url": "https://nelson-atkins.org/",
+      "coordinates_precision": "institution_navigation"
+    },
+    {
+      "museum_id": "mfah",
+      "label_zh": "休斯顿美术馆",
+      "name_en": "The Museum of Fine Arts, Houston",
+      "city": "休斯顿",
+      "latitude": 29.726,
+      "longitude": -95.39,
+      "url": "https://www.mfah.org/",
+      "coordinates_precision": "institution_navigation"
+    },
+    {
+      "museum_id": "cleveland",
+      "label_zh": "克利夫兰美术馆",
+      "name_en": "Cleveland Museum of Art",
+      "city": "克利夫兰",
+      "latitude": 41.509,
+      "longitude": -81.612,
+      "url": "https://www.clevelandart.org/",
+      "coordinates_precision": "institution_navigation"
+    },
+    {
+      "museum_id": "sf-asian",
+      "label_zh": "旧金山亚洲艺术博物馆",
+      "name_en": "Asian Art Museum",
+      "city": "旧金山",
+      "latitude": 37.78,
+      "longitude": -122.417,
+      "url": "https://asianart.org/",
+      "coordinates_precision": "institution_navigation"
+    },
+    {
+      "museum_id": "walters",
+      "label_zh": "沃尔特斯艺术博物馆",
+      "name_en": "The Walters Art Museum",
+      "city": "巴尔的摩",
+      "latitude": 39.297,
+      "longitude": -76.616,
+      "url": "https://thewalters.org/",
+      "coordinates_precision": "institution_navigation"
+    },
+    {
+      "museum_id": "seattle",
+      "label_zh": "西雅图亚洲艺术博物馆／SAM",
+      "name_en": "Seattle Asian Art Museum / Seattle Art Museum",
+      "city": "西雅图",
+      "latitude": 47.63,
+      "longitude": -122.315,
+      "url": "https://www.seattleartmuseum.org/",
+      "coordinates_precision": "institution_navigation"
+    },
+    {
+      "museum_id": "portland",
+      "label_zh": "波特兰艺术博物馆",
+      "name_en": "Portland Art Museum",
+      "city": "波特兰",
+      "latitude": 45.516,
+      "longitude": -122.684,
+      "url": "https://portlandartmuseum.org/",
+      "coordinates_precision": "institution_navigation"
+    },
+    {
+      "museum_id": "nmaa",
+      "label_zh": "史密森尼国立亚洲艺术博物馆",
+      "name_en": "National Museum of Asian Art",
+      "city": "华盛顿",
+      "latitude": 38.888,
+      "longitude": -77.027,
+      "url": "https://asia.si.edu/",
+      "coordinates_precision": "institution_navigation"
+    },
+    {
+      "museum_id": "rubin",
+      "label_zh": "鲁宾喜马拉雅艺术博物馆",
+      "name_en": "Rubin Museum of Himalayan Art",
+      "city": "纽约（收藏机构；不代表当前馆舍）",
+      "latitude": null,
+      "longitude": null,
+      "url": "https://rubinmuseum.org/",
+      "coordinates_precision": "institution_navigation",
+      "map_note": "收藏机构保留；本包Rubin三件借展拍于Seattle。不根据机构名称推定现时展址。"
+    },
+    {
+      "museum_id": "palace",
+      "label_zh": "故宫博物院",
+      "name_en": "The Palace Museum",
+      "city": "北京",
+      "latitude": 39.917,
+      "longitude": 116.391,
+      "url": "https://www.dpm.org.cn/",
+      "coordinates_precision": "institution_navigation"
+    },
+    {
+      "museum_id": "british",
+      "label_zh": "大英博物馆",
+      "name_en": "The British Museum",
+      "city": "伦敦",
+      "latitude": 51.519,
+      "longitude": -0.127,
+      "url": "https://www.britishmuseum.org/",
+      "coordinates_precision": "institution_navigation"
+    },
+    {
+      "museum_id": "berlin",
+      "label_zh": "柏林民族学博物馆",
+      "name_en": "Ethnologisches Museum, Staatliche Museen zu Berlin",
+      "city": "柏林",
+      "latitude": 52.517,
+      "longitude": 13.402,
+      "url": "https://www.smb.museum/en/museums-institutions/ethnologisches-museum/home/",
+      "coordinates_precision": "institution_navigation"
+    },
+    {
+      "museum_id": "kimbell",
+      "label_zh": "金贝尔艺术博物馆",
+      "name_en": "Kimbell Art Museum",
+      "city": "沃思堡",
+      "latitude": 32.749,
+      "longitude": -97.365,
+      "url": "https://kimbellart.org/",
+      "coordinates_precision": "institution_navigation"
+    }
+  ]
+}

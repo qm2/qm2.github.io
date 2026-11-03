@@ -3,6 +3,7 @@
 Static pages for the existing GitHub Pages site. No client dependencies or build service.
 
 - `/museum-notes/`: cross-cultural notebook entrance.
+- `/museum-notes/himalayan-art/`: six chapters, 24 close readings and a data-driven geographic guide. See [topic documentation](himalayan-art/README.md) for image permissions, stable work IDs, filtering, checks and adding future visits. Regenerate with `python3 scripts/build_himalayan.py` or the full museum build.
 - `/museum-notes/chinese-painting/`: Chinese painting and calligraphy; first batch has 13 works and 76 photographs from the Nelson-Atkins Song landscape exhibition. See [section notes](chinese-painting/README.md) for pairing, ordering and attribution. Regenerate with `python3 scripts/build_paintings.py`, then `python3 scripts/build_museum.py`.
 - `/museum-notes/chinese-buddhist-art/`: Chinese Buddhist Art section, containing material entries and thematic reading.
 - `/museum-notes/buddhist-sculpture/`: first collection, 36 objects seen in 14 museums (including loaned works).
