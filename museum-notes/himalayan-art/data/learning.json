@@ -14,8 +14,7 @@
             "Uddiyana",
             "Uḍḍiyāna",
             "乌仗那",
-            "乌苌",
-            "犍陀罗"
+            "乌苌"
           ],
           "summary": "今巴基斯坦北部的山谷。与犍陀罗文化相连，也留下了不同于早期叙事浮雕的后期造像。",
           "remember": "先分清年代，再比较河谷之间的联系。",
@@ -82,18 +81,16 @@
           ],
           "clues": [],
           "photo_work_id": "w1506",
-          "display_names": "Swat；古称乌仗那（Uḍḍiyāna）"
+          "display_names": "Swat；古称乌仗那（Uḍḍiyāna）",
+          "keywords": [
+            "犍陀罗"
+          ]
         },
         {
           "id": "gilgit",
           "title": "吉尔吉特：王后的名字与山间佛像",
           "aliases": [
-            "Gilgit",
-            "Patola Shahi",
-            "Palola Shahi",
-            "Mangalahamsika",
-            "王后",
-            "写本"
+            "Gilgit"
           ],
           "summary": "印度河上游山地的河谷中心。金属像上的供养铭文，与当地写本一起留下了王室佛教的线索。",
           "remember": "铭文把一尊佛像，接到一个可考的供养人。",
@@ -160,19 +157,20 @@
           ],
           "clues": [],
           "photo_work_id": "w1520",
-          "display_names": "Gilgit；王室名见Patola／Palola Shahi两种拼写"
+          "display_names": "Gilgit；王室名见Patola／Palola Shahi两种拼写",
+          "keywords": [
+            "Patola Shahi",
+            "Palola Shahi",
+            "Mangalahamsika",
+            "王后",
+            "写本"
+          ]
         },
         {
           "id": "kashmir",
           "title": "克什米尔：山谷制作与山外供奉",
           "aliases": [
-            "Kashmir",
-            "克什米尔风格",
-            "拉达克",
-            "Ladakh",
-            "古格",
-            "Nagaraja",
-            "象牙"
+            "Kashmir"
           ],
           "summary": "克什米尔既是山谷，也是艺术史中的地域名称。制作、风格联系与后来供奉的地方，需要分别阅读。",
           "remember": "一件像可以在山谷制作，后来在西藏获得新的供养关系。",
@@ -253,7 +251,15 @@
           ],
           "clues": [],
           "photo_work_id": "w1546",
-          "display_names": "Kashmir"
+          "display_names": "Kashmir",
+          "keywords": [
+            "克什米尔风格",
+            "拉达克",
+            "Ladakh",
+            "古格",
+            "Nagaraja",
+            "象牙"
+          ]
         },
         {
           "id": "east-india",
@@ -264,12 +270,7 @@
             "帕拉",
             "塞纳",
             "比哈尔",
-            "孟加拉",
-            "那烂陀",
-            "Nalanda",
-            "Vikramashila",
-            "超戒寺",
-            "Vijaka"
+            "孟加拉"
           ],
           "summary": "比哈尔、孟加拉的寺院、写本与制作人，是理解喜马拉雅艺术的一条南方线索。",
           "remember": "先看东印度作品自己的供养与制作，再看它们与山地的联系。",
@@ -341,7 +342,14 @@
           ],
           "clues": [],
           "photo_work_id": "w1508",
-          "display_names": "Pāla–Sena；比哈尔与孟加拉"
+          "display_names": "Pāla–Sena；比哈尔与孟加拉",
+          "keywords": [
+            "那烂陀",
+            "Nalanda",
+            "Vikramashila",
+            "超戒寺",
+            "Vijaka"
+          ]
         }
       ]
     },
@@ -360,10 +368,7 @@
             "释迦牟尼",
             "Shakyamuni",
             "佛",
-            "菩萨",
-            "触地印",
-            "施无畏印",
-            "肉髻"
+            "菩萨"
           ],
           "summary": "佛指觉悟者；菩萨在大乘语境中以觉悟与利益众生为方向。装束帮助辨认，却不是身份的全部。",
           "remember": "冠饰不是“菩萨”的单独证明，手印也要与其他线索合看。",
@@ -428,7 +433,19 @@
             }
           ],
           "photo_work_id": "w1520",
-          "display_names": "佛（Buddha）；菩萨（Bodhisattva）"
+          "display_names": "佛（Buddha）；菩萨（Bodhisattva）",
+          "keywords": [
+            "触地印",
+            "施无畏印",
+            "肉髻"
+          ],
+          "recognition_terms": [
+            "肉髻",
+            "僧衣",
+            "手印",
+            "施无畏印",
+            "触地印"
+          ]
         },
         {
           "id": "avalokiteshvara",
@@ -439,9 +456,7 @@
             "观自在",
             "莲华手",
             "Padmapani",
-            "十一面观音",
-            "阿弥陀佛",
-            "莲花"
+            "十一面观音"
           ],
           "summary": "观音是大乘佛教中与慈悲、救护紧密相连的菩萨。同一名称之下，有多种不同形态。",
           "remember": "先记清这件有几面几臂，再寻找莲花与冠中的小佛。",
@@ -505,7 +520,17 @@
             }
           ],
           "photo_work_id": "w1544",
-          "display_names": "观音／观自在（Avalokiteśvara）；莲华手（Padmapāṇi）为其中一种形态"
+          "display_names": "观音／观自在（Avalokiteśvara）；莲华手（Padmapāṇi）为其中一种形态",
+          "keywords": [
+            "阿弥陀佛",
+            "莲花"
+          ],
+          "recognition_terms": [
+            "莲花",
+            "多面",
+            "多臂",
+            "冠中小佛"
+          ]
         },
         {
           "id": "manjushri",
@@ -514,10 +539,7 @@
             "Manjushri",
             "Mañjuśrī",
             "文殊师利",
-            "四臂文殊",
-            "剑",
-            "弓箭",
-            "经书"
+            "四臂文殊"
           ],
           "summary": "文殊以智慧著称。剑与经书最容易记住，四臂形态还把弓箭纳入组合。",
           "remember": "同样是剑，身份要看它与其他手、莲花和经书怎样相连。",
@@ -580,7 +602,20 @@
             }
           ],
           "photo_work_id": "w1552",
-          "display_names": "文殊／文殊师利（Mañjuśrī）"
+          "display_names": "文殊／文殊师利（Mañjuśrī）",
+          "keywords": [
+            "剑",
+            "弓箭",
+            "经书"
+          ],
+          "recognition_terms": [
+            "剑",
+            "剑柄",
+            "弓箭",
+            "经书",
+            "四臂",
+            "莲花"
+          ]
         },
         {
           "id": "vajra-pair",
@@ -589,10 +624,7 @@
             "Vajradhara",
             "Vajrasattva",
             "金刚持",
-            "金刚萨埵",
-            "金刚杵",
-            "铃",
-            "法身佛"
+            "金刚萨埵"
           ],
           "summary": "金刚持在一些传承中表示法身佛与教法源头；金刚萨埵则与净化实践密切相关。",
           "remember": "看胸前：交叉双手，还是一手在胸、一手在胯。",
@@ -666,7 +698,18 @@
             }
           ],
           "photo_work_id": "w1601",
-          "display_names": "金刚持（Vajradhara）；金刚萨埵（Vajrasattva）"
+          "display_names": "金刚持（Vajradhara）；金刚萨埵（Vajrasattva）",
+          "keywords": [
+            "金刚杵",
+            "铃",
+            "法身佛"
+          ],
+          "recognition_terms": [
+            "金刚杵",
+            "铃",
+            "胸前交叉",
+            "双手"
+          ]
         },
         {
           "id": "hevajra",
@@ -676,10 +719,7 @@
             "Nairatmya",
             "Nairātmyā",
             "喜金刚",
-            "无我佛母",
-            "颅器",
-            "明妃",
-            "双身"
+            "无我佛母"
           ],
           "summary": "喜金刚是重要的本尊形象；无我佛母既可与他相拥，也可独立出现在传承画里。",
           "remember": "多头多臂只是起点，颅器型和持武器型要分开看。",
@@ -760,7 +800,20 @@
             }
           ],
           "photo_work_id": "w1621",
-          "display_names": "喜金刚（Hevajra）；无我佛母（Nairātmyā）"
+          "display_names": "喜金刚（Hevajra）；无我佛母（Nairātmyā）",
+          "keywords": [
+            "颅器",
+            "明妃",
+            "双身"
+          ],
+          "recognition_terms": [
+            "颅器",
+            "武器",
+            "八头",
+            "十六臂",
+            "四腿",
+            "明妃"
+          ]
         },
         {
           "id": "vajrabhairava",
@@ -768,10 +821,7 @@
           "aliases": [
             "Vajrabhairava",
             "大威德金刚",
-            "怖畏金刚",
-            "牛首",
-            "九面",
-            "三十四臂"
+            "怖畏金刚"
           ],
           "summary": "此处指Vajrabhairava这一具体形态，馆方将其解释为文殊的忿怒化现；可兼具本尊与护法角色。",
           "remember": "牛首要与其他面、臂、腿和眷属合看；不是所有牛首像都是大威德。",
@@ -829,7 +879,18 @@
             }
           ],
           "photo_work_id": "w1623",
-          "display_names": "大威德金刚（Vajrabhairava）"
+          "display_names": "大威德金刚（Vajrabhairava）",
+          "keywords": [
+            "牛首",
+            "九面",
+            "三十四臂"
+          ],
+          "recognition_terms": [
+            "牛首",
+            "九面",
+            "三十四臂",
+            "十六足"
+          ]
         },
         {
           "id": "kalachakra",
@@ -838,9 +899,7 @@
             "Kalachakra",
             "Kālacakra",
             "时轮金刚",
-            "Vishvamata",
-            "明妃",
-            "时间之轮"
+            "Vishvamata"
           ],
           "summary": "“时轮”既涉及一套教法，也指其本尊。沃尔特斯这件表现时轮金刚与Vishvamata相拥的形态。",
           "remember": "先顺着两个人物的身体读，再看扇形展开的手臂。",
@@ -906,7 +965,18 @@
             }
           ],
           "photo_work_id": "w1619",
-          "display_names": "时轮金刚（Kālacakra）；明妃Vishvamata"
+          "display_names": "时轮金刚（Kālacakra）；明妃Vishvamata",
+          "keywords": [
+            "明妃",
+            "时间之轮"
+          ],
+          "recognition_terms": [
+            "多臂",
+            "明妃",
+            "相拥",
+            "象皮",
+            "虎皮"
+          ]
         },
         {
           "id": "tara",
@@ -916,9 +986,7 @@
             "Tārā",
             "绿度母",
             "救度母",
-            "度母",
-            "莲花",
-            "与愿印"
+            "度母"
           ],
           "summary": "度母具有多种寂静与忿怒形态。本辑先从实际拍到的绿度母进入，不以一尊代表全部。",
           "remember": "垂下的一足、伸出的右手，与肩旁的花一起看。",
@@ -985,7 +1053,16 @@
             }
           ],
           "photo_work_id": "w1500",
-          "display_names": "度母（Tārā）；本件为绿度母"
+          "display_names": "度母（Tārā）；本件为绿度母",
+          "keywords": [
+            "莲花",
+            "与愿印"
+          ],
+          "recognition_terms": [
+            "莲花",
+            "与愿印",
+            "垂足"
+          ]
         },
         {
           "id": "vajravarahi",
@@ -995,10 +1072,7 @@
             "Vajravārāhī",
             "Vajrayogini",
             "金刚瑜伽母",
-            "金刚亥母",
-            "猪首",
-            "舞姿",
-            "弯刀"
+            "金刚亥母"
           ],
           "summary": "金刚亥母是金刚瑜伽母的一种重要形态。上举手、颅器与头旁的小猪首，需结合具体作品辨认。",
           "remember": "先找身体的旋转，再找区别于普通舞者的属性。",
@@ -1069,7 +1143,18 @@
             }
           ],
           "photo_work_id": "w1563",
-          "display_names": "金刚亥母（Vajravārāhī）；与金刚瑜伽母（Vajrayoginī）的关系见正文"
+          "display_names": "金刚亥母（Vajravārāhī）；与金刚瑜伽母（Vajrayoginī）的关系见正文",
+          "keywords": [
+            "猪首",
+            "舞姿",
+            "弯刀"
+          ],
+          "recognition_terms": [
+            "猪首",
+            "舞姿",
+            "弯刀",
+            "颅器"
+          ]
         },
         {
           "id": "vasudhara",
@@ -1078,12 +1163,7 @@
             "Vasudhara",
             "Vasudhārā",
             "持世佛母",
-            "持世菩萨",
-            "谷穗",
-            "经书",
-            "1082",
-            "Abonana",
-            "Maina"
+            "持世菩萨"
           ],
           "summary": "与丰足、福祉相连的女性尊神。这尊六臂像把物质生活和佛教智慧放在同一组持物中。",
           "remember": "不仅看谷穗与宝瓶，也看经书。",
@@ -1153,7 +1233,20 @@
             }
           ],
           "photo_work_id": "w1683",
-          "display_names": "持世佛母（Vasudhārā）"
+          "display_names": "持世佛母（Vasudhārā）",
+          "keywords": [
+            "谷穗",
+            "经书",
+            "1082",
+            "Abonana",
+            "Maina"
+          ],
+          "recognition_terms": [
+            "谷穗",
+            "经书",
+            "宝瓶",
+            "六臂"
+          ]
         },
         {
           "id": "palden-lhamo",
@@ -1162,10 +1255,7 @@
             "Palden Lhamo",
             "Shri Devi",
             "Śrīdevī",
-            "吉祥天母",
-            "骡",
-            "护法",
-            "剑柄"
+            "吉祥天母"
           ],
           "summary": "吉祥天母有不同形态。本辑卡洛斯博物馆这件以坐骑、忿怒面容与残存剑柄提供线索。",
           "remember": "坐骑和持物要一起认，华丽的装饰并不自动证明原址。",
@@ -1224,7 +1314,17 @@
             }
           ],
           "photo_work_id": "w1494",
-          "display_names": "吉祥天母（Palden Lhamo／Śrīdevī）"
+          "display_names": "吉祥天母（Palden Lhamo／Śrīdevī）",
+          "keywords": [
+            "骡",
+            "护法",
+            "剑柄"
+          ],
+          "recognition_terms": [
+            "骡",
+            "坐骑",
+            "剑柄"
+          ]
         },
         {
           "id": "mahakala",
@@ -1232,11 +1332,7 @@
           "aliases": [
             "Mahakala",
             "Mahākāla",
-            "大黑天",
-            "护法",
-            "颅器",
-            "弯刀",
-            "忿怒"
+            "大黑天"
           ],
           "summary": "大黑天具有多种形态。沃尔特斯这尊双臂像，用弯刀、颅器和紧凑的身体表现护法力量。",
           "remember": "先数这件的双臂，再看刀与杯；不要把所有忿怒像都叫大黑天。",
@@ -1290,7 +1386,19 @@
             }
           ],
           "photo_work_id": "w1603",
-          "display_names": "大黑天（Mahākāla）"
+          "display_names": "大黑天（Mahākāla）",
+          "keywords": [
+            "护法",
+            "颅器",
+            "弯刀",
+            "忿怒"
+          ],
+          "recognition_terms": [
+            "弯刀",
+            "颅器",
+            "双臂",
+            "额部眼睛"
+          ]
         }
       ]
     },
@@ -1308,11 +1416,7 @@
             "Pakmodrupa",
             "Dorje Gyelpo",
             "多吉杰布",
-            "帕木竹巴",
-            "帕木竹巴政权",
-            "丹萨替",
-            "Gampopa",
-            "岗波巴"
+            "帕木竹巴"
           ],
           "summary": "1110—1170。噶举传统的重要上师，与丹萨替的创建相连；后来同名的政权属于另一段历史。",
           "remember": "先分人物、传承、寺院，再看后来家族的政治与供养。",
@@ -1369,7 +1473,13 @@
           "clues": [],
           "photo_work_id": "w1574a",
           "photo_note": "照片中央为帕木竹巴肖像；两侧支柱是另件作品。",
-          "display_names": "Phagmodrupa Dorje Gyelpo；多吉杰波亦译多吉杰布"
+          "display_names": "Phagmodrupa Dorje Gyelpo；多吉杰波亦译多吉杰布",
+          "keywords": [
+            "帕木竹巴政权",
+            "丹萨替",
+            "Gampopa",
+            "岗波巴"
+          ]
         },
         {
           "id": "padmasambhava",
@@ -1378,13 +1488,7 @@
             "Padmasambhava",
             "Guru Rinpoche",
             "莲师",
-            "莲花生大师",
-            "邬金",
-            "乌仗那",
-            "宁玛",
-            "八大变相",
-            "八种变相",
-            "莲花帽"
+            "莲花生大师"
           ],
           "summary": "与8世纪吐蕃佛教发展相连的上师。宁玛传统将其奉为核心人物；丰富的传记形象在后世持续形成。",
           "remember": "八种形态是宗教叙述与图像传统，不是八位可逐一考证的历史人物。",
@@ -1436,7 +1540,15 @@
             }
           ],
           "clues": [],
-          "display_names": "Padmasambhava；尊称Guru Rinpoche，中文常简称莲师"
+          "display_names": "Padmasambhava；尊称Guru Rinpoche，中文常简称莲师",
+          "keywords": [
+            "邬金",
+            "乌仗那",
+            "宁玛",
+            "八大变相",
+            "八种变相",
+            "莲花帽"
+          ]
         },
         {
           "id": "rinchen-zangpo",
@@ -1445,10 +1557,7 @@
             "Rinchen Zangpo",
             "Rinchen Sangpo",
             "仁钦桑布",
-            "宝贤",
-            "托林",
-            "古格",
-            "益西沃"
+            "宝贤"
           ],
           "summary": "958—1055。与古格王室、克什米尔求学和西部寺院复兴相连的大译师。",
           "remember": "译师带回的不只是词语，也参与知识与制作条件的建立。",
@@ -1501,7 +1610,12 @@
             }
           ],
           "clues": [],
-          "display_names": "Rinchen Zangpo（958—1055）"
+          "display_names": "Rinchen Zangpo（958—1055）",
+          "keywords": [
+            "托林",
+            "古格",
+            "益西沃"
+          ]
         },
         {
           "id": "atisha",
@@ -1510,11 +1624,7 @@
             "Atisha",
             "Atiśa",
             "Dipamkara",
-            "阿底峡",
-            "噶当",
-            "仲敦巴",
-            "Dromton",
-            "超戒寺"
+            "阿底峡"
           ],
           "summary": "982—1054。东印度学者，1042年到西藏西部，后来在中部活动，与噶当传统形成密切相关。",
           "remember": "入藏是一段有先后、有人物联系的经历，不是一条抽象箭头。",
@@ -1570,20 +1680,20 @@
             }
           ],
           "clues": [],
-          "display_names": "Atiśa（982—1054）"
+          "display_names": "Atiśa（982—1054）",
+          "keywords": [
+            "噶当",
+            "仲敦巴",
+            "Dromton",
+            "超戒寺"
+          ]
         },
         {
           "id": "tsongkhapa",
           "title": "宗喀巴：格鲁形成于17世纪之前",
           "aliases": [
             "Tsongkhapa",
-            "宗喀巴",
-            "1357",
-            "1419",
-            "格鲁",
-            "甘丹寺",
-            "Ganden",
-            "黄帽"
+            "宗喀巴"
           ],
           "summary": "1357—1419。学者与修行者，其教学和寺院活动成为格鲁传统的基础。",
           "remember": "1409年的甘丹寺与后来的甘丹颇章政权，名称相关，时代与性质不同。",
@@ -1635,20 +1745,23 @@
             }
           ],
           "clues": [],
-          "display_names": "Tsongkhapa（1357—1419）"
+          "display_names": "Tsongkhapa（1357—1419）",
+          "keywords": [
+            "1357",
+            "1419",
+            "格鲁",
+            "甘丹寺",
+            "Ganden",
+            "黄帽"
+          ]
         },
         {
           "id": "ngorchen",
           "title": "俄尔钦·贡噶桑波：把曼荼罗接到委托人",
           "aliases": [
             "Ngorchen Kunga Zangpo",
-            "Ngor",
             "俄尔钦",
-            "贡噶桑波",
-            "俄尔寺",
-            "金刚鬘",
-            "道果",
-            "萨迦"
+            "贡噶桑波"
           ],
           "summary": "1382—1456。萨迦传统上师，1429年创建俄尔寺；寺院成为曼荼罗与传承绘画的重要中心。",
           "remember": "俄尔是具体寺院与传承网络，萨迦则是更广的传统。",
@@ -1705,7 +1818,14 @@
           "clues": [],
           "photo_work_id": "w1692",
           "photo_note": "金贝尔四曼荼罗：与贡噶桑波相关的委托作品。",
-          "display_names": "Ngorchen Kunga Zangpo（1382—1456）"
+          "display_names": "Ngorchen Kunga Zangpo（1382—1456）",
+          "keywords": [
+            "Ngor",
+            "俄尔寺",
+            "金刚鬘",
+            "道果",
+            "萨迦"
+          ]
         },
         {
           "id": "sanggye-sengge",
@@ -1713,11 +1833,7 @@
           "aliases": [
             "Sanggye Sengge",
             "Sangye Sengge",
-            "桑杰僧格",
-            "俄尔寺堪布",
-            "1504",
-            "1569",
-            "道果"
+            "桑杰僧格"
           ],
           "summary": "1504—1569。俄尔寺上师；在西雅图看到的肖像由鲁宾收藏，绘于1580—1590年代。",
           "remember": "人生活的年代与画像制作的年代，要分别读。",
@@ -1767,7 +1883,13 @@
           ],
           "clues": [],
           "photo_work_id": "w1641",
-          "display_names": "Sanggye Sengge（1504—1569）"
+          "display_names": "Sanggye Sengge（1504—1569）",
+          "keywords": [
+            "俄尔寺堪布",
+            "1504",
+            "1569",
+            "道果"
+          ]
         },
         {
           "id": "choying-dorje",
@@ -1776,10 +1898,7 @@
             "Choying Dorje",
             "Chöying Dorjé",
             "却英多杰",
-            "第十世噶玛巴",
-            "Karmapa",
-            "Karma Kagyu",
-            "象牙观音"
+            "第十世噶玛巴"
           ],
           "summary": "1604—1674。第十世噶玛巴，也是绘画与雕塑的创作者；本辑用其象牙观音进入个人风格。",
           "remember": "作品的作者、表现的人物与供养者，是三个不同位置。",
@@ -1831,7 +1950,12 @@
           "clues": [],
           "photo_work_id": "w1558",
           "photo_note": "却英多杰所作的观音，不是本人肖像。",
-          "display_names": "Chöying Dorjé（1604—1674），第十世噶玛巴"
+          "display_names": "Chöying Dorjé（1604—1674），第十世噶玛巴",
+          "keywords": [
+            "Karmapa",
+            "Karma Kagyu",
+            "象牙观音"
+          ]
         }
       ]
     },
@@ -1846,10 +1970,7 @@
           "title": "先看这幅画怎样组织空间",
           "aliases": [
             "唐卡",
-            "Thangka",
-            "构图",
-            "主尊",
-            "眷属"
+            "Thangka"
           ],
           "summary": "先确定画面有一个中心、多个中心，还是叙事段落，再逐步认人。",
           "remember": "位置帮助提出问题，题名、持物和铭文帮助回答。",
@@ -1887,7 +2008,12 @@
               "label": "先查形象名称"
             }
           ],
-          "clues": []
+          "clues": [],
+          "keywords": [
+            "构图",
+            "主尊",
+            "眷属"
+          ]
         },
         {
           "id": "mandala",
@@ -1895,10 +2021,7 @@
           "aliases": [
             "金刚鬘",
             "Vajravali",
-            "曼荼罗",
-            "宫殿",
-            "中心",
-            "方位"
+            "曼荼罗"
           ],
           "summary": "金贝尔这幅不是一个大主尊的肖像，而是四套曼荼罗在同一画面上的排列。",
           "remember": "圆与方形先帮助找到层次，具体尊名再依本件资料。",
@@ -1943,17 +2066,17 @@
             }
           ],
           "clues": [],
-          "photo_work_id": "w1692"
+          "photo_work_id": "w1692",
+          "keywords": [
+            "宫殿",
+            "中心",
+            "方位"
+          ]
         },
         {
           "id": "lineage",
           "title": "四分画：读图像之间的传授",
           "aliases": [
-            "金刚持",
-            "无我佛母",
-            "Virupa",
-            "毗鲁巴",
-            "Kanha",
             "传承"
           ],
           "summary": "克利夫兰的四分画用四个大形象，呈现教法来源与传承。",
@@ -2001,17 +2124,20 @@
             }
           ],
           "clues": [],
-          "photo_work_id": "w1550"
+          "photo_work_id": "w1550",
+          "keywords": [
+            "金刚持",
+            "无我佛母",
+            "Virupa",
+            "毗鲁巴",
+            "Kanha"
+          ]
         },
         {
           "id": "portrait",
           "title": "传承肖像：一个人和周围的人",
           "aliases": [
-            "桑杰僧格",
-            "肖像",
-            "传承",
-            "题记",
-            "背面"
+            "肖像"
           ],
           "summary": "俄尔堪布桑杰僧格的肖像，把中央上师放入更长的教学关系中。",
           "remember": "先认主像，再查周围各人的名字；帽色不能代替题记。",
@@ -2041,7 +2167,13 @@
             }
           ],
           "clues": [],
-          "photo_work_id": "w1641"
+          "photo_work_id": "w1641",
+          "keywords": [
+            "桑杰僧格",
+            "传承",
+            "题记",
+            "背面"
+          ]
         },
         {
           "id": "different-pictures",
@@ -2049,10 +2181,7 @@
           "aliases": [
             "佛传",
             "上师传记画",
-            "本尊画",
-            "叙事",
-            "护法",
-            "供养人"
+            "本尊画"
           ],
           "summary": "中心本尊强调形象与眷属；叙事画则需要寻找反复出现的人物与情节次序。",
           "remember": "先问画在做什么，再决定从哪里开始。",
@@ -2101,7 +2230,12 @@
               "label": "带着五个问题去看展"
             }
           ],
-          "clues": []
+          "clues": [],
+          "keywords": [
+            "叙事",
+            "护法",
+            "供养人"
+          ]
         }
       ]
     }
@@ -2111,9 +2245,7 @@
       "id": "nyingma",
       "title": "宁玛",
       "aliases": [
-        "Nyingma",
-        "前弘期",
-        "伏藏"
+        "Nyingma"
       ],
       "summary": "以早期译传和莲花生传统为重要根源；后世伏藏与经典传承持续发展。",
       "remember": "前弘期是历史阶段，宁玛是延续至今的传统。",
@@ -2143,7 +2275,11 @@
           "label": "莲花生"
         }
       ],
-      "clues": []
+      "clues": [],
+      "keywords": [
+        "前弘期",
+        "伏藏"
+      ]
     },
     {
       "id": "kagyu",
@@ -2151,10 +2287,7 @@
       "aliases": [
         "Kagyu",
         "Karma Kagyu",
-        "噶玛噶举",
-        "岗波巴",
-        "马尔巴",
-        "米拉日巴"
+        "噶玛噶举"
       ],
       "summary": "重视师徒传授，包含多个支系；帕木竹巴与噶玛巴属于不同分支。",
       "remember": "支系共享联系，并不意味着寺院或政治历史完全相同。",
@@ -2193,16 +2326,18 @@
           "label": "却英多杰"
         }
       ],
-      "clues": []
+      "clues": [],
+      "keywords": [
+        "岗波巴",
+        "马尔巴",
+        "米拉日巴"
+      ]
     },
     {
       "id": "sakya",
       "title": "萨迦",
       "aliases": [
-        "Sakya",
-        "Lamdre",
-        "道果",
-        "俄尔"
+        "Sakya"
       ],
       "summary": "名称同时联系一座寺院和更广的传承；道果教法与俄尔的艺术委托紧密相关。",
       "remember": "俄尔属于萨迦网络，不是继萨迦之后的朝代。",
@@ -2236,7 +2371,12 @@
           "label": "从传承画看关系"
         }
       ],
-      "clues": []
+      "clues": [],
+      "keywords": [
+        "Lamdre",
+        "道果",
+        "俄尔"
+      ]
     },
     {
       "id": "geluk",
@@ -2245,9 +2385,7 @@
         "Geluk",
         "Kadam",
         "格鲁",
-        "噶当",
-        "黄帽",
-        "仲敦巴"
+        "噶当"
       ],
       "summary": "格鲁形成于宗喀巴师生的教学与寺院活动，并继承噶当的若干修学传统。",
       "remember": "教法联系不等于一个教派在某年完全取代另一个。",
@@ -2283,7 +2421,11 @@
           "label": "宗喀巴"
         }
       ],
-      "clues": []
+      "clues": [],
+      "keywords": [
+        "黄帽",
+        "仲敦巴"
+      ]
     }
   ],
   "review": [
@@ -2354,8 +2496,26 @@
         {
           "href": "../#places",
           "label": "回到地图"
+        },
+        {
+          "href": "#revisit-prompt",
+          "label": "重访札记：留下两句话"
         }
       ]
     }
-  ]
+  ],
+  "revisit_prompt": {
+    "title": "重访时，留下两句话",
+    "intro": "带着一个问题回到作品前，再记下这次看清的细节与仍想追问的地方。",
+    "fields": [
+      {
+        "label": "这次确认了什么",
+        "hint": "哪处细节看得更清楚了？原先的理解有了什么依据，或需要怎样修正？"
+      },
+      {
+        "label": "还有什么没看清",
+        "hint": "哪件持物、哪段题记或哪个角度，想在下一次继续看？"
+      }
+    ]
+  }
 }

@@ -81,26 +81,30 @@ def build_learning(data, history, by, sources, img, fig, mini, paragraphs, refs,
     # Static markup keeps the full index useful even when scripting is disabled.
     index=[]
     def add(route,n,label):
-        texts=[n['title'],n.get('display_names',''),n.get('summary',''),n.get('remember','')]+n.get('aliases',[])
+        names=[n['title'].split('：')[0]]+n.get('aliases',[])
+        features=n.get('recognition_terms',[])+[p['text'] for p in n.get('clues',[])]
+        texts=[n['title'],n.get('display_names',''),n.get('summary',''),n.get('remember','')]+n.get('keywords',[])
         for section in n.get('sections',[]):texts += [section['title']]+[p['text'] for p in section['paragraphs']]
-        texts += [p['text'] for p in n.get('clues',[])]
         for r in n['related']:
             w=by[r['work_id']];texts += [w['title_zh'],w['title_en'],w.get('accession',''),r['relation']]
-        index.append({'href':f'../{route}/#{n["id"]}','title':n['title'],'summary':n.get('summary',''),'label':label,'search':' '.join(t for t in texts if t),'wid':n.get('photo_work_id') or (n['related'][0]['work_id'] if n['related'] and route not in {'teachers'} else None)})
+        index.append({'href':f'../{route}/#{n["id"]}','title':n['title'],'summary':n.get('summary',''),'label':label,'search':[names,features,[t for t in texts if t]],'wid':n.get('photo_work_id') or (n['related'][0]['work_id'] if n['related'] and route not in {'teachers'} else None)})
     labels={'regions':'地域','iconography':'形象','teachers':'人物与传承','thangka':'读唐卡'}
     for route,n in entries:add(route,n,labels[route])
     for track in history['tracks']:
         for n in track['nodes']:
-            add('history',{'id':n['id'],'title':n['title'],'summary':n['summary'],'aliases':[n['period']]+n['keywords'],'related':n['related'],'sections':[{'title':track['title'],'paragraphs':n['paragraphs']+n['review']['points']}]},'时期')
+            add('history',{'id':n['id'],'title':n['title'],'summary':n['summary'],'keywords':[n['period']]+n['keywords'],'related':n['related'],'sections':[{'title':track['title'],'paragraphs':n['paragraphs']+n['review']['points']}]},'时期')
     body=top('看展前重温','五分钟，然后带着一个问题回到作品','review')+search_form()
     body+=f'<details id="learning-index"><summary>名称与线索索引 · {len(index)}条</summary><p id="learning-count" role="status" aria-live="polite">{len(index)}条</p><div class="ha-search-results">'
     for item in index:
-        body+='<article class="ha-search-item" data-learning-search="'+e(item['search'])+'"><a href="'+e(item['href'])+'">'
+        body+='<article class="ha-search-item" data-learning-search="'+e(json.dumps(item['search'],ensure_ascii=False))+'"><a href="'+e(item['href'])+'">'
         if item['wid']:
             w=by[item['wid']];body+=img(w['primary_photo'],w['image_alt_zh'],'../',small=True)
-        body+='<span><small>'+e(item['label'])+'</small><strong>'+e(item['title'])+'</strong><span>'+e(item['summary'])+'</span></span></a></article>'
+        body+='<span><small>'+e(item['label'])+'</small><strong>'+e(item['title'])+'</strong><span>'+e(item['summary'])+'</span><small class="ha-search-reason" hidden></small></span></a></article>'
     body+='</div><p id="learning-empty" hidden>没有找到相符条目。可试试更短的名称，或使用展签上的英文。</p></details><section class="ha-five-minutes"><h2>带着这五个问题看展</h2>'
     for i,n in enumerate(data['review']):
         body+='<article><h3>'+e(n['title'])+'</h3><p>'+e(n['text'])+'</p>'+links(n['links'])+'</article>'
-    body+='</section><p class="ha-prose ha-note">每条说明的来源、作品和具体疑点，随链接保留在详细条目中。重访仍沿用原作品编号；新增照片与观察会继续接回这些入口。</p>'
+    prompt=data['revisit_prompt']
+    body+='</section><details class="ha-prose ha-revisit-prompt" id="revisit-prompt"><summary>'+e(prompt['title'])+'</summary><p>'+e(prompt['intro'])+'</p>'
+    for field in prompt['fields']:body+='<h3>'+e(field['label'])+'</h3><p>'+e(field['hint'])+'</p>'
+    body+='<p><a href="../#catalogue">从目录找到这件作品 →</a></p></details><p class="ha-prose ha-note">每条说明的来源、作品和具体疑点，随链接保留在详细条目中。重访仍沿用原作品编号；新增照片与观察会继续接回这些入口。</p>'
     write('review','看展前重温',body,'h1552')

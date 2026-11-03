@@ -56,14 +56,32 @@ with sync_playwright() as p:
             page.fill('#learning-query',query);page.locator('.ha-guide-search button[type=submit]').click()
             expect(page.locator('.ha-search-item:not([hidden]) a[href="../'+href+'"]')).to_be_visible()
             assert '?q=' in page.url;overflow()
+        # Direct identities beat their appearances in comparison prose; clues beat mentions.
+        for query,target,reason in [('谷穗','vasudhara','辨认特征'),('绿度母','tara','名称／异名'),('金刚萨埵','vajra-pair','名称／异名'),('金刚杵','vajra-pair','辨认特征')]:
+            page.fill('#learning-query',query);page.locator('.ha-guide-search button[type=submit]').click()
+            first=page.locator('.ha-search-item:not([hidden])').first
+            expect(first.locator('a')).to_have_attribute('href','../iconography/#'+target)
+            expect(first.locator('.ha-search-reason')).to_contain_text(reason+'：'+query)
+            if query=='谷穗':
+                tara=page.locator('.ha-search-item:not([hidden])').filter(has=page.locator('a[href="../iconography/#tara"]'))
+                expect(tara.locator('.ha-search-reason')).to_have_text('正文／比较提及：谷穗')
+                page.locator('#learning-index').scroll_into_view_if_needed()
+                page.screenshot(path=f'/tmp/ha-learning-ranked-{width}.png')
+        page.fill('#learning-query','俄尔');page.keyboard.press('Enter')
         page.fill('#learning-query','unfindable-zxy987');page.keyboard.press('Enter');expect(page.locator('#learning-empty')).to_be_visible()
         page.go_back();expect(page.locator('#learning-query')).to_have_value('俄尔')
         page.locator('#learning-clear').click();expect(page.locator('#learning-query')).to_have_value('')
         assert 'q=' not in page.url
+        assert page.locator('.ha-search-reason:visible').count()==0
+        expect(page.locator('.ha-search-item a').first).to_have_attribute('href','../regions/#swat')
         expect(page.locator('.ha-search-item:not([hidden])')).to_have_count(41)
         page.goto(url+'review/?q=Vasudhara');expect(page.locator('.ha-search-item:not([hidden]) a[href="../iconography/#vasudhara"]')).to_be_visible()
         page.locator('.ha-search-item:not([hidden]) a[href="../iconography/#vasudhara"]').click()
         expect(page.locator('#vasudhara')).to_have_attribute('open','')
+        page.goto(url+'review/#revisit-prompt');expect(page.locator('#revisit-prompt')).to_have_attribute('open','')
+        expect(page.locator('#revisit-prompt h3')).to_have_text(['这次确认了什么','还有什么没看清'])
+        page.locator('#revisit-prompt').scroll_into_view_if_needed()
+        overflow();page.screenshot(path=f'/tmp/ha-learning-revisit-{width}.png')
         # Work -> background -> work: canonical object identifiers in both directions.
         page.goto(url+'w1520/');page.locator('.ha-learning-backlinks a[href="../regions/#gilgit"]').click()
         expect(page.locator('#gilgit')).to_have_attribute('open','')

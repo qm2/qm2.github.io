@@ -72,6 +72,9 @@
 .ha-search-item strong,.ha-search-item span>span,.ha-search-item small{display:block}
 .ha-search-item strong{font-weight:500;margin:.25rem 0}.ha-search-item span>span{font-size:.83rem;line-height:1.7}.ha-search-item small{opacity:.65}
 .ha-search-item[hidden]{display:none}
+.ha-search-item .ha-search-reason{margin-top:.5rem;opacity:1;color:var(--muted,#6e665a);line-height:1.65;overflow-wrap:anywhere}
+.ha-revisit-prompt{margin:2rem auto;scroll-margin-top:2rem}
+.ha-revisit-prompt h3,.ha-visit-notes h3{font-size:1rem;font-weight:500;margin:1.2rem 0 .4rem}
 .ha-five-minutes{max-width:43rem;margin:3rem auto}.ha-five-minutes article{margin:1.8rem 0;padding-bottom:1rem;border-bottom:1px solid var(--line,#d9d0c2)}
 .ha-five-minutes h3{font-weight:500;font-size:1.1rem}.ha-five-minutes p{line-height:1.95}
 .ha-guide-entry summary:focus-visible,.ha-guide-search input:focus-visible,.ha-guide-search button:focus-visible{outline:2px solid var(--accent,#8b5f37);outline-offset:4px}

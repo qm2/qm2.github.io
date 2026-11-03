@@ -5,7 +5,7 @@
  const revealPeriod = () => {
   let id; try { id=decodeURIComponent(location.hash.slice(1)); } catch { return; }
   const period=document.getElementById(id);
-  if(period && (period.classList.contains('ha-period') || period.classList.contains('ha-guide-entry'))){
+  if(period && (period.classList.contains('ha-period') || period.classList.contains('ha-guide-entry') || period.classList.contains('ha-revisit-prompt'))){
    period.open=true;
    requestAnimationFrame(()=>period.scrollIntoView({block:'start'}));
   }
@@ -23,10 +23,26 @@
  if(learningInput){
   const items=$$('[data-learning-search]'), index=$('#learning-index');
   const normalize=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase().trim();
+  const records=items.map((item,order)=>({item,order,fields:JSON.parse(item.dataset.learningSearch).map(xs=>xs.map(normalize))}));
+  const labels=['名称／异名','辨认特征','正文／比较提及'];
   const apply=()=>{
-   const query=normalize(learningInput.value), terms=query.split(/\s+/).filter(Boolean);
+   const query=normalize(learningInput.value), words=learningInput.value.trim().split(/\s+/).filter(Boolean), terms=words.map(normalize);
    let count=0;
-   items.forEach(item=>{item.hidden=!terms.every(t=>normalize(item.dataset.learningSearch).includes(t));if(!item.hidden)count++;});
+   const ranked=records.map(record=>{
+    const hits=terms.map(t=>record.fields.findIndex(xs=>xs.some(x=>x.includes(t))));
+    const visible=hits.every(t=>t>=0), reason=record.item.querySelector('.ha-search-reason');
+    record.item.hidden=!visible;
+    reason.hidden=!query||!visible;
+    reason.textContent=visible&&query ? labels.map((label,tier)=>{
+     const matched=words.filter((_,i)=>hits[i]===tier);
+     return matched.length ? label+'：'+matched.slice(0,2).join('、')+(matched.length>2?'…':'') : '';
+    }).filter(Boolean).join('；') : '';
+    if(visible)count++;
+    // All query terms must match. Prefer names, then identification clues,
+    // then mentions in prose/comparisons; ties retain the editorial order.
+    return {...record,worst:visible?Math.max(-1,...hits):3,total:hits.reduce((a,b)=>a+b,0),exact:query&&record.fields[0].includes(query)?1:0};
+   }).sort((a,b)=>a.worst-b.worst||a.total-b.total||b.exact-a.exact||a.order-b.order);
+   $('.ha-search-results').append(...ranked.map(r=>r.item));
    $('#learning-count').textContent=count+' / '+items.length+' 条';
    $('#learning-empty').hidden=count!==0;
    if(query)index.open=true;

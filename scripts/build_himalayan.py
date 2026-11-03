@@ -20,9 +20,12 @@ def build(base=BASE, integrate=True):
     learning=read('learning')
     history_nodes=[n for track in history['tracks'] for n in track['nodes']]
     visit_by={v['visit_id']:v for v in visits}
+    def has_visit_note(v):
+        return any(v.get(k,'').strip() for k in ['observation','confirmed','still_unclear'])
     assert len(visit_by)==len(visits)
     for v in visits:
         assert v['work_id'] in by
+        assert all(isinstance(v.get(k,''),str) for k in ['observation','confirmed','still_unclear'])
         if v.get('visited_on'): date.fromisoformat(v['visited_on'])
         assert set(v.get('photo_ids',[])) <= set(by[v['work_id']]['art_photos']+by[v['work_id']]['detail_photos'])
     assert len({u['update_id'] for u in updates})==len(updates)
@@ -131,13 +134,16 @@ def build(base=BASE, integrate=True):
         if w['label_photos']:body+='<details class="ha-prose"><summary>现场资料</summary><p>基本资料依据现场展签整理。'+e(w['title_en'])+(('；馆藏号 '+w['accession']) if w.get('accession') else '')+'。</p>'+notes(w)+'</details>'
         others=[n for n in w['art_photos'] if n!=photo]
         if others:body+='<details class="ha-alternates"><summary>其他现场视角</summary><div class="ha-plates">'+''.join(fig(n,caps.get(n,w['title_zh']+' · 另一张现场照片'),'../') for n in others)+'</div></details>'
-        observations=[v for v in visits if v['work_id']==wid and v.get('public',False) and v.get('observation')]
+        observations=[v for v in visits if v['work_id']==wid and v.get('public',False) and has_visit_note(v)]
         if observations:
             body+='<section class="ha-prose ha-visit-notes" id="visit-notes"><h2>重访札记</h2>'
             for v in observations:
                 body+=f'<article id="visit-{e(v["visit_id"])}">'
                 if v.get('visited_on'):body+=f'<p class="ha-note"><time datetime="{v["visited_on"]}">{v["visited_on"]}</time></p>'
-                body+='<p>'+e(v['observation'])+'</p></article>'
+                if v.get('observation','').strip():body+='<p>'+e(v['observation'])+'</p>'
+                for key,label in [('confirmed','这次确认了什么'),('still_unclear','还有什么没看清')]:
+                    if v.get(key,'').strip():body+='<h3>'+label+'</h3><p>'+e(v[key])+'</p>'
+                body+='</article>'
             body+='</section>'
         body+=history_links(wid)+refs(w['source_ids']);write(wid,w['title_zh'],body,photo)
     # Reading units: the photograph leads, comparisons remain optional.
@@ -287,7 +293,7 @@ def build(base=BASE, integrate=True):
         body+='<section class="ha-recent ha-section" id="recent-notes" aria-labelledby="recent-title"><h2 id="recent-title">最近新增／重访札记</h2><ul>'
         for update in recent:
             w=by[update['work_id']];kind={'new':'新增作品','research':'资料更新','revisit':'重访札记'}[update['kind']]
-            fragment='#visit-'+update['visit_id'] if update.get('visit_id') and visit_by[update['visit_id']].get('public') and visit_by[update['visit_id']].get('observation') else ''
+            fragment='#visit-'+update['visit_id'] if update.get('visit_id') and visit_by[update['visit_id']].get('public') and has_visit_note(visit_by[update['visit_id']]) else ''
             body+=f'<li data-update="{e(update["update_id"])}"><p class="ha-note">{kind} · 发布于 <time datetime="{update["published_on"]}">{update["published_on"]}</time></p><h3><a href="{w["work_id"]}/{fragment}">{e(w["title_zh"])} →</a></h3><p>{e(update["summary"])}</p></li>'
         body+='</ul></section>'
     ninst=sum(w['scope']=='installation' for w in works)

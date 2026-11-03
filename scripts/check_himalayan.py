@@ -131,8 +131,12 @@ with tempfile.TemporaryDirectory(prefix='himalayan-growth-') as tmp:
     revisit=copy.deepcopy(ps[0]); revisit.update(photo_id='test-revisit', path='images/originals/test-revisit.jpg',thumbnail_path='images/test-revisit-400.webp',work_ids=[ws[0]['work_id']],visit_id='test-visit')
     shutil.copyfile(BASE/ps[0]['path'],fixture/revisit['path']);ps.append(revisit)
     ws[0]['art_photos'].append(revisit['photo_id'])
-    fixture_visits=[{'visit_id':'test-visit','work_id':ws[0]['work_id'],'visited_on':None,'photo_ids':['test-revisit'],'observation':'测试重访观察：同一件作品保留原编号。','public':True}]
-    fixture_updates=[{'update_id':'test-update','published_on':'2026-11-03','kind':'revisit','work_id':ws[0]['work_id'],'visit_id':'test-visit','summary':'测试重访记录','public':True}]
+    fixture_visits=[{'visit_id':'test-visit','work_id':ws[0]['work_id'],'visited_on':None,'photo_ids':['test-revisit'],'observation':'测试重访观察：同一件作品保留原编号。','public':True},
+        {'visit_id':'test-two-questions','work_id':ws[1]['work_id'],'visited_on':None,'photo_ids':[], 'confirmed':'测试确认内容','still_unclear':'测试尚未看清内容','public':True},
+        {'visit_id':'test-private','work_id':ws[2]['work_id'],'photo_ids':[],'confirmed':'不应公开的测试记录','public':False},
+        {'visit_id':'test-empty','work_id':ws[3]['work_id'],'photo_ids':[],'confirmed':' ','still_unclear':'','public':True}]
+    fixture_updates=[{'update_id':'test-update','published_on':'2026-11-03','kind':'revisit','work_id':ws[0]['work_id'],'visit_id':'test-visit','summary':'测试重访记录','public':True},
+        {'update_id':'test-two-question-update','published_on':'2026-11-03','kind':'revisit','work_id':ws[1]['work_id'],'visit_id':'test-two-questions','summary':'测试两句重访札记','public':True}]
     for n,d in [('works',ws),('photos',ps),('museums',museums),('places',places),('visits',fixture_visits),('updates',fixture_updates)]: save(n,d)
     build(fixture, integrate=False)
     nav=json.loads((fixture/'data/navigation.json').read_text()); html=(fixture/'index.html').read_text()
@@ -146,6 +150,13 @@ with tempfile.TemporaryDirectory(prefix='himalayan-growth-') as tmp:
     record=(fixture/ws[0]['work_id']/'index.html').read_text()
     assert '测试重访观察：同一件作品保留原编号。' in record
     assert '<article id="visit-test-visit"><p>' in record, 'Do not invent a visit date'
+    note=(fixture/ws[1]['work_id']/'index.html').read_text()
+    assert '<h3>这次确认了什么</h3><p>测试确认内容</p>' in note
+    assert '<h3>还有什么没看清</h3><p>测试尚未看清内容</p>' in note
+    assert '#visit-test-two-questions' in html, 'Structured notes alone must be reachable from updates'
+    assert '<article id="visit-test-two-questions"><h3>' in note, 'No assumed visit date or filler prose'
+    assert '不应公开的测试记录' not in (fixture/ws[2]['work_id']/'index.html').read_text()
+    assert 'visit-test-empty' not in (fixture/ws[3]['work_id']/'index.html').read_text()
     save('updates',[]);build(fixture, integrate=False)
     assert 'id="recent-notes"' not in (fixture/'index.html').read_text()
 assert not (BASE/'test-new-work').exists()
