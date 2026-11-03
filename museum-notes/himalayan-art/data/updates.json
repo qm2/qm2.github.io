@@ -1,5 +1,32 @@
 [
   {
+    "update_id": "manjushri-deep-reading",
+    "published_on": "2026-11-03",
+    "kind": "research",
+    "work_id": "w1552",
+    "summary": "从四臂、残存持物与脚趾细读这尊文殊，并核对材质和1964年的入藏记录。",
+    "visit_id": null,
+    "source_ids": [
+      "S49",
+      "S52"
+    ],
+    "public": true
+  },
+  {
+    "update_id": "crown-ritual-reading",
+    "published_on": "2026-11-03",
+    "kind": "research",
+    "work_id": "w1484",
+    "summary": "补读1145年法冠的仪式身份、金属工艺与纪年研究，并保留英法馆录的材料差异。",
+    "visit_id": null,
+    "source_ids": [
+      "S53",
+      "S54",
+      "S55"
+    ],
+    "public": true
+  },
+  {
     "update_id": "ma1089-material-note",
     "published_on": "2026-11-03",
     "kind": "research",

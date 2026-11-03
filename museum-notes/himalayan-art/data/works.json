@@ -467,7 +467,9 @@
     "metadata_basis": "photographed_label",
     "verification_status": "official_record_checked",
     "source_ids": [
-      "S07"
+      "S53",
+      "S07",
+      "S54"
     ],
     "uncertainties": [],
     "input_group_id": "guimet",
@@ -476,7 +478,7 @@
     "label_source_ids": [
       "L_h1485"
     ],
-    "materials_display": "鎏金铜嵌青金石、石榴石、绿松石、水晶",
+    "materials_display": "鎏金铜嵌青金石、石榴石、绿松石及有色玻璃",
     "material_status": "reviewed",
     "reading_unit_ids": [
       "u10"
@@ -513,7 +515,10 @@
     "image_alt_zh": "纪年1145年的仪式法冠 · 1145年 · Merton现场摄影",
     "primary_path": "images/originals/h1484.jpg",
     "thumbnail_path": "images/h1484-400.webp",
-    "reader_notes": []
+    "reader_notes": [
+      "镶嵌材料依现场法文展签与官网法文页；英文页末项作水晶。铭文与仪式用途详见细读。"
+    ],
+    "dimensions_display": "27.2 × 21.5 × 21.5厘米"
   },
   {
     "work_id": "w1488",
@@ -2847,14 +2852,15 @@
       "h1553"
     ],
     "detail_photos": [],
-    "tier": "catalogue",
+    "tier": "focus",
     "scope": "himalayan",
     "religious_context": "Buddhist",
     "editorial_notes": "放大展签并据官网确认1964.370；1964.37是另一件墨西哥陶犬，不能截去末位0。",
     "metadata_basis": "photographed_label",
     "verification_status": "official_record_checked",
     "source_ids": [
-      "S49"
+      "S49",
+      "S52"
     ],
     "uncertainties": [],
     "input_group_id": "cleveland",
@@ -2863,9 +2869,11 @@
     "label_source_ids": [
       "L_h1553"
     ],
-    "materials_display": "鎏金铜合金、宝石、胶彩与冷金",
+    "materials_display": "鎏金青铜、宝石与半宝石、胶彩、冷金",
     "material_status": "reviewed",
-    "reading_unit_ids": [],
+    "reading_unit_ids": [
+      "u25"
+    ],
     "chapter_ids": [
       "c3"
     ],
@@ -2876,7 +2884,7 @@
     "origin_note": "按照片展签的地域／风格归属登记；不是完整来源史。",
     "scope_basis": "regional_tradition",
     "style_region_ids": [],
-    "research_state": "catalogued",
+    "research_state": "reading_draft",
     "map_associations": [
       {
         "place_id": "kathmandu-valley",
@@ -2898,7 +2906,8 @@
     "image_alt_zh": "四臂文殊 · 15世纪 · Merton现场摄影",
     "primary_path": "images/originals/h1552.jpg",
     "thumbnail_path": "images/h1552-400.webp",
-    "reader_notes": []
+    "reader_notes": [],
+    "dimensions_display": "整体78.1 × 67.6厘米"
   },
   {
     "work_id": "w1554",

@@ -36,6 +36,7 @@ with sync_playwright() as p:
         link.click();expect(page.locator('#art-lightbox')).to_be_visible();decoded('#large-photo')
         page.locator('#zoom-toggle').click();expect(page.locator('#zoom-toggle')).to_have_attribute('aria-pressed','true')
         page.keyboard.press('Escape');expect(page.locator('#art-lightbox')).not_to_be_visible()
+        expect(page.locator('body')).not_to_have_class('ha-page photo-open')
         expect(link).to_be_focused()
     home();decoded('.ha-cover img');screenshot('desktop-cover');overflow()
     assert page.locator('.ha-cover img').evaluate('(im)=>im.naturalWidth')>=400
@@ -146,9 +147,48 @@ with sync_playwright() as p:
             preview.locator('h3 a').first.click();assert page.url.endswith(href.removeprefix('../'))
         for unit in data['units']:
             page.goto(url+unit['id']+'/');overflow()
+    # The two expanded readings, parallel periods, and reciprocal object links.
+    for width in [1440,390,360]:
+        page.set_viewport_size({'width':width,'height':1000 if width==1440 else 844})
+        home();page.locator('#history-entry').scroll_into_view_if_needed();overflow()
+        screenshot(f'{width}-history-entry')
+        page.locator('#history-entry h2 a').click()
+        expect(page.locator('.ha-period')).to_have_count(8)
+        assert not page.locator('.ha-period[open]').count()
+        screenshot(f'{width}-history-closed');overflow()
+        for track in page.locator('.ha-track-title').all(): assert track.is_visible()
+        for period in page.locator('.ha-period').all():
+            period.locator('summary').focus();page.keyboard.press('Enter')
+            assert period.evaluate('(d)=>d.open');overflow()
+            period.locator('.ha-mini img').first.evaluate('(im)=>im.decode()')
+            expect(period.locator('.ha-period-body')).to_be_visible()
+        page.locator('#nepal-transitional').scroll_into_view_if_needed();screenshot(f'{width}-history-open')
+        page.goto(url+'w1552/')
+        page.locator('.ha-history-return a').click()
+        assert page.url.endswith('/history/#nepal-malla')
+        expect(page.locator('#nepal-malla')).to_have_attribute('open','')
+        page.wait_for_function("document.querySelector('#nepal-malla').getBoundingClientRect().top < innerHeight")
+        page.go_back();assert page.url.endswith('/w1552/')
+        page.locator('a[href="../u25/"]').click()
+        for uid in ['u25','u10']:
+            page.goto(url+uid+'/');decoded('main>figure img');overflow()
+            screenshot(f'{width}-{uid}-opening')
+            lightbox(page.locator('main>figure [data-photo]'))
+            first=page.locator('.ha-prose>section').first
+            first.scroll_into_view_if_needed();screenshot(f'{width}-{uid}-reading');overflow()
+            page.locator('.ha-research-notes summary').click()
+            expect(page.locator('.ha-research-notes>section')).to_be_visible();overflow()
+            page.locator('.ha-research-notes').scroll_into_view_if_needed();screenshot(f'{width}-{uid}-notes')
+            if uid=='u10':
+                page.locator('.ha-comparison-preview').scroll_into_view_if_needed()
+                lightbox(page.locator('.ha-comparison-preview [data-photo]').first)
+        home('?work=w1552#places');expect(page.locator('#ha-readings-result')).to_contain_text('四臂之间')
+        expect(page.locator('#c3 [data-reading="u25"]')).to_have_class('ha-reading ha-featured ha-associated')
     plain=browser.new_context(java_script_enabled=False,viewport={'width':390,'height':844}).new_page()
     plain.goto(url);assert plain.locator('.ha-reading').count()==len(data['units'])
     plain.locator('#ha-catalogue summary').click();assert plain.locator('.ha-record:visible').count()==len(data['works'])
+    plain.goto(url+'history/');plain.locator('#nepal-malla summary').click()
+    expect(plain.locator('#nepal-malla .ha-history-works')).to_be_visible()
     assert not errors, errors
     assert not bad, bad
     browser.close()

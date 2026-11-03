@@ -80,7 +80,7 @@
   {
     "source_id": "S07",
     "url": "https://www.guimet.fr/en/our-collections/himalayan-world/priest-crown",
-    "title": "Priest crown",
+    "title": "吉美：Priest’s crown，MA 4929（英文馆录）",
     "work_ids": [
       "w1484"
     ],
@@ -627,11 +627,11 @@
   {
     "source_id": "S49",
     "url": "https://www.clevelandart.org/art/1964.370",
-    "title": "Bodhisattva of Wisdom Manjushri",
+    "title": "克利夫兰艺术博物馆：Bodhisattva of Wisdom Manjushri，1964.370",
     "work_ids": [
       "w1552"
     ],
-    "claims": "复核题名、年代、材质、馆藏号。断代更新另见work.date_history。",
+    "claims": "15世纪尼泊尔；78.1×67.6厘米；鎏金青铜、宝石、胶彩、冷金；持物残存与缺失、手印及脚趾。",
     "kind": "museum_record",
     "checked_on": "2026-11-03",
     "retrieval_ref": "turn65search1",
@@ -661,6 +661,172 @@
     "kind": "museum_record",
     "checked_on": "2026-11-03",
     "retrieval_ref": "turn65search4",
+    "primary": true
+  },
+  {
+    "source_id": "S52",
+    "title": "克利夫兰艺术博物馆：1964.370 完整馆藏记录（来源与著录）",
+    "url": "https://www.clevelandart.org/print/art/1964.370",
+    "claims": "1964年购自J. J. Klejman；材质、尺寸、购藏基金及公开著录。",
+    "work_ids": [
+      "w1552"
+    ],
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "primary": true
+  },
+  {
+    "source_id": "S53",
+    "title": "吉美：Tiare d’officiant，MA 4929（法文馆录）",
+    "url": "https://www.guimet.fr/fr/nos-collections/monde-himalayen/tiare-dofficiant",
+    "claims": "1145年；纯铜锤揲、錾刻、汞鎏金；镶嵌含有色玻璃；尺寸；铭文所记信息类别；金刚萨埵解释。",
+    "work_ids": [
+      "w1484"
+    ],
+    "kind": "museum_record",
+    "checked_on": "2026-11-03",
+    "primary": true
+  },
+  {
+    "source_id": "S54",
+    "title": "Anne-Claire Juramie、Katherine Meahl-Blöndal：Comparative Studies and Dating Questions between Nepalese Sculpture and Painting: The Case of Nepalese Buddhist Ritual Crowns，South Asian Archaeology 2003，页461–470",
+    "url": "https://publications.dainst.org/books/dai/catalog/view/2043/2478/4585",
+    "claims": "已阅读全文；特别参见页463–464的仪式、制作及1145年铭文讨论，页468–469的跨媒介比较及方法限度。",
+    "work_ids": [
+      "w1484"
+    ],
+    "kind": "research",
+    "checked_on": "2026-11-03",
+    "primary": true
+  },
+  {
+    "source_id": "S55",
+    "title": "Aurora Graldi：Vajracharya Priest’s Crown: Cosmos, Empowerment, and Ritual Regalia（Rubin，2023）",
+    "url": "https://rubinmuseum.org/projecthimalayanart/essays/vajracharya-priests-crown/",
+    "claims": "金刚阿阇梨的在家祭司身份、灌顶与造像开光；主论大都会06.191，毗卢遮那解释不直接套用吉美法冠。",
+    "work_ids": [
+      "w1484"
+    ],
+    "kind": "research",
+    "checked_on": "2026-11-03",
+    "primary": true
+  },
+  {
+    "source_id": "S56",
+    "title": "John Guy：Arts of the Greater Himalayas: Kashmir, Tibet, and Nepal（大都会，2021）",
+    "url": "https://www.metmuseum.org/essays/arts-of-the-greater-himalayas",
+    "claims": "李查维约4—9世纪；过渡期；马拉约1200至1768—1769；城市、寺院及跨地域艺术赞助。",
+    "work_ids": [
+      "w1552",
+      "w1700",
+      "w1683",
+      "w1484"
+    ],
+    "kind": "research",
+    "checked_on": "2026-11-03",
+    "primary": true
+  },
+  {
+    "source_id": "S57",
+    "title": "Rubin Project Himalayan Art：Newar",
+    "url": "https://rubinmuseum.org/projecthimalayanart/glossary/newar/",
+    "claims": "加德满都谷地社群、语言与佛教／印度教传统；不是朝代。",
+    "work_ids": [
+      "w1552"
+    ],
+    "kind": "research",
+    "checked_on": "2026-11-03",
+    "primary": true
+  },
+  {
+    "source_id": "S58",
+    "title": "Rubin Project Himalayan Art：Later Diffusion",
+    "url": "https://rubinmuseum.org/projecthimalayanart/glossary/later-diffusion/",
+    "claims": "前弘7—9世纪；后弘自10世纪末发展，词条采用至14世纪的宽范围。",
+    "work_ids": [],
+    "kind": "research",
+    "checked_on": "2026-11-03",
+    "primary": true
+  },
+  {
+    "source_id": "S59",
+    "title": "大都会艺术史时间线：Himalayan Region, 500–1000 A.D.",
+    "url": "https://www.metmuseum.org/toah/ht/06/ssh.html",
+    "claims": "吐蕃时期赞助与桑耶寺；过渡期时间带879—1200。其李查维终点与2021年文章宽分期不尽相同。",
+    "work_ids": [],
+    "kind": "research",
+    "checked_on": "2026-11-03",
+    "primary": true
+  },
+  {
+    "source_id": "S60",
+    "title": "法国东亚文明研究中心（CRCAO）：The Tibetan Religious Landscape After the Empire",
+    "url": "https://www.crcao.fr/recherche/le-paysage-religieux-du-tibet-post-imperial/?lang=en",
+    "claims": "王朝解体后赞助分散、地方社群及跨喜马拉雅宗教网络继续发展。",
+    "work_ids": [],
+    "kind": "research",
+    "checked_on": "2026-11-03",
+    "primary": true
+  },
+  {
+    "source_id": "S61",
+    "title": "Amy Heller：Stupa at Toling Monastery: Kashmiri Aesthetics at the Royal Monastery in Western Tibet（Rubin，2023）",
+    "url": "https://rubinmuseum.org/projecthimalayanart/essays/stupa-at-toling-monastery/",
+    "claims": "后世史籍将托林建寺记为996年；益西沃、仁钦桑布、克什米尔工艺与写经绘画。",
+    "work_ids": [
+      "w1548",
+      "w1546"
+    ],
+    "kind": "research",
+    "checked_on": "2026-11-03",
+    "primary": true
+  },
+  {
+    "source_id": "S62",
+    "title": "Jean-Luc Estournel：Densatil Monastery: The Commemorative Stupas of the Lang/Pakmodrupa Dynasty（Rubin，2023）",
+    "url": "https://rubinmuseum.org/projecthimalayanart/essays/densatil-monastery/",
+    "claims": "1158年修行处、1198年后寺院；13—15世纪大型纪念塔。附术语栏解释鎏金、冷金及镶嵌。",
+    "work_ids": [
+      "w1631",
+      "w1574b",
+      "w1552"
+    ],
+    "kind": "research",
+    "checked_on": "2026-11-03",
+    "primary": true
+  },
+  {
+    "source_id": "S63",
+    "title": "Rubin：The Nepalese Legacy in Tibetan Painting，2010年展览说明，页2–3",
+    "url": "https://defunct.rubinmuseum.org/wp-content/uploads/2010/09/The_Nepalese_Legacy_press_release.pdf",
+    "claims": "1429年俄尔寺、尼瓦尔艺术与寺院赞助；不能把全部尼泊尔式绘画都归为俄尔寺作品。",
+    "work_ids": [
+      "w1692",
+      "w1550",
+      "w1641"
+    ],
+    "kind": "research",
+    "checked_on": "2026-11-03",
+    "primary": true
+  },
+  {
+    "source_id": "S64",
+    "title": "Natasha N. Kimmet：Potala Palace: A Monument of Tibetan Cultural Identity（Rubin，2023）",
+    "url": "https://rubinmuseum.org/projecthimalayanart/essays/potala-palace/",
+    "claims": "1642年甘丹颇章政权形成、蒙古支持与17世纪布达拉宫营建。",
+    "work_ids": [],
+    "kind": "research",
+    "checked_on": "2026-11-03",
+    "primary": true
+  },
+  {
+    "source_id": "S65",
+    "title": "Karl Debreczeny、Elena Pakhoutova：Himalayan Art and Cross-Cultural Exchange（Rubin）",
+    "url": "https://rubinmuseum.org/projecthimalayanart/object-essays-introduction/",
+    "claims": "跨地域赞助、蒙古与清宫佛教艺术网络及西藏各地的多样传统。",
+    "work_ids": [],
+    "kind": "research",
+    "checked_on": "2026-11-03",
     "primary": true
   }
 ]

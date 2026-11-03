@@ -1,6 +1,16 @@
 (() => {
  'use strict';
  const $ = q => document.querySelector(q), $$ = q => [...document.querySelectorAll(q)];
+ // Stable period links open the relevant native disclosure, including on Back.
+ const revealPeriod = () => {
+  let id; try { id=decodeURIComponent(location.hash.slice(1)); } catch { return; }
+  const period=document.getElementById(id);
+  if(period?.classList.contains('ha-period')){
+   period.open=true;
+   requestAnimationFrame(()=>period.scrollIntoView({block:'start'}));
+  }
+ };
+ revealPeriod(); window.addEventListener('hashchange',revealPeriod);
  // Plates remain all visible without JavaScript; one-button return to the full mandala.
  $$('.ha-detail-view').forEach(view => {
   const tabs=view.querySelector('.ha-tabs'), panels=[...view.querySelectorAll('[data-plate-panel]')];

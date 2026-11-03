@@ -211,7 +211,7 @@
         "c3"
       ],
       "collection": "吉美博物馆",
-      "search": "纪年1145年的仪式法冠 Ritual Crown MA 4929 鎏金铜嵌青金石、石榴石、绿松石、水晶 吉美博物馆 吉美博物馆",
+      "search": "纪年1145年的仪式法冠 Ritual Crown MA 4929 鎏金铜嵌青金石、石榴石、绿松石及有色玻璃 吉美博物馆 吉美博物馆",
       "material": "金属",
       "theme": "器物与供养",
       "reading_unit_ids": [
@@ -1215,10 +1215,12 @@
         "c3"
       ],
       "collection": "克利夫兰美术馆",
-      "search": "四臂文殊 Bodhisattva of Wisdom Manjushri 1964.370 鎏金铜合金、宝石、胶彩与冷金 克利夫兰美术馆 克利夫兰美术馆",
+      "search": "四臂文殊 Bodhisattva of Wisdom Manjushri 1964.370 鎏金青铜、宝石与半宝石、胶彩、冷金 克利夫兰美术馆 克利夫兰美术馆",
       "material": "金属",
       "theme": "文殊",
-      "reading_unit_ids": []
+      "reading_unit_ids": [
+        "u25"
+      ]
     },
     {
       "work_id": "w1554",
@@ -3587,6 +3589,13 @@
       "works": [
         "w1651",
         "w1581"
+      ]
+    },
+    {
+      "id": "u25",
+      "title": "四臂之间，一张安静的脸",
+      "works": [
+        "w1552"
       ]
     },
     {

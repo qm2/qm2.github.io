@@ -39,6 +39,21 @@ for p in photos:
         assert d.width == min(im.width, size) and abs(d.height/d.width-im.height/im.width) < .005
 assert wb['w1563']['accession'] == '1964.103' and wb['w1563']['date_end'] == 1310
 assert wb['w1552']['accession'] == '1964.370'
+assert wb['w1552']['reading_unit_ids'] == ['u25'] and wb['w1552']['tier']=='focus'
+assert wb['w1552']['dimensions_display']=='整体78.1 × 67.6厘米'
+assert '有色玻璃' in wb['w1484']['materials_display']
+history=read('history'); node_ids=set()
+for track in history['tracks']:
+    for n in track['nodes']:
+        assert n['id'] not in node_ids; node_ids.add(n['id'])
+        assert len(n['keywords'])==3 and n['related']
+        assert all(r['work_id'] in wb for r in n['related'])
+        for p in n['paragraphs']: assert set(p['source_ids'])<=sources
+        for r in n['related']:
+            assert f'../history/#{n["id"]}' in (BASE/r['work_id']/'index.html').read_text()
+for u in units:
+    for section in u.get('sections',[])+u.get('notes',[]):
+        for p in section['paragraphs']:assert set(p['source_ids'])<=sources
 assert wb['w1651']['accession'] == '48.166'
 assert wb['w1700']['accession'] == 'AP 1979.01'
 assert wb['w1664']['accession'] == '44-18' and wb['w1664']['tier'] == 'focus'

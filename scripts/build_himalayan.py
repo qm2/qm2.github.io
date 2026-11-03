@@ -15,7 +15,8 @@ def build(base=BASE, integrate=True):
     works=read('works'); by={w['work_id']:w for w in works}; units=read('reading_units'); ub={u['unit_id']:u for u in units}
     chapters=read('chapters'); places=read('places'); pb={p['place_id']:p for p in places}; museums=read('museums'); mb={m['museum_id']:m for m in museums}
     sources={s['source_id']:s for s in read('sources')}; photos=read('photos'); caps=read('photo_captions')
-    introduction=read('introduction'); visits=read('visits'); updates=read('updates')
+    introduction=read('introduction'); visits=read('visits'); updates=read('updates'); history=read('history')
+    history_nodes=[n for track in history['tracks'] for n in track['nodes']]
     visit_by={v['visit_id']:v for v in visits}
     assert len(visit_by)==len(visits)
     for v in visits:
@@ -74,6 +75,18 @@ def build(base=BASE, integrate=True):
     def notes(w):return ''.join('<p class="ha-note">'+e(t)+'</p>' for t in w['reader_notes'])
     def mini(w,pre='../'):
         return f'<a class="ha-mini" href="{pre}{w["work_id"]}/">{img(w["primary_photo"],w["image_alt_zh"],pre,small=True)}<span>{e(w["title_zh"])}<small>{e(w["date_label"])}</small></span></a>'
+    def paragraphs(paras, ids):
+        out=''
+        for p in paras:
+            ids.extend(p.get('source_ids',[]))
+            out+='<p>'+e(p['text'])+' '+refmark(p.get('source_ids',[]))+'</p>'
+        return out
+    def research_sections(sections,ids):
+        return ''.join('<section><h2>'+e(s['title'])+'</h2>'+paragraphs(s['paragraphs'],ids)+'</section>' for s in sections)
+    def history_links(wid):
+        nodes=[n for n in history_nodes if any(r['work_id']==wid for r in n['related'])]
+        if not nodes:return ''
+        return '<aside class="ha-history-return ha-prose"><p class="ha-note">历史与观看 · '+ ' · '.join(f'<a href="../history/#{n["id"]}">{e(n["period"])}：{e(n["title"])}</a>' for n in nodes)+'</p></aside>'
     def gallery(w,pre='../'):
         ns=w['detail_photos']
         if not ns:return ''
@@ -107,17 +120,25 @@ def build(base=BASE, integrate=True):
                 if v.get('visited_on'):body+=f'<p class="ha-note"><time datetime="{v["visited_on"]}">{v["visited_on"]}</time></p>'
                 body+='<p>'+e(v['observation'])+'</p></article>'
             body+='</section>'
-        body+=refs(w['source_ids']);write(wid,w['title_zh'],body,photo)
+        body+=history_links(wid)+refs(w['source_ids']);write(wid,w['title_zh'],body,photo)
     # Reading units: the photograph leads, comparisons remain optional.
     for index,u in enumerate(units):
         w=by[u['focus_work_id']];wid=w['work_id'];ids=list(u['source_ids'])+w['source_ids']
-        body=f'<nav class="breadcrumbs"><a href="../">喜马拉雅艺术</a><span>/</span><a href="../#{u["chapter_id"]}">{e(next(c["title_zh"] for c in chapters if c["chapter_id"]==u["chapter_id"]))}</a></nav><header class="ha-heading"><p class="eyebrow">{index+1:02d} / CLOSE LOOKING</p><h1>{e(u["title_zh"])}</h1></header>'
+        body=f'<nav class="breadcrumbs"><a href="../">喜马拉雅艺术</a><span>/</span><a href="../#{u["chapter_id"]}">{e(next(c["title_zh"] for c in chapters if c["chapter_id"]==u["chapter_id"]))}</a></nav><header class="ha-heading"><p class="eyebrow">{u["unit_id"][1:]} / CLOSE LOOKING</p><h1>{e(u["title_zh"])}</h1></header>'
+        if u.get('lead'):body+='<p class="ha-reading-lead ha-prose">'+e(u['lead'])+'</p>'
         body+=gallery(w) if wid=='w1692' else fig(w['primary_photo'],caption(w),'../',True)
-        body+='<div class="ha-prose"><p>'+e(u['body_zh'])+' '+refmark(ids)+'</p><p class="ha-look">细看：'+e('；'.join(u['look_for']))+'。</p></div>'
+        body+='<div class="ha-prose"><p>'+e(u['body_zh'])+' '+refmark(u.get('lead_source_ids',ids))+'</p>'
+        if u.get('sections'):
+            body+=research_sections(u['sections'],ids)
+            if u.get('notes'):body+='<details class="ha-research-notes"><summary>资料注 · 记录与解释</summary>'+research_sections(u['notes'],ids)+'</details>'
+        else:body+='<p class="ha-look">细看：'+e('；'.join(u['look_for']))+'。</p>'
+        body+='</div>'
         if wid!='w1692':body+=gallery(w)
         body+=f'<p class="ha-prose ha-note"><a href="../{wid}/">完整作品资料 →</a> · <a href="../?work={wid}#places">看相关地区 →</a></p>'+links(w)
         if u['comparison_work_ids']:
-            body+='<section class="ha-comparisons" aria-labelledby="comparison-title"><h2 id="comparison-title">放在一起看</h2><div class="ha-comparison-preview compare-group">'
+            body+='<section class="ha-comparisons" aria-labelledby="comparison-title"><h2 id="comparison-title">放在一起看</h2>'
+            if u.get('comparison_intro'):body+='<p class="ha-prose">'+e(u['comparison_intro'])+'</p>'
+            body+='<div class="ha-comparison-preview compare-group">'
             for k in u['comparison_work_ids']:
                 a=by[k];photo=a['primary_photo']
                 body+=f'<article data-comparison="{k}"><a data-photo href="../{manifest[photo]["original"]}" data-caption="{e(caption(a))}">{img(photo,a["image_alt_zh"],"../",small=True)}</a><div><h3><a href="../{k}/">{e(a["title_zh"])}</a></h3><p class="ha-note">{e(collection(a))}</p>'
@@ -127,10 +148,26 @@ def build(base=BASE, integrate=True):
             for k in u['comparison_work_ids']:
                 a=by[k];ids+=a['source_ids'];body+='<article>'+fig(a['primary_photo'],caption(a),'../')+f'<h3><a href="../{k}/">{e(a["title_zh"])}</a></h3><p class="ha-note">{e(a.get("materials_display") or "材料尚未核录")}</p>'+notes(a)+links(a)+refmark(a['source_ids'])+'</article>'
             body+='</div></details></section>'
-        body+=refs(ids)+'<nav class="ha-next" aria-label="细读翻页">'
+        body+=history_links(wid)+refs(ids)+'<nav class="ha-next" aria-label="细读翻页">'
         if index:body+=f'<a href="../{units[index-1]["unit_id"]}/">← {e(units[index-1]["title_zh"])}</a>'
         if index+1<len(units):body+=f'<a href="../{units[index+1]["unit_id"]}/">{e(units[index+1]["title_zh"])} →</a>'
         body+='</nav>';write(u['unit_id'],u['title_zh'],body,w['primary_photo'])
+    # Parallel contextual histories reuse canonical works and photographs. Native
+    # details keep every period usable by keyboard and without JavaScript.
+    ids=[]
+    body='<nav class="breadcrumbs"><a href="../">喜马拉雅艺术</a><span>/</span><span>历史与观看</span></nav><header class="ha-heading"><p class="eyebrow">HISTORY &amp; LOOKING</p><h1>'+e(history['title'])+'</h1><p>'+e(history['subtitle'])+'</p></header><div class="ha-prose"><p>'+e(history['introduction'])+'</p></div>'
+    body+='<nav class="ha-history-nav" aria-label="背景导览"><a href="#tibet">西藏时间线 ↓</a><a href="#nepal">尼泊尔时间线 ↓</a><a href="../#places">回到地域地图 →</a></nav><p class="ha-note">点击时期，展开历史与相关作品。两列按大致时代并看，时间段不按比例绘制。</p><div class="ha-history-grid">'
+    for track in history['tracks']:
+        col=track['column']
+        body+=f'<h2 id="{track["id"]}" class="ha-track-title" style="--column:{col};--row:1;--span:1">{e(track["title"])}</h2>'
+        for n in track['nodes']:
+            body+=f'<details class="ha-period" id="{n["id"]}" style="--column:{col};--row:{n["row"]};--span:{n["span"]}"><summary><span class="ha-period-date">{e(n["period"])}</span><span class="ha-period-title">{e(n["title"])}</span><span class="ha-keywords">'+e(' · '.join(n['keywords']))+'</span></summary><div class="ha-period-body"><p class="ha-period-intro">'+e(n['summary'])+'</p>'+paragraphs(n['paragraphs'],ids)+'<div class="ha-history-works">'
+            for r in n['related']:
+                w=by[r['work_id']];body+='<div>'+mini(w)+'<p class="ha-note">'+e(r['relation'])+'</p></div>'
+            body+='</div></div></details>'
+    body+='</div><section class="ha-prose"><h2>几个地名，几种联系</h2><p>古格是西部的历史政权；托林是寺院。俄尔是萨迦传统中的一座寺院，丹萨替则与帕木竹巴传承及家族供养相连。它们各自影响了艺术，却都不能单凭一种面容或饰件来辨认。</p>'+refmark(['S61','S62','S63'])+'</section><details class="ha-prose ha-research-notes"><summary>关于分期与资料</summary>'+paragraphs(history['framing']+history['notes'],ids)+'</details>'
+    body+=refs(ids)+'<nav class="ha-next"><a href="../#chapters">← 回到六章细读</a><a href="../#catalogue">打开亲见目录 →</a></nav>'
+    write('history',history['title'],body)
     # The map and every filter consume the same records. Groups are editorial geography, not work ID lists.
     groups=read('map_groups')
     member={p:g['id'] for g in groups for p in g['members']}
@@ -213,12 +250,14 @@ def build(base=BASE, integrate=True):
     epigraph=introduction['epigraph']
     body+='<section class="ha-preface ha-prose" id="preface" aria-labelledby="preface-title"><h2 id="preface-title">缘起</h2><blockquote class="ha-epigraph"><p>'+'<br>'.join(e(line) for line in epigraph['lines'])+'</p><cite><a href="'+e(epigraph['source_url'])+'" title="'+e(epigraph['source_title'])+'">'+e(epigraph['credit'])+'</a></cite></blockquote><div class="ha-personal-text">'+''.join('<p>'+e(t)+'</p>' for t in introduction['paragraphs'])+'</div></section>'
     body+='<p class="ha-scope">从斯瓦特、克什米尔与尼泊尔到西藏，也收入与这些传统相连的东印度作品及部分宫廷供养器物。</p>'+maphtml
+    body+='<aside class="ha-history-entry" id="history-entry"><p class="eyebrow">HISTORY &amp; LOOKING</p><h2><a href="history/">历史与观看</a></h2><p>展签上的年代，放回山谷与寺院的历史。展开西藏、尼泊尔的两条时间线，再回到一尊像、一顶法冠、一幅画。</p><p><a href="history/#tibet">西藏：译经、寺院与供养 →</a>　<a href="history/#nepal">尼泊尔：城市、礼仪与手艺 →</a></p></aside>'
     body+='<nav class="ha-chapters" id="chapters" aria-label="章节阅读">'+''.join(f'<a href="#{c["chapter_id"]}"><small>{i+1:02d}</small>{e(c["title_zh"])}</a>' for i,c in enumerate(chapters))+'</nav>'
     for c in chapters:
         body+=f'<section class="ha-section" id="{c["chapter_id"]}"><header><p class="eyebrow">{e(c["subtitle_zh"])}</p><h2>{e(c["title_zh"])}</h2><p>{e(c["intro_zh"])}</p></header><div class="ha-readings">'
         for i,uid in enumerate(c['unit_ids']):
             u=ub[uid];w=by[u['focus_work_id']]
-            body+=f'<article class="ha-reading {"ha-featured" if i==0 else ""}" data-reading="{uid}"><a href="{uid}/" class="ha-reading-image">{img(w["primary_photo"],w["image_alt_zh"],small=i!=0)}</a><div><p class="eyebrow">{uid[1:]} / 细读</p><h3><a href="{uid}/">{e(u["title_zh"])}</a></h3><p>{e(u["teaser"])}</p><p class="ha-note">{e(w["title_zh"])} · {e(w["date_label"])}</p><a class="text-link" href="{uid}/">展开照片与札记 →</a></div></article>'
+            featured=i==0 or u.get('featured',False)
+            body+=f'<article class="ha-reading {"ha-featured" if featured else ""}" data-reading="{uid}"><a href="{uid}/" class="ha-reading-image">{img(w["primary_photo"],w["image_alt_zh"],small=not featured)}</a><div><p class="eyebrow">{uid[1:]} / 细读</p><h3><a href="{uid}/">{e(u["title_zh"])}</a></h3><p>{e(u["teaser"])}</p><p class="ha-note">{e(w["title_zh"])} · {e(w["date_label"])}</p><a class="text-link" href="{uid}/">展开照片与札记 →</a></div></article>'
         body+='</div><p class="ha-return"><a href="#places">回到地域导览 ↑</a></p></section>'
     if recent:
         body+='<section class="ha-recent ha-section" id="recent-notes" aria-labelledby="recent-title"><h2 id="recent-title">最近新增／重访札记</h2><ul>'
