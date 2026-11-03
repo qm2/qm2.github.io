@@ -1,14 +1,130 @@
 [
- {"id":"northwest","label":"斯瓦特与吉尔吉特","members":["swat","gilgit"],"longitude":72.7,"latitude":35.8},
- {"id":"kashmir-tradition","label":"克什米尔","members":["kashmir","greater-kashmir"],"longitude":74.9,"latitude":33.3},
- {"id":"west-himalaya","label":"西喜马拉雅","members":["western-himalaya"],"longitude":77.6,"latitude":36.3},
- {"id":"west-tibet","label":"古格与西藏西部","members":["western-tibet","guge","tholing"],"longitude":80.5,"latitude":31.9},
- {"id":"nepal","label":"加德满都山谷","members":["kathmandu-valley"],"longitude":85.3,"latitude":27.7},
- {"id":"east-india","label":"帕拉东印度","members":["pala-india","pala-bihar","nalanda","kurkihar","tetravan","pala-bengal"],"longitude":87.1,"latitude":23.7},
- {"id":"tibet","label":"西藏与中部传统","members":["central-tibet","tibet-broad","tsang","ngor","densatil"],"longitude":90.8,"latitude":30.7},
- {"id":"east-tibet","label":"西藏东部","members":["eastern-tibet"],"longitude":96,"latitude":33},
- {"id":"court","label":"宫廷交流","members":["china-court","beijing-court"],"longitude":115,"latitude":36,"extension":true},
- {"id":"mongolia","label":"蒙古地区","members":["mongolia"],"longitude":103,"latitude":46.5,"extension":true},
- {"id":"yunnan","label":"云南","members":["yunnan"],"longitude":100.5,"latitude":26,"extension":true},
- {"id":"central-asia","label":"高昌候选地区","members":["central-asia"],"longitude":89.5,"latitude":42.9,"extension":true}
+  {
+    "id": "northwest",
+    "label": "斯瓦特与吉尔吉特",
+    "members": [
+      "swat",
+      "gilgit"
+    ],
+    "longitude": 72.7,
+    "latitude": 35.8
+  },
+  {
+    "id": "kashmir-tradition",
+    "label": "克什米尔",
+    "members": [
+      "kashmir",
+      "greater-kashmir"
+    ],
+    "longitude": 74.9,
+    "latitude": 33.3,
+    "filter_label": "克什米尔及相关传统"
+  },
+  {
+    "id": "west-himalaya",
+    "label": "西喜马拉雅",
+    "members": [
+      "western-himalaya"
+    ],
+    "longitude": 77.6,
+    "latitude": 36.3
+  },
+  {
+    "id": "west-tibet",
+    "label": "古格与西藏西部",
+    "members": [
+      "western-tibet",
+      "guge",
+      "tholing"
+    ],
+    "longitude": 80.5,
+    "latitude": 31.9
+  },
+  {
+    "id": "nepal",
+    "label": "加德满都山谷",
+    "members": [
+      "kathmandu-valley"
+    ],
+    "longitude": 85.3,
+    "latitude": 27.7
+  },
+  {
+    "id": "east-india",
+    "label": "帕拉东印度",
+    "members": [
+      "pala-india",
+      "pala-bihar",
+      "nalanda",
+      "kurkihar",
+      "tetravan",
+      "pala-bengal"
+    ],
+    "longitude": 87.1,
+    "latitude": 23.7
+  },
+  {
+    "id": "tibet",
+    "label": "西藏与中部传统",
+    "members": [
+      "central-tibet",
+      "tibet-broad",
+      "tsang",
+      "ngor",
+      "densatil"
+    ],
+    "longitude": 90.8,
+    "latitude": 30.7,
+    "filter_label": "西藏及中部传统"
+  },
+  {
+    "id": "east-tibet",
+    "label": "西藏东部",
+    "members": [
+      "eastern-tibet"
+    ],
+    "longitude": 96,
+    "latitude": 33
+  },
+  {
+    "id": "court",
+    "label": "宫廷交流",
+    "members": [
+      "china-court",
+      "beijing-court"
+    ],
+    "longitude": 115,
+    "latitude": 36,
+    "extension": true
+  },
+  {
+    "id": "mongolia",
+    "label": "蒙古地区",
+    "members": [
+      "mongolia"
+    ],
+    "longitude": 103,
+    "latitude": 46.5,
+    "extension": true
+  },
+  {
+    "id": "yunnan",
+    "label": "云南",
+    "members": [
+      "yunnan"
+    ],
+    "longitude": 100.5,
+    "latitude": 26,
+    "extension": true
+  },
+  {
+    "id": "central-asia",
+    "label": "高昌候选地区",
+    "members": [
+      "central-asia"
+    ],
+    "longitude": 89.5,
+    "latitude": 42.9,
+    "extension": true
+  }
 ]

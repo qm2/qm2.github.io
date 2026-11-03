@@ -11,6 +11,9 @@ BASE=ROOT/'museum-notes/himalayan-art'
 data=json.loads((BASE/'data/navigation.json').read_text())
 class Quiet(http.server.SimpleHTTPRequestHandler):
     def log_message(self,*args): pass
+    def copyfile(self,*args):
+        try: super().copyfile(*args)
+        except (BrokenPipeError,ConnectionResetError): pass
 server=http.server.ThreadingHTTPServer(('127.0.0.1',0),functools.partial(Quiet,directory=str(ROOT)))
 threading.Thread(target=server.serve_forever,daemon=True).start()
 url=f'http://127.0.0.1:{server.server_port}/museum-notes/himalayan-art/'
@@ -41,6 +44,28 @@ with sync_playwright() as p:
     assert len(initial_images)<40, len(initial_images)
     assert not page.locator('#ha-catalogue').evaluate('(d)=>d.open')
     lightbox(page.locator('.ha-cover [data-photo]'))
+    expect(page.locator('.ha-personal-text p')).to_have_count(3)
+    expect(page.locator('.ha-epigraph cite')).to_contain_text('曾缄译')
+    page.locator('#preface').scroll_into_view_if_needed();screenshot('desktop-preface')
+    published=[u for u in json.loads((BASE/'data/updates.json').read_text()) if u.get('public',False)]
+    expect(page.locator('[data-update]')).to_have_count(min(3,len(published)))
+    # The old region query remains valid; only the controls now have two levels.
+    home('?region=ngor#places')
+    expect(page.locator('#ha-region')).to_have_value('tibet')
+    expect(page.locator('#ha-place')).to_have_value('ngor')
+    expect(page.locator('[data-map="regions"] [data-region="tibet"]')).to_have_attribute('aria-current','true')
+    ngor=sum('ngor' in w['region_ids'] for w in data['works'])
+    expect(page.locator('#ha-count')).to_contain_text(f'{ngor} /')
+    page.select_option('#ha-place','densatil')
+    assert 'region=densatil' in page.url
+    page.go_back();expect(page.locator('#ha-place')).to_have_value('ngor')
+    page.select_option('#ha-place','');expect(page.locator('#ha-region')).to_have_value('tibet')
+    assert 'region=tibet' in page.url
+    page.select_option('#ha-region','east-tibet');expect(page.locator('#ha-place-label')).to_be_hidden()
+    options=page.locator('#ha-region option').evaluate_all('(items)=>items.map(o=>o.value)')
+    assert len(options)==len(set(options)) and 'eastern-tibet' not in options
+    home('?region=eastern-tibet#places');expect(page.locator('#ha-region')).to_have_value('east-tibet')
+    page.locator('[data-reset]').first.click();expect(page.locator('#ha-place-label')).to_be_hidden()
     page.locator('#places').scroll_into_view_if_needed();screenshot('desktop-map')
     link=page.locator('nav [data-region="kashmir-tradition"]')
     link.focus();page.keyboard.press('Enter')
@@ -77,6 +102,11 @@ with sync_playwright() as p:
         fig=page.locator('.ha-cover figure');image=fig.locator('img').bounding_box();cap=fig.locator('figcaption').bounding_box()
         assert abs(image['x']-cap['x'])<2 and abs(image['width']-cap['width'])<2 and 0<=cap['y']-image['y']-image['height']<20
         lightbox(fig.locator('[data-photo]'))
+        page.locator('#preface').scroll_into_view_if_needed();screenshot(f'mobile-{width}-preface');overflow()
+        assert page.locator('.ha-personal-text').bounding_box()['width'] <= width-30
+        page.select_option('#ha-region','tibet');page.select_option('#ha-place','ngor')
+        page.locator('.ha-filters').scroll_into_view_if_needed();screenshot(f'mobile-{width}-hierarchy');overflow()
+        page.locator('[data-reset]').first.click()
         page.locator('.ha-map-fold').scroll_into_view_if_needed();screenshot(f'mobile-{width}-map')
         page.locator('nav [data-region="kashmir-tradition"]').click();overflow()
         page.locator('#c1').scroll_into_view_if_needed();screenshot(f'mobile-{width}-chapter')
@@ -96,6 +126,24 @@ with sync_playwright() as p:
             lightbox(figure.locator('[data-photo]'))
     for width in [1440,390]:
         page.set_viewport_size({'width':width,'height':950 if width==1440 else 844})
+        for uid in ['u04','u16','u18','u19']:
+            unit=next(u for u in data['units'] if u['id']==uid)
+            page.goto(url+uid+'/')
+            preview=page.locator('.ha-comparison-preview')
+            preview.scroll_into_view_if_needed();decoded('.ha-comparison-preview img');overflow()
+            assert not page.locator('.ha-comparison').evaluate('(el)=>el.open')
+            assert page.locator('.ha-comparison-preview article:visible').count()>=1
+            for article in page.locator('.ha-comparison-preview article').all():
+                assert article.locator('h3 a').get_attribute('href').startswith('../w')
+                assert article.locator('.ha-note').first.inner_text()
+                assert article.locator('img').bounding_box()['width']>=110
+            screenshot(f'{width}-{uid}-comparison')
+            first=preview.locator('[data-photo]').first;lightbox(first)
+            page.locator('.ha-comparison summary').focus();page.keyboard.press('Enter')
+            expect(page.locator('.ha-comparison-grid')).to_be_visible()
+            lightbox(page.locator('.ha-comparison-grid [data-photo]').first)
+            href=preview.locator('h3 a').first.get_attribute('href')
+            preview.locator('h3 a').first.click();assert page.url.endswith(href.removeprefix('../'))
         for unit in data['units']:
             page.goto(url+unit['id']+'/');overflow()
     plain=browser.new_context(java_script_enabled=False,viewport={'width':390,'height':844}).new_page()

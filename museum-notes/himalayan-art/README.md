@@ -22,7 +22,9 @@ python3 scripts/check_himalayan_browser.py
 - `data/sources.json` 保存外部书目／馆藏链接。正文短注链接到页末完整题名。未加入交接包内OCR、联系表、研究核对页或书页图像。
 - `data/places.json`、`map_groups.json`、`museums.json` 生成地图、列表和筛选。`navigation.json`、`derivatives.json` 是构建产物，不手改。
 - `map_associations` 区分地域、候选产地和风格联系；`display_museum_id` 用于实际观看地图，`collection_museum_id` 用于独立收藏列表。`map_enabled:false` 的佛堂不落点，仍入目录。对同框、借展及来源不确定性用 `reader_notes` 呈现；不直接渲染 `editorial_notes`。
-- `visits.json` 留作明确参观日期与新观察的独立记录。未知参观日期保持空缺，不采用上传文件名日期。
+- `introduction.json` 保存用户原文的三段缘起、题记与译者署名。诗句已与中国藏学研究中心文章中的引句核对；该站HTTPS证书异常，本轮链接采用可访问的同页HTTP地址。
+- `visits.json` 保存明确参观日期与新观察；`updates.json` 独立记录作品新增、研究更新或重访札记的发布日期。未知参观日期保持空缺，不采用上传文件名日期。
+- 地区控件由 `map_groups.json` 生成大区域、`places.json` 生成关联地区／寺院。单一成员的分组不再重复显示第二级。`filter_label` 只改变控件显示名，稳定ID与 `?region=ngor` 等旧链接继续有效。
 
 ## 原始素材与公开范围
 
@@ -41,6 +43,16 @@ python3 scripts/check_himalayan_browser.py
 7. 更新细读时改正文和照片映射，不改变稳定URL；重新构建并检查。
 
 检查脚本包含隔离临时目录中的新作品、新馆与重访照片试验，测试数据不会写入公开站点。
+
+### 最近新增与重访
+
+首页在完整目录前显示最多三条公开更新；没有记录时连同首屏快捷入口一起隐藏。当前两条是2026-11-03首版核对展签的真实资料更新，不是新近到访记录。
+
+`updates.json` 每条包含 `update_id`、`published_on`（资料发布日，YYYY-MM-DD）、`kind`（`new`／`research`／`revisit`）、`work_id`、`summary`、`visit_id`（可空）、`source_ids` 和 `public`。更新使用作品原有ID，自动链接作品页。
+
+一次重访可在 `visits.json` 添加 `{visit_id, work_id, visited_on, photo_ids, observation, public}`：日期仅在确知时填写，否则用 `null`；`photo_ids` 指向独立照片记录，并同时加入原作品的照片列表。公开的 `observation` 自动出现在该作品的“重访札记”段落；更新条目通过 `visit_id` 可直接跳到它。照片、研究来源与作品基本资料仍在各自数据文件维护。
+
+构建检查验证所有引用，并在临时副本中测试新馆、新地区、新作品、重访照片与观察、更新显示及空列表隐藏，不修改正式目录。页面、脚本和导航数据带同一内容版本，减少发布后旧缓存与新控件混用。
 
 ## 地图与已知资料限度
 

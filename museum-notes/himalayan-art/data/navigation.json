@@ -3745,7 +3745,8 @@
         "greater-kashmir"
       ],
       "longitude": 74.9,
-      "latitude": 33.3
+      "latitude": 33.3,
+      "filter_label": "克什米尔及相关传统"
     },
     {
       "id": "west-himalaya",
@@ -3801,7 +3802,8 @@
         "densatil"
       ],
       "longitude": 90.8,
-      "latitude": 30.7
+      "latitude": 30.7,
+      "filter_label": "西藏及中部传统"
     },
     {
       "id": "east-tibet",
@@ -3943,7 +3945,8 @@
       "radius_km": 300,
       "precision": "region",
       "coordinate_basis": "编辑用现代地理参照；约略位置",
-      "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+      "note": "地区导航示意点，不能当作作品出土地或工坊地址。",
+      "filter_label": "西藏中部（宽地域）"
     },
     {
       "place_id": "tibet-broad",
@@ -3953,7 +3956,8 @@
       "radius_km": 700,
       "precision": "broad_region",
       "coordinate_basis": "编辑用现代地理参照；约略位置",
-      "note": "地区导航示意点，不能当作作品出土地或工坊地址。"
+      "note": "地区导航示意点，不能当作作品出土地或工坊地址。",
+      "filter_label": "西藏（具体地区未定）"
     },
     {
       "place_id": "tsang",
@@ -3973,7 +3977,8 @@
       "radius_km": 80,
       "precision": "associated_site_region",
       "coordinate_basis": "编辑用现代地理参照；约略位置",
-      "note": "按俄尔寺关联分组，示意点不精确定位创作工坊。"
+      "note": "按俄尔寺关联分组，示意点不精确定位创作工坊。",
+      "filter_label": "俄尔寺相关传统（后藏）"
     },
     {
       "place_id": "densatil",
@@ -3983,7 +3988,8 @@
       "radius_km": 70,
       "precision": "associated_site_region",
       "coordinate_basis": "编辑用现代地理参照；约略位置",
-      "note": "根据馆方丹萨替关联；不以此证明各件来自同一座塔。"
+      "note": "根据馆方丹萨替关联；不以此证明各件来自同一座塔。",
+      "filter_label": "丹萨替寺相关地区"
     },
     {
       "place_id": "eastern-tibet",

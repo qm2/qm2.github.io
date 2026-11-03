@@ -1,7 +1,8 @@
 """Build Himalayan Art from stable public records. No network, npm or handoff required."""
 from pathlib import Path
 from html import escape as e
-import json, re
+import json, re, hashlib
+from datetime import date
 from concurrent.futures import ThreadPoolExecutor
 from PIL import Image, ImageOps
 from build_homer import LIGHTBOX
@@ -14,6 +15,23 @@ def build(base=BASE, integrate=True):
     works=read('works'); by={w['work_id']:w for w in works}; units=read('reading_units'); ub={u['unit_id']:u for u in units}
     chapters=read('chapters'); places=read('places'); pb={p['place_id']:p for p in places}; museums=read('museums'); mb={m['museum_id']:m for m in museums}
     sources={s['source_id']:s for s in read('sources')}; photos=read('photos'); caps=read('photo_captions')
+    introduction=read('introduction'); visits=read('visits'); updates=read('updates')
+    visit_by={v['visit_id']:v for v in visits}
+    assert len(visit_by)==len(visits)
+    for v in visits:
+        assert v['work_id'] in by
+        if v.get('visited_on'): date.fromisoformat(v['visited_on'])
+        assert set(v.get('photo_ids',[])) <= set(by[v['work_id']]['art_photos']+by[v['work_id']]['detail_photos'])
+    assert len({u['update_id'] for u in updates})==len(updates)
+    for update in updates:
+        assert update['work_id'] in by and update['kind'] in {'new','research','revisit'}
+        date.fromisoformat(update['published_on'])
+        assert all(s in sources for s in update.get('source_ids',[]))
+        if update.get('visit_id'):
+            assert visit_by[update['visit_id']]['work_id']==update['work_id']
+    recent=sorted([u for u in updates if u.get('public',False)],key=lambda u:u['published_on'],reverse=True)[:3]
+    # Keep HTML, navigation and scoped assets on the same revision after publishing.
+    revision=hashlib.sha256(b''.join(p.read_bytes() for p in [base/'himalayan.js',base/'himalayan.css']+sorted(p for p in (base/'data').glob('*.json') if p.stem not in {'navigation','derivatives'}))).hexdigest()[:12]
     assert len(by)==len(works) and all(w['public'] for w in works)
     def derive(p):
         n=p['photo_id']; src=base/'images/originals'/f'{n}.jpg'
@@ -46,7 +64,7 @@ def build(base=BASE, integrate=True):
         return out+'</ul></section>'
     def shell(title,body,depth=0,photo='h1677'):
         pre='../'*depth; note='../'*(depth+1)
-        return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)} | Merton</title><meta name="description" content="从山口与河谷，到金属、木与色彩：以亲见作品阅读喜马拉雅艺术中的供养、传承与制作。"><meta property="og:image" content="https://qm2.github.io/museum-notes/himalayan-art/images/{photo}-900.webp"><link rel="stylesheet" href="{note}museum.css"><link rel="stylesheet" href="{note}caravaggio/caravaggio.css"><link rel="stylesheet" href="{pre}himalayan.css"><script defer src="{note}caravaggio/caravaggio.js"></script><script defer src="{pre}himalayan.js"></script></head><body class="ha-page" id="top"><a class="skip-link" href="#main">跳至正文</a><header class="site-header"><a class="signature" href="{note}">Merton</a><nav aria-label="主导航"><a href="{pre or './'}">喜马拉雅艺术</a><a href="{pre}#places">地域导览</a><a href="{pre}#catalogue">亲见目录</a></nav></header><main id="main" class="wrap">{body}</main><footer class="site-footer wrap"><a href="{note}">← 博物馆札记</a><span>现场摄影与札记 / Merton</span><a href="#top">回到顶部 ↑</a></footer>{LIGHTBOX}</body></html>'''
+        return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)} | Merton</title><meta name="description" content="从山口与河谷，到金属、木与色彩：以亲见作品阅读喜马拉雅艺术中的供养、传承与制作。"><meta property="og:image" content="https://qm2.github.io/museum-notes/himalayan-art/images/{photo}-900.webp"><link rel="stylesheet" href="{note}museum.css"><link rel="stylesheet" href="{note}caravaggio/caravaggio.css"><link rel="stylesheet" href="{pre}himalayan.css?v={revision}"><script defer src="{note}caravaggio/caravaggio.js"></script><script defer src="{pre}himalayan.js?v={revision}"></script></head><body class="ha-page" id="top"><a class="skip-link" href="#main">跳至正文</a><header class="site-header"><a class="signature" href="{note}">Merton</a><nav aria-label="主导航"><a href="{pre or './'}">喜马拉雅艺术</a><a href="{pre}#places">地域导览</a><a href="{pre}#catalogue">亲见目录</a></nav></header><main id="main" class="wrap">{body}</main><footer class="site-footer wrap"><a href="{note}">← 博物馆札记</a><span>现场摄影与札记 / Merton</span><a href="#top">回到顶部 ↑</a></footer>{LIGHTBOX}</body></html>'''
     def facts(w):
         rel={'regional_attribution':'地域归属','candidate_origin':'候选制作地区','style_and_candidate_origin':'风格联系／候选制作地区'}
         assoc='；'.join(pb[a['place_id']]['label_zh']+'（'+rel.get(a['relationship'],'相关地区')+'）' for a in w['map_associations'])
@@ -81,6 +99,14 @@ def build(base=BASE, integrate=True):
         if w['label_photos']:body+='<details class="ha-prose"><summary>现场资料</summary><p>基本资料依据现场展签整理。'+e(w['title_en'])+(('；馆藏号 '+w['accession']) if w.get('accession') else '')+'。</p>'+notes(w)+'</details>'
         others=[n for n in w['art_photos'] if n!=photo]
         if others:body+='<details class="ha-alternates"><summary>其他现场视角</summary><div class="ha-plates">'+''.join(fig(n,caps.get(n,w['title_zh']+' · 另一张现场照片'),'../') for n in others)+'</div></details>'
+        observations=[v for v in visits if v['work_id']==wid and v.get('public',False) and v.get('observation')]
+        if observations:
+            body+='<section class="ha-prose ha-visit-notes" id="visit-notes"><h2>重访札记</h2>'
+            for v in observations:
+                body+=f'<article id="visit-{e(v["visit_id"])}">'
+                if v.get('visited_on'):body+=f'<p class="ha-note"><time datetime="{v["visited_on"]}">{v["visited_on"]}</time></p>'
+                body+='<p>'+e(v['observation'])+'</p></article>'
+            body+='</section>'
         body+=refs(w['source_ids']);write(wid,w['title_zh'],body,photo)
     # Reading units: the photograph leads, comparisons remain optional.
     for index,u in enumerate(units):
@@ -91,10 +117,16 @@ def build(base=BASE, integrate=True):
         if wid!='w1692':body+=gallery(w)
         body+=f'<p class="ha-prose ha-note"><a href="../{wid}/">完整作品资料 →</a> · <a href="../?work={wid}#places">看相关地区 →</a></p>'+links(w)
         if u['comparison_work_ids']:
-            body+='<details class="ha-comparison"><summary>展开并看 · '+str(len(u['comparison_work_ids']))+'条相关记录</summary><p class="ha-note">图片按各自比例展示，实物不等大。</p><div class="ha-comparison-grid">'
+            body+='<section class="ha-comparisons" aria-labelledby="comparison-title"><h2 id="comparison-title">放在一起看</h2><div class="ha-comparison-preview compare-group">'
+            for k in u['comparison_work_ids']:
+                a=by[k];photo=a['primary_photo']
+                body+=f'<article data-comparison="{k}"><a data-photo href="../{manifest[photo]["original"]}" data-caption="{e(caption(a))}">{img(photo,a["image_alt_zh"],"../",small=True)}</a><div><h3><a href="../{k}/">{e(a["title_zh"])}</a></h3><p class="ha-note">{e(collection(a))}</p>'
+                if a.get('has_shared_frame'):body+=notes(a)
+                body+='</div></article>'
+            body+='</div><details class="ha-comparison"><summary>展开并看 · '+str(len(u['comparison_work_ids']))+'条相关记录</summary><p class="ha-note">图片按各自比例展示，实物不等大。</p><div class="ha-comparison-grid compare-group">'
             for k in u['comparison_work_ids']:
                 a=by[k];ids+=a['source_ids'];body+='<article>'+fig(a['primary_photo'],caption(a),'../')+f'<h3><a href="../{k}/">{e(a["title_zh"])}</a></h3><p class="ha-note">{e(a.get("materials_display") or "材料尚未核录")}</p>'+notes(a)+links(a)+refmark(a['source_ids'])+'</article>'
-            body+='</div></details>'
+            body+='</div></details></section>'
         body+=refs(ids)+'<nav class="ha-next" aria-label="细读翻页">'
         if index:body+=f'<a href="../{units[index-1]["unit_id"]}/">← {e(units[index-1]["title_zh"])}</a>'
         if index+1<len(units):body+=f'<a href="../{units[index+1]["unit_id"]}/">{e(units[index+1]["title_zh"])} →</a>'
@@ -175,16 +207,26 @@ def build(base=BASE, integrate=True):
             for i,m in enumerate(mids):maphtml+=f'<a href="?{("museum" if mode=="museums" else "collection")}={m["museum_id"]}#places" data-{("museum" if mode=="museums" else "collection")}="{m["museum_id"]}">{str(i+1)+" · " if mode=="museums" else ""}{e(m["label_zh"])}</a>'
             maphtml+=f'<a href="?{("museum" if mode=="museums" else "collection")}=unknown#places" data-{("museum" if mode=="museums" else "collection")}="unknown">'+('展出地点未详' if mode=='museums' else '私人收藏／机构未详')+'</a>'
         maphtml+='</nav>'
-    maphtml+='</div><div id="ha-subregions"></div><p id="ha-map-status" class="ha-note" role="status"></p><div class="ha-filters" hidden><label>搜索<input id="ha-search" type="search" placeholder="题名、馆名、馆藏号"></label>'+select('region','地区',[(g['id'],g['label']) for g in groups]+[(p['place_id'],p['label_zh']) for p in places])+select('museum','观看机构',[(m['museum_id'],m['label_zh']) for m in museums if any(w.get('display_museum_id')==m['museum_id'] for w in works)]+[('unknown','地点未详')])+select('period','年代',[('0,799','9世纪以前'),('800,1199','9—12世纪'),('1200,1499','13—15世纪'),('1500,2099','16世纪以后'),('unknown','年代未详')])+select('material','材料',[(v,v) for v in sorted({c['material'] for c in client})])+select('theme','题材',[(v,v) for v in sorted({c['theme'] for c in client})])+'<label class="ha-checkbox"><input id="ha-unknown" type="checkbox" checked> 包含年代未定</label><button type="button" data-reset>清除筛选</button></div><div id="ha-map-result" hidden><p id="ha-count" role="status"></p><div id="ha-matches" class="ha-mini-grid"></div><div id="ha-readings-result"></div><p><a href="#catalogue" id="ha-open-catalogue">查看全部筛选结果 ↓</a></p></div><noscript><p>可通过下方六章与完整目录阅读全部作品；地图中的地区名称提供地理参照。</p></noscript></section>'
-    cover=by['w1677'];body='<nav class="breadcrumbs"><a href="../">博物馆札记</a><span>/</span><span>喜马拉雅艺术</span></nav><section class="ha-cover"><div><p class="eyebrow">HIMALAYAN ART</p><h1>喜马拉雅艺术</h1><p class="ha-subtitle">山口、河谷与神圣的形体</p><p class="ha-prose">山口与河谷之间，图像也在不断相遇：克什米尔的黄铜、东印度的黑石、加德满都的木与金，以及高原上展开的色彩。</p><p class="ha-prose">它们曾被供养、携带、装藏、修补，如今散见于不同博物馆。把这些亲见的作品放在一起，是为了让一次次短暂的凝视，慢慢连成可以继续追问的历史。</p><p><a href="#chapters">开始阅读 ↓</a> · <a href="#places">打开地域导览 ↓</a></p></div><div>'+fig('h1677',caption(cover),high=True)+f'<p class="ha-note"><a href="w1677/">封面作品资料 →</a></p></div></section>'
-    body+='<p class="ha-scope">从斯瓦特、克什米尔与尼泊尔到西藏，也收入与这些传统相连的东印度作品及部分宫廷供养器物。这里保留佛教与印度教各自的尊名，从材料、图像与礼拜实践寻找联系。</p>'+maphtml
-    body+='<nav class="ha-chapters" id="chapters" aria-label="六章阅读">'+''.join(f'<a href="#{c["chapter_id"]}"><small>{i+1:02d}</small>{e(c["title_zh"])}</a>' for i,c in enumerate(chapters))+'</nav>'
+    maphtml+='</div><p id="ha-map-status" class="ha-note" role="status"></p><div class="ha-filters" hidden><label>搜索<input id="ha-search" type="search" placeholder="题名、馆名、馆藏号"></label>'+select('region','大区域',[(g['id'],g.get('filter_label',g['label'])) for g in groups])+'<label id="ha-place-label" hidden>相关地区／寺院<select id="ha-place" aria-describedby="ha-map-status"><option value="">全部关联地点</option></select></label>'+select('museum','观看机构',[(m['museum_id'],m['label_zh']) for m in museums if any(w.get('display_museum_id')==m['museum_id'] for w in works)]+[('unknown','地点未详')])+select('period','年代',[('0,799','9世纪以前'),('800,1199','9—12世纪'),('1200,1499','13—15世纪'),('1500,2099','16世纪以后'),('unknown','年代未详')])+select('material','材料',[(v,v) for v in sorted({c['material'] for c in client})])+select('theme','题材',[(v,v) for v in sorted({c['theme'] for c in client})])+'<label class="ha-checkbox"><input id="ha-unknown" type="checkbox" checked> 包含年代未定</label><button type="button" data-reset>清除筛选</button></div><div id="ha-map-result" hidden><p id="ha-count" role="status"></p><div id="ha-matches" class="ha-mini-grid"></div><div id="ha-readings-result"></div><p><a href="#catalogue" id="ha-open-catalogue">查看全部筛选结果 ↓</a></p></div><noscript><p>可通过下方章节与完整目录阅读全部作品；地图中的地区名称提供地理参照。</p></noscript></section>'
+    cover=by['w1677']
+    body='<nav class="breadcrumbs"><a href="../">博物馆札记</a><span>/</span><span>喜马拉雅艺术</span></nav><section class="ha-cover"><div><p class="eyebrow">HIMALAYAN ART</p><h1>喜马拉雅艺术</h1><p class="ha-subtitle">山口、河谷与神圣的形体</p><p class="ha-prose">'+e(introduction['lead'])+'</p><p><a href="#chapters">开始阅读 ↓</a> · <a href="#places">打开地域导览 ↓</a>'+(' · <a href="#recent-notes">最近札记 ↓</a>' if recent else '')+'</p></div><div>'+fig('h1677',caption(cover),high=True)+'<p class="ha-note"><a href="w1677/">封面作品资料 →</a></p></div></section>'
+    epigraph=introduction['epigraph']
+    body+='<section class="ha-preface ha-prose" id="preface" aria-labelledby="preface-title"><h2 id="preface-title">缘起</h2><blockquote class="ha-epigraph"><p>'+'<br>'.join(e(line) for line in epigraph['lines'])+'</p><cite><a href="'+e(epigraph['source_url'])+'" title="'+e(epigraph['source_title'])+'">'+e(epigraph['credit'])+'</a></cite></blockquote><div class="ha-personal-text">'+''.join('<p>'+e(t)+'</p>' for t in introduction['paragraphs'])+'</div></section>'
+    body+='<p class="ha-scope">从斯瓦特、克什米尔与尼泊尔到西藏，也收入与这些传统相连的东印度作品及部分宫廷供养器物。</p>'+maphtml
+    body+='<nav class="ha-chapters" id="chapters" aria-label="章节阅读">'+''.join(f'<a href="#{c["chapter_id"]}"><small>{i+1:02d}</small>{e(c["title_zh"])}</a>' for i,c in enumerate(chapters))+'</nav>'
     for c in chapters:
         body+=f'<section class="ha-section" id="{c["chapter_id"]}"><header><p class="eyebrow">{e(c["subtitle_zh"])}</p><h2>{e(c["title_zh"])}</h2><p>{e(c["intro_zh"])}</p></header><div class="ha-readings">'
         for i,uid in enumerate(c['unit_ids']):
             u=ub[uid];w=by[u['focus_work_id']]
             body+=f'<article class="ha-reading {"ha-featured" if i==0 else ""}" data-reading="{uid}"><a href="{uid}/" class="ha-reading-image">{img(w["primary_photo"],w["image_alt_zh"],small=i!=0)}</a><div><p class="eyebrow">{uid[1:]} / 细读</p><h3><a href="{uid}/">{e(u["title_zh"])}</a></h3><p>{e(u["teaser"])}</p><p class="ha-note">{e(w["title_zh"])} · {e(w["date_label"])}</p><a class="text-link" href="{uid}/">展开照片与札记 →</a></div></article>'
         body+='</div><p class="ha-return"><a href="#places">回到地域导览 ↑</a></p></section>'
+    if recent:
+        body+='<section class="ha-recent ha-section" id="recent-notes" aria-labelledby="recent-title"><h2 id="recent-title">最近新增／重访札记</h2><ul>'
+        for update in recent:
+            w=by[update['work_id']];kind={'new':'新增作品','research':'资料更新','revisit':'重访札记'}[update['kind']]
+            fragment='#visit-'+update['visit_id'] if update.get('visit_id') and visit_by[update['visit_id']].get('public') and visit_by[update['visit_id']].get('observation') else ''
+            body+=f'<li data-update="{e(update["update_id"])}"><p class="ha-note">{kind} · 发布于 <time datetime="{update["published_on"]}">{update["published_on"]}</time></p><h3><a href="{w["work_id"]}/{fragment}">{e(w["title_zh"])} →</a></h3><p>{e(update["summary"])}</p></li>'
+        body+='</ul></section>'
     ninst=sum(w['scope']=='installation' for w in works)
     body+=f'<section class="ha-section" id="catalogue"><p class="eyebrow">THE VIEWING RECORD</p><h2>完整亲见目录</h2><p>{len(works)-ninst}条作品／组合记录'+(f'，以及{ninst}条佛堂陈设记录' if ninst else '')+'。同一件作品的重访照片合并保留。</p><details id="ha-catalogue"><summary>展开目录 · 查找作品与现场资料</summary><p><a href="#places">按地区、年代、材料或题材筛选 ↑</a></p><div class="ha-catalogue-grid">'
     for w in works:

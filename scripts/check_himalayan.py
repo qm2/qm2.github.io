@@ -46,6 +46,16 @@ assert wb['w1478']['materials_display'] == '布本胶彩'
 assert wb['w1711']['date_label'] == '15世纪'
 assert not wb['w1689']['map_enabled'] and not wb['w1689']['display_museum_id']
 assert len(wb['w1692']['detail_photos']) == 4
+intro=read('introduction')
+home=(BASE/'index.html').read_text()
+assert all(p in home for p in intro['paragraphs']) and len(intro['paragraphs'])==3
+assert home.index('class="ha-cover"') < home.index('id="preface"') < home.index('id="places"')
+assert '曾缄译《六世达赖情歌六十六首》其一节选' in home
+assert '夏嘎巴' not in home
+assert ('id="recent-notes"' in home)==any(u.get('public',False) for u in read('updates'))
+for unit in units:
+    html=(BASE/unit['unit_id']/'index.html').read_text()
+    assert html.count('data-comparison=')==len(unit['comparison_work_ids'])
 for wid in ['w1623','w1641','w1645']:
     assert wb[wid]['collection_museum_id'] == 'rubin' and wb[wid]['display_museum_id'] == 'seattle'
 
@@ -90,7 +100,9 @@ with tempfile.TemporaryDirectory(prefix='himalayan-growth-') as tmp:
     revisit=copy.deepcopy(ps[0]); revisit.update(photo_id='test-revisit', path='images/originals/test-revisit.jpg',thumbnail_path='images/test-revisit-400.webp',work_ids=[ws[0]['work_id']],visit_id='test-visit')
     shutil.copyfile(BASE/ps[0]['path'],fixture/revisit['path']);ps.append(revisit)
     ws[0]['art_photos'].append(revisit['photo_id'])
-    for n,d in [('works',ws),('photos',ps),('museums',museums),('places',places),('visits',[{'visit_id':'test-visit','work_id':ws[0]['work_id']}])]: save(n,d)
+    fixture_visits=[{'visit_id':'test-visit','work_id':ws[0]['work_id'],'visited_on':None,'photo_ids':['test-revisit'],'observation':'测试重访观察：同一件作品保留原编号。','public':True}]
+    fixture_updates=[{'update_id':'test-update','published_on':'2026-11-03','kind':'revisit','work_id':ws[0]['work_id'],'visit_id':'test-visit','summary':'测试重访记录','public':True}]
+    for n,d in [('works',ws),('photos',ps),('museums',museums),('places',places),('visits',fixture_visits),('updates',fixture_updates)]: save(n,d)
     build(fixture, integrate=False)
     nav=json.loads((fixture/'data/navigation.json').read_text()); html=(fixture/'index.html').read_text()
     assert len(nav['works']) == len(works)+1
@@ -99,5 +111,11 @@ with tempfile.TemporaryDirectory(prefix='himalayan-growth-') as tmp:
     assert 'test-revisit.jpg' in (fixture/ws[0]['work_id']/'index.html').read_text()
     assert all((fixture/w['work_id']/'index.html').exists() for w in works)
     assert (fixture/'test-new-work/index.html').exists()
+    assert 'data-update="test-update"' in html and '#visit-test-visit' in html
+    record=(fixture/ws[0]['work_id']/'index.html').read_text()
+    assert '测试重访观察：同一件作品保留原编号。' in record
+    assert '<article id="visit-test-visit"><p>' in record, 'Do not invent a visit date'
+    save('updates',[]);build(fixture, integrate=False)
+    assert 'id="recent-notes"' not in (fixture/'index.html').read_text()
 assert not (BASE/'test-new-work').exists()
-print('PASS: new work, new institution/region, revisit photo, stable old URLs; fixtures removed.')
+print('PASS: new work/institution/region, revisit photo and observation, recent updates, hidden empty state, stable URLs; fixtures removed.')

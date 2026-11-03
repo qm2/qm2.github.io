@@ -9,14 +9,17 @@
   tabs.addEventListener('click',ev=>{const b=ev.target.closest('[data-plate]');if(b)show(Number(b.dataset.plate));}); show(0);
  });
  if(!$('#places'))return;
- const script=document.currentScript || [...document.scripts].find(s=>s.src.endsWith('/himalayan.js'));
+ const script=document.currentScript || [...document.scripts].find(s=>s.src&&new URL(s.src).pathname.endsWith('/himalayan.js'));
  const dataURL=new URL('data/navigation.json',script.src);
+ dataURL.search=new URL(script.src).search;
  fetch(dataURL).then(r=>{if(!r.ok)throw new Error('navigation');return r.json();}).then(start).catch(()=>{
   const p=document.createElement('p');p.className='ha-note';p.textContent='地图筛选暂时无法载入，下方章节与完整目录仍可阅读。';$('#ha-map-status').replaceWith(p);
  });
  function start(data){
   const ws=data.works, groups=data.groups, places=data.places, wb=new Map(ws.map(w=>[w.work_id,w]));
   const groupsBy=new Map(groups.map(g=>[g.id,g]));
+  const parentGroup=id=>groupsBy.get(id) || groups.find(g=>g.members.includes(id));
+  const placeName=id=>{const p=places.find(p=>p.place_id===id);return p?.filter_label || p?.label_zh || id;};
   const regionName=id=>groupsBy.get(id)?.label || places.find(p=>p.place_id===id)?.label_zh || id;
   const names=new Map(data.museums.map(m=>[m.museum_id,m.label_zh]));
   const es=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -26,6 +29,7 @@
    if(!['regions','museums','collections'].includes(state.view))state.view=state.museum?'museums':state.collection?'collections':'regions';
    if(state.work&&!wb.has(state.work))delete state.work;
    if(state.work){const w=wb.get(state.work);if(groups.some(g=>g.extension&&g.members.some(p=>w.region_ids.includes(p))))state.ext='1';}
+   if(parentGroup(state.region)?.extension)state.ext='1';
   };
   const related=(w,id)=>!id || (groupsBy.get(id)?.members || [id]).some(p=>w.region_ids.includes(p));
   const matches=(w,ignoreRegion=false)=>{
@@ -43,11 +47,17 @@
    return true;
   };
   const writeURL=()=>{const q=new URLSearchParams();Object.entries(state).forEach(([k,v])=>{if(v&&!(k==='view'&&v==='regions'))q.set(k,v);});const dest=location.pathname+(q.size?'?'+q:'')+location.hash;if(dest!==location.pathname+location.search+location.hash)history.pushState({},'',dest);};
-  const change=patch=>{state={...state,...patch};writeURL();render();};
+  const change=patch=>{state={...state,...patch};if(patch.region&&parentGroup(patch.region)?.extension)state.ext='1';writeURL();render();};
   const mini=w=>`<a class="ha-mini" href="${es(w.work_id)}/"><img src="images/${es(w.primary_photo)}-400.webp" width="70" height="100" loading="lazy" alt="${es(w.title_zh)}"><span>${es(w.title_zh)}<small>${es(w.date_label)}</small></span></a>`;
   function render(){
    const selected=ws.filter(w=>matches(w)), ids=new Set(selected.map(w=>w.work_id));
-   for(const [k,id] of [['q','search'],['region','region'],['museum','museum'],['period','period'],['material','material'],['theme','theme']])$('#ha-'+id).value=state[k]||'';
+   for(const [k,id] of [['q','search'],['museum','museum'],['period','period'],['material','material'],['theme','theme']])$('#ha-'+id).value=state[k]||'';
+   const group=parentGroup(state.region), child=$('#ha-place');
+   $('#ha-region').value=group?.id || '';
+   child.replaceChildren(new Option('全部关联地点',''));
+   if(group&&group.members.length>1)group.members.forEach(id=>child.add(new Option(placeName(id),id)));
+   child.value=group&&state.region!==group.id ? state.region : '';
+   $('#ha-place-label').hidden=!(group&&group.members.length>1);
    $('#ha-unknown').checked=state.unknown!=='0';$('#ha-extended').checked=state.ext==='1';
    $$('[data-map]').forEach(el=>el.hidden=el.dataset.map!==(state.view==='museums'?'museums':state.ext==='1'?'extended':'regions')||state.view==='collections');
    $('.ha-map-fold').hidden=state.view==='collections';
@@ -55,14 +65,12 @@
    $$('[data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===state.view)));
    $$('[data-extension]').forEach(el=>el.hidden=state.ext!=='1');
    $$('[data-region]').forEach(el=>{
-    const active=state.region===el.dataset.region || (state.work&&wb.get(state.work).map_enabled&&related(wb.get(state.work),el.dataset.region));
+    const active=state.region===el.dataset.region || group?.id===el.dataset.region || (state.work&&wb.get(state.work).map_enabled&&related(wb.get(state.work),el.dataset.region));
     if(active)el.setAttribute('aria-current','true');else el.removeAttribute('aria-current');
    });
    $$('[data-museum]').forEach(el=>{const active=el.dataset.museum===state.museum||(state.work&&wb.get(state.work).display_museum_id===el.dataset.museum);if(active)el.setAttribute('aria-current','true');else el.removeAttribute('aria-current');});
    $$('[data-collection]').forEach(el=>{if(el.dataset.collection===state.collection)el.setAttribute('aria-current','true');else el.removeAttribute('aria-current');});
    $$('[data-count-region]').forEach(el=>el.textContent=ws.filter(w=>w.map_enabled&&related(w,el.dataset.countRegion)&&matches(w,true)).length);
-   const group=groupsBy.get(state.region), sub=$('#ha-subregions');sub.replaceChildren();
-   if(group)group.members.forEach(id=>{const p=places.find(p=>p.place_id===id);if(!p)return;const a=document.createElement('a');a.href='?region='+id+'#places';a.dataset.region=id;a.textContent=p.label_zh;sub.append(a);});
    if(state.work){const w=wb.get(state.work);$('#ha-map-status').textContent=w.title_zh+' · '+(w.map_enabled?w.map_associations.map(a=>regionName(a.place_id)+(a.relationship.includes('candidate')?'（候选／风格联系）':'')).join('；'):'具体地点尚未确认，暂不在地图落点。');}
    else $('#ha-map-status').textContent=state.view==='museums'?'按已识别的拍摄展馆定位；借展作品仍标出收藏者。':state.view==='collections'?'收藏机构与实际观看地点分别记录。':state.region?'已选：'+regionName(state.region):'圆点表示大致区域，不表示原寺院、工坊或出土地。';
    const active=Object.entries(state).some(([k,v])=>v&&!['view','ext'].includes(k));
@@ -78,20 +86,22 @@
   document.addEventListener('click',ev=>{
    const target=ev.target.closest('[data-region],[data-museum],[data-collection],[data-focus],[data-view],[data-reset]');if(!target)return;
    ev.preventDefault();
-   if(target.hasAttribute('data-reset')){state={view:'regions'};writeURL();render();return;}
+   if(target.hasAttribute('data-reset')){clearTimeout(timer);state={view:'regions'};writeURL();render();return;}
    if(target.dataset.view){change({view:target.dataset.view});return;}
    if(target.dataset.focus){state={view:'regions',work:target.dataset.focus};if(groups.some(g=>g.extension&&g.members.some(p=>wb.get(state.work).region_ids.includes(p))))state.ext='1';writeURL();render();$('#places').scrollIntoView();return;}
    if(target.dataset.region){change({region:target.dataset.region,work:'',view:'regions'});return;}
    if(target.dataset.museum){change({museum:target.dataset.museum,collection:'',work:'',view:'museums'});return;}
    if(target.dataset.collection)change({collection:target.dataset.collection,museum:'',work:'',view:'collections'});
   });
-  $('#ha-extended').addEventListener('change',ev=>change({ext:ev.target.checked?'1':''}));
+  $('#ha-extended').addEventListener('change',ev=>change({ext:ev.target.checked?'1':'',...(!ev.target.checked&&parentGroup(state.region)?.extension?{region:''}:{})}));
   $('#ha-unknown').addEventListener('change',ev=>change({unknown:ev.target.checked?'':'0',work:''}));
-  for(const k of ['region','museum','period','material','theme'])$('#ha-'+k).addEventListener('change',ev=>change({[k]:ev.target.value,work:''}));
+  $('#ha-region').addEventListener('change',ev=>change({region:ev.target.value,work:'',view:'regions'}));
+  $('#ha-place').addEventListener('change',ev=>change({region:ev.target.value || parentGroup(state.region)?.id || '',work:'',view:'regions'}));
+  for(const k of ['museum','period','material','theme'])$('#ha-'+k).addEventListener('change',ev=>change({[k]:ev.target.value,work:''}));
   $('#ha-search').addEventListener('input',ev=>{clearTimeout(timer);const q=ev.target.value;timer=setTimeout(()=>change({q,work:''}),180);});
   $('#ha-open-catalogue').addEventListener('click',()=>$('#ha-catalogue').open=true);
   const revealHash=()=>{if(location.hash&&$(location.hash)?.classList.contains('ha-record'))$('#ha-catalogue').open=true;};
-  window.addEventListener('popstate',()=>{fromURL();render();revealHash();});window.addEventListener('hashchange',revealHash);
+  window.addEventListener('popstate',()=>{clearTimeout(timer);fromURL();render();revealHash();});window.addEventListener('hashchange',revealHash);
   fromURL();render();revealHash();
  }
 })();
