@@ -15,7 +15,7 @@ def build(base=BASE, integrate=True):
     works=read('works'); by={w['work_id']:w for w in works}; units=read('reading_units'); ub={u['unit_id']:u for u in units}
     chapters=read('chapters'); places=read('places'); pb={p['place_id']:p for p in places}; museums=read('museums'); mb={m['museum_id']:m for m in museums}
     sources={s['source_id']:s for s in read('sources')}; photos=read('photos'); caps=read('photo_captions')
-    introduction=read('introduction'); visits=read('visits'); updates=read('updates'); history=read('history')
+    introduction=read('introduction'); visits=read('visits'); updates=read('updates'); history=read('history'); crops=read('photo_crops')
     history_nodes=[n for track in history['tracks'] for n in track['nodes']]
     visit_by={v['visit_id']:v for v in visits}
     assert len(visit_by)==len(visits)
@@ -44,6 +44,15 @@ def build(base=BASE, integrate=True):
         return n,{'width':im.width,'height':im.height,'variants':variants,'original':f'images/originals/{n}.jpg','sha256':p['sha256']}
     with ThreadPoolExecutor(max_workers=6) as pool: manifest=dict(pool.map(derive,photos))
     dump('derivatives',manifest)
+    # Crops are traceable derivatives, never replacements for the original photos.
+    crop_by={c['crop_id']:c for c in crops}
+    for c in crops:
+        im=ImageOps.exif_transpose(Image.open(base/manifest[c['photo_id']]['original'])).convert('RGB')
+        x0,y0,x1,y1=c['box'];assert 0<=x0<x1<=im.width and 0<=y0<y1<=im.height
+        im=im.crop(c['box']);c['width'],c['height']=im.size
+        dest=base/'images/details'/f'{c["crop_id"]}.webp';dest.parent.mkdir(exist_ok=True)
+        # Five small derivatives are cheap to regenerate and remain reproducible.
+        im.save(dest,'WEBP',quality=91,method=5)
     def collection(w):
         c=w['collection_label'];mid=w.get('display_museum_id')
         if mid and mid!=w.get('collection_museum_id'):c+=' · 在'+mb[mid]['label_zh']+'展出'
@@ -81,8 +90,15 @@ def build(base=BASE, integrate=True):
             ids.extend(p.get('source_ids',[]))
             out+='<p>'+e(p['text'])+' '+refmark(p.get('source_ids',[]))+'</p>'
         return out
+    def cropped_details(keys):
+        if not keys:return ''
+        out='<div class="ha-crop-grid">'
+        for key in keys:
+            c=crop_by[key];path=f'../images/details/{key}.webp';cap=c['caption']+' · 原片局部'
+            out+=f'<figure class="ha-crop" style="--native:{c["width"]}px"><a data-photo href="{path}" data-caption="{e(cap)}"><img src="{path}" width="{c["width"]}" height="{c["height"]}" alt="{e(c["alt"])}" loading="lazy" decoding="async"></a><figcaption>{e(cap)} · Merton摄<br><a data-photo href="../{manifest[c["photo_id"]]["original"]}" data-caption="{e(by[c["work_id"]]["title_zh"])}">查看完整原片 →</a></figcaption></figure>'
+        return out+'</div>'
     def research_sections(sections,ids):
-        return ''.join('<section><h2>'+e(s['title'])+'</h2>'+paragraphs(s['paragraphs'],ids)+'</section>' for s in sections)
+        return ''.join('<section><h2>'+e(s['title'])+'</h2>'+paragraphs(s['paragraphs'],ids)+cropped_details(s.get('crop_ids',[]))+'</section>' for s in sections)
     def history_links(wid):
         nodes=[n for n in history_nodes if any(r['work_id']==wid for r in n['related'])]
         if not nodes:return ''
@@ -161,7 +177,10 @@ def build(base=BASE, integrate=True):
         col=track['column']
         body+=f'<h2 id="{track["id"]}" class="ha-track-title" style="--column:{col};--row:1;--span:1">{e(track["title"])}</h2>'
         for n in track['nodes']:
-            body+=f'<details class="ha-period" id="{n["id"]}" style="--column:{col};--row:{n["row"]};--span:{n["span"]}"><summary><span class="ha-period-date">{e(n["period"])}</span><span class="ha-period-title">{e(n["title"])}</span><span class="ha-keywords">'+e(' · '.join(n['keywords']))+'</span></summary><div class="ha-period-body"><p class="ha-period-intro">'+e(n['summary'])+'</p>'+paragraphs(n['paragraphs'],ids)+'<div class="ha-history-works">'
+            body+=f'<details class="ha-period" id="{n["id"]}" style="--column:{col};--row:{n["row"]};--span:{n["span"]}"><summary><span class="ha-period-date">{e(n["period"])}</span><span class="ha-period-title">{e(n["title"])}</span><span class="ha-keywords">'+e(' · '.join(n['keywords']))+'</span></summary><div class="ha-period-body"><p class="ha-period-intro">'+e(n['summary'])+'</p>'+paragraphs(n['paragraphs'],ids)
+            if n.get('review'):
+                body+='<aside class="ha-review"><h3>温习要点</h3>'+paragraphs(n['review']['points'],ids)+'<p class="ha-remember">'+e(n['review']['remember'])+'</p></aside>'
+            body+='<div class="ha-history-works">'
             for r in n['related']:
                 w=by[r['work_id']];body+='<div>'+mini(w)+'<p class="ha-note">'+e(r['relation'])+'</p></div>'
             body+='</div></div></details>'

@@ -147,7 +147,8 @@ with sync_playwright() as p:
             preview.locator('h3 a').first.click();assert page.url.endswith(href.removeprefix('../'))
         for unit in data['units']:
             page.goto(url+unit['id']+'/');overflow()
-    # The two expanded readings, parallel periods, and reciprocal object links.
+    print('PASS: existing catalogue, map, comparison and mandala interactions',flush=True)
+    # Expanded readings, parallel periods, and reciprocal object links.
     for width in [1440,390,360]:
         page.set_viewport_size({'width':width,'height':1000 if width==1440 else 844})
         home();page.locator('#history-entry').scroll_into_view_if_needed();overflow()
@@ -160,9 +161,21 @@ with sync_playwright() as p:
         for period in page.locator('.ha-period').all():
             period.locator('summary').focus();page.keyboard.press('Enter')
             assert period.evaluate('(d)=>d.open');overflow()
+            assert period.locator('summary > span').evaluate_all('(els)=>els.every(el=>getComputedStyle(el).transform === "none")'), 'Expanded period text must not rotate'
+            period.locator('summary').click()
+            assert not period.evaluate('(d)=>d.open')
+            assert period.locator('summary > span').evaluate_all('(els)=>els.every(el=>getComputedStyle(el).transform === "none")')
+            period.locator('summary').click()
+            period.locator('.ha-mini img').first.scroll_into_view_if_needed()
             period.locator('.ha-mini img').first.evaluate('(im)=>im.decode()')
             expect(period.locator('.ha-period-body')).to_be_visible()
-        page.locator('#nepal-transitional').scroll_into_view_if_needed();screenshot(f'{width}-history-open')
+        page.locator('#nepal-malla').scroll_into_view_if_needed();screenshot(f'{width}-history-open')
+        for node in [n for t in json.loads((BASE/'data/history.json').read_text())['tracks'] for n in t['nodes']]:
+            page.goto(url+'history/#'+node['id'])
+            target=page.locator('#'+node['id'])
+            expect(target).to_have_attribute('open','')
+            page.wait_for_function('(id)=>document.getElementById(id).getBoundingClientRect().top < innerHeight', arg=node['id'])
+            assert target.locator('summary>span').evaluate_all('(els)=>els.every(el=>getComputedStyle(el).transform === "none")')
         page.goto(url+'w1552/')
         page.locator('.ha-history-return a').click()
         assert page.url.endswith('/history/#nepal-malla')
@@ -179,9 +192,16 @@ with sync_playwright() as p:
             page.locator('.ha-research-notes summary').click()
             expect(page.locator('.ha-research-notes>section')).to_be_visible();overflow()
             page.locator('.ha-research-notes').scroll_into_view_if_needed();screenshot(f'{width}-{uid}-notes')
+            for crop in page.locator('.ha-crop').all():
+                crop.scroll_into_view_if_needed();crop.locator('img').evaluate('(im)=>im.decode()');overflow()
+                assert crop.evaluate('(f)=>{const i=f.querySelector("img"),c=f.querySelector("figcaption");return Math.abs(i.getBoundingClientRect().left-c.getBoundingClientRect().left)<1 && i.clientWidth<=i.naturalWidth && c.getBoundingClientRect().top-i.getBoundingClientRect().bottom<14}')
+                lightbox(crop.locator('a[data-photo]').first)
+                lightbox(crop.locator('a[data-photo]').last)
+            page.locator('.ha-crop-grid').first.scroll_into_view_if_needed();screenshot(f'{width}-{uid}-crops')
             if uid=='u10':
                 page.locator('.ha-comparison-preview').scroll_into_view_if_needed()
                 lightbox(page.locator('.ha-comparison-preview [data-photo]').first)
+        print(f'PASS: {width}px periods, anchors, crops and lightboxes',flush=True)
         home('?work=w1552#places');expect(page.locator('#ha-readings-result')).to_contain_text('四臂之间')
         expect(page.locator('#c3 [data-reading="u25"]')).to_have_class('ha-reading ha-featured ha-associated')
     plain=browser.new_context(java_script_enabled=False,viewport={'width':390,'height':844}).new_page()

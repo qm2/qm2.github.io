@@ -23,6 +23,19 @@ assert all(not p['do_not_publish'] and p['public_asset'] for p in photos)
 allowed = {n for w in works for n in w['art_photos'] + w['detail_photos'] + [w['primary_photo']]}
 assert allowed == pb.keys(), 'Only mapped artwork photos may be published'
 sources = {s['source_id'] for s in read('sources')}
+crops={c['crop_id']:c for c in read('photo_crops')}
+assert len(crops)==len(read('photo_crops'))
+for c in crops.values():
+    assert c['photo_id'] in allowed and c['work_id'] in wb
+    assert c['photo_id'] in wb[c['work_id']]['art_photos']+wb[c['work_id']]['detail_photos']
+    original=ImageOps.exif_transpose(Image.open(BASE/pb[c['photo_id']]['path'])).convert('RGB')
+    x0,y0,x1,y1=c['box']; assert 0<=x0<x1<=original.width and 0<=y0<y1<=original.height
+    target=BASE/'images/details'/f'{c["crop_id"]}.webp'
+    assert Image.open(target).size==(x1-x0,y1-y0)
+    from io import BytesIO
+    expected=BytesIO();original.crop(c['box']).save(expected,'WEBP',quality=91,method=5)
+    assert target.read_bytes()==expected.getvalue(), 'Crop must be an unretouched derivative of the identified original'
+assert {p.stem for p in (BASE/'images/details').glob('*')}==crops.keys()
 for w in works:
     assert all(s in sources for s in w['source_ids'])
     assert (BASE/w['primary_path']).is_file() and (BASE/w['thumbnail_path']).is_file()
@@ -49,11 +62,14 @@ for track in history['tracks']:
         assert len(n['keywords'])==3 and n['related']
         assert all(r['work_id'] in wb for r in n['related'])
         for p in n['paragraphs']: assert set(p['source_ids'])<=sources
+        assert n['review']['remember']
+        for p in n['review']['points']:assert set(p['source_ids'])<=sources
         for r in n['related']:
             assert f'../history/#{n["id"]}' in (BASE/r['work_id']/'index.html').read_text()
 for u in units:
     for section in u.get('sections',[])+u.get('notes',[]):
         for p in section['paragraphs']:assert set(p['source_ids'])<=sources
+        assert set(section.get('crop_ids',[]))<=crops.keys()
 assert wb['w1651']['accession'] == '48.166'
 assert wb['w1700']['accession'] == 'AP 1979.01'
 assert wb['w1664']['accession'] == '44-18' and wb['w1664']['tier'] == 'focus'

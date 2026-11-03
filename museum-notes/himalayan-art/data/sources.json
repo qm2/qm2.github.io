@@ -436,7 +436,7 @@
     "work_ids": [
       "w1692"
     ],
-    "claims": "AP 2000.01；1429—56俄尔寺；棉布彩绘；四曼荼罗与供养者。",
+    "claims": "金贝尔AP 2000.01；官网索引返回的完整馆藏说明与现场展签h1697逐段核对：年代、四区图像、整体布局、委托与来源。直接网页访问受403限制。",
     "kind": "museum_record",
     "checked_on": "2026-11-03",
     "retrieval_ref": "turn50search0",
@@ -824,6 +824,116 @@
     "title": "Karl Debreczeny、Elena Pakhoutova：Himalayan Art and Cross-Cultural Exchange（Rubin）",
     "url": "https://rubinmuseum.org/projecthimalayanart/object-essays-introduction/",
     "claims": "跨地域赞助、蒙古与清宫佛教艺术网络及西藏各地的多样传统。",
+    "work_ids": [],
+    "kind": "research",
+    "checked_on": "2026-11-03",
+    "primary": true
+  },
+  {
+    "source_id": "S66",
+    "title": "鲁宾博物馆：寂护及生平画，C2007.22.1",
+    "url": "https://rubinmuseum.org/collection/c2007-22-1/",
+    "claims": "赤松德赞、寂护与桑耶寺受戒传统。",
+    "work_ids": [],
+    "kind": "research",
+    "checked_on": "2026-11-03",
+    "primary": true
+  },
+  {
+    "source_id": "S67",
+    "title": "鲁宾博物馆：堪布、阿阇梨与法王，C2001.4.105",
+    "url": "https://rubinmuseum.org/collection/c2001-4-105/",
+    "claims": "宁玛传统中寂护、莲花生与赤松德赞的后世图像记忆。",
+    "work_ids": [],
+    "kind": "research",
+    "checked_on": "2026-11-03",
+    "primary": true
+  },
+  {
+    "source_id": "S68",
+    "title": "Greg Forgues：阿底峡的教学与《入菩萨行论》（Tsadra Foundation，2024）",
+    "url": "https://bodhicitta.tsadra.org/index.php/Articles/Atiśa_Dīpaṃkara_Śrījñāna's_Teaching_on_the_Bodhisattvacaryāvatāra:_One_Text_to_Rule_Them_All_(Forgues_2024)",
+    "claims": "已读Atiśa in Tibet及相关段落：1042年入西藏西部、1045年赴中部、道次第与噶当传统。",
+    "work_ids": [],
+    "kind": "research",
+    "checked_on": "2026-11-03",
+    "primary": true
+  },
+  {
+    "source_id": "S69",
+    "title": "Gareth Sparham、Chandra Chiara Ehm：宗喀巴（Stanford Encyclopedia of Philosophy）",
+    "url": "https://plato.stanford.edu/entries/tsongkhapa/",
+    "claims": "已读生平与制度建设部分：1409年大祈愿会、甘丹寺及格鲁兴起。",
+    "work_ids": [],
+    "kind": "research",
+    "checked_on": "2026-11-03",
+    "primary": true
+  },
+  {
+    "source_id": "S70",
+    "title": "鲁宾博物馆：萨迦班智达、八思巴与传承人物，C2006.66.23",
+    "url": "https://rubinmuseum.org/collection/c2006-66-23/",
+    "claims": "萨迦师长与蒙古统治者的宗教及政治关系。",
+    "work_ids": [],
+    "kind": "research",
+    "checked_on": "2026-11-03",
+    "primary": true
+  },
+  {
+    "source_id": "S71",
+    "title": "Jean-Luc Estournel：About the 18 Stupas and Other Treasures Once at the Densatil Monastery",
+    "url": "https://www.asianart.com/articles/densatil/index.html",
+    "claims": "已读寺史、塔体概述、第二塔第一层、第四塔第六层与承托柱部分；具体位置是作者的研究归属。",
+    "work_ids": [],
+    "kind": "research",
+    "checked_on": "2026-11-03",
+    "primary": true
+  },
+  {
+    "source_id": "S72",
+    "title": "Estournel图89：西雅图金刚亥母，约1360年归属",
+    "url": "https://www.asianart.com/articles/densatil/89.html",
+    "claims": "西雅图70.2对应图89，与第二塔上层的类型比较，未确认旧照中的同一尊。",
+    "work_ids": [],
+    "kind": "research",
+    "checked_on": "2026-11-03",
+    "primary": true
+  },
+  {
+    "source_id": "S73",
+    "title": "Estournel图156：卡洛斯吉祥天母，约1386年归属",
+    "url": "https://www.asianart.com/articles/densatil/156.html",
+    "claims": "卡洛斯2001.019.001对应图156；第四塔最下层北侧为作者提出的归属。",
+    "work_ids": [],
+    "kind": "research",
+    "checked_on": "2026-11-03",
+    "primary": true
+  },
+  {
+    "source_id": "S74",
+    "title": "西雅图艺术博物馆：Vashya-Vajravarahi，70.2",
+    "url": "https://art.seattleartmuseum.org/objects/481/vashyavajravarahi-dancing-goddess-with-boar-head",
+    "claims": "现行年代、丹萨替大型舍利塔或其他祠龛的归属范围；1969年购入、1970年登记。",
+    "work_ids": [],
+    "kind": "research",
+    "checked_on": "2026-11-03",
+    "primary": true
+  },
+  {
+    "source_id": "S75",
+    "title": "克利夫兰美术馆：一对背向人物承托柱，2011.144",
+    "url": "https://www.clevelandart.org/print/art/2011.144",
+    "claims": "双面人物、位置音节、盛满的瓶与莲花，以及公开来源；不确认具体塔位。",
+    "work_ids": [],
+    "kind": "research",
+    "checked_on": "2026-11-03",
+    "primary": true
+  },
+  {
+    "source_id": "S76",
+    "title": "鲁宾博物馆：《金刚鬘》四曼荼罗，C2007.6.1（相关系列资料）",
+    "url": "https://rubinmuseum.org/collection/c2007-6-1/",
+    "claims": "仅用作相关系列及教师生卒著录差异的核对，不将该件的画师署名或序号移给金贝尔本件。",
     "work_ids": [],
     "kind": "research",
     "checked_on": "2026-11-03",
