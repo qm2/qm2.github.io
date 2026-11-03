@@ -121,7 +121,7 @@
    $$('[data-museum]').forEach(el=>{const active=el.dataset.museum===state.museum||(state.work&&wb.get(state.work).display_museum_id===el.dataset.museum);if(active)el.setAttribute('aria-current','true');else el.removeAttribute('aria-current');});
    $$('[data-collection]').forEach(el=>{if(el.dataset.collection===state.collection)el.setAttribute('aria-current','true');else el.removeAttribute('aria-current');});
    $$('[data-count-region]').forEach(el=>el.textContent=ws.filter(w=>w.map_enabled&&related(w,el.dataset.countRegion)&&matches(w,true)).length);
-   if(state.work){const w=wb.get(state.work);$('#ha-map-status').textContent=w.title_zh+' · '+(w.map_enabled?w.map_associations.map(a=>regionName(a.place_id)+(a.relationship.includes('candidate')?'（候选／风格联系）':'')).join('；'):'具体地点尚未确认，暂不在地图落点。');}
+   if(state.work){const w=wb.get(state.work);$('#ha-map-status').textContent=w.title_zh+' · '+(w.map_enabled?w.map_associations.map(a=>regionName(a.place_id)+(a.relationship.includes('candidate')?'（候选／风格联系）':'')).join('；'):w.display_museum_id?'实际观看：'+names.get(w.display_museum_id)+'；组合陈设中的作品各有来处。':'具体地点尚未确认，暂不在地图落点。');}
    else $('#ha-map-status').textContent=state.view==='museums'?'按已识别的拍摄展馆定位；借展作品仍标出收藏者。':state.view==='collections'?'收藏机构与实际观看地点分别记录。':state.region?'已选：'+regionName(state.region):'圆点表示大致区域，不表示原寺院、工坊或出土地。';
    const active=Object.entries(state).some(([k,v])=>v&&!['view','ext'].includes(k));
    $('#ha-map-result').hidden=!active;

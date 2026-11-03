@@ -29,6 +29,10 @@ def build(base=BASE, integrate=True):
         assert v['work_id'] in by
         assert all(isinstance(v.get(k,''),str) for k in ['observation','confirmed','still_unclear'])
         if v.get('visited_on'): date.fromisoformat(v['visited_on'])
+        if v.get('visited_month'):
+            assert re.fullmatch(r'\d{4}-\d{2}',v['visited_month'])
+            date.fromisoformat(v['visited_month']+'-01')
+            assert not v.get('visited_on') or v['visited_on'].startswith(v['visited_month'])
         assert set(v.get('photo_ids',[])) <= set(by[v['work_id']]['art_photos']+by[v['work_id']]['detail_photos'])
     assert len({u['update_id'] for u in updates})==len(updates)
     for update in updates:
@@ -146,6 +150,9 @@ def build(base=BASE, integrate=True):
             for v in observations:
                 body+=f'<article id="visit-{e(v["visit_id"])}">'
                 if v.get('visited_on'):body+=f'<p class="ha-note"><time datetime="{v["visited_on"]}">{v["visited_on"]}</time></p>'
+                elif v.get('visited_month'):
+                    year,month=v['visited_month'].split('-')
+                    body+=f'<p class="ha-note"><time datetime="{v["visited_month"]}">{year}年{int(month)}月</time></p>'
                 if v.get('observation','').strip():body+='<p>'+e(v['observation'])+'</p>'
                 for key,label in [('confirmed','这次确认了什么'),('still_unclear','还有什么没看清')]:
                     if v.get(key,'').strip():body+='<h3>'+label+'</h3><p>'+e(v[key])+'</p>'

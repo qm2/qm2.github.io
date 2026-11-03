@@ -435,8 +435,8 @@
     "sha256_preserved": true,
     "default_use": "primary",
     "do_not_publish": false,
-    "visit_id": null,
-    "caption": ""
+    "visit_id": "met-2025-08-british-buddha",
+    "caption": "永乐款释迦牟尼坐像 · 大英博物馆藏，2025年8月纽约大都会借展所见"
   },
   {
     "photo_id": "h1516",
@@ -2441,8 +2441,8 @@
     "sha256_preserved": true,
     "default_use": "primary",
     "do_not_publish": false,
-    "visit_id": null,
-    "caption": "佛堂陈设 · 正面"
+    "visit_id": "nmaa-shrine-room",
+    "caption": "华盛顿国立亚洲艺术博物馆 · 藏传佛教佛堂陈设正面"
   },
   {
     "photo_id": "h1690",
@@ -2464,8 +2464,8 @@
     "sha256_preserved": true,
     "default_use": "alternative_or_context_view",
     "do_not_publish": false,
-    "visit_id": null,
-    "caption": "佛堂陈设 · 左侧区域"
+    "visit_id": "nmaa-shrine-room",
+    "caption": "华盛顿国立亚洲艺术博物馆 · 藏传佛教佛堂陈设左侧"
   },
   {
     "photo_id": "h1691",
@@ -2487,8 +2487,8 @@
     "sha256_preserved": true,
     "default_use": "alternative_or_context_view",
     "do_not_publish": false,
-    "visit_id": null,
-    "caption": "佛堂陈设 · 右侧区域"
+    "visit_id": "nmaa-shrine-room",
+    "caption": "华盛顿国立亚洲艺术博物馆 · 藏传佛教佛堂陈设右侧"
   },
   {
     "photo_id": "h1692",
@@ -2994,7 +2994,7 @@
     "default_use": "alternate",
     "do_not_publish": false,
     "visit_id": "cernuschi-view-a",
-    "caption": ""
+    "caption": "旃檀瑞像传统佛立像 · 2024年12月赛努奇博物馆本馆所见（红色背景）"
   },
   {
     "photo_id": "h1514",
@@ -3017,6 +3017,6 @@
     "default_use": "primary",
     "do_not_publish": false,
     "visit_id": "cernuschi-view-b",
-    "caption": ""
+    "caption": "旃檀瑞像传统佛立像 · 赛努奇博物馆藏，2025年8月纽约大都会借展所见（白色背景）"
   }
 ]

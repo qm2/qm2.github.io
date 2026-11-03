@@ -24,6 +24,11 @@ assert '不含方台与背光' in wb['w1512']['dimensions_display']
 assert '不含尾羽' in wb['w1516']['dimensions_display']
 visits=[v for v in read(HA/'data/visits.json') if v['work_id']=='w1486']
 assert len(visits)==2 and all(v['visited_on'] is None for v in visits)
+vb={v['visit_id']:v for v in read(HA/'data/visits.json')}
+assert vb['cernuschi-view-a']['display_museum_id']=='cernuschi' and vb['cernuschi-view-a']['visited_month']=='2024-12'
+for vid in ['cernuschi-view-b','met-2025-08-british-buddha']:
+ assert vb[vid]['display_museum_id']=='met' and vb[vid]['visited_month']=='2025-08' and vb[vid]['visited_on'] is None
+assert vb['nmaa-shrine-room']['display_museum_id']=='nmaa' and not vb['nmaa-shrine-room'].get('visited_month')
 assert {n for v in visits for n in v['photo_ids']}=={'h1486','h1514'}
 for n in ['h1486','h1514']:
  p=pb[n];assert p['work_ids']==['w1486'];assert hashlib.sha256((HA/p['path']).read_bytes()).hexdigest()==p['sha256']
@@ -60,4 +65,4 @@ assert '../../yongle-xuande/' in (HA/'u23/index.html').read_text()
 assert '../himalayan-art/teachers/#phagmodrupa' in (ROOT/'museum-notes/densatil/index.html').read_text()
 assert '../yongle-xuande/' in (ROOT/'museum-notes/chinese-buddhist-art/index.html').read_text()
 assert 'href="yongle-xuande/"' in (ROOT/'museum-notes/index.html').read_text()
-print(f'PASS: 4 core + 1 comparison + 3 ritual objects; 7 unique records; Cernuschi alias and two undated views; Met loans; {len(paths)} pages, sources and image paths.')
+print(f'PASS: 4 core + 1 comparison + 3 ritual objects; 7 unique records; Cernuschi alias and Paris/Met views; August 2025 at month precision; NMAA shrine; {len(paths)} pages, sources and image paths.')

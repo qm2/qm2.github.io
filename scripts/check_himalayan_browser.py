@@ -88,7 +88,10 @@ with sync_playwright() as p:
     home('?work=w1664#places');expect(page.locator('#ha-extended')).to_be_checked()
     home('?work=w1689#places')
     assert page.locator('[data-map]:not([hidden]) [aria-current]').count()==0
-    expect(page.locator('#ha-map-status')).to_contain_text('暂不在地图落点')
+    expect(page.locator('#ha-map-status')).to_contain_text('史密森尼国立亚洲艺术博物馆')
+    home('?museum=nmaa&work=w1689#places')
+    expect(page.locator('#ha-matches a[href="w1689/"]')).to_be_visible()
+    expect(page.locator('[data-map="museums"] [data-museum="nmaa"]')).to_have_attribute('aria-current','true')
     home('?collection=rubin&view=collections#places');expect(page.locator('#ha-count')).to_contain_text('3 /')
     expect(page.locator('.ha-map-fold')).to_be_hidden()
     page.locator('[data-reset]').first.click();page.locator('[data-view="museums"]').click()

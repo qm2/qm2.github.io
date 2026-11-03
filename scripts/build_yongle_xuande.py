@@ -16,6 +16,14 @@ def build(integrate=True):
     sources={s['source_id']:s for s in read(SHARED/'data/sources.json')}
     museums={m['museum_id']:m for m in read(SHARED/'data/museums.json')}
     aliases=read(SHARED/'data/work_aliases.json')
+    visits=read(SHARED/'data/visits.json')
+    photo_visits={n:v for v in visits for n in v.get('photo_ids',[])}
+    def viewing(v):
+        mid=v.get('display_museum_id')
+        if not mid:return ''
+        when=v.get('visited_month')
+        date_label=(when[:4]+'年'+str(int(when[5:]))+'月 · ') if when else ''
+        return date_label+museums[mid]['label_zh']
     used=[]
     def cite(ids):
         for k in ids:
@@ -33,9 +41,14 @@ def build(integrate=True):
         p=photos[n]
         return '<figure class="yx-figure" style="--ratio:'+str(p['width']/p['height'])+';--native:'+str(p['width'])+'px"><a data-photo href="../himalayan-art/'+p['original']+'" data-caption="'+e(cap)+'">'+img(n,cap,high,small)+'</a><figcaption>'+e(cap)+' · <span class="yx-credit">Merton摄</span></figcaption></figure>'
     def owner(w):return w['collection_label']
-    def caption(w):return w['title_zh']+' · '+w['date_label']+'｜'+owner(w)+' · '+w['accession']
+    def caption(w):
+        cap=w['title_zh']+' · '+w['date_label']+'｜'+owner(w)+' · '+w['accession']
+        v=photo_visits.get(w['primary_photo'])
+        return cap+('｜'+viewing(v)+'所见' if v and viewing(v) else '')
     def facts(w):
         location=museums[w['display_museum_id']]['label_zh'] if w.get('display_museum_id') else '两组展陈照片；实际观看地点未完全核实'
+        contexts=[viewing(v) for v in visits if v['work_id']==w['work_id'] and viewing(v)]
+        if contexts:location='；'.join(dict.fromkeys(contexts))
         origin=w.get('origin_display','中国；宫廷制作背景')
         if w['work_id']=='w1516':origin='中国；北京为馆方列出的可能制作地'
         rows=[('原题名',w['title_en']),('年代',w['date_label']),('材质',w['materials_display']),('尺寸',w.get('dimensions_display')),('收藏机构',owner(w)),('馆藏号',w['accession']),('实际观看',location),('制作地域',origin)]

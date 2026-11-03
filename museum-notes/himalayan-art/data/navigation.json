@@ -3132,8 +3132,8 @@
       "region_ids": [
         "tibet-broad"
       ],
-      "display_museum_id": null,
-      "collection_museum_id": null,
+      "display_museum_id": "nmaa",
+      "collection_museum_id": "nmaa",
       "map_enabled": false,
       "map_associations": [
         {
@@ -3146,8 +3146,8 @@
       "chapter_ids": [
         "c6"
       ],
-      "collection": "佛堂陈设，归属待核；NMAA Kandell佛堂为候选",
-      "search": "藏传佛教佛堂陈设 Tibetan Buddhist Shrine Room Installation  多种材料的组合陈设 佛堂陈设，归属待核；NMAA Kandell佛堂为候选 佛堂陈设，归属待核；NMAA Kandell佛堂为候选",
+      "collection": "史密森尼国立亚洲艺术博物馆 · Alice S. Kandell收藏",
+      "search": "藏传佛教佛堂陈设 Tibetan Buddhist Shrine Room Installation  多种材料的组合陈设 史密森尼国立亚洲艺术博物馆 · Alice S. Kandell收藏 史密森尼国立亚洲艺术博物馆（华盛顿）",
       "material": "其他／未详",
       "theme": "佛",
       "reading_unit_ids": [

@@ -77,7 +77,8 @@ assert wb['w1700']['accession'] == 'AP 1979.01'
 assert wb['w1664']['accession'] == '44-18' and wb['w1664']['tier'] == 'focus'
 assert wb['w1478']['materials_display'] == '布本胶彩'
 assert wb['w1711']['date_label'] == '15世纪'
-assert not wb['w1689']['map_enabled'] and not wb['w1689']['display_museum_id']
+assert not wb['w1689']['map_enabled'] and wb['w1689']['display_museum_id']=='nmaa'
+assert wb['w1689']['collection_museum_id']=='nmaa'
 assert len(wb['w1692']['detail_photos']) == 4
 intro=read('introduction')
 home=(BASE/'index.html').read_text()

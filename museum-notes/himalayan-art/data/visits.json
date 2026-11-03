@@ -6,10 +6,11 @@
     "photo_ids": [
       "h1486"
     ],
-    "display_museum_id": null,
+    "display_museum_id": "cernuschi",
     "observation": "",
     "public": false,
-    "evidence": "照片与配对展签；同件的两个展陈记录，不由文件名推定先后或日期。"
+    "evidence": "用户确认：红色背景h1486摄于2024年12月巴黎赛努奇博物馆。",
+    "visited_month": "2024-12"
   },
   {
     "visit_id": "cernuschi-view-b",
@@ -18,9 +19,38 @@
     "photo_ids": [
       "h1514"
     ],
-    "display_museum_id": null,
+    "display_museum_id": "met",
     "observation": "",
     "public": false,
-    "evidence": "照片与配对展签；同件的两个展陈记录，不由文件名推定先后或日期。"
+    "evidence": "用户确认：白色背景h1514摄于2025年8月纽约大都会借展现场，与大英1908,0420.4同次观看。",
+    "visited_month": "2025-08"
+  },
+  {
+    "visit_id": "met-2025-08-british-buddha",
+    "work_id": "w1512",
+    "visited_on": null,
+    "visited_month": "2025-08",
+    "photo_ids": [
+      "h1512"
+    ],
+    "display_museum_id": "met",
+    "observation": "",
+    "public": false,
+    "evidence": "用户确认2025年8月纽约大都会借展观看，与赛努奇M.C.686同次。"
+  },
+  {
+    "visit_id": "nmaa-shrine-room",
+    "work_id": "w1689",
+    "visited_on": null,
+    "visited_month": null,
+    "photo_ids": [
+      "h1689",
+      "h1690",
+      "h1691"
+    ],
+    "display_museum_id": "nmaa",
+    "observation": "",
+    "public": false,
+    "evidence": "用户确认佛堂为华盛顿国立亚洲艺术博物馆所见；未提供日期。"
   }
 ]

@@ -1544,9 +1544,9 @@
     "primary_path": "images/originals/h1512.jpg",
     "thumbnail_path": "images/h1512-400.webp",
     "reader_notes": [
-      "纽约大都会借展所见。2013年技术研究支持佛身及一体莲座为永乐制作，方台和背光更可能为18世纪增配。"
+      "2025年8月在纽约大都会借展所见，与赛努奇M.C.686佛立像同次观看。2013年技术研究支持佛身及一体莲座为永乐制作，方台和背光更可能为18世纪增配。"
     ],
-    "viewing_basis": "user_confirmed_Met_loan_exhibition",
+    "viewing_basis": "user_confirmed_Met_loan_exhibition_2025_08",
     "dimensions_display": "佛身连一体铸造莲座高37厘米（不含方台与背光）",
     "physical_object_count": 1,
     "site_links": [
@@ -7477,21 +7477,17 @@
     "tier": "comparison",
     "scope": "installation",
     "religious_context": "Buddhist",
-    "editorial_notes": "三张为同一佛堂不同视图；陈设与NMAA Alice S. Kandell佛堂相符，缺现场展签，归属标为待最终确认；不可写成Rubin佛堂。",
-    "metadata_basis": "photographed_label",
-    "verification_status": "visual_match_probable_no_label",
+    "editorial_notes": "用户确认三张照片摄于华盛顿国立亚洲艺术博物馆；同一佛堂三个视图，参观日期未提供。",
+    "metadata_basis": "user_confirmed_viewing_venue_and_museum_record",
+    "verification_status": "user_confirmed_venue_official_record_checked",
     "source_ids": [
       "S37"
     ],
-    "uncertainties": [
-      "I01"
-    ],
+    "uncertainties": [],
     "origin_status": "installation_not_single_origin",
-    "collection_label": "佛堂陈设，归属待核；NMAA Kandell佛堂为候选",
-    "display_museum_id": null,
-    "display_attribution_candidate": "nmaa",
-    "display_attribution_confidence": "probable",
-    "public_location_label": "藏传佛教佛堂陈设（归属待核）",
+    "collection_label": "史密森尼国立亚洲艺术博物馆 · Alice S. Kandell收藏",
+    "display_museum_id": "nmaa",
+    "public_location_label": "华盛顿 · 史密森尼国立亚洲艺术博物馆",
     "input_group_id": "shrine-attribution",
     "public": true,
     "scope_reason": "",
@@ -7507,7 +7503,7 @@
     "exchange_extension": false,
     "date_values_usage": "date_start/end仅用于宽年代筛选；以date_label及date_history呈现学术断代，不作为精确制作年。",
     "date_history": [],
-    "origin_note": "按照片展签的地域／风格归属登记；不是完整来源史。",
+    "origin_note": "博物馆中的组合陈设，单件年代与制作地域各异。",
     "scope_basis": "regional_tradition",
     "style_region_ids": [],
     "research_state": "reading_draft",
@@ -7518,8 +7514,8 @@
         "certainty": "regional_only"
       }
     ],
-    "collection_museum_id": null,
-    "museum_label": "佛堂陈设，归属待核；NMAA Kandell佛堂为候选",
+    "collection_museum_id": "nmaa",
+    "museum_label": "史密森尼国立亚洲艺术博物馆（华盛顿）",
     "has_shared_frame": false,
     "default_gallery_photos": [
       "h1689",
@@ -7533,8 +7529,9 @@
     "primary_path": "images/originals/h1689.jpg",
     "thumbnail_path": "images/h1689-400.webp",
     "reader_notes": [
-      "三张照片记录同一佛堂陈设。与史密森尼Kandell佛堂相近，但缺少现场展签，收藏及展出机构仍待确认。"
-    ]
+      "三张照片摄于华盛顿史密森尼国立亚洲艺术博物馆，记录Alice S. Kandell收藏佛堂的正面与两侧陈设。"
+    ],
+    "viewing_basis": "user_confirmed_Washington_NMAA"
   },
   {
     "work_id": "w1692",
@@ -8530,9 +8527,9 @@
       }
     ],
     "collection_museum_id": "cernuschi",
-    "display_museum_id": null,
+    "display_museum_id": "met",
     "collection_label": "赛努奇博物馆",
-    "museum_label": "赛努奇博物馆收藏；两组照片的观看地点未核定",
+    "museum_label": "赛努奇博物馆本馆；纽约大都会艺术博物馆（借展）",
     "has_shared_frame": false,
     "default_gallery_photos": [
       "h1514"
@@ -8551,7 +8548,7 @@
     ],
     "dimensions_display": "高63.5厘米",
     "reader_notes": [
-      "两组不同展陈中的照片记录同一件M.C.686；观看日期与第二组的展出地点尚未确认。"
+      "红色背景照片摄于2024年12月巴黎赛努奇博物馆；白色背景照片摄于2025年8月纽约大都会的借展现场。两组照片记录同一件M.C.686。"
     ],
     "physical_object_count": 1,
     "site_links": [
@@ -8559,6 +8556,7 @@
         "href": "../../yongle-xuande/#w1486",
         "label": "永宣宫廷造像 · 作品细读"
       }
-    ]
+    ],
+    "viewing_basis": "user_confirmed_photo_backgrounds_and_Met_visit_month"
   }
 ]
