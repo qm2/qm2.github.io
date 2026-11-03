@@ -177,7 +177,7 @@ with sync_playwright() as p:
             page.wait_for_function('(id)=>document.getElementById(id).getBoundingClientRect().top < innerHeight', arg=node['id'])
             assert target.locator('summary>span').evaluate_all('(els)=>els.every(el=>getComputedStyle(el).transform === "none")')
         page.goto(url+'w1552/')
-        page.locator('.ha-history-return a').click()
+        page.locator('.ha-history-return a[href="../history/#nepal-malla"]').click()
         assert page.url.endswith('/history/#nepal-malla')
         expect(page.locator('#nepal-malla')).to_have_attribute('open','')
         page.wait_for_function("document.querySelector('#nepal-malla').getBoundingClientRect().top < innerHeight")

@@ -5,7 +5,7 @@
  const revealPeriod = () => {
   let id; try { id=decodeURIComponent(location.hash.slice(1)); } catch { return; }
   const period=document.getElementById(id);
-  if(period?.classList.contains('ha-period')){
+  if(period && (period.classList.contains('ha-period') || period.classList.contains('ha-guide-entry'))){
    period.open=true;
    requestAnimationFrame(()=>period.scrollIntoView({block:'start'}));
   }
@@ -18,6 +18,28 @@
   const show=i=>{panels.forEach((p,j)=>p.hidden=j!==i);tabs.querySelectorAll('button').forEach((b,j)=>b.setAttribute('aria-pressed',String(j===i)));};
   tabs.addEventListener('click',ev=>{const b=ev.target.closest('[data-plate]');if(b)show(Number(b.dataset.plate));}); show(0);
  });
+ // Local learning search: shareable queries, native disclosures and Back support.
+ const learningInput=$('#learning-query');
+ if(learningInput){
+  const items=$$('[data-learning-search]'), index=$('#learning-index');
+  const normalize=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase().trim();
+  const apply=()=>{
+   const query=normalize(learningInput.value), terms=query.split(/\s+/).filter(Boolean);
+   let count=0;
+   items.forEach(item=>{item.hidden=!terms.every(t=>normalize(item.dataset.learningSearch).includes(t));if(!item.hidden)count++;});
+   $('#learning-count').textContent=count+' / '+items.length+' 条';
+   $('#learning-empty').hidden=count!==0;
+   if(query)index.open=true;
+  };
+  const fromURL=()=>{learningInput.value=new URLSearchParams(location.search).get('q')||'';apply();};
+  const save=()=>{const url=new URL(location.href);const q=learningInput.value.trim();if(q)url.searchParams.set('q',q);else url.searchParams.delete('q');if(url.href!==location.href)history.pushState({},'',url);apply();};
+  let timer;
+  learningInput.addEventListener('input',()=>{clearTimeout(timer);apply();timer=setTimeout(save,300);});
+  learningInput.form.addEventListener('submit',ev=>{ev.preventDefault();clearTimeout(timer);save();index.open=true;});
+  $('#learning-clear').hidden=false;
+  $('#learning-clear').addEventListener('click',()=>{clearTimeout(timer);learningInput.value='';save();learningInput.focus();});
+  window.addEventListener('popstate',()=>{clearTimeout(timer);fromURL();});fromURL();
+ }
  if(!$('#places'))return;
  const script=document.currentScript || [...document.scripts].find(s=>s.src&&new URL(s.src).pathname.endsWith('/himalayan.js'));
  const dataURL=new URL('data/navigation.json',script.src);

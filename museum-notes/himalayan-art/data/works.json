@@ -1057,7 +1057,9 @@
     "editorial_notes": "",
     "metadata_basis": "photographed_label",
     "verification_status": "photo_label_checked",
-    "source_ids": [],
+    "source_ids": [
+      "S86"
+    ],
     "uncertainties": [],
     "input_group_id": "dallas",
     "public": true,
@@ -4911,7 +4913,9 @@
     "editorial_notes": "錾揲身体与另铸四肢的制作关系；不将所有部分统称一次铸造。",
     "metadata_basis": "photographed_label",
     "verification_status": "photo_label_checked",
-    "source_ids": [],
+    "source_ids": [
+      "S85"
+    ],
     "uncertainties": [],
     "input_group_id": "walters",
     "public": true,
@@ -5482,7 +5486,9 @@
     "editorial_notes": "制作地保留东藏或中国，身份可据展签，不把造型复杂度当尊名依据。",
     "metadata_basis": "photographed_label",
     "verification_status": "photo_label_checked",
-    "source_ids": [],
+    "source_ids": [
+      "S84"
+    ],
     "uncertainties": [],
     "input_group_id": "walters",
     "public": true,
@@ -6153,7 +6159,9 @@
     "editorial_notes": "Rubin借展；Beri画风与传承肖像。",
     "metadata_basis": "photographed_label",
     "verification_status": "photo_label_checked",
-    "source_ids": [],
+    "source_ids": [
+      "S92"
+    ],
     "uncertainties": [],
     "input_group_id": "sam-rubin-loan",
     "public": true,

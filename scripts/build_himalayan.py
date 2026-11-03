@@ -6,6 +6,7 @@ from datetime import date
 from concurrent.futures import ThreadPoolExecutor
 from PIL import Image, ImageOps
 from build_homer import LIGHTBOX
+from himalayan_learning import navigation as learning_nav, backlinks as learning_backlinks, build_learning
 ROOT=Path(__file__).resolve().parents[1]
 BASE=ROOT/'museum-notes/himalayan-art'
 
@@ -16,6 +17,7 @@ def build(base=BASE, integrate=True):
     chapters=read('chapters'); places=read('places'); pb={p['place_id']:p for p in places}; museums=read('museums'); mb={m['museum_id']:m for m in museums}
     sources={s['source_id']:s for s in read('sources')}; photos=read('photos'); caps=read('photo_captions')
     introduction=read('introduction'); visits=read('visits'); updates=read('updates'); history=read('history'); crops=read('photo_crops')
+    learning=read('learning')
     history_nodes=[n for track in history['tracks'] for n in track['nodes']]
     visit_by={v['visit_id']:v for v in visits}
     assert len(visit_by)==len(visits)
@@ -101,8 +103,9 @@ def build(base=BASE, integrate=True):
         return ''.join('<section><h2>'+e(s['title'])+'</h2>'+paragraphs(s['paragraphs'],ids)+cropped_details(s.get('crop_ids',[]))+'</section>' for s in sections)
     def history_links(wid):
         nodes=[n for n in history_nodes if any(r['work_id']==wid for r in n['related'])]
-        if not nodes:return ''
-        return '<aside class="ha-history-return ha-prose"><p class="ha-note">历史与观看 · '+ ' · '.join(f'<a href="../history/#{n["id"]}">{e(n["period"])}：{e(n["title"])}</a>' for n in nodes)+'</p></aside>'
+        related=learning_backlinks(learning,wid)
+        if not nodes:return related
+        return '<aside class="ha-history-return ha-prose"><p class="ha-note">历史与观看 · '+ ' · '.join(f'<a href="../history/#{n["id"]}">{e(n["period"])}：{e(n["title"])}</a>' for n in nodes)+'</p></aside>'+related
     def gallery(w,pre='../'):
         ns=w['detail_photos']
         if not ns:return ''
@@ -172,6 +175,7 @@ def build(base=BASE, integrate=True):
     # details keep every period usable by keyboard and without JavaScript.
     ids=[]
     body='<nav class="breadcrumbs"><a href="../">喜马拉雅艺术</a><span>/</span><span>历史与观看</span></nav><header class="ha-heading"><p class="eyebrow">HISTORY &amp; LOOKING</p><h1>'+e(history['title'])+'</h1><p>'+e(history['subtitle'])+'</p></header><div class="ha-prose"><p>'+e(history['introduction'])+'</p></div>'
+    body+=learning_nav('history')+'<section class="ha-history-entry"><h2><a href="../regions/">从四个地域继续读 →</a></h2><p>斯瓦特、吉尔吉特、克什米尔与东印度：从河谷的材料、供养铭文和寺院，接回亲见作品。</p><p><a href="../regions/#swat">斯瓦特</a> · <a href="../regions/#gilgit">吉尔吉特</a> · <a href="../regions/#kashmir">克什米尔</a> · <a href="../regions/#east-india">帕拉—塞纳</a></p></section>'
     body+='<nav class="ha-history-nav" aria-label="背景导览"><a href="#tibet">西藏时间线 ↓</a><a href="#nepal">尼泊尔时间线 ↓</a><a href="../#places">回到地域地图 →</a></nav><p class="ha-note">点击时期，展开历史与相关作品。两列按大致时代并看，时间段不按比例绘制。</p><div class="ha-history-grid">'
     for track in history['tracks']:
         col=track['column']
@@ -187,6 +191,7 @@ def build(base=BASE, integrate=True):
     body+='</div><section class="ha-prose"><h2>几个地名，几种联系</h2><p>古格是西部的历史政权；托林是寺院。俄尔是萨迦传统中的一座寺院，丹萨替则与帕木竹巴传承及家族供养相连。它们各自影响了艺术，却都不能单凭一种面容或饰件来辨认。</p>'+refmark(['S61','S62','S63'])+'</section><details class="ha-prose ha-research-notes"><summary>关于分期与资料</summary>'+paragraphs(history['framing']+history['notes'],ids)+'</details>'
     body+=refs(ids)+'<nav class="ha-next"><a href="../#chapters">← 回到六章细读</a><a href="../#catalogue">打开亲见目录 →</a></nav>'
     write('history',history['title'],body)
+    build_learning(learning,history,by,sources,img,fig,mini,paragraphs,refs,write,gallery)
     # The map and every filter consume the same records. Groups are editorial geography, not work ID lists.
     groups=read('map_groups')
     member={p:g['id'] for g in groups for p in g['members']}
@@ -269,7 +274,7 @@ def build(base=BASE, integrate=True):
     epigraph=introduction['epigraph']
     body+='<section class="ha-preface ha-prose" id="preface" aria-labelledby="preface-title"><h2 id="preface-title">缘起</h2><blockquote class="ha-epigraph"><p>'+'<br>'.join(e(line) for line in epigraph['lines'])+'</p><cite><a href="'+e(epigraph['source_url'])+'" title="'+e(epigraph['source_title'])+'">'+e(epigraph['credit'])+'</a></cite></blockquote><div class="ha-personal-text">'+''.join('<p>'+e(t)+'</p>' for t in introduction['paragraphs'])+'</div></section>'
     body+='<p class="ha-scope">从斯瓦特、克什米尔与尼泊尔到西藏，也收入与这些传统相连的东印度作品及部分宫廷供养器物。</p>'+maphtml
-    body+='<aside class="ha-history-entry" id="history-entry"><p class="eyebrow">HISTORY &amp; LOOKING</p><h2><a href="history/">历史与观看</a></h2><p>展签上的年代，放回山谷与寺院的历史。展开西藏、尼泊尔的两条时间线，再回到一尊像、一顶法冠、一幅画。</p><p><a href="history/#tibet">西藏：译经、寺院与供养 →</a>　<a href="history/#nepal">尼泊尔：城市、礼仪与手艺 →</a></p></aside>'
+    body+='<aside class="ha-history-entry" id="history-entry"><p class="eyebrow">HISTORY &amp; LOOKING</p><h2><a href="history/">历史与观看</a></h2><p>从一个地名、一件持物或一位上师，重新连接看过的作品。看展前重温，回来后继续追问。</p>'+learning_nav(prefix='')+'<p><a href="thangka/">怎样看一幅唐卡 →</a> · <a href="regions/">山谷与寺院之间 →</a></p></aside>'
     body+='<nav class="ha-chapters" id="chapters" aria-label="章节阅读">'+''.join(f'<a href="#{c["chapter_id"]}"><small>{i+1:02d}</small>{e(c["title_zh"])}</a>' for i,c in enumerate(chapters))+'</nav>'
     for c in chapters:
         body+=f'<section class="ha-section" id="{c["chapter_id"]}"><header><p class="eyebrow">{e(c["subtitle_zh"])}</p><h2>{e(c["title_zh"])}</h2><p>{e(c["intro_zh"])}</p></header><div class="ha-readings">'
