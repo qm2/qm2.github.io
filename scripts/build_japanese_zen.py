@@ -36,7 +36,13 @@ def build():
    body+='<p>'+e(p)+citation+'</p>'
   body+='</article>'
   if w['inscription_original']:
-   body+=f'<section class="jz-prose jz-inscription"><h2>纸上的文字</h2><blockquote lang="zh-Hant">{e(w["inscription_original"]).replace(chr(10),"<br>")}</blockquote><p class="jz-meta">{e(w["inscription_note"])} <a href="#ref-{w["inscription_source_ids"][0]}">出处 ↓</a></p></section>'
+   inscription_refs=f'<a href="#ref-{w["inscription_source_ids"][0]}">出处 ↓</a>'
+   if w.get('companion_reading'):
+    inscription_refs=' · '.join(f'<a href="#ref-{sid}">{label} ↓</a>' for sid,label in zip(w['inscription_source_ids'],['馆方释文','原典出处']))
+   body+=f'<section class="jz-prose jz-inscription"><h2>纸上的文字</h2><blockquote lang="zh-Hant">{e(w["inscription_original"]).replace(chr(10),"<br>")}</blockquote><p class="jz-meta">{e(w["inscription_note"])} {inscription_refs}</p></section>'
+  if w.get('companion_reading'):
+   r=w['companion_reading']
+   body+=f'<section class="jz-prose jz-inscription" id="companion-reading"><h2>{e(r["title"])}</h2><p>{e(r["intro"])}</p><blockquote>{e(r["quotation"]).replace(chr(10),"<br>")}</blockquote><p class="jz-meta">{e(r["reference"])} <a href="#ref-{r["source_id"]}">原典出处 ↓</a></p><p>{e(r["interpretation"])}</p></section>'
   if len(w['photos'])>1:body+='<section class="jz-gallery" aria-label="其他现场照片">'+''.join(figure(w,n,'../') for n in w['photos'][1:])+'</section>'
   body+='<section class="jz-prose"><h2>收藏与流转</h2><p>'+e(w['collection_history'])+' <a class="jz-cite" href="#sources">[来源]</a></p>'
   if w['notes']:body+='<details><summary>资料注</summary><p>'+e(w['notes'])+'</p></details>'

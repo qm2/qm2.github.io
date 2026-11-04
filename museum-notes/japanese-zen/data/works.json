@@ -469,7 +469,8 @@
     "short_introduction": "僧人埋首读经，题赞却把视线引向月、纸、眼与墨：正在读的是什么，又是谁在看？",
     "inscription_original": "月白紙一色　眼与墨俱黑\n妙義个中圓　了亦不可得",
     "inscription_source_ids": [
-      "S08"
+      "S08",
+      "S42"
     ],
     "id": "j11",
     "title": "对月图／月下读经",
@@ -477,7 +478,8 @@
     "material": "纸本水墨",
     "visit_date": null,
     "source_ids": [
-      "S08"
+      "S08",
+      "S42"
     ],
     "museum": "大都会艺术博物馆",
     "museum_evidence": "official record and photographed label",
@@ -493,7 +495,7 @@
       "j10",
       "j12"
     ],
-    "inscription_note": "据大都会公布题诗。",
+    "inscription_note": "题诗见《即非禅师全录》卷九“赞”门《对月了经》，《嘉兴藏》第38册，B425，671b23–24。原集作“玅義箇中圓”，本页沿用馆方释文“妙義个中圓”；“玅／妙”“箇／个”为异体字差别。",
     "paragraph_sources": [
       [],
       [
@@ -502,7 +504,15 @@
       [
         "S08"
       ]
-    ]
+    ],
+    "companion_reading": {
+      "title": "同卷参读",
+      "intro": "同卷另有一则题为《了经》的赞，可与《对月了经》对读：",
+      "quotation": "义天朗耀，随读随空，\n月轮穿海，影过无踪。",
+      "reference": "《即非禅师全录》卷九“赞”门《了经》，《嘉兴藏》第38册，B425，670c20–21。此处按简体排录。",
+      "source_id": "S42",
+      "interpretation": "结合两则赞，可以将“随读随空”理解为一面阅读、领会，一面放下对所得理解的执著。这也帮助理解“了亦不可得”：有所明了，却不把明了执为可以占有的东西。“月轮穿海，影过无踪”以月影经过水面、不留痕迹，呼应这种领会而不滞留的意味。"
+    }
   },
   {
     "author": "清岩宗渭 Seigan Sōi",

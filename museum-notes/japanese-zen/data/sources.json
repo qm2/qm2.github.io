@@ -367,5 +367,14 @@
     "support": "开篇所选寒山诗“吾心似秋月，碧潭清皎洁，无物堪比伦，教我如何说”；本诗在原集正文中，不将首句误说成原有诗题",
     "checked_date": "2026-11-03",
     "evidence_origin": "handoff and implementation audit"
+  },
+  {
+    "id": "S42",
+    "title": "《即非禅师全录》卷九“赞”：《对月了经》（671b23–24）与《了经》（670c20–21）",
+    "url": "https://deerpark.app/cbeta/JB425/9",
+    "access_status": "page_read",
+    "support": "《嘉兴藏》第38册，B425；已核对两则赞的题名、原文、行号及玅／妙、箇／个异体；比较解读为本页结合两则赞所作。",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "direct primary-text verification"
   }
 ]
