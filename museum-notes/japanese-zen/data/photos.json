@@ -1,0 +1,1120 @@
+{
+  "1727": {
+    "work_id": "j01",
+    "role": "artwork",
+    "original": "images/originals/Image_20261103215319_1727_19.jpg",
+    "sha256": "229aed1a4e9b1a5e6e7f8e84a8e031f8840b98bb4ea650b3912f557ba558b6dd",
+    "rotation": 0,
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "file": "images/1727-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "file": "images/1727-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "file": "images/1727-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ]
+  },
+  "1728": {
+    "work_id": "j01",
+    "role": "label",
+    "original": "images/originals/Image_20261103215319_1728_19.jpg",
+    "sha256": "a1a96f399dfe90693ac4cc28566f0d69c6203d9f731e136ce3e99d03942e7f94",
+    "rotation": 0,
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "file": "images/1728-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "file": "images/1728-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "file": "images/1728-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ]
+  },
+  "1729": {
+    "work_id": "j02",
+    "role": "artwork",
+    "original": "images/originals/Image_20261103215319_1729_19.jpg",
+    "sha256": "a6198b340769ada8cec8071960c76f2f53e5b7da09b438fd6d343b7e0ca419e2",
+    "rotation": 0,
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "file": "images/1729-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "file": "images/1729-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "file": "images/1729-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ]
+  },
+  "1730": {
+    "work_id": "j02",
+    "role": "label",
+    "original": "images/originals/Image_20261103215319_1730_19.jpg",
+    "sha256": "cf8288252e0fb22440f35d0652946c1f84c49cb5390a8502711c9cf55d07eabd",
+    "rotation": 0,
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "file": "images/1730-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "file": "images/1730-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "file": "images/1730-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ]
+  },
+  "1731": {
+    "work_id": "j03",
+    "role": "artwork",
+    "original": "images/originals/Image_20261103215319_1731_19.jpg",
+    "sha256": "f41bfb53dd5a5df11b264c0db8b6160ebaaf47cd87a5997ed669ff1b3039208c",
+    "rotation": 0,
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "file": "images/1731-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "file": "images/1731-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "file": "images/1731-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ]
+  },
+  "1732": {
+    "work_id": "j03",
+    "role": "label",
+    "original": "images/originals/Image_20261103215319_1732_19.jpg",
+    "sha256": "395399557ae76f84e2accc1efb4e65b3b1be1c57e39893e03081bca477bb1ffb",
+    "rotation": 90,
+    "width": 1707,
+    "height": 1280,
+    "variants": [
+      {
+        "file": "images/1732-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "file": "images/1732-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "file": "images/1732-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ]
+  },
+  "1733": {
+    "work_id": "j04",
+    "role": "artwork",
+    "original": "images/originals/Image_20261103215319_1733_19.jpg",
+    "sha256": "a16066e4258c5056d11730294ff94ffd94afde5b9a2fc9c96977e040775c4cfa",
+    "rotation": 0,
+    "width": 960,
+    "height": 1280,
+    "variants": [
+      {
+        "file": "images/1733-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "file": "images/1733-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "file": "images/1733-1600.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  "1734": {
+    "work_id": "j04",
+    "role": "label",
+    "original": "images/originals/Image_20261103215319_1734_19.jpg",
+    "sha256": "c9fe052e068be9a7dd3080e0114215dbf3aa337e87d251f79d8763b2bfccca14",
+    "rotation": 0,
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "file": "images/1734-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "file": "images/1734-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "file": "images/1734-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ]
+  },
+  "1735": {
+    "work_id": "j05",
+    "role": "artwork",
+    "original": "images/originals/Image_20261103215319_1735_19.jpg",
+    "sha256": "929a93ca064bfd062db58042f0749d2f1be7bfa163a30afbb322a8fada9b7592",
+    "rotation": 0,
+    "width": 960,
+    "height": 1280,
+    "variants": [
+      {
+        "file": "images/1735-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "file": "images/1735-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "file": "images/1735-1600.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  "1736": {
+    "work_id": "j05",
+    "role": "label",
+    "original": "images/originals/Image_20261103215319_1736_19.jpg",
+    "sha256": "fb281522592ab4e3a8c517fe69fd46482c8febe5229ef4a8ece4dc1bedadf8f3",
+    "rotation": 0,
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "file": "images/1736-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "file": "images/1736-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "file": "images/1736-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ]
+  },
+  "1737": {
+    "work_id": "j06",
+    "role": "artwork",
+    "original": "images/originals/Image_20261103215319_1737_19.jpg",
+    "sha256": "68c5d406c6fbfa73b9bafcd71a6c8032a054ca1f7ab885ccdf1f6cc4d2dd1e25",
+    "rotation": 0,
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "file": "images/1737-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "file": "images/1737-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "file": "images/1737-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ]
+  },
+  "1738": {
+    "work_id": "j06",
+    "role": "artwork",
+    "original": "images/originals/Image_20261103215319_1738_19.jpg",
+    "sha256": "1e08bd4fb0bd7f56d4ff94793ab30e85f8ed9533c293c85fd52c2700b5f51b0d",
+    "rotation": 0,
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "file": "images/1738-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "file": "images/1738-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "file": "images/1738-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ]
+  },
+  "1739": {
+    "work_id": "j06",
+    "role": "artwork",
+    "original": "images/originals/Image_20261103215319_1739_19.jpg",
+    "sha256": "d78c2257bb6dc43c8a2db94ae160ffa897ca63021e6b7e3c3a22064de5092a6c",
+    "rotation": 0,
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "file": "images/1739-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "file": "images/1739-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "file": "images/1739-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ]
+  },
+  "1740": {
+    "work_id": "j06",
+    "role": "label",
+    "original": "images/originals/Image_20261103215319_1740_19.jpg",
+    "sha256": "eff88ffb374316b1c9e580e0350c023d4c170b00a759fe416aba8976c6143271",
+    "rotation": 0,
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "file": "images/1740-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "file": "images/1740-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "file": "images/1740-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ]
+  },
+  "1741": {
+    "work_id": "j07",
+    "role": "artwork",
+    "original": "images/originals/Image_20261103215319_1741_19.jpg",
+    "sha256": "e23b4f47d7dc3d41398b962b446b04a8e731bf7774b71dbde314e5e6fde07edd",
+    "rotation": 0,
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "file": "images/1741-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "file": "images/1741-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "file": "images/1741-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ]
+  },
+  "1742": {
+    "work_id": "j07",
+    "role": "label",
+    "original": "images/originals/Image_20261103215319_1742_19.jpg",
+    "sha256": "cbd06314db90ea394879d37b6890a9fdcbb2e7ec5beaa602d4d3041302174a9f",
+    "rotation": 0,
+    "width": 1279,
+    "height": 1707,
+    "variants": [
+      {
+        "file": "images/1742-400.webp",
+        "width": 400,
+        "height": 534
+      },
+      {
+        "file": "images/1742-900.webp",
+        "width": 900,
+        "height": 1201
+      },
+      {
+        "file": "images/1742-1600.webp",
+        "width": 1279,
+        "height": 1707
+      }
+    ]
+  },
+  "1743": {
+    "work_id": "j08",
+    "role": "artwork",
+    "original": "images/originals/Image_20261103215319_1743_19.jpg",
+    "sha256": "b764962fbf608260f6e3fde1d56c69687003c3d9a9dcc1858b1b0bab0596b114",
+    "rotation": 0,
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "file": "images/1743-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "file": "images/1743-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "file": "images/1743-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ]
+  },
+  "1744": {
+    "work_id": "j08",
+    "role": "label",
+    "original": "images/originals/Image_20261103215319_1744_19.jpg",
+    "sha256": "2a0031e915d5c5b6768af29dd08fe44e9121600027a53d3b38b75bd6480d1db9",
+    "rotation": 0,
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "file": "images/1744-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "file": "images/1744-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "file": "images/1744-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ]
+  },
+  "1745": {
+    "work_id": "j09",
+    "role": "artwork",
+    "original": "images/originals/Image_20261103215319_1745_19.jpg",
+    "sha256": "eb8afb545d4f7ded3ddba778a6995b3a6a7bc4b16ed4d8d86c8c3b116c46a440",
+    "rotation": 0,
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "file": "images/1745-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "file": "images/1745-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "file": "images/1745-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ]
+  },
+  "1746": {
+    "work_id": "j09",
+    "role": "label",
+    "original": "images/originals/Image_20261103215319_1746_19.jpg",
+    "sha256": "ed46f06eecd02afe9e67971f9ea1774fe8efe09f223b7a92cb9cca9046aac139",
+    "rotation": 0,
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "file": "images/1746-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "file": "images/1746-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "file": "images/1746-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ]
+  },
+  "1747": {
+    "work_id": "j10",
+    "role": "artwork",
+    "original": "images/originals/Image_20261103215319_1747_19.jpg",
+    "sha256": "d50238d049e480dd8ecbb4eabcdc49413d557ecb883c65c74486f74708deff5c",
+    "rotation": 0,
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "file": "images/1747-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "file": "images/1747-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "file": "images/1747-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ]
+  },
+  "1748": {
+    "work_id": "j10",
+    "role": "label",
+    "original": "images/originals/Image_20261103215319_1748_19.jpg",
+    "sha256": "d6d3570c071f406a838390cc58f90aaefc0c798c5cdd9e620ea469682ade27f7",
+    "rotation": 0,
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "file": "images/1748-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "file": "images/1748-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "file": "images/1748-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ]
+  },
+  "1749": {
+    "work_id": "j11",
+    "role": "artwork",
+    "original": "images/originals/Image_20261103215319_1749_19.jpg",
+    "sha256": "3500dd1cf06865feb4a61dc13a9950b8d3cc10af421c75c9e792a8e120897940",
+    "rotation": 0,
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "file": "images/1749-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "file": "images/1749-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "file": "images/1749-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ]
+  },
+  "1750": {
+    "work_id": "j11",
+    "role": "label",
+    "original": "images/originals/Image_20261103215319_1750_19.jpg",
+    "sha256": "5fdb5699482b2347e0dd198af23b3b967ac1b1b4e70dad9e407a7a65bdcc7591",
+    "rotation": 0,
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "file": "images/1750-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "file": "images/1750-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "file": "images/1750-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ]
+  },
+  "1751": {
+    "work_id": "j12",
+    "role": "artwork",
+    "original": "images/originals/Image_20261103215319_1751_19.jpg",
+    "sha256": "eb7ab717b599bf805db5866946e119873fa7949e533581fce32c8e51d434fd74",
+    "rotation": 0,
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "file": "images/1751-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "file": "images/1751-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "file": "images/1751-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ]
+  },
+  "1752": {
+    "work_id": "j12",
+    "role": "label",
+    "original": "images/originals/Image_20261103215319_1752_19.jpg",
+    "sha256": "acad9669266620dc20f68d48222d9af6a369b0321f11623cd9539c5f880b1b7e",
+    "rotation": 0,
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "file": "images/1752-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "file": "images/1752-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "file": "images/1752-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ]
+  },
+  "1753": {
+    "work_id": "j13",
+    "role": "artwork",
+    "original": "images/originals/Image_20261103215319_1753_19.jpg",
+    "sha256": "e0d045a130982320777191f04825b2159c33d7b68831ac37ae76696bee8556b3",
+    "rotation": 0,
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "file": "images/1753-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "file": "images/1753-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "file": "images/1753-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ]
+  },
+  "1754": {
+    "work_id": "j13",
+    "role": "label",
+    "original": "images/originals/Image_20261103215319_1754_19.jpg",
+    "sha256": "bad33785d00309cdbf4658ce2680167ed29faf2f084262569bc0d9b00094facb",
+    "rotation": 0,
+    "width": 1279,
+    "height": 1707,
+    "variants": [
+      {
+        "file": "images/1754-400.webp",
+        "width": 400,
+        "height": 534
+      },
+      {
+        "file": "images/1754-900.webp",
+        "width": 900,
+        "height": 1201
+      },
+      {
+        "file": "images/1754-1600.webp",
+        "width": 1279,
+        "height": 1707
+      }
+    ]
+  },
+  "1755": {
+    "work_id": "j14",
+    "role": "artwork",
+    "original": "images/originals/Image_20261103215319_1755_19.jpg",
+    "sha256": "28323fbd89fdcc0bbc9e4cfd56ed768146352d2023d47b2bb182a6e79cdfd783",
+    "rotation": 0,
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "file": "images/1755-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "file": "images/1755-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "file": "images/1755-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ]
+  },
+  "1756": {
+    "work_id": "j14",
+    "role": "label",
+    "original": "images/originals/Image_20261103215319_1756_19.jpg",
+    "sha256": "eaad8581f34deb17ee52c899835bab65e440867f431285677a163b44334e712a",
+    "rotation": 0,
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "file": "images/1756-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "file": "images/1756-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "file": "images/1756-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ]
+  },
+  "1757": {
+    "work_id": "j15",
+    "role": "artwork",
+    "original": "images/originals/Image_20261103215319_1757_19.jpg",
+    "sha256": "a9a41b747ba9be0b1fa017fd331a810ec94eb1c77a545ae71802c664ae23fb7e",
+    "rotation": 0,
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "file": "images/1757-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "file": "images/1757-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "file": "images/1757-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ]
+  },
+  "1758": {
+    "work_id": "j15",
+    "role": "label",
+    "original": "images/originals/Image_20261103215319_1758_19.jpg",
+    "sha256": "02133ee9c81b30932ef256926243f73882aaed3c871ba61b97ca60eb622acdae",
+    "rotation": 0,
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "file": "images/1758-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "file": "images/1758-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "file": "images/1758-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ]
+  },
+  "1759": {
+    "work_id": "j16",
+    "role": "artwork",
+    "original": "images/originals/Image_20261103215319_1759_19.jpg",
+    "sha256": "8496cd9e1d569fffa527ec73d1f49ab1f50185336b07f047c032f41ec8e68c29",
+    "rotation": 0,
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "file": "images/1759-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "file": "images/1759-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "file": "images/1759-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ]
+  },
+  "1760": {
+    "work_id": "j16",
+    "role": "artwork",
+    "original": "images/originals/Image_20261103215319_1760_19.jpg",
+    "sha256": "f4e8c3e0c3ce678a7ac07c1233810937c6d8d366fcb2d1f164c8f6a2f916e0fc",
+    "rotation": 0,
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "file": "images/1760-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "file": "images/1760-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "file": "images/1760-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ]
+  },
+  "1761": {
+    "work_id": "j16",
+    "role": "artwork",
+    "original": "images/originals/Image_20261103215319_1761_19.jpg",
+    "sha256": "4acfd253e329ee40c2741dae59a0f08bd90123992d71c7bca50d99e1a1d8c0e3",
+    "rotation": 0,
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "file": "images/1761-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "file": "images/1761-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "file": "images/1761-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ]
+  },
+  "1762": {
+    "work_id": "j16",
+    "role": "label",
+    "original": "images/originals/Image_20261103215319_1762_19.jpg",
+    "sha256": "2a734b699b5b36cea4296525b9d2f4d6732b7e21660070cbbd00607ff055b1f7",
+    "rotation": 0,
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "file": "images/1762-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "file": "images/1762-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "file": "images/1762-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ]
+  },
+  "1763": {
+    "work_id": "j17",
+    "role": "artwork",
+    "original": "images/originals/Image_20261103215319_1763_19.jpg",
+    "sha256": "da2d0ccdef2706c5d9cf6f510d199c676ce4683a22fa1c6f61961fcb2c5f62ee",
+    "rotation": 0,
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "file": "images/1763-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "file": "images/1763-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "file": "images/1763-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ]
+  },
+  "1764": {
+    "work_id": "j17",
+    "role": "label",
+    "original": "images/originals/Image_20261103215319_1764_19.jpg",
+    "sha256": "56a4bdbd96e20a677013e116c18d57c8ab8fb11460eed24337e4139636279bae",
+    "rotation": 0,
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "file": "images/1764-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "file": "images/1764-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "file": "images/1764-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ]
+  },
+  "1765": {
+    "work_id": "j18",
+    "role": "artwork",
+    "original": "images/originals/Image_20261103215319_1765_19.jpg",
+    "sha256": "a02f57da30b50e9cb19af5b7926c9d3bb13120cbd39c7fea33bd8143338a0132",
+    "rotation": 0,
+    "width": 1024,
+    "height": 1366,
+    "variants": [
+      {
+        "file": "images/1765-400.webp",
+        "width": 400,
+        "height": 534
+      },
+      {
+        "file": "images/1765-900.webp",
+        "width": 900,
+        "height": 1201
+      },
+      {
+        "file": "images/1765-1600.webp",
+        "width": 1024,
+        "height": 1366
+      }
+    ]
+  },
+  "1766": {
+    "work_id": "j18",
+    "role": "label",
+    "original": "images/originals/Image_20261103215319_1766_19.jpg",
+    "sha256": "5ac59e594974d81ee553387b700253382bd890afa67618bb09858fa231e4294d",
+    "rotation": 0,
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "file": "images/1766-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "file": "images/1766-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "file": "images/1766-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ]
+  },
+  "1767": {
+    "work_id": "j19",
+    "role": "artwork",
+    "original": "images/originals/Image_20261103215319_1767_19.jpg",
+    "sha256": "b7c0fcc257180effb8e31e1d2b78fc135c52554c91ad751b080f7c20b7330a0b",
+    "rotation": 0,
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "file": "images/1767-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "file": "images/1767-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "file": "images/1767-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ]
+  },
+  "1768": {
+    "work_id": "j19",
+    "role": "artwork",
+    "original": "images/originals/Image_20261103215319_1768_19.jpg",
+    "sha256": "3107f6be0d37ac9050e508628d6de2dd527b2f9e96f83db3c9ccf52e17130255",
+    "rotation": 0,
+    "width": 960,
+    "height": 1280,
+    "variants": [
+      {
+        "file": "images/1768-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "file": "images/1768-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "file": "images/1768-1600.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  "1769": {
+    "work_id": "j19",
+    "role": "label",
+    "original": "images/originals/Image_20261103215319_1769_19.jpg",
+    "sha256": "01e8120d0c9a45a0c8e03bdb3885332c7d64f6abb70818bb3df15c0672ff01f2",
+    "rotation": 0,
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "file": "images/1769-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "file": "images/1769-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "file": "images/1769-1600.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ]
+  }
+}

@@ -1,0 +1,371 @@
+[
+  {
+    "id": "S01",
+    "title": "The Met：梦窗疏石《应无所住而生其心》",
+    "url": "https://www.metmuseum.org/art/collection/search/816189",
+    "access_status": "page_read",
+    "support": "作者、年代、经文、尺寸、Cowles赠藏2018",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff and implementation audit"
+  },
+  {
+    "id": "S02",
+    "title": "The Met：绝海中津《圆觉经》偈",
+    "url": "https://www.metmuseum.org/art/collection/search/853189",
+    "access_status": "page_read",
+    "support": "作者生卒年现为1336–1405、作品年代、题字、2022赠藏",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff and implementation audit"
+  },
+  {
+    "id": "S03",
+    "title": "The Met：Ten Verses on Oxherding",
+    "url": "https://www.metmuseum.org/art/collection/search/53660",
+    "access_status": "page_read",
+    "support": "1278年、馆方关于日本早期图绘本及设色的说明、Burke赠藏2015",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff and implementation audit"
+  },
+  {
+    "id": "S04",
+    "title": "The Met：Zheng Huangniu and Yushanzhu",
+    "url": "https://www.metmuseum.org/art/collection/search/53238",
+    "access_status": "page_read",
+    "support": "绘画与题赞双重署名、人物故事、双幅尺寸、Burke赠藏2015",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff and implementation audit"
+  },
+  {
+    "id": "S05",
+    "title": "The Met：慈云饮光《信心铭》偈",
+    "url": "https://www.metmuseum.org/art/collection/search/897125",
+    "access_status": "page_read",
+    "support": "真言宗背景、飞白、题字、现行编号及2023赠藏",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff and implementation audit"
+  },
+  {
+    "id": "S06",
+    "title": "The Met：寂严书李攀龙诗",
+    "url": "https://www.metmuseum.org/art/collection/search/845131",
+    "access_status": "page_read",
+    "support": "真言宗、与禅书关系、诗文、Cowles赠藏2020",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff and implementation audit"
+  },
+  {
+    "id": "S07",
+    "title": "The Met：隐元一行书",
+    "url": "https://www.metmuseum.org/art/collection/search/897107",
+    "access_status": "page_read",
+    "support": "1592–1673、1661万福寺、松声千嶂冷、Cowles赠藏2023",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff and implementation audit"
+  },
+  {
+    "id": "S08",
+    "title": "The Met：即非《对月图》",
+    "url": "https://www.metmuseum.org/art/collection/search/49067",
+    "access_status": "page_read",
+    "support": "馆方完整题赞、1661年后、Packard赠购1975；检索文本可读，动态来源栏未展开",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff and implementation audit"
+  },
+  {
+    "id": "S09",
+    "title": "The Met：清岩书李白诗句",
+    "url": "https://www.metmuseum.org/art/collection/search/902217",
+    "access_status": "page_read",
+    "support": "现行年代17世纪中期、茶会背景、2024赠藏与正式编号",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff and implementation audit"
+  },
+  {
+    "id": "S10",
+    "title": "The Met：蕪村《寒山拾得图》",
+    "url": "https://www.metmuseum.org/art/collection/search/853209",
+    "access_status": "page_read",
+    "support": "1770年代早期、设色、人物左右、Cowles赠藏2022",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff and implementation audit"
+  },
+  {
+    "id": "S11",
+    "title": "MFAH：豪潮《影达摩》",
+    "url": "https://emuseum.mfah.org/objects/149595/shadow-daruma",
+    "access_status": "official_search_extract",
+    "support": "1825、2021.224、Gitter–Yelen、Brown Foundation基金馆购；网页直开受限，索引元数据与用户展签一致",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff research"
+  },
+  {
+    "id": "S12",
+    "title": "庆应义塾：豪潮宽海一行书及生平",
+    "url": "https://objecthub.keio.ac.jp/ja/object/247",
+    "access_status": "page_read",
+    "support": "作者为天台宗、比叡山受学及后期活动；该藏品不是用户所拍《影达摩》",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff and implementation audit"
+  },
+  {
+    "id": "S13",
+    "title": "Seattle Art Museum：Portrait of a Zen Monk",
+    "url": "https://art.seattleartmuseum.org/objects/33566/portrait-of-a-zen-monk",
+    "access_status": "page_read",
+    "support": "作者归属、海北友松风格关联、Abrams旧藏、2006佳士得与Taylor赠藏",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff and implementation audit"
+  },
+  {
+    "id": "S14",
+    "title": "Kimbell：Two Gibbons Reaching for the Moon",
+    "url": "https://kimbellart.org/collection/ap-200501",
+    "access_status": "official_search_extract",
+    "support": "约1770、AP 2005.01、捞月寓意与石峰寺；直开受限，馆方索引释文与照片展签吻合",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff research"
+  },
+  {
+    "id": "S15",
+    "title": "The Met：Cowles收藏三馆捐赠公告（2019）",
+    "url": "https://www.metmuseum.org/it/press-releases/cowles-collection-2019-news",
+    "access_status": "official_search_extract",
+    "support": "550余件赠予Met、Freer/Sackler、Portland的整体计划；不是每件完整递藏证明",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff research"
+  },
+  {
+    "id": "S16",
+    "title": "The Met：Mary Griggs Burke收藏捐赠公告（2015）",
+    "url": "https://www.metmuseum.org/ja/press-releases/mary-griggs-burke-collection-2015-news",
+    "access_status": "official_search_extract",
+    "support": "Burke生平、收藏概况与Met/Mia受赠背景",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff research"
+  },
+  {
+    "id": "S17",
+    "title": "The Met：Packard收藏35周年展",
+    "url": "https://www.metmuseum.org/exhibitions/listings/2009/packard-collection",
+    "access_status": "official_search_extract",
+    "support": "1975年以捐赠与购买结合取得400余件日本艺术",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff research"
+  },
+  {
+    "id": "S18",
+    "title": "MFAH：Gitter–Yelen图录前言",
+    "url": "https://emuseum.mfah.org/catalogues/gitter-yelen-collection/menu/none-whatsoever-foreword",
+    "access_status": "official_search_extract",
+    "support": "2015展览合作及2020年70余件赠藏/促成购藏的整体关系；不替代单件入藏年份",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff research"
+  },
+  {
+    "id": "S19",
+    "title": "Kurt Gitter：Collector’s Statement",
+    "url": "https://emuseum.mfah.org/catalogues/gitter-yelen-collection/menu/Collector-Statement",
+    "access_status": "page_read",
+    "support": "1963驻日军医经历、抽象表现主义兴趣、持续收藏与研究网络",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff research"
+  },
+  {
+    "id": "S20",
+    "title": "Yukio Lippit：Zenga: A Brief History，MFAH",
+    "url": "https://emuseum.mfah.org/catalogues/gitter-yelen-collection/menu/zenga-a-brief-history",
+    "access_status": "official_search_extract",
+    "support": "Zenga类别的历史性、江户至现代范围；不能当作所有作品的统一解释",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff research"
+  },
+  {
+    "id": "S21",
+    "title": "Seattle：富田溪仙《王羲之》馆方说明",
+    "url": "https://art.seattleartmuseum.org/objects/20110",
+    "access_status": "page_read",
+    "support": "溪仙的禅修与不拘常规的画风；此为另一作品，不是本批1932观音",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff and implementation audit"
+  },
+  {
+    "id": "S22",
+    "title": "静冈县立美术馆：桥本关雪生平",
+    "url": "https://jmapps.ne.jp/spmoa/sakka_det.html?list_count=10&person_id=249",
+    "access_status": "page_read",
+    "support": "1883–1945、师承竹内栖凤、1913赴华、中国古典与新南画相关背景",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff and implementation audit"
+  },
+  {
+    "id": "S23",
+    "title": "清荒神清澄寺：清荒神与铁斋",
+    "url": "https://www.kiyoshikojin.or.jp/tessai_museum/art/",
+    "access_status": "page_read",
+    "support": "铁斋生平；坂本光净/光聪收藏研究、向吉美等馆捐赠的整体背景",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff and implementation audit"
+  },
+  {
+    "id": "S24",
+    "title": "庆应／Japan Search：村田珠光短册",
+    "url": "https://jpsearch.go.jp/item/keioobjecthub-1258",
+    "access_status": "page_read",
+    "support": "珠光1423–1502、奈良与一休参禅及茶文化背景；不是本批铁斋肖像",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff and implementation audit"
+  },
+  {
+    "id": "S25",
+    "title": "李白《题江夏修静寺》原文",
+    "url": "https://zh.wikisource.org/zh-hant/題江夏修靜寺",
+    "access_status": "page_read",
+    "support": "高殿坐幽人出处；公共领域文本，卷次标为全唐诗184",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff and implementation audit"
+  },
+  {
+    "id": "S26",
+    "title": "CBETA：圆觉经精解评林，X0261",
+    "url": "https://cbetaonline.dila.edu.tw/X0261",
+    "access_status": "primary_text_search_extract",
+    "support": "圆觉经四句的上下文；不可照搬馆方英文的条件式理解",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff research"
+  },
+  {
+    "id": "S27",
+    "title": "CBETA：法海观澜卷三，B0131",
+    "url": "https://cbetaonline.dila.edu.tw/B0131_003",
+    "access_status": "primary_text_search_extract",
+    "support": "信心铭上下文：二由一有，一亦莫守；一心不生，万法无咎",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff research"
+  },
+  {
+    "id": "S28",
+    "title": "奈良国立博物馆：白衣观音",
+    "url": "https://www.narahaku.go.jp/english/collection/p-1010-0.html",
+    "access_status": "page_read",
+    "support": "作为比较背景：补陀洛、善财与水月/白衣观音传统；不是用户所拍作品",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff research"
+  },
+  {
+    "id": "S29",
+    "title": "文化厅文化遗产Online：溪仙《那智泷》",
+    "url": "https://online.bunka.go.jp/heritages/detail/94053",
+    "access_status": "official_search_extract",
+    "support": "溪仙先学狩野派、后从都路华香学四条派；不用于本批观音递藏",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff research"
+  },
+  {
+    "id": "S30",
+    "title": "福冈市美术馆：仙厓作品展清单",
+    "url": "https://www.fukuoka-art-museum.jp/uploads/List_Sengais_Artworks.pdf",
+    "access_status": "pdf_text_read",
+    "support": "仙厓为博多圣福寺住持、亲近大众的书画；不是本批富士山的同件著录",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff research"
+  },
+  {
+    "id": "S31",
+    "title": "Portland Art Museum：Anderson/Fulkerson捐赠实例",
+    "url": "https://portlandartmuseum.org/blog/new-brenda-lab-video-for-aapi-heritage-month/",
+    "access_status": "page_read",
+    "support": "证明该对捐赠者与Portland的收藏关系；不足以单独确认2025.24.64/67两件的馆藏",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff research"
+  },
+  {
+    "id": "S32",
+    "title": "Smithsonian：Mind Over Matter: Zen in Medieval Japan",
+    "url": "https://asia.si.edu/whats-on/exhibitions/mind-over-matter-zen-in-medieval-japan/",
+    "access_status": "page_read",
+    "support": "广义中世禅院绘画约1200–1600的范围及雪舟、雪村等传统",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff research"
+  },
+  {
+    "id": "S33",
+    "title": "The Met：蕪村《山野行旅》",
+    "url": "https://www.metmuseum.org/art/collection/search/671023",
+    "access_status": "official_search_extract",
+    "support": "蕪村为南画家和俳人，学习中国绘画与画谱",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff research"
+  },
+  {
+    "id": "S34",
+    "title": "东京富士美术馆：伊藤若冲",
+    "url": "https://www.fujibi.or.jp/en/collection/artwork-artist/a144/",
+    "access_status": "official_search_extract",
+    "support": "若冲与黄檗水墨、写生和想象之间的关系",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff research"
+  },
+  {
+    "id": "S35",
+    "title": "The Met：绝海致Shippei Shikai信件的后世摹写",
+    "url": "https://www.metmuseum.org/art/collection/search/60472",
+    "access_status": "page_read",
+    "support": "绝海留学中国与五山僧文化背景；该信件并非本批书法，不可混图或混归属",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff research"
+  },
+  {
+    "id": "S36",
+    "title": "吉美美术馆：日本收藏概况",
+    "url": "https://www.guimet.fr/fr/collections/japon",
+    "access_status": "page_read",
+    "support": "馆藏背景；没有找到Gasoku单件在线著录，不能据此补其身份",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff and implementation audit"
+  },
+  {
+    "id": "S37",
+    "title": "Manyo’an：豪潮Shadow Daruma",
+    "url": "https://www.manyoancollection.org/zoom/1254/0/",
+    "access_status": "collection_search_extract",
+    "support": "1825、100×28.2cm、旧号2000.6及列举2002/2023图录。未完成图片与印章逐项比对；仅作可能同件旧著录线索",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff research"
+  },
+  {
+    "id": "S38",
+    "title": "Portland：Word in Flower: Arts of Buddhism",
+    "url": "https://portlandartmuseum.org/event/word-in-flower-arts-of-buddhism/",
+    "access_status": "page_read",
+    "support": "馆方展览范围；没有单件清单，不能据此确认本批三件近代观音参展",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff research"
+  },
+  {
+    "id": "S39",
+    "title": "西宫市大谷纪念美术馆：铁斋及作品条目",
+    "url": "https://jmapps.ne.jp/otanimuseum/det.html?data_id=116",
+    "access_status": "official_search_extract",
+    "support": "铁斋以儒生自任、受莲月影响及南画学习的背景",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff research"
+  },
+  {
+    "id": "S40",
+    "title": "Dallas馆方提供的《雪中鸦》元数据",
+    "url": "https://artsandculture.google.com/asset/crows-in-snow/2QG-HfeNBG5piw?hl=en",
+    "access_status": "museum_metadata_search_extract",
+    "support": "仅证明Caldwell夫妇与Dallas的捐赠关系；不能据此把仙厓富士山认作Dallas藏品",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff research"
+  },
+  {
+    "id": "S41",
+    "title": "识典古籍：《寒山诗集》一卷",
+    "url": "https://www.shidianguji.com/book/NGJ8921567206401/chapter/1lulje3dy7v9c",
+    "access_status": "page_read",
+    "support": "开篇所选寒山诗“吾心似秋月，碧潭清皎洁，无物堪比伦，教我如何说”；本诗在原集正文中，不将首句误说成原有诗题",
+    "checked_date": "2026-11-03",
+    "evidence_origin": "handoff and implementation audit"
+  }
+]
