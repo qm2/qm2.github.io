@@ -1,0 +1,4924 @@
+{
+  "works": [
+    {
+      "id": "cd-buddha-head-1784",
+      "title": "佛头",
+      "title_en": "Buddha Head",
+      "date": "南朝（420—589年）",
+      "period": "南朝",
+      "year_start": 420,
+      "year_end": 589,
+      "date_kind": "period",
+      "material": "石材（具体石种待核）",
+      "form": "佛首",
+      "iconography": "佛头",
+      "owner": "成都博物馆",
+      "owner_city": "成都",
+      "viewing_museum": "成都博物馆",
+      "viewing_city": "成都",
+      "viewing_museum_candidate": "成都博物馆",
+      "viewing_evidence": "同组原研究包记录为成都博物馆；照片内英文标示 Unearthed from Kuan Alley, Chengdu。",
+      "accession": null,
+      "origin": null,
+      "discovery": "成都宽巷子出土（据照片内现代展签）",
+      "photos": [
+        {
+          "number": 1784,
+          "role": "front",
+          "caption": "佛头及下方现场展签",
+          "rotation_ccw": 0
+        }
+      ],
+      "sources": [],
+      "status": "confirmed",
+      "issue": "仅一张照片，展签在作品下方；无独立展签照片、馆藏编号、具体石种或更窄断代。",
+      "scope": "main",
+      "reading_url": null,
+      "museum_id": "chengdu",
+      "visit_date": null,
+      "hero": 1784,
+      "region": "南方／成都",
+      "track": "南朝",
+      "date_note": "横轴范围表示朝代或时期边界，不是作品的精确制作年。",
+      "catalogue_note": "",
+      "city": "成都",
+      "museum": "成都博物馆",
+      "material_group": "石雕",
+      "form_group": "佛首",
+      "date_kind_label": "时期范围"
+    },
+    {
+      "id": "cd-undated-screen",
+      "title": "背屏式佛造像",
+      "title_en": null,
+      "date": "南朝（420—589年）",
+      "period": "南朝",
+      "year_start": 420,
+      "year_end": 589,
+      "date_kind": "period",
+      "material": "石材（具体石种待核）",
+      "form": "背屏式造像",
+      "iconography": "一佛、四菩萨、四弟子、二力士（据展签）",
+      "owner": "成都博物馆",
+      "owner_city": "成都",
+      "viewing_museum": "成都博物馆",
+      "viewing_city": "成都",
+      "viewing_museum_candidate": "成都博物馆",
+      "viewing_evidence": "原研究包将这组成都商业街与西安路作品记为成都博物馆亲见；1779展签可核出土地。",
+      "accession": null,
+      "origin": null,
+      "discovery": "成都商业街出土（据展签）",
+      "photos": [
+        {
+          "number": 1778,
+          "role": "front",
+          "caption": "背屏式佛造像正面",
+          "rotation_ccw": 0
+        },
+        {
+          "number": 1779,
+          "role": "label",
+          "caption": "背屏式佛造像现场展签",
+          "rotation_ccw": 0
+        }
+      ],
+      "sources": [],
+      "status": "confirmed",
+      "issue": "展签未列馆藏编号与具体年代；420—589为南朝范围，不是精确制作年。",
+      "scope": "main",
+      "reading_url": null,
+      "museum_id": "chengdu",
+      "visit_date": null,
+      "hero": 1778,
+      "region": "南方／成都",
+      "track": "南朝",
+      "date_note": "横轴范围表示朝代或时期边界，不是作品的精确制作年。",
+      "catalogue_note": "",
+      "city": "成都",
+      "museum": "成都博物馆",
+      "material_group": "石雕",
+      "form_group": "背屏式造像",
+      "date_kind_label": "时期范围"
+    },
+    {
+      "id": "cd-490-fahai",
+      "title": "释法海与母造弥勒像",
+      "date": "490年",
+      "period": "南齐",
+      "material": "石",
+      "form": "背屏式石造像",
+      "dimensions": "残高64 × 座宽46 × 厚22厘米",
+      "iconography": null,
+      "hero": 1785,
+      "photos": [
+        {
+          "number": 1785,
+          "role": "artwork"
+        },
+        {
+          "number": 1786,
+          "role": "label"
+        }
+      ],
+      "reading_url": "../cd-490-fahai/",
+      "sources": [
+        {
+          "title": "故宫博物院：南齐490释法海与母造像",
+          "url": "https://www.dpm.org.cn/subject_sino/project/china/98518.html"
+        }
+      ],
+      "scope": "main",
+      "visit_date": null,
+      "region": "南方／成都",
+      "track": "南朝",
+      "accession": "",
+      "catalogue_note": "",
+      "museum_id": "chengdu",
+      "owner": "成都博物馆",
+      "title_en": null,
+      "year_start": 490,
+      "year_end": 490,
+      "date_kind": "exact",
+      "origin": null,
+      "discovery": "成都西安路出土",
+      "status": "confirmed",
+      "date_note": "",
+      "viewing_evidence": "既有精读资料与作者现场照片；未从文件名推定到访日期。",
+      "city": "成都",
+      "museum": "成都博物馆",
+      "material_group": "石雕",
+      "form_group": "背屏式造像",
+      "date_kind_label": "明确纪年"
+    },
+    {
+      "id": "na-494-yin",
+      "title": "尹受国造释迦佛像",
+      "date": "494年",
+      "period": "北魏",
+      "material": "灰色石灰岩，残彩",
+      "form": "背屏式坐佛/佛龛",
+      "dimensions": "53.34 × 30.48 × 16.51厘米",
+      "iconography": null,
+      "hero": 1864,
+      "photos": [
+        {
+          "number": 1864,
+          "role": "artwork"
+        },
+        {
+          "number": 1865,
+          "role": "artwork"
+        },
+        {
+          "number": 1866,
+          "role": "artwork"
+        },
+        {
+          "number": 1875,
+          "role": "artwork"
+        },
+        {
+          "number": 1876,
+          "role": "artwork"
+        },
+        {
+          "number": 1867,
+          "role": "label"
+        },
+        {
+          "number": 1877,
+          "role": "label"
+        }
+      ],
+      "reading_url": "../na-494-yin/",
+      "sources": [
+        {
+          "title": "Nelson-Atkins：494尹受国石佛龛 59-47",
+          "url": "https://art.nelson-atkins.org/objects/5547/shrine-of-shakyamuni-buddha"
+        },
+        {
+          "title": "金申／《收藏家》，雅昌转载：流散海外的北魏早期石佛造像（2006年第2期）",
+          "url": "https://comment.artron.net/index.php?flag=comment&newid=3774"
+        }
+      ],
+      "scope": "main",
+      "visit_date": null,
+      "region": "北方",
+      "track": "北朝",
+      "accession": "59-47",
+      "catalogue_note": "",
+      "museum_id": "nelson",
+      "owner": "纳尔逊—阿特金斯艺术博物馆",
+      "title_en": "Shrine of Shakyamuni Buddha",
+      "year_start": 494,
+      "year_end": 494,
+      "date_kind": "exact",
+      "origin": null,
+      "discovery": null,
+      "status": "confirmed",
+      "date_note": "",
+      "viewing_evidence": "既有精读资料与作者现场照片；未从文件名推定到访日期。",
+      "city": "堪萨斯城",
+      "museum": "纳尔逊—阿特金斯艺术博物馆",
+      "material_group": "石雕",
+      "form_group": "背屏式造像",
+      "date_kind_label": "明确纪年"
+    },
+    {
+      "id": "met-495-dipankara",
+      "title": "燃灯佛像",
+      "date": "495年",
+      "period": "北魏",
+      "material": "砂岩",
+      "form": "大型背光造像",
+      "dimensions": "高322.6 × 宽190.5 × 厚71.1厘米；含基座高348厘米",
+      "iconography": null,
+      "hero": 1814,
+      "photos": [
+        {
+          "number": 1814,
+          "role": "artwork"
+        },
+        {
+          "number": 1815,
+          "role": "artwork"
+        },
+        {
+          "number": 1816,
+          "role": "label"
+        }
+      ],
+      "reading_url": "../met-495-dipankara/",
+      "sources": [
+        {
+          "title": "Met Museum：495年燃灯佛像 65.29.3",
+          "url": "https://www.metmuseum.org/art/collection/search/42719"
+        }
+      ],
+      "scope": "main",
+      "visit_date": null,
+      "region": "北方",
+      "track": "北朝",
+      "accession": "65.29.3",
+      "catalogue_note": "",
+      "museum_id": "met",
+      "owner": "纽约大都会艺术博物馆",
+      "title_en": "Buddha Dipankara (Randengfo)",
+      "year_start": 495,
+      "year_end": 495,
+      "date_kind": "exact",
+      "origin": null,
+      "discovery": null,
+      "status": "confirmed",
+      "date_note": "",
+      "viewing_evidence": "既有精读资料与作者现场照片；未从文件名推定到访日期。",
+      "city": "纽约",
+      "museum": "纽约大都会艺术博物馆",
+      "material_group": "石雕",
+      "form_group": "背屏式造像",
+      "date_kind_label": "明确纪年"
+    },
+    {
+      "id": "cle-500-maitreya",
+      "title": "弥勒与二胁侍造像碑",
+      "date": "500年",
+      "period": "北魏",
+      "material": "灰色石灰岩",
+      "form": "造像碑/背屏三尊",
+      "dimensions": "94.6 × 54.6厘米",
+      "iconography": null,
+      "hero": 1837,
+      "photos": [
+        {
+          "number": 1837,
+          "role": "artwork"
+        },
+        {
+          "number": 1838,
+          "role": "artwork"
+        },
+        {
+          "number": 1839,
+          "role": "label"
+        }
+      ],
+      "reading_url": "../cle-500-maitreya/",
+      "sources": [
+        {
+          "title": "Cleveland Museum：500弥勒与胁侍碑 1959.130",
+          "url": "https://www.clevelandart.org/art/1959.130"
+        },
+        {
+          "title": "Cleveland Museum：北魏500年碑旧刊",
+          "url": "https://www.clevelandart.org/print/art/1959.130"
+        }
+      ],
+      "scope": "main",
+      "visit_date": null,
+      "region": "北方",
+      "track": "北朝",
+      "accession": "1959.130",
+      "catalogue_note": "",
+      "museum_id": "cleveland",
+      "owner": "克利夫兰美术馆",
+      "title_en": "Stele with Maitreya and Attendants",
+      "year_start": 500,
+      "year_end": 500,
+      "date_kind": "exact",
+      "origin": null,
+      "discovery": null,
+      "status": "confirmed",
+      "date_note": "沿用馆方500年。旧录499年的对应关系仍待核对，未以旧说覆盖现记录。",
+      "viewing_evidence": "既有精读资料与作者现场照片；未从文件名推定到访日期。",
+      "city": "克利夫兰",
+      "museum": "克利夫兰美术馆",
+      "material_group": "石雕",
+      "form_group": "造像碑",
+      "date_kind_label": "明确纪年"
+    },
+    {
+      "id": "nelson-51-27",
+      "title": "释迦牟尼与菩萨、僧人及飞天浮雕",
+      "title_en": "Shakyamuni Buddha Attended by Bodhisattvas, Monks, and Apsaras—A Casing Slab from a Buddhist Monument",
+      "date": "6世纪初",
+      "period": "北魏",
+      "year_start": 500,
+      "year_end": 525,
+      "date_kind": "approx_range",
+      "material": "浅黄色砂岩",
+      "form": "建筑浮雕壁板",
+      "iconography": "释迦牟尼、菩萨、僧人、飞天及供养人；上角佛诞场景据馆方",
+      "owner": "纳尔逊—阿特金斯艺术博物馆",
+      "viewing_museum": "纳尔逊—阿特金斯艺术博物馆",
+      "viewing_city": "堪萨斯城",
+      "visit_date": null,
+      "visit_evidence": "现代现场展签列本馆藏品号及馆藏credit，与馆方藏品记录吻合；未使用目前在展状态推定拍摄时陈列。",
+      "accession": "51-27",
+      "origin": "可能来自陕西西安地区（现场展签）；馆方线上来源栏作西安",
+      "discovery": "",
+      "photos": [
+        {
+          "number": 1878,
+          "role": "front",
+          "caption": "佛龛、两侧眷属及下方供养人",
+          "original_filename": "Image_20261106141114_1878_19.jpg",
+          "rotation_ccw": 0
+        },
+        {
+          "number": 1879,
+          "role": "label",
+          "caption": "现场展签：佛教建筑浮雕壁板",
+          "original_filename": "Image_20261106141114_1879_19.jpg",
+          "rotation_ccw": 0
+        }
+      ],
+      "sources": [
+        {
+          "title": "纳尔逊—阿特金斯：51-27",
+          "url": "https://art.nelson-atkins.org/objects/25957/shakyamuni-buddha-attended-by-bodhisattvas-monks-and-apsar",
+          "read_status": "read"
+        }
+      ],
+      "status": "confirmed",
+      "issue": "",
+      "scope": "main",
+      "deep_reading": null,
+      "dimensions": "70.49 × 63.5厘米",
+      "year_interval_note": "500—525仅为6世纪初的时间轴显示范围，不是新的精确断代。",
+      "note": "与弗利尔F1913.27不是同件。馆方记1951年由C.T.Loo购入；不据此补写具体寺院或考古出土地。",
+      "museum_id": "nelson",
+      "hero": 1878,
+      "region": "北方",
+      "track": "北朝",
+      "date_note": "500—525仅为6世纪初的时间轴显示范围，不是新的精确断代。",
+      "catalogue_note": "馆方记载1951年由C. T. Loo购入。",
+      "reading_url": null,
+      "city": "堪萨斯城",
+      "museum": "纳尔逊—阿特金斯艺术博物馆",
+      "material_group": "石雕",
+      "form_group": "建筑构件／石塔",
+      "date_kind_label": "约年范围"
+    },
+    {
+      "id": "cd-511-wang",
+      "title": "王州子与李慧女造释迦像",
+      "date": "511年",
+      "period": "南梁",
+      "material": "石",
+      "form": "一佛四菩萨背屏石造像",
+      "dimensions": "高62 × 座宽35 × 厚12厘米",
+      "iconography": null,
+      "hero": 1782,
+      "photos": [
+        {
+          "number": 1782,
+          "role": "artwork"
+        },
+        {
+          "number": 1783,
+          "role": "label"
+        }
+      ],
+      "reading_url": "../cd-511-wang/",
+      "sources": [
+        {
+          "title": "故宫博物院：511王州子及妻李慧女造像",
+          "url": "https://www.dpm.org.cn/subject_sino/project/china/98625.html"
+        }
+      ],
+      "scope": "main",
+      "visit_date": null,
+      "region": "南方／成都",
+      "track": "南朝",
+      "accession": "",
+      "catalogue_note": "",
+      "museum_id": "chengdu",
+      "owner": "成都博物馆",
+      "title_en": null,
+      "year_start": 511,
+      "year_end": 511,
+      "date_kind": "exact",
+      "origin": null,
+      "discovery": "成都商业街出土",
+      "status": "confirmed",
+      "date_note": "",
+      "viewing_evidence": "既有精读资料与作者现场照片；未从文件名推定到访日期。",
+      "city": "成都",
+      "museum": "成都博物馆",
+      "material_group": "石雕",
+      "form_group": "背屏式造像",
+      "date_kind_label": "明确纪年"
+    },
+    {
+      "id": "penn-1895",
+      "title": "弥勒佛立像",
+      "title_en": "Maitreya Buddha",
+      "date": "516年",
+      "period": "北魏",
+      "year_start": 516,
+      "year_end": 516,
+      "date_kind": "exact",
+      "material": "石灰岩，残留彩绘与鎏金",
+      "form": "大型单尊背屏佛像",
+      "iconography": "弥勒佛；背面释迦与多宝及小佛据馆方",
+      "owner": "宾夕法尼亚大学博物馆",
+      "viewing_museum": "宾夕法尼亚大学博物馆",
+      "viewing_city": "费城",
+      "visit_date": null,
+      "visit_evidence": "现代现场展签列本馆藏品号及馆藏credit，与馆方藏品记录吻合；未使用目前在展状态推定拍摄时陈列。",
+      "accession": "C284",
+      "origin": "中国河北定州（馆方地域记录）",
+      "discovery": "",
+      "photos": [
+        {
+          "number": 1895,
+          "role": "front",
+          "caption": "弥勒佛与尖叶形背光全貌",
+          "original_filename": "Image_20261106141114_1895_19.jpg",
+          "rotation_ccw": 0
+        },
+        {
+          "number": 1896,
+          "role": "detail",
+          "caption": "双足、台座与残留彩绘",
+          "original_filename": "Image_20261106141114_1896_19.jpg",
+          "rotation_ccw": 0
+        },
+        {
+          "number": 1897,
+          "role": "back",
+          "caption": "背光背面现场照片",
+          "original_filename": "Image_20261106141114_1897_19.jpg",
+          "rotation_ccw": 0
+        },
+        {
+          "number": 1898,
+          "role": "label",
+          "caption": "现场展签：516年弥勒佛C284",
+          "original_filename": "Image_20261106141114_1898_19.jpg",
+          "rotation_ccw": 0
+        }
+      ],
+      "sources": [
+        {
+          "title": "宾大博物馆：C284",
+          "url": "https://collections.penn.museum/collections/object/56808",
+          "read_status": "read"
+        }
+      ],
+      "status": "confirmed",
+      "issue": "",
+      "scope": "main",
+      "deep_reading": null,
+      "dimensions": "279.4 × 127 × 36厘米",
+      "note": "官网及现场展签均为516年。官网记背面题名供养人Zhang Qianbai、Shanyang村，未据音译自行补写汉字；记端方旧藏及1917年购自C.T.Loo。本轮仅基础编目，不新增铭文释文。",
+      "date_note": "旧著录曾有514年说法；本次依现馆签及现官网516年。",
+      "museum_id": "penn",
+      "hero": 1895,
+      "region": "北方",
+      "track": "北朝",
+      "catalogue_note": "馆方记录背面题名供养人Zhang Qianbai及Shanyang村，并记载端方旧藏、1917年购自C. T. Loo。人名、地名暂沿用馆方转写。",
+      "reading_url": null,
+      "city": "费城",
+      "museum": "宾夕法尼亚大学博物馆",
+      "material_group": "石雕",
+      "form_group": "背屏式造像",
+      "date_kind_label": "明确纪年"
+    },
+    {
+      "id": "mfah-526-faxing",
+      "title": "法兴造释迦三尊像",
+      "date": "526年",
+      "period": "北魏",
+      "material": "石灰岩（现场展签）",
+      "form": "背屏式石三尊",
+      "dimensions": "高60.6厘米（佳士得记录）",
+      "iconography": null,
+      "hero": 1840,
+      "photos": [
+        {
+          "number": 1840,
+          "role": "artwork"
+        },
+        {
+          "number": 1841,
+          "role": "artwork"
+        },
+        {
+          "number": 1842,
+          "role": "label"
+        }
+      ],
+      "reading_url": "../faxing-526/",
+      "sources": [
+        {
+          "title": "Christie's：526比丘法兴造三尊像",
+          "url": "https://www.christies.com/zh/lot/lot-6061297"
+        },
+        {
+          "title": "Yale University Press/MFAH：2026《Approaching the Buddha》图录",
+          "url": "https://yalebooks.yale.edu/book/9780300286427/approaching-the-buddha/"
+        }
+      ],
+      "scope": "main",
+      "visit_date": null,
+      "region": "北方",
+      "track": "北朝",
+      "accession": "",
+      "catalogue_note": "",
+      "museum_id": "mfah",
+      "owner": "虚舟收藏（私人收藏）",
+      "title_en": "Shakyamuni Buddha Triad",
+      "year_start": 526,
+      "year_end": 526,
+      "date_kind": "exact",
+      "origin": null,
+      "discovery": null,
+      "status": "confirmed",
+      "date_note": "展签526年；已刊释文的乙巳与孝昌二年不合，原文与校记见细读。",
+      "viewing_evidence": "既有精读资料与作者现场照片；未从文件名推定到访日期。",
+      "city": "休斯顿",
+      "museum": "休斯顿美术馆",
+      "material_group": "石雕",
+      "form_group": "背屏式造像",
+      "date_kind_label": "明确纪年"
+    },
+    {
+      "id": "met-528-yiyi",
+      "title": "杜善胜等七十人造像碑",
+      "date": "528年",
+      "period": "北魏",
+      "material": "石灰岩，残存颜料",
+      "form": "大型造像碑",
+      "dimensions": "231.1 × 60.6 × 24.1厘米",
+      "iconography": null,
+      "hero": 1817,
+      "photos": [
+        {
+          "number": 1817,
+          "role": "artwork"
+        },
+        {
+          "number": 1818,
+          "role": "artwork"
+        },
+        {
+          "number": 1819,
+          "role": "label"
+        }
+      ],
+      "reading_url": "../met-528-yiyi/",
+      "sources": [
+        {
+          "title": "Met Museum：528七十人邑义碑馆藏",
+          "url": "https://www.metmuseum.org/art/collection/search/42710"
+        },
+        {
+          "title": "CBETA：杜善胜合邑七十人造像记",
+          "url": "https://cbetaonline.dila.edu.tw/zh/I0027_001"
+        }
+      ],
+      "scope": "main",
+      "visit_date": null,
+      "region": "北方",
+      "track": "北朝",
+      "accession": "65.29.1",
+      "catalogue_note": "",
+      "museum_id": "met",
+      "owner": "纽约大都会艺术博物馆",
+      "title_en": "Stele commissioned by members of a devotional society",
+      "year_start": 528,
+      "year_end": 528,
+      "date_kind": "exact",
+      "origin": null,
+      "discovery": null,
+      "status": "confirmed",
+      "date_note": "",
+      "viewing_evidence": "既有精读资料与作者现场照片；未从文件名推定到访日期。",
+      "city": "纽约",
+      "museum": "纽约大都会艺术博物馆",
+      "material_group": "石雕",
+      "form_group": "造像碑",
+      "date_kind_label": "明确纪年"
+    },
+    {
+      "id": "cd-530-huangzang",
+      "title": "晃藏造释迦像",
+      "date": "530年",
+      "period": "南梁",
+      "material": "石",
+      "form": "背屏式石造像",
+      "dimensions": "高41 × 座宽28 × 厚11厘米",
+      "iconography": null,
+      "hero": 1787,
+      "photos": [
+        {
+          "number": 1787,
+          "role": "artwork"
+        },
+        {
+          "number": 1788,
+          "role": "label"
+        }
+      ],
+      "reading_url": "../cd-530-huangzang/",
+      "sources": [
+        {
+          "title": "故宫博物院：南梁中大通二年晃藏造释迦像",
+          "url": "https://www.dpm.org.cn/subject_sino/project/china/98627.html"
+        }
+      ],
+      "scope": "main",
+      "visit_date": null,
+      "region": "南方／成都",
+      "track": "南朝",
+      "accession": "",
+      "catalogue_note": "",
+      "museum_id": "chengdu",
+      "owner": "成都博物馆",
+      "title_en": null,
+      "year_start": 530,
+      "year_end": 530,
+      "date_kind": "exact",
+      "origin": null,
+      "discovery": "成都西安路出土",
+      "status": "confirmed",
+      "date_note": "",
+      "viewing_evidence": "既有精读资料与作者现场照片；未从文件名推定到访日期。",
+      "city": "成都",
+      "museum": "成都博物馆",
+      "material_group": "石雕",
+      "form_group": "背屏式造像",
+      "date_kind_label": "明确纪年"
+    },
+    {
+      "id": "met-543-yiyi",
+      "title": "五百余人造像碑",
+      "date": "533—543年",
+      "period": "东魏",
+      "material": "石灰岩",
+      "form": "大型多层造像碑",
+      "dimensions": "308 × 112.4 × 30.5厘米（馆录整体尺寸）",
+      "iconography": null,
+      "hero": 1820,
+      "photos": [
+        {
+          "number": 1820,
+          "role": "artwork"
+        },
+        {
+          "number": 1821,
+          "role": "artwork"
+        },
+        {
+          "number": 1822,
+          "role": "label"
+        }
+      ],
+      "reading_url": "../met-543-yiyi/",
+      "sources": [
+        {
+          "title": "Met Museum：赫连子悦五百人碑29.72",
+          "url": "https://www.metmuseum.org/art/collection/search/40406"
+        },
+        {
+          "title": "台湾故宫数字典藏：李赞邑五百余人造像碑墨拓本与释文",
+          "url": "https://digitalarchive.npm.gov.tw/Collection/Detail/33678?dep=P"
+        }
+      ],
+      "scope": "main",
+      "visit_date": null,
+      "region": "北方",
+      "track": "北朝",
+      "accession": "29.72",
+      "catalogue_note": "",
+      "museum_id": "met",
+      "owner": "纽约大都会艺术博物馆",
+      "title_en": "Stele Commissioned by Helian Ziyue (赫蓮子悅) and a Devotional Society of Five Hundred Individuals",
+      "year_start": 533,
+      "year_end": 543,
+      "date_kind": "range",
+      "origin": null,
+      "discovery": null,
+      "status": "confirmed",
+      "date_note": "馆方533—543年；已刊起建年干支仍有疑点，详见细读校记。",
+      "viewing_evidence": "既有精读资料与作者现场照片；未从文件名推定到访日期。",
+      "city": "纽约",
+      "museum": "纽约大都会艺术博物馆",
+      "material_group": "石雕",
+      "form_group": "造像碑",
+      "date_kind_label": "年代范围"
+    },
+    {
+      "id": "other-1801",
+      "title": "如来三尊立像",
+      "title_en": "Buddha with Two Attendants",
+      "date": "6世纪（东魏）",
+      "period": "东魏",
+      "year_start": 534,
+      "year_end": 550,
+      "date_kind": "period",
+      "material": "石灰岩",
+      "form": "背屏式造像",
+      "iconography": "一佛二胁侍",
+      "owner": "东京国立博物馆",
+      "owner_city": "东京",
+      "viewing_museum": "东京国立博物馆",
+      "viewing_city": "东京",
+      "viewing_museum_candidate": "东京国立博物馆",
+      "viewing_evidence": "Merton确认在收藏馆现场拍摄。",
+      "accession": "TC-646",
+      "origin": "中国",
+      "discovery": null,
+      "photos": [
+        {
+          "number": 1801,
+          "role": "front",
+          "caption": "如来三尊立像完整正面",
+          "rotation_ccw": 0
+        },
+        {
+          "number": 1802,
+          "role": "label",
+          "caption": "如来三尊立像现场展签",
+          "rotation_ccw": 0
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.tnm.jp/modules/r_exhibition/index.php?controller=item&id=5830&lang=en",
+          "title": "东京国立博物馆：中国佛教雕塑，TC-646与TC-375馆方展品表"
+        }
+      ],
+      "status": "confirmed",
+      "issue": "6世纪为展签年代；时间线534—550仅表示东魏时期范围，不是额外精确断代。",
+      "scope": "main",
+      "reading_url": null,
+      "visit_date": null,
+      "museum_id": "tokyo",
+      "hero": 1801,
+      "region": "北方",
+      "track": "北朝",
+      "date_note": "横轴范围表示朝代或时期边界，不是作品的精确制作年。",
+      "catalogue_note": "",
+      "city": "东京",
+      "museum": "东京国立博物馆",
+      "material_group": "石雕",
+      "form_group": "背屏式造像",
+      "date_kind_label": "时期范围"
+    },
+    {
+      "id": "penn-1893",
+      "title": "佛与二胁侍造像碑",
+      "title_en": "Buddha and two attendants stele",
+      "date": "535年",
+      "period": "东魏",
+      "year_start": 535,
+      "year_end": 535,
+      "date_kind": "exact",
+      "material": "石",
+      "form": "背屏式造像",
+      "iconography": "中央坐佛及两位胁侍",
+      "owner": "普林斯顿大学艺术博物馆",
+      "viewing_museum": "普林斯顿大学艺术博物馆",
+      "viewing_city": "普林斯顿",
+      "visit_date": null,
+      "visit_evidence": "现场展签1894列Gift of Constance Tang Fong in memory of K.M. and P.Y. Tang及编号2020-686，与普林斯顿本馆记录完全对应；展陈照片并列该馆y1943-134。无借展贷方credit。",
+      "accession": "2020-686",
+      "origin": "中国；具体制作地未详",
+      "discovery": "",
+      "photos": [
+        {
+          "number": 1893,
+          "role": "front",
+          "caption": "坐佛、二胁侍与台座",
+          "original_filename": "Image_20261106141114_1893_19.jpg",
+          "rotation_ccw": 0
+        },
+        {
+          "number": 1894,
+          "role": "label",
+          "caption": "现场展签：535年佛与二胁侍造像碑",
+          "original_filename": "Image_20261106141114_1894_19.jpg",
+          "rotation_ccw": 0
+        }
+      ],
+      "sources": [
+        {
+          "title": "普林斯顿大学艺术博物馆：2020-686",
+          "url": "https://artmuseum.princeton.edu/art/collections/objects/14474",
+          "read_status": "read"
+        }
+      ],
+      "status": "confirmed",
+      "issue": "",
+      "scope": "main",
+      "deep_reading": null,
+      "dimensions": "56 × 36 × 26厘米",
+      "note": "交接包penn-1893仅为初始ID，馆名现改正为普林斯顿；不另建第二条藏品。",
+      "canonical_id_suggestion": "princeton-535-triad",
+      "museum_id": "princeton",
+      "hero": 1893,
+      "region": "北方",
+      "track": "北朝",
+      "date_note": "",
+      "catalogue_note": "",
+      "reading_url": null,
+      "city": "普林斯顿",
+      "museum": "普林斯顿大学艺术博物馆",
+      "material_group": "石雕",
+      "form_group": "背屏式造像",
+      "date_kind_label": "明确纪年"
+    },
+    {
+      "id": "cle-537-yuanning",
+      "title": "元宁为亡妻造释迦三尊碑",
+      "date": "537年",
+      "period": "东魏",
+      "material": "石灰岩，残彩",
+      "form": "背屏式造像碑",
+      "dimensions": "77.5 × 44.4厘米",
+      "iconography": null,
+      "hero": 1833,
+      "photos": [
+        {
+          "number": 1833,
+          "role": "artwork"
+        },
+        {
+          "number": 1834,
+          "role": "artwork"
+        },
+        {
+          "number": 1835,
+          "role": "artwork"
+        },
+        {
+          "number": 1836,
+          "role": "label"
+        }
+      ],
+      "reading_url": "../cle-537-yuanning/",
+      "sources": [
+        {
+          "title": "Cleveland Museum：537元宁造释迦与胁侍碑 1914.567",
+          "url": "https://www.clevelandart.org/art/1914.567"
+        },
+        {
+          "title": "Cleveland Museum：537元宁造像馆藏旧刊",
+          "url": "https://www.clevelandart.org/print/art/1914.567"
+        }
+      ],
+      "scope": "main",
+      "visit_date": null,
+      "region": "北方",
+      "track": "北朝",
+      "accession": "1914.567",
+      "catalogue_note": "",
+      "museum_id": "cleveland",
+      "owner": "克利夫兰美术馆",
+      "title_en": "Stele with Sakyamuni and Bodhisattvas",
+      "year_start": 537,
+      "year_end": 537,
+      "date_kind": "exact",
+      "origin": "中国河北（馆方地域归属）",
+      "discovery": null,
+      "status": "confirmed",
+      "date_note": "",
+      "viewing_evidence": "既有精读资料与作者现场照片；未从文件名推定到访日期。",
+      "city": "克利夫兰",
+      "museum": "克利夫兰美术馆",
+      "material_group": "石雕",
+      "form_group": "造像碑",
+      "date_kind_label": "明确纪年"
+    },
+    {
+      "id": "na-537-lotus",
+      "title": "《法华经》图像造像碑",
+      "date": "约537年",
+      "period": "西魏",
+      "material": "深灰色石灰岩",
+      "form": "多面多层造像碑",
+      "dimensions": "含座269.24 × 101.6 × 53.34厘米；碑身243.84 × 80.01 × 32.39厘米",
+      "iconography": null,
+      "hero": 1861,
+      "photos": [
+        {
+          "number": 1861,
+          "role": "artwork"
+        },
+        {
+          "number": 1862,
+          "role": "artwork"
+        },
+        {
+          "number": 1868,
+          "role": "artwork"
+        },
+        {
+          "number": 1869,
+          "role": "artwork"
+        },
+        {
+          "number": 1870,
+          "role": "artwork"
+        },
+        {
+          "number": 1871,
+          "role": "artwork"
+        },
+        {
+          "number": 1872,
+          "role": "artwork"
+        },
+        {
+          "number": 1873,
+          "role": "artwork"
+        },
+        {
+          "number": 1863,
+          "role": "label"
+        },
+        {
+          "number": 1874,
+          "role": "label"
+        }
+      ],
+      "reading_url": "../na-537-lotus/",
+      "sources": [
+        {
+          "title": "Nelson-Atkins：约537年法华经图像造像碑 37-27",
+          "url": "https://art.nelson-atkins.org/objects/29963/buddhist-stele-with-scenes-from-the-lotus-sutra"
+        }
+      ],
+      "scope": "main",
+      "visit_date": null,
+      "region": "北方",
+      "track": "北朝",
+      "accession": "37-27",
+      "catalogue_note": "",
+      "museum_id": "nelson",
+      "owner": "纳尔逊—阿特金斯艺术博物馆",
+      "title_en": "Buddhist Stele with Scenes from the Lotus Sutra",
+      "year_start": 537,
+      "year_end": 537,
+      "date_kind": "circa",
+      "origin": null,
+      "discovery": null,
+      "status": "confirmed",
+      "date_note": "",
+      "viewing_evidence": "既有精读资料与作者现场照片；未从文件名推定到访日期。",
+      "city": "堪萨斯城",
+      "museum": "纳尔逊—阿特金斯艺术博物馆",
+      "material_group": "石雕",
+      "form_group": "造像碑",
+      "date_kind_label": "约年"
+    },
+    {
+      "id": "cd-545-zhangyuan",
+      "title": "张元造释迦多宝像",
+      "date": "545年",
+      "period": "南梁",
+      "material": "石",
+      "form": "释迦多宝二佛并坐背屏造像",
+      "dimensions": "高43 × 座宽32 × 厚10厘米",
+      "iconography": null,
+      "hero": 1780,
+      "photos": [
+        {
+          "number": 1780,
+          "role": "artwork"
+        },
+        {
+          "number": 1781,
+          "role": "label"
+        }
+      ],
+      "reading_url": "../cd-545-zhangyuan/",
+      "sources": [
+        {
+          "title": "故宫博物院：545张元释迦多宝碑",
+          "url": "https://www.dpm.org.cn/subject_sino/project/china/98628.html"
+        },
+        {
+          "title": "Nelson-Atkins：约537年法华经图像造像碑 37-27",
+          "url": "https://art.nelson-atkins.org/objects/29963/buddhist-stele-with-scenes-from-the-lotus-sutra"
+        }
+      ],
+      "scope": "main",
+      "visit_date": null,
+      "region": "南方／成都",
+      "track": "南朝",
+      "accession": "",
+      "catalogue_note": "",
+      "museum_id": "chengdu",
+      "owner": "成都博物馆",
+      "title_en": null,
+      "year_start": 545,
+      "year_end": 545,
+      "date_kind": "exact",
+      "origin": null,
+      "discovery": "成都西安路出土",
+      "status": "confirmed",
+      "date_note": "",
+      "viewing_evidence": "既有精读资料与作者现场照片；未从文件名推定到访日期。",
+      "city": "成都",
+      "museum": "成都博物馆",
+      "material_group": "石雕",
+      "form_group": "背屏式造像",
+      "date_kind_label": "明确纪年"
+    },
+    {
+      "id": "freer-cosmic-buddha",
+      "title": "毗卢舍那佛立像（宇宙佛）",
+      "title_en": "Cosmic Buddha Pilushena (Vairochana) with the Realms of Existence and other Buddhist scenes",
+      "date": "550—577年",
+      "period": "北齐",
+      "year_start": 550,
+      "year_end": 577,
+      "date_kind": "range",
+      "material": "石灰岩",
+      "form": "单尊立像",
+      "iconography": "佛衣表面刻有佛教宇宙与佛传场景",
+      "owner": "史密森尼国家亚洲艺术博物馆（弗利尔收藏）",
+      "viewing_museum": "史密森尼国家亚洲艺术博物馆（弗利尔收藏）",
+      "viewing_city": "华盛顿",
+      "visit_date": null,
+      "visit_evidence": "现代现场展签列本馆藏品号及馆藏credit，与馆方藏品记录吻合；未使用目前在展状态推定拍摄时陈列。",
+      "accession": "F1923.15",
+      "origin": "中国，可能河南省（馆方归属）",
+      "discovery": "",
+      "photos": [
+        {
+          "number": 1845,
+          "role": "front",
+          "caption": "佛衣正面的佛教世界图像与双足",
+          "original_filename": "Image_20261106141114_1845_19.jpg",
+          "rotation_ccw": 0
+        },
+        {
+          "number": 1846,
+          "role": "back",
+          "caption": "佛衣背面的浅浮雕场景",
+          "original_filename": "Image_20261106141114_1846_19.jpg",
+          "rotation_ccw": 0
+        },
+        {
+          "number": 1847,
+          "role": "label",
+          "caption": "现场展签：The Cosmic Buddha",
+          "original_filename": "Image_20261106141114_1847_19.jpg",
+          "rotation_ccw": 90
+        }
+      ],
+      "sources": [
+        {
+          "title": "国家亚洲艺术博物馆：F1923.15",
+          "url": "https://asia-archive.si.edu/object/F1923.15/",
+          "read_status": "read"
+        }
+      ],
+      "status": "confirmed",
+      "issue": "",
+      "scope": "main",
+      "deep_reading": null,
+      "dimensions": "151.3 × 62.9 × 31.3厘米",
+      "note": "现存无头立像；照片仅记录残存像身，未以网上图片补全。馆方记录1923年购自北京Taku Shanfang。",
+      "museum_id": "nmaa",
+      "hero": 1845,
+      "region": "北方",
+      "track": "北朝",
+      "date_note": "",
+      "catalogue_note": "现存像身的头部已经缺失。馆方记载1923年购自北京Taku Shanfang。",
+      "reading_url": null,
+      "city": "华盛顿",
+      "museum": "史密森尼国立亚洲艺术博物馆",
+      "material_group": "石雕",
+      "form_group": "单尊造像",
+      "date_kind_label": "年代范围"
+    },
+    {
+      "id": "guimet-ma6346",
+      "title": "双面佛教造像碑",
+      "title_en": "Stèle votive bouddhique biface",
+      "date": "北齐（550—577年）",
+      "period": "北齐",
+      "year_start": 550,
+      "year_end": 577,
+      "date_kind": "period",
+      "material": "白色大理石，残存彩绘",
+      "form": "双面背屏式造像",
+      "iconography": "正面立佛说法组合；背面倚坐佛与千佛；馆方提出弥勒解释",
+      "owner": "吉美博物馆",
+      "owner_city": "巴黎",
+      "viewing_museum": "吉美博物馆",
+      "viewing_city": "巴黎",
+      "viewing_museum_candidate": "吉美博物馆",
+      "viewing_evidence": "Merton确认在收藏馆现场拍摄。",
+      "accession": "MA 6346",
+      "origin": "中国北部，可能河北（据展签，保留问号）",
+      "discovery": null,
+      "photos": [
+        {
+          "number": 1807,
+          "role": "front",
+          "caption": "双面碑的立佛与胁侍一面",
+          "rotation_ccw": 0
+        },
+        {
+          "number": 1808,
+          "role": "back",
+          "caption": "双面碑的倚坐佛与千佛一面",
+          "rotation_ccw": 0
+        },
+        {
+          "number": 1809,
+          "role": "label",
+          "caption": "双面佛教造像碑现场展签",
+          "rotation_ccw": 0
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://depts.washington.edu/silkroad/museums/mg/mgchinawei.html",
+          "title": "华盛顿大学 Silk Road：吉美藏 MA 6346 正、侧、背面记录"
+        }
+      ],
+      "status": "confirmed",
+      "issue": "1807与1808为同件两面，已与大学项目标为MA6346的mgchina127、128、129图逐一比对；勿计两件。馆方展签购于1998，网页第三方1999说法未采用；供养人仅见展签拉丁字母Fayin/Fayao，不倒推汉字。",
+      "scope": "main",
+      "reading_url": null,
+      "visit_date": null,
+      "museum_id": "guimet",
+      "hero": 1807,
+      "region": "北方",
+      "track": "北朝",
+      "date_note": "横轴范围表示朝代或时期边界，不是作品的精确制作年。",
+      "catalogue_note": "",
+      "city": "巴黎",
+      "museum": "吉美博物馆",
+      "material_group": "石雕",
+      "form_group": "背屏式造像",
+      "date_kind_label": "时期范围"
+    },
+    {
+      "id": "mfa-1843",
+      "title": "佛教供养碑",
+      "title_en": "Buddhist Votive Stele",
+      "date": "550—577年",
+      "period": "北齐",
+      "year_start": 550,
+      "year_end": 577,
+      "date_kind": "range",
+      "material": "砂岩",
+      "form": "背屏式造像",
+      "iconography": "中央坐佛、胁侍、莲花上小坐像、双狮及炉座；各小像身份未核实",
+      "owner": "新奥尔良美术馆",
+      "viewing_museum": "新奥尔良美术馆",
+      "viewing_city": "新奥尔良",
+      "visit_date": null,
+      "visit_evidence": "作者本轮明确确认在新奥尔良美术馆观看；作品基本资料据现场展签。",
+      "accession": "2014.39",
+      "origin": "",
+      "discovery": "",
+      "photos": [
+        {
+          "number": 1843,
+          "role": "front",
+          "caption": "坐佛与胁侍，上部莲花中的小坐像",
+          "original_filename": "Image_20261106141114_1843_19.jpg",
+          "rotation_ccw": 0
+        },
+        {
+          "number": 1844,
+          "role": "label",
+          "caption": "现场展签：北齐佛教供养碑，2014.39",
+          "original_filename": "Image_20261106141114_1844_19.jpg",
+          "rotation_ccw": 0
+        }
+      ],
+      "sources": [],
+      "status": "confirmed",
+      "issue": "",
+      "scope": "main",
+      "deep_reading": null,
+      "label_credit": "Gift by exchange from Abby Rae Catledge, 2014.39",
+      "museum_id": "noma",
+      "hero": 1843,
+      "region": "北方",
+      "track": "北朝",
+      "date_note": "",
+      "catalogue_note": "",
+      "reading_url": null,
+      "viewing_evidence": "Merton确认在新奥尔良美术馆现场拍摄。",
+      "city": "新奥尔良",
+      "museum": "新奥尔良美术馆",
+      "material_group": "石雕",
+      "form_group": "背屏式造像",
+      "date_kind_label": "年代范围"
+    },
+    {
+      "id": "shanxi-seven-figures-1805",
+      "title": "释迦七尊像",
+      "title_en": "Sakyamuni and his disciples",
+      "date": "北齐（550—577年）",
+      "period": "北齐",
+      "year_start": 550,
+      "year_end": 577,
+      "date_kind": "period",
+      "material": "石材（具体石种待核）",
+      "form": "背屏式造像",
+      "iconography": "释迦与胁侍组合",
+      "owner": "山西博物院",
+      "owner_city": "太原",
+      "viewing_museum": "山西博物院",
+      "viewing_city": "太原",
+      "viewing_museum_candidate": "山西博物院",
+      "viewing_evidence": "Merton确认在收藏馆现场拍摄。",
+      "accession": null,
+      "origin": null,
+      "discovery": "山西省太原市华塔村出土（据展签）",
+      "photos": [
+        {
+          "number": 1805,
+          "role": "front",
+          "caption": "释迦七尊像正面",
+          "rotation_ccw": 0
+        },
+        {
+          "number": 1806,
+          "role": "label",
+          "caption": "释迦七尊像现场展签与台座细部",
+          "rotation_ccw": 0
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://shanximuseum.com.cn/sx/index/index.html",
+          "title": "山西博物院：藏品精粹“释迦七尊像”入口"
+        }
+      ],
+      "status": "confirmed",
+      "issue": "展签 NO.5007 与耳机图示为导览编号，不能录作馆藏号；官网藏品入口确认机构，具体石种与考古年份本记录暂不扩写。",
+      "scope": "main",
+      "reading_url": null,
+      "visit_date": null,
+      "museum_id": "shanxi",
+      "hero": 1805,
+      "region": "北方",
+      "track": "北朝",
+      "date_note": "横轴范围表示朝代或时期边界，不是作品的精确制作年。",
+      "catalogue_note": "",
+      "city": "太原",
+      "museum": "山西博物院",
+      "material_group": "石雕",
+      "form_group": "背屏式造像",
+      "date_kind_label": "时期范围"
+    },
+    {
+      "id": "penn-551-c404",
+      "title": "佛教造像碑",
+      "title_en": "Votive Stela",
+      "date": "551年",
+      "period": "北齐",
+      "year_start": 551,
+      "year_end": 551,
+      "date_kind": "exact",
+      "material": "石灰岩",
+      "form": "多层造像碑",
+      "iconography": "主龛佛与眷属；上部文殊、维摩诘问答；侧面本生故事据展签",
+      "owner": "宾夕法尼亚大学博物馆",
+      "viewing_museum": "宾夕法尼亚大学博物馆",
+      "viewing_city": "费城",
+      "visit_date": null,
+      "visit_evidence": "现代现场展签列本馆藏品号及馆藏credit，与馆方藏品记录吻合；未使用目前在展状态推定拍摄时陈列。",
+      "accession": "C404",
+      "origin": "中国河南（馆方地域记录）",
+      "discovery": "",
+      "photos": [
+        {
+          "number": 1891,
+          "role": "front",
+          "caption": "主龛与上层问答图像",
+          "original_filename": "Image_20261106141114_1891_19.jpg",
+          "rotation_ccw": 0
+        },
+        {
+          "number": 1892,
+          "role": "label",
+          "caption": "现场展签：551年造像碑C404",
+          "original_filename": "Image_20261106141114_1892_19.jpg",
+          "rotation_ccw": 0
+        }
+      ],
+      "sources": [
+        {
+          "title": "宾大博物馆：C404",
+          "url": "https://collections.penn.museum/collections/object/125145",
+          "read_status": "read"
+        }
+      ],
+      "status": "confirmed",
+      "issue": "",
+      "scope": "main",
+      "deep_reading": null,
+      "dimensions": "99.01 × 59 × 28厘米",
+      "note": "1891、1892从575年C429错误关联中分出；C404独立计一件。官网据后世题记记载原奉献于551年，另有1561年修复题记。本轮不释读石刻。",
+      "date_note": "展签括号将北齐终年印成557，属朝代范围问题；本件551年与官网相同。",
+      "museum_id": "penn",
+      "hero": 1891,
+      "region": "北方",
+      "track": "北朝",
+      "catalogue_note": "馆方据后世题记记载原奉献于551年，另有1561年修复题记。",
+      "reading_url": null,
+      "city": "费城",
+      "museum": "宾夕法尼亚大学博物馆",
+      "material_group": "石雕",
+      "form_group": "造像碑",
+      "date_kind_label": "明确纪年"
+    },
+    {
+      "id": "other-1803",
+      "title": "菩萨立像",
+      "title_en": "Bodhisattva",
+      "date": "552年（天保三年）",
+      "period": "北齐",
+      "year_start": 552,
+      "year_end": 552,
+      "date_kind": "exact",
+      "material": "石灰岩",
+      "form": "背屏式菩萨立像",
+      "iconography": "菩萨，具体尊名未定",
+      "owner": "东京国立博物馆",
+      "owner_city": "东京",
+      "viewing_museum": "东京国立博物馆",
+      "viewing_city": "东京",
+      "viewing_museum_candidate": "东京国立博物馆",
+      "viewing_evidence": "Merton确认在收藏馆现场拍摄。",
+      "accession": "TC-375",
+      "origin": "中国山西长子县附近（馆方地域归属）",
+      "discovery": null,
+      "photos": [
+        {
+          "number": 1803,
+          "role": "front",
+          "caption": "菩萨立像与刻文台座",
+          "rotation_ccw": 0
+        },
+        {
+          "number": 1804,
+          "role": "label",
+          "caption": "菩萨立像现场展签",
+          "rotation_ccw": 0
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.tnm.jp/modules/r_exhibition/index.php?controller=item&id=5830&lang=en",
+          "title": "东京国立博物馆：中国佛教雕塑，TC-646与TC-375馆方展品表"
+        }
+      ],
+      "status": "confirmed",
+      "issue": "馆方写 From near Zhangzi county，未据此补写考古出土经过。根津嘉一郎捐赠据馆方。",
+      "scope": "main",
+      "reading_url": null,
+      "visit_date": null,
+      "museum_id": "tokyo",
+      "hero": 1803,
+      "region": "北方",
+      "track": "北朝",
+      "date_note": "",
+      "catalogue_note": "",
+      "city": "东京",
+      "museum": "东京国立博物馆",
+      "material_group": "石雕",
+      "form_group": "背屏式造像",
+      "date_kind_label": "明确纪年"
+    },
+    {
+      "id": "museum-1852",
+      "title": "弥勒与毗卢舍那双面造像碑",
+      "title_en": "Stele with Bodhisattva Maitreya (Mile); reverse with Buddha Vairochana (Pilushena)",
+      "date": "557—581年",
+      "period": "北周",
+      "year_start": 557,
+      "year_end": 581,
+      "date_kind": "range",
+      "material": "大理石，残留彩绘",
+      "form": "双面造像碑",
+      "iconography": "正面弥勒、菩萨与弟子；背面毗卢舍那（据馆方）",
+      "owner": "史密森尼国家亚洲艺术博物馆（弗利尔收藏）",
+      "viewing_museum": "史密森尼国家亚洲艺术博物馆（弗利尔收藏）",
+      "viewing_city": "华盛顿",
+      "visit_date": null,
+      "visit_evidence": "现代现场展签列本馆藏品号及馆藏credit，与馆方藏品记录吻合；未使用目前在展状态推定拍摄时陈列。",
+      "accession": "F1911.412",
+      "origin": "中国，可能陕西省（馆方归属）",
+      "discovery": "",
+      "photos": [
+        {
+          "number": 1852,
+          "role": "front",
+          "caption": "思惟主尊及两侧眷属",
+          "original_filename": "Image_20261106141114_1852_19.jpg",
+          "rotation_ccw": 0
+        },
+        {
+          "number": 1853,
+          "role": "back",
+          "caption": "背面浅刻佛像与图像线条",
+          "original_filename": "Image_20261106141114_1853_19.jpg",
+          "rotation_ccw": 0
+        },
+        {
+          "number": 1854,
+          "role": "label",
+          "caption": "现场展签：Future Buddha and Company",
+          "original_filename": "Image_20261106141114_1854_19.jpg",
+          "rotation_ccw": 90
+        }
+      ],
+      "sources": [
+        {
+          "title": "国家亚洲艺术博物馆：F1911.412",
+          "url": "https://asia-archive.si.edu/object/F1911.412/",
+          "read_status": "read"
+        }
+      ],
+      "status": "confirmed",
+      "issue": "",
+      "scope": "main",
+      "deep_reading": null,
+      "dimensions": "102.4 × 47.2 × 12.8厘米",
+      "note": "背面尊格依据馆方定名，不由照片浅淡线条自行辨认。",
+      "museum_id": "nmaa",
+      "hero": 1852,
+      "region": "北方",
+      "track": "北朝",
+      "date_note": "",
+      "catalogue_note": "背面毗卢舍那佛的辨认依据馆方记录。",
+      "reading_url": null,
+      "city": "华盛顿",
+      "museum": "史密森尼国立亚洲艺术博物馆",
+      "material_group": "石雕",
+      "form_group": "造像碑",
+      "date_kind_label": "年代范围"
+    },
+    {
+      "id": "france-1810",
+      "title": "佛教造像碑",
+      "title_en": "Buddhist stele",
+      "date": "560年",
+      "period": "北齐",
+      "year_start": 560,
+      "year_end": 560,
+      "date_kind": "exact",
+      "material": "石，残存彩绘",
+      "form": "多层造像碑",
+      "iconography": "多层佛与胁侍、上方维摩诘与文殊对谈（据现场说明）",
+      "owner": "赛努奇博物馆",
+      "owner_city": "巴黎",
+      "viewing_museum": "赛努奇博物馆",
+      "viewing_city": "巴黎",
+      "viewing_museum_candidate": "赛努奇博物馆",
+      "viewing_evidence": "Merton确认在收藏馆现场拍摄。",
+      "accession": "M.C. 8763-1",
+      "origin": "中国",
+      "discovery": null,
+      "photos": [
+        {
+          "number": 1810,
+          "role": "front",
+          "caption": "三层造像碑正面",
+          "rotation_ccw": 0
+        },
+        {
+          "number": 1811,
+          "role": "label",
+          "caption": "佛教造像碑基本资料与说明",
+          "rotation_ccw": 90
+        },
+        {
+          "number": 1812,
+          "role": "label",
+          "caption": "造像碑说明：佛教主题与故事",
+          "rotation_ccw": 90
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cernuschi.paris.fr/sites/default/files/dossier_bouddhisme_v2.pdf",
+          "title": "赛努奇博物馆：Le bouddhisme en Chine 教师资料，第3页作品表"
+        },
+        {
+          "url": "https://www.parismuseescollections.paris.fr/fr/musee-cernuschi/oeuvres/stele-bouddhique-0",
+          "title": "巴黎市博物馆藏品库：Stèle bouddhique（馆藏入口）"
+        }
+      ],
+      "status": "confirmed",
+      "issue": "现场标签写M.C.8763 a，市立藏品库规范化编号M.C.8763-1；二者为同件。1956年Marie-Madeleine Wannieck捐赠见展签。未使用碑刻图片识字。",
+      "scope": "main",
+      "reading_url": null,
+      "visit_date": null,
+      "museum_id": "cernuschi",
+      "hero": 1810,
+      "region": "北方",
+      "track": "北朝",
+      "date_note": "",
+      "catalogue_note": "",
+      "city": "巴黎",
+      "museum": "赛努奇博物馆",
+      "material_group": "石雕",
+      "form_group": "造像碑",
+      "date_kind_label": "明确纪年"
+    },
+    {
+      "id": "met-1823",
+      "title": "彩绘石雕四佛塔",
+      "title_en": "Pagoda base with four Buddhas",
+      "date": "约560—575年",
+      "period": "北齐",
+      "year_start": 560,
+      "year_end": 575,
+      "date_kind": "circa_range",
+      "material": "石灰岩，残存彩绘",
+      "form": "石塔／佛龛建筑构件",
+      "iconography": "中央柱四佛、周壁千佛，具体佛名未确定",
+      "owner": "纽约大都会艺术博物馆",
+      "owner_city": "纽约",
+      "viewing_museum": "纽约大都会艺术博物馆",
+      "viewing_city": "纽约",
+      "viewing_museum_candidate": "纽约大都会艺术博物馆",
+      "viewing_evidence": "作品照片可见大都会Gallery206既有完整陈列环境，现代展签与官网1988.303对应。",
+      "accession": "1988.303",
+      "origin": "中国；现场展签认为可能山东",
+      "discovery": null,
+      "photos": [
+        {
+          "number": 1823,
+          "role": "front",
+          "caption": "四佛塔的门道、中央柱与护卫形象",
+          "rotation_ccw": 0
+        },
+        {
+          "number": 1824,
+          "role": "label",
+          "caption": "彩绘石雕四佛塔现场展签",
+          "rotation_ccw": 0
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/42705",
+          "title": "大都会：Pagoda base with four Buddhas，1988.303"
+        }
+      ],
+      "status": "confirmed",
+      "issue": "官网现题与展签 Funerary Pagoda with Four Buddhas 不同；两者同号。只保留1823、1824，1825—1827属于另一件唐代造像碑。",
+      "scope": "main",
+      "reading_url": null,
+      "museum_id": "met",
+      "visit_date": null,
+      "hero": 1823,
+      "region": "北方",
+      "track": "北朝",
+      "date_note": "",
+      "catalogue_note": "",
+      "city": "纽约",
+      "museum": "纽约大都会艺术博物馆",
+      "material_group": "石雕",
+      "form_group": "建筑构件／石塔",
+      "date_kind_label": "约年范围"
+    },
+    {
+      "id": "museum-1848",
+      "title": "多佛造像碑",
+      "title_en": "Stele with Buddhas of the Past, Present and Future",
+      "date": "565年；1516年再奉献",
+      "period": "北齐",
+      "year_start": 565,
+      "year_end": 565,
+      "date_kind": "exact",
+      "material": "大理石，残留彩绘",
+      "form": "镂空背屏造像",
+      "iconography": "两尊思惟菩萨可能为弥勒；上方小佛、飞天与塔",
+      "owner": "史密森尼国家亚洲艺术博物馆（弗利尔收藏）",
+      "viewing_museum": "史密森尼国家亚洲艺术博物馆（弗利尔收藏）",
+      "viewing_city": "华盛顿",
+      "visit_date": null,
+      "visit_evidence": "现代现场展签列本馆藏品号及馆藏credit，与馆方藏品记录吻合；未使用目前在展状态推定拍摄时陈列。",
+      "accession": "F1913.27",
+      "origin": "中国河北曲阳（馆方地域记录）",
+      "discovery": "",
+      "photos": [
+        {
+          "number": 1848,
+          "role": "front",
+          "caption": "双思惟菩萨与镂空树形背屏",
+          "original_filename": "Image_20261106141114_1848_19.jpg",
+          "rotation_ccw": 0
+        },
+        {
+          "number": 1849,
+          "role": "inscription",
+          "caption": "台座背面题记位置",
+          "original_filename": "Image_20261106141114_1849_19.jpg",
+          "rotation_ccw": 0
+        },
+        {
+          "number": 1850,
+          "role": "label",
+          "caption": "现场说明：供养与再次奉献",
+          "original_filename": "Image_20261106141114_1850_19.jpg",
+          "rotation_ccw": 0
+        },
+        {
+          "number": 1851,
+          "role": "label",
+          "caption": "现场展签：565年多佛造像碑",
+          "original_filename": "Image_20261106141114_1851_19.jpg",
+          "rotation_ccw": 0
+        },
+        {
+          "number": 1880,
+          "role": "front",
+          "caption": "多佛造像碑正面全貌",
+          "original_filename": "Image_20261106141114_1880_19.jpg",
+          "rotation_ccw": 0
+        },
+        {
+          "number": 1881,
+          "role": "back",
+          "caption": "镂空背屏、坐像背部与台座",
+          "original_filename": "Image_20261106141114_1881_19.jpg",
+          "rotation_ccw": 0
+        },
+        {
+          "number": 1882,
+          "role": "inscription",
+          "caption": "台座背面题记位置",
+          "original_filename": "Image_20261106141114_1882_19.jpg",
+          "rotation_ccw": 0
+        },
+        {
+          "number": 1883,
+          "role": "label",
+          "caption": "现场展签：Seeing Double",
+          "original_filename": "Image_20261106141114_1883_19.jpg",
+          "rotation_ccw": 90
+        },
+        {
+          "number": 1884,
+          "role": "label",
+          "caption": "现场说明：Patronage and Persecution",
+          "original_filename": "Image_20261106141114_1884_19.jpg",
+          "rotation_ccw": 90
+        }
+      ],
+      "sources": [
+        {
+          "title": "国家亚洲艺术博物馆：F1913.27",
+          "url": "https://asia-archive.si.edu/object/F1913.27/",
+          "read_status": "read"
+        }
+      ],
+      "status": "confirmed",
+      "issue": "",
+      "scope": "main",
+      "deep_reading": null,
+      "dimensions": "95.1 × 60.6 × 35.4厘米",
+      "merge_evidence": "1848与1880相同镂空轮廓、两尊思惟像、台座不规则黑色斑块；1849与1882同一台座背面构图。1851与1883均明确F1913.27、565与1516。1850/1884为同件说明牌。1878/1879不归入本件。",
+      "note": "1516为后世再奉献时间，时间线仍按原刻565年定位；现代展签将下方两尊大菩萨称为可能的弥勒。",
+      "museum_id": "nmaa",
+      "hero": 1848,
+      "region": "北方",
+      "track": "北朝",
+      "date_note": "",
+      "catalogue_note": "造像碑原刻于565年，1516年再次奉献。现场展签将下方两尊大菩萨称为可能的弥勒。",
+      "reading_url": null,
+      "city": "华盛顿",
+      "museum": "史密森尼国立亚洲艺术博物馆",
+      "material_group": "石雕",
+      "form_group": "背屏式造像",
+      "date_kind_label": "明确纪年"
+    },
+    {
+      "id": "na-569-daolin",
+      "title": "道林与众人造像碑",
+      "date": "569年",
+      "period": "北齐",
+      "material": "深灰色石灰岩，残存彩绘",
+      "form": "双面巨型造像碑",
+      "dimensions": "含座266.7 × 83.82 × 39.37厘米；碑身220.98 × 71.12 × 34.29厘米",
+      "iconography": null,
+      "hero": 1855,
+      "photos": [
+        {
+          "number": 1855,
+          "role": "artwork"
+        },
+        {
+          "number": 1856,
+          "role": "artwork"
+        },
+        {
+          "number": 1857,
+          "role": "artwork"
+        },
+        {
+          "number": 1858,
+          "role": "artwork"
+        },
+        {
+          "number": 1859,
+          "role": "artwork"
+        },
+        {
+          "number": 1860,
+          "role": "label"
+        }
+      ],
+      "reading_url": "../na-569-daolin/",
+      "sources": [
+        {
+          "title": "Nelson-Atkins：569两百人碑 32-52",
+          "url": "https://art.nelson-atkins.org/objects/26336/stele-of-shakyamuni-buddha-attended-by-guanyin-bodhisattva-a"
+        }
+      ],
+      "scope": "main",
+      "visit_date": null,
+      "region": "北方",
+      "track": "北朝",
+      "accession": "32-52",
+      "catalogue_note": "",
+      "museum_id": "nelson",
+      "owner": "纳尔逊—阿特金斯艺术博物馆",
+      "title_en": "Stele of Shakyamuni Buddha Attended by Guanyin Bodhisattva and Dashizhi Bodhisattva",
+      "year_start": 569,
+      "year_end": 569,
+      "date_kind": "exact",
+      "origin": null,
+      "discovery": null,
+      "status": "confirmed",
+      "date_note": "",
+      "viewing_evidence": "既有精读资料与作者现场照片；未从文件名推定到访日期。",
+      "city": "堪萨斯城",
+      "museum": "纳尔逊—阿特金斯艺术博物馆",
+      "material_group": "石雕",
+      "form_group": "造像碑",
+      "date_kind_label": "明确纪年"
+    },
+    {
+      "id": "cle-570s-dual",
+      "title": "释迦与弥勒双面造像碑",
+      "date": "约570年代",
+      "period": "北齐",
+      "material": "大理石，彩绘",
+      "form": "双面背屏式造像碑",
+      "dimensions": "高119厘米",
+      "iconography": null,
+      "hero": 1830,
+      "photos": [
+        {
+          "number": 1830,
+          "role": "artwork"
+        },
+        {
+          "number": 1831,
+          "role": "artwork"
+        },
+        {
+          "number": 1832,
+          "role": "label"
+        }
+      ],
+      "reading_url": "../cle-570s-dual/",
+      "sources": [
+        {
+          "title": "Cleveland Museum：570s 释迦与弥勒双面碑 1993.108",
+          "url": "https://www.clevelandart.org/art/1993.108"
+        },
+        {
+          "title": "Cleveland Museum：北齐约570年代双面碑研究史",
+          "url": "https://www.clevelandart.org/print/art/1993.108"
+        }
+      ],
+      "scope": "main",
+      "visit_date": null,
+      "region": "北方",
+      "track": "北朝",
+      "accession": "1993.108",
+      "catalogue_note": "",
+      "museum_id": "cleveland",
+      "owner": "克利夫兰美术馆",
+      "title_en": null,
+      "year_start": 570,
+      "year_end": 579,
+      "date_kind": "circa_range",
+      "origin": null,
+      "discovery": null,
+      "status": "confirmed",
+      "date_note": "约570年代，以570—579显示年代范围；不指定某一年。",
+      "viewing_evidence": "既有精读资料与作者现场照片；未从文件名推定到访日期。",
+      "city": "克利夫兰",
+      "museum": "克利夫兰美术馆",
+      "material_group": "石雕",
+      "form_group": "造像碑",
+      "date_kind_label": "约年范围"
+    },
+    {
+      "id": "freer-pensive-maitreya",
+      "title": "弥勒菩萨思惟像",
+      "title_en": "The Bodhisattva Mile (Sanskrit Maitreya), seated in “Pensive Pose”",
+      "date": "约575年",
+      "period": "北齐",
+      "year_start": 575,
+      "year_end": 575,
+      "date_kind": "circa",
+      "material": "大理石，残留彩绘与底层涂料",
+      "form": "单尊背屏菩萨像",
+      "iconography": "树下思惟弥勒；底座莲池化生（据馆方）",
+      "owner": "史密森尼国家亚洲艺术博物馆（弗利尔收藏）",
+      "viewing_museum": "史密森尼国家亚洲艺术博物馆（弗利尔收藏）",
+      "viewing_city": "华盛顿",
+      "visit_date": null,
+      "visit_evidence": "现代现场展签列本馆藏品号及馆藏credit，与馆方藏品记录吻合；未使用目前在展状态推定拍摄时陈列。",
+      "accession": "F1911.411",
+      "origin": "河北曲阳（现场展签）；官网地理栏仅列中国",
+      "discovery": "",
+      "photos": [
+        {
+          "number": 1885,
+          "role": "front",
+          "caption": "树下思惟菩萨与莲池底座",
+          "original_filename": "Image_20261106141114_1885_19.jpg",
+          "rotation_ccw": 0
+        },
+        {
+          "number": 1886,
+          "role": "label",
+          "caption": "现场展签：Promise for the Future",
+          "original_filename": "Image_20261106141114_1886_19.jpg",
+          "rotation_ccw": 0
+        }
+      ],
+      "sources": [
+        {
+          "title": "国家亚洲艺术博物馆：F1911.411",
+          "url": "https://asia-archive.si.edu/object/F1911.411/",
+          "read_status": "read"
+        }
+      ],
+      "status": "confirmed",
+      "issue": "",
+      "scope": "main",
+      "deep_reading": null,
+      "dimensions": "33 × 17.5 × 15.4厘米",
+      "date_note": "现代展签给北齐550—577年；馆方线上记录更具体为约575年，本条采用官网约年并保留展签范围。",
+      "note": "官网说明用probably represents，中文图像说明仍保留“馆方认为可能表现等待降生的弥勒”。",
+      "museum_id": "nmaa",
+      "hero": 1885,
+      "region": "北方",
+      "track": "北朝",
+      "catalogue_note": "馆方认为这尊思惟像可能表现等待降生的弥勒。",
+      "reading_url": null,
+      "city": "华盛顿",
+      "museum": "史密森尼国立亚洲艺术博物馆",
+      "material_group": "石雕",
+      "form_group": "背屏式造像",
+      "date_kind_label": "约年"
+    },
+    {
+      "id": "penn-575-c429",
+      "title": "武平六年多层造像碑",
+      "date": "575年",
+      "period": "北齐",
+      "material": "石灰岩（据馆方说明）",
+      "form": "双面多层石碑",
+      "dimensions": "高213.5 × 宽62 × 厚25.5厘米",
+      "iconography": null,
+      "hero": 1887,
+      "photos": [
+        {
+          "number": 1887,
+          "role": "artwork"
+        },
+        {
+          "number": 1888,
+          "role": "artwork"
+        },
+        {
+          "number": 1889,
+          "role": "artwork"
+        },
+        {
+          "number": 1890,
+          "role": "label"
+        }
+      ],
+      "reading_url": "../penn-575-c429/",
+      "sources": [
+        {
+          "title": "Penn Museum：575年双面多层造像碑 C429",
+          "url": "https://collections.penn.museum/collections/object/77036"
+        },
+        {
+          "title": "芝加哥大学：宾博C429三维项目相关记录",
+          "url": "https://caeacollections.lib.uchicago.edu/browse?limit=25&q=must%2Cmetadata.WORK_Subject1.en.keyword%2Cterm%2CVimalakirti"
+        }
+      ],
+      "scope": "main",
+      "visit_date": null,
+      "region": "北方",
+      "track": "北朝",
+      "accession": "C429",
+      "catalogue_note": "",
+      "museum_id": "penn",
+      "owner": "宾夕法尼亚大学博物馆",
+      "title_en": "Stela",
+      "year_start": 575,
+      "year_end": 575,
+      "date_kind": "exact",
+      "origin": null,
+      "discovery": null,
+      "status": "confirmed",
+      "date_note": "",
+      "viewing_evidence": "既有精读资料与作者现场照片；未从文件名推定到访日期。",
+      "city": "费城",
+      "museum": "宾夕法尼亚大学博物馆",
+      "material_group": "石雕",
+      "form_group": "造像碑",
+      "date_kind_label": "明确纪年"
+    }
+  ],
+  "photos": {
+    "1778": {
+      "number": 1778,
+      "original": "images/originals/Image_20261106003409_1778_19.jpg",
+      "file": "images/1778-900.webp",
+      "variants": [
+        {
+          "file": "images/1778-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1778-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1778-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "d0f8d0c5f38085ac8b28524a3f11e8dd3b73fe944440d1650debc09e2f0c6b3b",
+      "rotation_ccw": 0,
+      "caption": "背屏式佛造像正面",
+      "role": "front",
+      "work_id": "cd-undated-screen",
+      "original_filename": "Image_20261106003409_1778_19.jpg"
+    },
+    "1779": {
+      "number": 1779,
+      "original": "images/originals/Image_20261106003409_1779_19.jpg",
+      "file": "images/1779-900.webp",
+      "variants": [
+        {
+          "file": "images/1779-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1779-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1779-1600.webp",
+          "width": 1600
+        }
+      ],
+      "width": 1707,
+      "height": 1280,
+      "sha256": "fdb713952f6a4e504337aa47dd3424bb05aadea108e8007f9521610adaa8ade2",
+      "rotation_ccw": 0,
+      "caption": "背屏式佛造像现场展签",
+      "role": "label",
+      "work_id": "cd-undated-screen",
+      "original_filename": "Image_20261106003409_1779_19.jpg"
+    },
+    "1780": {
+      "number": 1780,
+      "original": "../images/originals/Image_20261106003409_1780_19.jpg",
+      "file": "../images/1780-900.webp",
+      "variants": [
+        {
+          "file": "../images/1780-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1780-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1780-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "a42880279b124a64ee02b80073ba4a005921afbc7ec1274261f56cb282707860",
+      "rotation_ccw": 0,
+      "caption": "两佛并坐与周围人物",
+      "role": "artwork",
+      "work_id": "cd-545-zhangyuan",
+      "original_filename": "Image_20261106003409_1780_19.jpg"
+    },
+    "1781": {
+      "number": 1781,
+      "original": "../images/originals/Image_20261106003409_1781_19.jpg",
+      "file": "../images/1781-900.webp",
+      "variants": [
+        {
+          "file": "../images/1781-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1781-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1781-1600.webp",
+          "width": 1600
+        }
+      ],
+      "width": 1707,
+      "height": 1280,
+      "sha256": "fbdc2e620e6ffbc0d57f56bd933f3801c6f2f23a7bde4ce3fc1caa362e5dd22d",
+      "rotation_ccw": 0,
+      "caption": "现场展签",
+      "role": "label",
+      "work_id": "cd-545-zhangyuan",
+      "original_filename": "Image_20261106003409_1781_19.jpg"
+    },
+    "1782": {
+      "number": 1782,
+      "original": "../images/originals/Image_20261106003409_1782_19.jpg",
+      "file": "../images/1782-900.webp",
+      "variants": [
+        {
+          "file": "../images/1782-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1782-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1782-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "03029142b3a2f02dd450becd9a58855965b15356474c3a86fe2e96fdea84e3b2",
+      "rotation_ccw": 0,
+      "caption": "主尊与四位胁侍",
+      "role": "artwork",
+      "work_id": "cd-511-wang",
+      "original_filename": "Image_20261106003409_1782_19.jpg"
+    },
+    "1783": {
+      "number": 1783,
+      "original": "../images/originals/Image_20261106003409_1783_19.jpg",
+      "file": "../images/1783-900.webp",
+      "variants": [
+        {
+          "file": "../images/1783-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1783-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1783-1600.webp",
+          "width": 1600
+        }
+      ],
+      "width": 1707,
+      "height": 1280,
+      "sha256": "9b066a81194d408081cf541aaab3a74fece5d1bc55eca5f0afb0a34226d6b391",
+      "rotation_ccw": 0,
+      "caption": "现场展签",
+      "role": "label",
+      "work_id": "cd-511-wang",
+      "original_filename": "Image_20261106003409_1783_19.jpg"
+    },
+    "1784": {
+      "number": 1784,
+      "original": "images/originals/Image_20261106003409_1784_19.jpg",
+      "file": "images/1784-900.webp",
+      "variants": [
+        {
+          "file": "images/1784-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1784-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1784-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "9a2e205c6312dcde1163350e0369c8eea4432df826cd473912a585b9b34bdea8",
+      "rotation_ccw": 0,
+      "caption": "佛头及下方现场展签",
+      "role": "front",
+      "work_id": "cd-buddha-head-1784",
+      "original_filename": "Image_20261106003409_1784_19.jpg"
+    },
+    "1785": {
+      "number": 1785,
+      "original": "../images/originals/Image_20261106003409_1785_19.jpg",
+      "file": "../images/1785-900.webp",
+      "variants": [
+        {
+          "file": "../images/1785-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1785-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1785-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "ee924bff5578c7e2522cdb31490383839678d2013a4397e9772c64c0b2e83a4b",
+      "rotation_ccw": 0,
+      "caption": "弥勒与两侧胁侍",
+      "role": "artwork",
+      "work_id": "cd-490-fahai",
+      "original_filename": "Image_20261106003409_1785_19.jpg"
+    },
+    "1786": {
+      "number": 1786,
+      "original": "../images/originals/Image_20261106003409_1786_19.jpg",
+      "file": "../images/1786-900.webp",
+      "variants": [
+        {
+          "file": "../images/1786-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1786-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1786-1600.webp",
+          "width": 1600
+        }
+      ],
+      "width": 1707,
+      "height": 1280,
+      "sha256": "02e9f174d2b4cf1b7ac7bcff656a64d59b19f3e1cf5a4dda9735153150bdca71",
+      "rotation_ccw": 0,
+      "caption": "现场展签",
+      "role": "label",
+      "work_id": "cd-490-fahai",
+      "original_filename": "Image_20261106003409_1786_19.jpg"
+    },
+    "1787": {
+      "number": 1787,
+      "original": "../images/originals/Image_20261106003409_1787_19.jpg",
+      "file": "../images/1787-900.webp",
+      "variants": [
+        {
+          "file": "../images/1787-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1787-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1787-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "6c951f95428922616d34c7ddae539f6351a2878f49296db0c726b82fa7ae9a4f",
+      "rotation_ccw": 0,
+      "caption": "主尊、胁侍与舟形背屏",
+      "role": "artwork",
+      "work_id": "cd-530-huangzang",
+      "original_filename": "Image_20261106003409_1787_19.jpg"
+    },
+    "1788": {
+      "number": 1788,
+      "original": "../images/originals/Image_20261106003409_1788_19.jpg",
+      "file": "../images/1788-900.webp",
+      "variants": [
+        {
+          "file": "../images/1788-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1788-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1788-1600.webp",
+          "width": 1600
+        }
+      ],
+      "width": 1707,
+      "height": 1280,
+      "sha256": "1d22b61b17f42f2ab82a7167dc7c0289ae663efd02cea12f8206e1ec00be7f7f",
+      "rotation_ccw": 0,
+      "caption": "现场展签",
+      "role": "label",
+      "work_id": "cd-530-huangzang",
+      "original_filename": "Image_20261106003409_1788_19.jpg"
+    },
+    "1801": {
+      "number": 1801,
+      "original": "images/originals/Image_20261106141114_1801_19.jpg",
+      "file": "images/1801-900.webp",
+      "variants": [
+        {
+          "file": "images/1801-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1801-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1801-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "0724411449af7660a13b4efae30aaeb36bc31ec7b25cb14ee6e62b956665aa4d",
+      "rotation_ccw": 0,
+      "caption": "如来三尊立像完整正面",
+      "role": "front",
+      "work_id": "other-1801",
+      "original_filename": "Image_20261106141114_1801_19.jpg"
+    },
+    "1802": {
+      "number": 1802,
+      "original": "images/originals/Image_20261106141114_1802_19.jpg",
+      "file": "images/1802-900.webp",
+      "variants": [
+        {
+          "file": "images/1802-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1802-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1802-1600.webp",
+          "width": 1600
+        }
+      ],
+      "width": 1706,
+      "height": 1280,
+      "sha256": "c60e210c17ae19a9b8fe6174f94578131cbe829540102dabdf8821ce22f615fd",
+      "rotation_ccw": 0,
+      "caption": "如来三尊立像现场展签",
+      "role": "label",
+      "work_id": "other-1801",
+      "original_filename": "Image_20261106141114_1802_19.jpg"
+    },
+    "1803": {
+      "number": 1803,
+      "original": "images/originals/Image_20261106141114_1803_19.jpg",
+      "file": "images/1803-900.webp",
+      "variants": [
+        {
+          "file": "images/1803-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1803-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1803-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "27d7f445c27841c44d2c626db0cda3a4a24529eadbdc8e831dd6ded954bd7095",
+      "rotation_ccw": 0,
+      "caption": "菩萨立像与刻文台座",
+      "role": "front",
+      "work_id": "other-1803",
+      "original_filename": "Image_20261106141114_1803_19.jpg"
+    },
+    "1804": {
+      "number": 1804,
+      "original": "images/originals/Image_20261106141114_1804_19.jpg",
+      "file": "images/1804-900.webp",
+      "variants": [
+        {
+          "file": "images/1804-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1804-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1804-1600.webp",
+          "width": 1600
+        }
+      ],
+      "width": 1702,
+      "height": 1276,
+      "sha256": "0b788824a35dd038a2e204845cbee37d23265a8bc69415aaaab90787ca7a41c2",
+      "rotation_ccw": 0,
+      "caption": "菩萨立像现场展签",
+      "role": "label",
+      "work_id": "other-1803",
+      "original_filename": "Image_20261106141114_1804_19.jpg"
+    },
+    "1805": {
+      "number": 1805,
+      "original": "images/originals/Image_20261106141114_1805_19.jpg",
+      "file": "images/1805-900.webp",
+      "variants": [
+        {
+          "file": "images/1805-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1805-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1805-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "b94ce0e7698ddc5e2d9d0134c16af5c918ab54f47527ed6d8e40b504c993273e",
+      "rotation_ccw": 0,
+      "caption": "释迦七尊像正面",
+      "role": "front",
+      "work_id": "shanxi-seven-figures-1805",
+      "original_filename": "Image_20261106141114_1805_19.jpg"
+    },
+    "1806": {
+      "number": 1806,
+      "original": "images/originals/Image_20261106141114_1806_19.jpg",
+      "file": "images/1806-900.webp",
+      "variants": [
+        {
+          "file": "images/1806-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1806-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1806-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "011021e1728f7091e2c10745ed3c61ab194709e39b3164c309d18a48fe311948",
+      "rotation_ccw": 0,
+      "caption": "释迦七尊像现场展签与台座细部",
+      "role": "label",
+      "work_id": "shanxi-seven-figures-1805",
+      "original_filename": "Image_20261106141114_1806_19.jpg"
+    },
+    "1807": {
+      "number": 1807,
+      "original": "images/originals/Image_20261106141114_1807_19.jpg",
+      "file": "images/1807-900.webp",
+      "variants": [
+        {
+          "file": "images/1807-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1807-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1807-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "13c776bbc3cb300371399e14a0757cc3f113be96e778ce7bbcad5f6242ffbc05",
+      "rotation_ccw": 0,
+      "caption": "双面碑的立佛与胁侍一面",
+      "role": "front",
+      "work_id": "guimet-ma6346",
+      "original_filename": "Image_20261106141114_1807_19.jpg"
+    },
+    "1808": {
+      "number": 1808,
+      "original": "images/originals/Image_20261106141114_1808_19.jpg",
+      "file": "images/1808-900.webp",
+      "variants": [
+        {
+          "file": "images/1808-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1808-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1808-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "83c0fce334905cc42c884d59ee4ce7bbf6fffada5f5efb9509444ec882d9571e",
+      "rotation_ccw": 0,
+      "caption": "双面碑的倚坐佛与千佛一面",
+      "role": "back",
+      "work_id": "guimet-ma6346",
+      "original_filename": "Image_20261106141114_1808_19.jpg"
+    },
+    "1809": {
+      "number": 1809,
+      "original": "images/originals/Image_20261106141114_1809_19.jpg",
+      "file": "images/1809-900.webp",
+      "variants": [
+        {
+          "file": "images/1809-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1809-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1809-1600.webp",
+          "width": 1600
+        }
+      ],
+      "width": 1702,
+      "height": 1276,
+      "sha256": "3b8ba143d4c504ab3b179180316153ba0b4761661670c3fa96537f7b86a45f42",
+      "rotation_ccw": 0,
+      "caption": "双面佛教造像碑现场展签",
+      "role": "label",
+      "work_id": "guimet-ma6346",
+      "original_filename": "Image_20261106141114_1809_19.jpg"
+    },
+    "1810": {
+      "number": 1810,
+      "original": "images/originals/Image_20261106141114_1810_19.jpg",
+      "file": "images/1810-900.webp",
+      "variants": [
+        {
+          "file": "images/1810-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1810-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1810-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "911f008f09cb833e5dc3f907a01bcd108eaf71019b3b7db8b7ad978b03097f5b",
+      "rotation_ccw": 0,
+      "caption": "三层造像碑正面",
+      "role": "front",
+      "work_id": "france-1810",
+      "original_filename": "Image_20261106141114_1810_19.jpg"
+    },
+    "1811": {
+      "number": 1811,
+      "original": "images/originals/Image_20261106141114_1811_19.jpg",
+      "file": "images/1811-900.webp",
+      "variants": [
+        {
+          "file": "images/1811-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1811-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1811-1600.webp",
+          "width": 1600
+        }
+      ],
+      "width": 1707,
+      "height": 1280,
+      "sha256": "35ab693398edb3497b6ec257231324b135d38964612cee621a84e68f03192f98",
+      "rotation_ccw": 90,
+      "caption": "佛教造像碑基本资料与说明",
+      "role": "label",
+      "work_id": "france-1810",
+      "original_filename": "Image_20261106141114_1811_19.jpg"
+    },
+    "1812": {
+      "number": 1812,
+      "original": "images/originals/Image_20261106141114_1812_19.jpg",
+      "file": "images/1812-900.webp",
+      "variants": [
+        {
+          "file": "images/1812-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1812-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1812-1600.webp",
+          "width": 1600
+        }
+      ],
+      "width": 1707,
+      "height": 1280,
+      "sha256": "827863152223035fb1c1edaf981954ded7d9e56d8c13da52a162368d5f33e3f8",
+      "rotation_ccw": 90,
+      "caption": "造像碑说明：佛教主题与故事",
+      "role": "label",
+      "work_id": "france-1810",
+      "original_filename": "Image_20261106141114_1812_19.jpg"
+    },
+    "1814": {
+      "number": 1814,
+      "original": "../images/originals/Image_20261106141114_1814_19.jpg",
+      "file": "../images/1814-900.webp",
+      "variants": [
+        {
+          "file": "../images/1814-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1814-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1814-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "8dd44b17d6a242a3680cd18bb090af532defce1d600ed0d1508b6962f31d95da",
+      "rotation_ccw": 0,
+      "caption": "燃灯佛与背光全貌",
+      "role": "artwork",
+      "work_id": "met-495-dipankara",
+      "original_filename": "Image_20261106141114_1814_19.jpg"
+    },
+    "1815": {
+      "number": 1815,
+      "original": "../images/originals/Image_20261106141114_1815_19.jpg",
+      "file": "../images/1815-900.webp",
+      "variants": [
+        {
+          "file": "../images/1815-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1815-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1815-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "ab52165931e47007efb211a13eec10ceed3fd8be80adadd4f0fbfb5d299406f3",
+      "rotation_ccw": 0,
+      "caption": "背面交脚坐像与石面",
+      "role": "artwork",
+      "work_id": "met-495-dipankara",
+      "original_filename": "Image_20261106141114_1815_19.jpg"
+    },
+    "1816": {
+      "number": 1816,
+      "original": "../images/originals/Image_20261106141114_1816_19.jpg",
+      "file": "../images/1816-900.webp",
+      "variants": [
+        {
+          "file": "../images/1816-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1816-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1816-1600.webp",
+          "width": 1600
+        }
+      ],
+      "width": 1702,
+      "height": 1276,
+      "sha256": "43a5fe68e1b47a59d6971a9f27497458811c0015619d4f00660eeb9ceb79185c",
+      "rotation_ccw": 0,
+      "caption": "现场展签",
+      "role": "label",
+      "work_id": "met-495-dipankara",
+      "original_filename": "Image_20261106141114_1816_19.jpg"
+    },
+    "1817": {
+      "number": 1817,
+      "original": "../images/originals/Image_20261106141114_1817_19.jpg",
+      "file": "../images/1817-900.webp",
+      "variants": [
+        {
+          "file": "../images/1817-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1817-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1817-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "5413c5dc698aac1a3ac697624439a29d71bd14bcf2eaf1b4012dde8b9381cd97",
+      "rotation_ccw": 0,
+      "caption": "正面主尊与供养人行列",
+      "role": "artwork",
+      "work_id": "met-528-yiyi",
+      "original_filename": "Image_20261106141114_1817_19.jpg"
+    },
+    "1818": {
+      "number": 1818,
+      "original": "../images/originals/Image_20261106141114_1818_19.jpg",
+      "file": "../images/1818-900.webp",
+      "variants": [
+        {
+          "file": "../images/1818-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1818-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1818-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "8807a6d421ed252bb69367d7ece2882a565d1f0147471d526d3c2197331d4af6",
+      "rotation_ccw": 0,
+      "caption": "背面造像与供养人行列",
+      "role": "artwork",
+      "work_id": "met-528-yiyi",
+      "original_filename": "Image_20261106141114_1818_19.jpg"
+    },
+    "1819": {
+      "number": 1819,
+      "original": "../images/originals/Image_20261106141114_1819_19.jpg",
+      "file": "../images/1819-900.webp",
+      "variants": [
+        {
+          "file": "../images/1819-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1819-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1819-1600.webp",
+          "width": 1600
+        }
+      ],
+      "width": 1702,
+      "height": 1276,
+      "sha256": "8ba3c62713da6e16cfbe349b5ddfb202ebbb977b1c542830c1dfffd3dc3a5327",
+      "rotation_ccw": 0,
+      "caption": "现场展签",
+      "role": "label",
+      "work_id": "met-528-yiyi",
+      "original_filename": "Image_20261106141114_1819_19.jpg"
+    },
+    "1820": {
+      "number": 1820,
+      "original": "../images/originals/Image_20261106141114_1820_19.jpg",
+      "file": "../images/1820-900.webp",
+      "variants": [
+        {
+          "file": "../images/1820-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1820-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1820-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "c297cda0448ee338abb011c870da86b4c5ec378abd1c1b2921e73f419650587b",
+      "rotation_ccw": 0,
+      "caption": "正面佛龛与侧面",
+      "role": "artwork",
+      "work_id": "met-543-yiyi",
+      "original_filename": "Image_20261106141114_1820_19.jpg"
+    },
+    "1821": {
+      "number": 1821,
+      "original": "../images/originals/Image_20261106141114_1821_19.jpg",
+      "file": "../images/1821-900.webp",
+      "variants": [
+        {
+          "file": "../images/1821-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1821-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1821-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "7f6029b45fd8eaf3790ee71d159f40bc7fd9f306d115e22de76233f4422be54a",
+      "rotation_ccw": 0,
+      "caption": "背面层层排列的小佛",
+      "role": "artwork",
+      "work_id": "met-543-yiyi",
+      "original_filename": "Image_20261106141114_1821_19.jpg"
+    },
+    "1822": {
+      "number": 1822,
+      "original": "../images/originals/Image_20261106141114_1822_19.jpg",
+      "file": "../images/1822-900.webp",
+      "variants": [
+        {
+          "file": "../images/1822-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1822-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1822-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "f6844129e8ee33285f27de8a91892308851c0ea00b7cffa717341a293c505e5f",
+      "rotation_ccw": 0,
+      "caption": "现场展签",
+      "role": "label",
+      "work_id": "met-543-yiyi",
+      "original_filename": "Image_20261106141114_1822_19.jpg"
+    },
+    "1823": {
+      "number": 1823,
+      "original": "images/originals/Image_20261106141114_1823_19.jpg",
+      "file": "images/1823-900.webp",
+      "variants": [
+        {
+          "file": "images/1823-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1823-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1823-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "d038ba8d6ccc767cd72403a2470bfe8d2865e5eccf8ea566132936886cc9cb4d",
+      "rotation_ccw": 0,
+      "caption": "四佛塔的门道、中央柱与护卫形象",
+      "role": "front",
+      "work_id": "met-1823",
+      "original_filename": "Image_20261106141114_1823_19.jpg"
+    },
+    "1824": {
+      "number": 1824,
+      "original": "images/originals/Image_20261106141114_1824_19.jpg",
+      "file": "images/1824-900.webp",
+      "variants": [
+        {
+          "file": "images/1824-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1824-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1824-1600.webp",
+          "width": 1600
+        }
+      ],
+      "width": 1702,
+      "height": 1276,
+      "sha256": "6f6bf13e8dbc7aba0c570768a3433707da5279e5f26f78a9383867b05ab43cdb",
+      "rotation_ccw": 0,
+      "caption": "彩绘石雕四佛塔现场展签",
+      "role": "label",
+      "work_id": "met-1823",
+      "original_filename": "Image_20261106141114_1824_19.jpg"
+    },
+    "1830": {
+      "number": 1830,
+      "original": "../images/originals/Image_20261106141114_1830_19.jpg",
+      "file": "../images/1830-900.webp",
+      "variants": [
+        {
+          "file": "../images/1830-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1830-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1830-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "0b59ed8cbecb2519e5a5dde4f51b5d2caacc8fa06a05b4719918daddbe251768",
+      "rotation_ccw": 0,
+      "caption": "正面立佛与残存色彩",
+      "role": "artwork",
+      "work_id": "cle-570s-dual",
+      "original_filename": "Image_20261106141114_1830_19.jpg"
+    },
+    "1831": {
+      "number": 1831,
+      "original": "../images/originals/Image_20261106141114_1831_19.jpg",
+      "file": "../images/1831-900.webp",
+      "variants": [
+        {
+          "file": "../images/1831-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1831-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1831-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "910a72cbad621315451fef09316016768d4ad4505f1511461098e08cf6582183",
+      "rotation_ccw": 0,
+      "caption": "背面交脚坐像",
+      "role": "artwork",
+      "work_id": "cle-570s-dual",
+      "original_filename": "Image_20261106141114_1831_19.jpg"
+    },
+    "1832": {
+      "number": 1832,
+      "original": "../images/originals/Image_20261106141114_1832_19.jpg",
+      "file": "../images/1832-900.webp",
+      "variants": [
+        {
+          "file": "../images/1832-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1832-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1832-1600.webp",
+          "width": 1600
+        }
+      ],
+      "width": 1707,
+      "height": 1280,
+      "sha256": "db8c34e96455567c67aed62131584ca4d6eb2003f30d70d969c7290dad9265f6",
+      "rotation_ccw": 90,
+      "caption": "现场展签",
+      "role": "label",
+      "work_id": "cle-570s-dual",
+      "original_filename": "Image_20261106141114_1832_19.jpg"
+    },
+    "1833": {
+      "number": 1833,
+      "original": "../images/originals/Image_20261106141114_1833_19.jpg",
+      "file": "../images/1833-900.webp",
+      "variants": [
+        {
+          "file": "../images/1833-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1833-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1833-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "306b91e82daab48a08a892453ff85ae6f6b1f502751381cfb4650c565dc33fae",
+      "rotation_ccw": 0,
+      "caption": "正面三尊与底部供养人",
+      "role": "artwork",
+      "work_id": "cle-537-yuanning",
+      "original_filename": "Image_20261106141114_1833_19.jpg"
+    },
+    "1834": {
+      "number": 1834,
+      "original": "../images/originals/Image_20261106141114_1834_19.jpg",
+      "file": "../images/1834-900.webp",
+      "variants": [
+        {
+          "file": "../images/1834-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1834-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1834-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "39723b885b82202e1abd0cf3fd513caf8cd159028e913c5c4dc6f652001cedcc",
+      "rotation_ccw": 0,
+      "caption": "背面题记的位置与布局",
+      "role": "artwork",
+      "work_id": "cle-537-yuanning",
+      "original_filename": "Image_20261106141114_1834_19.jpg"
+    },
+    "1835": {
+      "number": 1835,
+      "original": "../images/originals/Image_20261106141114_1835_19.jpg",
+      "file": "../images/1835-900.webp",
+      "variants": [
+        {
+          "file": "../images/1835-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1835-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1835-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "3c20d5f7342583b2dee085af02c2ce864aa095e93f33adfb9fb2a2009e4a92a0",
+      "rotation_ccw": 0,
+      "caption": "侧面人物与背屏边缘",
+      "role": "artwork",
+      "work_id": "cle-537-yuanning",
+      "original_filename": "Image_20261106141114_1835_19.jpg"
+    },
+    "1836": {
+      "number": 1836,
+      "original": "../images/originals/Image_20261106141114_1836_19.jpg",
+      "file": "../images/1836-900.webp",
+      "variants": [
+        {
+          "file": "../images/1836-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1836-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1836-1600.webp",
+          "width": 1600
+        }
+      ],
+      "width": 1702,
+      "height": 1276,
+      "sha256": "8d05ba47545f3e1c9e8c8aeaacc1c107f761c88663f8df4c3e53eb0ae6fba41f",
+      "rotation_ccw": 0,
+      "caption": "现场展签",
+      "role": "label",
+      "work_id": "cle-537-yuanning",
+      "original_filename": "Image_20261106141114_1836_19.jpg"
+    },
+    "1837": {
+      "number": 1837,
+      "original": "../images/originals/Image_20261106141114_1837_19.jpg",
+      "file": "../images/1837-900.webp",
+      "variants": [
+        {
+          "file": "../images/1837-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1837-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1837-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "f88a62ec368ede304ba7ee8596419119561aa502840045add8b78763660fb319",
+      "rotation_ccw": 0,
+      "caption": "正面弥勒与二胁侍",
+      "role": "artwork",
+      "work_id": "cle-500-maitreya",
+      "original_filename": "Image_20261106141114_1837_19.jpg"
+    },
+    "1838": {
+      "number": 1838,
+      "original": "../images/originals/Image_20261106141114_1838_19.jpg",
+      "file": "../images/1838-900.webp",
+      "variants": [
+        {
+          "file": "../images/1838-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1838-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1838-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "d13dbf06da76ed2b5a9dc6ce448fe8cb7e8d71f8c8b6c01df8d768f422ec190e",
+      "rotation_ccw": 0,
+      "caption": "背面图像与题记",
+      "role": "artwork",
+      "work_id": "cle-500-maitreya",
+      "original_filename": "Image_20261106141114_1838_19.jpg"
+    },
+    "1839": {
+      "number": 1839,
+      "original": "../images/originals/Image_20261106141114_1839_19.jpg",
+      "file": "../images/1839-900.webp",
+      "variants": [
+        {
+          "file": "../images/1839-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1839-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1839-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 960,
+      "sha256": "25d183af13492b90f8492f4fec78055fc906e93903e3f347eb43fa0f3ec149ff",
+      "rotation_ccw": 90,
+      "caption": "现场展签",
+      "role": "label",
+      "work_id": "cle-500-maitreya",
+      "original_filename": "Image_20261106141114_1839_19.jpg"
+    },
+    "1840": {
+      "number": 1840,
+      "original": "../images/originals/Image_20261106141114_1840_19.jpg",
+      "file": "../images/1840-900.webp",
+      "variants": [
+        {
+          "file": "../images/1840-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1840-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1840-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "97825a6b927c8ee03131f703f84eeff9c0bdaed59c3ccc00b33a548e878a1d9a",
+      "rotation_ccw": 0,
+      "caption": "主尊、胁侍与台座双狮",
+      "role": "artwork",
+      "work_id": "mfah-526-faxing",
+      "original_filename": "Image_20261106141114_1840_19.jpg"
+    },
+    "1841": {
+      "number": 1841,
+      "original": "../images/originals/Image_20261106141114_1841_19.jpg",
+      "file": "../images/1841-900.webp",
+      "variants": [
+        {
+          "file": "../images/1841-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1841-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1841-1600.webp",
+          "width": 1600
+        }
+      ],
+      "width": 1702,
+      "height": 1276,
+      "sha256": "2dd5f5c1822f6488bdd0c5bb38fa0490f0f690c4f8ca64e5c8da02190300f714",
+      "rotation_ccw": 0,
+      "caption": "台座发愿文细部",
+      "role": "artwork",
+      "work_id": "mfah-526-faxing",
+      "original_filename": "Image_20261106141114_1841_19.jpg"
+    },
+    "1842": {
+      "number": 1842,
+      "original": "../images/originals/Image_20261106141114_1842_19.jpg",
+      "file": "../images/1842-900.webp",
+      "variants": [
+        {
+          "file": "../images/1842-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1842-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1842-1600.webp",
+          "width": 1600
+        }
+      ],
+      "width": 1702,
+      "height": 1276,
+      "sha256": "107b667b4c6ac635600b90fb3cc23a30696a64ed14fa66649d9fc14843c43598",
+      "rotation_ccw": 0,
+      "caption": "现场展签",
+      "role": "label",
+      "work_id": "mfah-526-faxing",
+      "original_filename": "Image_20261106141114_1842_19.jpg"
+    },
+    "1843": {
+      "number": 1843,
+      "original": "images/originals/Image_20261106141114_1843_19.jpg",
+      "file": "images/1843-900.webp",
+      "variants": [
+        {
+          "file": "images/1843-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1843-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1843-1276.webp",
+          "width": 1276
+        }
+      ],
+      "width": 1276,
+      "height": 1702,
+      "sha256": "71a99c900acfb871e1e3b873ebd5b98cda26a24a4b74962fffceac6507b1537f",
+      "rotation_ccw": 0,
+      "caption": "坐佛与胁侍，上部莲花中的小坐像",
+      "role": "front",
+      "work_id": "mfa-1843",
+      "original_filename": "Image_20261106141114_1843_19.jpg"
+    },
+    "1844": {
+      "number": 1844,
+      "original": "images/originals/Image_20261106141114_1844_19.jpg",
+      "file": "images/1844-900.webp",
+      "variants": [
+        {
+          "file": "images/1844-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1844-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1844-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "905a9cdbf225d1906dc3da60f848b8ddb33e6f536c12b866c46f70646dc778cc",
+      "rotation_ccw": 0,
+      "caption": "现场展签：北齐佛教供养碑，2014.39",
+      "role": "label",
+      "work_id": "mfa-1843",
+      "original_filename": "Image_20261106141114_1844_19.jpg"
+    },
+    "1845": {
+      "number": 1845,
+      "original": "images/originals/Image_20261106141114_1845_19.jpg",
+      "file": "images/1845-900.webp",
+      "variants": [
+        {
+          "file": "images/1845-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1845-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1845-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "c5ce0b0520cad69344b4927ed354bcfa40f8e776710c2ee9b5c439e3b4adc9d4",
+      "rotation_ccw": 0,
+      "caption": "佛衣正面的佛教世界图像与双足",
+      "role": "front",
+      "work_id": "freer-cosmic-buddha",
+      "original_filename": "Image_20261106141114_1845_19.jpg"
+    },
+    "1846": {
+      "number": 1846,
+      "original": "images/originals/Image_20261106141114_1846_19.jpg",
+      "file": "images/1846-900.webp",
+      "variants": [
+        {
+          "file": "images/1846-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1846-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1846-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "929c292e5862a8775e8369c0273533abb77954186ecc809ca1e043be9121d0b1",
+      "rotation_ccw": 0,
+      "caption": "佛衣背面的浅浮雕场景",
+      "role": "back",
+      "work_id": "freer-cosmic-buddha",
+      "original_filename": "Image_20261106141114_1846_19.jpg"
+    },
+    "1847": {
+      "number": 1847,
+      "original": "images/originals/Image_20261106141114_1847_19.jpg",
+      "file": "images/1847-900.webp",
+      "variants": [
+        {
+          "file": "images/1847-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1847-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1847-1600.webp",
+          "width": 1600
+        }
+      ],
+      "width": 1707,
+      "height": 1280,
+      "sha256": "e8e3e5358c488589fff2ed3813b12481be9b19d9e2c0a1de71db4d37f4be9a10",
+      "rotation_ccw": 90,
+      "caption": "现场展签：The Cosmic Buddha",
+      "role": "label",
+      "work_id": "freer-cosmic-buddha",
+      "original_filename": "Image_20261106141114_1847_19.jpg"
+    },
+    "1848": {
+      "number": 1848,
+      "original": "images/originals/Image_20261106141114_1848_19.jpg",
+      "file": "images/1848-900.webp",
+      "variants": [
+        {
+          "file": "images/1848-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1848-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1848-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "6a2c45faa7268948559376be19199ea3fd843e64088dbc0d8e81e1188ae0bd2f",
+      "rotation_ccw": 0,
+      "caption": "双思惟菩萨与镂空树形背屏",
+      "role": "front",
+      "work_id": "museum-1848",
+      "original_filename": "Image_20261106141114_1848_19.jpg"
+    },
+    "1849": {
+      "number": 1849,
+      "original": "images/originals/Image_20261106141114_1849_19.jpg",
+      "file": "images/1849-900.webp",
+      "variants": [
+        {
+          "file": "images/1849-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1849-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1849-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 960,
+      "sha256": "55b4a66526259642257b0321cf645f13fa481cba32b586c5573f889d64718079",
+      "rotation_ccw": 0,
+      "caption": "台座背面题记位置",
+      "role": "inscription",
+      "work_id": "museum-1848",
+      "original_filename": "Image_20261106141114_1849_19.jpg"
+    },
+    "1850": {
+      "number": 1850,
+      "original": "images/originals/Image_20261106141114_1850_19.jpg",
+      "file": "images/1850-900.webp",
+      "variants": [
+        {
+          "file": "images/1850-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1850-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1850-1600.webp",
+          "width": 1600
+        }
+      ],
+      "width": 1707,
+      "height": 1280,
+      "sha256": "9318437c52ea52d9cbb20e43845314da30df6fe927b719a25e9786e1f83632d7",
+      "rotation_ccw": 0,
+      "caption": "现场说明：供养与再次奉献",
+      "role": "label",
+      "work_id": "museum-1848",
+      "original_filename": "Image_20261106141114_1850_19.jpg"
+    },
+    "1851": {
+      "number": 1851,
+      "original": "images/originals/Image_20261106141114_1851_19.jpg",
+      "file": "images/1851-900.webp",
+      "variants": [
+        {
+          "file": "images/1851-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1851-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1851-1600.webp",
+          "width": 1600
+        }
+      ],
+      "width": 1707,
+      "height": 1280,
+      "sha256": "f8a4940daa848aa65a9c38a0aab6734c5f56695a1deb41c958740d437fb2bf9b",
+      "rotation_ccw": 0,
+      "caption": "现场展签：565年多佛造像碑",
+      "role": "label",
+      "work_id": "museum-1848",
+      "original_filename": "Image_20261106141114_1851_19.jpg"
+    },
+    "1852": {
+      "number": 1852,
+      "original": "images/originals/Image_20261106141114_1852_19.jpg",
+      "file": "images/1852-900.webp",
+      "variants": [
+        {
+          "file": "images/1852-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1852-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1852-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "5856e179bf3d33330fa30d0236f8a42fc3cdab9f3f8883eadb9a420569577175",
+      "rotation_ccw": 0,
+      "caption": "思惟主尊及两侧眷属",
+      "role": "front",
+      "work_id": "museum-1852",
+      "original_filename": "Image_20261106141114_1852_19.jpg"
+    },
+    "1853": {
+      "number": 1853,
+      "original": "images/originals/Image_20261106141114_1853_19.jpg",
+      "file": "images/1853-900.webp",
+      "variants": [
+        {
+          "file": "images/1853-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1853-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1853-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "6bb14f4aa1342495b7eea2d04c0c2aee11f7659d256af87b8162ff0aa49185d3",
+      "rotation_ccw": 0,
+      "caption": "背面浅刻佛像与图像线条",
+      "role": "back",
+      "work_id": "museum-1852",
+      "original_filename": "Image_20261106141114_1853_19.jpg"
+    },
+    "1854": {
+      "number": 1854,
+      "original": "images/originals/Image_20261106141114_1854_19.jpg",
+      "file": "images/1854-900.webp",
+      "variants": [
+        {
+          "file": "images/1854-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1854-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1854-1600.webp",
+          "width": 1600
+        }
+      ],
+      "width": 1707,
+      "height": 1280,
+      "sha256": "70caf2a83233e38e5ab5e6d2a82d4ce301f679eb60a7f3ae54ad287706d511b9",
+      "rotation_ccw": 90,
+      "caption": "现场展签：Future Buddha and Company",
+      "role": "label",
+      "work_id": "museum-1852",
+      "original_filename": "Image_20261106141114_1854_19.jpg"
+    },
+    "1855": {
+      "number": 1855,
+      "original": "../images/originals/Image_20261106141114_1855_19.jpg",
+      "file": "../images/1855-900.webp",
+      "variants": [
+        {
+          "file": "../images/1855-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1855-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1855-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "010e7baeca94942d610ae7402a8683117fd81fe2244102f0912276b11c0299c7",
+      "rotation_ccw": 0,
+      "caption": "立佛一面全貌",
+      "role": "artwork",
+      "work_id": "na-569-daolin",
+      "original_filename": "Image_20261106141114_1855_19.jpg"
+    },
+    "1856": {
+      "number": 1856,
+      "original": "../images/originals/Image_20261106141114_1856_19.jpg",
+      "file": "../images/1856-900.webp",
+      "variants": [
+        {
+          "file": "../images/1856-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1856-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1856-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "a380458295fb05702958749ed4bb57c688113cb6a9766005b031c7aa12f9af5e",
+      "rotation_ccw": 0,
+      "caption": "坐佛一面全貌",
+      "role": "artwork",
+      "work_id": "na-569-daolin",
+      "original_filename": "Image_20261106141114_1856_19.jpg"
+    },
+    "1857": {
+      "number": 1857,
+      "original": "../images/originals/Image_20261106141114_1857_19.jpg",
+      "file": "../images/1857-900.webp",
+      "variants": [
+        {
+          "file": "../images/1857-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1857-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1857-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "133e24c0d48a425ca9507f5dd05a3a961291acb2d444a554cbdcd844abbafd80",
+      "rotation_ccw": 0,
+      "caption": "侧面题记与石碑厚度",
+      "role": "artwork",
+      "work_id": "na-569-daolin",
+      "original_filename": "Image_20261106141114_1857_19.jpg"
+    },
+    "1858": {
+      "number": 1858,
+      "original": "../images/originals/Image_20261106141114_1858_19.jpg",
+      "file": "../images/1858-900.webp",
+      "variants": [
+        {
+          "file": "../images/1858-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1858-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1858-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "8db2cf773acc4592b040e08083b8f0ea1e030804f13b18ec4ae129dda6ad264a",
+      "rotation_ccw": 0,
+      "caption": "立佛一面的面容与背光",
+      "role": "artwork",
+      "work_id": "na-569-daolin",
+      "original_filename": "Image_20261106141114_1858_19.jpg"
+    },
+    "1859": {
+      "number": 1859,
+      "original": "../images/originals/Image_20261106141114_1859_19.jpg",
+      "file": "../images/1859-900.webp",
+      "variants": [
+        {
+          "file": "../images/1859-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1859-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1859-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "d859124194d3b280758db8a5934357392054a4fce0229794893e695b907cf5cc",
+      "rotation_ccw": 0,
+      "caption": "坐佛一面的主龛",
+      "role": "artwork",
+      "work_id": "na-569-daolin",
+      "original_filename": "Image_20261106141114_1859_19.jpg"
+    },
+    "1860": {
+      "number": 1860,
+      "original": "../images/originals/Image_20261106141114_1860_19.jpg",
+      "file": "../images/1860-900.webp",
+      "variants": [
+        {
+          "file": "../images/1860-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1860-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1860-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "343b996b1193c07dbc904eed6eba071fcc8959073b7aed5b11493380016d764e",
+      "rotation_ccw": 0,
+      "caption": "现场展签",
+      "role": "label",
+      "work_id": "na-569-daolin",
+      "original_filename": "Image_20261106141114_1860_19.jpg"
+    },
+    "1861": {
+      "number": 1861,
+      "original": "../images/originals/Image_20261106141114_1861_19.jpg",
+      "file": "../images/1861-900.webp",
+      "variants": [
+        {
+          "file": "../images/1861-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1861-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1861-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "53b2cedd4d12d6fb996ab7ff4c531490dec7d4a2a2db647ec199a716e1d7f353",
+      "rotation_ccw": 0,
+      "caption": "正面层层排列的佛龛",
+      "role": "artwork",
+      "work_id": "na-537-lotus",
+      "original_filename": "Image_20261106141114_1861_19.jpg"
+    },
+    "1862": {
+      "number": 1862,
+      "original": "../images/originals/Image_20261106141114_1862_19.jpg",
+      "file": "../images/1862-900.webp",
+      "variants": [
+        {
+          "file": "../images/1862-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1862-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1862-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "1650247a70893b6c8ff993cfc35899f013e4ede4092f99e149efd5da659099b6",
+      "rotation_ccw": 0,
+      "caption": "背面与供养人行列",
+      "role": "artwork",
+      "work_id": "na-537-lotus",
+      "original_filename": "Image_20261106141114_1862_19.jpg"
+    },
+    "1863": {
+      "number": 1863,
+      "original": "../images/originals/Image_20261106141114_1863_19.jpg",
+      "file": "../images/1863-900.webp",
+      "variants": [
+        {
+          "file": "../images/1863-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1863-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1863-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "9997e30db02000f376b89b3abf8b136dcecab81e3e5329988f3c6c529947cf34",
+      "rotation_ccw": 0,
+      "caption": "现场展签",
+      "role": "label",
+      "work_id": "na-537-lotus",
+      "original_filename": "Image_20261106141114_1863_19.jpg"
+    },
+    "1864": {
+      "number": 1864,
+      "original": "../images/originals/Image_20261106141114_1864_19.jpg",
+      "file": "../images/1864-900.webp",
+      "variants": [
+        {
+          "file": "../images/1864-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1864-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1864-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "09e5cdd494cf9706b9b5942335d3d019a2ba0687534b800ecdd2f16600f78a9b",
+      "rotation_ccw": 0,
+      "caption": "正面坐佛与背屏",
+      "role": "artwork",
+      "work_id": "na-494-yin",
+      "original_filename": "Image_20261106141114_1864_19.jpg"
+    },
+    "1865": {
+      "number": 1865,
+      "original": "../images/originals/Image_20261106141114_1865_19.jpg",
+      "file": "../images/1865-900.webp",
+      "variants": [
+        {
+          "file": "../images/1865-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1865-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1865-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "b5f7bd30db7f44a90168cd49bd14c393b6e1a16a0ecf75f9f4b3a6322f00b6c4",
+      "rotation_ccw": 0,
+      "caption": "背面题记的上部",
+      "role": "artwork",
+      "work_id": "na-494-yin",
+      "original_filename": "Image_20261106141114_1865_19.jpg"
+    },
+    "1866": {
+      "number": 1866,
+      "original": "../images/originals/Image_20261106141114_1866_19.jpg",
+      "file": "../images/1866-900.webp",
+      "variants": [
+        {
+          "file": "../images/1866-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1866-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1866-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "85ad4f0f01308fc33a9d753b5aecc56c3816bd7a3980af49fb158c1234a8d081",
+      "rotation_ccw": 0,
+      "caption": "背面题记近照",
+      "role": "artwork",
+      "work_id": "na-494-yin",
+      "original_filename": "Image_20261106141114_1866_19.jpg"
+    },
+    "1867": {
+      "number": 1867,
+      "original": "../images/originals/Image_20261106141114_1867_19.jpg",
+      "file": "../images/1867-900.webp",
+      "variants": [
+        {
+          "file": "../images/1867-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1867-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1867-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "8ebb05d3bc185db2e4458f6c530c42514f3b21344b950550f4d33d3f7dfd47ef",
+      "rotation_ccw": 0,
+      "caption": "现场展签",
+      "role": "label",
+      "work_id": "na-494-yin",
+      "original_filename": "Image_20261106141114_1867_19.jpg"
+    },
+    "1868": {
+      "number": 1868,
+      "original": "../images/originals/Image_20261106141114_1868_19.jpg",
+      "file": "../images/1868-900.webp",
+      "variants": [
+        {
+          "file": "../images/1868-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1868-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1868-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "c72f2636c772a562c71960d21f4165124d0d1eb7f6ad726a2822ccb1cf04b90a",
+      "rotation_ccw": 0,
+      "caption": "主龛与环绕的火焰纹",
+      "role": "artwork",
+      "work_id": "na-537-lotus",
+      "original_filename": "Image_20261106141114_1868_19.jpg"
+    },
+    "1869": {
+      "number": 1869,
+      "original": "../images/originals/Image_20261106141114_1869_19.jpg",
+      "file": "../images/1869-900.webp",
+      "variants": [
+        {
+          "file": "../images/1869-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1869-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1869-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "d9d660d8e5534032329f265403a76de99cf76bbcb337b37ae9ddf3da34eff06a",
+      "rotation_ccw": 0,
+      "caption": "主龛下方的供物、双狮与人物行列",
+      "role": "artwork",
+      "work_id": "na-537-lotus",
+      "original_filename": "Image_20261106141114_1869_19.jpg"
+    },
+    "1870": {
+      "number": 1870,
+      "original": "../images/originals/Image_20261106141114_1870_19.jpg",
+      "file": "../images/1870-900.webp",
+      "variants": [
+        {
+          "file": "../images/1870-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1870-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1870-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "70f1e790591d58d740b4bdb4f856ec6649e8dc4124fd032d36c09d87ac13f509",
+      "rotation_ccw": 0,
+      "caption": "背面上部图像",
+      "role": "artwork",
+      "work_id": "na-537-lotus",
+      "original_filename": "Image_20261106141114_1870_19.jpg"
+    },
+    "1871": {
+      "number": 1871,
+      "original": "../images/originals/Image_20261106141114_1871_19.jpg",
+      "file": "../images/1871-900.webp",
+      "variants": [
+        {
+          "file": "../images/1871-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1871-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1871-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "e8512acdd1a333606351e4a14596423358a0f93b6de4c5932de3ead336b53548",
+      "rotation_ccw": 0,
+      "caption": "背面下方的供养人与题记",
+      "role": "artwork",
+      "work_id": "na-537-lotus",
+      "original_filename": "Image_20261106141114_1871_19.jpg"
+    },
+    "1872": {
+      "number": 1872,
+      "original": "../images/originals/Image_20261106141114_1872_19.jpg",
+      "file": "../images/1872-900.webp",
+      "variants": [
+        {
+          "file": "../images/1872-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1872-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1872-1600.webp",
+          "width": 1600
+        }
+      ],
+      "width": 1702,
+      "height": 1276,
+      "sha256": "a82bf9d19dcde75f2ce2987512340a31820653c08d1b4ba440c544cc8af1fc77",
+      "rotation_ccw": 0,
+      "caption": "主龛佛与胁侍细部",
+      "role": "artwork",
+      "work_id": "na-537-lotus",
+      "original_filename": "Image_20261106141114_1872_19.jpg"
+    },
+    "1873": {
+      "number": 1873,
+      "original": "../images/originals/Image_20261106141114_1873_19.jpg",
+      "file": "../images/1873-900.webp",
+      "variants": [
+        {
+          "file": "../images/1873-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1873-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1873-1600.webp",
+          "width": 1600
+        }
+      ],
+      "width": 1702,
+      "height": 1276,
+      "sha256": "b27aac297fff6ad0da3314abec44d68181e6c987dd7019200a49f80d7e33d441",
+      "rotation_ccw": 0,
+      "caption": "火焰上方的小塔",
+      "role": "artwork",
+      "work_id": "na-537-lotus",
+      "original_filename": "Image_20261106141114_1873_19.jpg"
+    },
+    "1874": {
+      "number": 1874,
+      "original": "../images/originals/Image_20261106141114_1874_19.jpg",
+      "file": "../images/1874-900.webp",
+      "variants": [
+        {
+          "file": "../images/1874-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1874-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1874-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "ec7c1f01a1311eaaa149654a9c7ce2bcb8050411c797c3258e1e8025e87841ff",
+      "rotation_ccw": 0,
+      "caption": "现场展签",
+      "role": "label",
+      "work_id": "na-537-lotus",
+      "original_filename": "Image_20261106141114_1874_19.jpg"
+    },
+    "1875": {
+      "number": 1875,
+      "original": "../images/originals/Image_20261106141114_1875_19.jpg",
+      "file": "../images/1875-900.webp",
+      "variants": [
+        {
+          "file": "../images/1875-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1875-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1875-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "c818e1219594daa030713f38e24ac4f28bb6759776128ba8a445a1987298e167",
+      "rotation_ccw": 0,
+      "caption": "正面另一张现场照片",
+      "role": "artwork",
+      "work_id": "na-494-yin",
+      "original_filename": "Image_20261106141114_1875_19.jpg"
+    },
+    "1876": {
+      "number": 1876,
+      "original": "../images/originals/Image_20261106141114_1876_19.jpg",
+      "file": "../images/1876-900.webp",
+      "variants": [
+        {
+          "file": "../images/1876-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1876-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1876-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "772a2210a4eab7e644c8afa90959aed8ed66458b9f49739f7a2286ba7f22e93c",
+      "rotation_ccw": 0,
+      "caption": "背面小坐像与发愿文",
+      "role": "artwork",
+      "work_id": "na-494-yin",
+      "original_filename": "Image_20261106141114_1876_19.jpg"
+    },
+    "1877": {
+      "number": 1877,
+      "original": "../images/originals/Image_20261106141114_1877_19.jpg",
+      "file": "../images/1877-900.webp",
+      "variants": [
+        {
+          "file": "../images/1877-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1877-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1877-1600.webp",
+          "width": 1600
+        }
+      ],
+      "width": 1702,
+      "height": 1276,
+      "sha256": "fb97ec24047cae6753b3dda73eaba111805042e95518492cd71f335d3d69fc63",
+      "rotation_ccw": 0,
+      "caption": "现场展签",
+      "role": "label",
+      "work_id": "na-494-yin",
+      "original_filename": "Image_20261106141114_1877_19.jpg"
+    },
+    "1878": {
+      "number": 1878,
+      "original": "images/originals/Image_20261106141114_1878_19.jpg",
+      "file": "images/1878-900.webp",
+      "variants": [
+        {
+          "file": "images/1878-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1878-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1878-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "2c2a9a1e283c38171ebb76ad3731318cdb127e3c6ed42310dde2afab4ec0818b",
+      "rotation_ccw": 0,
+      "caption": "佛龛、两侧眷属及下方供养人",
+      "role": "front",
+      "work_id": "nelson-51-27",
+      "original_filename": "Image_20261106141114_1878_19.jpg"
+    },
+    "1879": {
+      "number": 1879,
+      "original": "images/originals/Image_20261106141114_1879_19.jpg",
+      "file": "images/1879-900.webp",
+      "variants": [
+        {
+          "file": "images/1879-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1879-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1879-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "2b9557d7286648d2d2c920260efcc53a67658b77fd8e91c38043b979bb00a1da",
+      "rotation_ccw": 0,
+      "caption": "现场展签：佛教建筑浮雕壁板",
+      "role": "label",
+      "work_id": "nelson-51-27",
+      "original_filename": "Image_20261106141114_1879_19.jpg"
+    },
+    "1880": {
+      "number": 1880,
+      "original": "images/originals/Image_20261106141114_1880_19.jpg",
+      "file": "images/1880-900.webp",
+      "variants": [
+        {
+          "file": "images/1880-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1880-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1880-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "10f014af1d544e0a90d42a1833b0d06ad85093a86e170123a096b560fe1ecb35",
+      "rotation_ccw": 0,
+      "caption": "多佛造像碑正面全貌",
+      "role": "front",
+      "work_id": "museum-1848",
+      "original_filename": "Image_20261106141114_1880_19.jpg"
+    },
+    "1881": {
+      "number": 1881,
+      "original": "images/originals/Image_20261106141114_1881_19.jpg",
+      "file": "images/1881-900.webp",
+      "variants": [
+        {
+          "file": "images/1881-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1881-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1881-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "41ac656db3c0012d46897b25a329e327ba09f8b0ad0287b01369c421ef3139e7",
+      "rotation_ccw": 0,
+      "caption": "镂空背屏、坐像背部与台座",
+      "role": "back",
+      "work_id": "museum-1848",
+      "original_filename": "Image_20261106141114_1881_19.jpg"
+    },
+    "1882": {
+      "number": 1882,
+      "original": "images/originals/Image_20261106141114_1882_19.jpg",
+      "file": "images/1882-900.webp",
+      "variants": [
+        {
+          "file": "images/1882-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1882-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1882-1600.webp",
+          "width": 1600
+        }
+      ],
+      "width": 1702,
+      "height": 1276,
+      "sha256": "630f24c62c99bfcc6f852a7c51bc2231b6fb864c1d4f1c262e6b9f34f491f3fe",
+      "rotation_ccw": 0,
+      "caption": "台座背面题记位置",
+      "role": "inscription",
+      "work_id": "museum-1848",
+      "original_filename": "Image_20261106141114_1882_19.jpg"
+    },
+    "1883": {
+      "number": 1883,
+      "original": "images/originals/Image_20261106141114_1883_19.jpg",
+      "file": "images/1883-900.webp",
+      "variants": [
+        {
+          "file": "images/1883-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1883-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1883-1600.webp",
+          "width": 1600
+        }
+      ],
+      "width": 1707,
+      "height": 1280,
+      "sha256": "cf39a6ab5a1a4adb2210c07e918a5a074e9f3b83f6edb23ea1d3794a472b35cf",
+      "rotation_ccw": 90,
+      "caption": "现场展签：Seeing Double",
+      "role": "label",
+      "work_id": "museum-1848",
+      "original_filename": "Image_20261106141114_1883_19.jpg"
+    },
+    "1884": {
+      "number": 1884,
+      "original": "images/originals/Image_20261106141114_1884_19.jpg",
+      "file": "images/1884-900.webp",
+      "variants": [
+        {
+          "file": "images/1884-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1884-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1884-1600.webp",
+          "width": 1600
+        }
+      ],
+      "width": 1707,
+      "height": 1280,
+      "sha256": "3afa20e5d2714f25cacfeb37bd18b6d9fcae0dfc1d68ade57cb39e5c53b17af5",
+      "rotation_ccw": 90,
+      "caption": "现场说明：Patronage and Persecution",
+      "role": "label",
+      "work_id": "museum-1848",
+      "original_filename": "Image_20261106141114_1884_19.jpg"
+    },
+    "1885": {
+      "number": 1885,
+      "original": "images/originals/Image_20261106141114_1885_19.jpg",
+      "file": "images/1885-900.webp",
+      "variants": [
+        {
+          "file": "images/1885-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1885-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1885-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "1662398a9be87915904e3e6af8cb2560394689914ba0cbe883cfe86657e99874",
+      "rotation_ccw": 0,
+      "caption": "树下思惟菩萨与莲池底座",
+      "role": "front",
+      "work_id": "freer-pensive-maitreya",
+      "original_filename": "Image_20261106141114_1885_19.jpg"
+    },
+    "1886": {
+      "number": 1886,
+      "original": "images/originals/Image_20261106141114_1886_19.jpg",
+      "file": "images/1886-900.webp",
+      "variants": [
+        {
+          "file": "images/1886-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1886-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1886-1600.webp",
+          "width": 1600
+        }
+      ],
+      "width": 1702,
+      "height": 1276,
+      "sha256": "809b293c1a128af2fde3ca8ca184161796b5736ef7cf8b6b3b545d4ec90dd2a4",
+      "rotation_ccw": 0,
+      "caption": "现场展签：Promise for the Future",
+      "role": "label",
+      "work_id": "freer-pensive-maitreya",
+      "original_filename": "Image_20261106141114_1886_19.jpg"
+    },
+    "1887": {
+      "number": 1887,
+      "original": "../images/originals/Image_20261106141114_1887_19.jpg",
+      "file": "../images/1887-900.webp",
+      "variants": [
+        {
+          "file": "../images/1887-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1887-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1887-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "2c3c1bac8311204724e1b809e6e143d0821a4c6d6754e018749cce5470d1a740",
+      "rotation_ccw": 0,
+      "caption": "正面全貌与分层佛龛",
+      "role": "artwork",
+      "work_id": "penn-575-c429",
+      "original_filename": "Image_20261106141114_1887_19.jpg"
+    },
+    "1888": {
+      "number": 1888,
+      "original": "../images/originals/Image_20261106141114_1888_19.jpg",
+      "file": "../images/1888-900.webp",
+      "variants": [
+        {
+          "file": "../images/1888-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1888-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1888-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "bc0173abbf51b61b32c8529fe15b06d62704db90bfee2dffb6573fcd1b7b798c",
+      "rotation_ccw": 0,
+      "caption": "背面全貌：上层净土、中层问答、下层二佛",
+      "role": "artwork",
+      "work_id": "penn-575-c429",
+      "original_filename": "Image_20261106141114_1888_19.jpg"
+    },
+    "1889": {
+      "number": 1889,
+      "original": "../images/originals/Image_20261106141114_1889_19.jpg",
+      "file": "../images/1889-900.webp",
+      "variants": [
+        {
+          "file": "../images/1889-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1889-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1889-1600.webp",
+          "width": 1600
+        }
+      ],
+      "width": 1702,
+      "height": 1276,
+      "sha256": "7dfa5626db2a327c43db1c6222a57e5e6ea46fe5bb4be6f023c0a72dafa7bdb8",
+      "rotation_ccw": 0,
+      "caption": "碑面题记位置与局部",
+      "role": "artwork",
+      "work_id": "penn-575-c429",
+      "original_filename": "Image_20261106141114_1889_19.jpg"
+    },
+    "1890": {
+      "number": 1890,
+      "original": "../images/originals/Image_20261106141114_1890_19.jpg",
+      "file": "../images/1890-900.webp",
+      "variants": [
+        {
+          "file": "../images/1890-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1890-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1890-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "9eea1884f1b377a9c8d2af62ce28c3f5ffb39029aa1edb2d22a07b640329b3c6",
+      "rotation_ccw": 0,
+      "caption": "现场展签",
+      "role": "label",
+      "work_id": "penn-575-c429",
+      "original_filename": "Image_20261106141114_1890_19.jpg"
+    },
+    "1891": {
+      "number": 1891,
+      "original": "../images/originals/Image_20261106141114_1891_19.jpg",
+      "file": "../images/1891-900.webp",
+      "variants": [
+        {
+          "file": "../images/1891-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1891-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1891-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "bb586ac33acf1747c256e77e1814b89627211d6e7b293c33287aa048e780f1bd",
+      "rotation_ccw": 0,
+      "caption": "主龛与上层问答图像",
+      "role": "front",
+      "work_id": "penn-551-c404",
+      "original_filename": "Image_20261106141114_1891_19.jpg"
+    },
+    "1892": {
+      "number": 1892,
+      "original": "../images/originals/Image_20261106141114_1892_19.jpg",
+      "file": "../images/1892-900.webp",
+      "variants": [
+        {
+          "file": "../images/1892-400.webp",
+          "width": 400
+        },
+        {
+          "file": "../images/1892-900.webp",
+          "width": 900
+        },
+        {
+          "file": "../images/1892-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "f86221bc37f011aae17a378bdaed42975a37fbeeadad99b92497e434dbd0c704",
+      "rotation_ccw": 0,
+      "caption": "现场展签：551年造像碑C404",
+      "role": "label",
+      "work_id": "penn-551-c404",
+      "original_filename": "Image_20261106141114_1892_19.jpg"
+    },
+    "1893": {
+      "number": 1893,
+      "original": "images/originals/Image_20261106141114_1893_19.jpg",
+      "file": "images/1893-900.webp",
+      "variants": [
+        {
+          "file": "images/1893-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1893-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1893-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "36e90777a14c15f27ea03c85c68781f7d4fbc8af6bc06dd825fdf62687f9770d",
+      "rotation_ccw": 0,
+      "caption": "坐佛、二胁侍与台座",
+      "role": "front",
+      "work_id": "penn-1893",
+      "original_filename": "Image_20261106141114_1893_19.jpg"
+    },
+    "1894": {
+      "number": 1894,
+      "original": "images/originals/Image_20261106141114_1894_19.jpg",
+      "file": "images/1894-900.webp",
+      "variants": [
+        {
+          "file": "images/1894-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1894-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1894-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "39ce251d250db587c1b4079635de5d209041055dbfc81de08234dd65916d8297",
+      "rotation_ccw": 0,
+      "caption": "现场展签：535年佛与二胁侍造像碑",
+      "role": "label",
+      "work_id": "penn-1893",
+      "original_filename": "Image_20261106141114_1894_19.jpg"
+    },
+    "1895": {
+      "number": 1895,
+      "original": "images/originals/Image_20261106141114_1895_19.jpg",
+      "file": "images/1895-900.webp",
+      "variants": [
+        {
+          "file": "images/1895-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1895-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1895-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "01a9af4ba95af847a8785da393c990bf5c0a8de01869d424b67005c3c3ecd9f6",
+      "rotation_ccw": 0,
+      "caption": "弥勒佛与尖叶形背光全貌",
+      "role": "front",
+      "work_id": "penn-1895",
+      "original_filename": "Image_20261106141114_1895_19.jpg"
+    },
+    "1896": {
+      "number": 1896,
+      "original": "images/originals/Image_20261106141114_1896_19.jpg",
+      "file": "images/1896-900.webp",
+      "variants": [
+        {
+          "file": "images/1896-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1896-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1896-1600.webp",
+          "width": 1600
+        }
+      ],
+      "width": 1702,
+      "height": 1276,
+      "sha256": "a59cd25ffa898aaae615c554cbdc24bd29c18ee86c3f4c414217091b9d03d359",
+      "rotation_ccw": 0,
+      "caption": "双足、台座与残留彩绘",
+      "role": "detail",
+      "work_id": "penn-1895",
+      "original_filename": "Image_20261106141114_1896_19.jpg"
+    },
+    "1897": {
+      "number": 1897,
+      "original": "images/originals/Image_20261106141114_1897_19.jpg",
+      "file": "images/1897-900.webp",
+      "variants": [
+        {
+          "file": "images/1897-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1897-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1897-1024.webp",
+          "width": 1024
+        }
+      ],
+      "width": 1024,
+      "height": 1366,
+      "sha256": "7d50c00ecaede88ce0af4404d5e8a0b377f5a86f6b5672e8911abbc24718e38b",
+      "rotation_ccw": 0,
+      "caption": "背光背面现场照片",
+      "role": "back",
+      "work_id": "penn-1895",
+      "original_filename": "Image_20261106141114_1897_19.jpg"
+    },
+    "1898": {
+      "number": 1898,
+      "original": "images/originals/Image_20261106141114_1898_19.jpg",
+      "file": "images/1898-900.webp",
+      "variants": [
+        {
+          "file": "images/1898-400.webp",
+          "width": 400
+        },
+        {
+          "file": "images/1898-900.webp",
+          "width": 900
+        },
+        {
+          "file": "images/1898-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "89887c245eec051f4f5086f8ee6149e948b1db8a68a07730415f16d872665209",
+      "rotation_ccw": 0,
+      "caption": "现场展签：516年弥勒佛C284",
+      "role": "label",
+      "work_id": "penn-1895",
+      "original_filename": "Image_20261106141114_1898_19.jpg"
+    }
+  },
+  "museums": [
+    {
+      "id": "guimet",
+      "name": "吉美博物馆",
+      "name_en": "Musée Guimet",
+      "city": "巴黎",
+      "lon": 2.294,
+      "lat": 48.865,
+      "url": "https://www.guimet.fr/",
+      "coordinate_note": "沿用本站馆舍导航坐标，仅表示观看机构。"
+    },
+    {
+      "id": "met",
+      "name": "纽约大都会艺术博物馆",
+      "name_en": "The Metropolitan Museum of Art",
+      "city": "纽约",
+      "lon": -73.963,
+      "lat": 40.779,
+      "url": "https://www.metmuseum.org/",
+      "coordinate_note": "沿用本站馆舍导航坐标，仅表示观看机构。"
+    },
+    {
+      "id": "nelson",
+      "name": "纳尔逊—阿特金斯艺术博物馆",
+      "name_en": "The Nelson-Atkins Museum of Art",
+      "city": "堪萨斯城",
+      "lon": -94.581,
+      "lat": 39.045,
+      "url": "https://nelson-atkins.org/",
+      "coordinate_note": "沿用本站馆舍导航坐标，仅表示观看机构。"
+    },
+    {
+      "id": "mfah",
+      "name": "休斯顿美术馆",
+      "name_en": "The Museum of Fine Arts, Houston",
+      "city": "休斯顿",
+      "lon": -95.39,
+      "lat": 29.726,
+      "url": "https://www.mfah.org/",
+      "coordinate_note": "沿用本站馆舍导航坐标，仅表示观看机构。"
+    },
+    {
+      "id": "cleveland",
+      "name": "克利夫兰美术馆",
+      "name_en": "Cleveland Museum of Art",
+      "city": "克利夫兰",
+      "lon": -81.612,
+      "lat": 41.509,
+      "url": "https://www.clevelandart.org/",
+      "coordinate_note": "沿用本站馆舍导航坐标，仅表示观看机构。"
+    },
+    {
+      "id": "nmaa",
+      "name": "史密森尼国立亚洲艺术博物馆",
+      "name_en": "National Museum of Asian Art",
+      "city": "华盛顿",
+      "lon": -77.027,
+      "lat": 38.888,
+      "url": "https://asia.si.edu/",
+      "coordinate_note": "沿用本站馆舍导航坐标，仅表示观看机构。"
+    },
+    {
+      "id": "cernuschi",
+      "name": "赛努奇博物馆",
+      "name_en": "Musée Cernuschi",
+      "city": "巴黎",
+      "lon": 2.312,
+      "lat": 48.879,
+      "url": "https://www.cernuschi.paris.fr/",
+      "coordinate_note": "沿用本站馆舍导航坐标，仅表示观看机构。"
+    },
+    {
+      "id": "chengdu",
+      "name": "成都博物馆",
+      "name_en": "Chengdu Museum",
+      "city": "成都",
+      "lon": 104.06,
+      "lat": 30.66,
+      "url": "https://www.cdmuseum.com/",
+      "coordinate_note": "成都城市级示意点，非考古地点。"
+    },
+    {
+      "id": "penn",
+      "name": "宾夕法尼亚大学博物馆",
+      "name_en": "Penn Museum",
+      "city": "费城",
+      "lon": -75.19,
+      "lat": 39.95,
+      "url": "https://www.penn.museum/",
+      "coordinate_note": "费城馆舍区域示意，非作品产地。"
+    },
+    {
+      "id": "princeton",
+      "name": "普林斯顿大学艺术博物馆",
+      "name_en": "Princeton University Art Museum",
+      "city": "普林斯顿",
+      "lon": -74.66,
+      "lat": 40.35,
+      "url": "https://artmuseum.princeton.edu/visit",
+      "coordinate_note": "普林斯顿城市级示意点，非作品产地。"
+    },
+    {
+      "id": "tokyo",
+      "name": "东京国立博物馆",
+      "name_en": "Tokyo National Museum",
+      "city": "东京",
+      "lon": 139.78,
+      "lat": 35.72,
+      "url": "https://www.tnm.jp/",
+      "coordinate_note": "东京上野地区示意，观看机构由作者确认。"
+    },
+    {
+      "id": "shanxi",
+      "name": "山西博物院",
+      "name_en": "Shanxi Museum",
+      "city": "太原",
+      "lon": 112.54,
+      "lat": 37.87,
+      "url": "https://shanximuseum.com.cn/sx/index/index.html",
+      "coordinate_note": "太原城市级示意，观看机构由作者确认。"
+    },
+    {
+      "id": "noma",
+      "name": "新奥尔良美术馆",
+      "name_en": "New Orleans Museum of Art",
+      "city": "新奥尔良",
+      "lon": -90.08,
+      "lat": 29.97,
+      "url": "https://noma.org/",
+      "coordinate_note": "按馆方位置作城市级示意；不是精确入口坐标。"
+    }
+  ],
+  "stats": {
+    "works": 32,
+    "confirmed": 32,
+    "pending": 0,
+    "photos": 103,
+    "museums": 13,
+    "readings": 15,
+    "exact": 18
+  },
+  "archive": {
+    "photos": 111,
+    "works": 35,
+    "excluded_works": 3,
+    "context_photos": 1
+  }
+}

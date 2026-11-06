@@ -15,6 +15,10 @@ assert len(ed['chapters'])==5
 assert sum(bool(w['inscription_data'].get('full_text')) for w in works)==8
 assert sum(p['role']=='label' for p in photos.values())==18
 assert all(w['visit_date'] is None for w in works)
+active={n for w in works for n in w['photos']+w['labels']}
+assert len(active)==57 and not active.intersection({1891,1892})
+assert all(photos[str(n)]['identified_accession']=='C404' and photos[str(n)]['work_id'] is None for n in [1891,1892])
+assert len(sources)==len(load('sources.json'))
 for w in works:
  assert w['dimensions'] and w['material'] and w['sources']
  for sid in w['sources']:assert sid in sources
@@ -22,11 +26,17 @@ for w in works:
  for n in w['photos']+w['labels']:assert photos[str(n)]['work_id']==w['id']
  ins=w['inscription_data']
  if ins.get('full_text'):assert ins['full_source_id'] in sources and ins['full_note']
+ for passage in ins.get('passages',[]):
+  assert passage['original'] and passage['translation']
+  assert all(sid in sources for sid in passage.get('sources',[ins['source_id']]))
+ for section in w['sections']:
+  for paragraph in section['paragraphs']:
+   for link in paragraph.get('photo_links',[]):assert link['photo'] in w['photos']+w['labels']
 for p in photos.values():
  assert hashlib.sha256((BASE/p['original']).read_bytes()).hexdigest()==p['sha256']
  assert all((BASE/v['file']).exists() and v['width']<=p['width'] for v in p['variants'])
 assert {n for n,p in photos.items() if p['rotation']}=={'1832','1839'}
-pages=list(BASE.rglob('*.html'));assert len(pages)==16
+pages=list(BASE.rglob('*.html'));assert len(pages)==17
 extras=[ROOT/'museum-notes/index.html',ROOT/'museum-notes/chinese-buddhist-art/index.html',ROOT/'museum-notes/xuzhou/x24/index.html']
 cache={}
 def tags(p):
@@ -54,4 +64,6 @@ assert '□' in by['met-543-yiyi']['inscription_data']['full_text']
 assert by['cle-570s-dual']['material']=='大理石，彩绘'
 assert by['met-543-yiyi']['date']=='533—543'
 assert 'full_text' not in by['cle-500-maitreya']['inscription_data']
-print('PASS: 15 identities, 59 intact originals, 8 sourced transcripts, 16 generated pages, local links/anchors, navigation and no third-party images.')
+assert all(by[k]['inscription_data'].get('passages') and by[k]['inscription_data'].get('variants') for k in ['na-494-yin','cd-490-fahai','mfah-526-faxing','met-528-yiyi','met-543-yiyi'])
+assert all('年代年' not in path.read_text() for path in pages)
+print('PASS: 15 identities, 59 intact originals / 57 associated photos, 8 sourced transcripts, 5 layered readings, 17 generated pages, local links/anchors, navigation and no third-party images.')

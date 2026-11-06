@@ -1,0 +1,132 @@
+[
+  {
+    "id": "guimet",
+    "name": "吉美博物馆",
+    "name_en": "Musée Guimet",
+    "city": "巴黎",
+    "lon": 2.294,
+    "lat": 48.865,
+    "url": "https://www.guimet.fr/",
+    "coordinate_note": "沿用本站馆舍导航坐标，仅表示观看机构。"
+  },
+  {
+    "id": "met",
+    "name": "纽约大都会艺术博物馆",
+    "name_en": "The Metropolitan Museum of Art",
+    "city": "纽约",
+    "lon": -73.963,
+    "lat": 40.779,
+    "url": "https://www.metmuseum.org/",
+    "coordinate_note": "沿用本站馆舍导航坐标，仅表示观看机构。"
+  },
+  {
+    "id": "nelson",
+    "name": "纳尔逊—阿特金斯艺术博物馆",
+    "name_en": "The Nelson-Atkins Museum of Art",
+    "city": "堪萨斯城",
+    "lon": -94.581,
+    "lat": 39.045,
+    "url": "https://nelson-atkins.org/",
+    "coordinate_note": "沿用本站馆舍导航坐标，仅表示观看机构。"
+  },
+  {
+    "id": "mfah",
+    "name": "休斯顿美术馆",
+    "name_en": "The Museum of Fine Arts, Houston",
+    "city": "休斯顿",
+    "lon": -95.39,
+    "lat": 29.726,
+    "url": "https://www.mfah.org/",
+    "coordinate_note": "沿用本站馆舍导航坐标，仅表示观看机构。"
+  },
+  {
+    "id": "cleveland",
+    "name": "克利夫兰美术馆",
+    "name_en": "Cleveland Museum of Art",
+    "city": "克利夫兰",
+    "lon": -81.612,
+    "lat": 41.509,
+    "url": "https://www.clevelandart.org/",
+    "coordinate_note": "沿用本站馆舍导航坐标，仅表示观看机构。"
+  },
+  {
+    "id": "nmaa",
+    "name": "史密森尼国立亚洲艺术博物馆",
+    "name_en": "National Museum of Asian Art",
+    "city": "华盛顿",
+    "lon": -77.027,
+    "lat": 38.888,
+    "url": "https://asia.si.edu/",
+    "coordinate_note": "沿用本站馆舍导航坐标，仅表示观看机构。"
+  },
+  {
+    "id": "cernuschi",
+    "name": "赛努奇博物馆",
+    "name_en": "Musée Cernuschi",
+    "city": "巴黎",
+    "lon": 2.312,
+    "lat": 48.879,
+    "url": "https://www.cernuschi.paris.fr/",
+    "coordinate_note": "沿用本站馆舍导航坐标，仅表示观看机构。"
+  },
+  {
+    "id": "chengdu",
+    "name": "成都博物馆",
+    "name_en": "Chengdu Museum",
+    "city": "成都",
+    "lon": 104.06,
+    "lat": 30.66,
+    "url": "https://www.cdmuseum.com/",
+    "coordinate_note": "成都城市级示意点，非考古地点。"
+  },
+  {
+    "id": "penn",
+    "name": "宾夕法尼亚大学博物馆",
+    "name_en": "Penn Museum",
+    "city": "费城",
+    "lon": -75.19,
+    "lat": 39.95,
+    "url": "https://www.penn.museum/",
+    "coordinate_note": "费城馆舍区域示意，非作品产地。"
+  },
+  {
+    "id": "princeton",
+    "name": "普林斯顿大学艺术博物馆",
+    "name_en": "Princeton University Art Museum",
+    "city": "普林斯顿",
+    "lon": -74.66,
+    "lat": 40.35,
+    "url": "https://artmuseum.princeton.edu/visit",
+    "coordinate_note": "普林斯顿城市级示意点，非作品产地。"
+  },
+  {
+    "id": "tokyo",
+    "name": "东京国立博物馆",
+    "name_en": "Tokyo National Museum",
+    "city": "东京",
+    "lon": 139.78,
+    "lat": 35.72,
+    "url": "https://www.tnm.jp/",
+    "coordinate_note": "东京上野地区示意，观看机构由作者确认。"
+  },
+  {
+    "id": "shanxi",
+    "name": "山西博物院",
+    "name_en": "Shanxi Museum",
+    "city": "太原",
+    "lon": 112.54,
+    "lat": 37.87,
+    "url": "https://shanximuseum.com.cn/sx/index/index.html",
+    "coordinate_note": "太原城市级示意，观看机构由作者确认。"
+  },
+  {
+    "id": "noma",
+    "name": "新奥尔良美术馆",
+    "name_en": "New Orleans Museum of Art",
+    "city": "新奥尔良",
+    "lon": -90.08,
+    "lat": 29.97,
+    "url": "https://noma.org/",
+    "coordinate_note": "按馆方位置作城市级示意；不是精确入口坐标。"
+  }
+]

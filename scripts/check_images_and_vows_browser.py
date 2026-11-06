@@ -33,13 +33,26 @@ with sync_playwright() as p:
   page.locator('.iv-filters button[type=reset]').click();expect(page.locator('.iv-catalogue li:visible')).to_have_count(15)
   page.locator('#iv-search').fill('法兴');expect(page.locator('.iv-catalogue li:visible')).to_have_count(1)
   page.locator('.iv-catalogue li:visible>a').click();expect(page.locator('h1')).to_have_text('法兴造释迦三尊像');overflow()
-  for slug in ['faxing-526','na-494-yin','na-537-lotus','met-528-yiyi','met-543-yiyi']:
-   page.goto(url+slug+'/');overflow();gallery=page.locator('.iv-gallery');tabs=gallery.locator('.iv-gallery-tabs button')
+  for slug in ['faxing-526','na-494-yin','cd-490-fahai','na-537-lotus','met-528-yiyi','met-543-yiyi','penn-575-c429']:
+   print('Viewport',width,slug,flush=True);page.goto(url+slug+'/');overflow();gallery=page.locator('.iv-gallery');tabs=gallery.locator('.iv-gallery-tabs button')
    for tab in tabs.all():
-    tab.focus();page.keyboard.press('Enter');imagecheck(gallery.locator('.iv-figure:visible img'));lightbox(gallery.locator('.iv-figure:visible a[data-photo]'));overflow()
-   gallery.locator('[data-all]').click();expect(gallery.locator('[data-all]')).to_have_attribute('aria-expanded','true')
+    tab.press('Enter');imagecheck(gallery.locator('.iv-figure:visible img'));lightbox(gallery.locator('.iv-figure:visible a[data-photo]'));overflow()
+   multiple=gallery.locator('.iv-figure').count()>1
+   if multiple:
+    gallery.locator('[data-all]').click();expect(gallery.locator('[data-all]')).to_have_attribute('aria-expanded','true')
    for im in gallery.locator('.iv-figure img').all():imagecheck(im)
-   gallery.locator('[data-all]').click();expect(gallery.locator('.iv-figure:visible')).to_have_count(1)
+   if multiple:gallery.locator('[data-all]').click()
+   expect(gallery.locator('.iv-figure:visible')).to_have_count(1)
+   for anchor in ['inscription-terms','inscription-variants']:
+    if page.locator('#'+anchor).count():
+     page.locator('.iv-reading-nav a[href="#'+anchor+'"]').click();expect(page.locator('#'+anchor)).to_have_attribute('open','');overflow()
+   if page.locator('.iv-photo-links a').count():
+    link=page.locator('.iv-photo-links a').last;target=link.get_attribute('href');link.click()
+    expect(page.locator(target)).to_be_visible();imagecheck(page.locator(target+' img'))
+    # Selecting another gallery view must not break a repeat link to the same hash.
+    tabs.first.click();link.click();expect(page.locator(target)).to_be_visible()
+   if slug=='na-494-yin':
+    page.locator('#inscription-passage-1').scroll_into_view_if_needed();page.screenshot(path=f'/tmp/vows-passage-{width}.png')
    if page.locator('#full-inscription').count():
     page.goto(url+slug+'/#full-inscription');expect(page.locator('#full-inscription')).to_have_attribute('open','');page.wait_for_function('Math.abs(document.getElementById("full-inscription").getBoundingClientRect().top)<80');overflow()
     if slug=='met-543-yiyi':page.screenshot(path=f'/tmp/vows-transcription-{width}.png')

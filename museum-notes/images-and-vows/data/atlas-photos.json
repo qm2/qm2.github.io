@@ -1,0 +1,2783 @@
+{
+  "1778": {
+    "number": 1778,
+    "original": "images/originals/Image_20261106003409_1778_19.jpg",
+    "file": "images/1778-900.webp",
+    "variants": [
+      {
+        "file": "images/1778-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1778-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1778-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "d0f8d0c5f38085ac8b28524a3f11e8dd3b73fe944440d1650debc09e2f0c6b3b",
+    "rotation_ccw": 0,
+    "caption": "背屏式佛造像正面",
+    "role": "front",
+    "work_id": "cd-undated-screen",
+    "original_filename": "Image_20261106003409_1778_19.jpg"
+  },
+  "1779": {
+    "number": 1779,
+    "original": "images/originals/Image_20261106003409_1779_19.jpg",
+    "file": "images/1779-900.webp",
+    "variants": [
+      {
+        "file": "images/1779-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1779-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1779-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1707,
+    "height": 1280,
+    "sha256": "fdb713952f6a4e504337aa47dd3424bb05aadea108e8007f9521610adaa8ade2",
+    "rotation_ccw": 0,
+    "caption": "背屏式佛造像现场展签",
+    "role": "label",
+    "work_id": "cd-undated-screen",
+    "original_filename": "Image_20261106003409_1779_19.jpg"
+  },
+  "1780": {
+    "number": 1780,
+    "original": "../images/originals/Image_20261106003409_1780_19.jpg",
+    "file": "../images/1780-900.webp",
+    "variants": [
+      {
+        "file": "../images/1780-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1780-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1780-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "a42880279b124a64ee02b80073ba4a005921afbc7ec1274261f56cb282707860",
+    "rotation_ccw": 0,
+    "caption": "两佛并坐与周围人物",
+    "role": "artwork",
+    "work_id": "cd-545-zhangyuan",
+    "original_filename": "Image_20261106003409_1780_19.jpg"
+  },
+  "1781": {
+    "number": 1781,
+    "original": "../images/originals/Image_20261106003409_1781_19.jpg",
+    "file": "../images/1781-900.webp",
+    "variants": [
+      {
+        "file": "../images/1781-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1781-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1781-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1707,
+    "height": 1280,
+    "sha256": "fbdc2e620e6ffbc0d57f56bd933f3801c6f2f23a7bde4ce3fc1caa362e5dd22d",
+    "rotation_ccw": 0,
+    "caption": "现场展签",
+    "role": "label",
+    "work_id": "cd-545-zhangyuan",
+    "original_filename": "Image_20261106003409_1781_19.jpg"
+  },
+  "1782": {
+    "number": 1782,
+    "original": "../images/originals/Image_20261106003409_1782_19.jpg",
+    "file": "../images/1782-900.webp",
+    "variants": [
+      {
+        "file": "../images/1782-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1782-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1782-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "03029142b3a2f02dd450becd9a58855965b15356474c3a86fe2e96fdea84e3b2",
+    "rotation_ccw": 0,
+    "caption": "主尊与四位胁侍",
+    "role": "artwork",
+    "work_id": "cd-511-wang",
+    "original_filename": "Image_20261106003409_1782_19.jpg"
+  },
+  "1783": {
+    "number": 1783,
+    "original": "../images/originals/Image_20261106003409_1783_19.jpg",
+    "file": "../images/1783-900.webp",
+    "variants": [
+      {
+        "file": "../images/1783-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1783-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1783-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1707,
+    "height": 1280,
+    "sha256": "9b066a81194d408081cf541aaab3a74fece5d1bc55eca5f0afb0a34226d6b391",
+    "rotation_ccw": 0,
+    "caption": "现场展签",
+    "role": "label",
+    "work_id": "cd-511-wang",
+    "original_filename": "Image_20261106003409_1783_19.jpg"
+  },
+  "1784": {
+    "number": 1784,
+    "original": "images/originals/Image_20261106003409_1784_19.jpg",
+    "file": "images/1784-900.webp",
+    "variants": [
+      {
+        "file": "images/1784-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1784-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1784-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "9a2e205c6312dcde1163350e0369c8eea4432df826cd473912a585b9b34bdea8",
+    "rotation_ccw": 0,
+    "caption": "佛头及下方现场展签",
+    "role": "front",
+    "work_id": "cd-buddha-head-1784",
+    "original_filename": "Image_20261106003409_1784_19.jpg"
+  },
+  "1785": {
+    "number": 1785,
+    "original": "../images/originals/Image_20261106003409_1785_19.jpg",
+    "file": "../images/1785-900.webp",
+    "variants": [
+      {
+        "file": "../images/1785-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1785-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1785-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "ee924bff5578c7e2522cdb31490383839678d2013a4397e9772c64c0b2e83a4b",
+    "rotation_ccw": 0,
+    "caption": "弥勒与两侧胁侍",
+    "role": "artwork",
+    "work_id": "cd-490-fahai",
+    "original_filename": "Image_20261106003409_1785_19.jpg"
+  },
+  "1786": {
+    "number": 1786,
+    "original": "../images/originals/Image_20261106003409_1786_19.jpg",
+    "file": "../images/1786-900.webp",
+    "variants": [
+      {
+        "file": "../images/1786-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1786-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1786-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1707,
+    "height": 1280,
+    "sha256": "02e9f174d2b4cf1b7ac7bcff656a64d59b19f3e1cf5a4dda9735153150bdca71",
+    "rotation_ccw": 0,
+    "caption": "现场展签",
+    "role": "label",
+    "work_id": "cd-490-fahai",
+    "original_filename": "Image_20261106003409_1786_19.jpg"
+  },
+  "1787": {
+    "number": 1787,
+    "original": "../images/originals/Image_20261106003409_1787_19.jpg",
+    "file": "../images/1787-900.webp",
+    "variants": [
+      {
+        "file": "../images/1787-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1787-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1787-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "6c951f95428922616d34c7ddae539f6351a2878f49296db0c726b82fa7ae9a4f",
+    "rotation_ccw": 0,
+    "caption": "主尊、胁侍与舟形背屏",
+    "role": "artwork",
+    "work_id": "cd-530-huangzang",
+    "original_filename": "Image_20261106003409_1787_19.jpg"
+  },
+  "1788": {
+    "number": 1788,
+    "original": "../images/originals/Image_20261106003409_1788_19.jpg",
+    "file": "../images/1788-900.webp",
+    "variants": [
+      {
+        "file": "../images/1788-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1788-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1788-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1707,
+    "height": 1280,
+    "sha256": "1d22b61b17f42f2ab82a7167dc7c0289ae663efd02cea12f8206e1ec00be7f7f",
+    "rotation_ccw": 0,
+    "caption": "现场展签",
+    "role": "label",
+    "work_id": "cd-530-huangzang",
+    "original_filename": "Image_20261106003409_1788_19.jpg"
+  },
+  "1801": {
+    "number": 1801,
+    "original": "images/originals/Image_20261106141114_1801_19.jpg",
+    "file": "images/1801-900.webp",
+    "variants": [
+      {
+        "file": "images/1801-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1801-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1801-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "0724411449af7660a13b4efae30aaeb36bc31ec7b25cb14ee6e62b956665aa4d",
+    "rotation_ccw": 0,
+    "caption": "如来三尊立像完整正面",
+    "role": "front",
+    "work_id": "other-1801",
+    "original_filename": "Image_20261106141114_1801_19.jpg"
+  },
+  "1802": {
+    "number": 1802,
+    "original": "images/originals/Image_20261106141114_1802_19.jpg",
+    "file": "images/1802-900.webp",
+    "variants": [
+      {
+        "file": "images/1802-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1802-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1802-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1706,
+    "height": 1280,
+    "sha256": "c60e210c17ae19a9b8fe6174f94578131cbe829540102dabdf8821ce22f615fd",
+    "rotation_ccw": 0,
+    "caption": "如来三尊立像现场展签",
+    "role": "label",
+    "work_id": "other-1801",
+    "original_filename": "Image_20261106141114_1802_19.jpg"
+  },
+  "1803": {
+    "number": 1803,
+    "original": "images/originals/Image_20261106141114_1803_19.jpg",
+    "file": "images/1803-900.webp",
+    "variants": [
+      {
+        "file": "images/1803-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1803-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1803-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "27d7f445c27841c44d2c626db0cda3a4a24529eadbdc8e831dd6ded954bd7095",
+    "rotation_ccw": 0,
+    "caption": "菩萨立像与刻文台座",
+    "role": "front",
+    "work_id": "other-1803",
+    "original_filename": "Image_20261106141114_1803_19.jpg"
+  },
+  "1804": {
+    "number": 1804,
+    "original": "images/originals/Image_20261106141114_1804_19.jpg",
+    "file": "images/1804-900.webp",
+    "variants": [
+      {
+        "file": "images/1804-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1804-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1804-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1702,
+    "height": 1276,
+    "sha256": "0b788824a35dd038a2e204845cbee37d23265a8bc69415aaaab90787ca7a41c2",
+    "rotation_ccw": 0,
+    "caption": "菩萨立像现场展签",
+    "role": "label",
+    "work_id": "other-1803",
+    "original_filename": "Image_20261106141114_1804_19.jpg"
+  },
+  "1805": {
+    "number": 1805,
+    "original": "images/originals/Image_20261106141114_1805_19.jpg",
+    "file": "images/1805-900.webp",
+    "variants": [
+      {
+        "file": "images/1805-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1805-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1805-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "b94ce0e7698ddc5e2d9d0134c16af5c918ab54f47527ed6d8e40b504c993273e",
+    "rotation_ccw": 0,
+    "caption": "释迦七尊像正面",
+    "role": "front",
+    "work_id": "shanxi-seven-figures-1805",
+    "original_filename": "Image_20261106141114_1805_19.jpg"
+  },
+  "1806": {
+    "number": 1806,
+    "original": "images/originals/Image_20261106141114_1806_19.jpg",
+    "file": "images/1806-900.webp",
+    "variants": [
+      {
+        "file": "images/1806-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1806-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1806-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "011021e1728f7091e2c10745ed3c61ab194709e39b3164c309d18a48fe311948",
+    "rotation_ccw": 0,
+    "caption": "释迦七尊像现场展签与台座细部",
+    "role": "label",
+    "work_id": "shanxi-seven-figures-1805",
+    "original_filename": "Image_20261106141114_1806_19.jpg"
+  },
+  "1807": {
+    "number": 1807,
+    "original": "images/originals/Image_20261106141114_1807_19.jpg",
+    "file": "images/1807-900.webp",
+    "variants": [
+      {
+        "file": "images/1807-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1807-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1807-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "13c776bbc3cb300371399e14a0757cc3f113be96e778ce7bbcad5f6242ffbc05",
+    "rotation_ccw": 0,
+    "caption": "双面碑的立佛与胁侍一面",
+    "role": "front",
+    "work_id": "guimet-ma6346",
+    "original_filename": "Image_20261106141114_1807_19.jpg"
+  },
+  "1808": {
+    "number": 1808,
+    "original": "images/originals/Image_20261106141114_1808_19.jpg",
+    "file": "images/1808-900.webp",
+    "variants": [
+      {
+        "file": "images/1808-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1808-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1808-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "83c0fce334905cc42c884d59ee4ce7bbf6fffada5f5efb9509444ec882d9571e",
+    "rotation_ccw": 0,
+    "caption": "双面碑的倚坐佛与千佛一面",
+    "role": "back",
+    "work_id": "guimet-ma6346",
+    "original_filename": "Image_20261106141114_1808_19.jpg"
+  },
+  "1809": {
+    "number": 1809,
+    "original": "images/originals/Image_20261106141114_1809_19.jpg",
+    "file": "images/1809-900.webp",
+    "variants": [
+      {
+        "file": "images/1809-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1809-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1809-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1702,
+    "height": 1276,
+    "sha256": "3b8ba143d4c504ab3b179180316153ba0b4761661670c3fa96537f7b86a45f42",
+    "rotation_ccw": 0,
+    "caption": "双面佛教造像碑现场展签",
+    "role": "label",
+    "work_id": "guimet-ma6346",
+    "original_filename": "Image_20261106141114_1809_19.jpg"
+  },
+  "1810": {
+    "number": 1810,
+    "original": "images/originals/Image_20261106141114_1810_19.jpg",
+    "file": "images/1810-900.webp",
+    "variants": [
+      {
+        "file": "images/1810-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1810-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1810-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "911f008f09cb833e5dc3f907a01bcd108eaf71019b3b7db8b7ad978b03097f5b",
+    "rotation_ccw": 0,
+    "caption": "三层造像碑正面",
+    "role": "front",
+    "work_id": "france-1810",
+    "original_filename": "Image_20261106141114_1810_19.jpg"
+  },
+  "1811": {
+    "number": 1811,
+    "original": "images/originals/Image_20261106141114_1811_19.jpg",
+    "file": "images/1811-900.webp",
+    "variants": [
+      {
+        "file": "images/1811-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1811-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1811-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1707,
+    "height": 1280,
+    "sha256": "35ab693398edb3497b6ec257231324b135d38964612cee621a84e68f03192f98",
+    "rotation_ccw": 90,
+    "caption": "佛教造像碑基本资料与说明",
+    "role": "label",
+    "work_id": "france-1810",
+    "original_filename": "Image_20261106141114_1811_19.jpg"
+  },
+  "1812": {
+    "number": 1812,
+    "original": "images/originals/Image_20261106141114_1812_19.jpg",
+    "file": "images/1812-900.webp",
+    "variants": [
+      {
+        "file": "images/1812-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1812-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1812-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1707,
+    "height": 1280,
+    "sha256": "827863152223035fb1c1edaf981954ded7d9e56d8c13da52a162368d5f33e3f8",
+    "rotation_ccw": 90,
+    "caption": "造像碑说明：佛教主题与故事",
+    "role": "label",
+    "work_id": "france-1810",
+    "original_filename": "Image_20261106141114_1812_19.jpg"
+  },
+  "1814": {
+    "number": 1814,
+    "original": "../images/originals/Image_20261106141114_1814_19.jpg",
+    "file": "../images/1814-900.webp",
+    "variants": [
+      {
+        "file": "../images/1814-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1814-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1814-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "8dd44b17d6a242a3680cd18bb090af532defce1d600ed0d1508b6962f31d95da",
+    "rotation_ccw": 0,
+    "caption": "燃灯佛与背光全貌",
+    "role": "artwork",
+    "work_id": "met-495-dipankara",
+    "original_filename": "Image_20261106141114_1814_19.jpg"
+  },
+  "1815": {
+    "number": 1815,
+    "original": "../images/originals/Image_20261106141114_1815_19.jpg",
+    "file": "../images/1815-900.webp",
+    "variants": [
+      {
+        "file": "../images/1815-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1815-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1815-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "ab52165931e47007efb211a13eec10ceed3fd8be80adadd4f0fbfb5d299406f3",
+    "rotation_ccw": 0,
+    "caption": "背面交脚坐像与石面",
+    "role": "artwork",
+    "work_id": "met-495-dipankara",
+    "original_filename": "Image_20261106141114_1815_19.jpg"
+  },
+  "1816": {
+    "number": 1816,
+    "original": "../images/originals/Image_20261106141114_1816_19.jpg",
+    "file": "../images/1816-900.webp",
+    "variants": [
+      {
+        "file": "../images/1816-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1816-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1816-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1702,
+    "height": 1276,
+    "sha256": "43a5fe68e1b47a59d6971a9f27497458811c0015619d4f00660eeb9ceb79185c",
+    "rotation_ccw": 0,
+    "caption": "现场展签",
+    "role": "label",
+    "work_id": "met-495-dipankara",
+    "original_filename": "Image_20261106141114_1816_19.jpg"
+  },
+  "1817": {
+    "number": 1817,
+    "original": "../images/originals/Image_20261106141114_1817_19.jpg",
+    "file": "../images/1817-900.webp",
+    "variants": [
+      {
+        "file": "../images/1817-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1817-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1817-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "5413c5dc698aac1a3ac697624439a29d71bd14bcf2eaf1b4012dde8b9381cd97",
+    "rotation_ccw": 0,
+    "caption": "正面主尊与供养人行列",
+    "role": "artwork",
+    "work_id": "met-528-yiyi",
+    "original_filename": "Image_20261106141114_1817_19.jpg"
+  },
+  "1818": {
+    "number": 1818,
+    "original": "../images/originals/Image_20261106141114_1818_19.jpg",
+    "file": "../images/1818-900.webp",
+    "variants": [
+      {
+        "file": "../images/1818-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1818-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1818-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "8807a6d421ed252bb69367d7ece2882a565d1f0147471d526d3c2197331d4af6",
+    "rotation_ccw": 0,
+    "caption": "背面造像与供养人行列",
+    "role": "artwork",
+    "work_id": "met-528-yiyi",
+    "original_filename": "Image_20261106141114_1818_19.jpg"
+  },
+  "1819": {
+    "number": 1819,
+    "original": "../images/originals/Image_20261106141114_1819_19.jpg",
+    "file": "../images/1819-900.webp",
+    "variants": [
+      {
+        "file": "../images/1819-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1819-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1819-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1702,
+    "height": 1276,
+    "sha256": "8ba3c62713da6e16cfbe349b5ddfb202ebbb977b1c542830c1dfffd3dc3a5327",
+    "rotation_ccw": 0,
+    "caption": "现场展签",
+    "role": "label",
+    "work_id": "met-528-yiyi",
+    "original_filename": "Image_20261106141114_1819_19.jpg"
+  },
+  "1820": {
+    "number": 1820,
+    "original": "../images/originals/Image_20261106141114_1820_19.jpg",
+    "file": "../images/1820-900.webp",
+    "variants": [
+      {
+        "file": "../images/1820-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1820-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1820-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "c297cda0448ee338abb011c870da86b4c5ec378abd1c1b2921e73f419650587b",
+    "rotation_ccw": 0,
+    "caption": "正面佛龛与侧面",
+    "role": "artwork",
+    "work_id": "met-543-yiyi",
+    "original_filename": "Image_20261106141114_1820_19.jpg"
+  },
+  "1821": {
+    "number": 1821,
+    "original": "../images/originals/Image_20261106141114_1821_19.jpg",
+    "file": "../images/1821-900.webp",
+    "variants": [
+      {
+        "file": "../images/1821-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1821-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1821-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "7f6029b45fd8eaf3790ee71d159f40bc7fd9f306d115e22de76233f4422be54a",
+    "rotation_ccw": 0,
+    "caption": "背面层层排列的小佛",
+    "role": "artwork",
+    "work_id": "met-543-yiyi",
+    "original_filename": "Image_20261106141114_1821_19.jpg"
+  },
+  "1822": {
+    "number": 1822,
+    "original": "../images/originals/Image_20261106141114_1822_19.jpg",
+    "file": "../images/1822-900.webp",
+    "variants": [
+      {
+        "file": "../images/1822-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1822-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1822-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "f6844129e8ee33285f27de8a91892308851c0ea00b7cffa717341a293c505e5f",
+    "rotation_ccw": 0,
+    "caption": "现场展签",
+    "role": "label",
+    "work_id": "met-543-yiyi",
+    "original_filename": "Image_20261106141114_1822_19.jpg"
+  },
+  "1823": {
+    "number": 1823,
+    "original": "images/originals/Image_20261106141114_1823_19.jpg",
+    "file": "images/1823-900.webp",
+    "variants": [
+      {
+        "file": "images/1823-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1823-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1823-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "d038ba8d6ccc767cd72403a2470bfe8d2865e5eccf8ea566132936886cc9cb4d",
+    "rotation_ccw": 0,
+    "caption": "四佛塔的门道、中央柱与护卫形象",
+    "role": "front",
+    "work_id": "met-1823",
+    "original_filename": "Image_20261106141114_1823_19.jpg"
+  },
+  "1824": {
+    "number": 1824,
+    "original": "images/originals/Image_20261106141114_1824_19.jpg",
+    "file": "images/1824-900.webp",
+    "variants": [
+      {
+        "file": "images/1824-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1824-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1824-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1702,
+    "height": 1276,
+    "sha256": "6f6bf13e8dbc7aba0c570768a3433707da5279e5f26f78a9383867b05ab43cdb",
+    "rotation_ccw": 0,
+    "caption": "彩绘石雕四佛塔现场展签",
+    "role": "label",
+    "work_id": "met-1823",
+    "original_filename": "Image_20261106141114_1824_19.jpg"
+  },
+  "1830": {
+    "number": 1830,
+    "original": "../images/originals/Image_20261106141114_1830_19.jpg",
+    "file": "../images/1830-900.webp",
+    "variants": [
+      {
+        "file": "../images/1830-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1830-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1830-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "0b59ed8cbecb2519e5a5dde4f51b5d2caacc8fa06a05b4719918daddbe251768",
+    "rotation_ccw": 0,
+    "caption": "正面立佛与残存色彩",
+    "role": "artwork",
+    "work_id": "cle-570s-dual",
+    "original_filename": "Image_20261106141114_1830_19.jpg"
+  },
+  "1831": {
+    "number": 1831,
+    "original": "../images/originals/Image_20261106141114_1831_19.jpg",
+    "file": "../images/1831-900.webp",
+    "variants": [
+      {
+        "file": "../images/1831-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1831-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1831-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "910a72cbad621315451fef09316016768d4ad4505f1511461098e08cf6582183",
+    "rotation_ccw": 0,
+    "caption": "背面交脚坐像",
+    "role": "artwork",
+    "work_id": "cle-570s-dual",
+    "original_filename": "Image_20261106141114_1831_19.jpg"
+  },
+  "1832": {
+    "number": 1832,
+    "original": "../images/originals/Image_20261106141114_1832_19.jpg",
+    "file": "../images/1832-900.webp",
+    "variants": [
+      {
+        "file": "../images/1832-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1832-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1832-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1707,
+    "height": 1280,
+    "sha256": "db8c34e96455567c67aed62131584ca4d6eb2003f30d70d969c7290dad9265f6",
+    "rotation_ccw": 90,
+    "caption": "现场展签",
+    "role": "label",
+    "work_id": "cle-570s-dual",
+    "original_filename": "Image_20261106141114_1832_19.jpg"
+  },
+  "1833": {
+    "number": 1833,
+    "original": "../images/originals/Image_20261106141114_1833_19.jpg",
+    "file": "../images/1833-900.webp",
+    "variants": [
+      {
+        "file": "../images/1833-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1833-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1833-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "306b91e82daab48a08a892453ff85ae6f6b1f502751381cfb4650c565dc33fae",
+    "rotation_ccw": 0,
+    "caption": "正面三尊与底部供养人",
+    "role": "artwork",
+    "work_id": "cle-537-yuanning",
+    "original_filename": "Image_20261106141114_1833_19.jpg"
+  },
+  "1834": {
+    "number": 1834,
+    "original": "../images/originals/Image_20261106141114_1834_19.jpg",
+    "file": "../images/1834-900.webp",
+    "variants": [
+      {
+        "file": "../images/1834-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1834-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1834-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "39723b885b82202e1abd0cf3fd513caf8cd159028e913c5c4dc6f652001cedcc",
+    "rotation_ccw": 0,
+    "caption": "背面题记的位置与布局",
+    "role": "artwork",
+    "work_id": "cle-537-yuanning",
+    "original_filename": "Image_20261106141114_1834_19.jpg"
+  },
+  "1835": {
+    "number": 1835,
+    "original": "../images/originals/Image_20261106141114_1835_19.jpg",
+    "file": "../images/1835-900.webp",
+    "variants": [
+      {
+        "file": "../images/1835-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1835-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1835-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "3c20d5f7342583b2dee085af02c2ce864aa095e93f33adfb9fb2a2009e4a92a0",
+    "rotation_ccw": 0,
+    "caption": "侧面人物与背屏边缘",
+    "role": "artwork",
+    "work_id": "cle-537-yuanning",
+    "original_filename": "Image_20261106141114_1835_19.jpg"
+  },
+  "1836": {
+    "number": 1836,
+    "original": "../images/originals/Image_20261106141114_1836_19.jpg",
+    "file": "../images/1836-900.webp",
+    "variants": [
+      {
+        "file": "../images/1836-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1836-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1836-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1702,
+    "height": 1276,
+    "sha256": "8d05ba47545f3e1c9e8c8aeaacc1c107f761c88663f8df4c3e53eb0ae6fba41f",
+    "rotation_ccw": 0,
+    "caption": "现场展签",
+    "role": "label",
+    "work_id": "cle-537-yuanning",
+    "original_filename": "Image_20261106141114_1836_19.jpg"
+  },
+  "1837": {
+    "number": 1837,
+    "original": "../images/originals/Image_20261106141114_1837_19.jpg",
+    "file": "../images/1837-900.webp",
+    "variants": [
+      {
+        "file": "../images/1837-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1837-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1837-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "f88a62ec368ede304ba7ee8596419119561aa502840045add8b78763660fb319",
+    "rotation_ccw": 0,
+    "caption": "正面弥勒与二胁侍",
+    "role": "artwork",
+    "work_id": "cle-500-maitreya",
+    "original_filename": "Image_20261106141114_1837_19.jpg"
+  },
+  "1838": {
+    "number": 1838,
+    "original": "../images/originals/Image_20261106141114_1838_19.jpg",
+    "file": "../images/1838-900.webp",
+    "variants": [
+      {
+        "file": "../images/1838-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1838-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1838-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "d13dbf06da76ed2b5a9dc6ce448fe8cb7e8d71f8c8b6c01df8d768f422ec190e",
+    "rotation_ccw": 0,
+    "caption": "背面图像与题记",
+    "role": "artwork",
+    "work_id": "cle-500-maitreya",
+    "original_filename": "Image_20261106141114_1838_19.jpg"
+  },
+  "1839": {
+    "number": 1839,
+    "original": "../images/originals/Image_20261106141114_1839_19.jpg",
+    "file": "../images/1839-900.webp",
+    "variants": [
+      {
+        "file": "../images/1839-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1839-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1839-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 960,
+    "sha256": "25d183af13492b90f8492f4fec78055fc906e93903e3f347eb43fa0f3ec149ff",
+    "rotation_ccw": 90,
+    "caption": "现场展签",
+    "role": "label",
+    "work_id": "cle-500-maitreya",
+    "original_filename": "Image_20261106141114_1839_19.jpg"
+  },
+  "1840": {
+    "number": 1840,
+    "original": "../images/originals/Image_20261106141114_1840_19.jpg",
+    "file": "../images/1840-900.webp",
+    "variants": [
+      {
+        "file": "../images/1840-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1840-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1840-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "97825a6b927c8ee03131f703f84eeff9c0bdaed59c3ccc00b33a548e878a1d9a",
+    "rotation_ccw": 0,
+    "caption": "主尊、胁侍与台座双狮",
+    "role": "artwork",
+    "work_id": "mfah-526-faxing",
+    "original_filename": "Image_20261106141114_1840_19.jpg"
+  },
+  "1841": {
+    "number": 1841,
+    "original": "../images/originals/Image_20261106141114_1841_19.jpg",
+    "file": "../images/1841-900.webp",
+    "variants": [
+      {
+        "file": "../images/1841-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1841-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1841-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1702,
+    "height": 1276,
+    "sha256": "2dd5f5c1822f6488bdd0c5bb38fa0490f0f690c4f8ca64e5c8da02190300f714",
+    "rotation_ccw": 0,
+    "caption": "台座发愿文细部",
+    "role": "artwork",
+    "work_id": "mfah-526-faxing",
+    "original_filename": "Image_20261106141114_1841_19.jpg"
+  },
+  "1842": {
+    "number": 1842,
+    "original": "../images/originals/Image_20261106141114_1842_19.jpg",
+    "file": "../images/1842-900.webp",
+    "variants": [
+      {
+        "file": "../images/1842-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1842-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1842-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1702,
+    "height": 1276,
+    "sha256": "107b667b4c6ac635600b90fb3cc23a30696a64ed14fa66649d9fc14843c43598",
+    "rotation_ccw": 0,
+    "caption": "现场展签",
+    "role": "label",
+    "work_id": "mfah-526-faxing",
+    "original_filename": "Image_20261106141114_1842_19.jpg"
+  },
+  "1843": {
+    "number": 1843,
+    "original": "images/originals/Image_20261106141114_1843_19.jpg",
+    "file": "images/1843-900.webp",
+    "variants": [
+      {
+        "file": "images/1843-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1843-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1843-1276.webp",
+        "width": 1276
+      }
+    ],
+    "width": 1276,
+    "height": 1702,
+    "sha256": "71a99c900acfb871e1e3b873ebd5b98cda26a24a4b74962fffceac6507b1537f",
+    "rotation_ccw": 0,
+    "caption": "坐佛与胁侍，上部莲花中的小坐像",
+    "role": "front",
+    "work_id": "mfa-1843",
+    "original_filename": "Image_20261106141114_1843_19.jpg"
+  },
+  "1844": {
+    "number": 1844,
+    "original": "images/originals/Image_20261106141114_1844_19.jpg",
+    "file": "images/1844-900.webp",
+    "variants": [
+      {
+        "file": "images/1844-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1844-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1844-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "905a9cdbf225d1906dc3da60f848b8ddb33e6f536c12b866c46f70646dc778cc",
+    "rotation_ccw": 0,
+    "caption": "现场展签：北齐佛教供养碑，2014.39",
+    "role": "label",
+    "work_id": "mfa-1843",
+    "original_filename": "Image_20261106141114_1844_19.jpg"
+  },
+  "1845": {
+    "number": 1845,
+    "original": "images/originals/Image_20261106141114_1845_19.jpg",
+    "file": "images/1845-900.webp",
+    "variants": [
+      {
+        "file": "images/1845-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1845-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1845-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "c5ce0b0520cad69344b4927ed354bcfa40f8e776710c2ee9b5c439e3b4adc9d4",
+    "rotation_ccw": 0,
+    "caption": "佛衣正面的佛教世界图像与双足",
+    "role": "front",
+    "work_id": "freer-cosmic-buddha",
+    "original_filename": "Image_20261106141114_1845_19.jpg"
+  },
+  "1846": {
+    "number": 1846,
+    "original": "images/originals/Image_20261106141114_1846_19.jpg",
+    "file": "images/1846-900.webp",
+    "variants": [
+      {
+        "file": "images/1846-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1846-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1846-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "929c292e5862a8775e8369c0273533abb77954186ecc809ca1e043be9121d0b1",
+    "rotation_ccw": 0,
+    "caption": "佛衣背面的浅浮雕场景",
+    "role": "back",
+    "work_id": "freer-cosmic-buddha",
+    "original_filename": "Image_20261106141114_1846_19.jpg"
+  },
+  "1847": {
+    "number": 1847,
+    "original": "images/originals/Image_20261106141114_1847_19.jpg",
+    "file": "images/1847-900.webp",
+    "variants": [
+      {
+        "file": "images/1847-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1847-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1847-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1707,
+    "height": 1280,
+    "sha256": "e8e3e5358c488589fff2ed3813b12481be9b19d9e2c0a1de71db4d37f4be9a10",
+    "rotation_ccw": 90,
+    "caption": "现场展签：The Cosmic Buddha",
+    "role": "label",
+    "work_id": "freer-cosmic-buddha",
+    "original_filename": "Image_20261106141114_1847_19.jpg"
+  },
+  "1848": {
+    "number": 1848,
+    "original": "images/originals/Image_20261106141114_1848_19.jpg",
+    "file": "images/1848-900.webp",
+    "variants": [
+      {
+        "file": "images/1848-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1848-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1848-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "6a2c45faa7268948559376be19199ea3fd843e64088dbc0d8e81e1188ae0bd2f",
+    "rotation_ccw": 0,
+    "caption": "双思惟菩萨与镂空树形背屏",
+    "role": "front",
+    "work_id": "museum-1848",
+    "original_filename": "Image_20261106141114_1848_19.jpg"
+  },
+  "1849": {
+    "number": 1849,
+    "original": "images/originals/Image_20261106141114_1849_19.jpg",
+    "file": "images/1849-900.webp",
+    "variants": [
+      {
+        "file": "images/1849-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1849-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1849-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 960,
+    "sha256": "55b4a66526259642257b0321cf645f13fa481cba32b586c5573f889d64718079",
+    "rotation_ccw": 0,
+    "caption": "台座背面题记位置",
+    "role": "inscription",
+    "work_id": "museum-1848",
+    "original_filename": "Image_20261106141114_1849_19.jpg"
+  },
+  "1850": {
+    "number": 1850,
+    "original": "images/originals/Image_20261106141114_1850_19.jpg",
+    "file": "images/1850-900.webp",
+    "variants": [
+      {
+        "file": "images/1850-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1850-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1850-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1707,
+    "height": 1280,
+    "sha256": "9318437c52ea52d9cbb20e43845314da30df6fe927b719a25e9786e1f83632d7",
+    "rotation_ccw": 0,
+    "caption": "现场说明：供养与再次奉献",
+    "role": "label",
+    "work_id": "museum-1848",
+    "original_filename": "Image_20261106141114_1850_19.jpg"
+  },
+  "1851": {
+    "number": 1851,
+    "original": "images/originals/Image_20261106141114_1851_19.jpg",
+    "file": "images/1851-900.webp",
+    "variants": [
+      {
+        "file": "images/1851-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1851-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1851-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1707,
+    "height": 1280,
+    "sha256": "f8a4940daa848aa65a9c38a0aab6734c5f56695a1deb41c958740d437fb2bf9b",
+    "rotation_ccw": 0,
+    "caption": "现场展签：565年多佛造像碑",
+    "role": "label",
+    "work_id": "museum-1848",
+    "original_filename": "Image_20261106141114_1851_19.jpg"
+  },
+  "1852": {
+    "number": 1852,
+    "original": "images/originals/Image_20261106141114_1852_19.jpg",
+    "file": "images/1852-900.webp",
+    "variants": [
+      {
+        "file": "images/1852-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1852-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1852-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "5856e179bf3d33330fa30d0236f8a42fc3cdab9f3f8883eadb9a420569577175",
+    "rotation_ccw": 0,
+    "caption": "思惟主尊及两侧眷属",
+    "role": "front",
+    "work_id": "museum-1852",
+    "original_filename": "Image_20261106141114_1852_19.jpg"
+  },
+  "1853": {
+    "number": 1853,
+    "original": "images/originals/Image_20261106141114_1853_19.jpg",
+    "file": "images/1853-900.webp",
+    "variants": [
+      {
+        "file": "images/1853-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1853-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1853-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "6bb14f4aa1342495b7eea2d04c0c2aee11f7659d256af87b8162ff0aa49185d3",
+    "rotation_ccw": 0,
+    "caption": "背面浅刻佛像与图像线条",
+    "role": "back",
+    "work_id": "museum-1852",
+    "original_filename": "Image_20261106141114_1853_19.jpg"
+  },
+  "1854": {
+    "number": 1854,
+    "original": "images/originals/Image_20261106141114_1854_19.jpg",
+    "file": "images/1854-900.webp",
+    "variants": [
+      {
+        "file": "images/1854-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1854-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1854-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1707,
+    "height": 1280,
+    "sha256": "70caf2a83233e38e5ab5e6d2a82d4ce301f679eb60a7f3ae54ad287706d511b9",
+    "rotation_ccw": 90,
+    "caption": "现场展签：Future Buddha and Company",
+    "role": "label",
+    "work_id": "museum-1852",
+    "original_filename": "Image_20261106141114_1854_19.jpg"
+  },
+  "1855": {
+    "number": 1855,
+    "original": "../images/originals/Image_20261106141114_1855_19.jpg",
+    "file": "../images/1855-900.webp",
+    "variants": [
+      {
+        "file": "../images/1855-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1855-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1855-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "010e7baeca94942d610ae7402a8683117fd81fe2244102f0912276b11c0299c7",
+    "rotation_ccw": 0,
+    "caption": "立佛一面全貌",
+    "role": "artwork",
+    "work_id": "na-569-daolin",
+    "original_filename": "Image_20261106141114_1855_19.jpg"
+  },
+  "1856": {
+    "number": 1856,
+    "original": "../images/originals/Image_20261106141114_1856_19.jpg",
+    "file": "../images/1856-900.webp",
+    "variants": [
+      {
+        "file": "../images/1856-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1856-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1856-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "a380458295fb05702958749ed4bb57c688113cb6a9766005b031c7aa12f9af5e",
+    "rotation_ccw": 0,
+    "caption": "坐佛一面全貌",
+    "role": "artwork",
+    "work_id": "na-569-daolin",
+    "original_filename": "Image_20261106141114_1856_19.jpg"
+  },
+  "1857": {
+    "number": 1857,
+    "original": "../images/originals/Image_20261106141114_1857_19.jpg",
+    "file": "../images/1857-900.webp",
+    "variants": [
+      {
+        "file": "../images/1857-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1857-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1857-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "133e24c0d48a425ca9507f5dd05a3a961291acb2d444a554cbdcd844abbafd80",
+    "rotation_ccw": 0,
+    "caption": "侧面题记与石碑厚度",
+    "role": "artwork",
+    "work_id": "na-569-daolin",
+    "original_filename": "Image_20261106141114_1857_19.jpg"
+  },
+  "1858": {
+    "number": 1858,
+    "original": "../images/originals/Image_20261106141114_1858_19.jpg",
+    "file": "../images/1858-900.webp",
+    "variants": [
+      {
+        "file": "../images/1858-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1858-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1858-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "8db2cf773acc4592b040e08083b8f0ea1e030804f13b18ec4ae129dda6ad264a",
+    "rotation_ccw": 0,
+    "caption": "立佛一面的面容与背光",
+    "role": "artwork",
+    "work_id": "na-569-daolin",
+    "original_filename": "Image_20261106141114_1858_19.jpg"
+  },
+  "1859": {
+    "number": 1859,
+    "original": "../images/originals/Image_20261106141114_1859_19.jpg",
+    "file": "../images/1859-900.webp",
+    "variants": [
+      {
+        "file": "../images/1859-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1859-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1859-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "d859124194d3b280758db8a5934357392054a4fce0229794893e695b907cf5cc",
+    "rotation_ccw": 0,
+    "caption": "坐佛一面的主龛",
+    "role": "artwork",
+    "work_id": "na-569-daolin",
+    "original_filename": "Image_20261106141114_1859_19.jpg"
+  },
+  "1860": {
+    "number": 1860,
+    "original": "../images/originals/Image_20261106141114_1860_19.jpg",
+    "file": "../images/1860-900.webp",
+    "variants": [
+      {
+        "file": "../images/1860-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1860-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1860-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "343b996b1193c07dbc904eed6eba071fcc8959073b7aed5b11493380016d764e",
+    "rotation_ccw": 0,
+    "caption": "现场展签",
+    "role": "label",
+    "work_id": "na-569-daolin",
+    "original_filename": "Image_20261106141114_1860_19.jpg"
+  },
+  "1861": {
+    "number": 1861,
+    "original": "../images/originals/Image_20261106141114_1861_19.jpg",
+    "file": "../images/1861-900.webp",
+    "variants": [
+      {
+        "file": "../images/1861-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1861-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1861-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "53b2cedd4d12d6fb996ab7ff4c531490dec7d4a2a2db647ec199a716e1d7f353",
+    "rotation_ccw": 0,
+    "caption": "正面层层排列的佛龛",
+    "role": "artwork",
+    "work_id": "na-537-lotus",
+    "original_filename": "Image_20261106141114_1861_19.jpg"
+  },
+  "1862": {
+    "number": 1862,
+    "original": "../images/originals/Image_20261106141114_1862_19.jpg",
+    "file": "../images/1862-900.webp",
+    "variants": [
+      {
+        "file": "../images/1862-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1862-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1862-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "1650247a70893b6c8ff993cfc35899f013e4ede4092f99e149efd5da659099b6",
+    "rotation_ccw": 0,
+    "caption": "背面与供养人行列",
+    "role": "artwork",
+    "work_id": "na-537-lotus",
+    "original_filename": "Image_20261106141114_1862_19.jpg"
+  },
+  "1863": {
+    "number": 1863,
+    "original": "../images/originals/Image_20261106141114_1863_19.jpg",
+    "file": "../images/1863-900.webp",
+    "variants": [
+      {
+        "file": "../images/1863-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1863-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1863-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "9997e30db02000f376b89b3abf8b136dcecab81e3e5329988f3c6c529947cf34",
+    "rotation_ccw": 0,
+    "caption": "现场展签",
+    "role": "label",
+    "work_id": "na-537-lotus",
+    "original_filename": "Image_20261106141114_1863_19.jpg"
+  },
+  "1864": {
+    "number": 1864,
+    "original": "../images/originals/Image_20261106141114_1864_19.jpg",
+    "file": "../images/1864-900.webp",
+    "variants": [
+      {
+        "file": "../images/1864-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1864-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1864-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "09e5cdd494cf9706b9b5942335d3d019a2ba0687534b800ecdd2f16600f78a9b",
+    "rotation_ccw": 0,
+    "caption": "正面坐佛与背屏",
+    "role": "artwork",
+    "work_id": "na-494-yin",
+    "original_filename": "Image_20261106141114_1864_19.jpg"
+  },
+  "1865": {
+    "number": 1865,
+    "original": "../images/originals/Image_20261106141114_1865_19.jpg",
+    "file": "../images/1865-900.webp",
+    "variants": [
+      {
+        "file": "../images/1865-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1865-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1865-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "b5f7bd30db7f44a90168cd49bd14c393b6e1a16a0ecf75f9f4b3a6322f00b6c4",
+    "rotation_ccw": 0,
+    "caption": "背面题记的上部",
+    "role": "artwork",
+    "work_id": "na-494-yin",
+    "original_filename": "Image_20261106141114_1865_19.jpg"
+  },
+  "1866": {
+    "number": 1866,
+    "original": "../images/originals/Image_20261106141114_1866_19.jpg",
+    "file": "../images/1866-900.webp",
+    "variants": [
+      {
+        "file": "../images/1866-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1866-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1866-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "85ad4f0f01308fc33a9d753b5aecc56c3816bd7a3980af49fb158c1234a8d081",
+    "rotation_ccw": 0,
+    "caption": "背面题记近照",
+    "role": "artwork",
+    "work_id": "na-494-yin",
+    "original_filename": "Image_20261106141114_1866_19.jpg"
+  },
+  "1867": {
+    "number": 1867,
+    "original": "../images/originals/Image_20261106141114_1867_19.jpg",
+    "file": "../images/1867-900.webp",
+    "variants": [
+      {
+        "file": "../images/1867-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1867-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1867-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "8ebb05d3bc185db2e4458f6c530c42514f3b21344b950550f4d33d3f7dfd47ef",
+    "rotation_ccw": 0,
+    "caption": "现场展签",
+    "role": "label",
+    "work_id": "na-494-yin",
+    "original_filename": "Image_20261106141114_1867_19.jpg"
+  },
+  "1868": {
+    "number": 1868,
+    "original": "../images/originals/Image_20261106141114_1868_19.jpg",
+    "file": "../images/1868-900.webp",
+    "variants": [
+      {
+        "file": "../images/1868-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1868-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1868-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "c72f2636c772a562c71960d21f4165124d0d1eb7f6ad726a2822ccb1cf04b90a",
+    "rotation_ccw": 0,
+    "caption": "主龛与环绕的火焰纹",
+    "role": "artwork",
+    "work_id": "na-537-lotus",
+    "original_filename": "Image_20261106141114_1868_19.jpg"
+  },
+  "1869": {
+    "number": 1869,
+    "original": "../images/originals/Image_20261106141114_1869_19.jpg",
+    "file": "../images/1869-900.webp",
+    "variants": [
+      {
+        "file": "../images/1869-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1869-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1869-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "d9d660d8e5534032329f265403a76de99cf76bbcb337b37ae9ddf3da34eff06a",
+    "rotation_ccw": 0,
+    "caption": "主龛下方的供物、双狮与人物行列",
+    "role": "artwork",
+    "work_id": "na-537-lotus",
+    "original_filename": "Image_20261106141114_1869_19.jpg"
+  },
+  "1870": {
+    "number": 1870,
+    "original": "../images/originals/Image_20261106141114_1870_19.jpg",
+    "file": "../images/1870-900.webp",
+    "variants": [
+      {
+        "file": "../images/1870-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1870-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1870-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "70f1e790591d58d740b4bdb4f856ec6649e8dc4124fd032d36c09d87ac13f509",
+    "rotation_ccw": 0,
+    "caption": "背面上部图像",
+    "role": "artwork",
+    "work_id": "na-537-lotus",
+    "original_filename": "Image_20261106141114_1870_19.jpg"
+  },
+  "1871": {
+    "number": 1871,
+    "original": "../images/originals/Image_20261106141114_1871_19.jpg",
+    "file": "../images/1871-900.webp",
+    "variants": [
+      {
+        "file": "../images/1871-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1871-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1871-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "e8512acdd1a333606351e4a14596423358a0f93b6de4c5932de3ead336b53548",
+    "rotation_ccw": 0,
+    "caption": "背面下方的供养人与题记",
+    "role": "artwork",
+    "work_id": "na-537-lotus",
+    "original_filename": "Image_20261106141114_1871_19.jpg"
+  },
+  "1872": {
+    "number": 1872,
+    "original": "../images/originals/Image_20261106141114_1872_19.jpg",
+    "file": "../images/1872-900.webp",
+    "variants": [
+      {
+        "file": "../images/1872-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1872-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1872-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1702,
+    "height": 1276,
+    "sha256": "a82bf9d19dcde75f2ce2987512340a31820653c08d1b4ba440c544cc8af1fc77",
+    "rotation_ccw": 0,
+    "caption": "主龛佛与胁侍细部",
+    "role": "artwork",
+    "work_id": "na-537-lotus",
+    "original_filename": "Image_20261106141114_1872_19.jpg"
+  },
+  "1873": {
+    "number": 1873,
+    "original": "../images/originals/Image_20261106141114_1873_19.jpg",
+    "file": "../images/1873-900.webp",
+    "variants": [
+      {
+        "file": "../images/1873-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1873-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1873-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1702,
+    "height": 1276,
+    "sha256": "b27aac297fff6ad0da3314abec44d68181e6c987dd7019200a49f80d7e33d441",
+    "rotation_ccw": 0,
+    "caption": "火焰上方的小塔",
+    "role": "artwork",
+    "work_id": "na-537-lotus",
+    "original_filename": "Image_20261106141114_1873_19.jpg"
+  },
+  "1874": {
+    "number": 1874,
+    "original": "../images/originals/Image_20261106141114_1874_19.jpg",
+    "file": "../images/1874-900.webp",
+    "variants": [
+      {
+        "file": "../images/1874-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1874-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1874-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "ec7c1f01a1311eaaa149654a9c7ce2bcb8050411c797c3258e1e8025e87841ff",
+    "rotation_ccw": 0,
+    "caption": "现场展签",
+    "role": "label",
+    "work_id": "na-537-lotus",
+    "original_filename": "Image_20261106141114_1874_19.jpg"
+  },
+  "1875": {
+    "number": 1875,
+    "original": "../images/originals/Image_20261106141114_1875_19.jpg",
+    "file": "../images/1875-900.webp",
+    "variants": [
+      {
+        "file": "../images/1875-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1875-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1875-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "c818e1219594daa030713f38e24ac4f28bb6759776128ba8a445a1987298e167",
+    "rotation_ccw": 0,
+    "caption": "正面另一张现场照片",
+    "role": "artwork",
+    "work_id": "na-494-yin",
+    "original_filename": "Image_20261106141114_1875_19.jpg"
+  },
+  "1876": {
+    "number": 1876,
+    "original": "../images/originals/Image_20261106141114_1876_19.jpg",
+    "file": "../images/1876-900.webp",
+    "variants": [
+      {
+        "file": "../images/1876-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1876-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1876-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "772a2210a4eab7e644c8afa90959aed8ed66458b9f49739f7a2286ba7f22e93c",
+    "rotation_ccw": 0,
+    "caption": "背面小坐像与发愿文",
+    "role": "artwork",
+    "work_id": "na-494-yin",
+    "original_filename": "Image_20261106141114_1876_19.jpg"
+  },
+  "1877": {
+    "number": 1877,
+    "original": "../images/originals/Image_20261106141114_1877_19.jpg",
+    "file": "../images/1877-900.webp",
+    "variants": [
+      {
+        "file": "../images/1877-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1877-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1877-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1702,
+    "height": 1276,
+    "sha256": "fb97ec24047cae6753b3dda73eaba111805042e95518492cd71f335d3d69fc63",
+    "rotation_ccw": 0,
+    "caption": "现场展签",
+    "role": "label",
+    "work_id": "na-494-yin",
+    "original_filename": "Image_20261106141114_1877_19.jpg"
+  },
+  "1878": {
+    "number": 1878,
+    "original": "images/originals/Image_20261106141114_1878_19.jpg",
+    "file": "images/1878-900.webp",
+    "variants": [
+      {
+        "file": "images/1878-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1878-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1878-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "2c2a9a1e283c38171ebb76ad3731318cdb127e3c6ed42310dde2afab4ec0818b",
+    "rotation_ccw": 0,
+    "caption": "佛龛、两侧眷属及下方供养人",
+    "role": "front",
+    "work_id": "nelson-51-27",
+    "original_filename": "Image_20261106141114_1878_19.jpg"
+  },
+  "1879": {
+    "number": 1879,
+    "original": "images/originals/Image_20261106141114_1879_19.jpg",
+    "file": "images/1879-900.webp",
+    "variants": [
+      {
+        "file": "images/1879-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1879-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1879-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "2b9557d7286648d2d2c920260efcc53a67658b77fd8e91c38043b979bb00a1da",
+    "rotation_ccw": 0,
+    "caption": "现场展签：佛教建筑浮雕壁板",
+    "role": "label",
+    "work_id": "nelson-51-27",
+    "original_filename": "Image_20261106141114_1879_19.jpg"
+  },
+  "1880": {
+    "number": 1880,
+    "original": "images/originals/Image_20261106141114_1880_19.jpg",
+    "file": "images/1880-900.webp",
+    "variants": [
+      {
+        "file": "images/1880-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1880-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1880-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "10f014af1d544e0a90d42a1833b0d06ad85093a86e170123a096b560fe1ecb35",
+    "rotation_ccw": 0,
+    "caption": "多佛造像碑正面全貌",
+    "role": "front",
+    "work_id": "museum-1848",
+    "original_filename": "Image_20261106141114_1880_19.jpg"
+  },
+  "1881": {
+    "number": 1881,
+    "original": "images/originals/Image_20261106141114_1881_19.jpg",
+    "file": "images/1881-900.webp",
+    "variants": [
+      {
+        "file": "images/1881-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1881-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1881-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "41ac656db3c0012d46897b25a329e327ba09f8b0ad0287b01369c421ef3139e7",
+    "rotation_ccw": 0,
+    "caption": "镂空背屏、坐像背部与台座",
+    "role": "back",
+    "work_id": "museum-1848",
+    "original_filename": "Image_20261106141114_1881_19.jpg"
+  },
+  "1882": {
+    "number": 1882,
+    "original": "images/originals/Image_20261106141114_1882_19.jpg",
+    "file": "images/1882-900.webp",
+    "variants": [
+      {
+        "file": "images/1882-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1882-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1882-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1702,
+    "height": 1276,
+    "sha256": "630f24c62c99bfcc6f852a7c51bc2231b6fb864c1d4f1c262e6b9f34f491f3fe",
+    "rotation_ccw": 0,
+    "caption": "台座背面题记位置",
+    "role": "inscription",
+    "work_id": "museum-1848",
+    "original_filename": "Image_20261106141114_1882_19.jpg"
+  },
+  "1883": {
+    "number": 1883,
+    "original": "images/originals/Image_20261106141114_1883_19.jpg",
+    "file": "images/1883-900.webp",
+    "variants": [
+      {
+        "file": "images/1883-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1883-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1883-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1707,
+    "height": 1280,
+    "sha256": "cf39a6ab5a1a4adb2210c07e918a5a074e9f3b83f6edb23ea1d3794a472b35cf",
+    "rotation_ccw": 90,
+    "caption": "现场展签：Seeing Double",
+    "role": "label",
+    "work_id": "museum-1848",
+    "original_filename": "Image_20261106141114_1883_19.jpg"
+  },
+  "1884": {
+    "number": 1884,
+    "original": "images/originals/Image_20261106141114_1884_19.jpg",
+    "file": "images/1884-900.webp",
+    "variants": [
+      {
+        "file": "images/1884-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1884-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1884-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1707,
+    "height": 1280,
+    "sha256": "3afa20e5d2714f25cacfeb37bd18b6d9fcae0dfc1d68ade57cb39e5c53b17af5",
+    "rotation_ccw": 90,
+    "caption": "现场说明：Patronage and Persecution",
+    "role": "label",
+    "work_id": "museum-1848",
+    "original_filename": "Image_20261106141114_1884_19.jpg"
+  },
+  "1885": {
+    "number": 1885,
+    "original": "images/originals/Image_20261106141114_1885_19.jpg",
+    "file": "images/1885-900.webp",
+    "variants": [
+      {
+        "file": "images/1885-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1885-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1885-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "1662398a9be87915904e3e6af8cb2560394689914ba0cbe883cfe86657e99874",
+    "rotation_ccw": 0,
+    "caption": "树下思惟菩萨与莲池底座",
+    "role": "front",
+    "work_id": "freer-pensive-maitreya",
+    "original_filename": "Image_20261106141114_1885_19.jpg"
+  },
+  "1886": {
+    "number": 1886,
+    "original": "images/originals/Image_20261106141114_1886_19.jpg",
+    "file": "images/1886-900.webp",
+    "variants": [
+      {
+        "file": "images/1886-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1886-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1886-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1702,
+    "height": 1276,
+    "sha256": "809b293c1a128af2fde3ca8ca184161796b5736ef7cf8b6b3b545d4ec90dd2a4",
+    "rotation_ccw": 0,
+    "caption": "现场展签：Promise for the Future",
+    "role": "label",
+    "work_id": "freer-pensive-maitreya",
+    "original_filename": "Image_20261106141114_1886_19.jpg"
+  },
+  "1887": {
+    "number": 1887,
+    "original": "../images/originals/Image_20261106141114_1887_19.jpg",
+    "file": "../images/1887-900.webp",
+    "variants": [
+      {
+        "file": "../images/1887-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1887-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1887-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "2c3c1bac8311204724e1b809e6e143d0821a4c6d6754e018749cce5470d1a740",
+    "rotation_ccw": 0,
+    "caption": "正面全貌与分层佛龛",
+    "role": "artwork",
+    "work_id": "penn-575-c429",
+    "original_filename": "Image_20261106141114_1887_19.jpg"
+  },
+  "1888": {
+    "number": 1888,
+    "original": "../images/originals/Image_20261106141114_1888_19.jpg",
+    "file": "../images/1888-900.webp",
+    "variants": [
+      {
+        "file": "../images/1888-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1888-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1888-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "bc0173abbf51b61b32c8529fe15b06d62704db90bfee2dffb6573fcd1b7b798c",
+    "rotation_ccw": 0,
+    "caption": "背面全貌：上层净土、中层问答、下层二佛",
+    "role": "artwork",
+    "work_id": "penn-575-c429",
+    "original_filename": "Image_20261106141114_1888_19.jpg"
+  },
+  "1889": {
+    "number": 1889,
+    "original": "../images/originals/Image_20261106141114_1889_19.jpg",
+    "file": "../images/1889-900.webp",
+    "variants": [
+      {
+        "file": "../images/1889-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1889-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1889-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1702,
+    "height": 1276,
+    "sha256": "7dfa5626db2a327c43db1c6222a57e5e6ea46fe5bb4be6f023c0a72dafa7bdb8",
+    "rotation_ccw": 0,
+    "caption": "碑面题记位置与局部",
+    "role": "artwork",
+    "work_id": "penn-575-c429",
+    "original_filename": "Image_20261106141114_1889_19.jpg"
+  },
+  "1890": {
+    "number": 1890,
+    "original": "../images/originals/Image_20261106141114_1890_19.jpg",
+    "file": "../images/1890-900.webp",
+    "variants": [
+      {
+        "file": "../images/1890-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1890-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1890-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "9eea1884f1b377a9c8d2af62ce28c3f5ffb39029aa1edb2d22a07b640329b3c6",
+    "rotation_ccw": 0,
+    "caption": "现场展签",
+    "role": "label",
+    "work_id": "penn-575-c429",
+    "original_filename": "Image_20261106141114_1890_19.jpg"
+  },
+  "1891": {
+    "number": 1891,
+    "original": "../images/originals/Image_20261106141114_1891_19.jpg",
+    "file": "../images/1891-900.webp",
+    "variants": [
+      {
+        "file": "../images/1891-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1891-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1891-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "bb586ac33acf1747c256e77e1814b89627211d6e7b293c33287aa048e780f1bd",
+    "rotation_ccw": 0,
+    "caption": "主龛与上层问答图像",
+    "role": "front",
+    "work_id": "penn-551-c404",
+    "original_filename": "Image_20261106141114_1891_19.jpg"
+  },
+  "1892": {
+    "number": 1892,
+    "original": "../images/originals/Image_20261106141114_1892_19.jpg",
+    "file": "../images/1892-900.webp",
+    "variants": [
+      {
+        "file": "../images/1892-400.webp",
+        "width": 400
+      },
+      {
+        "file": "../images/1892-900.webp",
+        "width": 900
+      },
+      {
+        "file": "../images/1892-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "f86221bc37f011aae17a378bdaed42975a37fbeeadad99b92497e434dbd0c704",
+    "rotation_ccw": 0,
+    "caption": "现场展签：551年造像碑C404",
+    "role": "label",
+    "work_id": "penn-551-c404",
+    "original_filename": "Image_20261106141114_1892_19.jpg"
+  },
+  "1893": {
+    "number": 1893,
+    "original": "images/originals/Image_20261106141114_1893_19.jpg",
+    "file": "images/1893-900.webp",
+    "variants": [
+      {
+        "file": "images/1893-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1893-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1893-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "36e90777a14c15f27ea03c85c68781f7d4fbc8af6bc06dd825fdf62687f9770d",
+    "rotation_ccw": 0,
+    "caption": "坐佛、二胁侍与台座",
+    "role": "front",
+    "work_id": "penn-1893",
+    "original_filename": "Image_20261106141114_1893_19.jpg"
+  },
+  "1894": {
+    "number": 1894,
+    "original": "images/originals/Image_20261106141114_1894_19.jpg",
+    "file": "images/1894-900.webp",
+    "variants": [
+      {
+        "file": "images/1894-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1894-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1894-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "39ce251d250db587c1b4079635de5d209041055dbfc81de08234dd65916d8297",
+    "rotation_ccw": 0,
+    "caption": "现场展签：535年佛与二胁侍造像碑",
+    "role": "label",
+    "work_id": "penn-1893",
+    "original_filename": "Image_20261106141114_1894_19.jpg"
+  },
+  "1895": {
+    "number": 1895,
+    "original": "images/originals/Image_20261106141114_1895_19.jpg",
+    "file": "images/1895-900.webp",
+    "variants": [
+      {
+        "file": "images/1895-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1895-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1895-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "01a9af4ba95af847a8785da393c990bf5c0a8de01869d424b67005c3c3ecd9f6",
+    "rotation_ccw": 0,
+    "caption": "弥勒佛与尖叶形背光全貌",
+    "role": "front",
+    "work_id": "penn-1895",
+    "original_filename": "Image_20261106141114_1895_19.jpg"
+  },
+  "1896": {
+    "number": 1896,
+    "original": "images/originals/Image_20261106141114_1896_19.jpg",
+    "file": "images/1896-900.webp",
+    "variants": [
+      {
+        "file": "images/1896-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1896-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1896-1600.webp",
+        "width": 1600
+      }
+    ],
+    "width": 1702,
+    "height": 1276,
+    "sha256": "a59cd25ffa898aaae615c554cbdc24bd29c18ee86c3f4c414217091b9d03d359",
+    "rotation_ccw": 0,
+    "caption": "双足、台座与残留彩绘",
+    "role": "detail",
+    "work_id": "penn-1895",
+    "original_filename": "Image_20261106141114_1896_19.jpg"
+  },
+  "1897": {
+    "number": 1897,
+    "original": "images/originals/Image_20261106141114_1897_19.jpg",
+    "file": "images/1897-900.webp",
+    "variants": [
+      {
+        "file": "images/1897-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1897-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1897-1024.webp",
+        "width": 1024
+      }
+    ],
+    "width": 1024,
+    "height": 1366,
+    "sha256": "7d50c00ecaede88ce0af4404d5e8a0b377f5a86f6b5672e8911abbc24718e38b",
+    "rotation_ccw": 0,
+    "caption": "背光背面现场照片",
+    "role": "back",
+    "work_id": "penn-1895",
+    "original_filename": "Image_20261106141114_1897_19.jpg"
+  },
+  "1898": {
+    "number": 1898,
+    "original": "images/originals/Image_20261106141114_1898_19.jpg",
+    "file": "images/1898-900.webp",
+    "variants": [
+      {
+        "file": "images/1898-400.webp",
+        "width": 400
+      },
+      {
+        "file": "images/1898-900.webp",
+        "width": 900
+      },
+      {
+        "file": "images/1898-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "89887c245eec051f4f5086f8ee6149e948b1db8a68a07730415f16d872665209",
+    "rotation_ccw": 0,
+    "caption": "现场展签：516年弥勒佛C284",
+    "role": "label",
+    "work_id": "penn-1895",
+    "original_filename": "Image_20261106141114_1898_19.jpg"
+  }
+}

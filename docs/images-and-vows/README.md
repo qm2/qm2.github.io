@@ -31,3 +31,7 @@ The source package and all unselected originals are retained locally. No contact
 9. Wider context: Kate Lingley's MAVCOR object narrative was read; its 529 example is a different object. Lingley2024 and M.F.Wong2023 listed in the package remain further reading and are not used as already-read evidence.
 
 Detailed source verification follows in the two research notes. Their wording is internal research, not public-page copy. Later user instruction explicitly authorizes publication of the completed first edition, overriding the ZIP's initial local-only delivery preference.
+
+## 第二轮纠错
+
+首版59张关联中的1891、1892为宾大551年C404及展签，误归575年C429。现已解除关联，原文件保留；15件作品实际使用57张（含17张展签）。详见 `round2-met-research.md` 与 `round2-review.md`。本轮用户明确禁止提交、推送与部署。

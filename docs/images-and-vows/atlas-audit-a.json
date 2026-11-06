@@ -1,0 +1,788 @@
+{
+  "audit_range": "1778–1829（1779等为现代展签；未读古代铭文）",
+  "new_work_count": 10,
+  "works": [
+    {
+      "id": "cd-undated-screen",
+      "title": "背屏式佛造像",
+      "title_en": null,
+      "date": "南朝（420—589年）",
+      "period": "南朝",
+      "year_start": 420,
+      "year_end": 589,
+      "date_kind": "period",
+      "material": "石材（具体石种待核）",
+      "form": "背屏式造像",
+      "iconography": "一佛、四菩萨、四弟子、二力士（据展签）",
+      "owner": "成都博物馆",
+      "owner_city": "成都",
+      "viewing_museum": "成都博物馆",
+      "viewing_city": "成都",
+      "viewing_museum_candidate": "成都博物馆",
+      "viewing_evidence": "原研究包将这组成都商业街与西安路作品记为成都博物馆亲见；1779展签可核出土地。",
+      "accession": null,
+      "origin": null,
+      "discovery": "成都商业街出土（据展签）",
+      "photos": [
+        {
+          "number": 1778,
+          "role": "front",
+          "caption": "背屏式佛造像正面",
+          "rotation": 0
+        },
+        {
+          "number": 1779,
+          "role": "label",
+          "caption": "背屏式佛造像现场展签",
+          "rotation": 0
+        }
+      ],
+      "sources": [],
+      "status": "confirmed",
+      "issue": "展签未列馆藏编号与具体年代；420—589为南朝范围，不是精确制作年。",
+      "scope": "main",
+      "reading_url": null
+    },
+    {
+      "id": "cd-buddha-head-1784",
+      "title": "佛头",
+      "title_en": "Buddha Head",
+      "date": "南朝（420—589年）",
+      "period": "南朝",
+      "year_start": 420,
+      "year_end": 589,
+      "date_kind": "period",
+      "material": "石材（具体石种待核）",
+      "form": "佛首",
+      "iconography": "佛头",
+      "owner": "成都博物馆",
+      "owner_city": "成都",
+      "viewing_museum": "成都博物馆",
+      "viewing_city": "成都",
+      "viewing_museum_candidate": "成都博物馆",
+      "viewing_evidence": "同组原研究包记录为成都博物馆；照片内英文标示 Unearthed from Kuan Alley, Chengdu。",
+      "accession": null,
+      "origin": null,
+      "discovery": "成都宽巷子出土（据照片内现代展签）",
+      "photos": [
+        {
+          "number": 1784,
+          "role": "front",
+          "caption": "佛头及下方现场展签",
+          "rotation": 0
+        }
+      ],
+      "sources": [],
+      "status": "confirmed",
+      "issue": "仅一张照片，展签在作品下方；无独立展签照片、馆藏编号、具体石种或更窄断代。",
+      "scope": "main",
+      "reading_url": null
+    },
+    {
+      "id": "other-1801",
+      "title": "如来三尊立像",
+      "title_en": "Buddha with Two Attendants",
+      "date": "6世纪（东魏）",
+      "period": "东魏",
+      "year_start": 534,
+      "year_end": 550,
+      "date_kind": "period",
+      "material": "石灰岩",
+      "form": "背屏式造像",
+      "iconography": "一佛二胁侍",
+      "owner": "东京国立博物馆",
+      "owner_city": "东京",
+      "viewing_museum": "东京国立博物馆",
+      "viewing_city": "东京",
+      "viewing_museum_candidate": "东京国立博物馆",
+      "viewing_evidence": "用户于本轮确认在该收藏机构现场拍摄。",
+      "accession": "TC-646",
+      "origin": "中国",
+      "discovery": null,
+      "photos": [
+        {
+          "number": 1801,
+          "role": "front",
+          "caption": "如来三尊立像完整正面",
+          "rotation": 0
+        },
+        {
+          "number": 1802,
+          "role": "label",
+          "caption": "如来三尊立像现场展签",
+          "rotation": 0
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.tnm.jp/modules/r_exhibition/index.php?controller=item&id=5830&lang=en",
+          "title": "东京国立博物馆：中国佛教雕塑，TC-646与TC-375馆方展品表"
+        }
+      ],
+      "status": "confirmed",
+      "issue": "6世纪为展签年代；时间线534—550仅表示东魏时期范围，不是额外精确断代。",
+      "scope": "main",
+      "reading_url": null,
+      "visit_date": null
+    },
+    {
+      "id": "other-1803",
+      "title": "菩萨立像",
+      "title_en": "Bodhisattva",
+      "date": "552年（天保三年）",
+      "period": "北齐",
+      "year_start": 552,
+      "year_end": 552,
+      "date_kind": "exact",
+      "material": "石灰岩",
+      "form": "背屏式菩萨立像",
+      "iconography": "菩萨，具体尊名未定",
+      "owner": "东京国立博物馆",
+      "owner_city": "东京",
+      "viewing_museum": "东京国立博物馆",
+      "viewing_city": "东京",
+      "viewing_museum_candidate": "东京国立博物馆",
+      "viewing_evidence": "用户于本轮确认在该收藏机构现场拍摄。",
+      "accession": "TC-375",
+      "origin": "中国山西长子县附近（馆方地域归属）",
+      "discovery": null,
+      "photos": [
+        {
+          "number": 1803,
+          "role": "front",
+          "caption": "菩萨立像与刻文台座",
+          "rotation": 0
+        },
+        {
+          "number": 1804,
+          "role": "label",
+          "caption": "菩萨立像现场展签",
+          "rotation": 0
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.tnm.jp/modules/r_exhibition/index.php?controller=item&id=5830&lang=en",
+          "title": "东京国立博物馆：中国佛教雕塑，TC-646与TC-375馆方展品表"
+        }
+      ],
+      "status": "confirmed",
+      "issue": "馆方写 From near Zhangzi county，未据此补写考古出土经过。根津嘉一郎捐赠据馆方。",
+      "scope": "main",
+      "reading_url": null,
+      "visit_date": null
+    },
+    {
+      "id": "shanxi-seven-figures-1805",
+      "title": "释迦七尊像",
+      "title_en": "Sakyamuni and his disciples",
+      "date": "北齐（550—577年）",
+      "period": "北齐",
+      "year_start": 550,
+      "year_end": 577,
+      "date_kind": "period",
+      "material": "石材（具体石种待核）",
+      "form": "背屏式造像",
+      "iconography": "释迦与胁侍组合",
+      "owner": "山西博物院",
+      "owner_city": "太原",
+      "viewing_museum": "山西博物院",
+      "viewing_city": "太原",
+      "viewing_museum_candidate": "山西博物院",
+      "viewing_evidence": "用户于本轮确认在该收藏机构现场拍摄。",
+      "accession": null,
+      "origin": null,
+      "discovery": "山西省太原市华塔村出土（据展签）",
+      "photos": [
+        {
+          "number": 1805,
+          "role": "front",
+          "caption": "释迦七尊像正面",
+          "rotation": 0
+        },
+        {
+          "number": 1806,
+          "role": "label",
+          "caption": "释迦七尊像现场展签与台座细部",
+          "rotation": 0
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://shanximuseum.com.cn/sx/index/index.html",
+          "title": "山西博物院：藏品精粹“释迦七尊像”入口"
+        }
+      ],
+      "status": "confirmed",
+      "issue": "展签 NO.5007 与耳机图示为导览编号，不能录作馆藏号；官网藏品入口确认机构，具体石种与考古年份本记录暂不扩写。",
+      "scope": "main",
+      "reading_url": null,
+      "visit_date": null
+    },
+    {
+      "id": "guimet-ma6346",
+      "title": "双面佛教造像碑",
+      "title_en": "Stèle votive bouddhique biface",
+      "date": "北齐（550—577年）",
+      "period": "北齐",
+      "year_start": 550,
+      "year_end": 577,
+      "date_kind": "period",
+      "material": "白色大理石，残存彩绘",
+      "form": "双面背屏式造像",
+      "iconography": "正面立佛说法组合；背面倚坐佛与千佛；馆方提出弥勒解释",
+      "owner": "吉美博物馆",
+      "owner_city": "巴黎",
+      "viewing_museum": "吉美博物馆",
+      "viewing_city": "巴黎",
+      "viewing_museum_candidate": "吉美博物馆",
+      "viewing_evidence": "用户于本轮确认在该收藏机构现场拍摄。",
+      "accession": "MA 6346",
+      "origin": "中国北部，可能河北（据展签，保留问号）",
+      "discovery": null,
+      "photos": [
+        {
+          "number": 1807,
+          "role": "front",
+          "caption": "双面碑的立佛与胁侍一面",
+          "rotation": 0
+        },
+        {
+          "number": 1808,
+          "role": "back",
+          "caption": "双面碑的倚坐佛与千佛一面",
+          "rotation": 0
+        },
+        {
+          "number": 1809,
+          "role": "label",
+          "caption": "双面佛教造像碑现场展签",
+          "rotation": 0
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://depts.washington.edu/silkroad/museums/mg/mgchinawei.html",
+          "title": "华盛顿大学 Silk Road：吉美藏 MA 6346 正、侧、背面记录"
+        }
+      ],
+      "status": "confirmed",
+      "issue": "1807与1808为同件两面，已与大学项目标为MA6346的mgchina127、128、129图逐一比对；勿计两件。馆方展签购于1998，网页第三方1999说法未采用；供养人仅见展签拉丁字母Fayin/Fayao，不倒推汉字。",
+      "scope": "main",
+      "reading_url": null,
+      "visit_date": null
+    },
+    {
+      "id": "france-1810",
+      "title": "佛教造像碑",
+      "title_en": "Buddhist stele",
+      "date": "560年",
+      "period": "北齐",
+      "year_start": 560,
+      "year_end": 560,
+      "date_kind": "exact",
+      "material": "石，残存彩绘",
+      "form": "多层造像碑",
+      "iconography": "多层佛与胁侍、上方维摩诘与文殊对谈（据现场说明）",
+      "owner": "赛努奇博物馆",
+      "owner_city": "巴黎",
+      "viewing_museum": "赛努奇博物馆",
+      "viewing_city": "巴黎",
+      "viewing_museum_candidate": "赛努奇博物馆",
+      "viewing_evidence": "用户于本轮确认在该收藏机构现场拍摄。",
+      "accession": "M.C. 8763-1",
+      "origin": "中国",
+      "discovery": null,
+      "photos": [
+        {
+          "number": 1810,
+          "role": "front",
+          "caption": "三层造像碑正面",
+          "rotation": 0
+        },
+        {
+          "number": 1811,
+          "role": "label",
+          "caption": "佛教造像碑基本资料与说明",
+          "rotation": -90
+        },
+        {
+          "number": 1812,
+          "role": "label",
+          "caption": "造像碑说明：佛教主题与故事",
+          "rotation": -90
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.cernuschi.paris.fr/sites/default/files/dossier_bouddhisme_v2.pdf",
+          "title": "赛努奇博物馆：Le bouddhisme en Chine 教师资料，第3页作品表"
+        },
+        {
+          "url": "https://www.parismuseescollections.paris.fr/fr/musee-cernuschi/oeuvres/stele-bouddhique-0",
+          "title": "巴黎市博物馆藏品库：Stèle bouddhique（本次网页超时；仅作可追踪入口）"
+        }
+      ],
+      "status": "confirmed",
+      "issue": "现场标签写M.C.8763 a，市立藏品库规范化编号M.C.8763-1；二者为同件。1956年Marie-Madeleine Wannieck捐赠见展签。未使用碑刻图片识字。",
+      "scope": "main",
+      "reading_url": null,
+      "visit_date": null
+    },
+    {
+      "id": "met-1823",
+      "title": "彩绘石雕四佛塔",
+      "title_en": "Pagoda base with four Buddhas",
+      "date": "约560—575年",
+      "period": "北齐",
+      "year_start": 560,
+      "year_end": 575,
+      "date_kind": "circa_range",
+      "material": "石灰岩，残存彩绘",
+      "form": "石塔／佛龛建筑构件",
+      "iconography": "中央柱四佛、周壁千佛，具体佛名未确定",
+      "owner": "纽约大都会艺术博物馆",
+      "owner_city": "纽约",
+      "viewing_museum": "纽约大都会艺术博物馆",
+      "viewing_city": "纽约",
+      "viewing_museum_candidate": "纽约大都会艺术博物馆",
+      "viewing_evidence": "作品照片可见大都会Gallery206既有完整陈列环境，现代展签与官网1988.303对应。",
+      "accession": "1988.303",
+      "origin": "中国；现场展签认为可能山东",
+      "discovery": null,
+      "photos": [
+        {
+          "number": 1823,
+          "role": "front",
+          "caption": "四佛塔的门道、中央柱与护卫形象",
+          "rotation": 0
+        },
+        {
+          "number": 1824,
+          "role": "label",
+          "caption": "彩绘石雕四佛塔现场展签",
+          "rotation": 0
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/42705",
+          "title": "大都会：Pagoda base with four Buddhas，1988.303"
+        }
+      ],
+      "status": "confirmed",
+      "issue": "官网现题与展签 Funerary Pagoda with Four Buddhas 不同；两者同号。只保留1823、1824，1825—1827属于另一件唐代造像碑。",
+      "scope": "main",
+      "reading_url": null
+    },
+    {
+      "id": "met-30122",
+      "title": "观音大势至造像碑",
+      "title_en": "Stele with the Bodhisattvas Avalokiteshvara (Guanyin) and Mahasthamaprapta (Dashizi)",
+      "date": "7世纪中晚期",
+      "period": "唐",
+      "year_start": 650,
+      "year_end": 700,
+      "date_kind": "range",
+      "material": "石灰岩，残存彩绘",
+      "form": "双面造像碑",
+      "iconography": "观音、大势至；背面三佛与千佛，馆方称其中含阿弥陀佛",
+      "owner": "纽约大都会艺术博物馆",
+      "owner_city": "纽约",
+      "viewing_museum": "纽约大都会艺术博物馆",
+      "viewing_city": "纽约",
+      "viewing_museum_candidate": "纽约大都会艺术博物馆",
+      "viewing_evidence": "现场展签30.122及大都会陈列环境可对应。",
+      "accession": "30.122",
+      "origin": "中国河南（馆方地域归属）",
+      "discovery": null,
+      "photos": [
+        {
+          "number": 1825,
+          "role": "front",
+          "caption": "观音与大势至并立的一面",
+          "rotation": 0
+        },
+        {
+          "number": 1826,
+          "role": "back",
+          "caption": "背面的千佛与佛龛",
+          "rotation": 0
+        },
+        {
+          "number": 1827,
+          "role": "label",
+          "caption": "观音大势至造像碑现场展签",
+          "rotation": -90
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/44798",
+          "title": "大都会：Stele with the Bodhisattvas Avalokiteshvara and Mahasthamaprapta，30.122"
+        }
+      ],
+      "status": "confirmed",
+      "issue": "原交接清单误并入met-1823，已按照片与编号拆分。650—700仅为7世纪中晚期的可视化区间，不是作品明纪年。 用户本轮要求唐代暂不公开，保留内部资料及照片去向。",
+      "scope": "excluded_tang",
+      "reading_url": null
+    },
+    {
+      "id": "cle-dharani-1929983",
+      "title": "陀罗尼经幢残段",
+      "title_en": "Section of a Dharani Pillar",
+      "date": "唐（618—907年）",
+      "period": "唐",
+      "year_start": 618,
+      "year_end": 907,
+      "date_kind": "period",
+      "material": "石灰岩",
+      "form": "经幢残段",
+      "iconography": "八面佛教造像（具体人物本记录不另行辨认）",
+      "owner": "克利夫兰艺术博物馆",
+      "owner_city": "克利夫兰",
+      "viewing_museum": "克利夫兰艺术博物馆",
+      "viewing_city": "克利夫兰",
+      "viewing_museum_candidate": "克利夫兰艺术博物馆",
+      "viewing_evidence": "现场现代展签的J. H. Wade Fund、1929.983与官网对应；同组克利夫兰Gallery241C照片。",
+      "accession": "1929.983",
+      "origin": "中国",
+      "discovery": null,
+      "photos": [
+        {
+          "number": 1828,
+          "role": "front",
+          "caption": "八角经幢残段及三面造像",
+          "rotation": 0
+        },
+        {
+          "number": 1829,
+          "role": "label",
+          "caption": "陀罗尼经幢残段现场展签",
+          "rotation": 0
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.clevelandart.org/art/1929.983",
+          "title": "克利夫兰艺术博物馆：Section of a Dharani Pillar，1929.983"
+        }
+      ],
+      "status": "confirmed",
+      "issue": "本件为唐代，不进入五六世纪默认时间线；只记录馆方对悼亡用途的说明，不从照片释读铭文。 用户本轮要求唐代暂不公开，保留内部资料及照片去向。",
+      "scope": "excluded_tang",
+      "reading_url": null
+    }
+  ],
+  "photo_dispositions": [
+    {
+      "number": 1778,
+      "filename": "Image_20261106003409_1778_19.jpg",
+      "disposition": "new_work",
+      "work_id": "cd-undated-screen",
+      "role": "front",
+      "rotation": 0
+    },
+    {
+      "number": 1779,
+      "filename": "Image_20261106003409_1779_19.jpg",
+      "disposition": "new_work",
+      "work_id": "cd-undated-screen",
+      "role": "label",
+      "rotation": 0
+    },
+    {
+      "number": 1780,
+      "filename": "Image_20261106003409_1780_19.jpg",
+      "disposition": "existing_work",
+      "work_id": "cd-545-zhangyuan",
+      "note": "保留已精读作品及其现有照片角色。"
+    },
+    {
+      "number": 1781,
+      "filename": "Image_20261106003409_1781_19.jpg",
+      "disposition": "existing_work",
+      "work_id": "cd-545-zhangyuan",
+      "note": "保留已精读作品及其现有照片角色。"
+    },
+    {
+      "number": 1782,
+      "filename": "Image_20261106003409_1782_19.jpg",
+      "disposition": "existing_work",
+      "work_id": "cd-511-wang",
+      "note": "保留已精读作品及其现有照片角色。"
+    },
+    {
+      "number": 1783,
+      "filename": "Image_20261106003409_1783_19.jpg",
+      "disposition": "existing_work",
+      "work_id": "cd-511-wang",
+      "note": "保留已精读作品及其现有照片角色。"
+    },
+    {
+      "number": 1784,
+      "filename": "Image_20261106003409_1784_19.jpg",
+      "disposition": "new_work",
+      "work_id": "cd-buddha-head-1784",
+      "role": "front",
+      "rotation": 0
+    },
+    {
+      "number": 1785,
+      "filename": "Image_20261106003409_1785_19.jpg",
+      "disposition": "existing_work",
+      "work_id": "cd-490-fahai",
+      "note": "保留已精读作品及其现有照片角色。"
+    },
+    {
+      "number": 1786,
+      "filename": "Image_20261106003409_1786_19.jpg",
+      "disposition": "existing_work",
+      "work_id": "cd-490-fahai",
+      "note": "保留已精读作品及其现有照片角色。"
+    },
+    {
+      "number": 1787,
+      "filename": "Image_20261106003409_1787_19.jpg",
+      "disposition": "existing_work",
+      "work_id": "cd-530-huangzang",
+      "note": "保留已精读作品及其现有照片角色。"
+    },
+    {
+      "number": 1788,
+      "filename": "Image_20261106003409_1788_19.jpg",
+      "disposition": "existing_work",
+      "work_id": "cd-530-huangzang",
+      "note": "保留已精读作品及其现有照片角色。"
+    },
+    {
+      "number": 1801,
+      "filename": "Image_20261106141114_1801_19.jpg",
+      "disposition": "new_work",
+      "work_id": "other-1801",
+      "role": "front",
+      "rotation": 0
+    },
+    {
+      "number": 1802,
+      "filename": "Image_20261106141114_1802_19.jpg",
+      "disposition": "new_work",
+      "work_id": "other-1801",
+      "role": "label",
+      "rotation": 0
+    },
+    {
+      "number": 1803,
+      "filename": "Image_20261106141114_1803_19.jpg",
+      "disposition": "new_work",
+      "work_id": "other-1803",
+      "role": "front",
+      "rotation": 0
+    },
+    {
+      "number": 1804,
+      "filename": "Image_20261106141114_1804_19.jpg",
+      "disposition": "new_work",
+      "work_id": "other-1803",
+      "role": "label",
+      "rotation": 0
+    },
+    {
+      "number": 1805,
+      "filename": "Image_20261106141114_1805_19.jpg",
+      "disposition": "new_work",
+      "work_id": "shanxi-seven-figures-1805",
+      "role": "front",
+      "rotation": 0
+    },
+    {
+      "number": 1806,
+      "filename": "Image_20261106141114_1806_19.jpg",
+      "disposition": "new_work",
+      "work_id": "shanxi-seven-figures-1805",
+      "role": "label",
+      "rotation": 0
+    },
+    {
+      "number": 1807,
+      "filename": "Image_20261106141114_1807_19.jpg",
+      "disposition": "new_work",
+      "work_id": "guimet-ma6346",
+      "role": "front",
+      "rotation": 0
+    },
+    {
+      "number": 1808,
+      "filename": "Image_20261106141114_1808_19.jpg",
+      "disposition": "new_work",
+      "work_id": "guimet-ma6346",
+      "role": "back",
+      "rotation": 0
+    },
+    {
+      "number": 1809,
+      "filename": "Image_20261106141114_1809_19.jpg",
+      "disposition": "new_work",
+      "work_id": "guimet-ma6346",
+      "role": "label",
+      "rotation": 0
+    },
+    {
+      "number": 1810,
+      "filename": "Image_20261106141114_1810_19.jpg",
+      "disposition": "new_work",
+      "work_id": "france-1810",
+      "role": "front",
+      "rotation": 0
+    },
+    {
+      "number": 1811,
+      "filename": "Image_20261106141114_1811_19.jpg",
+      "disposition": "new_work",
+      "work_id": "france-1810",
+      "role": "label",
+      "rotation": -90
+    },
+    {
+      "number": 1812,
+      "filename": "Image_20261106141114_1812_19.jpg",
+      "disposition": "new_work",
+      "work_id": "france-1810",
+      "role": "label",
+      "rotation": -90
+    },
+    {
+      "number": 1813,
+      "filename": "Image_20261106141114_1813_19.jpg",
+      "disposition": "out_of_scope",
+      "work_id": null,
+      "note": "佛罗伦萨建筑外观，不是本次造像；原片归档保留。"
+    },
+    {
+      "number": 1814,
+      "filename": "Image_20261106141114_1814_19.jpg",
+      "disposition": "existing_work",
+      "work_id": "met-495-dipankara",
+      "note": "保留已精读作品及其现有照片角色。"
+    },
+    {
+      "number": 1815,
+      "filename": "Image_20261106141114_1815_19.jpg",
+      "disposition": "existing_work",
+      "work_id": "met-495-dipankara",
+      "note": "保留已精读作品及其现有照片角色。"
+    },
+    {
+      "number": 1816,
+      "filename": "Image_20261106141114_1816_19.jpg",
+      "disposition": "existing_work",
+      "work_id": "met-495-dipankara",
+      "note": "保留已精读作品及其现有照片角色。"
+    },
+    {
+      "number": 1817,
+      "filename": "Image_20261106141114_1817_19.jpg",
+      "disposition": "existing_work",
+      "work_id": "met-528-yiyi",
+      "note": "保留已精读作品及其现有照片角色。"
+    },
+    {
+      "number": 1818,
+      "filename": "Image_20261106141114_1818_19.jpg",
+      "disposition": "existing_work",
+      "work_id": "met-528-yiyi",
+      "note": "保留已精读作品及其现有照片角色。"
+    },
+    {
+      "number": 1819,
+      "filename": "Image_20261106141114_1819_19.jpg",
+      "disposition": "existing_work",
+      "work_id": "met-528-yiyi",
+      "note": "保留已精读作品及其现有照片角色。"
+    },
+    {
+      "number": 1820,
+      "filename": "Image_20261106141114_1820_19.jpg",
+      "disposition": "existing_work",
+      "work_id": "met-543-yiyi",
+      "note": "保留已精读作品及其现有照片角色。"
+    },
+    {
+      "number": 1821,
+      "filename": "Image_20261106141114_1821_19.jpg",
+      "disposition": "existing_work",
+      "work_id": "met-543-yiyi",
+      "note": "保留已精读作品及其现有照片角色。"
+    },
+    {
+      "number": 1822,
+      "filename": "Image_20261106141114_1822_19.jpg",
+      "disposition": "existing_work",
+      "work_id": "met-543-yiyi",
+      "note": "保留已精读作品及其现有照片角色。"
+    },
+    {
+      "number": 1823,
+      "filename": "Image_20261106141114_1823_19.jpg",
+      "disposition": "new_work",
+      "work_id": "met-1823",
+      "role": "front",
+      "rotation": 0
+    },
+    {
+      "number": 1824,
+      "filename": "Image_20261106141114_1824_19.jpg",
+      "disposition": "new_work",
+      "work_id": "met-1823",
+      "role": "label",
+      "rotation": 0
+    },
+    {
+      "number": 1825,
+      "filename": "Image_20261106141114_1825_19.jpg",
+      "disposition": "new_work",
+      "work_id": "met-30122",
+      "role": "front",
+      "rotation": 0
+    },
+    {
+      "number": 1826,
+      "filename": "Image_20261106141114_1826_19.jpg",
+      "disposition": "new_work",
+      "work_id": "met-30122",
+      "role": "back",
+      "rotation": 0
+    },
+    {
+      "number": 1827,
+      "filename": "Image_20261106141114_1827_19.jpg",
+      "disposition": "new_work",
+      "work_id": "met-30122",
+      "role": "label",
+      "rotation": -90
+    },
+    {
+      "number": 1828,
+      "filename": "Image_20261106141114_1828_19.jpg",
+      "disposition": "new_work",
+      "work_id": "cle-dharani-1929983",
+      "role": "front",
+      "rotation": 0
+    },
+    {
+      "number": 1829,
+      "filename": "Image_20261106141114_1829_19.jpg",
+      "disposition": "new_work",
+      "work_id": "cle-dharani-1929983",
+      "role": "label",
+      "rotation": 0
+    }
+  ],
+  "notes": [
+    "原始编号1789—1800未出现在本包manifest中；不是漏分配。",
+    "图片旋转采用顺时针角度；-90即逆时针90度。",
+    "所有外部图片仅在/tmp研究比对，没有加入仓库。",
+    "馆藏归属与观看位置分开维护；用户已于本轮确认东京国立、山西博物院、吉美、赛努奇均为各馆现场拍摄。",
+    "国别范围不应预先限于美国：中国、日本、法国藏品均确实出现在本批原片中。"
+  ]
+}

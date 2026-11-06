@@ -6,6 +6,9 @@ from build_homer import LIGHTBOX
 ROOT=Path(__file__).resolve().parents[1]
 BASE=ROOT/'museum-notes/images-and-vows'
 
+def date_label(value):
+ return value if value.endswith(('年','年代','世纪')) else value+'年'
+
 def build(integrate=True):
  read=lambda n:json.loads((BASE/'data'/n).read_text())
  works=read('works.json'); by={w['id']:w for w in works}; photos=read('photos.json');sources={s['source_id']:s for s in read('sources.json')};ed=read('editorial.json')
@@ -15,7 +18,32 @@ def build(integrate=True):
    assert k in sources,k
    if k not in used:used.append(k)
   return ' '.join(f'<a class="iv-cite" href="#ref-{k}" aria-label="来源：{e(sources[k]["title"])}">[{used.index(k)+1}]</a>' for k in dict.fromkeys(ids))
- def para(p):return '<p>'+e(p['text'])+' '+cite(p.get('sources',[]))+'</p>'
+ def photo_links(items):
+  return '<p class="iv-photo-links">'+ ' · '.join(f'<a href="#photo-{item["photo"]}">{e(item["label"])} ↗</a>' for item in items)+'</p>' if items else ''
+ def para(p):return '<p>'+e(p['text'])+' '+cite(p.get('sources',[]))+'</p>'+photo_links(p.get('photo_links',[]))
+ def inscription(ins):
+  if not (ins.get('quote') or ins.get('full_text')):return ''
+  out='<section class="iv-prose iv-inscription" id="inscription"><p class="eyebrow">WORDS ON STONE</p><h2>石上的发愿文</h2>'
+  if ins.get('passages'):
+   out+='<nav class="iv-reading-nav" aria-label="铭文阅读"><a href="#inscription">原文与今译</a><a href="#full-inscription">完整录文</a><a href="#inscription-terms">词语与愿望</a><a href="#inscription-variants">版本与校勘</a></nav>'
+   if ins.get('translation_note'):out+='<p class="iv-meta">'+e(ins['translation_note'])+'</p>'
+   out+=photo_links(ins.get('photo_links',[]))
+   for i,p in enumerate(ins['passages'],1):
+    out+=f'<section class="iv-passage" id="inscription-passage-{i}"><h3>{e(p["title"])}</h3><blockquote lang="zh">'+e(p['original']).replace('\n','<br>')+'</blockquote><p class="iv-meta">'+e(p.get('credit','已刊原文节录'))+' '+cite(p.get('sources',[ins['source_id']]))+'</p><p><span class="iv-small-label">本站白话今译</span>'+e(p['translation'])+'</p></section>'
+  else:
+   if ins.get('quote'):out+='<blockquote>'+e(ins['quote']).replace('\n','<br>')+'</blockquote><p class="iv-meta">已刊释文节录 '+cite([ins['source_id']])+'</p>'
+   if ins.get('translation'):out+='<p><span class="iv-small-label">本站意译</span>'+e(ins['translation'])+'</p>'
+  if ins.get('full_text'):
+   out+='<details class="iv-fulltext" id="full-inscription"'+(' open' if not ins.get('passages') and len(ins['full_text'])<230 else '')+'><summary>完整已刊录文'+('（保留缺字与异文）' if '□' in ins['full_text'] else '')+'</summary><p class="iv-meta">'+e(ins['full_note'])+' '+cite([ins['full_source_id']])+'</p><div class="iv-transcription">'+''.join('<p>'+e(x).replace('\n','<br>')+'</p>' for x in ins['full_text'].split('\n\n'))+'</div></details>'
+  if ins.get('terms'):
+   out+='<details id="inscription-terms"><summary>佛教词语与造像者的愿望</summary><dl class="iv-terms">'
+   for term in ins['terms']:out+='<dt>'+e(term['term'])+'</dt><dd>'+e(term['text'])+' '+cite(term.get('sources',[]))+'</dd>'
+   out+='</dl>'
+   if ins.get('wish'):out+='<h3>造像者的愿望</h3>'+para(ins['wish'])
+   out+='</details>'
+  if ins.get('variants'):
+   out+='<details id="inscription-variants"><summary>版本与校勘</summary>'+''.join(para(p) for p in ins['variants'])+'</details>'
+  return out+'</section>'
  def img(n,pre='',small=False,eager=False,alt=''):
   p=photos[str(n)];vs=p['variants'];v=vs[0 if small else min(1,len(vs)-1)]
   sizes='(max-width:600px) 44vw, 300px' if small else '(max-width:720px) 92vw, 620px'
@@ -25,11 +53,11 @@ def build(integrate=True):
   width=min(800,740*p['width']/p['height'])
   return f'<figure class="iv-figure" id="photo-{n}" style="--figure-width:{width:.1f}px" data-view="{e(p["caption"])}"><a href="{pre}{href}" data-photo data-caption="{e(caption)}" aria-label="放大：{e(caption)}">{img(n,pre,eager=eager,alt=caption)}</a><figcaption>{e(caption)}</figcaption></figure>'
  def card(w,pre='',note=None):
-  return f'<article class="iv-card"><a href="{pre}{w["slug"]}/">{img(w["hero"],pre,small=True,alt=w["title"]+" · 全貌")}<h3>{e(w["title"])}</h3></a><p class="iv-meta">{e(w["period"])} · {e(w["date"])}年<br>{e(w["place"])}</p>'+('<p>'+e(note)+'</p>' if note else '')+'</article>'
+  return f'<article class="iv-card"><a href="{pre}{w["slug"]}/">{img(w["hero"],pre,small=True,alt=w["title"]+" · 全貌")}<h3>{e(w["title"])}</h3></a><p class="iv-meta">{e(w["period"])} · {e(date_label(w["date"]))}<br>{e(w["place"])}</p>'+('<p>'+e(note)+'</p>' if note else '')+'</article>'
  def source_list():
   out='<section class="iv-prose iv-sources" id="sources"><h2>资料与来源</h2><ol>'
   for k in used:
-   s=sources[k];out+=f'<li id="ref-{k}"><a href="{e(s["url"],quote=True)}">{e(s["publisher"])}：{e(s["title"])} ↗</a></li>'
+   s=sources[k];out+=f'<li id="ref-{k}"><a href="{e(s["url"],quote=True)}">{e(s["publisher"])}：{e(s["title"])} ↗</a>'+('<p class="iv-source-note">'+e(s['public_note'])+'</p>' if s.get('public_note') else '')+'</li>'
   return out+'</ol><p>作品与现场展签摄影：Merton。铭文按各件所列已刊录文或提供的转录本呈现；白话解读为本站意译。公开资料中的缺字与异文保留在对应作品页。</p></section>'
  def shell(title,body,slug='',hero=1864,description='从亲见的南北朝石造像，看供养者、发愿文与石上的佛国。'):
   pre='../' if slug else '';note='../../' if slug else '../';url='https://qm2.github.io/museum-notes/images-and-vows/'+(slug+'/' if slug else '')
@@ -38,45 +66,49 @@ def build(integrate=True):
  for w in works:
   used.clear();ins=w['inscription_data'];pre='../'
   body='<nav class="breadcrumbs"><a href="../../chinese-buddhist-art/">中国佛教艺术</a><span>/</span><a href="../">造像与发愿</a></nav>'
-  body+=f'<header class="iv-heading"><p class="eyebrow">IMAGES AND VOWS / {e(w["date"])}</p><h1>{e(w["title"])}</h1><p class="iv-meta">{e(w["period"])} · {e(w["date"])}年｜{e(w["place"])}'+(' · '+e(w['accession']) if w['accession'] else '')+f'</p><p class="iv-deck">{e(w["lead"])}</p></header>'
+  body+=f'<header class="iv-heading"><p class="eyebrow">IMAGES AND VOWS / {e(w["date"])}</p><h1>{e(w["title"])}</h1><p class="iv-meta">{e(w["period"])} · {e(date_label(w["date"]))}｜{e(w["place"])}'+(' · '+e(w['accession']) if w['accession'] else '')+f'</p><p class="iv-deck">{e(w["lead"])}</p></header>'
   body+='<section class="iv-gallery compare-group" aria-label="正背面与细部现场照片"><div class="iv-gallery-controls" hidden><button type="button" data-prev aria-label="上一张现场照片">←</button><span class="iv-gallery-count" aria-live="polite"></span><button type="button" data-next aria-label="下一张现场照片">→</button><button type="button" data-all aria-expanded="false">展开全部照片</button></div><div class="iv-slides">'
   body+=''.join(figure(w,n,pre,eager=n==w['hero']) for n in [w['hero']]+[x for x in w['photos'] if x!=w['hero']])
   body+='</div><div class="iv-gallery-tabs" aria-label="选择视角" hidden></div></section>'
   body+='<div class="iv-prose iv-facts"><p>'+e(w['material'])+'｜'+e(w['dimensions'])+'</p><details><summary>基本资料与现场展签</summary><dl>'
-  for k,v in [('年代',w['period']+'，'+w['date']+'年'),('收藏与展出',w['place']),('馆藏号',w['accession']),('图录编号',w.get('catalogue')),('形制',w['type']),('材质',w['material']),('尺寸',w['dimensions'])]:
+  for k,v in [('年代',w['period']+'，'+date_label(w['date'])),('收藏与展出',w['place']),('馆藏号',w['accession']),('图录编号',w.get('catalogue')),('形制',w['type']),('材质',w['material']),('尺寸',w['dimensions'])]:
    if v:body+='<dt>'+e(k)+'</dt><dd>'+e(v)+'</dd>'
   body+='</dl>'+cite(w['sources'][:1])+''.join(figure(w,n,pre) for n in w['labels'])+'</details></div>'
   body+='<article class="iv-prose iv-reading">'
-  for s in w['sections']:body+='<section><h2>'+e(s['title'])+'</h2>'+''.join(para(p) for p in s['paragraphs'])+'</section>'
+  split=w.get('inscription_after',len(w['sections']))
+  for i,s in enumerate(w['sections']):
+   body+='<section'+(' id="'+e(s['anchor'])+'"' if s.get('anchor') else '')+'><h2>'+e(s['title'])+'</h2>'+''.join(para(p) for p in s['paragraphs'])+'</section>'
+   if i+1==split:body+='</article>'+inscription(ins)+'<article class="iv-prose iv-reading">'
   body+='</article>'
-  if ins.get('quote') or ins.get('full_text'):
-   body+='<section class="iv-prose iv-inscription" id="inscription"><p class="eyebrow">WORDS ON STONE</p><h2>石上的发愿文</h2>'
-   if ins.get('quote'):body+='<blockquote>'+e(ins['quote']).replace('\n','<br>')+'</blockquote><p class="iv-meta">已刊释文节录 '+cite([ins['source_id']])+'</p>'
-   if ins.get('translation'):body+='<p><span class="iv-small-label">本站意译</span>'+e(ins['translation'])+'</p>'
-   if ins.get('full_text'):
-    body+='<details class="iv-fulltext" id="full-inscription"'+(' open' if len(ins['full_text'])<230 else '')+'><summary>读已刊原文'+('（保留缺字与异文）' if '□' in ins['full_text'] else '')+'</summary><p class="iv-meta">'+e(ins['full_note'])+' '+cite([ins['full_source_id']])+'</p><div class="iv-transcription">'+''.join('<p>'+e(x).replace('\n','<br>')+'</p>' for x in ins['full_text'].split('\n\n'))+'</div></details>'
-   body+='</section>'
   body+='<section class="iv-prose"><h2>石佛远行</h2>'+para(w['provenance'])
   if w.get('existing_record'):body+='<p class="iv-crosslink"><a href="'+e(w['existing_record']['url'])+'">'+e(w['existing_record']['text'])+' →</a></p>'
   if w['id']=='penn-575-c429':body+='<p><a href="../../xiangtangshan/">可能的原址背景：响堂山石窟 →</a></p>'
   if w['notes']:body+='<details id="notes"><summary>录文、断代与研究资料注</summary>'+''.join(para(p) for p in w['notes'])+'</details>'
+  if w.get('publications'):
+   pub=w['publications'];body+='<details id="publications"><summary>出版与展览记录</summary><p class="iv-meta">'+e(pub['note'])+' '+cite(pub['sources'])+'</p><ul>'+''.join('<li>'+e(x)+'</li>' for x in pub['entries'])+'</ul></details>'
   body+='</section>'+source_list()
   body+='<section class="iv-related"><h2>放在一起看</h2><div class="iv-grid">'+''.join(card(by[k],pre) for k in w['related'])+'</div></section><p class="iv-prose"><a href="../#catalogue">← 回到十五件作品</a></p>'
   dest=BASE/w['slug'];dest.mkdir(exist_ok=True);(dest/'index.html').write_text(shell(w['title'],body,w['slug'],w['hero'],w['lead']))
  used.clear();hero=by['na-494-yin']
  body='<header class="iv-cover"><div><p class="eyebrow">IMAGES AND VOWS</p><h1>造像与发愿</h1><p class="iv-subtitle">南北朝的佛教信仰<br><span>约五至六世纪</span></p><p class="iv-epigraph">石会风化，人的姓名却有时<br class="iv-desktop-break">因一尊佛像而留存。</p><p class="iv-cover-note">十五件亲见石刻，从佛的面容，读到为父母、师长与众人留下的愿望。</p><a class="text-link" href="#parents">从一份发愿看起 ↓</a></div>'+figure(hero,1864,eager=True,cap='尹受国造释迦佛像 · 北魏494年 · 纳尔逊—阿特金斯艺术博物馆 · Merton摄')+'</header>'
  body+='<section class="iv-prose iv-opening">'+''.join('<p>'+e(x)+'</p>' for x in ed['opening'])+'</section>'
- body+='<nav class="iv-chapter-nav" aria-label="专题章节">'+''.join(f'<a href="#{g["id"]}"><span>{i+1:02}</span> {e(g["title"])}</a>' for i,g in enumerate(ed['chapters']))+'<a href="#catalogue">全部作品</a></nav>'
+ body+='<nav class="iv-chapter-nav" aria-label="专题章节">'+''.join(f'<a href="#{g["id"]}"><span>{i+1:02}</span> {e(g["title"])}</a>' for i,g in enumerate(ed['chapters']))+'<a href="#catalogue">十五件精读</a><a href="atlas/">所见造像 · 地图与图录</a></nav>'
  for i,g in enumerate(ed['chapters']):
   body+=f'<section class="iv-chapter" id="{g["id"]}"><header class="iv-prose"><p class="eyebrow">{i+1:02} / {e(g["english"])}</p><h2>{e(g["title"])}</h2>'+''.join(para(x) for x in g['intro'])+'</header>'
   for f in g.get('features',[]):
-   w=by[f['work']];body+='<article class="iv-feature">'+figure(w,f.get('photo',w['hero']))+'<div><p class="iv-meta">'+e(w['period'])+' · '+e(w['date'])+'年</p><h3>'+e(f['title'])+'</h3>'+''.join(para(p) for p in f['paragraphs'])+'<a class="text-link" href="'+w['slug']+'/">细读'+e(w['title'])+' →</a></div></article>'
+   w=by[f['work']];body+='<article class="iv-feature">'+figure(w,f.get('photo',w['hero']))+'<div><p class="iv-meta">'+e(w['period'])+' · '+e(date_label(w['date']))+'</p><h3>'+e(f['title'])+'</h3>'+''.join(para(p) for p in f['paragraphs'])+'<a class="text-link" href="'+w['slug']+'/">细读'+e(w['title'])+' →</a></div></article>'
   if g.get('cards'):body+='<div class="iv-grid">'+''.join(card(by[k],note=t) for k,t in g['cards'])+'</div>'
   if g.get('comparison'):
    body+='<div class="iv-comparison compare-group">'
    for c in g['comparison']:
     w=by[c['work']];body+='<article>'+figure(w,c['photo'])+'<h3><a href="'+w['slug']+'/">'+e(w['title'])+'</a></h3><p>'+e(c['text'])+'</p><p class="iv-meta">'+e(w['dimensions'])+'</p></article>'
    body+='</div><p class="iv-meta iv-prose">图片为并看而排，未按实物等比例缩放。</p>'
+  if g.get('background'):
+   bg=g['background'];body+='<details class="iv-prose iv-background" id="'+e(bg['id'])+'"><summary>'+e(bg['title'])+'</summary>'+''.join(para(p) for p in bg['paragraphs'])
+   body+='<ul class="iv-discoveries">'
+   for record in bg['records']:
+    w=by[record['work']];body+='<li><a href="'+w['slug']+'/">'+e(date_label(w['date'])+' · '+w['title'])+'</a><p>'+e(record['discovery'])+' '+cite(record['sources'])+'</p></li>'
+   body+='</ul></details>'
   if g.get('journeys'):
    body+='<ol class="iv-journeys">'
    for j in g['journeys']:
@@ -84,7 +116,7 @@ def build(integrate=True):
    body+='</ol>'
   body+='</section>'
  body+='<section class="iv-prose iv-closing"><p>“为亡考”“师徒父母”“一切众生”，这些文字把造像与具体的人重新联系起来。照片留下眼前的形体，录文则让我们听见其中一部分愿望。还有些姓名与经历尚不清楚，留给以后的观看与阅读。</p></section>'
- body+='<section class="iv-chapter" id="catalogue"><header class="iv-prose"><p class="eyebrow">490—575 / INDEX</p><h2>沿年代重看十五件</h2><p>一件作品的正面、背面和题记归入同一条记录。目录按本辑作品年代排列；明确的纪年与约年各自保留。</p></header><form class="iv-filters" role="search" hidden><label>作品、人物或馆藏<input id="iv-search" type="search" placeholder="如：父母、成都、法兴"></label><label>地域<select id="iv-region"><option value="">全部</option><option>成都</option><option>北方</option></select></label><label>录文<select id="iv-text"><option value="">全部</option><option value="full">有已刊原文</option><option value="summary">摘要或图像研究</option></select></label><button type="reset">清除条件</button><p id="iv-count" aria-live="polite">15件</p></form><ol class="iv-catalogue">'
+ body+='<section class="iv-chapter" id="catalogue"><header class="iv-prose"><p class="eyebrow">490—575 / INDEX</p><h2>沿年代重看十五件</h2><p>一件作品的正面、背面和题记归入同一条记录。目录按本辑作品年代排列；明确的纪年与约年各自保留。</p><p><a class="text-link" href="atlas/">所见造像：博物馆地图、年代时间线与完整图录 →</a></p></header><form class="iv-filters" role="search" hidden><label>作品、人物或馆藏<input id="iv-search" type="search" placeholder="如：父母、成都、法兴"></label><label>地域<select id="iv-region"><option value="">全部</option><option>成都</option><option>北方</option></select></label><label>录文<select id="iv-text"><option value="">全部</option><option value="full">有已刊原文</option><option value="summary">摘要或图像研究</option></select></label><button type="reset">清除条件</button><p id="iv-count" aria-live="polite">15件</p></form><ol class="iv-catalogue">'
  for w in sorted(works,key=lambda w:w['year']):
   text='full' if w['inscription_data'].get('full_text') else 'summary';search=' '.join([w['title'],w['place'],w['accession'],w['period'],w['date'],w['lead']])
   body+=f'<li id="{w["id"]}" data-search="{e(search)}" data-region="{e(w["region"])}" data-text="{text}"><span class="iv-year">{e(w["date"])}<small>{e(w["period"])}</small></span><a href="{w["slug"]}/">{img(w["hero"],small=True,alt=w["title"]+" · 全貌")}<span><strong>{e(w["title"])}</strong><small>{e(w["place"])}'+(' · '+e(w['accession']) if w['accession'] else '')+'</small><small>'+('已刊原文与意译' if text=='full' else '图像与馆方研究')+'</small></span></a></li>'
@@ -97,5 +129,7 @@ def build(integrate=True):
   anchor='</section><section class="material-directory"';assert anchor in text;text=text.replace(anchor,entry+anchor,1);count=len(re.findall(r'<a class="issue-link"',text.split(anchor)[0]));text=re.sub(r'造像 · [一二三四五六七八九十\d]+个专题','造像 · '+str(count)+'个专题',text);parent.write_text(text)
   home=ROOT/'museum-notes/index.html';text=home.read_text();text=re.sub(r'<!-- vows-home -->.*?<!-- /vows-home -->','',text,flags=re.S);anchor='<a class="issue-link" href="chinese-painting/">';assert anchor in text
   text=text.replace(anchor,'<!-- vows-home --><p class="topic-return"><a href="images-and-vows/">造像与发愿：十五件南北朝石刻中的人、名字与祈愿 →</a></p><!-- /vows-home -->'+anchor,1);text=re.sub(r'\d+ 个造像专题 ·',str(count)+' 个造像专题 ·',text);home.write_text(text)
+ from build_images_and_vows_atlas import build as build_atlas
+ build_atlas()
  print(f'Built Images and Vows: {len(works)} detail pages, {len(photos)} photos, {sum(bool(w["inscription_data"].get("full_text")) for w in works)} published transcriptions.')
 if __name__=='__main__':build()

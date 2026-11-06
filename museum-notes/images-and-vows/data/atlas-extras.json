@@ -1,0 +1,1013 @@
+[
+  {
+    "id": "cd-undated-screen",
+    "title": "背屏式佛造像",
+    "title_en": null,
+    "date": "南朝（420—589年）",
+    "period": "南朝",
+    "year_start": 420,
+    "year_end": 589,
+    "date_kind": "period",
+    "material": "石材（具体石种待核）",
+    "form": "背屏式造像",
+    "iconography": "一佛、四菩萨、四弟子、二力士（据展签）",
+    "owner": "成都博物馆",
+    "owner_city": "成都",
+    "viewing_museum": "成都博物馆",
+    "viewing_city": "成都",
+    "viewing_museum_candidate": "成都博物馆",
+    "viewing_evidence": "原研究包将这组成都商业街与西安路作品记为成都博物馆亲见；1779展签可核出土地。",
+    "accession": null,
+    "origin": null,
+    "discovery": "成都商业街出土（据展签）",
+    "photos": [
+      {
+        "number": 1778,
+        "role": "front",
+        "caption": "背屏式佛造像正面",
+        "rotation_ccw": 0
+      },
+      {
+        "number": 1779,
+        "role": "label",
+        "caption": "背屏式佛造像现场展签",
+        "rotation_ccw": 0
+      }
+    ],
+    "sources": [],
+    "status": "confirmed",
+    "issue": "展签未列馆藏编号与具体年代；420—589为南朝范围，不是精确制作年。",
+    "scope": "main",
+    "reading_url": null,
+    "museum_id": "chengdu",
+    "visit_date": null,
+    "hero": 1778,
+    "region": "南方／成都",
+    "track": "南朝",
+    "date_note": "横轴范围表示朝代或时期边界，不是作品的精确制作年。",
+    "catalogue_note": ""
+  },
+  {
+    "id": "cd-buddha-head-1784",
+    "title": "佛头",
+    "title_en": "Buddha Head",
+    "date": "南朝（420—589年）",
+    "period": "南朝",
+    "year_start": 420,
+    "year_end": 589,
+    "date_kind": "period",
+    "material": "石材（具体石种待核）",
+    "form": "佛首",
+    "iconography": "佛头",
+    "owner": "成都博物馆",
+    "owner_city": "成都",
+    "viewing_museum": "成都博物馆",
+    "viewing_city": "成都",
+    "viewing_museum_candidate": "成都博物馆",
+    "viewing_evidence": "同组原研究包记录为成都博物馆；照片内英文标示 Unearthed from Kuan Alley, Chengdu。",
+    "accession": null,
+    "origin": null,
+    "discovery": "成都宽巷子出土（据照片内现代展签）",
+    "photos": [
+      {
+        "number": 1784,
+        "role": "front",
+        "caption": "佛头及下方现场展签",
+        "rotation_ccw": 0
+      }
+    ],
+    "sources": [],
+    "status": "confirmed",
+    "issue": "仅一张照片，展签在作品下方；无独立展签照片、馆藏编号、具体石种或更窄断代。",
+    "scope": "main",
+    "reading_url": null,
+    "museum_id": "chengdu",
+    "visit_date": null,
+    "hero": 1784,
+    "region": "南方／成都",
+    "track": "南朝",
+    "date_note": "横轴范围表示朝代或时期边界，不是作品的精确制作年。",
+    "catalogue_note": ""
+  },
+  {
+    "id": "other-1801",
+    "title": "如来三尊立像",
+    "title_en": "Buddha with Two Attendants",
+    "date": "6世纪（东魏）",
+    "period": "东魏",
+    "year_start": 534,
+    "year_end": 550,
+    "date_kind": "period",
+    "material": "石灰岩",
+    "form": "背屏式造像",
+    "iconography": "一佛二胁侍",
+    "owner": "东京国立博物馆",
+    "owner_city": "东京",
+    "viewing_museum": "东京国立博物馆",
+    "viewing_city": "东京",
+    "viewing_museum_candidate": "东京国立博物馆",
+    "viewing_evidence": "Merton确认在收藏馆现场拍摄。",
+    "accession": "TC-646",
+    "origin": "中国",
+    "discovery": null,
+    "photos": [
+      {
+        "number": 1801,
+        "role": "front",
+        "caption": "如来三尊立像完整正面",
+        "rotation_ccw": 0
+      },
+      {
+        "number": 1802,
+        "role": "label",
+        "caption": "如来三尊立像现场展签",
+        "rotation_ccw": 0
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.tnm.jp/modules/r_exhibition/index.php?controller=item&id=5830&lang=en",
+        "title": "东京国立博物馆：中国佛教雕塑，TC-646与TC-375馆方展品表"
+      }
+    ],
+    "status": "confirmed",
+    "issue": "6世纪为展签年代；时间线534—550仅表示东魏时期范围，不是额外精确断代。",
+    "scope": "main",
+    "reading_url": null,
+    "visit_date": null,
+    "museum_id": "tokyo",
+    "hero": 1801,
+    "region": "北方",
+    "track": "北朝",
+    "date_note": "横轴范围表示朝代或时期边界，不是作品的精确制作年。",
+    "catalogue_note": ""
+  },
+  {
+    "id": "other-1803",
+    "title": "菩萨立像",
+    "title_en": "Bodhisattva",
+    "date": "552年（天保三年）",
+    "period": "北齐",
+    "year_start": 552,
+    "year_end": 552,
+    "date_kind": "exact",
+    "material": "石灰岩",
+    "form": "背屏式菩萨立像",
+    "iconography": "菩萨，具体尊名未定",
+    "owner": "东京国立博物馆",
+    "owner_city": "东京",
+    "viewing_museum": "东京国立博物馆",
+    "viewing_city": "东京",
+    "viewing_museum_candidate": "东京国立博物馆",
+    "viewing_evidence": "Merton确认在收藏馆现场拍摄。",
+    "accession": "TC-375",
+    "origin": "中国山西长子县附近（馆方地域归属）",
+    "discovery": null,
+    "photos": [
+      {
+        "number": 1803,
+        "role": "front",
+        "caption": "菩萨立像与刻文台座",
+        "rotation_ccw": 0
+      },
+      {
+        "number": 1804,
+        "role": "label",
+        "caption": "菩萨立像现场展签",
+        "rotation_ccw": 0
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.tnm.jp/modules/r_exhibition/index.php?controller=item&id=5830&lang=en",
+        "title": "东京国立博物馆：中国佛教雕塑，TC-646与TC-375馆方展品表"
+      }
+    ],
+    "status": "confirmed",
+    "issue": "馆方写 From near Zhangzi county，未据此补写考古出土经过。根津嘉一郎捐赠据馆方。",
+    "scope": "main",
+    "reading_url": null,
+    "visit_date": null,
+    "museum_id": "tokyo",
+    "hero": 1803,
+    "region": "北方",
+    "track": "北朝",
+    "date_note": "",
+    "catalogue_note": ""
+  },
+  {
+    "id": "shanxi-seven-figures-1805",
+    "title": "释迦七尊像",
+    "title_en": "Sakyamuni and his disciples",
+    "date": "北齐（550—577年）",
+    "period": "北齐",
+    "year_start": 550,
+    "year_end": 577,
+    "date_kind": "period",
+    "material": "石材（具体石种待核）",
+    "form": "背屏式造像",
+    "iconography": "释迦与胁侍组合",
+    "owner": "山西博物院",
+    "owner_city": "太原",
+    "viewing_museum": "山西博物院",
+    "viewing_city": "太原",
+    "viewing_museum_candidate": "山西博物院",
+    "viewing_evidence": "Merton确认在收藏馆现场拍摄。",
+    "accession": null,
+    "origin": null,
+    "discovery": "山西省太原市华塔村出土（据展签）",
+    "photos": [
+      {
+        "number": 1805,
+        "role": "front",
+        "caption": "释迦七尊像正面",
+        "rotation_ccw": 0
+      },
+      {
+        "number": 1806,
+        "role": "label",
+        "caption": "释迦七尊像现场展签与台座细部",
+        "rotation_ccw": 0
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://shanximuseum.com.cn/sx/index/index.html",
+        "title": "山西博物院：藏品精粹“释迦七尊像”入口"
+      }
+    ],
+    "status": "confirmed",
+    "issue": "展签 NO.5007 与耳机图示为导览编号，不能录作馆藏号；官网藏品入口确认机构，具体石种与考古年份本记录暂不扩写。",
+    "scope": "main",
+    "reading_url": null,
+    "visit_date": null,
+    "museum_id": "shanxi",
+    "hero": 1805,
+    "region": "北方",
+    "track": "北朝",
+    "date_note": "横轴范围表示朝代或时期边界，不是作品的精确制作年。",
+    "catalogue_note": ""
+  },
+  {
+    "id": "guimet-ma6346",
+    "title": "双面佛教造像碑",
+    "title_en": "Stèle votive bouddhique biface",
+    "date": "北齐（550—577年）",
+    "period": "北齐",
+    "year_start": 550,
+    "year_end": 577,
+    "date_kind": "period",
+    "material": "白色大理石，残存彩绘",
+    "form": "双面背屏式造像",
+    "iconography": "正面立佛说法组合；背面倚坐佛与千佛；馆方提出弥勒解释",
+    "owner": "吉美博物馆",
+    "owner_city": "巴黎",
+    "viewing_museum": "吉美博物馆",
+    "viewing_city": "巴黎",
+    "viewing_museum_candidate": "吉美博物馆",
+    "viewing_evidence": "Merton确认在收藏馆现场拍摄。",
+    "accession": "MA 6346",
+    "origin": "中国北部，可能河北（据展签，保留问号）",
+    "discovery": null,
+    "photos": [
+      {
+        "number": 1807,
+        "role": "front",
+        "caption": "双面碑的立佛与胁侍一面",
+        "rotation_ccw": 0
+      },
+      {
+        "number": 1808,
+        "role": "back",
+        "caption": "双面碑的倚坐佛与千佛一面",
+        "rotation_ccw": 0
+      },
+      {
+        "number": 1809,
+        "role": "label",
+        "caption": "双面佛教造像碑现场展签",
+        "rotation_ccw": 0
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://depts.washington.edu/silkroad/museums/mg/mgchinawei.html",
+        "title": "华盛顿大学 Silk Road：吉美藏 MA 6346 正、侧、背面记录"
+      }
+    ],
+    "status": "confirmed",
+    "issue": "1807与1808为同件两面，已与大学项目标为MA6346的mgchina127、128、129图逐一比对；勿计两件。馆方展签购于1998，网页第三方1999说法未采用；供养人仅见展签拉丁字母Fayin/Fayao，不倒推汉字。",
+    "scope": "main",
+    "reading_url": null,
+    "visit_date": null,
+    "museum_id": "guimet",
+    "hero": 1807,
+    "region": "北方",
+    "track": "北朝",
+    "date_note": "横轴范围表示朝代或时期边界，不是作品的精确制作年。",
+    "catalogue_note": ""
+  },
+  {
+    "id": "france-1810",
+    "title": "佛教造像碑",
+    "title_en": "Buddhist stele",
+    "date": "560年",
+    "period": "北齐",
+    "year_start": 560,
+    "year_end": 560,
+    "date_kind": "exact",
+    "material": "石，残存彩绘",
+    "form": "多层造像碑",
+    "iconography": "多层佛与胁侍、上方维摩诘与文殊对谈（据现场说明）",
+    "owner": "赛努奇博物馆",
+    "owner_city": "巴黎",
+    "viewing_museum": "赛努奇博物馆",
+    "viewing_city": "巴黎",
+    "viewing_museum_candidate": "赛努奇博物馆",
+    "viewing_evidence": "Merton确认在收藏馆现场拍摄。",
+    "accession": "M.C. 8763-1",
+    "origin": "中国",
+    "discovery": null,
+    "photos": [
+      {
+        "number": 1810,
+        "role": "front",
+        "caption": "三层造像碑正面",
+        "rotation_ccw": 0
+      },
+      {
+        "number": 1811,
+        "role": "label",
+        "caption": "佛教造像碑基本资料与说明",
+        "rotation_ccw": 90
+      },
+      {
+        "number": 1812,
+        "role": "label",
+        "caption": "造像碑说明：佛教主题与故事",
+        "rotation_ccw": 90
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.cernuschi.paris.fr/sites/default/files/dossier_bouddhisme_v2.pdf",
+        "title": "赛努奇博物馆：Le bouddhisme en Chine 教师资料，第3页作品表"
+      },
+      {
+        "url": "https://www.parismuseescollections.paris.fr/fr/musee-cernuschi/oeuvres/stele-bouddhique-0",
+        "title": "巴黎市博物馆藏品库：Stèle bouddhique（馆藏入口）"
+      }
+    ],
+    "status": "confirmed",
+    "issue": "现场标签写M.C.8763 a，市立藏品库规范化编号M.C.8763-1；二者为同件。1956年Marie-Madeleine Wannieck捐赠见展签。未使用碑刻图片识字。",
+    "scope": "main",
+    "reading_url": null,
+    "visit_date": null,
+    "museum_id": "cernuschi",
+    "hero": 1810,
+    "region": "北方",
+    "track": "北朝",
+    "date_note": "",
+    "catalogue_note": ""
+  },
+  {
+    "id": "met-1823",
+    "title": "彩绘石雕四佛塔",
+    "title_en": "Pagoda base with four Buddhas",
+    "date": "约560—575年",
+    "period": "北齐",
+    "year_start": 560,
+    "year_end": 575,
+    "date_kind": "circa_range",
+    "material": "石灰岩，残存彩绘",
+    "form": "石塔／佛龛建筑构件",
+    "iconography": "中央柱四佛、周壁千佛，具体佛名未确定",
+    "owner": "纽约大都会艺术博物馆",
+    "owner_city": "纽约",
+    "viewing_museum": "纽约大都会艺术博物馆",
+    "viewing_city": "纽约",
+    "viewing_museum_candidate": "纽约大都会艺术博物馆",
+    "viewing_evidence": "作品照片可见大都会Gallery206既有完整陈列环境，现代展签与官网1988.303对应。",
+    "accession": "1988.303",
+    "origin": "中国；现场展签认为可能山东",
+    "discovery": null,
+    "photos": [
+      {
+        "number": 1823,
+        "role": "front",
+        "caption": "四佛塔的门道、中央柱与护卫形象",
+        "rotation_ccw": 0
+      },
+      {
+        "number": 1824,
+        "role": "label",
+        "caption": "彩绘石雕四佛塔现场展签",
+        "rotation_ccw": 0
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.metmuseum.org/art/collection/search/42705",
+        "title": "大都会：Pagoda base with four Buddhas，1988.303"
+      }
+    ],
+    "status": "confirmed",
+    "issue": "官网现题与展签 Funerary Pagoda with Four Buddhas 不同；两者同号。只保留1823、1824，1825—1827属于另一件唐代造像碑。",
+    "scope": "main",
+    "reading_url": null,
+    "museum_id": "met",
+    "visit_date": null,
+    "hero": 1823,
+    "region": "北方",
+    "track": "北朝",
+    "date_note": "",
+    "catalogue_note": ""
+  },
+  {
+    "id": "mfa-1843",
+    "title": "佛教供养碑",
+    "title_en": "Buddhist Votive Stele",
+    "date": "550—577年",
+    "period": "北齐",
+    "year_start": 550,
+    "year_end": 577,
+    "date_kind": "range",
+    "material": "砂岩",
+    "form": "背屏式造像",
+    "iconography": "中央坐佛、胁侍、莲花上小坐像、双狮及炉座；各小像身份未核实",
+    "owner": "新奥尔良美术馆",
+    "viewing_museum": "新奥尔良美术馆",
+    "viewing_city": "新奥尔良",
+    "visit_date": null,
+    "visit_evidence": "作者本轮明确确认在新奥尔良美术馆观看；作品基本资料据现场展签。",
+    "accession": "2014.39",
+    "origin": "",
+    "discovery": "",
+    "photos": [
+      {
+        "number": 1843,
+        "role": "front",
+        "caption": "坐佛与胁侍，上部莲花中的小坐像",
+        "original_filename": "Image_20261106141114_1843_19.jpg",
+        "rotation_ccw": 0
+      },
+      {
+        "number": 1844,
+        "role": "label",
+        "caption": "现场展签：北齐佛教供养碑，2014.39",
+        "original_filename": "Image_20261106141114_1844_19.jpg",
+        "rotation_ccw": 0
+      }
+    ],
+    "sources": [],
+    "status": "confirmed",
+    "issue": "",
+    "scope": "main",
+    "deep_reading": null,
+    "label_credit": "Gift by exchange from Abby Rae Catledge, 2014.39",
+    "museum_id": "noma",
+    "hero": 1843,
+    "region": "北方",
+    "track": "北朝",
+    "date_note": "",
+    "catalogue_note": "",
+    "reading_url": null,
+    "viewing_evidence": "Merton确认在新奥尔良美术馆现场拍摄。"
+  },
+  {
+    "id": "freer-cosmic-buddha",
+    "title": "毗卢舍那佛立像（宇宙佛）",
+    "title_en": "Cosmic Buddha Pilushena (Vairochana) with the Realms of Existence and other Buddhist scenes",
+    "date": "550—577年",
+    "period": "北齐",
+    "year_start": 550,
+    "year_end": 577,
+    "date_kind": "range",
+    "material": "石灰岩",
+    "form": "单尊立像",
+    "iconography": "佛衣表面刻有佛教宇宙与佛传场景",
+    "owner": "史密森尼国家亚洲艺术博物馆（弗利尔收藏）",
+    "viewing_museum": "史密森尼国家亚洲艺术博物馆（弗利尔收藏）",
+    "viewing_city": "华盛顿",
+    "visit_date": null,
+    "visit_evidence": "现代现场展签列本馆藏品号及馆藏credit，与馆方藏品记录吻合；未使用目前在展状态推定拍摄时陈列。",
+    "accession": "F1923.15",
+    "origin": "中国，可能河南省（馆方归属）",
+    "discovery": "",
+    "photos": [
+      {
+        "number": 1845,
+        "role": "front",
+        "caption": "佛衣正面的佛教世界图像与双足",
+        "original_filename": "Image_20261106141114_1845_19.jpg",
+        "rotation_ccw": 0
+      },
+      {
+        "number": 1846,
+        "role": "back",
+        "caption": "佛衣背面的浅浮雕场景",
+        "original_filename": "Image_20261106141114_1846_19.jpg",
+        "rotation_ccw": 0
+      },
+      {
+        "number": 1847,
+        "role": "label",
+        "caption": "现场展签：The Cosmic Buddha",
+        "original_filename": "Image_20261106141114_1847_19.jpg",
+        "rotation_ccw": 90
+      }
+    ],
+    "sources": [
+      {
+        "title": "国家亚洲艺术博物馆：F1923.15",
+        "url": "https://asia-archive.si.edu/object/F1923.15/",
+        "read_status": "read"
+      }
+    ],
+    "status": "confirmed",
+    "issue": "",
+    "scope": "main",
+    "deep_reading": null,
+    "dimensions": "151.3 × 62.9 × 31.3厘米",
+    "note": "现存无头立像；照片仅记录残存像身，未以网上图片补全。馆方记录1923年购自北京Taku Shanfang。",
+    "museum_id": "nmaa",
+    "hero": 1845,
+    "region": "北方",
+    "track": "北朝",
+    "date_note": "",
+    "catalogue_note": "现存像身的头部已经缺失。馆方记载1923年购自北京Taku Shanfang。",
+    "reading_url": null
+  },
+  {
+    "id": "museum-1848",
+    "title": "多佛造像碑",
+    "title_en": "Stele with Buddhas of the Past, Present and Future",
+    "date": "565年；1516年再奉献",
+    "period": "北齐",
+    "year_start": 565,
+    "year_end": 565,
+    "date_kind": "exact",
+    "material": "大理石，残留彩绘",
+    "form": "镂空背屏造像",
+    "iconography": "两尊思惟菩萨可能为弥勒；上方小佛、飞天与塔",
+    "owner": "史密森尼国家亚洲艺术博物馆（弗利尔收藏）",
+    "viewing_museum": "史密森尼国家亚洲艺术博物馆（弗利尔收藏）",
+    "viewing_city": "华盛顿",
+    "visit_date": null,
+    "visit_evidence": "现代现场展签列本馆藏品号及馆藏credit，与馆方藏品记录吻合；未使用目前在展状态推定拍摄时陈列。",
+    "accession": "F1913.27",
+    "origin": "中国河北曲阳（馆方地域记录）",
+    "discovery": "",
+    "photos": [
+      {
+        "number": 1848,
+        "role": "front",
+        "caption": "双思惟菩萨与镂空树形背屏",
+        "original_filename": "Image_20261106141114_1848_19.jpg",
+        "rotation_ccw": 0
+      },
+      {
+        "number": 1849,
+        "role": "inscription",
+        "caption": "台座背面题记位置",
+        "original_filename": "Image_20261106141114_1849_19.jpg",
+        "rotation_ccw": 0
+      },
+      {
+        "number": 1850,
+        "role": "label",
+        "caption": "现场说明：供养与再次奉献",
+        "original_filename": "Image_20261106141114_1850_19.jpg",
+        "rotation_ccw": 0
+      },
+      {
+        "number": 1851,
+        "role": "label",
+        "caption": "现场展签：565年多佛造像碑",
+        "original_filename": "Image_20261106141114_1851_19.jpg",
+        "rotation_ccw": 0
+      },
+      {
+        "number": 1880,
+        "role": "front",
+        "caption": "多佛造像碑正面全貌",
+        "original_filename": "Image_20261106141114_1880_19.jpg",
+        "rotation_ccw": 0
+      },
+      {
+        "number": 1881,
+        "role": "back",
+        "caption": "镂空背屏、坐像背部与台座",
+        "original_filename": "Image_20261106141114_1881_19.jpg",
+        "rotation_ccw": 0
+      },
+      {
+        "number": 1882,
+        "role": "inscription",
+        "caption": "台座背面题记位置",
+        "original_filename": "Image_20261106141114_1882_19.jpg",
+        "rotation_ccw": 0
+      },
+      {
+        "number": 1883,
+        "role": "label",
+        "caption": "现场展签：Seeing Double",
+        "original_filename": "Image_20261106141114_1883_19.jpg",
+        "rotation_ccw": 90
+      },
+      {
+        "number": 1884,
+        "role": "label",
+        "caption": "现场说明：Patronage and Persecution",
+        "original_filename": "Image_20261106141114_1884_19.jpg",
+        "rotation_ccw": 90
+      }
+    ],
+    "sources": [
+      {
+        "title": "国家亚洲艺术博物馆：F1913.27",
+        "url": "https://asia-archive.si.edu/object/F1913.27/",
+        "read_status": "read"
+      }
+    ],
+    "status": "confirmed",
+    "issue": "",
+    "scope": "main",
+    "deep_reading": null,
+    "dimensions": "95.1 × 60.6 × 35.4厘米",
+    "merge_evidence": "1848与1880相同镂空轮廓、两尊思惟像、台座不规则黑色斑块；1849与1882同一台座背面构图。1851与1883均明确F1913.27、565与1516。1850/1884为同件说明牌。1878/1879不归入本件。",
+    "note": "1516为后世再奉献时间，时间线仍按原刻565年定位；现代展签将下方两尊大菩萨称为可能的弥勒。",
+    "museum_id": "nmaa",
+    "hero": 1848,
+    "region": "北方",
+    "track": "北朝",
+    "date_note": "",
+    "catalogue_note": "造像碑原刻于565年，1516年再次奉献。现场展签将下方两尊大菩萨称为可能的弥勒。",
+    "reading_url": null
+  },
+  {
+    "id": "museum-1852",
+    "title": "弥勒与毗卢舍那双面造像碑",
+    "title_en": "Stele with Bodhisattva Maitreya (Mile); reverse with Buddha Vairochana (Pilushena)",
+    "date": "557—581年",
+    "period": "北周",
+    "year_start": 557,
+    "year_end": 581,
+    "date_kind": "range",
+    "material": "大理石，残留彩绘",
+    "form": "双面造像碑",
+    "iconography": "正面弥勒、菩萨与弟子；背面毗卢舍那（据馆方）",
+    "owner": "史密森尼国家亚洲艺术博物馆（弗利尔收藏）",
+    "viewing_museum": "史密森尼国家亚洲艺术博物馆（弗利尔收藏）",
+    "viewing_city": "华盛顿",
+    "visit_date": null,
+    "visit_evidence": "现代现场展签列本馆藏品号及馆藏credit，与馆方藏品记录吻合；未使用目前在展状态推定拍摄时陈列。",
+    "accession": "F1911.412",
+    "origin": "中国，可能陕西省（馆方归属）",
+    "discovery": "",
+    "photos": [
+      {
+        "number": 1852,
+        "role": "front",
+        "caption": "思惟主尊及两侧眷属",
+        "original_filename": "Image_20261106141114_1852_19.jpg",
+        "rotation_ccw": 0
+      },
+      {
+        "number": 1853,
+        "role": "back",
+        "caption": "背面浅刻佛像与图像线条",
+        "original_filename": "Image_20261106141114_1853_19.jpg",
+        "rotation_ccw": 0
+      },
+      {
+        "number": 1854,
+        "role": "label",
+        "caption": "现场展签：Future Buddha and Company",
+        "original_filename": "Image_20261106141114_1854_19.jpg",
+        "rotation_ccw": 90
+      }
+    ],
+    "sources": [
+      {
+        "title": "国家亚洲艺术博物馆：F1911.412",
+        "url": "https://asia-archive.si.edu/object/F1911.412/",
+        "read_status": "read"
+      }
+    ],
+    "status": "confirmed",
+    "issue": "",
+    "scope": "main",
+    "deep_reading": null,
+    "dimensions": "102.4 × 47.2 × 12.8厘米",
+    "note": "背面尊格依据馆方定名，不由照片浅淡线条自行辨认。",
+    "museum_id": "nmaa",
+    "hero": 1852,
+    "region": "北方",
+    "track": "北朝",
+    "date_note": "",
+    "catalogue_note": "背面毗卢舍那佛的辨认依据馆方记录。",
+    "reading_url": null
+  },
+  {
+    "id": "nelson-51-27",
+    "title": "释迦牟尼与菩萨、僧人及飞天浮雕",
+    "title_en": "Shakyamuni Buddha Attended by Bodhisattvas, Monks, and Apsaras—A Casing Slab from a Buddhist Monument",
+    "date": "6世纪初",
+    "period": "北魏",
+    "year_start": 500,
+    "year_end": 525,
+    "date_kind": "approx_range",
+    "material": "浅黄色砂岩",
+    "form": "建筑浮雕壁板",
+    "iconography": "释迦牟尼、菩萨、僧人、飞天及供养人；上角佛诞场景据馆方",
+    "owner": "纳尔逊—阿特金斯艺术博物馆",
+    "viewing_museum": "纳尔逊—阿特金斯艺术博物馆",
+    "viewing_city": "堪萨斯城",
+    "visit_date": null,
+    "visit_evidence": "现代现场展签列本馆藏品号及馆藏credit，与馆方藏品记录吻合；未使用目前在展状态推定拍摄时陈列。",
+    "accession": "51-27",
+    "origin": "可能来自陕西西安地区（现场展签）；馆方线上来源栏作西安",
+    "discovery": "",
+    "photos": [
+      {
+        "number": 1878,
+        "role": "front",
+        "caption": "佛龛、两侧眷属及下方供养人",
+        "original_filename": "Image_20261106141114_1878_19.jpg",
+        "rotation_ccw": 0
+      },
+      {
+        "number": 1879,
+        "role": "label",
+        "caption": "现场展签：佛教建筑浮雕壁板",
+        "original_filename": "Image_20261106141114_1879_19.jpg",
+        "rotation_ccw": 0
+      }
+    ],
+    "sources": [
+      {
+        "title": "纳尔逊—阿特金斯：51-27",
+        "url": "https://art.nelson-atkins.org/objects/25957/shakyamuni-buddha-attended-by-bodhisattvas-monks-and-apsar",
+        "read_status": "read"
+      }
+    ],
+    "status": "confirmed",
+    "issue": "",
+    "scope": "main",
+    "deep_reading": null,
+    "dimensions": "70.49 × 63.5厘米",
+    "year_interval_note": "500—525仅为6世纪初的时间轴显示范围，不是新的精确断代。",
+    "note": "与弗利尔F1913.27不是同件。馆方记1951年由C.T.Loo购入；不据此补写具体寺院或考古出土地。",
+    "museum_id": "nelson",
+    "hero": 1878,
+    "region": "北方",
+    "track": "北朝",
+    "date_note": "500—525仅为6世纪初的时间轴显示范围，不是新的精确断代。",
+    "catalogue_note": "馆方记载1951年由C. T. Loo购入。",
+    "reading_url": null
+  },
+  {
+    "id": "freer-pensive-maitreya",
+    "title": "弥勒菩萨思惟像",
+    "title_en": "The Bodhisattva Mile (Sanskrit Maitreya), seated in “Pensive Pose”",
+    "date": "约575年",
+    "period": "北齐",
+    "year_start": 575,
+    "year_end": 575,
+    "date_kind": "circa",
+    "material": "大理石，残留彩绘与底层涂料",
+    "form": "单尊背屏菩萨像",
+    "iconography": "树下思惟弥勒；底座莲池化生（据馆方）",
+    "owner": "史密森尼国家亚洲艺术博物馆（弗利尔收藏）",
+    "viewing_museum": "史密森尼国家亚洲艺术博物馆（弗利尔收藏）",
+    "viewing_city": "华盛顿",
+    "visit_date": null,
+    "visit_evidence": "现代现场展签列本馆藏品号及馆藏credit，与馆方藏品记录吻合；未使用目前在展状态推定拍摄时陈列。",
+    "accession": "F1911.411",
+    "origin": "河北曲阳（现场展签）；官网地理栏仅列中国",
+    "discovery": "",
+    "photos": [
+      {
+        "number": 1885,
+        "role": "front",
+        "caption": "树下思惟菩萨与莲池底座",
+        "original_filename": "Image_20261106141114_1885_19.jpg",
+        "rotation_ccw": 0
+      },
+      {
+        "number": 1886,
+        "role": "label",
+        "caption": "现场展签：Promise for the Future",
+        "original_filename": "Image_20261106141114_1886_19.jpg",
+        "rotation_ccw": 0
+      }
+    ],
+    "sources": [
+      {
+        "title": "国家亚洲艺术博物馆：F1911.411",
+        "url": "https://asia-archive.si.edu/object/F1911.411/",
+        "read_status": "read"
+      }
+    ],
+    "status": "confirmed",
+    "issue": "",
+    "scope": "main",
+    "deep_reading": null,
+    "dimensions": "33 × 17.5 × 15.4厘米",
+    "date_note": "现代展签给北齐550—577年；馆方线上记录更具体为约575年，本条采用官网约年并保留展签范围。",
+    "note": "官网说明用probably represents，中文图像说明仍保留“馆方认为可能表现等待降生的弥勒”。",
+    "museum_id": "nmaa",
+    "hero": 1885,
+    "region": "北方",
+    "track": "北朝",
+    "catalogue_note": "馆方认为这尊思惟像可能表现等待降生的弥勒。",
+    "reading_url": null
+  },
+  {
+    "id": "penn-551-c404",
+    "title": "佛教造像碑",
+    "title_en": "Votive Stela",
+    "date": "551年",
+    "period": "北齐",
+    "year_start": 551,
+    "year_end": 551,
+    "date_kind": "exact",
+    "material": "石灰岩",
+    "form": "多层造像碑",
+    "iconography": "主龛佛与眷属；上部文殊、维摩诘问答；侧面本生故事据展签",
+    "owner": "宾夕法尼亚大学博物馆",
+    "viewing_museum": "宾夕法尼亚大学博物馆",
+    "viewing_city": "费城",
+    "visit_date": null,
+    "visit_evidence": "现代现场展签列本馆藏品号及馆藏credit，与馆方藏品记录吻合；未使用目前在展状态推定拍摄时陈列。",
+    "accession": "C404",
+    "origin": "中国河南（馆方地域记录）",
+    "discovery": "",
+    "photos": [
+      {
+        "number": 1891,
+        "role": "front",
+        "caption": "主龛与上层问答图像",
+        "original_filename": "Image_20261106141114_1891_19.jpg",
+        "rotation_ccw": 0
+      },
+      {
+        "number": 1892,
+        "role": "label",
+        "caption": "现场展签：551年造像碑C404",
+        "original_filename": "Image_20261106141114_1892_19.jpg",
+        "rotation_ccw": 0
+      }
+    ],
+    "sources": [
+      {
+        "title": "宾大博物馆：C404",
+        "url": "https://collections.penn.museum/collections/object/125145",
+        "read_status": "read"
+      }
+    ],
+    "status": "confirmed",
+    "issue": "",
+    "scope": "main",
+    "deep_reading": null,
+    "dimensions": "99.01 × 59 × 28厘米",
+    "note": "1891、1892从575年C429错误关联中分出；C404独立计一件。官网据后世题记记载原奉献于551年，另有1561年修复题记。本轮不释读石刻。",
+    "date_note": "展签括号将北齐终年印成557，属朝代范围问题；本件551年与官网相同。",
+    "museum_id": "penn",
+    "hero": 1891,
+    "region": "北方",
+    "track": "北朝",
+    "catalogue_note": "馆方据后世题记记载原奉献于551年，另有1561年修复题记。",
+    "reading_url": null
+  },
+  {
+    "id": "penn-1893",
+    "title": "佛与二胁侍造像碑",
+    "title_en": "Buddha and two attendants stele",
+    "date": "535年",
+    "period": "东魏",
+    "year_start": 535,
+    "year_end": 535,
+    "date_kind": "exact",
+    "material": "石",
+    "form": "背屏式造像",
+    "iconography": "中央坐佛及两位胁侍",
+    "owner": "普林斯顿大学艺术博物馆",
+    "viewing_museum": "普林斯顿大学艺术博物馆",
+    "viewing_city": "普林斯顿",
+    "visit_date": null,
+    "visit_evidence": "现场展签1894列Gift of Constance Tang Fong in memory of K.M. and P.Y. Tang及编号2020-686，与普林斯顿本馆记录完全对应；展陈照片并列该馆y1943-134。无借展贷方credit。",
+    "accession": "2020-686",
+    "origin": "中国；具体制作地未详",
+    "discovery": "",
+    "photos": [
+      {
+        "number": 1893,
+        "role": "front",
+        "caption": "坐佛、二胁侍与台座",
+        "original_filename": "Image_20261106141114_1893_19.jpg",
+        "rotation_ccw": 0
+      },
+      {
+        "number": 1894,
+        "role": "label",
+        "caption": "现场展签：535年佛与二胁侍造像碑",
+        "original_filename": "Image_20261106141114_1894_19.jpg",
+        "rotation_ccw": 0
+      }
+    ],
+    "sources": [
+      {
+        "title": "普林斯顿大学艺术博物馆：2020-686",
+        "url": "https://artmuseum.princeton.edu/art/collections/objects/14474",
+        "read_status": "read"
+      }
+    ],
+    "status": "confirmed",
+    "issue": "",
+    "scope": "main",
+    "deep_reading": null,
+    "dimensions": "56 × 36 × 26厘米",
+    "note": "交接包penn-1893仅为初始ID，馆名现改正为普林斯顿；不另建第二条藏品。",
+    "canonical_id_suggestion": "princeton-535-triad",
+    "museum_id": "princeton",
+    "hero": 1893,
+    "region": "北方",
+    "track": "北朝",
+    "date_note": "",
+    "catalogue_note": "",
+    "reading_url": null
+  },
+  {
+    "id": "penn-1895",
+    "title": "弥勒佛立像",
+    "title_en": "Maitreya Buddha",
+    "date": "516年",
+    "period": "北魏",
+    "year_start": 516,
+    "year_end": 516,
+    "date_kind": "exact",
+    "material": "石灰岩，残留彩绘与鎏金",
+    "form": "大型单尊背屏佛像",
+    "iconography": "弥勒佛；背面释迦与多宝及小佛据馆方",
+    "owner": "宾夕法尼亚大学博物馆",
+    "viewing_museum": "宾夕法尼亚大学博物馆",
+    "viewing_city": "费城",
+    "visit_date": null,
+    "visit_evidence": "现代现场展签列本馆藏品号及馆藏credit，与馆方藏品记录吻合；未使用目前在展状态推定拍摄时陈列。",
+    "accession": "C284",
+    "origin": "中国河北定州（馆方地域记录）",
+    "discovery": "",
+    "photos": [
+      {
+        "number": 1895,
+        "role": "front",
+        "caption": "弥勒佛与尖叶形背光全貌",
+        "original_filename": "Image_20261106141114_1895_19.jpg",
+        "rotation_ccw": 0
+      },
+      {
+        "number": 1896,
+        "role": "detail",
+        "caption": "双足、台座与残留彩绘",
+        "original_filename": "Image_20261106141114_1896_19.jpg",
+        "rotation_ccw": 0
+      },
+      {
+        "number": 1897,
+        "role": "back",
+        "caption": "背光背面现场照片",
+        "original_filename": "Image_20261106141114_1897_19.jpg",
+        "rotation_ccw": 0
+      },
+      {
+        "number": 1898,
+        "role": "label",
+        "caption": "现场展签：516年弥勒佛C284",
+        "original_filename": "Image_20261106141114_1898_19.jpg",
+        "rotation_ccw": 0
+      }
+    ],
+    "sources": [
+      {
+        "title": "宾大博物馆：C284",
+        "url": "https://collections.penn.museum/collections/object/56808",
+        "read_status": "read"
+      }
+    ],
+    "status": "confirmed",
+    "issue": "",
+    "scope": "main",
+    "deep_reading": null,
+    "dimensions": "279.4 × 127 × 36厘米",
+    "note": "官网及现场展签均为516年。官网记背面题名供养人Zhang Qianbai、Shanyang村，未据音译自行补写汉字；记端方旧藏及1917年购自C.T.Loo。本轮仅基础编目，不新增铭文释文。",
+    "date_note": "旧著录曾有514年说法；本次依现馆签及现官网516年。",
+    "museum_id": "penn",
+    "hero": 1895,
+    "region": "北方",
+    "track": "北朝",
+    "catalogue_note": "馆方记录背面题名供养人Zhang Qianbai及Shanyang村，并记载端方旧藏、1917年购自C. T. Loo。人名、地名暂沿用馆方转写。",
+    "reading_url": null
+  }
+]

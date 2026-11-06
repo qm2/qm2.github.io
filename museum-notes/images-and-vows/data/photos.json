@@ -1077,7 +1077,7 @@
       }
     ],
     "role": "artwork",
-    "caption": "正面下部供养人行列"
+    "caption": "主龛下方的供物、双狮与人物行列"
   },
   "1870": {
     "work_id": "na-537-lotus",
@@ -1125,7 +1125,7 @@
       }
     ],
     "role": "artwork",
-    "caption": "背面下部人物行列"
+    "caption": "背面下方的供养人与题记"
   },
   "1872": {
     "work_id": "na-537-lotus",
@@ -1149,7 +1149,7 @@
       }
     ],
     "role": "artwork",
-    "caption": "主龛中的佛与胁侍"
+    "caption": "主龛佛与胁侍细部"
   },
   "1873": {
     "work_id": "na-537-lotus",
@@ -1173,7 +1173,7 @@
       }
     ],
     "role": "artwork",
-    "caption": "主龛上方的小塔与火焰纹"
+    "caption": "火焰上方的小塔"
   },
   "1874": {
     "work_id": "na-537-lotus",
@@ -1293,7 +1293,7 @@
       }
     ],
     "role": "artwork",
-    "caption": "正面多层佛龛全貌"
+    "caption": "正面全貌与分层佛龛"
   },
   "1888": {
     "work_id": "penn-575-c429",
@@ -1317,7 +1317,7 @@
       }
     ],
     "role": "artwork",
-    "caption": "背面多层图像全貌"
+    "caption": "背面全貌：上层净土、中层问答、下层二佛"
   },
   "1889": {
     "work_id": "penn-575-c429",
@@ -1341,7 +1341,7 @@
       }
     ],
     "role": "artwork",
-    "caption": "下部题记的位置"
+    "caption": "碑面题记位置与局部"
   },
   "1890": {
     "work_id": "penn-575-c429",
@@ -1368,7 +1368,7 @@
     "caption": "现场展签"
   },
   "1891": {
-    "work_id": "penn-575-c429",
+    "work_id": null,
     "original": "images/originals/Image_20261106141114_1891_19.jpg",
     "sha256": "bb586ac33acf1747c256e77e1814b89627211d6e7b293c33287aa048e780f1bd",
     "rotation": 0,
@@ -1389,10 +1389,15 @@
       }
     ],
     "role": "artwork",
-    "caption": "上层佛龛近照"
+    "caption": "另一件551年造像碑（C404），正面",
+    "status": "excluded_from_current_selection",
+    "identified_accession": "C404",
+    "identified_date": "551",
+    "identification_source": "https://collections.penn.museum/collections/object/125145",
+    "research_note": "现代展签及宾大官方馆录一致：这是551年C404，不是575年C429。解除关联，保留原始照片与衍生文件，本轮不新增作品。"
   },
   "1892": {
-    "work_id": "penn-575-c429",
+    "work_id": null,
     "original": "images/originals/Image_20261106141114_1892_19.jpg",
     "sha256": "f86221bc37f011aae17a378bdaed42975a37fbeeadad99b92497e434dbd0c704",
     "rotation": 0,
@@ -1413,6 +1418,11 @@
       }
     ],
     "role": "label",
-    "caption": "现场展签"
+    "caption": "另一件551年造像碑（C404）的现场展签",
+    "status": "excluded_from_current_selection",
+    "identified_accession": "C404",
+    "identified_date": "551",
+    "identification_source": "https://collections.penn.museum/collections/object/125145",
+    "research_note": "现代展签及宾大官方馆录一致：这是551年C404，不是575年C429。解除关联，保留原始照片与衍生文件，本轮不新增作品。"
   }
 }

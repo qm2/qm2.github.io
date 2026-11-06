@@ -3,3 +3,16 @@
 @media(max-width:950px){.iv-cover{gap:2.5rem}.iv-grid,.iv-grid:has(>.iv-card:nth-child(4):last-child){grid-template-columns:repeat(2,minmax(0,1fr))}.iv-feature{gap:2rem}.iv-card img{height:310px}}
 @media(max-width:650px){.iv-page .wrap{width:calc(100% - 36px)}.iv-page .site-header{width:calc(100% - 36px);gap:1rem;flex-wrap:wrap}.iv-page .site-header nav{font-size:.75rem;gap:.9rem}.iv-cover{display:flex;flex-direction:column;margin:2.5rem auto 3rem;gap:2rem}.iv-cover>div{width:100%}.iv-cover h1{font-size:2.5rem}.iv-cover .iv-figure{max-width:420px}.iv-desktop-break{display:none}.iv-epigraph{margin:1.4rem 0 1rem}.iv-cover-note{max-width:none}.iv-opening{margin-block:2.5rem}.iv-chapter{margin:4rem 0}.iv-chapter-nav{justify-content:flex-start;gap:.7rem 1.2rem}.iv-chapter-nav a{font-size:.8rem}.iv-feature{grid-template-columns:1fr;gap:1.5rem;margin:2.2rem auto 3rem}.iv-feature>div{max-width:none}.iv-grid,.iv-grid:has(>.iv-card:nth-child(4):last-child){gap:2rem 1rem}.iv-card img{height:220px}.iv-card h3{font-size:1rem}.iv-comparison{grid-template-columns:1fr;gap:2rem}.iv-journeys li{grid-template-columns:1fr;gap:.5rem}.iv-journeys p{margin:.5rem 0}.iv-catalogue li{grid-template-columns:68px 1fr;gap:.6rem}.iv-catalogue li>a{gap:.8rem}.iv-catalogue img{width:58px;height:85px}.iv-catalogue strong{font-size:.95rem}.iv-catalogue small{font-size:.7rem}.iv-year{font-size:.9rem}.iv-filters label:first-child{width:100%}.iv-filters input{width:100%}.iv-heading{margin:2rem auto}.iv-gallery-controls{gap:.5rem}.iv-gallery-tabs{gap:.4rem}.iv-gallery-tabs button{font-size:.72rem;max-width:100%}.iv-gallery [data-all]{font-size:.8rem}.iv-inscription blockquote{font-size:1.15rem}.iv-transcription{font-size:1rem}.iv-facts dl{grid-template-columns:70px 1fr;gap:.5rem}.iv-related{margin:3.5rem 0}}
 @media(prefers-reduced-motion:reduce){.iv-page *{scroll-behavior:auto!important;transition:none!important}html:has(.iv-page){scroll-behavior:auto}}
+/* Inscription readings: paired passages, with apparatus kept out of the main flow. */
+.iv-reading-nav{display:flex;flex-wrap:wrap;gap:.55rem 1.2rem;margin:1.2rem 0 1.8rem;font-size:.8rem}
+.iv-reading-nav a,.iv-photo-links a{text-underline-offset:.25em}
+.iv-photo-links{font-size:.82rem;color:var(--muted);margin:.5rem 0 1.4rem}
+.iv-passage{padding:1rem 0 1.2rem;border-bottom:1px solid var(--line)}
+.iv-passage h3{font-size:1.05rem;color:var(--iv-red);margin:.5rem 0}
+.iv-inscription .iv-passage blockquote{font-size:1.15rem;line-height:2;overflow-wrap:anywhere;margin:1rem 0 .6rem}
+.iv-passage>.iv-meta{margin-top:0}.iv-passage>p:last-child{margin-bottom:.3rem}
+.iv-terms{margin:1rem 0}.iv-terms dt{font-family:var(--serif);margin-top:1.2rem;color:var(--iv-red)}
+.iv-terms dd{margin:.4rem 0 1rem;line-height:1.95;font-size:.92rem}
+.iv-source-note{font-size:.76rem;color:var(--muted);margin:.3rem 0}
+.iv-page #publications li{margin:.8rem 0;line-height:1.9}
+@media(max-width:650px){.iv-inscription .iv-passage blockquote{font-size:1.05rem}.iv-reading-nav{gap:.65rem 1rem}.iv-terms dd{font-size:.88rem}}

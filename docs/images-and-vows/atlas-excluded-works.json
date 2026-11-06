@@ -1,0 +1,171 @@
+[
+  {
+    "id": "met-30122",
+    "title": "观音大势至造像碑",
+    "title_en": "Stele with the Bodhisattvas Avalokiteshvara (Guanyin) and Mahasthamaprapta (Dashizi)",
+    "date": "7世纪中晚期",
+    "period": "唐",
+    "year_start": 650,
+    "year_end": 700,
+    "date_kind": "range",
+    "material": "石灰岩，残存彩绘",
+    "form": "双面造像碑",
+    "iconography": "观音、大势至；背面三佛与千佛，馆方称其中含阿弥陀佛",
+    "owner": "纽约大都会艺术博物馆",
+    "owner_city": "纽约",
+    "viewing_museum": "纽约大都会艺术博物馆",
+    "viewing_city": "纽约",
+    "viewing_museum_candidate": "纽约大都会艺术博物馆",
+    "viewing_evidence": "现场展签30.122及大都会陈列环境可对应。",
+    "accession": "30.122",
+    "origin": "中国河南（馆方地域归属）",
+    "discovery": null,
+    "photos": [
+      {
+        "number": 1825,
+        "role": "front",
+        "caption": "观音与大势至并立的一面",
+        "rotation_ccw": 0
+      },
+      {
+        "number": 1826,
+        "role": "back",
+        "caption": "背面的千佛与佛龛",
+        "rotation_ccw": 0
+      },
+      {
+        "number": 1827,
+        "role": "label",
+        "caption": "观音大势至造像碑现场展签",
+        "rotation_ccw": 90
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.metmuseum.org/art/collection/search/44798",
+        "title": "大都会：Stele with the Bodhisattvas Avalokiteshvara and Mahasthamaprapta，30.122"
+      }
+    ],
+    "status": "confirmed",
+    "issue": "原交接清单误并入met-1823，已按照片与编号拆分。650—700仅为7世纪中晚期的可视化区间，不是作品明纪年。 用户本轮要求唐代暂不公开，保留内部资料及照片去向。",
+    "scope": "excluded_tang",
+    "reading_url": null,
+    "museum_id": "met",
+    "visit_date": null,
+    "hero": 1825,
+    "region": "北方",
+    "track": "北朝",
+    "date_note": "",
+    "catalogue_note": ""
+  },
+  {
+    "id": "cle-dharani-1929983",
+    "title": "陀罗尼经幢残段",
+    "title_en": "Section of a Dharani Pillar",
+    "date": "唐（618—907年）",
+    "period": "唐",
+    "year_start": 618,
+    "year_end": 907,
+    "date_kind": "period",
+    "material": "石灰岩",
+    "form": "经幢残段",
+    "iconography": "八面佛教造像（具体人物本记录不另行辨认）",
+    "owner": "克利夫兰艺术博物馆",
+    "owner_city": "克利夫兰",
+    "viewing_museum": "克利夫兰艺术博物馆",
+    "viewing_city": "克利夫兰",
+    "viewing_museum_candidate": "克利夫兰艺术博物馆",
+    "viewing_evidence": "现场现代展签的J. H. Wade Fund、1929.983与官网对应；同组克利夫兰Gallery241C照片。",
+    "accession": "1929.983",
+    "origin": "中国",
+    "discovery": null,
+    "photos": [
+      {
+        "number": 1828,
+        "role": "front",
+        "caption": "八角经幢残段及三面造像",
+        "rotation_ccw": 0
+      },
+      {
+        "number": 1829,
+        "role": "label",
+        "caption": "陀罗尼经幢残段现场展签",
+        "rotation_ccw": 0
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.clevelandart.org/art/1929.983",
+        "title": "克利夫兰艺术博物馆：Section of a Dharani Pillar，1929.983"
+      }
+    ],
+    "status": "confirmed",
+    "issue": "本件为唐代，不进入五六世纪默认时间线；只记录馆方对悼亡用途的说明，不从照片释读铭文。 用户本轮要求唐代暂不公开，保留内部资料及照片去向。",
+    "scope": "excluded_tang",
+    "reading_url": null,
+    "museum_id": "cleveland",
+    "visit_date": null,
+    "hero": 1828,
+    "region": "北方",
+    "track": "北朝",
+    "date_note": "横轴范围表示朝代或时期边界，不是作品的精确制作年。",
+    "catalogue_note": "横轴范围表示朝代或时期边界，不是作品的精确制作年。"
+  },
+  {
+    "id": "princeton-750-stele",
+    "title": "佛教供养碑",
+    "title_en": "Buddhist votive stele",
+    "date": "750年",
+    "period": "唐",
+    "year_start": 750,
+    "year_end": 750,
+    "date_kind": "exact",
+    "material": "石",
+    "form": "造像碑",
+    "iconography": "释迦牟尼、阿难、迦叶、飞天与供养人（据馆方）",
+    "owner": "普林斯顿大学艺术博物馆",
+    "viewing_museum": "普林斯顿大学艺术博物馆",
+    "viewing_city": "普林斯顿",
+    "visit_date": null,
+    "visit_evidence": "现场展签1900列Museum purchase, Carl Otto von Kienbusch Jr. Memorial Collection与馆号y1943-134，吻合普林斯顿馆藏原始记录；与该馆535年碑同陈列。",
+    "accession": "y1943-134",
+    "origin": "中国；更细地域不确定",
+    "discovery": "",
+    "photos": [
+      {
+        "number": 1899,
+        "role": "front",
+        "caption": "佛龛、供养人行列与碑身",
+        "original_filename": "Image_20261106141355_1899_19.jpg",
+        "rotation_ccw": 0
+      },
+      {
+        "number": 1900,
+        "role": "label",
+        "caption": "现场展签：750年佛教供养碑",
+        "original_filename": "Image_20261106141357_1900_19.jpg",
+        "rotation_ccw": 0
+      }
+    ],
+    "sources": [
+      {
+        "title": "普林斯顿大学艺术博物馆：y1943-134",
+        "url": "https://artmuseum.princeton.edu/art/collections/objects/22049",
+        "read_status": "read"
+      }
+    ],
+    "status": "confirmed",
+    "issue": "",
+    "scope": "excluded_tang",
+    "deep_reading": null,
+    "dimensions": "73 × 49.5 × 13.5厘米",
+    "note": "唐代范围外对照，不能纳入五六世纪主轨。馆方将方整轮廓解释为后来被用作建筑石材的结果；原出土地未确认。 用户本轮要求唐代暂不公开；只留内部编目与照片去向，不生成公开图库或地图计数。",
+    "museum_id": "princeton",
+    "hero": 1899,
+    "region": "北方",
+    "track": "北朝",
+    "date_note": "",
+    "catalogue_note": "唐代范围外对照，不能纳入五六世纪主轨。馆方将方整轮廓解释为后来被用作建筑石材的结果；原出土地未确认。 用户本轮要求唐代暂不公开；只留内部编目与照片去向，不生成公开图库或地图计数。",
+    "reading_url": null
+  }
+]

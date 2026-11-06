@@ -31,6 +31,10 @@
   requestAnimationFrame(()=>target.scrollIntoView({block:'start',behavior:'instant'}));
  };
  window.addEventListener('hashchange',reveal);
+ document.addEventListener('click',event=>{
+  const a=event.target.closest('a[href^="#photo-"]');
+  if(a&&a.hash===location.hash){event.preventDefault();reveal();}
+ });
  const form=document.querySelector('.iv-filters');
  if(form){
   const search=document.getElementById('iv-search'),region=document.getElementById('iv-region'),text=document.getElementById('iv-text'),rows=[...document.querySelectorAll('.iv-catalogue li')];

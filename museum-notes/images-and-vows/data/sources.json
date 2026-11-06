@@ -108,8 +108,9 @@
     "publisher": "Yale University Press/MFAH",
     "title": "2026《Approaching the Buddha》图录",
     "url": "https://yalebooks.yale.edu/book/9780300286427/approaching-the-buddha/",
-    "research_use_and_caveat": "图录 cat.20 法兴，导论、功德/回向、526第二尊未见等，正文尚需查书",
-    "evidence_type": "bibliography"
+    "research_use_and_caveat": "出版社官网核实2026-03-03、ISBN 9780300286427、MFAH出版/Yale发行。Cat.20仅据用户研究包；未直接读到本件条目。",
+    "evidence_type": "bibliography",
+    "public_note": "出版信息已核；本件Cat.20原页及相关专论尚未核读。"
   },
   {
     "source_id": "S15",
@@ -246,5 +247,132 @@
     "url": "https://opac.ryukoku.ac.jp/iwjs0005opc/bdyview.do?bodyid=BD00004631&elmid=Body&fname=r-barc-kh_2011_011.pdf",
     "evidence_type": "scholarly",
     "research_use_and_caveat": "已读研究会报告；743年追刻与录文问题，不视作最终校本"
+  },
+  {
+    "source_id": "jigulue-calendar",
+    "publisher": "CBETA／鹿苑",
+    "title": "觉岸《释氏稽古略》卷二：普通六、七年与孝昌纪年",
+    "url": "https://deerpark.app/cbeta/T2037/2",
+    "evidence_type": "primary-text",
+    "research_use_and_caveat": "已核读乙巳/孝昌元年和丙午/孝昌二年编年对应；仅用于纪年参照，不证明法兴原刻何字。"
+  },
+  {
+    "source_id": "leidy-chinese-sculpture",
+    "publisher": "Denise Patry Leidy／大都会博物馆",
+    "title": "Chinese Buddhist Sculpture（2010）",
+    "url": "https://www.metmuseum.org/essays/chinese-buddhist-sculpture",
+    "evidence_type": "scholarly",
+    "research_use_and_caveat": "已阅读全文；仅援引厚衣、瘦身的概括及视觉传统交汇，不作法兴出土地证据。"
+  },
+  {
+    "source_id": "faxing-christies-en",
+    "publisher": "Christie's",
+    "title": "2017年法兴三尊像英文拍品记录",
+    "url": "https://www.christies.com/en/lot/lot-6061297",
+    "evidence_type": "official",
+    "research_use_and_caveat": "与中文原页对照人名及材料差异。"
+  },
+  {
+    "source_id": "jin-2006-yin",
+    "publisher": "金申／《收藏家》，雅昌转载",
+    "title": "流散海外的北魏早期石佛造像（2006年第2期）",
+    "url": "https://comment.artron.net/index.php?flag=comment&newid=3774",
+    "evidence_type": "scholarly",
+    "research_use_and_caveat": "已阅读全文转载；提供尹受国完整录文及形制分析。原书与早拓尚未核读。"
+  },
+  {
+    "source_id": "fan-2023-image-word",
+    "publisher": "范乐陶／《北市大语文学报》",
+    "title": "北朝B型造像记开头套语与魏晋南北朝佛玄思想，28期（2023），53—80页",
+    "url": "https://literacy.utaipei.edu.tw/var/file/65/1065/img/713769341.pdf",
+    "evidence_type": "scholarly",
+    "research_use_and_caveat": "本页主要据第55—56、61—64页；已核相关正文，不以其转引书目冒充直接阅读。",
+    "public_note": "正文参照第55—56、61—64页。"
+  },
+  {
+    "source_id": "zhaoxu-dirgha",
+    "publisher": "CBETA／鹿苑",
+    "title": "僧肇《长阿含经序》，T0001卷一",
+    "url": "https://deerpark.app/cbeta/T0001/1",
+    "evidence_type": "scholarly",
+    "research_use_and_caveat": "参读序文及正文“识宿命智”；不是断言尹受国直接引用此序。"
+  },
+  {
+    "source_id": "dila-three-jewels",
+    "publisher": "法鼓文理学院佛教词典平台",
+    "title": "三宝：佛、法、僧",
+    "url": "https://glossaries.dila.edu.tw/search?locale=zh-TW&term=%E4%B8%89%E5%AF%B6",
+    "evidence_type": "scholarly",
+    "research_use_and_caveat": "词义参照。"
+  },
+  {
+    "source_id": "chen-seven-parents",
+    "publisher": "陈寒／中国社会科学报",
+    "title": "“七世父母”意涵与佛教观念中国化（2026-08-20）",
+    "url": "https://www.cssn.cn/skgz/bwyc/202608/t20260820_6063886.shtml",
+    "evidence_type": "scholarly",
+    "research_use_and_caveat": "讨论术语的历时变化，不是尹受国本件专论。"
+  },
+  {
+    "source_id": "li-2012-maitreya",
+    "publisher": "李玉珉／《故宫学术季刊》",
+    "title": "南北朝弥勒图像与信仰，30卷2期（2012），1—101页",
+    "url": "https://www.npm.gov.tw/NewChineseArtDownload.ashx?bid=3815",
+    "evidence_type": "scholarly",
+    "research_use_and_caveat": "已读相关第51、63、65—66页；第51页录法海题记、注245转引1998清理简报；第65页讨论正背面。",
+    "public_note": "法海录文与出土见第51页，地域交流见第63页，正背面关系见第65页。"
+  },
+  {
+    "source_id": "maitreya-descent",
+    "publisher": "CBETA／台湾大学佛学数字图书馆",
+    "title": "《佛说弥勒下生成佛经》，鸠摩罗什译，T0454",
+    "url": "https://buddhism.lib.ntu.edu.tw/FULLTEXT/sutra/chi_pdf/sutra9/T14n0454.pdf",
+    "evidence_type": "scholarly",
+    "research_use_and_caveat": "已读成佛、修善及三次说法段。作为术语背景，不证明法海直接依据此经。"
+  },
+  {
+    "source_id": "lei-2016-sichuan",
+    "publisher": "雷玉华／《紫禁城》",
+    "title": "四川佛教造像的渊源及信仰（2016年第10期）",
+    "url": "https://www.dpm.org.cn/Uploads/File/2019/07/25/u5d391ec884146.pdf",
+    "evidence_type": "scholarly",
+    "research_use_and_caveat": "直接阅读第92—95页历史地理与地方传统论述，未从扫描图碑文猜读新字。",
+    "public_note": "本页参照已读第92—95页；未据扫描中的碑文重新释字。"
+  },
+  {
+    "source_id": "cbeta-543",
+    "publisher": "CBETA／中央研究院历史语言研究所",
+    "title": "《李贊邑等邑義五百餘人造像碑》，I0044",
+    "url": "https://cbetaonline.dila.edu.tw/zh/I0044_001",
+    "evidence_type": "scholarly",
+    "research_use_and_caveat": "供养榜题与长碑文分别对读；未将不同录本拼成无缺的定本。",
+    "public_note": "供养榜题与长碑文分别对读；未将不同录本拼成无缺的定本。"
+  },
+  {
+    "source_id": "zhong-ma-2009",
+    "publisher": "钟稚鸥、马德鸿／《故宫博物院院刊》",
+    "title": "东魏《邑义五百余人造像碑》考释，2009年第3期，121—130页",
+    "url": "https://www.dpm.org.cn/explode/others/208817.html",
+    "evidence_type": "scholarly",
+    "research_use_and_caveat": "已读全文。图像见第125页，邑义职分与供养人排序见第126—127页；文中转引的早期金石著录未另行核读。",
+    "public_note": "已读全文。图像见第125页，邑义职分与供养人排序见第126—127页；文中转引的早期金石著录未另行核读。"
+  },
+  {
+    "source_id": "ha-2021",
+    "publisher": "Ha Jungmin／Art History and Visual Culture",
+    "title": "Reconsideration of the Authenticity over the Trübner Stele (I)，27（2021），246—285页",
+    "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002720183",
+    "evidence_type": "scholarly",
+    "research_use_and_caveat": "本页仅依据公开摘要与书目信息，未读论文全文。DOI：10.22835/ahvc.2021..27.009。",
+    "public_note": "本页仅依据公开摘要与书目信息，未读论文全文。DOI：10.22835/ahvc.2021..27.009。"
+  },
+  {
+    "source_id": "chow-1965",
+    "publisher": "Fong Chow／大都会博物馆馆刊",
+    "title": "Chinese Buddhist Sculpture，23卷9期（1965年5月），图17—18及相关文字",
+    "url": "https://www.metmuseum.org/met-publications/the-metropolitan-museum-of-art-bulletin-v-23-no-9-may-1965",
+    "evidence_type": "scholarly",
+    "research_use_and_caveat": "已读七十人碑相关段落；743年追刻及龙门供养人造型比较据此。",
+    "public_note": "已读七十人碑相关段落；743年追刻及龙门供养人造型比较据此。"
   }
 ]
