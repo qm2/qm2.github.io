@@ -118,6 +118,7 @@ def build():
   b+='<section class="wrap xz-prose xz-section" id="label"><details><summary>现场展签与原始记录</summary><figure>'+photo(w['label_photo'],w['title']+' · 现场展签',prefix)+'<figcaption>休斯顿美术馆现场展签 · Merton摄</figcaption></figure><dl class="xz-label-record">'+''.join('<div><dt>'+k+'</dt><dd lang="en">'+e(v)+'</dd></div>' for k,v in [('题名',w['original_title']),('地区',w['label_original']['region']),('年代',w['label_original']['date']),('材料',w['label_original']['material'])])+'</dl></details></section>'
   if w['related']:b+='<section class="wrap xz-prose xz-section"><h2>放在一起看</h2><p class="xz-related">'+links(w['related'],'../')+'</p></section>'
   if w.get('shared_identity'):b+='<p class="wrap xz-prose"><a href="'+e(w['shared_identity']['url'])+'">同一件佛首，也见于夹纻干漆专题 →</a></p>'
+  for context in w.get('context_links',[]):b+='<p class="wrap xz-prose"><a href="'+e(context['url'])+'">'+e(context['label'])+' →</a></p>'
   b+='<nav class="wrap xz-bottom-nav" aria-label="图录导航"><a href="../#'+('neighbors' if owned else 'catalogue')+'">← 返回'+('邻展作品' if owned else '虚舟图录')+'</a></nav>'
   if w.get('photo_layout')=='aligned':
    start=b.index('<figure>',b.index('class="wrap xz-work"'));end=b.index('</figure>',start)+len('</figure>')

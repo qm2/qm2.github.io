@@ -2478,7 +2478,13 @@
             "limits": "Xianxing不沿用；与中文题名、原刻姓名及馆签相抵触。"
           }
         }
-      }
+      },
+      "context_links": [
+        {
+          "url": "../../images-and-vows/faxing-526/",
+          "label": "造像与发愿：再读法兴的功德回向"
+        }
+      ]
     },
     {
       "id": "x25",

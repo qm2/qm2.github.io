@@ -1,0 +1,250 @@
+[
+  {
+    "source_id": "S01",
+    "publisher": "Met Museum",
+    "title": "528七十人邑义碑馆藏",
+    "url": "https://www.metmuseum.org/art/collection/search/42710",
+    "research_use_and_caveat": "官方馆藏；尺寸、铭文摘要、人物安排",
+    "evidence_type": "official"
+  },
+  {
+    "source_id": "S02",
+    "publisher": "CBETA",
+    "title": "杜善胜合邑七十人造像记",
+    "url": "https://cbetaonline.dila.edu.tw/zh/I0027_001",
+    "research_use_and_caveat": "公开录文，文字异体与残字；不是已经校勘的完整白话译文",
+    "evidence_type": "inscription"
+  },
+  {
+    "source_id": "S03",
+    "publisher": "Met Museum",
+    "title": "赫连子悦五百人碑29.72",
+    "url": "https://www.metmuseum.org/art/collection/search/40406",
+    "research_use_and_caveat": "543碑的主尊、图像、族属、正面可能重刻；名称与史籍",
+    "evidence_type": "official"
+  },
+  {
+    "source_id": "S04",
+    "publisher": "台湾故宫数字典藏",
+    "title": "李赞邑五百余人造像碑墨拓本与释文",
+    "url": "https://digitalarchive.npm.gov.tw/Collection/Detail/33678?dep=P",
+    "research_use_and_caveat": "长篇公开录文，非逐句现成白话译文；缺字较多",
+    "evidence_type": "inscription"
+  },
+  {
+    "source_id": "S05",
+    "publisher": "中央研究院史语所",
+    "title": "李道赞五百余人造像记（文物馆）",
+    "url": "https://museum.sinica.edu.tw/exhibition/47/item/466/",
+    "research_use_and_caveat": "故宫之外的概要释读与考古地点",
+    "evidence_type": "scholarly"
+  },
+  {
+    "source_id": "S06",
+    "publisher": "中央研究院数位典藏",
+    "title": "李道赞五百余人造像记著录",
+    "url": "https://ascdc.digitalarchives.tw/collection_6313871.html",
+    "research_use_and_caveat": "术语别名、纪年、馆藏来源、河南淇县",
+    "evidence_type": "scholarly"
+  },
+  {
+    "source_id": "S07",
+    "publisher": "故宫博物院",
+    "title": "南齐490释法海与母造像",
+    "url": "https://www.dpm.org.cn/subject_sino/project/china/98518.html",
+    "research_use_and_caveat": "公开碑阴释文、尺寸、出土地、2013年考古图录页码",
+    "evidence_type": "inscription"
+  },
+  {
+    "source_id": "S08",
+    "publisher": "故宫博物院",
+    "title": "511王州子及妻李慧女造像",
+    "url": "https://www.dpm.org.cn/subject_sino/project/china/98625.html",
+    "research_use_and_caveat": "公开铭文和造像正反面的图像分析",
+    "evidence_type": "inscription"
+  },
+  {
+    "source_id": "S09",
+    "publisher": "故宫博物院",
+    "title": "南梁中大通二年晃藏造释迦像",
+    "url": "https://www.dpm.org.cn/subject_sino/project/china/98627.html",
+    "research_use_and_caveat": "公开释文与2013年图录页码，汇总页需搜索“比丘晃藏”",
+    "evidence_type": "inscription"
+  },
+  {
+    "source_id": "S10",
+    "publisher": "故宫博物院",
+    "title": "545张元释迦多宝碑",
+    "url": "https://www.dpm.org.cn/subject_sino/project/china/98628.html",
+    "research_use_and_caveat": "公开碑阴释文和图像解说",
+    "evidence_type": "inscription"
+  },
+  {
+    "source_id": "S11",
+    "publisher": "Nelson-Atkins",
+    "title": "494尹受国石佛龛 59-47",
+    "url": "https://art.nelson-atkins.org/objects/5547/shrine-of-shakyamuni-buddha",
+    "research_use_and_caveat": "官方藏品、来源、材质与尺寸（灰色石灰岩）",
+    "evidence_type": "official"
+  },
+  {
+    "source_id": "S12",
+    "publisher": "金申《历代纪年佛像图典》公开整理",
+    "title": "《中国历代纪年造像图典（上）》网络整理（据金申图典）",
+    "url": "https://www.trueart.com/news/376281.html",
+    "research_use_and_caveat": "有公开全文，留意多处异文，网页内检索“尹受国”",
+    "evidence_type": "inscription"
+  },
+  {
+    "source_id": "S13",
+    "publisher": "Christie's",
+    "title": "526比丘法兴造三尊像",
+    "url": "https://www.christies.com/zh/lot/lot-6061297",
+    "research_use_and_caveat": "完整用户所供铭文对应公开文本；旧藏藤田、著录、年份与材质",
+    "evidence_type": "inscription"
+  },
+  {
+    "source_id": "S14",
+    "publisher": "Yale University Press/MFAH",
+    "title": "2026《Approaching the Buddha》图录",
+    "url": "https://yalebooks.yale.edu/book/9780300286427/approaching-the-buddha/",
+    "research_use_and_caveat": "图录 cat.20 法兴，导论、功德/回向、526第二尊未见等，正文尚需查书",
+    "evidence_type": "bibliography"
+  },
+  {
+    "source_id": "S15",
+    "publisher": "Cleveland Museum",
+    "title": "500弥勒与胁侍碑 1959.130",
+    "url": "https://www.clevelandart.org/art/1959.130",
+    "research_use_and_caveat": "官方释读概要：僧人为父母、家人和师长，未见完整碑铭",
+    "evidence_type": "official"
+  },
+  {
+    "source_id": "S16",
+    "publisher": "Cleveland Museum",
+    "title": "537元宁造释迦与胁侍碑 1914.567",
+    "url": "https://www.clevelandart.org/art/1914.567",
+    "research_use_and_caveat": "元宁为逝世配偶祈愿西方净土，部分残色，精确年代",
+    "evidence_type": "official"
+  },
+  {
+    "source_id": "S17",
+    "publisher": "Cleveland Museum",
+    "title": "570s 释迦与弥勒双面碑 1993.108",
+    "url": "https://www.clevelandart.org/art/1993.108",
+    "research_use_and_caveat": "无已核实完整铭文，前后两面释迦/弥勒与色彩",
+    "evidence_type": "official"
+  },
+  {
+    "source_id": "S18",
+    "publisher": "Nelson-Atkins",
+    "title": "约537年法华经图像造像碑 37-27",
+    "url": "https://art.nelson-atkins.org/objects/29963/buddhist-stele-with-scenes-from-the-lotus-sutra",
+    "research_use_and_caveat": "馆方资料讨论《法华经》图像、捐赠者及研究书目；产地归属须查看原页面",
+    "evidence_type": "official"
+  },
+  {
+    "source_id": "S19",
+    "publisher": "Nelson-Atkins",
+    "title": "569两百人碑 32-52",
+    "url": "https://art.nelson-atkins.org/objects/26336/stele-of-shakyamuni-buddha-attended-by-guanyin-bodhisattva-a",
+    "research_use_and_caveat": "道林、约200供养人、前后图像、1932购藏轨迹与参考书",
+    "evidence_type": "official"
+  },
+  {
+    "source_id": "S20",
+    "publisher": "Penn Museum",
+    "title": "575年双面多层造像碑 C429",
+    "url": "https://collections.penn.museum/collections/object/77036",
+    "research_use_and_caveat": "官方尺寸与精确纪年、图像、12张官图；非完整铭文释文",
+    "evidence_type": "official"
+  },
+  {
+    "source_id": "S21",
+    "publisher": "芝加哥大学",
+    "title": "宾博C429三维项目相关记录",
+    "url": "https://caeacollections.lib.uchicago.edu/browse?limit=25&q=must%2Cmetadata.WORK_Subject1.en.keyword%2Cterm%2CVimalakirti",
+    "research_use_and_caveat": "图像层次与可能响堂山源流；“probably”不可写成确定出处",
+    "evidence_type": "scholarly"
+  },
+  {
+    "source_id": "S22",
+    "publisher": "Cleveland Museum",
+    "title": "北齐约570年代双面碑研究史",
+    "url": "https://www.clevelandart.org/print/art/1993.108",
+    "research_use_and_caveat": "题记/图像、Eskenazi 1993购入信息",
+    "evidence_type": "official"
+  },
+  {
+    "source_id": "S23",
+    "publisher": "Kate Lingley, Yale MAVCOR",
+    "title": "529年邑义碑、集体供养解释",
+    "url": "https://mavcor.yale.edu/conversations/object-narratives/buddhist-votive-stele-carved-buddhist-figures-and-inscriptions",
+    "research_use_and_caveat": "解释邑义不仅宗教活动，也有社会互助；不是用户照片中那块碑",
+    "evidence_type": "scholarly"
+  },
+  {
+    "source_id": "S24",
+    "publisher": "Kate Lingley, Hualin International Journal",
+    "title": "Against Impermanence: Women, Ritual, and Materiality in Early Medieval China (2024)",
+    "url": "https://glorisunglobalnetwork.org/wp-content/uploads/2025/03/hualin7.2_lingley.pdf",
+    "research_use_and_caveat": "女性供养人、材料与不朽观念，学术视角；未加入PDF原文",
+    "evidence_type": "bibliography"
+  },
+  {
+    "source_id": "S25",
+    "publisher": "M.F. Wong / academic overview",
+    "title": "Ritual Practices and Material Culture (2023)",
+    "url": "https://www.mdpi.com/2077-1444/14/7/945",
+    "research_use_and_caveat": "讨论造像碑、功德、铭文与公共宗教实践",
+    "evidence_type": "scholarly"
+  },
+  {
+    "source_id": "S26",
+    "publisher": "MFAH 图录",
+    "title": "2026图录与虚舟收藏说明",
+    "url": "https://mfashop.mfah.org/products/approaching-the-buddha-transmission-and-transformation",
+    "research_use_and_caveat": "图录在售，2026年3月出版；建议作者检查实体图录的cat.20",
+    "evidence_type": "bibliography"
+  },
+  {
+    "source_id": "S27",
+    "publisher": "Met Museum",
+    "title": "495年燃灯佛像 65.29.3",
+    "url": "https://www.metmuseum.org/art/collection/search/42719",
+    "research_use_and_caveat": "铭文认作燃灯佛、鲜卑供养者与背面交脚弥勒推测",
+    "evidence_type": "official"
+  },
+  {
+    "source_id": "S28",
+    "publisher": "Cleveland Museum",
+    "title": "537元宁造像馆藏旧刊",
+    "url": "https://www.clevelandart.org/print/art/1914.567",
+    "research_use_and_caveat": "来源John Huntington/Edgar Worch与旧刊目录",
+    "evidence_type": "official"
+  },
+  {
+    "source_id": "S29",
+    "publisher": "Cleveland Museum",
+    "title": "北魏500年碑旧刊",
+    "url": "https://www.clevelandart.org/print/art/1959.130",
+    "research_use_and_caveat": "馆方书目：Wai-kam Ho 1960, The Future Buddha Maitreya in a Northern Wei Stele",
+    "evidence_type": "bibliography"
+  },
+  {
+    "source_id": "S30",
+    "publisher": "Penn Museum",
+    "title": "北齐575年碑图像和确切日期",
+    "url": "https://collections.penn.museum/collections/object/77036",
+    "research_use_and_caveat": "无已核实的完整汉字碑文；仅馆方转录日期",
+    "evidence_type": "official"
+  },
+  {
+    "source_id": "S31",
+    "publisher": "龙谷大学",
+    "title": "杜善胜造像碑等石刻文字研究会报告（2011）",
+    "url": "https://opac.ryukoku.ac.jp/iwjs0005opc/bdyview.do?bodyid=BD00004631&elmid=Body&fname=r-barc-kh_2011_011.pdf",
+    "evidence_type": "scholarly",
+    "research_use_and_caveat": "已读研究会报告；743年追刻与录文问题，不视作最终校本"
+  }
+]

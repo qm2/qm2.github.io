@@ -177,3 +177,6 @@ build_yongle_xuande()
 
 from build_japanese_zen import build as build_japanese_zen
 build_japanese_zen()
+
+from build_images_and_vows import build as build_images_and_vows
+build_images_and_vows()
