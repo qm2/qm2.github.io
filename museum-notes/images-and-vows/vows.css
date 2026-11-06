@@ -16,3 +16,6 @@
 .iv-source-note{font-size:.76rem;color:var(--muted);margin:.3rem 0}
 .iv-page #publications li{margin:.8rem 0;line-height:1.9}
 @media(max-width:650px){.iv-inscription .iv-passage blockquote{font-size:1.05rem}.iv-reading-nav{gap:.65rem 1rem}.iv-terms dd{font-size:.88rem}}
+
+/* Home cover: give the complete atlas an entrance before the long readings. */
+.iv-cover-links{display:flex;flex-direction:column;align-items:flex-start;gap:1.4rem;margin-top:1.5rem}.iv-cover-links>.text-link{margin-top:0}.iv-atlas-entry{display:block;border:1px solid var(--line);padding:.85rem 1.1rem;text-decoration:none;max-width:100%}.iv-atlas-entry strong{display:block;font:1.05rem/1.8 var(--serif);color:var(--iv-red)}.iv-atlas-entry span{display:block;font-size:.75rem;color:var(--muted);line-height:1.8;margin-top:.15rem}.iv-atlas-entry:hover{border-color:var(--iv-red)}
