@@ -136,7 +136,9 @@ def build():
  body+='<nav class="rs-story-directory" aria-label="人物与故事条目"><div><h2>九组神话</h2><ol>'+''.join(f'<li><a href="#{s["id"]}">{e(s["title"])}</a></li>' for s in stories['myths'])+'</ol></div><div><h2>罗马生活与纪念</h2><ul>'+''.join(f'<li><a href="#{s["id"]}">{e(s["title"])}</a></li>' for s in stories['contexts'])+'</ul><p><a href="../history/">历史与观看 →</a></p></div></nav><div class="rs-reading rs-stories">'
  keys=[]
  for s in stories['myths']:
-  body+=f'<details class="rs-story" id="{s["id"]}"><summary><span class="rs-story-heading"><span class="rs-story-name">{e(s["title"])}</span><span class="rs-story-cue">{e(s["cue"])}</span></span><span class="rs-icon" aria-hidden="true">＋</span></summary><div class="rs-story-content"><p class="rs-story-names">{e(s["names"])}</p><h3>故事里发生了什么</h3>'+paras([s['story']])+'<h3>在我的石棺上找什么</h3><ul class="rs-looking">'
+  body+=f'<details class="rs-story" id="{s["id"]}"><summary><span class="rs-story-heading"><span class="rs-story-name">{e(s["title"])}</span><span class="rs-story-cue">速记：{e(s["recap"])}</span></span><span class="rs-icon" aria-hidden="true">＋</span></summary><div class="rs-story-content"><p class="rs-story-names">{e(s["names"])}</p>'
+  if s.get("relationships"):body+='<p class="rs-story-relationships"><strong>人物关系：</strong>'+e(s["relationships"])+'</p>'
+  body+='<h3>故事里发生了什么</h3>'+paras([s['story']])+'<h3>在我的石棺上找什么</h3><p>'+e(s['cue'])+'</p><ul class="rs-looking">'
   for look in s['look']:body+='<li>'+e(look['text'])+source_links(look.get('source_ids',[]))+'</li>'
   body+='</ul>'+story_works(s['works'],s.get('pictures'))+'<h3>版本与解读</h3>'+paras(s['version'])
   if s['id']=='apollo-muses':
