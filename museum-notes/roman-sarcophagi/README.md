@@ -9,6 +9,7 @@
 - `data/editorial.json`：细读、图注相关研究与资料注；`sources.json`保留来源读取范围、限制和本轮补充记录。
 - `data/sections.json`、`comparisons.json`、`museums.json`：五条主题线、比较组、现代观看地点。地图、时间线、卡片数量从作品数据计算。
 - `data/history.json`：历史与观看导读、制作传统对照表、现场六问与阅读范围；生成 `history/`。首页、24件作品与图录均有入口。`comparisons.json` 可包含有来源的分节札记，新增组 `battle-and-submission` 连接r11与r24。
+- `data/stories.json`：九组神话、五条罗马生活线索、九缪斯对照、相关作品及短卡文案；生成`stories/`并自动接入对应作品页。条目ID作为稳定锚点，相关作品必须使用`works.json`原ID。`pictures`可指定既有近照；不复制图像文件。
 - 图片仅为Merton自拍。1913展签衍生图顺时针旋转90°，原始JPEG不变。所有局部可回到原片。
 
 ```sh

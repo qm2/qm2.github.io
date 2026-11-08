@@ -11,7 +11,7 @@ async def main():
   for width in [1440,390,320]:
    page=await browser.new_page(viewport={'width':width,'height':950},device_scale_factor=1)
    page.on('pageerror',lambda e:errors.append(str(e)))
-   for slug in ['', 'r11/','r13/','r20/','r21/','r24/','atlas/','compare/','history/']:
+   for slug in ['', 'r11/','r13/','r20/','r21/','r24/','atlas/','compare/','history/','stories/']:
     await page.goto(BASE+slug,wait_until='networkidle')
     overflow=await page.evaluate('document.documentElement.scrollWidth>innerWidth')
     assert not overflow,(width,slug,'horizontal overflow')
@@ -19,6 +19,47 @@ async def main():
      await page.evaluate('''async()=>{await Promise.all([...document.querySelectorAll('main img')].map(async i=>{i.loading='eager';await i.decode()}))}''')
      await page.screenshot(path=f'/tmp/roman-{width}-{slug.replace("/","") or "home"}.png',full_page=True)
     report.append({'width':width,'page':slug,'overflow':overflow})
+   # Reference anchors expand, keep headings upright, and link back to seen objects.
+   stories=json.loads((ROOT/'museum-notes/roman-sarcophagi/data/stories.json').read_text())
+   await page.goto(BASE+'stories/',wait_until='networkidle')
+   assert await page.locator('.rs-story[open]').count()==0
+   await page.screenshot(path=f'/tmp/roman-stories-{width}-closed.png',full_page=True)
+   for entry in stories['myths']+stories['contexts']:
+    await page.goto(BASE+'stories/#'+entry['id'],wait_until='networkidle')
+    item=page.locator('#'+entry['id']);assert await item.evaluate('(e)=>e.open')
+    await page.wait_for_function('(id)=>Math.abs(document.getElementById(id).getBoundingClientRect().top)<100',arg=entry['id'])
+    assert await item.locator('summary .rs-story-name').first.evaluate('(e)=>getComputedStyle(e).transform')=='none'
+    assert await item.locator('h4 a').count()==len(entry['works'])
+    for im in await item.locator('img').all():
+     await im.evaluate('(e)=>{e.loading="eager";return e.decode()}')
+     assert await im.evaluate('(e)=>Math.abs(e.clientWidth/e.clientHeight-e.naturalWidth/e.naturalHeight)<0.03')
+    assert not await page.evaluate('document.documentElement.scrollWidth>innerWidth')
+   await page.goto(BASE+'stories/#dionysus-india',wait_until='networkidle')
+   await page.locator('#dionysus-india a[data-photo]').first.click()
+   assert '1947' in await page.locator('#large-photo').get_attribute('src')
+   assert '1947' in await page.locator('#original-photo').get_attribute('href')
+   await page.locator('#zoom-toggle').click();await page.keyboard.press('Escape')
+   await page.goto(BASE+'stories/#nine-muses',wait_until='networkidle')
+   assert await page.locator('#nine-muses').evaluate('(e)=>e.open')
+   assert await page.locator('#apollo-muses').evaluate('(e)=>e.open')
+   await page.wait_for_function('Math.abs(document.getElementById("nine-muses").getBoundingClientRect().top)<100')
+   await page.locator('.rs-muses-table').focus()
+   if width<600:
+    await page.keyboard.press('ArrowRight');await page.wait_for_timeout(150)
+    assert await page.locator('.rs-muses-table').evaluate('(e)=>e.scrollLeft>0')
+   await page.goto(BASE+'r05/',wait_until='networkidle')
+   await page.locator('.rs-story-entry summary').focus();await page.keyboard.press('Enter')
+   assert await page.locator('.rs-story-entry details').evaluate('(e)=>e.open')
+   await page.locator('.rs-story-entry a').click();assert page.url.endswith('stories/#achilles-skyros')
+   assert await page.locator('#achilles-skyros').evaluate('(e)=>e.open')
+   await page.locator('#achilles-skyros h4 a').click();assert page.url.endswith('/r05/')
+   await page.go_back();assert page.url.endswith('stories/#achilles-skyros')
+   await page.locator('#achilles-skyros a[href="../r05/#labels"]').click()
+   assert await page.locator('#labels').evaluate('(e)=>e.open')
+   await page.goto(BASE+'stories/#achilles-penthesilea',wait_until='networkidle')
+   await page.locator('#achilles-penthesilea img').evaluate('(e)=>{e.loading="eager";return e.decode()}')
+   await page.evaluate('document.getElementById("achilles-penthesilea").scrollIntoView({behavior:"instant"})')
+   await page.screenshot(path=f'/tmp/roman-stories-{width}-open.png',full_page=False)
    # Guide navigation, narrow-screen table, six questions, and the new comparison.
    await page.goto(BASE+'history/#field-card',wait_until='networkidle')
    assert await page.locator('#field-card li').count()==6
@@ -71,5 +112,5 @@ async def main():
    failures=await page.evaluate('''async()=>{const failures=[];await Promise.all([...document.querySelectorAll('main img')].map(async i=>{i.loading='eager';try{await i.decode()}catch(e){failures.push(i.src)}}));return failures}''')
    assert not failures,(w['id'],failures)
   await browser.close();assert not errors,errors
-  Path('/tmp/roman-browser-report.json').write_text(json.dumps(report,indent=2));print('Desktop/mobile: home, 8 representative routes, history guide, field-card anchor, comparison proportions, gallery, zoom, original links, rotated label, filters/history/timeline passed. All 24 detail-page images decoded. No console errors.')
+  Path('/tmp/roman-browser-report.json').write_text(json.dumps(report,indent=2));print('Desktop/mobile: home, 9 representative routes, 14 story/context anchors, nested nine-Muses table, bidirectional story/label links, history guide, field-card anchor, comparison proportions, gallery, zoom, original links, rotated label, filters/history/timeline passed. All 24 detail-page images decoded. No console errors.')
 asyncio.run(main())

@@ -32,6 +32,6 @@
   window.addEventListener('popstate',restore);restore();
   const reveal=()=>{const c=cards.find(c=>'#'+c.id===location.hash);if(c?.hidden){search.value='';museum.value=theme.value='all';update();}if(c)c.scrollIntoView({block:'start'});};window.addEventListener('hashchange',reveal);if(location.hash)reveal();
  }
- const revealDetails=()=>{const id=decodeURIComponent(location.hash.slice(1));if(!id)return;const target=document.getElementById(id);if(!target)return;let node=target;while(node){if(node.tagName==='DETAILS')node.open=true;node=node.parentElement;}};
+ const revealDetails=()=>{const id=decodeURIComponent(location.hash.slice(1));if(!id)return;const target=document.getElementById(id);if(!target)return;let node=target,expanded=false;while(node){if(node.tagName==='DETAILS'&&!node.open){node.open=true;expanded=true;}node=node.parentElement;}if(expanded)requestAnimationFrame(()=>target.scrollIntoView({block:'start',behavior:'instant'}));};
  revealDetails();window.addEventListener('hashchange',revealDetails);
 })();

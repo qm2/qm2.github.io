@@ -476,5 +476,77 @@
     "checked": "2026-11-08",
     "supports": "客户、采石与雕刻工坊、海运阶段、空白肖像的多种解释、制作形式与石材来源不可简单等同",
     "limitations": "文中转引的出土报告未独立查阅；不据行业通论重定本站作品产地。"
+  },
+  {
+    "id": "SM01",
+    "title": "伪阿波罗多洛斯《书库》，J. G. Frazer英译（1921），相关章节",
+    "url": "https://topostext.org/work/150",
+    "kind": "古典文献英译，ToposText",
+    "access": "直接读取1.8.2—3、2.4.12—2.5相关功业、3.5.1、3.10.7、3.11.2、3.13.8；不是全书通读。",
+    "checked": "2026-11-08",
+    "supports": [
+      "人物与故事参考页"
+    ],
+    "limitations": "具体作品身份与场景仍按该件馆录和展签。"
+  },
+  {
+    "id": "SM02",
+    "title": "《书库》摘要本，J. G. Frazer英译：1.8—9、5.1、6.23—25",
+    "url": "https://ftp.theoi.com/Text/ApollodorusE.html",
+    "kind": "古典文献英译，Theoi",
+    "access": "直接读取所列章节；正文采用相关版本，不将译者脚注中的书目算作已读。",
+    "checked": "2026-11-08",
+    "supports": [
+      "人物与故事参考页"
+    ],
+    "limitations": "具体作品身份与场景仍按该件馆录和展签。"
+  },
+  {
+    "id": "SM03",
+    "title": "Evangelia K. Mimidou，The Skyrians of Euripides and Three Attic Works of Art，Logeion 10（2020），187—196",
+    "url": "https://www.logeion.upatras.gr/sites/logeion.upatras.gr/files/pdffiles/LOGEION_10_2020_05_Mimidou.pdf",
+    "kind": "学术论文",
+    "access": "直接阅读187—190页关于故事版本的讨论；许癸努斯Fabulae 96为第189页转引。",
+    "checked": "2026-11-08",
+    "supports": [
+      "人物与故事参考页"
+    ],
+    "limitations": "具体作品身份与场景仍按该件馆录和展签。"
+  },
+  {
+    "id": "SM04",
+    "title": "Jessica Clementi，Columnar Sarcophagus with Apollo and the Muses，博尔盖塞美术馆（2023）",
+    "url": "https://www.collezionegalleriaborghese.it/en/opere/columnar-sarcophagus-with-apollo-and-the-muses-front",
+    "kind": "馆方研究条目",
+    "access": "阅读条目全文；本页只用作缪斯神话背景与常见属性参考，不新增此件作品或图片。",
+    "checked": "2026-11-08",
+    "supports": [
+      "人物与故事参考页"
+    ],
+    "limitations": "具体作品身份与场景仍按该件馆录和展签。"
+  },
+  {
+    "id": "SM05",
+    "title": "斯泰伦博斯大学古典钱币导览：Annona",
+    "url": "https://academic.sun.ac.za/antieke/coins/muntwerf/persannona.html",
+    "kind": "大学教学参考",
+    "access": "阅读短文全文；用于粮食供给人格化的一般背景，不用钱币属性替代r08展签对各人物的识别。",
+    "checked": "2026-11-08",
+    "supports": [
+      "人物与故事参考页"
+    ],
+    "limitations": "具体作品身份与场景仍按该件馆录和展签。"
+  },
+  {
+    "id": "SM06",
+    "title": "世博会博物馆：博物馆的诞生（2018），九缪斯中文名称",
+    "url": "https://www.expo-museum.cn/sbbwg/n281/n282/n314/n319/u1ai22899.html",
+    "kind": "中文博物馆介绍",
+    "access": "核读九缪斯姓名及领域段；只用于中文名称对照，不引入该文关于博物馆起源的判断。",
+    "checked": "2026-11-08",
+    "supports": [
+      "九缪斯中文姓名"
+    ],
+    "limitations": "不宣称各译名唯一。"
   }
 ]

@@ -48,6 +48,24 @@ for group in comparisons:
  for sec in group.get('sections',[]):
   for paragraph in sec['paragraphs']:assert set(paragraph.get('source_ids',[]))<=sb
  for paragraph in group.get('notes',[]):assert set(paragraph.get('source_ids',[]))<=sb
+stories=load('stories')
+assert len(stories['myths'])==9 and len(stories['contexts'])==5
+entries=stories['myths']+stories['contexts'];entry_ids={x['id'] for x in entries}
+assert len(entry_ids)==14
+for entry in entries:
+ assert set(entry['works'])<=set(by)
+ paragraphs=([entry['story']]+entry['look']+entry['version']) if 'story' in entry else [entry['text']]
+ for paragraph in paragraphs:assert set(paragraph.get('source_ids',[]))<=sb
+ if 'story' in entry:
+  assert 150<=len(entry['story']['text'])<=250
+  assert 80<=len(entry['preview'])<=120
+  assert 2<=len(entry['look'])<=3
+ else:assert 100<=len(entry['text']['text'])<=180
+for wid,context in stories['context_previews'].items():
+ assert wid in by and context['entry'] in entry_ids
+ assert 80<=len(context['text'])<=120
+assert len(stories['muses']['rows'])==9
+assert set(stories['muses']['source_ids'])<=sb
 class Page(HTMLParser):
  def __init__(self,text):super().__init__();self.links=[];self.ids=[];self.images=[];self.feed(text)
  def handle_starttag(self,tag,attrs):
@@ -58,7 +76,7 @@ class Page(HTMLParser):
   if a.get('srcset'):self.links.extend(x.strip().split()[0] for x in a['srcset'].split(','))
   if tag=='img':self.images.append(a)
 parsed={f:Page(f.read_text()) for f in BASE.rglob('*.html')}
-assert len(parsed)==28
+assert len(parsed)==29
 for file,doc in parsed.items():
  assert len(doc.ids)==len(set(doc.ids)),file
  for img in doc.images:
@@ -75,9 +93,17 @@ for file,doc in parsed.items():
   assert target.exists(),(file,link)
   if url.fragment and target.suffix=='.html':
    other=parsed.get(target) or Page(target.read_text());assert unquote(url.fragment) in other.ids,(file,link)
-for o in w:assert 'href="../history/"' in (BASE/o['id']/'index.html').read_text()
+for o in w:
+ text=(BASE/o['id']/'index.html').read_text()
+ assert 'href="../history/"' in text and 'href="../stories/"' in text
+ myth=next((x for x in stories['myths'] if o['id'] in x['works']),None)
+ entry=myth['id'] if myth else stories['context_previews'].get(o['id'],{}).get('entry')
+ if entry:assert f'href="../stories/#{entry}"' in text
+for entry in entries:
+ for wid in entry['works']:assert f'href="../{wid}/"' in (BASE/'stories/index.html').read_text()
+
 assert 'history/#field-card' in (BASE/'atlas/index.html').read_text()
 assert 'href="history/"' in (BASE/'index.html').read_text()
 assert 'roman-sarcophagi/' in (ROOT/'museum-notes/index.html').read_text()
 assert not list(BASE.rglob('*.pdf'))
-print('Roman checks passed: 24 canonical records, 8 viewing institutions, 60 unchanged originals, 5 honest crops, 28 pages; sources, date types, identity corrections and local links valid.')
+print('Roman checks passed: 24 canonical records, 8 viewing institutions, 60 unchanged originals, 5 honest crops, 29 pages; sources, date types, identity corrections and local links valid.')
