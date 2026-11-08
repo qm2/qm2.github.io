@@ -8,7 +8,7 @@ BASE=ROOT/'museum-notes/roman-sarcophagi'
 
 def build():
  def read(name):return json.loads((BASE/f'data/{name}.json').read_text())
- works=read('works'); by={w['id']:w for w in works};photos=read('photos');notes=read('editorial');sections=read('sections');comparisons=read('comparisons');museums=read('museums');sources=read('sources');sb={s['id']:s for s in sources};sn={s['id']:i+1 for i,s in enumerate(sources)}
+ works=read('works'); by={w['id']:w for w in works};photos=read('photos');notes=read('editorial');sections=read('sections');comparisons=read('comparisons');museums=read('museums');sources=read('sources');history=read('history');sb={s['id']:s for s in sources};sn={s['id']:i+1 for i,s in enumerate(sources)}
  def source_links(ids):
   return '<span class="rs-cites">'+''.join(f' <a href="{e(sb[k]["url"])}" title="{e(sb[k]["title"])}" aria-label="来源：{e(sb[k]["title"])}">[{sn[k]}]</a>' for k in dict.fromkeys(ids) if k in sb)+'</span>' if ids else ''
  def paras(items):return ''.join('<p>'+e(p['text'])+source_links(p.get('source_ids',[]))+'</p>' for p in items)
@@ -24,7 +24,7 @@ def build():
   content=notes[w['id']];return list(dict.fromkeys(w.get('source_ids',[])+[k for s in content['sections'] for p in s['paragraphs'] for k in p.get('source_ids',[])]+[k for p in content['notes'] for k in p.get('source_ids',[])]))
  def shell(title,body,depth=0,cover='1925',description=''):
   pre='../'*depth;up='../'*(depth+1);p=photos[cover];share='https://qm2.github.io/museum-notes/roman-sarcophagi/images/'+p['full']
-  return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)} | Merton · 博物馆札记</title><meta name="description" content="{e(description or '从战争、酒神与英雄的故事，走近古罗马石棺中的人物和纪念。Merton的博物馆现场摄影与札记。')}"><meta property="og:image" content="{share}"><link rel="stylesheet" href="{up}museum.css"><link rel="stylesheet" href="{up}caravaggio/caravaggio.css"><link rel="stylesheet" href="{pre}roman.css"><script src="{up}caravaggio/caravaggio.js" defer></script><script src="{pre}roman.js" defer></script></head><body class="rs-page" id="top"><a class="skip-link" href="#main">跳至正文</a><header class="site-header"><a class="signature" href="{up}">Merton</a><nav aria-label="主导航"><a href="{pre or './'}">罗马石棺</a><a href="{pre}atlas/">所见图录</a><a href="{pre}compare/">并看</a></nav></header><main id="main" class="wrap">{body}</main><footer class="site-footer wrap"><a href="{up}">← 博物馆札记</a><span>现场摄影 / Merton</span><a href="#top">回到顶部 ↑</a></footer>{LIGHTBOX}</body></html>'''
+  return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)} | Merton · 博物馆札记</title><meta name="description" content="{e(description or '从战争、酒神与英雄的故事，走近古罗马石棺中的人物和纪念。Merton的博物馆现场摄影与札记。')}"><meta property="og:image" content="{share}"><link rel="stylesheet" href="{up}museum.css"><link rel="stylesheet" href="{up}caravaggio/caravaggio.css"><link rel="stylesheet" href="{pre}roman.css"><script src="{up}caravaggio/caravaggio.js" defer></script><script src="{pre}roman.js" defer></script></head><body class="rs-page" id="top"><a class="skip-link" href="#main">跳至正文</a><header class="site-header"><a class="signature" href="{up}">Merton</a><nav aria-label="主导航"><a href="{pre or './'}">罗马石棺</a><a href="{pre}history/">历史与观看</a><a href="{pre}atlas/">所见图录</a><a href="{pre}compare/">并看</a></nav></header><main id="main" class="wrap">{body}</main><footer class="site-footer wrap"><a href="{up}">← 博物馆札记</a><span>现场摄影 / Merton</span><a href="#top">回到顶部 ↑</a></footer>{LIGHTBOX}</body></html>'''
  def write(route,html):
   target=BASE/route;target.mkdir(exist_ok=True,parents=True);(target/'index.html').write_text(html)
  def card(w,pre='',filterable=False):
@@ -62,7 +62,7 @@ def build():
   related=[g for g in comparisons if wid in g['works']]
   if related:
    body+='<section class="rs-related"><h2>放在一起看</h2>'+''.join(f'<p><a href="../compare/#{g["id"]}">{e(g["title"])} →</a></p>' for g in related)+'</section>'
-  body+=f'<p class="rs-return"><a href="../#{chapter["id"]}">← {e(chapter["title"])}</a>　<a href="../atlas/#{wid}">在完整图录中找这件 →</a></p>'
+  body+=f'<p class="rs-return"><a href="../#{chapter["id"]}">← {e(chapter["title"])}</a>　<a href="../atlas/#{wid}">在完整图录中找这件 →</a>　<a href="../history/">历史与观看 →</a></p>'
   write(wid,shell(w['title_zh'],body,1,w['cover'],content['lead']))
  # Topic home.
  hero=by['r11']
@@ -70,14 +70,14 @@ def build():
  body+=figure('1925',caption='波尔托纳乔战争石棺 · 180—190年 · 罗马国家博物馆马西莫宫 · 112327',eager=True)
  body+='''<div class="rs-preface"><p>在罗马国家博物馆看到波尔托纳乔石棺时，最震撼我的是那些密密麻麻、高低起伏的战争场景。人和马彼此挤压，身体从石面里凸出来，又陷入深暗的缝隙。远看是一整片翻动的形体，靠近才逐渐分出骑兵、俘虏与倒下的人。</p><p>休斯顿的几件石棺则有另一种亲近感。我看过它们很多次，仍然喜欢这些交错的身体、衣褶和神话人物。这一页把不同博物馆里的石棺放到一起，也为重看留一条路。</p></div>'''
  body+='<nav class="rs-chapter-nav" aria-label="五条阅读线索">'+''.join(f'<a href="#{s["id"]}"><span>{i+1:02d}</span> {e(s["title"])}</a>' for i,s in enumerate(sections))+'<a href="atlas/">所见图录与地图 ↗</a></nav>'
- body+='<details class="rs-background"><summary>先认识石棺：谁为它选择了故事？ <span class="rs-icon" aria-hidden="true">＋</span></summary><div class="rs-reading">'+paras([{'text':'罗马帝国在公元2—3世纪广泛使用石棺安葬遗体。神话、战争、婚姻与文化修养，成为纪念死者的不同语言。同一故事也见于住宅和公共空间，进入墓葬后，又可能引出对勇武、失去或来世的理解。','source_ids':['S29']},{'text':'石棺也有观看的方向。靠墙安放的作品，正面与侧面常有不同的雕刻程度；另一些则四面展开人物。沿着这些照片，既看图像讲了什么，也看它如何围绕棺身、如何为亡者安排位置。','source_ids':['S29']}])+'</div></details>'
+ body+='<section class="rs-guide-entry" id="history"><p class="eyebrow">HISTORY &amp; LOOKING</p><h2>历史与观看</h2><p>为什么葬具上有欢乐、爱情和战争？从现有作品出发，读墓葬中的纪念、工坊的制作与图像的变化。</p><div class="rs-link-row"><a href="history/">打开导读 →</a><a href="history/#field-card">带着六个问题看下一件 →</a></div></section>'
  for i,s in enumerate(sections):
   w=by[s['featured']];body+=f'<section class="rs-chapter" id="{s["id"]}"><div class="rs-section-title"><p class="eyebrow">{i+1:02d} / READ THE RELIEF</p><h2>{e(s["title"])}</h2><p>{e(s["intro"])}</p></div>'
   if w['id']=='r11':body+='<div class="rs-feature-copy"><h3><a href="r11/">波尔托纳乔：一张没有完成的脸</a></h3><p>'+e(notes['r11']['lead'])+'</p><a class="text-link" href="r11/">从中央骑手，读到棺盖的人生场景 →</a></div>'
   else:body+='<div class="rs-feature">'+figure(w['cover'],caption=w['title_zh']+' · '+w['date_display']+' · '+w['viewing_museum'])+'<div class="rs-feature-copy"><h3><a href="'+w['id']+'/">'+e(w['title_zh'])+'</a></h3><p>'+e(notes[w['id']]['lead'])+'</p><a class="text-link" href="'+w['id']+'/">进入这件作品 →</a></div></div>'
   others=[by[k] for k in s['works'] if k!=w['id']]
   body+='<div class="rs-grid">'+''.join(card(o) for o in others)+'</div></section>'
- body+=f'<section class="rs-atlas-entry"><p class="eyebrow">ATLAS / TIMELINE / CATALOGUE</p><h2>所见石棺</h2><p>{len(works)}条作品记录，另附一件独立棺盖；来自{len(museums)}处观看机构。按博物馆、年代和题材重新浏览，也把不同地方看过的作品放在一起比较。</p><div class="rs-link-row"><a href="atlas/">打开地图、时间线与完整图录 →</a><a href="compare/">四组并看 →</a></div></section>'
+ body+=f'<section class="rs-atlas-entry"><p class="eyebrow">ATLAS / TIMELINE / CATALOGUE</p><h2>所见石棺</h2><p>{len(works)}条作品记录，另附一件独立棺盖；来自{len(museums)}处观看机构。按博物馆、年代和题材重新浏览，也把不同地方看过的作品放在一起比较。</p><div class="rs-link-row"><a href="atlas/">打开地图、时间线与完整图录 →</a><a href="compare/">{len(comparisons)}组并看 →</a></div></section>'
  body+='<details class="rs-directory"><summary>逐件目录 <span class="rs-icon" aria-hidden="true">＋</span></summary><ol>'+''.join(f'<li><a href="{w["id"]}/">{e(w["title_zh"])}</a><span>{e(w["date_display"])} · {e(w["viewing_city"])}</span></li>' for w in works)+'</ol></details>'
  body+='<section class="rs-reading rs-documentation"><h2>照片与资料</h2><p>本辑照片均为我的现场摄影。作品资料依据现场展签、馆藏目录与所附研究；四件托洛尼亚藏品是在卢浮宫借展时看到的，观看地点与收藏归属分别记录。每件作品保留原图及已有展签。</p><p>梵蒂冈的陈列包含独立的棺身、棺盖和前板；目录按文物记录整理，共用的现场照片只存一份。</p>'+bibliography(['S29','S15','S05'])+'</section>'
  write('',shell('石棺上的故事 · 古罗马浮雕石棺',body))
@@ -86,9 +86,36 @@ def build():
  for g in comparisons:
   body+=f'<section class="compare-group rs-comparison" id="{g["id"]}"><h2>{e(g["title"])}</h2><p>{e(g["text"])}</p><div class="rs-compare-grid">'
   for wid in g['works']:
-   w=by[wid];body+='<div>'+figure(w['cover'],'../',w['title_zh']+' · '+w['date_display'])+f'<p><a href="../{wid}/">{e(w["viewing_museum"])} · 阅读札记 →</a></p></div>'
-  body+='</div></section>'
+   w=by[wid];body+='<div>'+figure(w['cover'],'../',g.get('captions',{}).get(wid,w['title_zh']+' · '+w['date_display']))+f'<p><a href="../{wid}/">{e(w["viewing_museum"])} · 阅读札记 →</a></p></div>'
+  body+='</div>'
+  if g.get('sections'):
+   body+='<div class="rs-reading rs-comparison-reading">'+''.join('<section><h3>'+e(s['title'])+'</h3>'+paras(s['paragraphs'])+'</section>' for s in g['sections'])
+   if g.get('notes'):body+='<details><summary>题名与人物归属 <span class="rs-icon" aria-hidden="true">＋</span></summary>'+paras(g['notes'])+'</details>'
+   keys=[k for s in g['sections'] for p in s['paragraphs'] for k in p.get('source_ids',[])]+[k for p in g.get('notes',[]) for k in p.get('source_ids',[])]
+   body+='<h3>这一组的来源</h3>'+bibliography(keys)+'<p><a href="../history/#stories">继续读：墓中的故事与纪念 →</a></p></div>'
+  body+='</section>'
  write('compare',shell('石棺并看',body,1))
+ # Reading guide: structured prose and a reusable field card, using existing photographs.
+ body='<nav class="breadcrumbs"><a href="../">罗马石棺</a><span>/</span><span>历史与观看</span></nav><header class="rs-title"><p class="eyebrow">HISTORY &amp; LOOKING</p><h1>'+e(history['title'])+'</h1><p class="subtitle">'+e(history['subtitle'])+'</p><p class="rs-lead">'+e(history['intro'])+'</p></header>'
+ body+='<nav class="rs-link-row rs-guide-nav" aria-label="导读章节">'+''.join(f'<a href="#{s["id"]}">{e(s["title"])}</a>' for s in history['sections'])+'<a href="#field-card">现场观看卡 ↓</a></nav><article class="rs-reading rs-history">'
+ history_sources=[]
+ for s in history['sections']:
+  body+=f'<section id="{s["id"]}"><h2>{e(s["title"])}</h2>'
+  if s.get('image'):body+=figure(s['image'],'../',s['caption'])
+  body+=paras(s['paragraphs'])
+  history_sources.extend(k for p in s['paragraphs'] for k in p.get('source_ids',[]))
+  if s.get('table'):
+   t=s['table'];body+='<div class="rs-guide-table" tabindex="0" role="region" aria-label="三种制作传统比较，窄屏可横向浏览"><table><caption>'+e(t['caption'])+source_links(t['source_ids'])+'</caption><thead><tr>'+''.join('<th scope="col">'+e(v)+'</th>' for v in t['headers'])+'</tr></thead><tbody>'
+   for row in t['rows']:body+='<tr><th scope="row">'+e(row[0])+'</th>'+''.join('<td>'+e(v)+'</td>' for v in row[1:])+'</tr>'
+   body+='</tbody></table></div><p class="rs-table-hint">左右滑动表格，查看“观看方式”一栏 →</p>';history_sources.extend(t['source_ids'])
+  body+=paras(s.get('after',[]))
+  history_sources.extend(k for p in s.get('after',[]) for k in p.get('source_ids',[]))
+  body+='<p class="rs-guide-works">回到作品：'+''.join(f'<a href="../{wid}/">{e(by[wid]["title_zh"])}</a>' for wid in s['works'])+'</p></section>'
+ field=history['field_card'];body+='</article><section class="rs-reading rs-field-card" id="field-card"><p class="eyebrow">TAKE A CLOSER LOOK</p><h2>'+e(field['title'])+'</h2><p>'+e(field['intro'])+'</p><ol>'
+ for item in field['questions']:body+='<li><h3>'+e(item['question'])+'</h3><p>'+e(item['text'])+f' <a href="../{item["link"]}">{e(item["label"])} →</a></p></li>'
+ body+='</ol><p class="rs-photo-checklist">'+e(field['photography'])+'</p><p><a href="../atlas/">回到所见图录 →</a></p></section>'
+ body+='<section class="rs-reading rs-documentation"><h2>资料与来源</h2><details><summary>本页的阅读依据 <span class="rs-icon" aria-hidden="true">＋</span></summary>'+''.join('<p>'+e(p)+'</p>' for p in history['reading_notes'])+'</details>'+bibliography(history_sources)+'</section><p class="rs-return"><a href="../">← 石棺上的故事</a>　<a href="../compare/#battle-and-submission">交战与降服：两件并看 →</a></p>'
+ write('history',shell('历史与观看 · 罗马石棺',body,1,'1940',history['intro']))
  # Atlas: one canonical object list feeds map, dates, and cards.
  def map_svg(region,bounds):
   x0,x1,y0,y1=bounds; width,height=540,260
@@ -114,6 +141,7 @@ def build():
    out+=f'<a href="?museum={m["id"]}#catalogue" data-map-museum="{m["id"]}" aria-label="{e(m["name"])}：{count}条记录"><title>{e(m["name"])} · {count}条记录</title><line x1="{x}" y1="{y}" x2="{x+dx}" y2="{y+dy}"/><circle cx="{x+dx}" cy="{y+dy}" r="6"/><text x="{textx}" y="{texty}" text-anchor="{anchor}">{e(m["city"])}</text></a>'
   return out+'</svg>'
  body=f'<header class="rs-title"><p class="eyebrow">ATLAS &amp; TIMELINE</p><h1>所见石棺</h1><p class="rs-lead">从{len(museums)}处博物馆的相遇，回到人物、题材与年代。</p><p>共{len(works)}条作品记录，另附独立棺盖932。地图表示观看地点；古代制作地区与发现地记录见各作品页。</p></header>'
+ body+='<p class="rs-field-entry"><a href="../history/#field-card">现场观看卡：六个问题与拍摄记录 →</a></p>'
  body+='<section id="map"><h2>在这些地方相遇</h2><div class="rs-maps"><div><h3>北美</h3>'+map_svg('north-america',(-105,-70,23,47))+'</div><div><h3>欧洲</h3>'+map_svg('europe',(-6,25,36,54))+'</div></div><p class="rs-meta">城市区域示意；罗马与梵蒂冈在此比例下接近重合，馆名可分别选择。底图：<a href="https://www.naturalearthdata.com/about/terms-of-use/">Natural Earth，公共领域</a>。点击地点筛选，或使用下方馆名列表。</p><div class="rs-museum-list">'+''.join(f'<a href="?museum={m["id"]}#catalogue" data-map-museum="{m["id"]}">{e(m["name"])} <span>{sum(w["museum_id"]==m["id"] for w in works)}</span></a>' for m in museums)+'</div></section>'
  body+='<section class="rs-atlas-controls" aria-label="筛选图录"><label>搜索题名或编号<input id="rs-search" type="search" placeholder="如：缪斯、墨勒阿格洛斯"></label><label>观看机构<select id="rs-museum"><option value="all">全部机构</option>'+''.join(f'<option value="{m["id"]}">{e(m["name"])}</option>' for m in museums)+'</select></label><label>题材<select id="rs-theme"><option value="all">全部题材</option>'+''.join(f'<option>{e(t)}</option>' for t in dict.fromkeys(w['theme'] for w in works))+'</select></label><button id="rs-clear" type="button">清除条件</button><p id="rs-results" role="status" aria-live="polite"></p></section>'
  body+='<details class="rs-timeline"><summary>沿年代重看 <span class="rs-icon" aria-hidden="true">＋</span></summary><p>全部为公元纪年。线段表示馆录给出的区间；圆点标示约年。宽时段作品以空心标记帮助定位，具体年代始终以文字为准；窄屏可横向浏览。</p><div class="rs-time-scroll" tabindex="0" aria-label="年代时间线，可横向滚动"><div class="rs-time-axis"><span>公元</span><div>'+''.join(f'<b style="left:{(year-100)/250*100}%">{year}</b>' for year in range(100,351,50))+'</div></div>'
@@ -131,6 +159,6 @@ def build():
  entry=f'<a class="issue-link" href="roman-sarcophagi/"><img src="roman-sarcophagi/images/1925-960.webp" width="{photos["1925"]["display_width"]}" height="{photos["1925"]["display_height"]}" alt="波尔托纳乔战争石棺，密集交叠的人物与马匹" loading="lazy"><div><p class="eyebrow">CLASSICAL ART / ROMAN SARCOPHAGI</p><h2>石棺上的故事</h2><p>从罗马的战争场景，看到休斯顿反复相遇的神话人物。沿着身体、手势与衣褶，读石棺上的纪念。</p><p class="issue-meta">古罗马浮雕石棺 · 五条阅读线索<br>{len(works)}条作品记录 · 地图 / 年代 / 并看</p><span class="text-link">走进这个专题 →</span></div></a>'
  anchor='</section>\n<section class="future-collections"';assert anchor in s;s=s.replace(anchor,'<!-- roman-entry -->'+entry+'<!-- /roman-entry -->'+anchor,1)
  s=re.sub(r'<li><h3>古希腊与罗马艺术</h3>.*?</li>','',s,flags=re.S);home.write_text(s)
- print(f'Built Roman sarcophagi: {len(works)} pages, home, comparisons, atlas; {len(photos)} photo/crop records.')
+ print(f'Built Roman sarcophagi: {len(works)} pages, home, comparisons, atlas, history; {len(photos)} photo/crop records.')
 
 if __name__=='__main__':build()

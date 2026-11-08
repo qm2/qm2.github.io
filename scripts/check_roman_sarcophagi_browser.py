@@ -11,7 +11,7 @@ async def main():
   for width in [1440,390,320]:
    page=await browser.new_page(viewport={'width':width,'height':950},device_scale_factor=1)
    page.on('pageerror',lambda e:errors.append(str(e)))
-   for slug in ['', 'r11/','r13/','r20/','r21/','r24/','atlas/','compare/']:
+   for slug in ['', 'r11/','r13/','r20/','r21/','r24/','atlas/','compare/','history/']:
     await page.goto(BASE+slug,wait_until='networkidle')
     overflow=await page.evaluate('document.documentElement.scrollWidth>innerWidth')
     assert not overflow,(width,slug,'horizontal overflow')
@@ -19,6 +19,28 @@ async def main():
      await page.evaluate('''async()=>{await Promise.all([...document.querySelectorAll('main img')].map(async i=>{i.loading='eager';await i.decode()}))}''')
      await page.screenshot(path=f'/tmp/roman-{width}-{slug.replace("/","") or "home"}.png',full_page=True)
     report.append({'width':width,'page':slug,'overflow':overflow})
+   # Guide navigation, narrow-screen table, six questions, and the new comparison.
+   await page.goto(BASE+'history/#field-card',wait_until='networkidle')
+   assert await page.locator('#field-card li').count()==6
+   await page.wait_for_function('Math.abs(document.getElementById("field-card").getBoundingClientRect().top)<100')
+   await page.locator('.rs-documentation summary').click()
+   assert await page.locator('.rs-documentation details').evaluate('(e)=>e.open')
+   await page.locator('.rs-guide-table').focus()
+   if width<600:
+    assert await page.locator('.rs-guide-table').evaluate('(e)=>e.scrollWidth>e.clientWidth')
+    await page.keyboard.press('ArrowRight');await page.wait_for_timeout(150)
+    assert await page.locator('.rs-guide-table').evaluate('(e)=>e.scrollLeft>0')
+   await page.goto(BASE+'compare/#battle-and-submission',wait_until='networkidle')
+   group=page.locator('#battle-and-submission')
+   images=group.locator('img');assert await images.count()==2
+   for im in await images.all():
+    await im.scroll_into_view_if_needed();await im.evaluate('(e)=>e.decode()')
+    assert await im.evaluate('(e)=>Math.abs(e.clientWidth/e.clientHeight-e.naturalWidth/e.naturalHeight)<0.03')
+   await group.locator('a[data-photo]').nth(1).click()
+   assert 'panel-942' in await page.locator('#large-photo').get_attribute('src')
+   assert '1930' in await page.locator('#original-photo').get_attribute('href')
+   await page.locator('#zoom-toggle').click();assert await page.locator('#photo-stage').evaluate('(e)=>e.classList.contains("is-zoomed")')
+   await page.keyboard.press('Escape')
    # Gallery switching plus show-all, captions and natural image proportions.
    await page.goto(BASE+'r07/',wait_until='networkidle')
    g=page.locator('[data-rs-gallery]');await g.locator('[data-next]').click();assert await g.locator('.rs-slide:not([hidden])').count()==1
@@ -49,5 +71,5 @@ async def main():
    failures=await page.evaluate('''async()=>{const failures=[];await Promise.all([...document.querySelectorAll('main img')].map(async i=>{i.loading='eager';try{await i.decode()}catch(e){failures.push(i.src)}}));return failures}''')
    assert not failures,(w['id'],failures)
   await browser.close();assert not errors,errors
-  Path('/tmp/roman-browser-report.json').write_text(json.dumps(report,indent=2));print('Desktop/mobile: home, 7 representative routes, gallery, zoom, original links, rotated label, filters/history/timeline passed. All 24 detail-page images decoded. No console errors.')
+  Path('/tmp/roman-browser-report.json').write_text(json.dumps(report,indent=2));print('Desktop/mobile: home, 8 representative routes, history guide, field-card anchor, comparison proportions, gallery, zoom, original links, rotated label, filters/history/timeline passed. All 24 detail-page images decoded. No console errors.')
 asyncio.run(main())

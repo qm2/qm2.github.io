@@ -8,6 +8,7 @@
 - `data/photos.json`：60张原片及5个诚实裁切的来源、SHA256、方向、裁切框与响应式资源。1931共享于r13/r23/关联棺盖，原片只存一份。
 - `data/editorial.json`：细读、图注相关研究与资料注；`sources.json`保留来源读取范围、限制和本轮补充记录。
 - `data/sections.json`、`comparisons.json`、`museums.json`：五条主题线、比较组、现代观看地点。地图、时间线、卡片数量从作品数据计算。
+- `data/history.json`：历史与观看导读、制作传统对照表、现场六问与阅读范围；生成 `history/`。首页、24件作品与图录均有入口。`comparisons.json` 可包含有来源的分节札记，新增组 `battle-and-submission` 连接r11与r24。
 - 图片仅为Merton自拍。1913展签衍生图顺时针旋转90°，原始JPEG不变。所有局部可回到原片。
 
 ```sh

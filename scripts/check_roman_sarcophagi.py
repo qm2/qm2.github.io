@@ -36,6 +36,18 @@ for o in w:
 for content in notes.values():
  for sec in content['sections']:
   for paragraph in sec['paragraphs']:assert set(paragraph.get('source_ids',[]))<=sb
+history=load('history');comparisons=load('comparisons')
+assert len(history['field_card']['questions'])==6
+assert next(g for g in comparisons if g['id']=='battle-and-submission')['works']==['r11','r24']
+for sec in history['sections']:
+ assert set(sec['works'])<=set(by)
+ if sec.get('image'):assert sec['image'] in p
+ for paragraph in sec['paragraphs']+sec.get('after',[]):assert set(paragraph.get('source_ids',[]))<=sb
+ if sec.get('table'):assert set(sec['table']['source_ids'])<=sb
+for group in comparisons:
+ for sec in group.get('sections',[]):
+  for paragraph in sec['paragraphs']:assert set(paragraph.get('source_ids',[]))<=sb
+ for paragraph in group.get('notes',[]):assert set(paragraph.get('source_ids',[]))<=sb
 class Page(HTMLParser):
  def __init__(self,text):super().__init__();self.links=[];self.ids=[];self.images=[];self.feed(text)
  def handle_starttag(self,tag,attrs):
@@ -46,7 +58,7 @@ class Page(HTMLParser):
   if a.get('srcset'):self.links.extend(x.strip().split()[0] for x in a['srcset'].split(','))
   if tag=='img':self.images.append(a)
 parsed={f:Page(f.read_text()) for f in BASE.rglob('*.html')}
-assert len(parsed)==27
+assert len(parsed)==28
 for file,doc in parsed.items():
  assert len(doc.ids)==len(set(doc.ids)),file
  for img in doc.images:
@@ -63,6 +75,9 @@ for file,doc in parsed.items():
   assert target.exists(),(file,link)
   if url.fragment and target.suffix=='.html':
    other=parsed.get(target) or Page(target.read_text());assert unquote(url.fragment) in other.ids,(file,link)
+for o in w:assert 'href="../history/"' in (BASE/o['id']/'index.html').read_text()
+assert 'history/#field-card' in (BASE/'atlas/index.html').read_text()
+assert 'href="history/"' in (BASE/'index.html').read_text()
 assert 'roman-sarcophagi/' in (ROOT/'museum-notes/index.html').read_text()
 assert not list(BASE.rglob('*.pdf'))
-print('Roman checks passed: 24 canonical records, 8 viewing institutions, 60 unchanged originals, 5 honest crops, 27 pages; sources, date types, identity corrections and local links valid.')
+print('Roman checks passed: 24 canonical records, 8 viewing institutions, 60 unchanged originals, 5 honest crops, 28 pages; sources, date types, identity corrections and local links valid.')

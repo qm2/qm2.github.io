@@ -169,7 +169,7 @@
   },
   {
     "id": "S16",
-    "title": "波尔托纳乔图像文献",
+    "title": "Elena Calandra，波尔托纳乔石棺，马西莫宫图录（2005），pp.162–163，公开转载",
     "url": "https://ancientrome.ru/art/artworken/img.htm?id=4752",
     "kind": "图像文献索引",
     "access": "检索摘要",
@@ -407,7 +407,12 @@
     "url": "https://ancientrome.ru/art/artworken/img.htm?id=5454",
     "access": "前一轮完整打开作品页并读取署名目录段落、年代、馆藏号及直接图像；复访偶发服务错误。不是仅搜索摘要，也未声称看过原书扫描。",
     "limitations": "明确署名目录转载或图像档案；非当前馆方单件网页。",
-    "checked": "2026-11-08"
+    "checked": "2026-11-08",
+    "current_review": {
+      "access": "本轮直接重读Spinola署名目录PN15完整转载",
+      "supports": "将领坐姿、胜利女神加冠、俘虏与妇孺、目录对战败者悲剧的讨论；萨尔马提亚人为作者推测",
+      "limitations": "英文网页题名使用clemency；意大利目录题名为sottomissione（降服）。不据此断言实际释放俘虏，未核原纸本。"
+    }
   },
   {
     "id": "SV2",
@@ -440,5 +445,36 @@
     "access": "完整读取条目列表。中层棺盖所列文件名为Coperchio di sarcofago con Stagioni giacenti ed eroti, 140-150 d.C.；其独立文件页返回cache miss，未用作确定断代或编号的凭据。",
     "limitations": "明确署名目录转载或图像档案；非当前馆方单件网页。",
     "checked": "2026-11-08"
+  },
+  {
+    "id": "SG01",
+    "title": "Sven Ahrens等，Dead Classic：罗马葬俗与石棺（奥斯陆历史博物馆）",
+    "url": "https://www.historiskmuseum.no/english/exhibitions/exhibitions-archive/dead-classic/text/",
+    "kind": "博物馆展览研究文字",
+    "access": "直接读取全文页面中的相关章节：Roman Tombs、From Cremation to Inhumation、Roman Marble Sarcophagi；未采用网页其他通史概述",
+    "checked": "2026-11-08",
+    "supports": "火葬与遗体安葬的变化、原因尚无定论、墓室空间与葬具的财力差异",
+    "limitations": "通论不证明某一件的具体原墓室或墓主身份；不采用网页关于君士坦丁时期国教的过简表述。"
+  },
+  {
+    "id": "SG02",
+    "title": "Michael Koortbojian，Myth, Meaning, and Memory on Roman Sarcophagi（1995），导论",
+    "url": "https://publishing.cdlib.org/ucpressebooks/view?docId=ft4199n900&chunk.id=intro&doc.view=content&brand=ucpress",
+    "kind": "大学出版社开放学术著作",
+    "access": "直接读取开放电子版导论关于神话类比、纪念、客户与观看的正文；未通读全书",
+    "checked": "2026-11-08",
+    "supports": "纪念日重返墓地、神话形象与亡者之间的类比而非生平对应",
+    "limitations": "不能将一般纪念习俗写成每一件的实际使用记录。",
+    "link_check": "出版社现行域名HTTP200且正文含导论与纪念习俗段；搜索缓存中的pub-ucpec2-prd旧域名无法解析，未用于公开链接。"
+  },
+  {
+    "id": "SG03",
+    "title": "Ben Russell，The Roman Sarcophagus ‘Industry’: a Reconsideration（2011），pp.119–147",
+    "url": "https://www.pure.ed.ac.uk/ws/portalfiles/portal/14612447/Russel_2011_The_Roman_Sarcophagus_industry_.pdf",
+    "kind": "作者大学机构库出版版章节PDF",
+    "access": "直接阅读相关正文，重点印刷页122—126、130、133—141；非仅摘要，未声称通读论文集",
+    "checked": "2026-11-08",
+    "supports": "客户、采石与雕刻工坊、海运阶段、空白肖像的多种解释、制作形式与石材来源不可简单等同",
+    "limitations": "文中转引的出土报告未独立查阅；不据行业通论重定本站作品产地。"
   }
 ]
