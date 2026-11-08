@@ -1,0 +1,873 @@
+[
+  {
+    "id": "b01",
+    "title_zh": "英雄化人物像",
+    "title_original": "Heroic Figure",
+    "accession": "62.19",
+    "date_display": "约公元200–225年",
+    "date_start": 200,
+    "date_end": 225,
+    "type": "大型人物像",
+    "photo_numbers": [
+      1962,
+      1963
+    ],
+    "label_numbers": [
+      1964
+    ],
+    "source_ids": [
+      "S01"
+    ],
+    "identity_confidence": "high",
+    "visit_date": null,
+    "research_date": "2026-11-08",
+    "period": "Roman Imperial / Severan",
+    "dimensions": "208.3 × 126.4 × 44.5厘米",
+    "priority": "core",
+    "label_evidence": "1964：Roman Empire, c. AD 200–225；62.19；Gift of J. and D. de Menil in memory of Conrad Schlumberger。",
+    "date_precision": "textual range; not an exact production year",
+    "museum_id": "mfah",
+    "viewing_museum": "休斯顿美术馆",
+    "viewing_city": "休斯顿",
+    "collection": "休斯顿美术馆",
+    "cover": "1962",
+    "photo_order": [
+      "1962",
+      "1963"
+    ],
+    "label_photos": [
+      "1964"
+    ],
+    "material": "青铜",
+    "theme": "英雄与权力",
+    "include_in_core_timeline": true,
+    "primary_label": "1964"
+  },
+  {
+    "id": "b02",
+    "title_zh": "大型青铜像腿部残件（可能属查茨沃思阿波罗）",
+    "title_original": "statue (fragment, jambe)",
+    "accession": "MNC 1190 / Br 69",
+    "date_display": "公元前475–450年",
+    "date_start": -475,
+    "date_end": -450,
+    "type": "雕像残件",
+    "photo_numbers": [
+      1965
+    ],
+    "label_numbers": [
+      1966
+    ],
+    "source_ids": [
+      "S02"
+    ],
+    "identity_confidence": "high",
+    "visit_date": null,
+    "research_date": "2026-11-08",
+    "period": "Classical / Cyprus",
+    "dimensions": "107 × 30 × 21厘米",
+    "priority": "supporting",
+    "label_evidence": "1966：Jambe de statue / Leg of a statue；Chypre；vers490–450 av.J.-C.；Br69。",
+    "date_evidence_note": "现场展牌约490–450 BCE；2026-07更新的官网目录缩窄为475–450 BCE。",
+    "date_precision": "textual range; not an exact production year",
+    "museum_id": "louvre",
+    "viewing_museum": "卢浮宫",
+    "viewing_city": "巴黎",
+    "collection": "卢浮宫",
+    "cover": "1965",
+    "photo_order": [
+      "1965"
+    ],
+    "label_photos": [
+      "1966"
+    ],
+    "material": "青铜",
+    "theme": "残件与幸存",
+    "include_in_core_timeline": true,
+    "primary_label": "1966"
+  },
+  {
+    "id": "b03",
+    "title_zh": "君士坦丁巨像头像、左手与球体陈列组",
+    "title_original": "Colossal bronze head of Constantine; colossal left hand; globe",
+    "accession": null,
+    "date_display": "公元4世纪",
+    "date_start": 300,
+    "date_end": 399,
+    "type": "巨像残件组",
+    "photo_numbers": [
+      1967,
+      1968
+    ],
+    "label_numbers": [
+      1969,
+      1973,
+      1974
+    ],
+    "source_ids": [
+      "S14",
+      "S15",
+      "S33"
+    ],
+    "identity_confidence": "high",
+    "visit_date": null,
+    "research_date": "2026-11-08",
+    "period": "Late Roman",
+    "priority": "core",
+    "components": [
+      {
+        "id": "b03-head",
+        "accession": "MC1072",
+        "name": "头像"
+      },
+      {
+        "id": "b03-hand",
+        "accession": "MC1070",
+        "name": "左手"
+      },
+      {
+        "id": "b03-globe",
+        "accession": "MC1065",
+        "name": "球体"
+      }
+    ],
+    "label_evidence": "1969头像号1072；左手1070、球1065。1974将三件联系到君士坦丁，但不能因此删除现行目录的疑问。",
+    "date_precision": "textual range; not an exact production year",
+    "museum_id": "capitoline",
+    "viewing_museum": "卡比托利欧博物馆",
+    "viewing_city": "罗马",
+    "collection": "卡比托利欧博物馆",
+    "cover": "1968",
+    "photo_order": [
+      "1967",
+      "1968"
+    ],
+    "label_photos": [
+      "1969",
+      "1973",
+      "1974"
+    ],
+    "material": "青铜",
+    "theme": "英雄与权力",
+    "include_in_core_timeline": true,
+    "dimensions": "",
+    "primary_label": "1969"
+  },
+  {
+    "id": "b04",
+    "title_zh": "拔刺少年",
+    "title_original": "Spinario / Boy with Thorn",
+    "accession": "MC1186",
+    "date_display": "公元前1世纪",
+    "date_start": -100,
+    "date_end": -1,
+    "type": "人物像",
+    "photo_numbers": [
+      1970
+    ],
+    "label_numbers": [
+      1973,
+      1974
+    ],
+    "source_ids": [
+      "S03"
+    ],
+    "identity_confidence": "high",
+    "visit_date": null,
+    "research_date": "2026-11-08",
+    "period": "Late Hellenistic / Roman Republican",
+    "dimensions": "高73厘米",
+    "priority": "core",
+    "label_evidence": "1974：Spinario；second half of the1st century BC；inv.S1186。",
+    "date_precision": "textual range; not an exact production year",
+    "museum_id": "capitoline",
+    "viewing_museum": "卡比托利欧博物馆",
+    "viewing_city": "罗马",
+    "collection": "卡比托利欧博物馆",
+    "cover": "1970",
+    "photo_order": [
+      "1970"
+    ],
+    "label_photos": [
+      "1973",
+      "1974"
+    ],
+    "material": "青铜",
+    "theme": "身体与休息",
+    "include_in_core_timeline": true,
+    "primary_label": "1973"
+  },
+  {
+    "id": "b05",
+    "title_zh": "所谓祭仪侍童卡米卢斯",
+    "title_original": "Camillus / Camillo",
+    "accession": "MC1184",
+    "date_display": "公元1世纪",
+    "date_start": 1,
+    "date_end": 100,
+    "type": "人物像",
+    "photo_numbers": [
+      1971
+    ],
+    "label_numbers": [
+      1973,
+      1974
+    ],
+    "source_ids": [
+      "S04",
+      "S05"
+    ],
+    "identity_confidence": "high",
+    "visit_date": null,
+    "research_date": "2026-11-08",
+    "period": "Roman Imperial",
+    "dimensions": "高141厘米",
+    "priority": "supporting",
+    "label_evidence": "1974：early imperial period；inv.S1184。",
+    "date_precision": "textual range; not an exact production year",
+    "museum_id": "capitoline",
+    "viewing_museum": "卡比托利欧博物馆",
+    "viewing_city": "罗马",
+    "collection": "卡比托利欧博物馆",
+    "cover": "1971",
+    "photo_order": [
+      "1971"
+    ],
+    "label_photos": [
+      "1973",
+      "1974"
+    ],
+    "material": "青铜",
+    "theme": "神祇与用途",
+    "include_in_core_timeline": true,
+    "primary_label": "1973"
+  },
+  {
+    "id": "b06",
+    "title_zh": "卡比托利欧母狼（年代争议对照）",
+    "title_original": "Lupa Capitolina / Capitoline She-wolf",
+    "accession": "MC1181",
+    "date_display": "传统定为公元前5世纪；科学测年研究支持公元11–12世纪",
+    "date_start": null,
+    "date_end": null,
+    "type": "年代争议／后世接受",
+    "photo_numbers": [
+      1972
+    ],
+    "label_numbers": [
+      1973,
+      1974
+    ],
+    "source_ids": [
+      "S06",
+      "S08",
+      "S09"
+    ],
+    "identity_confidence": "high",
+    "visit_date": null,
+    "research_date": "2026-11-08",
+    "period": "Dating disputed; medieval scientific dating",
+    "priority": "comparison",
+    "include_in_core_timeline": false,
+    "date_hypotheses": [
+      {
+        "start": -500,
+        "end": -401,
+        "label": "传统古代归属"
+      },
+      {
+        "start": 1000,
+        "end": 1199,
+        "label": "科学测年支持的中世纪范围，概括值"
+      }
+    ],
+    "label_evidence": "1974旧展牌仍写early5th century BC；必须保留这一现场记录，同时解释研究争论。",
+    "date_precision": "textual range; not an exact production year",
+    "museum_id": "capitoline",
+    "viewing_museum": "卡比托利欧博物馆",
+    "viewing_city": "罗马",
+    "collection": "卡比托利欧博物馆",
+    "cover": "1972",
+    "photo_order": [
+      "1972"
+    ],
+    "label_photos": [
+      "1973",
+      "1974"
+    ],
+    "material": "青铜",
+    "theme": "年代争议与后世接受",
+    "dimensions": "",
+    "primary_label": "1973"
+  },
+  {
+    "id": "b07",
+    "title_zh": "帕尔梅巷青铜马",
+    "title_original": "Cavallo di Vicolo delle Palme",
+    "accession": null,
+    "date_display": "公元前5–4世纪",
+    "date_start": -500,
+    "date_end": -301,
+    "type": "动物雕像",
+    "photo_numbers": [
+      1975
+    ],
+    "label_numbers": [
+      1976
+    ],
+    "source_ids": [
+      "S10"
+    ],
+    "identity_confidence": "high",
+    "visit_date": null,
+    "research_date": "2026-11-08",
+    "period": "Classical Greek, following museum label",
+    "priority": "supporting",
+    "label_evidence": "1976完整英文展牌：1849年发现；mid5th or4th century BC；铜马原有骑手，附近靴足可能为后替骑手。",
+    "date_precision": "textual range; not an exact production year",
+    "museum_id": "capitoline",
+    "viewing_museum": "卡比托利欧博物馆",
+    "viewing_city": "罗马",
+    "collection": "卡比托利欧博物馆",
+    "cover": "1975",
+    "photo_order": [
+      "1975"
+    ],
+    "label_photos": [
+      "1976"
+    ],
+    "material": "青铜",
+    "theme": "残件与幸存",
+    "include_in_core_timeline": true,
+    "dimensions": "",
+    "primary_label": "1976"
+  },
+  {
+    "id": "b08",
+    "title_zh": "帕尔梅巷青铜公牛后躯残件",
+    "title_original": "Toro di Vicolo delle Palme (hindquarter fragment)",
+    "accession": null,
+    "date_display": "公元前5–4世纪",
+    "date_start": -500,
+    "date_end": -301,
+    "type": "动物雕像残件",
+    "photo_numbers": [
+      1977
+    ],
+    "label_numbers": [
+      1978
+    ],
+    "source_ids": [],
+    "identity_confidence": "high",
+    "visit_date": null,
+    "research_date": "2026-11-08",
+    "period": "Classical Greek, following museum label",
+    "priority": "supporting",
+    "label_evidence": "1978：The two bronzes from Vicolo delle Palme:The bull；1849；5th or4th century BC；left hindquarter；upright tail。",
+    "date_precision": "textual range; not an exact production year",
+    "museum_id": "capitoline",
+    "viewing_museum": "卡比托利欧博物馆",
+    "viewing_city": "罗马",
+    "collection": "卡比托利欧博物馆",
+    "cover": "1977",
+    "photo_order": [
+      "1977"
+    ],
+    "label_photos": [
+      "1978"
+    ],
+    "material": "青铜",
+    "theme": "残件与幸存",
+    "include_in_core_timeline": true,
+    "dimensions": "",
+    "primary_label": "1978"
+  },
+  {
+    "id": "b09",
+    "title_zh": "马可·奥勒留骑马像",
+    "title_original": "Equestrian Statue of Marcus Aurelius",
+    "accession": "MC3247",
+    "date_display": "约公元176年或180年",
+    "date_start": 176,
+    "date_end": 180,
+    "type": "皇帝骑马像",
+    "photo_numbers": [
+      1979,
+      1980,
+      1981
+    ],
+    "label_numbers": [
+      1982,
+      1983,
+      1984
+    ],
+    "source_ids": [
+      "S12",
+      "S13"
+    ],
+    "identity_confidence": "high",
+    "visit_date": null,
+    "research_date": "2026-11-08",
+    "period": "Roman Imperial / Antonine",
+    "priority": "core",
+    "label_evidence": "1982：MC3247；gilded bronze；176–180 AD。1983–84补充历史、修复与复制品。",
+    "date_precision": "textual range; not an exact production year",
+    "museum_id": "capitoline",
+    "viewing_museum": "卡比托利欧博物馆",
+    "viewing_city": "罗马",
+    "collection": "卡比托利欧博物馆",
+    "cover": "1981",
+    "photo_order": [
+      "1979",
+      "1980",
+      "1981"
+    ],
+    "label_photos": [
+      "1982",
+      "1983",
+      "1984"
+    ],
+    "material": "鎏金青铜",
+    "theme": "英雄与权力",
+    "include_in_core_timeline": true,
+    "timeline_candidates": [
+      176,
+      180
+    ],
+    "dimensions": "通高424厘米（馆方目录）",
+    "primary_label": "1982"
+  },
+  {
+    "id": "b10",
+    "title_zh": "所谓希腊化王子像",
+    "title_original": "Statua ritratto, cd. Principe ellenistico",
+    "accession": "1049",
+    "date_display": "希腊化时期至罗马共和国晚期，具体年代与身份有争议",
+    "date_start": -300,
+    "date_end": -1,
+    "type": "英雄化肖像",
+    "photo_numbers": [
+      1985
+    ],
+    "label_numbers": [
+      1986
+    ],
+    "source_ids": [
+      "S16"
+    ],
+    "identity_confidence": "high",
+    "visit_date": null,
+    "research_date": "2026-11-08",
+    "period": "Hellenistic / Roman Republican, disputed",
+    "priority": "core",
+    "label_evidence": "1986：1885年Quirinale发现；Inv1049；两种身份/年代；modern-day staff；铭文解释。",
+    "date_precision": "textual range; not an exact production year",
+    "timeline_uncertain": true,
+    "numeric_date_warning": "Numeric boundaries are layout aids, not independently attested exact years; display date_display and uncertainty notes.",
+    "museum_id": "mnr",
+    "viewing_museum": "罗马国家博物馆 · 马西莫宫",
+    "viewing_city": "罗马",
+    "collection": "罗马国家博物馆 · 马西莫宫",
+    "cover": "1985",
+    "photo_order": [
+      "1985"
+    ],
+    "label_photos": [
+      "1986"
+    ],
+    "material": "青铜",
+    "theme": "英雄与权力",
+    "include_in_core_timeline": true,
+    "dimensions": "",
+    "primary_label": "1986"
+  },
+  {
+    "id": "b11",
+    "title_zh": "休息的拳击手",
+    "title_original": "Pugilatore in riposo / Boxer at Rest",
+    "accession": "1055",
+    "date_display": "通常置于希腊化晚期，具体年代有争议",
+    "date_start": -200,
+    "date_end": -1,
+    "type": "运动员雕像",
+    "photo_numbers": [
+      1987
+    ],
+    "label_numbers": [
+      1988
+    ],
+    "source_ids": [
+      "S16",
+      "S17",
+      "S18"
+    ],
+    "identity_confidence": "high",
+    "visit_date": null,
+    "research_date": "2026-11-08",
+    "period": "Hellenistic; date debated",
+    "priority": "core",
+    "label_evidence": "1988：Inv1055；1885年发现；正文principal attribution lateHellenistic2nd–1st century BC,inspired by Lysippos。",
+    "date_precision": "textual range; not an exact production year",
+    "timeline_uncertain": true,
+    "numeric_date_warning": "Numeric boundaries are layout aids, not independently attested exact years; display date_display and uncertainty notes.",
+    "museum_id": "mnr",
+    "viewing_museum": "罗马国家博物馆 · 马西莫宫",
+    "viewing_city": "罗马",
+    "collection": "罗马国家博物馆 · 马西莫宫",
+    "cover": "1987",
+    "photo_order": [
+      "1987"
+    ],
+    "label_photos": [
+      "1988"
+    ],
+    "material": "青铜",
+    "theme": "身体与休息",
+    "include_in_core_timeline": true,
+    "dimensions": "高128厘米（馆方专题页）",
+    "primary_label": "1988"
+  },
+  {
+    "id": "b12",
+    "title_zh": "台伯河出水的狄俄尼索斯",
+    "title_original": "Dioniso dal Tevere",
+    "accession": "1060",
+    "date_display": "公元117–138年（哈德良时期）",
+    "date_start": 117,
+    "date_end": 138,
+    "type": "神像",
+    "photo_numbers": [
+      1989
+    ],
+    "label_numbers": [
+      1990
+    ],
+    "source_ids": [],
+    "identity_confidence": "high",
+    "visit_date": null,
+    "research_date": "2026-11-08",
+    "period": "Roman Imperial / Hadrianic",
+    "priority": "supporting",
+    "label_evidence": "1990：Dioniso；Roma,dalTevere,pressoilponteGaribaldi(1885)；Etàadrianea117–138；Inv1060。",
+    "date_precision": "textual range; not an exact production year",
+    "museum_id": "mnr",
+    "viewing_museum": "罗马国家博物馆 · 马西莫宫",
+    "viewing_city": "罗马",
+    "collection": "罗马国家博物馆 · 马西莫宫",
+    "cover": "1989",
+    "photo_order": [
+      "1989"
+    ],
+    "label_photos": [
+      "1990"
+    ],
+    "material": "青铜",
+    "theme": "神祇与用途",
+    "include_in_core_timeline": true,
+    "dimensions": "",
+    "primary_label": "1990"
+  },
+  {
+    "id": "b13",
+    "title_zh": "尼米湖第一艘船的美杜莎梁端装饰",
+    "title_original": "Testa di Medusa, dalla prima nave",
+    "accession": null,
+    "date_display": "公元37–41年（卡利古拉时期）",
+    "date_start": 37,
+    "date_end": 41,
+    "type": "船用青铜装饰",
+    "photo_numbers": [
+      1991
+    ],
+    "label_numbers": [
+      1992
+    ],
+    "source_ids": [
+      "S16",
+      "S19",
+      "S20"
+    ],
+    "identity_confidence": "high",
+    "visit_date": null,
+    "research_date": "2026-11-08",
+    "period": "Roman Imperial / Caligulan",
+    "priority": "supporting",
+    "label_evidence": "1992：TestadiMedusa,dallaprimanave；Bronzo；fusioneacerapersa；EtàdiCaligola37–41d.C.。",
+    "date_precision": "textual range; not an exact production year",
+    "museum_id": "mnr",
+    "viewing_museum": "罗马国家博物馆 · 马西莫宫",
+    "viewing_city": "罗马",
+    "collection": "罗马国家博物馆 · 马西莫宫",
+    "cover": "1991",
+    "photo_order": [
+      "1991"
+    ],
+    "label_photos": [
+      "1992"
+    ],
+    "material": "青铜",
+    "theme": "神祇与用途",
+    "include_in_core_timeline": true,
+    "dimensions": "",
+    "primary_label": "1992"
+  },
+  {
+    "id": "b14",
+    "title_zh": "尼米湖第二艘船的手与前臂形梁端装饰（两件）",
+    "title_original": "Decorazioni delle testate delle travi longitudinali, dalla seconda nave",
+    "accession": null,
+    "date_display": "公元37–41年（卡利古拉时期）",
+    "date_start": 37,
+    "date_end": 41,
+    "type": "船用青铜装饰组",
+    "photo_numbers": [
+      1993,
+      1994
+    ],
+    "label_numbers": [
+      1995
+    ],
+    "source_ids": [
+      "S16",
+      "S21"
+    ],
+    "identity_confidence": "high",
+    "visit_date": null,
+    "research_date": "2026-11-08",
+    "period": "Roman Imperial / Caligulan",
+    "priority": "supporting",
+    "components": [
+      {
+        "id": "b14-left",
+        "name": "左手形梁端装饰",
+        "accession": null
+      },
+      {
+        "id": "b14-right",
+        "name": "右手形梁端装饰",
+        "accession": null
+      }
+    ],
+    "label_evidence": "1995：dallasecondanave；Bronzo；37–41d.C.；forearmswithopenhands；leftandarighthand；apotropaic。",
+    "date_precision": "textual range; not an exact production year",
+    "museum_id": "mnr",
+    "viewing_museum": "罗马国家博物馆 · 马西莫宫",
+    "viewing_city": "罗马",
+    "collection": "罗马国家博物馆 · 马西莫宫",
+    "cover": "1994",
+    "photo_order": [
+      "1993",
+      "1994"
+    ],
+    "label_photos": [
+      "1995"
+    ],
+    "material": "青铜",
+    "theme": "神祇与用途",
+    "include_in_core_timeline": true,
+    "dimensions": "",
+    "primary_label": "1995"
+  },
+  {
+    "id": "b15",
+    "title_zh": "赫拉克勒斯·马斯泰像（里盖蒂赫拉克勒斯）",
+    "title_original": "Hercules Mastai / Ercole Mastai / Hercules Righetti",
+    "accession": "252（馆方修复项目记录）",
+    "date_display": "公元1世纪末至3世纪初，具体年代有争议",
+    "date_start": 80,
+    "date_end": 225,
+    "type": "巨型鎏金神像",
+    "photo_numbers": [
+      1996
+    ],
+    "label_numbers": [],
+    "source_ids": [
+      "S22",
+      "S23"
+    ],
+    "identity_confidence": "high",
+    "visit_date": null,
+    "research_date": "2026-11-08",
+    "period": "Roman Imperial",
+    "dimensions": "高383厘米（馆方修复项目）",
+    "priority": "core",
+    "label_evidence": "用户未拍展牌；身份依据官方主馆条目、修复项目及照片特征交叉核实。",
+    "identification": {
+      "photo": "1996",
+      "diagnostics": [
+        "圆厅高大壁龛、红色背衬",
+        "站姿青年英雄、右侧支棍（雕像自身右手侧）",
+        "左臂披狮皮、全身可见鎏金"
+      ],
+      "conclusion": "high confidence; museum official record match"
+    },
+    "date_precision": "broad_approximate_range",
+    "timeline_uncertain": true,
+    "numeric_date_warning": "Numeric boundaries are layout aids, not independently attested exact years; display date_display and uncertainty notes.",
+    "century_span": {
+      "from": "late 1st century CE",
+      "to": "early 3rd century CE"
+    },
+    "museum_id": "vatican",
+    "viewing_museum": "梵蒂冈博物馆",
+    "viewing_city": "梵蒂冈",
+    "collection": "梵蒂冈博物馆",
+    "cover": "1996",
+    "photo_order": [
+      "1996"
+    ],
+    "label_photos": [],
+    "material": "鎏金青铜",
+    "theme": "神祇与用途",
+    "include_in_core_timeline": true,
+    "timeline_note": "区间仅示意1世纪末至3世纪初，并非80年、225年的确切界限",
+    "primary_label": null
+  },
+  {
+    "id": "b16",
+    "title_zh": "克利夫兰阿波罗：蜥蜴杀手或皮同杀手",
+    "title_original": "The Cleveland Apollo: Apollo Sauroktonos (Lizard-Slayer) or Apollo the Python-Slayer",
+    "accession": "2004.30（组号）",
+    "date_display": "约公元前350–200年",
+    "date_start": -350,
+    "date_end": -200,
+    "type": "神像及分离残件",
+    "photo_numbers": [
+      1998,
+      2001
+    ],
+    "label_numbers": [
+      1999,
+      2000,
+      2002
+    ],
+    "source_ids": [
+      "S25",
+      "S26"
+    ],
+    "identity_confidence": "high",
+    "visit_date": null,
+    "research_date": "2026-11-08",
+    "period": "Late Classical / Hellenistic",
+    "priority": "core",
+    "label_evidence": "1999–2002：约350–200BCE；Praxitelesorfollower；2004.30及分件号；失蜡与修复说明。",
+    "current_display": {
+      "value": "Not on view",
+      "checked": "2026-11-08",
+      "source": "S25",
+      "not_visit_date": true
+    },
+    "date_precision": "textual range; not an exact production year",
+    "museum_id": "cleveland",
+    "viewing_museum": "克利夫兰艺术博物馆",
+    "viewing_city": "克利夫兰",
+    "collection": "克利夫兰艺术博物馆",
+    "cover": "1998",
+    "photo_order": [
+      "1998",
+      "2001"
+    ],
+    "label_photos": [
+      "1999",
+      "2000",
+      "2002"
+    ],
+    "material": "青铜、铜与石质镶嵌",
+    "theme": "身体与休息",
+    "include_in_core_timeline": true,
+    "dimensions": "150 × 50.3 × 66.8厘米（馆方整体尺寸）",
+    "primary_label": "1999"
+  },
+  {
+    "id": "b17",
+    "title_zh": "少年像",
+    "title_original": "Statue of a Boy",
+    "accession": "23.71",
+    "date_display": "公元1世纪（当前官网）；现场展牌写公元前1世纪",
+    "date_start": 1,
+    "date_end": 100,
+    "type": "人物像／可能的陈设器物",
+    "photo_numbers": [
+      2003
+    ],
+    "label_numbers": [
+      2004
+    ],
+    "source_ids": [
+      "S27"
+    ],
+    "identity_confidence": "high",
+    "visit_date": null,
+    "research_date": "2026-11-08",
+    "period": "Roman Imperial (current catalogue)",
+    "dimensions": "115.5 × 54.6 × 22.8厘米",
+    "priority": "supporting",
+    "label_evidence": "2004：23.71；acquiredbyHenryWalters1924；Roman(SouthItaly?),1stcenturyB.C.。",
+    "date_evidence_note": "主年代按当前馆藏页；同时在资料栏保留现场展牌的前1世纪，不声称已独立解决争论。",
+    "date_precision": "textual range; not an exact production year",
+    "museum_id": "walters",
+    "viewing_museum": "沃尔特斯艺术博物馆",
+    "viewing_city": "巴尔的摩",
+    "collection": "沃尔特斯艺术博物馆",
+    "cover": "2003",
+    "photo_order": [
+      "2003"
+    ],
+    "label_photos": [
+      "2004"
+    ],
+    "material": "青铜",
+    "theme": "神祇与用途",
+    "include_in_core_timeline": true,
+    "alternate_dates": [
+      {
+        "start": -100,
+        "end": -1,
+        "label": "现场展签：公元前1世纪"
+      }
+    ],
+    "primary_label": "2004"
+  },
+  {
+    "id": "b18",
+    "title_zh": "运动员头像（刮身者）",
+    "title_original": "Head of an Athlete (Apoxyomenos)",
+    "accession": "AP 2000.03 a,b",
+    "date_display": "约公元前2–1世纪",
+    "date_start": -200,
+    "date_end": -1,
+    "type": "运动员头像",
+    "photo_numbers": [
+      2005
+    ],
+    "label_numbers": [
+      2006
+    ],
+    "source_ids": [
+      "S28"
+    ],
+    "identity_confidence": "high",
+    "visit_date": null,
+    "research_date": "2026-11-08",
+    "period": "Hellenistic or Roman",
+    "dimensions": "29.2 × 21 × 27.3厘米（不含座）",
+    "priority": "core",
+    "label_evidence": "2006：HellenisticorRoman,probablyafterLysippos；c.2nd–1stcenturyB.C.；acquired2000。",
+    "date_precision": "textual range; not an exact production year",
+    "museum_id": "kimbell",
+    "viewing_museum": "金贝尔艺术博物馆",
+    "viewing_city": "沃思堡",
+    "collection": "金贝尔艺术博物馆",
+    "cover": "2005",
+    "photo_order": [
+      "2005"
+    ],
+    "label_photos": [
+      "2006"
+    ],
+    "material": "青铜",
+    "theme": "身体与休息",
+    "include_in_core_timeline": true,
+    "primary_label": "2006"
+  }
+]

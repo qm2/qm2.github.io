@@ -93,6 +93,7 @@ def build():
  body+=f'<section class="rs-atlas-entry"><p class="eyebrow">ATLAS / TIMELINE / CATALOGUE</p><h2>所见石棺</h2><p>{len(works)}条作品记录（含独立棺盖与墓葬浮雕残片），另附932号棺盖；来自{len(museums)}处观看机构。按博物馆、年代和题材重新浏览，也把不同地方看过的作品放在一起比较。</p><div class="rs-link-row"><a href="atlas/">打开地图、时间线与完整图录 →</a><a href="compare/">{len(comparisons)}组并看 →</a></div></section>'
  body+='<details class="rs-directory"><summary>逐件目录 <span class="rs-icon" aria-hidden="true">＋</span></summary><ol>'+''.join(f'<li><a href="{w["id"]}/">{e(w["title_zh"])}</a><span>{e(w["date_display"])} · {e(w["viewing_city"])}</span></li>' for w in works)+'</ol></details>'
  body+='<section class="rs-reading rs-documentation"><h2>照片与资料</h2><p>本辑照片均为我的现场摄影。作品资料依据现场展签、馆藏目录与所附研究；四件托洛尼亚藏品是在卢浮宫借展时看到的，观看地点与收藏归属分别记录。每件作品保留原图及已有展签。</p><p>梵蒂冈的陈列包含独立的棺身、棺盖和前板；目录按文物记录整理，共用的现场照片只存一份。</p>'+bibliography(['S29','S15','S05'])+'</section>'
+ body+='<section class="rs-guide-entry"><h2>从浮雕叙事，到圆雕身体</h2><p>英雄、酒神与权威形象，也进入青铜的身体。继续看我的古代青铜摄影与札记。</p><a href="../greek-roman-bronzes/">希腊与罗马世界的青铜 →</a></section>'
  write('',shell('石棺上的故事 · 古罗马浮雕石棺',body))
  # Fixed comparison groups, no third-party photos, native ratios.
  body='<header class="rs-title"><p class="eyebrow">SIDE BY SIDE</p><h1>让石棺彼此照见</h1><p class="rs-lead">比较人物的手、身体的方向，以及故事在石面上展开的方式。</p><p class="rs-meta">照片保持各自比例，并排不表示实物等大。具体年代与资料见作品页。</p></header><nav class="rs-link-row">'+''.join(f'<a href="#{g["id"]}">{e(g["title"])}</a>' for g in comparisons)+'</nav>'

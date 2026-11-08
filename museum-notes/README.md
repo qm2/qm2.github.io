@@ -3,6 +3,7 @@
 Static pages for the existing GitHub Pages site. No client dependencies or build service.
 
 - `/museum-notes/`: cross-cultural notebook entrance.
+- `/museum-notes/greek-roman-bronzes/`: 18 bronze viewing groups, four themes, history, comparison and museum/date atlas. See [topic documentation](greek-roman-bronzes/README.md). Rebuilds with the main museum generator.
 - `/museum-notes/images-and-vows/`: fifteen South/North dynasties stone sculptures, five narrative chapters and eight published inscription texts. See [topic documentation](images-and-vows/README.md). Rebuilds with the main museum generator.
 - `/museum-notes/himalayan-art/`: six chapters, 24 close readings and a data-driven geographic guide. See [topic documentation](himalayan-art/README.md) for image permissions, stable work IDs, filtering, checks and adding future visits. Regenerate with `python3 scripts/build_himalayan.py` or the full museum build.
 - `/museum-notes/yongle-xuande/`: four court sculptures, one standing-Buddha comparison and three ritual objects. Reuses the Himalayan canonical records/photos, with Cernuschi aliases and separate loan-viewing locations. See [topic documentation](yongle-xuande/README.md). Built last by `scripts/build_museum.py`.

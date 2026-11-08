@@ -1,0 +1,297 @@
+[
+  {
+    "id": "S01",
+    "title": "MFAH: Heroic Figure",
+    "url": "https://emuseum.mfah.org/objects/47442/heroic-figure",
+    "kind": "museum_record",
+    "checked": "2026-11-08",
+    "supports": "62.19，现定约200–225年，尺寸、赠藏、身份不明及希腊原型关系。",
+    "limits": "官方提出的旧出土地与Bubon排除论证属于馆方收藏史叙述；本包不将其扩写成独立验证的考古事实。"
+  },
+  {
+    "id": "S02",
+    "title": "Louvre: statue (fragment, jambe), Br 69",
+    "url": "https://collections.louvre.fr/en/ark:/53355/cl010258524",
+    "kind": "museum_record",
+    "checked": "2026-11-08",
+    "supports": "MNC1190/Br69，公元前475–450年，塞浦路斯，Tamassos(?)；与Chatsworth头像的可能对应。",
+    "limits": "数据库仍用probably；不把两个残件的归属写成绝对确定。"
+  },
+  {
+    "id": "S03",
+    "title": "Musei Capitolini: Spinario",
+    "url": "https://www.museicapitolini.org/en/opera/spinario?tema=1",
+    "kind": "museum_record",
+    "checked": "2026-11-08",
+    "supports": "MC1186；公元前1世纪；古典头部样式与希腊化身体样式的综合。",
+    "limits": ""
+  },
+  {
+    "id": "S04",
+    "title": "Musei Capitolini: Camillo",
+    "url": "https://www.museicapitolini.org/it/opera/camillo?tema=1",
+    "kind": "museum_record",
+    "checked": "2026-11-08",
+    "supports": "MC1184；公元1世纪；高141厘米。",
+    "limits": ""
+  },
+  {
+    "id": "S05",
+    "title": "Capitoline catalogue: Camillus",
+    "url": "https://capitolini.info/scu01184/",
+    "kind": "museum_catalogue",
+    "checked": "2026-11-08",
+    "supports": "仪式侍童解释、银眼与铜制衣饰细节、历来不同身份解释。",
+    "limits": "网页细分年代的括号有不协调之处；本站采用较稳妥的公元1世纪。"
+  },
+  {
+    "id": "S06",
+    "title": "Musei Capitolini: Lupa Capitolina",
+    "url": "https://www.museicapitolini.org/it/opera/lupa-capitolina",
+    "kind": "museum_record",
+    "checked": "2026-11-08",
+    "supports": "MC1181；馆方保留传统公元前5世纪归属，双胞胎为后加。",
+    "limits": "该页不能代表断代争论已经解决。"
+  },
+  {
+    "id": "S07",
+    "title": "Capitoline catalogue: She-wolf dating debate",
+    "url": "https://capitolini.info/scu01181/?lang=en",
+    "kind": "museum_catalogue",
+    "checked": "2026-11-08",
+    "supports": "馆方研究目录同时说明传统古代说、碳14中世纪说与反对意见。",
+    "limits": "检索摘要可读；直接打开曾返回502。"
+  },
+  {
+    "id": "S08",
+    "title": "Calcagnile et al. 2019: Radiocarbon dating the Capitoline she wolf",
+    "url": "https://doi.org/10.1016/j.nimb.2019.01.008",
+    "kind": "research_article",
+    "checked": "2026-11-08",
+    "supports": "铸芯有机残留的AMS年代研究。",
+    "limits": "本轮核对摘要及作者机构书目，未取得出版商全文；具体校正区间不在本包独立复算。"
+  },
+  {
+    "id": "S09",
+    "title": "Clemenza et al. 2025: Geochemical and Pb isotopic constraints on the provenance of the Lupa Capitolina bronze statue",
+    "url": "https://doi.org/10.1007/s12520-025-02176-9",
+    "kind": "research_article",
+    "checked": "2026-11-08",
+    "supports": "开放全文；讨论11–12世纪年代背景及铅同位素与微量元素证据。",
+    "limits": "本研究不是一次新的碳14测年；不要把其引述前人测年的结论说成2025年新测定。"
+  },
+  {
+    "id": "S10",
+    "title": "Capitoline Museums: 2007 restoration of the Vicolo delle Palme horse",
+    "url": "https://www.museicapitolini.org/it/mostra-evento/presentazione-del-restauro-del-cavallo-di-vicolo-delle-palme-v-sec-ac",
+    "kind": "museum_event",
+    "checked": "2026-11-08",
+    "supports": "铜马身份、古典期归属及2007年修复展示。",
+    "limits": "网页正文较简略，细节以用户1976展牌为主要证据。"
+  },
+  {
+    "id": "S11",
+    "title": "Italian public institution: presentation of restored horse",
+    "url": "https://www.unire.gov.it/index.php/ita/News-Assi?article_id=1928",
+    "kind": "institutional_release",
+    "checked": "2026-11-08",
+    "supports": "铜马骑手接合开口、1849出土及修复背景。",
+    "limits": "旧活动公告不用于判断2026在展状态。"
+  },
+  {
+    "id": "S12",
+    "title": "Musei Capitolini: Marcus Aurelius",
+    "url": "https://www.museicapitolini.org/it/opera/statua-equestre-di-marco-aurelio?tema=1",
+    "kind": "museum_record",
+    "checked": "2026-11-08",
+    "supports": "MC3247；目录161–180年，正文提出176年或180年；骑马纪念像。",
+    "limits": ""
+  },
+  {
+    "id": "S13",
+    "title": "Capitoline catalogue: Marcus Aurelius",
+    "url": "https://capitolini.info/scu03247/",
+    "kind": "museum_catalogue",
+    "checked": "2026-11-08",
+    "supports": "adlocutio手势、室内原件及收藏史。",
+    "limits": "“误认君士坦丁而幸存”作为传统解释表述，不能验证为唯一保存原因。"
+  },
+  {
+    "id": "S14",
+    "title": "Capitoline catalogue: bronze Constantine head",
+    "url": "https://museicapitolini.comune.roma.it/assetdet/2241",
+    "kind": "museum_catalogue",
+    "checked": "2026-11-08",
+    "supports": "头部MC1072；现代颈部、与手球可能并非同一铜像的技术差异。",
+    "limits": ""
+  },
+  {
+    "id": "S15",
+    "title": "Musei Capitolini: Great Bronzes",
+    "url": "https://museicapitolini.org/en/percorso/grandi-bronzi",
+    "kind": "museum_collection",
+    "checked": "2026-11-08",
+    "supports": "头MC1072、左手MC1070、球MC1065及卡比托利欧其他铜像编号。",
+    "limits": ""
+  },
+  {
+    "id": "S16",
+    "title": "Museo Nazionale Romano: I bronzi, gli avori",
+    "url": "https://museonazionaleromano.it/palazzo-massimo/i-bronzi-gli-avori/",
+    "kind": "museum_collection",
+    "checked": "2026-11-08",
+    "supports": "拳击手红铜伤口、王子像身份解释、尼米船饰与官方图片。",
+    "limits": "总览不提供尼米两组器物的馆藏号。"
+  },
+  {
+    "id": "S17",
+    "title": "Museo Nazionale Romano: La sconfitta dell’atleta / L’umanità dell’eroe",
+    "url": "https://museonazionaleromano.it/mostra_umano-troppo-umano/eroe-sconfitta-umanita/",
+    "kind": "museum_essay",
+    "checked": "2026-11-08",
+    "supports": "1055；采用公元前1世纪前半叶的年代观点及1885发现。",
+    "limits": "须与用户展牌的公元前2–1世纪及其他官方宽断代并列。"
+  },
+  {
+    "id": "S18",
+    "title": "MNR: Il Pugile e la Vittoria, 2023 press release",
+    "url": "https://museonazionaleromano.beniculturali.it/sito/wp-content/uploads/2023/05/1.-Comunicato-Stampa-Il-Pugile-e-la-Vittoria_28.064318.pdf",
+    "kind": "museum_publication",
+    "checked": "2026-11-08",
+    "supports": "拳击手公元前4–1世纪的争议范围；分铸、嵌色与补片。",
+    "limits": "年代宽范围说明学界分歧，不据此把各时期等量当作确定选项。"
+  },
+  {
+    "id": "S19",
+    "title": "Italian Ministry of Culture: Medusa from the Nemi ships",
+    "url": "https://cultura.gov.it/articolo/i-mostri-e-le-creature-fantastiche-la-campagna-social-di-marzo",
+    "kind": "ministry_publication",
+    "checked": "2026-11-08",
+    "supports": "马西莫宫尼米船美杜莎，37–41年。",
+    "limits": ""
+  },
+  {
+    "id": "S20",
+    "title": "INASA photographic archive: Nemi Medusa",
+    "url": "https://www.inasaroma.org/ricerca/fondo-navi-di-nemi-homepage/bronzi/nemi-30362/",
+    "kind": "research_archive",
+    "checked": "2026-11-08",
+    "supports": "第一艘船美杜莎梁端装饰，1895年10月15日发现的历史图像记录。",
+    "limits": "30362是档案照片编号，不是雕塑馆藏号。"
+  },
+  {
+    "id": "S21",
+    "title": "INASA photographic archive: Nemi hand and forearm",
+    "url": "https://www.inasaroma.org/ricerca/fondo-navi-di-nemi-homepage/bronzi/nemi-34223/",
+    "kind": "research_archive",
+    "checked": "2026-11-08",
+    "supports": "第二艘船梁端金属包套与辟邪手臂装饰。",
+    "limits": "34223是档案照片编号，不是器物馆藏号。"
+  },
+  {
+    "id": "S22",
+    "title": "Vatican Museums: Hercules Mastai",
+    "url": "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/museo-pio-clementino/sala-rotonda/eracle.html",
+    "kind": "museum_record",
+    "checked": "2026-11-08",
+    "supports": "圆厅鎏金青铜赫拉克勒斯，1864发现、雷击仪式埋藏、棍棒狮皮金苹果，1世纪末至3世纪初的宽断代。",
+    "limits": ""
+  },
+  {
+    "id": "S23",
+    "title": "Patrons of the Arts in the Vatican Museums: Hercules Mastai restoration",
+    "url": "https://www.patronsvaticanmuseums.org/restoration/projects/hercules-mastai",
+    "kind": "museum_restoration",
+    "checked": "2026-11-08",
+    "supports": "项目登记号252，高383厘米；19世纪石膏补配及后续修复记录。",
+    "limits": "号252注明来自馆方修复赞助项目页；主馆简介未列编号；项目标题用II–III世纪，正文仍保留更宽年代。"
+  },
+  {
+    "id": "S24",
+    "title": "Vatican Museums: Hercules Mastai study day, 3 December 2024",
+    "url": "https://www.museivaticani.va/content/museivaticani/it/eventi-e-novita/iniziative/Eventi/2024/ercole-mastai-giornata-studio.html",
+    "kind": "museum_event",
+    "checked": "2026-11-08",
+    "supports": "2024修复研究会议，说明已有新近研究。",
+    "limits": "网页把“罗马时代”与390–370 BCE并置，显然混入原型年代；不能把该数值当作现存铜像制作年代。"
+  },
+  {
+    "id": "S25",
+    "title": "Cleveland Museum of Art: The Cleveland Apollo",
+    "url": "https://www.clevelandart.org/art/2004.30",
+    "kind": "museum_record",
+    "checked": "2026-11-08",
+    "supports": "2004.30；公元前350–200年；Praxiteles或追随者归属、题材解释与组合残件。",
+    "limits": "本轮官网Not on view，仅为2026-11-08查询状态，不改变用户实见记录。"
+  },
+  {
+    "id": "S26",
+    "title": "Cleveland Museum of Art: Apollo technical details",
+    "url": "https://www.clevelandart.org/print/art/2004.30.a",
+    "kind": "museum_record",
+    "checked": "2026-11-08",
+    "supports": "薄壁、间接失蜡、分铸焊接、铜嵌饰、古代石眼与现代补眼。",
+    "limits": ""
+  },
+  {
+    "id": "S27",
+    "title": "Walters Art Museum: Statue of a Boy",
+    "url": "https://art.thewalters.org/object/23.71/",
+    "kind": "museum_record",
+    "checked": "2026-11-08",
+    "supports": "23.71；当前公元1世纪；尺寸、灯架或园林用途推测。",
+    "limits": "用户展牌写公元前1世纪，与现官网不一致。"
+  },
+  {
+    "id": "S28",
+    "title": "Kimbell Art Museum: Head of an Athlete (Apoxyomenos)",
+    "url": "https://kimbellart.org/collection/ap-200003-ab",
+    "kind": "museum_record",
+    "checked": "2026-11-08",
+    "supports": "AP2000.03a,b；公元前2–1世纪；Lysippos类型关系与2000年入藏。",
+    "limits": "网页Artist字段的365–310 BCE是原型作者生卒年代，不能当作此头像年代。"
+  },
+  {
+    "id": "S29",
+    "title": "Getty: Large-Scale Bronzes from Antiquity",
+    "url": "https://www.getty.edu/projects/large-scale-bronzes-from-antiquity/",
+    "kind": "museum_research",
+    "checked": "2026-11-08",
+    "supports": "大型铜像的回收、偶然保存与研究框架。",
+    "limits": "不把大型铜像估数推广到所有古代青铜小像、残片与器物。"
+  },
+  {
+    "id": "S30",
+    "title": "Met: Roman Copies of Greek Statues",
+    "url": "https://www.metmuseum.org/essays/roman-copies-of-greek-statues",
+    "kind": "museum_essay",
+    "checked": "2026-11-08",
+    "supports": "罗马复制、改作、传播与青铜/大理石转换。",
+    "limits": ""
+  },
+  {
+    "id": "S31",
+    "title": "Getty: A Brief Introduction to Bronze Sculpture of the Hellenistic World",
+    "url": "https://www.getty.edu/news/a-brief-introduction-to-bronze-sculpture-of-the-hellenistic-world/",
+    "kind": "museum_essay",
+    "checked": "2026-11-08",
+    "supports": "青铜表面、其他材质嵌饰与动态。",
+    "limits": ""
+  },
+  {
+    "id": "S32",
+    "title": "Met: Technique of Bronze Statuary in Ancient Greece",
+    "url": "https://www.metmuseum.org/essays/the-technique-of-bronze-statuary-in-ancient-greece",
+    "kind": "museum_essay",
+    "checked": "2026-11-08",
+    "supports": "失蜡、分件浇铸及古代技术背景。",
+    "limits": ""
+  },
+  {
+    "id": "S33",
+    "title": "卡比托利欧博物馆：君士坦丁青铜巨像头像，MC1072",
+    "url": "https://www.museicapitolini.org/en/opera/statua-colossale-bronzea-di-costantino-testa?tema=1",
+    "kind": "official_record",
+    "checked": "2026-11-08"
+  }
+]
