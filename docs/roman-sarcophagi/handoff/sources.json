@@ -1,0 +1,322 @@
+[
+  {
+    "id": "S01",
+    "title": "托洛尼亚 MT424 正式条目",
+    "url": "https://www.museotorlonia.org/torlonia-collection/sarcophagus-centurion-lucius-pullius-peregrinus",
+    "kind": "收藏方对象目录",
+    "access": "全文",
+    "checked": "2026-11-08",
+    "supports": "r01身份、编号、240–250年、夫妇知识者形象、未完成妻子肖像",
+    "limitations": "条目中的精确年龄及年代与皇帝风格比较未作独立铭文核查，不写入正文。"
+  },
+  {
+    "id": "S02",
+    "title": "托洛尼亚 MT422 正式条目",
+    "url": "https://www.museotorlonia.org/torlonia-collection/sarcofago-con-coperchio-e-decorato-con-fatiche-di-ercole",
+    "kind": "收藏方对象目录",
+    "access": "全文及馆方图像目视比对",
+    "checked": "2026-11-08",
+    "supports": "r02编号、功业题材、Via Latina Roma Vecchia来源",
+    "limitations": "目录日期只写帝国时代，160–170年来自用户现场展牌。"
+  },
+  {
+    "id": "S03",
+    "title": "托洛尼亚 MT416 正式条目",
+    "url": "https://www.museotorlonia.org/torlonia-collection/sarcophagus-indian-triumph-od-dionysus",
+    "kind": "收藏方对象目录",
+    "access": "全文",
+    "checked": "2026-11-08",
+    "supports": "r03编号、塔索斯大理石、2世纪后半叶类型、构图、卡瓦切皮旧藏",
+    "limitations": "右车女性身份为塞墨勒或阿里阿德涅，展牌只采用后者。"
+  },
+  {
+    "id": "S04",
+    "title": "托洛尼亚 MT395 正式条目",
+    "url": "https://www.museotorlonia.org/torlonia-collection/sarcophagus-processus-consularis",
+    "kind": "收藏方对象目录",
+    "access": "全文",
+    "checked": "2026-11-08",
+    "supports": "r04编号、250–260年、夫妇行列、维纳斯、椭圆盆式、修复",
+    "limitations": "来源字段Via Ardeatina与正文泛称Via Appia附近有表述差异，采用现场展牌和字段，勿虚构精确墓址。"
+  },
+  {
+    "id": "S05",
+    "title": "卢浮宫 托洛尼亚展览",
+    "url": "https://www.louvre.fr/agenda/expositions/chefs-d-oeuvre-de-la-collection-torlonia",
+    "kind": "馆方展览页",
+    "access": "检索摘要",
+    "checked": "2026-11-08",
+    "supports": "2024-06-26至2025-01-06、卢浮宫安娜王后套间展陈",
+    "limitations": "支持照片展览背景吻合，不能据此推算用户参观日期。"
+  },
+  {
+    "id": "S06",
+    "title": "卢浮宫 Ma2120 正式目录",
+    "url": "https://collections.louvre.fr/ark:/53355/cl010276118",
+    "kind": "馆方对象目录",
+    "access": "全文",
+    "checked": "2026-11-08",
+    "supports": "r05年代、阿提卡制作、尺寸、修复与重刻记录",
+    "limitations": "大理石具体产地带问号，不能把疑问省略。"
+  },
+  {
+    "id": "S07",
+    "title": "卢浮宫 Ma539 正式目录",
+    "url": "https://collections.louvre.fr/ark:/53355/cl010278818",
+    "kind": "馆方对象目录",
+    "access": "全文",
+    "checked": "2026-11-08",
+    "supports": "r06约180年、罗马制作、红色痕迹、情节、1807收购",
+    "limitations": "现行页面写未展出，用户拍摄时曾展出，两者并存。"
+  },
+  {
+    "id": "S08",
+    "title": "马西莫宫馆藏图录作者学术履历",
+    "url": "https://directory.uniroma2.it/index.php/schede/getCV/324",
+    "kind": "大学作者记录",
+    "access": "检索结果中图录条目",
+    "checked": "2026-11-08",
+    "supports": "r07/r08/r09对应马西莫宫目录252/253/251",
+    "limitations": "目录条目号不是馆藏号，全文图录未读取。"
+  },
+  {
+    "id": "S09",
+    "title": "马泰伊缪斯石棺图像文献",
+    "url": "https://ancientrome.ru/art/artworken/img.htm?id=9570",
+    "kind": "图像文献索引",
+    "access": "检索摘要",
+    "checked": "2026-11-08",
+    "supports": "r07马西莫宫、缪斯图像",
+    "limitations": "不作为任意人物位置的唯一证据。"
+  },
+  {
+    "id": "S10",
+    "title": "Kathleen W. Christian, The Multiplicity of the Muses",
+    "url": "https://www.researchgate.net/publication/360654257_The_Multiplicity_of_the_Muses_The_Reception_of_Antique_Images_of_the_Muses_in_Italy_1400-1600",
+    "kind": "学术研究",
+    "access": "可检索正文片段及脚注",
+    "checked": "2026-11-08",
+    "supports": "r07馆藏号80711；Micheli 1985图录条目页51–57",
+    "limitations": "未通读整篇，不称已全面核对文艺复兴接受史。"
+  },
+  {
+    "id": "S11",
+    "title": "Siotto等，彩绘与贴金数字文献研究，2015",
+    "url": "https://vcgdata.isti.cnr.it/publication/2015/SPPS15/",
+    "kind": "CNR研究团队论文页",
+    "access": "作者页摘要",
+    "checked": "2026-11-08",
+    "supports": "r08馆藏号40799、马西莫宫、作为多光谱/3D彩绘研究对象",
+    "limitations": "PDF访问失败，仅摘要已读。"
+  },
+  {
+    "id": "S12",
+    "title": "Identification of gilding techniques on Roman marble sarcophagi",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S1296207418304679",
+    "kind": "同行评议技术论文",
+    "access": "摘要与可访问的结果段落",
+    "checked": "2026-11-08",
+    "supports": "r08金层和红蓝痕迹研究",
+    "limitations": "未通读全文，不提供确定全体彩绘复原。"
+  },
+  {
+    "id": "S13",
+    "title": "Marcus Claudianus，NASSCAL对象条目",
+    "url": "https://www.nasscal.com/materiae-apocryphorum/sarcophagus-of-marcus-claudianus/",
+    "kind": "学术学会目录",
+    "access": "全文",
+    "checked": "2026-11-08",
+    "supports": "r10馆址、455、330–335年、1884发现、棺身与棺盖内容",
+    "limitations": "尺寸单位与铭文解释有明显疑点，不引用其尺寸或日历换算。不能说4世纪图像直接改编自成书更晚的伪马太福音。"
+  },
+  {
+    "id": "S14",
+    "title": "罗马国家博物馆 近看波尔托纳乔",
+    "url": "https://museonazionaleromano.it/eventi/il-museo-ti-racconta/",
+    "kind": "馆方活动页",
+    "access": "全文",
+    "checked": "2026-11-08",
+    "supports": "r11为馆方重点作品",
+    "limitations": "不是完整藏品对象页。"
+  },
+  {
+    "id": "S15",
+    "title": "Zahra Newby, In the guise of gods and heroes，2011",
+    "url": "https://wrap.warwick.ac.uk/id/eprint/40723/",
+    "kind": "作者大学机构库",
+    "access": "书目信息；开放章的相关正文检索片段",
+    "checked": "2026-11-08",
+    "supports": "r11 112327、未完成肖像、理想化军事形象、Musso图录出处",
+    "limitations": "相关章pp.215–216核对片段，未通读整章。全文入口 https://uplopen.com/chapters/4719/files/a00a966c-e1ba-43e1-984e-a5274d9c9bca.pdf"
+  },
+  {
+    "id": "S16",
+    "title": "波尔托纳乔图像文献",
+    "url": "https://ancientrome.ru/art/artworken/img.htm?id=4752",
+    "kind": "图像文献索引",
+    "access": "检索摘要",
+    "checked": "2026-11-08",
+    "supports": "r11发现于1931、Via delle Cave di Pietralata、馆址及编号",
+    "limitations": "具体将军身份为假说，不采用网络常见姓名作定论。"
+  },
+  {
+    "id": "S17",
+    "title": "圣海伦娜石棺，梵蒂冈官网",
+    "url": "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/museo-pio-clementino/sala-a-croce-greca/sarcofago-di-s--elena.html",
+    "kind": "馆方对象介绍",
+    "access": "全文",
+    "checked": "2026-11-08",
+    "supports": "r12紫斑岩、军事题材、1777入梵蒂冈与修复",
+    "limitations": "官网海伦娜约335年去世与常见历史年代有差异，专题不作卒年定论。原委托君士坦丁等为推测。"
+  },
+  {
+    "id": "S18",
+    "title": "梵蒂冈933，图像与目录摘录",
+    "url": "https://ancientrome.ru/art/artworken/img.htm?id=5464",
+    "kind": "图像文献及旧目录摘录",
+    "access": "全文；参考照片与用户1930/1931目视比对",
+    "checked": "2026-11-08",
+    "supports": "r13约230–250年、933棺身、932非原配棺盖、阿喀琉斯与彭忒西勒亚",
+    "limitations": "尚无馆方可访问对象页。文献定位Amelung II p120 no49 pl13。"
+  },
+  {
+    "id": "S19",
+    "title": "梵蒂冈932，铭文棺盖与旧目录",
+    "url": "https://ancientrome.ru/art/artworken/img.htm?id=5471",
+    "kind": "旧目录摘录与铭文文献索引",
+    "access": "全文",
+    "checked": "2026-11-08",
+    "supports": "r13附属展示对象932，3世纪，CIL VI10742，Amelung1908 p126 no49a明确不配套",
+    "limitations": "拉丁姓名缩写、子女人数在两个摘录解释有差异，不作完整释文重译。只说明Myron为家人立墓。"
+  },
+  {
+    "id": "S20",
+    "title": "达拉斯馆提供的 Battle sarcophagus",
+    "url": "https://artsandculture.google.com/asset/battle-sarcophagus/0QF5BZ1HA4uQQQ?hl=en",
+    "kind": "馆方供稿平台",
+    "access": "全文",
+    "checked": "2026-11-08",
+    "supports": "r14约190年、尺寸、战争图像与帕加马传统关系",
+    "limitations": "罗马将军与多瑙河战争联系为馆方推测。主体不标具体战役。"
+  },
+  {
+    "id": "S21",
+    "title": "纳尔逊87-21正式目录",
+    "url": "https://art.nelson-atkins.org/objects/18921/muse-sarcophagus",
+    "kind": "馆方对象目录",
+    "access": "全文",
+    "checked": "2026-11-08",
+    "supports": "r15约240–260年、人物配置、尺寸、1872发现与1987购入",
+    "limitations": "正文与旧展牌对缪斯职掌的措辞不完全一致，只用稳定属性作识别。"
+  },
+  {
+    "id": "S22",
+    "title": "纳尔逊33-38正式目录",
+    "url": "https://art.nelson-atkins.org/objects/28562/sarcophagus",
+    "kind": "馆方对象目录",
+    "access": "全文",
+    "checked": "2026-11-08",
+    "supports": "r16现行150–180年、卡拉拉大理石、1933购入",
+    "limitations": "现场旧展牌为2世纪中期，并列保留。"
+  },
+  {
+    "id": "S23",
+    "title": "克利夫兰俄瑞斯忒斯石棺棺身",
+    "url": "https://www.clevelandart.org/art/1928.856.a",
+    "kind": "馆方对象目录",
+    "access": "全文",
+    "checked": "2026-11-08",
+    "supports": "r17 100–125年、三次出现的俄瑞斯忒斯、四季棺盖",
+    "limitations": "棺身与盖另号1928.856.a/.b，数字不是年代。"
+  },
+  {
+    "id": "S24",
+    "title": "沃尔特斯23.37正式目录",
+    "url": "https://art.thewalters.org/object/23.37/",
+    "kind": "馆方对象目录",
+    "access": "全文",
+    "checked": "2026-11-08",
+    "supports": "r18年代、普罗孔尼索斯石材、后配盖、1902购入",
+    "limitations": "卧女身边人物馆方识为Thanatos，保留馆方归属，不把泛称睡眠神混用。"
+  },
+  {
+    "id": "S25",
+    "title": "沃尔特斯23.31正式目录",
+    "url": "https://art.thewalters.org/object/23.31/",
+    "kind": "馆方对象目录",
+    "access": "全文",
+    "checked": "2026-11-08",
+    "supports": "r19约190、塔索斯石材、动物、棺盖、1902购入",
+    "limitations": "网页发现地字段与来源叙述措辞不一，出土地不做精确地图点。"
+  },
+  {
+    "id": "S26",
+    "title": "MFAH酒神前板56084",
+    "url": "https://emuseum.mfah.org/objects/56084/sarcophagus-panel-with-the-indian-triumph-of-dionysus",
+    "kind": "馆方对象目录",
+    "access": "搜索返回完整对象条目；直开403",
+    "checked": "2026-11-08",
+    "supports": "r20 2003.53.1、180–195年、尺寸、图像、收藏来源",
+    "limitations": "侧板2003.53.2关系依现场1952展牌，未另得独立在线条目。"
+  },
+  {
+    "id": "S27",
+    "title": "MFAH亚马逊石棺74957",
+    "url": "https://emuseum.mfah.org/fr/objects/74957/sarcophagus-depicting-a-battle-between-soldiers-and-amazons",
+    "kind": "馆方对象目录",
+    "access": "搜索对象信息及来源段；直开403",
+    "checked": "2026-11-08",
+    "supports": "r21 2006.35.A,.B、140–170年、2006购入",
+    "limitations": "来源早段为馆方报告的收藏史，没有出土记录，不推断古代墓址。"
+  },
+  {
+    "id": "S28",
+    "title": "MFAH墨勒阿格洛斯前板3554",
+    "url": "https://emuseum.mfah.org/objects/3554/sarcophagus-front-the-return-of-the-body-of-meleager-to-kal",
+    "kind": "馆方对象目录",
+    "access": "搜索返回完整对象条目；直开403",
+    "checked": "2026-11-08",
+    "supports": "r22 76.228、220–230年、尺寸、1976入藏",
+    "limitations": "图像细节基础仍是照片及展牌。"
+  },
+  {
+    "id": "S29",
+    "title": "Heather T. Awan，Roman Sarcophagi，2007",
+    "url": "https://www.metmuseum.org/essays/roman-sarcophagi",
+    "kind": "博物馆研究文章",
+    "access": "全文",
+    "checked": "2026-11-08",
+    "supports": "总体葬俗、生产与贸易、形制和解释多义性",
+    "limitations": "通论不能直接证明某一件的产地或墓主信仰。"
+  },
+  {
+    "id": "S30",
+    "title": "Anna Marguerite McCann，Roman Sarcophagi in The Metropolitan Museum of Art，1978",
+    "url": "https://www.metmuseum.org/ja/met-publications/roman-sarcophagi-in-the-metropolitan-museum-of-art",
+    "kind": "馆方出版物",
+    "access": "书目信息与可检索片段",
+    "checked": "2026-11-08",
+    "supports": "进一步阅读",
+    "limitations": "本轮PDF下载所得为防爬页面，未通读该书，不能据此写精确引文。"
+  },
+  {
+    "id": "S31",
+    "title": "梵蒂冈914 参考照片及对象说明",
+    "url": "https://commons.wikimedia.org/wiki/File:26-_Fronte_di_sarcofago_con_porta_dell%27Ade,_coppia_dei_defunti_e_Muse,_met%C3%A0_del_III_sec._d.C.jpg",
+    "kind": "参考图像档案，辅以学术文献S10脚注107",
+    "access": "图像说明与S10可检索学术脚注；用户照片上方浮雕构图和914标记核对",
+    "checked": "2026-11-08",
+    "supports": "中央门扉、夫妇与缪斯前板，914编号，3世纪中期的图像档案定年",
+    "limitations": "未得馆方对象页。具体年代只由图像档案给出，须注明；S10确认梵蒂冈914属缪斯相关石棺，不能视作全部元数据均经其确认。"
+  },
+  {
+    "id": "S32",
+    "title": "Eliana Siotto，2019贴金论文 CNR机构库",
+    "url": "https://iris.cnr.it/handle/20.500.14243/363191",
+    "kind": "作者研究机构书目与摘要",
+    "access": "检索书目信息及摘要",
+    "checked": "2026-11-08",
+    "supports": "S12作者Eliana Siotto；Journal of Cultural Heritage 38 (2019),186–194，DOI10.1016/j.culher.2018.11.017",
+    "limitations": "未通读全文。"
+  }
+]

@@ -1,0 +1,880 @@
+{
+  "checked": "2026-11-08",
+  "scope": "17个非核心对象的补充文字与核查；观看描述来自用户自拍，文献事实依逐项所列来源。",
+  "objects": [
+    {
+      "id": "r01",
+      "lead": "军人的纪念形象，也可以是一位展卷而坐的读书人。",
+      "sections": [
+        {
+          "title": "卷轴旁的夫妻",
+          "paragraphs": [
+            "正面中央的男子坐着展开卷轴，站立的妻子朝向他。周围人物或坐或立，披衣垂下长褶，头发与胡须的深凿留出暗影。托洛尼亚目录把丈夫放进希腊贤者的行列，把妻子解释为缪斯；军职之外，文化修养也成为纪念他的方式。"
+          ],
+          "source_ids": [
+            "S01"
+          ]
+        },
+        {
+          "title": "尚未刻出的肖像",
+          "paragraphs": [
+            "丈夫的面貌已经刻出，妻子的脸却仍留在尚未完成肖像的阶段。这个差别比一排人物的相似衣着更值得停留：预先安排的神话形象，与后来需要加入的个人面容，在同一件作品上相遇。收藏方将石棺定于240—250年，并提醒棺盖可能原属另一口棺。"
+          ],
+          "source_ids": [
+            "S01"
+          ]
+        }
+      ],
+      "notes": [
+        "收藏归属为托洛尼亚；自拍地点为卢浮宫。卢浮宫托洛尼亚展期为2024年6月26日至2025年1月6日，具体参观日期未记录。",
+        "现场展牌写3世纪中期，现行收藏目录细定240—250年。"
+      ],
+      "verified_metadata": {
+        "title_en": "The Sarcophagus of Centurion Lucius Pullius Peregrinus",
+        "material": "白色及普罗孔尼索斯大理石",
+        "findspot": "拉丁大道附近；收藏方认为可能在昆蒂利别墅一带"
+      },
+      "photo_captions": {
+        "1902": "正面全景：中央展卷的男子、妻子与周围坐立人物",
+        "1903": "卢浮宫现场展牌"
+      },
+      "source_ids": [
+        "S01",
+        "S05"
+      ],
+      "sources_checked": [
+        {
+          "id": "S01",
+          "url": "https://www.museotorlonia.org/torlonia-collection/sarcophagus-centurion-lucius-pullius-peregrinus",
+          "access": "正文与元数据直接阅读",
+          "checked": "2026-11-08"
+        },
+        {
+          "id": "S05",
+          "url": "https://www.louvre.fr/agenda/expositions/chefs-d-oeuvre-de-la-collection-torlonia",
+          "access": "展览页全文直接阅读",
+          "checked": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "r02",
+      "lead": "同一个英雄反复出现，一整面石棺便容纳了多次考验。",
+      "sections": [
+        {
+          "title": "先找动物，再追踪英雄",
+          "paragraphs": [
+            "狮身、缠绕的怪物和被举起的动物，打断了立像似的重复节奏。赫拉克勒斯的身体一时弯曲，一时张开手臂，不同动作把连续的功业排在同一石面上。收藏方辨认出涅墨亚狮子、勒耳那九头蛇等题材，并指出英雄的身影还延续到两侧与棺盖。"
+          ],
+          "source_ids": [
+            "S02"
+          ]
+        },
+        {
+          "title": "以功业纪念一个人",
+          "paragraphs": [
+            "这些故事给亡者提供的是经受考验、获得荣耀的英雄范型。现场展牌记载，这件塔索斯大理石石棺于1830年在托洛尼亚家族的拉丁大道发掘中发现。今天在卢浮宫相遇的仍是托洛尼亚藏品。"
+          ],
+          "source_ids": [
+            "S02",
+            "S05"
+          ]
+        }
+      ],
+      "notes": [
+        "160—170年、塔索斯大理石及1830年发现，依据现场展牌1905；收藏方线上目录仅概称帝国时代、白色大理石。"
+      ],
+      "verified_metadata": {
+        "title_en": "Sarcophagus with lid and decorated with the Labours of Hercules",
+        "material": "塔索斯大理石（现场展牌）；官网概称白色大理石",
+        "findspot": "拉丁大道Roma Vecchia地块，塞特巴西别墅附近（展牌）"
+      },
+      "photo_captions": {
+        "1904": "棺身与棺盖：不同功业中的英雄反复出现",
+        "1905": "卢浮宫现场展牌"
+      },
+      "source_ids": [
+        "S02",
+        "S05"
+      ],
+      "sources_checked": [
+        {
+          "id": "S02",
+          "url": "https://www.museotorlonia.org/torlonia-collection/sarcofago-con-coperchio-e-decorato-con-fatiche-di-ercole",
+          "access": "正文与元数据直接阅读",
+          "checked": "2026-11-08"
+        },
+        {
+          "id": "S05",
+          "url": "https://www.louvre.fr/agenda/expositions/chefs-d-oeuvre-de-la-collection-torlonia",
+          "access": "展览页直接阅读",
+          "checked": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "r03",
+      "lead": "酒神的凯旋被组织成近乎对称的图像，中心却留给了胜利的标志。",
+      "sections": [
+        {
+          "title": "两辆车围住一个圆章",
+          "paragraphs": [
+            "中央两位有翼胜利女神举起带戈尔贡头像的盾形圆章，两侧的车辆和随从向它靠拢。收藏方将左车主角识为狄俄尼索斯，右车女性则可能是塞墨勒或阿里阿德涅。照片里，圆章与伸展的翅膀先建立秩序，密集的肢体和动物才在两旁展开。"
+          ],
+          "source_ids": [
+            "S03"
+          ]
+        },
+        {
+          "title": "神话与胜利的形式",
+          "paragraphs": [
+            "与休斯顿前板上舒展的斜倚酒神相比，这里更强调成对的车辆和中央徽记。收藏方将这种布局联系到罗马胜利图像的惯例，并把石棺归入2世纪后半叶的类型。作品曾在雕刻家卡瓦切皮的收藏中；此前的流传尚缺可靠记录。"
+          ],
+          "source_ids": [
+            "S03"
+          ]
+        }
+      ],
+      "notes": [
+        "现场展牌采用阿里阿德涅的解释；收藏方现行条目保留塞墨勒或阿里阿德涅两种可能。"
+      ],
+      "verified_metadata": {
+        "title_en": "Sarcophagus with the Indian Triumph of Dionysus",
+        "material": "塔索斯大理石"
+      },
+      "photo_captions": {
+        "1906": "正面：中央盾形圆章、胜利女神与两侧车辆",
+        "1907": "卢浮宫现场展牌"
+      },
+      "source_ids": [
+        "S03",
+        "S05"
+      ],
+      "sources_checked": [
+        {
+          "id": "S03",
+          "url": "https://www.museotorlonia.org/torlonia-collection/sarcophagus-indian-triumph-od-dionysus",
+          "access": "正文与元数据直接阅读",
+          "checked": "2026-11-08"
+        },
+        {
+          "id": "S05",
+          "url": "https://www.louvre.fr/agenda/expositions/chefs-d-oeuvre-de-la-collection-torlonia",
+          "access": "展览页直接阅读",
+          "checked": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "r04",
+      "lead": "夫妇的并立与随行者的行列，将家庭纪念和公共身份接在一起。",
+      "sections": [
+        {
+          "title": "人物沿着曲面转过去",
+          "paragraphs": [
+            "中央人物的长衣垂到脚边，两侧随从转身、靠近，浮雕从正面延伸到圆弧形转角。盆式棺身没有生硬的直角，站立人物因此像一支环绕器身的队伍。收藏方将其解释为官员与妻子的荣誉行列，并识别出护佑婚姻的维纳斯。"
+          ],
+          "source_ids": [
+            "S04"
+          ]
+        },
+        {
+          "title": "今天看见的完整形态",
+          "paragraphs": [
+            "衣着、人物位置与陪伴者共同表达墓主的身份。它的保存又经历了另一段变化：收藏方记载，原来单块雕成的棺身曾被锯成石板，缺失的背面后来补配。今天的围合形态，包含古代雕刻与后来的组装。"
+          ],
+          "source_ids": [
+            "S04"
+          ]
+        }
+      ],
+      "notes": [
+        "250—260年见收藏方正文及现场展牌。收藏方来源字段与展牌记Via Ardeatina，正文另泛称阿庇亚大道附近；精确墓址未确定。"
+      ],
+      "verified_metadata": {
+        "title_en": "Sarcophagus with Processus Consularis",
+        "material": "白色大理石",
+        "production_place": "可能为小亚细亚（收藏方判断）",
+        "findspot": "Via Ardeatina一带（来源字段及现场展牌）"
+      },
+      "photo_captions": {
+        "1908": "斜向观看盆式棺身：中央夫妇与沿转角延伸的随行人物",
+        "1909": "卢浮宫现场展牌"
+      },
+      "source_ids": [
+        "S04",
+        "S05"
+      ],
+      "sources_checked": [
+        {
+          "id": "S04",
+          "url": "https://www.museotorlonia.org/torlonia-collection/sarcophagus-processus-consularis",
+          "access": "正文与元数据直接阅读",
+          "checked": "2026-11-08"
+        },
+        {
+          "id": "S05",
+          "url": "https://www.louvre.fr/agenda/expositions/chefs-d-oeuvre-de-la-collection-torlonia",
+          "access": "展览页直接阅读",
+          "checked": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "r05",
+      "lead": "阿喀琉斯在女子之间显露英雄身份，强烈的转身让叙事集中到中央。",
+      "sections": [
+        {
+          "title": "从隐匿到拿起武器",
+          "paragraphs": [
+            "阿喀琉斯藏身斯基罗斯宫廷的故事，在正面变成一群被突发动静牵引的人物。中央裸体青年持圆盾，周围女子的身体与衣褶向两侧转开。卢浮宫目录还辨认出两侧的国王与战士；侧面继续表现奏乐及武装场景，同一英雄的经历随着棺身转折。"
+          ],
+          "source_ids": [
+            "S06"
+          ]
+        },
+        {
+          "title": "阿提卡制作，意大利发现",
+          "paragraphs": [
+            "馆方将这件约240年的石棺归为阿提卡制作，发现地则记为意大利。这个区别提醒我们，观看城市、制作地区与后来流传并不重合。目录也记录背面曾被重新雕刻、增添人物，现状保留了后世整理古物的痕迹。"
+          ],
+          "source_ids": [
+            "S06"
+          ]
+        }
+      ],
+      "notes": [
+        "材料主项为大理石；馆方对彭特利科斯石材产地加有问号。背面的人物并非全部保持古代原状。"
+      ],
+      "verified_metadata": {
+        "title_original": "Sarcophage d’Achille à Skyros",
+        "material": "大理石（可能为彭特利科斯大理石）",
+        "production_place": "阿提卡",
+        "findspot": "意大利（馆方目录）"
+      },
+      "photo_captions": {
+        "1910": "正面：中央持盾的阿喀琉斯与两侧人物",
+        "1911": "卢浮宫现场展牌"
+      },
+      "source_ids": [
+        "S06"
+      ],
+      "sources_checked": [
+        {
+          "id": "S06",
+          "url": "https://collections.louvre.fr/ark:/53355/cl010276118",
+          "access": "正文、图像题材清单及修复记录直接阅读",
+          "checked": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "r06",
+      "lead": "先看中央横卧的死者，再看两端：原因、死亡与哀悼被放在同一面石棺上。",
+      "sections": [
+        {
+          "title": "哀悼并不是唯一一幕",
+          "paragraphs": [
+            "中央的墨勒阿格洛斯躺在床上，身旁的人俯身、转头或举起手臂。卢浮宫目录将左侧识为母亲阿尔泰亚把木柴送向火焰，右侧则保留英雄与舅父冲突的场面。它没有照着时间顺序排成连续画格，而是让不同阶段围住死亡的中心。"
+          ],
+          "source_ids": [
+            "S07"
+          ]
+        },
+        {
+          "title": "白色表面之外",
+          "paragraphs": [
+            "靠近看，披衣与身体的浅深关系仍很丰富。馆方还记录火把、衣带、凳子和武器等处的红色颜料残迹；今日石色只保存了古代视觉效果的一部分。这件约180年、在罗马制作的石棺曾属博尔盖塞收藏，1807年购入卢浮宫。"
+          ],
+          "source_ids": [
+            "S07"
+          ]
+        }
+      ],
+      "notes": [
+        "图像人物及颜料位置据卢浮宫目录；现场照片不足以逐处识别所有残色。"
+      ],
+      "verified_metadata": {
+        "title_original": "sarcophage",
+        "material": "大理石",
+        "production_place": "罗马",
+        "findspot": "意大利（馆方目录）"
+      },
+      "photo_captions": {
+        "1912": "正面全景：中央卧床哀悼场景与两端情节",
+        "1913": "卢浮宫现场展牌"
+      },
+      "source_ids": [
+        "S07"
+      ],
+      "sources_checked": [
+        {
+          "id": "S07",
+          "url": "https://collections.louvre.fr/ark:/53355/cl010278818",
+          "access": "正文、图像清单、颜料及入藏记录直接阅读",
+          "checked": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "r07",
+      "lead": "缪斯站在一座小小的柱廊里，各自拥有独立的空间，又共享同一节奏。",
+      "sections": [
+        {
+          "title": "柱子之间的持物",
+          "paragraphs": [
+            "扭转的柱身把正面分为数个单元，拱龛内的人物各自转向，长衣褶线与柱纹相互呼应。两端照片显示，这种建筑框架还延伸到短边。戏剧面具、乐器与卷轴使缪斯的文化职掌成为可观看的物件；残损处则让某些辨认保留空白。"
+          ],
+          "source_ids": [
+            "S09"
+          ]
+        },
+        {
+          "title": "后来的人怎样看它",
+          "paragraphs": [
+            "这件石棺曾属马泰伊收藏。Kathleen W. Christian讨论它在文艺复兴时期的接受：有画家单独摘画持物，也有人更留意头部比例与衣褶。今天再逐格细看，便能理解同一件古物为什么会不断引出不同的问题。"
+          ],
+          "source_ids": [
+            "S10"
+          ]
+        }
+      ],
+      "notes": [
+        "年代280—290年据现场展牌；馆藏号80711由Christian论文注17所引Micheli目录核实。本文直接阅读Christian相关段落与注释，未通读她所引的1985年目录。"
+      ],
+      "verified_metadata": {
+        "title_original": "Sarcofago con le Muse",
+        "material": "大理石（图像文献引馆签）"
+      },
+      "photo_captions": {
+        "1914": "正面柱廊与拱龛中的缪斯",
+        "1915": "一端短边：三个人物与连续的柱廊",
+        "1916": "另一端短边：拱龛下的人物及衣褶",
+        "1917": "马西莫宫现场展牌"
+      },
+      "source_ids": [
+        "S08",
+        "S09",
+        "S10"
+      ],
+      "sources_checked": [
+        {
+          "id": "S08",
+          "url": "https://directory.uniroma2.it/index.php/schede/getCV/324",
+          "access": "作者书目中2013目录条目252直接核对，原目录未读",
+          "checked": "2026-11-08"
+        },
+        {
+          "id": "S09",
+          "url": "https://ancientrome.ru/art/artworken/img.htm?id=9570",
+          "access": "图像档案文字直接阅读",
+          "checked": "2026-11-08"
+        },
+        {
+          "id": "S10",
+          "url": "https://www.researchgate.net/publication/360654257_The_Multiplicity_of_the_Muses_The_Reception_of_Antique_Images_of_the_Muses_in_Italy_1400-1600",
+          "access": "作者上传文相关正文及注17直接阅读；非全文通读",
+          "checked": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "r08",
+      "lead": "握手的夫妻在中央相遇，周围人格化形象把婚姻连向更广阔的公共生活。",
+      "sections": [
+        {
+          "title": "一个手势的中心",
+          "paragraphs": [
+            "中央男女以相握的右手建立联系，两旁人物的身体与持物沿石面展开。现场展牌将他们识为夫妇，并列出港口、粮食供给、和谐、丰饶等人格化形象。手势让家庭关系成为画面的轴线，周围人物则使纪念超出一张简单的夫妻肖像。"
+          ],
+          "source_ids": []
+        },
+        {
+          "title": "石面曾经有颜色",
+          "paragraphs": [
+            "安诺纳石棺也是古代彩绘与贴金研究的案例。Eliana Siotto等人的2015年研究摘要说明，团队在这件40799号石棺上结合多光谱成像、材料分析与三维记录，研究残存颜色及金层。今日浅色石面和阴影形成的效果，不能涵盖它原有的全部表情。"
+          ],
+          "source_ids": [
+            "S11"
+          ]
+        }
+      ],
+      "notes": [
+        "270—280年、罗马拉丁大道来源以及人格化形象题名，依据现场展牌1919。",
+        "2019年贴金论文仅有资料包所记摘要与结果片段；本次未取得全文，不据此制作确定的全体彩绘复原或逐层颜料说明。"
+      ],
+      "verified_metadata": {
+        "title_original": "Sarcofago con coppia di coniugi e personificazioni",
+        "findspot": "罗马拉丁大道（现场展牌）"
+      },
+      "photo_captions": {
+        "1918": "正面全景：相握右手的夫妇与两旁人格化形象",
+        "1919": "马西莫宫现场展牌"
+      },
+      "source_ids": [
+        "S08",
+        "S11",
+        "S12"
+      ],
+      "sources_checked": [
+        {
+          "id": "S08",
+          "url": "https://directory.uniroma2.it/index.php/schede/getCV/324",
+          "access": "作者书目中目录253直接核对，原目录未读",
+          "checked": "2026-11-08"
+        },
+        {
+          "id": "S11",
+          "url": "https://vcgdata.isti.cnr.it/publication/2015/SPPS15/",
+          "access": "作者机构页摘要全文直接阅读",
+          "checked": "2026-11-08"
+        },
+        {
+          "id": "S12",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S1296207418304679",
+          "access": "本次访问403；资料包已读摘要及结果片段",
+          "checked": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "r09",
+      "lead": "中央夫妇安静并立，双子与马匹则把动作留在两端。",
+      "sections": [
+        {
+          "title": "三组拱廊，三种节奏",
+          "paragraphs": [
+            "浅柱与弧形顶部把前板分成三组：中央夫妇的长衣向下垂，两侧男子的身体与马首相邻，膝腿和手臂形成更开张的线条。现场展牌将两端人物识为狄俄斯库里双子。静止的夫妻肖像与神话人物的动作并置，构成这件前板的观看节奏。"
+          ],
+          "source_ids": []
+        },
+        {
+          "title": "保存下来的边界",
+          "paragraphs": [
+            "不规则的上缘、缺失的肢体和残留柱子，使前板的建筑框架显得断续。展牌记240—260年、来自罗马阿庇亚大道；目前可核对到2013年马西莫宫图录第251项的书目信息，具体馆藏号仍未获得。"
+          ],
+          "source_ids": [
+            "S08"
+          ]
+        }
+      ],
+      "notes": [
+        "夫妇姓名尚无可靠记录。馆藏号留空；251是图录条目号。"
+      ],
+      "verified_metadata": {
+        "title_original": "Sarcofago con coppia di coniugi e Dioscuri",
+        "findspot": "罗马阿庇亚大道（现场展牌）"
+      },
+      "photo_captions": {
+        "1920": "三拱前板：中央夫妇与两端双子、马匹",
+        "1921": "马西莫宫现场展牌"
+      },
+      "source_ids": [
+        "S08"
+      ],
+      "sources_checked": [
+        {
+          "id": "S08",
+          "url": "https://directory.uniroma2.it/index.php/schede/getCV/324",
+          "access": "作者书目中目录251及页345直接核对；原条目未读",
+          "checked": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "r10",
+      "lead": "棺身的长列人物中，手势和少量器物把不同的救助故事逐一分开。",
+      "sections": [
+        {
+          "title": "从相似人物中找情节",
+          "paragraphs": [
+            "人物披衣接连排列，中央举起双手的祈祷者与两端神迹场面共享同一石面。NASSCAL目录辨认出彼得相关情节，以及基督变水为酒、增饼、治愈与使拉撒路复活等图像。它们靠手势、容器和小型建筑提供线索，而非用边框逐幕切开。"
+          ],
+          "source_ids": [
+            "S13"
+          ]
+        },
+        {
+          "title": "棺盖与棺身分别观看",
+          "paragraphs": [
+            "紧接棺身上方的完整横条是棺盖，中央为铭文板，两旁有诞生、人物肖像及葡萄采收等内容，与学会目录描述相符。照片更上方的两块残片属于同一展陈背景，现有资料不足以确认其配属。目录记本件1884年发现于罗马隆加拉街。"
+          ],
+          "source_ids": [
+            "S13"
+          ]
+        }
+      ],
+      "notes": [
+        "S13尺寸单位、姓名展开与日期换算存在不一致，本页不采用这些字段。",
+        "棺盖指照片中带中央铭文板的完整横条；最上方两块大残片不归入本件组件。原v2包对此层位的笼统表述已据照片和S13重新区分。"
+      ],
+      "verified_metadata": {
+        "title_en": "Sarcophagus of Marcus Claudianus",
+        "material": "白色大理石",
+        "findspot": "罗马Via della Lungara，San Giacomo in Settimiano教堂附近"
+      },
+      "photo_captions": {
+        "1922": "展陈全景：下方为本件棺身及带中央铭文板的棺盖；最上方两块残片配属未明",
+        "1923": "马西莫宫现场展牌"
+      },
+      "source_ids": [
+        "S13"
+      ],
+      "sources_checked": [
+        {
+          "id": "S13",
+          "url": "https://www.nasscal.com/materiae-apocryphorum/sarcophagus-of-marcus-claudianus/",
+          "access": "全文直接阅读并与1922照片组件逐层比对",
+          "checked": "2026-11-08"
+        }
+      ],
+      "editorial_correction": "v2将上方碎片统称本件棺盖不准确。1922中间完整横条为S13所述棺盖；顶部两块大残片S13未提及，不归入组件。"
+    },
+    {
+      "id": "r12",
+      "lead": "深紫红的石面上，骑兵悬在俘虏上方；战争的上下关系变得格外清楚。",
+      "sections": [
+        {
+          "title": "重量与秩序",
+          "paragraphs": [
+            "与密集缠绕的战争石棺不同，这件紫斑岩石棺给每个人物留出较大的间隔。马腿抬起，俘虏在下面站立或屈身，凸出的身体从深色背景中分离出来。厚重棺体与屋顶式棺盖，使这些军事形象显得既醒目又有秩序。"
+          ],
+          "source_ids": [
+            "S17"
+          ]
+        },
+        {
+          "title": "传统归属与后来的修复",
+          "paragraphs": [
+            "梵蒂冈将它传统上联系到君士坦丁之母海伦娜，又介绍学者因军事题材而提出的男性帝室成员原委托假说。石棺1777年移入梵蒂冈并接受修复，如今托起它的狮子底座由Franzoni制作。墓葬归属与现今陈列的形成，是两段不同的历史。"
+          ],
+          "source_ids": [
+            "S17"
+          ]
+        }
+      ],
+      "notes": [
+        "原为哪位帝室成员制作尚属推测；此处不采用馆网页与其他史料存在差异的海伦娜卒年。"
+      ],
+      "verified_metadata": {
+        "title_en": "Sarcophagus St Helena",
+        "material": "红色紫斑岩"
+      },
+      "photo_captions": {
+        "1928": "斜向全景：紫斑岩棺体上的骑兵、俘虏与厚重棺盖",
+        "1929": "梵蒂冈现场展牌"
+      },
+      "source_ids": [
+        "S17"
+      ],
+      "sources_checked": [
+        {
+          "id": "S17",
+          "url": "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/museo-pio-clementino/sala-a-croce-greca/sarcofago-di-s--elena.html",
+          "access": "官网对象介绍直接阅读",
+          "checked": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "r14",
+      "lead": "战士、马匹与倒伏的身体互相缠绕，胜负通过姿态的高低展开。",
+      "sections": [
+        {
+          "title": "交错身体中的方向",
+          "paragraphs": [
+            "横长的棺身内，抬起的手臂、倾斜的盾和弯折的马腿不断改变观看方向。地面倒伏者压低画面重心，两端战利品与受制人物又收住混战。先分辨骑乘、站立与倒下的身体，比急于为每个人命名更容易读出结构。"
+          ],
+          "source_ids": []
+        },
+        {
+          "title": "借用英雄式战争图像",
+          "paragraphs": [
+            "达拉斯馆方说明把这件作品联系到罗马将军的纪念，并提出帕加马战胜凯尔特人的希腊图像传统可能是其前例。它讨论的是构图与理想身份的延续；具体将军与战役仍未确认，不能将浮雕当作一场战争的现场记录。"
+          ],
+          "source_ids": [
+            "S20"
+          ]
+        }
+      ],
+      "notes": [
+        "约190年、大理石及尺寸据馆方供稿页面；1999.107据现场展牌1933。"
+      ],
+      "verified_metadata": {
+        "title_en": "Battle sarcophagus",
+        "material": "大理石"
+      },
+      "photo_captions": {
+        "1932": "正面全景：交错的战士、马匹与下缘倒伏人物",
+        "1933": "达拉斯艺术博物馆现场展牌"
+      },
+      "source_ids": [
+        "S20"
+      ],
+      "sources_checked": [
+        {
+          "id": "S20",
+          "url": "https://artsandculture.google.com/asset/battle-sarcophagus/0QF5BZ1HA4uQQQ?hl=en",
+          "access": "馆方供稿全文直接阅读",
+          "checked": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "r15",
+      "lead": "一位持卷的女性站进缪斯之间，纪念由她的面容，也由她选择的陪伴者构成。",
+      "sections": [
+        {
+          "title": "先找卷轴与头盔",
+          "paragraphs": [
+            "中央女性持着卷轴，身旁戴头盔、持长矛的是密涅瓦。再向两侧看，乐器、面具与其他持物把各位缪斯区分开。衣褶深处的阴影让一排立像有了起伏；侧面狮鹫的翅膀与足爪，又把正面的文化世界转为墓葬的守护形象。"
+          ],
+          "source_ids": [
+            "S21"
+          ]
+        },
+        {
+          "title": "她希望怎样被记住",
+          "paragraphs": [
+            "馆方把这组陪伴解释为墓主文化修养的表达。我们仍不知道她的姓名或是否实际从事某种文艺活动，但图像清楚地让她在这些神圣人物之间拥有位置。馆藏记录记载石棺1872年在罗马Vigna Casali发现，1987年由纳尔逊购入。"
+          ],
+          "source_ids": [
+            "S21"
+          ]
+        }
+      ],
+      "notes": [
+        "馆方目录与旧展牌对个别缪斯职掌的说法不尽一致，本页以卷轴、头盔、乐器、面具等稳定属性为观察入口。"
+      ],
+      "verified_metadata": {
+        "title_en": "Muse Sarcophagus",
+        "material": "大理石",
+        "findspot": "罗马Vigna Casali，1872年"
+      },
+      "photo_captions": {
+        "1934": "石棺正面全景：中央女性与密涅瓦、缪斯",
+        "1935": "中央人物近照：卷轴、头盔与长衣褶线",
+        "1936": "短边狮鹫：翅膀与足爪的起伏",
+        "1937": "纳尔逊现场展牌"
+      },
+      "source_ids": [
+        "S21"
+      ],
+      "sources_checked": [
+        {
+          "id": "S21",
+          "url": "https://art.nelson-atkins.org/objects/18921/muse-sarcophagus",
+          "access": "对象说明、元数据与来源记录直接阅读",
+          "checked": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "r16",
+      "lead": "乐器、面具和球体分布在长列人物之间，让文化活动各有可辨的形状。",
+      "sections": [
+        {
+          "title": "持物引导视线",
+          "paragraphs": [
+            "现场展牌将从左数第二位、持大型弦乐器的男子识为阿波罗；其余九位缪斯围绕他展开。人物之间的树干与不同方向的衣褶，使这列立像带着林间相会的节奏。右部指向球体的动作和左部的戏剧面具，都是能从整幅继续追踪的线索。"
+          ],
+          "source_ids": []
+        },
+        {
+          "title": "与另一口缪斯石棺并看",
+          "paragraphs": [
+            "这件与馆内87-21号石棺可以比较：较晚那件把亡者放进缪斯的行列，人物也更高大，深刻衣褶制造更强的明暗。区别涉及纪念方式与构图选择。33-38于1933年由博物馆经Harold Woodbury Parsons从Brummer Gallery及Jacob Hirsch购入。"
+          ],
+          "source_ids": [
+            "S22"
+          ]
+        }
+      ],
+      "notes": [
+        "现行馆方目录定150—180年，现场旧展牌概称2世纪中期。具体人物位置据现场展牌1939，官网现行页未重复图像说明。"
+      ],
+      "verified_metadata": {
+        "title_en": "Sarcophagus",
+        "material": "卡拉拉大理石"
+      },
+      "photo_captions": {
+        "1938": "正面全景：阿波罗、缪斯与其间的树木、持物",
+        "1939": "纳尔逊现场展牌"
+      },
+      "source_ids": [
+        "S22"
+      ],
+      "sources_checked": [
+        {
+          "id": "S22",
+          "url": "https://art.nelson-atkins.org/objects/28562/sarcophagus",
+          "access": "元数据与来源记录直接阅读",
+          "checked": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "r17",
+      "lead": "找到三次出现的短剑，也就找到同一个人跨过不同情节的路径。",
+      "sections": [
+        {
+          "title": "俄瑞斯忒斯出现三次",
+          "paragraphs": [
+            "克利夫兰馆方指出，持短剑的俄瑞斯忒斯在正面出现三次。中部表现他为父亲阿伽门农复仇、杀死母亲克吕泰涅斯特拉及其情人；左端有父亲的墓与复仇女神，右端则是由三脚架等标志指认的德尔斐场景。重复人物让一段有前因后果的悲剧，聚集在同一个长方形中。"
+          ],
+          "source_ids": [
+            "S23"
+          ]
+        },
+        {
+          "title": "棺盖上的另一种时间",
+          "paragraphs": [
+            "身体在棺身上冲突、转折，棺盖四位卧女却舒展开来。馆方将她们从右至左辨作冬、春、夏、秋，以衣着及篮内物品区分。英雄经历与季节循环并置，使石棺同时容纳人的事件与不断更替的时间。"
+          ],
+          "source_ids": [
+            "S23"
+          ]
+        }
+      ],
+      "notes": [
+        "棺身1928.856.a与棺盖1928.856.b分别编号。官网年代带约，作约100—125年；不把单幅现存场景写作固定方向的现代连环画。"
+      ],
+      "verified_metadata": {
+        "title_en": "Sarcophagus",
+        "material": "希腊大理石",
+        "production_place": "罗马，意大利（馆方地域归属）"
+      },
+      "photo_captions": {
+        "1940": "正面与棺盖：俄瑞斯忒斯的重复身影及上方四位卧女",
+        "1941": "克利夫兰现场展牌（下方石棺条目）"
+      },
+      "source_ids": [
+        "S23"
+      ],
+      "sources_checked": [
+        {
+          "id": "S23",
+          "url": "https://www.clevelandart.org/art/1928.856.a",
+          "access": "正文、元数据及四季说明直接阅读",
+          "checked": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "r18",
+      "lead": "拥挤的酒神队伍在右端安静下来，那里有一个仍在沉睡的人。",
+      "sections": [
+        {
+          "title": "走向卧睡的阿里阿德涅",
+          "paragraphs": [
+            "狄俄尼索斯与随从占据左侧和中部，右端女子横卧，身体的长线与其他人的立姿形成对照。沃尔特斯将她识为被忒修斯留在纳克索斯岛的阿里阿德涅，身下海浪和小海豚提示岸边环境。依馆方解释，爱神引酒神走向她，这次相遇终将带来婚姻。"
+          ],
+          "source_ids": [
+            "S24"
+          ]
+        },
+        {
+          "title": "相遇与后来组合的棺盖",
+          "paragraphs": [
+            "馆方从酒神使她离开近似死亡的沉睡状态，解释这类图像的墓葬意味。上面的采葡萄小爱神棺盖却是后配，不能当作原初整体的证据。石棺由Henry Walters在1902年随Massarenti收藏购得，1931年遗赠博物馆。"
+          ],
+          "source_ids": [
+            "S24"
+          ]
+        }
+      ],
+      "notes": [
+        "阿里阿德涅头旁人物依馆方识为Thanatos（死神），不混写为睡神。馆方1885年发现记录带方括号，保持来源的不确定程度。"
+      ],
+      "verified_metadata": {
+        "title_en": "Sarcophagus with Dionysus and Ariadne",
+        "material": "普罗孔尼索斯大理石",
+        "findspot": "罗马（具体1885年所谓Licinian墓来源，馆方加方括号）"
+      },
+      "photo_captions": {
+        "1942": "正面全景：酒神队伍、右端卧女与后配采葡萄棺盖",
+        "1943": "沃尔特斯现场展牌"
+      },
+      "source_ids": [
+        "S24"
+      ],
+      "sources_checked": [
+        {
+          "id": "S24",
+          "url": "https://art.thewalters.org/object/23.37/",
+          "access": "对象说明、材质及来源记录直接阅读",
+          "checked": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "r19",
+      "lead": "酒神在队伍左端，整幅浮雕的热闹随人物与动物向右延伸。",
+      "sections": [
+        {
+          "title": "从豹车到树梢",
+          "paragraphs": [
+            "左侧狄俄尼索斯乘豹车，人物与动物接连穿过画面。沃尔特斯目录辨认出狮、象和长颈鹿，并指出右端树上还有鸟巢、追逐蜥蜴的蛇。大队伍中藏着很小的生命，值得在放大后慢慢找，而不是只看最显眼的神祇。"
+          ],
+          "source_ids": [
+            "S25"
+          ]
+        },
+        {
+          "title": "棺身与棺盖的两个阶段",
+          "paragraphs": [
+            "棺身讲印度凯旋，棺盖则据馆方表现酒神出生及宁芙迎接，两端以不同表情的萨堤尔头像收束。馆方把凯旋联系到战胜死亡的寓意；这是对葬礼图像的解释，未必能还原墓主全部信仰。作品1902年进入Henry Walters收藏，后来随其遗赠入馆。"
+          ],
+          "source_ids": [
+            "S25"
+          ]
+        }
+      ],
+      "notes": [
+        "塔索斯是石材来源，不直接等于雕刻工坊所在地。官网发现地字段与来源叙述措辞不一，具体墓址不作精确定位。"
+      ],
+      "verified_metadata": {
+        "title_en": "Sarcophagus with the Triumph of Dionysus",
+        "material": "塔索斯大理石"
+      },
+      "photo_captions": {
+        "1944": "正面与棺盖：左端豹车、向右延伸的动物队列",
+        "1945": "沃尔特斯现场展牌"
+      },
+      "source_ids": [
+        "S25"
+      ],
+      "sources_checked": [
+        {
+          "id": "S25",
+          "url": "https://art.thewalters.org/object/23.31/",
+          "access": "对象说明、材料及来源记录直接阅读",
+          "checked": "2026-11-08"
+        }
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "id": "r10",
+      "issue": "1922最上方两块残片不是S13所描述的完整棺盖。",
+      "evidence": "S13棺盖中央铭文、诞生与葡萄采收描述，对应照片中间横条；顶部两块残片没有相应配属证据。",
+      "action": "本件组件仅列底部棺身及紧接其上的完整棺盖；顶部残片作为背景、配属未明。"
+    },
+    {
+      "id": "r08",
+      "issue": "包内“合掌婚姻姿态”易误解",
+      "action": "改为夫妻相握右手，不写佛教式合掌。"
+    },
+    {
+      "id": "r06",
+      "issue": "展签1913横置",
+      "action": "衍生展示应顺时针旋转90度；原片保留。"
+    },
+    {
+      "id": "r17",
+      "issue": "官网约100—125年带c.",
+      "action": "年代显示保留约字。"
+    }
+  ]
+}

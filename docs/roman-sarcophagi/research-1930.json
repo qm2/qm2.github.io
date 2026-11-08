@@ -1,0 +1,174 @@
+{
+  "scope": "独立核对照片1930；不改既有对象或页面。所有引用图片只用于对照，未收入仓库。",
+  "photo": {
+    "id": "1930",
+    "filename": "Image_20261108001415_1930_19.jpg",
+    "dimensions": [
+      1280,
+      1707
+    ],
+    "relationship_to_1931": "另一组陈列，不能归入933、932或914。照片1931才是914／932／933。"
+  },
+  "objects": [
+    {
+      "research_key": "vatican-942",
+      "suggested_title": "将领接受降服场景石棺",
+      "title_en": "Sarcophagus with the submission of defeated captives to a Roman general",
+      "accession": "942",
+      "museum": "梵蒂冈博物馆，庇护—克莱门特博物馆",
+      "display_location": "八角庭院北廊；Spinola目录PN15",
+      "material": "大理石",
+      "date": "约公元180年",
+      "status": "编号、题材、年代及照片对应已核实；馆藏图录通过明确署名的公开转载读取，未读取原书扫描页。",
+      "scope_recommendation": "可增列独立对象；主图用1930下方主体的诚实裁切，整张照片作为展陈记录。不要将上方巨人之战饰带或中间棺盖视为其原配。",
+      "visual_matches": [
+        "左端头盔、盔甲与圆盾组成的战利品架",
+        "左下妇人与孩童，中央跪伏的有须俘虏",
+        "右侧坐姿将领及其身后为他加冠的有翼胜利女神",
+        "最右端战利品架及下方坐着的俘虏",
+        "人物分组、石面断裂与公开参考照片逐项一致"
+      ],
+      "lead": "这件石棺选择了战斗之后的一刻：败者来到坐着的罗马将领面前，胜利女神在他身后举起冠冕。跪伏的男子与一旁的妇孺，把凯旋的荣耀和战败者的处境放在同一块石面上。",
+      "sections": [
+        {
+          "title": "胜利之后，谁站着，谁跪下",
+          "paragraphs": [
+            {
+              "text": "两端的盔甲与盾牌划出场景边界；将领安坐右侧，俘虏从左边走来、俯身或跪下。这种身体高低与动作的差别，使胜负在没有交战的场面里仍清楚可见。图录把它解释为败者向将领降服的场景，可能涉及萨尔马提亚人；具体族属仍是研究判断。",
+              "source_keys": [
+                "spinola-942-transcript"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "一件石棺的第二种用途",
+          "paragraphs": [
+            {
+              "text": "Spinola的馆藏目录记载，它至迟在1512年已为皮科·德拉·米兰多拉提及，后来曾在梵蒂冈最初的阿里阿德涅壁龛中用作水池。那时人们把画面解释成图拉真的武功，并借古代皇帝比附教宗尤利乌斯二世；这是文艺复兴时期的理解，与今天将作品定在约180年的判断应当分开。",
+              "source_keys": [
+                "spinola-942-transcript"
+              ]
+            }
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "目录提出它可能为安敦尼时期的高级军官制作；墓主姓名、原墓址尚未确认。不可把坐姿将领直接称为马可·奥勒留本人。",
+          "source_keys": [
+            "spinola-942-transcript"
+          ]
+        },
+        {
+          "text": "1930记录三个并置对象。本件与上方饰带、独立棺盖的原始关系尚无证据；不要合计为一套完整原配石棺。",
+          "source_keys": [
+            "daderot-1930-display"
+          ]
+        }
+      ],
+      "caption": "将领接受降服场景石棺，约公元180年 · 梵蒂冈博物馆942号 · 现场照片局部，Merton摄",
+      "crop_hint": {
+        "source": "1930",
+        "box_xyxy": [
+          0,
+          720,
+          1280,
+          1160
+        ],
+        "note": "粗略候选框，需主代理核对边缘；原图仅1280像素宽，不应生成假高清或裁掉两端人物。"
+      }
+    },
+    {
+      "research_key": "vatican-915",
+      "suggested_title": "巨人之战饰带残片",
+      "accession": "915",
+      "position_in_photo": "上方墙面",
+      "status": "与公开图像逐项吻合；编号及饰带属性由Commons图像档案说明支持，尚未找到可直接读取的馆方单件目录。",
+      "scope_recommendation": "不是石棺，作为展陈背景保留，不纳入石棺数量。",
+      "visual_matches": [
+        "左侧女神执弓、短衣及前伸手臂",
+        "左中屈膝巨人与下方盘曲蛇形双腿",
+        "中央长衣女神张开双臂",
+        "右侧两名叠置巨人与石块"
+      ],
+      "notes": [
+        "公开档案标题有把它称作石棺的旧写法，但分类说明明确指出它属于饰带残片。",
+        "中央女神在文件名中有Demeter和Hecate两种标注，未获可靠馆录核实，本轮不确指。"
+      ],
+      "source_keys": [
+        "commons-915",
+        "daderot-1930-display"
+      ]
+    },
+    {
+      "research_key": "vatican-1930-middle-lid",
+      "suggested_title": "卧姿人物与小爱神棺盖（编号待核）",
+      "accession": null,
+      "position_in_photo": "中层横向棺盖",
+      "status": "与公开陈列照片吻合；图像档案有“四季与小爱神、140—150年”的题名，但独立文件页读取失败，尚未核对可靠馆录及编号。",
+      "scope_recommendation": "保留待核，不向页面写入确定编号或年代。不可移用932号Myron棺盖的铭文与家属信息。",
+      "visual_matches": [
+        "四个横卧人物及间隔的小人物",
+        "两端外转的大头像",
+        "左中部明显断裂",
+        "下缘斜收的厚棺盖结构"
+      ],
+      "source_keys": [
+        "daderot-1930-display",
+        "commons-north-portico"
+      ],
+      "pending": [
+        "编号、年代及季节化身的完整说明",
+        "是否原配942，当前无依据"
+      ]
+    }
+  ],
+  "sources_checked": [
+    {
+      "key": "spinola-942-transcript",
+      "title": "G. Spinola，Il Museo Pio Clementino 1（1996），pp.94–96，PN15，公开转载",
+      "url": "https://ancientrome.ru/art/artworken/img.htm?id=5454",
+      "depth": "前一轮完整打开作品页并读取署名目录段落、年代、馆藏号及直接图像；复访偶发服务错误。不是仅搜索摘要，也未声称看过原书扫描。",
+      "reference_image_url": "https://ancientrome.ru/art/artwork/sculp/rom/headstone/sc0265.jpg",
+      "verified": [
+        "约180年",
+        "大理石",
+        "942",
+        "PN15",
+        "降服与胜利女神",
+        "1512年提及及文艺复兴时期陈设背景"
+      ]
+    },
+    {
+      "key": "commons-942",
+      "title": "Wikimedia Commons：Sarcofago dei barbari prigionieri",
+      "url": "https://commons.wikimedia.org/wiki/Category:Sarcofago_dei_barbari_prigionieri_(Pio-Clementino)",
+      "depth": "分类说明全文与引文来源；交叉核对942与Spinola引文。英文“in ancient times”与紧接的1512年叙述不可误译成古代已经入梵蒂冈。"
+    },
+    {
+      "key": "daderot-1930-display",
+      "title": "Daderot：八角庭院三件并置作品的陈列照片（2019）",
+      "url": "https://commons.wikimedia.org/wiki/File:Sarcofago_della_gigantomachia_and_Sarcofago_dei_barbari_prigionieri_-_Museo_Pio-Clementino_-_Vatican_Museums_-_DSC00962.jpg",
+      "depth": "读取文件页并在/tmp直接查看完整原图，与1930自拍逐件比对。外部照片不进repo或页面。文件名“sarcofago della gigantomachia”本身不足以确定对象性质。"
+    },
+    {
+      "key": "commons-915",
+      "title": "Wikimedia Commons：Gigantomachia relief，915号",
+      "url": "https://commons.wikimedia.org/wiki/Category:Gigantomachia_relief_(Pio_Clementino_Museum)",
+      "depth": "完整读取分类说明，结合陈列照片确认对应。属于图像档案说明，尚非独立读取馆方单件研究。"
+    },
+    {
+      "key": "commons-north-portico",
+      "title": "Wikimedia Commons：八角庭院北廊陈列",
+      "url": "https://commons.wikimedia.org/wiki/Category:Museum_display_the_Octagonal_Court_-_North_side_(Pio_Clementino_Museum)",
+      "depth": "完整读取条目列表。中层棺盖所列文件名为Coperchio di sarcofago con Stagioni giacenti ed eroti, 140-150 d.C.；其独立文件页返回cache miss，未用作确定断代或编号的凭据。"
+    }
+  ],
+  "unresolved": [
+    "中层棺盖编号、断代及与942的原配关系",
+    "915号中央女神的具体辨认及更可靠目录出处",
+    "942原墓主与原墓址"
+  ],
+  "publication_boundary": "目前只建议正式新增942号石棺。915可在原片展陈说明中称巨人之战饰带；中层棺盖保留待核。不把1930附于1931中的任何作品。"
+}

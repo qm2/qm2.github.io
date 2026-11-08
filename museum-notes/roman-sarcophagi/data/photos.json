@@ -1,0 +1,2147 @@
+{
+  "1902": {
+    "original": "Image_20261108001415_1902_19.jpg",
+    "number": 1902,
+    "role": "artwork",
+    "width": 1702,
+    "height": 1276,
+    "sha256": "a0e57b408f038c1b0405d69ce1b8c16f4a0094697969f03be6b14062870e6cfd",
+    "bytes": 314084,
+    "object_ids": [
+      "r01"
+    ],
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1902-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1902-960.webp"
+      },
+      {
+        "width": 1600,
+        "file": "1902-1600.webp"
+      },
+      {
+        "width": 1702,
+        "file": "1902-1702.webp"
+      }
+    ],
+    "full": "1902-1702.webp",
+    "caption": "正面全景：中央展卷的男子、妻子与周围坐立人物"
+  },
+  "1903": {
+    "original": "Image_20261108001415_1903_19.jpg",
+    "number": 1903,
+    "role": "label",
+    "width": 1702,
+    "height": 1276,
+    "sha256": "c8a9c48e841d9103f9d8a7046e12218283639986daabc8a2e31cf6612c07fec9",
+    "bytes": 174607,
+    "object_ids": [
+      "r01"
+    ],
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1903-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1903-960.webp"
+      },
+      {
+        "width": 1600,
+        "file": "1903-1600.webp"
+      },
+      {
+        "width": 1702,
+        "file": "1903-1702.webp"
+      }
+    ],
+    "full": "1903-1702.webp",
+    "caption": "卢浮宫现场展牌"
+  },
+  "1904": {
+    "original": "Image_20261108001415_1904_19.jpg",
+    "number": 1904,
+    "role": "artwork",
+    "width": 1702,
+    "height": 1276,
+    "sha256": "f9d1ecf27dd2849601ec309cf8677d3f17337a3d29af79ac4e517ce888503702",
+    "bytes": 302799,
+    "object_ids": [
+      "r02"
+    ],
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1904-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1904-960.webp"
+      },
+      {
+        "width": 1600,
+        "file": "1904-1600.webp"
+      },
+      {
+        "width": 1702,
+        "file": "1904-1702.webp"
+      }
+    ],
+    "full": "1904-1702.webp",
+    "caption": "棺身与棺盖：不同功业中的英雄反复出现"
+  },
+  "1905": {
+    "original": "Image_20261108001415_1905_19.jpg",
+    "number": 1905,
+    "role": "label",
+    "width": 1280,
+    "height": 1707,
+    "sha256": "4c351f4e9edb508445a5bba5103c7ed2df828a8e360d44f63c49a23db6f5396c",
+    "bytes": 159573,
+    "object_ids": [
+      "r02"
+    ],
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1905-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1905-960.webp"
+      },
+      {
+        "width": 1280,
+        "file": "1905-1280.webp"
+      }
+    ],
+    "full": "1905-1280.webp",
+    "caption": "卢浮宫现场展牌"
+  },
+  "1906": {
+    "original": "Image_20261108001415_1906_19.jpg",
+    "number": 1906,
+    "role": "artwork",
+    "width": 1702,
+    "height": 1276,
+    "sha256": "974a3c459fc5c2d1e72f133758b4f8a51c8849e92c801210db27e96d79d178c4",
+    "bytes": 231956,
+    "object_ids": [
+      "r03"
+    ],
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1906-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1906-960.webp"
+      },
+      {
+        "width": 1600,
+        "file": "1906-1600.webp"
+      },
+      {
+        "width": 1702,
+        "file": "1906-1702.webp"
+      }
+    ],
+    "full": "1906-1702.webp",
+    "caption": "正面：中央盾形圆章、胜利女神与两侧车辆"
+  },
+  "1907": {
+    "original": "Image_20261108001415_1907_19.jpg",
+    "number": 1907,
+    "role": "label",
+    "width": 959,
+    "height": 1280,
+    "sha256": "4d8c59c64b68e5107304c68c8f97b22c406d3ebe0fe5f471d944e5c5266074ce",
+    "bytes": 119834,
+    "object_ids": [
+      "r03"
+    ],
+    "rotation": 0,
+    "display_width": 959,
+    "display_height": 1280,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1907-400.webp"
+      },
+      {
+        "width": 959,
+        "file": "1907-959.webp"
+      }
+    ],
+    "full": "1907-959.webp",
+    "caption": "卢浮宫现场展牌"
+  },
+  "1908": {
+    "original": "Image_20261108001415_1908_19.jpg",
+    "number": 1908,
+    "role": "artwork",
+    "width": 1702,
+    "height": 1276,
+    "sha256": "50953919066a0d7c058f4f03c579e24a3e112494b0e9fe1164a7a95a38600087",
+    "bytes": 409889,
+    "object_ids": [
+      "r04"
+    ],
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1908-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1908-960.webp"
+      },
+      {
+        "width": 1600,
+        "file": "1908-1600.webp"
+      },
+      {
+        "width": 1702,
+        "file": "1908-1702.webp"
+      }
+    ],
+    "full": "1908-1702.webp",
+    "caption": "斜向观看盆式棺身：中央夫妇与沿转角延伸的随行人物"
+  },
+  "1909": {
+    "original": "Image_20261108001415_1909_19.jpg",
+    "number": 1909,
+    "role": "label",
+    "width": 1702,
+    "height": 1276,
+    "sha256": "9c6acb1fe30342055be5a8c211aaa42bf8a38557e688f0fa72aae8c15755f2df",
+    "bytes": 217398,
+    "object_ids": [
+      "r04"
+    ],
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1909-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1909-960.webp"
+      },
+      {
+        "width": 1600,
+        "file": "1909-1600.webp"
+      },
+      {
+        "width": 1702,
+        "file": "1909-1702.webp"
+      }
+    ],
+    "full": "1909-1702.webp",
+    "caption": "卢浮宫现场展牌"
+  },
+  "1910": {
+    "original": "Image_20261108001415_1910_19.jpg",
+    "number": 1910,
+    "role": "artwork",
+    "width": 1702,
+    "height": 1276,
+    "sha256": "66a552270af66ce1ba564c832224a0b42cc5492c739d84f52c9ca3edefc92478",
+    "bytes": 336574,
+    "object_ids": [
+      "r05"
+    ],
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1910-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1910-960.webp"
+      },
+      {
+        "width": 1600,
+        "file": "1910-1600.webp"
+      },
+      {
+        "width": 1702,
+        "file": "1910-1702.webp"
+      }
+    ],
+    "full": "1910-1702.webp",
+    "caption": "正面：中央持盾的阿喀琉斯与两侧人物"
+  },
+  "1911": {
+    "original": "Image_20261108001415_1911_19.jpg",
+    "number": 1911,
+    "role": "label",
+    "width": 959,
+    "height": 1280,
+    "sha256": "d8c3d853d54d85465d6004f766e7b5fa6b81a8b3297153d71eb773b6275e9645",
+    "bytes": 141083,
+    "object_ids": [
+      "r05"
+    ],
+    "rotation": 0,
+    "display_width": 959,
+    "display_height": 1280,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1911-400.webp"
+      },
+      {
+        "width": 959,
+        "file": "1911-959.webp"
+      }
+    ],
+    "full": "1911-959.webp",
+    "caption": "卢浮宫现场展牌"
+  },
+  "1912": {
+    "original": "Image_20261108001415_1912_19.jpg",
+    "number": 1912,
+    "role": "artwork",
+    "width": 1702,
+    "height": 1276,
+    "sha256": "ea45af526566f44c9539ea2e6346fd8b6bb2a14c427c188e730bac5674f2b662",
+    "bytes": 313615,
+    "object_ids": [
+      "r06"
+    ],
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1912-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1912-960.webp"
+      },
+      {
+        "width": 1600,
+        "file": "1912-1600.webp"
+      },
+      {
+        "width": 1702,
+        "file": "1912-1702.webp"
+      }
+    ],
+    "full": "1912-1702.webp",
+    "caption": "正面全景：中央卧床哀悼场景与两端情节"
+  },
+  "1913": {
+    "original": "Image_20261108001415_1913_19.jpg",
+    "number": 1913,
+    "role": "label",
+    "width": 1702,
+    "height": 1276,
+    "sha256": "662eb24a020c872d1ec83bbce417f58502148e34231aa9adce17b2c591be996a",
+    "bytes": 161381,
+    "object_ids": [
+      "r06"
+    ],
+    "rotation": -90,
+    "display_width": 1276,
+    "display_height": 1702,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1913-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1913-960.webp"
+      },
+      {
+        "width": 1276,
+        "file": "1913-1276.webp"
+      }
+    ],
+    "full": "1913-1276.webp",
+    "caption": "卢浮宫现场展牌"
+  },
+  "1914": {
+    "original": "Image_20261108001415_1914_19.jpg",
+    "number": 1914,
+    "role": "artwork",
+    "width": 1702,
+    "height": 1276,
+    "sha256": "cbb6f0282e8b59b2c917036e8265c9f3d538378daba35f381eb606ea52f8f1e2",
+    "bytes": 255890,
+    "object_ids": [
+      "r07"
+    ],
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1914-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1914-960.webp"
+      },
+      {
+        "width": 1600,
+        "file": "1914-1600.webp"
+      },
+      {
+        "width": 1702,
+        "file": "1914-1702.webp"
+      }
+    ],
+    "full": "1914-1702.webp",
+    "caption": "正面柱廊与拱龛中的缪斯"
+  },
+  "1915": {
+    "original": "Image_20261108001415_1915_19.jpg",
+    "number": 1915,
+    "role": "artwork",
+    "width": 960,
+    "height": 1280,
+    "sha256": "bea0d268e1ec970dedd21cac839ec54f805de79b1cdecafe9544f924192ebcfd",
+    "bytes": 155771,
+    "object_ids": [
+      "r07"
+    ],
+    "rotation": 0,
+    "display_width": 960,
+    "display_height": 1280,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1915-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1915-960.webp"
+      }
+    ],
+    "full": "1915-960.webp",
+    "caption": "一端短边：三个人物与连续的柱廊"
+  },
+  "1916": {
+    "original": "Image_20261108001415_1916_19.jpg",
+    "number": 1916,
+    "role": "artwork",
+    "width": 1280,
+    "height": 1707,
+    "sha256": "cd10d588cb8a2d002a5f9ab7ac8b5f11c75689c62ea45906eb36f8e7a1a513e3",
+    "bytes": 243285,
+    "object_ids": [
+      "r07"
+    ],
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1916-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1916-960.webp"
+      },
+      {
+        "width": 1280,
+        "file": "1916-1280.webp"
+      }
+    ],
+    "full": "1916-1280.webp",
+    "caption": "另一端短边：拱龛下的人物及衣褶"
+  },
+  "1917": {
+    "original": "Image_20261108001415_1917_19.jpg",
+    "number": 1917,
+    "role": "label",
+    "width": 1280,
+    "height": 1707,
+    "sha256": "d433204cfca3d4271155e22a16e2fd438c020cbba4710703d6204b5af075a281",
+    "bytes": 163927,
+    "object_ids": [
+      "r07"
+    ],
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1917-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1917-960.webp"
+      },
+      {
+        "width": 1280,
+        "file": "1917-1280.webp"
+      }
+    ],
+    "full": "1917-1280.webp",
+    "caption": "马西莫宫现场展牌"
+  },
+  "1918": {
+    "original": "Image_20261108001415_1918_19.jpg",
+    "number": 1918,
+    "role": "artwork",
+    "width": 1702,
+    "height": 1276,
+    "sha256": "b018781ab140455820921ad8e1676889bf058e696b22eaa1513d399b660a1350",
+    "bytes": 226260,
+    "object_ids": [
+      "r08"
+    ],
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1918-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1918-960.webp"
+      },
+      {
+        "width": 1600,
+        "file": "1918-1600.webp"
+      },
+      {
+        "width": 1702,
+        "file": "1918-1702.webp"
+      }
+    ],
+    "full": "1918-1702.webp",
+    "caption": "正面全景：相握右手的夫妇与两旁人格化形象"
+  },
+  "1919": {
+    "original": "Image_20261108001415_1919_19.jpg",
+    "number": 1919,
+    "role": "label",
+    "width": 1280,
+    "height": 1707,
+    "sha256": "3f378130fa0df04bb85bb13bd9601f06b7c3271cebb5dafde52c2f12729c4b1a",
+    "bytes": 150295,
+    "object_ids": [
+      "r08"
+    ],
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1919-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1919-960.webp"
+      },
+      {
+        "width": 1280,
+        "file": "1919-1280.webp"
+      }
+    ],
+    "full": "1919-1280.webp",
+    "caption": "马西莫宫现场展牌"
+  },
+  "1920": {
+    "original": "Image_20261108001415_1920_19.jpg",
+    "number": 1920,
+    "role": "artwork",
+    "width": 1702,
+    "height": 1276,
+    "sha256": "55a67e439b48315b5540787f2527902cc84b92bddb2432367737108120668c38",
+    "bytes": 303361,
+    "object_ids": [
+      "r09"
+    ],
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1920-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1920-960.webp"
+      },
+      {
+        "width": 1600,
+        "file": "1920-1600.webp"
+      },
+      {
+        "width": 1702,
+        "file": "1920-1702.webp"
+      }
+    ],
+    "full": "1920-1702.webp",
+    "caption": "三拱前板：中央夫妇与两端双子、马匹"
+  },
+  "1921": {
+    "original": "Image_20261108001415_1921_19.jpg",
+    "number": 1921,
+    "role": "label",
+    "width": 1280,
+    "height": 1707,
+    "sha256": "9cd77cab8c30a3438f9188f2817537e8fb5086bc496a4764034a813eced23cd5",
+    "bytes": 122836,
+    "object_ids": [
+      "r09"
+    ],
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1921-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1921-960.webp"
+      },
+      {
+        "width": 1280,
+        "file": "1921-1280.webp"
+      }
+    ],
+    "full": "1921-1280.webp",
+    "caption": "马西莫宫现场展牌"
+  },
+  "1922": {
+    "original": "Image_20261108001415_1922_19.jpg",
+    "number": 1922,
+    "role": "artwork",
+    "width": 1702,
+    "height": 1276,
+    "sha256": "25534129f768c95f89a34e974705310f0cd9398d5e29a4986cbdec327d32038c",
+    "bytes": 270680,
+    "object_ids": [
+      "r10"
+    ],
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1922-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1922-960.webp"
+      },
+      {
+        "width": 1600,
+        "file": "1922-1600.webp"
+      },
+      {
+        "width": 1702,
+        "file": "1922-1702.webp"
+      }
+    ],
+    "full": "1922-1702.webp",
+    "caption": "展陈全景：下方为本件棺身及带中央铭文板的棺盖；最上方两块残片配属未明"
+  },
+  "1923": {
+    "original": "Image_20261108001415_1923_19.jpg",
+    "number": 1923,
+    "role": "label",
+    "width": 1280,
+    "height": 1707,
+    "sha256": "9479e4b5d09b1cd079fe8d141e55062bdb51093f056f8927e9fd3893d215f0a2",
+    "bytes": 138442,
+    "object_ids": [
+      "r10"
+    ],
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1923-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1923-960.webp"
+      },
+      {
+        "width": 1280,
+        "file": "1923-1280.webp"
+      }
+    ],
+    "full": "1923-1280.webp",
+    "caption": "马西莫宫现场展牌"
+  },
+  "1924": {
+    "original": "Image_20261108001415_1924_19.jpg",
+    "number": 1924,
+    "role": "artwork",
+    "width": 1702,
+    "height": 1276,
+    "sha256": "7b26802603d279767ad69e61dbb8454ff632e8a977ae00f2ef108a581ef38253",
+    "bytes": 472515,
+    "object_ids": [
+      "r11"
+    ],
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1924-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1924-960.webp"
+      },
+      {
+        "width": 1600,
+        "file": "1924-1600.webp"
+      },
+      {
+        "width": 1702,
+        "file": "1924-1702.webp"
+      }
+    ],
+    "full": "1924-1702.webp",
+    "caption": "中央骑手与层叠的人马 · 正面近景"
+  },
+  "1925": {
+    "original": "Image_20261108001415_1925_19.jpg",
+    "number": 1925,
+    "role": "artwork",
+    "width": 1702,
+    "height": 1276,
+    "sha256": "1dee4c3b08f04590b99dabaae83f0c8e1ecd00e01041e835f3a76cc849555320",
+    "bytes": 397735,
+    "object_ids": [
+      "r11"
+    ],
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1925-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1925-960.webp"
+      },
+      {
+        "width": 1600,
+        "file": "1925-1600.webp"
+      },
+      {
+        "width": 1702,
+        "file": "1925-1702.webp"
+      }
+    ],
+    "full": "1925-1702.webp",
+    "caption": "棺身的密集战场与棺盖的人生场景 · 完整陈列"
+  },
+  "1926": {
+    "original": "Image_20261108001415_1926_19.jpg",
+    "number": 1926,
+    "role": "label",
+    "width": 1702,
+    "height": 1276,
+    "sha256": "e258a5a63ce433047d348fa16953195b6b52f3fcaee39d6eae0423630ef59879",
+    "bytes": 302433,
+    "object_ids": [
+      "r11"
+    ],
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1926-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1926-960.webp"
+      },
+      {
+        "width": 1600,
+        "file": "1926-1600.webp"
+      },
+      {
+        "width": 1702,
+        "file": "1926-1702.webp"
+      }
+    ],
+    "full": "1926-1702.webp",
+    "caption": "现场说明：战争石棺与波尔托纳乔石棺"
+  },
+  "1927": {
+    "original": "Image_20261108001415_1927_19.jpg",
+    "number": 1927,
+    "role": "label",
+    "width": 960,
+    "height": 1280,
+    "sha256": "ece91a8a906e845a7975b0881b7bc3ef087fc1bd990123fa510aee906a3ae444",
+    "bytes": 96742,
+    "object_ids": [
+      "r11"
+    ],
+    "rotation": 0,
+    "display_width": 960,
+    "display_height": 1280,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1927-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1927-960.webp"
+      }
+    ],
+    "full": "1927-960.webp",
+    "caption": "现场展签：180—190年"
+  },
+  "1928": {
+    "original": "Image_20261108001415_1928_19.jpg",
+    "number": 1928,
+    "role": "artwork",
+    "width": 1702,
+    "height": 1276,
+    "sha256": "7391eab131b67c6e8edd6b5540f79356f1f8c6a8b094a1c1ccf531a5b95ef57b",
+    "bytes": 379339,
+    "object_ids": [
+      "r12"
+    ],
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1928-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1928-960.webp"
+      },
+      {
+        "width": 1600,
+        "file": "1928-1600.webp"
+      },
+      {
+        "width": 1702,
+        "file": "1928-1702.webp"
+      }
+    ],
+    "full": "1928-1702.webp",
+    "caption": "斜向全景：紫斑岩棺体上的骑兵、俘虏与厚重棺盖"
+  },
+  "1929": {
+    "original": "Image_20261108001415_1929_19.jpg",
+    "number": 1929,
+    "role": "label",
+    "width": 1280,
+    "height": 1707,
+    "sha256": "93a7810cdf60d0b1b73ca2d82a5152fafae740dbe943fa906409c7e8eb93e178",
+    "bytes": 307845,
+    "object_ids": [
+      "r12"
+    ],
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1929-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1929-960.webp"
+      },
+      {
+        "width": 1280,
+        "file": "1929-1280.webp"
+      }
+    ],
+    "full": "1929-1280.webp",
+    "caption": "梵蒂冈现场展牌"
+  },
+  "1930": {
+    "original": "Image_20261108001415_1930_19.jpg",
+    "number": 1930,
+    "role": "artwork",
+    "width": 1280,
+    "height": 1707,
+    "sha256": "826b1c8d6f22b50b29667f7ed247fb8e55bd64a5d65f3f0c9a1d6f5732d17383",
+    "bytes": 340389,
+    "object_ids": [
+      "r24"
+    ],
+    "rotation": 0,
+    "caption": "梵蒂冈另一组陈列：下方为942号降服场景石棺，中层棺盖编号待核，上方为915号巨人之战饰带",
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1930-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1930-960.webp"
+      },
+      {
+        "width": 1280,
+        "file": "1930-1280.webp"
+      }
+    ],
+    "full": "1930-1280.webp",
+    "context_objects": [
+      {
+        "accession": "915",
+        "type": "饰带，非石棺",
+        "status": "图像档案核对"
+      },
+      {
+        "accession": null,
+        "type": "独立棺盖",
+        "status": "编号、年代及原配关系待核"
+      }
+    ]
+  },
+  "1931": {
+    "original": "Image_20261108001415_1931_19.jpg",
+    "number": 1931,
+    "role": "artwork",
+    "width": 1702,
+    "height": 1276,
+    "sha256": "99ec93fd7d387adf66abddd38f9603df4c75b39a7a000bec4dbb2573c5cb8bf9",
+    "bytes": 436488,
+    "object_ids": [
+      "r13",
+      "r23",
+      "r13-lid"
+    ],
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1931-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1931-960.webp"
+      },
+      {
+        "width": 1600,
+        "file": "1931-1600.webp"
+      },
+      {
+        "width": 1702,
+        "file": "1931-1702.webp"
+      }
+    ],
+    "full": "1931-1702.webp",
+    "caption": "梵蒂冈陈列：上层为914号前板，中层为独立棺盖932，下层为亚马逊战争石棺933"
+  },
+  "1932": {
+    "original": "Image_20261108001415_1932_19.jpg",
+    "number": 1932,
+    "role": "artwork",
+    "width": 1707,
+    "height": 1280,
+    "sha256": "59a0b64c90f1f8c5d6b386570a9628abf268b26f698811c0df47fcc1346247e9",
+    "bytes": 273329,
+    "object_ids": [
+      "r14"
+    ],
+    "rotation": 0,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1932-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1932-960.webp"
+      },
+      {
+        "width": 1600,
+        "file": "1932-1600.webp"
+      },
+      {
+        "width": 1707,
+        "file": "1932-1707.webp"
+      }
+    ],
+    "full": "1932-1707.webp",
+    "caption": "正面全景：交错的战士、马匹与下缘倒伏人物"
+  },
+  "1933": {
+    "original": "Image_20261108001415_1933_19.jpg",
+    "number": 1933,
+    "role": "label",
+    "width": 1280,
+    "height": 1707,
+    "sha256": "f12f0ec2422867b64e332167cfea59ecc815a3808d62f0dedd3e2603274d9328",
+    "bytes": 163704,
+    "object_ids": [
+      "r14"
+    ],
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1933-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1933-960.webp"
+      },
+      {
+        "width": 1280,
+        "file": "1933-1280.webp"
+      }
+    ],
+    "full": "1933-1280.webp",
+    "caption": "达拉斯艺术博物馆现场展牌"
+  },
+  "1934": {
+    "original": "Image_20261108001415_1934_19.jpg",
+    "number": 1934,
+    "role": "artwork",
+    "width": 1702,
+    "height": 1276,
+    "sha256": "34e42473228fdc2d69af15d31b3187561d4aa01d1873f8345b15a198264f505c",
+    "bytes": 427982,
+    "object_ids": [
+      "r15"
+    ],
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1934-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1934-960.webp"
+      },
+      {
+        "width": 1600,
+        "file": "1934-1600.webp"
+      },
+      {
+        "width": 1702,
+        "file": "1934-1702.webp"
+      }
+    ],
+    "full": "1934-1702.webp",
+    "caption": "石棺正面全景：中央女性与密涅瓦、缪斯"
+  },
+  "1935": {
+    "original": "Image_20261108001415_1935_19.jpg",
+    "number": 1935,
+    "role": "artwork",
+    "width": 1702,
+    "height": 1276,
+    "sha256": "c70bf42c3e8e11e9da93a50827873932b1a346ed05d51ab0d0086560bf2f2b60",
+    "bytes": 364088,
+    "object_ids": [
+      "r15"
+    ],
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1935-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1935-960.webp"
+      },
+      {
+        "width": 1600,
+        "file": "1935-1600.webp"
+      },
+      {
+        "width": 1702,
+        "file": "1935-1702.webp"
+      }
+    ],
+    "full": "1935-1702.webp",
+    "caption": "中央人物近照：卷轴、头盔与长衣褶线"
+  },
+  "1936": {
+    "original": "Image_20261108001415_1936_19.jpg",
+    "number": 1936,
+    "role": "artwork",
+    "width": 1702,
+    "height": 1276,
+    "sha256": "c694dd342384e41cf3837e5171ced1e027edc8f7509cd5c097b87ff285c42732",
+    "bytes": 207230,
+    "object_ids": [
+      "r15"
+    ],
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1936-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1936-960.webp"
+      },
+      {
+        "width": 1600,
+        "file": "1936-1600.webp"
+      },
+      {
+        "width": 1702,
+        "file": "1936-1702.webp"
+      }
+    ],
+    "full": "1936-1702.webp",
+    "caption": "短边狮鹫：翅膀与足爪的起伏"
+  },
+  "1937": {
+    "original": "Image_20261108001415_1937_19.jpg",
+    "number": 1937,
+    "role": "label",
+    "width": 1702,
+    "height": 1276,
+    "sha256": "3ed3384d4a5968f59b11ddda8de65716083388cc8389adb03dd301dae9bd42db",
+    "bytes": 223831,
+    "object_ids": [
+      "r15"
+    ],
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1937-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1937-960.webp"
+      },
+      {
+        "width": 1600,
+        "file": "1937-1600.webp"
+      },
+      {
+        "width": 1702,
+        "file": "1937-1702.webp"
+      }
+    ],
+    "full": "1937-1702.webp",
+    "caption": "纳尔逊现场展牌"
+  },
+  "1938": {
+    "original": "Image_20261108001415_1938_19.jpg",
+    "number": 1938,
+    "role": "artwork",
+    "width": 1702,
+    "height": 1276,
+    "sha256": "87804730f4346fad555e49f069f85e76c082ce7195472fefe41d7526c1947ff7",
+    "bytes": 413258,
+    "object_ids": [
+      "r16"
+    ],
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1938-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1938-960.webp"
+      },
+      {
+        "width": 1600,
+        "file": "1938-1600.webp"
+      },
+      {
+        "width": 1702,
+        "file": "1938-1702.webp"
+      }
+    ],
+    "full": "1938-1702.webp",
+    "caption": "正面全景：阿波罗、缪斯与其间的树木、持物"
+  },
+  "1939": {
+    "original": "Image_20261108001415_1939_19.jpg",
+    "number": 1939,
+    "role": "label",
+    "width": 1702,
+    "height": 1276,
+    "sha256": "3c07899b2a3945744dfacc6a1a0782531030b41f6ff42aad7d3b95be764baa3b",
+    "bytes": 218596,
+    "object_ids": [
+      "r16"
+    ],
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1939-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1939-960.webp"
+      },
+      {
+        "width": 1600,
+        "file": "1939-1600.webp"
+      },
+      {
+        "width": 1702,
+        "file": "1939-1702.webp"
+      }
+    ],
+    "full": "1939-1702.webp",
+    "caption": "纳尔逊现场展牌"
+  },
+  "1940": {
+    "original": "Image_20261108001415_1940_19.jpg",
+    "number": 1940,
+    "role": "artwork",
+    "width": 1707,
+    "height": 1280,
+    "sha256": "b08010486e5f21ce86b5fe1600c3f0ec0de68a8a7e3721c010731910fe29081f",
+    "bytes": 275786,
+    "object_ids": [
+      "r17"
+    ],
+    "rotation": 0,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1940-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1940-960.webp"
+      },
+      {
+        "width": 1600,
+        "file": "1940-1600.webp"
+      },
+      {
+        "width": 1707,
+        "file": "1940-1707.webp"
+      }
+    ],
+    "full": "1940-1707.webp",
+    "caption": "正面与棺盖：俄瑞斯忒斯的重复身影及上方四位卧女"
+  },
+  "1941": {
+    "original": "Image_20261108001415_1941_19.jpg",
+    "number": 1941,
+    "role": "label",
+    "width": 1280,
+    "height": 1707,
+    "sha256": "510dc5dff3ba6661050b86628941bb52004db050221dcd179497f75479f4c520",
+    "bytes": 223818,
+    "object_ids": [
+      "r17"
+    ],
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1941-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1941-960.webp"
+      },
+      {
+        "width": 1280,
+        "file": "1941-1280.webp"
+      }
+    ],
+    "full": "1941-1280.webp",
+    "caption": "克利夫兰现场展牌（下方石棺条目）"
+  },
+  "1942": {
+    "original": "Image_20261108001415_1942_19.jpg",
+    "number": 1942,
+    "role": "artwork",
+    "width": 1702,
+    "height": 1276,
+    "sha256": "b9d56198614989a47e2c5feb52f077246fa0ccb173007c220aaa5894b4c93c33",
+    "bytes": 362784,
+    "object_ids": [
+      "r18"
+    ],
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1942-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1942-960.webp"
+      },
+      {
+        "width": 1600,
+        "file": "1942-1600.webp"
+      },
+      {
+        "width": 1702,
+        "file": "1942-1702.webp"
+      }
+    ],
+    "full": "1942-1702.webp",
+    "caption": "正面全景：酒神队伍、右端卧女与后配采葡萄棺盖"
+  },
+  "1943": {
+    "original": "Image_20261108001415_1943_19.jpg",
+    "number": 1943,
+    "role": "label",
+    "width": 1702,
+    "height": 1276,
+    "sha256": "eb58c6b4f1d7ca02c2a190d0091575efcd938fd90628e9f99d3d7abde1b85f04",
+    "bytes": 261562,
+    "object_ids": [
+      "r18"
+    ],
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1943-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1943-960.webp"
+      },
+      {
+        "width": 1600,
+        "file": "1943-1600.webp"
+      },
+      {
+        "width": 1702,
+        "file": "1943-1702.webp"
+      }
+    ],
+    "full": "1943-1702.webp",
+    "caption": "沃尔特斯现场展牌"
+  },
+  "1944": {
+    "original": "Image_20261108001415_1944_19.jpg",
+    "number": 1944,
+    "role": "artwork",
+    "width": 1702,
+    "height": 1276,
+    "sha256": "fd30bc93fcb93345846377de9dfa4b822d39a878b8a89b11d862606ca3c50b63",
+    "bytes": 335735,
+    "object_ids": [
+      "r19"
+    ],
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1944-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1944-960.webp"
+      },
+      {
+        "width": 1600,
+        "file": "1944-1600.webp"
+      },
+      {
+        "width": 1702,
+        "file": "1944-1702.webp"
+      }
+    ],
+    "full": "1944-1702.webp",
+    "caption": "正面与棺盖：左端豹车、向右延伸的动物队列"
+  },
+  "1945": {
+    "original": "Image_20261108001415_1945_19.jpg",
+    "number": 1945,
+    "role": "label",
+    "width": 1702,
+    "height": 1276,
+    "sha256": "194ab9fb6525a8e1e735bc61f2bb99ee1fd65d72feadf064df7629ed0315a67c",
+    "bytes": 242914,
+    "object_ids": [
+      "r19"
+    ],
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1945-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1945-960.webp"
+      },
+      {
+        "width": 1600,
+        "file": "1945-1600.webp"
+      },
+      {
+        "width": 1702,
+        "file": "1945-1702.webp"
+      }
+    ],
+    "full": "1945-1702.webp",
+    "caption": "沃尔特斯现场展牌"
+  },
+  "1946": {
+    "original": "Image_20261108001415_1946_19.jpg",
+    "number": 1946,
+    "role": "artwork",
+    "width": 1366,
+    "height": 1024,
+    "sha256": "44f15de166865ba27d77bedafa30807811f3056a02e3db0a8450c7a7d69087a7",
+    "bytes": 173046,
+    "object_ids": [
+      "r20"
+    ],
+    "rotation": 0,
+    "display_width": 1366,
+    "display_height": 1024,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1946-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1946-960.webp"
+      },
+      {
+        "width": 1366,
+        "file": "1946-1366.webp"
+      }
+    ],
+    "full": "1946-1366.webp",
+    "caption": "前板全景：斜倚的酒神与向两侧展开的随从、动物行列"
+  },
+  "1947": {
+    "original": "Image_20261108001415_1947_19.jpg",
+    "number": 1947,
+    "role": "artwork",
+    "width": 1280,
+    "height": 960,
+    "sha256": "fa0890c051a3083bd4c7ebc82fd4dbb5db0a983dae476306e72c15213c9424a6",
+    "bytes": 146010,
+    "object_ids": [
+      "r20"
+    ],
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 960,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1947-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1947-960.webp"
+      },
+      {
+        "width": 1280,
+        "file": "1947-1280.webp"
+      }
+    ],
+    "full": "1947-1280.webp",
+    "caption": "酒神近景：葡萄叶冠、裸露胸腹与层叠垂下的衣褶"
+  },
+  "1948": {
+    "original": "Image_20261108001415_1948_19.jpg",
+    "number": 1948,
+    "role": "artwork",
+    "width": 1280,
+    "height": 960,
+    "sha256": "84341361e379a2347cc4039a76c2a9d6ec3845f4ba083cd6f42cd39bbb4129ee",
+    "bytes": 142012,
+    "object_ids": [
+      "r20"
+    ],
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 960,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1948-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1948-960.webp"
+      },
+      {
+        "width": 1280,
+        "file": "1948-1280.webp"
+      }
+    ],
+    "full": "1948-1280.webp",
+    "caption": "前板右侧局部：豹、小爱神与羊腿的潘神"
+  },
+  "1949": {
+    "original": "Image_20261108001415_1949_19.jpg",
+    "number": 1949,
+    "role": "artwork",
+    "width": 1280,
+    "height": 960,
+    "sha256": "2e8ae8652b0eed15d4d1af251b9ba85c463f277fc468243d6b9bae6590c0b5cc",
+    "bytes": 143012,
+    "object_ids": [
+      "r20"
+    ],
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 960,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1949-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1949-960.webp"
+      },
+      {
+        "width": 1280,
+        "file": "1949-1280.webp"
+      }
+    ],
+    "full": "1949-1280.webp",
+    "caption": "前板左侧局部：大象、象背人物与酒神随从"
+  },
+  "1950": {
+    "original": "Image_20261108001415_1950_19.jpg",
+    "number": 1950,
+    "role": "artwork",
+    "width": 1280,
+    "height": 1707,
+    "sha256": "1052ad78da6ff3f6e0dc0c04194a035477a89e3c2d2f9006ec8fadab5c6e4a6e",
+    "bytes": 389963,
+    "object_ids": [
+      "r20"
+    ],
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1950-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1950-960.webp"
+      },
+      {
+        "width": 1280,
+        "file": "1950-1280.webp"
+      }
+    ],
+    "full": "1950-1280.webp",
+    "caption": "同一原石棺的豹侧板：浅浮雕的身体与卷曲长尾"
+  },
+  "1951": {
+    "original": "Image_20261108001415_1951_19.jpg",
+    "number": 1951,
+    "role": "label",
+    "width": 1280,
+    "height": 1707,
+    "sha256": "1d1ac20936755356f26a5bda8c341130f1c581499140bf1b00c52c0ff319d9a9",
+    "bytes": 360556,
+    "object_ids": [
+      "r20"
+    ],
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1951-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1951-960.webp"
+      },
+      {
+        "width": 1280,
+        "file": "1951-1280.webp"
+      }
+    ],
+    "full": "1951-1280.webp",
+    "caption": "酒神凯旋前板现场展签"
+  },
+  "1952": {
+    "original": "Image_20261108001415_1952_19.jpg",
+    "number": 1952,
+    "role": "label",
+    "width": 1280,
+    "height": 1707,
+    "sha256": "7a82181efc2eb72f9c5a41e4be35ced37ba754be623d7478fc30c004d34f707d",
+    "bytes": 258967,
+    "object_ids": [
+      "r20"
+    ],
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1952-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1952-960.webp"
+      },
+      {
+        "width": 1280,
+        "file": "1952-1280.webp"
+      }
+    ],
+    "full": "1952-1280.webp",
+    "caption": "豹侧板现场展签：说明与前板的同源关系"
+  },
+  "1953": {
+    "original": "Image_20261108001415_1953_19.jpg",
+    "number": 1953,
+    "role": "artwork",
+    "width": 1707,
+    "height": 1280,
+    "sha256": "0785ad25e8406aafb2259a24ac12c3c500a374af477701b148296c70ce3aa178",
+    "bytes": 311792,
+    "object_ids": [
+      "r21"
+    ],
+    "rotation": 0,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1953-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1953-960.webp"
+      },
+      {
+        "width": 1600,
+        "file": "1953-1600.webp"
+      },
+      {
+        "width": 1707,
+        "file": "1953-1707.webp"
+      }
+    ],
+    "full": "1953-1707.webp",
+    "caption": "石棺长面：士兵、骑马女战士与两端跪姿俘虏"
+  },
+  "1954": {
+    "original": "Image_20261108001415_1954_19.jpg",
+    "number": 1954,
+    "role": "artwork",
+    "width": 1280,
+    "height": 1707,
+    "sha256": "686d9147123e84eb71c188fc55d0c6fad1156ee80be728742f1c493bac227a8b",
+    "bytes": 330183,
+    "object_ids": [
+      "r21"
+    ],
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1954-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1954-960.webp"
+      },
+      {
+        "width": 1280,
+        "file": "1954-1280.webp"
+      }
+    ],
+    "full": "1954-1280.webp",
+    "caption": "一端全景：三角山墙、圆盾与下方交战人物"
+  },
+  "1955": {
+    "original": "Image_20261108001415_1955_19.jpg",
+    "number": 1955,
+    "role": "artwork",
+    "width": 1280,
+    "height": 1707,
+    "sha256": "de4535ce59019c392d27df5fc777181726d1e6ed6fa0ae152e42d3e1a973a461",
+    "bytes": 337539,
+    "object_ids": [
+      "r21"
+    ],
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1955-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1955-960.webp"
+      },
+      {
+        "width": 1280,
+        "file": "1955-1280.webp"
+      }
+    ],
+    "full": "1955-1280.webp",
+    "caption": "另一端全景：两名骑者，其中一人头部已缺失"
+  },
+  "1956": {
+    "original": "Image_20261108001415_1956_19.jpg",
+    "number": 1956,
+    "role": "artwork",
+    "width": 1707,
+    "height": 1280,
+    "sha256": "973d665570923599bd84bd8d973c82e1992cc91fd522fc47d83db87b24d5b368",
+    "bytes": 369816,
+    "object_ids": [
+      "r21"
+    ],
+    "rotation": 0,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1956-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1956-960.webp"
+      },
+      {
+        "width": 1600,
+        "file": "1956-1600.webp"
+      },
+      {
+        "width": 1707,
+        "file": "1956-1707.webp"
+      }
+    ],
+    "full": "1956-1707.webp",
+    "caption": "另一条长边：连续对战组合与屋顶式棺盖"
+  },
+  "1957": {
+    "original": "Image_20261108001415_1957_19.jpg",
+    "number": 1957,
+    "role": "artwork",
+    "width": 1707,
+    "height": 1280,
+    "sha256": "6cea92ea049be23f9d480c59becdabb13b8ad74734925160804855c7107ac2c0",
+    "bytes": 378727,
+    "object_ids": [
+      "r21"
+    ],
+    "rotation": 0,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1957-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1957-960.webp"
+      },
+      {
+        "width": 1600,
+        "file": "1957-1600.webp"
+      },
+      {
+        "width": 1707,
+        "file": "1957-1707.webp"
+      }
+    ],
+    "full": "1957-1707.webp",
+    "caption": "交锋局部：圆盾士兵与举双刃斧的亚马逊女战士"
+  },
+  "1958": {
+    "original": "Image_20261108001415_1958_19.jpg",
+    "number": 1958,
+    "role": "artwork",
+    "width": 1707,
+    "height": 1280,
+    "sha256": "348babe777beabe39894208bbe6808125e82792df68f5be32ccb137f477cafba",
+    "bytes": 366565,
+    "object_ids": [
+      "r21"
+    ],
+    "rotation": 0,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1958-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1958-960.webp"
+      },
+      {
+        "width": 1600,
+        "file": "1958-1600.webp"
+      },
+      {
+        "width": 1707,
+        "file": "1958-1707.webp"
+      }
+    ],
+    "full": "1958-1707.webp",
+    "caption": "骑者局部：背向观者的身体、举起的矛与月牙形盾"
+  },
+  "1959": {
+    "original": "Image_20261108001415_1959_19.jpg",
+    "number": 1959,
+    "role": "label",
+    "width": 1707,
+    "height": 1280,
+    "sha256": "d587552010647d764d4262a7dfc12bfeb3294194225cf061335653473e0a6637",
+    "bytes": 233009,
+    "object_ids": [
+      "r21"
+    ],
+    "rotation": 0,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1959-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1959-960.webp"
+      },
+      {
+        "width": 1600,
+        "file": "1959-1600.webp"
+      },
+      {
+        "width": 1707,
+        "file": "1959-1707.webp"
+      }
+    ],
+    "full": "1959-1707.webp",
+    "caption": "亚马逊战争石棺现场展签"
+  },
+  "1960": {
+    "original": "Image_20261108001415_1960_19.jpg",
+    "number": 1960,
+    "role": "artwork",
+    "width": 1707,
+    "height": 1280,
+    "sha256": "8404774384267369b6e98cefcc4881dac2eb55a3dc57ba35882511441b3379be",
+    "bytes": 343046,
+    "object_ids": [
+      "r22"
+    ],
+    "rotation": 0,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1960-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1960-960.webp"
+      },
+      {
+        "width": 1600,
+        "file": "1960-1600.webp"
+      },
+      {
+        "width": 1707,
+        "file": "1960-1707.webp"
+      }
+    ],
+    "full": "1960-1707.webp",
+    "caption": "墨勒阿格洛斯遗体返回卡吕冬：前板全景"
+  },
+  "1961": {
+    "original": "Image_20261108001415_1961_19.jpg",
+    "number": 1961,
+    "role": "label",
+    "width": 1280,
+    "height": 1707,
+    "sha256": "a3508454ddffa42e6c75283715fcdec9d1dcc0c863052d295e776d55d21cf7ca",
+    "bytes": 325359,
+    "object_ids": [
+      "r22"
+    ],
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "width": 400,
+        "file": "1961-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "1961-960.webp"
+      },
+      {
+        "width": 1280,
+        "file": "1961-1280.webp"
+      }
+    ],
+    "full": "1961-1280.webp",
+    "caption": "墨勒阿格洛斯石棺前板现场展签"
+  },
+  "body-933": {
+    "source": "1931",
+    "crop": [
+      0.025,
+      0.48,
+      0.957,
+      0.997
+    ],
+    "caption": "亚马逊战争石棺933 · 原片局部",
+    "object_ids": [
+      "r13"
+    ],
+    "role": "crop",
+    "display_width": 1586,
+    "display_height": 660,
+    "variants": [
+      {
+        "width": 400,
+        "file": "body-933-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "body-933-960.webp"
+      },
+      {
+        "width": 1586,
+        "file": "body-933-1586.webp"
+      }
+    ],
+    "full": "body-933-1586.webp"
+  },
+  "lid-932": {
+    "source": "1931",
+    "crop": [
+      0.068,
+      0.278,
+      0.94,
+      0.481
+    ],
+    "caption": "Myron家族肖像铭文棺盖932 · 原片局部",
+    "object_ids": [
+      "r13-lid"
+    ],
+    "role": "crop",
+    "display_width": 1484,
+    "display_height": 259,
+    "variants": [
+      {
+        "width": 400,
+        "file": "lid-932-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "lid-932-960.webp"
+      },
+      {
+        "width": 1484,
+        "file": "lid-932-1484.webp"
+      }
+    ],
+    "full": "lid-932-1484.webp"
+  },
+  "panel-914": {
+    "source": "1931",
+    "crop": [
+      0.218,
+      0,
+      0.782,
+      0.296
+    ],
+    "caption": "门扉与缪斯前板914 · 原片局部，顶部未完整入镜",
+    "object_ids": [
+      "r23"
+    ],
+    "role": "crop",
+    "display_width": 960,
+    "display_height": 378,
+    "variants": [
+      {
+        "width": 400,
+        "file": "panel-914-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "panel-914-960.webp"
+      }
+    ],
+    "full": "panel-914-960.webp"
+  },
+  "portonaccio-rider": {
+    "source": "1924",
+    "crop": [
+      0.34,
+      0.28,
+      0.63,
+      0.76
+    ],
+    "caption": "中央骑手与相互交叠的人马 · 原片局部",
+    "object_ids": [
+      "r11"
+    ],
+    "role": "crop",
+    "display_width": 493,
+    "display_height": 613,
+    "variants": [
+      {
+        "width": 400,
+        "file": "portonaccio-rider-400.webp"
+      },
+      {
+        "width": 493,
+        "file": "portonaccio-rider-493.webp"
+      }
+    ],
+    "full": "portonaccio-rider-493.webp"
+  },
+  "panel-942": {
+    "source": "1930",
+    "crop": [
+      0,
+      0.43350908025776214,
+      1,
+      0.6736965436438196
+    ],
+    "caption": "将领接受降服场景石棺 · 942 · 原片局部",
+    "object_ids": [
+      "r24"
+    ],
+    "role": "crop",
+    "display_width": 1280,
+    "display_height": 410,
+    "variants": [
+      {
+        "width": 400,
+        "file": "panel-942-400.webp"
+      },
+      {
+        "width": 960,
+        "file": "panel-942-960.webp"
+      },
+      {
+        "width": 1280,
+        "file": "panel-942-1280.webp"
+      }
+    ],
+    "full": "panel-942-1280.webp"
+  }
+}

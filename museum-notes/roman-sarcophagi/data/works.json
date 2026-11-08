@@ -1,0 +1,1077 @@
+[
+  {
+    "id": "r01",
+    "title_zh": "百夫长卢基乌斯·普利乌斯·佩雷格里努斯石棺",
+    "viewing_museum": "卢浮宫",
+    "viewing_city": "巴黎",
+    "collection": "Fondazione Torlonia／托洛尼亚收藏",
+    "date_display": "240–250年",
+    "date_start": 240,
+    "date_end": 250,
+    "accession": "MT 424",
+    "photos": [
+      1902
+    ],
+    "labels": [
+      1903
+    ],
+    "theme": "缪斯与身份",
+    "priority": "重点",
+    "sources": [
+      "https://www.museotorlonia.org/torlonia-collection/sarcophagus-centurion-lucius-pullius-peregrinus",
+      "https://www.louvre.fr/agenda/expositions/chefs-d-oeuvre-de-la-collection-torlonia"
+    ],
+    "verification": "详见 source_ids 对应来源及限制；现场展牌与现行目录分别保存",
+    "material": "白色及普罗孔尼索斯大理石",
+    "date_kind": "range",
+    "source_ids": [
+      "S01",
+      "S05"
+    ],
+    "viewing_location_evidence": {
+      "type": "user_confirmation",
+      "confirmed_on": "2026-11-08",
+      "photo_numbers": [
+        1902
+      ],
+      "statement": "用户确认在卢浮宫拍摄。"
+    },
+    "visit_date": null,
+    "production_region": null,
+    "findspot": "拉丁大道附近；收藏方认为可能在昆蒂利别墅一带",
+    "cover": "1902",
+    "photo_order": [
+      "1902"
+    ],
+    "date_anchor": 245.0,
+    "title_en": "The Sarcophagus of Centurion Lucius Pullius Peregrinus",
+    "museum_id": "m1"
+  },
+  {
+    "id": "r02",
+    "title_zh": "赫拉克勒斯功业石棺",
+    "viewing_museum": "卢浮宫",
+    "viewing_city": "巴黎",
+    "collection": "Fondazione Torlonia／托洛尼亚收藏",
+    "date_display": "160–170年",
+    "date_start": 160,
+    "date_end": 170,
+    "accession": "MT 422",
+    "photos": [
+      1904
+    ],
+    "labels": [
+      1905
+    ],
+    "theme": "英雄神话",
+    "priority": "目录",
+    "sources": [
+      "https://www.museotorlonia.org/torlonia-collection/sarcofago-con-coperchio-e-decorato-con-fatiche-di-ercole",
+      "https://www.louvre.fr/agenda/expositions/chefs-d-oeuvre-de-la-collection-torlonia"
+    ],
+    "verification": "详见 source_ids 对应来源及限制；现场展牌与现行目录分别保存",
+    "material": "塔索斯大理石（现场展牌）；官网概称白色大理石",
+    "date_kind": "range",
+    "source_ids": [
+      "S02",
+      "S05"
+    ],
+    "viewing_location_evidence": {
+      "type": "user_confirmation",
+      "confirmed_on": "2026-11-08",
+      "photo_numbers": [
+        1904
+      ],
+      "statement": "用户确认在卢浮宫拍摄。"
+    },
+    "visit_date": null,
+    "production_region": null,
+    "findspot": "拉丁大道Roma Vecchia地块，塞特巴西别墅附近（展牌）",
+    "cover": "1904",
+    "photo_order": [
+      "1904"
+    ],
+    "date_anchor": 165.0,
+    "title_en": "Sarcophagus with lid and decorated with the Labours of Hercules",
+    "museum_id": "m1"
+  },
+  {
+    "id": "r03",
+    "title_zh": "狄俄尼索斯印度凯旋石棺",
+    "viewing_museum": "卢浮宫",
+    "viewing_city": "巴黎",
+    "collection": "Fondazione Torlonia／托洛尼亚收藏",
+    "date_display": "2世纪后半叶",
+    "date_start": 150,
+    "date_end": 200,
+    "accession": "MT 416",
+    "photos": [
+      1906
+    ],
+    "labels": [
+      1907
+    ],
+    "theme": "酒神",
+    "priority": "对照",
+    "sources": [
+      "https://www.museotorlonia.org/torlonia-collection/sarcophagus-indian-triumph-od-dionysus",
+      "https://www.louvre.fr/agenda/expositions/chefs-d-oeuvre-de-la-collection-torlonia"
+    ],
+    "verification": "详见 source_ids 对应来源及限制；现场展牌与现行目录分别保存",
+    "material": "塔索斯大理石",
+    "date_kind": "period",
+    "source_ids": [
+      "S03",
+      "S05"
+    ],
+    "viewing_location_evidence": {
+      "type": "user_confirmation",
+      "confirmed_on": "2026-11-08",
+      "photo_numbers": [
+        1906
+      ],
+      "statement": "用户确认在卢浮宫拍摄。"
+    },
+    "visit_date": null,
+    "production_region": null,
+    "findspot": null,
+    "cover": "1906",
+    "photo_order": [
+      "1906"
+    ],
+    "date_anchor": 175.0,
+    "title_en": "Sarcophagus with the Indian Triumph of Dionysus",
+    "museum_id": "m1"
+  },
+  {
+    "id": "r04",
+    "title_zh": "官员与妻子行列石棺",
+    "viewing_museum": "卢浮宫",
+    "viewing_city": "巴黎",
+    "collection": "Fondazione Torlonia／托洛尼亚收藏",
+    "date_display": "250–260年",
+    "date_start": 250,
+    "date_end": 260,
+    "accession": "MT 395",
+    "photos": [
+      1908
+    ],
+    "labels": [
+      1909
+    ],
+    "theme": "婚姻与身份",
+    "priority": "目录",
+    "sources": [
+      "https://www.museotorlonia.org/torlonia-collection/sarcophagus-processus-consularis",
+      "https://www.louvre.fr/agenda/expositions/chefs-d-oeuvre-de-la-collection-torlonia"
+    ],
+    "verification": "详见 source_ids 对应来源及限制；现场展牌与现行目录分别保存",
+    "material": "白色大理石",
+    "date_kind": "range",
+    "source_ids": [
+      "S04",
+      "S05"
+    ],
+    "viewing_location_evidence": {
+      "type": "user_confirmation",
+      "confirmed_on": "2026-11-08",
+      "photo_numbers": [
+        1908
+      ],
+      "statement": "用户确认在卢浮宫拍摄。"
+    },
+    "visit_date": null,
+    "production_region": "可能为小亚细亚（收藏方判断）",
+    "findspot": "Via Ardeatina一带（来源字段及现场展牌）",
+    "cover": "1908",
+    "photo_order": [
+      "1908"
+    ],
+    "date_anchor": 255.0,
+    "title_en": "Sarcophagus with Processus Consularis",
+    "museum_id": "m1"
+  },
+  {
+    "id": "r05",
+    "title_zh": "阿喀琉斯在斯基罗斯石棺",
+    "viewing_museum": "卢浮宫",
+    "viewing_city": "巴黎",
+    "collection": "卢浮宫",
+    "date_display": "约240年",
+    "date_start": 240,
+    "date_end": 240,
+    "accession": "Ma 2120",
+    "photos": [
+      1910
+    ],
+    "labels": [
+      1911
+    ],
+    "theme": "英雄神话",
+    "priority": "对照",
+    "sources": [
+      "https://collections.louvre.fr/ark:/53355/cl010276118"
+    ],
+    "verification": "详见 source_ids 对应来源及限制；现场展牌与现行目录分别保存",
+    "date_kind": "circa",
+    "dimensions_cm": {
+      "height": 122,
+      "width": 294,
+      "depth": 144
+    },
+    "production_place": "阿提卡（馆方目录）",
+    "source_ids": [
+      "S06"
+    ],
+    "visit_date": null,
+    "production_region": "阿提卡",
+    "findspot": "意大利（馆方目录）",
+    "cover": "1910",
+    "photo_order": [
+      "1910"
+    ],
+    "date_anchor": 240.0,
+    "title_original": "Sarcophage d’Achille à Skyros",
+    "material": "大理石（可能为彭特利科斯大理石）",
+    "museum_id": "m1"
+  },
+  {
+    "id": "r06",
+    "title_zh": "墨勒阿格洛斯之死石棺",
+    "viewing_museum": "卢浮宫",
+    "viewing_city": "巴黎",
+    "collection": "卢浮宫",
+    "date_display": "约180年",
+    "date_start": 180,
+    "date_end": 180,
+    "accession": "Ma 539",
+    "photos": [
+      1912
+    ],
+    "labels": [
+      1913
+    ],
+    "theme": "英雄悲剧",
+    "priority": "重点",
+    "sources": [
+      "https://collections.louvre.fr/ark:/53355/cl010278818"
+    ],
+    "verification": "详见 source_ids 对应来源及限制；现场展牌与现行目录分别保存",
+    "date_kind": "circa",
+    "dimensions_cm": {
+      "height": 75.5,
+      "width": 206,
+      "depth": 100
+    },
+    "production_place": "罗马（馆方目录）",
+    "source_ids": [
+      "S07"
+    ],
+    "visit_date": null,
+    "production_region": "罗马",
+    "findspot": "意大利（馆方目录）",
+    "cover": "1912",
+    "photo_order": [
+      "1912"
+    ],
+    "date_anchor": 180.0,
+    "title_original": "sarcophage",
+    "material": "大理石",
+    "museum_id": "m1"
+  },
+  {
+    "id": "r07",
+    "title_zh": "缪斯柱廊式石棺",
+    "viewing_museum": "罗马国家博物馆·马西莫宫",
+    "viewing_city": "罗马",
+    "collection": "罗马国家博物馆",
+    "date_display": "280–290年",
+    "date_start": 280,
+    "date_end": 290,
+    "accession": "80711（学术文献引馆藏目录）",
+    "photos": [
+      1914,
+      1915,
+      1916
+    ],
+    "labels": [
+      1917
+    ],
+    "theme": "缪斯与身份",
+    "priority": "对照",
+    "sources": [
+      "https://directory.uniroma2.it/index.php/schede/getCV/324",
+      "https://ancientrome.ru/art/artworken/img.htm?id=9570",
+      "https://www.researchgate.net/publication/360654257_The_Multiplicity_of_the_Muses_The_Reception_of_Antique_Images_of_the_Muses_in_Italy_1400-1600"
+    ],
+    "verification": "详见 source_ids 对应来源及限制；现场展牌与现行目录分别保存",
+    "date_kind": "range",
+    "source_ids": [
+      "S08",
+      "S09",
+      "S10"
+    ],
+    "visit_date": null,
+    "production_region": null,
+    "findspot": null,
+    "cover": "1914",
+    "photo_order": [
+      "1914",
+      "1915",
+      "1916"
+    ],
+    "date_anchor": 285.0,
+    "title_original": "Sarcofago con le Muse",
+    "material": "大理石（图像文献引馆签）",
+    "museum_id": "m2"
+  },
+  {
+    "id": "r08",
+    "title_zh": "安诺纳石棺（夫妇与粮食供给等人格化形象）",
+    "viewing_museum": "罗马国家博物馆·马西莫宫",
+    "viewing_city": "罗马",
+    "collection": "罗马国家博物馆",
+    "date_display": "270–280年",
+    "date_start": 270,
+    "date_end": 280,
+    "accession": "40799",
+    "photos": [
+      1918
+    ],
+    "labels": [
+      1919
+    ],
+    "theme": "婚姻与身份",
+    "priority": "对照",
+    "sources": [
+      "https://directory.uniroma2.it/index.php/schede/getCV/324",
+      "https://vcgdata.isti.cnr.it/publication/2015/SPPS15/",
+      "https://www.sciencedirect.com/science/article/abs/pii/S1296207418304679"
+    ],
+    "verification": "详见 source_ids 对应来源及限制；现场展牌与现行目录分别保存",
+    "date_kind": "range",
+    "source_ids": [
+      "S08",
+      "S11",
+      "S12"
+    ],
+    "visit_date": null,
+    "production_region": null,
+    "findspot": "罗马拉丁大道（现场展牌）",
+    "cover": "1918",
+    "photo_order": [
+      "1918"
+    ],
+    "date_anchor": 275.0,
+    "title_original": "Sarcofago con coppia di coniugi e personificazioni",
+    "museum_id": "m2"
+  },
+  {
+    "id": "r09",
+    "title_zh": "夫妇与狄俄斯库里双子石棺",
+    "viewing_museum": "罗马国家博物馆·马西莫宫",
+    "viewing_city": "罗马",
+    "collection": "罗马国家博物馆",
+    "date_display": "240–260年",
+    "date_start": 240,
+    "date_end": 260,
+    "accession": null,
+    "photos": [
+      1920
+    ],
+    "labels": [
+      1921
+    ],
+    "theme": "婚姻与身份",
+    "priority": "目录",
+    "sources": [
+      "https://directory.uniroma2.it/index.php/schede/getCV/324"
+    ],
+    "verification": "详见 source_ids 对应来源及限制；现场展牌与现行目录分别保存",
+    "date_kind": "range",
+    "source_ids": [
+      "S08"
+    ],
+    "viewing_location_evidence": {
+      "type": "user_confirmation",
+      "confirmed_on": "2026-11-08",
+      "photo_numbers": [
+        1920
+      ],
+      "statement": "用户确认在罗马国家博物馆·马西莫宫拍摄。"
+    },
+    "visit_date": null,
+    "production_region": null,
+    "findspot": "罗马阿庇亚大道（现场展牌）",
+    "cover": "1920",
+    "photo_order": [
+      "1920"
+    ],
+    "date_anchor": 250.0,
+    "title_original": "Sarcofago con coppia di coniugi e Dioscuri",
+    "museum_id": "m2"
+  },
+  {
+    "id": "r10",
+    "title_zh": "马库斯·克劳狄亚努斯石棺",
+    "viewing_museum": "罗马国家博物馆·马西莫宫",
+    "viewing_city": "罗马",
+    "collection": "罗马国家博物馆",
+    "date_display": "330–335年",
+    "date_start": 330,
+    "date_end": 335,
+    "accession": "455（NASSCAL记录）",
+    "photos": [
+      1922
+    ],
+    "labels": [
+      1923
+    ],
+    "theme": "早期基督教",
+    "priority": "对照",
+    "sources": [
+      "https://www.nasscal.com/materiae-apocryphorum/sarcophagus-of-marcus-claudianus/"
+    ],
+    "verification": "详见 source_ids 对应来源及限制；现场展牌与现行目录分别保存",
+    "date_kind": "range",
+    "source_ids": [
+      "S13"
+    ],
+    "visit_date": null,
+    "production_region": null,
+    "findspot": "罗马Via della Lungara，San Giacomo in Settimiano教堂附近",
+    "cover": "1922",
+    "photo_order": [
+      "1922"
+    ],
+    "date_anchor": 332.5,
+    "title_en": "Sarcophagus of Marcus Claudianus",
+    "material": "白色大理石",
+    "components": [
+      {
+        "name": "棺身",
+        "accession": "455"
+      },
+      {
+        "name": "带铭文的完整横条棺盖",
+        "relationship": "NASSCAL目录与现场照片对应"
+      }
+    ],
+    "museum_id": "m2"
+  },
+  {
+    "id": "r11",
+    "title_zh": "波尔托纳乔战争石棺",
+    "viewing_museum": "罗马国家博物馆·马西莫宫",
+    "viewing_city": "罗马",
+    "collection": "罗马国家博物馆",
+    "date_display": "180—190年",
+    "date_start": 180,
+    "date_end": 190,
+    "accession": "112327",
+    "photos": [
+      1924,
+      1925
+    ],
+    "labels": [
+      1926,
+      1927
+    ],
+    "theme": "战争",
+    "priority": "核心",
+    "sources": [
+      "https://museonazionaleromano.it/eventi/il-museo-ti-racconta/",
+      "https://wrap.warwick.ac.uk/id/eprint/40723/",
+      "https://ancientrome.ru/art/artworken/img.htm?id=4752"
+    ],
+    "verification": "详见 source_ids 对应来源及限制；现场展牌与现行目录分别保存",
+    "date_kind": "range",
+    "source_ids": [
+      "S14",
+      "S15",
+      "S16"
+    ],
+    "visit_date": null,
+    "production_region": null,
+    "findspot": null,
+    "cover": "1925",
+    "photo_order": [
+      "1925",
+      "1924"
+    ],
+    "date_anchor": 185.0,
+    "museum_id": "m2",
+    "material": "大理石"
+  },
+  {
+    "id": "r12",
+    "title_zh": "圣海伦娜紫斑岩石棺",
+    "viewing_museum": "梵蒂冈博物馆",
+    "viewing_city": "梵蒂冈城",
+    "collection": "梵蒂冈博物馆",
+    "date_display": "4世纪前期",
+    "date_start": 300,
+    "date_end": 350,
+    "accession": "238（现场展牌）",
+    "photos": [
+      1928
+    ],
+    "labels": [
+      1929
+    ],
+    "theme": "战争与帝室",
+    "priority": "对照",
+    "sources": [
+      "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/museo-pio-clementino/sala-a-croce-greca/sarcofago-di-s--elena.html"
+    ],
+    "verification": "详见 source_ids 对应来源及限制；现场展牌与现行目录分别保存",
+    "date_kind": "period",
+    "material": "红色紫斑岩",
+    "source_ids": [
+      "S17"
+    ],
+    "visit_date": null,
+    "production_region": null,
+    "findspot": null,
+    "cover": "1928",
+    "photo_order": [
+      "1928"
+    ],
+    "date_anchor": 325.0,
+    "title_en": "Sarcophagus St Helena",
+    "museum_id": "m3",
+    "viewing_venue": "庇护克莱孟馆 · 希腊十字厅"
+  },
+  {
+    "id": "r13",
+    "title_zh": "亚马逊战争石棺（阿喀琉斯与彭忒西勒亚）",
+    "viewing_museum": "梵蒂冈博物馆",
+    "viewing_city": "梵蒂冈城",
+    "collection": "梵蒂冈博物馆",
+    "date_display": "约230–250年",
+    "date_start": 230,
+    "date_end": 250,
+    "accession": "933（棺身）",
+    "photos": [
+      1931
+    ],
+    "labels": [],
+    "theme": "战争与英雄悲剧",
+    "priority": "重点",
+    "sources": [
+      "https://ancientrome.ru/art/artworken/img.htm?id=5464",
+      "https://ancientrome.ru/art/artworken/img.htm?id=5471"
+    ],
+    "verification": "详见 source_ids 对应来源及限制；现场展牌与现行目录分别保存",
+    "date_kind": "circa_range",
+    "components": [
+      {
+        "id": "r13-lid",
+        "accession": "932",
+        "title_zh": "Myron家族铭文与肖像棺盖",
+        "date_display": "3世纪",
+        "original_to_body": false,
+        "inscription_reference": "CIL VI 10742",
+        "source_ids": [
+          "S19"
+        ]
+      }
+    ],
+    "source_ids": [
+      "S18",
+      "S19"
+    ],
+    "visit_date": null,
+    "production_region": null,
+    "findspot": null,
+    "cover": "body-933",
+    "photo_order": [
+      "1931"
+    ],
+    "date_anchor": 240.0,
+    "museum_id": "m3",
+    "viewing_venue": "庇护克莱孟馆 · 八角庭院",
+    "material": "大理石"
+  },
+  {
+    "id": "r14",
+    "title_zh": "战争石棺",
+    "viewing_museum": "达拉斯艺术博物馆",
+    "viewing_city": "达拉斯",
+    "collection": "达拉斯艺术博物馆",
+    "date_display": "约190年",
+    "date_start": 190,
+    "date_end": 190,
+    "accession": "1999.107",
+    "photos": [
+      1932
+    ],
+    "labels": [
+      1933
+    ],
+    "theme": "战争",
+    "priority": "对照",
+    "sources": [
+      "https://artsandculture.google.com/asset/battle-sarcophagus/0QF5BZ1HA4uQQQ?hl=en"
+    ],
+    "verification": "详见 source_ids 对应来源及限制；现场展牌与现行目录分别保存",
+    "date_kind": "circa",
+    "dimensions_cm": {
+      "height": 63.5,
+      "width": 208.3,
+      "depth": 63.5
+    },
+    "source_ids": [
+      "S20"
+    ],
+    "visit_date": null,
+    "production_region": null,
+    "findspot": null,
+    "cover": "1932",
+    "photo_order": [
+      "1932"
+    ],
+    "date_anchor": 190.0,
+    "title_en": "Battle sarcophagus",
+    "material": "大理石",
+    "museum_id": "m5"
+  },
+  {
+    "id": "r15",
+    "title_zh": "亡者与缪斯石棺",
+    "viewing_museum": "纳尔逊—阿特金斯艺术博物馆",
+    "viewing_city": "堪萨斯城",
+    "collection": "纳尔逊—阿特金斯艺术博物馆",
+    "date_display": "240–260年",
+    "date_start": 240,
+    "date_end": 260,
+    "accession": "87-21",
+    "photos": [
+      1934,
+      1935,
+      1936
+    ],
+    "labels": [
+      1937
+    ],
+    "theme": "缪斯与身份",
+    "priority": "重点",
+    "sources": [
+      "https://art.nelson-atkins.org/objects/18921/muse-sarcophagus"
+    ],
+    "verification": "详见 source_ids 对应来源及限制；现场展牌与现行目录分别保存",
+    "date_kind": "range",
+    "dimensions_cm": {
+      "height": 82.55,
+      "width": 238.76,
+      "depth": 81.28
+    },
+    "source_ids": [
+      "S21"
+    ],
+    "visit_date": null,
+    "production_region": null,
+    "findspot": "罗马Vigna Casali，1872年",
+    "cover": "1934",
+    "photo_order": [
+      "1934",
+      "1935",
+      "1936"
+    ],
+    "date_anchor": 250.0,
+    "title_en": "Muse Sarcophagus",
+    "material": "大理石",
+    "museum_id": "m6"
+  },
+  {
+    "id": "r16",
+    "title_zh": "阿波罗与九缪斯石棺",
+    "viewing_museum": "纳尔逊—阿特金斯艺术博物馆",
+    "viewing_city": "堪萨斯城",
+    "collection": "纳尔逊—阿特金斯艺术博物馆",
+    "date_display": "150—180年",
+    "date_start": 150,
+    "date_end": 180,
+    "accession": "33-38",
+    "photos": [
+      1938
+    ],
+    "labels": [
+      1939
+    ],
+    "theme": "缪斯与身份",
+    "priority": "对照",
+    "sources": [
+      "https://art.nelson-atkins.org/objects/28562/sarcophagus"
+    ],
+    "verification": "详见 source_ids 对应来源及限制；现场展牌与现行目录分别保存",
+    "date_kind": "range",
+    "material": "卡拉拉大理石",
+    "dimensions_cm": {
+      "height": 54.61,
+      "width": 215.9,
+      "depth": 59.69
+    },
+    "source_ids": [
+      "S22"
+    ],
+    "visit_date": null,
+    "production_region": null,
+    "findspot": null,
+    "cover": "1938",
+    "photo_order": [
+      "1938"
+    ],
+    "date_anchor": 165.0,
+    "title_en": "Sarcophagus",
+    "museum_id": "m6"
+  },
+  {
+    "id": "r17",
+    "title_zh": "俄瑞斯忒斯石棺",
+    "viewing_museum": "克利夫兰艺术博物馆",
+    "viewing_city": "克利夫兰",
+    "collection": "克利夫兰艺术博物馆",
+    "date_display": "约100—125年",
+    "date_start": 100,
+    "date_end": 125,
+    "accession": "1928.856.a（棺身）；1928.856.b（棺盖）",
+    "photos": [
+      1940
+    ],
+    "labels": [
+      1941
+    ],
+    "theme": "英雄悲剧",
+    "priority": "重点",
+    "sources": [
+      "https://www.clevelandart.org/art/1928.856.a"
+    ],
+    "verification": "详见 source_ids 对应来源及限制；现场展牌与现行目录分别保存",
+    "date_kind": "circa_range",
+    "material": "希腊大理石",
+    "source_ids": [
+      "S23"
+    ],
+    "visit_date": null,
+    "production_region": "罗马，意大利（馆方地域归属）",
+    "findspot": null,
+    "cover": "1940",
+    "photo_order": [
+      "1940"
+    ],
+    "date_anchor": 112.5,
+    "title_en": "Sarcophagus",
+    "museum_id": "m7"
+  },
+  {
+    "id": "r18",
+    "title_zh": "狄俄尼索斯与阿里阿德涅石棺",
+    "viewing_museum": "沃尔特斯艺术博物馆",
+    "viewing_city": "巴尔的摩",
+    "collection": "沃尔特斯艺术博物馆",
+    "date_display": "190–200年",
+    "date_start": 190,
+    "date_end": 200,
+    "accession": "23.37",
+    "photos": [
+      1942
+    ],
+    "labels": [
+      1943
+    ],
+    "theme": "酒神",
+    "priority": "重点",
+    "sources": [
+      "https://art.thewalters.org/object/23.37/"
+    ],
+    "verification": "详见 source_ids 对应来源及限制；现场展牌与现行目录分别保存",
+    "date_kind": "range",
+    "material": "普罗孔尼索斯大理石",
+    "source_ids": [
+      "S24"
+    ],
+    "visit_date": null,
+    "production_region": null,
+    "findspot": "罗马（具体1885年所谓Licinian墓来源，馆方加方括号）",
+    "cover": "1942",
+    "photo_order": [
+      "1942"
+    ],
+    "date_anchor": 195.0,
+    "title_en": "Sarcophagus with Dionysus and Ariadne",
+    "museum_id": "m8"
+  },
+  {
+    "id": "r19",
+    "title_zh": "狄俄尼索斯凯旋石棺",
+    "viewing_museum": "沃尔特斯艺术博物馆",
+    "viewing_city": "巴尔的摩",
+    "collection": "沃尔特斯艺术博物馆",
+    "date_display": "约190年",
+    "date_start": 190,
+    "date_end": 190,
+    "accession": "23.31",
+    "photos": [
+      1944
+    ],
+    "labels": [
+      1945
+    ],
+    "theme": "酒神",
+    "priority": "对照",
+    "sources": [
+      "https://art.thewalters.org/object/23.31/"
+    ],
+    "verification": "详见 source_ids 对应来源及限制；现场展牌与现行目录分别保存",
+    "date_kind": "circa",
+    "material": "塔索斯大理石",
+    "source_ids": [
+      "S25"
+    ],
+    "visit_date": null,
+    "production_region": null,
+    "findspot": null,
+    "cover": "1944",
+    "photo_order": [
+      "1944"
+    ],
+    "date_anchor": 190.0,
+    "title_en": "Sarcophagus with the Triumph of Dionysus",
+    "museum_id": "m8"
+  },
+  {
+    "id": "r20",
+    "title_zh": "狄俄尼索斯印度凯旋石棺前板及豹侧板",
+    "viewing_museum": "休斯顿美术馆",
+    "viewing_city": "休斯顿",
+    "collection": "休斯顿美术馆",
+    "date_display": "180—195年",
+    "date_start": 180,
+    "date_end": 195,
+    "accession": "2003.53.1（前板）；2003.53.2（侧板）",
+    "photos": [
+      1946,
+      1947,
+      1948,
+      1949,
+      1950
+    ],
+    "labels": [
+      1951,
+      1952
+    ],
+    "theme": "酒神",
+    "priority": "核心",
+    "sources": [
+      "https://emuseum.mfah.org/objects/56084/sarcophagus-panel-with-the-indian-triumph-of-dionysus"
+    ],
+    "verification": "详见 source_ids 对应来源及限制；现场展牌与现行目录分别保存",
+    "date_kind": "range",
+    "components": [
+      {
+        "accession": "2003.53.1",
+        "date_display": "180–195年",
+        "photos": [
+          1946,
+          1947,
+          1948,
+          1949
+        ]
+      },
+      {
+        "accession": "2003.53.2",
+        "date_display": "2世纪晚期",
+        "photos": [
+          1950
+        ],
+        "evidence": "用户1952展牌"
+      }
+    ],
+    "dimensions_cm": {
+      "height": 87.6,
+      "width": 217.8,
+      "depth": 24.1
+    },
+    "source_ids": [
+      "S26",
+      "SH01"
+    ],
+    "visit_date": null,
+    "production_region": null,
+    "findspot": null,
+    "cover": "1946",
+    "photo_order": [
+      "1946",
+      "1947",
+      "1948",
+      "1949",
+      "1950"
+    ],
+    "date_anchor": 187.5,
+    "museum_id": "m9",
+    "material": "大理石",
+    "side_panel_label_date": "2世纪晚期"
+  },
+  {
+    "id": "r21",
+    "title_zh": "士兵与亚马逊女战士战争石棺",
+    "viewing_museum": "休斯顿美术馆",
+    "viewing_city": "休斯顿",
+    "collection": "休斯顿美术馆",
+    "date_display": "140–170年",
+    "date_start": 140,
+    "date_end": 170,
+    "accession": "2006.35.A,.B",
+    "photos": [
+      1953,
+      1954,
+      1955,
+      1956,
+      1957,
+      1958
+    ],
+    "labels": [
+      1959
+    ],
+    "theme": "战争",
+    "priority": "核心",
+    "sources": [
+      "https://emuseum.mfah.org/fr/objects/74957/sarcophagus-depicting-a-battle-between-soldiers-and-amazons"
+    ],
+    "verification": "详见 source_ids 对应来源及限制；现场展牌与现行目录分别保存",
+    "date_kind": "range",
+    "source_ids": [
+      "S27"
+    ],
+    "visit_date": null,
+    "production_region": null,
+    "findspot": null,
+    "cover": "1953",
+    "photo_order": [
+      "1953",
+      "1954",
+      "1955",
+      "1956",
+      "1957",
+      "1958"
+    ],
+    "date_anchor": 155.0,
+    "museum_id": "m9",
+    "material": "大理石"
+  },
+  {
+    "id": "r22",
+    "title_zh": "墨勒阿格洛斯遗体返回卡吕冬石棺前板",
+    "viewing_museum": "休斯顿美术馆",
+    "viewing_city": "休斯顿",
+    "collection": "休斯顿美术馆",
+    "date_display": "220–230年",
+    "date_start": 220,
+    "date_end": 230,
+    "accession": "76.228",
+    "photos": [
+      1960
+    ],
+    "labels": [
+      1961
+    ],
+    "theme": "英雄悲剧",
+    "priority": "重点",
+    "sources": [
+      "https://emuseum.mfah.org/objects/3554/sarcophagus-front-the-return-of-the-body-of-meleager-to-kal"
+    ],
+    "verification": "详见 source_ids 对应来源及限制；现场展牌与现行目录分别保存",
+    "date_kind": "range",
+    "dimensions_cm": {
+      "height": 62.9,
+      "width": 211.5,
+      "depth": 33
+    },
+    "source_ids": [
+      "S28"
+    ],
+    "visit_date": null,
+    "production_region": null,
+    "findspot": null,
+    "cover": "1960",
+    "photo_order": [
+      "1960"
+    ],
+    "date_anchor": 225.0,
+    "museum_id": "m9",
+    "material": "大理石"
+  },
+  {
+    "id": "r23",
+    "title_zh": "中央门扉、亡者夫妇与缪斯石棺前板",
+    "viewing_museum": "梵蒂冈博物馆",
+    "viewing_city": "梵蒂冈城",
+    "collection": "梵蒂冈博物馆",
+    "date_display": "3世纪中期",
+    "date_start": 200,
+    "date_end": 300,
+    "accession": "914",
+    "photos": [
+      1931
+    ],
+    "labels": [],
+    "theme": "缪斯与身份",
+    "priority": "关联深读",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:26-_Fronte_di_sarcofago_con_porta_dell%27Ade,_coppia_dei_defunti_e_Muse,_met%C3%A0_del_III_sec._d.C.jpg",
+      "https://www.researchgate.net/publication/360654257_The_Multiplicity_of_the_Muses_The_Reception_of_Antique_Images_of_the_Muses_in_Italy_1400-1600"
+    ],
+    "verification": "详见 source_ids 对应来源及限制；现场展牌与现行目录分别保存",
+    "date_kind": "period",
+    "components": [],
+    "source_ids": [
+      "S31",
+      "S10"
+    ],
+    "date_anchor": 250,
+    "visit_date": null,
+    "production_region": null,
+    "findspot": null,
+    "cover": "panel-914",
+    "photo_order": [
+      "1931"
+    ],
+    "museum_id": "m3",
+    "viewing_venue": "庇护克莱孟馆 · 八角庭院",
+    "date_evidence": "参考图像档案；非现行馆方断代"
+  },
+  {
+    "id": "r24",
+    "title_zh": "将领接受降服场景石棺",
+    "title_en": "Sarcophagus with the submission of defeated captives to a Roman general",
+    "viewing_museum": "梵蒂冈博物馆",
+    "viewing_city": "梵蒂冈城",
+    "collection": "梵蒂冈博物馆",
+    "museum_id": "m3",
+    "accession": "942",
+    "date_display": "约180年",
+    "date_kind": "circa",
+    "date_start": 180,
+    "date_end": 180,
+    "date_anchor": 180,
+    "photos": [
+      1930
+    ],
+    "labels": [],
+    "photo_order": [
+      "1930"
+    ],
+    "cover": "panel-942",
+    "theme": "战争",
+    "material": "大理石",
+    "source_ids": [
+      "SV1"
+    ],
+    "visit_date": null,
+    "production_region": null,
+    "findspot": null,
+    "verification": "Spinola馆藏目录公开转载与现场图像核对",
+    "viewing_venue": "庇护克莱孟馆 · 八角庭院"
+  }
+]
