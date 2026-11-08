@@ -1073,5 +1073,120 @@
     "findspot": null,
     "verification": "Spinola馆藏目录公开转载与现场图像核对",
     "viewing_venue": "庇护克莱孟馆 · 八角庭院"
+  },
+  {
+    "id": "r25",
+    "title_zh": "圣彼得与基督生平场景石棺",
+    "title_en": "Sarcophagus with Scenes from the Lives of Saint Peter and Christ",
+    "viewing_museum": "纽约大都会艺术博物馆",
+    "viewing_city": "纽约",
+    "collection": "纽约大都会艺术博物馆",
+    "museum_id": "m10",
+    "accession": "1991.366",
+    "date_display": "4世纪初，含约1910年补刻",
+    "date_kind": "period",
+    "date_start": 300,
+    "date_end": 333,
+    "date_anchor": 316.5,
+    "date_uncertain": false,
+    "photos": [
+      2007
+    ],
+    "labels": [
+      2008
+    ],
+    "photo_order": [
+      "2007"
+    ],
+    "cover": "met-peter-christ",
+    "theme": "早期基督教",
+    "material": "大理石",
+    "object_type": "棺身，原棺盖缺失",
+    "dimensions": "67.3 × 212.1 × 61.9厘米",
+    "culture": "Roman（罗马）",
+    "source_ids": [
+      "SMET1",
+      "SMET4"
+    ],
+    "visit_date": null,
+    "production_region": "罗马",
+    "findspot": null,
+    "verification": "馆方记录、现场合影与展牌核对",
+    "viewing_venue": "第五大道主馆；官网记300厅（核查于2026-11-08）"
+  },
+  {
+    "id": "r26",
+    "title_zh": "最后审判场景石棺盖",
+    "title_en": "Sarcophagus Lid with Last Judgement",
+    "viewing_museum": "纽约大都会艺术博物馆",
+    "viewing_city": "纽约",
+    "collection": "纽约大都会艺术博物馆",
+    "museum_id": "m10",
+    "accession": "24.240",
+    "date_display": "3世纪末—4世纪初（？）",
+    "date_kind": "range",
+    "date_start": 275,
+    "date_end": 325,
+    "date_anchor": 300.0,
+    "date_uncertain": true,
+    "photos": [
+      2007
+    ],
+    "labels": [],
+    "photo_order": [
+      "2007"
+    ],
+    "cover": "met-judgement-lid",
+    "theme": "早期基督教",
+    "material": "大理石",
+    "object_type": "独立棺盖",
+    "dimensions": "40.6 × 237.5 × 6.6厘米",
+    "culture": "Roman（罗马）",
+    "source_ids": [
+      "SMET2",
+      "SMET5"
+    ],
+    "visit_date": null,
+    "production_region": null,
+    "findspot": null,
+    "verification": "馆方记录、现场合影与展牌核对",
+    "viewing_venue": "第五大道主馆；官网记300厅（核查于2026-11-08）"
+  },
+  {
+    "id": "r27",
+    "title_zh": "基督授法场景大理石墓葬浮雕残片",
+    "title_en": "Fragment of a Marble Tomb Relief with Christ Giving the Law",
+    "viewing_museum": "纽约大都会艺术博物馆",
+    "viewing_city": "纽约",
+    "collection": "纽约大都会艺术博物馆",
+    "museum_id": "m10",
+    "accession": "48.76.2",
+    "date_display": "4世纪末",
+    "date_kind": "period",
+    "date_start": 375,
+    "date_end": 400,
+    "date_anchor": 387.5,
+    "date_uncertain": false,
+    "photos": [
+      2007
+    ],
+    "labels": [],
+    "photo_order": [
+      "2007"
+    ],
+    "cover": "met-traditio-legis",
+    "theme": "早期基督教",
+    "material": "大理石",
+    "object_type": "墓葬浮雕残片",
+    "dimensions": "49.5 × 134 × 15.2厘米",
+    "culture": "Byzantine（拜占庭）",
+    "source_ids": [
+      "SMET3"
+    ],
+    "visit_date": null,
+    "production_region": null,
+    "findspot": null,
+    "verification": "馆方记录、现场合影与展牌核对",
+    "viewing_venue": "第五大道主馆；官网记300厅（核查于2026-11-08）"
   }
 ]

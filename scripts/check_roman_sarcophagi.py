@@ -8,10 +8,10 @@ ROOT=Path(__file__).resolve().parents[1];BASE=ROOT/'museum-notes/roman-sarcophag
 def load(name):return json.loads((BASE/f'data/{name}.json').read_text())
 w=load('works');p=load('photos');s=load('sources');notes=load('editorial');chapters=load('sections');m=load('museums')
 by={o['id']:o for o in w};sb={x['id'] for x in s}
-assert len(w)==len(by)==24 and len(m)==8
+assert len(w)==len(by)==27 and len(m)==9
 assert Counter(i for c in chapters for i in c['works'])==Counter(by.keys())
-assert len([x for x in p.values() if x.get('original')])==60
-assert len([x for x in p.values() if x['role']=='label'])==23
+assert len([x for x in p.values() if x.get('original')])==62
+assert len([x for x in p.values() if x['role']=='label'])==24
 assert p['1930']['object_ids']==['r24']
 assert set(p['1931']['object_ids'])=={'r13','r23','r13-lid'}
 assert by['r13']['photos']==by['r23']['photos']==[1931]
@@ -50,8 +50,8 @@ for group in comparisons:
  for paragraph in group.get('notes',[]):assert set(paragraph.get('source_ids',[]))<=sb
 stories=load('stories')
 assert len(stories['myths'])==9 and len(stories['contexts'])==5
-entries=stories['myths']+stories['contexts'];entry_ids={x['id'] for x in entries}
-assert len(entry_ids)==14
+entries=stories['myths']+stories['contexts'];backgrounds=stories.get('backgrounds',[]);entry_ids={x['id'] for x in entries+backgrounds}
+assert len(entry_ids)==14+len(backgrounds)
 for entry in entries:
  assert set(entry['works'])<=set(by)
  paragraphs=([entry['story']]+entry['look']+entry['version']) if 'story' in entry else [entry['text']]
@@ -61,6 +61,14 @@ for entry in entries:
   assert 80<=len(entry['preview'])<=120
   assert 2<=len(entry['look'])<=3
  else:assert 100<=len(entry['text']['text'])<=180
+for entry in backgrounds:
+ assert set(entry['works'])<=set(by)
+ for section in entry['sections']:
+  for paragraph in section['paragraphs']:assert set(paragraph.get('source_ids',[]))<=sb
+assert p['2007']['object_ids']==['r25','r26','r27'] and p['2008']['object_ids']==['r25']
+assert by['r25']['labels']==[2008] and not by['r26']['labels'] and not by['r27']['labels']
+assert by['r26']['date_uncertain'] and '？' in by['r26']['date_display']
+assert by['r27']['culture']=='Byzantine（拜占庭）'
 for wid,context in stories['context_previews'].items():
  assert wid in by and context['entry'] in entry_ids
  assert 80<=len(context['text'])<=120
@@ -76,7 +84,7 @@ class Page(HTMLParser):
   if a.get('srcset'):self.links.extend(x.strip().split()[0] for x in a['srcset'].split(','))
   if tag=='img':self.images.append(a)
 parsed={f:Page(f.read_text()) for f in BASE.rglob('*.html')}
-assert len(parsed)==29
+assert len(parsed)==len(w)+5
 for file,doc in parsed.items():
  assert len(doc.ids)==len(set(doc.ids)),file
  for img in doc.images:
@@ -106,4 +114,4 @@ assert 'history/#field-card' in (BASE/'atlas/index.html').read_text()
 assert 'href="history/"' in (BASE/'index.html').read_text()
 assert 'roman-sarcophagi/' in (ROOT/'museum-notes/index.html').read_text()
 assert not list(BASE.rglob('*.pdf'))
-print('Roman checks passed: 24 canonical records, 8 viewing institutions, 60 unchanged originals, 5 honest crops, 29 pages; sources, date types, identity corrections and local links valid.')
+print(f'Roman checks passed: {len(w)} canonical records, {len(m)} viewing institutions, {sum(bool(x.get("original")) for x in p.values())} unchanged originals, {sum(bool(x.get("crop")) for x in p.values())} honest crops, {len(parsed)} pages; sources, dates, matching and links valid.')

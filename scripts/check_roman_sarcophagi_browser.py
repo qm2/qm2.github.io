@@ -19,6 +19,32 @@ async def main():
      await page.evaluate('''async()=>{await Promise.all([...document.querySelectorAll('main img')].map(async i=>{i.loading='eager';await i.decode()}))}''')
      await page.screenshot(path=f'/tmp/roman-{width}-{slug.replace("/","") or "home"}.png',full_page=True)
     report.append({'width':width,'page':slug,'overflow':overflow})
+   # Three Met objects share one photograph, while only the lower object has a label.
+   for slug in ['r25/', 'r26/', 'r27/']:
+    await page.goto(BASE+slug,wait_until='networkidle')
+    await page.locator('main img').first.evaluate('(e)=>e.decode()')
+    assert not await page.evaluate('document.documentElement.scrollWidth>innerWidth')
+    await page.locator('main a[data-photo]').first.click()
+    assert '2007_19.jpg' in await page.locator('#original-photo').get_attribute('href')
+    await page.keyboard.press('Escape')
+    assert await page.locator('#labels').count()==(1 if slug=='r25/' else 0)
+   await page.goto(BASE+'r25/',wait_until='networkidle')
+   await page.locator('.rs-restoration-pair').scroll_into_view_if_needed()
+   await page.screenshot(path=f'/tmp/roman-met-restoration-{width}.png',full_page=False)
+   await page.locator('.rs-restoration-pair a[data-photo]').last.click()
+   assert '2008_19.jpg' in await page.locator('#original-photo').get_attribute('href')
+   await page.keyboard.press('Escape')
+   await page.goto(BASE+'stories/#peter-christ',wait_until='networkidle')
+   assert await page.locator('#peter-christ').evaluate('(e)=>e.open')
+   await page.goto(BASE+'atlas/',wait_until='networkidle')
+   await page.locator('.rs-maps [data-map-museum="m10"]').click()
+   assert await page.locator('[data-record]:not([hidden])').count()==3
+   assert await page.locator('[data-time-record]:not([hidden])').count()==3
+   await page.locator('.rs-timeline summary').click()
+   assert '400' in await page.locator('.rs-time-axis').inner_text()
+   assert await page.locator('[data-time-record="r27"] i').evaluate('(e)=>parseFloat(e.style.left)<=100')
+   await page.locator('#map').scroll_into_view_if_needed()
+   await page.screenshot(path=f'/tmp/roman-met-map-{width}.png',full_page=False)
    # Reference anchors expand, keep headings upright, and link back to seen objects.
    stories=json.loads((ROOT/'museum-notes/roman-sarcophagi/data/stories.json').read_text())
    await page.goto(BASE+'stories/',wait_until='networkidle')
@@ -96,10 +122,10 @@ async def main():
    assert await label.evaluate('(x)=>x.naturalHeight>x.naturalWidth')
    await page.locator('.rs-labels a[data-photo]').click();assert '1913' in await page.locator('#large-photo').get_attribute('src');await page.keyboard.press('Escape')
    # Filtering restores back/forward and drives chronology.
-   await page.goto(BASE+'atlas/',wait_until='networkidle');assert await page.locator('[data-record]:not([hidden])').count()==24
+   await page.goto(BASE+'atlas/',wait_until='networkidle');assert await page.locator('[data-record]:not([hidden])').count()==27
    await page.locator('#rs-museum').select_option(label='休斯顿美术馆');assert await page.locator('[data-record]:not([hidden])').count()==3
    assert await page.locator('[data-time-record]:not([hidden])').count()==3
-   await page.locator('#rs-clear').click();assert await page.locator('[data-record]:not([hidden])').count()==24
+   await page.locator('#rs-clear').click();assert await page.locator('[data-record]:not([hidden])').count()==27
    await page.go_back();assert await page.locator('[data-record]:not([hidden])').count()==3
    await page.locator('#rs-clear').click();await page.locator('#rs-search').fill('缪斯');assert await page.locator('[data-record]:not([hidden])').count()>=4
    await page.locator('#rs-clear').click();await page.locator('.rs-museum-list [data-map-museum]').first.click();assert await page.locator('[data-record]:not([hidden])').count()==6
@@ -112,5 +138,5 @@ async def main():
    failures=await page.evaluate('''async()=>{const failures=[];await Promise.all([...document.querySelectorAll('main img')].map(async i=>{i.loading='eager';try{await i.decode()}catch(e){failures.push(i.src)}}));return failures}''')
    assert not failures,(w['id'],failures)
   await browser.close();assert not errors,errors
-  Path('/tmp/roman-browser-report.json').write_text(json.dumps(report,indent=2));print('Desktop/mobile: home, 9 representative routes, 14 story/context anchors, nested nine-Muses table, bidirectional story/label links, history guide, field-card anchor, comparison proportions, gallery, zoom, original links, rotated label, filters/history/timeline passed. All 24 detail-page images decoded. No console errors.')
+  Path('/tmp/roman-browser-report.json').write_text(json.dumps(report,indent=2));print('Desktop/mobile: home, 9 representative routes, 14 story/context anchors, nested nine-Muses table, bidirectional story/label links, history guide, field-card anchor, comparison proportions, gallery, zoom, original links, rotated label, filters/history/timeline passed. All canonical detail-page images decoded; Met original/label matching and extended timeline passed. No console errors.')
 asyncio.run(main())

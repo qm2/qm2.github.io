@@ -548,5 +548,45 @@
       "九缪斯中文姓名"
     ],
     "limitations": "不宣称各译名唯一。"
+  },
+  {
+    "id": "SMET1",
+    "title": "大都会：圣彼得与基督生平场景石棺，1991.366",
+    "url": "https://www.metmuseum.org/art/collection/search/466220",
+    "kind": "馆方记录／学术研究",
+    "access": "核读馆藏说明、基本资料与音频文字。未采用音频中关于四世纪有须基督的绝对化断言。",
+    "checked": "2026-11-08"
+  },
+  {
+    "id": "SMET2",
+    "title": "大都会：最后审判场景石棺盖，24.240",
+    "url": "https://www.metmuseum.org/art/collection/search/466583",
+    "kind": "馆方记录／学术研究",
+    "access": "核读馆藏说明与基本资料；年代问号原样保留。",
+    "checked": "2026-11-08"
+  },
+  {
+    "id": "SMET3",
+    "title": "大都会：基督授法墓葬浮雕残片，48.76.2",
+    "url": "https://www.metmuseum.org/art/collection/search/468269",
+    "kind": "馆方记录／学术研究",
+    "access": "核读馆藏说明与基本资料；保留Byzantine分类。",
+    "checked": "2026-11-08"
+  },
+  {
+    "id": "SMET4",
+    "title": "Helen Evans，An Early Christian Sarcophagus from Rome: Lost and Found，Metropolitan Museum Journal 28（1993），77–84页",
+    "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Early_Christian_Sarcophagus_from_Rome_Lost_and_Found_The_Metropolitan_Museum_Journal_v_28_1993.pdf",
+    "kind": "馆方记录／学术研究",
+    "access": "直接核读全文及图6；修复边界、原叙事与收藏史见79–83页。所引Garrucci原书未独立通读；不沿用旧文存世数量或唯一性判断。",
+    "checked": "2026-11-08"
+  },
+  {
+    "id": "SMET5",
+    "title": "《马太福音》25:31–46，和合本",
+    "url": "https://www.biblegateway.com/passage/?search=Matthew%2025%3A31-46&version=CUVS",
+    "kind": "原典",
+    "access": "核读经文；用于绵羊与山羊比喻，不用于作品断代。",
+    "checked": "2026-11-08"
   }
 ]

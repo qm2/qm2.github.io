@@ -1,0 +1,46 @@
+{
+  "checked": "2026-11-08",
+  "photo_matching": {
+    "2007": {
+      "bottom": "r25 / 1991.366",
+      "middle": "r26 / 24.240",
+      "top": "r27 / 48.76.2"
+    },
+    "2008": [
+      "r25"
+    ]
+  },
+  "directly_read": [
+    {
+      "source": "Met object records 466220, 466583, 468269",
+      "scope": "Descriptions, facts, credits and displayed current location; current display not treated as visit date."
+    },
+    {
+      "source": "Helen Evans, Metropolitan Museum Journal 28 (1993), pp.77–84",
+      "scope": "Full eight-page article text, fig.6 compared with photographed label. pp.79–82: breaks, engraving, narrative reconstruction; pp.82–83: collection history. Footnote bibliography is not independent reading."
+    },
+    {
+      "source": "Matthew 25:31–46, CUVS via Bible Gateway",
+      "scope": "Sheep/goats and right/left, care for those in need."
+    }
+  ],
+  "reproduction": "1879 Garrucci plate314 fig4 shown only as a crop of Merton’s photographed museum label. Original book not independently read; historical engraving is not a measured reconstruction. No external artwork images or PDF pages stored publicly.",
+  "decisions": [
+    "Do not repeat audio’s absolute claim about all fourth-century images of Christ being beardless.",
+    "No modern-versus-antique boundary drawn on the photograph.",
+    "Side scenes explained with links to Met and Evans figures2–3; user photo has no side views.",
+    "No existing classical comparison group matched the new subject; compare page adds a compact reading link rather than inflating numbered comparison groups."
+  ],
+  "unresolved": [
+    "Exact original grave and patron of1991.366",
+    "Precise date of24.240 (museum question mark retained)",
+    "Original architectural or funerary placement of48.76.2",
+    "Detailed modern restoration commission and movement dates not established beyond source qualifications"
+  ],
+  "validation": {
+    "build": "build_museum.py and check_roman_sarcophagi.py passed",
+    "browser": "Full Chromium suite at1440/390/320px passed; 27 detail pages decoded, 3 new original links, label association, restoration image, New York filter and 400-year axis tested.",
+    "visual_followup": "Scoped restoration definition-list layout and New York label spacing corrected after screenshots, then checked again at all three widths.",
+    "assets": "2 original JPEGs unchanged, 3 object crops + 1 label illustration crop, no external photographs or PDF pages"
+  }
+}
