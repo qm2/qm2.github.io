@@ -1,0 +1,144 @@
+[
+  {
+    "start": -900,
+    "end": -750,
+    "title": "村落、火葬与身份",
+    "summary": "从双锥形骨灰瓮和茅屋形瓮看村落社会及身份表达。",
+    "object_ids": [
+      "e028",
+      "e029",
+      "e027"
+    ],
+    "kind": "ancient_context",
+    "source_basis": "现场p052/p344/p362/p373及对应展签；S04/S11/S12/S14补证"
+  },
+  {
+    "start": -750,
+    "end": -600,
+    "title": "东方化时期与贵族墓葬",
+    "summary": "远程交流与贵族财富使金属器、鸵鸟蛋和精细金工相遇；“东方化”是艺术史术语。",
+    "object_ids": [
+      "e001",
+      "e003",
+      "e004",
+      "e010",
+      "e022",
+      "e047"
+    ],
+    "kind": "ancient_context",
+    "source_basis": "现场p052/p344/p362/p373及对应展签；S04/S11/S12/S14补证"
+  },
+  {
+    "start": -600,
+    "end": -480,
+    "title": "古风时期的城市与神庙",
+    "summary": "黑陶、希腊工匠、彩绘屋顶和夫妇形象。",
+    "object_ids": [
+      "e035",
+      "e091",
+      "e105",
+      "e111",
+      "e121"
+    ],
+    "kind": "ancient_context",
+    "source_basis": "现场p052/p344/p362/p373及对应展签；S04/S11/S12/S14补证"
+  },
+  {
+    "start": -480,
+    "end": -300,
+    "title": "神祇、宴饮与文字",
+    "summary": "多种工坊并行；铜镜、青铜像和红绘器承载本地化神话。",
+    "object_ids": [
+      "e045",
+      "e084",
+      "e096",
+      "e109"
+    ],
+    "kind": "ancient_context",
+    "source_basis": "现场p052/p344/p362/p373及对应展签；S04/S11/S12/S14补证"
+  },
+  {
+    "start": -300,
+    "end": -100,
+    "title": "希腊化时期与罗马扩张",
+    "summary": "骨灰瓮、送别图像和还愿传统继续；不要只用“衰落”概括所有城市。",
+    "object_ids": [
+      "e120",
+      "e123",
+      "e129",
+      "e130",
+      "e131"
+    ],
+    "kind": "ancient_context",
+    "source_basis": "现场p052/p344/p362/p373及对应展签；S04/S11/S12/S14补证"
+  },
+  {
+    "start": -89,
+    "end": -89,
+    "title": "获得罗马公民权的历史节点",
+    "summary": "据p362展墙，前89年伊特鲁里亚人与半岛其他人群获罗马公民权。此处是背景事件，不是所有器物的断代。",
+    "object_ids": [],
+    "kind": "ancient_context",
+    "source_basis": "现场p052/p344/p362/p373及对应展签；S04/S11/S12/S14补证"
+  },
+  {
+    "start": -100,
+    "end": 100,
+    "title": "宗教与形象跨越政权变化",
+    "summary": "拉丁文献辞和公元1世纪Veiovis像，展示文化传统与政治年代不重合。",
+    "object_ids": [
+      "e122",
+      "e125",
+      "e126"
+    ],
+    "kind": "ancient_context",
+    "source_basis": "现场p052/p344/p362/p373及对应展签；S04/S11/S12/S14补证"
+  },
+  {
+    "start": 1836,
+    "end": 1836,
+    "title": "Regolini–Galassi墓被发现",
+    "summary": "重新发现的历史与文物制作年代分别展示。",
+    "object_ids": [
+      "e001",
+      "e007",
+      "e010"
+    ],
+    "kind": "modern_discovery",
+    "source_basis": "现场p052/p344/p362/p373及对应展签；S04/S11/S12/S14补证"
+  },
+  {
+    "start": 2010,
+    "end": 2010,
+    "title": "Hinthial供养青年重见天日",
+    "summary": "现代发现事件：不能让公元2010年进入古代制作年代筛选。",
+    "object_ids": [
+      "e129"
+    ],
+    "kind": "modern_discovery",
+    "source_basis": "现场p052/p344/p362/p373及对应展签；S04/S11/S12/S14补证"
+  },
+  {
+    "start": 2012,
+    "end": 2012,
+    "title": "银手墓发现",
+    "summary": "据现场展签；2013年修复由ICR条目另证。",
+    "object_ids": [
+      "e112"
+    ],
+    "kind": "modern_discovery",
+    "source_basis": "现场p052/p344/p362/p373及对应展签；S04/S11/S12/S14补证"
+  },
+  {
+    "start": 2022,
+    "end": 2022,
+    "title": "San Casciano dei Bagni温泉青铜发现受到关注",
+    "summary": "近年考古发现为疗愈与双语奉献提供新证据；本批展品断代仍在前3—1世纪。",
+    "object_ids": [
+      "e130",
+      "e131"
+    ],
+    "kind": "modern_discovery",
+    "source_basis": "现场p052/p344/p362/p373及对应展签；S04/S11/S12/S14补证"
+  }
+]

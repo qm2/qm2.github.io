@@ -1,0 +1,238 @@
+[
+  {
+    "term": "Etruria",
+    "term_zh": "伊特鲁里亚地区",
+    "meaning": "核心在阿尔诺河与台伯河之间；文化活动超出核心区域。",
+    "object_ids": [
+      "e001",
+      "e054"
+    ]
+  },
+  {
+    "term": "Faliscan",
+    "term_zh": "Faliscan",
+    "meaning": "邻接伊特鲁里亚的语言与文化群体；密切交流不等于两者完全相同。",
+    "object_ids": [
+      "e018",
+      "e022",
+      "e063"
+    ]
+  },
+  {
+    "term": "Orientalizing",
+    "term_zh": "东方化时期",
+    "meaning": "交流加深、奢侈品与动物母题显著的艺术史阶段，约前8世纪后期—前7世纪；并非每件都来自东方。",
+    "object_ids": [
+      "e003",
+      "e009",
+      "e010"
+    ]
+  },
+  {
+    "term": "impasto",
+    "term_zh": "粗颗粒陶质传统",
+    "meaning": "描述陶质与制陶传统，器形可以非常复杂。",
+    "object_ids": [
+      "e019",
+      "e024",
+      "e025"
+    ]
+  },
+  {
+    "term": "bucchero",
+    "term_zh": "伊特鲁里亚黑陶",
+    "meaning": "特征性黑色进入胎体，与缺氧烧成相关；非单纯表面黑漆。",
+    "object_ids": [
+      "e035",
+      "e041"
+    ]
+  },
+  {
+    "term": "bucchero pesante",
+    "term_zh": "厚壁黑陶",
+    "meaning": "较厚重、常见复杂浮雕或附饰的黑陶类型；不能只靠重量自行定名。",
+    "object_ids": [
+      "e036",
+      "e038"
+    ]
+  },
+  {
+    "term": "black-figure / red-figure",
+    "term_zh": "黑绘／红绘",
+    "meaning": "前者人物多为黑色剪影，以刻划补细节；后者多留陶土色人物、黑底画线。技法不等于制作文化。",
+    "object_ids": [
+      "e091",
+      "e096"
+    ]
+  },
+  {
+    "term": "granulation",
+    "term_zh": "金粒焊缀",
+    "meaning": "把极小金粒排列并固定于表面，形成点、线和面。",
+    "object_ids": [
+      "e005",
+      "e066"
+    ]
+  },
+  {
+    "term": "filigree",
+    "term_zh": "金丝细工",
+    "meaning": "以细金丝组织线条与装饰，和金粒技法区分。",
+    "object_ids": [
+      "e066"
+    ]
+  },
+  {
+    "term": "gilded silver",
+    "term_zh": "鎏金银",
+    "meaning": "金色表层之下为银，不能等同实心金器。",
+    "object_ids": [
+      "e004",
+      "e009"
+    ]
+  },
+  {
+    "term": "fibula",
+    "term_zh": "衣针",
+    "meaning": "固定衣物的针扣，不要与现代医学腓骨名称混淆。残弓、承接片并非完整针。",
+    "object_ids": [
+      "e069",
+      "e075",
+      "e076"
+    ]
+  },
+  {
+    "term": "bulla",
+    "term_zh": "护符盒",
+    "meaning": "可佩戴的保护性小盒；儿童像所戴护符与单件护符可比较。",
+    "object_ids": [
+      "e044",
+      "e045"
+    ]
+  },
+  {
+    "term": "cinerary urn",
+    "term_zh": "骨灰瓮",
+    "meaning": "容纳火化后遗骨的器物，可呈建筑、人首或全身形。",
+    "object_ids": [
+      "e022",
+      "e114",
+      "e121"
+    ]
+  },
+  {
+    "term": "sarcophagus",
+    "term_zh": "石棺／大型棺具",
+    "meaning": "容纳未火化身体的棺具；本批e115只是一件棺盖。",
+    "object_ids": [
+      "e115"
+    ]
+  },
+  {
+    "term": "cippus",
+    "term_zh": "墓标",
+    "meaning": "墓地标识或纪念物，常带浮雕和铭文，非骨灰瓮的同义词。",
+    "object_ids": [
+      "e113",
+      "e123"
+    ]
+  },
+  {
+    "term": "canopic urn",
+    "term_zh": "人首盖骨灰瓮",
+    "meaning": "现代类型名借自埃及器类；伊特鲁里亚实例盛火化遗骨，不是盛内脏。",
+    "object_ids": [
+      "e114",
+      "e117"
+    ]
+  },
+  {
+    "term": "prothesis",
+    "term_zh": "停灵／陈放遗体",
+    "meaning": "安置遗体供哀悼的仪式阶段，可由人物与随侍动作辨认。",
+    "object_ids": [
+      "e113",
+      "e116"
+    ]
+  },
+  {
+    "term": "hydria",
+    "term_zh": "水罐",
+    "meaning": "通常有搬持与倾倒用的不同把手；器形功能与图像一起看。",
+    "object_ids": [
+      "e091",
+      "e036"
+    ]
+  },
+  {
+    "term": "krater",
+    "term_zh": "混酒器／调酒碗",
+    "meaning": "混合酒与水的器类；葬仪版本可能为奠酒特别改造。",
+    "object_ids": [
+      "e097",
+      "e108"
+    ]
+  },
+  {
+    "term": "kyathos",
+    "term_zh": "杯形舀酒器",
+    "meaning": "高环柄用于从大器取酒；本地器形也影响希腊生产。",
+    "object_ids": [
+      "e041",
+      "e088"
+    ]
+  },
+  {
+    "term": "stamnos",
+    "term_zh": "储酒罐",
+    "meaning": "一种有盖、宽腹器类，具体用途和题名以单件证据为准。",
+    "object_ids": [
+      "e096",
+      "e109"
+    ]
+  },
+  {
+    "term": "kottabos",
+    "term_zh": "投酒游戏",
+    "meaning": "宴饮者投掷余酒击中目标；本批靶架仅存上部。",
+    "object_ids": [
+      "e101"
+    ]
+  },
+  {
+    "term": "thymiaterion",
+    "term_zh": "焚香炉",
+    "meaning": "细长支架常有人物装饰，不能因外观直接叫烛台。",
+    "object_ids": [
+      "e102",
+      "e104"
+    ]
+  },
+  {
+    "term": "acroterion / antefix",
+    "term_zh": "屋顶立饰／瓦当端饰",
+    "meaning": "不同的屋顶装饰位置；实际构件依展签与结构判断。",
+    "object_ids": [
+      "e105",
+      "e106"
+    ]
+  },
+  {
+    "term": "votive",
+    "term_zh": "奉献物／还愿物",
+    "meaning": "放于神前的物，可是神像、献者像或身体部位；不自动表示献者已痊愈。",
+    "object_ids": [
+      "e043",
+      "e130",
+      "e131"
+    ]
+  },
+  {
+    "term": "suthina",
+    "term_zh": "供墓葬",
+    "meaning": "常见的墓葬用途题刻，不应误作额头上的女性名字。",
+    "object_ids": [
+      "e119"
+    ]
+  }
+]

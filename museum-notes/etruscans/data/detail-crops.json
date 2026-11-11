@@ -1,0 +1,112 @@
+{
+  "e045": {
+    "photo_id": "p154",
+    "crop_box": [
+      0,
+      50,
+      1280,
+      1650
+    ],
+    "caption": "抬起的脸与胸前护符",
+    "width": 1280,
+    "height": 1600,
+    "variants": [
+      {
+        "file": "e045-detail-320.webp",
+        "width": 320
+      },
+      {
+        "file": "e045-detail-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "e010": {
+    "photo_id": "p038",
+    "crop_box": [
+      50,
+      400,
+      1230,
+      1580
+    ],
+    "caption": "金带上的人物与细纹",
+    "width": 1180,
+    "height": 1180,
+    "variants": [
+      {
+        "file": "e010-detail-320.webp",
+        "width": 320
+      },
+      {
+        "file": "e010-detail-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "e001": {
+    "photo_id": "p005",
+    "crop_box": [
+      380,
+      200,
+      1380,
+      1200
+    ],
+    "caption": "器沿前方的狮首",
+    "width": 1000,
+    "height": 1000,
+    "variants": [
+      {
+        "file": "e001-detail-320.webp",
+        "width": 320
+      },
+      {
+        "file": "e001-detail-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "e122": {
+    "photo_id": "p347",
+    "crop_box": [
+      220,
+      0,
+      1220,
+      1000
+    ],
+    "caption": "头部、肩与举起的手臂",
+    "width": 1000,
+    "height": 1000,
+    "variants": [
+      {
+        "file": "e122-detail-320.webp",
+        "width": 320
+      },
+      {
+        "file": "e122-detail-640.webp",
+        "width": 640
+      }
+    ]
+  },
+  "e106": {
+    "photo_id": "p298",
+    "crop_box": [
+      40,
+      270,
+      1240,
+      1470
+    ],
+    "caption": "小祠中央的神话人物群",
+    "width": 1200,
+    "height": 1200,
+    "variants": [
+      {
+        "file": "e106-detail-320.webp",
+        "width": 320
+      },
+      {
+        "file": "e106-detail-640.webp",
+        "width": 640
+      }
+    ]
+  }
+}

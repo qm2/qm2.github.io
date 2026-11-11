@@ -1,0 +1,224 @@
+[
+  {
+    "id": "S01",
+    "institution": "San Antonio Museum of Art",
+    "title": "The Etruscans: From the Heart of Ancient Italy",
+    "url": "https://www.samuseum.org/artwork/exhibition/the-etruscans-from-the-heart-of-ancient-italy/",
+    "checked_level": "official_full_page",
+    "usage_note": "SAMA站展期、约130件、组织机构及部分精选器物；官网的部分馆藏号、技法、年代与照片签有差异，另列。",
+    "checked_on": "2026-11-11"
+  },
+  {
+    "id": "S02",
+    "institution": "The Metropolitan Museum of Art; Colette Hemingway and Seán Hemingway",
+    "title": "Etruscan Art (2004)",
+    "url": "https://www.metmuseum.org/essays/etruscan-art",
+    "checked_level": "official_full_page",
+    "usage_note": "概览：地域、交流、陶器与艺术。分期只作近似框架，不借该文推断每件器物的准确出土地。",
+    "checked_on": "2026-11-11"
+  },
+  {
+    "id": "S03",
+    "institution": "The Metropolitan Museum of Art; Theresa Huntsman",
+    "title": "Etruscan Language and Inscriptions (2013)",
+    "url": "https://www.metmuseum.org/essays/etruscan-language-and-inscriptions",
+    "checked_level": "official_full_page",
+    "usage_note": "字母、赠礼与奉献铭文、神名及suthina；“能读字母”不等于全部理解语言。",
+    "checked_on": "2026-11-11"
+  },
+  {
+    "id": "S04",
+    "institution": "Musei Vaticani",
+    "title": "Regolini–Galassi Tomb",
+    "url": "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/museo-gregoriano-etrusco/sala-ii--tomba-regolini-galassi/tomba-regolini-galassi.html",
+    "checked_level": "official_full_page",
+    "usage_note": "1836年发现、墓葬结构与不同葬式；用于把同墓器物重新连起来。",
+    "checked_on": "2026-11-11"
+  },
+  {
+    "id": "S05",
+    "institution": "Musei Vaticani",
+    "title": "Bracelets",
+    "url": "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/museo-gregoriano-etrusco/sala-ii--tomba-regolini-galassi/bracciali.html",
+    "checked_level": "official_full_page",
+    "usage_note": "一对宽镯的金带、链扣、女性与动物图像；本批照片只拍到展出的一只。",
+    "checked_on": "2026-11-11"
+  },
+  {
+    "id": "S06",
+    "institution": "British Museum, Scientific Research",
+    "title": "Scientific Research Newsletter 5 (2019), decorated ostrich eggshell research",
+    "url": "https://www.britishmuseum.org/sites/default/files/2022-12/Scientific_Research_newsletter_Issue_5_2019.pdf",
+    "checked_level": "official_search_excerpt",
+    "usage_note": "检索摘录提到1850,0227.5及显微研究；未逐页阅读全文。蛋壳交流的背景另据布里斯托大学公开研究说明。",
+    "checked_on": "2026-11-11"
+  },
+  {
+    "id": "S07",
+    "institution": "University of Bristol",
+    "title": "Fantastic eggs and where to find them (2017)",
+    "url": "https://www.bristol.ac.uk/news/2017/april/decorated-ostrich-eggs.html",
+    "checked_level": "university_full_page",
+    "usage_note": "铁器时代奢侈品网络；研究原料、雕刻和流通。不能把一般研究结果强套到此蛋的单条旅行路线。",
+    "checked_on": "2026-11-11"
+  },
+  {
+    "id": "S08",
+    "institution": "Getty Education",
+    "title": "Explore Caeretan Hydria",
+    "url": "https://www.getty.edu/education/k-12-learning/explore-caeretan-hydria/",
+    "checked_level": "official_full_page",
+    "usage_note": "83.AE.346，Eagle Painter，520–510 BC；人物动作、九头蛇、伊奥劳斯和火的解释可对照照片。",
+    "checked_on": "2026-11-11"
+  },
+  {
+    "id": "S09",
+    "institution": "J. Paul Getty Museum",
+    "title": "Appliqué depicting the Sun God Usil, 2017.126",
+    "url": "https://www.getty.edu/art/collection/object/103QTV",
+    "checked_level": "official_metadata_only_js_page",
+    "usage_note": "检索确认题名与馆藏号；详情页需JavaScript，未读取完整条目；本文具体图像解释依据p177现场签。",
+    "checked_on": "2026-11-11"
+  },
+  {
+    "id": "S10",
+    "institution": "Louvre-Lens",
+    "title": "Amour: dossier pédagogique (2018), Cp 5193",
+    "url": "https://education.louvrelens.fr/wp-content/uploads/sites/3/2018/08/Dossier-pedagogique-Amour.pdf",
+    "checked_level": "official_search_excerpt",
+    "usage_note": "检索摘录明确Cp5193为夫妻骨灰瓮。器物身份以现场展签为基本依据；未从摘要抄入尺寸。",
+    "checked_on": "2026-11-11"
+  },
+  {
+    "id": "S11",
+    "institution": "Istituto Centrale per il Restauro",
+    "title": "Le mani d’argento",
+    "url": "https://icr.cultura.gov.it/restauri/le-mani-dargento/",
+    "checked_level": "official_full_page",
+    "usage_note": "VulciOsteria墓地、银合金手、复合材料死者像及2013年修复；并给出2014年专门图录。",
+    "checked_on": "2026-11-11"
+  },
+  {
+    "id": "S12",
+    "institution": "Art Bonus / Comune di San Gimignano",
+    "title": "Statuetta di offerente (Hinthial) e reperti rinvenuti in loc. Torraccia di Chiusi",
+    "url": "https://artbonus.gov.it/2864-statuetta-di-offerente-%28hinthial%29-e-reperti-rinvenuti-in-loc.torraccia-di-chiusi.html",
+    "checked_level": "government_full_page",
+    "usage_note": "已读正文：2010—2011年Torraccia di Chiusi发现、圣地背景与技术研究。页面讨论的沃尔泰拉文化联系不等于发现于沃尔泰拉。",
+    "checked_on": "2026-11-11"
+  },
+  {
+    "id": "S13",
+    "institution": "Comune di San Gimignano",
+    "title": "Complesso Museale di Santa Chiara – Nuovi Spazi e Nuove Collezioni",
+    "url": "https://comune.sangimignano.si.it/it/news/appuntamenti-in-biblioteca-1662937",
+    "checked_level": "government_full_page",
+    "usage_note": "已读市政府2024年展陈更新正文，确认Hinthial及同址遗物进入圣吉米尼亚诺考古博物馆的新展区。",
+    "checked_on": "2026-11-11"
+  },
+  {
+    "id": "S14",
+    "institution": "Ministero della Cultura",
+    "title": "Archeologia, nuove straordinarie statue in bronzo scoperte al santuario di San Casciano dei Bagni",
+    "url": "https://cultura.gov.it/bronziscasciano",
+    "checked_level": "government_search_excerpt_page_timeout",
+    "usage_note": "官方发现公告已检索，打开超时；具体展品年代及铭文、疗愈背景以p373–377照片签为主。",
+    "checked_on": "2026-11-11"
+  },
+  {
+    "id": "S15",
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Etruscan Necropolises of Cerveteri and Tarquinia",
+    "url": "https://whc.unesco.org/en/list/1158/",
+    "checked_level": "official_full_page",
+    "usage_note": "用于两处墓地、城镇式布局与绘画的背景。Sorbo与Banditaccia是不同墓区。",
+    "checked_on": "2026-11-11"
+  },
+  {
+    "id": "S16",
+    "institution": "Natural Earth",
+    "title": "About / Terms of Use",
+    "url": "https://www.naturalearthdata.com/about/",
+    "checked_level": "official_search_excerpt",
+    "usage_note": "地图底图为公有领域Natural Earth数据。现代海岸为定位框架，不是古代海岸复原。",
+    "checked_on": "2026-11-11"
+  },
+  {
+    "id": "S17",
+    "institution": "Fine Arts Museums of San Francisco, museum store",
+    "title": "The Etruscans: From the Heart of Ancient Italy, exhibition catalogue",
+    "url": "https://shop.famsf.org/products/the-etruscans",
+    "checked_level": "official_catalogue_description",
+    "usage_note": "图录376页，Renée Dreyfus及多位学者；仅核查书目介绍，未读图录全文，不编页码。图录/旧金山近200件不等于SAMA站。",
+    "checked_on": "2026-11-11"
+  },
+  {
+    "id": "S19",
+    "institution": "Istituto Centrale per il Restauro",
+    "title": "La testiera in bronzo da Vulci",
+    "url": "https://icr.cultura.gov.it/en/restauri/la-testiera-in-bronzo-da-vulci/",
+    "checked_level": "official_search_excerpt",
+    "usage_note": "银手墓相关马具修复条目的检索摘要；墓葬整体和银手单件年代区分，勿将未拍马具加入亲见目录。",
+    "checked_on": "2026-11-11"
+  },
+  {
+    "id": "S20",
+    "institution": "Museo Nazionale Etrusco di Villa Giulia",
+    "title": "Pyrgi Tablets",
+    "url": "https://www.museoetru.it/works/lamine-doro-da-pyrgi",
+    "checked_level": "official_full_page",
+    "checked_on": "2026-11-11",
+    "usage_note": "补充文明框架；两篇伊特鲁里亚文、一篇腓尼基文，Caere、Uni/Astarte与Pyrgi圣所。本批无照片，不计亲见。"
+  },
+  {
+    "id": "S21",
+    "institution": "Museo Archeologico di Milano / Comune di Milano",
+    "title": "Oinochoe in bucchero",
+    "url": "https://www.museoarcheologicomilano.it/le-collezioni-del-museo/collezione-etrusca/oinochoe-brocca-da-vino-in-bucchero",
+    "checked_level": "official_search_excerpt_page_403",
+    "checked_on": "2026-11-11",
+    "usage_note": "检索摘要核对bucchero胎体与表面皆黑、形制光泽与金属器关系；打开403，未全文读取。该馆此件没有加入亲见目录。"
+  },
+  {
+    "id": "S22",
+    "institution": "Museo Nazionale Etrusco di Villa Giulia",
+    "title": "Lamine d’oro da Pyrgi",
+    "url": "https://www.museoetru.it/capolavori/lamine-doro-da-pyrgi",
+    "checked_level": "official_full_page",
+    "checked_on": "2026-11-11",
+    "usage_note": "意大利文页明确解释两种文本非逐字对应，不能等同罗塞塔石碑；仅作背景。"
+  },
+  {
+    "id": "S23",
+    "institution": "Harvard Art Museums (official Vimeo channel)",
+    "title": "Art Talk—Mirror, Mirror: Reflections on the Etruscans and Their Afterlife (2020)",
+    "url": "https://vimeo.com/444617897",
+    "checked_level": "museum_authored_video_description_search_text",
+    "checked_on": "2026-11-11",
+    "usage_note": "官方视频说明明确羊首柄镜1977.216.2311，连到hvrd.art/o/304027；未观看全片，短链打开失败。用来解决前导位读数。"
+  },
+  {
+    "id": "S24",
+    "institution": "大英博物馆中文官网",
+    "title": "71号展厅：伊特鲁里亚文明",
+    "url": "https://britishmuseum.org.cn/G_71.html",
+    "checked_level": "full_page",
+    "usage_note": "中文文明名称的用例；不用于确定本批单件器物的中文题名。"
+  },
+  {
+    "id": "S25",
+    "institution": "意大利驻沪总领事馆文化处",
+    "title": "伊特鲁里亚人——古代意大利的贵族",
+    "url": "https://iicshanghai.esteri.it/zh/gli_eventi/calendario/il-museo-archeologico-di-bologna-2/",
+    "checked_level": "full_page",
+    "usage_note": "中文文明名称及提尼亚、赫拉克勒斯等译名的用例。此文介绍另一场展览。"
+  },
+  {
+    "id": "S26",
+    "institution": "UNESCO世界遗产中心",
+    "title": "塞尔维托里和塔尔奎尼亚的伊特鲁立亚人公墓",
+    "url": "https://whc.unesco.org/zh/list/1158",
+    "checked_level": "search_snippet",
+    "usage_note": "中文地名用例；遗产背景另据已读英文页面。Cerveteri亦见切尔韦泰里，本辑保留原名以便对照。"
+  }
+]

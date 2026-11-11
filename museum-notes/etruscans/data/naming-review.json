@@ -1,0 +1,710 @@
+{
+  "policy": "中文专名采用可核实的既有用法；未核实的作品题名与专名保留馆方原文。中文观察性描述不作为馆方正式题名。",
+  "sources": [
+    "S24",
+    "S25",
+    "S26"
+  ],
+  "objects": [
+    {
+      "id": "e001",
+      "display_title": "Cauldron with lion attachments",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e002",
+      "display_title": "Vase with floral decoration",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e003",
+      "display_title": "Ostrich egg with an animal frieze",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e004",
+      "display_title": "Cauldron with snake attachments",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e005",
+      "display_title": "Bowl",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e006",
+      "display_title": "Skyphos (drinking cup)",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e007",
+      "display_title": "Three female mourners",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e008",
+      "display_title": "Oinochoe (pitcher)",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e009",
+      "display_title": "Bowl with hunt and military scenes",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e010",
+      "display_title": "Bracelet",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e011",
+      "display_title": "Skyphos (drinking cup)",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e012",
+      "display_title": "Hemispherical cup",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e013",
+      "display_title": "Stand for cauldron",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e014",
+      "display_title": "Kantharos (drinking cup)",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e015",
+      "display_title": "Tricuspid amphora",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e016",
+      "display_title": "Tricuspid cup",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e017",
+      "display_title": "Tricuspid amphora",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e018",
+      "display_title": "Cauldron on stand",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e019",
+      "display_title": "Cauldron on stand",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e020",
+      "display_title": "Brazier",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e021",
+      "display_title": "Stemmed dish with Master of Animals handle",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e022",
+      "display_title": "House-shaped cinerary urn",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e023",
+      "display_title": "House-shaped cinerary urn",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e024",
+      "display_title": "Horse-head oinochoe (pitcher)",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e025",
+      "display_title": "Oinochoe (pitcher) with four necks",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e026",
+      "display_title": "Trefoil oinochoe (pitcher)",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e027",
+      "display_title": "Crescent-shaped razor",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e028",
+      "display_title": "Biconical urn with crested helmet",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e029",
+      "display_title": "Hut urn",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e030",
+      "display_title": "Amphora with fantastical animals",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e031",
+      "display_title": "Floating-wick lamp with birds",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e032",
+      "display_title": "Plate with ducks and panthers",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e033",
+      "display_title": "Krater-pyxis (bowl) with lid",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e034",
+      "display_title": "Situla (pail) with animal friezes",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e035",
+      "display_title": "Pyxis (lidded box) with bulls’ heads",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e036",
+      "display_title": "Hydria (water jug)",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e037",
+      "display_title": "Pectoral",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e038",
+      "display_title": "Cup on support",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e039",
+      "display_title": "Stand",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e040",
+      "display_title": "Stand",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e041",
+      "display_title": "Kyathos (cup-shaped ladle)",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e042",
+      "display_title": "Boss with head of Acheloos",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e043",
+      "display_title": "Statuette of a man praying",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e044",
+      "display_title": "Bulla",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e045",
+      "display_title": "Statue of a seated boy (Putto Carrara)",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e046",
+      "display_title": "Kyathos (cup-shaped ladle)",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e047",
+      "display_title": "Unguentarium (oil bottle)",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e048",
+      "display_title": "Statuette of a youth with horse",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e049",
+      "display_title": "Statuette of Hercle resting",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e050",
+      "display_title": "Statuette of Hercle resting",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e051",
+      "display_title": "Statuette of Tinia with thunderbolt",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e052",
+      "display_title": "Appliqué depicting the sun god Usil",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e053",
+      "display_title": "Statuette of a winged woman carrying a boy",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e054",
+      "display_title": "Statuette of Vanth",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e055",
+      "display_title": "Statuette of a couple, perhaps Tinia and Uni",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e056",
+      "display_title": "Statuette of a woman",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e057",
+      "display_title": "Statuette of a warrior",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e058",
+      "display_title": "Votive female head",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e059",
+      "display_title": "Votive female head",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e060",
+      "display_title": "Standing couple",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e061",
+      "display_title": "Double Artumes votive figure",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e062",
+      "display_title": "Statue of a man",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e063",
+      "display_title": "Necklace with pendants",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e064",
+      "display_title": "Pair of dress clasps",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e065",
+      "display_title": "Pair of earrings",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e066",
+      "display_title": "Pair of a baule earrings",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e067",
+      "display_title": "Necklace with animal-head pendants",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e068",
+      "display_title": "Necklace with human-head pendants",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e069",
+      "display_title": "Disk fibula (pin)",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e070",
+      "display_title": "Disk fibula (pin)",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e071",
+      "display_title": "Serpentine fibula (pin)",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e072",
+      "display_title": "Fibula (pin) with a winged lion",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e073",
+      "display_title": "Fibula (pin)",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e074",
+      "display_title": "Fibula (pin)",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e075",
+      "display_title": "Catchplate from a fibula (pin)",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e076",
+      "display_title": "Bow from a fibula (pin)",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e077",
+      "display_title": "Ring with the ambush of Troilos",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e078",
+      "display_title": "Ring with Hercle and Uni",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e079",
+      "display_title": "Ring with ibis and sphinx",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e080",
+      "display_title": "Stemmed plate with a female head",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e081",
+      "display_title": "Aryballos (oil flask) in the shape of a seated monkey",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e082",
+      "display_title": "Fragment of a mirror handle depicting Turms",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e083",
+      "display_title": "Toiletries box in the shape of a fawn",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e084",
+      "display_title": "Mirror depicting Uni nursing Hercle",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e085",
+      "display_title": "Mirror depicting the Tinas Cliniar (sons of Tinia) with a man and a woman",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e086",
+      "display_title": "Mirror depicting a pair of Lasas",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e087",
+      "display_title": "Simpulum (ladle)",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e088",
+      "display_title": "Kyathos (cup-shaped ladle)",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e089",
+      "display_title": "Wine strainer",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e090",
+      "display_title": "Incense shovel",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e091",
+      "display_title": "Hydria with Hercle and the Hydra",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e092",
+      "display_title": "Amphora with boxers and runners",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e093",
+      "display_title": "Amphora with a youth feeding a cat",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e094",
+      "display_title": "Amphora with Menrva and a woman",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e095",
+      "display_title": "Amphora with Dionysos and satyrs",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e096",
+      "display_title": "Stamnos with women performing rites for Dionysos",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e097",
+      "display_title": "Bell krater with a satyr and nymph at a fountain",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e098",
+      "display_title": "Askos (oil vessel)",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e099",
+      "display_title": "Beaked oinochoe with three female heads",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e100",
+      "display_title": "Kantharos with satyr and maenad",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e101",
+      "display_title": "Kottabos stand with a dancing satyr",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e102",
+      "display_title": "Thymiaterion with a nude male figure",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e103",
+      "display_title": "Thymiaterion with Turan and Atunis",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e104",
+      "display_title": "Thymiaterion with a dancer playing krotala",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e105",
+      "display_title": "Acroterion depicting a winged horse",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e106",
+      "display_title": "Pediment from a shrine",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e107",
+      "display_title": "Model temple",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e108",
+      "display_title": "Funerary krater",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e109",
+      "display_title": "Stamnos with a griffin combat",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e110",
+      "display_title": "Panel depicting a performer dressed as a traveler",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e111",
+      "display_title": "Cinerary urn of the spouses",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e112",
+      "display_title": "Pair of hands",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e113",
+      "display_title": "Cippus with a mourning scene",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e114",
+      "display_title": "Canopic urn",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e115",
+      "display_title": "Sarcophagus lid with reclining woman",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e116",
+      "display_title": "Cinerary urn with lid depicting a woman",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e117",
+      "display_title": "Canopic urn",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e118",
+      "display_title": "Mirror with ram-head terminal",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e119",
+      "display_title": "Vase in the shape of a female head",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e120",
+      "display_title": "Cinerary urn for a woman",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e121",
+      "display_title": "Cinerary urn in the shape of a standing man",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e122",
+      "display_title": "Statue of Veiovis",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e123",
+      "display_title": "Cippus with a farewell scene",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e124",
+      "display_title": "Head of a young man",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e125",
+      "display_title": "Head of a man",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e126",
+      "display_title": "Statuette of a man praying",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e127",
+      "display_title": "Statuette of a man praying",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e128",
+      "display_title": "Statuette of a priestess holding a serpent",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e129",
+      "display_title": "Statue of a young man making an offering",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e130",
+      "display_title": "Swaddled infant",
+      "status": "label_original; established Chinese title not verified"
+    },
+    {
+      "id": "e131",
+      "display_title": "Votive offerings in the shape of an arm and a leg",
+      "status": "label_original; established Chinese title not verified"
+    }
+  ],
+  "proper_name_fallbacks": {
+    "赫尔克勒": "Hercle",
+    "门尔瓦": "Menrva",
+    "乌西尔": "Usil",
+    "特珊": "Thesan",
+    "万特": "Vanth",
+    "图兰": "Turan",
+    "阿图尼斯": "Atunis",
+    "图尔姆斯": "Turms",
+    "拉萨神灵": "Lasas",
+    "阿尔图梅斯": "Artumes",
+    "卢尔": "Lur",
+    "塞尔万斯": "Selvans",
+    "富弗伦斯": "Fufluns",
+    "维约维斯": "Veiovis",
+    "乌尼": "Uni",
+    "雷戈里尼—加拉西": "Regolini–Galassi",
+    "雷戈里尼-加拉西": "Regolini–Galassi",
+    "普拉斯特纳": "Prastna",
+    "卡拉拉男童": "Putto Carrara男童",
+    "法利斯克": "Faliscan",
+    "丘西": "丘西",
+    "波焦卡斯蒂廖内": "Poggio Castiglione",
+    "圣卡夏诺德伊巴尼": "San Casciano dei Bagni",
+    "圣卡夏诺": "San Casciano dei Bagni",
+    "克鲁斯图梅里乌姆": "Crustumerium",
+    "蒙特里焦尼": "Monteriggioni",
+    "圣马尔蒂诺阿拉帕尔马": "San Martino alla Palma",
+    "蒙特拉扎诺": "Monterazzano",
+    "普莱内斯特": "Praeneste",
+    "帕莱斯特里纳": "Palestrina",
+    "波焦布科": "Poggio Buco",
+    "纳尔切": "Narce",
+    "武尔奇": "Vulci",
+    "穆萨尔纳": "Musarna",
+    "韦图洛尼亚": "Vetulonia",
+    "卢奇尼亚诺": "Lucignano",
+    "布罗廖": "Brolio",
+    "法莱里旧城": "Falerii Veteres",
+    "菲耶索莱": "Fiesole",
+    "索瓦纳": "Sovana",
+    "图斯卡尼亚": "Tuscania",
+    "凯雷": "Caere",
+    "博尔塞纳湖": "Lake Bolsena"
+  }
+}

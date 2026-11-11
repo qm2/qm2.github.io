@@ -1,0 +1,163 @@
+[
+  {
+    "name": "Tinia",
+    "name_zh": "提尼亚",
+    "comparison": "Zeus / Jupiter（部分对应）",
+    "recognition": "雷霆；神界主神的对照",
+    "object_ids": [
+      "e051",
+      "e055"
+    ],
+    "note": "本展中的具体形态与辨识依据，见下列作品的现场展签。"
+  },
+  {
+    "name": "Uni",
+    "name_zh": "Uni",
+    "comparison": "Hera / Juno（部分对应）",
+    "recognition": "夫妇组合、成年Hercle受乳等本地叙事",
+    "object_ids": [
+      "e055",
+      "e078",
+      "e084"
+    ],
+    "note": "本展中的具体形态与辨识依据，见下列作品的现场展签。"
+  },
+  {
+    "name": "Hercle",
+    "name_zh": "Hercle",
+    "comparison": "Herakles / Hercules",
+    "recognition": "狮皮、英雄身形；角色与希腊版本不完全相同",
+    "object_ids": [
+      "e049",
+      "e050",
+      "e078",
+      "e084",
+      "e091"
+    ],
+    "note": "本展中的具体形态与辨识依据，见下列作品的现场展签。"
+  },
+  {
+    "name": "Menrva",
+    "name_zh": "Menrva",
+    "comparison": "Athena / Minerva（部分对应）",
+    "recognition": "依单件图像与展签识别，不只凭邻近大眼纹",
+    "object_ids": [
+      "e094"
+    ],
+    "note": "本展中的具体形态与辨识依据，见下列作品的现场展签。"
+  },
+  {
+    "name": "Usil",
+    "name_zh": "Usil",
+    "comparison": "太阳神；无需强行单一对应",
+    "recognition": "放射冠、翼、波浪",
+    "object_ids": [
+      "e052"
+    ],
+    "note": "本展中的具体形态与辨识依据，见下列作品的现场展签。"
+  },
+  {
+    "name": "Thesan",
+    "name_zh": "Thesan",
+    "comparison": "Eos（黎明神的对照）",
+    "recognition": "抱青年之翼神；本件青年身份为可能Memnun",
+    "object_ids": [
+      "e053"
+    ],
+    "note": "本展中的具体形态与辨识依据，见下列作品的现场展签。"
+  },
+  {
+    "name": "Vanth",
+    "name_zh": "Vanth",
+    "comparison": "无必要单一希腊对应",
+    "recognition": "引魂、翼和持物；避免泛称天使",
+    "object_ids": [
+      "e054"
+    ],
+    "note": "本展中的具体形态与辨识依据，见下列作品的现场展签。"
+  },
+  {
+    "name": "Turan / Atunis",
+    "name_zh": "Turan／Atunis",
+    "comparison": "Aphrodite / Adonis（部分对应）",
+    "recognition": "相拥组合与焚香炉",
+    "object_ids": [
+      "e103"
+    ],
+    "note": "本展中的具体形态与辨识依据，见下列作品的现场展签。"
+  },
+  {
+    "name": "Turms",
+    "name_zh": "Turms",
+    "comparison": "Hermes（部分对应）",
+    "recognition": "镜柄上的神祇形象，依签辨识",
+    "object_ids": [
+      "e082"
+    ],
+    "note": "本展中的具体形态与辨识依据，见下列作品的现场展签。"
+  },
+  {
+    "name": "Tinas Cliniar",
+    "name_zh": "Tinas Cliniar",
+    "comparison": "Dioskouroi（对照）",
+    "recognition": "与马或镜上组合；不能认定每件为特定一位双子",
+    "object_ids": [
+      "e048",
+      "e085"
+    ],
+    "note": "本展中的具体形态与辨识依据，见下列作品的现场展签。"
+  },
+  {
+    "name": "Lasas",
+    "name_zh": "Lasas",
+    "comparison": "不作简单一对一替换",
+    "recognition": "铜镜上成对、各持香油瓶的女灵",
+    "object_ids": [
+      "e086"
+    ],
+    "note": "本展中的具体形态与辨识依据，见下列作品的现场展签。"
+  },
+  {
+    "name": "Artumes",
+    "name_zh": "Artumes",
+    "comparison": "Artemis（名称与功能对照）",
+    "recognition": "双身还愿像；保留本地题名",
+    "object_ids": [
+      "e061"
+    ],
+    "note": "本展中的具体形态与辨识依据，见下列作品的现场展签。"
+  },
+  {
+    "name": "Lur / Selvans",
+    "name_zh": "Lur／Selvans",
+    "comparison": "本地神祇名",
+    "recognition": "分别见男子与男童奉献铭文，不凭造型判断全部神职",
+    "object_ids": [
+      "e043",
+      "e045"
+    ],
+    "note": "本展中的具体形态与辨识依据，见下列作品的现场展签。"
+  },
+  {
+    "name": "Dionysos / Fufluns",
+    "name_zh": "狄俄尼索斯／Fufluns",
+    "comparison": "两种传统有密切联系",
+    "recognition": "酒、祭仪与小祠；不可在所有作品标签里互换神名",
+    "object_ids": [
+      "e095",
+      "e096",
+      "e106"
+    ],
+    "note": "本展中的具体形态与辨识依据，见下列作品的现场展签。"
+  },
+  {
+    "name": "Veiovis",
+    "name_zh": "Veiovis",
+    "comparison": "罗马神与伊特鲁里亚渊源的讨论",
+    "recognition": "年轻面貌与雷霆；公元1世纪例",
+    "object_ids": [
+      "e122"
+    ],
+    "note": "本展中的具体形态与辨识依据，见下列作品的现场展签。"
+  }
+]

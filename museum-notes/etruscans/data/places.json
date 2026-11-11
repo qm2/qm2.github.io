@@ -1,0 +1,534 @@
+[
+  {
+    "id": "caere",
+    "name_zh": "Caere／切尔韦泰里",
+    "name_en": "Caere / Cerveteri",
+    "longitude": 12.1,
+    "latitude": 42.0,
+    "map_tier": 1,
+    "coordinate_precision": "editorial_approximate_city_or_site_area",
+    "coordinate_status": "人工约略定位，用于区域阅读；未核查发掘测绘坐标",
+    "coordinate_source": "编辑定位，保留两位小数；地名关系据本批展签。不是权威测绘数据。",
+    "theme": "贵族墓葬、住宅与陶工",
+    "note": "Regolini–Galassi墓在Sorbo墓地；Banditaccia是另一墓区。Calabresi墓、Monte Abatone与Vignaccia也分别标注，不能合并为一处。",
+    "source_ids": [
+      "S04",
+      "S15"
+    ],
+    "object_ids": [
+      "e001",
+      "e002",
+      "e007",
+      "e008",
+      "e009",
+      "e010",
+      "e011",
+      "e012",
+      "e019",
+      "e020",
+      "e023",
+      "e030",
+      "e033",
+      "e034",
+      "e035",
+      "e047",
+      "e058",
+      "e059",
+      "e060",
+      "e061",
+      "e062",
+      "e091",
+      "e099",
+      "e105",
+      "e110",
+      "e111",
+      "e116",
+      "e125"
+    ]
+  },
+  {
+    "id": "tarquinia",
+    "name_zh": "塔尔奎尼亚",
+    "name_en": "Tarquinia",
+    "longitude": 11.76,
+    "latitude": 42.25,
+    "map_tier": 1,
+    "coordinate_precision": "editorial_approximate_city_or_site_area",
+    "coordinate_status": "人工约略定位，用于区域阅读；未核查发掘测绘坐标",
+    "coordinate_source": "编辑定位，保留两位小数；地名关系据本批展签。不是权威测绘数据。",
+    "theme": "盔盖骨灰瓮与男童还愿",
+    "note": "Monterozzi以彩绘墓著名；本批墓画照片是展厅复制图背景，不是原壁画实物。",
+    "source_ids": [
+      "S15"
+    ],
+    "object_ids": [
+      "e028",
+      "e042",
+      "e045"
+    ]
+  },
+  {
+    "id": "vulci",
+    "name_zh": "Vulci",
+    "name_en": "Vulci",
+    "longitude": 11.63,
+    "latitude": 42.42,
+    "map_tier": 1,
+    "coordinate_precision": "editorial_approximate_city_or_site_area",
+    "coordinate_status": "人工约略定位，用于区域阅读；未核查发掘测绘坐标",
+    "coordinate_source": "编辑定位，保留两位小数；地名关系据本批展签。不是权威测绘数据。",
+    "theme": "跨海奢侈品、银手与神祇",
+    "note": "Isis墓、Osteria银手墓、Ponte Rotto墓地小祠属于不同地点和年代；城市点只聚合同城线索。",
+    "source_ids": [
+      "S07",
+      "S11"
+    ],
+    "object_ids": [
+      "e003",
+      "e029",
+      "e041",
+      "e052",
+      "e053",
+      "e055",
+      "e094",
+      "e102",
+      "e104",
+      "e106",
+      "e107",
+      "e109",
+      "e112"
+    ]
+  },
+  {
+    "id": "narce",
+    "name_zh": "Narce",
+    "name_en": "Narce",
+    "longitude": 12.42,
+    "latitude": 42.22,
+    "map_tier": 1,
+    "coordinate_precision": "editorial_approximate_city_or_site_area",
+    "coordinate_status": "人工约略定位，用于区域阅读；未核查发掘测绘坐标",
+    "coordinate_source": "编辑定位，保留两位小数；地名关系据本批展签。不是权威测绘数据。",
+    "theme": "Faliscan邻居与墓葬器物",
+    "note": "Pizzo Piede、La Petrina、Monte Cerreto墓地的器物有各自语境；Faliscan与伊特鲁里亚不能简单等同。",
+    "source_ids": [],
+    "object_ids": [
+      "e018",
+      "e021",
+      "e063"
+    ]
+  },
+  {
+    "id": "praeneste",
+    "name_zh": "Praeneste／Palestrina",
+    "name_en": "Praeneste / Palestrina",
+    "longitude": 12.89,
+    "latitude": 41.84,
+    "map_tier": 1,
+    "coordinate_precision": "editorial_approximate_city_or_site_area",
+    "coordinate_status": "人工约略定位，用于区域阅读；未核查发掘测绘坐标",
+    "coordinate_source": "编辑定位，保留两位小数；地名关系据本批展签。不是权威测绘数据。",
+    "theme": "Bernardini墓与黄金、鎏金银",
+    "note": "Praeneste位于核心Etruria以南；文化交流超过区域边界。金碗只注明可能出自这里。",
+    "source_ids": [],
+    "object_ids": [
+      "e004",
+      "e005",
+      "e006",
+      "e073",
+      "e083",
+      "e090"
+    ]
+  },
+  {
+    "id": "orvieto",
+    "name_zh": "奥尔维耶托",
+    "name_en": "Orvieto / Volsinii",
+    "longitude": 12.11,
+    "latitude": 42.72,
+    "map_tier": 1,
+    "coordinate_precision": "editorial_approximate_city_or_site_area",
+    "coordinate_status": "人工约略定位，用于区域阅读；未核查发掘测绘坐标",
+    "coordinate_source": "编辑定位，保留两位小数；地名关系据本批展签。不是权威测绘数据。",
+    "theme": "黑陶、青铜与祈祷者",
+    "note": "此点聚合展签标为Orvieto的器物；对博尔塞纳青年头像“可能在Volsinii制作”的意见不作确定定位。",
+    "source_ids": [],
+    "object_ids": [
+      "e014",
+      "e037",
+      "e039",
+      "e080",
+      "e126"
+    ]
+  },
+  {
+    "id": "chiusi",
+    "name_zh": "丘西",
+    "name_en": "Chiusi / Clevsin",
+    "longitude": 11.95,
+    "latitude": 43.02,
+    "map_tier": 1,
+    "coordinate_precision": "editorial_approximate_city_or_site_area",
+    "coordinate_status": "人工约略定位，用于区域阅读；未核查发掘测绘坐标",
+    "coordinate_source": "编辑定位，保留两位小数；地名关系据本批展签。不是权威测绘数据。",
+    "theme": "以器物重建人的身体",
+    "note": "人首盖瓮、立像瓮与墓标说明此地火葬传统延续较久。Lucignano另在区域内，不是丘西城内。",
+    "source_ids": [],
+    "object_ids": [
+      "e038",
+      "e040",
+      "e088",
+      "e113",
+      "e114",
+      "e117"
+    ]
+  },
+  {
+    "id": "volterra",
+    "name_zh": "沃尔泰拉",
+    "name_en": "Volterra / Velathri",
+    "longitude": 10.86,
+    "latitude": 43.4,
+    "map_tier": 1,
+    "coordinate_precision": "editorial_approximate_city_or_site_area",
+    "coordinate_status": "人工约略定位，用于区域阅读；未核查发掘测绘坐标",
+    "coordinate_source": "编辑定位，保留两位小数；地名关系据本批展签。不是权威测绘数据。",
+    "theme": "铜镜与骨灰瓮",
+    "note": "Uni哺乳Hercle铜镜、仿金属葬仪器与女性骨灰瓮可串成一条晚期线索。",
+    "source_ids": [],
+    "object_ids": [
+      "e084",
+      "e108",
+      "e120"
+    ]
+  },
+  {
+    "id": "san-gimignano",
+    "name_zh": "圣吉米尼亚诺",
+    "name_en": "San Gimignano",
+    "longitude": 11.04,
+    "latitude": 43.47,
+    "map_tier": 1,
+    "coordinate_precision": "editorial_approximate_city_or_site_area",
+    "coordinate_status": "人工约略定位，用于区域阅读；未核查发掘测绘坐标",
+    "coordinate_source": "编辑定位，保留两位小数；地名关系据本批展签。不是权威测绘数据。",
+    "theme": "细长供养青年Hinthial",
+    "note": "具体发现地为Torraccia di Chiusi，不是丘西市；主点为城市级定位，不冒充发掘点。",
+    "source_ids": [
+      "S12",
+      "S13"
+    ],
+    "object_ids": [
+      "e129"
+    ]
+  },
+  {
+    "id": "san-casciano",
+    "name_zh": "San Casciano dei Bagni",
+    "name_en": "San Casciano dei Bagni",
+    "longitude": 11.88,
+    "latitude": 42.87,
+    "map_tier": 1,
+    "coordinate_precision": "editorial_approximate_city_or_site_area",
+    "coordinate_status": "人工约略定位，用于区域阅读；未核查发掘测绘坐标",
+    "coordinate_source": "编辑定位，保留两位小数；地名关系据本批展签。不是权威测绘数据。",
+    "theme": "热泉、疗愈与近年发现",
+    "note": "圣所为Bagno Grande；襁褓婴儿与解剖部位还愿物见p374、p376。城市点不等于圣池坐标。",
+    "source_ids": [
+      "S14"
+    ],
+    "object_ids": [
+      "e130",
+      "e131"
+    ]
+  },
+  {
+    "id": "poggio-buco",
+    "name_zh": "Poggio Buco",
+    "name_en": "Poggio Buco",
+    "longitude": 11.61,
+    "latitude": 42.6,
+    "map_tier": 2,
+    "coordinate_precision": "editorial_approximate_city_or_site_area",
+    "coordinate_status": "人工约略定位，用于区域阅读；未核查发掘测绘坐标",
+    "coordinate_source": "编辑定位，保留两位小数；地名关系据本批展签。不是权威测绘数据。",
+    "theme": "墓A、C、E的陶器",
+    "note": "用近似遗址区域点；墓号在器物页保留，未画各墓精确位置。",
+    "source_ids": [],
+    "object_ids": [
+      "e013",
+      "e026",
+      "e032"
+    ]
+  },
+  {
+    "id": "falerii",
+    "name_zh": "Falerii Veteres",
+    "name_en": "Falerii Veteres / Civita Castellana",
+    "longitude": 12.41,
+    "latitude": 42.29,
+    "map_tier": 2,
+    "coordinate_precision": "editorial_approximate_city_or_site_area",
+    "coordinate_status": "人工约略定位，用于区域阅读；未核查发掘测绘坐标",
+    "coordinate_source": "编辑定位，保留两位小数；地名关系据本批展签。不是权威测绘数据。",
+    "theme": "青铜房屋形骨灰瓮",
+    "note": "Faliscan地区，不能与西面的Falerii Novi混同。",
+    "source_ids": [],
+    "object_ids": [
+      "e022"
+    ]
+  },
+  {
+    "id": "crustumerium",
+    "name_zh": "Crustumerium",
+    "name_en": "Crustumerium",
+    "longitude": 12.51,
+    "latitude": 42.02,
+    "map_tier": 2,
+    "coordinate_precision": "editorial_approximate_city_or_site_area",
+    "coordinate_status": "人工约略定位，用于区域阅读；未核查发掘测绘坐标",
+    "coordinate_source": "编辑定位，保留两位小数；地名关系据本批展签。不是权威测绘数据。",
+    "theme": "三尖饰器物的可能出土地",
+    "note": "三件均为probably from；地图点用空心／虚线关系呈现。",
+    "source_ids": [],
+    "object_ids": [
+      "e015",
+      "e016",
+      "e017"
+    ]
+  },
+  {
+    "id": "monteriggioni",
+    "name_zh": "Monteriggioni",
+    "name_en": "Monteriggioni",
+    "longitude": 11.22,
+    "latitude": 43.39,
+    "map_tier": 2,
+    "coordinate_precision": "editorial_approximate_city_or_site_area",
+    "coordinate_status": "人工约略定位，用于区域阅读；未核查发掘测绘坐标",
+    "coordinate_source": "编辑定位，保留两位小数；地名关系据本批展签。不是权威测绘数据。",
+    "theme": "Casone墓地螺旋赠铭杯",
+    "note": "与San Gimignano和Volterra同属北部观看线索，不能沿现代城墙判定古墓位置。",
+    "source_ids": [],
+    "object_ids": [
+      "e046"
+    ]
+  },
+  {
+    "id": "musarna",
+    "name_zh": "Musarna",
+    "name_en": "Musarna",
+    "longitude": 12.02,
+    "latitude": 42.42,
+    "map_tier": 2,
+    "coordinate_precision": "editorial_approximate_city_or_site_area",
+    "coordinate_status": "人工约略定位，用于区域阅读；未核查发掘测绘坐标",
+    "coordinate_source": "编辑定位，保留两位小数；地名关系据本批展签。不是权威测绘数据。",
+    "theme": "铜镜、石棺盖与油器",
+    "note": "南部内陆聚落；此为约略遗址区中心。",
+    "source_ids": [],
+    "object_ids": [
+      "e085",
+      "e086",
+      "e098",
+      "e115"
+    ]
+  },
+  {
+    "id": "vetulonia",
+    "name_zh": "Vetulonia",
+    "name_en": "Vetulonia",
+    "longitude": 10.97,
+    "latitude": 42.86,
+    "map_tier": 2,
+    "coordinate_precision": "editorial_approximate_city_or_site_area",
+    "coordinate_status": "人工约略定位，用于区域阅读；未核查发掘测绘坐标",
+    "coordinate_source": "编辑定位，保留两位小数；地名关系据本批展签。不是权威测绘数据。",
+    "theme": "宴饮游戏与家庭祈祷",
+    "note": "kottabos架和House of the Dolia祈祷者串起公共宴饮与家内祭祀。",
+    "source_ids": [],
+    "object_ids": [
+      "e101",
+      "e127"
+    ]
+  },
+  {
+    "id": "fiesole",
+    "name_zh": "Fiesole",
+    "name_en": "Fiesole",
+    "longitude": 11.29,
+    "latitude": 43.81,
+    "map_tier": 2,
+    "coordinate_precision": "editorial_approximate_city_or_site_area",
+    "coordinate_status": "人工约略定位，用于区域阅读；未核查发掘测绘坐标",
+    "coordinate_source": "编辑定位，保留两位小数；地名关系据本批展签。不是权威测绘数据。",
+    "theme": "执雷霆的Tinia",
+    "note": "北部地点，关联的是展签地点，不代表已确认工坊。",
+    "source_ids": [],
+    "object_ids": [
+      "e051"
+    ]
+  },
+  {
+    "id": "lucignano",
+    "name_zh": "Lucignano",
+    "name_en": "Lucignano",
+    "longitude": 11.75,
+    "latitude": 43.27,
+    "map_tier": 2,
+    "coordinate_precision": "editorial_approximate_city_or_site_area",
+    "coordinate_status": "人工约略定位，用于区域阅读；未核查发掘测绘坐标",
+    "coordinate_source": "编辑定位，保留两位小数；地名关系据本批展签。不是权威测绘数据。",
+    "theme": "立姿男子形骨灰瓮",
+    "note": "现代城镇区域坐标；位于丘西大区背景，器物不能直接标为丘西城内出土。",
+    "source_ids": [],
+    "object_ids": [
+      "e121"
+    ]
+  },
+  {
+    "id": "brolio",
+    "name_zh": "Brolio",
+    "name_en": "Brolio",
+    "longitude": null,
+    "latitude": null,
+    "map_tier": 3,
+    "coordinate_status": "not_mapped",
+    "note": "Brolio：地名关系已见展签，具体古代圣所坐标未核，不上主地图。",
+    "object_ids": [
+      "e056",
+      "e057"
+    ]
+  },
+  {
+    "id": "poggio-castiglione",
+    "name_zh": "Poggio Castiglione",
+    "name_en": "Poggio Castiglione",
+    "longitude": null,
+    "latitude": null,
+    "map_tier": 3,
+    "coordinate_status": "not_mapped",
+    "note": "Poggio Castiglione有同名地点，未精确核定，不猜坐标。",
+    "object_ids": [
+      "e050"
+    ]
+  },
+  {
+    "id": "vesuvius",
+    "name_zh": "维苏威山附近",
+    "name_en": "Vesuvius",
+    "longitude": null,
+    "latitude": null,
+    "map_tier": 3,
+    "coordinate_status": "not_mapped",
+    "note": "仅near Mount Vesuvius，非核心地图范围；不据此认作Vulci发现。",
+    "object_ids": [
+      "e054"
+    ]
+  },
+  {
+    "id": "maremma",
+    "name_zh": "马雷马地区",
+    "name_en": "Maremma",
+    "longitude": null,
+    "latitude": null,
+    "map_tier": 3,
+    "coordinate_status": "not_mapped",
+    "note": "区域性归属，不定位为单一出土点。",
+    "object_ids": [
+      "e078"
+    ]
+  },
+  {
+    "id": "viterbo",
+    "name_zh": "维泰博",
+    "name_en": "Viterbo",
+    "longitude": null,
+    "latitude": null,
+    "map_tier": 3,
+    "coordinate_status": "not_mapped",
+    "note": "展签地点不细化到具体遗址；未设精确点。",
+    "object_ids": [
+      "e089"
+    ]
+  },
+  {
+    "id": "sovana",
+    "name_zh": "Sovana",
+    "name_en": "Sovana",
+    "longitude": null,
+    "latitude": null,
+    "map_tier": 3,
+    "coordinate_status": "not_mapped",
+    "note": "可能来自此地，暂不设精确点。",
+    "object_ids": [
+      "e119"
+    ]
+  },
+  {
+    "id": "monterazzano",
+    "name_zh": "Monterazzano",
+    "name_en": "Monterazzano",
+    "longitude": null,
+    "latitude": null,
+    "map_tier": 3,
+    "coordinate_status": "not_mapped",
+    "note": "具体发现地点待核，不能以收藏馆Viterbo替代。",
+    "object_ids": [
+      "e122"
+    ]
+  },
+  {
+    "id": "san-martino",
+    "name_zh": "San Martino alla Palma",
+    "name_en": "San Martino alla Palma",
+    "longitude": null,
+    "latitude": null,
+    "map_tier": 3,
+    "coordinate_status": "not_mapped",
+    "note": "San Martino alla Palma：送别墓标地点待进一步地理核对，不猜坐标。",
+    "object_ids": [
+      "e123"
+    ]
+  },
+  {
+    "id": "athens",
+    "name_zh": "雅典",
+    "name_en": "Athens",
+    "longitude": null,
+    "latitude": null,
+    "map_tier": 3,
+    "coordinate_status": "not_mapped",
+    "note": "制作地背景；可进入地中海全览，未声称已查明运输航线。",
+    "object_ids": [
+      "e095",
+      "e096"
+    ]
+  },
+  {
+    "id": "tuscania",
+    "name_zh": "Tuscania",
+    "name_en": "Tuscania",
+    "longitude": null,
+    "latitude": null,
+    "map_tier": 3,
+    "coordinate_status": "not_mapped",
+    "note": "双面饮杯出自Peschiera墓地；暂仅设地名入口，不猜墓地精确位置。",
+    "object_ids": [
+      "e100"
+    ]
+  },
+  {
+    "id": "bolsena",
+    "name_zh": "Lake Bolsena岛屿（可能）",
+    "name_en": "An island in Lake Bolsena (probably)",
+    "longitude": null,
+    "latitude": null,
+    "map_tier": 3,
+    "coordinate_status": "not_mapped",
+    "note": "e124展签仅说可能来自湖中岛屿；不能以湖中心或Orvieto工坊点冒充确切出土点。",
+    "object_ids": [
+      "e124"
+    ]
+  }
+]

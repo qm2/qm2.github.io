@@ -186,3 +186,6 @@ build_roman_sarcophagi()
 
 from build_greek_roman_bronzes import build as build_greek_roman_bronzes
 build_greek_roman_bronzes()
+
+from build_etruscans import build as build_etruscans
+build_etruscans()

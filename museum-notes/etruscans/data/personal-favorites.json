@@ -1,0 +1,51 @@
+{
+  "section_title": "初见最爱",
+  "section_intro": "尚未查阅背景时，第一次在展厅里最先留住我目光的五件作品。从一处细节进入，再回到完整的形象。",
+  "foreword_paragraphs": [
+    "第一次走进这场展览时，我还没有为伊特鲁里亚准备多少背景。眼前的面容、姿态与神话，使我不断想起希腊与罗马；陶罐上盘曲伸展的多头怪兽，又让我在熟悉的题材里，感到一种鲜明而陌生的生命力。",
+    "青铜器则把思绪牵回了中国的商周。厚实的器身、从口沿探出的兽首，以及金属表面被岁月留下的颜色，让相隔遥远的两个古代世界，在我的目光里短暂地相遇。",
+    "我想先留下这五件作品：它们是在年代、出处与神名进入记忆之前，最先留住我目光的形象。往后的阅读会慢慢补上知识，而那个坐着的男孩、金镯上的小小人物、釜沿的狮首、举臂的神与彩色山墙，仍会把我带回第一次相遇的展厅。"
+  ],
+  "items": [
+    {
+      "object_id": "e045",
+      "title_zh": "Statue of a seated boy (Putto Carrara)",
+      "title_en": "Statue of a seated boy",
+      "detail_caption": "抬起的脸，落地的手",
+      "full_photo": "p153",
+      "detail_source_photo": "p154"
+    },
+    {
+      "object_id": "e010",
+      "title_zh": "Bracelet",
+      "title_en": "Bracelet from the Regolini–Galassi Tomb",
+      "detail_caption": "手腕上的微小世界",
+      "full_photo": "p037",
+      "detail_source_photo": "p038"
+    },
+    {
+      "object_id": "e001",
+      "title_zh": "Cauldron with lion attachments",
+      "title_en": "Cauldron with lion attachments",
+      "detail_caption": "从器沿探出的狮首",
+      "full_photo": "p003",
+      "detail_source_photo": "p005"
+    },
+    {
+      "object_id": "e122",
+      "title_zh": "Statue of Veiovis",
+      "title_en": "Statue of Veiovis",
+      "detail_caption": "举臂之间的舒展",
+      "full_photo": "p345",
+      "detail_source_photo": "p347"
+    },
+    {
+      "object_id": "e106",
+      "title_zh": "Pediment from a shrine",
+      "title_en": "Pediment from a shrine",
+      "detail_caption": "彩色屋顶下的神话",
+      "full_photo": "p296",
+      "detail_source_photo": "p298"
+    }
+  ]
+}

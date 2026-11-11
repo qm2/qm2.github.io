@@ -1,0 +1,10 @@
+{
+  "name": "Natural Earth 1:50m Admin 0 countries",
+  "license": "public domain",
+  "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_countries.geojson",
+  "terms_url": "https://www.naturalearthdata.com/about/",
+  "retrieved_on": "2026-11-11",
+  "scope": "仅保留意大利与相邻国家；现代国界与海岸仅作地理底图，不代表古代政权疆界。",
+  "river_source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson",
+  "river_note": "10m数据检出Tevere台伯河，未检出Arno，不人工补造阿尔诺河线。"
+}

@@ -1,0 +1,256 @@
+[
+  {
+    "id": "exhibition-introduction",
+    "title_en": "The Etruscans: From the Heart of Ancient Italy",
+    "photo_id": "p006",
+    "transcription_file": "research/ocr_raw/p006.txt",
+    "text_status": "OCR未逐字校订；网站请用中文摘要并链接原照片，不直接粘贴OCR",
+    "title_zh": "伊特鲁里亚人：古代意大利的核心世界",
+    "summary_zh": "前罗马意大利由多种人群构成，伊特鲁里亚人是其中的重要力量。展览从器物、墓葬、圣所和聚落材料介绍其社会与信仰，并沿着与希腊、腓尼基等文化的交流走向罗马时代。",
+    "object_ids": [
+      "e001",
+      "e003",
+      "e091",
+      "e122"
+    ]
+  },
+  {
+    "id": "elite-tombs",
+    "title_en": "Elite Tombs and Luxury Goods",
+    "photo_id": "p015",
+    "transcription_file": "research/ocr_raw/p015.txt",
+    "text_status": "OCR未逐字校订；网站请用中文摘要并链接原照片，不直接粘贴OCR",
+    "title_zh": "贵族墓葬与奢侈品",
+    "summary_zh": "前8世纪后期贸易带来的财富，集中显现在Caere、Vulci及Praeneste的高等级墓葬。器物既供死后使用，也表达家族身份；外来物品和流动工匠让材料、形制与图像跨越地中海。",
+    "object_ids": [
+      "e003",
+      "e004",
+      "e006",
+      "e009",
+      "e010"
+    ]
+  },
+  {
+    "id": "regolini-galassi",
+    "title_en": "The Regolini–Galassi Tomb",
+    "photo_id": "p041",
+    "transcription_file": "research/ocr_raw/p041.txt",
+    "text_status": "OCR未逐字校订；网站请用中文摘要并链接原照片，不直接粘贴OCR",
+    "title_zh": "Regolini–Galassi墓",
+    "summary_zh": "1836年发现于Caere，主要墓室中有高等级女性的土葬，侧室还保存另一人的火葬。多个器类同出一墓，可把饮宴、贵重饰物和持续哀悼联系起来；早期发掘仓促也限制了部分语境知识。",
+    "object_ids": [
+      "e001",
+      "e007",
+      "e008",
+      "e009",
+      "e010",
+      "e011",
+      "e012"
+    ]
+  },
+  {
+    "id": "collecting",
+    "title_en": "From Etruria to the Museum",
+    "photo_id": "p051",
+    "transcription_file": "research/ocr_raw/p051.txt",
+    "text_status": "OCR未逐字校订；网站请用中文摘要并链接原照片，不直接粘贴OCR",
+    "title_zh": "从伊特鲁里亚到博物馆",
+    "summary_zh": "近代发掘制度、教皇领地、私人收藏和跨国购藏影响了今天的分藏格局。展墙还讨论盗掘造成的信息损失及SAMA的归还、借展安排。现代来源史应与古代制作和使用史分别记录。",
+    "object_ids": [
+      "e010",
+      "e033",
+      "e111",
+      "e117"
+    ]
+  },
+  {
+    "id": "origins",
+    "title_en": "Origins of the Etruscan Civilization",
+    "photo_id": "p052",
+    "transcription_file": "research/ocr_raw/p052.txt",
+    "text_status": "OCR未逐字校订；网站请用中文摘要并链接原照片，不直接粘贴OCR",
+    "title_zh": "文明的形成",
+    "summary_zh": "早期墓地、火葬与随葬品显示村落向城市的发展及社会分层。各城邦共享语言与习俗，却没有统一中央政府；贸易、矿产与农业资源的开发成为重要背景。",
+    "object_ids": [
+      "e028",
+      "e029",
+      "e022",
+      "e027"
+    ]
+  },
+  {
+    "id": "pottery",
+    "title_en": "Etruscan Pottery",
+    "photo_id": "p113",
+    "transcription_file": "research/ocr_raw/p113.txt",
+    "text_status": "OCR未逐字校订；网站请用中文摘要并链接原照片，不直接粘贴OCR",
+    "title_zh": "陶器：技法与交流",
+    "summary_zh": "粗陶的多变塑形、缺氧烧成的黑陶、红地白绘及希腊式彩绘共同构成制陶世界。器物可用于日常、贸易、献神与随葬；图像、器形和生产技术的流动并非一条单向路线。",
+    "object_ids": [
+      "e019",
+      "e020",
+      "e033",
+      "e035",
+      "e041",
+      "e091"
+    ]
+  },
+  {
+    "id": "gods",
+    "title_en": "Etruscan Gods and Their Worshippers",
+    "photo_id": "p140",
+    "transcription_file": "research/ocr_raw/p140.txt",
+    "text_status": "OCR未逐字校订；网站请用中文摘要并链接原照片，不直接粘贴OCR",
+    "title_zh": "神与崇拜者",
+    "summary_zh": "人们通过祈祷、奉献和祭祀寻求神的回应，也通过占兆认识神意。本地与外来神祇相遇，角色又有本地转化；圣所既可有神庙，也可依托湖、泉和其他自然地貌。",
+    "object_ids": [
+      "e043",
+      "e045",
+      "e051",
+      "e052",
+      "e054",
+      "e084"
+    ]
+  },
+  {
+    "id": "writing",
+    "title_en": "Etruscan Language and Writing",
+    "photo_id": "p149",
+    "transcription_file": "research/ocr_raw/p149.txt",
+    "text_status": "OCR未逐字校订；网站请用中文摘要并链接原照片，不直接粘贴OCR",
+    "title_zh": "语言与书写",
+    "summary_zh": "伊特鲁里亚人改用希腊字母系统书写自身语言，通常从右到左，但也有例外。短铭保留姓名、奉献和物品用途；文字可以读取到不同程度，既非全无认识，也非全部通晓。",
+    "object_ids": [
+      "e043",
+      "e046",
+      "e047",
+      "e119",
+      "e126"
+    ]
+  },
+  {
+    "id": "vignaccia",
+    "title_en": "Votive Offerings from the Vignaccia Sanctuary",
+    "photo_id": "p199",
+    "transcription_file": "research/ocr_raw/p199.txt",
+    "text_status": "OCR未逐字校订；网站请用中文摘要并链接原照片，不直接粘贴OCR",
+    "title_zh": "维尼亚恰圣所的还愿物",
+    "summary_zh": "大量女性头像和人物来自CaereVignaccia的奉献堆积。展墙推测祭祀与生育、分娩及健康有关；模制与原有彩绘让这类作品能以重复而多变的形式生产。具体神祇与参与者身份仍有限定。",
+    "object_ids": [
+      "e058",
+      "e059",
+      "e060",
+      "e061"
+    ]
+  },
+  {
+    "id": "jewelry",
+    "title_en": "Etruscan Jewelry",
+    "photo_id": "p204",
+    "transcription_file": "research/ocr_raw/p204.txt",
+    "text_status": "OCR未逐字校订；网站请用中文摘要并链接原照片，不直接粘贴OCR",
+    "title_zh": "珠宝：身体上的财富与工艺",
+    "summary_zh": "金、琥珀、玻璃和费昂斯连接材料来源、贸易与身份。金工匠以金丝和细金粒组织复杂表面；衣针固定服饰，耳环、项链与手镯既在生活中佩戴，也可进入墓葬。",
+    "object_ids": [
+      "e005",
+      "e010",
+      "e063",
+      "e065",
+      "e066",
+      "e074"
+    ]
+  },
+  {
+    "id": "women",
+    "title_en": "Women in Etruria",
+    "photo_id": "p238",
+    "transcription_file": "research/ocr_raw/p238.txt",
+    "text_status": "OCR未逐字校订；网站请用中文摘要并链接原照片，不直接粘贴OCR",
+    "title_zh": "伊特鲁里亚女性",
+    "summary_zh": "姓名、夫妇图像、宴饮、宗教奉献与墓葬显示女性的重要位置，尤其是高等级家庭。对家庭和公共可见性的认识来自不同证据，不能由少数精英形象直接推出全社会现代意义的平等。",
+    "object_ids": [
+      "e060",
+      "e063",
+      "e084",
+      "e111",
+      "e120"
+    ]
+  },
+  {
+    "id": "banquet",
+    "title_en": "At the Etruscan Banquet",
+    "photo_id": "p243",
+    "transcription_file": "research/ocr_raw/p243.txt",
+    "text_status": "OCR未逐字校订；网站请用中文摘要并链接原照片，不直接粘贴OCR",
+    "title_zh": "伊特鲁里亚宴饮",
+    "summary_zh": "宴席展示财富、亲密关系与地位，器具同时组织食物、酒、香气、音乐和游戏。墓中宴饮图像可能涉及生前活动、葬仪或死后理想，不能只按一种时间解释。",
+    "object_ids": [
+      "e087",
+      "e089",
+      "e096",
+      "e101",
+      "e104",
+      "e111"
+    ]
+  },
+  {
+    "id": "temples",
+    "title_en": "Etruscan Temple Architecture",
+    "photo_id": "p292",
+    "transcription_file": "research/ocr_raw/p292.txt",
+    "text_status": "OCR未逐字校订；网站请用中文摘要并链接原照片，不直接粘贴OCR",
+    "title_zh": "神庙建筑",
+    "summary_zh": "木、土、石与瓦共同构成建筑，彩绘陶饰保护并装饰屋顶。屋顶立饰、端饰和重复纹带使神庙呈现鲜明色彩；留下的构件让我们认识已失去的主体，但重构仍须标明边界。",
+    "object_ids": [
+      "e105",
+      "e106",
+      "e107"
+    ]
+  },
+  {
+    "id": "afterlife",
+    "title_en": "Etruscan Tombs and the Afterlife",
+    "photo_id": "p344",
+    "transcription_file": "research/ocr_raw/p344.txt",
+    "text_status": "OCR未逐字校订；网站请用中文摘要并链接原照片，不直接粘贴OCR",
+    "title_zh": "墓葬与来世",
+    "summary_zh": "墓室可联系居住空间，棺盖与骨灰瓮可表现身份或宴饮姿态。不同地区和时期并行火葬与土葬；丘西延续火葬更久。多种葬具、停灵与送别图像共同构成死亡实践。",
+    "object_ids": [
+      "e111",
+      "e113",
+      "e114",
+      "e115",
+      "e116",
+      "e121",
+      "e123"
+    ]
+  },
+  {
+    "id": "rome",
+    "title_en": "Rome and the Etruscans",
+    "photo_id": "p362",
+    "transcription_file": "research/ocr_raw/p362.txt",
+    "text_status": "OCR未逐字校订；网站请用中文摘要并链接原照片，不直接粘贴OCR",
+    "title_zh": "罗马与伊特鲁里亚",
+    "summary_zh": "罗马逐步取得地区控制，城市经历各不相同。语言、地方宗教、工艺和家庭身份并不随政治统治同时消失；本展用肖像、铭文和神像展示这一阶段的变化与延续。",
+    "object_ids": [
+      "e122",
+      "e125",
+      "e126",
+      "e129"
+    ]
+  },
+  {
+    "id": "san-casciano",
+    "title_en": "Bronzes from San Casciano dei Bagni",
+    "photo_id": "p373",
+    "transcription_file": "research/ocr_raw/p373.txt",
+    "text_status": "OCR未逐字校订；网站请用中文摘要并链接原照片，不直接粘贴OCR",
+    "title_zh": "San Casciano dei Bagni青铜",
+    "summary_zh": "温泉疗愈圣所的近年发现保存了神祇、献者、婴儿和身体部位等青铜。伊特鲁里亚文、拉丁文及部分双语记录为共同祭祀提供新证据；具体还愿物不能直接诊断个体疾病。",
+    "object_ids": [
+      "e130",
+      "e131"
+    ]
+  }
+]

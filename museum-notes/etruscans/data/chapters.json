@@ -1,0 +1,236 @@
+[
+  {
+    "id": "luxury",
+    "title_zh": "跨海而来的财富",
+    "wall_title_en": "Elite Tombs and Luxury Goods",
+    "panel_photos": [
+      "p015"
+    ],
+    "object_ids": [
+      "e001",
+      "e002",
+      "e003",
+      "e004",
+      "e005",
+      "e006",
+      "e007",
+      "e008",
+      "e009",
+      "e010",
+      "e011",
+      "e012"
+    ],
+    "intro": "狮首、蛇饰、斯芬克斯和鸵鸟蛋，先把目光带向地中海。贵族墓葬保存的，既有本地工艺，也有外来的材料、图像和物品。"
+  },
+  {
+    "id": "origins",
+    "title_zh": "给逝者一所房子",
+    "wall_title_en": "Origins of the Etruscan Civilization",
+    "panel_photos": [
+      "p052"
+    ],
+    "object_ids": [
+      "e013",
+      "e014",
+      "e015",
+      "e016",
+      "e017",
+      "e018",
+      "e019",
+      "e020",
+      "e021",
+      "e022",
+      "e023",
+      "e024",
+      "e025",
+      "e026",
+      "e027",
+      "e028",
+      "e029"
+    ],
+    "intro": "从盔盖双锥形瓮、茅屋形瓮到矩形房屋，盛放骨灰的容器也在描绘人的身份与住居。不同地方的葬俗并不同时变化。"
+  },
+  {
+    "id": "pottery",
+    "title_zh": "泥土如何成为黑色与光",
+    "wall_title_en": "Etruscan Pottery",
+    "panel_photos": [
+      "p113"
+    ],
+    "object_ids": [
+      "e030",
+      "e031",
+      "e032",
+      "e033",
+      "e034",
+      "e035",
+      "e036",
+      "e037",
+      "e038",
+      "e039",
+      "e040",
+      "e041"
+    ],
+    "intro": "粗陶的塑形、红地白绘的动物，以及通体发黑的bucchero，共同展示陶工对形状、火候和表面的控制。"
+  },
+  {
+    "id": "gods-writing",
+    "title_zh": "神前的身体，会说话的器物",
+    "wall_title_en": "Etruscan Gods and Their Worshippers / Etruscan Language and Writing",
+    "panel_photos": [
+      "p140",
+      "p149",
+      "p199"
+    ],
+    "object_ids": [
+      "e042",
+      "e043",
+      "e044",
+      "e045",
+      "e046",
+      "e047",
+      "e048",
+      "e049",
+      "e050",
+      "e051",
+      "e052",
+      "e053",
+      "e054",
+      "e055",
+      "e056",
+      "e057",
+      "e058",
+      "e059",
+      "e060",
+      "e061",
+      "e062"
+    ],
+    "intro": "摊开的双手、胸前的护符、衣褶间的铭文，让献者与神祇发生联系。文字并非只在书上，也刻在赠礼、还愿像与字母练习器上。"
+  },
+  {
+    "id": "adornment",
+    "title_zh": "佩戴、照面与女性生活",
+    "wall_title_en": "Etruscan Jewelry / Women in Etruria",
+    "panel_photos": [
+      "p204",
+      "p238"
+    ],
+    "object_ids": [
+      "e063",
+      "e064",
+      "e065",
+      "e066",
+      "e067",
+      "e068",
+      "e069",
+      "e070",
+      "e071",
+      "e072",
+      "e073",
+      "e074",
+      "e075",
+      "e076",
+      "e077",
+      "e078",
+      "e079",
+      "e080",
+      "e081",
+      "e082",
+      "e083",
+      "e084",
+      "e085",
+      "e086"
+    ],
+    "intro": "金粒、玻璃与细金丝是身体的装饰，镜背则容纳复杂的神话。精英女性的可见性，来自饰物、铭文、祭仪与丧葬图像的交叉证据。"
+  },
+  {
+    "id": "banquet",
+    "title_zh": "酒、香与宴饮的动作",
+    "wall_title_en": "At the Etruscan Banquet",
+    "panel_photos": [
+      "p243"
+    ],
+    "object_ids": [
+      "e087",
+      "e088",
+      "e089",
+      "e090",
+      "e091",
+      "e092",
+      "e093",
+      "e094",
+      "e095",
+      "e096",
+      "e097",
+      "e098",
+      "e099",
+      "e100",
+      "e101",
+      "e102",
+      "e103",
+      "e104"
+    ],
+    "intro": "倒酒、舀酒、滤酒、焚香和投酒游戏，把器物重新放回使用的时间里。希腊进口器与本地器相邻陈列，也使影响的方向更复杂。"
+  },
+  {
+    "id": "temples",
+    "title_zh": "彩色屋顶下的神与人",
+    "wall_title_en": "Etruscan Temple Architecture",
+    "panel_photos": [
+      "p292"
+    ],
+    "object_ids": [
+      "e105",
+      "e106",
+      "e107",
+      "e108",
+      "e109",
+      "e110"
+    ],
+    "intro": "屋顶并非只有结构：翼马、神祇、面具与植物纹在高处构成图像。微型神庙与陶饰，让已失去木构主体的建筑仍可被想象。"
+  },
+  {
+    "id": "afterlife",
+    "title_zh": "长眠、宴饮与送别",
+    "wall_title_en": "Etruscan Tombs and the Afterlife",
+    "panel_photos": [
+      "p344"
+    ],
+    "object_ids": [
+      "e111",
+      "e112",
+      "e113",
+      "e114",
+      "e115",
+      "e116",
+      "e117",
+      "e118",
+      "e119",
+      "e120",
+      "e121",
+      "e123"
+    ],
+    "intro": "同样是死者形象，可以平卧待葬、半倚宴饮，也可以化成盛骨灰的人形容器。沿着姿态和动作比较，比把每件都叫“石棺”更有收获。"
+  },
+  {
+    "id": "rome-healing",
+    "title_zh": "进入罗马时代，祈愿仍在继续",
+    "wall_title_en": "Rome and the Etruscans / Bronzes from San Casciano dei Bagni",
+    "panel_photos": [
+      "p362",
+      "p373"
+    ],
+    "object_ids": [
+      "e122",
+      "e124",
+      "e125",
+      "e126",
+      "e127",
+      "e128",
+      "e129",
+      "e130",
+      "e131"
+    ],
+    "intro": "征服没有使一切在同一天停止。拉丁文献辞、细长还愿像、罗马时代的神像与温泉圣所的青铜，让延续、变化与共同祭祀变得可见。"
+  }
+]
