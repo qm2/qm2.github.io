@@ -47,3 +47,21 @@ python3 scripts/check_greek_roman_bronzes_browser.py
 Browser checks cover 1440/390/320 px, every generated page and image, original links, rotated label, gallery all/previous/next, zoom/Escape, map/filters, URL state and back/forward, date alternatives, exact caption alignment and natural image proportions. Reports/screenshots remain under `/tmp`, outside published resources.
 
 To regenerate images from the original handoff, use `scripts/prepare_greek_roman_bronzes.py [extracted-package-directory]`. Ordinary content builds do not require the source package. For later visits, retain the work ID and append photos with real visit dates only when supplied; add museum records only for new viewing institutions. Counts, maps and navigation regenerate from canonical data.
+
+## Image hosting pilot (2026-11-11)
+
+The 183 existing images (44 unchanged JPEGs and 139 WebP derivatives, 30,913,593 bytes)
+are mirrored in the owner's R2 bucket. `museum-notes/image-hosts.json` maps this
+topic's image prefix to `https://images.mertonmuseum.com`; object keys retain the
+full repository-relative path. `scripts/museum_image_urls.py` resolves the URLs
+for responsive images, lightbox views, originals, social previews and the main
+notebook's topic entrance. Works, photo IDs and page URLs have not changed.
+
+This first production switch keeps all local images for rollback and old direct
+links. It does not yet reduce the published site's storage or rewrite Git history.
+To roll back, remove this prefix from the host mapping, rebuild and publish.
+Future images must be uploaded and publicly verified before publishing pages
+that reference them. The build performs no uploads and needs no credentials.
+Upload tools, manifests, verification reports and credentials stay outside the
+repository; never publish them. The temporary `r2.dev` endpoint is not used by
+the production site. Other topics retain their existing image URLs.

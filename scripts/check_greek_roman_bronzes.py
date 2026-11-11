@@ -4,6 +4,7 @@ from html.parser import HTMLParser
 from urllib.parse import urlsplit,unquote
 from collections import Counter
 import json,hashlib
+from museum_image_urls import HOSTS,image_url
 ROOT=Path(__file__).resolve().parents[1];BASE=ROOT/'museum-notes/greek-roman-bronzes'
 def load(n):return json.loads((BASE/f'data/{n}.json').read_text())
 w=load('works');by={x['id']:x for x in w};p=load('photos');m=load('museums');notes=load('editorial');sources={x['id'] for x in load('sources')}
@@ -40,6 +41,7 @@ class Page(HTMLParser):
   for k in ['href','src','data-original']:
    if a.get(k):self.links.append(a[k])
   if a.get('srcset'):self.links.extend(t.strip().split()[0] for t in a['srcset'].split(','))
+  if tag=='meta' and a.get('property')=='og:image':self.links.append(a['content'])
   if tag=='img':self.images.append(a)
 files=list(BASE.rglob('index.html'));assert len(files)==22
 cache={}
@@ -48,10 +50,18 @@ for f in files:
  for im in page.images:
   if im.get('id')=='large-photo':continue
   assert im.get('alt') and im.get('width') and im.get('height'),(f,im)
-  assert not im.get('src','').startswith('http'),f
+  src=im.get('src','');u=urlsplit(src)
+  if u.scheme:
+   key=unquote(u.path).lstrip('/')
+   assert src==image_url(key,''),(f,'unconfigured image host',src)
+   assert key.startswith('museum-notes/greek-roman-bronzes/images/'),(f,src)
  for link in page.links:
   u=urlsplit(link)
-  if u.scheme or u.netloc:continue
+  if u.scheme or u.netloc:
+   if u.scheme+'://'+u.netloc not in HOSTS.values():continue
+   assert link==image_url(unquote(u.path).lstrip('/'),''),(f,link)
+   assert (ROOT/unquote(u.path).lstrip('/')).is_file(),(f,link)
+   continue
   target=Path(unquote(u.path));target=(ROOT/target.as_posix().lstrip('/')) if target.is_absolute() else f.parent/target
   target=target.resolve()
   if target.is_dir():target=target/'index.html'
@@ -61,3 +71,11 @@ for f in files:
    assert unquote(u.fragment) in cache[target],(f,link)
 for path,marker in [('museum-notes/index.html','<!-- bronze-entry -->'),('museum-notes/roman-sarcophagi/index.html','../greek-roman-bronzes/')]:assert (ROOT/path).read_text().count(marker)==1
 print('PASS: 18 groups / 8 museums / 44 original hashes / 22 pages; photo ownership, dates, local links and anchors.')
+assert image_url('museum-notes/xuzhou/images/example.webp','../images/example.webp')=='../images/example.webp'
+for f in files:
+ page=Page(f.read_text())
+ for src in page.links:
+  u=urlsplit(src)
+  if not u.scheme and (f.parent/unquote(u.path)).resolve().is_relative_to(BASE/'images'):
+   assert not HOSTS.get('museum-notes/greek-roman-bronzes/images/'),(f,'unmigrated image URL',src)
+print('PASS: migrated image URLs resolve to retained local assets; other topics remain local.')

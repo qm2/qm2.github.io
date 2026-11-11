@@ -3,6 +3,7 @@ from pathlib import Path
 from html import escape as e
 import json,re
 from build_homer import LIGHTBOX
+from museum_image_urls import image_url
 ROOT=Path(__file__).resolve().parents[1];BASE=ROOT/'museum-notes/greek-roman-bronzes'
 
 def build():
@@ -11,15 +12,17 @@ def build():
  def cites(keys):return '<span class="rs-cites">'+''.join(f' <a href="{e(sb[k]["url"])}" title="{e(sb[k]["title"])}" aria-label="来源：{e(sb[k]["title"])}">[{sn[k]}]</a>' for k in dict.fromkeys(keys))+'</span>' if keys else ''
  def paras(rows):return ''.join('<p>'+e(p['text'])+cites(p.get('source_ids',[]))+'</p>' for p in rows)
  def bibliography(keys):return '<ol class="rs-bibliography">'+''.join(f'<li value="{sn[k]}"><a href="{e(sb[k]["url"])}">{e(sb[k]["title"])} ↗</a></li>' for k in dict.fromkeys(keys))+'</ol>'
+ def asset(name,pre=''):
+  return image_url('museum-notes/greek-roman-bronzes/images/'+name,pre+'images/'+name)
  def image(n,pre='',eager=False,sizes='(max-width:600px) 90vw, 580px',alt=None):
   p=photos[str(n)];vs=p['variants'];v=min(vs,key=lambda x:abs(x['width']-960))
-  return f'<img src="{pre}images/{v["file"]}" srcset="'+', '.join(f'{pre}images/{v["file"]} {v["width"]}w' for v in vs)+f'" sizes="{sizes}" width="{p["display_width"]}" height="{p["display_height"]}" alt="{e(alt or p["caption"])}" loading="{"eager" if eager else "lazy"}" decoding="async"'+(' fetchpriority="high"' if eager else '')+'>'
+  return f'<img src="{asset(v["file"],pre)}" srcset="'+', '.join(f'{asset(v["file"],pre)} {v["width"]}w' for v in vs)+f'" sizes="{sizes}" width="{p["display_width"]}" height="{p["display_height"]}" alt="{e(alt or p["caption"])}" loading="{"eager" if eager else "lazy"}" decoding="async"'+(' fetchpriority="high"' if eager else '')+'>'
  def figure(n,pre='',caption=None,eager=False,maxwidth=None):
   p=photos[str(n)];cap=caption or p['caption'];limit=maxwidth or (580 if p['display_height']>p['display_width'] else 960);width=min(limit,p['display_width'])
-  return f'<figure class="rs-photo" style="--photo-width:{width}px"><a data-photo href="{pre}images/{p["full"]}" data-original="{pre}images/originals/{p["original"]}" data-caption="{e(cap)} · Merton摄" aria-label="放大：{e(cap)}">'+image(n,pre,eager,f'(max-width:600px) 90vw, {width}px',cap)+f'</a><figcaption>{e(cap)} · Merton摄</figcaption></figure>'
+  return f'<figure class="rs-photo" style="--photo-width:{width}px"><a data-photo href="{asset(p["full"],pre)}" data-original="{asset("originals/"+p["original"],pre)}" data-caption="{e(cap)} · Merton摄" aria-label="放大：{e(cap)}">'+image(n,pre,eager,f'(max-width:600px) 90vw, {width}px',cap)+f'</a><figcaption>{e(cap)} · Merton摄</figcaption></figure>'
  def shell(title,body,depth=0,cover='1987',description=''):
   pre='../'*depth;up='../'*(depth+1)
-  return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)} | Merton · 博物馆札记</title><meta name="description" content="{e(description or '希腊与罗马世界的青铜：身体、权力与幸存。从亲见作品出发，读姿态、铸造与保存。')}"><meta property="og:image" content="https://qm2.github.io/museum-notes/greek-roman-bronzes/images/{photos[cover]['full']}"><link rel="stylesheet" href="{up}museum.css"><link rel="stylesheet" href="{up}caravaggio/caravaggio.css"><link rel="stylesheet" href="{up}roman-sarcophagi/roman.css"><link rel="stylesheet" href="{pre}bronzes.css"><script defer src="{up}caravaggio/caravaggio.js"></script><script defer src="{up}roman-sarcophagi/roman.js"></script><script defer src="{pre}bronzes.js"></script></head><body class="rs-page gb-page" id="top"><a class="skip-link" href="#main">跳至正文</a><header class="site-header"><a class="signature" href="{up}">Merton</a><nav aria-label="主导航"><a href="{pre or './'}">青铜专题</a><a href="{pre}history/">历史与观看</a><a href="{pre}atlas/">所见图录</a><a href="{pre}compare/">并看</a></nav></header><main id="main" class="wrap">{body}</main><footer class="site-footer wrap"><a href="{up}">← 博物馆札记</a><span>现场摄影 / Merton</span><a href="#top">回到顶部 ↑</a></footer>{LIGHTBOX}</body></html>'''
+  return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)} | Merton · 博物馆札记</title><meta name="description" content="{e(description or '希腊与罗马世界的青铜：身体、权力与幸存。从亲见作品出发，读姿态、铸造与保存。')}"><meta property="og:image" content="{asset(photos[cover]['full'],'https://qm2.github.io/museum-notes/greek-roman-bronzes/')}"><link rel="stylesheet" href="{up}museum.css"><link rel="stylesheet" href="{up}caravaggio/caravaggio.css"><link rel="stylesheet" href="{up}roman-sarcophagi/roman.css"><link rel="stylesheet" href="{pre}bronzes.css"><script defer src="{up}caravaggio/caravaggio.js"></script><script defer src="{up}roman-sarcophagi/roman.js"></script><script defer src="{pre}bronzes.js"></script></head><body class="rs-page gb-page" id="top"><a class="skip-link" href="#main">跳至正文</a><header class="site-header"><a class="signature" href="{up}">Merton</a><nav aria-label="主导航"><a href="{pre or './'}">青铜专题</a><a href="{pre}history/">历史与观看</a><a href="{pre}atlas/">所见图录</a><a href="{pre}compare/">并看</a></nav></header><main id="main" class="wrap">{body}</main><footer class="site-footer wrap"><a href="{up}">← 博物馆札记</a><span>现场摄影 / Merton</span><a href="#top">回到顶部 ↑</a></footer>{LIGHTBOX}</body></html>'''
  def write(route,body,title,depth=0,cover='1987',description=''):
   target=BASE/route;target.mkdir(parents=True,exist_ok=True);(target/'index.html').write_text(shell(title,body,depth,cover,description))
  def links(ids,pre='../'):

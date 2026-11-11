@@ -2,6 +2,7 @@
 import asyncio,json,os
 from pathlib import Path
 from playwright.async_api import async_playwright
+from museum_image_urls import HOSTS
 ROOT=Path(__file__).resolve().parents[1];DATA=ROOT/'museum-notes/greek-roman-bronzes/data';WORKS=json.loads((DATA/'works.json').read_text());BASE=os.environ.get('BASE_URL','http://127.0.0.1:8791')+'/museum-notes/greek-roman-bronzes/'
 async def main():
  async with async_playwright() as p:
@@ -11,6 +12,9 @@ async def main():
    for route in ['', 'history/','compare/','atlas/']+[w['id']+'/' for w in WORKS]:
     await page.goto(BASE+route,wait_until='domcontentloaded')
     failures=await page.evaluate('''async()=>{const failures=[];await Promise.all([...document.querySelectorAll('main img')].map(async i=>{i.loading='eager';try{await i.decode()}catch(e){failures.push(i.src)}}));return failures}''');assert not failures,(width,route,failures)
+    image_host=HOSTS.get('museum-notes/greek-roman-bronzes/images/')
+    if image_host:
+     assert await page.locator('main img').evaluate_all('(images,host)=>images.every(i=>i.currentSrc.startsWith(host+"/museum-notes/greek-roman-bronzes/images/"))',image_host),(width,route,'image host')
     assert not await page.evaluate('document.documentElement.scrollWidth>innerWidth'),(width,route,'overflow')
     for fig in await page.locator('figure:visible').all():
      img=fig.locator('img');cap=fig.locator('figcaption');ib=await img.bounding_box();cb=await cap.bounding_box()
@@ -50,7 +54,9 @@ async def main():
    await page.locator('.rs-timeline summary').focus();await page.keyboard.press('Enter');assert await page.locator('.rs-timeline').evaluate('(e)=>e.open')
    await page.goto(BASE+'compare/#heroic-body');await page.locator('#heroic-body a[data-photo]').first.click();assert '1962' in await page.locator('#original-photo').get_attribute('href');await page.keyboard.press('Escape')
    await page.goto(BASE+'history/#field-card');assert await page.locator('#field-card li').count()==6
-   await page.goto(BASE);await page.screenshot(path=f'/tmp/bronze-final-home-{width}.png')
+   await page.goto(BASE)
+   await page.locator('main img').first.evaluate('(i)=>i.decode()')
+   await page.screenshot(path=f'/tmp/bronze-final-home-{width}.png')
    await page.close()
   await browser.close();assert not errors,errors
   Path('/tmp/bronze-browser-report.json').write_text(json.dumps(checks,ensure_ascii=False,indent=2));print(f'PASS: {len(checks)} viewport/page checks; every image decoded, captions aligned, all gallery angles, label rotation, zoom/original, keyboard, map/filter/back-forward/deep links, date alternatives. No JS errors.')
