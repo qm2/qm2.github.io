@@ -7,7 +7,7 @@ WORKS=json.loads((B/'data/objects.json').read_text());BASE=os.getenv('BASE_URL',
 async def main():
  async with async_playwright() as pw:
   browser=await pw.chromium.launch(headless=True,args=['--no-sandbox']);errors=[];checks=[]
-  for width in [1440,390,320]:
+  for width in [1440,768,390,320]:
    page=await browser.new_page(viewport={'width':width,'height':950});page.on('pageerror',lambda e:errors.append(str(e)))
    routes=['','guide/','atlas/','compare/','sources/','photos/','e045/','e010/','e001/','e106/','e122/','e069/','e117/','e129/','e131/']
    if width==390:routes+= [w['id']+'/' for w in WORKS if w['id']+'/' not in routes]
@@ -23,16 +23,28 @@ async def main():
      assert 0<=cb['y']-ib['y']-ib['height']<=17,(width,route,'caption gap',ib,cb)
      assert await im.evaluate('(i)=>Math.abs(i.clientWidth/i.clientHeight-i.naturalWidth/i.naturalHeight)<.025'),(width,route,'distorted')
     checks.append([width,route])
+   # Guide captions follow actual photograph width, including expanded entries.
+   await page.goto(BASE+'guide/')
+   await page.locator('details').evaluate_all('(xs)=>xs.forEach(x=>x.open=true)')
+   for mini in await page.locator('.et-mini-photo').all():
+    await mini.locator('img').evaluate('(i)=>{i.loading="eager";return i.decode()}')
+    ib=await mini.locator('img').bounding_box();cb=await mini.locator('.et-mini-caption').bounding_box()
+    assert abs(ib['x']-cb['x'])<1 and abs(ib['width']-cb['width'])<1
+    assert 0<=cb['y']-ib['y']-ib['height']<=9
+   for fragment in ['ch01','ch04','ch09']:
+    await page.goto(BASE+'#'+fragment)
+    await page.locator('.et-favorites a[href$="/e045/"]').first.click()
+    assert page.url==BASE+'e045/',page.url
    # All five favorites retain a complete first photograph, followed by a gallery.
-   for wid,pid in [('e045','p153'),('e010','p037'),('e001','p003'),('e122','p345'),('e106','p296')]:
+   for wid,pid in [('e045','p153'),('e010','p038'),('e001','p001'),('e122','p346'),('e106','p296')]:
     await page.goto(BASE+wid+'/');assert pid in await page.locator('main figure a').first.get_attribute('data-original')
-   await page.goto(BASE+'e010/');g=page.locator('[data-rs-gallery]');n=await g.locator('.rs-slide').count()
+   await page.goto(BASE+'e045/');g=page.locator('[data-rs-gallery]');n=await g.locator('.rs-slide').count()
    for i in range(n):
     assert await g.locator('.rs-slide:not([hidden])').count()==1
     im=g.locator('.rs-slide:not([hidden]) img');await im.evaluate('(i)=>{i.loading="eager";return i.decode()}')
     if i<n-1:await g.locator('[data-next]').click()
    await g.locator('[data-all]').click();assert await g.locator('.rs-slide:not([hidden])').count()==n
-   await g.locator('a[data-photo]').first.click();await page.locator('#large-photo').evaluate('(i)=>i.decode()');before=await page.locator('#original-photo').get_attribute('href')
+   await page.locator('main a[data-photo]').first.click();await page.locator('#large-photo').evaluate('(i)=>i.decode()');before=await page.locator('#original-photo').get_attribute('href')
    await page.locator('#photo-next').click();await page.wait_for_timeout(80);assert await page.locator('#original-photo').get_attribute('href')!=before
    await page.locator('#zoom-toggle').click();assert await page.locator('#zoom-toggle').get_attribute('aria-pressed')=='true'
    await page.keyboard.press('Escape');assert not await page.locator('#art-lightbox').evaluate('(d)=>d.open')

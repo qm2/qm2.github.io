@@ -12,11 +12,13 @@ def load(n):return json.loads((BASE/'data'/f'{n}.json').read_text())
 def build():
  works=load('objects');by={w['id']:w for w in works};photos={p['photo_id']:p for p in load('photos')};reads={r['object_id']:r for r in load('deep_readings')};caps=load('captions');notes=load('object-notes');chapters=load('chapters');places=load('places');pb={p['id']:p for p in places};sources=load('sources');sb={s['id']:s for s in sources};crops=load('detail-crops');favs=load('personal-favorites');groups=load('comparisons');taxonomy=load('function_taxonomy');collections=load('collections');timeline=load('timeline');panels=load('panels')
  for w in works:w['title_zh']=w.get('title_zh') or w['title_en']
+ editing=load('photo-editing');derivatives=load('image-derivatives');photos.update(derivatives)
+ photo_count=len(load('photos'))
  favorites={f['object_id']:f for f in favs['items']}
  relation={'findspot':'发现地点','possible_findspot':'可能发现于','probable_findspot':'很可能发现于','near_findspot':'发现于附近','production':'制作地','attributed_production':'归属制作中心','probable_production':'可能制作地','label_place_unspecified':'展签所列地点','label_region':'展签所列地域','unknown':'地域未详'}
  kind={'object':'作品','detail':'局部','label':'现场展签','panel':'展厅说明','context':'展陈环境'}
  def a(path):return image_url('museum-notes/etruscans/images/'+path,U+'images/'+path)
- def cover(w):return favorites.get(w['id'],{}).get('full_photo',w['primary_photo'])
+ def cover(w):return editing['full_views'].get(w['id'],favorites.get(w['id'],{}).get('full_photo',w['primary_photo']))
  def date(w):
   s=w['date_label'];s=re.sub(r'\babout\s*','约',s,flags=re.I);s=s.replace('BC','公元前').replace('AD','公元')
   # Keep the original date string in metadata; use a natural Chinese reading here.
@@ -27,6 +29,7 @@ def build():
  def cname(w):return w['collection_label'].split(' / ')[0]
  def caption(pid):
   p=photos[pid]
+  if pid in derivatives:return p['caption']+(' · 原片局部' if p['kind']=='detail' else '')
   if pid in caps:return caps[pid]
   if p['kind']=='label':
    names=list(dict.fromkeys(by[x['object_id']]['title_zh'] for x in p['links'] if x.get('object_id') in by))
@@ -45,15 +48,17 @@ def build():
  def plink(pid,label='现场展签'):return f'<a class="et-evidence" href="{U}photos/#{pid}">{label}</a>'
  def links(ids):return '<div class="rs-link-row">'+''.join(f'<a href="{U}{wid}/">{esc(by[wid]["title_zh"])} →</a>' for wid in dict.fromkeys(ids) if wid in by)+'</div>'
  def bibliography(ids):return '<ol class="rs-bibliography">'+''.join(f'<li value="{int(k[1:])}"><a href="{esc(sb[k]["url"])}">{esc(sb[k]["institution"])}：{esc(sb[k]["title"])} ↗</a> <a class="et-evidence" href="{U}sources/#{k}">查阅范围</a></li>' for k in dict.fromkeys(ids) if k in sb)+'</ol>'
- def shell(title,body,coverpid='p003',description='从圣安东尼奥美术馆的亲见作品，走近伊特鲁里亚的城市、身体、宴饮与祈愿。'):
+ def shell(title,body,coverpid='c001-full',description='从圣安东尼奥美术馆的亲见作品，走近伊特鲁里亚的城市、身体、宴饮与祈愿。'):
   nav=[('', '专题首页'),('guide/','认识文明'),('atlas/','地图与图录'),('compare/','八组并看'),('photos/','现场档案')]
   return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)} | Merton · 博物馆札记</title><meta name="description" content="{esc(description)}"><meta property="og:image" content="{a(photos[coverpid]['variants'][-1]['file'])}"><meta property="og:title" content="{esc(title)}"><link rel="preconnect" href="https://images.mertonmuseum.com"><link rel="stylesheet" href="/museum-notes/museum.css"><link rel="stylesheet" href="/museum-notes/caravaggio/caravaggio.css"><link rel="stylesheet" href="/museum-notes/roman-sarcophagi/roman.css"><link rel="stylesheet" href="{U}etruscans.css"><script defer src="/museum-notes/caravaggio/caravaggio.js"></script><script defer src="/museum-notes/roman-sarcophagi/roman.js"></script><script defer src="{U}etruscans.js"></script></head><body class="rs-page et-page" id="top"><a class="skip-link" href="#main">跳至正文</a><header class="site-header"><a class="signature" href="/museum-notes/">Merton</a><nav aria-label="专题导航">{''.join(f'<a href="{U}{path}">{label}</a>' for path,label in nav)}</nav></header><main id="main" class="wrap">{body}</main><footer class="site-footer wrap"><a href="/museum-notes/">← 博物馆札记</a><a href="{U}sources/">资料与来源</a><span>现场摄影 / Merton</span><a href="#top">回到顶部 ↑</a></footer>{LIGHTBOX}</body></html>'''
- def write(route,title,body,coverpid='p003',desc=''):
-  body=body.replace('{record_count}',str(len(works))).replace('{reading_count}',str(len(reads))).replace('{photo_count}',str(len(photos)))
+ def write(route,title,body,coverpid='c001-full',desc=''):
+  body=body.replace('{record_count}',str(len(works))).replace('{reading_count}',str(len(reads))).replace('{photo_count}',str(photo_count))
   d=BASE/route;d.mkdir(exist_ok=True,parents=True);(d/'index.html').write_text(shell(title,body,coverpid,desc or title))
  def heading(title,lead='',en='ETRUSCANS'):
   return f'<header class="rs-title"><p class="eyebrow">{esc(en)}</p><h1>{esc(title)}</h1>'+('<p class="rs-lead">'+esc(lead)+'</p>' if lead else '')+'</header>'
- def mini(w):return f'<a class="et-mini" href="{U}{w["id"]}/">'+img(cover(w),sizes='(max-width:650px) 40vw, 160px')+'<span>'+esc(w['title_zh'])+'</span><small>'+esc(date(w))+'</small></a>'
+ def mini(w):
+  pid=cover(w);p=photos[pid];width=min(260,180*p['display_width']/p['display_height'])
+  return f'<a class="et-mini" href="{U}{w["id"]}/"><span class="et-mini-photo" style="--mini-width:{width}px">'+img(pid,sizes=f'(max-width:650px) 40vw, {width}px')+'<span class="et-mini-caption">'+esc(w['title_zh'])+'<small>'+esc(date(w))+'</small></span></span></a>'
  def card(w,filterable=False):
   ds=''
   if filterable:
@@ -111,10 +116,14 @@ def build():
   sourceids=list(dict.fromkeys(w['research_source_ids']+(r['supplementary_source_ids'] if r else [])))
   if r:
    body+='<article class="rs-reading"><h2>作品札记</h2>'
-   for j,para in enumerate(r['paragraphs']):body+='<p>'+esc(para)+(' <a class="et-evidence" href="#labels">[展签]</a>' if w['label_photos'] else '')+(cites(sourceids) if j==len(r['paragraphs'])-1 else '')+'</p>'
+   for j,para in enumerate(r['paragraphs']):
+    body+='<p>'+esc(para)+(' <a class="et-evidence" href="#labels">[展签]</a>' if w['label_photos'] else '')+(cites(sourceids) if j==len(r['paragraphs'])-1 else '')+'</p>'
+    for detail in editing['narrative'].get(wid,[]):
+     if detail['after_paragraph']==j:body+='<div class="et-reading-photo">'+figure(detail['image'],limit=520)+'</div>'
    body+='<p class="et-memory">'+esc(r['remember'])+'</p></article>'
   else:body+='<div class="rs-reading"><h2>看一处细节</h2><p>'+esc(w['looking_note'])+'</p></div>'
-  body+=gallery([p for p in w['object_photos']+w['detail_photos'] if p!=pid])
+  shown={derivatives.get(pid,{}).get('photo_id',pid)}|{derivatives.get(d['image'],{}).get('photo_id',d['image']) for d in editing['narrative'].get(wid,[])}
+  body+=gallery([p for p in w['object_photos']+w['detail_photos'] if p not in shown])
   body+='<details class="rs-labels" id="labels"><summary>现场展签 <span class="rs-icon" aria-hidden="true">＋</span></summary>'+''.join(figure(p) for p in dict.fromkeys(w['label_photos']))+'</details>'
   body+='<section class="rs-reading rs-documentation"><h2>资料与来源</h2>'
   if wid in notes:body+='<details><summary>资料注 <span class="rs-icon" aria-hidden="true">＋</span></summary><p>'+esc(notes[wid])+cites(sourceids)+'</p></details>'
@@ -124,13 +133,13 @@ def build():
   body+=f'<p class="rs-return"><a href="{U}#{chapter["id"]}">← 回到这一章</a>　<a href="{U}atlas/#{wid}">在完整图录中找到它 →</a></p>'
   write(wid,w['title_zh'],body,pid,r['question'] if r else w['looking_note'])
  # Home: personal entry, discrete geographical chooser, nine varied editorial chapters.
- body='<div class="et-hero">'+heading('泥土、青铜与永恒的宴席','伊特鲁里亚文明的现场观看','ETRUSCANS / A VIEWING NOTEBOOK')+figure('p003',cap='狮首饰青铜大釜 · 公元前675—650年 · 圣安东尼奥特展所见',eager=True,limit=480)+'</div>'
+ body='<div class="et-hero">'+heading('泥土、青铜与永恒的宴席','伊特鲁里亚文明的现场观看','ETRUSCANS / A VIEWING NOTEBOOK')+figure(editing['hero'],cap='狮首饰青铜大釜 · 公元前675—650年 · 圣安东尼奥特展所见',eager=True,limit=480)+'</div>'
  body+='<div class="rs-preface">'+''.join('<p>'+esc(t)+'</p>' for t in favs['foreword_paragraphs'])+'</div>'
  body+='<p class="et-exhibition">2026年11月 · 圣安东尼奥美术馆<br><i>The Etruscans: From the Heart of Ancient Italy</i><br>展期：2026年10月31日—2027年3月14日 · 旧金山美术博物馆与圣安东尼奥美术馆合作'+cites(['S01'])+'</p>'
  body+='<section class="et-favorites"><p class="eyebrow">FIRST ENCOUNTERS</p><h2>初见最爱</h2><p>'+esc(favs['section_intro'])+'</p><div class="et-favorite-grid">'
  for f in favs['items']:
   c=crops[f['object_id']];v=c['variants']
-  body+=f'<a href="{U}{f["object_id"]}/"><div class="et-detail-thumb"><img src="{a(v[0]["file"])}" srcset="{a(v[0]["file"])} 320w, {a(v[1]["file"])} 640w" sizes="(max-width:650px) 44vw, 200px" width="{c["width"]}" height="{c["height"]}" loading="lazy" alt="{esc(f["title_zh"])}：{esc(c["caption"])}，原片局部"></div><small>原片局部</small><h3>{esc(f["title_zh"])}</h3><p>{esc(f["detail_caption"])}</p></a>'
+  body+=f'<a href="{U}{f["object_id"]}/"><div class="et-detail-thumb">'+img(editing['favorites'][f['object_id']],sizes='(max-width:650px) calc((100vw - 54px)/2), (max-width:1280px) calc((100vw - 112px)/5), 230px',alt=f['title_zh']+'：'+c['caption']+'，原片局部')+f'</div><small>原片局部</small><h3>{esc(f["title_zh"])}</h3><p>{esc(f["detail_caption"])}</p></a>'
  body+='</div></section><section class="rs-guide-entry"><p class="eyebrow">A FRAMEWORK FOR THE NEXT ENCOUNTER</p><h2>从一件喜欢的东西，认识一个世界</h2><p>城邦与海路、为逝者安排的居所、神前的祈愿，以及金属与泥土的手艺。先建立几条线索，往后每次看展，都能再添一笔。</p><div class="rs-link-row"><a href="'+U+'guide/">认识伊特鲁里亚 →</a><a href="'+U+'guide/#materials">从材料开始 →</a><a href="'+U+'guide/#gods">神名与器形速查 →</a></div></section>'+mapview()
  body+='<nav class="rs-chapter-nav" aria-label="九章阅读">'+''.join(f'<a href="#{c["id"]}"><span>{i+1:02d}</span>{esc(c["title_zh"])}</a>' for i,c in enumerate(chapters))+'</nav>'
  featureids=['e010','e022','e033','e045','e084','e091','e106','e111','e122']
@@ -187,7 +196,7 @@ def build():
  '罗得岛制作的费昂斯、腓尼基银碗、鸵鸟蛋容器、在Caere工作的希腊画家与雅典进口器，保存了不同的交流关系。原料、成品、工匠与图像并非沿着同一条已知路线流动。',
  '火盆上的动物由滚印重复，红地白绘以明亮线条展开纹带，黑色陶器则依靠器形、磨光与刻划。黑绘和红绘又将叙事放到不同的明暗关系中。牛首盒的技术记载分歧见其资料注。',
  '赠铭让器物以“我”的口吻记住赠礼；祈祷像记录奉献；油瓶排列字母与音节；suthina将器物划归墓葬。拉丁文献辞又提醒人们，语言的变化可以发生在延续的器形之上。铭文释意依据各件现场说明。',
- 'Hercle的狮皮让人想起希腊英雄，成年英雄接受Uni哺乳的故事，却呈现不同的神界关系。Vanth引导死者，适合从职责与持物认识，而非勉强寻找一位完全对应的希腊女神。',
+ '赫丘勒的狮皮让人想起希腊英雄，成年英雄接受乌尼哺乳的故事，却呈现不同的神界关系。Vanth引导死者，适合从职责与持物认识，而非勉强寻找一位完全对应的希腊女神。',
  '半倚宴饮、平卧停灵、安眠般的身体和握手告别，安排了不同的纪念时间。先看躯干角度、手臂与周围人物，再问图像怎样联系生前身份、丧葬仪式和死后期待。',
  '男子头像的个体面貌、罗马姓名与拉丁文献辞、公元1世纪的Veiovis，以及圣所还愿的身体形象，分别显示语言、政治身份与地方实践的变化。它们的速度并不整齐一致。']
  body=heading('让器物彼此照见','沿身体、房屋、文字与交流，重看同一次展览。','SIDE BY SIDE')+'<p class="rs-meta">图片保持完整比例；并排不表示实物等大。各件来源与断代见详情页。</p><nav class="rs-chapter-nav">'+''.join(f'<a href="#{g["id"]}">{esc(g["title"])}</a>' for g in groups)+'</nav>'
@@ -218,18 +227,20 @@ def build():
  write('atlas','所见器物 · 地图与年代',body)
  # All 377 images have a stable archive anchor; labels and wall texts remain photographs, not OCR transcriptions.
  body=heading('现场档案','完整作品、展签、展墙与展陈环境，各自留下观看的依据。','PHOTOGRAPHS & LABELS')+'<p>{photo_count}张原始照片；共享照片只保存一次。点击图片查看大图，原始文件可从查看器打开。</p><label class="et-lookup">照片类型<select id="et-photo-kind"><option value="all">全部</option>'+''.join(f'<option value="{k}">{v}</option>' for k,v in kind.items())+'</select></label><p id="et-photo-count" role="status"></p>'
- for p in photos.values():
+ for p in load('photos'):
   pid=p['photo_id'];matching=next((x for x in panels if x['photo_id']==pid),None)
   body+=f'<details id="{pid}" data-photo-kind="{p["kind"]}"><summary>{esc(caption(pid))} <small>{kind[p["kind"]]}</small><span class="rs-icon" aria-hidden="true">＋</span></summary>'
   if matching:body+='<p>'+esc(matching['summary_zh'])+'</p>'
   body+=figure(pid)+'<div class="rs-link-row">'+''.join(f'<a href="{U}{x["object_id"]}/">{esc(by[x["object_id"]]["title_zh"])} →</a>' for x in p['links'] if x.get('object_id') in by)+'</div></details>'
  write('photos','现场照片与展签档案',body)
  # Source provenance is explicit: no whole catalogue is implied read.
- body=heading('资料与来源','先从现场展签确认这件器物，再以馆录与研究扩展理解。','SOURCES & RESEARCH')+'<div class="rs-reading"><p>{record_count}条记录以现场照片和对应展签为基本依据。背景文字综合资料包中的研究与本轮补充核对；少数链接仅取得检索摘要、馆方元数据或书目说明，分别注明。展览图录未阅读全文。</p><p>“伊特鲁里亚”见于大英博物馆中文导览和中文展览资料；未核实通行中文题名的器物采用展签英文名。中文图注与札记描述眼前细节，地名、神名保留原文以便对照。</p>'
+ body=heading('资料与来源','先从现场展签确认这件器物，再以馆录与研究扩展理解。','SOURCES & RESEARCH')+'<div class="rs-reading"><p>{record_count}条记录以现场照片和对应展签为基本依据。背景文字综合资料包中的研究与本轮补充核对；少数链接仅取得检索摘要、馆方元数据或书目说明，分别注明。展览图录未阅读全文。</p><p>“伊特鲁里亚”见于大英博物馆中文导览和中文展览资料；普通器物名与描述性题名采用中文译写，英文保留展签原名。地名、神名采用查到的中文用法，并保留原文对照；尚未核实中文译名的专名则沿用原名。</p>'
  for s in sources:
   level=s['checked_level'];status='已读网页正文' if level.endswith('full_page') else ('仅核对书目介绍，未读全书' if 'catalogue' in level else ('仅核对馆方元数据' if 'metadata' in level else ('仅核对官方视频说明，未观看全片' if 'video' in level else '仅取得检索摘要／部分记录')))
   body+=f'<section id="{s["id"]}"><h2><small>[{int(s["id"][1:])}]</small> {esc(s["institution"])}</h2><p><a href="{esc(s["url"])}">{esc(s["title"])} ↗</a></p><p class="rs-meta">{status}</p><p>{esc(s["usage_note"])}</p></section>'
  body+='<section id="differences"><h2>仍待核实的几处资料</h2><ul>'+''.join(f'<li><a href="{U}{wid}/">{esc(by[wid]["title_zh"])}</a>：{esc(notes[wid])}</li>' for wid in ['e035','e083','e085','e105','e072','e130','e131'])+'</ul></section><section><h2>照片与地图</h2><p>照片为Merton在2026年11月于圣安东尼奥美术馆特展中拍摄。图注中的“原片局部”表示由现场照片裁切；查看器同时提供完整原图。</p><p>地图底图及台伯河数据来自Natural Earth，公共领域。点位为城市或遗址区域的近似定位，不是发掘测绘数据；未有坐标的地名仍可通过图录筛选。</p></section></div>'
+ names=load('naming-review')['verified_proper_names']
+ body+='<details class="rs-reading et-naming"><summary>中文专名用例 <span class="rs-icon" aria-hidden="true">＋</span></summary><p>以下资料用于核对名称的中文写法；考古背景与单件释读仍据各自馆录。</p><ul>'+''.join('<li>'+esc(n['chinese'])+'（'+esc(n['original'])+'） · <a href="'+esc(n['url'])+'">中文名称用例</a>'+('（检索摘要）' if n['read_scope'].startswith('search') else '')+'</li>' for n in names)+'</ul></details>'
  write('sources','资料与来源 · 伊特鲁里亚',body)
  # Idempotent neighbouring-topic links are applied last by the full notebook build.
  home=ROOT/'museum-notes/index.html';text=home.read_text();text=re.sub(r'<!-- etruscan-entry -->.*?<!-- /etruscan-entry -->','',text,flags=re.S)
@@ -239,6 +250,6 @@ def build():
  for rel in ['greek-roman-bronzes/index.html','roman-sarcophagi/index.html','roman-sarcophagi/stories/index.html']:
   p=ROOT/'museum-notes'/rel;t=p.read_text();t=re.sub(r'<!-- etruscan-related -->.*?<!-- /etruscan-related -->','',t,flags=re.S)
   t=t.replace('</main>','<!-- etruscan-related --><aside class="rs-guide-entry"><h2>再向伊特鲁里亚看一眼</h2><p>相近的英雄、青铜身体与宴饮形象，在古代意大利的地方传统中又有不同用途。</p><a href="'+U+'">泥土、青铜与永恒的宴席 →</a></aside><!-- /etruscan-related --></main>',1);p.write_text(t)
- print(f'Built Etruscans: {len(works)} records, {len(reads)} readings, {len(photos)} photographs; 6 guide/index pages.')
+ print(f'Built Etruscans: {len(works)} records, {len(reads)} readings, {photo_count} photographs; 6 guide/index pages.')
 def chapter_guide(chapter):return {'luxury':'exchange','origins':'funerary','pottery':'materials','gods-writing':'religion','adornment':'cities','banquet':'exchange','temples':'materials','afterlife':'funerary','rome-healing':'exchange'}[chapter]
 if __name__=='__main__':build()

@@ -12,9 +12,9 @@
   },
   {
     "name": "Uni",
-    "name_zh": "Uni",
+    "name_zh": "乌尼",
     "comparison": "Hera / Juno（部分对应）",
-    "recognition": "夫妇组合、成年Hercle受乳等本地叙事",
+    "recognition": "夫妇组合、成年赫丘勒受乳等本地叙事",
     "object_ids": [
       "e055",
       "e078",
@@ -24,7 +24,7 @@
   },
   {
     "name": "Hercle",
-    "name_zh": "Hercle",
+    "name_zh": "赫丘勒",
     "comparison": "Herakles / Hercules",
     "recognition": "狮皮、英雄身形；角色与希腊版本不完全相同",
     "object_ids": [
@@ -38,7 +38,7 @@
   },
   {
     "name": "Menrva",
-    "name_zh": "Menrva",
+    "name_zh": "梅恩瓦",
     "comparison": "Athena / Minerva（部分对应）",
     "recognition": "依单件图像与展签识别，不只凭邻近大眼纹",
     "object_ids": [

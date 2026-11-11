@@ -69,7 +69,7 @@
   },
   {
     "id": "vulci",
-    "name_zh": "Vulci",
+    "name_zh": "武尔奇",
     "name_en": "Vulci",
     "longitude": 11.63,
     "latitude": 42.42,
@@ -120,7 +120,7 @@
   },
   {
     "id": "praeneste",
-    "name_zh": "Praeneste／Palestrina",
+    "name_zh": "Praeneste／帕莱斯特里纳",
     "name_en": "Praeneste / Palestrina",
     "longitude": 12.89,
     "latitude": 41.84,
@@ -172,7 +172,7 @@
     "coordinate_status": "人工约略定位，用于区域阅读；未核查发掘测绘坐标",
     "coordinate_source": "编辑定位，保留两位小数；地名关系据本批展签。不是权威测绘数据。",
     "theme": "以器物重建人的身体",
-    "note": "人首盖瓮、立像瓮与墓标说明此地火葬传统延续较久。Lucignano另在区域内，不是丘西城内。",
+    "note": "人首盖瓮、立像瓮与墓标说明此地火葬传统延续较久。卢奇尼亚诺另在区域内，不是丘西城内。",
     "source_ids": [],
     "object_ids": [
       "e038",
@@ -194,7 +194,7 @@
     "coordinate_status": "人工约略定位，用于区域阅读；未核查发掘测绘坐标",
     "coordinate_source": "编辑定位，保留两位小数；地名关系据本批展签。不是权威测绘数据。",
     "theme": "铜镜与骨灰瓮",
-    "note": "Uni哺乳Hercle铜镜、仿金属葬仪器与女性骨灰瓮可串成一条晚期线索。",
+    "note": "乌尼哺乳赫丘勒铜镜、仿金属葬仪器与女性骨灰瓮可串成一条晚期线索。",
     "source_ids": [],
     "object_ids": [
       "e084",
@@ -299,7 +299,7 @@
   },
   {
     "id": "monteriggioni",
-    "name_zh": "Monteriggioni",
+    "name_zh": "蒙特里焦尼",
     "name_en": "Monteriggioni",
     "longitude": 11.22,
     "latitude": 43.39,
@@ -354,7 +354,7 @@
   },
   {
     "id": "fiesole",
-    "name_zh": "Fiesole",
+    "name_zh": "菲耶索莱",
     "name_en": "Fiesole",
     "longitude": 11.29,
     "latitude": 43.81,
@@ -371,7 +371,7 @@
   },
   {
     "id": "lucignano",
-    "name_zh": "Lucignano",
+    "name_zh": "卢奇尼亚诺",
     "name_en": "Lucignano",
     "longitude": 11.75,
     "latitude": 43.27,
@@ -421,7 +421,7 @@
     "latitude": null,
     "map_tier": 3,
     "coordinate_status": "not_mapped",
-    "note": "仅near Mount Vesuvius，非核心地图范围；不据此认作Vulci发现。",
+    "note": "仅near Mount Vesuvius，非核心地图范围；不据此认作武尔奇发现。",
     "object_ids": [
       "e054"
     ]
@@ -507,7 +507,7 @@
   },
   {
     "id": "tuscania",
-    "name_zh": "Tuscania",
+    "name_zh": "图斯卡尼亚",
     "name_en": "Tuscania",
     "longitude": null,
     "latitude": null,
@@ -520,7 +520,7 @@
   },
   {
     "id": "bolsena",
-    "name_zh": "Lake Bolsena岛屿（可能）",
+    "name_zh": "博尔塞纳湖岛屿（可能）",
     "name_en": "An island in Lake Bolsena (probably)",
     "longitude": null,
     "latitude": null,

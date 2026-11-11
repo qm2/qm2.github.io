@@ -21,7 +21,8 @@ for w in works:
  for pid in w['object_photos']+w['detail_photos']+w['label_photos']:
   assert pid in pb,(w['id'],pid)
   assert w['id'] in [x.get('object_id') for x in pb[pid]['links']],(w['id'],pid,'missing inverse')
- assert w['title_status']=='label_original' and w['title_zh'] is None
+ assert w['title_status']=='descriptive_translation' and w['title_zh'] and w['title_en']
+ assert w['title_source_photo_ids']==w['label_photos']
 for p in photos:
  assert p['variants'] and p['sha256']
  assert max(v['width'] for v in p['variants'])<=p['display_width']
@@ -32,7 +33,14 @@ for wid,num in {'e008':'20461','e087':'919.27.5','e093':'68.AE.17','e114':'24997
 assert by['e122']['date_start']==1 and by['e122']['date_end']==100
 assert all('p215' in by[f'e{i:03d}']['object_photos'] for i in range(69,77))
 assert all(not list(B.rglob('*'+ext)) for ext in ['.jpg','.jpeg','.png','.webp','.avif'])
-allowed={p['path'] for p in photos}|{v['file'] for p in photos for v in p['variants']}|{v['file'] for c in load('detail-crops').values() for v in c['variants']}
+allowed={p['path'] for p in photos}|{v['file'] for p in photos for v in p['variants']}|{v['file'] for c in load('image-derivatives').values() for v in c['variants']}
+editing=load('photo-editing');derivatives=load('image-derivatives')
+assert len(editing['reading_reviews'])==53
+for key,c in derivatives.items():
+ assert c['photo_id'] in pb
+ assert c['path']==pb[c['photo_id']]['path']
+ assert all(v['width']<=c['width'] and v['file'].endswith('-'+str(v['width'])+'.webp') for v in c['variants'])
+ assert c['width']==c['box'][2]-c['box'][0] and c['height']==c['box'][3]-c['box'][1]
 origin='https://images.mertonmuseum.com/museum-notes/etruscans/images/'
 class Doc(HTMLParser):
  def __init__(self,text):

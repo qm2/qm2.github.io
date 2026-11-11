@@ -1,0 +1,582 @@
+{
+  "c001-full": {
+    "photo_id": "p001",
+    "box": [
+      0,
+      250,
+      1280,
+      1245
+    ],
+    "caption": "狮首饰青铜大釜正面：兽首、器沿与完整圆腹",
+    "kind": "complete",
+    "display_width": 1280,
+    "display_height": 995,
+    "width": 1280,
+    "height": 995,
+    "path": "originals/p001.jpg",
+    "variants": [
+      {
+        "file": "c001-full-a0b1fc8368-320.webp",
+        "width": 320
+      },
+      {
+        "file": "c001-full-a0b1fc8368-640.webp",
+        "width": 640
+      },
+      {
+        "file": "c001-full-a0b1fc8368-960.webp",
+        "width": 960
+      },
+      {
+        "file": "c001-full-a0b1fc8368-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "c010-full": {
+    "photo_id": "p038",
+    "box": [
+      0,
+      330,
+      1280,
+      1420
+    ],
+    "caption": "人物纹金手镯：完整金带与侧面的扣合结构",
+    "kind": "complete",
+    "display_width": 1280,
+    "display_height": 1090,
+    "width": 1280,
+    "height": 1090,
+    "path": "originals/p038.jpg",
+    "variants": [
+      {
+        "file": "c010-full-615a51bf24-320.webp",
+        "width": 320
+      },
+      {
+        "file": "c010-full-615a51bf24-640.webp",
+        "width": 640
+      },
+      {
+        "file": "c010-full-615a51bf24-960.webp",
+        "width": 960
+      },
+      {
+        "file": "c010-full-615a51bf24-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "c045-full": {
+    "photo_id": "p153",
+    "box": [
+      0,
+      70,
+      1280,
+      1630
+    ],
+    "caption": "坐姿男童：抬起的脸、撑地的手与弯曲双腿",
+    "kind": "complete",
+    "display_width": 1280,
+    "display_height": 1560,
+    "width": 1280,
+    "height": 1560,
+    "path": "originals/p153.jpg",
+    "variants": [
+      {
+        "file": "c045-full-bc0e853464-320.webp",
+        "width": 320
+      },
+      {
+        "file": "c045-full-bc0e853464-640.webp",
+        "width": 640
+      },
+      {
+        "file": "c045-full-bc0e853464-960.webp",
+        "width": 960
+      },
+      {
+        "file": "c045-full-bc0e853464-1280.webp",
+        "width": 1280
+      }
+    ]
+  },
+  "c122-full": {
+    "photo_id": "p346",
+    "box": [
+      320,
+      0,
+      1140,
+      1670
+    ],
+    "caption": "Veiovis像：面部、举臂、垂下的手与双足",
+    "kind": "complete",
+    "display_width": 820,
+    "display_height": 1670,
+    "width": 820,
+    "height": 1670,
+    "path": "originals/p346.jpg",
+    "variants": [
+      {
+        "file": "c122-full-24f7cf85c4-320.webp",
+        "width": 320
+      },
+      {
+        "file": "c122-full-24f7cf85c4-640.webp",
+        "width": 640
+      },
+      {
+        "file": "c122-full-24f7cf85c4-820.webp",
+        "width": 820
+      }
+    ]
+  },
+  "c106-full": {
+    "photo_id": "p296",
+    "box": [
+      0,
+      0,
+      1707,
+      690
+    ],
+    "caption": "小祠山墙整体：古代陶饰与蓝灰色现代展示支撑",
+    "kind": "complete",
+    "display_width": 1707,
+    "display_height": 690,
+    "width": 1707,
+    "height": 690,
+    "path": "originals/p296.jpg",
+    "variants": [
+      {
+        "file": "c106-full-8e6b1aecee-320.webp",
+        "width": 320
+      },
+      {
+        "file": "c106-full-8e6b1aecee-640.webp",
+        "width": 640
+      },
+      {
+        "file": "c106-full-8e6b1aecee-960.webp",
+        "width": 960
+      },
+      {
+        "file": "c106-full-8e6b1aecee-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "c010-detail": {
+    "photo_id": "p038",
+    "box": [
+      115,
+      510,
+      815,
+      1210
+    ],
+    "caption": "人物纹与细密金粒沿金带展开",
+    "kind": "detail",
+    "display_width": 700,
+    "display_height": 700,
+    "width": 700,
+    "height": 700,
+    "path": "originals/p038.jpg",
+    "variants": [
+      {
+        "file": "c010-detail-9170ce154d-320.webp",
+        "width": 320
+      },
+      {
+        "file": "c010-detail-9170ce154d-640.webp",
+        "width": 640
+      },
+      {
+        "file": "c010-detail-9170ce154d-700.webp",
+        "width": 700
+      }
+    ]
+  },
+  "c045-detail": {
+    "photo_id": "p154",
+    "box": [
+      360,
+      65,
+      1250,
+      955
+    ],
+    "caption": "仰起的脸与胸前护符，右侧留出视线的方向",
+    "kind": "detail",
+    "display_width": 890,
+    "display_height": 890,
+    "width": 890,
+    "height": 890,
+    "path": "originals/p154.jpg",
+    "variants": [
+      {
+        "file": "c045-detail-22da6be133-320.webp",
+        "width": 320
+      },
+      {
+        "file": "c045-detail-22da6be133-640.webp",
+        "width": 640
+      },
+      {
+        "file": "c045-detail-22da6be133-890.webp",
+        "width": 890
+      }
+    ]
+  },
+  "c001-detail": {
+    "photo_id": "p005",
+    "box": [
+      450,
+      370,
+      1300,
+      1220
+    ],
+    "caption": "前方狮首与两侧弧形器沿",
+    "kind": "detail",
+    "display_width": 850,
+    "display_height": 850,
+    "width": 850,
+    "height": 850,
+    "path": "originals/p005.jpg",
+    "variants": [
+      {
+        "file": "c001-detail-7e2b0ed444-320.webp",
+        "width": 320
+      },
+      {
+        "file": "c001-detail-7e2b0ed444-640.webp",
+        "width": 640
+      },
+      {
+        "file": "c001-detail-7e2b0ed444-850.webp",
+        "width": 850
+      }
+    ]
+  },
+  "c122-detail": {
+    "photo_id": "p346",
+    "box": [
+      210,
+      0,
+      1130,
+      920
+    ],
+    "caption": "面容、肩部与举起的手臂",
+    "kind": "detail",
+    "display_width": 920,
+    "display_height": 920,
+    "width": 920,
+    "height": 920,
+    "path": "originals/p346.jpg",
+    "variants": [
+      {
+        "file": "c122-detail-ce206c88f7-320.webp",
+        "width": 320
+      },
+      {
+        "file": "c122-detail-ce206c88f7-640.webp",
+        "width": 640
+      },
+      {
+        "file": "c122-detail-ce206c88f7-920.webp",
+        "width": 920
+      }
+    ]
+  },
+  "c106-detail": {
+    "photo_id": "p298",
+    "box": [
+      20,
+      230,
+      1270,
+      1480
+    ],
+    "caption": "中央人物群及其下方的陶质构件",
+    "kind": "detail",
+    "display_width": 1250,
+    "display_height": 1250,
+    "width": 1250,
+    "height": 1250,
+    "path": "originals/p298.jpg",
+    "variants": [
+      {
+        "file": "c106-detail-965ef3b8ee-320.webp",
+        "width": 320
+      },
+      {
+        "file": "c106-detail-965ef3b8ee-640.webp",
+        "width": 640
+      },
+      {
+        "file": "c106-detail-965ef3b8ee-960.webp",
+        "width": 960
+      },
+      {
+        "file": "c106-detail-965ef3b8ee-1250.webp",
+        "width": 1250
+      }
+    ]
+  },
+  "c022-full": {
+    "photo_id": "p077",
+    "box": [
+      0,
+      0,
+      1702,
+      1276
+    ],
+    "caption": "房屋形青铜骨灰瓮：屋顶、四足与屋身",
+    "kind": "complete",
+    "display_width": 1702,
+    "display_height": 1276,
+    "width": 1702,
+    "height": 1276,
+    "path": "originals/p077.jpg",
+    "variants": [
+      {
+        "file": "c022-full-cab3a64c40-320.webp",
+        "width": 320
+      },
+      {
+        "file": "c022-full-cab3a64c40-640.webp",
+        "width": 640
+      },
+      {
+        "file": "c022-full-cab3a64c40-960.webp",
+        "width": 960
+      },
+      {
+        "file": "c022-full-cab3a64c40-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "c033-full": {
+    "photo_id": "p107",
+    "box": [
+      0,
+      60,
+      960,
+      1280
+    ],
+    "caption": "带盖大碗：盖钮、两侧把手与圈足",
+    "kind": "complete",
+    "display_width": 960,
+    "display_height": 1220,
+    "width": 960,
+    "height": 1220,
+    "path": "originals/p107.jpg",
+    "variants": [
+      {
+        "file": "c033-full-5d97b98451-320.webp",
+        "width": 320
+      },
+      {
+        "file": "c033-full-5d97b98451-640.webp",
+        "width": 640
+      },
+      {
+        "file": "c033-full-5d97b98451-960.webp",
+        "width": 960
+      }
+    ]
+  },
+  "c084-full": {
+    "photo_id": "p234",
+    "box": [
+      110,
+      70,
+      1190,
+      1610
+    ],
+    "caption": "铜镜刻纹面：镜盘与残存镜柄",
+    "kind": "complete",
+    "display_width": 1080,
+    "display_height": 1540,
+    "width": 1080,
+    "height": 1540,
+    "path": "originals/p234.jpg",
+    "variants": [
+      {
+        "file": "c084-full-4a45487de7-320.webp",
+        "width": 320
+      },
+      {
+        "file": "c084-full-4a45487de7-640.webp",
+        "width": 640
+      },
+      {
+        "file": "c084-full-4a45487de7-960.webp",
+        "width": 960
+      },
+      {
+        "file": "c084-full-4a45487de7-1080.webp",
+        "width": 1080
+      }
+    ]
+  },
+  "c091-full": {
+    "photo_id": "p253",
+    "box": [
+      100,
+      70,
+      1240,
+      1660
+    ],
+    "caption": "水罐正面：英雄与多头蛇的画面、器口与圈足",
+    "kind": "complete",
+    "display_width": 1140,
+    "display_height": 1590,
+    "width": 1140,
+    "height": 1590,
+    "path": "originals/p253.jpg",
+    "variants": [
+      {
+        "file": "c091-full-02af9e8b6d-320.webp",
+        "width": 320
+      },
+      {
+        "file": "c091-full-02af9e8b6d-640.webp",
+        "width": 640
+      },
+      {
+        "file": "c091-full-02af9e8b6d-960.webp",
+        "width": 960
+      },
+      {
+        "file": "c091-full-02af9e8b6d-1140.webp",
+        "width": 1140
+      }
+    ]
+  },
+  "c111-full": {
+    "photo_id": "p312",
+    "box": [
+      40,
+      80,
+      1260,
+      1610
+    ],
+    "caption": "夫妻骨灰瓮：卧榻上的两人及完整榻足",
+    "kind": "complete",
+    "display_width": 1220,
+    "display_height": 1530,
+    "width": 1220,
+    "height": 1530,
+    "path": "originals/p312.jpg",
+    "variants": [
+      {
+        "file": "c111-full-b9ee1359eb-320.webp",
+        "width": 320
+      },
+      {
+        "file": "c111-full-b9ee1359eb-640.webp",
+        "width": 640
+      },
+      {
+        "file": "c111-full-b9ee1359eb-960.webp",
+        "width": 960
+      },
+      {
+        "file": "c111-full-b9ee1359eb-1220.webp",
+        "width": 1220
+      }
+    ]
+  },
+  "c077-full": {
+    "photo_id": "p217",
+    "box": [
+      70,
+      410,
+      940,
+      1100
+    ],
+    "caption": "戒面与环身的斜侧面",
+    "kind": "complete",
+    "display_width": 870,
+    "display_height": 690,
+    "width": 870,
+    "height": 690,
+    "path": "originals/p217.jpg",
+    "variants": [
+      {
+        "file": "c077-full-8a7e6acb4d-320.webp",
+        "width": 320
+      },
+      {
+        "file": "c077-full-8a7e6acb4d-640.webp",
+        "width": 640
+      },
+      {
+        "file": "c077-full-8a7e6acb4d-870.webp",
+        "width": 870
+      }
+    ]
+  },
+  "c115-full": {
+    "photo_id": "p323",
+    "box": [
+      20,
+      320,
+      1690,
+      950
+    ],
+    "caption": "女性石棺盖横向全景：卧姿与枕垫",
+    "kind": "complete",
+    "display_width": 1670,
+    "display_height": 630,
+    "width": 1670,
+    "height": 630,
+    "path": "originals/p323.jpg",
+    "variants": [
+      {
+        "file": "c115-full-acd7949373-320.webp",
+        "width": 320
+      },
+      {
+        "file": "c115-full-acd7949373-640.webp",
+        "width": 640
+      },
+      {
+        "file": "c115-full-acd7949373-960.webp",
+        "width": 960
+      },
+      {
+        "file": "c115-full-acd7949373-1600.webp",
+        "width": 1600
+      }
+    ]
+  },
+  "c129-full": {
+    "photo_id": "p370",
+    "box": [
+      360,
+      0,
+      1080,
+      1707
+    ],
+    "caption": "细长供养青年全身：头顶、持物与双足",
+    "kind": "complete",
+    "display_width": 720,
+    "display_height": 1707,
+    "width": 720,
+    "height": 1707,
+    "path": "originals/p370.jpg",
+    "variants": [
+      {
+        "file": "c129-full-7f4c3dc7cf-320.webp",
+        "width": 320
+      },
+      {
+        "file": "c129-full-7f4c3dc7cf-640.webp",
+        "width": 640
+      },
+      {
+        "file": "c129-full-7f4c3dc7cf-720.webp",
+        "width": 720
+      }
+    ]
+  }
+}

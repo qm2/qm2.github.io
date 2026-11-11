@@ -24,13 +24,14 @@ The builder reuses the shared Roman-sarcophagus layout and gallery and Caravaggi
 - `data/personal-favorites.json`: five user-selected favorites and supplied personal foreword; full-photo choices are distinct from homepage detail crops.
 - `data/captions.json`, `detail-crops.json`, `object-notes.json`: photographic descriptions, explicit crop bounds and evidence discrepancies.
 - `content/civilization-guide.md`, `data/deities.json`, `glossary.json`, `sources.json`: background, lookup and traceable research scope. Unread catalogue/partial web records are not represented as full-text research.
-- `data/naming-review.json`: terminology decisions. On the user's supplementary instruction, formal object titles without a verified established Chinese title retain their label English. `title_zh` is null in these records and the renderer falls back to `title_en`; Chinese prose and captions describe the photographed object. To add a verified Chinese name later, fill `title_zh` and document the specific source. Do not substitute an improvised phonetic rendering. Etruria/伊特鲁里亚 and Tinia/提尼亚 have Chinese institutional use; obscure local names remain in their source spelling.
+- `data/naming-review.json`: ordinary nouns and descriptive artwork titles are translated into readable Chinese while `title_en` keeps the original label. Proper names use documented Chinese usage where available (e.g. Vulci / 武尔奇); uncertain names keep their source spelling. Chinese descriptive titles are not asserted to be official Chinese museum titles.
+- `data/photo-editing.json`: source-pixel crop recipes, separate cover/detail choices, paragraph-level details and an audit of all 53 reading covers. `image-derivatives.json` records generated dimensions and versioned filenames; `detail-crops.json` exposes the five favorite details. These never add records to the 377-photo index.
 
 ## Photos live on Cloudflare R2
 
 All image bytes are **outside Git**. `museum-notes/image-hosts.json` maps this topic to `https://images.mertonmuseum.com`. HTML uses `scripts/museum_image_urls.py`; preview and live site load the same public assets. No credentials are needed to build or view.
 
-Original ZIP and extracted package remain under `/home/qingxi/museum/`. The 377 original JPEGs retain their supplied bytes. WebP derivatives never exceed original resolution (long edge approximately 1700 px); no color/reflectance repair or AI alteration. Five additional crops have explicit source-photo bounds.
+Original ZIP and extracted package remain under `/home/qingxi/museum/`. The 377 original JPEGs retain their supplied bytes. WebP derivatives never exceed original resolution (long edge approximately 1700 px); no color/reflectance repair or AI alteration. Editorial crops have explicit source-photo bounds. Originals and older derivatives remain intact; new content-versioned URLs avoid stale CDN images.
 
 ```sh
 python3 scripts/prepare_etruscans_images.py \
@@ -38,7 +39,7 @@ python3 scripts/prepare_etruscans_images.py \
   /home/qingxi/museum/etruscans-assets/images
 ```
 
-The external asset directory contains an upload manifest and verification report, not API keys. Initial upload: **1,843 objects, approximately 189.2 MB**. Every object was fetched from the public custom domain and SHA-256/Content-Type checked. Files use `museum-notes/etruscans/images/`; originals are in its `originals/` subtree. Do not upload the ZIP, research pages or credentials.
+The external asset directory contains an upload manifest and verification report, not API keys. Initial upload: **1,843 objects, approximately 189.2 MB**; the November 11 composition pass adds 64 versioned derivatives (about 6.9 MB). Every object was fetched from the public custom domain and SHA-256/Content-Type checked. Files use `museum-notes/etruscans/images/`; originals are in its `originals/` subtree. Do not upload the ZIP, research pages or credentials.
 
 ## Future additions
 
@@ -58,3 +59,12 @@ Start a basic record with `new_object_template.json`; fill `visits`, the label s
 - Modern display support, copied tomb-painting backgrounds and the ancient votive temple model are distinguished in captions/reading. A shared display never proves a shared original ensemble.
 
 The complete editorial research and photo-matching handoff stays outside Git. Only supported, reader-facing text is rendered. Research notes in `content/` record remaining issues but are not copied into public body text.
+
+## Rebuild the photographic edit only
+
+```sh
+python3 scripts/prepare_etruscans_editorial.py /home/qingxi/museum/etruscans-assets/images
+python3 scripts/build_etruscans.py
+```
+
+The crop source is always an original JPEG, never an earlier thumbnail. Widths in filenames and srcset must equal decoded pixel widths. The browser's density-corrected `naturalWidth` is not the file's encoded width. Match `sizes` to the rendered width and validate decoded files separately. Local before/after screenshots live outside Git in `/home/qingxi/museum/etruscans-assets/review/`.

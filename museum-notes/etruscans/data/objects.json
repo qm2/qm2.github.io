@@ -1,7 +1,7 @@
 [
   {
     "id": "e001",
-    "title_zh": null,
+    "title_zh": "狮首饰青铜大釜",
     "title_en": "Cauldron with lion attachments",
     "date_label": "675–650 BC",
     "date_start": -675,
@@ -56,14 +56,14 @@
     "is_personal_favorite": true,
     "personal_favorite_order": 3,
     "personal_note_basis": "用户在本轮明确指定；顺序为列举顺序，不作名次解释。",
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p004"
     ]
   },
   {
     "id": "e002",
-    "title_zh": null,
+    "title_zh": "花卉纹彩釉陶瓶",
     "title_en": "Vase with floral decoration",
     "date_label": "625–600 BC",
     "date_start": -625,
@@ -110,14 +110,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p008"
     ]
   },
   {
     "id": "e003",
-    "title_zh": null,
+    "title_zh": "动物行列纹鸵鸟蛋",
     "title_en": "Ostrich egg with an animal frieze",
     "date_label": "625–600 BC",
     "date_start": -625,
@@ -148,7 +148,7 @@
     ],
     "record_type": "object_or_component",
     "identification_basis": "缩略图全批目视＋对应展签OCR；部分小字待核项另列",
-    "looking_note": "Vulci的Isis Tomb；顶、侧孔曾用于安装流口和柄；动物环绕整件，宜多面浏览。",
+    "looking_note": "武尔奇的Isis Tomb；顶、侧孔曾用于安装流口和柄；动物环绕整件，宜多面浏览。",
     "personal_note": null,
     "research_source_ids": [
       "S06",
@@ -171,7 +171,7 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p013",
       "p014"
@@ -179,7 +179,7 @@
   },
   {
     "id": "e004",
-    "title_zh": null,
+    "title_zh": "蛇饰鎏金银釜",
     "title_en": "Cauldron with snake attachments",
     "date_label": "675–650 BC",
     "date_start": -675,
@@ -229,7 +229,7 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p019",
       "p020"
@@ -237,7 +237,7 @@
   },
   {
     "id": "e005",
-    "title_zh": null,
+    "title_zh": "金粒纹金碗",
     "title_en": "Bowl",
     "date_label": "700–650 BC",
     "date_start": -700,
@@ -288,7 +288,7 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p023",
       "p024"
@@ -296,7 +296,7 @@
   },
   {
     "id": "e006",
-    "title_zh": null,
+    "title_zh": "双耳金饮杯",
     "title_en": "Skyphos (drinking cup)",
     "date_label": "700–650 BC",
     "date_start": -700,
@@ -345,7 +345,7 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p027",
       "p028"
@@ -353,7 +353,7 @@
   },
   {
     "id": "e007",
-    "title_zh": null,
+    "title_zh": "三尊哀悼女性像",
     "title_en": "Three female mourners",
     "date_label": "675–650 BC",
     "date_start": -675,
@@ -401,14 +401,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p031"
     ]
   },
   {
     "id": "e008",
-    "title_zh": null,
+    "title_zh": "鎏金银执壶",
     "title_en": "Oinochoe (pitcher)",
     "date_label": "675–650 BC",
     "date_start": -675,
@@ -455,14 +455,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p033"
     ]
   },
   {
     "id": "e009",
-    "title_zh": null,
+    "title_zh": "狩猎与战争纹鎏金银碗",
     "title_en": "Bowl with hunt and military scenes",
     "date_label": "675–650 BC",
     "date_start": -675,
@@ -513,14 +513,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p036"
     ]
   },
   {
     "id": "e010",
-    "title_zh": null,
+    "title_zh": "人物纹金手镯",
     "title_en": "Bracelet",
     "date_label": "675–650 BC",
     "date_start": -675,
@@ -574,7 +574,7 @@
     "is_personal_favorite": true,
     "personal_favorite_order": 2,
     "personal_note_basis": "用户在本轮明确指定；顺序为列举顺序，不作名次解释。",
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p040",
       "p041"
@@ -582,7 +582,7 @@
   },
   {
     "id": "e011",
-    "title_zh": null,
+    "title_zh": "双耳银饮杯",
     "title_en": "Skyphos (drinking cup)",
     "date_label": "675–650 BC",
     "date_start": -675,
@@ -630,14 +630,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p044"
     ]
   },
   {
     "id": "e012",
-    "title_zh": null,
+    "title_zh": "半球形银杯",
     "title_en": "Hemispherical cup",
     "date_label": "675–650 BC",
     "date_start": -675,
@@ -686,14 +686,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p047"
     ]
   },
   {
     "id": "e013",
-    "title_zh": null,
+    "title_zh": "镂空陶釜座",
     "title_en": "Stand for cauldron",
     "date_label": "700–650 BC",
     "date_start": -700,
@@ -740,14 +740,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p054"
     ]
   },
   {
     "id": "e014",
-    "title_zh": null,
+    "title_zh": "高柄双耳饮杯",
     "title_en": "Kantharos (drinking cup)",
     "date_label": "约670–640 BC",
     "date_start": -670,
@@ -794,14 +794,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p056"
     ]
   },
   {
     "id": "e015",
-    "title_zh": null,
+    "title_zh": "三尖饰双耳罐之一",
     "title_en": "Tricuspid amphora",
     "date_label": "约725–600 BC",
     "date_start": -725,
@@ -848,14 +848,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p058"
     ]
   },
   {
     "id": "e016",
-    "title_zh": null,
+    "title_zh": "三尖饰杯",
     "title_en": "Tricuspid cup",
     "date_label": "约725–600 BC",
     "date_start": -725,
@@ -902,14 +902,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p060"
     ]
   },
   {
     "id": "e017",
-    "title_zh": null,
+    "title_zh": "三尖饰双耳罐之二",
     "title_en": "Tricuspid amphora",
     "date_label": "约725–600 BC",
     "date_start": -725,
@@ -956,14 +956,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p062"
     ]
   },
   {
     "id": "e018",
-    "title_zh": null,
+    "title_zh": "带座陶釜（Narce）",
     "title_en": "Cauldron on stand",
     "date_label": "700–650 BC",
     "date_start": -700,
@@ -1010,14 +1010,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p065"
     ]
   },
   {
     "id": "e019",
-    "title_zh": null,
+    "title_zh": "高镂空座陶釜",
     "title_en": "Cauldron on stand",
     "date_label": "675–625 BC",
     "date_start": -675,
@@ -1067,14 +1067,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p069"
     ]
   },
   {
     "id": "e020",
-    "title_zh": null,
+    "title_zh": "动物滚印纹陶火盆",
     "title_en": "Brazier",
     "date_label": "约600 BC",
     "date_start": -600,
@@ -1125,14 +1125,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p074"
     ]
   },
   {
     "id": "e021",
-    "title_zh": null,
+    "title_zh": "兽主纹高足盘",
     "title_en": "Stemmed dish with Master of Animals handle",
     "date_label": "730–720 BC",
     "date_start": -730,
@@ -1179,14 +1179,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p076"
     ]
   },
   {
     "id": "e022",
-    "title_zh": null,
+    "title_zh": "青铜房屋形骨灰瓮",
     "title_en": "House-shaped cinerary urn",
     "date_label": "约650 BC",
     "date_start": -650,
@@ -1236,14 +1236,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p080"
     ]
   },
   {
     "id": "e023",
-    "title_zh": null,
+    "title_zh": "红地白绘房屋形骨灰瓮",
     "title_en": "House-shaped cinerary urn",
     "date_label": "630–600 BC",
     "date_start": -630,
@@ -1291,14 +1291,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p082"
     ]
   },
   {
     "id": "e024",
-    "title_zh": null,
+    "title_zh": "马首执壶",
     "title_en": "Horse-head oinochoe (pitcher)",
     "date_label": "675–650 BC",
     "date_start": -675,
@@ -1345,14 +1345,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p084"
     ]
   },
   {
     "id": "e025",
-    "title_zh": null,
+    "title_zh": "四颈执壶",
     "title_en": "Oinochoe (pitcher) with four necks",
     "date_label": "700–650 BC",
     "date_start": -700,
@@ -1399,14 +1399,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p086"
     ]
   },
   {
     "id": "e026",
-    "title_zh": null,
+    "title_zh": "三叶口执壶",
     "title_en": "Trefoil oinochoe (pitcher)",
     "date_label": "700–500 BC",
     "date_start": -700,
@@ -1453,14 +1453,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p088"
     ]
   },
   {
     "id": "e027",
-    "title_zh": null,
+    "title_zh": "新月形剃刀",
     "title_en": "Crescent-shaped razor",
     "date_label": "800–700 BC",
     "date_start": -800,
@@ -1509,7 +1509,7 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p090",
       "p091"
@@ -1517,7 +1517,7 @@
   },
   {
     "id": "e028",
-    "title_zh": null,
+    "title_zh": "盔盖双锥形骨灰瓮",
     "title_en": "Biconical urn with crested helmet",
     "date_label": "900–700 BC",
     "date_start": -900,
@@ -1566,14 +1566,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p094"
     ]
   },
   {
     "id": "e029",
-    "title_zh": null,
+    "title_zh": "茅屋形骨灰瓮",
     "title_en": "Hut urn",
     "date_label": "900–700 BC",
     "date_start": -900,
@@ -1623,14 +1623,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p098"
     ]
   },
   {
     "id": "e030",
-    "title_zh": null,
+    "title_zh": "幻想动物纹双耳罐",
     "title_en": "Amphora with fantastical animals",
     "date_label": "约620–600 BC",
     "date_start": -620,
@@ -1679,14 +1679,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p102"
     ]
   },
   {
     "id": "e031",
-    "title_zh": null,
+    "title_zh": "鸟饰浮芯灯",
     "title_en": "Floating-wick lamp with birds",
     "date_label": "约600–580 BC",
     "date_start": -600,
@@ -1733,14 +1733,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p104"
     ]
   },
   {
     "id": "e032",
-    "title_zh": null,
+    "title_zh": "鸭与豹纹盘",
     "title_en": "Plate with ducks and panthers",
     "date_label": "约580 BC",
     "date_start": -580,
@@ -1767,7 +1767,7 @@
     ],
     "record_type": "object_or_component",
     "identification_basis": "缩略图全批目视＋对应展签OCR；部分小字待核项另列",
-    "looking_note": "归Rosoni Painter，画家活跃于Vulci；Poggio Buco墓E为出土地。",
+    "looking_note": "归Rosoni Painter，画家活跃于武尔奇；Poggio Buco墓E为出土地。",
     "personal_note": null,
     "research_source_ids": [],
     "function_tags": [
@@ -1787,14 +1787,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p106"
     ]
   },
   {
     "id": "e033",
-    "title_zh": null,
+    "title_zh": "动物纹带盖大碗",
     "title_en": "Krater-pyxis (bowl) with lid",
     "date_label": "630–620 BC",
     "date_start": -630,
@@ -1846,14 +1846,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p112"
     ]
   },
   {
     "id": "e034",
-    "title_zh": null,
+    "title_zh": "动物带纹陶桶",
     "title_en": "Situla (pail) with animal friezes",
     "date_label": "650–630 BC",
     "date_start": -650,
@@ -1901,14 +1901,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p116"
     ]
   },
   {
     "id": "e035",
-    "title_zh": null,
+    "title_zh": "牛首饰带盖盒（现存无盖）",
     "title_en": "Pyxis (lidded box) with bulls’ heads",
     "date_label": "660–650 BC",
     "date_start": -660,
@@ -1959,7 +1959,7 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p119",
       "p120"
@@ -1967,7 +1967,7 @@
   },
   {
     "id": "e036",
-    "title_zh": null,
+    "title_zh": "厚壁黑陶水罐",
     "title_en": "Hydria (water jug)",
     "date_label": "525–500 BC",
     "date_start": -525,
@@ -2016,14 +2016,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p123"
     ]
   },
   {
     "id": "e037",
-    "title_zh": null,
+    "title_zh": "青铜胸甲片",
     "title_en": "Pectoral",
     "date_label": "600–500 BC",
     "date_start": -600,
@@ -2070,14 +2070,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p125"
     ]
   },
   {
     "id": "e038",
-    "title_zh": null,
+    "title_zh": "支座上的双耳杯",
     "title_en": "Cup on support",
     "date_label": "约550–500 BC",
     "date_start": -550,
@@ -2124,14 +2124,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p127"
     ]
   },
   {
     "id": "e039",
-    "title_zh": null,
+    "title_zh": "黑陶支座（奥尔维耶托）",
     "title_en": "Stand",
     "date_label": "约550 BC",
     "date_start": -550,
@@ -2178,14 +2178,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p129"
     ]
   },
   {
     "id": "e040",
-    "title_zh": null,
+    "title_zh": "黑陶支座（丘西）",
     "title_en": "Stand",
     "date_label": "500–400 BC",
     "date_start": -500,
@@ -2232,14 +2232,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p131"
     ]
   },
   {
     "id": "e041",
-    "title_zh": null,
+    "title_zh": "高柄黑陶舀酒杯",
     "title_en": "Kyathos (cup-shaped ladle)",
     "date_label": "600–550 BC",
     "date_start": -600,
@@ -2267,7 +2267,7 @@
     ],
     "record_type": "object_or_component",
     "identification_basis": "缩略图全批目视＋对应展签OCR；部分小字待核项另列",
-    "looking_note": "Vulci墓C；伊特鲁里亚器形也影响希腊制陶，并非单向模仿。",
+    "looking_note": "武尔奇墓C；伊特鲁里亚器形也影响希腊制陶，并非单向模仿。",
     "personal_note": null,
     "research_source_ids": [],
     "function_tags": [
@@ -2287,14 +2287,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p134"
     ]
   },
   {
     "id": "e042",
-    "title_zh": null,
+    "title_zh": "河神头像面饰（Acheloos）",
     "title_en": "Boss with head of Acheloos",
     "date_label": "约500–475 BC",
     "date_start": -500,
@@ -2342,14 +2342,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p139"
     ]
   },
   {
     "id": "e043",
-    "title_zh": null,
+    "title_zh": "祈祷男子小像",
     "title_en": "Statuette of a man praying",
     "date_label": "300–280 BC",
     "date_start": -300,
@@ -2406,7 +2406,7 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p145",
       "p146"
@@ -2414,7 +2414,7 @@
   },
   {
     "id": "e044",
-    "title_zh": null,
+    "title_zh": "金面青铜护符盒",
     "title_en": "Bulla",
     "date_label": "约750–700 BC",
     "date_start": -750,
@@ -2463,14 +2463,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p152"
     ]
   },
   {
     "id": "e045",
-    "title_zh": null,
+    "title_zh": "坐姿男童像（Putto Carrara）",
     "title_en": "Statue of a seated boy (Putto Carrara)",
     "date_label": "约325–275 BC",
     "date_start": -325,
@@ -2526,14 +2526,14 @@
     "is_personal_favorite": true,
     "personal_favorite_order": 1,
     "personal_note_basis": "用户在本轮明确指定；顺序为列举顺序，不作名次解释。",
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p158"
     ]
   },
   {
     "id": "e046",
-    "title_zh": null,
+    "title_zh": "螺旋赠铭高柄杯",
     "title_en": "Kyathos (cup-shaped ladle)",
     "date_label": "650–625 BC",
     "date_start": -650,
@@ -2583,14 +2583,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p162"
     ]
   },
   {
     "id": "e047",
-    "title_zh": null,
+    "title_zh": "字母与音节表油瓶",
     "title_en": "Unguentarium (oil bottle)",
     "date_label": "650–600 BC",
     "date_start": -650,
@@ -2642,14 +2642,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p166"
     ]
   },
   {
     "id": "e048",
-    "title_zh": null,
+    "title_zh": "青年与马小像",
     "title_en": "Statuette of a youth with horse",
     "date_label": "375–350 BC",
     "date_start": -375,
@@ -2696,14 +2696,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p168"
     ]
   },
   {
     "id": "e049",
-    "title_zh": null,
+    "title_zh": "休憩的赫丘勒（盖蒂）",
     "title_en": "Statuette of Hercle resting",
     "date_label": "320–280 BC",
     "date_start": -320,
@@ -2751,14 +2751,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p170"
     ]
   },
   {
     "id": "e050",
-    "title_zh": null,
+    "title_zh": "休憩的赫丘勒（Poggio Castiglione）",
     "title_en": "Statuette of Hercle resting",
     "date_label": "300 BC",
     "date_start": -300,
@@ -2785,7 +2785,7 @@
     ],
     "record_type": "object_or_component",
     "identification_basis": "缩略图全批目视＋对应展签OCR；部分小字待核项另列",
-    "looking_note": "狮皮可识别Hercle；出土地名不由名称自行定位到同名现代城镇。",
+    "looking_note": "狮皮可识别赫丘勒；出土地名不由名称自行定位到同名现代城镇。",
     "personal_note": null,
     "research_source_ids": [],
     "function_tags": [
@@ -2806,14 +2806,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p172"
     ]
   },
   {
     "id": "e051",
-    "title_zh": null,
+    "title_zh": "执雷霆的提尼亚",
     "title_en": "Statuette of Tinia with thunderbolt",
     "date_label": "425–400 BC",
     "date_start": -425,
@@ -2860,14 +2860,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p174"
     ]
   },
   {
     "id": "e052",
-    "title_zh": null,
+    "title_zh": "太阳神Usil车饰",
     "title_en": "Appliqué depicting the sun god Usil",
     "date_label": "500–475 BC",
     "date_start": -500,
@@ -2917,14 +2917,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p177"
     ]
   },
   {
     "id": "e053",
-    "title_zh": null,
+    "title_zh": "抱着少年的有翼女性像",
     "title_en": "Statuette of a winged woman carrying a boy",
     "date_label": "450–425 BC",
     "date_start": -450,
@@ -2971,14 +2971,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p179"
     ]
   },
   {
     "id": "e054",
-    "title_zh": null,
+    "title_zh": "冥界引魂者Vanth",
     "title_en": "Statuette of Vanth",
     "date_label": "425–400 BC",
     "date_start": -425,
@@ -3026,14 +3026,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p182"
     ]
   },
   {
     "id": "e055",
-    "title_zh": null,
+    "title_zh": "相拥的神祇夫妇（可能为提尼亚与乌尼）",
     "title_en": "Statuette of a couple, perhaps Tinia and Uni",
     "date_label": "500–475 BC",
     "date_start": -500,
@@ -3061,7 +3061,7 @@
     ],
     "record_type": "object_or_component",
     "identification_basis": "缩略图全批目视＋对应展签OCR；部分小字待核项另列",
-    "looking_note": "“可能为Tinia和Uni”必须保留；不当作普通夫妇肖像。",
+    "looking_note": "“可能为Tinia和乌尼”必须保留；不当作普通夫妇肖像。",
     "personal_note": null,
     "research_source_ids": [],
     "function_tags": [
@@ -3081,14 +3081,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p185"
     ]
   },
   {
     "id": "e056",
-    "title_zh": null,
+    "title_zh": "女性小像（Brolio）",
     "title_en": "Statuette of a woman",
     "date_label": "约550 BC",
     "date_start": -550,
@@ -3136,7 +3136,7 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p187",
       "p188"
@@ -3144,7 +3144,7 @@
   },
   {
     "id": "e057",
-    "title_zh": null,
+    "title_zh": "战士小像（Brolio）",
     "title_en": "Statuette of a warrior",
     "date_label": "约550 BC",
     "date_start": -550,
@@ -3192,7 +3192,7 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p190",
       "p188"
@@ -3200,7 +3200,7 @@
   },
   {
     "id": "e058",
-    "title_zh": null,
+    "title_zh": "女性还愿头像之一",
     "title_en": "Votive female head",
     "date_label": "400–350 BC",
     "date_start": -400,
@@ -3248,7 +3248,7 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p192",
       "p199"
@@ -3256,7 +3256,7 @@
   },
   {
     "id": "e059",
-    "title_zh": null,
+    "title_zh": "女性还愿头像之二",
     "title_en": "Votive female head",
     "date_label": "400–350 BC",
     "date_start": -400,
@@ -3304,7 +3304,7 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p194",
       "p199"
@@ -3312,7 +3312,7 @@
   },
   {
     "id": "e060",
-    "title_zh": null,
+    "title_zh": "立姿夫妇还愿像",
     "title_en": "Standing couple",
     "date_label": "400–300 BC",
     "date_start": -400,
@@ -3360,7 +3360,7 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p196",
       "p199"
@@ -3368,7 +3368,7 @@
   },
   {
     "id": "e061",
-    "title_zh": null,
+    "title_zh": "双身Artumes还愿像",
     "title_en": "Double Artumes votive figure",
     "date_label": "400–300 BC",
     "date_start": -400,
@@ -3417,7 +3417,7 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p198",
       "p199"
@@ -3425,7 +3425,7 @@
   },
   {
     "id": "e062",
-    "title_zh": null,
+    "title_zh": "披衣男子还愿像",
     "title_en": "Statue of a man",
     "date_label": "300–200 BC",
     "date_start": -300,
@@ -3475,14 +3475,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p203"
     ]
   },
   {
     "id": "e063",
-    "title_zh": null,
+    "title_zh": "人形坠饰项链",
     "title_en": "Necklace with pendants",
     "date_label": "约650 BC",
     "date_start": -650,
@@ -3530,14 +3530,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p207"
     ]
   },
   {
     "id": "e064",
-    "title_zh": null,
+    "title_zh": "一对衣扣",
     "title_en": "Pair of dress clasps",
     "date_label": "500–200 BC",
     "date_start": -500,
@@ -3584,14 +3584,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p209"
     ]
   },
   {
     "id": "e065",
-    "title_zh": null,
+    "title_zh": "一对蓝玻璃镶嵌耳环",
     "title_en": "Pair of earrings",
     "date_label": "500–200 BC",
     "date_start": -500,
@@ -3638,14 +3638,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p209"
     ]
   },
   {
     "id": "e066",
-    "title_zh": null,
+    "title_zh": "一对箱形耳环",
     "title_en": "Pair of a baule earrings",
     "date_label": "550–500 BC",
     "date_start": -550,
@@ -3692,14 +3692,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p209"
     ]
   },
   {
     "id": "e067",
-    "title_zh": null,
+    "title_zh": "动物首坠饰项链",
     "title_en": "Necklace with animal-head pendants",
     "date_label": "约450 BC",
     "date_start": -450,
@@ -3746,14 +3746,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p209"
     ]
   },
   {
     "id": "e068",
-    "title_zh": null,
+    "title_zh": "人首坠饰项链",
     "title_en": "Necklace with human-head pendants",
     "date_label": "500–400 BC",
     "date_start": -500,
@@ -3800,14 +3800,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p209"
     ]
   },
   {
     "id": "e069",
-    "title_zh": null,
+    "title_zh": "金圆盘衣针",
     "title_en": "Disk fibula (pin)",
     "date_label": "约700–600 BC",
     "date_start": -700,
@@ -3854,14 +3854,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p216"
     ]
   },
   {
     "id": "e070",
-    "title_zh": null,
+    "title_zh": "青铜圆盘衣针",
     "title_en": "Disk fibula (pin)",
     "date_label": "700–500 BC",
     "date_start": -700,
@@ -3908,14 +3908,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p216"
     ]
   },
   {
     "id": "e071",
-    "title_zh": null,
+    "title_zh": "蛇形衣针",
     "title_en": "Serpentine fibula (pin)",
     "date_label": "约625–550 BC",
     "date_start": -625,
@@ -3962,14 +3962,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p216"
     ]
   },
   {
     "id": "e072",
-    "title_zh": null,
+    "title_zh": "翼狮衣针",
     "title_en": "Fibula (pin) with a winged lion",
     "date_label": "550–500 BC",
     "date_start": -550,
@@ -4016,14 +4016,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p216"
     ]
   },
   {
     "id": "e073",
-    "title_zh": null,
+    "title_zh": "金衣针",
     "title_en": "Fibula (pin)",
     "date_label": "700–500 BC",
     "date_start": -700,
@@ -4070,14 +4070,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p216"
     ]
   },
   {
     "id": "e074",
-    "title_zh": null,
+    "title_zh": "金与琥珀衣针",
     "title_en": "Fibula (pin)",
     "date_label": "750–725 BC",
     "date_start": -750,
@@ -4124,14 +4124,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p216"
     ]
   },
   {
     "id": "e075",
-    "title_zh": null,
+    "title_zh": "衣针承接片",
     "title_en": "Catchplate from a fibula (pin)",
     "date_label": "600–500 BC",
     "date_start": -600,
@@ -4178,14 +4178,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p216"
     ]
   },
   {
     "id": "e076",
-    "title_zh": null,
+    "title_zh": "衣针弓部",
     "title_en": "Bow from a fibula (pin)",
     "date_label": "400–300 BC",
     "date_start": -400,
@@ -4232,14 +4232,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p216"
     ]
   },
   {
     "id": "e077",
-    "title_zh": null,
+    "title_zh": "特洛伊罗斯遇伏图戒指",
     "title_en": "Ring with the ambush of Troilos",
     "date_label": "550–500 BC",
     "date_start": -550,
@@ -4290,7 +4290,7 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p220",
       "p216"
@@ -4298,7 +4298,7 @@
   },
   {
     "id": "e078",
-    "title_zh": null,
+    "title_zh": "赫丘勒与乌尼图戒指",
     "title_en": "Ring with Hercle and Uni",
     "date_label": "400–300 BC",
     "date_start": -400,
@@ -4349,7 +4349,7 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p224",
       "p216"
@@ -4357,7 +4357,7 @@
   },
   {
     "id": "e079",
-    "title_zh": null,
+    "title_zh": "朱鹮与斯芬克斯图戒指",
     "title_en": "Ring with ibis and sphinx",
     "date_label": "400–300 BC",
     "date_start": -400,
@@ -4404,14 +4404,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p216"
     ]
   },
   {
     "id": "e080",
-    "title_zh": null,
+    "title_zh": "女性头像高足盘",
     "title_en": "Stemmed plate with a female head",
     "date_label": "400–375 BC",
     "date_start": -400,
@@ -4458,14 +4458,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p227"
     ]
   },
   {
     "id": "e081",
-    "title_zh": null,
+    "title_zh": "坐猴形油瓶",
     "title_en": "Aryballos (oil flask) in the shape of a seated monkey",
     "date_label": "约560 BC",
     "date_start": -560,
@@ -4512,14 +4512,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p229"
     ]
   },
   {
     "id": "e082",
-    "title_zh": null,
+    "title_zh": "Turms镜柄残片",
     "title_en": "Fragment of a mirror handle depicting Turms",
     "date_label": "约400 BC",
     "date_start": -400,
@@ -4567,14 +4567,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p231"
     ]
   },
   {
     "id": "e083",
-    "title_zh": null,
+    "title_zh": "小鹿形妆奁",
     "title_en": "Toiletries box in the shape of a fawn",
     "date_label": "约350–300 BC",
     "date_start": -350,
@@ -4623,14 +4623,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p233"
     ]
   },
   {
     "id": "e084",
-    "title_zh": null,
+    "title_zh": "乌尼哺乳赫丘勒铜镜",
     "title_en": "Mirror depicting Uni nursing Hercle",
     "date_label": "约300 BC",
     "date_start": -300,
@@ -4684,14 +4684,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p236"
     ]
   },
   {
     "id": "e085",
-    "title_zh": null,
+    "title_zh": "提尼亚之子与男女图铜镜",
     "title_en": "Mirror depicting the Tinas Cliniar (sons of Tinia) with a man and a woman",
     "date_label": "600–200 BC",
     "date_start": -600,
@@ -4739,14 +4739,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p240"
     ]
   },
   {
     "id": "e086",
-    "title_zh": null,
+    "title_zh": "一对Lasas图铜镜",
     "title_en": "Mirror depicting a pair of Lasas",
     "date_label": "约300 BC",
     "date_start": -300,
@@ -4794,14 +4794,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p242"
     ]
   },
   {
     "id": "e087",
-    "title_zh": null,
+    "title_zh": "青铜长柄勺",
     "title_en": "Simpulum (ladle)",
     "date_label": "约500–450 BC",
     "date_start": -500,
@@ -4848,14 +4848,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p246"
     ]
   },
   {
     "id": "e088",
-    "title_zh": null,
+    "title_zh": "丘西青铜舀酒杯",
     "title_en": "Kyathos (cup-shaped ladle)",
     "date_label": "650–600 BC",
     "date_start": -650,
@@ -4902,14 +4902,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p248"
     ]
   },
   {
     "id": "e089",
-    "title_zh": null,
+    "title_zh": "滤酒器",
     "title_en": "Wine strainer",
     "date_label": "约325–275 BC",
     "date_start": -325,
@@ -4956,14 +4956,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p250"
     ]
   },
   {
     "id": "e090",
-    "title_zh": null,
+    "title_zh": "焚香铲",
     "title_en": "Incense shovel",
     "date_label": "350–300 BC",
     "date_start": -350,
@@ -5010,14 +5010,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p252"
     ]
   },
   {
     "id": "e091",
-    "title_zh": null,
+    "title_zh": "赫丘勒战九头蛇水罐",
     "title_en": "Hydria with Hercle and the Hydra",
     "date_label": "520–510 BC",
     "date_start": -520,
@@ -5070,14 +5070,14 @@
     ],
     "is_personal_favorite": false,
     "personal_note_basis": "用户本轮感受；与其希腊题材来源区分。",
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p256"
     ]
   },
   {
     "id": "e092",
-    "title_zh": null,
+    "title_zh": "拳击与跑步图双耳罐",
     "title_en": "Amphora with boxers and runners",
     "date_label": "550–450 BC",
     "date_start": -550,
@@ -5124,14 +5124,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p258"
     ]
   },
   {
     "id": "e093",
-    "title_zh": null,
+    "title_zh": "青年喂猫图双耳罐",
     "title_en": "Amphora with a youth feeding a cat",
     "date_label": "约490 BC",
     "date_start": -490,
@@ -5179,14 +5179,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p260"
     ]
   },
   {
     "id": "e094",
-    "title_zh": null,
+    "title_zh": "梅恩瓦与女性图双耳罐",
     "title_en": "Amphora with Menrva and a woman",
     "date_label": "510–500 BC",
     "date_start": -510,
@@ -5236,14 +5236,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p264"
     ]
   },
   {
     "id": "e095",
-    "title_zh": null,
+    "title_zh": "狄俄尼索斯与萨堤尔双耳罐",
     "title_en": "Amphora with Dionysos and satyrs",
     "date_label": "约530–510 BC",
     "date_start": -530,
@@ -5292,14 +5292,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p267"
     ]
   },
   {
     "id": "e096",
-    "title_zh": null,
+    "title_zh": "女性祭狄俄尼索斯储酒罐",
     "title_en": "Stamnos with women performing rites for Dionysos",
     "date_label": "约450 BC",
     "date_start": -450,
@@ -5349,14 +5349,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p271"
     ]
   },
   {
     "id": "e097",
-    "title_zh": null,
+    "title_zh": "喷泉旁萨堤尔与宁芙钟形调酒碗",
     "title_en": "Bell krater with a satyr and nymph at a fountain",
     "date_label": "400–300 BC",
     "date_start": -400,
@@ -5403,14 +5403,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p273"
     ]
   },
   {
     "id": "e098",
-    "title_zh": null,
+    "title_zh": "肋纹油器（Askos）",
     "title_en": "Askos (oil vessel)",
     "date_label": "300–200 BC",
     "date_start": -300,
@@ -5457,14 +5457,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p275"
     ]
   },
   {
     "id": "e099",
-    "title_zh": null,
+    "title_zh": "三女性头像鸟喙口执壶",
     "title_en": "Beaked oinochoe with three female heads",
     "date_label": "约350–300 BC",
     "date_start": -350,
@@ -5511,14 +5511,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p277"
     ]
   },
   {
     "id": "e100",
-    "title_zh": null,
+    "title_zh": "萨堤尔与迈那得双面饮杯",
     "title_en": "Kantharos with satyr and maenad",
     "date_label": "约350 BC",
     "date_start": -350,
@@ -5565,14 +5565,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p279"
     ]
   },
   {
     "id": "e101",
-    "title_zh": null,
+    "title_zh": "舞蹈萨堤尔投酒游戏架",
     "title_en": "Kottabos stand with a dancing satyr",
     "date_label": "475–425 BC",
     "date_start": -475,
@@ -5620,14 +5620,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p283"
     ]
   },
   {
     "id": "e102",
-    "title_zh": null,
+    "title_zh": "裸男支撑焚香炉",
     "title_en": "Thymiaterion with a nude male figure",
     "date_label": "525–475 BC",
     "date_start": -525,
@@ -5674,14 +5674,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p285"
     ]
   },
   {
     "id": "e103",
-    "title_zh": null,
+    "title_zh": "Turan与Atunis焚香炉",
     "title_en": "Thymiaterion with Turan and Atunis",
     "date_label": "350–300 BC",
     "date_start": -350,
@@ -5729,14 +5729,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p287"
     ]
   },
   {
     "id": "e104",
-    "title_zh": null,
+    "title_zh": "奏响板舞者焚香炉",
     "title_en": "Thymiaterion with a dancer playing krotala",
     "date_label": "500–475 BC",
     "date_start": -500,
@@ -5786,14 +5786,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p291"
     ]
   },
   {
     "id": "e105",
-    "title_zh": null,
+    "title_zh": "翼马屋顶饰",
     "title_en": "Acroterion depicting a winged horse",
     "date_label": "约500–475 BC",
     "date_start": -500,
@@ -5840,14 +5840,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p294"
     ]
   },
   {
     "id": "e106",
-    "title_zh": null,
+    "title_zh": "武尔奇小祠山墙陶饰",
     "title_en": "Pediment from a shrine",
     "date_label": "300–200 BC",
     "date_start": -300,
@@ -5903,14 +5903,14 @@
     "is_personal_favorite": true,
     "personal_favorite_order": 5,
     "personal_note_basis": "用户在本轮明确指定；顺序为列举顺序，不作名次解释。",
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p297"
     ]
   },
   {
     "id": "e107",
-    "title_zh": null,
+    "title_zh": "神庙模型",
     "title_en": "Model temple",
     "date_label": "100–1 BC",
     "date_start": -100,
@@ -5959,14 +5959,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p302"
     ]
   },
   {
     "id": "e108",
-    "title_zh": null,
+    "title_zh": "仿金属表面葬仪调酒碗",
     "title_en": "Funerary krater",
     "date_label": "约325–300 BC",
     "date_start": -325,
@@ -6014,14 +6014,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p305"
     ]
   },
   {
     "id": "e109",
-    "title_zh": null,
+    "title_zh": "狮鹫战斗图储酒罐",
     "title_en": "Stamnos with a griffin combat",
     "date_label": "360–350 BC",
     "date_start": -360,
@@ -6070,7 +6070,7 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p308",
       "p309"
@@ -6078,7 +6078,7 @@
   },
   {
     "id": "e110",
-    "title_zh": null,
+    "title_zh": "扮旅人的表演者彩绘陶板",
     "title_en": "Panel depicting a performer dressed as a traveler",
     "date_label": "约500 BC",
     "date_start": -500,
@@ -6125,14 +6125,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p311"
     ]
   },
   {
     "id": "e111",
-    "title_zh": null,
+    "title_zh": "夫妻骨灰瓮",
     "title_en": "Cinerary urn of the spouses",
     "date_label": "520–500 BC",
     "date_start": -520,
@@ -6184,14 +6184,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p315"
     ]
   },
   {
     "id": "e112",
-    "title_zh": null,
+    "title_zh": "镀金指甲银手一对",
     "title_en": "Pair of hands",
     "date_label": "630–600 BC",
     "date_start": -630,
@@ -6241,14 +6241,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p317"
     ]
   },
   {
     "id": "e113",
-    "title_zh": null,
+    "title_zh": "哀悼场景墓标",
     "title_en": "Cippus with a mourning scene",
     "date_label": "约490–480 BC",
     "date_start": -490,
@@ -6295,14 +6295,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p319"
     ]
   },
   {
     "id": "e114",
-    "title_zh": null,
+    "title_zh": "人首盖骨灰瓮（丘西）",
     "title_en": "Canopic urn",
     "date_label": "600–550 BC",
     "date_start": -600,
@@ -6351,14 +6351,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p322"
     ]
   },
   {
     "id": "e115",
-    "title_zh": null,
+    "title_zh": "卧姿女性石棺盖",
     "title_en": "Sarcophagus lid with reclining woman",
     "date_label": "400–200 BC",
     "date_start": -400,
@@ -6410,14 +6410,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p328"
     ]
   },
   {
     "id": "e116",
-    "title_zh": null,
+    "title_zh": "停灵女性像盖骨灰瓮",
     "title_en": "Cinerary urn with lid depicting a woman",
     "date_label": "490–480 BC",
     "date_start": -490,
@@ -6465,14 +6465,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p331"
     ]
   },
   {
     "id": "e117",
-    "title_zh": null,
+    "title_zh": "人首瓮与宝座",
     "title_en": "Canopic urn",
     "date_label": "625–600 BC",
     "date_start": -625,
@@ -6520,14 +6520,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p333"
     ]
   },
   {
     "id": "e118",
-    "title_zh": null,
+    "title_zh": "羊首柄铜镜",
     "title_en": "Mirror with ram-head terminal",
     "date_label": "300–250 BC",
     "date_start": -300,
@@ -6578,7 +6578,7 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p335",
       "p337"
@@ -6586,7 +6586,7 @@
   },
   {
     "id": "e119",
-    "title_zh": null,
+    "title_zh": "刻有suthina的女性头像器",
     "title_en": "Vase in the shape of a female head",
     "date_label": "225–175 BC",
     "date_start": -225,
@@ -6635,14 +6635,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p337"
     ]
   },
   {
     "id": "e120",
-    "title_zh": null,
+    "title_zh": "女性宴饮像骨灰瓮",
     "title_en": "Cinerary urn for a woman",
     "date_label": "300–200 BC",
     "date_start": -300,
@@ -6691,14 +6691,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p339"
     ]
   },
   {
     "id": "e121",
-    "title_zh": null,
+    "title_zh": "立姿男子形骨灰瓮",
     "title_en": "Cinerary urn in the shape of a standing man",
     "date_label": "575–550 BC",
     "date_start": -575,
@@ -6749,14 +6749,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p343"
     ]
   },
   {
     "id": "e122",
-    "title_zh": null,
+    "title_zh": "Veiovis青铜像",
     "title_en": "Statue of Veiovis",
     "date_label": "AD 1–100",
     "date_start": 1,
@@ -6808,14 +6808,14 @@
     "is_personal_favorite": true,
     "personal_favorite_order": 4,
     "personal_note_basis": "用户在本轮明确指定；顺序为列举顺序，不作名次解释。",
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p349"
     ]
   },
   {
     "id": "e123",
-    "title_zh": null,
+    "title_zh": "送别场景墓标",
     "title_en": "Cippus with a farewell scene",
     "date_label": "200–150 BC",
     "date_start": -200,
@@ -6867,14 +6867,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p354"
     ]
   },
   {
     "id": "e124",
-    "title_zh": null,
+    "title_zh": "青年青铜头像",
     "title_en": "Head of a young man",
     "date_label": "375–350 BC",
     "date_start": -375,
@@ -6903,7 +6903,7 @@
     ],
     "record_type": "object_or_component",
     "identification_basis": "缩略图全批目视＋对应展签OCR；部分小字待核项另列",
-    "looking_note": "可能来自Lake Bolsena岛屿；与“可能在Volsinii制作”分开。",
+    "looking_note": "可能来自博尔塞纳湖岛屿；与“可能在Volsinii制作”分开。",
     "personal_note": null,
     "research_source_ids": [],
     "function_tags": [
@@ -6924,14 +6924,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p358"
     ]
   },
   {
     "id": "e125",
-    "title_zh": null,
+    "title_zh": "男子彩绘还愿头像",
     "title_en": "Head of a man",
     "date_label": "125–75 BC",
     "date_start": -125,
@@ -6980,14 +6980,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p361"
     ]
   },
   {
     "id": "e126",
-    "title_zh": null,
+    "title_zh": "披衣祈祷男子（奥尔维耶托）",
     "title_en": "Statuette of a man praying",
     "date_label": "200–1 BC",
     "date_start": -200,
@@ -7036,7 +7036,7 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p364",
       "p365"
@@ -7044,7 +7044,7 @@
   },
   {
     "id": "e127",
-    "title_zh": null,
+    "title_zh": "祈祷男子小像（Vetulonia）",
     "title_en": "Statuette of a man praying",
     "date_label": "250–200 BC",
     "date_start": -250,
@@ -7091,14 +7091,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p367"
     ]
   },
   {
     "id": "e128",
-    "title_zh": null,
+    "title_zh": "持蛇女祭司小像",
     "title_en": "Statuette of a priestess holding a serpent",
     "date_label": "200–100 BC",
     "date_start": -200,
@@ -7145,14 +7145,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p369"
     ]
   },
   {
     "id": "e129",
-    "title_zh": null,
+    "title_zh": "圣吉米尼亚诺细长供养青年",
     "title_en": "Statue of a young man making an offering",
     "date_label": "250–200 BC",
     "date_start": -250,
@@ -7204,14 +7204,14 @@
       }
     ],
     "is_personal_favorite": false,
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p372"
     ]
   },
   {
     "id": "e130",
-    "title_zh": null,
+    "title_zh": "襁褓婴儿还愿像",
     "title_en": "Swaddled infant",
     "date_label": "300–200 BC",
     "date_start": -300,
@@ -7262,14 +7262,14 @@
     ],
     "is_personal_favorite": false,
     "inventory_number_unverified": "23.S238-7.Z96（待核）",
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p375"
     ]
   },
   {
     "id": "e131",
-    "title_zh": null,
+    "title_zh": "手臂与腿还愿物",
     "title_en": "Votive offerings in the shape of an arm and a leg",
     "date_label": "200–100 BC",
     "date_start": -200,
@@ -7320,7 +7320,7 @@
     ],
     "is_personal_favorite": false,
     "inventory_number_unverified": "23.S238-7.2131;23.S238-7.26（待核）",
-    "title_status": "label_original",
+    "title_status": "descriptive_translation",
     "title_source_photo_ids": [
       "p377"
     ]

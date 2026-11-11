@@ -22,7 +22,7 @@ All photos belong to Merton's SAMA visit. No lender city is represented as a pla
 
 Other bibliography entries retain the supplied read-status distinctions: excerpt, metadata, catalogue description or video description. No claim to have read the entire exhibition catalogue. Italian Culture Ministry San Casciano page timed out; the local photographed label remains the object-specific basis. No new artwork image was taken from an external source.
 
-User's supplementary naming instruction is implemented: original English object titles where a conventional Chinese object title was not independently established; uncertain local-name transliterations replaced with source spelling. Chinese captions/prose remain descriptions, not claimed official titles. Naming decisions are in data/naming-review.json; rejected provisional titles remain in the external intake audit, outside the repository.
+The initial conservative naming pass has been superseded by the refinement below: descriptive titles use natural Chinese, while uncertain proper names retain their source spelling.
 
 ## Validation
 
@@ -39,3 +39,14 @@ User's supplementary naming instruction is implemented: original English object 
 ## Remaining work is evidential, not filled by inference
 
 e035 impasto/bucchero wording; e083 inventory conflict; e105 slightly different date ranges; e085 broad date. e101/e110/e112/e127/e130/e131 lack secure inventory transcription; e072's tentative number requires label/loan-list confirmation. Shared-cabinet objects e069–076 have the full cabinet and numbered label, not fabricated close-ups. Original camera files supplied are approximately 1700px maximum; no simulated 2400px resolution.
+
+## Photo and naming refinement, 2026-11-11
+
+- Restored Chinese descriptive titles for all 131 records, preserving original English titles and photographed label references. Ordinary object names do not require an independently published Chinese title. Ten geographical/divine names have linked Chinese usage evidence in `data/naming-review.json`; inaccessible pages are identified as search-excerpt evidence, not full-text reading. No claim of a unique official translation.
+- Visually compared original candidate photographs for all 53 reading covers. Editorial choices are reproducible in `data/photo-editing.json`. Five favorite details are separate from complete article photographs; nine chapter leads were reviewed. Inline details supplement discussion of amulet, inscription, clasp, gesture and ornament.
+- Generated 18 crops / 64 responsive WebP files directly from originals, without upscaling, generative alteration or color changes. Filenames give actual pixel widths; native detail crops are 700–1250 pixels wide. All 64 CDN objects passed SHA-256 and content-type checks. No image binaries or credentials enter Git.
+- Guide thumbnails and captions share the actual image-width container; both are centered together with an 8px gap. Scoped to Etruscan components.
+- Whole notebook build and Etruscan static validation passed (137 pages, 131 records, 53 readings, 377 original photographs). Neighboring bronze and Roman-sarcophagus validators passed.
+- Chromium regression passed 182 page/viewport checks at 1440, 768, 390 and 320 pixels, including every object page at phone width, real CDN decode, figure geometry, gallery navigation/expand-all, labels, viewer zoom/original/Escape, facets, map, timeline, URL history and keyboard.
+- Before/after hero and favorite screenshots and desktop/tablet/phone composition reviews are stored outside the repository at `/home/qingxi/museum/etruscans-assets/review/`.
+- Additional targeted checks passed all guide captions with every entry expanded at desktop/tablet/phone widths, plus ordinary boy links from three different chapter hashes. The reported malformed-hash navigation was not reproduced in the current implementation. Nine chapter photographs were captured and visually reviewed at desktop and phone widths.

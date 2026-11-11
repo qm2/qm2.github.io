@@ -1,5 +1,5 @@
 {
-  "policy": "中文专名采用可核实的既有用法；未核实的作品题名与专名保留馆方原文。中文观察性描述不作为馆方正式题名。",
+  "policy": "普通器物名与描述性题名用自然中文译写，保留展签英文原名；特定地名、神名及专业术语采用有据可查的中文用法，未核实者保留原文。中文译写不冒称馆方正式中文题名。",
   "sources": [
     "S24",
     "S25",
@@ -8,663 +8,1073 @@
   "objects": [
     {
       "id": "e001",
-      "display_title": "Cauldron with lion attachments",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "狮首饰青铜大釜",
+      "status": "descriptive_translation",
+      "basis": [
+        "p004"
+      ]
     },
     {
       "id": "e002",
-      "display_title": "Vase with floral decoration",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "花卉纹彩釉陶瓶",
+      "status": "descriptive_translation",
+      "basis": [
+        "p008"
+      ]
     },
     {
       "id": "e003",
-      "display_title": "Ostrich egg with an animal frieze",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "动物行列纹鸵鸟蛋",
+      "status": "descriptive_translation",
+      "basis": [
+        "p013",
+        "p014"
+      ]
     },
     {
       "id": "e004",
-      "display_title": "Cauldron with snake attachments",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "蛇饰鎏金银釜",
+      "status": "descriptive_translation",
+      "basis": [
+        "p019",
+        "p020"
+      ]
     },
     {
       "id": "e005",
-      "display_title": "Bowl",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "金粒纹金碗",
+      "status": "descriptive_translation",
+      "basis": [
+        "p023",
+        "p024"
+      ]
     },
     {
       "id": "e006",
-      "display_title": "Skyphos (drinking cup)",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "双耳金饮杯",
+      "status": "descriptive_translation",
+      "basis": [
+        "p027",
+        "p028"
+      ]
     },
     {
       "id": "e007",
-      "display_title": "Three female mourners",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "三尊哀悼女性像",
+      "status": "descriptive_translation",
+      "basis": [
+        "p031"
+      ]
     },
     {
       "id": "e008",
-      "display_title": "Oinochoe (pitcher)",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "鎏金银执壶",
+      "status": "descriptive_translation",
+      "basis": [
+        "p033"
+      ]
     },
     {
       "id": "e009",
-      "display_title": "Bowl with hunt and military scenes",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "狩猎与战争纹鎏金银碗",
+      "status": "descriptive_translation",
+      "basis": [
+        "p036"
+      ]
     },
     {
       "id": "e010",
-      "display_title": "Bracelet",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "人物纹金手镯",
+      "status": "descriptive_translation",
+      "basis": [
+        "p040",
+        "p041"
+      ]
     },
     {
       "id": "e011",
-      "display_title": "Skyphos (drinking cup)",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "双耳银饮杯",
+      "status": "descriptive_translation",
+      "basis": [
+        "p044"
+      ]
     },
     {
       "id": "e012",
-      "display_title": "Hemispherical cup",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "半球形银杯",
+      "status": "descriptive_translation",
+      "basis": [
+        "p047"
+      ]
     },
     {
       "id": "e013",
-      "display_title": "Stand for cauldron",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "镂空陶釜座",
+      "status": "descriptive_translation",
+      "basis": [
+        "p054"
+      ]
     },
     {
       "id": "e014",
-      "display_title": "Kantharos (drinking cup)",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "高柄双耳饮杯",
+      "status": "descriptive_translation",
+      "basis": [
+        "p056"
+      ]
     },
     {
       "id": "e015",
-      "display_title": "Tricuspid amphora",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "三尖饰双耳罐之一",
+      "status": "descriptive_translation",
+      "basis": [
+        "p058"
+      ]
     },
     {
       "id": "e016",
-      "display_title": "Tricuspid cup",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "三尖饰杯",
+      "status": "descriptive_translation",
+      "basis": [
+        "p060"
+      ]
     },
     {
       "id": "e017",
-      "display_title": "Tricuspid amphora",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "三尖饰双耳罐之二",
+      "status": "descriptive_translation",
+      "basis": [
+        "p062"
+      ]
     },
     {
       "id": "e018",
-      "display_title": "Cauldron on stand",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "带座陶釜（Narce）",
+      "status": "descriptive_translation",
+      "basis": [
+        "p065"
+      ]
     },
     {
       "id": "e019",
-      "display_title": "Cauldron on stand",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "高镂空座陶釜",
+      "status": "descriptive_translation",
+      "basis": [
+        "p069"
+      ]
     },
     {
       "id": "e020",
-      "display_title": "Brazier",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "动物滚印纹陶火盆",
+      "status": "descriptive_translation",
+      "basis": [
+        "p074"
+      ]
     },
     {
       "id": "e021",
-      "display_title": "Stemmed dish with Master of Animals handle",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "兽主纹高足盘",
+      "status": "descriptive_translation",
+      "basis": [
+        "p076"
+      ]
     },
     {
       "id": "e022",
-      "display_title": "House-shaped cinerary urn",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "青铜房屋形骨灰瓮",
+      "status": "descriptive_translation",
+      "basis": [
+        "p080"
+      ]
     },
     {
       "id": "e023",
-      "display_title": "House-shaped cinerary urn",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "红地白绘房屋形骨灰瓮",
+      "status": "descriptive_translation",
+      "basis": [
+        "p082"
+      ]
     },
     {
       "id": "e024",
-      "display_title": "Horse-head oinochoe (pitcher)",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "马首执壶",
+      "status": "descriptive_translation",
+      "basis": [
+        "p084"
+      ]
     },
     {
       "id": "e025",
-      "display_title": "Oinochoe (pitcher) with four necks",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "四颈执壶",
+      "status": "descriptive_translation",
+      "basis": [
+        "p086"
+      ]
     },
     {
       "id": "e026",
-      "display_title": "Trefoil oinochoe (pitcher)",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "三叶口执壶",
+      "status": "descriptive_translation",
+      "basis": [
+        "p088"
+      ]
     },
     {
       "id": "e027",
-      "display_title": "Crescent-shaped razor",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "新月形剃刀",
+      "status": "descriptive_translation",
+      "basis": [
+        "p090",
+        "p091"
+      ]
     },
     {
       "id": "e028",
-      "display_title": "Biconical urn with crested helmet",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "盔盖双锥形骨灰瓮",
+      "status": "descriptive_translation",
+      "basis": [
+        "p094"
+      ]
     },
     {
       "id": "e029",
-      "display_title": "Hut urn",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "茅屋形骨灰瓮",
+      "status": "descriptive_translation",
+      "basis": [
+        "p098"
+      ]
     },
     {
       "id": "e030",
-      "display_title": "Amphora with fantastical animals",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "幻想动物纹双耳罐",
+      "status": "descriptive_translation",
+      "basis": [
+        "p102"
+      ]
     },
     {
       "id": "e031",
-      "display_title": "Floating-wick lamp with birds",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "鸟饰浮芯灯",
+      "status": "descriptive_translation",
+      "basis": [
+        "p104"
+      ]
     },
     {
       "id": "e032",
-      "display_title": "Plate with ducks and panthers",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "鸭与豹纹盘",
+      "status": "descriptive_translation",
+      "basis": [
+        "p106"
+      ]
     },
     {
       "id": "e033",
-      "display_title": "Krater-pyxis (bowl) with lid",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "动物纹带盖大碗",
+      "status": "descriptive_translation",
+      "basis": [
+        "p112"
+      ]
     },
     {
       "id": "e034",
-      "display_title": "Situla (pail) with animal friezes",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "动物带纹陶桶",
+      "status": "descriptive_translation",
+      "basis": [
+        "p116"
+      ]
     },
     {
       "id": "e035",
-      "display_title": "Pyxis (lidded box) with bulls’ heads",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "牛首饰带盖盒（现存无盖）",
+      "status": "descriptive_translation",
+      "basis": [
+        "p119",
+        "p120"
+      ]
     },
     {
       "id": "e036",
-      "display_title": "Hydria (water jug)",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "厚壁黑陶水罐",
+      "status": "descriptive_translation",
+      "basis": [
+        "p123"
+      ]
     },
     {
       "id": "e037",
-      "display_title": "Pectoral",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "青铜胸甲片",
+      "status": "descriptive_translation",
+      "basis": [
+        "p125"
+      ]
     },
     {
       "id": "e038",
-      "display_title": "Cup on support",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "支座上的双耳杯",
+      "status": "descriptive_translation",
+      "basis": [
+        "p127"
+      ]
     },
     {
       "id": "e039",
-      "display_title": "Stand",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "黑陶支座（奥尔维耶托）",
+      "status": "descriptive_translation",
+      "basis": [
+        "p129"
+      ]
     },
     {
       "id": "e040",
-      "display_title": "Stand",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "黑陶支座（丘西）",
+      "status": "descriptive_translation",
+      "basis": [
+        "p131"
+      ]
     },
     {
       "id": "e041",
-      "display_title": "Kyathos (cup-shaped ladle)",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "高柄黑陶舀酒杯",
+      "status": "descriptive_translation",
+      "basis": [
+        "p134"
+      ]
     },
     {
       "id": "e042",
-      "display_title": "Boss with head of Acheloos",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "河神头像面饰（Acheloos）",
+      "status": "descriptive_translation",
+      "basis": [
+        "p139"
+      ]
     },
     {
       "id": "e043",
-      "display_title": "Statuette of a man praying",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "祈祷男子小像",
+      "status": "descriptive_translation",
+      "basis": [
+        "p145",
+        "p146"
+      ]
     },
     {
       "id": "e044",
-      "display_title": "Bulla",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "金面青铜护符盒",
+      "status": "descriptive_translation",
+      "basis": [
+        "p152"
+      ]
     },
     {
       "id": "e045",
-      "display_title": "Statue of a seated boy (Putto Carrara)",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "坐姿男童像（Putto Carrara）",
+      "status": "descriptive_translation",
+      "basis": [
+        "p158"
+      ]
     },
     {
       "id": "e046",
-      "display_title": "Kyathos (cup-shaped ladle)",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "螺旋赠铭高柄杯",
+      "status": "descriptive_translation",
+      "basis": [
+        "p162"
+      ]
     },
     {
       "id": "e047",
-      "display_title": "Unguentarium (oil bottle)",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "字母与音节表油瓶",
+      "status": "descriptive_translation",
+      "basis": [
+        "p166"
+      ]
     },
     {
       "id": "e048",
-      "display_title": "Statuette of a youth with horse",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "青年与马小像",
+      "status": "descriptive_translation",
+      "basis": [
+        "p168"
+      ]
     },
     {
       "id": "e049",
-      "display_title": "Statuette of Hercle resting",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "休憩的赫丘勒（盖蒂）",
+      "status": "descriptive_translation",
+      "basis": [
+        "p170"
+      ]
     },
     {
       "id": "e050",
-      "display_title": "Statuette of Hercle resting",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "休憩的赫丘勒（Poggio Castiglione）",
+      "status": "descriptive_translation",
+      "basis": [
+        "p172"
+      ]
     },
     {
       "id": "e051",
-      "display_title": "Statuette of Tinia with thunderbolt",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "执雷霆的提尼亚",
+      "status": "descriptive_translation",
+      "basis": [
+        "p174"
+      ]
     },
     {
       "id": "e052",
-      "display_title": "Appliqué depicting the sun god Usil",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "太阳神Usil车饰",
+      "status": "descriptive_translation",
+      "basis": [
+        "p177"
+      ]
     },
     {
       "id": "e053",
-      "display_title": "Statuette of a winged woman carrying a boy",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "抱着少年的有翼女性像",
+      "status": "descriptive_translation",
+      "basis": [
+        "p179"
+      ]
     },
     {
       "id": "e054",
-      "display_title": "Statuette of Vanth",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "冥界引魂者Vanth",
+      "status": "descriptive_translation",
+      "basis": [
+        "p182"
+      ]
     },
     {
       "id": "e055",
-      "display_title": "Statuette of a couple, perhaps Tinia and Uni",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "相拥的神祇夫妇（可能为提尼亚与乌尼）",
+      "status": "descriptive_translation",
+      "basis": [
+        "p185"
+      ]
     },
     {
       "id": "e056",
-      "display_title": "Statuette of a woman",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "女性小像（Brolio）",
+      "status": "descriptive_translation",
+      "basis": [
+        "p187",
+        "p188"
+      ]
     },
     {
       "id": "e057",
-      "display_title": "Statuette of a warrior",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "战士小像（Brolio）",
+      "status": "descriptive_translation",
+      "basis": [
+        "p190",
+        "p188"
+      ]
     },
     {
       "id": "e058",
-      "display_title": "Votive female head",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "女性还愿头像之一",
+      "status": "descriptive_translation",
+      "basis": [
+        "p192",
+        "p199"
+      ]
     },
     {
       "id": "e059",
-      "display_title": "Votive female head",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "女性还愿头像之二",
+      "status": "descriptive_translation",
+      "basis": [
+        "p194",
+        "p199"
+      ]
     },
     {
       "id": "e060",
-      "display_title": "Standing couple",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "立姿夫妇还愿像",
+      "status": "descriptive_translation",
+      "basis": [
+        "p196",
+        "p199"
+      ]
     },
     {
       "id": "e061",
-      "display_title": "Double Artumes votive figure",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "双身Artumes还愿像",
+      "status": "descriptive_translation",
+      "basis": [
+        "p198",
+        "p199"
+      ]
     },
     {
       "id": "e062",
-      "display_title": "Statue of a man",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "披衣男子还愿像",
+      "status": "descriptive_translation",
+      "basis": [
+        "p203"
+      ]
     },
     {
       "id": "e063",
-      "display_title": "Necklace with pendants",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "人形坠饰项链",
+      "status": "descriptive_translation",
+      "basis": [
+        "p207"
+      ]
     },
     {
       "id": "e064",
-      "display_title": "Pair of dress clasps",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "一对衣扣",
+      "status": "descriptive_translation",
+      "basis": [
+        "p209"
+      ]
     },
     {
       "id": "e065",
-      "display_title": "Pair of earrings",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "一对蓝玻璃镶嵌耳环",
+      "status": "descriptive_translation",
+      "basis": [
+        "p209"
+      ]
     },
     {
       "id": "e066",
-      "display_title": "Pair of a baule earrings",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "一对箱形耳环",
+      "status": "descriptive_translation",
+      "basis": [
+        "p209"
+      ]
     },
     {
       "id": "e067",
-      "display_title": "Necklace with animal-head pendants",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "动物首坠饰项链",
+      "status": "descriptive_translation",
+      "basis": [
+        "p209"
+      ]
     },
     {
       "id": "e068",
-      "display_title": "Necklace with human-head pendants",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "人首坠饰项链",
+      "status": "descriptive_translation",
+      "basis": [
+        "p209"
+      ]
     },
     {
       "id": "e069",
-      "display_title": "Disk fibula (pin)",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "金圆盘衣针",
+      "status": "descriptive_translation",
+      "basis": [
+        "p216"
+      ]
     },
     {
       "id": "e070",
-      "display_title": "Disk fibula (pin)",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "青铜圆盘衣针",
+      "status": "descriptive_translation",
+      "basis": [
+        "p216"
+      ]
     },
     {
       "id": "e071",
-      "display_title": "Serpentine fibula (pin)",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "蛇形衣针",
+      "status": "descriptive_translation",
+      "basis": [
+        "p216"
+      ]
     },
     {
       "id": "e072",
-      "display_title": "Fibula (pin) with a winged lion",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "翼狮衣针",
+      "status": "descriptive_translation",
+      "basis": [
+        "p216"
+      ]
     },
     {
       "id": "e073",
-      "display_title": "Fibula (pin)",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "金衣针",
+      "status": "descriptive_translation",
+      "basis": [
+        "p216"
+      ]
     },
     {
       "id": "e074",
-      "display_title": "Fibula (pin)",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "金与琥珀衣针",
+      "status": "descriptive_translation",
+      "basis": [
+        "p216"
+      ]
     },
     {
       "id": "e075",
-      "display_title": "Catchplate from a fibula (pin)",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "衣针承接片",
+      "status": "descriptive_translation",
+      "basis": [
+        "p216"
+      ]
     },
     {
       "id": "e076",
-      "display_title": "Bow from a fibula (pin)",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "衣针弓部",
+      "status": "descriptive_translation",
+      "basis": [
+        "p216"
+      ]
     },
     {
       "id": "e077",
-      "display_title": "Ring with the ambush of Troilos",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "特洛伊罗斯遇伏图戒指",
+      "status": "descriptive_translation",
+      "basis": [
+        "p220",
+        "p216"
+      ]
     },
     {
       "id": "e078",
-      "display_title": "Ring with Hercle and Uni",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "赫丘勒与乌尼图戒指",
+      "status": "descriptive_translation",
+      "basis": [
+        "p224",
+        "p216"
+      ]
     },
     {
       "id": "e079",
-      "display_title": "Ring with ibis and sphinx",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "朱鹮与斯芬克斯图戒指",
+      "status": "descriptive_translation",
+      "basis": [
+        "p216"
+      ]
     },
     {
       "id": "e080",
-      "display_title": "Stemmed plate with a female head",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "女性头像高足盘",
+      "status": "descriptive_translation",
+      "basis": [
+        "p227"
+      ]
     },
     {
       "id": "e081",
-      "display_title": "Aryballos (oil flask) in the shape of a seated monkey",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "坐猴形油瓶",
+      "status": "descriptive_translation",
+      "basis": [
+        "p229"
+      ]
     },
     {
       "id": "e082",
-      "display_title": "Fragment of a mirror handle depicting Turms",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "Turms镜柄残片",
+      "status": "descriptive_translation",
+      "basis": [
+        "p231"
+      ]
     },
     {
       "id": "e083",
-      "display_title": "Toiletries box in the shape of a fawn",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "小鹿形妆奁",
+      "status": "descriptive_translation",
+      "basis": [
+        "p233"
+      ]
     },
     {
       "id": "e084",
-      "display_title": "Mirror depicting Uni nursing Hercle",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "乌尼哺乳赫丘勒铜镜",
+      "status": "descriptive_translation",
+      "basis": [
+        "p236"
+      ]
     },
     {
       "id": "e085",
-      "display_title": "Mirror depicting the Tinas Cliniar (sons of Tinia) with a man and a woman",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "提尼亚之子与男女图铜镜",
+      "status": "descriptive_translation",
+      "basis": [
+        "p240"
+      ]
     },
     {
       "id": "e086",
-      "display_title": "Mirror depicting a pair of Lasas",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "一对Lasas图铜镜",
+      "status": "descriptive_translation",
+      "basis": [
+        "p242"
+      ]
     },
     {
       "id": "e087",
-      "display_title": "Simpulum (ladle)",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "青铜长柄勺",
+      "status": "descriptive_translation",
+      "basis": [
+        "p246"
+      ]
     },
     {
       "id": "e088",
-      "display_title": "Kyathos (cup-shaped ladle)",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "丘西青铜舀酒杯",
+      "status": "descriptive_translation",
+      "basis": [
+        "p248"
+      ]
     },
     {
       "id": "e089",
-      "display_title": "Wine strainer",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "滤酒器",
+      "status": "descriptive_translation",
+      "basis": [
+        "p250"
+      ]
     },
     {
       "id": "e090",
-      "display_title": "Incense shovel",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "焚香铲",
+      "status": "descriptive_translation",
+      "basis": [
+        "p252"
+      ]
     },
     {
       "id": "e091",
-      "display_title": "Hydria with Hercle and the Hydra",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "赫丘勒战九头蛇水罐",
+      "status": "descriptive_translation",
+      "basis": [
+        "p256"
+      ]
     },
     {
       "id": "e092",
-      "display_title": "Amphora with boxers and runners",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "拳击与跑步图双耳罐",
+      "status": "descriptive_translation",
+      "basis": [
+        "p258"
+      ]
     },
     {
       "id": "e093",
-      "display_title": "Amphora with a youth feeding a cat",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "青年喂猫图双耳罐",
+      "status": "descriptive_translation",
+      "basis": [
+        "p260"
+      ]
     },
     {
       "id": "e094",
-      "display_title": "Amphora with Menrva and a woman",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "梅恩瓦与女性图双耳罐",
+      "status": "descriptive_translation",
+      "basis": [
+        "p264"
+      ]
     },
     {
       "id": "e095",
-      "display_title": "Amphora with Dionysos and satyrs",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "狄俄尼索斯与萨堤尔双耳罐",
+      "status": "descriptive_translation",
+      "basis": [
+        "p267"
+      ]
     },
     {
       "id": "e096",
-      "display_title": "Stamnos with women performing rites for Dionysos",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "女性祭狄俄尼索斯储酒罐",
+      "status": "descriptive_translation",
+      "basis": [
+        "p271"
+      ]
     },
     {
       "id": "e097",
-      "display_title": "Bell krater with a satyr and nymph at a fountain",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "喷泉旁萨堤尔与宁芙钟形调酒碗",
+      "status": "descriptive_translation",
+      "basis": [
+        "p273"
+      ]
     },
     {
       "id": "e098",
-      "display_title": "Askos (oil vessel)",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "肋纹油器（Askos）",
+      "status": "descriptive_translation",
+      "basis": [
+        "p275"
+      ]
     },
     {
       "id": "e099",
-      "display_title": "Beaked oinochoe with three female heads",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "三女性头像鸟喙口执壶",
+      "status": "descriptive_translation",
+      "basis": [
+        "p277"
+      ]
     },
     {
       "id": "e100",
-      "display_title": "Kantharos with satyr and maenad",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "萨堤尔与迈那得双面饮杯",
+      "status": "descriptive_translation",
+      "basis": [
+        "p279"
+      ]
     },
     {
       "id": "e101",
-      "display_title": "Kottabos stand with a dancing satyr",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "舞蹈萨堤尔投酒游戏架",
+      "status": "descriptive_translation",
+      "basis": [
+        "p283"
+      ]
     },
     {
       "id": "e102",
-      "display_title": "Thymiaterion with a nude male figure",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "裸男支撑焚香炉",
+      "status": "descriptive_translation",
+      "basis": [
+        "p285"
+      ]
     },
     {
       "id": "e103",
-      "display_title": "Thymiaterion with Turan and Atunis",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "Turan与Atunis焚香炉",
+      "status": "descriptive_translation",
+      "basis": [
+        "p287"
+      ]
     },
     {
       "id": "e104",
-      "display_title": "Thymiaterion with a dancer playing krotala",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "奏响板舞者焚香炉",
+      "status": "descriptive_translation",
+      "basis": [
+        "p291"
+      ]
     },
     {
       "id": "e105",
-      "display_title": "Acroterion depicting a winged horse",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "翼马屋顶饰",
+      "status": "descriptive_translation",
+      "basis": [
+        "p294"
+      ]
     },
     {
       "id": "e106",
-      "display_title": "Pediment from a shrine",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "武尔奇小祠山墙陶饰",
+      "status": "descriptive_translation",
+      "basis": [
+        "p297"
+      ]
     },
     {
       "id": "e107",
-      "display_title": "Model temple",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "神庙模型",
+      "status": "descriptive_translation",
+      "basis": [
+        "p302"
+      ]
     },
     {
       "id": "e108",
-      "display_title": "Funerary krater",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "仿金属表面葬仪调酒碗",
+      "status": "descriptive_translation",
+      "basis": [
+        "p305"
+      ]
     },
     {
       "id": "e109",
-      "display_title": "Stamnos with a griffin combat",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "狮鹫战斗图储酒罐",
+      "status": "descriptive_translation",
+      "basis": [
+        "p308",
+        "p309"
+      ]
     },
     {
       "id": "e110",
-      "display_title": "Panel depicting a performer dressed as a traveler",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "扮旅人的表演者彩绘陶板",
+      "status": "descriptive_translation",
+      "basis": [
+        "p311"
+      ]
     },
     {
       "id": "e111",
-      "display_title": "Cinerary urn of the spouses",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "夫妻骨灰瓮",
+      "status": "descriptive_translation",
+      "basis": [
+        "p315"
+      ]
     },
     {
       "id": "e112",
-      "display_title": "Pair of hands",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "镀金指甲银手一对",
+      "status": "descriptive_translation",
+      "basis": [
+        "p317"
+      ]
     },
     {
       "id": "e113",
-      "display_title": "Cippus with a mourning scene",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "哀悼场景墓标",
+      "status": "descriptive_translation",
+      "basis": [
+        "p319"
+      ]
     },
     {
       "id": "e114",
-      "display_title": "Canopic urn",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "人首盖骨灰瓮（丘西）",
+      "status": "descriptive_translation",
+      "basis": [
+        "p322"
+      ]
     },
     {
       "id": "e115",
-      "display_title": "Sarcophagus lid with reclining woman",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "卧姿女性石棺盖",
+      "status": "descriptive_translation",
+      "basis": [
+        "p328"
+      ]
     },
     {
       "id": "e116",
-      "display_title": "Cinerary urn with lid depicting a woman",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "停灵女性像盖骨灰瓮",
+      "status": "descriptive_translation",
+      "basis": [
+        "p331"
+      ]
     },
     {
       "id": "e117",
-      "display_title": "Canopic urn",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "人首瓮与宝座",
+      "status": "descriptive_translation",
+      "basis": [
+        "p333"
+      ]
     },
     {
       "id": "e118",
-      "display_title": "Mirror with ram-head terminal",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "羊首柄铜镜",
+      "status": "descriptive_translation",
+      "basis": [
+        "p335",
+        "p337"
+      ]
     },
     {
       "id": "e119",
-      "display_title": "Vase in the shape of a female head",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "刻有suthina的女性头像器",
+      "status": "descriptive_translation",
+      "basis": [
+        "p337"
+      ]
     },
     {
       "id": "e120",
-      "display_title": "Cinerary urn for a woman",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "女性宴饮像骨灰瓮",
+      "status": "descriptive_translation",
+      "basis": [
+        "p339"
+      ]
     },
     {
       "id": "e121",
-      "display_title": "Cinerary urn in the shape of a standing man",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "立姿男子形骨灰瓮",
+      "status": "descriptive_translation",
+      "basis": [
+        "p343"
+      ]
     },
     {
       "id": "e122",
-      "display_title": "Statue of Veiovis",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "Veiovis青铜像",
+      "status": "descriptive_translation",
+      "basis": [
+        "p349"
+      ]
     },
     {
       "id": "e123",
-      "display_title": "Cippus with a farewell scene",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "送别场景墓标",
+      "status": "descriptive_translation",
+      "basis": [
+        "p354"
+      ]
     },
     {
       "id": "e124",
-      "display_title": "Head of a young man",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "青年青铜头像",
+      "status": "descriptive_translation",
+      "basis": [
+        "p358"
+      ]
     },
     {
       "id": "e125",
-      "display_title": "Head of a man",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "男子彩绘还愿头像",
+      "status": "descriptive_translation",
+      "basis": [
+        "p361"
+      ]
     },
     {
       "id": "e126",
-      "display_title": "Statuette of a man praying",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "披衣祈祷男子（奥尔维耶托）",
+      "status": "descriptive_translation",
+      "basis": [
+        "p364",
+        "p365"
+      ]
     },
     {
       "id": "e127",
-      "display_title": "Statuette of a man praying",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "祈祷男子小像（Vetulonia）",
+      "status": "descriptive_translation",
+      "basis": [
+        "p367"
+      ]
     },
     {
       "id": "e128",
-      "display_title": "Statuette of a priestess holding a serpent",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "持蛇女祭司小像",
+      "status": "descriptive_translation",
+      "basis": [
+        "p369"
+      ]
     },
     {
       "id": "e129",
-      "display_title": "Statue of a young man making an offering",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "圣吉米尼亚诺细长供养青年",
+      "status": "descriptive_translation",
+      "basis": [
+        "p372"
+      ]
     },
     {
       "id": "e130",
-      "display_title": "Swaddled infant",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "襁褓婴儿还愿像",
+      "status": "descriptive_translation",
+      "basis": [
+        "p375"
+      ]
     },
     {
       "id": "e131",
-      "display_title": "Votive offerings in the shape of an arm and a leg",
-      "status": "label_original; established Chinese title not verified"
+      "display_title": "手臂与腿还愿物",
+      "status": "descriptive_translation",
+      "basis": [
+        "p377"
+      ]
     }
   ],
   "proper_name_fallbacks": {
-    "赫尔克勒": "Hercle",
-    "门尔瓦": "Menrva",
     "乌西尔": "Usil",
     "特珊": "Thesan",
     "万特": "Vanth",
@@ -677,34 +1087,98 @@
     "塞尔万斯": "Selvans",
     "富弗伦斯": "Fufluns",
     "维约维斯": "Veiovis",
-    "乌尼": "Uni",
     "雷戈里尼—加拉西": "Regolini–Galassi",
     "雷戈里尼-加拉西": "Regolini–Galassi",
     "普拉斯特纳": "Prastna",
     "卡拉拉男童": "Putto Carrara男童",
     "法利斯克": "Faliscan",
-    "丘西": "丘西",
     "波焦卡斯蒂廖内": "Poggio Castiglione",
     "圣卡夏诺德伊巴尼": "San Casciano dei Bagni",
     "圣卡夏诺": "San Casciano dei Bagni",
     "克鲁斯图梅里乌姆": "Crustumerium",
-    "蒙特里焦尼": "Monteriggioni",
     "圣马尔蒂诺阿拉帕尔马": "San Martino alla Palma",
     "蒙特拉扎诺": "Monterazzano",
     "普莱内斯特": "Praeneste",
-    "帕莱斯特里纳": "Palestrina",
     "波焦布科": "Poggio Buco",
     "纳尔切": "Narce",
-    "武尔奇": "Vulci",
     "穆萨尔纳": "Musarna",
     "韦图洛尼亚": "Vetulonia",
-    "卢奇尼亚诺": "Lucignano",
     "布罗廖": "Brolio",
     "法莱里旧城": "Falerii Veteres",
-    "菲耶索莱": "Fiesole",
     "索瓦纳": "Sovana",
-    "图斯卡尼亚": "Tuscania",
-    "凯雷": "Caere",
-    "博尔塞纳湖": "Lake Bolsena"
-  }
+    "凯雷": "Caere"
+  },
+  "verified_proper_names": [
+    {
+      "original": "Vulci",
+      "chinese": "武尔奇",
+      "url": "https://zh.wikipedia.org/wiki/武爾奇",
+      "read_scope": "search_excerpt; Baidu title additionally supplied by reader",
+      "scope": "中文名称用例；不据此扩展本件考古或图像判断"
+    },
+    {
+      "original": "Monteriggioni",
+      "chinese": "蒙特里焦尼",
+      "url": "https://zh.wikipedia.org/wiki/蒙特里焦尼",
+      "read_scope": "page",
+      "scope": "中文名称用例；不据此扩展本件考古或图像判断"
+    },
+    {
+      "original": "Fiesole",
+      "chinese": "菲耶索莱",
+      "url": "https://zh.wikipedia.org/wiki/菲耶索莱",
+      "read_scope": "page",
+      "scope": "中文名称用例；不据此扩展本件考古或图像判断"
+    },
+    {
+      "original": "Lake Bolsena",
+      "chinese": "博尔塞纳湖",
+      "url": "https://zh.wikipedia.org/wiki/博尔塞纳湖",
+      "read_scope": "page",
+      "scope": "中文名称用例；不据此扩展本件考古或图像判断"
+    },
+    {
+      "original": "Tuscania",
+      "chinese": "图斯卡尼亚",
+      "url": "https://zh.wikipedia.org/wiki/图斯卡尼亚",
+      "read_scope": "page",
+      "scope": "中文名称用例；不据此扩展本件考古或图像判断"
+    },
+    {
+      "original": "Lucignano",
+      "chinese": "卢奇尼亚诺",
+      "url": "https://zh.wikipedia.org/wiki/卢奇尼亚诺",
+      "read_scope": "page",
+      "scope": "中文名称用例；不据此扩展本件考古或图像判断"
+    },
+    {
+      "original": "Palestrina",
+      "chinese": "帕莱斯特里纳",
+      "url": "https://zh.wikipedia.org/wiki/帕莱斯特里纳_(罗马首都广域市)",
+      "read_scope": "search_excerpt",
+      "scope": "中文名称用例；不据此扩展本件考古或图像判断"
+    },
+    {
+      "original": "Uni",
+      "chinese": "乌尼",
+      "url": "https://zh.wikipedia.org/wiki/提尼亞",
+      "read_scope": "page",
+      "scope": "中文名称用例；不据此扩展本件考古或图像判断"
+    },
+    {
+      "original": "Menrva",
+      "chinese": "梅恩瓦",
+      "url": "https://zh.wikipedia.org/wiki/提尼亞",
+      "read_scope": "page",
+      "scope": "中文名称用例；不据此扩展本件考古或图像判断"
+    },
+    {
+      "original": "Hercle",
+      "chinese": "赫丘勒",
+      "url": "https://zh.wikipedia.org/wiki/提尼亞",
+      "read_scope": "page",
+      "scope": "中文名称用例；不据此扩展本件考古或图像判断"
+    }
+  ],
+  "user_supplied_naming_link": "https://baike.baidu.com/item/武尔奇/16185346"
 }

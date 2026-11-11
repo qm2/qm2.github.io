@@ -25,25 +25,13 @@ def run(source,out):
    vs.append({'file':f,'width':w})
   return {**p,**existing.get(name,{}),'path':'originals/'+name+'.jpg','source':'Merton现场摄影','display_width':width,'display_height':height,'variants':vs}
  with ThreadPoolExecutor(max_workers=4) as pool:result=list(pool.map(prepare,photos))
- crops={
- 'e045':('p154',(0,50,1280,1650),'抬起的脸与胸前护符'),
- 'e010':('p038',(50,400,1230,1580),'金带上的人物与细纹'),
- 'e001':('p005',(380,200,1380,1200),'器沿前方的狮首'),
- 'e122':('p347',(220,0,1220,1000),'头部、肩与举起的手臂'),
- 'e106':('p298',(40,270,1240,1470),'小祠中央的神话人物群')}
- cropdata={}
- for wid,(pid,box,caption) in crops.items():
-  im=ImageOps.exif_transpose(Image.open(source/'photos'/f'{pid}.jpg')).convert('RGB').crop(box)
-  # Seated boy retains face-to-hand relation, fitted without cropping in the guide.
-  vs=[]
-  for w in [320,640]:
-   h=round(im.height*w/im.width);f=f'{wid}-detail-{w}.webp';im.resize((w,h),Image.Resampling.LANCZOS).save(out/f,'WEBP',quality=88,method=6);vs.append({'file':f,'width':w})
-  cropdata[wid]={'photo_id':pid,'crop_box':list(box),'caption':caption,'width':im.width,'height':im.height,'variants':vs}
+ from prepare_etruscans_editorial import prepare as prepare_editorial
+ prepare_editorial(out)
  for path in sorted(out.rglob('*')):
   if path.is_file() and path.suffix in ['.jpg','.webp']:
    rel=path.relative_to(out).as_posix();manifest.append({'source':str(path),'key':'museum-notes/etruscans/images/'+rel,'size':path.stat().st_size,'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'content_type':'image/jpeg' if path.suffix=='.jpg' else 'image/webp'})
  target=ROOT/'museum-notes/etruscans/data';target.mkdir(parents=True,exist_ok=True)
- for name,data in [('photos',result),('detail-crops',cropdata)]: (target/f'{name}.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
+ for name,data in [('photos',result)]: (target/f'{name}.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
  (out.parent/'etruscans-upload-manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
  print(f'{len(result)} originals, {len(manifest)} remote assets, {sum(x["size"] for x in manifest)/1e6:.1f} MB')
 if __name__=='__main__':run(*sys.argv[1:])

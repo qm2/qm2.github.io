@@ -6,3 +6,13 @@
 @media(prefers-color-scheme:dark){.et-page{--et-green:#92b1a3;--et-clay:#d29b83}.et-map-scroll{background:#253632}.et-land{fill:#3b3b35;stroke:#66665c}.et-detail-thumb{background:#33352f}.et-water{fill:#a6bbb3}.et-map svg a circle{fill:#516f63}.et-time-axis{background:var(--paper)}}
 
 .et-page h1,.et-page h3{overflow-wrap:normal;word-break:normal;hyphens:auto}.et-page .et-en:empty{display:none}
+
+/* Editorial crops keep their own proportions; caption shares the actual photograph width. */
+.et-page .et-reading-photo .rs-photo{width:min(100%,var(--photo-width));margin:28px auto 36px}.et-page .et-reading-photo figcaption{margin:9px 0 0;font:12px/1.9 var(--sans);color:var(--muted)}
+.et-page .et-reading-photo img{width:100%;height:auto;max-height:none}.et-page .et-detail-thumb img{height:auto;aspect-ratio:1;object-fit:contain}
+
+/* Miniatures: center photo + caption as one unit, not a full-width caption below a letterbox. */
+.et-page .et-mini-photo{display:block;width:min(100%,var(--mini-width));margin:0 auto}
+.et-page .et-mini-photo img{display:block;width:100%;height:auto;margin:0;object-fit:contain}
+.et-page .et-mini-caption{display:block;margin-top:8px;text-align:left;font:14px/1.8 var(--serif)}
+.et-page .et-mini-caption small{display:block;margin-top:3px}

@@ -1,0 +1,845 @@
+{
+  "hero": "c001-full",
+  "full_views": {
+    "e001": "c001-full",
+    "e010": "c010-full",
+    "e022": "c022-full",
+    "e033": "c033-full",
+    "e045": "c045-full",
+    "e077": "c077-full",
+    "e084": "c084-full",
+    "e091": "c091-full",
+    "e106": "c106-full",
+    "e111": "c111-full",
+    "e115": "c115-full",
+    "e122": "c122-full",
+    "e129": "c129-full",
+    "e003": "p010",
+    "e005": "p022"
+  },
+  "favorites": {
+    "e045": "c045-detail",
+    "e010": "c010-detail",
+    "e001": "c001-detail",
+    "e122": "c122-detail",
+    "e106": "c106-detail"
+  },
+  "narrative": {
+    "e001": [
+      {
+        "after_paragraph": 0,
+        "image": "c001-detail"
+      }
+    ],
+    "e010": [
+      {
+        "after_paragraph": 0,
+        "image": "c010-detail"
+      },
+      {
+        "after_paragraph": 1,
+        "image": "p039"
+      }
+    ],
+    "e045": [
+      {
+        "after_paragraph": 0,
+        "image": "c045-detail"
+      },
+      {
+        "after_paragraph": 1,
+        "image": "p155"
+      }
+    ],
+    "e122": [
+      {
+        "after_paragraph": 0,
+        "image": "c122-detail"
+      }
+    ],
+    "e106": [
+      {
+        "after_paragraph": 0,
+        "image": "c106-detail"
+      }
+    ],
+    "e033": [
+      {
+        "after_paragraph": 0,
+        "image": "p110"
+      }
+    ],
+    "e043": [
+      {
+        "after_paragraph": 1,
+        "image": "p147"
+      }
+    ],
+    "e047": [
+      {
+        "after_paragraph": 0,
+        "image": "p165"
+      }
+    ]
+  },
+  "crops": {
+    "c001-full": {
+      "photo_id": "p001",
+      "box": [
+        0,
+        250,
+        1280,
+        1245
+      ],
+      "caption": "狮首饰青铜大釜正面：兽首、器沿与完整圆腹",
+      "kind": "complete"
+    },
+    "c010-full": {
+      "photo_id": "p038",
+      "box": [
+        0,
+        330,
+        1280,
+        1420
+      ],
+      "caption": "人物纹金手镯：完整金带与侧面的扣合结构",
+      "kind": "complete"
+    },
+    "c045-full": {
+      "photo_id": "p153",
+      "box": [
+        0,
+        70,
+        1280,
+        1630
+      ],
+      "caption": "坐姿男童：抬起的脸、撑地的手与弯曲双腿",
+      "kind": "complete"
+    },
+    "c122-full": {
+      "photo_id": "p346",
+      "box": [
+        320,
+        0,
+        1140,
+        1670
+      ],
+      "caption": "Veiovis像：面部、举臂、垂下的手与双足",
+      "kind": "complete"
+    },
+    "c106-full": {
+      "photo_id": "p296",
+      "box": [
+        0,
+        0,
+        1707,
+        690
+      ],
+      "caption": "小祠山墙整体：古代陶饰与蓝灰色现代展示支撑",
+      "kind": "complete"
+    },
+    "c010-detail": {
+      "photo_id": "p038",
+      "box": [
+        115,
+        510,
+        815,
+        1210
+      ],
+      "caption": "人物纹与细密金粒沿金带展开",
+      "kind": "detail"
+    },
+    "c045-detail": {
+      "photo_id": "p154",
+      "box": [
+        360,
+        65,
+        1250,
+        955
+      ],
+      "caption": "仰起的脸与胸前护符，右侧留出视线的方向",
+      "kind": "detail"
+    },
+    "c001-detail": {
+      "photo_id": "p005",
+      "box": [
+        450,
+        370,
+        1300,
+        1220
+      ],
+      "caption": "前方狮首与两侧弧形器沿",
+      "kind": "detail"
+    },
+    "c122-detail": {
+      "photo_id": "p346",
+      "box": [
+        210,
+        0,
+        1130,
+        920
+      ],
+      "caption": "面容、肩部与举起的手臂",
+      "kind": "detail"
+    },
+    "c106-detail": {
+      "photo_id": "p298",
+      "box": [
+        20,
+        230,
+        1270,
+        1480
+      ],
+      "caption": "中央人物群及其下方的陶质构件",
+      "kind": "detail"
+    },
+    "c022-full": {
+      "photo_id": "p077",
+      "box": [
+        0,
+        0,
+        1702,
+        1276
+      ],
+      "caption": "房屋形青铜骨灰瓮：屋顶、四足与屋身",
+      "kind": "complete"
+    },
+    "c033-full": {
+      "photo_id": "p107",
+      "box": [
+        0,
+        60,
+        960,
+        1280
+      ],
+      "caption": "带盖大碗：盖钮、两侧把手与圈足",
+      "kind": "complete"
+    },
+    "c084-full": {
+      "photo_id": "p234",
+      "box": [
+        110,
+        70,
+        1190,
+        1610
+      ],
+      "caption": "铜镜刻纹面：镜盘与残存镜柄",
+      "kind": "complete"
+    },
+    "c091-full": {
+      "photo_id": "p253",
+      "box": [
+        100,
+        70,
+        1240,
+        1660
+      ],
+      "caption": "水罐正面：英雄与多头蛇的画面、器口与圈足",
+      "kind": "complete"
+    },
+    "c111-full": {
+      "photo_id": "p312",
+      "box": [
+        40,
+        80,
+        1260,
+        1610
+      ],
+      "caption": "夫妻骨灰瓮：卧榻上的两人及完整榻足",
+      "kind": "complete"
+    },
+    "c077-full": {
+      "photo_id": "p217",
+      "box": [
+        70,
+        410,
+        940,
+        1100
+      ],
+      "caption": "戒面与环身的斜侧面",
+      "kind": "complete"
+    },
+    "c115-full": {
+      "photo_id": "p323",
+      "box": [
+        20,
+        320,
+        1690,
+        950
+      ],
+      "caption": "女性石棺盖横向全景：卧姿与枕垫",
+      "kind": "complete"
+    },
+    "c129-full": {
+      "photo_id": "p370",
+      "box": [
+        360,
+        0,
+        1080,
+        1707
+      ],
+      "caption": "细长供养青年全身：头顶、持物与双足",
+      "kind": "complete"
+    }
+  },
+  "reading_reviews": [
+    {
+      "object_id": "e001",
+      "compared_photo_ids": [
+        "p001",
+        "p002",
+        "p003",
+        "p005"
+      ],
+      "selected": "c001-full",
+      "decision": "换片或调整外围取景，保留关键轮廓",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e003",
+      "compared_photo_ids": [
+        "p009",
+        "p010",
+        "p011",
+        "p012"
+      ],
+      "selected": "p010",
+      "decision": "换片或调整外围取景，保留关键轮廓",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e004",
+      "compared_photo_ids": [
+        "p016",
+        "p017",
+        "p018"
+      ],
+      "selected": "p016",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e005",
+      "compared_photo_ids": [
+        "p021",
+        "p022"
+      ],
+      "selected": "p022",
+      "decision": "换片或调整外围取景，保留关键轮廓",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e007",
+      "compared_photo_ids": [
+        "p029",
+        "p030"
+      ],
+      "selected": "p029",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e009",
+      "compared_photo_ids": [
+        "p034",
+        "p035"
+      ],
+      "selected": "p034",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e010",
+      "compared_photo_ids": [
+        "p037",
+        "p038",
+        "p039"
+      ],
+      "selected": "c010-full",
+      "decision": "换片或调整外围取景，保留关键轮廓",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e019",
+      "compared_photo_ids": [
+        "p066",
+        "p068",
+        "p067"
+      ],
+      "selected": "p066",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e020",
+      "compared_photo_ids": [
+        "p070",
+        "p071",
+        "p072",
+        "p073"
+      ],
+      "selected": "p070",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e022",
+      "compared_photo_ids": [
+        "p077",
+        "p078",
+        "p079"
+      ],
+      "selected": "c022-full",
+      "decision": "换片或调整外围取景，保留关键轮廓",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e024",
+      "compared_photo_ids": [
+        "p083"
+      ],
+      "selected": "p083",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e025",
+      "compared_photo_ids": [
+        "p085"
+      ],
+      "selected": "p085",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e028",
+      "compared_photo_ids": [
+        "p092",
+        "p093"
+      ],
+      "selected": "p092",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e029",
+      "compared_photo_ids": [
+        "p095",
+        "p096",
+        "p097"
+      ],
+      "selected": "p095",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e033",
+      "compared_photo_ids": [
+        "p107",
+        "p108",
+        "p109",
+        "p110",
+        "p111"
+      ],
+      "selected": "c033-full",
+      "decision": "换片或调整外围取景，保留关键轮廓",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e035",
+      "compared_photo_ids": [
+        "p117",
+        "p118"
+      ],
+      "selected": "p117",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e041",
+      "compared_photo_ids": [
+        "p132",
+        "p133"
+      ],
+      "selected": "p132",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e043",
+      "compared_photo_ids": [
+        "p141",
+        "p142",
+        "p143",
+        "p144",
+        "p147",
+        "p148"
+      ],
+      "selected": "p141",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e045",
+      "compared_photo_ids": [
+        "p153",
+        "p154",
+        "p156",
+        "p155",
+        "p157"
+      ],
+      "selected": "c045-full",
+      "decision": "换片或调整外围取景，保留关键轮廓",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e046",
+      "compared_photo_ids": [
+        "p159",
+        "p160",
+        "p161"
+      ],
+      "selected": "p159",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e047",
+      "compared_photo_ids": [
+        "p163",
+        "p164",
+        "p165"
+      ],
+      "selected": "p163",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e052",
+      "compared_photo_ids": [
+        "p175",
+        "p176"
+      ],
+      "selected": "p175",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e054",
+      "compared_photo_ids": [
+        "p180",
+        "p181"
+      ],
+      "selected": "p180",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e063",
+      "compared_photo_ids": [
+        "p205",
+        "p206"
+      ],
+      "selected": "p205",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e066",
+      "compared_photo_ids": [
+        "p212"
+      ],
+      "selected": "p212",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e077",
+      "compared_photo_ids": [
+        "p217",
+        "p218",
+        "p219"
+      ],
+      "selected": "c077-full",
+      "decision": "换片或调整外围取景，保留关键轮廓",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e083",
+      "compared_photo_ids": [
+        "p232"
+      ],
+      "selected": "p232",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e084",
+      "compared_photo_ids": [
+        "p234",
+        "p237",
+        "p235"
+      ],
+      "selected": "c084-full",
+      "decision": "换片或调整外围取景，保留关键轮廓",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e091",
+      "compared_photo_ids": [
+        "p253",
+        "p254",
+        "p255"
+      ],
+      "selected": "c091-full",
+      "decision": "换片或调整外围取景，保留关键轮廓",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e093",
+      "compared_photo_ids": [
+        "p259",
+        "p261"
+      ],
+      "selected": "p259",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e095",
+      "compared_photo_ids": [
+        "p265",
+        "p266"
+      ],
+      "selected": "p265",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e096",
+      "compared_photo_ids": [
+        "p268",
+        "p269",
+        "p270"
+      ],
+      "selected": "p268",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e101",
+      "compared_photo_ids": [
+        "p281",
+        "p282"
+      ],
+      "selected": "p281",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e104",
+      "compared_photo_ids": [
+        "p288",
+        "p289",
+        "p290"
+      ],
+      "selected": "p288",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e105",
+      "compared_photo_ids": [
+        "p293"
+      ],
+      "selected": "p293",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e106",
+      "compared_photo_ids": [
+        "p295",
+        "p296",
+        "p298",
+        "p299"
+      ],
+      "selected": "c106-full",
+      "decision": "换片或调整外围取景，保留关键轮廓",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e107",
+      "compared_photo_ids": [
+        "p300",
+        "p301"
+      ],
+      "selected": "p300",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e111",
+      "compared_photo_ids": [
+        "p312",
+        "p313",
+        "p314"
+      ],
+      "selected": "c111-full",
+      "decision": "换片或调整外围取景，保留关键轮廓",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e112",
+      "compared_photo_ids": [
+        "p316"
+      ],
+      "selected": "p316",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e113",
+      "compared_photo_ids": [
+        "p318"
+      ],
+      "selected": "p318",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e114",
+      "compared_photo_ids": [
+        "p320",
+        "p321"
+      ],
+      "selected": "p320",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e115",
+      "compared_photo_ids": [
+        "p323",
+        "p325",
+        "p324",
+        "p326",
+        "p327"
+      ],
+      "selected": "c115-full",
+      "decision": "换片或调整外围取景，保留关键轮廓",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e117",
+      "compared_photo_ids": [
+        "p332"
+      ],
+      "selected": "p332",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e119",
+      "compared_photo_ids": [
+        "p336"
+      ],
+      "selected": "p336",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e121",
+      "compared_photo_ids": [
+        "p340",
+        "p342",
+        "p341"
+      ],
+      "selected": "p340",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e122",
+      "compared_photo_ids": [
+        "p345",
+        "p346",
+        "p347",
+        "p348"
+      ],
+      "selected": "c122-full",
+      "decision": "换片或调整外围取景，保留关键轮廓",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e123",
+      "compared_photo_ids": [
+        "p350",
+        "p351",
+        "p352",
+        "p353"
+      ],
+      "selected": "p350",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e124",
+      "compared_photo_ids": [
+        "p355",
+        "p356",
+        "p357"
+      ],
+      "selected": "p355",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e125",
+      "compared_photo_ids": [
+        "p359",
+        "p360"
+      ],
+      "selected": "p359",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e126",
+      "compared_photo_ids": [
+        "p363"
+      ],
+      "selected": "p363",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e129",
+      "compared_photo_ids": [
+        "p370",
+        "p371"
+      ],
+      "selected": "c129-full",
+      "decision": "换片或调整外围取景，保留关键轮廓",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e130",
+      "compared_photo_ids": [
+        "p374"
+      ],
+      "selected": "p374",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    },
+    {
+      "object_id": "e131",
+      "compared_photo_ids": [
+        "p376"
+      ],
+      "selected": "p376",
+      "decision": "保留：当前首图更适合说明整件形制；其余角度留在图库",
+      "reviewed": "2026-11-11"
+    }
+  ]
+}
