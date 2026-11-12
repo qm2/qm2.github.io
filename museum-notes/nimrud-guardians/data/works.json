@@ -1,7 +1,7 @@
 {
   "title": "尼姆鲁德的有翼守护者",
   "subtitle": "亚述西北宫浮雕 · 海外所见",
-  "intro": "鹰首、人首，举手致意或持桶面向圣树。在四家博物馆里看过的这些浮雕，都来自公元前9世纪尼姆鲁德的西北宫。把它们放在一起，手势、羽翼和文字的差别便清楚起来。",
+  "intro": "鹰首、人首，举手致意或持桶面向圣树。从美国的博物馆到梵蒂冈，这些亲见浮雕把观看带回公元前9世纪尼姆鲁德的西北宫。完整的身体、成对的半身残片与单独的头像，保存着同一座宫殿不同的细节。",
   "sources": {
     "mfah": [
       "休斯顿美术馆：Guardian Figure（含来源记录）",
@@ -50,6 +50,26 @@
     "sama-label": [
       "圣安东尼奥美术馆：头像展签与S室复原说明（现场摄影）",
       "https://images.mertonmuseum.com/museum-notes/sama-2026/2388-900.webp"
+    ],
+    "kimbell": [
+      "金贝尔：Pair of Winged Deities（尺寸与来源）",
+      "https://kimbellart.org/collection/ap-198104-ab"
+    ],
+    "kimbell-label": [
+      "金贝尔：成对有翼守护者现场展签",
+      "https://images.mertonmuseum.com/museum-notes/nimrud-kimbell-vatican/originals/kimbell-label.jpg"
+    ],
+    "vatican-label": [
+      "梵蒂冈：Inv.14990现场展签",
+      "https://images.mertonmuseum.com/museum-notes/nimrud-kimbell-vatican/originals/vatican-label.jpg"
+    ],
+    "barracco": [
+      "巴拉科博物馆：MB 47与VAT/14990的原位重建",
+      "https://museobarracco.it/en/percorsi/percorsi_per_sale/piano_primo/sala_ii_arte_egizia_e_mesopotamica/genio_alato_inginocchiato"
+    ],
+    "basello-2019": [
+      "Gian Pietro Basello：2019年《Gli Assiri all’ombra del Vesuvio》条目7，第206页",
+      "https://unora.unior.it/retrieve/dfd1bedd-6b1a-d55a-e053-3705fe0af723/Graziani2019%20SCHEDE%20Assiri%20ombra%20del%20Vesuvio%20Mostra%20MANN.pdf"
     ]
   },
   "works": [
@@ -71,7 +91,7 @@
           "sources": []
         },
         {
-          "text": "现场展签将这种形象联系到古代贤者 apkallu，并从刀具解释其防御、护佑意味。它并不因此等同于某一位有名字的神。文字在这件石板的顶部形成窄带，与另外两件横穿身体的铭文很不一样。",
+          "text": "现场展签将这种形象联系到古代贤者 apkallu，并从刀具解释其防御、护佑意味。它并不因此等同于某一位有名字的神。文字在这件石板的顶部形成窄带，与克利夫兰与纳尔逊横穿身体的铭文很不一样。",
           "sources": [
             "mfah"
           ]
@@ -82,7 +102,9 @@
             "mfah"
           ]
         }
-      ]
+      ],
+      "viewing_city": "休斯顿",
+      "object_count": 1
     },
     {
       "id": "cleveland-1943-246",
@@ -98,7 +120,7 @@
       "original_room": "西北宫S室，S-06号壁板（CDLI P427317）",
       "notes": [
         {
-          "text": "这位人首精灵抬起右手，掌心向前；左手握着植物枝条，枝端带有花形装饰。这里没有另外两件的桶与锥形器物，动作也更接近致意。腕上的玫瑰花形饰物、层层卷曲的胡须、排列整齐的羽毛，以及垂下的衣服流苏，各自有不同的刻线节奏。",
+          "text": "这位人首精灵抬起右手，掌心向前；左手握着植物枝条，枝端带有花形装饰。这里没有休斯顿与纳尔逊两件的桶与锥形器物，动作也更接近致意。腕上的玫瑰花形饰物、层层卷曲的胡须、排列整齐的羽毛，以及垂下的衣服流苏，各自有不同的刻线节奏。",
           "sources": [
             "cleveland"
           ]
@@ -116,7 +138,9 @@
             "cleveland"
           ]
         }
-      ]
+      ],
+      "viewing_city": "克利夫兰",
+      "object_count": 1
     },
     {
       "id": "nelson-40-17",
@@ -150,7 +174,9 @@
             "nelson"
           ]
         }
-      ]
+      ],
+      "viewing_city": "堪萨斯城",
+      "object_count": 1
     },
     {
       "id": "sama-head",
@@ -187,6 +213,103 @@
             "sama-label"
           ]
         }
+      ],
+      "viewing_city": "圣安东尼奥",
+      "object_count": 1
+    },
+    {
+      "id": "kimbell-pair",
+      "title": "成对的有翼守护者",
+      "original_title": "Pair of Winged Deities",
+      "museum": "金贝尔艺术博物馆，沃思堡",
+      "accession": "AP 1981.04 a,b",
+      "date": "约公元前874—860年",
+      "material": "石膏石（Gypsum）",
+      "dimensions": "a：高92 × 宽70厘米；b：高90.7 × 宽73.5厘米",
+      "photo": "kimbell-pair",
+      "label": "kimbell-label",
+      "original_room": "西北宫L室；具体壁板号尚未确认",
+      "visit_date": null,
+      "object_count": 2,
+      "viewing_city": "沃思堡",
+      "notes": [
+        {
+          "text": "两张侧脸隔着一道空隙相向而立。角冠、耳坠与卷曲胡须仍然清楚，背后的羽翼伸向外侧，胸前垂下的细密刻线与羽毛形成不同的节奏。眼前是两尊全身人物各自留下的上半部；一起观看时，面向彼此的方向感比残存的体量更先显现。",
+          "sources": []
+        },
+        {
+          "text": "馆方将它们解释为圣树旁参与净化或护佑仪式的有翼人物，原应左手持桶、右手持锥形器物。桶与下半身已经不在这两块残片中，完整动作来自馆方对原图像的解释。两件均出自L室，与纳尔逊的L-10有房间层面的联系；现有展陈的相向排列尚不足以确定古代两块壁板的间距。",
+          "sources": [
+            "kimbell"
+          ]
+        },
+        {
+          "text": "馆方来源表记载，它们曾由苏格兰Munro-Ferguson家族传藏，1980年经伦敦Bruce and Ingrid McAlpine Ancient Art，1981年由金贝尔艺术基金会购入。来源表对更早的“1854年在孟买取得”保留“据称”的限定。",
+          "sources": [
+            "kimbell"
+          ]
+        }
+      ],
+      "research_notes": [
+        {
+          "text": "现场展签与官网都记L室；展签所列874—860 BCE，官网加约年标记。官网分别给出a、b两件尺寸，本页不以当前合影的左右顺序代替a、b编号。",
+          "sources": [
+            "kimbell",
+            "kimbell-label"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vatican-14990",
+      "title": "礼拜圣树的鹰首有翼精灵",
+      "original_title": "Eagle-headed winged genius worshipping the Sacred Tree",
+      "museum": "梵蒂冈博物馆，格列高利埃及博物馆",
+      "accession": "Inv.14990",
+      "date": "公元前883—859年（亚述纳西尔帕二世时期）",
+      "material": "石质浮雕；具体石材尚未核实",
+      "dimensions": "尚未查得可靠尺寸",
+      "photo": "vatican-eagle",
+      "label": "vatican-label",
+      "original_room": "展签记L室；原位重建研究提出I室I-04，详见资料注",
+      "visit_date": null,
+      "object_count": 1,
+      "viewing_city": "梵蒂冈",
+      "notes": [
+        {
+          "text": "长喙朝向右方，翅膀沿背部向下铺开，羽毛一层层伸至衣袍旁。右手举起锥形器物，左手提着小桶，腕饰、膝部与赤足仍可辨认。与休斯顿的鹰首人物并看，这件更便于追踪从肩、手臂到下摆、脚趾的全身姿态。",
+          "sources": []
+        },
+        {
+          "text": "衣袍斜过身体，边缘以密集的流苏展开；羽翼中的长线和衣缘中的短线，让轮廓相近的部分具有不同质感。展签以“礼拜圣树”为题，而这块现存石面没有呈现一棵完整圣树。提桶、举锥的动作，把人物接回宫殿里更大的护佑图像组合。",
+          "sources": [
+            "vatican-label",
+            "met-purifier"
+          ]
+        },
+        {
+          "text": "它的原位留下了两条不同记录：现场展签写L室；巴拉科博物馆的说明与2019年展览图录，则把Inv.14990联系到I室一块分层壁板的下部，上层为跪姿人首精灵。这条重建线索使今天的独立陈列重新具有上下关系，也留下了需要与展签继续对读的问题。",
+          "sources": [
+            "barracco",
+            "basello-2019"
+          ]
+        }
+      ],
+      "research_notes": [
+        {
+          "text": "Gian Pietro Basello在2019年图录条目7（第206页）讨论巴拉科MB 47，提出它属于I-04，并列出可能同属该壁板的VAT 14990。巴拉科官网将14990对应为下层鹰首人物。本页保留这项研究归属与现场L室记录的差别，不据此画出确定拼合。Cagni 1995及Paley、Sobolewski 1987仅见该条目转引，未独立核读。",
+          "sources": [
+            "basello-2019",
+            "barracco",
+            "vatican-label"
+          ]
+        },
+        {
+          "text": "现场展签的IX.3属于馆内标识，Inv.14990为藏品号；二者都不是古代宫殿壁板号。照片未记录入藏经过，现有已读资料也不足以建立这件浮雕的完整递藏链。",
+          "sources": [
+            "vatican-label"
+          ]
+        }
       ]
     }
   ],
@@ -207,7 +330,7 @@
       ]
     },
     {
-      "text": "许多壁板反复刻有“标准铭文”：以阿卡德语楔形文字颂扬国王的谱系、征服、神明支持与宫殿营建。文字和身体、羽翼、衣纹共享同一石面，不过铭文的位置并不处处相同。1845年起，莱亚德等人在尼姆鲁德展开发掘，浮雕随后通过赠送、收藏与交易进入欧美机构。今天分别在休斯顿、克利夫兰与纳尔逊看到的守护者，原来属于同一座宫殿的图像体系，却各有流散经历。",
+      "text": "许多壁板反复刻有“标准铭文”：以阿卡德语楔形文字颂扬国王的谱系、征服、神明支持与宫殿营建。文字和身体、羽翼、衣纹共享同一石面，不过铭文的位置并不处处相同。1845年起，莱亚德等人在尼姆鲁德展开发掘，浮雕随后通过赠送、收藏与交易进入欧美机构。今天在不同博物馆看到的守护者，原来属于同一座宫殿的图像体系，却各有流散经历。",
       "sources": [
         "met-tree",
         "kalhu"
@@ -231,22 +354,18 @@
   "comparisons": [
     [
       "鹰首与人首",
-      "休斯顿的长喙和颈部羽毛，替代了另外两件的面部与卷曲胡须。纳尔逊人物头顶的角冠又与克利夫兰的头饰有别；相似的有翼人身，并没有抹平头部差异。"
+      "休斯顿与梵蒂冈的长喙、颈部羽毛，与人首守护者的面容、卷曲胡须形成对照。金贝尔的两张侧脸相向，在圣安东尼奥看到的头像则单独留下冠饰与面容。"
     ],
     [
       "手势与所持物",
-      "休斯顿和纳尔逊都举起锥形器物、下垂持桶。克利夫兰则举起空着的右手，左手持枝条。并看时，先辨认手指与物件，再看它们指向树纹还是前方的空间。"
+      "休斯顿、纳尔逊与梵蒂冈都可见举起的锥形器物和提桶。克利夫兰举起空着的右手，左手持枝条。金贝尔残片的全身动作由馆方解释补充，观看时可将现存部分与这一解释相互对照。"
     ],
     [
       "石面上的羽翼、衣饰与文字",
-      "羽毛的层列、胡须的卷曲和衣缘的流苏形成不同密度的刻线。休斯顿的文字在顶部；克利夫兰与纳尔逊的文字带横穿人物身体，图像与书写叠在一起。"
-    ],
-    [
-      "同一间房，不同的残存形态",
-      "克利夫兰S-06保留全身姿态；在圣安东尼奥借展的芝加哥S-10头像保留冠饰、侧脸与胡须。房间联系据现场复原说明，不能从头像补出已经失去的双手。"
+      "羽毛的层列、胡须的卷曲和衣缘的流苏形成不同密度的刻线。休斯顿的文字在顶部；克利夫兰与纳尔逊的文字带横穿人物身体。残片与整幅壁板留下的画面范围不同，现存石面未见铭文，并不说明原壁板从未刻字。"
     ]
   ],
-  "record_note": "年代与材料分别沿用各馆记录：休斯顿、克利夫兰记公元前883—859年、Gypsum；纳尔逊记公元前884—860年、Limestone。圣安东尼奥借展头像则记为石膏质雪花石。四件均归于亚述纳西尔帕二世时期。",
+  "record_note": "年代与材料分别沿用各馆记录，不统一换算成同一种石材名称。金贝尔记约前874—860年；其余几件的年代范围仍按各馆著录。梵蒂冈现场展签未列材料与尺寸，相关字段保留核实状态。",
   "photos": {
     "768": {
       "photo": "768.jpg",
@@ -334,14 +453,172 @@
       "rotation": 0,
       "caption": "尼姆鲁德有翼守护者头像 · 现场展签与复原说明",
       "remote_asset": "2388"
+    },
+    "kimbell-label": {
+      "photo": "https://images.mertonmuseum.com/museum-notes/nimrud-kimbell-vatican/kimbell-label-900.webp",
+      "original_url": "https://images.mertonmuseum.com/museum-notes/nimrud-kimbell-vatican/originals/kimbell-label.jpg",
+      "width": 1280,
+      "height": 1707,
+      "rotation": 0,
+      "source_filename": "kimbell-label.jpg",
+      "source_type": "user_chat_attachment",
+      "sha256": "60dc79016138e47389aaf0a29da7f003ced596502cb8c8d5aa0c263d7e7e6e2b",
+      "variants": [
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/nimrud-kimbell-vatican/kimbell-label-400.webp",
+          "width": 400,
+          "height": 533
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/nimrud-kimbell-vatican/kimbell-label-900.webp",
+          "width": 900,
+          "height": 1200
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/nimrud-kimbell-vatican/kimbell-label-1280.webp",
+          "width": 1280,
+          "height": 1707
+        }
+      ],
+      "kind": "label",
+      "work": "kimbell-pair"
+    },
+    "kimbell-pair": {
+      "photo": "https://images.mertonmuseum.com/museum-notes/nimrud-kimbell-vatican/kimbell-pair-900.webp",
+      "original_url": "https://images.mertonmuseum.com/museum-notes/nimrud-kimbell-vatican/originals/kimbell-pair.jpg",
+      "width": 1707,
+      "height": 1280,
+      "rotation": 0,
+      "source_filename": "kimbell-pair.jpg",
+      "source_type": "user_chat_attachment",
+      "sha256": "5c4b4b2453e9fdeefd70835bd986869cfd204c05cdfacb7484a59400041ded5e",
+      "variants": [
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/nimrud-kimbell-vatican/kimbell-pair-400.webp",
+          "width": 400,
+          "height": 300
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/nimrud-kimbell-vatican/kimbell-pair-900.webp",
+          "width": 900,
+          "height": 675
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/nimrud-kimbell-vatican/kimbell-pair-1600.webp",
+          "width": 1600,
+          "height": 1200
+        }
+      ],
+      "kind": "photo",
+      "work": "kimbell-pair"
+    },
+    "vatican-eagle": {
+      "photo": "https://images.mertonmuseum.com/museum-notes/nimrud-kimbell-vatican/vatican-eagle-900.webp",
+      "original_url": "https://images.mertonmuseum.com/museum-notes/nimrud-kimbell-vatican/originals/vatican-eagle.jpg",
+      "width": 1280,
+      "height": 1707,
+      "rotation": 0,
+      "source_filename": "vatican-eagle.jpg",
+      "source_type": "user_chat_attachment",
+      "sha256": "f9d999e71bad36a7162272db1ce40eeb075e785a47013d35d5cf019bab31438d",
+      "variants": [
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/nimrud-kimbell-vatican/vatican-eagle-400.webp",
+          "width": 400,
+          "height": 533
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/nimrud-kimbell-vatican/vatican-eagle-900.webp",
+          "width": 900,
+          "height": 1200
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/nimrud-kimbell-vatican/vatican-eagle-1280.webp",
+          "width": 1280,
+          "height": 1707
+        }
+      ],
+      "kind": "photo",
+      "work": "vatican-14990"
+    },
+    "vatican-label": {
+      "photo": "https://images.mertonmuseum.com/museum-notes/nimrud-kimbell-vatican/vatican-label-900.webp",
+      "original_url": "https://images.mertonmuseum.com/museum-notes/nimrud-kimbell-vatican/originals/vatican-label.jpg",
+      "width": 1280,
+      "height": 1707,
+      "rotation": 0,
+      "source_filename": "vatican-label.jpg",
+      "source_type": "user_chat_attachment",
+      "sha256": "51994c18e428fb9c54eae1171a465b257ec17d859fb11242fc83cc15827badab",
+      "variants": [
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/nimrud-kimbell-vatican/vatican-label-400.webp",
+          "width": 400,
+          "height": 533
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/nimrud-kimbell-vatican/vatican-label-900.webp",
+          "width": 900,
+          "height": 1200
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/nimrud-kimbell-vatican/vatican-label-1280.webp",
+          "width": 1280,
+          "height": 1707
+        }
+      ],
+      "kind": "label",
+      "work": "vatican-14990"
     }
   },
   "location_note": {
-    "text": "克利夫兰对应西北宫S室的 S-06号壁板，依据馆方书目及 CDLI P427317；纳尔逊对应L室的 L-10号壁板，依据馆方来源档案及所引 Meuszyński 1981年研究。这些是古代宫殿房间与壁板编号。休斯顿的原房间尚未确认。",
+    "text": "S-06、S-10与L-10是古代宫殿房间和壁板的对应记录，不是今天的博物馆展厅号。纳尔逊的L-10据馆方所引Meuszyński研究，未独立核读原书；梵蒂冈的I-04重建线索据已读2019年图录，保留与现场展签的差异。",
     "sources": [
-      "cleveland",
       "cdli-s06",
-      "nelson"
+      "nelson",
+      "sama-label",
+      "basello-2019"
     ]
-  }
+  },
+  "collection_note": "本辑按六组亲见记录整理：金贝尔的一组含两件残片，克利夫兰的拼合壁板仍计作一件馆藏作品。",
+  "comparison_intro": "金贝尔两件残片各高约91—92厘米；休斯顿那件高约1.07米，克利夫兰与纳尔逊两件高约2.3米，圣安东尼奥所见头像高约67厘米。照片按各自比例展示，彼此并非实物等比例。",
+  "rooms": [
+    {
+      "title": "S室：从全身到头像",
+      "text": "克利夫兰S-06与在圣安东尼奥借展的S-10头像，连接同一房间的两处壁板。一个保留动作，一个留下面容。",
+      "works": [
+        "cleveland-1943-246",
+        "sama-head"
+      ],
+      "sources": [
+        "cleveland",
+        "cdli-s06",
+        "sama-label"
+      ]
+    },
+    {
+      "title": "L室：完整壁板与两块残片",
+      "text": "纳尔逊对应L-10；金贝尔的一对也记为L室，但现有资料未给出具体壁板号。这让它们有了原建筑上的联系，尚不能将两块残片直接安放到L-10旁。",
+      "works": [
+        "nelson-40-17",
+        "kimbell-pair"
+      ],
+      "sources": [
+        "nelson",
+        "kimbell"
+      ]
+    },
+    {
+      "title": "梵蒂冈：两种原位记录",
+      "text": "Inv.14990的展签记L室，研究重建则提出I室I-04。房间与上下层的归属在此并列保留；休斯顿80.53的原房间仍未查明。",
+      "works": [
+        "vatican-14990",
+        "mfah-80-53"
+      ],
+      "sources": [
+        "vatican-label",
+        "basello-2019"
+      ]
+    }
+  ]
 }

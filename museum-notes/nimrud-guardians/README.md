@@ -21,3 +21,11 @@ The user supplied the S-06 / L-10 lead. Independently opened Cleveland’s print
 ## Context and citation cleanup
 
 Added an approximately 150-character paragraph from TARII’s Nimrud project report: 2015–2016 destruction, Iraqi Nimrud Rescue Team recovery and stabilization from 2017, subsequent TARII support and the 2025 emergency stabilization focus. These activities are not described as completed reconstruction. The historical introduction now states the Ashurbanipal/Nineveh distinction directly. Work-note citations are deduplicated and grouped at each entry’s end, preserving paragraph-level source associations in JSON. The readable Cleveland print record replaces its API link in public citations; earlier API research remains documented above.
+
+## Kimbell and Vatican expansion, 2026-11-11
+
+Added `kimbell-pair` (AP 1981.04 a,b) and `vatican-14990`, keeping the four earlier viewing IDs. Six viewing groups now include seven collection objects and thirteen photographs; the Kimbell pair is explicitly two objects, not a single joined panel. Four unchanged chat-attachment JPEGs plus twelve responsive derivatives are stored on the existing Cloudflare image host. Paths, dimensions and hashes are in `data/works.json`; camera-original resolution is not asserted for chat attachments.
+
+Kimbell's Room L attribution is kept distinct from Nelson's L-10. For Vatican Inv.14990, the photographed label's Room L and Basello's 2019 I-04 reconstruction are both retained. The room connections and notes distinguish direct observation, museum records and scholarly reconstruction. See `docs/nimrud/kimbell-vatican-research.md` for sources actually read and unresolved material/dimension/provenance questions.
+
+The local figure helper keeps each caption the same width as its complete photograph. Cloud lightboxes load the original JPEG, not a small preview. Museum reading links and entry-city lists derive from the work records. `museum_assets.responsive_attributes` accepts inline variants while preserving the earlier shared SAMA manifest behavior.

@@ -14,7 +14,8 @@ def sama_media():
 def responsive_attributes(record, sizes="(max-width:650px) 92vw, (max-width:1000px) 80vw, 900px"):
     """Use the shared cloud variants without changing existing local image markup."""
     key=record.get('remote_asset')
-    if not key:return ''
-    variants=sama_media()[str(key)]['variants']
+    variants=record.get('variants')
+    if not variants and key:variants=sama_media()[str(key)]['variants']
+    if not variants:return ''
     srcset=', '.join(f'{v["path"]} {v["width"]}w' for v in variants)
     return f' srcset="{srcset}" sizes="{sizes}"'
