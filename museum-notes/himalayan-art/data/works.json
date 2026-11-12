@@ -8558,5 +8558,1697 @@
       }
     ],
     "viewing_basis": "user_confirmed_photo_backgrounds_and_Met_visit_month"
+  },
+  {
+    "work_id": "sama-07",
+    "title_zh": "尼泊尔毗湿奴立像",
+    "title_en": "Vishnu",
+    "date_label": "约11世纪",
+    "date_start": 1000,
+    "date_end": 1099,
+    "region_ids": [
+      "nepal-broad"
+    ],
+    "accession": "2010.7.1",
+    "primary_photo": "s2407",
+    "art_photos": [
+      "s2407",
+      "s2408"
+    ],
+    "label_photos": [
+      "s2409"
+    ],
+    "detail_photos": [],
+    "tier": "catalogue",
+    "scope": "himalayan",
+    "religious_context": "Hindu",
+    "editorial_notes": "",
+    "metadata_basis": "photographed_label_and_package_research",
+    "verification_status": "photo_label_checked",
+    "source_ids": [
+      "SAMA-label-07"
+    ],
+    "uncertainties": [],
+    "input_group_id": "sama-07",
+    "public": true,
+    "scope_reason": "已有专题地域、图像与供养范围",
+    "label_source_ids": [
+      "s2409"
+    ],
+    "materials_display": "鎏金铜",
+    "material_status": "reviewed",
+    "reading_unit_ids": [],
+    "chapter_ids": [
+      "c3"
+    ],
+    "exchange_extension": false,
+    "date_values_usage": "筛选包络不代替馆方显示年代",
+    "date_history": [],
+    "origin_status": "region_only",
+    "origin_note": "尼泊尔；具体制作地未详",
+    "scope_basis": "regional_or_ritual",
+    "style_region_ids": [],
+    "research_state": "catalogue_note",
+    "map_associations": [
+      {
+        "place_id": "nepal-broad",
+        "relationship": "regional_attribution",
+        "certainty": "regional_only"
+      }
+    ],
+    "collection_museum_id": "sama",
+    "display_museum_id": "sama",
+    "collection_label": "圣安东尼奥美术馆",
+    "museum_label": "圣安东尼奥美术馆",
+    "has_shared_frame": false,
+    "default_gallery_photos": [
+      "s2407",
+      "s2408"
+    ],
+    "alternate_photos": [
+      "s2408"
+    ],
+    "object_type": "artwork",
+    "map_enabled": true,
+    "image_alt_zh": "尼泊尔毗湿奴立像 · Merton现场摄影",
+    "primary_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2407_19.jpg",
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2407-400.webp",
+    "reader_notes": [],
+    "catalogue_paragraphs": [
+      "四臂环绕着修长的躯干展开，高冠、耳饰和贴身衣裙把身体组织得格外整齐。展牌指出，螺是尚存的持物，另外两件武器已经缺失；空出的手势仍保存了原来四臂组合的方向。高冠与贴体衣裙，也为观察尼泊尔的神像传统留下了线索。"
+    ],
+    "visit_date": null,
+    "package_id": "sama-07",
+    "public_label_photos": [
+      "s2409"
+    ],
+    "site_links": []
+  },
+  {
+    "work_id": "sama-08",
+    "title_zh": "佛传八大事碑",
+    "title_en": "Stele with Eight Great Events from the Life of the Buddha",
+    "date_label": "约10世纪",
+    "date_start": 900,
+    "date_end": 999,
+    "region_ids": [
+      "pala-bihar"
+    ],
+    "accession": "L.2019.4.1",
+    "primary_photo": "s2410",
+    "art_photos": [
+      "s2410"
+    ],
+    "label_photos": [
+      "s2411"
+    ],
+    "detail_photos": [],
+    "tier": "catalogue",
+    "scope": "himalayan",
+    "religious_context": "Buddhist",
+    "editorial_notes": "",
+    "metadata_basis": "photographed_label_and_package_research",
+    "verification_status": "photo_label_checked",
+    "source_ids": [
+      "SAMA13",
+      "SAMA14",
+      "SAMA-label-08"
+    ],
+    "uncertainties": [],
+    "input_group_id": "sama-08",
+    "public": true,
+    "scope_reason": "已有专题地域、图像与供养范围",
+    "label_source_ids": [
+      "s2411"
+    ],
+    "materials_display": "片岩",
+    "material_status": "reviewed",
+    "reading_unit_ids": [],
+    "chapter_ids": [
+      "c2"
+    ],
+    "exchange_extension": false,
+    "date_values_usage": "筛选包络不代替馆方显示年代",
+    "date_history": [],
+    "origin_status": "region_only",
+    "origin_note": "印度，比哈尔",
+    "scope_basis": "regional_or_ritual",
+    "style_region_ids": [],
+    "research_state": "catalogue_note",
+    "map_associations": [
+      {
+        "place_id": "pala-bihar",
+        "relationship": "regional_attribution",
+        "certainty": "regional_only"
+      }
+    ],
+    "collection_museum_id": null,
+    "display_museum_id": "sama",
+    "collection_label": "Rose Marie and John L. Hendry, III",
+    "museum_label": "圣安东尼奥美术馆",
+    "has_shared_frame": false,
+    "default_gallery_photos": [
+      "s2410"
+    ],
+    "alternate_photos": [],
+    "object_type": "artwork",
+    "map_enabled": true,
+    "image_alt_zh": "佛传八大事碑 · Merton现场摄影",
+    "primary_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2410_19.jpg",
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2410-400.webp",
+    "reader_notes": [
+      "展牌将本件归于比哈尔，约10世纪。底部文字尚未取得可靠释文，具体寺院来源未详。"
+    ],
+    "catalogue_paragraphs": [
+      "中央触地印佛占据最大的空间，七个较小场景把一生中的事件围拢到它身边。成道、说法与涅槃不再沿长带依次铺开，而在同一块石碑上成为彼此相邻的地点。"
+    ],
+    "visit_date": null,
+    "package_id": "sama-08",
+    "public_label_photos": [
+      "s2411"
+    ],
+    "site_links": [
+      {
+        "href": "/museum-notes/early-buddhist-art/u09/",
+        "label": "早期佛传的四个大事件"
+      }
+    ],
+    "catalogue_sections": [
+      {
+        "title": "从中央成道，走向一生中的圣地",
+        "paragraphs": [
+          {
+            "text": "中央佛的右手垂向地面，以触地印联系菩提伽耶的成道。上方横卧的佛进入涅槃；四周小龛又把不同时间的故事围拢到同一中心。与连续铺开的佛传浮雕相比，这块碑让观看者在大小不同的龛之间往返，把人生事件与朝圣地点同时记在石面上。",
+            "source_ids": [
+              "SAMA-label-08"
+            ]
+          },
+          {
+            "text": "按现场展牌的解释，从左下出生场景向上，经过驯象、初次说法，来到顶端横卧的涅槃像；右侧依次联系神变、从天界下降和猿猴献蜜。中央触地印佛则是成道。这些场景同时连接佛传与朝圣记忆：照片可以先辨出龛的层次、坐立与横卧的不同姿态，再借展签逐一寻找故事。",
+            "source_ids": [
+              "SAMA-label-08"
+            ]
+          },
+          {
+            "text": "馆方将本件归于比哈尔、约10世纪，属于帕拉时代。大都会同类佛传碑说明了八大圣地与成道主像的联系；它提供阅读框架，本件每个小龛的具体安排仍须分别核实。展牌提到的Nalagiri是被佛驯服的象名；底部文字尚未取得可靠释文。",
+            "source_ids": [
+              "SAMA13"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "work_id": "sama-09",
+    "title_zh": "Phuntsho Sherab上师像",
+    "title_en": "Lama Phuntsho Sherab",
+    "date_label": "17世纪末—18世纪初（现场展牌）",
+    "date_start": 1675,
+    "date_end": 1725,
+    "region_ids": [
+      "tibet-broad"
+    ],
+    "accession": "2004.7.1",
+    "primary_photo": "s2412",
+    "art_photos": [
+      "s2412",
+      "s2413",
+      "s2414",
+      "s2415"
+    ],
+    "label_photos": [
+      "s2416"
+    ],
+    "detail_photos": [],
+    "tier": "catalogue",
+    "scope": "himalayan",
+    "religious_context": "Buddhist",
+    "editorial_notes": "",
+    "metadata_basis": "photographed_label_and_package_research",
+    "verification_status": "photo_label_checked",
+    "source_ids": [
+      "SAMA04",
+      "SAMA-label-09"
+    ],
+    "uncertainties": [],
+    "input_group_id": "sama-09",
+    "public": true,
+    "scope_reason": "已有专题地域、图像与供养范围",
+    "label_source_ids": [
+      "s2416"
+    ],
+    "materials_display": "鎏金铜，半宝石镶嵌",
+    "material_status": "reviewed",
+    "reading_unit_ids": [],
+    "chapter_ids": [
+      "c4"
+    ],
+    "exchange_extension": false,
+    "date_values_usage": "筛选包络不代替馆方显示年代",
+    "date_history": [],
+    "origin_status": "region_only",
+    "origin_note": "西藏；木斯塘为人物活动关联，非已证制作地",
+    "scope_basis": "regional_or_ritual",
+    "style_region_ids": [],
+    "research_state": "catalogue_note",
+    "map_associations": [
+      {
+        "place_id": "tibet-broad",
+        "relationship": "regional_attribution",
+        "certainty": "regional_only"
+      }
+    ],
+    "collection_museum_id": "sama",
+    "display_museum_id": "sama",
+    "collection_label": "圣安东尼奥美术馆",
+    "museum_label": "圣安东尼奥美术馆",
+    "has_shared_frame": false,
+    "default_gallery_photos": [
+      "s2412",
+      "s2413",
+      "s2414",
+      "s2415"
+    ],
+    "alternate_photos": [
+      "s2413",
+      "s2414",
+      "s2415"
+    ],
+    "object_type": "artwork",
+    "map_enabled": true,
+    "image_alt_zh": "Lama Phuntsho Sherab上师像（现场题名） · Merton现场摄影",
+    "primary_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2412_19.jpg",
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2412-400.webp",
+    "reader_notes": [
+      "现场展签题作Lama Phuntsho Sherab，断为17世纪末—18世纪初；官网同号2004.7.1题作Lama Mipham（1654—1715），断为17世纪。馆方提示线上记录可能未反映最新研究，两个人名目前不能确认为同一人的异名。环座藏文尚未取得可靠释文。"
+    ],
+    "catalogue_paragraphs": [
+      "左手托着容器，右手垂下触地，衣缘与底座则保留细密的装饰。背面照片和环座的藏文近照，使这件像不只是一张正面的肖像：也可以从衣服如何包裹身体、铭文如何围绕座具，继续看上师的形象怎样被供奉。现场题名与官网同号记录并不一致，差异列在下方资料注中。"
+    ],
+    "visit_date": null,
+    "package_id": "sama-09",
+    "public_label_photos": [
+      "s2416"
+    ],
+    "site_links": [],
+    "dimensions_display": "52.1 × 38.1 × 27.9厘米（据官网同号记录）",
+    "catalogue_sections": [
+      {
+        "title": "同一馆号留下的两种题名",
+        "paragraphs": [
+          {
+            "text": "这次现场展签题为Phuntsho Sherab，并把人物与木斯塘的活动联系起来；网上同号记录2004.7.1却仍题作Mipham（1654—1715）。两种名称与断代并列，使肖像的辨认成为一个尚待继续核查的问题。网上条目也明确提示，其历史档案可能未反映最新认识。",
+            "source_ids": [
+              "SAMA04",
+              "SAMA-label-09"
+            ]
+          },
+          {
+            "text": "座边的藏文绕着身体延伸，背面则让袍服的轮廓与接缝成为主角。现有照片保存了下一次核对的线索，但本页尚无可靠铭文释读。收藏记录可确认由Ewing Halsell Foundation提供购藏资金；更早的寺院与递藏过程未详。",
+            "source_ids": [
+              "SAMA04"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "work_id": "sama-10",
+    "title_zh": "忿怒金刚手",
+    "title_en": "Vajrapani",
+    "date_label": "12世纪末—13世纪",
+    "date_start": 1175,
+    "date_end": 1299,
+    "region_ids": [
+      "tibet-broad"
+    ],
+    "accession": "2004.6",
+    "primary_photo": "s2417",
+    "art_photos": [
+      "s2417",
+      "s2418",
+      "s2419"
+    ],
+    "label_photos": [
+      "s2420"
+    ],
+    "detail_photos": [],
+    "tier": "catalogue",
+    "scope": "himalayan",
+    "religious_context": "Buddhist",
+    "editorial_notes": "",
+    "metadata_basis": "photographed_label_and_package_research",
+    "verification_status": "photo_label_checked",
+    "source_ids": [
+      "SAMA-label-10"
+    ],
+    "uncertainties": [],
+    "input_group_id": "sama-10",
+    "public": true,
+    "scope_reason": "已有专题地域、图像与供养范围",
+    "label_source_ids": [
+      "s2420"
+    ],
+    "materials_display": "铸造铜合金",
+    "material_status": "reviewed",
+    "reading_unit_ids": [],
+    "chapter_ids": [
+      "c5"
+    ],
+    "exchange_extension": false,
+    "date_values_usage": "筛选包络不代替馆方显示年代",
+    "date_history": [],
+    "origin_status": "region_only",
+    "origin_note": "西藏；具体地区未详",
+    "scope_basis": "regional_or_ritual",
+    "style_region_ids": [],
+    "research_state": "catalogue_note",
+    "map_associations": [
+      {
+        "place_id": "tibet-broad",
+        "relationship": "regional_attribution",
+        "certainty": "regional_only"
+      }
+    ],
+    "collection_museum_id": "sama",
+    "display_museum_id": "sama",
+    "collection_label": "圣安东尼奥美术馆",
+    "museum_label": "圣安东尼奥美术馆",
+    "has_shared_frame": false,
+    "default_gallery_photos": [
+      "s2417",
+      "s2418",
+      "s2419"
+    ],
+    "alternate_photos": [
+      "s2418",
+      "s2419"
+    ],
+    "object_type": "artwork",
+    "map_enabled": true,
+    "image_alt_zh": "忿怒金刚手 · Merton现场摄影",
+    "primary_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2417_19.jpg",
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2417-400.webp",
+    "reader_notes": [],
+    "catalogue_paragraphs": [
+      "宽张的双腿、上举的右臂和回转的躯干，把力量压在一个向外展开的姿势里。右手的金刚杵是识别金刚手的关键，蛇形臂钏与项饰又强化了忿怒相。转向两侧，伸出的手臂与向后回转的身体，又呈现不同的前后关系。"
+    ],
+    "visit_date": null,
+    "package_id": "sama-10",
+    "public_label_photos": [
+      "s2420"
+    ],
+    "site_links": []
+  },
+  {
+    "work_id": "sama-11",
+    "title_zh": "阿弥陀佛极乐净土图",
+    "title_en": "Amitabha Buddha in Sukhavati Paradise",
+    "date_label": "约1700年",
+    "date_start": 1675,
+    "date_end": 1725,
+    "region_ids": [
+      "tibet-broad"
+    ],
+    "accession": "2010.8",
+    "primary_photo": "s2422",
+    "art_photos": [
+      "s2421",
+      "s2422",
+      "s2423"
+    ],
+    "label_photos": [
+      "s2424"
+    ],
+    "detail_photos": [],
+    "tier": "catalogue",
+    "scope": "himalayan",
+    "religious_context": "Buddhist",
+    "editorial_notes": "",
+    "metadata_basis": "photographed_label_and_package_research",
+    "verification_status": "photo_label_checked",
+    "source_ids": [
+      "SAMA-label-11"
+    ],
+    "uncertainties": [],
+    "input_group_id": "sama-11",
+    "public": true,
+    "scope_reason": "已有专题地域、图像与供养范围",
+    "label_source_ids": [
+      "s2424"
+    ],
+    "materials_display": "棉布本设色、金彩，挂轴",
+    "material_status": "reviewed",
+    "reading_unit_ids": [],
+    "chapter_ids": [
+      "c5"
+    ],
+    "exchange_extension": false,
+    "date_values_usage": "筛选包络不代替馆方显示年代",
+    "date_history": [],
+    "origin_status": "region_only",
+    "origin_note": "西藏；具体地区未详",
+    "scope_basis": "regional_or_ritual",
+    "style_region_ids": [],
+    "research_state": "catalogue_note",
+    "map_associations": [
+      {
+        "place_id": "tibet-broad",
+        "relationship": "regional_attribution",
+        "certainty": "regional_only"
+      }
+    ],
+    "collection_museum_id": "sama",
+    "display_museum_id": "sama",
+    "collection_label": "圣安东尼奥美术馆",
+    "museum_label": "圣安东尼奥美术馆",
+    "has_shared_frame": false,
+    "default_gallery_photos": [
+      "s2421",
+      "s2422",
+      "s2423"
+    ],
+    "alternate_photos": [
+      "s2422",
+      "s2423"
+    ],
+    "object_type": "artwork",
+    "map_enabled": true,
+    "image_alt_zh": "阿弥陀佛极乐净土图 · Merton现场摄影",
+    "primary_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2422_19.jpg",
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2422-400.webp",
+    "reader_notes": [],
+    "catalogue_paragraphs": [
+      "阿弥陀佛端坐在画面中央，周围的殿阁、乐舞与莲池使净土成为可以层层进入的空间。先认出中心佛与两侧主要随侍，再向下看池水和人物，最后沿建筑向外展开；这种阅读顺序比逐个辨认所有小像更适合第一次看画。"
+    ],
+    "visit_date": null,
+    "package_id": "sama-11",
+    "public_label_photos": [
+      "s2424"
+    ],
+    "site_links": []
+  },
+  {
+    "work_id": "sama-12",
+    "title_zh": "多闻天王唐卡",
+    "title_en": "Vaishravana",
+    "date_label": "约1700年",
+    "date_start": 1675,
+    "date_end": 1725,
+    "region_ids": [
+      "tibet-broad"
+    ],
+    "accession": "2010.30",
+    "primary_photo": "s2426",
+    "art_photos": [
+      "s2425",
+      "s2426",
+      "s2427"
+    ],
+    "label_photos": [
+      "s2428"
+    ],
+    "detail_photos": [],
+    "tier": "catalogue",
+    "scope": "himalayan",
+    "religious_context": "Buddhist",
+    "editorial_notes": "",
+    "metadata_basis": "photographed_label_and_package_research",
+    "verification_status": "photo_label_checked",
+    "source_ids": [
+      "SAMA-label-12"
+    ],
+    "uncertainties": [],
+    "input_group_id": "sama-12",
+    "public": true,
+    "scope_reason": "已有专题地域、图像与供养范围",
+    "label_source_ids": [
+      "s2428"
+    ],
+    "materials_display": "棉布本墨、设色、金彩",
+    "material_status": "reviewed",
+    "reading_unit_ids": [],
+    "chapter_ids": [
+      "c5"
+    ],
+    "exchange_extension": false,
+    "date_values_usage": "筛选包络不代替馆方显示年代",
+    "date_history": [],
+    "origin_status": "region_only",
+    "origin_note": "西藏语境；具体地区未详",
+    "scope_basis": "regional_or_ritual",
+    "style_region_ids": [],
+    "research_state": "catalogue_note",
+    "map_associations": [
+      {
+        "place_id": "tibet-broad",
+        "relationship": "regional_attribution",
+        "certainty": "regional_only"
+      }
+    ],
+    "collection_museum_id": "sama",
+    "display_museum_id": "sama",
+    "collection_label": "圣安东尼奥美术馆",
+    "museum_label": "圣安东尼奥美术馆",
+    "has_shared_frame": false,
+    "default_gallery_photos": [
+      "s2425",
+      "s2426",
+      "s2427"
+    ],
+    "alternate_photos": [
+      "s2426",
+      "s2427"
+    ],
+    "object_type": "artwork",
+    "map_enabled": true,
+    "image_alt_zh": "多闻天王唐卡 · Merton现场摄影",
+    "primary_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2426_19.jpg",
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2426-400.webp",
+    "reader_notes": [],
+    "catalogue_paragraphs": [
+      "中央骑狮的多闻天王与周围骑马眷属形成两种尺度。可以先看坐骑与宝鼠，再看边缘人物如何把画面围拢。主尊近照呈现了眷属环绕的层次，整幅照片则保留织物装裱，让人看见唐卡的画心与外缘。"
+    ],
+    "visit_date": null,
+    "package_id": "sama-12",
+    "public_label_photos": [
+      "s2428"
+    ],
+    "site_links": []
+  },
+  {
+    "work_id": "sama-13",
+    "title_zh": "无量寿佛唐卡",
+    "title_en": "Amitayus Buddha Thangka",
+    "date_label": "18世纪晚期",
+    "date_start": 1750,
+    "date_end": 1799,
+    "region_ids": [
+      "tibet-broad"
+    ],
+    "accession": "2003.17",
+    "primary_photo": "s2429",
+    "art_photos": [
+      "s2429"
+    ],
+    "label_photos": [
+      "s2430"
+    ],
+    "detail_photos": [],
+    "tier": "catalogue",
+    "scope": "himalayan",
+    "religious_context": "Buddhist",
+    "editorial_notes": "",
+    "metadata_basis": "photographed_label_and_package_research",
+    "verification_status": "photo_label_checked",
+    "source_ids": [
+      "SAMA-label-13"
+    ],
+    "uncertainties": [],
+    "input_group_id": "sama-13",
+    "public": true,
+    "scope_reason": "已有专题地域、图像与供养范围",
+    "label_source_ids": [
+      "s2430"
+    ],
+    "materials_display": "棉布本设色",
+    "material_status": "reviewed",
+    "reading_unit_ids": [],
+    "chapter_ids": [
+      "c5"
+    ],
+    "exchange_extension": false,
+    "date_values_usage": "筛选包络不代替馆方显示年代",
+    "date_history": [],
+    "origin_status": "region_only",
+    "origin_note": "西藏",
+    "scope_basis": "regional_or_ritual",
+    "style_region_ids": [],
+    "research_state": "catalogue_note",
+    "map_associations": [
+      {
+        "place_id": "tibet-broad",
+        "relationship": "regional_attribution",
+        "certainty": "regional_only"
+      }
+    ],
+    "collection_museum_id": "sama",
+    "display_museum_id": "sama",
+    "collection_label": "圣安东尼奥美术馆",
+    "museum_label": "圣安东尼奥美术馆",
+    "has_shared_frame": false,
+    "default_gallery_photos": [
+      "s2429"
+    ],
+    "alternate_photos": [],
+    "object_type": "artwork",
+    "map_enabled": true,
+    "image_alt_zh": "无量寿佛唐卡 · Merton现场摄影",
+    "primary_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2429_19.jpg",
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2429-400.webp",
+    "reader_notes": [],
+    "catalogue_paragraphs": [
+      "主尊的红色身体和环绕的光背，先把视线留在中央；外围较小人物再形成一层层秩序。与阿弥陀佛净土图并看，先比较主尊装束、手中器物与周围空间的组织，会比只比较红色身体更容易理解两幅画的不同。"
+    ],
+    "visit_date": null,
+    "package_id": "sama-13",
+    "public_label_photos": [
+      "s2430"
+    ],
+    "site_links": []
+  },
+  {
+    "work_id": "sama-14",
+    "title_zh": "丹萨替地区舞蹈女尊构件",
+    "title_en": "Dancing Buddhist Goddesses",
+    "date_label": "15世纪",
+    "date_start": 1400,
+    "date_end": 1499,
+    "region_ids": [
+      "densatil"
+    ],
+    "accession": "L.2019.4.4",
+    "primary_photo": "s2431",
+    "art_photos": [
+      "s2431"
+    ],
+    "label_photos": [
+      "s2432"
+    ],
+    "detail_photos": [],
+    "tier": "catalogue",
+    "scope": "himalayan",
+    "religious_context": "Buddhist",
+    "editorial_notes": "",
+    "metadata_basis": "photographed_label_and_package_research",
+    "verification_status": "photo_label_checked",
+    "source_ids": [
+      "SAMA10",
+      "SAMA11",
+      "SAMA-label-14"
+    ],
+    "uncertainties": [],
+    "input_group_id": "sama-14",
+    "public": true,
+    "scope_reason": "已有专题地域、图像与供养范围",
+    "label_source_ids": [
+      "s2432"
+    ],
+    "materials_display": "建筑装饰板，鎏金铜",
+    "material_status": "reviewed",
+    "reading_unit_ids": [],
+    "chapter_ids": [
+      "c4"
+    ],
+    "exchange_extension": false,
+    "date_values_usage": "筛选包络不代替馆方显示年代",
+    "date_history": [],
+    "origin_status": "region_only",
+    "origin_note": "西藏，丹萨替地区；关联归属据展牌",
+    "scope_basis": "regional_or_ritual",
+    "style_region_ids": [],
+    "research_state": "catalogue_note",
+    "map_associations": [
+      {
+        "place_id": "densatil",
+        "relationship": "regional_attribution",
+        "certainty": "regional_only"
+      }
+    ],
+    "collection_museum_id": null,
+    "display_museum_id": "sama",
+    "collection_label": "Rose Marie and John L. Hendry, III",
+    "museum_label": "圣安东尼奥美术馆",
+    "has_shared_frame": false,
+    "default_gallery_photos": [
+      "s2431"
+    ],
+    "alternate_photos": [],
+    "object_type": "architectural_component",
+    "map_enabled": true,
+    "image_alt_zh": "丹萨替地区舞蹈女尊构件 · Merton现场摄影",
+    "primary_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2431_19.jpg",
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2431-400.webp",
+    "reader_notes": [
+      "现场展牌归于丹萨替地区，并联系大型舍利塔的底部雕塑。具体寺院来源、塔号、层位、朝向及四位女尊的各自身份尚未确认。"
+    ],
+    "catalogue_paragraphs": [
+      "四位女尊交错的双足与伸展的手臂彼此呼应。与独立陈列的女尊和承托柱相比，这件保留了人物横向成排的关系，也使塔上群像的组织变得更容易理解。"
+    ],
+    "visit_date": null,
+    "package_id": "sama-14",
+    "public_label_photos": [
+      "s2432"
+    ],
+    "site_links": [
+      {
+        "href": "/museum-notes/densatil/#sama-goddesses",
+        "label": "丹萨替：四组亲见构件并看"
+      }
+    ],
+    "catalogue_sections": [
+      {
+        "title": "人物仍然连在一起",
+        "paragraphs": [
+          {
+            "text": "每位女尊均有四臂，手中的器物各不相同；现场展牌将持物解释为钹、颅碗与杖。薄衣上的刻线与厚实的冠饰、项饰交替，弯曲的腰部和交叉双足形成舞姿。几个人物仍连着同一莲座和下方纹饰，让观看从身体的起伏延伸到建筑构件的整体。",
+            "source_ids": [
+              "SAMA-label-14"
+            ]
+          },
+          {
+            "text": "丹萨替的大型纪念塔以多层造像组织供养与礼拜。现场展牌把本构件归于丹萨替地区，联系塔体底部的雕塑程序；Rubin的研究可帮助理解这种群像环境，却没有给这件构件确定塔号、层位或朝向。具体原位仍保持未定。",
+            "source_ids": [
+              "SAMA10",
+              "SAMA-label-14"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "work_id": "sama-15",
+    "title_zh": "宗喀巴肖像唐卡",
+    "title_en": "Portrait of Je Tsong Khapa",
+    "date_label": "17世纪",
+    "date_start": 1600,
+    "date_end": 1699,
+    "region_ids": [
+      "tibet-broad"
+    ],
+    "accession": "2004.16",
+    "primary_photo": "s2433",
+    "art_photos": [
+      "s2433"
+    ],
+    "label_photos": [
+      "s2434"
+    ],
+    "detail_photos": [],
+    "tier": "catalogue",
+    "scope": "himalayan",
+    "religious_context": "Buddhist",
+    "editorial_notes": "",
+    "metadata_basis": "photographed_label_and_package_research",
+    "verification_status": "photo_label_checked",
+    "source_ids": [
+      "SAMA05",
+      "SAMA-label-15"
+    ],
+    "uncertainties": [],
+    "input_group_id": "sama-15",
+    "public": true,
+    "scope_reason": "已有专题地域、图像与供养范围",
+    "label_source_ids": [
+      "s2434"
+    ],
+    "materials_display": "棉布本设色、金彩",
+    "material_status": "reviewed",
+    "reading_unit_ids": [],
+    "chapter_ids": [
+      "c4"
+    ],
+    "exchange_extension": false,
+    "date_values_usage": "筛选包络不代替馆方显示年代",
+    "date_history": [],
+    "origin_status": "region_only",
+    "origin_note": "西藏",
+    "scope_basis": "regional_or_ritual",
+    "style_region_ids": [],
+    "research_state": "catalogue_note",
+    "map_associations": [
+      {
+        "place_id": "tibet-broad",
+        "relationship": "regional_attribution",
+        "certainty": "regional_only"
+      }
+    ],
+    "collection_museum_id": "sama",
+    "display_museum_id": "sama",
+    "collection_label": "圣安东尼奥美术馆",
+    "museum_label": "圣安东尼奥美术馆",
+    "has_shared_frame": false,
+    "default_gallery_photos": [
+      "s2433"
+    ],
+    "alternate_photos": [],
+    "object_type": "artwork",
+    "map_enabled": true,
+    "image_alt_zh": "宗喀巴肖像唐卡 · Merton现场摄影",
+    "primary_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2433_19.jpg",
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2433-400.webp",
+    "reader_notes": [],
+    "catalogue_paragraphs": [
+      "上师双手在胸前作手势，两肩莲花上分别托起剑与经书，把宗喀巴的肖像与文殊的智慧标志联系起来。画面上方的小像、主尊背光与座下莲瓣组成整齐的垂直层次。与俄尔寺堪布肖像并看，比较人物身份如何借冠帽、持物和上方传承得到提示。"
+    ],
+    "visit_date": null,
+    "package_id": "sama-15",
+    "public_label_photos": [
+      "s2434"
+    ],
+    "site_links": []
+  },
+  {
+    "work_id": "sama-16",
+    "title_zh": "弥勒菩萨立像",
+    "title_en": "Maitreya, or the Buddha of the Future",
+    "date_label": "17世纪",
+    "date_start": 1600,
+    "date_end": 1699,
+    "region_ids": [
+      "tibet-broad",
+      "nepal-broad"
+    ],
+    "accession": "2005.17",
+    "primary_photo": "s2435",
+    "art_photos": [
+      "s2435"
+    ],
+    "label_photos": [
+      "s2436"
+    ],
+    "detail_photos": [],
+    "tier": "catalogue",
+    "scope": "himalayan",
+    "religious_context": "Buddhist",
+    "editorial_notes": "",
+    "metadata_basis": "photographed_label_and_package_research",
+    "verification_status": "photo_label_checked",
+    "source_ids": [
+      "SAMA-label-16"
+    ],
+    "uncertainties": [],
+    "input_group_id": "sama-16",
+    "public": true,
+    "scope_reason": "已有专题地域、图像与供养范围",
+    "label_source_ids": [
+      "s2436"
+    ],
+    "materials_display": "鎏金铜",
+    "material_status": "reviewed",
+    "reading_unit_ids": [],
+    "chapter_ids": [
+      "c3"
+    ],
+    "exchange_extension": false,
+    "date_values_usage": "筛选包络不代替馆方显示年代",
+    "date_history": [],
+    "origin_status": "region_only",
+    "origin_note": "西藏或可能尼泊尔；展牌认为由纽瓦尔工匠制作，很可能在加德满都谷地",
+    "scope_basis": "regional_or_ritual",
+    "style_region_ids": [],
+    "research_state": "catalogue_note",
+    "map_associations": [
+      {
+        "place_id": "tibet-broad",
+        "relationship": "candidate_origin",
+        "certainty": "candidate"
+      },
+      {
+        "place_id": "nepal-broad",
+        "relationship": "candidate_origin",
+        "certainty": "candidate"
+      }
+    ],
+    "collection_museum_id": "sama",
+    "display_museum_id": "sama",
+    "collection_label": "圣安东尼奥美术馆",
+    "museum_label": "圣安东尼奥美术馆",
+    "has_shared_frame": true,
+    "default_gallery_photos": [
+      "s2435"
+    ],
+    "alternate_photos": [],
+    "object_type": "artwork",
+    "map_enabled": true,
+    "image_alt_zh": "弥勒菩萨立像 · Merton现场摄影",
+    "primary_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2435_19.jpg",
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2435-400.webp",
+    "reader_notes": [
+      "现场展签列西藏或尼泊尔；纽瓦尔艺术联系是风格解释。它与背饰在展厅组合陈列，原来是否配套未有记录。"
+    ],
+    "catalogue_paragraphs": [
+      "修长的身体站在双层莲座上，冠顶的小塔与左手水瓶共同提示弥勒身份。把它与犍陀罗弥勒浮雕相连，能够在很远的年代之间追踪同一尊格，又看清不同材料、身体比例和供奉形制的差别。"
+    ],
+    "visit_date": null,
+    "package_id": "sama-16",
+    "public_label_photos": [
+      "s2436"
+    ],
+    "site_links": [
+      {
+        "href": "/museum-notes/early-buddhist-art/#sama-04",
+        "label": "犍陀罗弥勒与胁侍浮雕"
+      },
+      {
+        "href": "/museum-notes/himalayan-art/sama-17/",
+        "label": "同柜陈列的佛龛背饰"
+      }
+    ]
+  },
+  {
+    "work_id": "sama-17",
+    "title_zh": "藏式佛龛背饰",
+    "title_en": "Buddhist Tibetan Throneback, Torana",
+    "date_label": "16—17世纪",
+    "date_start": 1500,
+    "date_end": 1699,
+    "region_ids": [
+      "tibet-broad"
+    ],
+    "accession": "L.2011.9",
+    "primary_photo": "s2437",
+    "art_photos": [
+      "s2437"
+    ],
+    "label_photos": [
+      "s2438"
+    ],
+    "detail_photos": [],
+    "tier": "catalogue",
+    "scope": "himalayan",
+    "religious_context": "Buddhist",
+    "editorial_notes": "",
+    "metadata_basis": "photographed_label_and_package_research",
+    "verification_status": "photo_label_checked",
+    "source_ids": [
+      "SAMA-label-17"
+    ],
+    "uncertainties": [],
+    "input_group_id": "sama-17",
+    "public": true,
+    "scope_reason": "已有专题地域、图像与供养范围",
+    "label_source_ids": [
+      "s2438"
+    ],
+    "materials_display": "铜，颜料与金",
+    "material_status": "reviewed",
+    "reading_unit_ids": [],
+    "chapter_ids": [
+      "c6"
+    ],
+    "exchange_extension": false,
+    "date_values_usage": "筛选包络不代替馆方显示年代",
+    "date_history": [],
+    "origin_status": "region_only",
+    "origin_note": "西藏",
+    "scope_basis": "regional_or_ritual",
+    "style_region_ids": [],
+    "research_state": "catalogue_note",
+    "map_associations": [
+      {
+        "place_id": "tibet-broad",
+        "relationship": "regional_attribution",
+        "certainty": "regional_only"
+      }
+    ],
+    "collection_museum_id": null,
+    "display_museum_id": "sama",
+    "collection_label": "Rose Marie and John L. Hendry（展牌）",
+    "museum_label": "圣安东尼奥美术馆",
+    "has_shared_frame": true,
+    "default_gallery_photos": [
+      "s2437"
+    ],
+    "alternate_photos": [],
+    "object_type": "architectural_component",
+    "map_enabled": true,
+    "image_alt_zh": "藏式佛龛背饰 · Merton现场摄影",
+    "primary_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2437_19.jpg",
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2437-400.webp",
+    "reader_notes": [
+      "L.2011.9为背饰的借展号；中央2005.17弥勒另作独立记录，两者原来是否配套尚未确认。"
+    ],
+    "catalogue_paragraphs": [
+      "迦楼罗位于拱顶，摩羯、象与那伽沿两侧对称排列，使中间安放佛像的空隙也成为有意义的形体。它可以补充专题中“佛像周围的东西”：背饰并非普通相框，而是参与组织神圣空间的构件。"
+    ],
+    "visit_date": null,
+    "package_id": "sama-17",
+    "public_label_photos": [
+      "s2438"
+    ],
+    "site_links": [
+      {
+        "href": "/museum-notes/himalayan-art/sama-16/",
+        "label": "同柜陈列的弥勒立像"
+      }
+    ]
+  },
+  {
+    "work_id": "sama-18",
+    "title_zh": "汉藏风格宝冠佛坐像",
+    "title_en": "Crowned Buddha",
+    "date_label": "15—16世纪",
+    "date_start": 1400,
+    "date_end": 1599,
+    "region_ids": [
+      "sino-tibetan-style"
+    ],
+    "accession": "2004.20.4",
+    "primary_photo": "s2439",
+    "art_photos": [
+      "s2439"
+    ],
+    "label_photos": [
+      "s2440"
+    ],
+    "detail_photos": [],
+    "tier": "catalogue",
+    "scope": "himalayan",
+    "religious_context": "Buddhist",
+    "editorial_notes": "",
+    "metadata_basis": "photographed_label_and_package_research",
+    "verification_status": "photo_label_checked",
+    "source_ids": [
+      "SAMA-label-18"
+    ],
+    "uncertainties": [],
+    "input_group_id": "sama-18",
+    "public": true,
+    "scope_reason": "已有专题地域、图像与供养范围",
+    "label_source_ids": [
+      "s2440"
+    ],
+    "materials_display": "局部鎏金铜",
+    "material_status": "reviewed",
+    "reading_unit_ids": [],
+    "chapter_ids": [
+      "c6"
+    ],
+    "exchange_extension": true,
+    "date_values_usage": "筛选包络不代替馆方显示年代",
+    "date_history": [],
+    "origin_status": "region_only",
+    "origin_note": "汉藏风格；具体制作地未详",
+    "scope_basis": "regional_or_ritual",
+    "style_region_ids": [
+      "sino-tibetan-style"
+    ],
+    "research_state": "catalogue_note",
+    "map_associations": [
+      {
+        "place_id": "sino-tibetan-style",
+        "relationship": "style_association",
+        "certainty": "regional_only"
+      }
+    ],
+    "collection_museum_id": "sama",
+    "display_museum_id": "sama",
+    "collection_label": "圣安东尼奥美术馆",
+    "museum_label": "圣安东尼奥美术馆",
+    "has_shared_frame": false,
+    "default_gallery_photos": [
+      "s2439"
+    ],
+    "alternate_photos": [],
+    "object_type": "artwork",
+    "map_enabled": false,
+    "image_alt_zh": "汉藏风格宝冠佛坐像 · Merton现场摄影",
+    "primary_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2439_19.jpg",
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2439-400.webp",
+    "reader_notes": [
+      "展签题作Crowned Buddha，尊格未定；汉藏风格与15—16世纪断代并不能确定具体制作地点。"
+    ],
+    "catalogue_paragraphs": [
+      "深色铜身与金色面部、双手形成鲜明的表面差异，宝冠和首饰又使它不同于僧衣佛像。展牌保留尊格未定，这正适合作为识别练习：先记录看得见的冠饰与手势，尊格则仍依展牌保留未定。"
+    ],
+    "visit_date": null,
+    "package_id": "sama-18",
+    "public_label_photos": [
+      "s2440"
+    ],
+    "site_links": []
+  },
+  {
+    "work_id": "sama-19",
+    "title_zh": "乌金林巴像（依展牌题名）",
+    "title_en": "Ugyan Lingpa",
+    "date_label": "16世纪",
+    "date_start": 1500,
+    "date_end": 1599,
+    "region_ids": [
+      "tibet-broad"
+    ],
+    "accession": "2004.7.2",
+    "primary_photo": "s2441",
+    "art_photos": [
+      "s2441"
+    ],
+    "label_photos": [
+      "s2442"
+    ],
+    "detail_photos": [],
+    "tier": "catalogue",
+    "scope": "himalayan",
+    "religious_context": "Buddhist",
+    "editorial_notes": "",
+    "metadata_basis": "photographed_label_and_package_research",
+    "verification_status": "photo_label_checked",
+    "source_ids": [
+      "SAMA-label-19"
+    ],
+    "uncertainties": [],
+    "input_group_id": "sama-19",
+    "public": true,
+    "scope_reason": "已有专题地域、图像与供养范围",
+    "label_source_ids": [
+      "s2442"
+    ],
+    "materials_display": "鎏金铜",
+    "material_status": "reviewed",
+    "reading_unit_ids": [],
+    "chapter_ids": [
+      "c4"
+    ],
+    "exchange_extension": false,
+    "date_values_usage": "筛选包络不代替馆方显示年代",
+    "date_history": [],
+    "origin_status": "region_only",
+    "origin_note": "西藏",
+    "scope_basis": "regional_or_ritual",
+    "style_region_ids": [],
+    "research_state": "catalogue_note",
+    "map_associations": [
+      {
+        "place_id": "tibet-broad",
+        "relationship": "regional_attribution",
+        "certainty": "regional_only"
+      }
+    ],
+    "collection_museum_id": "sama",
+    "display_museum_id": "sama",
+    "collection_label": "圣安东尼奥美术馆",
+    "museum_label": "圣安东尼奥美术馆",
+    "has_shared_frame": false,
+    "default_gallery_photos": [
+      "s2441"
+    ],
+    "alternate_photos": [],
+    "object_type": "artwork",
+    "map_enabled": true,
+    "image_alt_zh": "乌金林巴像（依展牌题名） · Merton现场摄影",
+    "primary_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2441_19.jpg",
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2441-400.webp",
+    "reader_notes": [],
+    "catalogue_paragraphs": [
+      "右臂高举，左手持物，宽大的衣袖和披帛随姿态展开。与端坐、双手收在身前的上师像并看，这种动作说明肖像也可以通过仪式姿态来塑造人物。题名与年代依现场展牌，本件更早的供奉经历尚未见于可核的资料。"
+    ],
+    "visit_date": null,
+    "package_id": "sama-19",
+    "public_label_photos": [
+      "s2442"
+    ],
+    "site_links": []
+  },
+  {
+    "work_id": "sama-20",
+    "title_zh": "藏文佛经经板",
+    "title_en": "Buddhist Sutra Cover",
+    "date_label": "15—16世纪",
+    "date_start": 1400,
+    "date_end": 1599,
+    "region_ids": [
+      "tibet-broad"
+    ],
+    "accession": "L.2005.2.2",
+    "primary_photo": "s2443",
+    "art_photos": [
+      "s2443"
+    ],
+    "label_photos": [
+      "s2444"
+    ],
+    "detail_photos": [],
+    "tier": "catalogue",
+    "scope": "himalayan",
+    "religious_context": "Buddhist",
+    "editorial_notes": "",
+    "metadata_basis": "photographed_label_and_package_research",
+    "verification_status": "photo_label_checked",
+    "source_ids": [
+      "SAMA-label-20"
+    ],
+    "uncertainties": [],
+    "input_group_id": "sama-20",
+    "public": true,
+    "scope_reason": "已有专题地域、图像与供养范围",
+    "label_source_ids": [
+      "s2444"
+    ],
+    "materials_display": "木，红漆及刻金装饰（依展牌）",
+    "material_status": "reviewed",
+    "reading_unit_ids": [],
+    "chapter_ids": [
+      "c6"
+    ],
+    "exchange_extension": false,
+    "date_values_usage": "筛选包络不代替馆方显示年代",
+    "date_history": [],
+    "origin_status": "region_only",
+    "origin_note": "西藏",
+    "scope_basis": "regional_or_ritual",
+    "style_region_ids": [],
+    "research_state": "catalogue_note",
+    "map_associations": [
+      {
+        "place_id": "tibet-broad",
+        "relationship": "regional_attribution",
+        "certainty": "regional_only"
+      }
+    ],
+    "collection_museum_id": null,
+    "display_museum_id": "sama",
+    "collection_label": "Rose Marie and John L. Hendry, III",
+    "museum_label": "圣安东尼奥美术馆",
+    "has_shared_frame": false,
+    "default_gallery_photos": [
+      "s2443"
+    ],
+    "alternate_photos": [],
+    "object_type": "artwork",
+    "map_enabled": true,
+    "image_alt_zh": "藏文佛经经板 · Merton现场摄影",
+    "primary_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2443_19.jpg",
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2443-400.webp",
+    "reader_notes": [],
+    "catalogue_paragraphs": [
+      "长条形经板把五佛安放在一排龛形边框内，外沿连续的纹样将它们围合。与既有六字观音经板、传承人物经板并看，可以把注意力从“雕了谁”移到“如何保护、界定和庄严经书”。"
+    ],
+    "visit_date": null,
+    "package_id": "sama-20",
+    "public_label_photos": [
+      "s2444"
+    ],
+    "site_links": []
+  },
+  {
+    "work_id": "sama-21",
+    "title_zh": "文殊菩萨坐像",
+    "title_en": "Manjushri, Bodhisattva of Wisdom",
+    "date_label": "15—17世纪",
+    "date_start": 1400,
+    "date_end": 1699,
+    "region_ids": [
+      "tibet-broad"
+    ],
+    "accession": "2002.20",
+    "primary_photo": "s2445",
+    "art_photos": [
+      "s2445"
+    ],
+    "label_photos": [
+      "s2446"
+    ],
+    "detail_photos": [],
+    "tier": "catalogue",
+    "scope": "himalayan",
+    "religious_context": "Buddhist",
+    "editorial_notes": "",
+    "metadata_basis": "photographed_label_and_package_research",
+    "verification_status": "photo_label_checked",
+    "source_ids": [
+      "SAMA-label-21"
+    ],
+    "uncertainties": [],
+    "input_group_id": "sama-21",
+    "public": true,
+    "scope_reason": "已有专题地域、图像与供养范围",
+    "label_source_ids": [
+      "s2446"
+    ],
+    "materials_display": "铜，冷金与颜料",
+    "material_status": "reviewed",
+    "reading_unit_ids": [],
+    "chapter_ids": [
+      "c3"
+    ],
+    "exchange_extension": false,
+    "date_values_usage": "筛选包络不代替馆方显示年代",
+    "date_history": [],
+    "origin_status": "region_only",
+    "origin_note": "西藏",
+    "scope_basis": "regional_or_ritual",
+    "style_region_ids": [],
+    "research_state": "catalogue_note",
+    "map_associations": [
+      {
+        "place_id": "tibet-broad",
+        "relationship": "regional_attribution",
+        "certainty": "regional_only"
+      }
+    ],
+    "collection_museum_id": "sama",
+    "display_museum_id": "sama",
+    "collection_label": "圣安东尼奥美术馆",
+    "museum_label": "圣安东尼奥美术馆",
+    "has_shared_frame": false,
+    "default_gallery_photos": [
+      "s2445"
+    ],
+    "alternate_photos": [],
+    "object_type": "artwork",
+    "map_enabled": true,
+    "image_alt_zh": "文殊菩萨坐像 · Merton现场摄影",
+    "primary_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2445_19.jpg",
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2445-400.webp",
+    "reader_notes": [],
+    "catalogue_paragraphs": [
+      "剑在头侧举起，另一侧莲花与身体相接；面部和身体的冷金、颜料与金属表面呈现不同颜色。与已有四臂文殊并看，可先数手臂、找剑和经书，再比较手势与身体比例，而不把所有智慧尊像归成同一种样式。"
+    ],
+    "visit_date": null,
+    "package_id": "sama-21",
+    "public_label_photos": [
+      "s2446"
+    ],
+    "site_links": []
+  },
+  {
+    "work_id": "sama-22",
+    "title_zh": "第五世达赖喇嘛像",
+    "title_en": "Lobsang Gyatsho (1617–1682): The Fifth Dalai Lama",
+    "date_label": "17—18世纪",
+    "date_start": 1600,
+    "date_end": 1799,
+    "region_ids": [
+      "tibet-broad"
+    ],
+    "accession": "2005.1.100",
+    "primary_photo": "s2447",
+    "art_photos": [
+      "s2447"
+    ],
+    "label_photos": [
+      "s2448"
+    ],
+    "detail_photos": [],
+    "tier": "catalogue",
+    "scope": "himalayan",
+    "religious_context": "Buddhist",
+    "editorial_notes": "",
+    "metadata_basis": "photographed_label_and_package_research",
+    "verification_status": "photo_label_checked",
+    "source_ids": [
+      "SAMA-label-22"
+    ],
+    "uncertainties": [],
+    "input_group_id": "sama-22",
+    "public": true,
+    "scope_reason": "已有专题地域、图像与供养范围",
+    "label_source_ids": [
+      "s2448"
+    ],
+    "materials_display": "鎏金铜",
+    "material_status": "reviewed",
+    "reading_unit_ids": [],
+    "chapter_ids": [
+      "c4"
+    ],
+    "exchange_extension": false,
+    "date_values_usage": "筛选包络不代替馆方显示年代",
+    "date_history": [],
+    "origin_status": "region_only",
+    "origin_note": "西藏",
+    "scope_basis": "regional_or_ritual",
+    "style_region_ids": [],
+    "research_state": "catalogue_note",
+    "map_associations": [
+      {
+        "place_id": "tibet-broad",
+        "relationship": "regional_attribution",
+        "certainty": "regional_only"
+      }
+    ],
+    "collection_museum_id": "sama",
+    "display_museum_id": "sama",
+    "collection_label": "圣安东尼奥美术馆",
+    "museum_label": "圣安东尼奥美术馆",
+    "has_shared_frame": false,
+    "default_gallery_photos": [
+      "s2447"
+    ],
+    "alternate_photos": [],
+    "object_type": "artwork",
+    "map_enabled": true,
+    "image_alt_zh": "第五世达赖喇嘛像 · Merton现场摄影",
+    "primary_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2447_19.jpg",
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2447-400.webp",
+    "reader_notes": [],
+    "catalogue_paragraphs": [
+      "戴帽的上师双手收于身前，袍服把身体包成稳定的三角轮廓。和宗喀巴唐卡并看时，可以比较同一宗教传统中不同人物如何被冠帽、服饰与手势识别。人物生卒为1617—1682年，馆方将这尊像断在17—18世纪。"
+    ],
+    "visit_date": null,
+    "package_id": "sama-22",
+    "public_label_photos": [
+      "s2448"
+    ],
+    "site_links": []
+  },
+  {
+    "work_id": "sama-23",
+    "title_zh": "小型佛塔",
+    "title_en": "Stupa Model, Chorten",
+    "date_label": "14世纪",
+    "date_start": 1300,
+    "date_end": 1399,
+    "region_ids": [
+      "tibet-broad"
+    ],
+    "accession": "2005.21.7",
+    "primary_photo": "s2449",
+    "art_photos": [
+      "s2449"
+    ],
+    "label_photos": [
+      "s2450"
+    ],
+    "detail_photos": [],
+    "tier": "catalogue",
+    "scope": "himalayan",
+    "religious_context": "Buddhist",
+    "editorial_notes": "",
+    "metadata_basis": "photographed_label_and_package_research",
+    "verification_status": "photo_label_checked",
+    "source_ids": [
+      "SAMA-label-23"
+    ],
+    "uncertainties": [],
+    "input_group_id": "sama-23",
+    "public": true,
+    "scope_reason": "已有专题地域、图像与供养范围",
+    "label_source_ids": [
+      "s2450"
+    ],
+    "materials_display": "黄铜",
+    "material_status": "reviewed",
+    "reading_unit_ids": [],
+    "chapter_ids": [
+      "c6"
+    ],
+    "exchange_extension": false,
+    "date_values_usage": "筛选包络不代替馆方显示年代",
+    "date_history": [],
+    "origin_status": "region_only",
+    "origin_note": "西藏",
+    "scope_basis": "regional_or_ritual",
+    "style_region_ids": [],
+    "research_state": "catalogue_note",
+    "map_associations": [
+      {
+        "place_id": "tibet-broad",
+        "relationship": "regional_attribution",
+        "certainty": "regional_only"
+      }
+    ],
+    "collection_museum_id": "sama",
+    "display_museum_id": "sama",
+    "collection_label": "圣安东尼奥美术馆",
+    "museum_label": "圣安东尼奥美术馆",
+    "has_shared_frame": false,
+    "default_gallery_photos": [
+      "s2449"
+    ],
+    "alternate_photos": [],
+    "object_type": "artwork",
+    "map_enabled": true,
+    "image_alt_zh": "小型佛塔 · Merton现场摄影",
+    "primary_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2449_19.jpg",
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2449-400.webp",
+    "reader_notes": [],
+    "catalogue_paragraphs": [
+      "方形与圆形层层缩小，细长塔刹把视线带向顶部。小型佛塔适合与已有噶当式佛塔并看，先辨塔身和台座，再讨论供奉功能。顶端的附属形象与装饰按照片记录，本件内部是否曾供奉舍利、属于何人，尚无具体记录。"
+    ],
+    "visit_date": null,
+    "package_id": "sama-23",
+    "public_label_photos": [
+      "s2450"
+    ],
+    "site_links": []
+  },
+  {
+    "work_id": "sama-24",
+    "title_zh": "琥珀护法纹嘎乌",
+    "title_en": "Gau",
+    "date_label": "19世纪",
+    "date_start": 1800,
+    "date_end": 1899,
+    "region_ids": [
+      "tibet-broad"
+    ],
+    "accession": "2004.30",
+    "primary_photo": "s2451",
+    "art_photos": [
+      "s2451"
+    ],
+    "label_photos": [
+      "s2452"
+    ],
+    "detail_photos": [],
+    "tier": "catalogue",
+    "scope": "himalayan",
+    "religious_context": "Buddhist",
+    "editorial_notes": "",
+    "metadata_basis": "photographed_label_and_package_research",
+    "verification_status": "photo_label_checked",
+    "source_ids": [
+      "SAMA-label-24"
+    ],
+    "uncertainties": [],
+    "input_group_id": "sama-24",
+    "public": true,
+    "scope_reason": "已有专题地域、图像与供养范围",
+    "label_source_ids": [
+      "s2452"
+    ],
+    "materials_display": "琥珀、银及半宝石",
+    "material_status": "reviewed",
+    "reading_unit_ids": [],
+    "chapter_ids": [
+      "c6"
+    ],
+    "exchange_extension": false,
+    "date_values_usage": "筛选包络不代替馆方显示年代",
+    "date_history": [],
+    "origin_status": "region_only",
+    "origin_note": "西藏",
+    "scope_basis": "regional_or_ritual",
+    "style_region_ids": [],
+    "research_state": "catalogue_note",
+    "map_associations": [
+      {
+        "place_id": "tibet-broad",
+        "relationship": "regional_attribution",
+        "certainty": "regional_only"
+      }
+    ],
+    "collection_museum_id": "sama",
+    "display_museum_id": "sama",
+    "collection_label": "圣安东尼奥美术馆",
+    "museum_label": "圣安东尼奥美术馆",
+    "has_shared_frame": false,
+    "default_gallery_photos": [
+      "s2451"
+    ],
+    "alternate_photos": [],
+    "object_type": "artwork",
+    "map_enabled": true,
+    "image_alt_zh": "琥珀护法纹嘎乌 · Merton现场摄影",
+    "primary_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2451_19.jpg",
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2451-400.webp",
+    "reader_notes": [
+      "现场展签认为中央忿怒护法可能为大黑天。内部装藏情况未详。"
+    ],
+    "catalogue_paragraphs": [
+      "中央琥珀薄片上刻着忿怒护法，周围镶嵌宝石，形成一个可以携带的小型神圣空间。展牌认为护法很可能是大黑天，这一尊名仍属推测。与便携佛龛、像内装藏的章节互链，可以把“随身携带”与“容纳神圣之物”联系起来。"
+    ],
+    "visit_date": null,
+    "package_id": "sama-24",
+    "public_label_photos": [
+      "s2452"
+    ],
+    "site_links": []
+  },
+  {
+    "work_id": "sama-25",
+    "title_zh": "金银铜嘎乌",
+    "title_en": "Gau",
+    "date_label": "19世纪",
+    "date_start": 1800,
+    "date_end": 1899,
+    "region_ids": [
+      "tibet-broad"
+    ],
+    "accession": "L.2003.14",
+    "primary_photo": "s2453",
+    "art_photos": [
+      "s2453"
+    ],
+    "label_photos": [
+      "s2454"
+    ],
+    "detail_photos": [],
+    "tier": "catalogue",
+    "scope": "himalayan",
+    "religious_context": "Buddhist",
+    "editorial_notes": "",
+    "metadata_basis": "photographed_label_and_package_research",
+    "verification_status": "photo_label_checked",
+    "source_ids": [
+      "SAMA-label-25"
+    ],
+    "uncertainties": [],
+    "input_group_id": "sama-25",
+    "public": true,
+    "scope_reason": "已有专题地域、图像与供养范围",
+    "label_source_ids": [
+      "s2454"
+    ],
+    "materials_display": "铜、银与金",
+    "material_status": "reviewed",
+    "reading_unit_ids": [],
+    "chapter_ids": [
+      "c6"
+    ],
+    "exchange_extension": false,
+    "date_values_usage": "筛选包络不代替馆方显示年代",
+    "date_history": [],
+    "origin_status": "region_only",
+    "origin_note": "西藏",
+    "scope_basis": "regional_or_ritual",
+    "style_region_ids": [],
+    "research_state": "catalogue_note",
+    "map_associations": [
+      {
+        "place_id": "tibet-broad",
+        "relationship": "regional_attribution",
+        "certainty": "regional_only"
+      }
+    ],
+    "collection_museum_id": null,
+    "display_museum_id": "sama",
+    "collection_label": "Niles Chumney",
+    "museum_label": "圣安东尼奥美术馆",
+    "has_shared_frame": false,
+    "default_gallery_photos": [
+      "s2453"
+    ],
+    "alternate_photos": [],
+    "object_type": "artwork",
+    "map_enabled": true,
+    "image_alt_zh": "金银铜嘎乌 · Merton现场摄影",
+    "primary_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2453_19.jpg",
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2453-400.webp",
+    "reader_notes": [],
+    "catalogue_paragraphs": [
+      "拱形边框中的小龛被花纹和金色圆饰包围，中央开口与周围装饰形成清楚的层次。它和相邻琥珀嘎乌使用不同材料，却都将神像、护佑与携带联系起来。两件并看，琥珀的透光感与金属的浮凸装饰，呈现不同的表面。"
+    ],
+    "visit_date": null,
+    "package_id": "sama-25",
+    "public_label_photos": [
+      "s2454"
+    ],
+    "site_links": []
   }
 ]

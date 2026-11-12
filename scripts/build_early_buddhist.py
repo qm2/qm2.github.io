@@ -4,13 +4,17 @@ from html import escape as e
 import json,re
 from PIL import Image,ImageOps
 from build_homer import LIGHTBOX
+from museum_assets import asset_url, sama_media
 ROOT=Path(__file__).resolve().parents[1];B=ROOT/'museum-notes/early-buddhist-art'
 def build():
  read=lambda f:json.loads((B/'data'/f).read_text())
  works=read('works.json');by={w['id']:w for w in works};units=read('readings.json');chapters=read('chapters.json');sources=read('sources.json');photos=read('photos.json');photo_by={p['asset_id']:p for p in photos};geo=read('map.json');museums={m['id']:m for m in geo['museums']};places={p['id']:p for p in geo['places']}
  used={n for w in works for n in w['photos']+w['labels']};manifest={}
  for n in sorted(used):
-  p=photo_by[n];src=B/'images/originals'/p['original_filename'];im=ImageOps.exif_transpose(Image.open(src)).convert('RGB')
+  p=photo_by[n]
+  if p.get('remote_asset'):
+   manifest[n]=sama_media()[p['remote_asset']];continue
+  src=B/'images/originals'/p['original_filename'];im=ImageOps.exif_transpose(Image.open(src)).convert('RGB')
   # Label 1418 was photographed sideways. Rotate only the display derivative, never its archived JPEG.
   if n=='1418':im=im.rotate(90,expand=True)
   variants=[]
@@ -40,11 +44,11 @@ def build():
   return museums[w['collection_museum']]['name_zh'] if w['collection_museum'] else '收藏机构未详'
  def caption(w,short=False):return w['title']+' · '+(w.get('date_short',w['date']) if short else w['date'])+' · '+w['material']+'｜'+collection(w)+((' · '+w['accession']) if w['accession'] else '')
  def img(n,alt,pre='',high=False,small=False):
-  m=manifest[n];v=m['variants'];ss=', '.join(pre+x['path']+' '+str(x['width'])+'w' for x in {x['width']:x for x in v}.values())
+  m=manifest[n];v=m['variants'];ss=', '.join(asset_url(pre,x['path'])+' '+str(x['width'])+'w' for x in {x['width']:x for x in v}.values())
   sizes='(max-width: 680px) 43vw, 300px' if small else '(max-width: 680px) calc(100vw - 40px), (max-width: 1100px) 80vw, 780px'
-  return f'<img src="{pre}{v[0 if small else 1]["path"]}" srcset="{ss}" sizes="{sizes}" width="{m["width"]}" height="{m["height"]}" alt="{e(alt)}" decoding="async" '+('fetchpriority="high"' if high else 'loading="lazy"')+'>'
+  return f'<img src="{asset_url(pre,v[0 if small else 1]["path"])}" srcset="{ss}" sizes="{sizes}" width="{m["width"]}" height="{m["height"]}" alt="{e(alt)}" decoding="async" '+('fetchpriority="high"' if high else 'loading="lazy"')+'>'
  def figure(n,cap,pre='',high=False,cls='',alt=None):
-  m=manifest[n];return f'<figure class="eb-figure {cls}" style="--ratio:{m["width"]/m["height"]:.5f};--native:{m["width"]}px"><a data-photo href="{pre}{m["full"]}" data-caption="{e(cap)}">{img(n,alt or cap,pre,high)}</a><figcaption>{e(cap)}</figcaption></figure>'
+  m=manifest[n];return f'<figure class="eb-figure {cls}" style="--ratio:{m["width"]/m["height"]:.5f};--native:{m["width"]}px"><a data-photo href="{asset_url(pre,m["full"])}" data-original="{asset_url(pre,m["original"])}" data-caption="{e(cap)}">{img(n,alt or cap,pre,high)}</a><figcaption>{e(cap)}</figcaption></figure>'
  def mini(w,pre='',direct=False):
   href=(pre+w['units'][0]+'/#'+w['id']) if w['units'] and not direct else pre+'#'+w['id']
   return f'<a class="eb-mini" href="{href}">{img(w["photo"],w["title"],pre,small=True)}<span>{e(w["title"])}<small>{e(w["date"])}</small></span></a>'
@@ -62,6 +66,7 @@ def build():
   html='<dl class="eb-facts">'+''.join('<dt>'+k+'</dt><dd>'+e(v)+'</dd>' for k,v in fields if v)+'</dl>'
   if w['sources']:html+='<p class="eb-note">'+ ' · '.join(f'<a href="{e(sources[k]["url"])}">馆藏／研究 [{i+1}] ↗</a>' for i,k in enumerate(w['sources']))+'</p>'
   if w['notes']:html+='<div class="eb-note">'+''.join('<p>'+e(n)+'</p>' for n in w['notes'])+'</div>'
+  html+=''.join('<p class="eb-note"><a href="'+e(a['href'])+'">'+e(a['label'])+' →</a></p>' for a in w.get('site_links',[]))
   return html
  # Static geographic maps: same offline Natural Earth land as the existing Homer notebook.
  land=json.loads((ROOT/'museum-notes/homer/data/ne_110m_land.geojson').read_text())
@@ -95,10 +100,10 @@ def build():
    country='<g class="eb-country"><text x="60" y="45">阿富汗</text><text x="145" y="215">巴基斯坦</text><text x="390" y="350">印度</text><text x="70" y="420">阿拉伯海</text><text x="560" y="430">孟加拉湾</text></g>'
   else:
    # City-level callouts prevent the East Coast and Texas museum points from overlapping.
-   pos={'guimet':(825,55),'carlos':(440,270),'dma':(300,220),'met':(650,115),'cma':(455,55),'nmaa':(620,190),'walters':(650,245),'mfah':(350,330),'sam':(190,30),'pam':(175,105),'nelson':(335,135),'kimbell':(210,295),'homa':(72,370),'noma':(510,365)}
+   pos={'guimet':(825,55),'carlos':(440,270),'dma':(300,220),'met':(650,115),'cma':(455,55),'nmaa':(620,190),'walters':(650,245),'mfah':(350,330),'sam':(190,30),'pam':(175,105),'nelson':(335,135),'kimbell':(210,295),'homa':(72,370),'noma':(510,365),'sama':(210,380)}
    for m in geo['museums']:
     if not any(w['museum_map']==m['id'] for w in works):continue
-    x,y=xy(*m['coordinate']);lx,ly=pos[m['id']]
+    x,y=xy(*m['coordinate']);lx,ly=pos.get(m['id'],(x,y))
     markers.append(f'<a href="#museum-{m["id"]}" data-map-key="{m["id"]}" aria-label="{e(m["name_zh"])}"><line x1="{x:.1f}" y1="{y:.1f}" x2="{lx}" y2="{ly}"/><circle cx="{x:.1f}" cy="{y:.1f}" r="4"/><text x="{lx}" y="{ly}" text-anchor="middle">{e(m["city"])}</text></a>')
    country=''
   return f'<svg viewBox="0 0 {ww} {hh}" role="group" aria-label="'+('古代地域参考地图' if mode=='ancient' else '现代馆藏与借展的城市参考地图')+f'"><defs><clipPath id="clip-{mode}"><rect width="{ww}" height="{hh}"/></clipPath></defs><g class="eb-land" clip-path="url(#clip-{mode})">'+''.join(paths)+'</g>'+river_html+country+'<g class="eb-map-pins">'+''.join(markers)+'</g></svg>'
@@ -185,6 +190,7 @@ def build():
   labels={}
   for wid in r['works']:
    for n in by[wid]['labels']:labels.setdefault(n,[]).append(wid)
+  article+=''.join('<p class="eb-note"><a href="'+e(a['href'])+'">'+e(a['label'])+' →</a></p>' for a in r.get('related_links',[]))
   article+=refs(keys,pre,labels)
   article+='<nav class="eb-next" aria-label="前后细读">'+(f'<a href="../{units[idx-1]["id"]}/">← {e(units[idx-1]["title"])}</a>' if idx else '<a href="../">← 专题首页</a>')+(f'<a href="../{units[idx+1]["id"]}/">{e(units[idx+1]["title"])} →</a>' if idx+1<len(units) else '<a href="../#catalogue">完整目录 →</a>')+'</nav>'
   dest=B/r['id'];dest.mkdir(exist_ok=True);(dest/'index.html').write_text(shell(r['title'],article,1))

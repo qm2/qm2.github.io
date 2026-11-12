@@ -1188,5 +1188,66 @@
     "findspot": null,
     "verification": "馆方记录、现场合影与展牌核对",
     "viewing_venue": "第五大道主馆；官网记300厅（核查于2026-11-08）"
+  },
+  {
+    "id": "r28",
+    "package_id": "sama-02",
+    "title_zh": "花环与狩猎场景石棺",
+    "title_en": "Garland Sarcophagus with Hunting Scenes",
+    "viewing_museum": "圣安东尼奥美术馆",
+    "viewing_city": "圣安东尼奥",
+    "collection": "圣安东尼奥美术馆",
+    "date_display": "约130—150年",
+    "date_start": 130,
+    "date_end": 150,
+    "date_kind": "circa_range",
+    "date_anchor": 140,
+    "accession": "90.17 a,b",
+    "photos": [
+      2389,
+      2390,
+      2391,
+      2392,
+      2393,
+      2394
+    ],
+    "labels": [
+      2395
+    ],
+    "theme": "狩猎与纪念",
+    "priority": "重点",
+    "sources": [
+      "https://sanantonio.emuseum.com/objects/5637/garland-sarcophagus-with-hunting-scenes"
+    ],
+    "verification": "基本信息、再用与重刻意见据现场展牌；馆方网页正文访问受限",
+    "material": "大理石",
+    "source_ids": [
+      "SAMA2"
+    ],
+    "viewing_location_evidence": {
+      "type": "user_photographs",
+      "photo_numbers": [
+        2389,
+        2390,
+        2391,
+        2392,
+        2393,
+        2394
+      ]
+    },
+    "visit_date": null,
+    "production_region": null,
+    "findspot": null,
+    "cover": "2389",
+    "photo_order": [
+      "2389",
+      "2390",
+      "2391",
+      "2392",
+      "2393",
+      "2394"
+    ],
+    "museum_id": "sama",
+    "object_type": "花环石棺及再用棺盖"
   }
 ]

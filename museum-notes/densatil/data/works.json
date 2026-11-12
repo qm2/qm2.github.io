@@ -1,7 +1,7 @@
 {
   "title": "丹萨替寺造像",
-  "subtitle": "从三组亲见作品，看舍利塔与散藏造像",
-  "intro": "骑骡的吉祥天母、舞姿的金刚亥母，还有背向而立、托起塔座的小柱人物。三组作品原来的观看方式并不相同：有的朝向礼拜者，有的面对塔身。沿着照片、馆签与旧影，可以逐步理解它们怎样参与一个完整的宗教空间。",
+  "subtitle": "从四组亲见作品，看舍利塔与散藏造像",
+  "intro": "骑骡的吉祥天母、舞姿的金刚亥母，还有背向而立、托起塔座的小柱人物。四组作品原来的观看方式并不相同：有的朝向礼拜者，有的面对塔身。沿着照片、馆签与旧影，可以逐步理解它们怎样参与一个完整的宗教空间。",
   "sources": {
     "carlos": [
       "卡洛斯博物馆：Palden Lhamo，2001.019.001",
@@ -62,6 +62,14 @@
     "portrait": [
       "克利夫兰：同柜帕木竹巴·多吉杰布像，1993.160",
       "https://www.clevelandart.org/print/art/1993.160"
+    ],
+    "sama-label": [
+      "舞蹈女尊构件：Merton拍摄的现场展签",
+      "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2432_19.jpg"
+    ],
+    "sama-rubin": [
+      "Jean-Luc Estournel, Densatil Monastery: The Commemorative Stupas of the Lang/Pakmodrupa Dynasty",
+      "https://rubinmuseum.org/projecthimalayanart/essays/densatil-monastery/"
     ]
   },
   "works": [
@@ -198,6 +206,50 @@
         ]
       },
       "record_note": "官网同时列35.56厘米与整体高49.53厘米，未解释二者包含哪些构件。"
+    },
+    {
+      "id": "sama-goddesses",
+      "canonical_work": "/museum-notes/himalayan-art/sama-14/",
+      "package_id": "sama-14",
+      "title": "丹萨替地区舞蹈女尊构件",
+      "original_title": "Dancing Buddhist Goddesses",
+      "museum": "Rose Marie与John L. Hendry III收藏；在圣安东尼奥美术馆借展",
+      "accession": "L.2019.4.4",
+      "date": "15世纪",
+      "medium": "建筑装饰板，鎏金铜",
+      "dimensions": "未取得可靠尺寸记录",
+      "photo": 2431,
+      "label": 2432,
+      "caption": "四位舞蹈女尊连接于同一横向构件",
+      "relationship": "现场归于丹萨替地区，具体塔位未定",
+      "museum_attribution": "现场展牌将其归于丹萨替地区，联系大型舍利塔的底部雕塑。",
+      "notes": [
+        {
+          "text": "四位女尊共用一条横长基座，交错的双足与弯曲的身体接成连续节奏。每位均有四臂，手持器物各有变化；展牌将其中的持物解释为钹、颅碗与杖。透明薄衣上的刻线、厚实的项饰和腰饰，在平整金属与隆起轮廓之间形成层次。莲座与下方纹饰把四个身体连在一起，保留了群像原有的横向关系。",
+          "sources": [
+            "sama-label"
+          ]
+        },
+        {
+          "text": "这件的寺院与塔体联系依据现场展牌。丹萨替塔上复杂的造像组合可参看Rubin的研究；目前没有找到能把本构件与旧照片逐件匹配的证据，四位女尊也尚未各自定名。",
+          "sources": [
+            "sama-label",
+            "sama-rubin"
+          ]
+        }
+      ],
+      "position": {
+        "confirmed": "展签归属丹萨替地区，联系大型舍利塔底部雕塑；Hendry收藏，圣安东尼奥借展。",
+        "confirmed_sources": [
+          "sama-label"
+        ],
+        "proposed": "横向成排人物可与塔体多层群像比较，尚未取得针对本构件的具体塔位方案。",
+        "proposed_sources": [
+          "sama-rubin"
+        ],
+        "unknown": "具体寺院来源、塔号、层位、朝向，以及四位女尊的身份。"
+      },
+      "record_note": "L.2019.4.4为现场借展号。完整作品资料、全部照片与后续研究共用喜马拉雅专题中的同一条记录。"
     }
   ],
   "history": [
@@ -234,14 +286,14 @@
       "title": "工艺与后来的离散",
       "paragraphs": [
         {
-          "text": "鎏金、铸造和密集镶嵌，与尼泊尔纽瓦尔工艺传统密切相关。钟子寅从体态、鎏金与嵌石讨论这一联系；Weldon还援引一些丹萨替铜板上标明位置的纽瓦尔文铭记。它们支持纽瓦尔匠人参与制作，但这三组作品的具体作者尚未见可靠署名记录。",
+          "text": "鎏金、铸造和密集镶嵌，与尼泊尔纽瓦尔工艺传统密切相关。钟子寅从体态、鎏金与嵌石讨论这一联系；Weldon还援引一些丹萨替铜板上标明位置的纽瓦尔文铭记。它们支持纽瓦尔匠人参与制作，但这些作品的具体作者尚未见可靠署名记录。",
           "sources": [
             "npm",
             "weldon"
           ]
         },
         {
-          "text": "寺院及大型塔在文化大革命期间遭到毁坏，散藏物逐渐进入不同收藏。三组的公开近现代记录各有起点：西雅图可追到1969年的画廊购入，克利夫兰可追到2008年，卡洛斯可追到1997年拍卖。每件作品在此之前如何离开原址，仍有空白。",
+          "text": "寺院及大型塔在文化大革命期间遭到毁坏，散藏物逐渐进入不同收藏。此前三组的公开近现代记录各有起点：西雅图可追到1969年的画廊购入，克利夫兰可追到2008年，卡洛斯可追到1997年拍卖。每件作品在此之前如何离开原址，仍有空白。",
           "sources": [
             "npm",
             "seattle",
@@ -389,6 +441,26 @@
       "sha256": "3e237ec759e8a49f826518b8e16d7a61a23ed9a046aa29a529fa38d221a41267",
       "kind": "label",
       "work": "supports-cleveland"
+    },
+    "2431": {
+      "photo": "https://images.mertonmuseum.com/museum-notes/sama-2026/2431-900.webp",
+      "original_url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2431_19.jpg",
+      "width": 1702,
+      "height": 1276,
+      "rotation": 0,
+      "caption": "丹萨替地区舞蹈女尊构件",
+      "remote_asset": "2431",
+      "work": "sama-goddesses"
+    },
+    "2432": {
+      "photo": "https://images.mertonmuseum.com/museum-notes/sama-2026/2432-900.webp",
+      "original_url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2432_19.jpg",
+      "width": 1707,
+      "height": 1280,
+      "rotation": 0,
+      "caption": "舞蹈女尊构件 · 现场展签",
+      "remote_asset": "2432",
+      "work": "sama-goddesses"
     }
   },
   "founder": {

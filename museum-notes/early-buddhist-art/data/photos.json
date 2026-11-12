@@ -2417,5 +2417,192 @@
     "group_ids": [
       "G-CMA-1968-40"
     ]
+  },
+  {
+    "asset_id": "2396",
+    "original_filename": "Image_20261111162027_2396_19.jpg",
+    "path": "photos/early-buddhist-art/03-triratna/Image_20261111162027_2396_19.jpg",
+    "bucket": "sama",
+    "sha256": "3d47cd8cb6c67ace9e8301f81f67249d25568925c4b956fc78f43e8c5a8f31d3",
+    "width": 1280,
+    "height": 1707,
+    "source_batch": "sama-2026",
+    "roles": [
+      "object"
+    ],
+    "group_ids": [
+      "sama-03"
+    ],
+    "remote_asset": "2396"
+  },
+  {
+    "asset_id": "2397",
+    "original_filename": "Image_20261111162027_2397_19.jpg",
+    "path": "photos/early-buddhist-art/03-triratna/Image_20261111162027_2397_19.jpg",
+    "bucket": "sama",
+    "sha256": "85ecf94d0a3f9b66c859162843b4833187e1cbdd0c6a77d93c6861ab0b30a593",
+    "width": 1280,
+    "height": 1707,
+    "source_batch": "sama-2026",
+    "roles": [
+      "label"
+    ],
+    "group_ids": [
+      "sama-03"
+    ],
+    "remote_asset": "2397"
+  },
+  {
+    "asset_id": "2398",
+    "original_filename": "Image_20261111162027_2398_19.jpg",
+    "path": "photos/early-buddhist-art/04-gandhara-maitreya/Image_20261111162027_2398_19.jpg",
+    "bucket": "sama",
+    "sha256": "f3af15218ae62e3bbada890e01a9182276891f3d97f630212df40346285dd9b3",
+    "width": 1707,
+    "height": 1280,
+    "source_batch": "sama-2026",
+    "roles": [
+      "object"
+    ],
+    "group_ids": [
+      "sama-04"
+    ],
+    "remote_asset": "2398"
+  },
+  {
+    "asset_id": "2399",
+    "original_filename": "Image_20261111162027_2399_19.jpg",
+    "path": "photos/early-buddhist-art/04-gandhara-maitreya/Image_20261111162027_2399_19.jpg",
+    "bucket": "sama",
+    "sha256": "90a98cea2e22d76eeb604e297bfe1df7024d9ef6b676e6e60d8941ee01ea2f16",
+    "width": 1280,
+    "height": 1707,
+    "source_batch": "sama-2026",
+    "roles": [
+      "label"
+    ],
+    "group_ids": [
+      "sama-04"
+    ],
+    "remote_asset": "2399"
+  },
+  {
+    "asset_id": "2400",
+    "original_filename": "Image_20261111162027_2400_19.jpg",
+    "path": "photos/early-buddhist-art/05-standing-buddha/Image_20261111162027_2400_19.jpg",
+    "bucket": "sama",
+    "sha256": "7882630cb35118ac451f30c0a22a1935acd6ed80a529c4b61e03aea767bfbecb",
+    "width": 1280,
+    "height": 1707,
+    "source_batch": "sama-2026",
+    "roles": [
+      "object"
+    ],
+    "group_ids": [
+      "sama-05"
+    ],
+    "remote_asset": "2400"
+  },
+  {
+    "asset_id": "2401",
+    "original_filename": "Image_20261111162027_2401_19.jpg",
+    "path": "photos/early-buddhist-art/05-standing-buddha/Image_20261111162027_2401_19.jpg",
+    "bucket": "sama",
+    "sha256": "d491a9441c5f0808ef0d2699fd7389ccdddef7f23e1fe0d7934aef9e4be20d16",
+    "width": 1280,
+    "height": 1707,
+    "source_batch": "sama-2026",
+    "roles": [
+      "label"
+    ],
+    "group_ids": [
+      "sama-05"
+    ],
+    "remote_asset": "2401"
+  },
+  {
+    "asset_id": "2402",
+    "original_filename": "Image_20261111162027_2402_19.jpg",
+    "path": "photos/early-buddhist-art/06-meditating-buddha/Image_20261111162027_2402_19.jpg",
+    "bucket": "sama",
+    "sha256": "18069e87376e784fe3b3d814716870dfb3fa8e216d660bbf9647fa7077b996a5",
+    "width": 1280,
+    "height": 1707,
+    "source_batch": "sama-2026",
+    "roles": [
+      "object"
+    ],
+    "group_ids": [
+      "sama-06"
+    ],
+    "remote_asset": "2402"
+  },
+  {
+    "asset_id": "2403",
+    "original_filename": "Image_20261111162027_2403_19.jpg",
+    "path": "photos/early-buddhist-art/06-meditating-buddha/Image_20261111162027_2403_19.jpg",
+    "bucket": "sama",
+    "sha256": "28fcc41add3444a2d5c1b942bced33642b5c343314f929a2bb3ab482701ce0ea",
+    "width": 1280,
+    "height": 1707,
+    "source_batch": "sama-2026",
+    "roles": [
+      "object"
+    ],
+    "group_ids": [
+      "sama-06"
+    ],
+    "remote_asset": "2403"
+  },
+  {
+    "asset_id": "2404",
+    "original_filename": "Image_20261111162027_2404_19.jpg",
+    "path": "photos/early-buddhist-art/06-meditating-buddha/Image_20261111162027_2404_19.jpg",
+    "bucket": "sama",
+    "sha256": "fc0f7f80bac3d04374e9797e93241e713acaa038d662319656222e57582f9bf4",
+    "width": 1280,
+    "height": 1707,
+    "source_batch": "sama-2026",
+    "roles": [
+      "object"
+    ],
+    "group_ids": [
+      "sama-06"
+    ],
+    "remote_asset": "2404"
+  },
+  {
+    "asset_id": "2405",
+    "original_filename": "Image_20261111162027_2405_19.jpg",
+    "path": "photos/early-buddhist-art/06-meditating-buddha/Image_20261111162027_2405_19.jpg",
+    "bucket": "sama",
+    "sha256": "ed5a6450d7e2ffac4196af41b8df636a01a401129f8431405edd31a62463ffb3",
+    "width": 1280,
+    "height": 1707,
+    "source_batch": "sama-2026",
+    "roles": [
+      "label"
+    ],
+    "group_ids": [
+      "sama-06"
+    ],
+    "remote_asset": "2405"
+  },
+  {
+    "asset_id": "2406",
+    "original_filename": "Image_20261111162027_2406_19.jpg",
+    "path": "photos/early-buddhist-art/06-meditating-buddha/Image_20261111162027_2406_19.jpg",
+    "bucket": "sama",
+    "sha256": "0272f2867c91aeb7e29613eded30a912cbabdf627447b9424a65026eb0244413",
+    "width": 1707,
+    "height": 1280,
+    "source_batch": "sama-2026",
+    "roles": [
+      "label"
+    ],
+    "group_ids": [
+      "sama-06"
+    ],
+    "remote_asset": "2406"
   }
 ]

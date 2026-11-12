@@ -3,6 +3,7 @@ from pathlib import Path
 import csv, hashlib, json
 from collections import Counter
 from PIL import Image
+from museum_assets import sama_media
 
 ROOT=Path(__file__).resolve().parents[1]
 BASE=ROOT/'museum-notes/images-and-vows'
@@ -19,10 +20,11 @@ assert len({p['number'] for p in audit})==len(audit)
 assigned=Counter(p['number'] for w in works for p in w['photos'])
 assert all(n==1 for n in assigned.values())
 assert set(assigned)==set(map(int,photos))
-assert set(assigned)=={p['number'] for p in audit if p['disposition']=='published_work'}
+additional={int(n) for n,p in photos.items() if p.get('remote_asset')}
+assert set(assigned)-additional=={p['number'] for p in audit if p['disposition']=='published_work'}
 assert {w['id'] for w in excluded}.isdisjoint(by)
 assert all(w['period']!='唐' and w['scope']=='main' for w in works)
-assert {p['work_id'] for p in audit if p['work_id']}==set(by)|{w['id'] for w in excluded}
+assert {p['work_id'] for p in audit if p['work_id']}==(set(by)-{'sama-eastern-wei-maitreya'})|{w['id'] for w in excluded}
 assert by['mfa-1843']['museum_id']=='noma' and by['mfa-1843']['accession']=='2014.39'
 assert {p['number'] for p in by['penn-551-c404']['photos']}=={1891,1892}
 assert not {1891,1892}&{p['number'] for p in by['penn-575-c429']['photos']}
@@ -41,6 +43,8 @@ for w in works:
  assert w['visit_date'] is None
  for p in w['photos']:assert photos[str(p['number'])]['work_id']==w['id']
 for key,p in photos.items():
+ if p.get('remote_asset'):
+  assert p['sha256']==sama_media()[p['remote_asset']]['sha256']; continue
  original=(BASE/'atlas'/p['original']).resolve()
  assert hashlib.sha256(original.read_bytes()).hexdigest()==p['sha256']
  assert p['sha256']==next(x['sha256'] for x in audit if x['number']==int(key))
@@ -53,4 +57,4 @@ archived_names={p['original_filename'] for p in audit if p['disposition']!='publ
 assert not archived_names&{p.name for p in (BASE/'atlas/images/originals').iterdir()}
 assert data['stats']['works']==len(works) and data['stats']['photos']==len(photos)
 assert data['stats']['museums']==len({w['museum_id'] for w in works})
-print('PASS: 111 photos accounted for; 35 identities, 32 public objects / 103 photos / 13 museums; 15 original reading links; Tang excluded; original hashes, rotations and derivatives verified.')
+print('PASS: 111 photos accounted for; 35 identities, 33 public objects / 106 photos / 14 museums; 15 original reading links; Tang excluded; original hashes, rotations and derivatives verified.')

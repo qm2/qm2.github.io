@@ -115,7 +115,9 @@
     ],
     "related_catalogue_ids": [
       "w1713",
-      "w1637"
+      "w1637",
+      "sama-24",
+      "sama-25"
     ],
     "hero_photo": "h1664",
     "work_ids": [
@@ -145,7 +147,8 @@
     ],
     "related_catalogue_ids": [
       "w1476",
-      "w1579"
+      "w1579",
+      "sama-08"
     ],
     "hero_photo": "h1508",
     "work_ids": [
@@ -268,7 +271,9 @@
       "S62"
     ],
     "lead_source_ids": [],
-    "related_catalogue_ids": [],
+    "related_catalogue_ids": [
+      "sama-21"
+    ],
     "hero_photo": "h1552",
     "work_ids": [
       "w1552"
@@ -395,7 +400,9 @@
     "source_ids": [
       "S33"
     ],
-    "related_catalogue_ids": [],
+    "related_catalogue_ids": [
+      "sama-16"
+    ],
     "hero_photo": "h1700",
     "work_ids": [
       "w1700"
@@ -595,7 +602,9 @@
     "source_ids": [
       "S31"
     ],
-    "related_catalogue_ids": [],
+    "related_catalogue_ids": [
+      "sama-07"
+    ],
     "hero_photo": "h1683",
     "work_ids": [
       "w1683",
@@ -658,7 +667,12 @@
     "source_ids": [
       "S16"
     ],
-    "related_catalogue_ids": [],
+    "related_catalogue_ids": [
+      "sama-09",
+      "sama-15",
+      "sama-19",
+      "sama-22"
+    ],
     "hero_photo": "h1550",
     "work_ids": [
       "w1550",
@@ -690,7 +704,10 @@
       "S63",
       "S76"
     ],
-    "related_catalogue_ids": [],
+    "related_catalogue_ids": [
+      "sama-11",
+      "sama-13"
+    ],
     "hero_photo": "h1692",
     "work_ids": [
       "w1692",
@@ -826,7 +843,9 @@
       "S72",
       "S73"
     ],
-    "related_catalogue_ids": [],
+    "related_catalogue_ids": [
+      "sama-14"
+    ],
     "hero_photo": "h1631",
     "work_ids": [
       "w1631",
@@ -1057,7 +1076,10 @@
       "S14",
       "S22"
     ],
-    "related_catalogue_ids": [],
+    "related_catalogue_ids": [
+      "sama-10",
+      "sama-12"
+    ],
     "hero_photo": "h1563",
     "work_ids": [
       "w1563",
@@ -1150,7 +1172,10 @@
     "source_ids": [],
     "related_catalogue_ids": [
       "w1660",
-      "w1504"
+      "w1504",
+      "sama-17",
+      "sama-20",
+      "sama-23"
     ],
     "hero_photo": "h1687",
     "work_ids": [
@@ -1191,7 +1216,8 @@
       "w1512",
       "w1516",
       "w1572",
-      "w1615"
+      "w1615",
+      "sama-18"
     ],
     "hero_photo": "h1657",
     "work_ids": [

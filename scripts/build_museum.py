@@ -2,6 +2,7 @@
 from pathlib import Path
 from html import escape as e
 import json
+from museum_assets import asset_url, responsive_attributes
 ROOT = Path(__file__).resolve().parents[1]
 PAGE = ROOT / 'museum-notes' / 'buddhist-sculpture'
 data = json.loads((PAGE / 'data' / 'objects.json').read_text())
@@ -18,7 +19,7 @@ def render_card(o, i, image_prefix="images/"):
     if o['caveat']: detail += f'<p class="record-note">{e(o["caveat"])}</p>'
     if o['url']: detail += f'<p class="source"><a href="{e(o["url"])}" target="_blank" rel="noopener noreferrer">{e(o.get("source_title", "馆方藏品记录"))} ↗</a></p>'
     for photo in o.get('related_photos', []):
-        detail += f'<figure class="related-photo"><a class="photo-link" href="{image_prefix}{e(photo["photo"])}" data-caption="{e(photo["caption"])}" aria-label="放大照片：{e(photo["caption"])}"><img src="{image_prefix}{e(photo["photo"])}" alt="{e(photo["caption"])}" width="{photo["width"]}" height="{photo["height"]}" loading="lazy"><span class="photo-hint">查看大图 ↗</span></a><figcaption>{e(photo["caption"])}</figcaption></figure>'
+        detail += f'<figure class="related-photo"><a class="photo-link" href="{photo.get("original_url") or asset_url(image_prefix,photo["photo"])}" data-caption="{e(photo["caption"])}" aria-label="放大照片：{e(photo["caption"])}"><img src="{asset_url(image_prefix,photo["photo"])}"{responsive_attributes(photo)} alt="{e(photo["caption"])}" width="{photo["width"]}" height="{photo["height"]}" loading="lazy"><span class="photo-hint">查看大图 ↗</span></a><figcaption>{e(photo["caption"])}</figcaption></figure>'
     detail += '<p class="source">基本信息据现场展签整理；照片 © Merton。</p>'
     personal = ''
     for note in o.get('personal_notes', []):
@@ -28,8 +29,8 @@ def render_card(o, i, image_prefix="images/"):
         date = f" · {e(note['written_on'])}记" if note.get('written_on') else ''
         personal += f'<aside class="personal-note"><h4>我的观看 · {kind}{date}</h4><p>{e(note["text"])}</p></aside>'
     return f'''<article class="object-card" id="{o['id']}" data-museum="{o['museum']}" data-material="{o['material_group']}" data-group="{o['group']}">
-      <a class="photo-link" href="{image_prefix}{o['photo']}" data-caption="{e(o['title'])} · {e(m)}" aria-label="放大照片：{e(o['title'])}，{e(m)}">
-        <img src="{image_prefix}{o['photo']}" alt="{e(o['title'])}，{e(o['date'])}，{e(m)}；{e(o['observation'])}" width="{o['width']}" height="{o['height']}" loading="lazy" decoding="async">
+      <a class="photo-link" href="{o.get('original_url') or asset_url(image_prefix,o['photo'])}" data-caption="{e(o['title'])} · {e(m)}" aria-label="放大照片：{e(o['title'])}，{e(m)}">
+        <img src="{asset_url(image_prefix,o['photo'])}"{responsive_attributes(o)} alt="{e(o['title'])}，{e(o['date'])}，{e(m)}；{e(o['observation'])}" width="{o['width']}" height="{o['height']}" loading="lazy" decoding="async">
         <span class="photo-hint" aria-hidden="true">查看大图 ↗</span>
       </a>
       <div class="object-body"><div class="object-topline"><span>{e(city)} · {e(m)}</span><a class="permalink" href="#{o['id']}" aria-label="此作品的固定链接">{i+1:02d}</a></div>

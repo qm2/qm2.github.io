@@ -1009,5 +1009,59 @@
     "track": "北朝",
     "catalogue_note": "馆方记录背面题名供养人Zhang Qianbai及Shanyang村，并记载端方旧藏、1917年购自C. T. Loo。人名、地名暂沿用馆方转写。",
     "reading_url": null
+  },
+  {
+    "id": "sama-eastern-wei-maitreya",
+    "package_id": "sama-28",
+    "title": "东魏弥勒佛像",
+    "title_en": "Miluo, or Maitreya Buddha, the Buddha of the Future",
+    "date": "534—550年",
+    "period": "东魏",
+    "year_start": 534,
+    "year_end": 550,
+    "date_kind": "period",
+    "material": "大理石",
+    "form": "背屏式佛像",
+    "iconography": "弥勒（据展签）",
+    "owner": "圣安东尼奥美术馆",
+    "owner_city": "圣安东尼奥",
+    "viewing_museum": "圣安东尼奥美术馆",
+    "viewing_city": "圣安东尼奥",
+    "viewing_evidence": "用户现场作品与配对展签",
+    "accession": "85.37",
+    "origin": "中国；展签提出可能与龙门相关",
+    "discovery": null,
+    "photos": [
+      {
+        "number": 2465,
+        "role": "front",
+        "caption": "东魏弥勒佛像 · 正面",
+        "rotation_ccw": 0
+      },
+      {
+        "number": 2466,
+        "role": "side",
+        "caption": "东魏弥勒佛像 · 斜侧",
+        "rotation_ccw": 0
+      },
+      {
+        "number": 2467,
+        "role": "label",
+        "caption": "东魏弥勒佛像 · 现场展签",
+        "rotation_ccw": 0
+      }
+    ],
+    "sources": [],
+    "status": "confirmed",
+    "issue": "展签提出可能与龙门有关，尚非确认出土地。本件无可核造像题记，施主与发愿内容未详。",
+    "scope": "main",
+    "reading_url": null,
+    "museum_id": "sama",
+    "visit_date": null,
+    "hero": 2465,
+    "region": "北方",
+    "track": "北朝",
+    "date_note": "东魏时期范围；不是精确制作年。",
+    "catalogue_note": "宽大的袍缘在座前层叠展开，背屏和主尊虽有残损，仍保留清楚的正面结构。与已有东魏造像碑比较，先看衣纹如何由身体外侧向下汇聚，以及光背、座具和佛身如何在一整块石头里连接。"
   }
 ]

@@ -379,6 +379,17 @@
       ],
       "coordinate_source": "https://noma.org/visit/visitor-information/",
       "coordinate_note": "City-level reference rounded from the museum’s official embedded map; not an exact entrance pin."
+    },
+    {
+      "id": "sama",
+      "name_zh": "圣安东尼奥美术馆",
+      "city": "San Antonio",
+      "coordinate": [
+        -98.482,
+        29.437
+      ],
+      "coordinate_precision": "institution_navigation",
+      "verify_before_precise_pin": false
     }
   ],
   "periods": [

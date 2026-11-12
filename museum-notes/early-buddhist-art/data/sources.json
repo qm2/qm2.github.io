@@ -278,5 +278,23 @@
     "url": "https://art.thewalters.org/object/25.266/",
     "kind": "official_object",
     "reviewed": "2026-11-02"
+  },
+  "SAMA03": {
+    "title": "SAMA: Three Jewels, or Triratna",
+    "url": "https://sanantonio.emuseum.com/objects/6688/three-jewels-or-triratna",
+    "read_status": "馆方检索索引可读",
+    "basis": "provided_research_and_photographed_labels"
+  },
+  "SAMA12": {
+    "title": "Kurt Behrendt / Met: Gandhara",
+    "url": "https://www.metmuseum.org/pt/essays/gandhara",
+    "read_status": "馆方研究文章相关正文已读；2011",
+    "basis": "provided_research_and_photographed_labels"
+  },
+  "SAMA11": {
+    "title": "Crow Museum: Texas Collects Asia: India and Southeast Asia",
+    "url": "https://crowmuseum.org/exhibition/texas-collects-asia-india-and-southeast-asia/",
+    "read_status": "馆方2008展览档案条目已读",
+    "basis": "provided_research_and_photographed_labels"
   }
 }

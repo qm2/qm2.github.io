@@ -1,7 +1,7 @@
 {
   "title": "尼姆鲁德的有翼守护者",
   "subtitle": "亚述西北宫浮雕 · 海外所见",
-  "intro": "鹰首、人首，举手致意或持桶面向圣树。在三家博物馆里看过的这些浮雕，都来自公元前9世纪尼姆鲁德的西北宫。把它们放在一起，手势、羽翼和文字的差别便清楚起来。",
+  "intro": "鹰首、人首，举手致意或持桶面向圣树。在四家博物馆里看过的这些浮雕，都来自公元前9世纪尼姆鲁德的西北宫。把它们放在一起，手势、羽翼和文字的差别便清楚起来。",
   "sources": {
     "mfah": [
       "休斯顿美术馆：Guardian Figure（含来源记录）",
@@ -42,6 +42,14 @@
     "tarii": [
       "伊拉克学术研究所 TARII：尼姆鲁德的抢救、回收与修复",
       "https://www.tarii.org/nimrud"
+    ],
+    "sama": [
+      "SAMA: Kingship and Power in Assyria",
+      "https://www.samuseum.org/artwork/exhibition/kingship-and-power-in-assyria/"
+    ],
+    "sama-label": [
+      "圣安东尼奥美术馆：头像展签与S室复原说明（现场摄影）",
+      "https://images.mertonmuseum.com/museum-notes/sama-2026/2388-900.webp"
     ]
   },
   "works": [
@@ -143,6 +151,43 @@
           ]
         }
       ]
+    },
+    {
+      "id": "sama-head",
+      "package_id": "sama-01",
+      "title": "尼姆鲁德有翼守护者头像",
+      "original_title": "Relief with the Head of a Winged Figure",
+      "museum": "芝加哥艺术博物馆；在圣安东尼奥美术馆借展",
+      "accession": "L.2024.4（现场借展号）",
+      "date": "前883—859年",
+      "material": "石膏质雪花石，残留颜料",
+      "dimensions": "约67.3 × 58.4 × 5.1厘米（馆方英寸值换算）",
+      "photo": 2386,
+      "label": 2387,
+      "extra_labels": [
+        2388
+      ],
+      "original_room": "S室，S-10（据现场复原说明）",
+      "visit_date": null,
+      "notes": [
+        {
+          "text": "角冠下，发辫与胡须被刻成一排排卷曲单元，眉眼与鼻梁组成朝向左侧的轮廓。头像虽已脱离身体，冠饰、耳坠与卷发的密度，仍让它与全身守护者保持可见的联系。",
+          "sources": []
+        },
+        {
+          "text": "馆方把这块头像归于尼姆鲁德西北宫的护佑人物壁板，现场复原说明进一步将它对应到S室S-10。克利夫兰1943.246则对应同室S-06：在克利夫兰与圣安东尼奥看到的两块浮雕，由此接回同一间接待空间。壁板号分别记录，头像的原手势与持物不能从现存部分直接看见。",
+          "sources": [
+            "sama"
+          ]
+        },
+        {
+          "text": "据现场说明，George F. Harding于1926年购入这块头像；本次由芝加哥艺术博物馆George F. Harding Collection出借。圣安东尼奥是观看地点，L.2024.4为现场借展号。脱离原墙后的头像，在展厅复原说明中重新接回S室南墙，现存部分与留在原址的壁板须分别理解。",
+          "sources": [
+            "sama",
+            "sama-label"
+          ]
+        }
+      ]
     }
   ],
   "background": [
@@ -195,9 +240,13 @@
     [
       "石面上的羽翼、衣饰与文字",
       "羽毛的层列、胡须的卷曲和衣缘的流苏形成不同密度的刻线。休斯顿的文字在顶部；克利夫兰与纳尔逊的文字带横穿人物身体，图像与书写叠在一起。"
+    ],
+    [
+      "同一间房，不同的残存形态",
+      "克利夫兰S-06保留全身姿态；在圣安东尼奥借展的芝加哥S-10头像保留冠饰、侧脸与胡须。房间联系据现场复原说明，不能从头像补出已经失去的双手。"
     ]
   ],
-  "record_note": "年代与材料分别沿用各馆记录：休斯顿、克利夫兰记公元前883—859年、Gypsum；纳尔逊记公元前884—860年、Limestone。三件均归于亚述纳西尔帕二世时期。",
+  "record_note": "年代与材料分别沿用各馆记录：休斯顿、克利夫兰记公元前883—859年、Gypsum；纳尔逊记公元前884—860年、Limestone。圣安东尼奥借展头像则记为石膏质雪花石。四件均归于亚述纳西尔帕二世时期。",
   "photos": {
     "768": {
       "photo": "768.jpg",
@@ -258,6 +307,33 @@
       "sha256": "07960057c5fa1166664deaf58d487977e8f1d7a24e48fcd5694f0b8107ad73e4",
       "kind": "label",
       "work": "nelson-40-17"
+    },
+    "2386": {
+      "photo": "https://images.mertonmuseum.com/museum-notes/sama-2026/2386-900.webp",
+      "original_url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2386_19.jpg",
+      "width": 1280,
+      "height": 1707,
+      "rotation": 0,
+      "caption": "尼姆鲁德有翼守护者头像 · 头像",
+      "remote_asset": "2386"
+    },
+    "2387": {
+      "photo": "https://images.mertonmuseum.com/museum-notes/sama-2026/2387-900.webp",
+      "original_url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2387_19.jpg",
+      "width": 1280,
+      "height": 1707,
+      "rotation": 0,
+      "caption": "尼姆鲁德有翼守护者头像 · 现场展签与复原说明",
+      "remote_asset": "2387"
+    },
+    "2388": {
+      "photo": "https://images.mertonmuseum.com/museum-notes/sama-2026/2388-900.webp",
+      "original_url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2388_19.jpg",
+      "width": 1280,
+      "height": 1707,
+      "rotation": 0,
+      "caption": "尼姆鲁德有翼守护者头像 · 现场展签与复原说明",
+      "remote_asset": "2388"
     }
   },
   "location_note": {

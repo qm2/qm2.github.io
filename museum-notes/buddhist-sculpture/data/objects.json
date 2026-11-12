@@ -70,6 +70,11 @@
       "新奥尔良艺术博物馆",
       "新奥尔良",
       "New Orleans Museum of Art"
+    ],
+    "sama": [
+      "圣安东尼奥美术馆",
+      "圣安东尼奥",
+      "San Antonio Museum of Art"
     ]
   },
   "objects": [
@@ -1073,6 +1078,82 @@
       "caveat": "现场展签将来源写作“可能出自河北易州附近洞窟”，并保留辽或金的断代。馆方研究也指出，原属寺院、组像总数与确切制作年代仍有疑问；不把十六或十八尊视为已确认的原组数量。",
       "width": 1280,
       "height": 1707
+    },
+    {
+      "photo": "https://images.mertonmuseum.com/museum-notes/sama-2026/2455-900.webp",
+      "original_url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2455_19.jpg",
+      "width": 1280,
+      "height": 1707,
+      "rotation": 0,
+      "caption": "十三世纪木雕观音坐像",
+      "remote_asset": "2455",
+      "id": "object-2455",
+      "package_id": "sama-26",
+      "source_photo": "Image_20261111162027_2455_19.jpg",
+      "label_photos": [
+        "Image_20261111162027_2460_19.jpg"
+      ],
+      "museum": "sama",
+      "title": "十三世纪木雕观音坐像",
+      "original_title": "Guanyin Bodhisattva (Avalokiteshvara)",
+      "date": "13世纪中叶；展签列宋—元",
+      "material": "木，残存颜料与金",
+      "material_group": "wood",
+      "group": "bodhisattva",
+      "accession": "85.58",
+      "observation": "端坐的身体修长，冠中小佛、胸前璎珞与垂落衣裙依次展开；残彩与裸露木面在同一表面相遇。",
+      "story": "修长的躯干、端正的坐姿与垂落的衣裙使这尊观音显得安静而清瘦。正面近照能看冠中小佛、胸前璎珞与衣纹，左右侧照片则显示手臂与座具怎样向前后伸展。粉层、彩色、金色和裸露木面并存，适合把观看从“木雕的造型”推进到“曾经施彩的表面”。",
+      "caveat": "具体木种、原寺院与更早递藏经历未详。现场年代为13世纪中叶；“宋—元”保留为展签的宽分期。",
+      "url": "https://sanantonio.emuseum.com/objects/3343/guanyin-bodhisattva",
+      "source_title": "圣安东尼奥美术馆：观音菩萨",
+      "visit_date": null,
+      "related_photos": [
+        {
+          "photo": "https://images.mertonmuseum.com/museum-notes/sama-2026/2456-900.webp",
+          "original_url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2456_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0,
+          "caption": "冠饰、璎珞与衣纹近照",
+          "remote_asset": "2456"
+        },
+        {
+          "photo": "https://images.mertonmuseum.com/museum-notes/sama-2026/2457-900.webp",
+          "original_url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2457_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0,
+          "caption": "观音一侧：手臂与座具",
+          "remote_asset": "2457"
+        },
+        {
+          "photo": "https://images.mertonmuseum.com/museum-notes/sama-2026/2458-900.webp",
+          "original_url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2458_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0,
+          "caption": "观音另一侧：衣裙与身体的厚度",
+          "remote_asset": "2458"
+        },
+        {
+          "photo": "https://images.mertonmuseum.com/museum-notes/sama-2026/2459-900.webp",
+          "original_url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2459_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0,
+          "caption": "面容与冠饰斜侧近照",
+          "remote_asset": "2459"
+        },
+        {
+          "photo": "https://images.mertonmuseum.com/museum-notes/sama-2026/2460-900.webp",
+          "original_url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2460_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0,
+          "caption": "现场展签",
+          "remote_asset": "2460"
+        }
+      ]
     }
   ]
 }

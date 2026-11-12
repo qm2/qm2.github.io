@@ -2574,5 +2574,182 @@
     ],
     "photo_caption": "一对手作为一条馆藏记录；不拼接到坐佛上",
     "museum_map": "nelson"
+  },
+  {
+    "id": "sama-03",
+    "group_id": "sama-03",
+    "title": "三宝标志与礼拜者浮雕",
+    "title_original": "Three Jewels, or Triratna",
+    "date": "贵霜时期，2—3世纪",
+    "date_range": [
+      100,
+      299
+    ],
+    "date_range_basis": "宽年代筛选范围，显示年代依现场展签",
+    "material": "片岩",
+    "dimensions": null,
+    "accession": "2005.21.5",
+    "collection_museum": "sama",
+    "private_collection": null,
+    "viewing_museum": "sama",
+    "place": "gandhara",
+    "place_relation": "古犍陀罗地区（今巴基斯坦或阿富汗东部）；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "2396"
+    ],
+    "photo": "2396",
+    "labels": [
+      "2397"
+    ],
+    "sources": [
+      "SAMA03",
+      "SAMA12"
+    ],
+    "notes": [
+      "轮形标志沿中轴叠起，左右人物双手合十，使中心的符号具有被礼拜的重量。馆方把这组标志解释为佛、法、僧三宝。与佛塔、法轮、空座图像并看，象征性表现并没有在佛陀人形像出现后立刻消失。",
+      "地域归属据展牌，具体遗址未详。"
+    ],
+    "units": [
+      "u01"
+    ],
+    "museum_map": "sama",
+    "visit_date": null,
+    "package_id": "sama-03",
+    "site_links": []
+  },
+  {
+    "id": "sama-04",
+    "group_id": "sama-04",
+    "title": "犍陀罗弥勒与胁侍浮雕",
+    "title_original": "Maitreya, the Buddha of the Future",
+    "date": "贵霜时期，约3世纪",
+    "date_range": [
+      200,
+      299
+    ],
+    "date_range_basis": "宽年代筛选范围，显示年代依现场展签",
+    "material": "片岩",
+    "dimensions": null,
+    "accession": "2005.21.2",
+    "collection_museum": "sama",
+    "private_collection": null,
+    "viewing_museum": "sama",
+    "place": "gandhara",
+    "place_relation": "古犍陀罗地区（今巴基斯坦或阿富汗东部）；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "2398"
+    ],
+    "photo": "2398",
+    "labels": [
+      "2399"
+    ],
+    "sources": [
+      "SAMA12"
+    ],
+    "notes": [
+      "中央的弥勒比周围人物更大，头光、座具与两侧人物共同把视线推向中心。观察时可先区分戴冠、佩饰的菩萨形象与披袈裟的佛，再看不同大小的人物怎样组成礼拜群。弥勒的题名依据现场展牌，两侧人物的具体身份尚未确认。"
+    ],
+    "units": [
+      "u06"
+    ],
+    "museum_map": "sama",
+    "visit_date": null,
+    "package_id": "sama-04",
+    "site_links": [
+      {
+        "href": "/museum-notes/himalayan-art/sama-16/",
+        "label": "另一时代的弥勒立像"
+      }
+    ]
+  },
+  {
+    "id": "sama-05",
+    "group_id": "sama-05",
+    "title": "犍陀罗佛立像",
+    "title_original": "Standing Figure of a Buddha",
+    "date": "贵霜时期，2世纪",
+    "date_range": [
+      100,
+      199
+    ],
+    "date_range_basis": "宽年代筛选范围，显示年代依现场展签",
+    "material": "片岩",
+    "dimensions": null,
+    "accession": "2000.15",
+    "collection_museum": "sama",
+    "private_collection": null,
+    "viewing_museum": "sama",
+    "place": "gandhara",
+    "place_relation": "古犍陀罗地区（今巴基斯坦或阿富汗东部）；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "2400"
+    ],
+    "photo": "2400",
+    "labels": [
+      "2401"
+    ],
+    "sources": [
+      "SAMA12"
+    ],
+    "notes": [
+      "从肩头到膝前，深刻的衣褶把身体包在有重量的袈裟里；面部与卷发却保持细密而平静的节奏。与这一辑的犍陀罗佛立像并看，可以比较衣纹的深浅、两腿是否透出、以及衣缘怎样在脚前收束。",
+      "现场展牌同时列India及Pakistan／eastern Afghanistan。本页采用古犍陀罗宽地域，具体制作地点未详。"
+    ],
+    "units": [
+      "u05"
+    ],
+    "museum_map": "sama",
+    "visit_date": null,
+    "package_id": "sama-05",
+    "site_links": []
+  },
+  {
+    "id": "sama-06",
+    "group_id": "sama-06",
+    "title": "犍陀罗禅定佛坐像",
+    "title_original": "Buddha in Meditation",
+    "date": "贵霜时期，3世纪",
+    "date_range": [
+      200,
+      299
+    ],
+    "date_range_basis": "宽年代筛选范围，显示年代依现场展签",
+    "material": "片岩",
+    "dimensions": null,
+    "accession": "L.2019.4.3",
+    "collection_museum": null,
+    "private_collection": "Rose Marie and John L. Hendry, III",
+    "viewing_museum": "sama",
+    "place": "gandhara",
+    "place_relation": "古犍陀罗地区（今巴基斯坦或阿富汗东部）；具体原址未详",
+    "findspot_known": false,
+    "photos": [
+      "2402",
+      "2403",
+      "2404"
+    ],
+    "photo": "2404",
+    "labels": [
+      "2405",
+      "2406"
+    ],
+    "sources": [
+      "SAMA11",
+      "SAMA12"
+    ],
+    "notes": [
+      "双手在腹前相叠，袈裟的弧线顺着交叠的双腿一层层展开。正面照片适合看对称秩序，斜侧照片则能看见胸部、手臂和腿部的前后体量。座前另有礼拜场景，可以把大佛的禅定与小人物的观看联系起来。",
+      "Rose Marie与John L. Hendry III收藏，借展于圣安东尼奥；佛像下方的陈列承托与古代雕刻分开观察。"
+    ],
+    "units": [
+      "u12"
+    ],
+    "museum_map": "sama",
+    "visit_date": null,
+    "package_id": "sama-06",
+    "site_links": []
   }
 ]

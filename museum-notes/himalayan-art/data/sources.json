@@ -1222,5 +1222,237 @@
     "checked_on": "2026-11-03",
     "primary": true,
     "claims": "本轮读取官方对象记录，核对照片身份、年代、尺寸与相应图像／收藏说明。"
+  },
+  {
+    "source_id": "SAMA13",
+    "title": "Met: Stele with Eight Great Events from the Life of the Buddha",
+    "url": "https://www.metmuseum.org/art/collection/search/38615",
+    "access_level": "馆方比较作品记录正文已读",
+    "usage": "另一件10世纪比哈尔佛传碑，为理解图像结构的比较资料。本批Hendry借展碑不是这件Met作品，其可能那烂陀来源不可移用。"
+  },
+  {
+    "source_id": "SAMA14",
+    "title": "Met: Eight Great Events Stele",
+    "url": "https://www.metmuseum.org/art/collection/search/705435?searchField=All",
+    "access_level": "馆方比较作品记录正文已读",
+    "usage": "11—12世纪帕拉比较作品，强调八大事与印度朝圣地理的关系；不替本批作品逐格释名。"
+  },
+  {
+    "source_id": "SAMA04",
+    "title": "SAMA: Lama Mipham (1654–1715)",
+    "url": "https://sanantonio.emuseum.com/objects/5922/lama-mipham-16541715",
+    "access_level": "馆方检索结果完整条目已读；不称官网为最新定论",
+    "usage": "同馆号2004.7.1的线上题名、年代与2416现场展牌不同，须并列。"
+  },
+  {
+    "source_id": "SAMA10",
+    "title": "Jean-Luc Estournel, Densatil Monastery: The Commemorative Stupas of the Lang/Pakmodrupa Dynasty",
+    "url": "https://rubinmuseum.org/projecthimalayanart/essays/densatil-monastery/",
+    "access_level": "Rubin/Project Himalayan Art，2023；正文已读",
+    "usage": "用于解释六层塔体及女尊群的结构背景。未在文中找到把SAMA本件L.2019.4.4定位到某塔某层的证据。"
+  },
+  {
+    "source_id": "SAMA11",
+    "title": "Crow Museum: Texas Collects Asia: India and Southeast Asia",
+    "url": "https://crowmuseum.org/exhibition/texas-collects-asia-india-and-southeast-asia/",
+    "access_level": "馆方2008展览档案条目已读",
+    "usage": "列Hendry收藏同题舞蹈女尊及3世纪Bactro-Gandhara禅定佛。作为早期展览线索，未经逐图比对不直接宣布即为本批两件。"
+  },
+  {
+    "source_id": "SAMA05",
+    "title": "SAMA: Portrait of Lama Je Tsongkhapa",
+    "url": "https://sanantonio.emuseum.com/objects/5918/portrait-of-lama-je-tsongkhapa",
+    "access_level": "馆方检索结果完整条目已读",
+    "usage": "核对17世纪、2004.16、棉布本色金；馆方来源记2004年向Doris Weiner, Inc.购入，若采用须明确据馆方记录。"
+  },
+  {
+    "source_id": "SAMA-label-07",
+    "title": "圣安东尼奥美术馆：尼泊尔毗湿奴立像现场展签（Merton摄）",
+    "url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2409_19.jpg",
+    "kind": "photographed_label",
+    "work_ids": [
+      "sama-07"
+    ],
+    "claims": "本次现场展签；基本身份、年代、材质及出借信息。"
+  },
+  {
+    "source_id": "SAMA-label-08",
+    "title": "圣安东尼奥美术馆：佛传八大事碑现场展签（Merton摄）",
+    "url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2411_19.jpg",
+    "kind": "photographed_label",
+    "work_ids": [
+      "sama-08"
+    ],
+    "claims": "本次现场展签；基本身份、年代、材质及出借信息。"
+  },
+  {
+    "source_id": "SAMA-label-09",
+    "title": "圣安东尼奥美术馆：Phuntsho Sherab上师像现场展签（Merton摄）",
+    "url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2416_19.jpg",
+    "kind": "photographed_label",
+    "work_ids": [
+      "sama-09"
+    ],
+    "claims": "本次现场展签；基本身份、年代、材质及出借信息。"
+  },
+  {
+    "source_id": "SAMA-label-10",
+    "title": "圣安东尼奥美术馆：忿怒金刚手现场展签（Merton摄）",
+    "url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2420_19.jpg",
+    "kind": "photographed_label",
+    "work_ids": [
+      "sama-10"
+    ],
+    "claims": "本次现场展签；基本身份、年代、材质及出借信息。"
+  },
+  {
+    "source_id": "SAMA-label-11",
+    "title": "圣安东尼奥美术馆：阿弥陀佛极乐净土图现场展签（Merton摄）",
+    "url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2424_19.jpg",
+    "kind": "photographed_label",
+    "work_ids": [
+      "sama-11"
+    ],
+    "claims": "本次现场展签；基本身份、年代、材质及出借信息。"
+  },
+  {
+    "source_id": "SAMA-label-12",
+    "title": "圣安东尼奥美术馆：多闻天王唐卡现场展签（Merton摄）",
+    "url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2428_19.jpg",
+    "kind": "photographed_label",
+    "work_ids": [
+      "sama-12"
+    ],
+    "claims": "本次现场展签；基本身份、年代、材质及出借信息。"
+  },
+  {
+    "source_id": "SAMA-label-13",
+    "title": "圣安东尼奥美术馆：无量寿佛唐卡现场展签（Merton摄）",
+    "url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2430_19.jpg",
+    "kind": "photographed_label",
+    "work_ids": [
+      "sama-13"
+    ],
+    "claims": "本次现场展签；基本身份、年代、材质及出借信息。"
+  },
+  {
+    "source_id": "SAMA-label-14",
+    "title": "圣安东尼奥美术馆：丹萨替地区舞蹈女尊构件现场展签（Merton摄）",
+    "url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2432_19.jpg",
+    "kind": "photographed_label",
+    "work_ids": [
+      "sama-14"
+    ],
+    "claims": "本次现场展签；基本身份、年代、材质及出借信息。"
+  },
+  {
+    "source_id": "SAMA-label-15",
+    "title": "圣安东尼奥美术馆：宗喀巴肖像唐卡现场展签（Merton摄）",
+    "url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2434_19.jpg",
+    "kind": "photographed_label",
+    "work_ids": [
+      "sama-15"
+    ],
+    "claims": "本次现场展签；基本身份、年代、材质及出借信息。"
+  },
+  {
+    "source_id": "SAMA-label-16",
+    "title": "圣安东尼奥美术馆：弥勒菩萨立像现场展签（Merton摄）",
+    "url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2436_19.jpg",
+    "kind": "photographed_label",
+    "work_ids": [
+      "sama-16"
+    ],
+    "claims": "本次现场展签；基本身份、年代、材质及出借信息。"
+  },
+  {
+    "source_id": "SAMA-label-17",
+    "title": "圣安东尼奥美术馆：藏式佛龛背饰现场展签（Merton摄）",
+    "url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2438_19.jpg",
+    "kind": "photographed_label",
+    "work_ids": [
+      "sama-17"
+    ],
+    "claims": "本次现场展签；基本身份、年代、材质及出借信息。"
+  },
+  {
+    "source_id": "SAMA-label-18",
+    "title": "圣安东尼奥美术馆：汉藏风格宝冠佛坐像现场展签（Merton摄）",
+    "url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2440_19.jpg",
+    "kind": "photographed_label",
+    "work_ids": [
+      "sama-18"
+    ],
+    "claims": "本次现场展签；基本身份、年代、材质及出借信息。"
+  },
+  {
+    "source_id": "SAMA-label-19",
+    "title": "圣安东尼奥美术馆：乌金林巴像（依展牌题名）现场展签（Merton摄）",
+    "url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2442_19.jpg",
+    "kind": "photographed_label",
+    "work_ids": [
+      "sama-19"
+    ],
+    "claims": "本次现场展签；基本身份、年代、材质及出借信息。"
+  },
+  {
+    "source_id": "SAMA-label-20",
+    "title": "圣安东尼奥美术馆：藏文佛经经板现场展签（Merton摄）",
+    "url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2444_19.jpg",
+    "kind": "photographed_label",
+    "work_ids": [
+      "sama-20"
+    ],
+    "claims": "本次现场展签；基本身份、年代、材质及出借信息。"
+  },
+  {
+    "source_id": "SAMA-label-21",
+    "title": "圣安东尼奥美术馆：文殊菩萨坐像现场展签（Merton摄）",
+    "url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2446_19.jpg",
+    "kind": "photographed_label",
+    "work_ids": [
+      "sama-21"
+    ],
+    "claims": "本次现场展签；基本身份、年代、材质及出借信息。"
+  },
+  {
+    "source_id": "SAMA-label-22",
+    "title": "圣安东尼奥美术馆：第五世达赖喇嘛像现场展签（Merton摄）",
+    "url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2448_19.jpg",
+    "kind": "photographed_label",
+    "work_ids": [
+      "sama-22"
+    ],
+    "claims": "本次现场展签；基本身份、年代、材质及出借信息。"
+  },
+  {
+    "source_id": "SAMA-label-23",
+    "title": "圣安东尼奥美术馆：小型佛塔现场展签（Merton摄）",
+    "url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2450_19.jpg",
+    "kind": "photographed_label",
+    "work_ids": [
+      "sama-23"
+    ],
+    "claims": "本次现场展签；基本身份、年代、材质及出借信息。"
+  },
+  {
+    "source_id": "SAMA-label-24",
+    "title": "圣安东尼奥美术馆：琥珀护法纹嘎乌现场展签（Merton摄）",
+    "url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2452_19.jpg",
+    "kind": "photographed_label",
+    "work_ids": [
+      "sama-24"
+    ],
+    "claims": "本次现场展签；基本身份、年代、材质及出借信息。"
+  },
+  {
+    "source_id": "SAMA-label-25",
+    "title": "圣安东尼奥美术馆：金银铜嘎乌现场展签（Merton摄）",
+    "url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2454_19.jpg",
+    "kind": "photographed_label",
+    "work_ids": [
+      "sama-25"
+    ],
+    "claims": "本次现场展签；基本身份、年代、材质及出借信息。"
   }
 ]

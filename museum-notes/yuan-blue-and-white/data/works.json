@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08",
+  "updated": "2026-11-11",
   "works": [
     {
       "id": "shanxi-peony-jar",
@@ -396,6 +396,188 @@
         }
       ],
       "note_sources": []
+    },
+    {
+      "photo": "https://images.mertonmuseum.com/museum-notes/sama-2026/2468-900.webp",
+      "original_url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2468_19.jpg",
+      "width": 1280,
+      "height": 1707,
+      "rotation": 0,
+      "caption": "青花莲池双鸭纹大盘",
+      "remote_asset": "2468",
+      "id": "sama-duck-dish",
+      "package_id": "sama-29",
+      "number": 2468,
+      "title": "青花莲池双鸭纹大盘",
+      "original_title": "Dish with Pair of Ducks",
+      "museum": "圣安东尼奥美术馆",
+      "date": "元，14世纪",
+      "accession": "2008.21.30",
+      "material": "瓷，釉下钴蓝彩",
+      "unit": "blue",
+      "observation": "双鸭游在莲叶间，盘心的水景由外圈花卉收住。",
+      "note": "本批照片未拍到盘底。刻铭与沙贾汗的联系依据Froom研究；元代烧造与1633—1634年的后刻收藏标记分别记录。",
+      "sources": [
+        [
+          "Aimée Froom, Between Sea and Sky: Blue and White Ceramics from Persia and Beyond at the MFAH",
+          "https://artsofasia.com/between-sea-and-sky-blue-and-white-ceramics-from-persia-and-beyond-at-the-museum-of-fine-arts-houston-2/"
+        ]
+      ],
+      "paragraphs": [
+        {
+          "text": "两只鸭子游在莲叶与水草之间，盘心像一小片被圆形边界围住的池塘；外圈花卉则把自由舒展的水景收拢。它可以和西雅图的凤鸟花卉纹大盘并排，比较盘心叙事、边饰与蓝白疏密。盘底未拍到的刻铭另有研究记录，将这件元代瓷器联系到17世纪的沙贾汗收藏。",
+          "sources": []
+        },
+        {
+          "text": "Aimée Froom在2020年文章中记载，这件盘底足外侧有波斯文沙贾汗名号与伊斯兰历1043年，即1633—1634年。它把一件14世纪景德镇瓷器联系到后来的莫卧儿皇室收藏。这里依据发表的研究讨论刻款，现场照片只呈现盘面与纹饰局部。",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "note_sources": [
+        0
+      ],
+      "extra_photos": [
+        {
+          "photo": "https://images.mertonmuseum.com/museum-notes/sama-2026/2469-900.webp",
+          "original_url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2469_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0,
+          "caption": "莲池双鸭纹局部",
+          "remote_asset": "2469"
+        },
+        {
+          "photo": "https://images.mertonmuseum.com/museum-notes/sama-2026/2470-900.webp",
+          "original_url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2470_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0,
+          "caption": "现场展签",
+          "remote_asset": "2470"
+        }
+      ],
+      "visit_date": null,
+      "dimensions": "直径约46厘米（Froom列45.7厘米）"
+    },
+    {
+      "photo": "https://images.mertonmuseum.com/museum-notes/sama-2026/2471-900.webp",
+      "original_url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2471_19.jpg",
+      "width": 1280,
+      "height": 1707,
+      "rotation": 0,
+      "caption": "青花牡丹凤纹双狮首罐",
+      "remote_asset": "2471",
+      "id": "sama-lion-jar",
+      "package_id": "sama-30",
+      "number": 2471,
+      "title": "青花牡丹凤纹双狮首罐",
+      "original_title": "Jar, Guan",
+      "museum": "圣安东尼奥美术馆",
+      "date": "元，14世纪",
+      "accession": "2008.21.43",
+      "material": "瓷，釉下钴蓝彩",
+      "unit": "blue",
+      "observation": "肩部凤鸟与腹部大花分层展开，两侧狮首停在纹饰之间。",
+      "note": "景德镇及器高39.1厘米据馆方记录；具体出土地点未详。",
+      "sources": [
+        [
+          "SAMA: Jar, 2008.21.43",
+          "https://sanantonio.emuseum.com/objects/6563/jar"
+        ]
+      ],
+      "paragraphs": [
+        {
+          "text": "器身沿水平方向分成多层，肩部凤鸟与腹部大花在不同宽度的纹样带中展开，近足处再用竖向莲瓣收束。与克利夫兰双狮首罐比较时，可以先看狮首位置与颈部轮廓，再看两件如何让同样密集的纹样保持清楚。",
+          "sources": []
+        },
+        {
+          "text": "肩部的双狮首突出于圆形器身，花卉与凤鸟则沿水平纹样带铺开。与克利夫兰那件并看，狮首、短颈、丰肩是共同的观看线索，纹样带的宽窄和花叶疏密却各有安排。两件馆藏号与来源分别记录。",
+          "sources": [
+            0
+          ]
+        }
+      ],
+      "note_sources": [
+        0
+      ],
+      "extra_photos": [
+        {
+          "photo": "https://images.mertonmuseum.com/museum-notes/sama-2026/2472-900.webp",
+          "original_url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2472_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0,
+          "caption": "器身另一视角",
+          "remote_asset": "2472"
+        },
+        {
+          "photo": "https://images.mertonmuseum.com/museum-notes/sama-2026/2473-900.webp",
+          "original_url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2473_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0,
+          "caption": "现场展签",
+          "remote_asset": "2473"
+        }
+      ],
+      "visit_date": null,
+      "dimensions": "高39.1厘米（据馆方记录）"
+    },
+    {
+      "photo": "https://images.mertonmuseum.com/museum-notes/sama-2026/2474-900.webp",
+      "original_url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2474_19.jpg",
+      "width": 1280,
+      "height": 1707,
+      "rotation": 0,
+      "caption": "青花八棱长颈瓶",
+      "remote_asset": "2474",
+      "id": "sama-octagonal-vase",
+      "package_id": "sama-31",
+      "number": 2474,
+      "title": "青花八棱长颈瓶",
+      "original_title": "Octagonal-Faceted Bottle Vase",
+      "museum": "圣安东尼奥美术馆",
+      "date": "元，14世纪",
+      "accession": "2008.21.42",
+      "material": "瓷，釉下钴蓝彩",
+      "unit": "blue",
+      "observation": "长颈连着垂腹，花叶随八道棱线在不同平面上转折。",
+      "note": "波斯金属器的联系与中东市场解释据现场展牌；本件具体窑口与海外流通经历尚未核实。",
+      "sources": [],
+      "paragraphs": [
+        {
+          "text": "长颈、垂腹与外撇口沿之间，八道棱线把器身切成连续而清楚的面。两张角度稍有变化的照片适合一起保留，看看同一组花叶怎样在不同棱面上折转。与纳尔逊的圆身长颈瓶并排时，先暂时放下纹样，比较轮廓与表面反光，器形的差别会格外明显。",
+          "sources": []
+        },
+        {
+          "text": "棱面让同一段花叶随着转折改变方向，光线也在相邻平面间出现明暗差。现场展牌将这种形制联系到波斯金属器，并提出面向中东市场的解释；这是关于器形与用途的判断，本件的具体运输与收藏路线尚不清楚。",
+          "sources": []
+        }
+      ],
+      "note_sources": [],
+      "extra_photos": [
+        {
+          "photo": "https://images.mertonmuseum.com/museum-notes/sama-2026/2475-900.webp",
+          "original_url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2475_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0,
+          "caption": "器身另一视角",
+          "remote_asset": "2475"
+        },
+        {
+          "photo": "https://images.mertonmuseum.com/museum-notes/sama-2026/2476-900.webp",
+          "original_url": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2476_19.jpg",
+          "width": 1280,
+          "height": 1707,
+          "rotation": 0,
+          "caption": "现场展签",
+          "remote_asset": "2476"
+        }
+      ],
+      "visit_date": null
     }
   ]
 }

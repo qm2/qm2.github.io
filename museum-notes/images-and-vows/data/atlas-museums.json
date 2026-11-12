@@ -128,5 +128,15 @@
     "lat": 29.97,
     "url": "https://noma.org/",
     "coordinate_note": "按馆方位置作城市级示意；不是精确入口坐标。"
+  },
+  {
+    "id": "sama",
+    "name": "圣安东尼奥美术馆",
+    "city": "圣安东尼奥",
+    "lat": 29.437,
+    "lon": -98.482,
+    "coordinate_basis": "观看机构位置，非作品出土地",
+    "coordinate_note": "圣安东尼奥美术馆馆舍位置；表示观看地点。",
+    "url": "https://www.samuseum.org/"
   }
 ]

@@ -13,11 +13,12 @@ def asset(work,number):
     return next(p for p in work['sequence']+work['extras'] if p['number']==number)
 
 def picture(p,prefix,alt,eager=False):
+    from museum_assets import asset_url, responsive_attributes
     rotated=p['rotation']!=0
     w,h=(p['height'],p['width']) if rotated else (p['width'],p['height'])
     style=f'--ratio:{w/h:.8f};--native-width:{w}px;'
     if rotated:style+=f'--inner-width:{p["width"]/p["height"]*100:.8f}%;--inner-height:{p["height"]/p["width"]*100:.8f}%;'
-    return f'<span class="image-box{" rotated" if rotated else ""}" style="{style}"><img src="{prefix}{p["photo"]}" alt="{e(alt)}" width="{p["width"]}" height="{p["height"]}" loading="{"eager" if eager else "lazy"}" decoding="async"></span>'
+    return f'<span class="image-box{" rotated" if rotated else ""}" style="{style}"><img src="{asset_url(prefix,p["photo"])}"{responsive_attributes(p)} alt="{e(alt)}" width="{p["width"]}" height="{p["height"]}" loading="{"eager" if eager else "lazy"}" decoding="async"></span>'
 
 def frame(title,content,depth=0,description='',sibling=False):
     up='../'*(depth+1);home='./' if depth==0 else '../'

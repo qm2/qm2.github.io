@@ -6,6 +6,7 @@ from datetime import date
 from concurrent.futures import ThreadPoolExecutor
 from PIL import Image, ImageOps
 from build_homer import LIGHTBOX
+from museum_assets import asset_url, sama_media
 from himalayan_learning import navigation as learning_nav, backlinks as learning_backlinks, build_learning
 ROOT=Path(__file__).resolve().parents[1]
 BASE=ROOT/'museum-notes/himalayan-art'
@@ -47,7 +48,9 @@ def build(base=BASE, integrate=True):
     assert len(by)==len(records) and all(w['public'] for w in records)
     assert all(old not in by and target in by for old,target in aliases.items())
     def derive(p):
-        n=p['photo_id']; src=base/'images/originals'/f'{n}.jpg'
+        n=p['photo_id']
+        if p.get('remote_asset'):return n,sama_media()[p['remote_asset']]
+        src=base/'images/originals'/f'{n}.jpg'
         im=ImageOps.exif_transpose(Image.open(src)).convert('RGB'); variants=[]
         for size in [400,900,1600]:
             iw=min(size,im.width);ih=round(im.height*iw/im.width);dest=base/'images'/f'{n}-{size}.webp'
@@ -71,22 +74,23 @@ def build(base=BASE, integrate=True):
         return c
     def caption(w):return w['title_zh']+' · '+w['date_label']+'｜'+collection(w)+((' · '+w['accession']) if w.get('accession') else '')
     def img(n,alt,pre='',high=False,small=False):
-        m=manifest[n];vs=m['variants'];ss=', '.join(pre+v['path']+' '+str(v['width'])+'w' for v in {v['width']:v for v in vs}.values())
+        m=manifest[n];vs=m['variants'];ss=', '.join(asset_url(pre,v['path'])+' '+str(v['width'])+'w' for v in {v['width']:v for v in vs}.values())
         sz='(max-width: 650px) 42vw, 330px' if small else '(max-width: 650px) calc(100vw - 40px), 680px'
-        return f'<img src="{pre}{vs[0 if small else 1]["path"]}" srcset="{ss}" sizes="{sz}" width="{m["width"]}" height="{m["height"]}" alt="{e(alt)}" decoding="async" '+('fetchpriority="high"' if high else 'loading="lazy"')+'>'
+        return f'<img src="{asset_url(pre,vs[0 if small else 1]["path"])}" srcset="{ss}" sizes="{sz}" width="{m["width"]}" height="{m["height"]}" alt="{e(alt)}" decoding="async" '+('fetchpriority="high"' if high else 'loading="lazy"')+'>'
     def fig(n,cap,pre='',high=False):
         m=manifest[n]
-        return f'<figure class="ha-figure" style="--ratio:{m["width"]/m["height"]:.5f};--native:{m["width"]}px"><a data-photo href="{pre}{m["original"]}" data-caption="{e(cap)}">{img(n,cap,pre,high)}</a><figcaption>{e(cap)} · Merton摄</figcaption></figure>'
-    def refmark(ids):return ' '.join(f'<a class="ha-ref" href="#source-{k}" aria-label="资料 {k[1:]}">[{k[1:]}]</a>' for k in dict.fromkeys(ids) if k in sources)
+        return f'<figure class="ha-figure" style="--ratio:{m["width"]/m["height"]:.5f};--native:{m["width"]}px"><a data-photo href="{asset_url(pre,m["original"])}" data-caption="{e(cap)}">{img(n,cap,pre,high)}</a><figcaption>{e(cap)} · Merton摄</figcaption></figure>'
+    def ref_label(k):return '展签' if k.startswith('SAMA-label-') else '补'+k[4:].lstrip('0') if k.startswith('SAMA') else k[1:]
+    def refmark(ids):return ' '.join(f'<a class="ha-ref" href="#source-{k}" aria-label="资料 {ref_label(k)}">[{ref_label(k)}]</a>' for k in dict.fromkeys(ids) if k in sources)
     def refs(ids):
         out='<section class="ha-sources" id="sources"><h2>资料与来源</h2><p class="ha-note">作品基本资料据现场展签及下列馆方记录整理；文字中的观看描述基于这里的现场照片。</p><ul>'
         for k in dict.fromkeys(ids):
             if k not in sources:continue
-            s=sources[k];out+=f'<li id="source-{k}"><span>[{k[1:]}]</span> <a href="{e(s["url"])}">{e(s["title"])} ↗</a></li>'
+            s=sources[k];out+=f'<li id="source-{k}"><span>[{ref_label(k)}]</span> <a href="{e(s["url"])}">{e(s["title"])} ↗</a></li>'
         return out+'</ul></section>'
     def shell(title,body,depth=0,photo='h1677'):
         pre='../'*depth; note='../'*(depth+1)
-        return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)} | Merton</title><meta name="description" content="从山口与河谷，到金属、木与色彩：以亲见作品阅读喜马拉雅艺术中的供养、传承与制作。"><meta property="og:image" content="https://qm2.github.io/museum-notes/himalayan-art/images/{photo}-900.webp"><link rel="stylesheet" href="{note}museum.css"><link rel="stylesheet" href="{note}caravaggio/caravaggio.css"><link rel="stylesheet" href="{pre}himalayan.css?v={revision}"><script defer src="{note}caravaggio/caravaggio.js"></script><script defer src="{pre}himalayan.js?v={revision}"></script></head><body class="ha-page" id="top"><a class="skip-link" href="#main">跳至正文</a><header class="site-header"><a class="signature" href="{note}">Merton</a><nav aria-label="主导航"><a href="{pre or './'}">喜马拉雅艺术</a><a href="{pre}#places">地域导览</a><a href="{pre}#catalogue">亲见目录</a></nav></header><main id="main" class="wrap">{body}</main><footer class="site-footer wrap"><a href="{note}">← 博物馆札记</a><span>现场摄影与札记 / Merton</span><a href="#top">回到顶部 ↑</a></footer>{LIGHTBOX}</body></html>'''
+        return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)} | Merton</title><meta name="description" content="从山口与河谷，到金属、木与色彩：以亲见作品阅读喜马拉雅艺术中的供养、传承与制作。"><meta property="og:image" content="{asset_url("https://qm2.github.io/museum-notes/himalayan-art/",manifest[photo]["variants"][1]["path"])}"><link rel="stylesheet" href="{note}museum.css"><link rel="stylesheet" href="{note}caravaggio/caravaggio.css"><link rel="stylesheet" href="{pre}himalayan.css?v={revision}"><script defer src="{note}caravaggio/caravaggio.js"></script><script defer src="{pre}himalayan.js?v={revision}"></script></head><body class="ha-page" id="top"><a class="skip-link" href="#main">跳至正文</a><header class="site-header"><a class="signature" href="{note}">Merton</a><nav aria-label="主导航"><a href="{pre or './'}">喜马拉雅艺术</a><a href="{pre}#places">地域导览</a><a href="{pre}#catalogue">亲见目录</a></nav></header><main id="main" class="wrap">{body}</main><footer class="site-footer wrap"><a href="{note}">← 博物馆札记</a><span>现场摄影与札记 / Merton</span><a href="#top">回到顶部 ↑</a></footer>{LIGHTBOX}</body></html>'''
     def facts(w):
         rel={'regional_attribution':'地域归属','candidate_origin':'候选制作地区','style_and_candidate_origin':'风格联系／候选制作地区'}
         assoc='；'.join(pb[a['place_id']]['label_zh']+'（'+rel.get(a['relationship'],'相关地区')+'）' for a in w['map_associations'])
@@ -139,9 +143,11 @@ def build(base=BASE, integrate=True):
         if us:
             body+='<div class="ha-prose"><p>'+e('；'.join(us[0]['look_for'][:2]))+'。</p><p>'+' · '.join(f'<a href="../{u["unit_id"]}/">细读：{e(u["title_zh"])} →</a>' for u in us)+'</p></div>'
         maplink=f'<p><a href="../?work={wid}#places">在地图中看相关地区 →</a></p>' if w.get('himalayan_default_inclusion',True) else ''
+        if w.get('catalogue_paragraphs'):body+='<div class="ha-prose">'+''.join('<p>'+e(t)+'</p>' for t in w['catalogue_paragraphs'])+research_sections(w.get('catalogue_sections',[]),w['source_ids'])+'</div>'
         body+=notes(w)+(gallery(w) if wid!='w1692' else '')+f'<section class="ha-section ha-prose"><h2>作品资料</h2>{facts(w)}{links(w)}{maplink}</section>'
         # Independent labels are explicitly private in the supplied photo manifest.
-        if w['label_photos']:body+='<details class="ha-prose"><summary>现场资料</summary><p>基本资料依据现场展签整理。'+e(w['title_en'])+(('；馆藏号 '+w['accession']) if w.get('accession') else '')+'。</p>'+notes(w)+'</details>'
+        if w.get('public_label_photos'):body+='<details class="ha-prose" id="labels"><summary>现场展签</summary>'+''.join(fig(n,caps[n],'../') for n in w['public_label_photos'])+'</details>'
+        elif w['label_photos']:body+='<details class="ha-prose"><summary>现场资料</summary><p>基本资料依据现场展签整理。'+e(w['title_en'])+(('；馆藏号 '+w['accession']) if w.get('accession') else '')+'。</p>'+notes(w)+'</details>'
         others=[n for n in w['art_photos'] if n!=photo]
         if others:body+='<details class="ha-alternates"><summary>其他现场视角</summary><div class="ha-plates">'+''.join(fig(n,caps.get(n,w['title_zh']+' · 另一张现场照片'),'../') for n in others)+'</div></details>'
         observations=[v for v in visits if v['work_id']==wid and v.get('public',False) and has_visit_note(v)]
@@ -186,13 +192,14 @@ def build(base=BASE, integrate=True):
             body+='<div class="ha-comparison-preview compare-group">'
             for k in u['comparison_work_ids']:
                 a=by[k];photo=a['primary_photo']
-                body+=f'<article data-comparison="{k}"><a data-photo href="../{manifest[photo]["original"]}" data-caption="{e(caption(a))}">{img(photo,a["image_alt_zh"],"../",small=True)}</a><div><h3><a href="../{k}/">{e(a["title_zh"])}</a></h3><p class="ha-note">{e(collection(a))}</p>'
+                body+=f'<article data-comparison="{k}"><a data-photo href="{asset_url("../",manifest[photo]["original"])}" data-caption="{e(caption(a))}">{img(photo,a["image_alt_zh"],"../",small=True)}</a><div><h3><a href="../{k}/">{e(a["title_zh"])}</a></h3><p class="ha-note">{e(collection(a))}</p>'
                 if a.get('has_shared_frame'):body+=notes(a)
                 body+='</div></article>'
             body+='</div><details class="ha-comparison"><summary>展开并看 · '+str(len(u['comparison_work_ids']))+'条相关记录</summary><p class="ha-note">图片按各自比例展示，实物不等大。</p><div class="ha-comparison-grid compare-group">'
             for k in u['comparison_work_ids']:
                 a=by[k];ids+=a['source_ids'];body+='<article>'+fig(a['primary_photo'],caption(a),'../')+f'<h3><a href="../{k}/">{e(a["title_zh"])}</a></h3><p class="ha-note">{e(a.get("materials_display") or "材料尚未核录")}</p>'+notes(a)+links(a)+refmark(a['source_ids'])+'</article>'
             body+='</div></details></section>'
+        if u.get('related_catalogue_ids'):body+='<aside class="ha-prose"><h2>更多亲见作品</h2><div class="ha-history-works">'+''.join(mini(by[k]) for k in u['related_catalogue_ids'])+'</div></aside>'
         body+=history_links(wid)+refs(ids)+'<nav class="ha-next" aria-label="细读翻页">'
         if index:body+=f'<a href="../{units[index-1]["unit_id"]}/">← {e(units[index-1]["title_zh"])}</a>'
         if index+1<len(units):body+=f'<a href="../{units[index+1]["unit_id"]}/">{e(units[index+1]["title_zh"])} →</a>'
@@ -229,13 +236,13 @@ def build(base=BASE, integrate=True):
         mat=next((v for ks,v in [('象牙','象牙'),('泥','泥塑'),('木','木'),('布纸绣','绘画与织物'),('铜银铁','金属'),('石','石')] if any(k in m for k in ks)),'其他／未详')
         title=w['title_zh'];tag='其他尊神与人物'
         # Match complete terms, not individual characters.
-        for terms,val in [(['观音'],'观音'),(['文殊'],'文殊'),(['佛塔','经板','佛龛','法冠','仪式','转经轮','项链','佛坛'],'器物与供养'),(['唐卡','曼荼罗','肖像'],'绘画与传承'),(['金刚','亥母','明妃','空行','大黑天'],'本尊与护法'),(['湿婆','难近母','乌玛','因陀罗','苏利耶','婆苏'],'印度教诸神'),(['佛'],'佛')]:
+        for terms,val in [(['观音'],'观音'),(['文殊'],'文殊'),(['佛塔','经板','佛龛','法冠','仪式','转经轮','项链','佛坛'],'器物与供养'),(['唐卡','曼荼罗','肖像'],'绘画与传承'),(['金刚','亥母','明妃','空行','大黑天'],'本尊与护法'),(['湿婆','毗湿奴','难近母','乌玛','因陀罗','苏利耶','婆苏'],'印度教诸神'),(['佛'],'佛')]:
             if any(t in title for t in terms):tag=val;break
         return mat,tag
     client=[]
     for w in works:
         mat,tag=filter_tags(w)
-        client.append({**{k:w.get(k) for k in ['work_id','title_zh','title_en','date_start','date_end','date_label','region_ids','display_museum_id','collection_museum_id','map_enabled','map_associations','primary_photo','chapter_ids']},'collection':collection(w),'search':' '.join(str(w.get(k) or '') for k in ['title_zh','title_en','accession','materials_display','collection_label','museum_label']),'material':mat,'theme':tag,'reading_unit_ids':[u['unit_id'] for u in units if w['work_id'] in u['work_ids']]})
+        client.append({**{k:w.get(k) for k in ['work_id','title_zh','title_en','date_start','date_end','date_label','region_ids','display_museum_id','collection_museum_id','map_enabled','map_associations','primary_photo','thumbnail_path','chapter_ids']},'collection':collection(w),'search':' '.join(str(w.get(k) or '') for k in ['title_zh','title_en','accession','materials_display','collection_label','museum_label']),'material':mat,'theme':tag,'reading_unit_ids':[u['unit_id'] for u in units if w['work_id'] in u['work_ids']]})
     external={w['work_id']:'../yongle-xuande/#'+w['work_id'] for w in records if not w.get('himalayan_default_inclusion',True)}
     external.update({old:external[target] for old,target in aliases.items() if target in external})
     dump('navigation',{'works':client,'external_works':external,'units':[{'id':u['unit_id'],'title':u['title_zh'],'works':u['work_ids']} for u in units],'groups':groups,'places':places,'museums':museums})
@@ -255,6 +262,7 @@ def build(base=BASE, integrate=True):
         candidates=([g for g in groups if mode=='extended' or not g.get('extension')] if mode!='museums' else [m for m in museums if m.get('latitude') is not None and any(w.get('display_museum_id')==m['museum_id'] for w in works)])
         occupied=[];label_boxes=[]
         for i,d in enumerate(candidates):
+            if d.get('longitude') is None or d.get('latitude') is None:continue
             key=d['museum_id'] if mode=='museums' else d['id'];label=d['label_zh'] if mode=='museums' else d['label'];x,y=xy(d['longitude'],d['latitude']);lx,ly=x,y
             # Automatic callouts, including newly added institutions. Full labels live in the equivalent list.
             for j in range(90):

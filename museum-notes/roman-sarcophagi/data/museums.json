@@ -70,5 +70,13 @@
     "lon": -73.96,
     "lat": 40.78,
     "coordinate_precision": "城市／博物馆区域示意，非古代来源地点"
+  },
+  {
+    "id": "sama",
+    "name": "圣安东尼奥美术馆",
+    "city": "圣安东尼奥",
+    "lon": -98.482,
+    "lat": 29.437,
+    "coordinate_precision": "观看机构导航，非古代来源地"
   }
 ]

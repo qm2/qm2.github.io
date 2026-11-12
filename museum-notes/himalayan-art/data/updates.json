@@ -47,5 +47,43 @@
     "source_ids": [],
     "public": true,
     "evidence": "现场展签 h1712及既有虚舟 x06；本专题首版资料核对，提交 687899b。日期为资料发布日。"
+  },
+  {
+    "update_id": "sama-2026-sama-08",
+    "published_on": "2026-11-11",
+    "kind": "new",
+    "work_id": "sama-08",
+    "summary": "佛传八大事，把人生故事与朝圣地点聚在同一块碑上。",
+    "visit_id": null,
+    "source_ids": [
+      "SAMA13",
+      "SAMA14"
+    ],
+    "public": true
+  },
+  {
+    "update_id": "sama-2026-sama-09",
+    "published_on": "2026-11-11",
+    "kind": "new",
+    "work_id": "sama-09",
+    "summary": "上师肖像的现场题名与网上记录并列，补入环座与背面照片。",
+    "visit_id": null,
+    "source_ids": [
+      "SAMA04"
+    ],
+    "public": true
+  },
+  {
+    "update_id": "sama-2026-sama-14",
+    "published_on": "2026-11-11",
+    "kind": "new",
+    "work_id": "sama-14",
+    "summary": "新增仍然横向相连的四位舞蹈女尊构件。",
+    "visit_id": null,
+    "source_ids": [
+      "SAMA10",
+      "SAMA11"
+    ],
+    "public": true
   }
 ]

@@ -3,6 +3,7 @@ from pathlib import Path
 from html import escape as e
 import json,re,math
 from build_homer import LIGHTBOX
+from museum_assets import asset_url
 ROOT=Path(__file__).resolve().parents[1]
 BASE=ROOT/'museum-notes/roman-sarcophagi'
 
@@ -16,16 +17,16 @@ def build():
  def paras(items):return ''.join('<p>'+e(p['text'])+source_links(p.get('source_ids',[]))+'</p>' for p in items)
  def image(key,pre='',eager=False,alt=None,sizes='(max-width:650px) 92vw, (max-width:1000px) 80vw, 1080px'):
   p=photos[str(key)];variants=p['variants'];small=min(variants,key=lambda v:abs(v['width']-960));text=alt or p['caption']
-  return f'<img src="{pre}images/{small["file"]}" srcset="'+', '.join(f'{pre}images/{v["file"]} {v["width"]}w' for v in variants)+f'" sizes="{sizes}" width="{p["display_width"]}" height="{p["display_height"]}" alt="{e(text)}" loading="{"eager" if eager else "lazy"}" decoding="async"'+(' fetchpriority="high"' if eager else '')+'>'
+  return f'<img src="{asset_url(pre+"images/",small["file"])}" srcset="'+', '.join(f'{asset_url(pre+"images/",v["file"])} {v["width"]}w' for v in variants)+f'" sizes="{sizes}" width="{p["display_width"]}" height="{p["display_height"]}" alt="{e(text)}" loading="{"eager" if eager else "lazy"}" decoding="async"'+(' fetchpriority="high"' if eager else '')+'>'
  def figure(key,pre='',caption=None,eager=False):
   key=str(key);p=photos[key];src=photos[p['source']] if p.get('source') else p;cap=caption or p['caption']
-  return f'<figure class="rs-photo" style="--photo-width:{p["display_width"]}px"><a data-photo href="{pre}images/{p["full"]}" data-original="{pre}images/originals/{src["original"]}" data-caption="{e(cap)} · Merton摄" aria-label="放大：{e(cap)}">{image(key,pre,eager,cap)}</a><figcaption>{e(cap)} · Merton摄</figcaption></figure>'
+  return f'<figure class="rs-photo" style="--photo-width:{p["display_width"]}px"><a data-photo href="{asset_url(pre+"images/",p["full"])}" data-original="{asset_url(pre+"images/originals/",src["original"])}" data-caption="{e(cap)} · Merton摄" aria-label="放大：{e(cap)}">{image(key,pre,eager,cap)}</a><figcaption>{e(cap)} · Merton摄</figcaption></figure>'
  def bibliography(keys):
   return '<ol class="rs-bibliography">'+''.join(f'<li value="{sn[k]}"><a href="{e(sb[k]["url"])}">{e(sb[k]["title"])} ↗</a></li>' for k in dict.fromkeys(keys) if k in sb)+'</ol>'
  def work_sources(w):
   content=notes[w['id']];return list(dict.fromkeys(w.get('source_ids',[])+[k for s in content['sections'] for p in s['paragraphs'] for k in p.get('source_ids',[])]+[k for p in content['notes'] for k in p.get('source_ids',[])]))
  def shell(title,body,depth=0,cover='1925',description=''):
-  pre='../'*depth;up='../'*(depth+1);p=photos[cover];share='https://qm2.github.io/museum-notes/roman-sarcophagi/images/'+p['full']
+  pre='../'*depth;up='../'*(depth+1);p=photos[cover];share=asset_url('https://qm2.github.io/museum-notes/roman-sarcophagi/images/',p['full'])
   return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)} | Merton · 博物馆札记</title><meta name="description" content="{e(description or '从战争、酒神与英雄的故事，走近古罗马石棺中的人物和纪念。Merton的博物馆现场摄影与札记。')}"><meta property="og:image" content="{share}"><link rel="stylesheet" href="{up}museum.css"><link rel="stylesheet" href="{up}caravaggio/caravaggio.css"><link rel="stylesheet" href="{pre}roman.css"><script src="{up}caravaggio/caravaggio.js" defer></script><script src="{pre}roman.js" defer></script></head><body class="rs-page" id="top"><a class="skip-link" href="#main">跳至正文</a><header class="site-header"><a class="signature" href="{up}">Merton</a><nav aria-label="主导航"><a href="{pre or './'}">罗马石棺</a><a href="{pre}history/">历史与观看</a><a href="{pre}stories/">人物与故事</a><a href="{pre}atlas/">所见图录</a><a href="{pre}compare/">并看</a></nav></header><main id="main" class="wrap">{body}</main><footer class="site-footer wrap"><a href="{up}">← 博物馆札记</a><span>现场摄影 / Merton</span><a href="#top">回到顶部 ↑</a></footer>{LIGHTBOX}</body></html>'''
  def write(route,html):
   target=BASE/route;target.mkdir(exist_ok=True,parents=True);(target/'index.html').write_text(html)
@@ -185,6 +186,7 @@ def build():
    if '梵蒂冈' in m['city']:dx,dy=0,0
    textx=x+dx+8; texty=y+dy+4; anchor='start'
    if m['city']=='纽约':texty=y-24
+   if m['id']=='sama':textx=x-8;texty=y+20;anchor='end'
    if m['city']=='罗马':texty=y-7
    if '梵蒂冈' in m['city']:texty=y+17
    if textx>480:textx=x+dx-8;anchor='end'

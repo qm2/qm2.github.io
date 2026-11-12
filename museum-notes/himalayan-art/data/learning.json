@@ -286,6 +286,10 @@
             {
               "work_id": "w1579",
               "relation": "Tetravan佛像：树、主尊与台座供养人。"
+            },
+            {
+              "work_id": "sama-08",
+              "relation": "帕拉时期以八大事组织佛传"
             }
           ],
           "sections": [
@@ -384,6 +388,10 @@
             {
               "work_id": "w1552",
               "relation": "冠饰与持物明确的文殊。"
+            },
+            {
+              "work_id": "sama-18",
+              "relation": "宝冠佛的尊格仍未确定"
             }
           ],
           "sections": [
@@ -551,6 +559,10 @@
             {
               "work_id": "w1498",
               "relation": "达拉斯文殊：另一种较安静的坐姿与持物安排。"
+            },
+            {
+              "work_id": "sama-21",
+              "relation": "双臂文殊与剑、莲花"
             }
           ],
           "sections": [
@@ -1340,6 +1352,10 @@
             {
               "work_id": "w1603",
               "relation": "沃尔特斯15世纪双臂大黑天：弯刀与颅器在身体前方。"
+            },
+            {
+              "work_id": "sama-24",
+              "relation": "嘎乌上可能的大黑天"
             }
           ],
           "sections": [
@@ -1701,6 +1717,10 @@
             {
               "work_id": "w1474",
               "relation": "清宫六品佛楼陈设：较晚的制度与供养背景，不是宗喀巴个人活动的实物证据。"
+            },
+            {
+              "work_id": "sama-15",
+              "relation": "本人肖像与肩旁剑、经书"
             }
           ],
           "sections": [
@@ -1753,7 +1773,8 @@
             "甘丹寺",
             "Ganden",
             "黄帽"
-          ]
+          ],
+          "photo_work_id": "sama-15"
         },
         {
           "id": "ngorchen",
@@ -2145,6 +2166,10 @@
             {
               "work_id": "w1641",
               "relation": "鲁宾藏、在西雅图所见的传承肖像。"
+            },
+            {
+              "work_id": "sama-09",
+              "relation": "现场与官网题名不同的上师肖像"
             }
           ],
           "sections": [
@@ -2193,6 +2218,10 @@
             {
               "work_id": "w1556",
               "relation": "象牙佛传构件：用雕刻比较叙事阅读，并非唐卡。"
+            },
+            {
+              "work_id": "sama-11",
+              "relation": "净土图中的殿阁与莲池"
             }
           ],
           "sections": [

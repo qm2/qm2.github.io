@@ -42,12 +42,14 @@
   },
   {
     "id": "nepal",
-    "label": "加德满都山谷",
+    "label": "尼泊尔与加德满都山谷",
     "members": [
-      "kathmandu-valley"
+      "kathmandu-valley",
+      "nepal-broad"
     ],
     "longitude": 85.3,
-    "latitude": 27.7
+    "latitude": 27.7,
+    "filter_label": "尼泊尔与加德满都山谷"
   },
   {
     "id": "east-india",

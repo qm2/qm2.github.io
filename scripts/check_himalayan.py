@@ -9,6 +9,7 @@ from pathlib import Path
 from urllib.parse import urlsplit, unquote
 from PIL import Image, ImageOps
 from build_himalayan import BASE, ROOT, build
+from museum_assets import sama_media
 
 read = lambda name: json.loads((BASE/'data'/f'{name}.json').read_text())
 works, photos, units = read('works'), read('photos'), read('reading_units')
@@ -20,9 +21,9 @@ assert not {'w1514','w1625','w1627','w1717'} & wb.keys()
 assert wb['w1486']['himalayan_default_inclusion'] is False
 assert read('work_aliases')['w1514']=='w1486'
 assert not {'h1487','h1515','h1625','h1626','h1627','h1628','h1717','h1718'} & pb.keys()
-assert set(p.stem for p in (BASE/'images/originals').glob('*')) == pb.keys()
+assert set(p.stem for p in (BASE/'images/originals').glob('*')) == {p['photo_id'] for p in photos if not p.get('remote_asset')}
 assert all(not p['do_not_publish'] and p['public_asset'] for p in photos)
-allowed = {n for w in works for n in w['art_photos'] + w['detail_photos'] + [w['primary_photo']]}
+allowed = {n for w in works for n in w['art_photos'] + w['detail_photos'] + w.get('public_label_photos',[]) + [w['primary_photo']]}
 assert allowed == pb.keys(), 'Only mapped artwork photos may be published'
 sources = {s['source_id'] for s in read('sources')}
 crops={c['crop_id']:c for c in read('photo_crops')}
@@ -40,12 +41,16 @@ for c in crops.values():
 assert {p.stem for p in (BASE/'images/details').glob('*')}==crops.keys()
 for w in works:
     assert all(s in sources for s in w['source_ids'])
-    assert (BASE/w['primary_path']).is_file() and (BASE/w['thumbnail_path']).is_file()
+    if w['primary_photo'].startswith('s'):
+        assert w['primary_path'].startswith('https://images.mertonmuseum.com/') and w['thumbnail_path'].startswith('https://images.mertonmuseum.com/')
+    else: assert (BASE/w['primary_path']).is_file() and (BASE/w['thumbnail_path']).is_file()
     assert (BASE/w['work_id']/'index.html').is_file()
 for u in units:
     assert all(w in wb for w in u['work_ids'])
     assert (BASE/u['unit_id']/'index.html').is_file()
 for p in photos:
+    if p.get('remote_asset'):
+        assert p['sha256']==sama_media()[p['remote_asset']]['sha256']; continue
     path = BASE/p['path']
     assert hashlib.sha256(path.read_bytes()).hexdigest() == p['sha256'], path
     im = ImageOps.exif_transpose(Image.open(path))

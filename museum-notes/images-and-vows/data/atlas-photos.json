@@ -2779,5 +2779,93 @@
     "role": "label",
     "work_id": "penn-1895",
     "original_filename": "Image_20261106141114_1898_19.jpg"
+  },
+  "2465": {
+    "number": 2465,
+    "original": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2465_19.jpg",
+    "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2465-900.webp",
+    "variants": [
+      {
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2465-400.webp",
+        "width": 400
+      },
+      {
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2465-900.webp",
+        "width": 900
+      },
+      {
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2465-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "6f0e5b07e8f1ac4eafff16c4d23dc54075892239084c7ed8cf59bbb63feba2b7",
+    "rotation_ccw": 0,
+    "caption": "正面",
+    "role": "front",
+    "work_id": "sama-eastern-wei-maitreya",
+    "original_filename": "Image_20261111162027_2465_19.jpg",
+    "remote_asset": "2465"
+  },
+  "2466": {
+    "number": 2466,
+    "original": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2466_19.jpg",
+    "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2466-900.webp",
+    "variants": [
+      {
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2466-400.webp",
+        "width": 400
+      },
+      {
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2466-900.webp",
+        "width": 900
+      },
+      {
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2466-1280.webp",
+        "width": 1280
+      }
+    ],
+    "width": 1280,
+    "height": 1707,
+    "sha256": "b9c79d7d611e254a498dc2024c4778ce06e7e60cde02a09da2a2da00c9341a26",
+    "rotation_ccw": 0,
+    "caption": "斜侧",
+    "role": "side",
+    "work_id": "sama-eastern-wei-maitreya",
+    "original_filename": "Image_20261111162027_2466_19.jpg",
+    "remote_asset": "2466"
+  },
+  "2467": {
+    "number": 2467,
+    "original": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2467_19.jpg",
+    "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2467-900.webp",
+    "variants": [
+      {
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2467-400.webp",
+        "width": 400
+      },
+      {
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2467-900.webp",
+        "width": 900
+      },
+      {
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2467-1600.webp",
+        "width": 1600
+      },
+      {
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2467-1707.webp",
+        "width": 1707
+      }
+    ],
+    "width": 1707,
+    "height": 1280,
+    "sha256": "4884e9973e5f4a47c91c602d26782504214b6e7c9ac56667d63cdf4ba97f0247",
+    "rotation_ccw": 0,
+    "caption": "现场展签",
+    "role": "label",
+    "work_id": "sama-eastern-wei-maitreya",
+    "original_filename": "Image_20261111162027_2467_19.jpg",
+    "remote_asset": "2467"
   }
 }

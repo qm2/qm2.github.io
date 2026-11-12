@@ -179,5 +179,15 @@
     "longitude": 2.312,
     "url": "https://www.cernuschi.paris.fr/",
     "coordinates_precision": "institution_navigation"
+  },
+  {
+    "museum_id": "sama",
+    "label_zh": "圣安东尼奥美术馆",
+    "name_en": "San Antonio Museum of Art",
+    "city": "圣安东尼奥",
+    "latitude": 29.437,
+    "longitude": -98.482,
+    "url": "https://www.samuseum.org/",
+    "coordinates_precision": "institution_navigation"
   }
 ]

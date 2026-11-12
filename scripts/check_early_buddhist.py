@@ -4,10 +4,11 @@ from html.parser import HTMLParser
 from urllib.parse import urlsplit,unquote
 from PIL import Image
 import json,hashlib,re
+from museum_assets import sama_media
 ROOT=Path(__file__).resolve().parents[1];B=ROOT/'museum-notes/early-buddhist-art'
 read=lambda f:json.loads((B/'data'/f).read_text())
 works=read('works.json');by={w['id']:w for w in works};units=read('readings.json');photos=read('photos.json');geo=read('map.json');deriv=read('derivatives.json')
-assert len(works)==len(by)==72 and len(units)==18 and len(photos)==151
+assert len(works)==len(by)==76 and len(units)==18 and len(photos)==162
 assert len({w['id'] for w in works if w['accession']=='1979.6'})==1
 assert len({w['id'] for w in works if w['accession']=='45-15'})==1
 assert by['w1343']['photos']==['1343','1464']
@@ -23,12 +24,16 @@ assert by['w1417']['accession']=='F1994.17' and by['w1405']['accession']=='25.26
 used={n for w in works for n in w['photos']+w['labels']}
 assert not used.intersection({'1347','1348','1438','1439','1453'})
 for p in photos:
+ if p.get('remote_asset'):
+  assert p['sha256']==sama_media()[p['remote_asset']]['sha256']; continue
  if p['asset_id'] in used:
   path=B/'images/originals'/p['original_filename'];assert hashlib.sha256(path.read_bytes()).hexdigest()==p['sha256'],path
 for n,m in deriv.items():
  for v in m['variants']:
   assert v['width']<=m['width']
-  assert Image.open(B/v['path']).size==(v['width'],v['height'])
+  if v['path'].startswith('https://'):
+   assert m==sama_media()[n]
+  else: assert Image.open(B/v['path']).size==(v['width'],v['height'])
 for w in works:
  assert w['date_range'] is None or w['date_range'][0]<=w['date_range'][1]
  assert w['photo'] in w['photos'];assert w['labels'] or w['sources']
@@ -75,7 +80,7 @@ for path in B.rglob('*.html'):
  for link in page.links:
   u=urlsplit(link)
   if u.scheme or u.netloc:continue
-  target=(path.parent/unquote(u.path)).resolve() if u.path else path
+  target=(ROOT/unquote(u.path).lstrip('/') if u.path.startswith('/') else path.parent/unquote(u.path)).resolve() if u.path else path
   if target.is_dir():target=target/'index.html'
   if not target.exists():errors.append((str(path.relative_to(ROOT)),link,'missing'));continue
   if u.fragment and target.suffix=='.html':
@@ -85,4 +90,4 @@ assert not errors,errors[:30]
 assert len(list(B.rglob('index.html')))==19
 for path in [ROOT/'museum-notes/index.html',ROOT/'museum-notes/south-asian-art/index.html']:
  assert path.read_text().count('<!-- early-buddhist-')==1
-print('PASS: 72 canonical records; 18 readings; original hashes; crop provenance; temporal and geographic distinctions; all 19 pages and local links.')
+print('PASS: 76 canonical records; 18 readings; original hashes; crop provenance; temporal and geographic distinctions; all 19 pages and local links.')

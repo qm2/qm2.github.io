@@ -2331,5 +2331,249 @@
       }
     ],
     "full": "met-before-restoration-482.webp"
+  },
+  "2389": {
+    "original": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2389_19.jpg",
+    "number": 2389,
+    "role": "artwork",
+    "width": 1707,
+    "height": 1280,
+    "sha256": "62b160a354ac51334a81e0e03b0fe0dc38ebe20fbcbc924e6c8c49779f827dce",
+    "bytes": 279848,
+    "object_ids": [
+      "r28"
+    ],
+    "rotation": 0,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "width": 400,
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2389-400.webp"
+      },
+      {
+        "width": 900,
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2389-900.webp"
+      },
+      {
+        "width": 1600,
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2389-1600.webp"
+      },
+      {
+        "width": 1707,
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2389-1707.webp"
+      }
+    ],
+    "full": "https://images.mertonmuseum.com/museum-notes/sama-2026/2389-1707.webp",
+    "caption": "花环与狩猎场景石棺正面全景",
+    "remote_asset": "2389"
+  },
+  "2390": {
+    "original": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2390_19.jpg",
+    "number": 2390,
+    "role": "artwork",
+    "width": 1280,
+    "height": 1707,
+    "sha256": "dd75ddf34c34fe3bd872e06fed28bee5cfc8a358c4fe9bd4abb1d33470ca7243",
+    "bytes": 261620,
+    "object_ids": [
+      "r28"
+    ],
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "width": 400,
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2390-400.webp"
+      },
+      {
+        "width": 900,
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2390-900.webp"
+      },
+      {
+        "width": 1280,
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2390-1280.webp"
+      }
+    ],
+    "full": "https://images.mertonmuseum.com/museum-notes/sama-2026/2390-1280.webp",
+    "caption": "石棺一侧：果实花环与上方小场景",
+    "remote_asset": "2390"
+  },
+  "2391": {
+    "original": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2391_19.jpg",
+    "number": 2391,
+    "role": "artwork",
+    "width": 1024,
+    "height": 1366,
+    "sha256": "45243d76c5bfda75b70d6b188cabbe70d5c7082d886cf7b6dc20deb2d519e78a",
+    "bytes": 175988,
+    "object_ids": [
+      "r28"
+    ],
+    "rotation": 0,
+    "display_width": 1024,
+    "display_height": 1366,
+    "variants": [
+      {
+        "width": 400,
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2391-400.webp"
+      },
+      {
+        "width": 900,
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2391-900.webp"
+      },
+      {
+        "width": 1024,
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2391-1024.webp"
+      }
+    ],
+    "full": "https://images.mertonmuseum.com/museum-notes/sama-2026/2391-1024.webp",
+    "caption": "石棺另一侧与棺盖的侧面轮廓",
+    "remote_asset": "2391"
+  },
+  "2392": {
+    "original": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2392_19.jpg",
+    "number": 2392,
+    "role": "artwork",
+    "width": 1707,
+    "height": 1280,
+    "sha256": "c9d50834e2717835db167a03f88a9c373bedf3ed199fef3d09c498b73491faac",
+    "bytes": 379684,
+    "object_ids": [
+      "r28"
+    ],
+    "rotation": 0,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "width": 400,
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2392-400.webp"
+      },
+      {
+        "width": 900,
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2392-900.webp"
+      },
+      {
+        "width": 1600,
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2392-1600.webp"
+      },
+      {
+        "width": 1707,
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2392-1707.webp"
+      }
+    ],
+    "full": "https://images.mertonmuseum.com/museum-notes/sama-2026/2392-1707.webp",
+    "caption": "中央爱神与两弯花环",
+    "remote_asset": "2392"
+  },
+  "2393": {
+    "original": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2393_19.jpg",
+    "number": 2393,
+    "role": "artwork",
+    "width": 1707,
+    "height": 1280,
+    "sha256": "f7cfa9f2f36a35216ea6c6be3bfbe09cacd2e0b5449cc76ce8bae51471b1bdaa",
+    "bytes": 399188,
+    "object_ids": [
+      "r28"
+    ],
+    "rotation": 0,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "width": 400,
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2393-400.webp"
+      },
+      {
+        "width": 900,
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2393-900.webp"
+      },
+      {
+        "width": 1600,
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2393-1600.webp"
+      },
+      {
+        "width": 1707,
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2393-1707.webp"
+      }
+    ],
+    "full": "https://images.mertonmuseum.com/museum-notes/sama-2026/2393-1707.webp",
+    "caption": "驴与装载猎物的人物局部",
+    "remote_asset": "2393"
+  },
+  "2394": {
+    "original": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2394_19.jpg",
+    "number": 2394,
+    "role": "artwork",
+    "width": 1707,
+    "height": 1280,
+    "sha256": "b54d8cb878ce083823f001e612f74f19de879f9a63c5773a1d3cb6108d65fe1e",
+    "bytes": 378170,
+    "object_ids": [
+      "r28"
+    ],
+    "rotation": 0,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "width": 400,
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2394-400.webp"
+      },
+      {
+        "width": 900,
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2394-900.webp"
+      },
+      {
+        "width": 1600,
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2394-1600.webp"
+      },
+      {
+        "width": 1707,
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2394-1707.webp"
+      }
+    ],
+    "full": "https://images.mertonmuseum.com/museum-notes/sama-2026/2394-1707.webp",
+    "caption": "猎人与猎犬场景局部",
+    "remote_asset": "2394"
+  },
+  "2395": {
+    "original": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2395_19.jpg",
+    "number": 2395,
+    "role": "label",
+    "width": 1702,
+    "height": 1276,
+    "sha256": "5f45ec666df720d77ac32ec55ee3551fb1c3f284bef86f963432443570960783",
+    "bytes": 247646,
+    "object_ids": [
+      "r28"
+    ],
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "width": 400,
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2395-400.webp"
+      },
+      {
+        "width": 900,
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2395-900.webp"
+      },
+      {
+        "width": 1600,
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2395-1600.webp"
+      },
+      {
+        "width": 1702,
+        "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2395-1702.webp"
+      }
+    ],
+    "full": "https://images.mertonmuseum.com/museum-notes/sama-2026/2395-1702.webp",
+    "caption": "作品展牌：年代、狩猎图像及再用与重刻讨论",
+    "remote_asset": "2395"
   }
 }

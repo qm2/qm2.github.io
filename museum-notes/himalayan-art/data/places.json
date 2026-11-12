@@ -262,5 +262,23 @@
     "precision": "candidate_region",
     "coordinate_basis": "编辑用现代地理参照；约略位置",
     "note": "只在44-18归属争议比较时显示；不是已证实的制作地址。"
+  },
+  {
+    "place_id": "nepal-broad",
+    "label_zh": "尼泊尔：具体地区未定",
+    "latitude": 28.2,
+    "longitude": 84.1,
+    "radius_km": 180,
+    "precision": "region",
+    "coordinate_basis": "现代地理参照，非确定制作地",
+    "note": "尼泊尔宽地域；不自动等同加德满都工坊。"
+  },
+  {
+    "place_id": "sino-tibetan-style",
+    "label_zh": "汉藏艺术联系（制作地未定）",
+    "latitude": null,
+    "longitude": null,
+    "precision": "unlocated_style",
+    "note": "风格关联，没有据此定位宫廷或工坊。"
   }
 ]

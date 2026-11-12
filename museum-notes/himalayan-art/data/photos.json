@@ -3018,5 +3018,1157 @@
     "do_not_publish": false,
     "visit_id": "cernuschi-view-b",
     "caption": "旃檀瑞像传统佛立像 · 赛努奇博物馆藏，2025年8月纽约大都会借展所见（白色背景）"
+  },
+  {
+    "photo_id": "s2407",
+    "sequence": 2407,
+    "original_filename": "Image_20261111162027_2407_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2407_19.jpg",
+    "sha256": "e05d5e03eabc98259a5c6ab8ba08165138b4dd474f06f58ce09a27eda80cd5ea",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 472374,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "sama-07"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2407-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "尼泊尔毗湿奴立像 · 现场照片",
+    "remote_asset": "2407"
+  },
+  {
+    "photo_id": "s2408",
+    "sequence": 2408,
+    "original_filename": "Image_20261111162027_2408_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2408_19.jpg",
+    "sha256": "8be98c8143d8e8a204c29111cd00d4c710496fcb59a72a6d80bece80ef499415",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 375597,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "sama-07"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2408-400.webp",
+    "sha256_preserved": true,
+    "default_use": "alternate",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "尼泊尔毗湿奴立像 · 现场照片",
+    "remote_asset": "2408"
+  },
+  {
+    "photo_id": "s2409",
+    "sequence": 2409,
+    "original_filename": "Image_20261111162027_2409_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2409_19.jpg",
+    "sha256": "d663ea9dd5616c34ff18124bb1232c89df264fc1a8ba3a0c5a60b695336c205d",
+    "width": 1707,
+    "height": 1280,
+    "bytes": 274068,
+    "roles": [
+      "label"
+    ],
+    "work_ids": [
+      "sama-07"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2409-400.webp",
+    "sha256_preserved": true,
+    "default_use": "label",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "尼泊尔毗湿奴立像 · 现场展签",
+    "remote_asset": "2409"
+  },
+  {
+    "photo_id": "s2410",
+    "sequence": 2410,
+    "original_filename": "Image_20261111162027_2410_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2410_19.jpg",
+    "sha256": "7009171ea3f0448ea39b1988f994d0e3255c5231555705f2b75f4eebf270bdbf",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 383218,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "sama-08"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2410-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "佛传八大事碑 · 现场照片",
+    "remote_asset": "2410"
+  },
+  {
+    "photo_id": "s2411",
+    "sequence": 2411,
+    "original_filename": "Image_20261111162027_2411_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2411_19.jpg",
+    "sha256": "2aaa9b4033ad5b512ca08be6d12f2ec96bc01e16f88eff82a7ce31aa5a68f10f",
+    "width": 1707,
+    "height": 1280,
+    "bytes": 223132,
+    "roles": [
+      "label"
+    ],
+    "work_ids": [
+      "sama-08"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2411-400.webp",
+    "sha256_preserved": true,
+    "default_use": "label",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "佛传八大事碑 · 现场展签",
+    "remote_asset": "2411"
+  },
+  {
+    "photo_id": "s2412",
+    "sequence": 2412,
+    "original_filename": "Image_20261111162027_2412_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2412_19.jpg",
+    "sha256": "014ee25dbcde956df2767b2f35f9f421cc2611db26b8a991cd61b6ad3ff3ccf3",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 266041,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "sama-09"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2412-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "Lama Phuntsho Sherab上师像（现场题名） · 现场照片",
+    "remote_asset": "2412"
+  },
+  {
+    "photo_id": "s2413",
+    "sequence": 2413,
+    "original_filename": "Image_20261111162027_2413_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2413_19.jpg",
+    "sha256": "adb22c9a3d48002e0e6b66e448432e9d6d5f349a39a2604a06fc4dcaab47cd35",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 249843,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "sama-09"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2413-400.webp",
+    "sha256_preserved": true,
+    "default_use": "alternate",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "Lama Phuntsho Sherab上师像（现场题名） · 现场照片",
+    "remote_asset": "2413"
+  },
+  {
+    "photo_id": "s2414",
+    "sequence": 2414,
+    "original_filename": "Image_20261111162027_2414_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2414_19.jpg",
+    "sha256": "78abe452545fda7e9187a76a6d366c4797660a9057b0476228fa1f6ca1051210",
+    "width": 1707,
+    "height": 1280,
+    "bytes": 214769,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "sama-09"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2414-400.webp",
+    "sha256_preserved": true,
+    "default_use": "alternate",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "Lama Phuntsho Sherab上师像（现场题名） · 现场照片",
+    "remote_asset": "2414"
+  },
+  {
+    "photo_id": "s2415",
+    "sequence": 2415,
+    "original_filename": "Image_20261111162027_2415_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2415_19.jpg",
+    "sha256": "7896fa9d947ad733fa41a0f3a1a9ca969f4c0152aa6f4684cd09071489baa5e4",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 187538,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "sama-09"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2415-400.webp",
+    "sha256_preserved": true,
+    "default_use": "alternate",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "Lama Phuntsho Sherab上师像（现场题名） · 现场照片",
+    "remote_asset": "2415"
+  },
+  {
+    "photo_id": "s2416",
+    "sequence": 2416,
+    "original_filename": "Image_20261111162027_2416_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2416_19.jpg",
+    "sha256": "f471fd4b6c352b107f03836fbe7cce80fd895d1d03544b2bccbb301aa1405a2a",
+    "width": 1702,
+    "height": 1276,
+    "bytes": 209900,
+    "roles": [
+      "label"
+    ],
+    "work_ids": [
+      "sama-09"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2416-400.webp",
+    "sha256_preserved": true,
+    "default_use": "label",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "Lama Phuntsho Sherab上师像（现场题名） · 现场展签",
+    "remote_asset": "2416"
+  },
+  {
+    "photo_id": "s2417",
+    "sequence": 2417,
+    "original_filename": "Image_20261111162027_2417_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2417_19.jpg",
+    "sha256": "6f9e7701afc4a1fa2676bf172706bbea6a16b5e1f4e495ac98421fc712549780",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 181854,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "sama-10"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2417-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "忿怒金刚手 · 现场照片",
+    "remote_asset": "2417"
+  },
+  {
+    "photo_id": "s2418",
+    "sequence": 2418,
+    "original_filename": "Image_20261111162027_2418_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2418_19.jpg",
+    "sha256": "2d5ac87fa902da300d28c78dcbb3d7a24022e6d6904e0d12b5501e259a1ead9f",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 142946,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "sama-10"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2418-400.webp",
+    "sha256_preserved": true,
+    "default_use": "alternate",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "忿怒金刚手 · 现场照片",
+    "remote_asset": "2418"
+  },
+  {
+    "photo_id": "s2419",
+    "sequence": 2419,
+    "original_filename": "Image_20261111162027_2419_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2419_19.jpg",
+    "sha256": "e355bf3ecce6b6903ac6825d4ca6a7b86e5bd1442c3f6ae5943cdd903a63dd83",
+    "width": 960,
+    "height": 1280,
+    "bytes": 91001,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "sama-10"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2419-400.webp",
+    "sha256_preserved": true,
+    "default_use": "alternate",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "忿怒金刚手 · 现场照片",
+    "remote_asset": "2419"
+  },
+  {
+    "photo_id": "s2420",
+    "sequence": 2420,
+    "original_filename": "Image_20261111162027_2420_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2420_19.jpg",
+    "sha256": "34e96b21115aab3bfefa1003012df1eb8de2ff46caa9450ffe97d5223fdf39a9",
+    "width": 1702,
+    "height": 1276,
+    "bytes": 195075,
+    "roles": [
+      "label"
+    ],
+    "work_ids": [
+      "sama-10"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2420-400.webp",
+    "sha256_preserved": true,
+    "default_use": "label",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "忿怒金刚手 · 现场展签",
+    "remote_asset": "2420"
+  },
+  {
+    "photo_id": "s2421",
+    "sequence": 2421,
+    "original_filename": "Image_20261111162027_2421_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2421_19.jpg",
+    "sha256": "1d2a5bf715ab110a5c66ad10b04182fff1c8676a92b47e273d3d96095e4a000f",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 338928,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "sama-11"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2421-400.webp",
+    "sha256_preserved": true,
+    "default_use": "alternate",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "阿弥陀佛极乐净土图 · 现场照片",
+    "remote_asset": "2421"
+  },
+  {
+    "photo_id": "s2422",
+    "sequence": 2422,
+    "original_filename": "Image_20261111162027_2422_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2422_19.jpg",
+    "sha256": "d644a6008243a00de9fa7843d041ec5b67d7b905c33b56042269c44f9d41dfc3",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 351348,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "sama-11"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2422-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "阿弥陀佛极乐净土图 · 现场照片",
+    "remote_asset": "2422"
+  },
+  {
+    "photo_id": "s2423",
+    "sequence": 2423,
+    "original_filename": "Image_20261111162027_2423_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2423_19.jpg",
+    "sha256": "2d8e93446c2f253f8b8bf1370ac2fc870cf09829389dca9f771e70ddc58a39a9",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 488129,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "sama-11"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2423-400.webp",
+    "sha256_preserved": true,
+    "default_use": "alternate",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "阿弥陀佛极乐净土图 · 现场照片",
+    "remote_asset": "2423"
+  },
+  {
+    "photo_id": "s2424",
+    "sequence": 2424,
+    "original_filename": "Image_20261111162027_2424_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2424_19.jpg",
+    "sha256": "34043e8494de569ddab45d5d7cf95375f984d4a48cc3b3f3a68fb4bb6e7ddcd6",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 233783,
+    "roles": [
+      "label"
+    ],
+    "work_ids": [
+      "sama-11"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2424-400.webp",
+    "sha256_preserved": true,
+    "default_use": "label",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "阿弥陀佛极乐净土图 · 现场展签",
+    "remote_asset": "2424"
+  },
+  {
+    "photo_id": "s2425",
+    "sequence": 2425,
+    "original_filename": "Image_20261111162027_2425_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2425_19.jpg",
+    "sha256": "73cdeecbdfe064c9ba585b4042fd6f1a4b1f4a99e78fcf1ee3349621fc671c13",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 313318,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "sama-12"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2425-400.webp",
+    "sha256_preserved": true,
+    "default_use": "alternate",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "多闻天王唐卡 · 现场照片",
+    "remote_asset": "2425"
+  },
+  {
+    "photo_id": "s2426",
+    "sequence": 2426,
+    "original_filename": "Image_20261111162027_2426_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2426_19.jpg",
+    "sha256": "a39a0679662ffcfc926e40b8d27694088aa567c0e08beaaae02f4149ca9bc05a",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 384065,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "sama-12"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2426-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "多闻天王唐卡 · 现场照片",
+    "remote_asset": "2426"
+  },
+  {
+    "photo_id": "s2427",
+    "sequence": 2427,
+    "original_filename": "Image_20261111162027_2427_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2427_19.jpg",
+    "sha256": "d5887f46f0056eab5f78c4df2f918a95fc357c517d4ad03466e46e13f2909269",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 386559,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "sama-12"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2427-400.webp",
+    "sha256_preserved": true,
+    "default_use": "alternate",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "多闻天王唐卡 · 现场照片",
+    "remote_asset": "2427"
+  },
+  {
+    "photo_id": "s2428",
+    "sequence": 2428,
+    "original_filename": "Image_20261111162027_2428_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2428_19.jpg",
+    "sha256": "6d666a37199256b69e011af7e5de9e9fbd02a505cc0a8e5b33569042864d583b",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 212188,
+    "roles": [
+      "label"
+    ],
+    "work_ids": [
+      "sama-12"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2428-400.webp",
+    "sha256_preserved": true,
+    "default_use": "label",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "多闻天王唐卡 · 现场展签",
+    "remote_asset": "2428"
+  },
+  {
+    "photo_id": "s2429",
+    "sequence": 2429,
+    "original_filename": "Image_20261111162027_2429_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2429_19.jpg",
+    "sha256": "2e0839a1943510f859bb7e9979b63c752b33d32694ba486cb032c858b6e2f20a",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 390872,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "sama-13"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2429-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "无量寿佛唐卡 · 现场照片",
+    "remote_asset": "2429"
+  },
+  {
+    "photo_id": "s2430",
+    "sequence": 2430,
+    "original_filename": "Image_20261111162027_2430_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2430_19.jpg",
+    "sha256": "9c756d5702b0e8112613c57e0050808555a26c193dc995471b71edb159b6e326",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 134135,
+    "roles": [
+      "label"
+    ],
+    "work_ids": [
+      "sama-13"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2430-400.webp",
+    "sha256_preserved": true,
+    "default_use": "label",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "无量寿佛唐卡 · 现场展签",
+    "remote_asset": "2430"
+  },
+  {
+    "photo_id": "s2431",
+    "sequence": 2431,
+    "original_filename": "Image_20261111162027_2431_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2431_19.jpg",
+    "sha256": "92c955770092903bf5d387e1eabdb2fc9a7dfdc3485cbe303d9f0d9097c9d246",
+    "width": 1702,
+    "height": 1276,
+    "bytes": 315953,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "sama-14"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2431-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "丹萨替地区舞蹈女尊构件 · 现场照片",
+    "remote_asset": "2431"
+  },
+  {
+    "photo_id": "s2432",
+    "sequence": 2432,
+    "original_filename": "Image_20261111162027_2432_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2432_19.jpg",
+    "sha256": "5a3afb51cadc13212f757a02fc3ba22821e57cdecc833c6a89b7f8a0faed6491",
+    "width": 1707,
+    "height": 1280,
+    "bytes": 174466,
+    "roles": [
+      "label"
+    ],
+    "work_ids": [
+      "sama-14"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2432-400.webp",
+    "sha256_preserved": true,
+    "default_use": "label",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "丹萨替地区舞蹈女尊构件 · 现场展签",
+    "remote_asset": "2432"
+  },
+  {
+    "photo_id": "s2433",
+    "sequence": 2433,
+    "original_filename": "Image_20261111162027_2433_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2433_19.jpg",
+    "sha256": "d51f0252d13b7f036e3920dc63bfa5d9b4c43078b37c7dae73081d3086b30806",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 248377,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "sama-15"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2433-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "宗喀巴肖像唐卡 · 现场照片",
+    "remote_asset": "2433"
+  },
+  {
+    "photo_id": "s2434",
+    "sequence": 2434,
+    "original_filename": "Image_20261111162027_2434_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2434_19.jpg",
+    "sha256": "d3a29180529df0130e179c1013967b81c605a239abc1ee21428b12c4c98a3352",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 143026,
+    "roles": [
+      "label"
+    ],
+    "work_ids": [
+      "sama-15"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2434-400.webp",
+    "sha256_preserved": true,
+    "default_use": "label",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "宗喀巴肖像唐卡 · 现场展签",
+    "remote_asset": "2434"
+  },
+  {
+    "photo_id": "s2435",
+    "sequence": 2435,
+    "original_filename": "Image_20261111162027_2435_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2435_19.jpg",
+    "sha256": "c6ca40b663a08b82c9800aa034433d3ac69e6af0c24eb57a1fa064148da767cd",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 342095,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "sama-16"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2435-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "弥勒菩萨立像 · 现场照片",
+    "remote_asset": "2435"
+  },
+  {
+    "photo_id": "s2436",
+    "sequence": 2436,
+    "original_filename": "Image_20261111162027_2436_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2436_19.jpg",
+    "sha256": "d1323ab3fff014ce8450606514617151918bf61bf8687de708d686a8e6e86b62",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 232547,
+    "roles": [
+      "label"
+    ],
+    "work_ids": [
+      "sama-16"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2436-400.webp",
+    "sha256_preserved": true,
+    "default_use": "label",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "弥勒菩萨立像 · 现场展签",
+    "remote_asset": "2436"
+  },
+  {
+    "photo_id": "s2437",
+    "sequence": 2437,
+    "original_filename": "Image_20261111162027_2437_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2437_19.jpg",
+    "sha256": "c889d9a155b3cb4be6074149924c3e14815d3c87e40e014b92f5da3968f42e77",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 435778,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "sama-17"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2437-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "藏式佛龛背饰 · 现场照片",
+    "remote_asset": "2437"
+  },
+  {
+    "photo_id": "s2438",
+    "sequence": 2438,
+    "original_filename": "Image_20261111162027_2438_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2438_19.jpg",
+    "sha256": "2423b54309405ddc51d6e8a0548524a975d9f764d6684205bf9797d26c986955",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 224477,
+    "roles": [
+      "label"
+    ],
+    "work_ids": [
+      "sama-17"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2438-400.webp",
+    "sha256_preserved": true,
+    "default_use": "label",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "藏式佛龛背饰 · 现场展签",
+    "remote_asset": "2438"
+  },
+  {
+    "photo_id": "s2439",
+    "sequence": 2439,
+    "original_filename": "Image_20261111162027_2439_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2439_19.jpg",
+    "sha256": "2e19fcfd1134ec4bd5eaf2502a96442c5d0406dde26b579cbb02df8039c0361d",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 439624,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "sama-18"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2439-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "汉藏风格宝冠佛坐像 · 现场照片",
+    "remote_asset": "2439"
+  },
+  {
+    "photo_id": "s2440",
+    "sequence": 2440,
+    "original_filename": "Image_20261111162027_2440_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2440_19.jpg",
+    "sha256": "8f12d58892b6e3adf3756440df18c87130754c3a643446b76f447ff7819c8003",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 163260,
+    "roles": [
+      "label"
+    ],
+    "work_ids": [
+      "sama-18"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2440-400.webp",
+    "sha256_preserved": true,
+    "default_use": "label",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "汉藏风格宝冠佛坐像 · 现场展签",
+    "remote_asset": "2440"
+  },
+  {
+    "photo_id": "s2441",
+    "sequence": 2441,
+    "original_filename": "Image_20261111162027_2441_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2441_19.jpg",
+    "sha256": "c3e5d474313895fa217ae5a7934db13b53608963ccf125bc704dfba03fc6d3da",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 365508,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "sama-19"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2441-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "乌金林巴像（依展牌题名） · 现场照片",
+    "remote_asset": "2441"
+  },
+  {
+    "photo_id": "s2442",
+    "sequence": 2442,
+    "original_filename": "Image_20261111162027_2442_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2442_19.jpg",
+    "sha256": "8f5da96efcfd7a204b3207a136dc561fe9918119b4ff8e9d498f82909f7224c8",
+    "width": 960,
+    "height": 1280,
+    "bytes": 106255,
+    "roles": [
+      "label"
+    ],
+    "work_ids": [
+      "sama-19"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2442-400.webp",
+    "sha256_preserved": true,
+    "default_use": "label",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "乌金林巴像（依展牌题名） · 现场展签",
+    "remote_asset": "2442"
+  },
+  {
+    "photo_id": "s2443",
+    "sequence": 2443,
+    "original_filename": "Image_20261111162027_2443_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2443_19.jpg",
+    "sha256": "8e1a102c1a78db4230648536c2dca77b8ec9a08bbd968b64a4ea388e48ed01be",
+    "width": 1707,
+    "height": 1280,
+    "bytes": 516539,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "sama-20"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2443-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "藏文佛经经板 · 现场照片",
+    "remote_asset": "2443"
+  },
+  {
+    "photo_id": "s2444",
+    "sequence": 2444,
+    "original_filename": "Image_20261111162027_2444_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2444_19.jpg",
+    "sha256": "082df82e24c37b9c3075099b2d40d7eaa70af81eee703003bcd6b25b859f9e7e",
+    "width": 1707,
+    "height": 1280,
+    "bytes": 112586,
+    "roles": [
+      "label"
+    ],
+    "work_ids": [
+      "sama-20"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2444-400.webp",
+    "sha256_preserved": true,
+    "default_use": "label",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "藏文佛经经板 · 现场展签",
+    "remote_asset": "2444"
+  },
+  {
+    "photo_id": "s2445",
+    "sequence": 2445,
+    "original_filename": "Image_20261111162027_2445_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2445_19.jpg",
+    "sha256": "0e43fa63cab78e8e01fe41e0852f0b0a0dd2663b4d075d7e711433825076414c",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 335710,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "sama-21"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2445-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "文殊菩萨坐像 · 现场照片",
+    "remote_asset": "2445"
+  },
+  {
+    "photo_id": "s2446",
+    "sequence": 2446,
+    "original_filename": "Image_20261111162027_2446_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2446_19.jpg",
+    "sha256": "83c1a1a609f15b61c6cbca4948aac694f04b890d329fc2cc2160d8873d6f494b",
+    "width": 960,
+    "height": 1280,
+    "bytes": 132522,
+    "roles": [
+      "label"
+    ],
+    "work_ids": [
+      "sama-21"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2446-400.webp",
+    "sha256_preserved": true,
+    "default_use": "label",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "文殊菩萨坐像 · 现场展签",
+    "remote_asset": "2446"
+  },
+  {
+    "photo_id": "s2447",
+    "sequence": 2447,
+    "original_filename": "Image_20261111162027_2447_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2447_19.jpg",
+    "sha256": "b9d3e894fac580e51a5db23f29918ba1442eadf1dc12c344033b17de3c6d0b85",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 313298,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "sama-22"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2447-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "第五世达赖喇嘛像 · 现场照片",
+    "remote_asset": "2447"
+  },
+  {
+    "photo_id": "s2448",
+    "sequence": 2448,
+    "original_filename": "Image_20261111162027_2448_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2448_19.jpg",
+    "sha256": "10c43a259ab1c5dfcb40217d5c33f111fed84702fd2550d0d99e10d413c9cc3d",
+    "width": 1707,
+    "height": 1280,
+    "bytes": 120819,
+    "roles": [
+      "label"
+    ],
+    "work_ids": [
+      "sama-22"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2448-400.webp",
+    "sha256_preserved": true,
+    "default_use": "label",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "第五世达赖喇嘛像 · 现场展签",
+    "remote_asset": "2448"
+  },
+  {
+    "photo_id": "s2449",
+    "sequence": 2449,
+    "original_filename": "Image_20261111162027_2449_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2449_19.jpg",
+    "sha256": "43ca428668bae23055926e7cbfe1d87efcd8619b4f54292f7b00d0a773d8a329",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 171225,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "sama-23"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2449-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "小型佛塔 · 现场照片",
+    "remote_asset": "2449"
+  },
+  {
+    "photo_id": "s2450",
+    "sequence": 2450,
+    "original_filename": "Image_20261111162027_2450_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2450_19.jpg",
+    "sha256": "bdaec901bd82feadabeafa2d1a0633462ac3c8493851d005ab4bde45e4e9c416",
+    "width": 1707,
+    "height": 1280,
+    "bytes": 146580,
+    "roles": [
+      "label"
+    ],
+    "work_ids": [
+      "sama-23"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2450-400.webp",
+    "sha256_preserved": true,
+    "default_use": "label",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "小型佛塔 · 现场展签",
+    "remote_asset": "2450"
+  },
+  {
+    "photo_id": "s2451",
+    "sequence": 2451,
+    "original_filename": "Image_20261111162027_2451_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2451_19.jpg",
+    "sha256": "42e111cb3fd7e6112f16372f33cf5ce321fd41ba6e6e3acdab8be325bbe3202d",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 326928,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "sama-24"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2451-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "琥珀护法纹嘎乌 · 现场照片",
+    "remote_asset": "2451"
+  },
+  {
+    "photo_id": "s2452",
+    "sequence": 2452,
+    "original_filename": "Image_20261111162027_2452_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2452_19.jpg",
+    "sha256": "5c67fb9439a7ef3bb673f79cd44258d30cb2686b1e92b8a7af784b489ff34708",
+    "width": 1707,
+    "height": 1280,
+    "bytes": 126998,
+    "roles": [
+      "label"
+    ],
+    "work_ids": [
+      "sama-24"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2452-400.webp",
+    "sha256_preserved": true,
+    "default_use": "label",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "琥珀护法纹嘎乌 · 现场展签",
+    "remote_asset": "2452"
+  },
+  {
+    "photo_id": "s2453",
+    "sequence": 2453,
+    "original_filename": "Image_20261111162027_2453_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2453_19.jpg",
+    "sha256": "d95eff62f9313f88af36c56ff0e3151a1b711db4da5ec51f4f0a7111a0c47721",
+    "width": 1280,
+    "height": 1707,
+    "bytes": 393828,
+    "roles": [
+      "artwork"
+    ],
+    "work_ids": [
+      "sama-25"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2453-400.webp",
+    "sha256_preserved": true,
+    "default_use": "primary",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "金银铜嘎乌 · 现场照片",
+    "remote_asset": "2453"
+  },
+  {
+    "photo_id": "s2454",
+    "sequence": 2454,
+    "original_filename": "Image_20261111162027_2454_19.jpg",
+    "path": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2454_19.jpg",
+    "sha256": "74f69d899ed1d6b13bad3234e00c09a40c088a3af9f16848f2fa9cbc99046b13",
+    "width": 960,
+    "height": 1280,
+    "bytes": 86572,
+    "roles": [
+      "label"
+    ],
+    "work_ids": [
+      "sama-25"
+    ],
+    "public_asset": true,
+    "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/sama-2026/2454-400.webp",
+    "sha256_preserved": true,
+    "default_use": "label",
+    "do_not_publish": false,
+    "visit_id": null,
+    "caption": "金银铜嘎乌 · 现场展签",
+    "remote_asset": "2454"
   }
 ]

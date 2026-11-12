@@ -4,14 +4,15 @@ from html.parser import HTMLParser
 from urllib.parse import urlsplit,unquote
 from collections import Counter
 import hashlib,json
+from museum_assets import sama_media
 ROOT=Path(__file__).resolve().parents[1];BASE=ROOT/'museum-notes/roman-sarcophagi'
 def load(name):return json.loads((BASE/f'data/{name}.json').read_text())
 w=load('works');p=load('photos');s=load('sources');notes=load('editorial');chapters=load('sections');m=load('museums')
 by={o['id']:o for o in w};sb={x['id'] for x in s}
-assert len(w)==len(by)==27 and len(m)==9
+assert len(w)==len(by)==28 and len(m)==10
 assert Counter(i for c in chapters for i in c['works'])==Counter(by.keys())
-assert len([x for x in p.values() if x.get('original')])==62
-assert len([x for x in p.values() if x['role']=='label'])==24
+assert len([x for x in p.values() if x.get('original')])==69
+assert len([x for x in p.values() if x['role']=='label'])==25
 assert p['1930']['object_ids']==['r24']
 assert set(p['1931']['object_ids'])=={'r13','r23','r13-lid'}
 assert by['r13']['photos']==by['r23']['photos']==[1931]
@@ -20,6 +21,9 @@ assert by['r09']['accession'] is None
 assert by['r16']['date_start']==150 and by['r16']['date_end']==180
 assert all(o.get('visit_date') is None for o in w)
 for k,photo in p.items():
+ if photo.get('remote_asset'):
+  assert photo['sha256']==sama_media()[photo['remote_asset']]['sha256']
+  assert photo['original']==sama_media()[photo['remote_asset']]['original']; continue
  if photo.get('original'):
   raw=BASE/'images/originals'/photo['original'];assert raw.is_file();assert hashlib.sha256(raw.read_bytes()).hexdigest()==photo['sha256'];assert photo['object_ids'],k
  else:
@@ -49,9 +53,9 @@ for group in comparisons:
   for paragraph in sec['paragraphs']:assert set(paragraph.get('source_ids',[]))<=sb
  for paragraph in group.get('notes',[]):assert set(paragraph.get('source_ids',[]))<=sb
 stories=load('stories')
-assert len(stories['myths'])==9 and len(stories['contexts'])==5
+assert len(stories['myths'])==9 and len(stories['contexts'])==6
 entries=stories['myths']+stories['contexts'];backgrounds=stories.get('backgrounds',[]);entry_ids={x['id'] for x in entries+backgrounds}
-assert len(entry_ids)==14+len(backgrounds)
+assert len(entry_ids)==15+len(backgrounds)
 for entry in entries:
  assert set(entry['works'])<=set(by)
  paragraphs=([entry['story']]+entry['look']+entry['version']) if 'story' in entry else [entry['text']]
@@ -91,7 +95,7 @@ for file,doc in parsed.items():
   # Empty lightbox image is populated by the shared viewer.
   if img.get('id')=='large-photo':continue
   assert img.get('alt') and img.get('width') and img.get('height'),(file,img)
-  assert not img.get('src','').startswith(('http:','https:'))
+  assert not img.get('src','').startswith(('http:','https:')) or img['src'].startswith('https://images.mertonmuseum.com/museum-notes/sama-2026/')
  for link in doc.links:
   url=urlsplit(link)
   if url.scheme or url.netloc:continue

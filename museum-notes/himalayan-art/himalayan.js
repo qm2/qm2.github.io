@@ -98,7 +98,7 @@
   };
   const writeURL=()=>{const q=new URLSearchParams();Object.entries(state).forEach(([k,v])=>{if(v&&!(k==='view'&&v==='regions'))q.set(k,v);});const dest=location.pathname+(q.size?'?'+q:'')+location.hash;if(dest!==location.pathname+location.search+location.hash)history.pushState({},'',dest);};
   const change=patch=>{state={...state,...patch};if(patch.region&&parentGroup(patch.region)?.extension)state.ext='1';writeURL();render();};
-  const mini=w=>`<a class="ha-mini" href="${es(w.work_id)}/"><img src="images/${es(w.primary_photo)}-400.webp" width="70" height="100" loading="lazy" alt="${es(w.title_zh)}"><span>${es(w.title_zh)}<small>${es(w.date_label)}</small></span></a>`;
+  const mini=w=>`<a class="ha-mini" href="${es(w.work_id)}/"><img src="${es(w.thumbnail_path || `images/${w.primary_photo}-400.webp`)}" width="70" height="100" loading="lazy" alt="${es(w.title_zh)}"><span>${es(w.title_zh)}<small>${es(w.date_label)}</small></span></a>`;
   function render(){
    const selected=ws.filter(w=>matches(w)), ids=new Set(selected.map(w=>w.work_id));
    for(const [k,id] of [['q','search'],['museum','museum'],['period','period'],['material','material'],['theme','theme']])$('#ha-'+id).value=state[k]||'';

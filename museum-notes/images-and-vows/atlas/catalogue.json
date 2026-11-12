@@ -808,6 +808,65 @@
       "date_kind_label": "时期范围"
     },
     {
+      "id": "sama-eastern-wei-maitreya",
+      "package_id": "sama-28",
+      "title": "东魏弥勒佛像",
+      "title_en": "Miluo, or Maitreya Buddha, the Buddha of the Future",
+      "date": "534—550年",
+      "period": "东魏",
+      "year_start": 534,
+      "year_end": 550,
+      "date_kind": "period",
+      "material": "大理石",
+      "form": "背屏式佛像",
+      "iconography": "弥勒（据展签）",
+      "owner": "圣安东尼奥美术馆",
+      "owner_city": "圣安东尼奥",
+      "viewing_museum": "圣安东尼奥美术馆",
+      "viewing_city": "圣安东尼奥",
+      "viewing_evidence": "用户现场作品与配对展签",
+      "accession": "85.37",
+      "origin": "中国；展签提出可能与龙门相关",
+      "discovery": null,
+      "photos": [
+        {
+          "number": 2465,
+          "role": "front",
+          "caption": "东魏弥勒佛像 · 正面",
+          "rotation_ccw": 0
+        },
+        {
+          "number": 2466,
+          "role": "side",
+          "caption": "东魏弥勒佛像 · 斜侧",
+          "rotation_ccw": 0
+        },
+        {
+          "number": 2467,
+          "role": "label",
+          "caption": "东魏弥勒佛像 · 现场展签",
+          "rotation_ccw": 0
+        }
+      ],
+      "sources": [],
+      "status": "confirmed",
+      "issue": "展签提出可能与龙门有关，尚非确认出土地。本件无可核造像题记，施主与发愿内容未详。",
+      "scope": "main",
+      "reading_url": null,
+      "museum_id": "sama",
+      "visit_date": null,
+      "hero": 2465,
+      "region": "北方",
+      "track": "北朝",
+      "date_note": "东魏时期范围；不是精确制作年。",
+      "catalogue_note": "宽大的袍缘在座前层叠展开，背屏和主尊虽有残损，仍保留清楚的正面结构。与已有东魏造像碑比较，先看衣纹如何由身体外侧向下汇聚，以及光背、座具和佛身如何在一整块石头里连接。",
+      "city": "圣安东尼奥",
+      "museum": "圣安东尼奥美术馆",
+      "material_group": "石雕",
+      "form_group": "背屏式造像",
+      "date_kind_label": "时期范围"
+    },
+    {
       "id": "penn-1893",
       "title": "佛与二胁侍造像碑",
       "title_en": "Buddha and two attendants stele",
@@ -4772,6 +4831,94 @@
       "role": "label",
       "work_id": "penn-1895",
       "original_filename": "Image_20261106141114_1898_19.jpg"
+    },
+    "2465": {
+      "number": 2465,
+      "original": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2465_19.jpg",
+      "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2465-900.webp",
+      "variants": [
+        {
+          "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2465-400.webp",
+          "width": 400
+        },
+        {
+          "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2465-900.webp",
+          "width": 900
+        },
+        {
+          "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2465-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "6f0e5b07e8f1ac4eafff16c4d23dc54075892239084c7ed8cf59bbb63feba2b7",
+      "rotation_ccw": 0,
+      "caption": "正面",
+      "role": "front",
+      "work_id": "sama-eastern-wei-maitreya",
+      "original_filename": "Image_20261111162027_2465_19.jpg",
+      "remote_asset": "2465"
+    },
+    "2466": {
+      "number": 2466,
+      "original": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2466_19.jpg",
+      "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2466-900.webp",
+      "variants": [
+        {
+          "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2466-400.webp",
+          "width": 400
+        },
+        {
+          "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2466-900.webp",
+          "width": 900
+        },
+        {
+          "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2466-1280.webp",
+          "width": 1280
+        }
+      ],
+      "width": 1280,
+      "height": 1707,
+      "sha256": "b9c79d7d611e254a498dc2024c4778ce06e7e60cde02a09da2a2da00c9341a26",
+      "rotation_ccw": 0,
+      "caption": "斜侧",
+      "role": "side",
+      "work_id": "sama-eastern-wei-maitreya",
+      "original_filename": "Image_20261111162027_2466_19.jpg",
+      "remote_asset": "2466"
+    },
+    "2467": {
+      "number": 2467,
+      "original": "https://images.mertonmuseum.com/museum-notes/sama-2026/originals/Image_20261111162027_2467_19.jpg",
+      "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2467-900.webp",
+      "variants": [
+        {
+          "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2467-400.webp",
+          "width": 400
+        },
+        {
+          "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2467-900.webp",
+          "width": 900
+        },
+        {
+          "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2467-1600.webp",
+          "width": 1600
+        },
+        {
+          "file": "https://images.mertonmuseum.com/museum-notes/sama-2026/2467-1707.webp",
+          "width": 1707
+        }
+      ],
+      "width": 1707,
+      "height": 1280,
+      "sha256": "4884e9973e5f4a47c91c602d26782504214b6e7c9ac56667d63cdf4ba97f0247",
+      "rotation_ccw": 0,
+      "caption": "现场展签",
+      "role": "label",
+      "work_id": "sama-eastern-wei-maitreya",
+      "original_filename": "Image_20261111162027_2467_19.jpg",
+      "remote_asset": "2467"
     }
   },
   "museums": [
@@ -4904,18 +5051,30 @@
       "lat": 29.97,
       "url": "https://noma.org/",
       "coordinate_note": "按馆方位置作城市级示意；不是精确入口坐标。"
+    },
+    {
+      "id": "sama",
+      "name": "圣安东尼奥美术馆",
+      "city": "圣安东尼奥",
+      "lat": 29.437,
+      "lon": -98.482,
+      "coordinate_basis": "观看机构位置，非作品出土地",
+      "coordinate_note": "圣安东尼奥美术馆馆舍位置；表示观看地点。",
+      "url": "https://www.samuseum.org/"
     }
   ],
   "stats": {
-    "works": 32,
-    "confirmed": 32,
+    "works": 33,
+    "confirmed": 33,
     "pending": 0,
-    "photos": 103,
-    "museums": 13,
+    "photos": 106,
+    "museums": 14,
     "readings": 15,
     "exact": 18
   },
   "archive": {
+    "additional_photos": 3,
+    "additional_works": 1,
     "photos": 111,
     "works": 35,
     "excluded_works": 3,
