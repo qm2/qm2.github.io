@@ -122,3 +122,49 @@ navigation, image/caption alignment, artwork and double-label zoom, Escape, sour
 anchors and automatic opening of the evidence details. No horizontal overflow,
 JavaScript error or failed image request. Preview screenshots are outside the repo
 in `/tmp/ten-kings-review/leeum-*.png`.
+
+## Second refinement: painting, gold linework and Dunhuang
+
+The exhibition framework and stable existing URLs remain intact. All ten king readings
+now include closer visual observations; kings 3, 4, 5, 8 and 10 receive particular attention.
+The central Ksitigarbha reading distinguishes visible robe patterns, general Goryeo
+gold-paint technique, the museum's infrared inscription finding and tentative workshop
+or patronage explanations. Existing other paintings receive full-image-first readings.
+
+Added `/dunhuang/`, based on British Museum 1919,0101,0.80: photograph 097 shows the
+complete surviving scroll as displayed, with perspective retained; 098, 102 and 114
+show selected sections, and 115 is its label. This is not a reconstructed seamless scan.
+Added Leeum's Ksitigarbha with Entourage (118, details 119/121, label 124) to the other
+paintings. The user explicitly corrected the Washington memory: it belongs only to
+the already recorded Amitabha Triad, National Treasure 218, not this Ksitigarbha.
+
+Current totals: 26 exhibition records (20 paintings/context records and six supporting
+object groups), one separate Washington/Cleveland-digital comparison, 99 unique source
+photographs, and 17 pages. Sixteen additional original photographs produced 48 WebPs;
+their actual widths are recorded in filenames and the photo manifest. No original JPEG,
+book page, third-party artwork image, generated detail, reflection removal or R2 upload
+was introduced. Source photographs remain outside the repository.
+
+New reading sources include the IDP object record and Mélodie Doumy's 2023 account of
+the Cave 17 bundles; Wang Zhongcheng's 2021 National Palace Museum article, read in
+the accessible PDF, supplies a documented comparison of judgment and merit-making.
+PARK Chi-sun's 2019 materials essay was read through publicly indexed passages about
+gold powder, pigments and reverse coloring; direct access was intermittent. Its reading
+status is explicit, and it is not represented as a technical examination of CMA 2025.141.
+Museum records, CMA online research and the photographed labels remain the direct
+sources for the other objects. The 2026 catalogue has not been newly read.
+
+Unresolved: the ten-king attribution debate; the identity of 青龍公 and original setting;
+the central painting's bibliography discrepancy (1989 in the acquisition article versus
+1998 in its object bibliography); Princeton's precise date and the label's tentative
+infrared repair interpretation; accession numbers absent from Leeum labels. The
+Dunhuang scroll is comparison evidence, not an asserted direct model for the Goryeo set.
+Reflections, folds and limited resolution remain visible rather than digitally invented away.
+
+Validation: full generator, topic link/image/mapping checks and existing SAMA cross-topic
+checks passed. Actual Chromium tested all 17 routes at 1440, 768 and 390 px, with no
+horizontal overflow, missing resources or JavaScript errors. Figure-caption alignment,
+uncropped proportions, full-image and label zoom, arrows, Escape, gallery navigation,
+deep-link disclosure opening, and no-JavaScript navigation passed. Desktop alternates
+selected detail images; mobile stacks them. Screenshots and browser reports are private
+in `/tmp/tk-refine/browser/`. No unrelated untracked files belong in this commit.

@@ -2424,5 +2424,453 @@
       }
     ],
     "full": "images/leeum-218-label-1280.webp"
+  },
+  "40": {
+    "source_index": 40,
+    "source_filename": "Image_20261116230912_2525_19.jpg",
+    "source_sha256": "97b977ea62fb4746a006ca9dc109fd69115c26fba7e3b1b3308e4b258549afdc",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "原始现场照片直接生成响应式WebP；不裁切、不补画",
+    "width": 1276,
+    "height": 958,
+    "variants": [
+      {
+        "path": "images/040-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/040-800.webp",
+        "width": 800,
+        "height": 601
+      },
+      {
+        "path": "images/040-1276.webp",
+        "width": 1276,
+        "height": 958
+      }
+    ],
+    "full": "images/040-1276.webp"
+  },
+  "82": {
+    "source_index": 82,
+    "source_filename": "Image_20261116230912_2567_19.jpg",
+    "source_sha256": "e461d0f3b1b72948b1df6b31ac181cb4d835676cdcb8bcbea34b172fcfaf4202",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "原始现场照片直接生成响应式WebP；不裁切、不补画",
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/082-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/082-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/082-1702.webp",
+        "width": 1702,
+        "height": 1276
+      }
+    ],
+    "full": "images/082-1702.webp"
+  },
+  "95": {
+    "source_index": 95,
+    "source_filename": "Image_20261116230912_2580_19.jpg",
+    "source_sha256": "eedacbc381505220d8550590feb59390172c63e03471346bce41a649a0e8ccfc",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "原始现场照片直接生成响应式WebP；不裁切、不补画",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/095-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/095-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/095-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/095-1280.webp"
+  },
+  "97": {
+    "source_index": 97,
+    "source_filename": "Image_20261116231308_2582_19.jpg",
+    "source_sha256": "443a0d6dde8ddf59e42f88a6237d163df44e814fcc86d7b2b82ca5847c5c229c",
+    "role": "full",
+    "rotation": 0,
+    "derivation": "原始现场照片直接生成响应式WebP；不裁切、不补画",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/097-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/097-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/097-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/097-1280.webp"
+  },
+  "98": {
+    "source_index": 98,
+    "source_filename": "Image_20261116231308_2583_19.jpg",
+    "source_sha256": "b0237a42658d7d14a8b0deb0e6b41766fdb898d000e62a8fbd85f57a0b2ca5bd",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "原始现场照片直接生成响应式WebP；不裁切、不补画",
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/098-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/098-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/098-1702.webp",
+        "width": 1702,
+        "height": 1276
+      }
+    ],
+    "full": "images/098-1702.webp"
+  },
+  "102": {
+    "source_index": 102,
+    "source_filename": "Image_20261116231308_2587_19.jpg",
+    "source_sha256": "a012c548793cc7bc5da0cea787767cbdf72cf0b776938b468f93397473a37f85",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "原始现场照片直接生成响应式WebP；不裁切、不补画",
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/102-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/102-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/102-1702.webp",
+        "width": 1702,
+        "height": 1276
+      }
+    ],
+    "full": "images/102-1702.webp"
+  },
+  "114": {
+    "source_index": 114,
+    "source_filename": "Image_20261116231308_2599_19.jpg",
+    "source_sha256": "3e756eaed733956c871fe6fd6236fcc96d3c86e9ad69becbde189b99ae7ab7d6",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "原始现场照片直接生成响应式WebP；不裁切、不补画",
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/114-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/114-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/114-1702.webp",
+        "width": 1702,
+        "height": 1276
+      }
+    ],
+    "full": "images/114-1702.webp"
+  },
+  "115": {
+    "source_index": 115,
+    "source_filename": "Image_20261116231308_2600_19.jpg",
+    "source_sha256": "68144ed5d9080453aeb9599ed053b67782c1c95db9a34b2abf6582be09cfe29f",
+    "role": "label",
+    "rotation": 0,
+    "derivation": "原始现场照片直接生成响应式WebP；不裁切、不补画",
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/115-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/115-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/115-1702.webp",
+        "width": 1702,
+        "height": 1276
+      }
+    ],
+    "full": "images/115-1702.webp"
+  },
+  "118": {
+    "source_index": 118,
+    "source_filename": "Image_20261116231308_2603_19.jpg",
+    "source_sha256": "40187cad8290eb8a25e50e00ff3919dd8674d9ed174d230896d3de4e081bb7c7",
+    "role": "full",
+    "rotation": 0,
+    "derivation": "原始现场照片直接生成响应式WebP；不裁切、不补画",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/118-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/118-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/118-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/118-1280.webp"
+  },
+  "119": {
+    "source_index": 119,
+    "source_filename": "Image_20261116231308_2604_19.jpg",
+    "source_sha256": "2f2f177449acddb845ee850f9cb686a1945707fe84b2e14cc62525328422cd5b",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "原始现场照片直接生成响应式WebP；不裁切、不补画",
+    "width": 960,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "images/119-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/119-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/119-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "full": "images/119-960.webp"
+  },
+  "121": {
+    "source_index": 121,
+    "source_filename": "Image_20261116231308_2606_19.jpg",
+    "source_sha256": "6b5390d109f739656b11dd3ca6a844249edc7ee87d662fc16f21bc05ad42fba1",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "原始现场照片直接生成响应式WebP；不裁切、不补画",
+    "width": 960,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "images/121-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/121-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/121-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "full": "images/121-960.webp"
+  },
+  "124": {
+    "source_index": 124,
+    "source_filename": "Image_20261116231308_2609_19.jpg",
+    "source_sha256": "ab527273973a63e249cdab801e99ec4c73771626e943829658e2336535d03ffa",
+    "role": "label",
+    "rotation": 0,
+    "derivation": "原始现场照片直接生成响应式WebP；不裁切、不补画",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/124-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/124-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/124-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/124-1280.webp"
+  },
+  "203": {
+    "source_index": 203,
+    "source_filename": "Image_20261116231709_2688_19.jpg",
+    "source_sha256": "1e3e5c6821bfa39d2ed2556e86699170642816b6f799813301a60984a329df2b",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "原始现场照片直接生成响应式WebP；不裁切、不补画",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/203-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/203-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/203-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/203-1280.webp"
+  },
+  "216": {
+    "source_index": 216,
+    "source_filename": "Image_20261116231709_2701_19.jpg",
+    "source_sha256": "2bc969720519d6afb41f9a39f7b112b5aa2fd592364ba22f01e1b83e705ea1a5",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "原始现场照片直接生成响应式WebP；不裁切、不补画",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/216-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/216-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/216-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/216-1280.webp"
+  },
+  "235": {
+    "source_index": 235,
+    "source_filename": "Image_20261116231709_2720_19.jpg",
+    "source_sha256": "a755e3149437cc7e02d0d4e30f7e2fb75c0e16aa93333bdd3841f9334e45310f",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "原始现场照片直接生成响应式WebP；不裁切、不补画",
+    "width": 960,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "images/235-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/235-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/235-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "full": "images/235-960.webp"
+  },
+  "271": {
+    "source_index": 271,
+    "source_filename": "Image_20261116231709_2756_19.jpg",
+    "source_sha256": "770ead1d2c21899d863b1e19c1ea8b0396152322aed6520359dd378b7ceee6a5",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "原始现场照片直接生成响应式WebP；不裁切、不补画",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/271-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/271-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/271-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/271-1280.webp"
   }
 }

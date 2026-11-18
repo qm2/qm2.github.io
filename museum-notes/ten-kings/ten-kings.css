@@ -40,6 +40,7 @@
 .tk-center{text-align:center}
 .tk-detail{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:clamp(30px,5vw,72px);align-items:center;margin:75px auto;max-width:1060px}
 .tk-detail .tk-copy{font-size:17px;line-height:1.95}
+@media(min-width:651px){.tk-detail-reverse>.tk-figure{grid-column:2;grid-row:1}.tk-detail-reverse>.tk-copy{grid-column:1;grid-row:1}}
 .tk-copy h2{font-size:27px;margin-bottom:22px}
 .tk-text-section{margin-top:52px;margin-bottom:52px}
 .tk-text-section h2{font-size:27px}

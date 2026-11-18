@@ -31,8 +31,12 @@ def check():
     photos = json.loads((BASE/'data/photos.json').read_text())
     comparisons = json.loads((BASE/'data/comparisons.json').read_text())
     by = {w['id']: w for w in works}
-    assert len(works) == len(by) == 24
-    assert sum(w['category'] != 'object' for w in works) == 18
+    assert len(works) == len(by) == 26
+    assert sum(w['category'] != 'object' for w in works) == 20
+    assert by['dunhuang']['accession'] == '1919,0101,0.80'
+    assert (by['dunhuang']['full'], by['dunhuang']['label']) == (97, 115)
+    assert by['leeum_ksitigarbha_entourage']['full'] == 118
+    assert by['leeum_ksitigarbha_entourage']['visit_id'] == 'cma-2026-11'
     expected = [(9,13),(16,21),(24,29),(32,36),(39,46),(49,55),(58,64),(67,71),(74,78),(81,88)]
     for i, (full, label) in enumerate(expected, 1):
         w = by[f'k{i:02}']
@@ -61,7 +65,7 @@ def check():
     assert not list(BASE.rglob('*.jpg')) and not list(BASE.rglob('*.csv'))
     assert not any('contact' in p.name or 'original_photos' in str(p) for p in BASE.rglob('*'))
     pages={p.resolve():Page(p) for p in BASE.rglob('*.html')}
-    assert len(pages)==16
+    assert len(pages)==17
     for p, doc in list(pages.items()):
         assert len(doc.ids)==len(set(doc.ids)), p
         for im in doc.images:
@@ -82,7 +86,7 @@ def check():
     assert home.count('<!-- ten-kings-home -->')==1
     for rel in ['japanese-zen','xuzhou']:
         assert (ROOT/'museum-notes'/rel/'index.html').read_text().count('<!-- ten-kings-related -->')==1
-    print(f'Ten Kings checks passed: 24 exhibition records + {len(comparisons)} comparison, {len(photos)-1} source photos, 16 pages; mappings, dimensions, local links and private-archive exclusions.')
+    print(f'Ten Kings checks passed: {len(works)} exhibition records + {len(comparisons)} comparison, {len(photos)-1} source photos, 17 pages; mappings, dimensions, local links and private-archive exclusions.')
 
 
 if __name__=='__main__': check()

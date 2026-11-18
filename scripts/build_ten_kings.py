@@ -27,6 +27,7 @@ def build():
     def href(w):
         if w['category'] == 'king': return URL + w['id'] + '/'
         if w['category'] == 'central': return URL + 'ksitigarbha/'
+        if w['category'] == 'context': return URL + w['id'] + '/'
         return URL + ('paintings/' if w['category'] == 'painting' else 'objects/') + '#' + w['id']
 
     def text(s, w=None):
@@ -96,10 +97,13 @@ def build():
 
     def sections(w):
         s = ''
+        illustrated = 0
         for i, block in enumerate(w['sections'], 1):
             copy = '<div class="tk-copy"><h2>' + esc(block['title']) + '</h2>' + paras(block['text'], w) + '</div>'
             if 'photo' in block:
-                s += f'<section class="tk-detail compare-group" id="reading-{w["id"]}-{i}">' + figure(block['photo'], block['caption'], context=caption(w) + ' · ') + copy + '</section>'
+                illustrated += 1
+                reverse = ' tk-detail-reverse' if illustrated % 2 == 0 else ''
+                s += f'<section class="tk-detail compare-group{reverse}" id="reading-{w["id"]}-{i}">' + figure(block['photo'], block['caption'], context=caption(w) + ' · ') + copy + '</section>'
             else:
                 s += f'<section class="tk-prose tk-text-section" id="reading-{w["id"]}-{i}">' + copy + '</section>'
         return s
@@ -114,9 +118,10 @@ def build():
     body = heading(editorial['title'], editorial['subtitle']) + hero_html
     body += '<div class="tk-prose tk-intro">' + paras(editorial['intro']) + '<p class="tk-source">亲见：2026年11月13—14日<br>Ten Kings of Hell: The Afterlife in Medieval Korea<br>展期：2026年10月11日—2027年1月3日 · CMA与韩国国立中央博物馆合作。[2]</p></div>'
     body = body.replace('合作。[2]', '合作。' + text('[S02]'))
-    body += '<nav class="tk-localnav" aria-label="本页目录"><a href="#reunion">十王重聚</a><a href="#kings">十王长廊</a><a href="#central">地藏</a><a href="#paintings">其他佛画</a><a href="#objects">画外之物</a></nav>'
+    body += '<nav class="tk-localnav" aria-label="本页目录"><a href="#reunion">十王重聚</a><a href="#kings">十王长廊</a><a href="#dunhuang">敦煌与高丽</a><a href="#central">地藏</a><a href="#paintings">其他佛画</a><a href="#objects">画外之物</a></nav>'
     body += '<section class="tk-section" id="reunion"><div class="tk-prose"><p class="eyebrow">01 / REUNITED</p><h2>分散各地的十幅画</h2>' + paras(editorial['reunion']) + f'<a class="text-link" href="{URL}overview/#reunion">从旧藏到重聚 →</a></div></section>'
     body += '<section class="tk-section" id="kings"><p class="eyebrow">02 / THE TEN COURTS</p><h2>十王长廊</h2><p class="tk-prose tk-left">' + esc(editorial['gallery_intro']) + '</p>' + gallery() + f'<p class="tk-source">基本断代依本展展签；<a href="{URL}overview/#attribution">研究与归属中的开放问题</a>。</p></section>'
+    body += '<section class="tk-section tk-feature" id="dunhuang">' + figure(98, '敦煌《十王经图卷》局部 · 大英博物馆 1919,0101,0.80 · Merton摄于CMA') + '<div><p class="eyebrow">BETWEEN THE COURTS</p><h2>从敦煌到高丽</h2><p>十世纪的长卷把法庭、转生道路与地藏串在一起。与十幅高丽竖轴并看，哪些图像语汇延续了，观看的方式又怎样变化？</p>' + f'<a class="text-link" href="{URL}dunhuang/">展开敦煌十王卷 →</a></div></section>'
     body += '<section class="tk-section tk-feature" id="central">' + figure(91, caption(central)) + '<div><p class="eyebrow">03 / KṢITIGARBHA</p><h2>地藏，审判之外</h2>' + paras(editorial['central_intro']) + '<p>面容、锡杖、宝珠与袈裟上的金线——从完整画幅走向它的细密处。</p>' + f'<a class="text-link" href="{URL}ksitigarbha/">读这幅地藏 →</a><p><a class="text-link" href="{URL}ksitigarbha/#leeum-amitabha-national-treasure-218">并看：在华盛顿遇见的阿弥陀三尊 →</a></p></div></section>'
     body += '<section class="tk-section" id="paintings"><p class="eyebrow">04 / OTHER WORLDS</p><h2>高丽佛画的其他世界</h2><p>' + esc(editorial['other_intro']) + '</p><div class="tk-paintings">' + ''.join(mini(w) for w in paintings) + '</div></section>'
     body += '<section class="tk-section tk-feature tk-objects-entry" id="objects">' + figure(379, '《大方广佛华严经》卷七十八 · 卷首画局部 · CMA 1994.25 · Merton摄') + '<div><p class="eyebrow">05 / BEYOND THE PAINTINGS</p><h2>画外之物</h2>' + paras(editorial['objects_intro']) + f'<a class="text-link" href="{URL}objects/">经卷、供养与青瓷 →</a></div></section>'
@@ -124,12 +129,20 @@ def build():
     write('', editorial['title'], body)
 
     body = heading('十王图总览', '审判的十个时刻') + gallery()
+    body += f'<aside class="tk-related"><h2>从敦煌到高丽：十王图像的传播与变化</h2><p>从纸本长卷到绢本竖轴，沿着案几、亡者与轮回道路逐段并看。</p><a href="{URL}dunhuang/">读敦煌《十王经图卷》 →</a></aside>'
     body += '<div class="tk-overview">' + ''.join('<section class="tk-prose tk-text-section"><h2>' + esc(s['title']) + '</h2>' + paras(s['text']) + '</section>' for s in editorial['overview_sections']) + '</div>'
     body += '<section class="tk-section" id="reunion"><h2>谁让它们再次相遇？</h2><ol class="tk-timeline">' + ''.join('<li><h3>' + esc(s['date']) + '</h3>' + paras(s['text']) + '</li>' for s in editorial['timeline']) + '</ol></section>'
     body += '<details class="tk-record-table"><summary>今日馆藏一览 <i aria-hidden="true">＋</i></summary><div class="tk-table-scroll" tabindex="0" role="region" aria-label="十王馆藏表，可横向滚动"><table><thead><tr><th>王次与名称</th><th>收藏机构</th><th>编号</th></tr></thead><tbody>' + ''.join(f'<tr><th scope="row"><a href="{href(w)}">{esc(w["name"])}</a></th><td>{esc(w["owner"])}</td><td>{esc(w["accession"])}</td></tr>' for w in kings) + '</tbody></table></div></details>'
     body += '<details class="tk-research" id="attribution"><summary>研究与归属：仍然开放的问题 <i aria-hidden="true">＋</i></summary><div class="tk-prose">' + paras(editorial['dispute']) + '</div></details>'
     body += f'<p class="tk-source">比较资料与本套画分别处理：韩国国立中央博物馆2011年的说明用于追荐背景，不把其中太古寺画组的故事、馆号或收藏史移入本套。<a href="{URL}sources/">完整资料 →</a></p>'
     write('overview', '十王图总览', body)
+
+    w = by['dunhuang']
+    body = heading(w['subtitle'], '敦煌《十王经图卷》 · 10世纪 · 大英博物馆', 'DUNHUANG / CONTEXT') + '<p class="tk-lead">' + esc(w['lead']) + '</p>'
+    body += figure(w['full'], '现场完整陈列视角：现存残卷在展柜中展开，近大远小的透视予以保留 · Merton摄于CMA', True, 'tk-full')
+    body += sections(w) + label(w)
+    body += f'<aside class="tk-related"><h2>回到高丽画组</h2><p><a href="{URL}k05/">第五王：证据怎样成为画面 →</a></p><p><a href="{URL}k10/">第十王：另一种轮回道路 →</a></p><p><a href="{URL}ksitigarbha/">中央地藏：卷尾救拔与独立尊像 →</a></p><p><a href="{URL}overview/">返回十王总览 →</a></p></aside>'
+    write('dunhuang', w['subtitle'], body, 98)
 
     for i, w in enumerate(kings):
         body = heading(w['name'], w['subtitle'], 'THE TEN KINGS / ' + str(i+1).zfill(2))
@@ -142,6 +155,8 @@ def build():
 
     body = heading('地藏：审判之外的慈悲', '地藏菩萨立像 · 1300—1350年 · CMA 2025.141') + '<p class="tk-lead">' + esc(central['lead']) + '</p>' + figure(91, caption(central), True, 'tk-full')
     body += '<nav class="tk-localnav" aria-label="地藏细读目录"><a href="#reading-ksitigarbha_cma-1">面容与持物</a><a href="#reading-ksitigarbha_cma-3">金彩衣纹</a><a href="#reading-ksitigarbha_cma-5">青龍公用</a><a href="#reading-ksitigarbha_cma-6">流传</a><a href="#leeum-amitabha-national-treasure-218">阿弥陀三尊并看</a></nav>' + sections(central) + label(central)
+    if central.get('research_notes'):
+        body += '<details class="tk-research"><summary>研究资料中的待核问题 <i aria-hidden="true">＋</i></summary><div class="tk-prose">' + paras(central['research_notes']) + '</div></details>'
     for c in comparisons:
         body += f'<section class="tk-section" id="{c["id"]}"><div class="tk-prose"><p class="eyebrow">COMPARISON / A RETURN ENCOUNTER</p><h2>{esc(c["name"])}：救拔与接引</h2><p class="tk-source">{esc(c["english"])} · {esc(c["date"])}<br>{esc(c["owner"])} · {esc(c["designation"])}</p>' + paras(c['lead']) + '</div>'
         if c.get('full'):
@@ -152,18 +167,25 @@ def build():
         if c.get('label'):
             body += figure(c['label'], '华盛顿现场展牌：下半部对应本件《阿弥陀三尊图》，上半部为另一幅《地藏菩萨与眷属图》 · Merton摄', cls='tk-full')
         body += '</details></section>'
-    body += f'<aside class="tk-related"><h2>同一种救拔，不同的形象</h2><p><a href="{URL}paintings/#freer_ksitigarbha">另看国家亚洲艺术博物馆藏地藏 S1992.11 →</a></p><p><a href="{URL}k10/">第十王：从六道去向回看救度 →</a></p></aside>'
+    body += f'<aside class="tk-related"><h2>同一种救拔，不同的形象</h2><p><a href="{URL}paintings/#leeum_ksitigarbha_entourage">Leeum地藏与眷属：一群人的护持 →</a></p><p><a href="{URL}paintings/#freer_ksitigarbha">另看国家亚洲艺术博物馆藏地藏 S1992.11 →</a></p><p><a href="{URL}k10/">第十王：从六道去向回看救度 →</a></p><p><a href="{URL}dunhuang/">敦煌卷尾的地藏 →</a></p></aside>'
     write('ksitigarbha', '地藏：审判之外的慈悲', body, 91)
 
     for category, title, intro, records in [('paintings', '高丽佛画的其他世界', editorial['other_intro'], paintings), ('objects', '画外之物', editorial['objects_intro'], objects)]:
         body = heading(title, intro, 'GORYEO / ' + ('PAINTINGS' if category == 'paintings' else 'TEXTS & OBJECTS'))
         body += '<nav class="tk-localnav" aria-label="作品目录">' + ''.join(f'<a href="#{w["id"]}">{esc(w["name"])}</a>' for w in records) + '</nav>'
         for w in records:
-            body += f'<article class="tk-record" id="{w["id"]}"><header><p class="eyebrow">{esc(w["english"])}</p><h2>{esc(w["name"])}</h2><p class="tk-source">{esc(w["date"])}</p></header><div class="tk-feature">' + figure(w['full'], caption(w)) + '<div>' + paras(w['lead'], w)
-            if category == 'objects': body += '<p class="tk-source">基本资料与用途解释据本件<a href="#label-' + w['id'] + '">现场展签</a>。</p>'
-            body += facts(w) + '</div></div>' + sections(w)
+            body += f'<article class="tk-record" id="{w["id"]}"><header><p class="eyebrow">{esc(w["english"])}</p><h2>{esc(w["name"])}</h2><p class="tk-source">{esc(w["date"])}</p></header>'
+            if category == 'paintings':
+                body += figure(w['full'], caption(w), cls='tk-full') + '<div class="tk-prose tk-text-section">' + paras(w['lead'], w) + '</div>'
+            else:
+                body += '<div class="tk-feature">' + figure(w['full'], caption(w)) + '<div>' + paras(w['lead'], w) + '<p class="tk-source">基本资料与用途解释据本件<a href="#label-' + w['id'] + '">现场展签</a>。</p>' + facts(w) + '</div></div>'
+            body += sections(w)
             if w['id'] == 'avatamsaka-78': body += figure(379, '《大方广佛华严经》卷七十八 · 卷首画局部 · Merton摄', cls='tk-full')
             if w.get('note'): body += '<aside class="tk-note">' + paras(w['note'], w) + '</aside>'
+            if w['id'] == 'leeum_amitabha_kshitigarbha_avalok':
+                body += f'<p class="tk-prose"><a href="{URL}ksitigarbha/#leeum-amitabha-national-treasure-218">并看：华盛顿亲见的另一幅国宝《阿弥陀三尊图》 →</a></p>'
+            if w['id'] == 'leeum_ksitigarbha_entourage':
+                body += f'<p class="tk-prose"><a href="{URL}ksitigarbha/">回到CMA中央地藏立像 →</a></p>'
             body += label(w) + '</article>'
         if category == 'paintings': body += f'<p><a href="{URL}ksitigarbha/">返回中央地藏细读 →</a> · <a href="{URL}objects/">再看经卷与器物 →</a></p>'
         write(category, title, body, records[0]['full'])
@@ -180,7 +202,7 @@ def build():
     # Idempotent integration into existing generators' output, not a second works database.
     home = ROOT / 'museum-notes/index.html'
     html = re.sub(r'<!-- ten-kings-home -->.*?<!-- /ten-kings-home -->', '', home.read_text(), flags=re.S)
-    entry = '<!-- ten-kings-home --><a class="issue-link" href="ten-kings/">' + image(92, '地藏菩萨的面容与金彩 · 十王与救赎 · Merton摄') + '<div><p class="eyebrow">GORYEO BUDDHIST PAINTING</p><h2>十王与救赎</h2><p>高丽佛画中的彼岸世界。从十王的法庭，走向中央地藏的宁静，留下克利夫兰两天所见的金线与祈愿。</p><p class="issue-meta">十王独立细读 · 地藏重点篇<br>18件绘画 · 六组经卷与器物</p><span class="text-link">进入这一辑 →</span></div></a><!-- /ten-kings-home -->'
+    entry = '<!-- ten-kings-home --><a class="issue-link" href="ten-kings/">' + image(92, '地藏菩萨的面容与金彩 · 十王与救赎 · Merton摄') + '<div><p class="eyebrow">GORYEO BUDDHIST PAINTING</p><h2>十王与救赎</h2><p>高丽佛画中的彼岸世界。从十王的法庭，走向中央地藏的宁静，留下克利夫兰两天所见的金线与祈愿。</p><p class="issue-meta">十王独立细读 · 地藏重点篇<br>敦煌长卷并看 · 经卷与器物</p><span class="text-link">进入这一辑 →</span></div></a><!-- /ten-kings-home -->'
     anchor = '<a class="issue-link" href="japanese-art/">'
     assert anchor in html
     home.write_text(html.replace(anchor, entry + anchor, 1))
@@ -189,7 +211,7 @@ def build():
         html = re.sub(r'<!-- ten-kings-related -->.*?<!-- /ten-kings-related -->', '', p.read_text(), flags=re.S)
         entry = f'<aside class="editorial-note"><h2>在别处继续看</h2><p>高丽佛画中的审判、救拔与净土祈愿：<a href="{URL}">十王与救赎 →</a></p></aside>'
         p.write_text(html.replace('</main>', '<!-- ten-kings-related -->' + entry + '<!-- /ten-kings-related --></main>', 1))
-    print(f'Built Ten Kings: {len(kings)} king readings, central Ksitigarbha, {len(paintings)} other paintings, {len(objects)} object groups; 16 pages.')
+    print(f'Built Ten Kings: {len(kings)} king readings, central Ksitigarbha, {len(paintings)} other paintings, Dunhuang context, {len(objects)} object groups; 17 pages.')
 
 
 if __name__ == '__main__':
