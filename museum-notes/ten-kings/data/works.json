@@ -1,0 +1,913 @@
+[
+  {
+    "id": "k01",
+    "category": "king",
+    "name": "第1王 · 秦广王",
+    "english": "First King of Hell",
+    "date": "14世纪末（高丽，依CMA展签）",
+    "material": "绢本墨、设色与金彩",
+    "owner": "哈佛艺术博物馆",
+    "owner_en": "Harvard Art Museums",
+    "accession": "1974.77",
+    "full": 9,
+    "label": 13,
+    "photo_indices": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "visit_id": "cma-2026-11",
+    "sources": [
+      "S01",
+      "S02"
+    ],
+    "sections": [
+      {
+        "title": "水中的人",
+        "text": "亡者涉过浑浊的河流，鹰啄向头部，蛇缠绕身体。这些情节据现场展签辨认。浅褐色背景使河岸与远景显得含混，人物像被困在一个没有清楚出口的空间里。[label]",
+        "photo": 12,
+        "caption": "局部：水中的亡者、鸟与蛇"
+      },
+      {
+        "title": "桌案之后",
+        "text": "王者执笔，身旁的官吏向案前靠近；衣袍上的纹样与桌沿细线，远比下方身体的动作从容。画面把审判表现成有文书、有分工的事务，让抽象的果报取得人间法庭般的形状。",
+        "photo": 11,
+        "caption": "局部：秦广王与案旁官吏"
+      }
+    ],
+    "card_photo": 10,
+    "subtitle": "浑水、鹰蛇与案后的沉静",
+    "lead": "下方的人陷在水里，王者却稳坐桌案之后。上下两种状态之间，几乎看不见情绪的过渡。",
+    "note": ""
+  },
+  {
+    "id": "k02",
+    "category": "king",
+    "name": "第2王 · 楚江王",
+    "english": "Second King of Hell",
+    "date": "14世纪末（高丽，依CMA展签）",
+    "material": "绢本墨、设色与金彩",
+    "owner": "檀香山艺术博物馆",
+    "owner_en": "Honolulu Museum of Art",
+    "accession": "3471.1",
+    "full": 16,
+    "label": 21,
+    "photo_indices": [
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "visit_id": "cma-2026-11",
+    "sources": [
+      "S01",
+      "S02"
+    ],
+    "sections": [
+      {
+        "title": "木柱与棍杖",
+        "text": "被缚者伏在木柱前，一名狱卒高举棍棒；旁边另有亡者被控制着头部。展签把这种肉刑与高丽现实司法中的惩罚方式联系起来。这是一种图像与制度的比较，并非对某一次审判的现场记录。[label]",
+        "photo": 18,
+        "caption": "局部：木柱、举棍的狱卒与被押者"
+      },
+      {
+        "title": "安坐的王者",
+        "text": "楚江王略向一侧转身，宽大的红袍覆盖双膝。下方的身体受到约束，上方的身体则在座椅中舒展；两者的差别，让权力不必依靠夸张动作也能被看见。",
+        "photo": 17,
+        "caption": "局部：楚江王的侧身与红袍"
+      }
+    ],
+    "card_photo": 16,
+    "subtitle": "木柱前，冥府与人间的交叠",
+    "lead": "木柱与举起的棍棒把视线拉到画面下方。这里的惩罚并不只存在于想象中的冥府。",
+    "note": ""
+  },
+  {
+    "id": "k03",
+    "category": "king",
+    "name": "第3王 · 宋帝王",
+    "english": "Third King of Hell",
+    "date": "14世纪末（高丽，依CMA展签）",
+    "material": "绢本墨、设色",
+    "owner": "群马县立近代美术馆（浩庵井上收藏）",
+    "owner_en": "Museum of Modern Art, Gunma",
+    "accession": "No. 314",
+    "full": 24,
+    "label": 29,
+    "photo_indices": [
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "visit_id": "cma-2026-11",
+    "sources": [
+      "S01",
+      "S02"
+    ],
+    "sections": [
+      {
+        "title": "一卷可能记录善行的文字",
+        "text": "女子面向王案跪下，孩子从侧面牵住她。展签提出，两人可能是母子，文卷也可能记着女子生前的善行。画面确实留下了拉袖、跪拜和持卷的关系；人物身世与卷中文字，仍不能据此完全确定。[label]",
+        "photo": 26,
+        "caption": "局部：跪地女子与拉住衣袖、手持文卷的孩子"
+      },
+      {
+        "title": "重新找到的第三王",
+        "text": "这幅画自1974年已在群马的浩庵井上收藏中，却长期未被十王图研究重新联系起来。CMA筹备展览时确认了它的所在，十幅画才得以再次聚齐。这里的“重新发现”，指的是学术追踪与作品对应，而不是画卷刚刚出土。[S01]",
+        "photo": 25,
+        "caption": "局部：宋帝王、案上文书与两侧官吏"
+      }
+    ],
+    "card_photo": 24,
+    "subtitle": "拉住衣袖的孩子",
+    "lead": "十王的法庭里，也有这样细小的动作：一个孩子拉着跪地女子的衣袖，左手还拿着一卷文字。",
+    "note": ""
+  },
+  {
+    "id": "k04",
+    "category": "king",
+    "name": "第4王 · 五官王",
+    "english": "Fourth King of Hell",
+    "date": "14世纪末（高丽，依CMA展签）",
+    "material": "绢本墨、设色与金彩",
+    "owner": "克利夫兰艺术博物馆",
+    "owner_en": "Cleveland Museum of Art",
+    "accession": "2019.224",
+    "full": 32,
+    "label": 36,
+    "photo_indices": [
+      32,
+      33,
+      34,
+      35
+    ],
+    "visit_id": "cma-2026-11",
+    "sources": [
+      "S01",
+      "S02",
+      "S05"
+    ],
+    "sections": [
+      {
+        "title": "沸釜中的身体",
+        "text": "火焰围着大釜展开，亡者露出头部和手臂，兽首狱卒持长矛守在旁边。现场展签与馆录把它解释为沸水地狱场景；这里的刑罚是图像中的劝诫，不宜直接反推每个人物的具体罪名。[label][S05]",
+        "photo": 34,
+        "caption": "局部：火焰、沸釜与持矛的狱卒"
+      },
+      {
+        "title": "看向画外",
+        "text": "王者双眼睁开，双手落在案前，正面姿势使他的目光越过画内众人。CMA把这类地狱图与中国宁波专业工坊的佛画联系起来，提出可能的视觉来源；这并不等于已确定本画的工坊。[S05]",
+        "photo": 33,
+        "caption": "局部：五官王的正面面容与桌案"
+      },
+      {
+        "title": "从旧藏到克利夫兰",
+        "text": "馆方来源记录列出Packard旧藏、1992年10月26日纽约佳士得拍卖，以及随后Joseph P. Carroll与Roberta Carroll的收藏。2019年，作品通过购藏与部分捐赠进入克利夫兰艺术博物馆。[S05]"
+      }
+    ],
+    "card_photo": 32,
+    "dimensions": "画心63 × 45.3厘米；连装裱136.2 × 58.9厘米",
+    "subtitle": "直视观者的审判者",
+    "lead": "在多位侧身的王者之间，五官王的脸正对画外。案后的目光，与下方火焰中的沸釜形成强烈对照。",
+    "note": ""
+  },
+  {
+    "id": "k05",
+    "category": "king",
+    "name": "第5王 · 阎罗王",
+    "english": "Fifth King of Hell",
+    "date": "14世纪末（高丽，依CMA展签）",
+    "material": "绢本墨、设色与金彩",
+    "owner": "韩国国立中央博物馆",
+    "owner_en": "National Museum of Korea",
+    "accession": "Koo7479",
+    "full": 39,
+    "label": 46,
+    "photo_indices": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "visit_id": "cma-2026-11",
+    "sources": [
+      "S01",
+      "S02"
+    ],
+    "sections": [
+      {
+        "title": "案前的动物",
+        "text": "牛前伸的蹄旁有一卷文字，鹅与犬排列在一边。它们的大小、身体方向和人的陈情姿势相呼应。展签把这些动物与受害者的申诉联系起来，并推测牛可能正是镜中被杀害的那一头。[label]",
+        "photo": 42,
+        "caption": "局部：案前的牛、鹅与犬"
+      },
+      {
+        "title": "镜子照见的不是相貌",
+        "text": "亡者被押到立镜前，镜中呈现屠牛的场景。业镜将过去的行为带回审判现场：面对它的人所看见的，是自己的行动及其后果。动物与镜像分处上下两层，读者的目光往返其间，才把两处情节连在一起。[label]",
+        "photo": 44,
+        "caption": "局部：业镜中的屠牛场景与镜前亡者"
+      },
+      {
+        "title": "证词之外",
+        "text": "画中的卷轴提示文字也能参与审判，但照片不足以确定卷上写着什么。不杀生的伦理在这里通过动物的身体与目光得到表达，比一条抽象戒律更具体。"
+      }
+    ],
+    "card_photo": 39,
+    "subtitle": "动物也来到法庭",
+    "lead": "牛、鹅与狗出现在阎罗王的案前。把目光向下移，镜中还有另一头牛和举起的斧头：生前的行为，在此成为需要面对的证据。",
+    "note": ""
+  },
+  {
+    "id": "k06",
+    "category": "king",
+    "name": "第6王 · 卞城王",
+    "english": "Sixth King of Hell",
+    "date": "14世纪末（高丽，依CMA展签）",
+    "material": "绢本墨、设色与金彩",
+    "owner": "檀香山艺术博物馆",
+    "owner_en": "Honolulu Museum of Art",
+    "accession": "3469.1",
+    "full": 49,
+    "label": 55,
+    "photo_indices": [
+      49,
+      50,
+      51,
+      52,
+      53,
+      54
+    ],
+    "visit_id": "cma-2026-11",
+    "sources": [
+      "S01",
+      "S02"
+    ],
+    "sections": [
+      {
+        "title": "被押来的官服人物",
+        "text": "狱卒的手臂从两边伸来，穿粉色衣袍的人身体前倾。他与上方安坐的王者同在一种官僚图像世界里，处境却已经不同。[label]",
+        "photo": 51,
+        "caption": "局部：被狱卒押来的官服人物"
+      },
+      {
+        "title": "手中的文卷",
+        "text": "绿色衣袍的男子双手持卷，抬头向王者陈说。展签推测这可能是一份减轻惩罚的请求。文卷在不同十王图中承担不同作用；在这幅画里，它首先让一个求情动作有了具体形状。[label]",
+        "photo": 52,
+        "caption": "局部：跪地持卷的陈情者"
+      }
+    ],
+    "card_photo": 49,
+    "subtitle": "一份尚在倾听中的申诉",
+    "lead": "一位穿官袍的新到亡者被押进来，王者的注意力却留在另一位持卷的人身上。法庭里并非只有定罪的瞬间。",
+    "note": ""
+  },
+  {
+    "id": "k07",
+    "category": "king",
+    "name": "第7王 · 泰山王",
+    "english": "Seventh King of Hell",
+    "date": "14世纪末（高丽，依CMA展签）",
+    "material": "绢本墨、设色与金彩",
+    "owner": "檀香山艺术博物馆",
+    "owner_en": "Honolulu Museum of Art",
+    "accession": "3470.1",
+    "full": 58,
+    "label": 64,
+    "photo_indices": [
+      58,
+      59,
+      60,
+      61,
+      62,
+      63
+    ],
+    "visit_id": "cma-2026-11",
+    "sources": [
+      "S01",
+      "S02"
+    ],
+    "sections": [
+      {
+        "title": "木板的重量",
+        "text": "狱卒从两侧夹压木板，被困者的身体夹在其中。板子的斜线与上方平稳的案沿错开，形成下方紧迫、上方安定的两层空间。[label]",
+        "photo": 62,
+        "caption": "局部：木板夹压装置与两侧狱卒"
+      },
+      {
+        "title": "等待的神情",
+        "text": "两名女子并排出现，面容没有被画成夸张的哭喊。展签特别指出，画家以节制的神情处理严酷情节。这种画法使等待本身成为主题，而她们生前的经历与罪名并没有由画面明确交代。[label]",
+        "photo": 61,
+        "caption": "局部：等待中的两名女子与狱卒"
+      }
+    ],
+    "card_photo": 58,
+    "subtitle": "木板旁等待的人",
+    "lead": "厚重的木板斜穿画面下方，两名女子在旁等待。残酷的题材被放进整齐而克制的绘画秩序里。",
+    "note": ""
+  },
+  {
+    "id": "k08",
+    "category": "king",
+    "name": "第8王 · 平等王",
+    "english": "Eighth King of Hell",
+    "date": "14世纪末（高丽，依CMA展签）",
+    "material": "绢本墨、设色与金彩",
+    "owner": "韩国国立中央博物馆",
+    "owner_en": "National Museum of Korea",
+    "accession": "Koo7480",
+    "full": 67,
+    "label": 71,
+    "photo_indices": [
+      67,
+      68,
+      69,
+      70
+    ],
+    "visit_id": "cma-2026-11",
+    "sources": [
+      "S01",
+      "S02"
+    ],
+    "sections": [
+      {
+        "title": "业秤",
+        "text": "细细的横梁与中央支柱，在人物之间划出清楚的尺度。两端的人举着文卷，像是在提出各自的依据。展签将它称作衡量生前善恶的业秤；它所指向的是行为的分量。[label]",
+        "photo": 69,
+        "caption": "局部：业秤与两侧持卷人物"
+      },
+      {
+        "title": "一位转身的王者",
+        "text": "王者的身体斜向一侧，宽袖与衣袍在膝前展开。下方横直的秤，与上方曲折柔缓的衣纹并置：裁判的工具和裁判者，共同构成这幅画的中心。",
+        "photo": 68,
+        "caption": "局部：平等王的侧身、宽袖与衣纹"
+      }
+    ],
+    "card_photo": 67,
+    "subtitle": "让善恶成为可见的尺度",
+    "lead": "平等王的桌案下方，一架秤横向展开。持卷人物分处两侧，善恶业行被放进一个可以看见的衡量过程。",
+    "note": ""
+  },
+  {
+    "id": "k09",
+    "category": "king",
+    "name": "第9王 · 都市王",
+    "english": "Ninth King of Hell",
+    "date": "14世纪末（高丽，依CMA展签）",
+    "material": "绢本墨、设色与金彩",
+    "owner": "丹佛艺术博物馆",
+    "owner_en": "Denver Art Museum",
+    "accession": "1982.104",
+    "full": 74,
+    "label": 78,
+    "photo_indices": [
+      74,
+      75,
+      76,
+      77
+    ],
+    "visit_id": "cma-2026-11",
+    "sources": [
+      "S01",
+      "S02"
+    ],
+    "sections": [
+      {
+        "title": "木台上的亡者",
+        "text": "亡者被束在木台上，狱卒手里的槌头与钉子清楚可辨。展签指出，画面虽呈现暴力，人物神情和笔法仍然节制；它没有以铺满画幅的血色代替动作本身。[label]",
+        "photo": 76,
+        "caption": "局部：木台、石槌与钉子"
+      },
+      {
+        "title": "法庭的秩序",
+        "text": "都市王与两侧官吏占据上半部，桌案、座椅和衣饰把权威表现得井然有序。上下两层连在一张绢面上，也让审判与执行之间的关系无从回避。",
+        "photo": 75,
+        "caption": "局部：都市王与案旁官吏"
+      }
+    ],
+    "card_photo": 74,
+    "subtitle": "石槌落下之前",
+    "lead": "一击已经落下，另一只石槌仍举在半空。画面把施刑的过程压缩在同一个瞬间。",
+    "note": ""
+  },
+  {
+    "id": "k10",
+    "category": "king",
+    "name": "第10王 · 五道转轮王",
+    "english": "Tenth King of Hell",
+    "date": "14世纪末（高丽，依CMA展签）",
+    "material": "绢本墨、设色与金彩",
+    "owner": "韩国国立中央博物馆",
+    "owner_en": "National Museum of Korea",
+    "accession": "Koo7481",
+    "full": 81,
+    "label": 88,
+    "photo_indices": [
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87
+    ],
+    "visit_id": "cma-2026-11",
+    "sources": [
+      "S01",
+      "S02"
+    ],
+    "sections": [
+      {
+        "title": "六道在画面右侧展开",
+        "text": "现场展签将这些图像联系到六道：天、阿修罗、人、畜生、饿鬼与地狱。浅色弯带把不同去向分开，也与左侧密集的王者、官吏和亡者形成对照。[label]",
+        "photo": 83,
+        "caption": "局部：右侧通道中的六道图像"
+      },
+      {
+        "title": "希望的形状",
+        "text": "在这十幅画里，我尤其喜欢第十王带来的开放感。它并不许诺所有亡者都能脱离轮回，却让漫长的审判有了一个面向来生的出口。六道中的去向，和净土绘画中的接引，各自回应着不同层次的祈愿。",
+        "photo": 86,
+        "caption": "局部：浅色通道中的人物与动物"
+      },
+      {
+        "title": "再看中央的地藏",
+        "text": "十王让人面对业行，地藏则把救拔受苦者的愿望带入观看。它们在今天的展厅中相互映照，也构成了这次观展中最让我留恋的一组关系。[S01]"
+      }
+    ],
+    "card_photo": 81,
+    "subtitle": "审判尽处，下一段生命",
+    "lead": "画面右侧数条浅色通道延伸开来，人形与动物出现在其中。这里让人继续追问的，已是审判之后向何处去。",
+    "note": ""
+  },
+  {
+    "id": "ksitigarbha_cma",
+    "category": "central",
+    "name": "地藏菩萨立像",
+    "english": "Standing Kṣitigarbha",
+    "date": "1300—1350年",
+    "material": "绢本墨、设色与金彩",
+    "owner": "克利夫兰艺术博物馆",
+    "owner_en": "Cleveland Museum of Art",
+    "accession": "2025.141",
+    "full": 91,
+    "label": 96,
+    "photo_indices": [
+      91,
+      92,
+      93,
+      94,
+      95
+    ],
+    "visit_id": "cma-2026-11",
+    "sources": [
+      "S03",
+      "S04"
+    ],
+    "sections": [
+      {
+        "title": "从面容开始",
+        "text": "他以年轻僧侣般的面貌出现，低垂双眼，圆光环绕头部。比起十王案前聚集的众人，这里留下更多暗色的空隙。CMA将地藏解释为救拔冥府中受苦亡者的菩萨；画中的安定，因此与身旁的审判有了不同的意义。[S03][S04]",
+        "photo": 92,
+        "caption": "局部：低垂的眉眼、圆光、锡杖上端与掌中宝珠"
+      },
+      {
+        "title": "锡杖、宝珠、双莲",
+        "text": "右手执锡杖，左手托起宝珠，双脚各立于一朵莲花。僧形、锡杖与宝珠共同帮助辨认这一形象。持物说明救拔与护佑的能力，莲座则使一位看似可以走近的僧人，显出超越日常的身份。[S04]"
+      },
+      {
+        "title": "金彩如何成为衣服",
+        "text": "金色并非均匀铺满袈裟：圆形团花落在深色衣面上，细密枝叶沿着衣缘流动，朱红裙上又有另一套纹样。线条一面描述布料，一面越过布料的厚度，让装饰显得轻盈。走近看，最吸引我的正是这种华丽与安静同时存在的感觉。",
+        "photo": 93,
+        "caption": "局部：深色袈裟、金色团花与朱红长裙"
+      },
+      {
+        "title": "衣纹落到脚下",
+        "text": "袈裟的长线一直引向莲座，金线、红色和暗底在脚边重新相遇。双足的间距很小，人物没有迈步，却有一种随时能够向前的轻柔姿态。",
+        "photo": 94,
+        "caption": "局部：裙缘纹饰、锡杖下段与双莲座"
+      },
+      {
+        "title": "隐在暗处的“青龍公用”",
+        "text": "CMA的红外摄影在画面右下方发现墨书“青龍公用”。馆方将它理解为供一位“青龙公”使用，并据此推测，画可能曾在精英家庭的私人礼拜空间中供奉。题字提供了用途线索，具体供养者与原供奉地点仍未确定。这里所见均为现场可见光照片；红外发现见馆方研究文章。[S03]"
+      },
+      {
+        "title": "近代流传与重新亮相",
+        "text": "公开来源记录从约1930年代至1980年的日本森村家族收藏开始，其后列为Jin Chang-sik（日本名Nakamura Takeo）收藏，2025年进入克利夫兰艺术博物馆。它何时离开朝鲜半岛、此前供奉于何处，尚未由这条近代记录说明。[S04]"
+      },
+      {
+        "title": "相近的画，不同的问题",
+        "text": "CMA还将它与大都会藏地藏菩萨图（29.160.32）比较，提出可能出自同一工坊的看法。这是一项风格与技法判断；大都会那幅是馆外比较资料，不计入本次亲见作品。此种比较也不同于本展将地藏置于十王中央的策展关系，中央这幅画与十王尚无已证实的原套关系。[S03][S15][S01]"
+      },
+      {
+        "title": "回看",
+        "text": "十王的画里有判词、刑具和需要陈说的往事，地藏手中则是锡杖与宝珠。我喜欢这幅画，正在于它把细密的装饰化成了宁静：目光停在金线上，最后仍会回到那张低垂着双眼的面容。"
+      }
+    ],
+    "dimensions": "画心102.6 × 43.2厘米",
+    "subtitle": "审判之外的慈悲",
+    "lead": "在十王的法庭之间，中央这幅地藏最让我难忘。深色袈裟、朱红长裙与极细的金线层层相叠，面容却安静得几乎没有动作。",
+    "note": ""
+  },
+  {
+    "id": "arhat_464",
+    "category": "painting",
+    "name": "世供养尊者：降龙罗汉",
+    "english": "Arhat (Segongyang jonja)",
+    "date": "1235年",
+    "material": "绢本墨、淡设色",
+    "owner": "克利夫兰艺术博物馆",
+    "owner_en": "Cleveland Museum of Art",
+    "accession": "1979.71",
+    "full": 202,
+    "label": 208,
+    "photo_indices": [
+      202,
+      203,
+      204,
+      205,
+      206,
+      207
+    ],
+    "visit_id": "cma-2026-11",
+    "sources": [
+      "S06"
+    ],
+    "sections": [
+      {
+        "title": "第464位罗汉",
+        "text": "馆方依据题记，将人物辨认为五百罗汉中的第464位世供养尊者。龙与钵使神异力量获得可见的形状。CMA展签认为，这幅1235年的画可能与当时蒙古入侵背景下的祈愿有关；具体委托缘由仍属推测。[label][S06]",
+        "photo": 205,
+        "caption": "局部：钵前翻卷的龙"
+      }
+    ],
+    "subtitle": "一只钵，面对一条龙",
+    "lead": "罗汉坐在编织的竹座上，身体朝向一条翻卷的龙；手中的钵，把两者之间的距离变得很近。",
+    "note": ""
+  },
+  {
+    "id": "watermoon_princeton",
+    "category": "painting",
+    "name": "水月观音",
+    "english": "Water-Moon Avalokiteśvara",
+    "date": "14世纪（CMA展签）；馆藏网页未细定年",
+    "material": "绢本墨、设色与金彩",
+    "owner": "普林斯顿大学艺术博物馆",
+    "owner_en": "Princeton University Art Museum",
+    "accession": "y1928-25",
+    "full": 211,
+    "label": 223,
+    "photo_indices": [
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222
+    ],
+    "visit_id": "cma-2026-11",
+    "sources": [
+      "S07"
+    ],
+    "sections": [
+      {
+        "title": "重新归属的水月观音",
+        "text": "本画曾被归入中国明代；CMA展签介绍Sooa Im McCormick将其重新辨为高丽绘画。普林斯顿现行馆录也标作朝鲜半岛高丽时期，但未细定年份。展签对红外所见光背内竹叶的解释，是修补时移入的旧绢片可能带入了原有纹样。[label][S07]",
+        "photo": 213,
+        "caption": "局部：膝前的衣纹、薄纱与金彩"
+      }
+    ],
+    "subtitle": "岩石、竹影与薄纱",
+    "lead": "观音坐在海上岩石间，薄纱沿着身体与衣纹垂下。金线在深色画面中留下既繁复又轻柔的层次。",
+    "note": ""
+  },
+  {
+    "id": "leeum_amitabha_kshitigarbha_avalok",
+    "category": "painting",
+    "name": "阿弥陀三尊（地藏与观音侍立）",
+    "english": "Amitābha Buddha Triad",
+    "date": "14世纪",
+    "material": "绢本墨、设色与金彩",
+    "owner": "Leeum美术馆",
+    "owner_en": "Leeum Museum of Art",
+    "accession": "",
+    "full": 231,
+    "label": 239,
+    "photo_indices": [
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238
+    ],
+    "visit_id": "cma-2026-11",
+    "sources": [],
+    "sections": [
+      {
+        "title": "三种慈悲的并置",
+        "text": "展签将这里的三尊与净土接引、冥府救拔和世间救苦联系起来。站在中间的阿弥陀转向来迎的方向，两侧菩萨则稳稳立定；观看时可以从三张脸转回全幅，辨认这组有意安排的朝向。[label]",
+        "photo": 233,
+        "caption": "局部：地藏的僧形面容与宝珠"
+      }
+    ],
+    "subtitle": "接引与救拔相遇",
+    "lead": "阿弥陀佛微微转身，两侧地藏与观音面向画外。三个目光方向，使三尊既构成整体，又各自与观者发生联系。",
+    "note": ""
+  },
+  {
+    "id": "met_amitabha_triad",
+    "category": "painting",
+    "name": "阿弥陀三尊图",
+    "english": "Amitābha Triad",
+    "date": "约13世纪（Met馆录）；14世纪末（CMA展签）",
+    "material": "绢本墨、设色与金彩",
+    "owner": "纽约大都会艺术博物馆",
+    "owner_en": "The Metropolitan Museum of Art",
+    "accession": "30.76.298",
+    "full": 242,
+    "label": 250,
+    "photo_indices": [
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249
+    ],
+    "visit_id": "cma-2026-11",
+    "sources": [
+      "S08"
+    ],
+    "sections": [
+      {
+        "title": "另一组阿弥陀三尊",
+        "text": "大都会馆录将两位胁侍辨为观音与大势至，与Leeum那幅由地藏和观音侍立的三尊图不同。服饰上的圆形纹样、袍缘与莲座可以近看，人物身份则以该件馆录为据。[S08]",
+        "photo": 246,
+        "caption": "局部：阿弥陀衣袍的金色纹样"
+      }
+    ],
+    "subtitle": "莲座上的说法者",
+    "lead": "阿弥陀高坐在莲座上，手势收在胸前；两侧菩萨和细密金纹，使中央的静坐成为全画的重心。",
+    "note": "年代记录有差异：CMA现场展签标14世纪末，大都会现行网页标约13世纪。本页保留两种记录；尚未取得解释这一差异的专题研究。[label][S08]"
+  },
+  {
+    "id": "leeum_amitabha_buddha",
+    "category": "painting",
+    "name": "阿弥陀佛",
+    "english": "Amitābha Buddha",
+    "date": "14世纪",
+    "material": "绢本设色与金彩",
+    "owner": "Leeum美术馆",
+    "owner_en": "Leeum Museum of Art",
+    "accession": "",
+    "full": 253,
+    "label": 258,
+    "photo_indices": [
+      253,
+      254,
+      255,
+      256,
+      257
+    ],
+    "visit_id": "cma-2026-11",
+    "sources": [],
+    "sections": [
+      {
+        "title": "掌心的法轮",
+        "text": "现场展签把掌中金绘法轮与佛法联系起来，并将这幅半侧面的立像解释为接引往生者的形象。局部照片中，手掌、垂指与沿袖口的细线，使这一动作能够被近距离观察。[label]",
+        "photo": 255,
+        "caption": "局部：向下伸出的手与掌心金绘法轮"
+      }
+    ],
+    "subtitle": "向下伸出的手",
+    "lead": "阿弥陀略侧身，手掌向下伸出，目光也落向画面下方。朱红衣袍与深色衣缘，围绕这个舒缓动作展开。",
+    "note": ""
+  },
+  {
+    "id": "freer_ksitigarbha",
+    "category": "painting",
+    "name": "地藏菩萨立像",
+    "english": "Bodhisattva Kṣitigarbha",
+    "date": "13世纪末—14世纪初",
+    "material": "绢本墨、设色与金彩",
+    "owner": "史密森尼国家亚洲艺术博物馆",
+    "owner_en": "National Museum of Asian Art, Smithsonian",
+    "accession": "S1992.11",
+    "full": 261,
+    "label": 267,
+    "photo_indices": [
+      261,
+      262,
+      263,
+      264,
+      265,
+      266
+    ],
+    "visit_id": "cma-2026-11",
+    "sources": [
+      "S09"
+    ],
+    "sections": [
+      {
+        "title": "持物与金纹",
+        "text": "国家亚洲艺术博物馆将地藏解释为帮助众生脱离苦难的救度者。这里的宝珠与锡杖分处两侧，袈裟金纹沿着身体下垂。把它与中央地藏并看，可以比较同一图像类型如何通过衣缘、面容与手势形成差别。[S09]",
+        "photo": 266,
+        "caption": "局部：手掌托起的圆形宝珠"
+      }
+    ],
+    "subtitle": "另一幅僧形地藏",
+    "lead": "同样是圆光、锡杖、宝珠与双莲，这幅地藏的姿态与衣纹却有自己的节奏。它与展厅中央的CMA新藏是两件作品。",
+    "note": ""
+  },
+  {
+    "id": "leeum_sakyamuni_16_arhats",
+    "category": "painting",
+    "name": "释迦三尊十六罗汉图",
+    "english": "Śākyamuni Triad with 16 Arhats",
+    "date": "14世纪",
+    "material": "绢本墨、设色与金彩",
+    "owner": "Leeum美术馆",
+    "owner_en": "Leeum Museum of Art",
+    "accession": "",
+    "full": 270,
+    "label": 279,
+    "photo_indices": [
+      270,
+      271,
+      272,
+      273,
+      274,
+      275,
+      276,
+      277,
+      278
+    ],
+    "visit_id": "cma-2026-11",
+    "sources": [],
+    "sections": [
+      {
+        "title": "从三尊到罗汉",
+        "text": "展签辨明主尊为释迦牟尼，而非阿弥陀佛。罗汉手中的经函、香炉等物件，让守护教法的职责有了具体形象。展签同时指出，这幅画的实际仪式用途仍不清楚；高丽王室的罗汉信仰是理解它的背景，而非已经确认的委托记录。[label]",
+        "photo": 275,
+        "caption": "局部：云间罗汉与手中法器"
+      }
+    ],
+    "subtitle": "云上的护持者",
+    "lead": "释迦牟尼与两位胁侍居于画面上方，十六罗汉分列云间。目光顺着云气移动，人物就逐一从暗底中显现。",
+    "note": ""
+  },
+  {
+    "id": "lotus-ewer",
+    "category": "object",
+    "name": "莲花童子纹青瓷执壶与承盘",
+    "english": "Ewer and Stand in the Shape of Lotus",
+    "date": "高丽时期，918—1392年",
+    "material": "青瓷",
+    "owner": "韩国国立中央博物馆",
+    "owner_en": "",
+    "accession": "Deoksu443；Deoksu445",
+    "full": 291,
+    "label": 292,
+    "photo_indices": [
+      291,
+      292
+    ],
+    "visit_id": "cma-2026-11",
+    "sources": [],
+    "lead": "壶身以镂空莲蔓包围，童子穿行在枝叶间。展签把莲花与童子的组合联系到净土中的莲花化生；承盘外侧的层叠莲瓣，又让这一意象进入器物的立体结构。",
+    "subtitle": "",
+    "sections": [],
+    "note": ""
+  },
+  {
+    "id": "lotus-cup",
+    "category": "object",
+    "name": "莲瓣纹青瓷杯",
+    "english": "Celadon Cup with Molded Lotus Petal Design",
+    "date": "12—13世纪",
+    "material": "青瓷",
+    "owner": "克利夫兰艺术博物馆",
+    "owner_en": "",
+    "accession": "2025.180",
+    "full": 313,
+    "label": 314,
+    "photo_indices": [
+      313,
+      314
+    ],
+    "visit_id": "cma-2026-11",
+    "sources": [],
+    "lead": "杯壁上的双层莲瓣把简洁器形分成细密的节奏。展签推测它用于饮茶或饮酒，并依据较大体量提出礼仪用途的可能；具体使用场景尚未确定。",
+    "subtitle": "",
+    "sections": [],
+    "note": ""
+  },
+  {
+    "id": "funerary-urn",
+    "category": "object",
+    "name": "有发愿文的青瓷骨灰罐",
+    "english": "Funerary Urn with Inscription",
+    "date": "12世纪",
+    "material": "青瓷",
+    "owner": "Leeum美术馆",
+    "owner_en": "",
+    "accession": "",
+    "full": 325,
+    "label": 326,
+    "photo_indices": [
+      325,
+      326
+    ],
+    "visit_id": "cma-2026-11",
+    "sources": [],
+    "lead": "圆筒形外罐上的嵌饰文字，把器物与来生愿望直接相连。按展签提供的释义，发愿者希望命终时苦难止息、得见阿弥陀佛并往生净土。本页依展签概述其意，不另据照片拼出铭文。",
+    "subtitle": "",
+    "sections": [],
+    "note": ""
+  },
+  {
+    "id": "incense-burner",
+    "category": "object",
+    "name": "铜错银香炉",
+    "english": "Incense Burner",
+    "date": "12—13世纪",
+    "material": "铜合金、错银",
+    "owner": "韩国国立中央博物馆",
+    "owner_en": "",
+    "accession": "Deoksu2375",
+    "full": 364,
+    "label": 367,
+    "photo_indices": [
+      364,
+      367
+    ],
+    "visit_id": "cma-2026-11",
+    "sources": [],
+    "lead": "宽口、高足和腹部纹饰，使供香器具有郑重的姿态。展签据足部铭文，将它联系到为高丽熙宗王后制作的供养器，并推测可能用于私人礼拜空间。",
+    "subtitle": "",
+    "sections": [],
+    "note": ""
+  },
+  {
+    "id": "avatamsaka-78",
+    "category": "object",
+    "name": "《大方广佛华严经》卷七十八",
+    "english": "Avatamsaka Sutra No. 78",
+    "date": "14世纪",
+    "material": "桑皮纸，金银书绘，经折装",
+    "owner": "克利夫兰艺术博物馆",
+    "owner_en": "",
+    "accession": "1994.25",
+    "full": 392,
+    "label": 393,
+    "photo_indices": [
+      392,
+      393
+    ],
+    "visit_id": "cma-2026-11",
+    "sources": [],
+    "lead": "深蓝色纸张上的金银文字与卷首画，将阅读和图像放在同一册经卷中。展签把卷首场景辨为善财童子参见弥勒；这里的金色既描绘人物，也逐字写出经文。",
+    "subtitle": "",
+    "sections": [],
+    "note": ""
+  },
+  {
+    "id": "vajra-bell",
+    "category": "object",
+    "name": "金刚杵与金刚铃",
+    "english": "Vajra and Vajra Bell",
+    "date": "高丽时期，918—1392年",
+    "material": "铜合金",
+    "owner": "首尔汉城百济博物馆",
+    "owner_en": "",
+    "accession": "Seowi-H12394；Seowi-H12395",
+    "full": 412,
+    "label": 417,
+    "photo_indices": [
+      412,
+      417
+    ],
+    "visit_id": "cma-2026-11",
+    "sources": [],
+    "lead": "据展签，这组法器于2012年在首尔一处寺院遗址出土。杵与铃分别关联破除无明和唤起智慧；钟身繁密的起伏，与佛画中细密的线条构成不同材料间的呼应。",
+    "subtitle": "",
+    "sections": [],
+    "note": ""
+  }
+]

@@ -1,0 +1,2372 @@
+{
+  "2": {
+    "source_index": 2,
+    "source_filename": "Image_20261116230912_2487_19.jpg",
+    "source_sha256": "069d1c027308e43af5d32bb14b58e86927ebc10201fb3a131a38a7c5528fac32",
+    "role": "context",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1707,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "images/002-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/002-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/002-1707.webp",
+        "width": 1707,
+        "height": 1280
+      }
+    ],
+    "full": "images/002-1707.webp",
+    "selected_asset": "assets/selected/installation--context--002.webp"
+  },
+  "9": {
+    "source_index": 9,
+    "source_filename": "Image_20261116230912_2494_19.jpg",
+    "source_sha256": "2e148d7bc06b02e537d15e2e0cea6e912ca15363a396dc01d3299604e1ade362",
+    "role": "full",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/009-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/009-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/009-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/009-1280.webp",
+    "selected_asset": "assets/selected/k01--full--009.webp"
+  },
+  "10": {
+    "source_index": 10,
+    "source_filename": "Image_20261116230912_2495_19.jpg",
+    "source_sha256": "b8ecb77bcd496ffd681707943dc86584ca04a2cec641ca5c16b01875972aaa36",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/010-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/010-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/010-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/010-1280.webp",
+    "selected_asset": "assets/selected/k01--detail01--010.webp"
+  },
+  "11": {
+    "source_index": 11,
+    "source_filename": "Image_20261116230912_2496_19.jpg",
+    "source_sha256": "5349a34d3db8e5be2ccbfa26d55f889ba4c635f6eacf00199e40cee7de464c0e",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/011-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/011-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/011-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/011-1280.webp",
+    "selected_asset": "assets/selected/k01--detail02--011.webp"
+  },
+  "12": {
+    "source_index": 12,
+    "source_filename": "Image_20261116230912_2497_19.jpg",
+    "source_sha256": "daea165da3a36c13acbc54ab275b34aac5fa93a3e2a157652607a1799f1a0d45",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/012-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/012-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/012-1702.webp",
+        "width": 1702,
+        "height": 1276
+      }
+    ],
+    "full": "images/012-1702.webp",
+    "selected_asset": "assets/selected/k01--detail03--012.webp"
+  },
+  "13": {
+    "source_index": 13,
+    "source_filename": "Image_20261116230912_2498_19.jpg",
+    "source_sha256": "d7920256f190ca245ff00ad979be25a3f4d0586e78460f72d595ec2b9c7d7c66",
+    "role": "label",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1707,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "images/013-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/013-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/013-1707.webp",
+        "width": 1707,
+        "height": 1280
+      }
+    ],
+    "full": "images/013-1707.webp",
+    "selected_asset": "assets/selected/k01--label--013.webp"
+  },
+  "16": {
+    "source_index": 16,
+    "source_filename": "Image_20261116230912_2501_19.jpg",
+    "source_sha256": "cd37c937d973b250ce8095736556308d1a62945927ee753cab71d5545e94492d",
+    "role": "full",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/016-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/016-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/016-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/016-1280.webp",
+    "selected_asset": "assets/selected/k02--full--016.webp"
+  },
+  "17": {
+    "source_index": 17,
+    "source_filename": "Image_20261116230912_2502_19.jpg",
+    "source_sha256": "6df48f719896f668590e042195b66610741051495280f11031177c2b1aa1ca6f",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/017-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/017-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/017-1702.webp",
+        "width": 1702,
+        "height": 1276
+      }
+    ],
+    "full": "images/017-1702.webp",
+    "selected_asset": "assets/selected/k02--detail01--017.webp"
+  },
+  "18": {
+    "source_index": 18,
+    "source_filename": "Image_20261116230912_2503_19.jpg",
+    "source_sha256": "86622aff4b34054134fb7d8ca2f746b38aa39df6e9b17652043d7170c1a62a0d",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/018-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/018-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/018-1702.webp",
+        "width": 1702,
+        "height": 1276
+      }
+    ],
+    "full": "images/018-1702.webp",
+    "selected_asset": "assets/selected/k02--detail02--018.webp"
+  },
+  "21": {
+    "source_index": 21,
+    "source_filename": "Image_20261116230912_2506_19.jpg",
+    "source_sha256": "9a666aa7b256cb92ee5ae62542ff528b25929392e6598e430733f7f1ad84fea6",
+    "role": "label",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/021-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/021-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/021-1702.webp",
+        "width": 1702,
+        "height": 1276
+      }
+    ],
+    "full": "images/021-1702.webp",
+    "selected_asset": "assets/selected/k02--label--021.webp"
+  },
+  "24": {
+    "source_index": 24,
+    "source_filename": "Image_20261116230912_2509_19.jpg",
+    "source_sha256": "73991ca639db76c307bca953ba416e92ef960dda68718e34a9d15fca67d2ae8d",
+    "role": "full",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/024-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/024-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/024-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/024-1280.webp",
+    "selected_asset": "assets/selected/k03--full--024.webp"
+  },
+  "25": {
+    "source_index": 25,
+    "source_filename": "Image_20261116230912_2510_19.jpg",
+    "source_sha256": "6e5367a25d77362117e0e03d3fde695be995c3a2155fa6da449fa255697ccdbe",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/025-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/025-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/025-1702.webp",
+        "width": 1702,
+        "height": 1276
+      }
+    ],
+    "full": "images/025-1702.webp",
+    "selected_asset": "assets/selected/k03--detail01--025.webp"
+  },
+  "26": {
+    "source_index": 26,
+    "source_filename": "Image_20261116230912_2511_19.jpg",
+    "source_sha256": "cc62146b3e5ef7686cef14ea57b7548fcef901d5c041c3bc4f07472db2d4792e",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/026-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/026-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/026-1702.webp",
+        "width": 1702,
+        "height": 1276
+      }
+    ],
+    "full": "images/026-1702.webp",
+    "selected_asset": "assets/selected/k03--detail02--026.webp"
+  },
+  "29": {
+    "source_index": 29,
+    "source_filename": "Image_20261116230912_2514_19.jpg",
+    "source_sha256": "cce2b43691c6b715933f2c0a750d3224d34e13fa54c80172a9175c6dd30b0211",
+    "role": "label",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1707,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "images/029-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/029-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/029-1707.webp",
+        "width": 1707,
+        "height": 1280
+      }
+    ],
+    "full": "images/029-1707.webp",
+    "selected_asset": "assets/selected/k03--label--029.webp"
+  },
+  "32": {
+    "source_index": 32,
+    "source_filename": "Image_20261116230912_2517_19.jpg",
+    "source_sha256": "312be1f5c17cca18277c20fd0c5d1ee2650fbee432a415091553703e2632f375",
+    "role": "full",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/032-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/032-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/032-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/032-1280.webp",
+    "selected_asset": "assets/selected/k04--full--032.webp"
+  },
+  "33": {
+    "source_index": 33,
+    "source_filename": "Image_20261116230912_2518_19.jpg",
+    "source_sha256": "09642a55de9f9fedd2323a853a0f54b70431f5581a662174d614e9900b3c5ab4",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/033-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/033-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/033-1702.webp",
+        "width": 1702,
+        "height": 1276
+      }
+    ],
+    "full": "images/033-1702.webp",
+    "selected_asset": "assets/selected/k04--detail01--033.webp"
+  },
+  "34": {
+    "source_index": 34,
+    "source_filename": "Image_20261116230912_2519_19.jpg",
+    "source_sha256": "a8cfd9fe6aa40eadd518256de167b05ecefadc320f1cc985e521a89b34cf374a",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1707,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "images/034-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/034-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/034-1707.webp",
+        "width": 1707,
+        "height": 1280
+      }
+    ],
+    "full": "images/034-1707.webp",
+    "selected_asset": "assets/selected/k04--detail02--034.webp"
+  },
+  "36": {
+    "source_index": 36,
+    "source_filename": "Image_20261116230912_2521_19.jpg",
+    "source_sha256": "1cca6b5aa181cac498723fcf6a3d5ad5b1c6765a5a6d92012cb04dee6c152ed4",
+    "role": "label",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1707,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "images/036-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/036-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/036-1707.webp",
+        "width": 1707,
+        "height": 1280
+      }
+    ],
+    "full": "images/036-1707.webp",
+    "selected_asset": "assets/selected/k04--label--036.webp"
+  },
+  "39": {
+    "source_index": 39,
+    "source_filename": "Image_20261116230912_2524_19.jpg",
+    "source_sha256": "602849593e8a994c3603c68a92683926668c64565626f60485fe797522a87285",
+    "role": "full",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/039-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/039-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/039-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/039-1280.webp",
+    "selected_asset": "assets/selected/k05--full--039.webp"
+  },
+  "42": {
+    "source_index": 42,
+    "source_filename": "Image_20261116230912_2527_19.jpg",
+    "source_sha256": "6a2711bb7ed104b25d881969fef2af39e9fe42588fb7ae6f7e9a48ec3b0a7286",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/042-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/042-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/042-1702.webp",
+        "width": 1702,
+        "height": 1276
+      }
+    ],
+    "full": "images/042-1702.webp",
+    "selected_asset": "assets/selected/k05--detail03--042.webp"
+  },
+  "44": {
+    "source_index": 44,
+    "source_filename": "Image_20261116230912_2529_19.jpg",
+    "source_sha256": "8d1214af9859f1703ba88a0cd78a66192771e954770ce12579fcc835fc1be6a3",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1276,
+    "height": 958,
+    "variants": [
+      {
+        "path": "images/044-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/044-800.webp",
+        "width": 800,
+        "height": 601
+      },
+      {
+        "path": "images/044-1276.webp",
+        "width": 1276,
+        "height": 958
+      }
+    ],
+    "full": "images/044-1276.webp",
+    "selected_asset": "assets/selected/k05--detail05--044.webp"
+  },
+  "46": {
+    "source_index": 46,
+    "source_filename": "Image_20261116230912_2531_19.jpg",
+    "source_sha256": "6d05caf29c421f7fabee35f7d5347df372a53249d7351752a2ef83d54efff2f7",
+    "role": "label",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1707,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "images/046-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/046-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/046-1707.webp",
+        "width": 1707,
+        "height": 1280
+      }
+    ],
+    "full": "images/046-1707.webp",
+    "selected_asset": "assets/selected/k05--label--046.webp"
+  },
+  "49": {
+    "source_index": 49,
+    "source_filename": "Image_20261116230912_2534_19.jpg",
+    "source_sha256": "d00005bfef52855c4ab63e919fc236d151dc34a4cc435be331a1be037902cd64",
+    "role": "full",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/049-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/049-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/049-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/049-1280.webp",
+    "selected_asset": "assets/selected/k06--full--049.webp"
+  },
+  "51": {
+    "source_index": 51,
+    "source_filename": "Image_20261116230912_2536_19.jpg",
+    "source_sha256": "c361028a9a9c756e1c7dbee6ed6c68d3fe03886624cb4d98c3358c558b6e394f",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "path": "images/051-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/051-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/051-1280.webp",
+        "width": 1280,
+        "height": 960
+      }
+    ],
+    "full": "images/051-1280.webp",
+    "selected_asset": "assets/selected/k06--detail02--051.webp"
+  },
+  "52": {
+    "source_index": 52,
+    "source_filename": "Image_20261116230912_2537_19.jpg",
+    "source_sha256": "4eb02d35ee77da5f4c40e0625a47df70d5100b75988eeaee50c5b49cd56a5281",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/052-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/052-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/052-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/052-1280.webp",
+    "selected_asset": "assets/selected/k06--detail03--052.webp"
+  },
+  "55": {
+    "source_index": 55,
+    "source_filename": "Image_20261116230912_2540_19.jpg",
+    "source_sha256": "57149b0ded4c83f7ab2140cc71dde9948a2d0e0aa6f42c738dae05b932d605ac",
+    "role": "label",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/055-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/055-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/055-1702.webp",
+        "width": 1702,
+        "height": 1276
+      }
+    ],
+    "full": "images/055-1702.webp",
+    "selected_asset": "assets/selected/k06--label--055.webp"
+  },
+  "58": {
+    "source_index": 58,
+    "source_filename": "Image_20261116230912_2543_19.jpg",
+    "source_sha256": "fed9bdc955d6515aea2c76d6b265da8ad6a4059add48d495bfa030ebf3b45988",
+    "role": "full",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/058-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/058-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/058-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/058-1280.webp",
+    "selected_asset": "assets/selected/k07--full--058.webp"
+  },
+  "61": {
+    "source_index": 61,
+    "source_filename": "Image_20261116230912_2546_19.jpg",
+    "source_sha256": "4f71b3846ebf7d00550d78cdd312086ba7add2381d4b30b4e8ce3b91885f83b5",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/061-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/061-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/061-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/061-1280.webp",
+    "selected_asset": "assets/selected/k07--detail03--061.webp"
+  },
+  "62": {
+    "source_index": 62,
+    "source_filename": "Image_20261116230912_2547_19.jpg",
+    "source_sha256": "acf89564064bad3ae4a7cd0db8d4154ea8bd38483d3101746f4674446e2268ea",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/062-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/062-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/062-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/062-1280.webp",
+    "selected_asset": "assets/selected/k07--detail04--062.webp"
+  },
+  "64": {
+    "source_index": 64,
+    "source_filename": "Image_20261116230912_2549_19.jpg",
+    "source_sha256": "0e5266585e0b4df13e02a2e129c37b6798aa63ff92304705ed0cd7d17ec35e5f",
+    "role": "label",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/064-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/064-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/064-1702.webp",
+        "width": 1702,
+        "height": 1276
+      }
+    ],
+    "full": "images/064-1702.webp",
+    "selected_asset": "assets/selected/k07--label--064.webp"
+  },
+  "67": {
+    "source_index": 67,
+    "source_filename": "Image_20261116230912_2552_19.jpg",
+    "source_sha256": "7034864153a0fbba598a2eac06ac9484b8957fdbb37b7a480286b2558748d7b5",
+    "role": "full",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/067-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/067-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/067-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/067-1280.webp",
+    "selected_asset": "assets/selected/k08--full--067.webp"
+  },
+  "68": {
+    "source_index": 68,
+    "source_filename": "Image_20261116230912_2553_19.jpg",
+    "source_sha256": "84740fc4d9df17a4cc297ae00bb8fe26838e46d24f999358ab16d2f34f30463e",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/068-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/068-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/068-1702.webp",
+        "width": 1702,
+        "height": 1276
+      }
+    ],
+    "full": "images/068-1702.webp",
+    "selected_asset": "assets/selected/k08--detail01--068.webp"
+  },
+  "69": {
+    "source_index": 69,
+    "source_filename": "Image_20261116230912_2554_19.jpg",
+    "source_sha256": "7ab3c8f13dd972d2279c01a189e5035da9d935547e4980b8f6bd516d3170ea75",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/069-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/069-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/069-1702.webp",
+        "width": 1702,
+        "height": 1276
+      }
+    ],
+    "full": "images/069-1702.webp",
+    "selected_asset": "assets/selected/k08--detail02--069.webp"
+  },
+  "71": {
+    "source_index": 71,
+    "source_filename": "Image_20261116230912_2556_19.jpg",
+    "source_sha256": "e4b1d6b95b39eeee823017bfdf3b817484476f0c3388584f60a67c71d3869203",
+    "role": "label",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1707,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "images/071-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/071-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/071-1707.webp",
+        "width": 1707,
+        "height": 1280
+      }
+    ],
+    "full": "images/071-1707.webp",
+    "selected_asset": "assets/selected/k08--label--071.webp"
+  },
+  "74": {
+    "source_index": 74,
+    "source_filename": "Image_20261116230912_2559_19.jpg",
+    "source_sha256": "4d2e39dbd62f0c6b33dd25748ae9f22b04023db9b0e5717e4ec97a75cdc97a2d",
+    "role": "full",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/074-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/074-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/074-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/074-1280.webp",
+    "selected_asset": "assets/selected/k09--full--074.webp"
+  },
+  "75": {
+    "source_index": 75,
+    "source_filename": "Image_20261116230912_2560_19.jpg",
+    "source_sha256": "4611e50a6fe73402bda7a16a0d006c2b4c53dae7cbb4127cfd9075a7a9c0c75b",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/075-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/075-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/075-1702.webp",
+        "width": 1702,
+        "height": 1276
+      }
+    ],
+    "full": "images/075-1702.webp",
+    "selected_asset": "assets/selected/k09--detail01--075.webp"
+  },
+  "76": {
+    "source_index": 76,
+    "source_filename": "Image_20261116230912_2561_19.jpg",
+    "source_sha256": "8423cc2de9b9f9b7842d238a57b33ab48544e01dc0b3b61fdf6609a91a5985df",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/076-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/076-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/076-1702.webp",
+        "width": 1702,
+        "height": 1276
+      }
+    ],
+    "full": "images/076-1702.webp",
+    "selected_asset": "assets/selected/k09--detail02--076.webp"
+  },
+  "78": {
+    "source_index": 78,
+    "source_filename": "Image_20261116230912_2563_19.jpg",
+    "source_sha256": "a35ae467035b0bf6ad49c53869de3cebb40024ec860a2218a82802f3b889010c",
+    "role": "label",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1707,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "images/078-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/078-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/078-1707.webp",
+        "width": 1707,
+        "height": 1280
+      }
+    ],
+    "full": "images/078-1707.webp",
+    "selected_asset": "assets/selected/k09--label--078.webp"
+  },
+  "81": {
+    "source_index": 81,
+    "source_filename": "Image_20261116230912_2566_19.jpg",
+    "source_sha256": "941e2d95643785b23496a9c53c4820eac272bb261296884a7d6ef094520232ec",
+    "role": "full",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/081-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/081-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/081-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/081-1280.webp",
+    "selected_asset": "assets/selected/k10--full--081.webp"
+  },
+  "83": {
+    "source_index": 83,
+    "source_filename": "Image_20261116230912_2568_19.jpg",
+    "source_sha256": "6e32a75fe87db4b1fae5d5cff7cfe40bdec7d80f74cda0a6ff5d24fb02ccf886",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 960,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "images/083-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/083-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/083-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "full": "images/083-960.webp",
+    "selected_asset": "assets/selected/k10--detail02--083.webp"
+  },
+  "86": {
+    "source_index": 86,
+    "source_filename": "Image_20261116230912_2571_19.jpg",
+    "source_sha256": "40bd34b54f3cf2a647b133e80a957d6d1fe04a21b4fd9a9118ebb78391a51c00",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 960,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "images/086-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/086-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/086-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "full": "images/086-960.webp",
+    "selected_asset": "assets/selected/k10--detail05--086.webp"
+  },
+  "88": {
+    "source_index": 88,
+    "source_filename": "Image_20261116230912_2573_19.jpg",
+    "source_sha256": "2cae28e380b29ef4ac5fe6d69acf111c1d6c2ec7f120507ed885abb636d91a29",
+    "role": "label",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1707,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "images/088-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/088-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/088-1707.webp",
+        "width": 1707,
+        "height": 1280
+      }
+    ],
+    "full": "images/088-1707.webp",
+    "selected_asset": "assets/selected/k10--label--088.webp"
+  },
+  "91": {
+    "source_index": 91,
+    "source_filename": "Image_20261116230912_2576_19.jpg",
+    "source_sha256": "6cd73e7b3905f6b3dff2efb7e4baae2b6123222fffac84f769c04219d0e8adb0",
+    "role": "full",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/091-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/091-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/091-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/091-1280.webp",
+    "selected_asset": "assets/selected/ksitigarbha-cma--full--091.webp"
+  },
+  "92": {
+    "source_index": 92,
+    "source_filename": "Image_20261116230912_2577_19.jpg",
+    "source_sha256": "b85107fa5dd501d9a87f7c4a5551263d6950c01acbf47c04b42678e2f8e17727",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/092-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/092-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/092-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/092-1280.webp",
+    "selected_asset": "assets/selected/ksitigarbha-cma--detail01--092.webp"
+  },
+  "93": {
+    "source_index": 93,
+    "source_filename": "Image_20261116230912_2578_19.jpg",
+    "source_sha256": "15c072e813321ea1bcbe099d605918f18ea5ee0b8f977a5f037f1cb6fcba7cd5",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/093-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/093-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/093-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/093-1280.webp",
+    "selected_asset": "assets/selected/ksitigarbha-cma--detail02--093.webp"
+  },
+  "94": {
+    "source_index": 94,
+    "source_filename": "Image_20261116230912_2579_19.jpg",
+    "source_sha256": "a77e807bb29f2432032d6945ba13a6b4f2185343c5038208d099b46c3349834d",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/094-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/094-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/094-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/094-1280.webp",
+    "selected_asset": "assets/selected/ksitigarbha-cma--detail03--094.webp"
+  },
+  "96": {
+    "source_index": 96,
+    "source_filename": "Image_20261116230912_2581_19.jpg",
+    "source_sha256": "4425f92e59a90093f1a201ba80a3bda51497d2f97442519efd77e137b0bd64ac",
+    "role": "label",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/096-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/096-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/096-1702.webp",
+        "width": 1702,
+        "height": 1276
+      }
+    ],
+    "full": "images/096-1702.webp",
+    "selected_asset": "assets/selected/ksitigarbha-cma--label--096.webp"
+  },
+  "202": {
+    "source_index": 202,
+    "source_filename": "Image_20261116231709_2687_19.jpg",
+    "source_sha256": "32d51baedbfe10bb39bdacf7aa8da4819a47af446fb3f5f69c49a183798c367a",
+    "role": "full",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/202-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/202-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/202-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/202-1280.webp",
+    "selected_asset": "assets/selected/arhat_464--full--202.webp"
+  },
+  "205": {
+    "source_index": 205,
+    "source_filename": "Image_20261116231709_2690_19.jpg",
+    "source_sha256": "1231d9fa002593c85836fe2a9051f755818d3c2765ce07575409a98b0a369237",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/205-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/205-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/205-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/205-1280.webp",
+    "selected_asset": "assets/selected/arhat_464--detail03--205.webp"
+  },
+  "208": {
+    "source_index": 208,
+    "source_filename": "Image_20261116231709_2693_19.jpg",
+    "source_sha256": "d7e6a12557e05ae4b8fb991ff9d8beb72fc14c0af7051d954850e90dd297e87d",
+    "role": "label",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/208-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/208-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/208-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/208-1280.webp",
+    "selected_asset": "assets/selected/arhat_464--label--208.webp"
+  },
+  "211": {
+    "source_index": 211,
+    "source_filename": "Image_20261116231709_2696_19.jpg",
+    "source_sha256": "34c3170d3401b14cfe1a342b4e7d7805f2b4a7e7dbfe1b8caeaea445ec62daa1",
+    "role": "full",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/211-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/211-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/211-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/211-1280.webp",
+    "selected_asset": "assets/selected/watermoon_princeton--full--211.webp"
+  },
+  "213": {
+    "source_index": 213,
+    "source_filename": "Image_20261116231709_2698_19.jpg",
+    "source_sha256": "b65a2f287851b898dbc7d007603a7feae952c27efb10e0ba0fd15f94226d8c73",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/213-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/213-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/213-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/213-1280.webp",
+    "selected_asset": "assets/selected/watermoon_princeton--detail02--213.webp"
+  },
+  "223": {
+    "source_index": 223,
+    "source_filename": "Image_20261116231709_2708_19.jpg",
+    "source_sha256": "3bb96ad13fcd1b3ae8b570b4d1b8577b8872ae762deb7f224d10b23bc8a0b62c",
+    "role": "label",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/223-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/223-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/223-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/223-1280.webp",
+    "selected_asset": "assets/selected/watermoon_princeton--label--223.webp"
+  },
+  "231": {
+    "source_index": 231,
+    "source_filename": "Image_20261116231709_2716_19.jpg",
+    "source_sha256": "04c5129002fed0f4d84ca6bb4b715a9c39623ea9eede813530f77b932f08b9f0",
+    "role": "full",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/231-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/231-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/231-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/231-1280.webp",
+    "selected_asset": "assets/selected/leeum_amitabha_kshitigarbha_avalok--full--231.webp"
+  },
+  "233": {
+    "source_index": 233,
+    "source_filename": "Image_20261116231709_2718_19.jpg",
+    "source_sha256": "9f2880fb2a211f366180172bc4b7484e74e67e36b3da2a3383570313f3b7f6a4",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/233-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/233-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/233-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/233-1280.webp",
+    "selected_asset": "assets/selected/leeum_amitabha_kshitigarbha_avalok--detail02--233.webp"
+  },
+  "239": {
+    "source_index": 239,
+    "source_filename": "Image_20261116231709_2724_19.jpg",
+    "source_sha256": "61b67ff18c1ddf1b93317f7ff56c8a4f95a14b5e5e89c12d662508ff905715f0",
+    "role": "label",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/239-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/239-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/239-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/239-1280.webp",
+    "selected_asset": "assets/selected/leeum_amitabha_kshitigarbha_avalok--label--239.webp"
+  },
+  "242": {
+    "source_index": 242,
+    "source_filename": "Image_20261116231709_2727_19.jpg",
+    "source_sha256": "aa059920eb3f2dcbf835d3b6bf7a99e50307d9e57d5e92af2cd825558889d229",
+    "role": "full",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/242-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/242-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/242-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/242-1280.webp",
+    "selected_asset": "assets/selected/met_amitabha_triad--full--242.webp"
+  },
+  "246": {
+    "source_index": 246,
+    "source_filename": "Image_20261116231709_2731_19.jpg",
+    "source_sha256": "34d2e1f800bf23766b1962f47a4d31cbfa838c7d880080057101425c1ce61789",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/246-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/246-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/246-1702.webp",
+        "width": 1702,
+        "height": 1276
+      }
+    ],
+    "full": "images/246-1702.webp",
+    "selected_asset": "assets/selected/met_amitabha_triad--detail04--246.webp"
+  },
+  "250": {
+    "source_index": 250,
+    "source_filename": "Image_20261116231709_2735_19.jpg",
+    "source_sha256": "1a1656b345e700963beb58e18e76e0cc9abe16b1e0aa2330fd91990f2d287b85",
+    "role": "label",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/250-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/250-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/250-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/250-1280.webp",
+    "selected_asset": "assets/selected/met_amitabha_triad--label--250.webp"
+  },
+  "253": {
+    "source_index": 253,
+    "source_filename": "Image_20261116231709_2738_19.jpg",
+    "source_sha256": "808bc1380ee1c6f7a8892a8a56b501214c9bda0dc3f7253977b87d1ef1ab666f",
+    "role": "full",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/253-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/253-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/253-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/253-1280.webp",
+    "selected_asset": "assets/selected/leeum_amitabha_buddha--full--253.webp"
+  },
+  "255": {
+    "source_index": 255,
+    "source_filename": "Image_20261116231709_2740_19.jpg",
+    "source_sha256": "147bac56de6e6e0a90f88b63272f99a26c92ce33aad98fe57eb36b7abf77c534",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/255-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/255-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/255-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/255-1280.webp",
+    "selected_asset": "assets/selected/leeum_amitabha_buddha--detail02--255.webp"
+  },
+  "258": {
+    "source_index": 258,
+    "source_filename": "Image_20261116231709_2743_19.jpg",
+    "source_sha256": "1d551e114015010fe329345bb81da0c18e9c6edce98f14409d3ac400efdc0aa8",
+    "role": "label",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/258-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/258-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/258-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/258-1280.webp",
+    "selected_asset": "assets/selected/leeum_amitabha_buddha--label--258.webp"
+  },
+  "261": {
+    "source_index": 261,
+    "source_filename": "Image_20261116231709_2746_19.jpg",
+    "source_sha256": "5ac1507053776cbddb833113880e08f922c896b7ce041d1d43e38d3a3219e14c",
+    "role": "full",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/261-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/261-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/261-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/261-1280.webp",
+    "selected_asset": "assets/selected/freer_ksitigarbha--full--261.webp"
+  },
+  "266": {
+    "source_index": 266,
+    "source_filename": "Image_20261116231709_2751_19.jpg",
+    "source_sha256": "83517d1dd0e1e8cc9d73234447ea42ac2cfa9e17e64542b9612214d401af7cbd",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/266-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/266-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/266-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/266-1280.webp",
+    "selected_asset": "assets/selected/freer_ksitigarbha--detail05--266.webp"
+  },
+  "267": {
+    "source_index": 267,
+    "source_filename": "Image_20261116231709_2752_19.jpg",
+    "source_sha256": "286ae69ddbc57f45268cd04a3c17cf2ac8e20c3d302a3849b4d70363a2b81e87",
+    "role": "label",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/267-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/267-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/267-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/267-1280.webp",
+    "selected_asset": "assets/selected/freer_ksitigarbha--label--267.webp"
+  },
+  "270": {
+    "source_index": 270,
+    "source_filename": "Image_20261116231709_2755_19.jpg",
+    "source_sha256": "797ceb82f734736571a79877a13994625762300f993c802cacd6b9725ac2559d",
+    "role": "full",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/270-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/270-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/270-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/270-1280.webp",
+    "selected_asset": "assets/selected/leeum_sakyamuni_16_arhats--full--270.webp"
+  },
+  "275": {
+    "source_index": 275,
+    "source_filename": "Image_20261116231709_2760_19.jpg",
+    "source_sha256": "05b63c8de837fc49276ad3515d5a584a731777054d2c4f9c4724de41d2c51a7d",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/275-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/275-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/275-1702.webp",
+        "width": 1702,
+        "height": 1276
+      }
+    ],
+    "full": "images/275-1702.webp",
+    "selected_asset": "assets/selected/leeum_sakyamuni_16_arhats--detail05--275.webp"
+  },
+  "279": {
+    "source_index": 279,
+    "source_filename": "Image_20261116231709_2764_19.jpg",
+    "source_sha256": "66d7bea7a1b10aa5741bf41263a4e8279960f89901a5c0969f6f905b44441884",
+    "role": "label",
+    "rotation": 0,
+    "derivation": "素材包精选WebP",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/279-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/279-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/279-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/279-1280.webp",
+    "selected_asset": "assets/selected/leeum_sakyamuni_16_arhats--label--279.webp"
+  },
+  "291": {
+    "source_index": 291,
+    "source_filename": "Image_20261116231709_2776_19.jpg",
+    "source_sha256": "448d11c622ef1f56565005c43d10170b72b47a1ab17d4f0979ba0be626b2955e",
+    "role": "full",
+    "rotation": 0,
+    "derivation": "原片等比例缩图",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/291-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/291-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/291-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/291-1280.webp",
+    "selected_asset": null
+  },
+  "292": {
+    "source_index": 292,
+    "source_filename": "Image_20261116231709_2777_19.jpg",
+    "source_sha256": "552c05de48a4e8786ffd5b87e1ed21702adfefaa8743c3a62e557a306b4adab6",
+    "role": "label",
+    "rotation": 0,
+    "derivation": "原片等比例缩图",
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/292-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/292-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/292-1702.webp",
+        "width": 1702,
+        "height": 1276
+      }
+    ],
+    "full": "images/292-1702.webp",
+    "selected_asset": null
+  },
+  "313": {
+    "source_index": 313,
+    "source_filename": "Image_20261116232056_2798_19.jpg",
+    "source_sha256": "be0036fb533190ff71a2191e41d1a2ed4f61aaea124fae8522726e718a95e86b",
+    "role": "full",
+    "rotation": 0,
+    "derivation": "原片等比例缩图",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/313-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/313-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/313-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/313-1280.webp",
+    "selected_asset": null
+  },
+  "314": {
+    "source_index": 314,
+    "source_filename": "Image_20261116232056_2799_19.jpg",
+    "source_sha256": "77be338e34996b60ad9e364eca0d4ba83f47bd6fd76c02a70392dcb644a55362",
+    "role": "label",
+    "rotation": 0,
+    "derivation": "原片等比例缩图",
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/314-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/314-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/314-1702.webp",
+        "width": 1702,
+        "height": 1276
+      }
+    ],
+    "full": "images/314-1702.webp",
+    "selected_asset": null
+  },
+  "325": {
+    "source_index": 325,
+    "source_filename": "Image_20261116232056_2810_19.jpg",
+    "source_sha256": "741777512678ffb59cb1f10ba93b1707e871ca5a8a5633ef8beecfd14a04fb7e",
+    "role": "full",
+    "rotation": 0,
+    "derivation": "原片等比例缩图",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/325-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/325-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/325-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/325-1280.webp",
+    "selected_asset": null
+  },
+  "326": {
+    "source_index": 326,
+    "source_filename": "Image_20261116232056_2811_19.jpg",
+    "source_sha256": "657fa0ada07a622c91bfa797c358d7becd04d6ad10a3c9d655888328a2353c9e",
+    "role": "label",
+    "rotation": 0,
+    "derivation": "原片等比例缩图",
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/326-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/326-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/326-1702.webp",
+        "width": 1702,
+        "height": 1276
+      }
+    ],
+    "full": "images/326-1702.webp",
+    "selected_asset": null
+  },
+  "364": {
+    "source_index": 364,
+    "source_filename": "Image_20261116232056_2849_19.jpg",
+    "source_sha256": "a44d8115372564d549d9c1502f424f0703f7d99d22da1f5f7584028cd8ba0cd7",
+    "role": "full",
+    "rotation": 0,
+    "derivation": "原片等比例缩图",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/364-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/364-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/364-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/364-1280.webp",
+    "selected_asset": null
+  },
+  "367": {
+    "source_index": 367,
+    "source_filename": "Image_20261116232056_2852_19.jpg",
+    "source_sha256": "bbae17c61dd85d3aaaa02249e64abb536526da24629e5726c4735eb9900a9d23",
+    "role": "label",
+    "rotation": 0,
+    "derivation": "原片等比例缩图",
+    "width": 1702,
+    "height": 1276,
+    "variants": [
+      {
+        "path": "images/367-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/367-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/367-1702.webp",
+        "width": 1702,
+        "height": 1276
+      }
+    ],
+    "full": "images/367-1702.webp",
+    "selected_asset": null
+  },
+  "379": {
+    "source_index": 379,
+    "source_filename": "Image_20261116232056_2864_19.jpg",
+    "source_sha256": "f4572dc04d26aebaddd642833986ac03ef39ca49aeb60230c4b4d35e3ec5b511",
+    "role": "detail",
+    "rotation": 0,
+    "derivation": "原片等比例缩图",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/379-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/379-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/379-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/379-1280.webp",
+    "selected_asset": null
+  },
+  "392": {
+    "source_index": 392,
+    "source_filename": "Image_20261116232056_2877_19.jpg",
+    "source_sha256": "2b10cdb6e1b538cade2d017368e335a2a0eb3837ebdf21998bc57abf9c48ba9f",
+    "role": "full",
+    "rotation": 0,
+    "derivation": "原片等比例缩图",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/392-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/392-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/392-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/392-1280.webp",
+    "selected_asset": null
+  },
+  "393": {
+    "source_index": 393,
+    "source_filename": "Image_20261116232056_2878_19.jpg",
+    "source_sha256": "9ad7b7c3359ec62ff5cb2b91a4b9b72c4ce39e82373e99cace06f60afcc34ee2",
+    "role": "label",
+    "rotation": 90,
+    "derivation": "原片等比例缩图",
+    "width": 1707,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "images/393-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/393-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/393-1707.webp",
+        "width": 1707,
+        "height": 1280
+      }
+    ],
+    "full": "images/393-1707.webp",
+    "selected_asset": null
+  },
+  "412": {
+    "source_index": 412,
+    "source_filename": "Image_20261116232737_2897_19.jpg",
+    "source_sha256": "d17139efcb08b776a664dd0fafec7de6188432e26583b4c5a56f9d92fce2f6db",
+    "role": "full",
+    "rotation": 0,
+    "derivation": "原片等比例缩图",
+    "width": 1707,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "images/412-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/412-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/412-1707.webp",
+        "width": 1707,
+        "height": 1280
+      }
+    ],
+    "full": "images/412-1707.webp",
+    "selected_asset": null
+  },
+  "417": {
+    "source_index": 417,
+    "source_filename": "Image_20261116232737_2902_19.jpg",
+    "source_sha256": "cde80ea3ffbe55b2ab1f636d6e7881b16a4a77a56a36a6e0339ff7db8e3e0fa8",
+    "role": "label",
+    "rotation": 90,
+    "derivation": "原片等比例缩图",
+    "width": 1707,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "images/417-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "path": "images/417-800.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "path": "images/417-1707.webp",
+        "width": 1707,
+        "height": 1280
+      }
+    ],
+    "full": "images/417-1707.webp",
+    "selected_asset": null
+  },
+  "hero": {
+    "width": 1707,
+    "height": 960,
+    "variants": [
+      {
+        "path": "images/hero-800.webp",
+        "width": 800,
+        "height": 450
+      },
+      {
+        "path": "images/hero-1707.webp",
+        "width": 1707,
+        "height": 960
+      }
+    ],
+    "full": "images/002-1707.webp",
+    "role": "context",
+    "source_index": 2,
+    "derivation": "素材包提供的展厅横幅；手机使用完整展厅照片",
+    "selected_asset": "assets/selected/hero-installation-16x9.webp"
+  }
+}

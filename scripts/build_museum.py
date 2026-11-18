@@ -190,3 +190,6 @@ build_greek_roman_bronzes()
 
 from build_etruscans import build as build_etruscans
 build_etruscans()
+
+from build_ten_kings import build as build_ten_kings
+build_ten_kings()
