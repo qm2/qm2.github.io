@@ -29,6 +29,7 @@ class Page(HTMLParser):
 def check():
     works = json.loads((BASE/'data/works.json').read_text())
     photos = json.loads((BASE/'data/photos.json').read_text())
+    comparisons = json.loads((BASE/'data/comparisons.json').read_text())
     by = {w['id']: w for w in works}
     assert len(works) == len(by) == 24
     assert sum(w['category'] != 'object' for w in works) == 18
@@ -42,6 +43,12 @@ def check():
     assert by['freer_ksitigarbha']['accession']=='S1992.11'
     assert '释迦' in by['leeum_sakyamuni_16_arhats']['name']
     assert '13世纪' in by['met_amitabha_triad']['date'] and '14世纪末' in by['met_amitabha_triad']['date']
+    assert len(comparisons) == 1
+    c = comparisons[0]
+    assert c['id'] == 'leeum-amitabha-national-treasure-218'
+    assert c['full'] == 'leeum-218-full' and c['label'] == 'leeum-218-label'
+    assert c['id'] not in by and c['full'] != str(by['leeum_amitabha_kshitigarbha_avalok']['full'])
+    assert [v['mode'] for v in c['viewings']] == ['原作','数字影像']
     referenced = set()
     for p in photos.values():
         assert (BASE/p['full']).exists()
@@ -75,7 +82,7 @@ def check():
     assert home.count('<!-- ten-kings-home -->')==1
     for rel in ['japanese-zen','xuzhou']:
         assert (ROOT/'museum-notes'/rel/'index.html').read_text().count('<!-- ten-kings-related -->')==1
-    print(f'Ten Kings checks passed: 24 records, 18 paintings, 81 source photos, 16 pages; mappings, dimensions, local links and private-archive exclusions.')
+    print(f'Ten Kings checks passed: 24 exhibition records + {len(comparisons)} comparison, {len(photos)-1} source photos, 16 pages; mappings, dimensions, local links and private-archive exclusions.')
 
 
 if __name__=='__main__': check()

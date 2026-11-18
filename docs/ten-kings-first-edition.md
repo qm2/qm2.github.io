@@ -86,3 +86,39 @@ No new work is inferred from a close-up, a label, or an exhibition installation 
 For the next revision, prioritize the user's prose and photo choices, the other seven
 paintings' depth, and direct access to the attribution/technical literature. The remaining
 original photographs stay available for later study without becoming unreviewed public records.
+
+## Follow-up completed: Leeum National Treasure 218
+
+Added a comparison within the central Ksitigarbha reading, with a home entry and
+stable anchor `ksitigarbha/#leeum-amitabha-national-treasure-218`.
+`data/comparisons.json` keeps this Washington-original / Cleveland-digital record
+separate from the 24 CMA exhibition records. The date of the Washington visit is
+unknown; the exhibition's dates are not used as a visit date.
+
+The user clarified that the attached red-robed Buddha painting is the lower label's
+Buddha Amitabha Triad (National Treasure 218), not the upper label's Kshitigarbha
+with Entourage. It is also different from the existing CMA Leeum triad (photo 231).
+
+Two supplemental photographs are now imported from the user-provided local files:
+- `ab5e5460014a3bf195f463aabb6a06ab.jpg`: complete work, 960 × 1280.
+- `d1a298cd407a40c0cc7ebcb89fa37f39.jpg`: complete double label, 1280 × 1707;
+  only the lower label refers to this work, explicitly stated in the caption.
+
+Their hashes and responsive derivative provenance are recorded in `data/photos.json`.
+Originals stay in `/home/qingxi/museum/`; no crop, color changes or reflection removal.
+There are now 83 selected source photographs. For optional regeneration, pass
+`--supplement-directory /home/qingxi/museum` to the image preparation script.
+
+Read the Korean national heritage object's full record, including its dynamically
+loaded Korean, English and Chinese descriptions. The entry distinguishes coming
+in welcome from the alternative interpretation of predicting future Buddhahood.
+The Washington exhibition page confirms the Sackler galleries within NMAA. The
+account of digital re-encounter and the work not traveling to CMA is the user's
+viewing evidence, not a newly claimed museum provenance record.
+
+Follow-up validation: full site build, topic validation and existing SAMA cross-topic
+check passed. Actual Chromium at 1440, 768 and 390 px passed homepage-to-comparison
+navigation, image/caption alignment, artwork and double-label zoom, Escape, source
+anchors and automatic opening of the evidence details. No horizontal overflow,
+JavaScript error or failed image request. Preview screenshots are outside the repo
+in `/tmp/ten-kings-review/leeum-*.png`.

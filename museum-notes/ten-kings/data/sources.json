@@ -89,5 +89,17 @@
     "url": "https://www.metmuseum.org/art/collection/search/39883",
     "read_status": "已读馆录；年代与尺寸符合CMA文章所比较的作品。未新增其图片或亲见记录。",
     "checked_on": "2026-11-17"
+  },
+  {
+    "id": "S16",
+    "title": "韩国国家遗产门户：阿彌陀三尊圖（国宝218）",
+    "url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1111102180000&pageNo=1_1_1_1",
+    "read_status": "已读对象记录及动态加载的韩、英、中说明：14世纪、Leeum所在地、尺寸、三尊身份及来迎／授记两种解释。国宝编号不作馆藏编号；不沿用旧说明中的稀有性赞语。"
+  },
+  {
+    "id": "S17",
+    "title": "国家亚洲艺术博物馆：Korean Treasures: Collected, Cherished, Shared",
+    "url": "https://asia.si.edu/whats-on/exhibitions/korean-treasures-collected-cherished-shared/",
+    "read_status": "已读展览官网，核对展期2025年11月15日—2026年2月1日、Leeum借展及萨克勒馆区。展期不作为作者实际参观日期。"
   }
 ]

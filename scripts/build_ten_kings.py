@@ -22,6 +22,7 @@ def build():
     paintings = [w for w in works if w['category'] == 'painting']
     objects = [w for w in works if w['category'] == 'object']
     central = by['ksitigarbha_cma']
+    comparisons = load('comparisons')
 
     def href(w):
         if w['category'] == 'king': return URL + w['id'] + '/'
@@ -116,7 +117,7 @@ def build():
     body += '<nav class="tk-localnav" aria-label="本页目录"><a href="#reunion">十王重聚</a><a href="#kings">十王长廊</a><a href="#central">地藏</a><a href="#paintings">其他佛画</a><a href="#objects">画外之物</a></nav>'
     body += '<section class="tk-section" id="reunion"><div class="tk-prose"><p class="eyebrow">01 / REUNITED</p><h2>分散各地的十幅画</h2>' + paras(editorial['reunion']) + f'<a class="text-link" href="{URL}overview/#reunion">从旧藏到重聚 →</a></div></section>'
     body += '<section class="tk-section" id="kings"><p class="eyebrow">02 / THE TEN COURTS</p><h2>十王长廊</h2><p class="tk-prose tk-left">' + esc(editorial['gallery_intro']) + '</p>' + gallery() + f'<p class="tk-source">基本断代依本展展签；<a href="{URL}overview/#attribution">研究与归属中的开放问题</a>。</p></section>'
-    body += '<section class="tk-section tk-feature" id="central">' + figure(91, caption(central)) + '<div><p class="eyebrow">03 / KṢITIGARBHA</p><h2>地藏，审判之外</h2>' + paras(editorial['central_intro']) + '<p>面容、锡杖、宝珠与袈裟上的金线——从完整画幅走向它的细密处。</p>' + f'<a class="text-link" href="{URL}ksitigarbha/">读这幅地藏 →</a></div></section>'
+    body += '<section class="tk-section tk-feature" id="central">' + figure(91, caption(central)) + '<div><p class="eyebrow">03 / KṢITIGARBHA</p><h2>地藏，审判之外</h2>' + paras(editorial['central_intro']) + '<p>面容、锡杖、宝珠与袈裟上的金线——从完整画幅走向它的细密处。</p>' + f'<a class="text-link" href="{URL}ksitigarbha/">读这幅地藏 →</a><p><a class="text-link" href="{URL}ksitigarbha/#leeum-amitabha-national-treasure-218">并看：在华盛顿遇见的阿弥陀三尊 →</a></p></div></section>'
     body += '<section class="tk-section" id="paintings"><p class="eyebrow">04 / OTHER WORLDS</p><h2>高丽佛画的其他世界</h2><p>' + esc(editorial['other_intro']) + '</p><div class="tk-paintings">' + ''.join(mini(w) for w in paintings) + '</div></section>'
     body += '<section class="tk-section tk-feature tk-objects-entry" id="objects">' + figure(379, '《大方广佛华严经》卷七十八 · 卷首画局部 · CMA 1994.25 · Merton摄') + '<div><p class="eyebrow">05 / BEYOND THE PAINTINGS</p><h2>画外之物</h2>' + paras(editorial['objects_intro']) + f'<a class="text-link" href="{URL}objects/">经卷、供养与青瓷 →</a></div></section>'
     body += '<section class="tk-prose tk-closing"><h2>从克利夫兰归来</h2>' + paras(editorial['closing']) + f'<p><a href="{URL}sources/">资料、归属与摄影说明 →</a></p></section>'
@@ -140,7 +141,17 @@ def build():
         write(w['id'], w['name'] + '｜' + w['subtitle'], body, w['full'])
 
     body = heading('地藏：审判之外的慈悲', '地藏菩萨立像 · 1300—1350年 · CMA 2025.141') + '<p class="tk-lead">' + esc(central['lead']) + '</p>' + figure(91, caption(central), True, 'tk-full')
-    body += '<nav class="tk-localnav" aria-label="地藏细读目录"><a href="#reading-ksitigarbha_cma-1">面容与持物</a><a href="#reading-ksitigarbha_cma-3">金彩衣纹</a><a href="#reading-ksitigarbha_cma-5">青龍公用</a><a href="#reading-ksitigarbha_cma-6">流传</a></nav>' + sections(central) + label(central)
+    body += '<nav class="tk-localnav" aria-label="地藏细读目录"><a href="#reading-ksitigarbha_cma-1">面容与持物</a><a href="#reading-ksitigarbha_cma-3">金彩衣纹</a><a href="#reading-ksitigarbha_cma-5">青龍公用</a><a href="#reading-ksitigarbha_cma-6">流传</a><a href="#leeum-amitabha-national-treasure-218">阿弥陀三尊并看</a></nav>' + sections(central) + label(central)
+    for c in comparisons:
+        body += f'<section class="tk-section" id="{c["id"]}"><div class="tk-prose"><p class="eyebrow">COMPARISON / A RETURN ENCOUNTER</p><h2>{esc(c["name"])}：救拔与接引</h2><p class="tk-source">{esc(c["english"])} · {esc(c["date"])}<br>{esc(c["owner"])} · {esc(c["designation"])}</p>' + paras(c['lead']) + '</div>'
+        if c.get('full'):
+            body += figure(c['full'], c['name'] + ' · Leeum收藏 · Merton摄于华盛顿国家亚洲艺术博物馆；CMA仅以数字影像展示', cls='tk-full')
+        for block in c['sections']:
+            body += '<div class="tk-prose tk-text-section"><h3>' + esc(block['title']) + '</h3>' + paras(block['text']) + '</div>'
+        body += f'<details class="tk-research" id="label-{c["id"]}"><summary>展签、解释与观看记录 <i aria-hidden="true">＋</i></summary><div class="tk-prose"><p>{esc(c["material"])} · {esc(c["dimensions"])}</p>' + paras(c['notes']) + '</div>'
+        if c.get('label'):
+            body += figure(c['label'], '华盛顿现场展牌：下半部对应本件《阿弥陀三尊图》，上半部为另一幅《地藏菩萨与眷属图》 · Merton摄', cls='tk-full')
+        body += '</details></section>'
     body += f'<aside class="tk-related"><h2>同一种救拔，不同的形象</h2><p><a href="{URL}paintings/#freer_ksitigarbha">另看国家亚洲艺术博物馆藏地藏 S1992.11 →</a></p><p><a href="{URL}k10/">第十王：从六道去向回看救度 →</a></p></aside>'
     write('ksitigarbha', '地藏：审判之外的慈悲', body, 91)
 
@@ -158,7 +169,7 @@ def build():
         write(category, title, body, records[0]['full'])
 
     body = heading('资料与来源', '现场展签、已读馆录与尚待继续追索的问题', 'SOURCES / RESEARCH')
-    body += '<div class="tk-prose"><p>作品信息首先依据2026年11月13—14日的现场展签，再与馆方公开记录对照。正文中的“展签”链接可直接打开相应照片；数字注号指向下列资料。所有公开作品图与局部均为Merton现场摄影，图像不代表实物等比例。</p></div><ol class="tk-sources">'
+    body += '<div class="tk-prose"><p>CMA展出作品的信息首先依据2026年11月13—14日的现场展签，再与馆方公开记录对照。另收录此前在华盛顿亲见的国宝《阿弥陀三尊图》作为比较，摄影地点与本次数字影像展示分别注明。正文中的“展签”链接可直接打开相应照片；数字注号指向下列资料。所有公开作品图与局部均为Merton现场摄影，图像不代表实物等比例。</p></div><ol class="tk-sources">'
     body += ''.join(f'<li id="{s["id"]}" value="{int(s["id"][1:])}"><a href="{esc(s["url"], quote=True)}" target="_blank" rel="noopener">{esc(s["title"])} ↗</a><p>{esc(s["read_status"])}</p></li>' for s in sources) + '</ol>'
     body += '<details class="tk-research"><summary>进一步阅读：已知书目，尚未阅读全文 <i aria-hidden="true">＋</i></summary>' + paras(editorial['unread']) + '</details>'
     body += '<section class="tk-prose tk-text-section"><h2>摄影与记录</h2><p>现场摄影用于个人非商业观展札记，未引入馆方高清图、红外图或图录书页。原作收藏机构分别列在图注与资料中；借展到CMA并不改变收藏归属。现场玻璃反光、绢面折痕与原有损伤均予保留。</p><p>已查阅CMA现行摄影政策；其对本馆公版藏品的开放规定，并非所有借展作品的统一授权声明。本站摄影不标作馆方CC0图像，也不提供整套原始档案下载。[S14]</p><p>其余尚待核实的问题，包括十王的具体原寺院、争议中的材料检测依据、部分绘画的断代差异，以及中央地藏题字所指的人物。资料核对日期：2026年11月17日。</p></section>'

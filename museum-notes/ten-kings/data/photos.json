@@ -2368,5 +2368,61 @@
     "source_index": 2,
     "derivation": "素材包提供的展厅横幅；手机使用完整展厅照片",
     "selected_asset": "assets/selected/hero-installation-16x9.webp"
+  },
+  "leeum-218-full": {
+    "source_group": "supplement",
+    "source_filename": "ab5e5460014a3bf195f463aabb6a06ab.jpg",
+    "source_sha256": "10cf9a228ca271cb690568738988f400e0f17b1f395713698244256712258993",
+    "role": "full",
+    "rotation": 0,
+    "derivation": "作者补充原片等比例生成；未裁切、未去反光",
+    "width": 960,
+    "height": 1280,
+    "variants": [
+      {
+        "path": "images/leeum-218-full-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/leeum-218-full-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/leeum-218-full-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "full": "images/leeum-218-full-960.webp"
+  },
+  "leeum-218-label": {
+    "source_group": "supplement",
+    "source_filename": "d1a298cd407a40c0cc7ebcb89fa37f39.jpg",
+    "source_sha256": "59a6040299b7caf673755319dd79e5eb23efae43bec110910030ac054d507b6e",
+    "role": "label",
+    "rotation": 0,
+    "derivation": "作者补充原片等比例生成；未裁切、未去反光",
+    "width": 1280,
+    "height": 1707,
+    "variants": [
+      {
+        "path": "images/leeum-218-label-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "path": "images/leeum-218-label-800.webp",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "path": "images/leeum-218-label-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "full": "images/leeum-218-label-1280.webp"
   }
 }
