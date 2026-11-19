@@ -193,3 +193,6 @@ build_etruscans()
 
 from build_ten_kings import build as build_ten_kings
 build_ten_kings()
+
+from build_gusu import build as build_gusu
+build_gusu()
