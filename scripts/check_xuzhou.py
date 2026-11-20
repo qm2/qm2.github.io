@@ -7,6 +7,16 @@ ROOT=Path(__file__).resolve().parents[1];base=ROOT/'museum-notes/xuzhou'
 d=json.loads((base/'data/works.json').read_text());ps=json.loads((base/'data/photos.json').read_text());ws={w['id']:w for w in d['works']}
 assert len(ws)==28 and all(w['collection']=='xuzhou' for w in ws.values())
 assert len(ps)==115 and set(ps)=={str(i) for i in range(952,1066)}|{'SUPP01'}
+original_inventory=dict(ps)
+revisits=json.loads((base/'data/revisits.json').read_text())
+assert not (set(ps)&set(revisits['photos']))
+ps.update(revisits['photos'])
+for visit in revisits['visits']:
+ assert visit['work_id'] in ws and visit['visit_date'] is None
+ for n in visit['photo_ids']:
+  p=ps[n];assert p['object_id']==visit['work_id']
+  assert p['original'].startswith('https://images.mertonmuseum.com/') and len(p['sha256'])==64
+  assert not p['cropped'] and all(v['width']<=p['width'] for v in p['variants'])
 assert (ws['x08']['main_photo'],ws['x08']['label_photo'])==('989','990')
 assert (ws['x09']['main_photo'],ws['x09']['label_photo'])==('991','992')
 assert ws['x11']['label_original']['date']=='Nara period, 7th century' and '疑点' in ws['x11']['date_display']
@@ -24,7 +34,7 @@ for w in ws.values():
  for n in [w['main_photo'],w['label_photo']]+w['detail_photos']:assert ps[n]['object_id']==w['id'],(w['id'],n)
  for key in w['source_ids']:
   assert key=='label' or key in d['sources']
-for n,p in ps.items():
+for n,p in original_inventory.items():
  original=base/'images'/p['original'];assert hashlib.sha256(original.read_bytes()).hexdigest()==p['sha256']
  for v in p['variants']:
   with Image.open(base/'images'/v['file']) as im:assert im.size==(v['width'],v['height']) and im.width<=p['width']
@@ -32,6 +42,14 @@ html=(base/'index.html').read_text();assert html.count('class="xz-card"')==28 an
 assert 'neighbors' not in html and '邻展' not in html
 assert 'xuzhou/' in (ROOT/'museum-notes/index.html').read_text()
 print('PASS Xuzhou: 28 collection identities, 2 unpublished archived records, 115 SHA-256 originals, 230 uncropped derivatives, labels, source IDs, 8 readings, 29 collection pages.')
+x22=ws['x22'];x22_html=(base/'x22/index.html').read_text()
+assert x22['main_photo']=='x22-revisit-full' and x22['label_photo']=='1029'
+assert {'1027','1028'}<=set(x22['detail_photos'])
+assert all(n['photo'] in ps and ps[n['photo']]['object_id']=='x22' for n in x22['notes'] if n.get('photo'))
+assert x22['date_display']=='约10世纪' and len(x22['comparisons'])==4
+assert '830,700' in x22_html and 'Sung bronze Figure, seated in Indian style' in x22_html
+assert '其天冠中有一立化佛' in x22_html and 'x22-revisit-crown' in x22_html
+print('PASS X22: four separately recorded revisit photographs, original label and previous views retained, four comparisons and attributed auction/catalogue records.')
 # Map assets are separate from the immutable collection photo inventory.
 guide=json.loads((base/'data/map-guide.json').read_text())
 assert len(guide['groups'])==4 and sum(len(g['places']) for g in guide['groups'])==14

@@ -2132,9 +2132,11 @@
       "date_display": "约10世纪",
       "material_label": "鎏金铜、颜料",
       "collection": "xuzhou",
-      "main_photo": "1027",
+      "main_photo": "x22-revisit-full",
       "label_photo": "1029",
       "detail_photos": [
+        "x22-revisit-angle",
+        "1027",
         "1028"
       ],
       "evidence": {
@@ -2159,27 +2161,54 @@
       ],
       "notes": [
         {
-          "text": "观音的身体略向一侧偏移，右手向外展开，左侧莲茎伸到肩旁。后面的环形头光和火焰纹仍保持轴线，因而更显出坐姿的轻微倾斜。莲座上宽大的瓣片，与裙上的细纹形成两种尺度。",
-          "kind": "visual-observation",
-          "sources": []
+          "kind": "visual",
+          "heading": "撑住身体，也向人伸掌",
+          "text": "左手落在身体后侧，撑住座面，又握着沿臂上升的莲茎；莲花恰在肩旁开放。右臂则松缓地垂下，掌心向外，作施愿的姿态。头光的圆环在身后围出完整的轮廓，衬着低下的头与偏移的上身。Huntington在讨论本件时，也把这张开的手掌与放松的坐姿联系到观音面向信众的亲近感。",
+          "references": [
+            "huntington"
+          ]
         },
         {
-          "text": "馆方将这件鎏金铜像归于尼泊尔、约10世纪，以所持莲花题名Padmapani。展签将张开的手掌解释为施予，并以莲花联系观音的慈悲、清净与智慧。表面还保留颜料，是金属之外的另一层装饰。",
-          "kind": "label-interpretation",
-          "sources": [
-            "label"
+          "kind": "research",
+          "photo": "x22-revisit-hands",
+          "text": "宽大的莲瓣托住交叠的双腿，裙上细密的刻线则顺着身体转折。Weldon以东印度帕拉铜像比较这种坐法、低矮的中央冠叶与宽瓣莲座，同时把胸腹和四肢柔和、饱满的塑形放回加德满都谷地传统中理解。沿着莲茎、手臂与身体看过去，外来的形式与当地的塑造习惯，在一尊小像上彼此相接。",
+          "references": [
+            "weldon"
+          ]
+        },
+        {
+          "kind": "research",
+          "heading": "冠中的小立佛",
+          "photo": "x22-revisit-crown",
+          "text": "靠近看，发髻前还有一尊很小的站立佛像，Weldon将其辨为阿弥陀佛。它的直立姿态，与下方观音低首、侧坐的身体形成细微的对照。Pal讨论同类冠饰时，提出与《观无量寿佛经》第十观对读：",
+          "quote": {
+            "lang": "zh-Hant",
+            "text": "其天冠中有一立化佛。",
+            "credit": "《观无量寿佛经》第十观，观世音菩萨观。此处为Pal所提出的图像与经文对读，并非本件铭文。"
+          },
+          "references": [
+            "weldon",
+            "pal",
+            "sutra"
+          ]
+        },
+        {
+          "kind": "research",
+          "text": "这尊像的观看与供奉，也可能跨过山地。Weldon根据发间的石青，以及面部和颈部的金彩，判断它曾用于藏传佛教礼拜。这样的表面痕迹提示了另一段使用历史；具体供奉地点和流转路线，目前仍缺少文献。",
+          "references": [
+            "weldon"
           ]
         }
       ],
-      "short": "莲花、张开的手掌与向一侧倾斜的身体。",
+      "short": "低首、伸掌与撑座：重看一尊尼泊尔持莲观音。",
       "record_note": null,
       "related": [
         "x15",
         "x23"
       ],
       "accession": null,
-      "dimensions": null,
-      "confidence": "现场展签及照片对应已核；独立图录条目未取得",
+      "dimensions": "高26.7厘米（据收藏图录研究资料及苏富比记录）",
+      "confidence": "现场展签与新旧实拍对应已核；拍卖记录及公开研究已读；Weldon Cat.12据读者提供的研究摘要。",
       "label_original": {
         "region": "Nepal",
         "date": "c. 10th century",
@@ -2197,7 +2226,190 @@
           "reviewed": "2026-10-25"
         }
       ],
-      "visit_date": null
+      "visit_date": null,
+      "references": {
+        "weldon": {
+          "title": "David Weldon，持莲观音条目，Cat.12，载 Approaching the Buddha: Transmission and Transformation，2026",
+          "url": "https://yalebooks.yale.edu/book/9780300286427/approaching-the-buddha/",
+          "short_title": "Weldon，Cat.12",
+          "note": "本页相关论述据读者提供的图录研究摘要整理；出版信息据出版社官网。MFAH出版、Yale University Press发行。"
+        },
+        "huntington": {
+          "title": "Susan L. Huntington，〈Creating Merit: Art in Buddhist Practice〉，图6",
+          "url": "https://www.academia.edu/165486666/Creating_Merit_Art_in_Buddhist_Practice",
+          "short_title": "Huntington，图6",
+          "note": "已核对公开文字；图6直接讨论本件持莲观音。"
+        },
+        "auction": {
+          "title": "苏富比，2020年9月22日纽约拍卖，Lot 322",
+          "url": "https://www.sothebys.com/en/buy/auction/2020/indian-himalayan-southeast-asian-works-of-art/a-gilt-copper-figure-of-avalokiteshvara-nepal-9th",
+          "short_title": "苏富比：本件拍卖照与记录",
+          "note": "已读拍品资料及其嵌入的长说明，核对照片、高度、估价、来源与1922年旧发票引文。未直接查阅洛克菲勒档案原件。"
+        },
+        "result": {
+          "title": "苏富比，纽约亚洲艺术周成交新闻稿，2020年9月24日",
+          "url": "https://www.sothebys.com/en/press/sothebys-asia-week-achieves-36-4-million-in-new-york",
+          "short_title": "苏富比：官方成交记录",
+          "note": "新闻稿公布本件成交830,700美元；拍卖页面的成交结果目前需登录查看。"
+        },
+        "reprint": {
+          "title": "Alain R. Truong，拍卖长说明转载，2020年9月25日",
+          "url": "https://www.alaintruong.com/archives/2020/09/25/38553912.html",
+          "short_title": "拍卖长说明转载",
+          "note": "备用阅读链接；旧发票与The Eyrie记载本次另从苏富比原页的长说明核对。"
+        },
+        "pal": {
+          "title": "Pratapaditya Pal，〈Prolegomena to the Study of an Early Wood Bodhisatva from the Himalayas〉，2023，第4节及图14",
+          "url": "https://www.asianart.com/articles/prolegomena/index.html",
+          "short_title": "Pal，第4节、图14",
+          "note": "核读公开文章第4节与相关图注。经文与冠饰的对读经由Pal所引Soper、Takakusu研究提出；这些转引文献未另作独立核读。"
+        },
+        "alsop": {
+          "title": "Ian Alsop，〈Phagpa Lokeśvara of the Potala〉，Orientations，1990年4月",
+          "url": "https://www.asianart.com/articles/phagpa/phagpa.pdf",
+          "short_title": "Alsop，1990",
+          "note": "已读公开文章，用于理解布达拉宫圣观音与冠中佛像的图像背景，不作为本件原属布达拉宫的证据。"
+        },
+        "sutra": {
+          "title": "《观无量寿佛经》第十观，国立故宫博物院清抄本录文",
+          "url": "https://digitalarchive.npm.gov.tw/Collection/Detail/3108?dep=P",
+          "short_title": "《观无量寿佛经》第十观",
+          "note": "已核对“其天冠中有一立化佛”及所在观次；所链接的是清代抄本的馆方录文。"
+        },
+        "har": {
+          "title": "Himalayan Art Resources，Avalokiteshvara，编号13744",
+          "url": "https://www.himalayanart.org/items/13744",
+          "short_title": "HAR #13744",
+          "note": "条目标作1100—1199年，未附断代理由。"
+        },
+        "walters": {
+          "title": "沃尔特斯艺术博物馆，Lokeshvara，54.3129",
+          "url": "https://art.thewalters.org/object/54.3129/",
+          "short_title": "沃尔特斯馆藏记录",
+          "note": "馆方标作9世纪、尼泊尔，说明冠中佛为立姿。"
+        },
+        "potala": {
+          "title": "Himalayan Buddhist Art，〈Nepal – Avalokiteshvara (seated) (2)〉，2023年10月19日",
+          "url": "https://himalayanbuddhistart.wordpress.com/2023/10/19/nepal-avalokiteshvara-seated-2/",
+          "short_title": "布达拉宫比较像：转载图与图版信息",
+          "note": "对照转载图及说明；von Schroeder原书本轮未直接核读。157D与167C为不同作品。"
+        },
+        "india": {
+          "title": "Museums of India，Bodhisattva（菩萨像），印度博物馆9429/A24278",
+          "url": "https://museumsofindia.gov.in/repository/record/im_kol-9429-A24278-13757",
+          "short_title": "印度博物馆馆藏记录",
+          "note": "馆方记出自那烂陀、帕拉时期、约8—9世纪，描述左手撑座并持莲；未认定为拍卖说明所引图版86。"
+        }
+      },
+      "intro": [
+        "头微微低下，手却向人伸出。这次回到休斯顿美术馆，我比第一次更喜欢这尊持莲观音。最近看过几件更早的尼泊尔佛教造像，再看它，才留意到低首、伸掌与左手撑座之间的关系：身体微微倾斜，目光收向内，手掌却朝着面前的人打开。"
+      ],
+      "photo_layout": "aligned",
+      "natural_captions": true,
+      "photo_captions": {
+        "x22-revisit-crown": "冠中小立佛、低垂的双眼与肩侧莲花 · 本次重访近照 · Merton摄",
+        "x22-revisit-hands": "左手后撑并持莲，右掌向外；裙上细纹与宽瓣莲座 · 本次重访近照 · Merton摄",
+        "x22-revisit-angle": "斜侧面：火焰头光、面容与肩侧莲花 · 本次重访近照 · Merton摄",
+        "1027": "先前拍摄的完整像身与莲座 · Merton摄",
+        "1028": "先前拍摄的侧面：伸出的右掌与倾斜的上身 · Merton摄"
+      },
+      "reading_notes": [
+        {
+          "title": "年代、冠饰与资料范围",
+          "paragraphs": [
+            "年代栏沿用MFAH现场展签的“约10世纪”。苏富比2020年拍卖标作“9—10世纪”；HAR #13744标作“1100—1199年”，但没有附上断代理由。几份记录并存，不能只据网页年代字段消除差异。",
+            "Pal与Alsop讨论的冠饰，为比较冠中佛的立姿、坐姿提供背景；相近的冠饰本身不足以证明本件复制某一圣像，或曾供奉于某一寺院。Weldon关于坐姿、谷地传统及藏地礼拜的判断，本页据读者提供的Cat.12研究摘要整理。"
+          ],
+          "references": [
+            "har",
+            "pal",
+            "alsop"
+          ]
+        }
+      ],
+      "history": {
+        "id": "provenance",
+        "title": "从洛克菲勒旧藏到虚舟收藏",
+        "paragraphs": [
+          {
+            "text": "苏富比拍卖照中的火焰头光、肩侧莲花，以及莲座前缘的缺口，都与现场照片相吻合；拍卖记录所列高度26.7厘米，也与本件图录资料一致。这些具体细节，让展柜中的观音与2020年的公开拍卖记录接在了一起。",
+            "sources": [
+              "auction"
+            ]
+          }
+        ],
+        "photos": [],
+        "photo_note": "",
+        "timeline_title": "几段可以追溯的收藏记录",
+        "timeline": [
+          {
+            "date": "1922年 · 纽约",
+            "text": "Abby Aldrich Rockefeller从Dudley James购得。苏富比长说明援引洛克菲勒档案，记载它曾放在缅因州的家族夏居The Eyrie。旧发票称它为“Sung bronze Figure, seated in Indian style”（“印度式坐姿的宋代铜像”）。这是1922年的旧著录，留下了当时如何理解这尊像的痕迹。",
+            "status": "旧发票所称“宋代”不作为本页断代依据。",
+            "sources": [
+              "auction"
+            ]
+          },
+          {
+            "date": "2020年9月22日 · 纽约苏富比",
+            "text": "Lot 322，估价300,000—500,000美元。官方成交新闻稿公布成交价830,700美元，含买家佣金。",
+            "status": "新闻稿仅称进入私人收藏，未公布买家姓名。",
+            "sources": [
+              "result"
+            ]
+          },
+          {
+            "date": "2026年 · MFAH收藏图录",
+            "text": "收入Approaching the Buddha: Transmission and Transformation，Cat.12，条目作者David Weldon，身份为虚舟收藏作品。今天在休斯顿美术馆展出。",
+            "status": "2020年拍卖之后如何进入虚舟收藏，具体交接记录尚未公开。",
+            "sources": [
+              "weldon"
+            ]
+          }
+        ],
+        "notes_title": "收藏资料的依据",
+        "notes": [
+          "1922年的购买记录见苏富比拍品来源栏；旧发票与The Eyrie见同页嵌入的长说明，另有Alain R. Truong转载。这里引用的是拍卖方对档案的说明，未直接核读原发票或洛克菲勒档案。",
+          "拍卖长说明还推想过经西藏进入中国的流转可能，本页不将其写成已知路线。苏富比所引那烂陀比较像图版86，也暂未与下列印度博物馆藏品作同件认定。"
+        ]
+      },
+      "comparisons": [
+        {
+          "title": "一立一坐，先看冠中的佛",
+          "url": "https://art.thewalters.org/object/54.3129/",
+          "text": "沃尔特斯艺术博物馆54.3129：9世纪尼泊尔观音，亦为Pal文章图14。把它与本件并看，两件冠中都有小立佛；站姿与侧坐，则让观音与观看者形成不同的身体关系。"
+        },
+        {
+          "title": "另一种坐姿，另一尊冠中佛",
+          "url": "https://himalayanbuddhistart.wordpress.com/2023/10/19/nepal-avalokiteshvara-seated-2/",
+          "text": "布达拉宫Lima Lhakhang 810：10世纪尼泊尔持莲观音。右前臂搭在抬起的膝上，冠中为坐佛。Weldon脚注所指为von Schroeder卷一第493页、图版157D；转载页另列的167C才是另一尊左臂后撑的例子。"
+        },
+        {
+          "title": "左手撑座，同时持莲",
+          "url": "https://museumsofindia.gov.in/repository/record/im_kol-9429-A24278-13757",
+          "text": "印度博物馆9429/A24278：出自那烂陀，约8—9世纪帕拉铜像。馆方描述的左手动作，与本件把支撑身体和持莲合在一起的方式尤其值得比较；暂不认定它就是拍卖说明援引的图版86。"
+        },
+        {
+          "title": "从斯瓦特的面颊，看到尼泊尔的手掌",
+          "url": "../x15/",
+          "work_id": "x15",
+          "text": "本站约7世纪的斯瓦特持莲观音，同样侧坐，莲花升到肩边。它把右手举到面颊旁；这尊尼泊尔观音则将右掌伸向观者。先看手的位置，再看身体怎样随之倾斜。"
+        }
+      ],
+      "bibliography": [
+        "weldon",
+        "huntington",
+        "auction",
+        "result",
+        "reprint",
+        "pal",
+        "alsop",
+        "sutra",
+        "har",
+        "walters",
+        "potala",
+        "india"
+      ]
     },
     {
       "id": "x23",

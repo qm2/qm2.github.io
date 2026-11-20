@@ -1,0 +1,123 @@
+{
+  "visits": [
+    {
+      "id": "x22-revisit-01",
+      "work_id": "x22",
+      "museum": "休斯顿美术馆",
+      "visit_date": null,
+      "photo_ids": [
+        "x22-revisit-full",
+        "x22-revisit-crown",
+        "x22-revisit-hands",
+        "x22-revisit-angle"
+      ],
+      "note": "作者确认本次重访及重新拍摄；未提供参观日期。"
+    }
+  ],
+  "photos": {
+    "x22-revisit-full": {
+      "number": "x22-revisit-full",
+      "object_id": "x22",
+      "role": "完整像身、头光与莲座",
+      "original_filename": "929834fff20c857508637a1197aba321.jpg",
+      "original": "https://images.mertonmuseum.com/museum-notes/xuzhou/revisits/x22/originals/929834fff20c857508637a1197aba321.jpg",
+      "sha256": "4fba1765e882034086cbe1361685d067d6f6fff1e63a8cf41ff32dc359a4991d",
+      "bytes": 257005,
+      "width": 1280,
+      "height": 1707,
+      "variants": [
+        {
+          "file": "https://images.mertonmuseum.com/museum-notes/xuzhou/revisits/x22/web/x22-revisit-full-480.webp",
+          "width": 480,
+          "height": 640
+        },
+        {
+          "file": "https://images.mertonmuseum.com/museum-notes/xuzhou/revisits/x22/web/x22-revisit-full-960.webp",
+          "width": 960,
+          "height": 1280
+        }
+      ],
+      "visit_date": null,
+      "credit": "Merton摄",
+      "cropped": false
+    },
+    "x22-revisit-crown": {
+      "number": "x22-revisit-crown",
+      "object_id": "x22",
+      "role": "冠中立佛、面容与肩侧莲花近照",
+      "original_filename": "f66104da0dacc269a0cc6a6eb778934f.jpg",
+      "original": "https://images.mertonmuseum.com/museum-notes/xuzhou/revisits/x22/originals/f66104da0dacc269a0cc6a6eb778934f.jpg",
+      "sha256": "1c76e9953150dc01f651ebaa29659aade310b0675ec4959363835d0688af6f74",
+      "bytes": 304732,
+      "width": 1280,
+      "height": 1707,
+      "variants": [
+        {
+          "file": "https://images.mertonmuseum.com/museum-notes/xuzhou/revisits/x22/web/x22-revisit-crown-480.webp",
+          "width": 480,
+          "height": 640
+        },
+        {
+          "file": "https://images.mertonmuseum.com/museum-notes/xuzhou/revisits/x22/web/x22-revisit-crown-960.webp",
+          "width": 960,
+          "height": 1280
+        }
+      ],
+      "visit_date": null,
+      "credit": "Merton摄",
+      "cropped": false
+    },
+    "x22-revisit-hands": {
+      "number": "x22-revisit-hands",
+      "object_id": "x22",
+      "role": "双手、坐姿与莲座近照",
+      "original_filename": "e882eac2c215f8b369caaf56a4181b68.jpg",
+      "original": "https://images.mertonmuseum.com/museum-notes/xuzhou/revisits/x22/originals/e882eac2c215f8b369caaf56a4181b68.jpg",
+      "sha256": "a5a508ae134fd7f459ffbbdca459203aaae7ec4dc57f64272daeebec0750c669",
+      "bytes": 407652,
+      "width": 1280,
+      "height": 1707,
+      "variants": [
+        {
+          "file": "https://images.mertonmuseum.com/museum-notes/xuzhou/revisits/x22/web/x22-revisit-hands-480.webp",
+          "width": 480,
+          "height": 640
+        },
+        {
+          "file": "https://images.mertonmuseum.com/museum-notes/xuzhou/revisits/x22/web/x22-revisit-hands-960.webp",
+          "width": 960,
+          "height": 1280
+        }
+      ],
+      "visit_date": null,
+      "credit": "Merton摄",
+      "cropped": false
+    },
+    "x22-revisit-angle": {
+      "number": "x22-revisit-angle",
+      "object_id": "x22",
+      "role": "斜侧面的头光与上身近照",
+      "original_filename": "a3a8d6f10a96b9f221651366f1da6e03.jpg",
+      "original": "https://images.mertonmuseum.com/museum-notes/xuzhou/revisits/x22/originals/a3a8d6f10a96b9f221651366f1da6e03.jpg",
+      "sha256": "f209bc5a091f121b794204bd84c1ce1f3e0c211196cf4d368f80ea3ef88bd1cb",
+      "bytes": 294416,
+      "width": 1280,
+      "height": 1707,
+      "variants": [
+        {
+          "file": "https://images.mertonmuseum.com/museum-notes/xuzhou/revisits/x22/web/x22-revisit-angle-480.webp",
+          "width": 480,
+          "height": 640
+        },
+        {
+          "file": "https://images.mertonmuseum.com/museum-notes/xuzhou/revisits/x22/web/x22-revisit-angle-960.webp",
+          "width": 960,
+          "height": 1280
+        }
+      ],
+      "visit_date": null,
+      "credit": "Merton摄",
+      "cropped": false
+    }
+  }
+}

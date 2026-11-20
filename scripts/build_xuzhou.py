@@ -4,15 +4,17 @@ from html import escape as e
 import json,re
 from build_paintings import frame
 from build_xuzhou_map import entry as map_entry, render as map_page
+from museum_assets import asset_url
 ROOT=Path(__file__).resolve().parents[1]
 BASE=ROOT/'museum-notes/xuzhou'
 def build():
  d=json.loads((BASE/'data/works.json').read_text());photos=json.loads((BASE/'data/photos.json').read_text());works=d['works'];byid={w['id']:w for w in works}
+ photos.update(json.loads((BASE/'data/revisits.json').read_text())['photos'])
  guide=json.loads((BASE/'data/map-guide.json').read_text());photos.update(guide['photos'])
  def photo(n,caption,prefix='',eager=False,card=False):
-  p=photos[n];src=prefix+'images/'+p['original'];variants=p['variants'];v=variants[0 if card else -1]
+  p=photos[n];src=asset_url(prefix+'images/',p['original']);variants=p['variants'];v=variants[0 if card else -1]
   sizes='(max-width: 600px) 90vw, (max-width: 1000px) 45vw, 360px' if card else '(max-width: 700px) 90vw, 960px'
-  markup=f'<span class="image-box" style="--ratio:{p["width"]/p["height"]:.8f};--native-width:{p["width"]}px"><img src="{prefix}images/{v["file"]}" srcset="'+', '.join(f'{prefix}images/{v["file"]} {v["width"]}w' for v in variants)+f', {src} {p["width"]}w" sizes="{sizes}" alt="{e(caption)}" width="{p["width"]}" height="{p["height"]}" loading="{"eager" if eager else "lazy"}" decoding="async"></span>'
+  markup=f'<span class="image-box" style="--ratio:{p["width"]/p["height"]:.8f};--native-width:{p["width"]}px"><img src="{asset_url(prefix+"images/",v["file"])}" srcset="'+', '.join(f'{asset_url(prefix+"images/",v["file"])} {v["width"]}w' for v in variants)+f', {src} {p["width"]}w" sizes="{sizes}" alt="{e(caption)}" width="{p["width"]}" height="{p["height"]}" loading="{"eager" if eager else "lazy"}" decoding="async"></span>'
   if card:return markup
   return f'<a class="photo-open" href="{src}" data-full-src="{src}" data-caption="{e(caption)}" aria-label="放大：{e(caption)}">{markup}</a>'
  def shell(title,body,detail=False):
@@ -89,8 +91,9 @@ def build():
    b+='</section>'
   if w.get('history'):
    h=w['history'];history_photos.update(p['number'] for p in h['photos'])
+   history_refs=h.get('sources',w.get('references',{}))
    def history_sources(keys):
-    return '<p class="source">'+' · '.join('<a href="'+e(h['sources'][k]['url'])+'">'+e(h['sources'][k]['title'])+' ↗</a>' for k in keys)+'</p>' if keys else ''
+    return '<p class="source">'+' · '.join('<a href="'+e(history_refs[k]['url'])+'">'+e(history_refs[k].get('short_title',history_refs[k]['title']))+' ↗</a>' for k in keys)+'</p>' if keys else ''
    b+='<section class="wrap xz-section xz-history" id="'+e(h.get('id','wood-stand'))+'"><div class="xz-prose wrap"><h2>'+e(h['title'])+'</h2>'
    for p in h['paragraphs']:b+='<p>'+e(p['text'])+'</p>'
    b+=history_sources(list(dict.fromkeys(k for p in h['paragraphs'] for k in p['sources'])))
@@ -104,7 +107,7 @@ def build():
    b+='</ol>'
    if h.get('publications'):
     pub=h['publications'];b+='<h3>出版记录</h3><p class="xz-meta">'+e(pub['note'])+'</p><ul>'+''.join('<li>'+e(t)+'</li>' for t in pub['entries'])+'</ul>'+history_sources(pub['sources'])
-   b+='<details class="xz-record"><summary>题记与递藏：资料注</summary>'+''.join('<p>'+e(t)+'</p>' for t in h['notes'])+'</details></div></section>'
+   b+='<details class="xz-record"><summary>'+e(h.get('notes_title','题记与递藏：资料注'))+'</summary>'+''.join('<p>'+e(t)+'</p>' for t in h['notes'])+'</details></div></section>'
   if w['detail_photos']:
    b+='<section class="wrap work-gallery xz-section" data-gallery data-direction="ltr" aria-labelledby="details-title"><h2 id="details-title">其他角度与细部</h2><div class="gallery-controls" hidden><button type="button" data-prev>上一张</button><span class="gallery-count" role="status" aria-live="polite"></span><button type="button" data-next>下一张</button><button type="button" data-show-all aria-pressed="false">展开全部</button></div><div class="gallery-stage">'
    special={'958':'背面残损与中空像身','960':'面容与胸前璎珞','961':'斜侧面与冠饰','981':'侧面：胸背与衣纹','982':'背面衣纹','1037':'台座正面题记','1041':'木座正面文字','1042':'木座侧面文字','1043':'木座另一侧文字','1049':'背光的背面','1050':'底座题记'}
@@ -116,7 +119,18 @@ def build():
     else:b+=f'<figure class="slide" id="photo-{n}">{photo(n,cap,prefix)}<figcaption>{e(cap)}</figcaption></figure>'
    b+='</div><div class="gallery-thumbs" aria-label="选择照片" hidden></div></section>'
   b+='<section class="wrap xz-prose xz-section" id="label"><details><summary>现场展签与原始记录</summary><figure>'+photo(w['label_photo'],w['title']+' · 现场展签',prefix)+'<figcaption>休斯顿美术馆现场展签 · Merton摄</figcaption></figure><dl class="xz-label-record">'+''.join('<div><dt>'+k+'</dt><dd lang="en">'+e(v)+'</dd></div>' for k,v in [('题名',w['original_title']),('地区',w['label_original']['region']),('年代',w['label_original']['date']),('材料',w['label_original']['material'])])+'</dl></details></section>'
-  if w['related']:b+='<section class="wrap xz-prose xz-section"><h2>放在一起看</h2><p class="xz-related">'+links(w['related'],'../')+'</p></section>'
+  if w.get('comparisons'):
+   b+='<section class="wrap xz-prose xz-section" id="comparisons"><h2>放在一起看</h2>'
+   for item in w['comparisons']:b+='<h3><a href="'+e(item['url'])+'">'+e(item['title'])+' →</a></h3><p>'+e(item['text'])+'</p>'
+   remaining=[i for i in w['related'] if i not in {c.get('work_id') for c in w['comparisons']}]
+   if remaining:b+='<p class="xz-related">同辑还可看：'+links(remaining,'../')+'</p>'
+   b+='</section>'
+  elif w['related']:b+='<section class="wrap xz-prose xz-section"><h2>放在一起看</h2><p class="xz-related">'+links(w['related'],'../')+'</p></section>'
+  if w.get('bibliography'):
+   b+='<section class="wrap xz-prose xz-section" id="references"><details class="xz-record"><summary>资料与来源</summary><ol>'
+   for key in w['bibliography']:
+    r=w['references'][key];b+='<li><a href="'+e(r['url'])+'">'+e(r['title'])+' ↗</a><p class="xz-meta">'+e(r.get('note',''))+'</p></li>'
+   b+='</ol></details></section>'
   if w.get('shared_identity'):b+='<p class="wrap xz-prose"><a href="'+e(w['shared_identity']['url'])+'">同一件佛首，也见于夹纻干漆专题 →</a></p>'
   for context in w.get('context_links',[]):b+='<p class="wrap xz-prose"><a href="'+e(context['url'])+'">'+e(context['label'])+' →</a></p>'
   b+='<nav class="wrap xz-bottom-nav" aria-label="图录导航"><a href="../#'+('neighbors' if owned else 'catalogue')+'">← 返回'+('邻展作品' if owned else '虚舟图录')+'</a></nav>'
