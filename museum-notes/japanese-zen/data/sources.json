@@ -376,5 +376,23 @@
     "support": "《嘉兴藏》第38册，B425；已核对两则赞的题名、原文、行号及玅／妙、箇／个异体；比较解读为本页结合两则赞所作。",
     "checked_date": "2026-11-03",
     "evidence_origin": "direct primary-text verification"
+  },
+  {
+    "id": "S43",
+    "title": "克利夫兰美术馆：池大雅《寒山拾得图》，1979.49",
+    "url": "https://www.clevelandart.org/art/1979.49",
+    "access_status": "page_read",
+    "support": "直接阅读馆藏记录；核对题名、作者、约年、材质、画心及装裱尺寸、购藏基金与读诗／倾听的图像解释。",
+    "checked_date": "2026-11-19",
+    "evidence_origin": "direct official museum record"
+  },
+  {
+    "id": "S44",
+    "title": "京都国立博物馆：The Genius of Ike no Taiga（2018年特展介绍）",
+    "url": "https://www.kyohaku.go.jp/old/eng/special/koremade/taiga2018.html",
+    "access_status": "page_read",
+    "support": "直接阅读展览介绍；用于池大雅与蕪村的南画背景、中国画谱及笔墨实践。不据此推定本件使用指画或属于某一创作阶段。",
+    "checked_date": "2026-11-19",
+    "evidence_origin": "direct official museum record"
   }
 ]

@@ -1116,5 +1116,140 @@
         "height": 1707
       }
     ]
+  },
+  "j20-full": {
+    "work_id": "j20",
+    "role": "artwork",
+    "original": "images/originals/97c63ac555ca2dfd53ef877507eb76f6.jpg",
+    "sha256": "9dc20292eabca31a76e6936d13ce092036ed54fde4f5f1ee401808260e6d9a83",
+    "rotation": 0,
+    "width": 1279,
+    "height": 1706,
+    "caption": "寒山拾得图 · 画面全貌；上方寒山读卷，下方拾得背身倾听",
+    "variants": [
+      {
+        "file": "images/j20-full-400.webp",
+        "width": 400,
+        "height": 534
+      },
+      {
+        "file": "images/j20-full-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "file": "images/j20-full-1279.webp",
+        "width": 1279,
+        "height": 1706
+      }
+    ]
+  },
+  "j20-mounted": {
+    "work_id": "j20",
+    "role": "artwork",
+    "original": "images/originals/a8b2f467e6cebc87e7e0d265ea5431bb.jpg",
+    "sha256": "82a3d47883bc52b71757570db37f40ee831b5c62638d78296a3dabc3fa6b370e",
+    "rotation": 0,
+    "width": 1279,
+    "height": 1706,
+    "caption": "寒山拾得图 · 立轴与装裱全貌",
+    "variants": [
+      {
+        "file": "images/j20-mounted-400.webp",
+        "width": 400,
+        "height": 534
+      },
+      {
+        "file": "images/j20-mounted-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "file": "images/j20-mounted-1279.webp",
+        "width": 1279,
+        "height": 1706
+      }
+    ]
+  },
+  "j20-hanshan": {
+    "work_id": "j20",
+    "role": "detail",
+    "original": "images/originals/c85740525b63411c3ddb37e5e920bcc9.jpg",
+    "sha256": "7254535cc71be447fc3182a944ce8e9a8b46e9ff29a8c96a9b96ed9a45fd9e7c",
+    "rotation": 0,
+    "width": 960,
+    "height": 1282,
+    "caption": "寒山拾得图 · 寒山的面容、双手与诗卷 · 现场局部",
+    "variants": [
+      {
+        "file": "images/j20-hanshan-400.webp",
+        "width": 400,
+        "height": 534
+      },
+      {
+        "file": "images/j20-hanshan-900.webp",
+        "width": 900,
+        "height": 1202
+      },
+      {
+        "file": "images/j20-hanshan-960.webp",
+        "width": 960,
+        "height": 1282
+      }
+    ]
+  },
+  "j20-shide": {
+    "work_id": "j20",
+    "role": "detail",
+    "original": "images/originals/d75f7fff9b3673a6a30cd8143185bfba.jpg",
+    "sha256": "d7be4dfa43ecc12e0d74bccb275da4f19b525de874a34ca79262719418ce02ca",
+    "rotation": 0,
+    "width": 1279,
+    "height": 1706,
+    "caption": "寒山拾得图 · 拾得的背影、衣纹与身后扫帚 · 现场局部",
+    "variants": [
+      {
+        "file": "images/j20-shide-400.webp",
+        "width": 400,
+        "height": 534
+      },
+      {
+        "file": "images/j20-shide-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "file": "images/j20-shide-1279.webp",
+        "width": 1279,
+        "height": 1706
+      }
+    ]
+  },
+  "j20-label": {
+    "work_id": "j20",
+    "role": "label",
+    "original": "images/originals/9176827fd49bf3fbc6d1697e203ff9f0.jpg",
+    "sha256": "8bb1d87ab197f2b9563512278f3811212de7b1b813bdf5e39cf40ba1960b76ad",
+    "rotation": 0,
+    "width": 1706,
+    "height": 1279,
+    "caption": "寒山拾得图 · 现场展签",
+    "variants": [
+      {
+        "file": "images/j20-label-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "file": "images/j20-label-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "file": "images/j20-label-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ]
   }
 }

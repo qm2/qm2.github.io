@@ -1,5 +1,5 @@
 """Real browser checks, natural photo proportions, disclosure/search and lightbox."""
-import functools,http.server,threading
+import functools,http.server,threading,json
 from pathlib import Path
 from playwright.sync_api import sync_playwright,expect
 ROOT=Path(__file__).resolve().parents[1]
@@ -11,6 +11,7 @@ class Quiet(http.server.SimpleHTTPRequestHandler):
 server=http.server.ThreadingHTTPServer(('127.0.0.1',0),functools.partial(Quiet,directory=str(ROOT)))
 threading.Thread(target=server.serve_forever,daemon=True).start()
 root=f'http://127.0.0.1:{server.server_port}/museum-notes/';url=root+'japanese-zen/'
+total=len(json.loads((ROOT/'museum-notes/japanese-zen/data/works.json').read_text()))
 errors=[];bad=[]
 with sync_playwright() as p:
  b=p.chromium.launch(headless=True,args=['--no-sandbox']);page=b.new_page()
@@ -19,14 +20,15 @@ with sync_playwright() as p:
  def overflow():assert not page.evaluate('document.documentElement.scrollWidth>innerWidth'),page.url
  for width in [1440,390,320]:
   page.set_viewport_size({'width':width,'height':950});page.goto(url);overflow()
-  expect(page.locator('.jz-card')).to_have_count(19)
+  expect(page.locator('.jz-card')).to_have_count(total)
   page.screenshot(path=f'/tmp/zen-home-{width}.png')
   page.locator('#few-strokes').scroll_into_view_if_needed();page.screenshot(path=f'/tmp/zen-gallery-{width}.png')
   page.goto(url+'#catalogue');expect(page.locator('#catalogue details')).to_have_attribute('open','')
   page.locator('#zen-search').fill('波特兰');expect(page.locator('.jz-directory li:visible')).to_have_count(3)
+  page.locator('#zen-search').fill('克利夫兰');expect(page.locator('.jz-directory li:visible')).to_have_count(1)
   page.locator('#zen-search').fill('即非');expect(page.locator('.jz-directory li:visible')).to_have_count(1)
-  page.locator('#zen-search').fill('');expect(page.locator('.jz-directory li:visible')).to_have_count(19)
-  for wid in ['j03','j06','j07','j11','j13','j16','j19']:
+  page.locator('#zen-search').fill('');expect(page.locator('.jz-directory li:visible')).to_have_count(total)
+  for wid in ['j03','j06','j07','j11','j13','j16','j19','j20']:
    page.goto(url+wid+'/');overflow()
    for im in page.locator('.jz-figure img').all():
     if not im.is_visible():continue
@@ -43,14 +45,14 @@ with sync_playwright() as p:
     link.click();expect(page.locator('#art-lightbox')).to_be_visible();page.locator('#large-photo').evaluate('(im)=>Promise.race([im.decode(),new Promise((_,reject)=>setTimeout(()=>reject(new Error(im.currentSrc || im.src)),10000))])')
     page.locator('#zoom-toggle').click();expect(page.locator('#zoom-toggle')).to_have_attribute('aria-pressed','true')
     page.keyboard.press('Escape');expect(page.locator('#art-lightbox')).not_to_be_visible();expect(link).to_be_focused()
-   if wid in ['j06','j16','j19']:
+   if wid in ['j06','j16','j19','j20']:
     page.evaluate('scrollTo(0,0)');page.screenshot(path=f'/tmp/zen-{wid}-{width}.png')
   page.goto(url+'j04/');page.locator('.jz-inscription').scroll_into_view_if_needed();page.screenshot(path=f'/tmp/zen-text-{width}.png');overflow()
   page.goto(url+'j16/#labels');expect(page.locator('#labels')).to_have_attribute('open','')
   page.goto(root+'japanese-art/');page.locator('.issue-link').click();expect(page.locator('h1')).to_have_text('日本禅宗书画')
   page.goto(root);page.locator('a.issue-link[href="japanese-art/"]').click();expect(page.locator('h1')).to_have_text('日本艺术')
  # All remaining detail pages load, with no missing images or browser errors.
- for n in range(1,20):
+ for n in range(1,total+1):
   print('Checking detail',n,flush=True)
   page.goto(url+f'j{n:02}/');overflow()
   page.locator('#labels>summary').click()
@@ -60,4 +62,4 @@ with sync_playwright() as p:
  assert not errors,errors;assert not bad,bad
  b.close()
 server.shutdown()
-print('PASS: desktop 1440px, mobile 390/320px; natural photos/aligned captions, 19 detail pages, label orientation, all gallery lightboxes, zoom/Escape/focus, search, anchors, entrances and no-JS labels. Screenshots /tmp/zen-*.png.')
+print('PASS: desktop 1440px, mobile 390/320px; natural photos/aligned captions, 20 detail pages, label orientation, all gallery lightboxes, zoom/Escape/focus, search, anchors, entrances and no-JS labels. Screenshots /tmp/zen-*.png.')
