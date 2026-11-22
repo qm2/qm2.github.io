@@ -1,0 +1,61 @@
+/* Scoped to this notebook; keep the shared sculpture cards and viewer. */
+.wm-page .hero-image > a{display:block}
+.wm-nav{display:flex;flex-wrap:wrap;gap:12px 23px;margin-top:25px;font-size:14px}
+.wm-nav a{padding-block:8px;color:var(--accent)}
+.wm-section{padding-block:52px;border-top:1px solid var(--line)}
+.wm-section>.eyebrow{margin-bottom:12px}
+.wm-lead{max-width:760px;color:var(--muted);margin-block:18px 30px;font-size:15px}
+.wm-maps{display:grid;grid-template-columns:minmax(0,2.7fr) minmax(0,1fr);gap:16px;margin-top:30px}
+.wm-map-panel{margin:0;min-width:0;background:#efeee5;overflow:hidden;border:1px solid var(--line)}
+.wm-map-panel figcaption{padding:10px 16px;font-size:12px;letter-spacing:.12em;color:var(--muted)}
+.wm-north-america{grid-row:span 2;display:flex;flex-direction:column;justify-content:center}
+.wm-map-scroll{overflow-x:auto;overflow-y:hidden}
+.wm-map-scroll svg{display:block;width:100%;height:auto}
+.wm-land{fill:#d9dece;stroke:#c5cdbd;stroke-width:.65}
+.wm-markers a{fill:var(--accent);text-decoration:none}
+.wm-markers .wm-hit{fill:transparent;stroke:none}
+.wm-markers .wm-dot{fill:var(--accent);stroke:var(--paper);stroke-width:2}
+.wm-markers line{stroke:var(--accent);stroke-width:1;opacity:.5}
+.wm-markers text{font-family:var(--sans);font-size:16px;paint-order:stroke;stroke:#efeee5;stroke-width:4px;stroke-linejoin:round;fill:var(--ink)}
+.wm-markers a[aria-current=true] .wm-dot,.wm-markers a:focus-visible .wm-dot{stroke:var(--accent);stroke-width:4;fill:var(--paper)}
+.wm-museum-nav{display:grid;grid-template-columns:repeat(4,1fr);gap:4px 22px;margin-top:20px}
+.wm-museum-nav a{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:48px;border-bottom:1px solid var(--line);text-decoration:none;font-size:14px}
+.wm-museum-nav a span{font-size:12px;color:var(--muted)}
+.wm-museum-nav a[aria-current=true]{border-color:var(--accent);color:var(--accent)}
+.wm-map-help{font-size:12px;color:var(--muted);max-width:750px}
+.wm-museum-results{margin-top:25px}
+.wm-museum-result{scroll-margin-top:25px;margin-block:20px}
+.wm-mini{display:grid;grid-template-columns:110px minmax(0,1fr);gap:20px;align-items:start}
+.wm-mini>a{display:block;background:#e8e4da}
+.wm-mini img{display:block;width:100%;height:150px;object-fit:contain}
+.wm-mini h3{font-size:20px;margin:5px 0}
+.wm-mini h3 a{text-decoration:none}
+.wm-mini p{margin:8px 0}
+.wm-kicker{font-size:11px;color:var(--accent);letter-spacing:.08em}
+.wm-museum-result .wm-mini{grid-template-columns:130px minmax(0,1fr);max-width:680px}
+.wm-museum-result img{height:180px}
+.wm-dealer{margin-top:20px;border-block:1px solid var(--line)}
+.wm-dealer+ .wm-dealer{border-top:0;margin-top:0}
+.wm-dealer>summary{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 0;list-style:none;font-family:var(--serif);font-size:24px}
+.wm-dealer>summary::-webkit-details-marker{display:none}
+.wm-dealer>summary small{display:block;color:var(--muted);font:12px var(--sans);line-height:1.7;margin-top:6px}
+.wm-disclosure{font:24px var(--sans)}
+.wm-dealer[open]>summary>.wm-disclosure{transform:rotate(45deg)}
+.wm-dealer-body{padding-bottom:24px}
+.wm-dealer-body>p{max-width:760px;color:var(--muted)}
+.wm-records{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:35px 40px;margin-top:30px}
+.wm-record-date{font-size:13px;color:var(--accent)}
+.wm-records .wm-mini{font-size:14px}
+.wm-extension-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 40px}
+.wm-extension-header{padding-block:55px 48px;max-width:960px}
+.wm-extension-header h1{font-size:clamp(40px,6vw,64px)}
+.wm-extension-header>p:not(.eyebrow):not(.subtitle){max-width:720px;color:var(--muted)}
+.wm-extension-works{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:35px;align-items:start}
+.wm-extension-work>.wm-lead{min-height:5.6em;font-size:14px;margin-bottom:20px}
+@media(max-width:950px){.wm-maps{grid-template-columns:1fr 1fr}.wm-north-america{grid-column:1/-1;grid-row:auto}.wm-map-panel:not(.wm-north-america) svg{max-height:200px}.wm-records{grid-template-columns:1fr}.wm-north-america svg{min-width:640px}}
+@media(max-width:650px){.wm-page .site-header{gap:12px}.wm-page .site-header nav{gap:14px;font-size:12px}.wm-section{padding-block:35px}.wm-museum-nav{grid-template-columns:repeat(2,1fr);gap:3px 18px}.wm-extension-grid,.wm-extension-works{grid-template-columns:1fr}.wm-mini{grid-template-columns:90px minmax(0,1fr);gap:15px}.wm-mini img{height:130px}.wm-museum-result .wm-mini{grid-template-columns:95px minmax(0,1fr)}.wm-museum-result img{height:140px}.wm-extension-work>.wm-lead{min-height:0}.wm-maps{gap:10px}.wm-map-panel figcaption{padding:7px 10px}.wm-markers text{font-size:18px}.wm-nav{gap:5px 18px}.wm-dealer>summary{font-size:22px}.wm-extension-header{padding-top:35px}}
+@media(prefers-reduced-motion:reduce){.wm-page{scroll-behavior:auto}}
+
+.wm-dealer[open]>summary>.wm-dealer-label{transform:none}
+.wm-page .hero-image{width:100%;max-width:430px;justify-self:center}
+.wm-page .hero-image img{height:auto;max-height:none}

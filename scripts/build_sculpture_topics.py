@@ -1,11 +1,12 @@
 """Curated sculpture topics; called by build_museum with its existing card renderer."""
 from html import escape as e
 import json
+from build_water_moon import build as build_water_moon, topic_info
 
 def build(root, objects, museums, render_card, lightbox):
     by_id={o['id']:o for o in objects}
     topics=[
-        dict(id='water-moon-guanyin',title='水月观音',subtitle='一膝支起，一臂舒展。',intro='把看过的水月、南海与自在坐观音放到一起。从夏威夷到波特兰，从木色、石面到金漆，同一个姿态有许多种样子。',ids=[215,213,226,195,235,247,251,255,243,241,199,224],hero=215,note='馆方分别使用“水月”“南海”或“自在坐”等题名。木雕之外，沃尔特斯干漆、吉美石雕和纳尔逊复合材料像，也呈现了相近姿态在不同材料中的变化。'),
+        topic_info(root),
         dict(id='song-liao-jin-wood',title='五代至元木雕',subtitle='站立、端坐，也有沉思。',intro='从五代、宋辽金看到元代，收在一起看菩萨、观音与罗汉。同期的水月观音另有专题；隋代佛像与明代侍童也作为前后参照留下。',ids=[201,203,209,233,217,229,218,263,2455,220,227,253,238,257],hero=233,note='这一辑以五代至元木雕为主，隋代佛坐像和明代观音侍童提供前后参照。木雕水月观音另有专题。',subgroups=[dict(title='五代至宋辽金',ids=[201,203,209,233,217,229,218,263,2455]),dict(title='元代',ids=[220,227,253]),dict(title='前后参照：隋与明',ids=[238,257])]),
         dict(id='dry-lacquer',title='干漆与漆塑造像',subtitle='木胎、织物与漆，各有自己的结构。',intro='从沃尔特斯的隋代木胎漆佛，到唐代夹纻干漆、观音与元代漆塑。把佛与菩萨的身份、木胎与脱胎的工艺，逐件分清。',ids=[265,231,259,241,245,249,238,224],hero=238,note='浸漆织物脱去内芯后形成中空像体，沃尔特斯观音（25.256）就是一例。沃尔特斯隋代佛坐像（25.9，可能为阿弥陀佛）则保留拼合木胎；纳尔逊观音由木芯、泥层和金漆构成。几件作品的外表都有漆，内部结构却各不相同。',subgroups=[dict(title='夹纻干漆',ids=[265,231,259,241,245]),dict(title='相关漆塑',ids=[249]),dict(title='材料比较：木胎覆漆',ids=[238,224])]),
         dict(id='yixian-luohan',title='易县三彩罗汉',subtitle='同样的袈裟，不同的面孔。',intro='巴黎、堪萨斯城、纽约、费城。把五尊三彩罗汉放到一起，先看眉眼与手势，再看它们离开原来环境之后的故事。',ids=[614,616,618,741,612],hero=614,note='吉美像的具体尊者身份及易县组属尚不确定。易县洞窟的发现经过已有记述，但组像原属的寺院、数量与确切来源仍有讨论。')]
@@ -22,8 +23,11 @@ def build(root, objects, museums, render_card, lightbox):
         return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{title} · 博物馆札记 | Merton</title><link rel="stylesheet" href="../museum.css"><link rel="stylesheet" href="../sculpture-topics.css"><script src="../museum.js" defer></script></head><body id="top"><a class="skip-link" href="#main">跳至正文</a><header class="site-header"><a class="signature" href="../">Merton</a><nav aria-label="主导航"><a href="../chinese-buddhist-art/">中国佛教艺术</a><a href="../">博物馆首页</a></nav></header><main id="main">{body}</main><footer class="site-footer wrap"><a href="../chinese-buddhist-art/">← 中国佛教艺术</a><span>摄影 / Merton</span><a href="#top">回到顶部 ↑</a></footer>{lightbox}</body></html>'''
     def entry(t):
         o=by_id[f'object-{t["hero"]}']
-        return f'''<a class="issue-link" href="../{t['id']}/"><img src="../buddhist-sculpture/images/{o['photo']}" alt="{e(o['title'])}，{e(museums[o['museum']][0])}" width="{o['width']}" height="{o['height']}" loading="lazy"><div><p class="eyebrow">{len(t['ids'])} 件作品</p><h2>{t['title']}</h2><p>{t['intro']}</p><span class="text-link">走进这一辑 →</span></div></a>'''
+        return f'''<a class="issue-link" href="../{t['id']}/"><img src="../buddhist-sculpture/images/{o['photo']}" alt="{e(o['title'])}，{e(museums[o['museum']][0])}" width="{o['width']}" height="{o['height']}" loading="lazy"><div><p class="eyebrow">{str(len(t['core_ids']))+' 件主线 · '+str(len(t['extended_ids']))+' 件延展' if t.get('core_ids') else str(len(t['ids']))+' 件作品'}</p><h2>{t['title']}</h2><p>{t['intro']}</p><span class="text-link">走进这一辑 →</span></div></a>'''
     for t in topics:
+        if t['id']=='water-moon-guanyin':
+            build_water_moon(root, objects, museums, render_card, lightbox, sync_entrance=False)
+            continue
         o=by_id[f'object-{t["hero"]}'];selection=[by_id[f'object-{n}'] for n in t['ids']]
         poem='''<section class="topic-poem wrap" aria-labelledby="poem-title"><p class="eyebrow">宋代 · 释心月</p><h2 id="poem-title">水月观音赞</h2><blockquote>觉天无云，性海无风。<br>玉轮蘸影，金浪翻空。<br>非惟观世音，我亦游其中。</blockquote><p class="source"><a href="https://www.sou-yun.cn/Query.aspx?id=227226&amp;type=poem" target="_blank" rel="noopener noreferrer">原文核对：搜韵 ↗</a></p></section>''' if t['id']=='water-moon-guanyin' else ''
         def topic_card(n,i):

@@ -1,0 +1,157 @@
+{
+  "updated": "2026-11-22",
+  "core_ids": [
+    215,
+    213,
+    226,
+    195,
+    235,
+    247,
+    251,
+    255
+  ],
+  "extended_ids": [
+    243,
+    241,
+    199,
+    224
+  ],
+  "extension_notes": {
+    "243": "仍是木雕，但更宽厚的体量与向前垂落的衣纹，适合另放一页慢慢比较。年代沿用馆方的金或元。",
+    "241": "从木雕转向脱芯干漆：姿态依然舒展，纤细的手指与下垂的衣缘却由另一种结构支撑。",
+    "199": "同在宋金的年代范围，这尊以石灰岩刻成。石面、手臂与岩座的连接，提供了材料之间的对照。",
+    "224": "木芯、泥层与金漆叠在一起；表层材料的检测年代与原像年代需要分别理解。"
+  },
+  "map": {
+    "meaning": "观看博物馆所在城市；坐标为城市级示意，不表示古代制作地、原寺院或艺术品流转路线。",
+    "basemap": "../../homer/data/ne_110m_land.geojson",
+    "basemap_source": "https://www.naturalearthdata.com/about/terms-of-use/",
+    "coordinate_source": "沿用本站地图的城市级定位；地图不记录参观日期。",
+    "museums": [
+      {
+        "museum_id": "nelson",
+        "longitude": -94.58,
+        "latitude": 39.1,
+        "region": "north-america",
+        "label_dx": 10,
+        "label_dy": 27
+      },
+      {
+        "museum_id": "met",
+        "longitude": -74.01,
+        "latitude": 40.71,
+        "region": "north-america",
+        "label_dx": 24,
+        "label_dy": 22
+      },
+      {
+        "museum_id": "cleveland",
+        "longitude": -81.69,
+        "latitude": 41.5,
+        "region": "north-america",
+        "label_dx": -12,
+        "label_dy": -25
+      },
+      {
+        "museum_id": "rijks",
+        "longitude": 4.9,
+        "latitude": 52.37,
+        "region": "europe",
+        "label_dx": 0,
+        "label_dy": 32
+      },
+      {
+        "museum_id": "honolulu",
+        "longitude": -157.86,
+        "latitude": 21.31,
+        "region": "hawaii",
+        "label_dx": 0,
+        "label_dy": 32
+      },
+      {
+        "museum_id": "princeton",
+        "longitude": -74.66,
+        "latitude": 40.35,
+        "region": "north-america",
+        "label_dx": -20,
+        "label_dy": 57
+      },
+      {
+        "museum_id": "seattle",
+        "longitude": -122.33,
+        "latitude": 47.61,
+        "region": "north-america",
+        "label_dx": 9,
+        "label_dy": -23
+      },
+      {
+        "museum_id": "portland",
+        "longitude": -122.68,
+        "latitude": 45.52,
+        "region": "north-america",
+        "label_dx": -10,
+        "label_dy": 30
+      }
+    ]
+  },
+  "dealers": [
+    {
+      "id": "loo",
+      "name": "卢芹斋",
+      "english": "C. T. Loo / C. T. Loo & Co.",
+      "intro": "一尊进入堪萨斯城，一尊进入费城，另一尊先成为多丽丝·杜克的收藏。这些不同的经历，在馆方来源记录里遇到了同一个名字。",
+      "records": [
+        {
+          "work": 215,
+          "date": "至迟1933—1934年；1934年入馆",
+          "role": "经手，后由博物馆购入",
+          "text": "纳尔逊馆方来源档案记载，作品至迟在1933—1934年由卢芹斋经手，1934年由博物馆购入。",
+          "source": "https://art.nelson-atkins.org/objects/597/guanyin-of-the-southern-sea",
+          "source_title": "纳尔逊藏品来源档案",
+          "access_note": "沿用本站此前核读记录；本轮官网连接超时。"
+        },
+        {
+          "work": 243,
+          "date": "1924年",
+          "role": "博物馆购自卢芹斋",
+          "text": "宾大的入藏说明直接写明1924年购自C. T. Loo；它是交易关系的记录，未提供原供奉寺院。",
+          "source": "https://collections.penn.museum/collections/object/179391",
+          "source_title": "宾大藏品记录 · Credit Line"
+        },
+        {
+          "work": 241,
+          "date": "1937年购藏；2006年捐赠",
+          "role": "售予私人藏家；其基金会后来捐赠",
+          "text": "多丽丝·杜克于1937年10月7日从巴黎卢芹斋公司购得。2006年捐给沃尔特斯的是杜克慈善基金会。",
+          "source": "https://art.thewalters.org/object/25.256/",
+          "source_title": "沃尔特斯 · Provenance"
+        }
+      ]
+    },
+    {
+      "id": "yamanaka",
+      "name": "山中商会",
+      "english": "Yamanaka & Co.",
+      "intro": "普林斯顿与克利夫兰两尊都留下了山中商会的记录，但入馆的路径不同，记录中的日期也各有含义。",
+      "records": [
+        {
+          "work": 247,
+          "date": "至迟1923年；1950年入馆",
+          "role": "经手；后经Mathias Komor转售",
+          "text": "普林斯顿的来源记录列出：20世纪初的北京、至迟1923年的山中商会、纽约商人Mathias Komor，以及1950年的博物馆购藏。",
+          "source": "https://artmuseum.princeton.edu/art/collections/objects/23888",
+          "source_title": "普林斯顿 · Provenance"
+        },
+        {
+          "work": 226,
+          "date": "1944年库存拍卖；1984年入馆",
+          "role": "库存拍卖；后经藏家及另一商人入馆",
+          "text": "克利夫兰记录将它列入1944年5月纽约山中商会库存拍卖（Lot 782）。后来经过私人收藏，1984年再经拍卖与J. E. Eskenazi售入馆。更早的1943年前后记录，馆方保留了问号。",
+          "source": "https://www.clevelandart.org/art/1984.70",
+          "source_title": "克利夫兰 · Provenance",
+          "data_source": "https://openaccess-api.clevelandart.org/api/artworks/?accession_number=1984.70"
+        }
+      ]
+    }
+  ]
+}
