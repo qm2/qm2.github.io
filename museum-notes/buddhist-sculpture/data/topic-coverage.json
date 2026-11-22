@@ -92,10 +92,8 @@
   {
     "id": "object-199",
     "title": "观音菩萨坐像",
-    "topics": [
-      "water-moon-guanyin"
-    ],
-    "archive_reason": ""
+    "topics": [],
+    "archive_reason": "观音菩萨坐像，水月定名未确；归入石雕单元，保留原记录与旧链接。"
   },
   {
     "id": "object-197",
@@ -323,6 +321,14 @@
     "title": "十三世纪木雕观音坐像",
     "topics": [
       "song-liao-jin-wood"
+    ],
+    "archive_reason": ""
+  },
+  {
+    "id": "object-194480",
+    "title": "水月观音",
+    "topics": [
+      "water-moon-guanyin"
     ],
     "archive_reason": ""
   }

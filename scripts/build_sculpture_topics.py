@@ -60,6 +60,7 @@ def build(root, objects, museums, render_card, lightbox):
         p=root/'museum-notes'/material/'index.html';p.write_text(p.read_text().replace('自在之姿专题','早期造像记录'))
     p=root/'museum-notes/index.html';s=p.read_text().replace('从观音木雕与像内经卷，继续看到寺院壁画、敦煌绘画与罗汉图。','水月观音、五代至元木雕、干漆与漆塑、易县三彩罗汉，一辑一辑细看。').replace(f'{len(objects)} 件造像 ·',f'{len(topics)} 个造像专题 · {len(selected)} 件造像（去重） ·').replace('造像 / 经卷 / 寺院壁画 / 敦煌绘画','水月观音 / 五代至元木雕 / 干漆与漆塑 / 易县三彩罗汉');p.write_text(s)
     archive_reasons={
+        'object-199':'观音菩萨坐像，水月定名未确；归入石雕单元，保留原记录与旧链接。',
         'object-197':'敦煌八臂观音为木、象牙、泥草复合材料，保留在早期记录，待敦煌造像专题。',
         'object-211':'唐代石灰岩僧人像，待石雕专题。',
         'object-207':'隋代石雕观音，待石雕专题。',

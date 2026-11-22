@@ -50,3 +50,14 @@ assert topic['ids']==g['core_ids']+g['extended_ids']
 assert topic['core_ids']==g['core_ids']
 assert all(by_id[w]['photo'] in (BASE/('index.html' if w in main.works else 'extended/index.html')).read_text() for w in main.works+ext.works)
 print('PASS: 8 main / 4 extension; canonical photos, museum map, provenance edges, local images, links, anchors and metadata.')
+
+assert 'object-199' not in main.works+ext.works
+assert by_id['object-194480']['museum']=='bma'
+assert by_id['object-241']['museum']!='bma'
+for page in parsed.values():assert 'object-199' in page.ids
+photos=json.loads((BASE/'data/bma-1944-80-photos.json').read_text())['photos']
+assert len(photos)==6 and len({p['source_photo'] for p in photos})==6
+assert all(p['original_url'].startswith('https://images.mertonmuseum.com/') for p in photos)
+assert sum(p['role']=='main' for p in photos)==1
+assert sum(p['role']=='archived_alternate' for p in photos)==1
+print('PASS: BMA / Walters distinct, six photos accounted for, Guimet old anchors preserved.')

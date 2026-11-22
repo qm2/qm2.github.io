@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08",
+  "updated": "2026-11-22",
   "museums": {
     "rijks": [
       "荷兰国立博物馆",
@@ -75,6 +75,11 @@
       "圣安东尼奥美术馆",
       "圣安东尼奥",
       "San Antonio Museum of Art"
+    ],
+    "bma": [
+      "巴尔的摩美术馆",
+      "巴尔的摩",
+      "Baltimore Museum of Art"
     ]
   },
   "objects": [
@@ -333,12 +338,12 @@
       "date": "宋或金",
       "material": "石灰岩，残存彩绘",
       "material_group": "stone",
-      "group": "seated",
+      "group": "bodhisattva",
       "accession": "未辨清",
-      "observation": "倾斜的头部、微抬的左膝和靠近面颊的手，形成与其他自在坐像不同的节奏。",
-      "story": "这尊石灰岩菩萨与木雕坐像姿态相近，石面上的衣褶与木雕的转折可以对照着看。",
+      "observation": "头部微微倾斜，左手抬至肩旁，双腿屈置于身前；石面保留衣褶的转折与残彩。",
+      "story": "现有展签记录将它称为“观音菩萨坐像”。坐姿是观看形体的线索，水月观音则是需要结合馆方定名与图像背景判断的题材；两者不能仅凭“坐着”便画上等号。这件作品暂归入石雕单元，继续观察手势、衣纹与身体的关系。",
       "url": "",
-      "caveat": "藏品编号尚未辨清。",
+      "caveat": "藏品编号尚未辨清；目前尚无足够资料确认水月观音或自在坐的具体定名。",
       "width": 1279,
       "height": 1706
     },
@@ -1152,6 +1157,143 @@
           "rotation": 0,
           "caption": "现场展签",
           "remote_asset": "2460"
+        }
+      ]
+    },
+    {
+      "id": "object-194480",
+      "title": "水月观音",
+      "original_title": "Water-Moon Guanyin (Shuiyue Guanyin)",
+      "date": "明，15世纪",
+      "material": "金属合金，原有鎏金及蓝、红彩绘",
+      "material_group": "bronze",
+      "group": "seated",
+      "accession": "BMA 1944.80",
+      "museum": "bma",
+      "source_photo": "c9ea0d0ae7343c809a25b44655662a9d.jpg",
+      "original_url": "https://images.mertonmuseum.com/museum-notes/water-moon-guanyin/bma-1944-80/originals/c9ea0d0ae7343c809a25b44655662a9d.jpg",
+      "width": 1280,
+      "height": 1707,
+      "variants": [
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/water-moon-guanyin/bma-1944-80/previews/c9ea0d0ae7343c809a25b44655662a9d-400.webp",
+          "width": 400
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/water-moon-guanyin/bma-1944-80/previews/c9ea0d0ae7343c809a25b44655662a9d-900.webp",
+          "width": 900
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/water-moon-guanyin/bma-1944-80/previews/c9ea0d0ae7343c809a25b44655662a9d-1280.webp",
+          "width": 1280
+        }
+      ],
+      "photo": "https://images.mertonmuseum.com/museum-notes/water-moon-guanyin/bma-1944-80/previews/c9ea0d0ae7343c809a25b44655662a9d-1280.webp",
+      "observation": "右前臂横搭在高起的膝上，手指向下垂落；左手撑住座面，衣裙沿另一条腿落向赤足。面部的金色与深暗的像身相接，让低垂的目光格外清楚。",
+      "story": "从宋金木雕转到这尊明代金属像，熟悉的一膝高起、单手后撑仍在，衣褶却形成另一种厚重而连贯的节奏。胸前的璎珞、臂上的饰件与足边层叠的衣缘，可以从正面看，再绕到侧面重看。这里的舒展不只是一个姿势：手臂把身体向外打开，微低的头又把视线收了回来。",
+      "caveat": "现场展签采用“金属合金”；馆方2015年教育资料称青铜。本页沿用实拍展签，未据此推定合金比例。展签所列河北“Wan Bing County”为地域记录，目前未据此认定具体出土地点。",
+      "url": "https://artbma.org/art-to-go/sitting-still/",
+      "source_title": "巴尔的摩美术馆：Sitting Still（2015）",
+      "note_sections": [
+        {
+          "title": "水边观月的形象",
+          "text": "馆方明确将本件定名为水月观音，并把这一形象联系到水畔岩窟与月影。画面中的山水，在雕像中可以收束为身体的姿态和坐处；这尊像保留了可与木雕主线比较的手臂、膝部与撑座关系。",
+          "url": "https://artbma.org/art-to-go/sitting-still/",
+          "source_title": "馆方教育资料与本页现场展签"
+        },
+        {
+          "title": "观看与收藏",
+          "text": "本件由作者在巴尔的摩美术馆亲见、拍摄，展签列入藏资助为 Julius Levy Memorial Fund。它与同城沃尔特斯艺术博物馆的干漆观音是不同作品；具体参观日期、原供奉寺院及完整流传记录暂未确认。"
+        }
+      ],
+      "related_photos": [
+        {
+          "source_photo": "6c850bbb58d0a195243188f3a98e78a7.jpg",
+          "original_url": "https://images.mertonmuseum.com/museum-notes/water-moon-guanyin/bma-1944-80/originals/6c850bbb58d0a195243188f3a98e78a7.jpg",
+          "width": 1280,
+          "height": 1707,
+          "variants": [
+            {
+              "path": "https://images.mertonmuseum.com/museum-notes/water-moon-guanyin/bma-1944-80/previews/6c850bbb58d0a195243188f3a98e78a7-400.webp",
+              "width": 400
+            },
+            {
+              "path": "https://images.mertonmuseum.com/museum-notes/water-moon-guanyin/bma-1944-80/previews/6c850bbb58d0a195243188f3a98e78a7-900.webp",
+              "width": 900
+            },
+            {
+              "path": "https://images.mertonmuseum.com/museum-notes/water-moon-guanyin/bma-1944-80/previews/6c850bbb58d0a195243188f3a98e78a7-1280.webp",
+              "width": 1280
+            }
+          ],
+          "photo": "https://images.mertonmuseum.com/museum-notes/water-moon-guanyin/bma-1944-80/previews/6c850bbb58d0a195243188f3a98e78a7-1280.webp",
+          "caption": "侧面：撑座的左手与衣裙的体量"
+        },
+        {
+          "source_photo": "d5bb9013bc47803293302e7c78d7ccd9.jpg",
+          "original_url": "https://images.mertonmuseum.com/museum-notes/water-moon-guanyin/bma-1944-80/originals/d5bb9013bc47803293302e7c78d7ccd9.jpg",
+          "width": 1280,
+          "height": 1707,
+          "variants": [
+            {
+              "path": "https://images.mertonmuseum.com/museum-notes/water-moon-guanyin/bma-1944-80/previews/d5bb9013bc47803293302e7c78d7ccd9-400.webp",
+              "width": 400
+            },
+            {
+              "path": "https://images.mertonmuseum.com/museum-notes/water-moon-guanyin/bma-1944-80/previews/d5bb9013bc47803293302e7c78d7ccd9-900.webp",
+              "width": 900
+            },
+            {
+              "path": "https://images.mertonmuseum.com/museum-notes/water-moon-guanyin/bma-1944-80/previews/d5bb9013bc47803293302e7c78d7ccd9-1280.webp",
+              "width": 1280
+            }
+          ],
+          "photo": "https://images.mertonmuseum.com/museum-notes/water-moon-guanyin/bma-1944-80/previews/d5bb9013bc47803293302e7c78d7ccd9-1280.webp",
+          "caption": "面容、胸饰与右臂（现场近照）"
+        },
+        {
+          "source_photo": "39bbd89f10955711b769477d86dcbc7b.jpg",
+          "original_url": "https://images.mertonmuseum.com/museum-notes/water-moon-guanyin/bma-1944-80/originals/39bbd89f10955711b769477d86dcbc7b.jpg",
+          "width": 1280,
+          "height": 1707,
+          "variants": [
+            {
+              "path": "https://images.mertonmuseum.com/museum-notes/water-moon-guanyin/bma-1944-80/previews/39bbd89f10955711b769477d86dcbc7b-400.webp",
+              "width": 400
+            },
+            {
+              "path": "https://images.mertonmuseum.com/museum-notes/water-moon-guanyin/bma-1944-80/previews/39bbd89f10955711b769477d86dcbc7b-900.webp",
+              "width": 900
+            },
+            {
+              "path": "https://images.mertonmuseum.com/museum-notes/water-moon-guanyin/bma-1944-80/previews/39bbd89f10955711b769477d86dcbc7b-1280.webp",
+              "width": 1280
+            }
+          ],
+          "photo": "https://images.mertonmuseum.com/museum-notes/water-moon-guanyin/bma-1944-80/previews/39bbd89f10955711b769477d86dcbc7b-1280.webp",
+          "caption": "巴尔的摩美术馆的展陈环境"
+        },
+        {
+          "source_photo": "db7c2ba176f4a895d932e776783b992e.jpg",
+          "original_url": "https://images.mertonmuseum.com/museum-notes/water-moon-guanyin/bma-1944-80/originals/db7c2ba176f4a895d932e776783b992e.jpg",
+          "width": 1707,
+          "height": 1280,
+          "variants": [
+            {
+              "path": "https://images.mertonmuseum.com/museum-notes/water-moon-guanyin/bma-1944-80/previews/db7c2ba176f4a895d932e776783b992e-400.webp",
+              "width": 400
+            },
+            {
+              "path": "https://images.mertonmuseum.com/museum-notes/water-moon-guanyin/bma-1944-80/previews/db7c2ba176f4a895d932e776783b992e-900.webp",
+              "width": 900
+            },
+            {
+              "path": "https://images.mertonmuseum.com/museum-notes/water-moon-guanyin/bma-1944-80/previews/db7c2ba176f4a895d932e776783b992e-1600.webp",
+              "width": 1600
+            }
+          ],
+          "photo": "https://images.mertonmuseum.com/museum-notes/water-moon-guanyin/bma-1944-80/previews/db7c2ba176f4a895d932e776783b992e-1600.webp",
+          "caption": "水月观音现场展签 · BMA 1944.80"
         }
       ]
     }
