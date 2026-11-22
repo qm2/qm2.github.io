@@ -30,7 +30,19 @@ def check():
     works = json.loads((BASE/'data/works.json').read_text())
     photos = json.loads((BASE/'data/photos.json').read_text())
     comparisons = json.loads((BASE/'data/comparisons.json').read_text())
+    pairings = json.loads((BASE/'data/parallel_readings.json').read_text())
     by = {w['id']: w for w in works}
+    for w in works:
+        order = w.get('reading_order', list(range(1, len(w['sections']) + 1)))
+        assert sorted(order) == list(range(1, len(w['sections']) + 1)), w['id']
+    assert len({p['id'] for p in pairings}) == len(pairings)
+    for pair in pairings:
+        assert all(work in by for work in pair['pages'])
+        for item in pair['items']:
+            work = by[item['work']]
+            assert item['photo'] in work['photo_indices'], item
+            assert str(item['photo']) in photos, item
+            assert item['target'].startswith('reading-' + work['id'] + '-'), item
     assert len(works) == len(by) == 26
     assert sum(w['category'] != 'object' for w in works) == 20
     assert by['dunhuang']['accession'] == '1919,0101,0.80'

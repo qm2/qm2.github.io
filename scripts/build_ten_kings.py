@@ -23,6 +23,7 @@ def build():
     objects = [w for w in works if w['category'] == 'object']
     central = by['ksitigarbha_cma']
     comparisons = load('comparisons')
+    parallel_readings = load('parallel_readings')
 
     def href(w):
         if w['category'] == 'king': return URL + w['id'] + '/'
@@ -54,10 +55,11 @@ def build():
                 f'width="{p["width"]}" height="{p["height"]}" alt="{esc(caption)}" '
                 f'{"fetchpriority=high" if eager else "loading=lazy"} decoding="async">')
 
-    def figure(n, caption, eager=False, cls='', context=''):
+    def figure(n, caption, eager=False, cls='', context='', anchor=''):
         p = photos[str(n)]
         label = context + caption
-        return (f'<figure class="tk-figure {cls}"><a data-photo href="{URL}{p["full"]}" '
+        ident = f' id="{esc(anchor)}"' if anchor else ''
+        return (f'<figure class="tk-figure {cls}"{ident}><a data-photo href="{URL}{p["full"]}" '
                 f'data-caption="{esc(label)}">{image(n, label, eager)}</a><figcaption>{esc(caption)}</figcaption></figure>')
 
     def caption(w):
@@ -98,15 +100,32 @@ def build():
     def sections(w):
         s = ''
         illustrated = 0
-        for i, block in enumerate(w['sections'], 1):
+        order = w.get('reading_order', list(range(1, len(w['sections']) + 1)))
+        assert sorted(order) == list(range(1, len(w['sections']) + 1))
+        for i in order:
+            block = w['sections'][i - 1]
             copy = '<div class="tk-copy"><h2>' + esc(block['title']) + '</h2>' + paras(block['text'], w) + '</div>'
             if 'photo' in block:
+                copy = copy[:-6] + f'<p class="tk-return"><a href="#full-{w["id"]}">回看完整画面 ↑</a></p></div>'
                 illustrated += 1
                 reverse = ' tk-detail-reverse' if illustrated % 2 == 0 else ''
                 s += f'<section class="tk-detail compare-group{reverse}" id="reading-{w["id"]}-{i}">' + figure(block['photo'], block['caption'], context=caption(w) + ' · ') + copy + '</section>'
             else:
                 s += f'<section class="tk-prose tk-text-section" id="reading-{w["id"]}-{i}">' + copy + '</section>'
         return s
+
+    def parallel(w):
+        html = ''
+        for pair in parallel_readings:
+            if w['id'] not in pair['pages']: continue
+            html += f'<details class="tk-parallel" id="{pair["id"]}"><summary>{esc(pair["title"])} <i aria-hidden="true">＋</i></summary><div class="tk-prose">' + paras(pair['intro']) + '</div><div class="tk-pair-grid">'
+            for item in pair['items']:
+                other = by[item['work']]
+                assert item['photo'] in other['photo_indices']
+                html += '<div>' + figure(item['photo'], item['caption'], context=caption(other) + ' · ')
+                html += paras(item['observation']) + f'<p class="tk-source"><a href="{href(other)}#{item["target"]}">{esc(other["name"])}：回到细读 →</a> · <a href="{href(other)}#label-{other["id"]}">展签</a></p></div>'
+            html += '</div><p class="tk-source">' + text(pair['note']) + '</p></details>'
+        return html
 
     def reference_note(w):
         return '<p class="tk-source">画面情节与图像解释据本件<a href="#label-' + w['id'] + '">现场展签</a>；照片观察与个人感受另在正文中表述。' + ''.join(text('['+s+']') for s in w['sources']) + '</p>'
@@ -139,21 +158,21 @@ def build():
 
     w = by['dunhuang']
     body = heading(w['subtitle'], '敦煌《十王经图卷》 · 10世纪 · 大英博物馆', 'DUNHUANG / CONTEXT') + '<p class="tk-lead">' + esc(w['lead']) + '</p>'
-    body += figure(w['full'], '现场完整陈列视角：现存残卷在展柜中展开，近大远小的透视予以保留 · Merton摄于CMA', True, 'tk-full')
-    body += sections(w) + label(w)
+    body += figure(w['full'], '现场完整陈列视角：现存残卷在展柜中展开，近大远小的透视予以保留 · Merton摄于CMA', True, 'tk-full', anchor='full-' + w['id'])
+    body += sections(w) + parallel(w) + label(w)
     body += f'<aside class="tk-related"><h2>回到高丽画组</h2><p><a href="{URL}k05/">第五王：证据怎样成为画面 →</a></p><p><a href="{URL}k10/">第十王：另一种轮回道路 →</a></p><p><a href="{URL}ksitigarbha/">中央地藏：卷尾救拔与独立尊像 →</a></p><p><a href="{URL}overview/">返回十王总览 →</a></p></aside>'
     write('dunhuang', w['subtitle'], body, 98)
 
     for i, w in enumerate(kings):
         body = heading(w['name'], w['subtitle'], 'THE TEN KINGS / ' + str(i+1).zfill(2))
-        body += '<p class="tk-lead">' + esc(w['lead']) + '</p>' + figure(w['full'], caption(w), True, 'tk-full')
+        body += '<p class="tk-lead">' + esc(w['lead']) + '</p>' + figure(w['full'], caption(w), True, 'tk-full', anchor='full-' + w['id'])
         body += '<p class="tk-source tk-center">' + esc(w['date'] + ' · ' + w['material']) + '</p>' + sections(w)
-        body += reference_note(w) + label(w)
+        body += parallel(w) + reference_note(w) + label(w)
         body += f'<p class="tk-source">本件属前Packard旧藏十王组。<a href="{URL}overview/#reunion">整组流传与重聚</a> · <a href="{URL}overview/#attribution">归属讨论</a></p>'
         body += '<nav class="tk-next" aria-label="逐王阅读">' + (f'<a href="{href(kings[i-1])}">← {esc(kings[i-1]["name"])}</a>' if i else f'<a href="{URL}overview/">← 十王总览</a>') + f'<a href="{URL}#kings">返回长廊</a>' + (f'<a href="{href(kings[i+1])}">{esc(kings[i+1]["name"])} →</a>' if i < 9 else f'<a href="{URL}ksitigarbha/">再看地藏 →</a>') + '</nav>'
         write(w['id'], w['name'] + '｜' + w['subtitle'], body, w['full'])
 
-    body = heading('地藏：审判之外的慈悲', '地藏菩萨立像 · 1300—1350年 · CMA 2025.141') + '<p class="tk-lead">' + esc(central['lead']) + '</p>' + figure(91, caption(central), True, 'tk-full')
+    body = heading('地藏：审判之外的慈悲', '地藏菩萨立像 · 1300—1350年 · CMA 2025.141') + '<p class="tk-lead">' + esc(central['lead']) + '</p>' + figure(91, caption(central), True, 'tk-full', anchor='full-' + central['id'])
     body += '<nav class="tk-localnav" aria-label="地藏细读目录"><a href="#reading-ksitigarbha_cma-1">面容与持物</a><a href="#reading-ksitigarbha_cma-3">金彩衣纹</a><a href="#reading-ksitigarbha_cma-5">青龍公用</a><a href="#reading-ksitigarbha_cma-6">流传</a><a href="#leeum-amitabha-national-treasure-218">阿弥陀三尊并看</a></nav>' + sections(central) + label(central)
     if central.get('research_notes'):
         body += '<details class="tk-research"><summary>研究资料中的待核问题 <i aria-hidden="true">＋</i></summary><div class="tk-prose">' + paras(central['research_notes']) + '</div></details>'
@@ -176,9 +195,9 @@ def build():
         for w in records:
             body += f'<article class="tk-record" id="{w["id"]}"><header><p class="eyebrow">{esc(w["english"])}</p><h2>{esc(w["name"])}</h2><p class="tk-source">{esc(w["date"])}</p></header>'
             if category == 'paintings':
-                body += figure(w['full'], caption(w), cls='tk-full') + '<div class="tk-prose tk-text-section">' + paras(w['lead'], w) + '</div>'
+                body += figure(w['full'], caption(w), cls='tk-full', anchor='full-' + w['id']) + '<div class="tk-prose tk-text-section">' + paras(w['lead'], w) + '</div>'
             else:
-                body += '<div class="tk-feature">' + figure(w['full'], caption(w)) + '<div>' + paras(w['lead'], w) + '<p class="tk-source">基本资料与用途解释据本件<a href="#label-' + w['id'] + '">现场展签</a>。</p>' + facts(w) + '</div></div>'
+                body += '<div class="tk-feature">' + figure(w['full'], caption(w), anchor='full-' + w['id']) + '<div>' + paras(w['lead'], w) + '<p class="tk-source">基本资料与用途解释据本件<a href="#label-' + w['id'] + '">现场展签</a>。</p>' + facts(w) + '</div></div>'
             body += sections(w)
             if w['id'] == 'avatamsaka-78': body += figure(379, '《大方广佛华严经》卷七十八 · 卷首画局部 · Merton摄', cls='tk-full')
             if w.get('note'): body += '<aside class="tk-note">' + paras(w['note'], w) + '</aside>'
@@ -194,7 +213,7 @@ def build():
     body += '<div class="tk-prose"><p>CMA展出作品的信息首先依据2026年11月13—14日的现场展签，再与馆方公开记录对照。另收录此前在华盛顿亲见的国宝《阿弥陀三尊图》作为比较，摄影地点与本次数字影像展示分别注明。正文中的“展签”链接可直接打开相应照片；数字注号指向下列资料。所有公开作品图与局部均为Merton现场摄影，图像不代表实物等比例。</p></div><ol class="tk-sources">'
     body += ''.join(f'<li id="{s["id"]}" value="{int(s["id"][1:])}"><a href="{esc(s["url"], quote=True)}" target="_blank" rel="noopener">{esc(s["title"])} ↗</a><p>{esc(s["read_status"])}</p></li>' for s in sources) + '</ol>'
     body += '<details class="tk-research"><summary>进一步阅读：已知书目，尚未阅读全文 <i aria-hidden="true">＋</i></summary>' + paras(editorial['unread']) + '</details>'
-    body += '<section class="tk-prose tk-text-section"><h2>摄影与记录</h2><p>现场摄影用于个人非商业观展札记，未引入馆方高清图、红外图或图录书页。原作收藏机构分别列在图注与资料中；借展到CMA并不改变收藏归属。现场玻璃反光、绢面折痕与原有损伤均予保留。</p><p>已查阅CMA现行摄影政策；其对本馆公版藏品的开放规定，并非所有借展作品的统一授权声明。本站摄影不标作馆方CC0图像，也不提供整套原始档案下载。[S14]</p><p>其余尚待核实的问题，包括十王的具体原寺院、争议中的材料检测依据、部分绘画的断代差异，以及中央地藏题字所指的人物。资料核对日期：2026年11月17日。</p></section>'
+    body += '<section class="tk-prose tk-text-section"><h2>摄影与记录</h2><p>现场摄影用于个人非商业观展札记，未引入馆方高清图、红外图或图录书页。原作收藏机构分别列在图注与资料中；借展到CMA并不改变收藏归属。现场玻璃反光、绢面折痕与原有损伤均予保留。</p><p>已查阅CMA现行摄影政策；其对本馆公版藏品的开放规定，并非所有借展作品的统一授权声明。本站摄影不标作馆方CC0图像，也不提供整套原始档案下载。[S14]</p><p>其余尚待核实的问题，包括十王的具体原寺院、争议中的材料检测依据、部分绘画的断代差异，以及中央地藏题字所指的人物。资料核对日期：2026年11月18日。</p></section>'
     body = body.replace('[S14]', text('[S14]'))
     body += f'<p><a href="{URL}overview/#attribution">十王的归属讨论 →</a> · <a href="{URL}">返回专题首页 →</a></p>'
     write('sources', '资料与来源', body)

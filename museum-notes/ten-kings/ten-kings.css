@@ -42,6 +42,14 @@
 .tk-detail .tk-copy{font-size:17px;line-height:1.95}
 @media(min-width:651px){.tk-detail-reverse>.tk-figure{grid-column:2;grid-row:1}.tk-detail-reverse>.tk-copy{grid-column:1;grid-row:1}}
 .tk-copy h2{font-size:27px;margin-bottom:22px}
+.tk-return{font-size:12px;margin-top:22px!important;color:var(--muted)}
+.tk-page .tk-parallel{max-width:1060px;margin:50px auto;padding:18px 0}
+.tk-parallel>.tk-prose{margin:20px 0;font-size:16px}
+.tk-pair-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:36px;align-items:start;margin-top:28px}
+.tk-pair-grid>div{min-width:0}
+.tk-pair-grid .tk-figure{max-width:420px;margin-inline:auto}
+.tk-pair-grid>div>p{max-width:420px;margin:20px auto;font-size:15px;line-height:1.9}
+@media(max-width:650px){.tk-pair-grid{grid-template-columns:1fr;gap:26px}.tk-page .tk-parallel{margin:35px 0}.tk-parallel summary{gap:15px;line-height:1.8}}
 .tk-text-section{margin-top:52px;margin-bottom:52px}
 .tk-text-section h2{font-size:27px}
 .tk-page details{margin:30px 0;border-bottom:1px solid var(--line);padding-bottom:8px}

@@ -168,3 +168,53 @@ uncropped proportions, full-image and label zoom, arrows, Escape, gallery naviga
 deep-link disclosure opening, and no-JavaScript navigation passed. Desktop alternates
 selected detail images; mobile stacks them. Screenshots and browser reports are private
 in `/tmp/tk-refine/browser/`. No unrelated untracked files belong in this commit.
+
+## Local refinement — 2026-11-18 (not committed or published)
+
+The latest request explicitly limits this iteration to local changes. The November
+personal introduction, ten readings, expanded paintings and Dunhuang page were already
+present at the starting revision `f45926f`; they are retained rather than generated anew.
+The earlier clarification remains authoritative: the Washington original / CMA digital
+encounter is Leeum National Treasure 218, **Amitabha Triad**, not Ksitigarbha with Entourage.
+
+- Rechecked original photographs 026/029 and 069/071 against their labels. Corrected
+  King 3: the scroll belongs to the boy; the woman is the kneeling person, not another
+  standing figure. The label says the boy is **possibly** her son. King 8 now describes
+  the two kneeling scroll-holders and their hoped-for mitigation, rather than supplying
+  details of unreadable objects on the scale.
+- Kept all old section anchors while moving Ksitigarbha's gold-technique section before
+  the feet, inscription and provenance sections; the closing paragraph is now last.
+  Updated the collector's name to 陈昌植／中村武雄 as provided by the CMA record.
+- Added `data/parallel_readings.json`: two reusable comparisons (mirror/scale and
+  Dunhuang/Goryeo rebirth paths), appearing in the four relevant readings. They reuse
+  photographs 044/069 and 102/083, retain natural aspect ratios, open on a hash link,
+  and offer links to the respective readings and labels. No new object/photo counted.
+- All illustrated reading sections now link back to their full view. Full-view anchors
+  also exist for supporting objects, avoiding broken links from shared rendering.
+- Removed several editorial reminders from the Fourth King, Water-Moon Avalokiteshvara,
+  Ksitigarbha and entourage prose, retaining substantive evidence qualifications.
+- Re-read current CMA and Princeton records. Verified bibliographic listings for the
+  2026 catalogue's Fourth King essay (Park Eunkyung, pp. 215–221) and Ksitigarbha essay
+  (Sooa Im McCormick / Min Kim, pp. 255–259). The essays themselves are **not** claimed
+  as read. IR interpretation still comes from the public CMA article and exhibition
+  labels, not from an independently inspected technical report.
+
+No new public image assets: existing derivatives already reach their source resolution.
+Some detail photographs are only 960–1280 pixels wide. No artificial enlargement,
+restoration, removal of reflections, book-page publication or third-party image import.
+The original archives and the pre-existing untracked `scripts/__pycache__/` are untouched.
+
+Validation: full `build_museum.py`, `check_ten_kings.py`, `check_sama_batch.py`, and
+`git diff --check`. Browser inspection artifacts are kept outside the repo in
+`/tmp/tk-local-20261118/browser/`; checks cover all 17 pages at 1440, 768 and 390 px,
+plus comparison deep links, keyboard expansion, zoom/close, full-view returns, and
+preserved Ksitigarbha section anchors.
+
+Open questions remain the identity of 青龍公, exact original locations and grouping,
+the attribution dispute's primary technical evidence, Princeton's full repair report,
+and the unconsulted 2026 catalogue chapters. The older 1989/1998 research-date discrepancy
+is retained as a question rather than silently reconciled.
+
+## Publication follow-up — 2026-11-22
+
+User authorized publication of the retained local refinement alongside the Water-Moon update. Rebuilt the topic, restoring its related-reading entrance on the Xuzhou home page. Both topic checkers pass; no new photographs or research claims were introduced during this publication step.
