@@ -702,8 +702,8 @@
     },
     {
       "id": "object-231",
-      "photo": "cleveland-231.jpg",
-      "source_photo": "Image_20260920173824_231_19.jpg",
+      "photo": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/ce6223f24cf3dc556c35b28680db00f4-1280.webp",
+      "source_photo": "ce6223f24cf3dc556c35b28680db00f4.jpg",
       "label_photos": [
         "Image_20260920173826_232_19.jpg"
       ],
@@ -715,12 +715,154 @@
       "material_group": "lacquer",
       "group": "material",
       "accession": "1983.86",
-      "observation": "表面呈深色，局部金饰与裂损清晰可见；小体量仍保留了自然的斜坐姿态。",
+      "observation": "半垂的眼帘、微斜的坐姿与光亮的深色漆面相接；胸前的项饰、臂饰和衣缘还留有金色纹样。",
       "story": "馆方说明，干漆像先在泥芯外铺覆浸漆织物，待固化后移除内芯，因此像体中空而轻。修复人员清除了后加的重绘与过度修补，显露下方的深色漆面。",
       "url": "https://www.clevelandart.org/art/1983.86",
       "caveat": "",
-      "width": 1279,
-      "height": 1706
+      "width": 1280,
+      "height": 1707,
+      "archived_photos": [
+        {
+          "photo": "cleveland-231.jpg",
+          "width": 1279,
+          "height": 1706,
+          "source_photo": "Image_20260920173824_231_19.jpg",
+          "caption": "此前观看的正面照片"
+        }
+      ],
+      "original_url": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/originals/ce6223f24cf3dc556c35b28680db00f4.jpg",
+      "variants": [
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/ce6223f24cf3dc556c35b28680db00f4-400.webp",
+          "width": 400
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/ce6223f24cf3dc556c35b28680db00f4-900.webp",
+          "width": 900
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/ce6223f24cf3dc556c35b28680db00f4-1280.webp",
+          "width": 1280
+        }
+      ],
+      "sha256": "7232253cb2029e99cca32b338fa363575a1839910b2c656726390d743619dcf5",
+      "related_photos": [
+        {
+          "photo": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/bec1da17dd637fa9b42023515f2d3fb0-1280.webp",
+          "original_url": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/originals/bec1da17dd637fa9b42023515f2d3fb0.jpg",
+          "source_photo": "bec1da17dd637fa9b42023515f2d3fb0.jpg",
+          "width": 1280,
+          "height": 1707,
+          "variants": [
+            {
+              "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/bec1da17dd637fa9b42023515f2d3fb0-400.webp",
+              "width": 400
+            },
+            {
+              "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/bec1da17dd637fa9b42023515f2d3fb0-900.webp",
+              "width": 900
+            },
+            {
+              "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/bec1da17dd637fa9b42023515f2d3fb0-1280.webp",
+              "width": 1280
+            }
+          ],
+          "sha256": "95e0e12e28ccf3872d3c42f66e0df456693ce8e9ec7f5840b2d96135851eb261",
+          "caption": "面容与发式：半垂的眼帘和额前发纹"
+        },
+        {
+          "photo": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/c89c6fcfdf9f993e2f42d45624e6fbaa-1280.webp",
+          "original_url": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/originals/c89c6fcfdf9f993e2f42d45624e6fbaa.jpg",
+          "source_photo": "c89c6fcfdf9f993e2f42d45624e6fbaa.jpg",
+          "width": 1280,
+          "height": 1707,
+          "variants": [
+            {
+              "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/c89c6fcfdf9f993e2f42d45624e6fbaa-400.webp",
+              "width": 400
+            },
+            {
+              "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/c89c6fcfdf9f993e2f42d45624e6fbaa-900.webp",
+              "width": 900
+            },
+            {
+              "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/c89c6fcfdf9f993e2f42d45624e6fbaa-1280.webp",
+              "width": 1280
+            }
+          ],
+          "sha256": "cda6743ac9f27e1619da65220bfdaa7e1a191b4d9311d69b584a12b8bd2b0f93",
+          "caption": "胸饰、臂饰与腰间衣纹（现场近照）"
+        },
+        {
+          "photo": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/d9135d43e50b1507c39a8f0ba9055042-1280.webp",
+          "original_url": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/originals/d9135d43e50b1507c39a8f0ba9055042.jpg",
+          "source_photo": "d9135d43e50b1507c39a8f0ba9055042.jpg",
+          "width": 1280,
+          "height": 1707,
+          "variants": [
+            {
+              "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/d9135d43e50b1507c39a8f0ba9055042-400.webp",
+              "width": 400
+            },
+            {
+              "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/d9135d43e50b1507c39a8f0ba9055042-900.webp",
+              "width": 900
+            },
+            {
+              "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/d9135d43e50b1507c39a8f0ba9055042-1280.webp",
+              "width": 1280
+            }
+          ],
+          "sha256": "e48b6eb1c5bc455958ea69eb590ae49ec879dc62304a1dfdf6a2bc821d6414d1",
+          "caption": "膝前衣褶与残足（现场近照）"
+        },
+        {
+          "photo": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/ac7a2ec40cb456955b790e9a734fdc85-1280.webp",
+          "original_url": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/originals/ac7a2ec40cb456955b790e9a734fdc85.jpg",
+          "source_photo": "ac7a2ec40cb456955b790e9a734fdc85.jpg",
+          "width": 1280,
+          "height": 1707,
+          "variants": [
+            {
+              "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/ac7a2ec40cb456955b790e9a734fdc85-400.webp",
+              "width": 400
+            },
+            {
+              "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/ac7a2ec40cb456955b790e9a734fdc85-900.webp",
+              "width": 900
+            },
+            {
+              "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/ac7a2ec40cb456955b790e9a734fdc85-1280.webp",
+              "width": 1280
+            }
+          ],
+          "sha256": "bbdec9e8a50f07cb4b57b790c1ad8fe4dcc25266bf960c62da410cb01c193c47",
+          "caption": "侧面：坐姿、上身与抬起的残臂"
+        },
+        {
+          "photo": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/19442b8f8c9ad476a467a4553d765177-1600.webp",
+          "original_url": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/originals/19442b8f8c9ad476a467a4553d765177.jpg",
+          "source_photo": "19442b8f8c9ad476a467a4553d765177.jpg",
+          "width": 1702,
+          "height": 1276,
+          "variants": [
+            {
+              "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/19442b8f8c9ad476a467a4553d765177-400.webp",
+              "width": 400
+            },
+            {
+              "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/19442b8f8c9ad476a467a4553d765177-900.webp",
+              "width": 900
+            },
+            {
+              "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/19442b8f8c9ad476a467a4553d765177-1600.webp",
+              "width": 1600
+            }
+          ],
+          "sha256": "b550676188c5562d9ed118032d05e5e0b67fd3b1b549e8b829c0c5d2f529068a",
+          "caption": "干漆菩萨现场展签 · 1983.86"
+        }
+      ]
     },
     {
       "id": "object-205",

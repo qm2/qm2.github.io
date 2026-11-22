@@ -38,3 +38,7 @@ Desktop/mobile: check all photos, three initially closed labels, zoom/original l
 ## Focused reading refinements
 
 The cabinet photograph now has a founder sidebar for Cleveland **1993.160**, a 13th-century portrait of Phagmo Drupa Dorje Gyalpo (1110–1170). The museum lists Central Tibet, not a confirmed Densatil provenance; its published provenance starts with the 1993 David Tremayne Ltd. sale. The portrait remains contextual, not a fourth work group. The three groups' original-setting evidence is consolidated into a semantic comparison table (horizontally scrollable on small screens). Short numbered citations link to the full reference list, with return links to each occurrence. Mele figure 88 is a visual comparison for Seattle's looping scarves, never an asserted exact object match.
+
+## Cleveland revisit photographs (2026-11-22 integration)
+
+Two separate complete support photographs replace the cabinet overview as primary views. Original overview and label remain in a disclosure; the founder sidebar gains its own portrait and label. No new work group, accession assignment or ancient arrangement is inferred. Five new photos are held on the existing CDN and mapped in `../data/cleveland-revisit-media.json`; details and verification in `../../docs/cleveland-revisit/README.md`.

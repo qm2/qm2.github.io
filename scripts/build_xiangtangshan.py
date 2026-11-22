@@ -2,6 +2,7 @@
 from pathlib import Path
 from html import escape as e
 import json,re
+from museum_assets import asset_url, responsive_attributes
 from build_jazari import LIGHTBOX as BASE_LIGHTBOX
 LIGHTBOX = BASE_LIGHTBOX.replace('<img id="large-photo" alt="">', '<span id="xts-lightbox-view" class="xts-view"><img id="large-photo" alt=""></span>').replace('<a id="original-photo"', '<button type="button" id="xts-full">查看完整合照</button><a id="original-photo"').replace('原图 ↗', '打开原照片 ↗')
 ROOT=Path(__file__).resolve().parents[1]
@@ -23,12 +24,12 @@ def build():
  base=ROOT/'museum-notes/xiangtangshan';d=json.loads((base/'data/works.json').read_text());works=d['works'];byid={w['id']:w for w in works};assets={a['number']:a for a in d['assets']}
  assert len(works)==len(byid)==25
  assert sum(w['scope']=='core_attributed' for w in works)==24
- assert len(assets)==45 and len(d['excluded'])==1
+ assert sum(not a.get('source_batch') for a in assets.values())==45 and len(d['excluded'])==1
  identities={(w['museum_key'],re.sub(r'[^a-z0-9]','',w['accession'].lower())) for w in works};assert len(identities)==25
  for w in works:
   for n in set(w['photos']+w['labels']):
    assert w['id'] in assets[n]['work_ids']
-   assert (base/assets[n]['web_path']).is_file()
+   assert assets[n]['web_path'].startswith('https://images.mertonmuseum.com/') or (base/assets[n]['web_path']).is_file()
  def sources(ss):
   return '<div class="work-sources">'+''.join(f'<p><a href="{e(s["url"])}" target="_blank" rel="noopener noreferrer">{e(s["title"])} ↗</a></p>' for s in ss)+'</div>'
  def shell(title,body,depth=0):
@@ -39,7 +40,7 @@ def build():
   return f'<nav class="breadcrumbs wrap" aria-label="当前位置"><a href="{note}">博物馆札记</a><span>/</span><a href="{note}chinese-buddhist-art/">中国佛教艺术</a><span>/</span>'+ (f'<a href="{topic}">响堂山石窟</a><span>/</span><span>{e(tail)}</span>' if tail else '<span>响堂山石窟</span>')+'</nav>'
  def img(n,prefix='',large=False,alt='',high=False):
   a=assets[n];p='web' if large else 'thumbnail'
-  return f'<img src="{prefix}{a[p+"_path"]}" alt="{e(alt)}" width="{a[p+"_width"]}" height="{a[p+"_height"]}" {"fetchpriority=high" if high else "loading=lazy"} decoding="async">'
+  return f'<img src="{asset_url(prefix,a[p+"_path"])}"{responsive_attributes(a)} alt="{e(alt)}" width="{a[p+"_width"]}" height="{a[p+"_height"]}" {"fetchpriority=high" if high else "loading=lazy"} decoding="async">'
  def crop_image(w,prefix='',large=False,high=False):
   n=w['hero'];cap=caption(w,n);image=img(n,prefix,large,cap,high);crop=w.get('display_crop')
   if not crop:return image
@@ -48,6 +49,7 @@ def build():
   image_style=f"width:{100/crop['width']:.9f}%;height:{100/crop['height']:.9f}%;left:{-100*crop['x']/crop['width']:.9f}%;top:{-100*crop['y']/crop['height']:.9f}%"
   return f'<span class="xts-view" style="{style}">'+image.replace('<img ',f'<img style="{image_style}" ')+ '</span>'
  def caption(w,n):
+  if assets[n].get('caption'):return assets[n]['caption']+' · '+w['accession']
   if n==w['hero']:return f'{w["title"]} · {w["museum"]} · {w["accession"]}'+ (' · 展厅合照局部' if w.get('display_crop') else '')
   if n==747:return '西方净土浮雕细部：中央佛、华盖与莲池 · F1921.2'
   if n==727:return '弗利尔展厅：两块浮雕与中央独立菩萨立像F1968.45'
@@ -66,7 +68,7 @@ def build():
   attrs=f'data-work-id="{e(wid)}" data-view-id="{e(wid)}:{kind}:{n}" data-photo-group="{e(group)}" data-photo-number="{n}" data-width="{a["web_width"]}" data-height="{a["web_height"]}"'
   if crop:attrs+=f' data-crop="{e(json.dumps(crop,separators=(",",":")))}" data-full-caption="{e(full_caption(n))}"'
   picture=crop_image(work,prefix,large,high) if crop else img(n,prefix,large,cap,high)
-  return f'<a data-photo {attrs} href="{prefix}{a["web_path"]}" data-caption="{e(cap)}">{text or picture}</a>'
+  return f'<a data-photo {attrs} href="{a.get("original_url") or asset_url(prefix,a["web_path"])}" data-caption="{e(cap)}">{text or picture}</a>'
  def card(w,prefix=''):
   search=' '.join(str(w[k]) for k in ('title','name_en','accession','museum','cave_zh','observation'))
   return f'''<article class="art-card" id="{w['slug']}" data-search="{e(search)}" data-museum="{w['museum_key']}" data-tags="{w['group']}" data-scope="{w['scope']}"><a class="art-thumbnail" href="{prefix}{w['slug']}/">{crop_image(w,prefix)}</a><div class="art-card-copy"><p class="card-kicker">{e(w['date'])} · {e(w['accession'])}</p><h3><a href="{prefix}{w['slug']}/">{e(w['title'])}</a></h3><p class="card-museum">{e(w['museum'])}{' · 展厅合照局部' if w.get('display_crop') else ''}</p><p class="card-look">{e(w['observation'])}</p><div class="card-actions"><a href="{prefix}{w['slug']}/">作品札记 →</a>{photo(w['hero'],caption(w,w['hero']),prefix,text='放大照片 ↗',work=w,cropped=True)}</div></div></article>'''
@@ -87,7 +89,7 @@ def build():
   if w['position']:fields.append(('原合照位置',w['position']))
   facts='<dl class="work-facts">'+''.join(f'<div><dt>{e(k)}</dt><dd>{e(v)}</dd></div>' for k,v in fields)+'</dl>'
   paragraphs='<section><h2>作品札记</h2>'+''.join(f'<p>{e(p)}</p>' for p in w['paragraphs'])+'</section>'
-  labels=[w['label']]
+  labels=w['labels'] if assets[w['label']].get('source_batch') else [w['label']]
   if w['label']==728:labels=[728,748]
   label_captions={724:'共用展签：上段为佛头1923.97，下段为迦叶1972.166。',740:'共用展签：观音C113、辟支佛C151与菩萨C150。',746:'共用展签：坐菩萨F1913.57与四兽F1953.86、F1953.87、F1977.8、F1977.9。',728:'共用展签：两块浮雕F1921.1、F1921.2与独立菩萨F1968.45。',748:'同组展签细部：两块浮雕与中央独立菩萨。'}
   labelhtml='<details class="xts-labels"><summary>现场展签</summary>'+''.join('<figure>'+photo(n,label_captions.get(n,f'{w["museum"]} · {w["accession"]} · 现场展签'),'../',large=True,work=w,group=w['id'],kind='label')+f'<figcaption>{e(label_captions.get(n,"现场展签 · "+w["accession"]))}</figcaption></figure>' for n in labels)+'</details>'
@@ -104,6 +106,7 @@ def build():
  body=crumbs('跨馆比较',1)+'<header class="compare-header wrap"><p class="eyebrow">XIANGTANGSHAN / SIDE BY SIDE</p><h1>把散件放在一起看</h1><p>从表情、姿态和装饰，逐步看到原来洞窟中的关系。</p><p class="source">照片按版面排列，未按实物等比例显示。</p><nav class="compare-nav">'+''.join(f'<a href="#{c["id"]}">{e(c["title"])}</a>' for c in COMPARISONS)+'</nav></header><div class="wrap">'
  def compare_cell(n,ids,group,crop=False,wide=False):
   ws=[byid[i] for i in ids];w=ws[0]
+  if len(ws)==1 and w.get('museum_key')=='CLE':n=w['hero']
   cap=caption(w,n) if crop or len(ws)==1 else full_caption(n)
   links=''.join(f'<a href="../{x["slug"]}/">{e(x["title"])} · {e(x["accession"])} →</a><span>{e(x["museum"])}{(" · 原"+e(x["position"])) if len(ws)>1 else ""}</span>' for x in ws)
   return '<figure class="comparison-work'+(' xts-wide' if wide else (' xts-penn-group' if n==739 and group=='cave-two' else ''))+'">'+photo(n,cap,'../',large=True,work=w,cropped=crop,group=group)+f'<figcaption>{links}</figcaption></figure>'
@@ -119,7 +122,7 @@ def build():
  body+='</div>'
  (base/'compare').mkdir(exist_ok=True);(base/'compare/index.html').write_text(shell('跨馆比较 · 响堂山石窟',body,1))
  integrate(d,hero,assets)
- print('Built Xiangtangshan: 24 attributed + 1 disputed; 27 pages; 45 assets accounted for; existing Penn luohan reused.')
+ print(f'Built Xiangtangshan: 24 attributed + 1 disputed; 27 pages; {len(assets)} assets accounted for; existing Penn luohan reused.')
 
 def integrate(d,hero,assets):
  """Update existing generated directories; repeated builds replace marked entries."""

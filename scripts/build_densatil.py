@@ -15,10 +15,18 @@ def build():
    links.append(f'<a id="{ref}" href="#source-{k}" aria-label="资料{numbers[k]}：{e(d["sources"][k][0])}">[{numbers[k]}]</a>')
   return '<sup class="ds-citations">'+''.join(links)+'</sup>' if links else ''
  def paragraphs(items):return ''.join('<p>'+e(p['text'])+cites(p['sources'])+'</p>' for p in items)
+ def figure(key,caption):
+  p=d['photos'][str(key)]
+  return f'<figure><a class="photo-open" href="{p.get("original_url") or asset_url("images/",p["photo"])}" data-caption="{e(caption)}" aria-label="放大：{e(caption)}">{picture(p,"images/",caption)}</a><figcaption>{e(caption)} · Merton摄</figcaption></figure>'
+ def views(w,i):
+  if not w.get('display_photos'):return f'<figure>{photo(w,eager=i==0)}<figcaption>{e(w["caption"])} · Merton参观照片</figcaption></figure>'
+  return '<div class="ds-revisit-pair">'+''.join(figure(x['photo'],x['caption']) for x in w['display_photos'])+'</div>'
+ def context(w):
+  return '<details class="ds-context"><summary>此前的展陈合照与展签</summary>'+''.join(figure(x['photo'],x['caption']) for x in w['context_photos'])+'</details>' if w.get('context_photos') else ''
  def founder(w):
   f=d['founder']
   if w['id']!=f['work']:return ''
-  return f'<aside class="ds-founder" aria-labelledby="founder-title"><h3 id="founder-title">{e(f["title"])}</h3><p class="ds-founder-name">{e(f["name"])}</p><p class="ds-record-note">{e(f["metadata"])}</p>{paragraphs(f["paragraphs"])}</aside>'
+  return f'<aside class="ds-founder" aria-labelledby="founder-title"><h3 id="founder-title">{e(f["title"])}</h3><p class="ds-founder-name">{e(f["name"])}</p><p class="ds-record-note">{e(f["metadata"])}</p>{figure(f["photo"],f["name"]+"像 · 1993.160") if f.get("photo") else ""}{paragraphs(f["paragraphs"])}{("<details><summary>肖像现场展签</summary>"+figure(f["label"],"帕木竹巴像现场展签 · 1993.160")+"</details>") if f.get("label") else ""}</aside>'
  def photo(w,label=False,eager=False):
   p=d['photos'][str(w['label' if label else 'photo'])];caption=w['title']+' · '+w['museum']+(' · 现场展签' if label else ' · '+w['caption'])
   return f'<a class="photo-open" href="{p.get("original_url") or asset_url("images/",p["photo"])}" data-caption="{e(caption)}" aria-label="放大：{e(caption)}">{picture(p,"images/",caption,eager)}</a>'
@@ -26,7 +34,7 @@ def build():
  # Start with the large relief, then the dancing deity, then architectural supports.
  for i,w in enumerate([d['works'][1],d['works'][2],d['works'][0]]+d['works'][3:]):
   facts=[('收藏',w['museum']),('编号',w['accession']),('年代',w['date']),('材料',w['medium']),('尺寸',w['dimensions'])]
-  body+=f'''<article class="ds-work" id="{w['id']}"><div class="ds-images"><figure>{photo(w,eager=i==0)}<figcaption>{e(w['caption'])} · Merton参观照片</figcaption></figure><details><summary>现场展签 <span>＋</span></summary><figure>{photo(w,True)}<figcaption>{e(w['title'])} · 现场展签</figcaption></figure></details>{founder(w)}</div><div class="ds-notes"><p class="eyebrow">{i+1:02d} / DENSATIL</p><h3>{e(w['title'])}</h3><p class="ds-original" lang="en">{e(w['original_title'])}</p><dl>{''.join('<div><dt>'+e(k)+'</dt><dd>'+e(v)+'</dd></div>' for k,v in facts)}</dl><p class="ds-attribution">{e(w['museum_attribution'])}</p>{paragraphs(w['notes'])}<p class="ds-record-note">{e(w['record_note'])}</p>{("<p><a href="+chr(34)+e(w["canonical_work"])+chr(34)+">完整作品资料与照片 →</a></p>") if w.get("canonical_work") else ""}<a class="text-link" href="#position-{w['id']}">原位与归属依据 ↓</a></div></article>'''
+  body+=f'''<article class="ds-work" id="{w['id']}"><div class="ds-images">{views(w,i)}<details><summary>现场展签 <span>＋</span></summary><figure>{photo(w,True)}<figcaption>{e(w['title'])} · 现场展签</figcaption></figure></details>{context(w)}{founder(w)}</div><div class="ds-notes"><p class="eyebrow">{i+1:02d} / DENSATIL</p><h3>{e(w['title'])}</h3><p class="ds-original" lang="en">{e(w['original_title'])}</p><dl>{''.join('<div><dt>'+e(k)+'</dt><dd>'+e(v)+'</dd></div>' for k,v in facts)}</dl><p class="ds-attribution">{e(w['museum_attribution'])}</p>{paragraphs(w['notes'])}<p class="ds-record-note">{e(w['record_note'])}</p>{("<p><a href="+chr(34)+e(w["canonical_work"])+chr(34)+">完整作品资料与照片 →</a></p>") if w.get("canonical_work") else ""}<a class="text-link" href="#position-{w['id']}">原位与归属依据 ↓</a></div></article>'''
  body+='</section><section class="wrap ds-section" id="history"><p class="eyebrow">MONASTERY / LINEAGE / RELIQUARIES</p><h2>寺院与吉祥多门塔</h2><div class="ds-history">'
  for h in d['history']:body+='<section><h3>'+e(h['title'])+'</h3>'+paragraphs(h['paragraphs'])+'</section>'
  body+='</div></section><section class="wrap ds-section" id="structure"><h2>一座塔中的六层世界</h2><p class="ds-measure">'+e(d['structure']['intro'])+'</p><div class="ds-tier-diagram" aria-label="六层结构示意，由上至下"><div class="ds-reliquary">上部舍利塔</div><ol>'

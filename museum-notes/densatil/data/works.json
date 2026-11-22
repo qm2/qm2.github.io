@@ -83,7 +83,7 @@
       "medium": "鎏金青铜；现场展签另注明半宝石",
       "dimensions": "馆方两件各列33.5 × 9.5 × 8厘米",
       "photo": 776,
-      "label": "supports-label",
+      "label": "revisit-support-label",
       "caption": "本条目为展柜左右两侧的一对承托柱；中央帕木竹巴像是同柜陈列的另一件作品。",
       "relationship": "馆方认定丹萨替来源与塔座承托功能；具体塔与层位未明",
       "museum_attribution": "馆方产地栏列丹萨替寺，并说明它们原属舍利塔的多层基座。",
@@ -118,7 +118,28 @@
           "estournel"
         ]
       },
-      "record_note": "官网断为15世纪，现场展签列1360—1430年。两根柱分别编号2011.144.1与2011.144.2，馆方另有组合记录2011.144。"
+      "record_note": "官网断为15世纪，现场展签列1360—1430年。两根柱分别编号2011.144.1与2011.144.2，馆方另有组合记录2011.144。",
+      "display_photos": [
+        {
+          "photo": "revisit-support-left",
+          "caption": "原展柜左侧承托柱：胸前手掌与层叠项饰，柱顶、莲座和宝瓶完整可见。"
+        },
+        {
+          "photo": "revisit-support-right",
+          "caption": "原展柜右侧承托柱：肩旁花饰、胸前嵌石与举臂承托的关系。"
+        }
+      ],
+      "previous_label": "supports-label",
+      "context_photos": [
+        {
+          "photo": 776,
+          "caption": "本条目为展柜左右两侧的一对承托柱；中央帕木竹巴像是同柜陈列的另一件作品。"
+        },
+        {
+          "photo": "supports-label",
+          "caption": "此前拍摄的一对承托柱展签"
+        }
+      ]
     },
     {
       "id": "palden-lhamo-carlos",
@@ -461,6 +482,131 @@
       "caption": "舞蹈女尊构件 · 现场展签",
       "remote_asset": "2432",
       "work": "sama-goddesses"
+    },
+    "revisit-support-left": {
+      "photo": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/23fef167459222e7105a0fab67b4cb0f-1280.webp",
+      "original_url": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/originals/23fef167459222e7105a0fab67b4cb0f.jpg",
+      "source_photo": "23fef167459222e7105a0fab67b4cb0f.jpg",
+      "width": 1280,
+      "height": 1707,
+      "variants": [
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/23fef167459222e7105a0fab67b4cb0f-400.webp",
+          "width": 400
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/23fef167459222e7105a0fab67b4cb0f-900.webp",
+          "width": 900
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/23fef167459222e7105a0fab67b4cb0f-1280.webp",
+          "width": 1280
+        }
+      ],
+      "sha256": "21595e50f070214065fb69edbd9278be4bd7ae59cf42620d9f25d6b945d6e00d",
+      "work": "supports-cleveland",
+      "source_batch": "cleveland-revisit-2026-11",
+      "rotation": 0
+    },
+    "revisit-support-right": {
+      "photo": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/67baaec40e8126cb5398518b14da0b68-1280.webp",
+      "original_url": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/originals/67baaec40e8126cb5398518b14da0b68.jpg",
+      "source_photo": "67baaec40e8126cb5398518b14da0b68.jpg",
+      "width": 1280,
+      "height": 1707,
+      "variants": [
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/67baaec40e8126cb5398518b14da0b68-400.webp",
+          "width": 400
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/67baaec40e8126cb5398518b14da0b68-900.webp",
+          "width": 900
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/67baaec40e8126cb5398518b14da0b68-1280.webp",
+          "width": 1280
+        }
+      ],
+      "sha256": "5c2dc76d03ea01d4e759393833d2055ebb3576c960d9401fbdde0bb160435ec4",
+      "work": "supports-cleveland",
+      "source_batch": "cleveland-revisit-2026-11",
+      "rotation": 0
+    },
+    "revisit-support-label": {
+      "photo": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/9113dfedc5569bf3d50f811bf2a066ff-1600.webp",
+      "original_url": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/originals/9113dfedc5569bf3d50f811bf2a066ff.jpg",
+      "source_photo": "9113dfedc5569bf3d50f811bf2a066ff.jpg",
+      "width": 1707,
+      "height": 1280,
+      "variants": [
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/9113dfedc5569bf3d50f811bf2a066ff-400.webp",
+          "width": 400
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/9113dfedc5569bf3d50f811bf2a066ff-900.webp",
+          "width": 900
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/9113dfedc5569bf3d50f811bf2a066ff-1600.webp",
+          "width": 1600
+        }
+      ],
+      "sha256": "7fa8ddde5f6fbe6beac99bbc3996c9788861a6eeaa0805aaae81206c89e309c6",
+      "work": "supports-cleveland",
+      "source_batch": "cleveland-revisit-2026-11",
+      "rotation": 0
+    },
+    "revisit-founder": {
+      "photo": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/2f0f6431f41c789b8eb1b0f12a00b2fa-1280.webp",
+      "original_url": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/originals/2f0f6431f41c789b8eb1b0f12a00b2fa.jpg",
+      "source_photo": "2f0f6431f41c789b8eb1b0f12a00b2fa.jpg",
+      "width": 1280,
+      "height": 1707,
+      "variants": [
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/2f0f6431f41c789b8eb1b0f12a00b2fa-400.webp",
+          "width": 400
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/2f0f6431f41c789b8eb1b0f12a00b2fa-900.webp",
+          "width": 900
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/2f0f6431f41c789b8eb1b0f12a00b2fa-1280.webp",
+          "width": 1280
+        }
+      ],
+      "sha256": "81665eb59eafd002ad3fd74dbd2a9ed7fe1bde2151addfddf4ae3688aa388dd4",
+      "work": "founder-cleveland",
+      "source_batch": "cleveland-revisit-2026-11",
+      "rotation": 0
+    },
+    "revisit-founder-label": {
+      "photo": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/d49199db67ab0386ef89315f9d967952-1600.webp",
+      "original_url": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/originals/d49199db67ab0386ef89315f9d967952.jpg",
+      "source_photo": "d49199db67ab0386ef89315f9d967952.jpg",
+      "width": 1707,
+      "height": 1280,
+      "variants": [
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/d49199db67ab0386ef89315f9d967952-400.webp",
+          "width": 400
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/d49199db67ab0386ef89315f9d967952-900.webp",
+          "width": 900
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/d49199db67ab0386ef89315f9d967952-1600.webp",
+          "width": 1600
+        }
+      ],
+      "sha256": "251d33e0348fb1ce9055700a56d15f7ea8e87a490a90516c27d2aad3228fd45e",
+      "work": "founder-cleveland",
+      "source_batch": "cleveland-revisit-2026-11",
+      "rotation": 0
     }
   },
   "founder": {
@@ -481,6 +627,8 @@
           "portrait"
         ]
       }
-    ]
+    ],
+    "photo": "revisit-founder",
+    "label": "revisit-founder-label"
   }
 }

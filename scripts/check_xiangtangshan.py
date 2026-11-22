@@ -8,7 +8,8 @@ ROOT=Path(__file__).resolve().parents[1];base=ROOT/'museum-notes/xiangtangshan'
 d=json.loads((base/'data/works.json').read_text());ws={w['id']:w for w in d['works']};a={x['number']:x for x in d['assets']}
 assert len(ws)==25 and Counter(w['scope'] for w in ws.values())=={'core_attributed':24,'disputed_related':1}
 assert Counter(w['group'] for w in ws.values())=={'NN':8,'NM':1,'NS':3,'S2':6,'S36':4,'unassigned':2,'related':1}
-assert len(a)==45 and len(d['excluded'])==1
+assert sum(not x.get('source_batch') for x in a.values())==45 and len(d['excluded'])==1
+assert len(a)==52 and len({x['number'] for x in d['assets']})==52
 expected_crops={
  'FSG-F1977.8':(.055,.130,.385,.730), 'FSG-F1953.86':(.510,.105,.450,.855),
  'FSG-F1953.87':(.045,.065,.465,.875), 'FSG-F1977.9':(.570,.150,.330,.710),
@@ -34,9 +35,11 @@ for w in ws.values():
  for n in set(w['photos']+w['labels']):assert w['id'] in a[n]['work_ids']
 for x in a.values():
  if 'web_path' in x:
-  assert (base/x['web_path']).is_file() and (base/x['thumbnail_path']).is_file()
+  if x.get('source_batch'):
+   assert x['web_path'].startswith('https://images.mertonmuseum.com/') and x['original_url'].endswith(x['original_filename'])
+  else:assert (base/x['web_path']).is_file() and (base/x['thumbnail_path']).is_file()
  else:assert x['number'] in (741,742)
- if len(sys.argv)>1:assert hashlib.sha256((Path(sys.argv[1])/x['organized_path']).read_bytes()).hexdigest()==x['sha256']
+ if len(sys.argv)>1 and not x.get('source_batch'):assert hashlib.sha256((Path(sys.argv[1])/x['organized_path']).read_bytes()).hexdigest()==x['sha256']
 class Links(HTMLParser):
  def handle_starttag(self,tag,attrs):
   for k,v in attrs:
@@ -50,5 +53,5 @@ class Links(HTMLParser):
 paths=list((ROOT/'museum-notes').rglob('*.html'))
 for path in paths:
  p=Links();p.path=path;p.feed(path.read_text())
-t=json.loads((ROOT/'museum-notes/buddhist-sculpture/data/topics.json').read_text());assert t['selected_count']==59 and t['related_count']==1
-print(f'PASS: 24+1 records, 45 photo mappings, shared identities, existing luohan reuse, 59+1 selected sculptures, {len(paths)} pages with valid local links.')
+t=json.loads((ROOT/'museum-notes/buddhist-sculpture/data/topics.json').read_text());assert t['selected_count']==len({n for topic in t['topics'] for n in topic['ids']})+24 and t['related_count']==1
+print(f'PASS: 24+1 records, 52 photo mappings (45 original + 7 revisit), shared identities, existing luohan reuse, shared topic counts, {len(paths)} pages with valid local links.')

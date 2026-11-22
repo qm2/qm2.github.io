@@ -328,14 +328,16 @@
       ],
       "note": "",
       "position": "",
-      "hero": 720,
+      "hero": 9001,
       "photos": [
+        9001,
         720
       ],
       "labels": [
+        9002,
         721
       ],
-      "label": 721,
+      "label": 9002,
       "museum": "克利夫兰艺术博物馆",
       "group": "NN"
     },
@@ -370,14 +372,17 @@
       ],
       "note": "",
       "position": "",
-      "hero": 722,
+      "hero": 9003,
       "photos": [
+        9003,
+        9004,
         722
       ],
       "labels": [
+        9005,
         724
       ],
-      "label": 724,
+      "label": 9005,
       "museum": "克利夫兰艺术博物馆",
       "group": "NS"
     },
@@ -412,14 +417,16 @@
       ],
       "note": "年代资料：现场展签写北齐（550—577）；克利夫兰现行网页进一步写为约550年。",
       "position": "",
-      "hero": 723,
+      "hero": 9006,
       "photos": [
+        9006,
         723
       ],
       "labels": [
+        9007,
         724
       ],
-      "label": 724,
+      "label": 9007,
       "museum": "克利夫兰艺术博物馆",
       "group": "S36"
     },
@@ -1463,7 +1470,8 @@
       "web_height": 1707,
       "thumbnail_path": "thumbs/720.jpg",
       "thumbnail_width": 450,
-      "thumbnail_height": 600
+      "thumbnail_height": 600,
+      "caption": "跪姿有翼兽 · 此前观看的照片"
     },
     {
       "number": 721,
@@ -1503,7 +1511,8 @@
       "web_height": 1707,
       "thumbnail_path": "thumbs/722.jpg",
       "thumbnail_width": 450,
-      "thumbnail_height": 600
+      "thumbnail_height": 600,
+      "caption": "巨型佛头像 · 此前观看的照片"
     },
     {
       "number": 723,
@@ -1523,7 +1532,8 @@
       "web_height": 1707,
       "thumbnail_path": "thumbs/723.jpg",
       "thumbnail_width": 450,
-      "thumbnail_height": 600
+      "thumbnail_height": 600,
+      "caption": "持舍利容器的迦叶立像 · 此前观看的照片"
     },
     {
       "number": 724,
@@ -2035,6 +2045,265 @@
       "thumbnail_path": "thumbs/748.jpg",
       "thumbnail_width": 450,
       "thumbnail_height": 600
+    },
+    {
+      "number": 9001,
+      "original_filename": "b512109e756103fd4b727bea4b0303cb.jpg",
+      "organized_path": "extra/b512109e756103fd4b727bea4b0303cb.jpg",
+      "role": "photo",
+      "work_ids": [
+        "CLE-1957.360"
+      ],
+      "same_subject_group": "",
+      "sha256": "d975f9e0111c4592a352a5ed3e3e45e846a15e2f265e944af25ddb1cf729cee1",
+      "width": 1280,
+      "height": 1707,
+      "notes": "跪姿有翼兽 · 重访正面",
+      "caption": "跪姿有翼兽 · 重访正面",
+      "web_path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/b512109e756103fd4b727bea4b0303cb-1280.webp",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/b512109e756103fd4b727bea4b0303cb-400.webp",
+      "thumbnail_width": 400,
+      "thumbnail_height": 533,
+      "original_url": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/originals/b512109e756103fd4b727bea4b0303cb.jpg",
+      "variants": [
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/b512109e756103fd4b727bea4b0303cb-400.webp",
+          "width": 400
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/b512109e756103fd4b727bea4b0303cb-900.webp",
+          "width": 900
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/b512109e756103fd4b727bea4b0303cb-1280.webp",
+          "width": 1280
+        }
+      ],
+      "source_batch": "cleveland-revisit-2026-11"
+    },
+    {
+      "number": 9002,
+      "original_filename": "41033d42df442e8f96dc31213f82d801.jpg",
+      "organized_path": "extra/41033d42df442e8f96dc31213f82d801.jpg",
+      "role": "label",
+      "work_ids": [
+        "CLE-1957.360"
+      ],
+      "same_subject_group": "",
+      "sha256": "90e96eab00852f23c8bdb822a4a16e4bd3301424fae46a5c0f30e6242507b605",
+      "width": 1280,
+      "height": 1707,
+      "notes": "跪姿有翼兽 · 现场展签",
+      "caption": "跪姿有翼兽 · 现场展签",
+      "web_path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/41033d42df442e8f96dc31213f82d801-1280.webp",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/41033d42df442e8f96dc31213f82d801-400.webp",
+      "thumbnail_width": 400,
+      "thumbnail_height": 533,
+      "original_url": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/originals/41033d42df442e8f96dc31213f82d801.jpg",
+      "variants": [
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/41033d42df442e8f96dc31213f82d801-400.webp",
+          "width": 400
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/41033d42df442e8f96dc31213f82d801-900.webp",
+          "width": 900
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/41033d42df442e8f96dc31213f82d801-1280.webp",
+          "width": 1280
+        }
+      ],
+      "source_batch": "cleveland-revisit-2026-11"
+    },
+    {
+      "number": 9003,
+      "original_filename": "31466dec7022e4de4918e7ea576bb42b.jpg",
+      "organized_path": "extra/31466dec7022e4de4918e7ea576bb42b.jpg",
+      "role": "photo",
+      "work_ids": [
+        "CLE-1923.97"
+      ],
+      "same_subject_group": "",
+      "sha256": "4027b79af8a03edef7d22ca3543e96dacc617a8ef4cbc051939fbe6aad03cb3c",
+      "width": 1280,
+      "height": 1707,
+      "notes": "巨型佛头像 · 重访正面",
+      "caption": "巨型佛头像 · 重访正面",
+      "web_path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/31466dec7022e4de4918e7ea576bb42b-1280.webp",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/31466dec7022e4de4918e7ea576bb42b-400.webp",
+      "thumbnail_width": 400,
+      "thumbnail_height": 533,
+      "original_url": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/originals/31466dec7022e4de4918e7ea576bb42b.jpg",
+      "variants": [
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/31466dec7022e4de4918e7ea576bb42b-400.webp",
+          "width": 400
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/31466dec7022e4de4918e7ea576bb42b-900.webp",
+          "width": 900
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/31466dec7022e4de4918e7ea576bb42b-1280.webp",
+          "width": 1280
+        }
+      ],
+      "source_batch": "cleveland-revisit-2026-11"
+    },
+    {
+      "number": 9004,
+      "original_filename": "9f52cf95f2ad44eacc9e15e37cebd567.jpg",
+      "organized_path": "extra/9f52cf95f2ad44eacc9e15e37cebd567.jpg",
+      "role": "photo",
+      "work_ids": [
+        "CLE-1923.97"
+      ],
+      "same_subject_group": "",
+      "sha256": "f6b8e611d13e332cf381b5620cac4511e980fc6975ad721c783727f9c8447d59",
+      "width": 1280,
+      "height": 1707,
+      "notes": "佛头像侧面：耳部、面颊与下颌",
+      "caption": "佛头像侧面：耳部、面颊与下颌",
+      "web_path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/9f52cf95f2ad44eacc9e15e37cebd567-1280.webp",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/9f52cf95f2ad44eacc9e15e37cebd567-400.webp",
+      "thumbnail_width": 400,
+      "thumbnail_height": 533,
+      "original_url": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/originals/9f52cf95f2ad44eacc9e15e37cebd567.jpg",
+      "variants": [
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/9f52cf95f2ad44eacc9e15e37cebd567-400.webp",
+          "width": 400
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/9f52cf95f2ad44eacc9e15e37cebd567-900.webp",
+          "width": 900
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/9f52cf95f2ad44eacc9e15e37cebd567-1280.webp",
+          "width": 1280
+        }
+      ],
+      "source_batch": "cleveland-revisit-2026-11"
+    },
+    {
+      "number": 9005,
+      "original_filename": "1bcbf7cbf7f67c330aeaf8c18b13728f.jpg",
+      "organized_path": "extra/1bcbf7cbf7f67c330aeaf8c18b13728f.jpg",
+      "role": "label",
+      "work_ids": [
+        "CLE-1923.97"
+      ],
+      "same_subject_group": "",
+      "sha256": "16d2b6da0c2195f789f8ed8672027251a90dce018e3c3d3a775bafa586b32bcc",
+      "width": 960,
+      "height": 1280,
+      "notes": "佛头像 · 现场展签",
+      "caption": "佛头像 · 现场展签",
+      "web_path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/1bcbf7cbf7f67c330aeaf8c18b13728f-960.webp",
+      "web_width": 960,
+      "web_height": 1280,
+      "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/1bcbf7cbf7f67c330aeaf8c18b13728f-400.webp",
+      "thumbnail_width": 400,
+      "thumbnail_height": 533,
+      "original_url": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/originals/1bcbf7cbf7f67c330aeaf8c18b13728f.jpg",
+      "variants": [
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/1bcbf7cbf7f67c330aeaf8c18b13728f-400.webp",
+          "width": 400
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/1bcbf7cbf7f67c330aeaf8c18b13728f-900.webp",
+          "width": 900
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/1bcbf7cbf7f67c330aeaf8c18b13728f-960.webp",
+          "width": 960
+        }
+      ],
+      "source_batch": "cleveland-revisit-2026-11"
+    },
+    {
+      "number": 9006,
+      "original_filename": "2d3e46bd143987f52690e0cf7e443be2.jpg",
+      "organized_path": "extra/2d3e46bd143987f52690e0cf7e443be2.jpg",
+      "role": "photo",
+      "work_ids": [
+        "CLE-1972.166"
+      ],
+      "same_subject_group": "",
+      "sha256": "bfef830fd8240b496500eaa44cfe6e774ab3bfb067cb1cd6989726e1a9cf2761",
+      "width": 1280,
+      "height": 1707,
+      "notes": "迦叶立像 · 重访全貌，保留头光与双足",
+      "caption": "迦叶立像 · 重访全貌，保留头光与双足",
+      "web_path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/2d3e46bd143987f52690e0cf7e443be2-1280.webp",
+      "web_width": 1280,
+      "web_height": 1707,
+      "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/2d3e46bd143987f52690e0cf7e443be2-400.webp",
+      "thumbnail_width": 400,
+      "thumbnail_height": 533,
+      "original_url": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/originals/2d3e46bd143987f52690e0cf7e443be2.jpg",
+      "variants": [
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/2d3e46bd143987f52690e0cf7e443be2-400.webp",
+          "width": 400
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/2d3e46bd143987f52690e0cf7e443be2-900.webp",
+          "width": 900
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/2d3e46bd143987f52690e0cf7e443be2-1280.webp",
+          "width": 1280
+        }
+      ],
+      "source_batch": "cleveland-revisit-2026-11"
+    },
+    {
+      "number": 9007,
+      "original_filename": "c1e0b22c8bb6fe1cac47c19869392dfa.jpg",
+      "organized_path": "extra/c1e0b22c8bb6fe1cac47c19869392dfa.jpg",
+      "role": "label",
+      "work_ids": [
+        "CLE-1972.166"
+      ],
+      "same_subject_group": "",
+      "sha256": "16b8ba58b0312b48023226e3c4e1ea9c264566deb75be339a4459d0079408c55",
+      "width": 960,
+      "height": 1280,
+      "notes": "迦叶立像 · 现场展签（下段）",
+      "caption": "迦叶立像 · 现场展签（下段）",
+      "web_path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/c1e0b22c8bb6fe1cac47c19869392dfa-960.webp",
+      "web_width": 960,
+      "web_height": 1280,
+      "thumbnail_path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/c1e0b22c8bb6fe1cac47c19869392dfa-400.webp",
+      "thumbnail_width": 400,
+      "thumbnail_height": 533,
+      "original_url": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/originals/c1e0b22c8bb6fe1cac47c19869392dfa.jpg",
+      "variants": [
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/c1e0b22c8bb6fe1cac47c19869392dfa-400.webp",
+          "width": 400
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/c1e0b22c8bb6fe1cac47c19869392dfa-900.webp",
+          "width": 900
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/cleveland-revisit-2026-11/previews/c1e0b22c8bb6fe1cac47c19869392dfa-960.webp",
+          "width": 960
+        }
+      ],
+      "source_batch": "cleveland-revisit-2026-11"
     }
   ],
   "source_archive": "xiangtangshan-organized.zip",

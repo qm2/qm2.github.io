@@ -70,3 +70,7 @@ python3 scripts/check_xiangtangshan_browser.py
 ```
 
 This checks all 27 topic pages at 360 and 1440 pixels, rendered crop geometry at both sizes, all eight lightbox targets, zoom/full-view switches, keyboard and focus, shared-label views, museum/cave/search filters, empty/reset behavior, cover isolation, no-JavaScript reading, and five other gallery lightboxes. Screenshots of all eight actual hero crops, the raised-hand figure in the mobile lightbox, the home cards and comparison groups were visually inspected. The main build is also checked for repeatability and the 45-file original intake for unchanged hashes.
+
+## Cleveland revisit photographs (2026-11-22 integration)
+
+Three Cleveland records now use new complete photographs, including front and side views of 1923.97, plus three new photographed labels. Original 45 assets remain; the seven additions (internal IDs 9001–9007) bring the photo mapping to 52 without changing the 24+1 works. CDN URLs and responsive variants use the same crop-aware viewer; prior local images and group crops are unchanged. Existing front views remain in the supplementary gallery, and old labels remain available. See `../../docs/cleveland-revisit/README.md`.
