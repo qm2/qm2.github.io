@@ -3,6 +3,7 @@ from pathlib import Path
 from html import escape as e
 import json,re,hashlib
 from build_homer import LIGHTBOX
+from pala_context import context
 ROOT=Path(__file__).resolve().parents[1]
 BASE=ROOT/'museum-notes/pala-stone'
 URL='/museum-notes/pala-stone/'
@@ -22,7 +23,7 @@ def resolve():
     return result
 
 def build():
-    works=resolve();by={w['id']:w for w in works};media=load('media');sources=load('sources');museums=load('museums');mb={m['museum_id']:m for m in museums};readings=load('readings');stories=load('stories');chapters=load('chapters')
+    works=resolve();by={w['id']:w for w in works};media=load('media');sources=load('sources');museums=load('museums');mb={m['museum_id']:m for m in museums};readings=load('readings');stories=load('stories');chapters=load('chapters');details=load('details')
     revision=hashlib.sha256(b''.join(p.read_bytes() for p in sorted((BASE/'data').glob('*.json')) if p.name!='atlas-index.json')+(BASE/'pala.js').read_bytes()+(BASE/'pala.css').read_bytes()).hexdigest()[:10]
     def href(w):return URL+(w if isinstance(w,str) else w['id'])+'/'
     def image(n,alt,eager=False,small=False):
@@ -31,6 +32,16 @@ def build():
     def fig(w,n=None,cap=None,eager=False):
         n=n or w['photo'];cap=cap or w['title']+' · '+w['date'];txt=cap+'｜Merton摄于'+mb[w['viewing_museum_id']]['label_zh']
         return f'<figure class="ps-figure"><a data-photo href="{media[str(n)]["original_url"]}" data-caption="{e(txt)}">{image(n,txt,eager)}</a><figcaption>{e(txt)}</figcaption></figure>'
+    def detail_fig(d):
+        v=d['variants'];cap=d['caption']+' 原片局部 · Merton摄';full=media[str(d['photo'])]['original_url']
+        return f'<figure class="ps-detail"><a data-photo href="{v[-1]["url"]}" data-caption="{e(cap)}"><img src="{v[0]["url"]}" srcset="'+', '.join(f'{i["url"]} {i["width"]}w' for i in v)+f'" sizes="(max-width:650px) 88vw, 350px" width="{d["width"]}" height="{d["height"]}" loading="lazy" alt="{e(cap)}"></a><figcaption>{e(cap)} <a data-photo href="{full}" data-caption="{e(by[d["work"]]["title"])} · 完整原片">查看完整原片</a></figcaption></figure>'
+    def md(raw):
+        result=''
+        for paragraph in raw.split('\n\n'):
+            if not paragraph.strip() or paragraph.startswith('# '):continue
+            if paragraph.startswith('## '):result+='<h2>'+e(paragraph[3:])+'</h2>'
+            else:result+='<p>'+inline(paragraph.strip())+'</p>'
+        return result
     def card(w):
         return f'<a class="ps-card" href="{href(w)}">{image(w["photo"],w["title"]+" · "+w["date"],small=True)}<h3>{e(w["title"])}</h3><p>{e(w["date"])}</p><small>亲见：{e(mb[w["viewing_museum_id"]]["label_zh"])}</small></a>'
     def grid(ids):return '<div class="ps-grid">'+''.join(card(by[i]) for i in dict.fromkeys(ids))+'</div>'
@@ -45,18 +56,19 @@ def build():
         return '<details class="ps-notes"><summary>资料与来源</summary><ul>'+''.join(f'<li><a href="{e(source_link(k))}">{e(sources[k]["title"])}</a> · <a href="{URL}sources/#{k}">查阅说明</a></li>' for k in dict.fromkeys(keys))+'</ul></details>'
     def heading(t,deck=''):
         return f'<header class="ps-heading"><p class="eyebrow">PALA STONE SCULPTURE · A MUSEUM NOTEBOOK</p><h1>{e(t)}</h1>'+ (f'<p class="ps-deck">{e(deck)}</p>' if deck else '')+'</header>'
-    def shell(t,b,slug='',cover=3294):
-        nav=[('',TITLE),('atlas/','博物馆地图'),('stories/','神的故事'),('guide/','历史与观看'),('compare/','放在一起看')]
+    def shell(t,b,slug='',cover=3300):
+        nav=[('',TITLE),('atlas/','博物馆地图'),('stories/','神的故事'),('guide/','历史与观看'),('compare/','放在一起看'),('journeys/','黑石的远行')]
         canonical='https://qm2.github.io'+URL+(slug+'/' if slug else '')
         return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(t)} | 博物馆札记 · Merton</title><meta name="description" content="从佛的一生到众神的故事，沿24件亲见石像、48张现场照片，认识东印度的帕拉艺术。"><link rel="canonical" href="{canonical}"><meta property="og:title" content="{e(t)}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="{media[str(cover)]['variants'][-1]['url']}"><link rel="stylesheet" href="/museum-notes/museum.css"><link rel="stylesheet" href="/museum-notes/caravaggio/caravaggio.css"><link rel="stylesheet" href="{URL}pala.css?v={revision}"><script src="/museum-notes/caravaggio/caravaggio.js" defer></script><script src="{URL}pala.js?v={revision}" defer></script></head><body class="ps-page" id="top"><a class="skip-link" href="#main">跳至正文</a><header class="site-header"><a class="signature" href="/museum-notes/">Merton</a><nav aria-label="专题导航">'''+''.join(f'<a href="{URL}{u}"'+(' aria-current="page"' if u.rstrip('/')==slug else '')+f'>{n}</a>' for u,n in nav)+f'''</nav></header><main class="wrap" id="main"><nav class="breadcrumbs"><a href="/museum-notes/">博物馆札记</a><span>/</span><a href="/museum-notes/south-asian-art/">南亚艺术</a><span>/</span><a href="{URL}">{TITLE}</a></nav>{b}</main><footer class="site-footer wrap"><a href="{URL}">返回专题</a><a href="{URL}sources/">资料与来源</a><a href="/museum-notes/himalayan-art/">喜马拉雅艺术</a><a href="#top">回到顶部</a></footer>{LIGHTBOX}</body></html>'''
-    def write(slug,t,b,cover=3294):
+    def write(slug,t,b,cover=3300):
         p=BASE/slug;p.mkdir(exist_ok=True,parents=True);(p/'index.html').write_text(shell(t,b,slug,cover))
     def mapbox(compact=False):
         return '''<div class="ps-map-box" data-map-box hidden><div class="ps-map-tools" aria-label="地图范围"><button type="button" data-map="mainland" aria-pressed="true">美国本土</button><button type="button" data-map="east" aria-pressed="false">东部放大</button><button type="button" data-map="hawaii" aria-pressed="false">夏威夷</button></div><svg id="ps-map" viewBox="0 0 1000 470" role="group" aria-label="亲见博物馆分布，使用Tab键选择馆址"></svg><p class="ps-caption">地图标记实际观看的博物馆，包括借展；不是作品产地。底图：<a href="https://www.naturalearthdata.com/">Natural Earth</a>，公有领域。圆点数字为作品数；标“馆”的聚合点可点击放大。夏威夷可切换查看。</p><div id="ps-map-selection" aria-live="polite"></div></div>'''
     museum_buttons='<div class="ps-museum-buttons">'+''.join(f'<a href="{URL}atlas/?museum={m["museum_id"]}#catalogue">{e(m["city"])} · {sum(w["viewing_museum_id"]==m["museum_id"] for w in works)}件</a>' for m in museums)+'</div>'
     # Quiet opening, then a real museum map and five short narrative chapters.
     core_count=sum(w['group']=='core' for w in works);counts=f'{core_count}件核心作品 · {len(works)-core_count}件前史与相关作品 · {len(media)}张现场照片'
-    hero=by['p3294'];b='<section class="ps-hero"><div>'+heading(TITLE,'佛陀、众神与东印度的故事')+'<div class="ps-prose"><p>一只指向地面的手，一头托起大地的野猪，一个跪在佛座下的人。石像看起来安静，背后却有成道、冒险、战斗，也有普通人的愿望。</p><p>这辑从博物馆里亲见的作品出发，把帕拉时期的佛教与印度教造像放在一起看：先认识身体与姿态，再走进它们的故事。</p></div><p class="ps-caption">20件核心作品 · 4件前史与相关作品 · 48张现场照片</p><nav class="ps-localnav"><a href="#chapters">从五条线索进入</a><a href="stories/">先认识众神</a></nav></div>'+fig(hero,eager=True)+'</section>'
+    hero=by['w1698'];b='<section class="ps-hero"><div>'+heading(TITLE,'佛陀、众神与东印度的故事')+'<div class="ps-prose"><p>一只指向地面的手，一头托起大地的野猪，一个跪在佛座下的人。石像看起来安静，背后却有成道、冒险、战斗，也有普通人的愿望。</p><p>这辑从博物馆里亲见的作品出发，把帕拉时期的佛教与印度教造像放在一起看：先认识身体与姿态，再走进它们的故事。</p></div><p class="ps-caption">20件核心作品 · 4件前史与相关作品 · 48张现场照片</p><nav class="ps-localnav"><a href="#chapters">从五条线索进入</a><a href="stories/">先认识众神</a></nav></div>'+fig(hero,eager=True)+'</section>'
+    b+='<section class="ps-section"><div class="ps-prose"><h2>柔软、庄严与力量</h2><p>观音低首伸手，毗湿奴正面而立，难近母的手臂向四周展开。三种身体，三种回应世界的方式；相近的黑石，在它们身上呈现出不同的温度。</p></div><div class="ps-comparison">'+''.join('<div>'+fig(by[k])+f'<p><a href="{href(k)}">{e(by[k]["title"])} · 进入细读 →</a></p></div>' for k in ['p3294','p3280'])+'</div><nav class="ps-localnav"><a href="guide/#homeland">恒河两岸：历史地图</a><a href="guide/#timeline">沿年代重看</a><a href="journeys/">黑石的远行：收藏史</a></nav></section>'
     b+=f'<section class="ps-section" id="map"><div class="ps-section-heading"><div><p class="eyebrow">WHERE I SAW THEM</p><h2>在{len(museums)}家博物馆相遇</h2></div><a href="atlas/">完整图录与筛选 →</a></div>'+mapbox(True)+museum_buttons+'</section>'
     b+='<section id="chapters" class="ps-section"><p class="eyebrow">FIVE WAYS OF LOOKING</p><h2>从一个动作，走进一个故事</h2>'
     chapter_copy={
@@ -67,24 +79,28 @@ def build():
       'people':'有的石像保留供养人的名字，有的留下石匠的署名。把目光从佛脸移向台座，便能遇见制作、赠献和礼拜的人；戴冠佛首的近代经历，则把另一段历史带到眼前。'}
     for i,ch in enumerate(chapters):
         w=by[ch['cover']];b+=f'<article class="ps-chapter" id="{ch["id"]}"><div class="ps-feature">'+fig(w)+f'<div class="ps-prose"><p class="eyebrow">0{i+1}</p><h2>{e(ch["title"])}</h2><p>{e(chapter_copy[ch["id"]])}</p><p><a href="{href(w)}">细看：{e(w["title"])} →</a></p></div></div>'+grid([k for k in ch['works'] if k!=ch['cover']])+'</article>'
-    b+='</section><section class="ps-section ps-paths"><div><h2>这些石像的家乡</h2><p>比哈尔、孟加拉、那烂陀：把展签上的地名放回寺院、神庙与旅行者的世界。</p><a href="guide/">历史与观看 →</a></div><div><h2>换一件，继续看</h2><p>比较降魔的手势、迦楼罗的身体，以及供养人与石匠留下的名字。</p><a href="compare/">四组并看 →</a></div></section>'
+    b+='</section><section class="ps-section ps-paths"><div><h2>这些石像的家乡</h2><p>比哈尔、孟加拉、那烂陀：把展签上的地名放回寺院、神庙与旅行者的世界。</p><a href="guide/">历史与观看 →</a></div><div><h2>换一件，继续看</h2><p>比较降魔的手势、迦楼罗的身体，以及供养人与石匠留下的名字。</p><a href="compare/">六组并看 →</a></div></section>'
     write('',TITLE,b)
     # One thematic page per canonical work, no duplicate object identity.
     for i,w in enumerate(works):
         r=readings[w['id']];b=heading(w['title'],w['title_en'])+f'<p class="ps-meta">{e(w["date"])} · {e(w["region"])}</p><div class="ps-full">'+fig(w,eager=True)+'</div><article class="ps-prose"><p class="ps-lead">'+inline(r['lead'])+'</p>'
-        for section in r['sections']:
+        for si,section in enumerate(r['sections']):
             b+='<section><h2>'+e(section['title'])+'</h2>'+''.join('<p>'+inline(p)+'</p>' for p in section['paragraphs'])+'</section>'
-        b+='<p class="ps-memory">再看时记住：'+e(r['remember'])+'</p></article>'
+            matched=[d for d in details if d['work']==w['id'] and d['after_section']==si]
+            if matched:b+='<div class="ps-detail-row">'+''.join(detail_fig(d) for d in matched)+'</div>'
+        b+='</article>'
         linked=[s for s in stories if w['id'] in s['works']]
         if linked:b+='<aside class="ps-prose ps-story-links"><p>认识这个故事：'+' · '.join(f'<a href="{URL}stories/#{s["id"]}">{e(s["title"])}</a>' for s in linked)+'</p></aside>'
         fields=[('年代',w['date']),('地域',w['region']),('材料',w['medium']),('收藏',w['collection']),('馆藏号',w.get('accession') or '未公布／待核'),('亲见地点',mb[w['viewing_museum_id']]['label_zh'])]
         if w.get('dimensions'):fields.append(('尺寸',w['dimensions']))
         if w.get('viewing_context') or w['id']=='w1476':fields.append(('观看场合',w.get('viewing_context','Living with the Gods')))
         b+='<details id="record" class="ps-notes"><summary>作品资料与现场展签</summary><dl class="ps-facts">'+''.join(f'<div><dt>{k}</dt><dd>{e(v)}</dd></div>' for k,v in fields)+'</dl>'
+        if r.get('notes'):b+=''.join('<p class="ps-caption">'+e(n)+'</p>' for n in r['notes'])
         if w.get('notes'):b+=''.join('<p class="ps-caption">'+e(n)+'</p>' for n in w['notes'])
         b+=fig(w,w['label'],'现场展签')+'</details>'
         keys=w['source_ids']+re.findall(r'\[\[([A-Z0-9-]+)\]\]',json.dumps(r,ensure_ascii=False));b+=refs(keys)
         if w.get('canonical_url'):b+='<p class="ps-prose ps-caption">同一件作品也收在<a href="'+w['canonical_url']+'">喜马拉雅艺术作品档案</a>；这里从新照片继续看东印度的故事。</p>'
+        b+='<nav class="ps-localnav"><a href="'+URL+'guide/#homeland">历史地图</a><a href="'+URL+'guide/#timeline">年代与作品</a><a href="'+URL+'journeys/">收藏史</a></nav>'
         b+='<section class="ps-section"><h2>放在一起看</h2>'+grid(r['related'])+'</section><nav class="ps-sequence" aria-label="前后作品">'
         if i:b+=f'<a href="{href(works[i-1])}">← {e(works[i-1]["title"])}</a>'
         b+=f'<a href="{URL}atlas/?museum={w["viewing_museum_id"]}#catalogue">回到观看馆</a>'
@@ -95,17 +111,18 @@ def build():
     for s in stories:
         b+=f'<section class="ps-section" id="{s["id"]}"><div class="ps-feature">'+fig(by[s['works'][0]])+'<div class="ps-prose"><h2>'+e(s['title'])+'</h2><p class="ps-caption">'+e(s['name'])+'</p><p class="ps-memory">'+e(s['memory'])+'</p><p>'+e(s['text'])+'</p><p>'+e(s['look'])+'</p>'+refs(s['sources'])+'</div></div>'+grid(s['works'][1:])+f'<p><a href="{href(s["works"][0])}">细看这件作品 →</a></p></section>'
     write('stories','神的故事',b,3280)
-    raw=(BASE/'content/guide.md').read_text();b=heading('历史与观看','比哈尔、孟加拉与帕拉时期的众神')+'<article class="ps-prose">'
-    for paragraph in raw.split('\n\n'):
-        if paragraph.startswith('# '):continue
-        if paragraph.startswith('## '):b+='<h2>'+e(paragraph[3:])+'</h2>'
-        else:b+='<p>'+inline(paragraph.strip())+'</p>'
-    b+='</article><section class="ps-section"><h2>带着这些问题回到作品</h2>'+grid(['p3266','p3308','p3296','p3306'])+'</section><p class="ps-prose"><a href="/museum-notes/himalayan-art/regions/#east-india">继续读：东印度与喜马拉雅艺术</a></p>'+refs(re.findall(r'\[\[([A-Z0-9-]+)\]\]',raw))
-    write('guide','历史与观看',b,3308)
-    pairs=[('life','一生怎样放进一块石头',['p3266','sama-08'],'先找中央触地印佛，再从两侧的小龛辨认出生、说法等时刻。两件都围绕成道组织佛传，但周边场景的空间和主像比例并不完全相同。','L3267'),('garuda','迦楼罗：从坐骑到独立的守护形象',['p3288','p3296','p3310'],'克利夫兰的早期像以扇形尾羽托住毗湿奴；华盛顿像单独跪坐合掌；沃尔特斯像又把主神、两位女神和坐骑组织成一座小小的神龛。留意头、翼与腿，不只看“是不是鸟”。','O3288'),('buddha','同一只触地的手，不同的身体',['w1488','w1579','w1649'],'三件都以右手触地、左掌置于腹前表现成道。比较肩胸的宽度、两膝形成的横线，以及背光和小像占去多少空间；这些差别使同一故事各有面貌。','O3286'),('names','是谁把这件像留了下来',['p3308','w1508'],'沃尔特斯小碑留下供养人Pingalāyana，大都会说法佛留下石匠Vijaka。一个名字连接赠献，一个连接制作；再看台座，佛像周围的小人和文字便有了分量。','O3308')]
+    raw=(BASE/'content/guide.md').read_text()
+    b=heading('历史与观看','比哈尔、孟加拉与帕拉时期的众神')+'<nav class="ps-localnav"><a href="#homeland">历史地理</a><a href="#timeline">年代与作品</a><a href="#history-text">进入历史</a><a href="../journeys/">黑石的远行</a></nav>'+context(BASE,works,grid,inline)+'<article id="history-text" class="ps-prose">'+md(raw)+'</article>'
+    b+='<section class="ps-section"><h2>回到作品</h2>'+grid(['p3266','p3308','p3296','p3306'])+'</section><p class="ps-prose"><a href="/museum-notes/himalayan-art/regions/#east-india">东印度与喜马拉雅艺术 →</a></p>'+refs(re.findall(r'\[\[([A-Z0-9-]+)\]\]',raw))
+    write('guide','历史与观看',b,3300)
+    raw=(BASE/'content/journeys.md').read_text();b=heading('黑石的远行','从恒河寺院到美国博物馆')+'<article class="ps-prose">'+md(raw)+'</article><section class="ps-section"><h2>三条有记录的收藏经历</h2><p class="ps-caption">按文献节点排列，不表示完整流传链或实际运输路线。</p>'
+    for route in load('provenance-routes'):
+        w=by[route['work']];b+='<div class="ps-feature">'+fig(w)+'<div class="ps-prose"><h3><a href="'+href(w)+'">'+e(w['title'])+'</a></h3><ol class="ps-route">'+''.join('<li><strong>'+e(date)+'</strong><span>'+e(text)+'</span></li>' for date,text in route['events'])+'</ol><p>'+inline('馆方收藏记录'+f'[[{route["source"]}]]')+'</p></div></div>'
+    b+='</section>'+refs(re.findall(r'\[\[([A-Z0-9-]+)\]\]',raw));write('journeys','黑石的远行',b,3284)
+    pairs=[(p['id'],p['title'],p['works'],p['text'],p['source']) for p in load('comparisons')]
     b=heading('放在一起看','同一动作、不同身体；同一信仰、不同的参与者')+'<p class="ps-caption">照片按阅读需要缩放，不表示实物等大。点击可放大现场全图。</p><nav class="ps-localnav">'+''.join(f'<a href="#{pid}">{e(t)}</a>' for pid,t,_,_,_ in pairs)+'</nav>'
     for pid,t,ids,text,key in pairs:
-        b+=f'<section id="{pid}" class="ps-section"><h2>{e(t)}</h2><div class="ps-comparison">'+''.join('<div>'+fig(by[i])+f'<p><a href="{href(i)}">{e(by[i]["title"])} · 进入细读</a></p></div>' for i in ids)+'</div><p class="ps-prose">'+inline(text+f'[[{key}]]')+'</p></section>'
+        b+=f'<section id="{pid}" class="ps-section"><h2>{e(t)}</h2><div class="ps-comparison">'+''.join('<div>'+fig(by[i])+f'<p><a href="{href(i)}">{e(by[i]["title"])} · 进入细读</a></p></div>' for i in ids)+'</div><p class="ps-prose">'+inline(text+f'[[{key}]]')+'</p>'+('<div class="ps-detail-row">'+''.join(detail_fig(d) for d in details if d['id'] in next(p['details'] for p in load('comparisons') if p['id']==pid))+'</div>')+'</section>'
     write('compare','放在一起看',b,3288)
     # Atlas: accessible static catalogue first, map and linked filters enhance it.
     b=heading('所见地图与图录',f'{len(works)}件作品 · {len(museums)}家观看博物馆 · {len(media)}张现场照片')+'<p class="ps-prose">地图留下看见它们的地方。四件休斯顿借展作品的收藏方另列在作品资料中；两件更早的造像与两件相关作品，也保留各自的年代和归属。</p>'
@@ -119,8 +136,9 @@ def build():
     write('sources','资料与来源',b)
     # Stable parent entrances, regenerated after parent builders.
     p=ROOT/'museum-notes/south-asian-art/index.html';s=p.read_text();s=re.sub(r'<!-- pala-stone -->.*?<!-- /pala-stone -->','',s,flags=re.S)
-    entry='<section><a class="issue-link" href="../pala-stone/">'+image(3294,'毗湿奴与诸化身',small=True)+'<div><p class="eyebrow">STONE · BUDDHIST & HINDU ART</p><h2>帕拉黑石造像</h2><p>从佛的一生到众神的故事，沿'+str(len(works))+'件亲见石像，认识东印度的寺院、神庙与供养者。</p><p>'+str(len(chapters))+'条阅读线索 · '+str(len(museums))+'家博物馆 · 地图与完整图录</p><span class="text-link">进入专题 →</span></div></a></section>'
-    s=s.replace('</main>','<!-- pala-stone -->'+entry+'<!-- /pala-stone --></main>');p.write_text(s)
+    entry='<a class="issue-link" href="../pala-stone/">'+image(3300,'空行观音',small=True).replace('<img ', '<img style="object-fit:contain" ')+'<div><p class="eyebrow">STONE · BUDDHIST & HINDU ART</p><h2>帕拉黑石造像</h2><p>从佛的一生到众神的故事，沿'+str(len(works))+'件亲见石像，认识东印度的寺院、神庙与供养者。</p><p class="issue-meta">'+str(len(chapters))+'条阅读线索 · '+str(len(museums))+'家博物馆 · 地图与完整图录</p><span class="text-link">进入专题 →</span></div></a>'
+    assert '</section></main>' in s
+    s=s.replace('</section></main>','<!-- pala-stone -->'+entry+'<!-- /pala-stone --></section></main>');p.write_text(s)
     p=ROOT/'museum-notes/index.html';s=p.read_text();s=re.sub(r'<!-- pala-stone-home -->.*?<!-- /pala-stone-home -->','',s,flags=re.S);s=s.replace('<!-- /khajuraho-home -->','<!-- /khajuraho-home --><!-- pala-stone-home --><p class="featured-note"><a href="pala-stone/">新辑：帕拉黑石造像｜佛陀、众神与东印度的故事</a></p><!-- /pala-stone-home -->');p.write_text(s)
     print(f'Pala stone: {len(works)} works, {len(media)} photographs, {len(museums)} viewing museums; {sum(bool(w.get("canonical_ref")) for w in works)} shared authority records.')
 if __name__=='__main__':build()

@@ -1,0 +1,398 @@
+[
+  {
+    "id": "3300-upper",
+    "photo": 3300,
+    "box": [
+      0.3,
+      0.005,
+      0.83,
+      0.48
+    ],
+    "work": "w1698",
+    "after_section": 0,
+    "caption": "冠饰、低垂的面容与胸前珠链。平滑的胸腹衬出细密刻线。",
+    "source_sha256": "4bfb717abe16921f906e95c7c5cba181c1d0417353ba557a74092e7a7ddff66a",
+    "pixel_box": [
+      384,
+      9,
+      1062,
+      819
+    ],
+    "width": 678,
+    "height": 810,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/pala-stone/images/details/3300-upper-360.webp",
+        "width": 360,
+        "height": 430,
+        "sha256": "7c61c01527a9383ce59ba65f6a5fefd631aed21d608687c1e805932f87c736df"
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/pala-stone/images/details/3300-upper-678.webp",
+        "width": 678,
+        "height": 810,
+        "sha256": "4c0b78315a2de6b2ef7bf9a2cfa5231280f37cd28d6e34d78bba283a662c5e5d"
+      }
+    ]
+  },
+  {
+    "id": "3300-hand",
+    "photo": 3300,
+    "box": [
+      0.13,
+      0.4,
+      0.59,
+      0.94
+    ],
+    "work": "w1698",
+    "after_section": 1,
+    "caption": "伸展的右掌、垂腿与座下小像；手的方向把主尊与求助者联系起来。",
+    "source_sha256": "4bfb717abe16921f906e95c7c5cba181c1d0417353ba557a74092e7a7ddff66a",
+    "pixel_box": [
+      166,
+      683,
+      755,
+      1605
+    ],
+    "width": 589,
+    "height": 922,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/pala-stone/images/details/3300-hand-360.webp",
+        "width": 360,
+        "height": 564,
+        "sha256": "a213e4c654e448ed2c927c6110ca40c5f73c6bcb080f47c31b41dbbe0d35fa21"
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/pala-stone/images/details/3300-hand-589.webp",
+        "width": 589,
+        "height": 922,
+        "sha256": "e256bd90b8d8d9eb84a7cb909641509fe7feb7e8ebbe9dda70c4e670bcd42ad3"
+      }
+    ]
+  },
+  {
+    "id": "3280-arms",
+    "photo": 3280,
+    "box": [
+      0.22,
+      0.09,
+      0.79,
+      0.54
+    ],
+    "work": "p3280",
+    "after_section": 1,
+    "caption": "剑、盾与多臂围绕面容展开；面部的平静与手臂的动作形成反差。",
+    "source_sha256": "bb2b32a1404381ba3d758f808be84ba729e3f86eb3ea9b6d3b5154f552992e3a",
+    "pixel_box": [
+      282,
+      154,
+      1011,
+      922
+    ],
+    "width": 729,
+    "height": 768,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/pala-stone/images/details/3280-arms-360.webp",
+        "width": 360,
+        "height": 379,
+        "sha256": "95afcb2596053f8be837f0664afecc5f3b7ec04497e5509b43c7fae78dc7de2a"
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/pala-stone/images/details/3280-arms-729.webp",
+        "width": 729,
+        "height": 768,
+        "sha256": "fcd4ba283e0165b7099eab4517fcd384d2ac188dc2771bc88b216b5572016306"
+      }
+    ]
+  },
+  {
+    "id": "3280-battle",
+    "photo": 3280,
+    "box": [
+      0.24,
+      0.43,
+      0.78,
+      0.88
+    ],
+    "work": "p3280",
+    "after_section": 2,
+    "caption": "女神的双腿、水牛与人形魔交叠，脚掌的落点使战斗获得重量。",
+    "source_sha256": "bb2b32a1404381ba3d758f808be84ba729e3f86eb3ea9b6d3b5154f552992e3a",
+    "pixel_box": [
+      307,
+      734,
+      998,
+      1502
+    ],
+    "width": 691,
+    "height": 768,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/pala-stone/images/details/3280-battle-360.webp",
+        "width": 360,
+        "height": 400,
+        "sha256": "9b461117a01ad6d58575f534a2f32f30217426679ffb0ba57376cb8999385da2"
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/pala-stone/images/details/3280-battle-691.webp",
+        "width": 691,
+        "height": 768,
+        "sha256": "bebabadbb9b22cbcbca324f175807226233b35da21cb7f6b4a72f6e10087552c"
+      }
+    ]
+  },
+  {
+    "id": "3294-upper",
+    "photo": 3294,
+    "box": [
+      0.23,
+      0.06,
+      0.8,
+      0.48
+    ],
+    "work": "p3294",
+    "after_section": 0,
+    "caption": "高冠与两侧分层的小像；此局部展示位置关系，不逐格猜定化身。",
+    "source_sha256": "b755d915bb88786d212fd73f7c51ed911df61beabd867ee892a602e4b4ba7547",
+    "pixel_box": [
+      294,
+      102,
+      1024,
+      819
+    ],
+    "width": 730,
+    "height": 717,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/pala-stone/images/details/3294-upper-360.webp",
+        "width": 360,
+        "height": 354,
+        "sha256": "c60c581465d5a3fe2759704525650890a9a9a7f5428152fbb7723d99aaf8ae5a"
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/pala-stone/images/details/3294-upper-730.webp",
+        "width": 730,
+        "height": 717,
+        "sha256": "2226db3ba3355d1aa5852773967d0d00812661f5c75ad5222977c9a7a69c28e4"
+      }
+    ]
+  },
+  {
+    "id": "3294-lower",
+    "photo": 3294,
+    "box": [
+      0.22,
+      0.45,
+      0.81,
+      0.95
+    ],
+    "work": "p3294",
+    "after_section": 1,
+    "caption": "主尊双腿、胁侍女神与莲座；在同一幅面里形成不同的身体尺度。",
+    "source_sha256": "b755d915bb88786d212fd73f7c51ed911df61beabd867ee892a602e4b4ba7547",
+    "pixel_box": [
+      282,
+      768,
+      1037,
+      1622
+    ],
+    "width": 755,
+    "height": 854,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/pala-stone/images/details/3294-lower-360.webp",
+        "width": 360,
+        "height": 407,
+        "sha256": "326a40560d58482439b10defca7b6aed320fa06cced5f026f15d642ce4bc466d"
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/pala-stone/images/details/3294-lower-755.webp",
+        "width": 755,
+        "height": 854,
+        "sha256": "52edf5d44df5f4d86f9ecc3ab9448573877463adefc20c92578c879d1eeb7891"
+      }
+    ]
+  },
+  {
+    "id": "3274-robes",
+    "photo": 3274,
+    "box": [
+      0.21,
+      0.15,
+      0.8,
+      0.65
+    ],
+    "work": "w1508",
+    "after_section": 0,
+    "caption": "胸前手印与绕过身体的弧线衣纹。",
+    "source_sha256": "706e7747291a48e58de5c437085d9443d07b1c246198f776daf8cd45491f70c4",
+    "pixel_box": [
+      269,
+      256,
+      1024,
+      1110
+    ],
+    "width": 755,
+    "height": 854,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/pala-stone/images/details/3274-robes-360.webp",
+        "width": 360,
+        "height": 407,
+        "sha256": "5fed48444959cee0667740cdfc9a2ec052834d9dc5b6b78f2a955b7b36d8ad26"
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/pala-stone/images/details/3274-robes-755.webp",
+        "width": 755,
+        "height": 854,
+        "sha256": "df4274a1cc8e9a71a26c62fcfde8676712172b35953837cdcda3aaf537e217cb"
+      }
+    ]
+  },
+  {
+    "id": "3274-base",
+    "photo": 3274,
+    "box": [
+      0.13,
+      0.61,
+      0.87,
+      0.83
+    ],
+    "work": "w1508",
+    "after_section": 1,
+    "caption": "莲座上下两排花瓣。馆方所述基部铭文在此角度未能清楚呈现。",
+    "source_sha256": "706e7747291a48e58de5c437085d9443d07b1c246198f776daf8cd45491f70c4",
+    "pixel_box": [
+      166,
+      1041,
+      1114,
+      1417
+    ],
+    "width": 948,
+    "height": 376,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/pala-stone/images/details/3274-base-360.webp",
+        "width": 360,
+        "height": 143,
+        "sha256": "c7d9e10f46d57ae2b28db23fa9f1d9b7c52c7922f8e0c38aec0ebfff252297fd"
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/pala-stone/images/details/3274-base-948.webp",
+        "width": 948,
+        "height": 376,
+        "sha256": "78555aba9c12bb08fbf23f94173439ae3e794a65456a6d3709056fe84a70cd42"
+      }
+    ]
+  },
+  {
+    "id": "3308-donor",
+    "photo": 3308,
+    "box": [
+      0.14,
+      0.53,
+      0.68,
+      0.93
+    ],
+    "work": "p3308",
+    "after_section": 1,
+    "caption": "触地的右手下方是合掌的供养人，旁边的垂布用来刻写文字。",
+    "source_sha256": "079d85f2ad2cbedb25b7fb1aa6f3edc5c7061c1991f9effa1ad9fd8dbe73f591",
+    "pixel_box": [
+      179,
+      905,
+      870,
+      1588
+    ],
+    "width": 691,
+    "height": 683,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/pala-stone/images/details/3308-donor-360.webp",
+        "width": 360,
+        "height": 356,
+        "sha256": "323572ef7d88b82533a04d9f79258a3cfef635e2b87f313be62fa0331eb26460"
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/pala-stone/images/details/3308-donor-691.webp",
+        "width": 691,
+        "height": 683,
+        "sha256": "78ede289ddbd5023dc558d19d9df53603944d96c5bbed867104b8debac9f11dd"
+      }
+    ]
+  },
+  {
+    "id": "3266-events",
+    "photo": 3266,
+    "box": [
+      0.15,
+      0.08,
+      0.85,
+      0.55
+    ],
+    "work": "p3266",
+    "after_section": 0,
+    "caption": "中央大佛上方与两侧的小型佛传场景。",
+    "source_sha256": "62a157472a02cc86ae121048addbaca1099a31de1eb5cc395ce1d19437b82fb7",
+    "pixel_box": [
+      192,
+      137,
+      1088,
+      939
+    ],
+    "width": 896,
+    "height": 802,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/pala-stone/images/details/3266-events-360.webp",
+        "width": 360,
+        "height": 322,
+        "sha256": "d0179d1d9b29922a4374cd8ada43b5020261bd9595d45f229baa2de6f8f0ffba"
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/pala-stone/images/details/3266-events-896.webp",
+        "width": 896,
+        "height": 802,
+        "sha256": "9f9f6b333329dc04f1277d8d084ff7bb4c9619fa62339ce6db547a3e1897cc28"
+      }
+    ]
+  },
+  {
+    "id": "3304-events",
+    "photo": 3304,
+    "box": [
+      0.12,
+      0.015,
+      0.86,
+      0.55
+    ],
+    "work": "sama-08",
+    "after_section": 0,
+    "caption": "建筑式框架将侧面小龛与中央佛像分开。",
+    "source_sha256": "7009171ea3f0448ea39b1988f994d0e3255c5231555705f2b75f4eebf270bdbf",
+    "pixel_box": [
+      154,
+      26,
+      1101,
+      939
+    ],
+    "width": 947,
+    "height": 913,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/pala-stone/images/details/3304-events-360.webp",
+        "width": 360,
+        "height": 347,
+        "sha256": "157a956006e4775ac90c6f4a2c8d6a261c9e67dcb386030b2b7784571405247e"
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/pala-stone/images/details/3304-events-947.webp",
+        "width": 947,
+        "height": 913,
+        "sha256": "acb93191b63087e039b3336f0d8ed90e0e14d5c48144ff43d38edb2de5046515"
+      }
+    ]
+  }
+]

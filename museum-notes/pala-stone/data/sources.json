@@ -100,7 +100,7 @@
   "O3284": {
     "title": "纳尔逊—阿特金斯 · 戴冠佛首",
     "url": "https://art.nelson-atkins.org/objects/31270/head-of-a-crowned-buddha",
-    "read_status": "馆方条目正文、收藏史经检索返回内容核对",
+    "read_status": "本轮已打开并阅读馆方完整收藏史及展览记录",
     "used_for": "对象资料及文中相应说明",
     "checked_on": "2026-11-23"
   },
@@ -305,6 +305,118 @@
     "url": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Arts_of_South_and_Southeast_Asia_The_Metropolitan_Museum_of_Art_Bulletin_v_51_no_4_Spring_1994.pdf",
     "read_status": "已阅读相关正文／段落",
     "used_for": "仅阅读“Kingdoms of Eastern India”段落，印刷页39；佛教与印度教并存及艺术交流",
+    "checked_on": "2026-11-23"
+  },
+  "H-RULE": {
+    "title": "AM Chowdhury · Pala Rule，Banglapedia",
+    "url": "https://en.banglapedia.org/index.php?title=Pala_Rule",
+    "read_status": "已阅读网页正文及相关条目",
+    "used_for": "王朝兴起、政治变化与寺院赞助；原页面Ramapala起年有明显倒置，不采用该数字",
+    "checked_on": "2026-11-23"
+  },
+  "H-DEVA": {
+    "title": "AM Chowdhury · Devapala，Banglapedia",
+    "url": "https://en.banglapedia.org/index.php/Devapala",
+    "read_status": "已阅读网页正文及相关条目",
+    "used_for": "那烂陀五村供养及与海上佛教王国的联系",
+    "checked_on": "2026-11-23"
+  },
+  "H-SOMAPURA": {
+    "title": "UNESCO · 帕哈尔普尔的佛教毗诃罗遗址",
+    "url": "https://whc.unesco.org/en/list/322/",
+    "read_status": "已阅读网页正文及相关条目",
+    "used_for": "索摩补罗的印章、创建者、建筑与遗址坐标",
+    "checked_on": "2026-11-23"
+  },
+  "H-BODH": {
+    "title": "UNESCO · 菩提伽耶摩诃菩提寺",
+    "url": "https://whc.unesco.org/en/list/1056/",
+    "read_status": "已阅读网页正文及相关条目",
+    "used_for": "成道圣地、现存寺院发展及坐标",
+    "checked_on": "2026-11-23"
+  },
+  "H-VIKRAMA": {
+    "title": "比哈尔邦旅游局 · 超戒寺遗址",
+    "url": "https://tourism.bihar.gov.in/en/destinations/bhagalpur/ruins-of-vikramshila",
+    "read_status": "已阅读网页正文及相关条目",
+    "used_for": "Antichak地点、达摩波罗建寺；不采用页面中未经论证的建寺动机",
+    "checked_on": "2026-11-23"
+  },
+  "H-ATISHA": {
+    "title": "大都会 · 阿底峡肖像研究说明",
+    "url": "https://www.metmuseum.org/art/collection/search/38006",
+    "read_status": "已阅读网页正文及相关条目",
+    "used_for": "阿底峡与超戒寺及1042年赴藏；仅用于人物背景，不增列本站亲见作品",
+    "checked_on": "2026-11-23"
+  },
+  "H-HUNTINGTON": {
+    "title": "Susan L. Huntington · The “Pāla-Sena” Schools of Sculpture，Brill，1984",
+    "url": "https://www.academia.edu/43266236/Huntington_Pala_Sena_Schools_of_Sculpture_Pt_1_of_2",
+    "read_status": "本轮实际阅读公开文本的导论开篇、俱利诃尔石雕章节（印刷页102—104附近）及金属章节（141—143附近）；未通读全书。公开文本有OCR错误，未用来抄录铭文。",
+    "used_for": "“帕拉—塞那”名称与王室委托的区别；俱利诃尔石雕与金属造像的地方特点",
+    "checked_on": "2026-11-23"
+  },
+  "H-ASI": {
+    "title": "印度考古局 · History",
+    "url": "https://asi.nic.in/EN/history-view",
+    "read_status": "已阅读历史页面相关段落；不是本辑作品出土证明",
+    "used_for": "1861年起的古迹调查、1871年恢复机构",
+    "checked_on": "2026-11-23"
+  },
+  "O3282": {
+    "title": "纳尔逊—阿特金斯 · 坐佛31-63",
+    "url": "https://art.nelson-atkins.org/objects/20983/seated-buddha",
+    "read_status": "已阅读网页正文及相关条目",
+    "used_for": "Mallon、Heeramaneck、1931年购入与1969年参展",
+    "checked_on": "2026-11-23"
+  },
+  "O3286-API": {
+    "title": "克利夫兰公开馆藏API · 1935.146",
+    "url": "https://openaccess-api.clevelandart.org/api/artworks/?accession_number=1935.146",
+    "read_status": "已读取馆方API的provenance及citations字段，未据此声称读过列举论文",
+    "used_for": "Heeramaneck Galleries售出、1935年购入；所列论文仅作后续研究线索",
+    "checked_on": "2026-11-23"
+  },
+  "H-IOWA": {
+    "title": "Chazen Museum · 1969年帕拉艺术展参展记录",
+    "url": "https://chazen.wisc.edu/collection/15334/iva-and-parvt-ummahehvara/",
+    "read_status": "已阅读网页正文及相关条目",
+    "used_for": "独立核对Iowa展览名称及1969年11月1日至12月3日展期；不将此件加入亲见图录",
+    "checked_on": "2026-11-23"
+  },
+  "B-IOWA": {
+    "title": "Pala Art: Buddhist and Hindu Sculpture from Eastern India, ca. 800–1200 A.D.，1969",
+    "url": "https://openlibrary.org/works/OL5117297W/Pala_art",
+    "read_status": "仅核对书目记录，未读图录全文；展期另据馆方参展记录核对",
+    "used_for": "University of Iowa Museum of Art出版，38页",
+    "checked_on": "2026-11-23"
+  },
+  "G-VIKRAMA": {
+    "title": "Getty TGN · Vikramashila，8697432",
+    "url": "https://www.getty.edu/vow/TGNFullDisplay?english=Y&find=7277711&nation=&place=&subjectid=8697432",
+    "read_status": "已核对地名词库坐标与地点性质",
+    "used_for": "历史地图超戒寺坐标25.324,87.284",
+    "checked_on": "2026-11-23"
+  },
+  "G-KURKIHAR": {
+    "title": "GeoNames · Kurkihar，1265499",
+    "url": "https://www.geonames.org/1265499/kurkihar.html",
+    "read_status": "核对公开地名记录的坐标；直连不稳定",
+    "used_for": "俱利诃尔村落定位，24.83143,85.25352；不是每件石像的出土坐标",
+    "checked_on": "2026-11-23"
+  },
+  "G-RIVER": {
+    "title": "Natural Earth · 1:10m Rivers + Lake Centerlines",
+    "url": "https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/",
+    "read_status": "复核既有数据来源与处理记录：Douglas–Peucker 0.02度简化，保留端点",
+    "used_for": "复用本站已有Natural Earth 5.0.0恒河数据；公有领域；现代河道定位",
+    "checked_on": "2026-11-23"
+  },
+  "H-SUCIMUKHA": {
+    "title": "费城艺术博物馆 · Khasarpana Avalokiteshvara",
+    "url": "https://www.philamuseum.org/objects/46283",
+    "read_status": "已阅读馆方正文；比较作品未加入个人图录，未使用其照片",
+    "used_for": "针口饿鬼名称及观音右手施甘露的同类图像解释；不是金贝尔本件的收藏或产地记录",
     "checked_on": "2026-11-23"
   }
 }

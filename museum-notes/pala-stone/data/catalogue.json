@@ -220,7 +220,8 @@
     "date_start": 800,
     "date_end": 999,
     "source_ids": [
-      "L3283"
+      "L3283",
+      "O3282"
     ],
     "visit_date": null,
     "canonical_ref": {
@@ -265,7 +266,8 @@
     "date_end": 899,
     "source_ids": [
       "L3287",
-      "O3286"
+      "O3286",
+      "O3286-API"
     ],
     "visit_date": null,
     "canonical_ref": {

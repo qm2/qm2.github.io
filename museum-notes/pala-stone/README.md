@@ -1,6 +1,6 @@
 # 帕拉黑石造像
 
-24件作品、48张作者现场照片；20件核心、2件地域延展、2件前史比较。五条阅读线索、24篇短文、神话参考、历史导览、四组并看、十二家观看博物馆的地图与完整图录。
+24件作品、48张作者现场照片；20件核心、2件地域延展、2件前史比较。五条阅读线索、24篇短文、神话参考、历史导览、六组并看、十二家观看博物馆的地图与完整图录。
 
 ## 编辑与生成
 
@@ -8,7 +8,10 @@
 - `data/media.json`：48张原片的文件名、SHA256、角色及响应式尺寸。照片文件名不作为参观日期。
 - `data/readings.json` / `stories.json` / `chapters.json`：中文短文、故事、首页编排。
 - `data/museums.json`：实际观看馆址；作品收藏机构另列。地图不代表古代制作地或出土地。
-- `content/guide.md`：历史与观看。
+- `content/guide.md`：历史与观看；`content/journeys.md`：黑石的远行。
+- `data/history-places.json` / `history-periods.json`：历史地点与年代背景，相关作品复用catalogue，现代河道复用本站Natural Earth数据。
+- `data/comparisons.json` / `provenance-routes.json`：六组并看与三条有记录的收藏时间线。
+- `data/details.json`：原片局部、裁切范围、原片校验和、实际像素尺寸。`scripts/prepare_pala_details.py` 可重新生成。
 - `data/sources.json`：具体来源、查阅范围、核对日期。`[[来源ID]]` 生成短引用，原资料集中列在资料页。
 - `data/atlas-index.json` 是生成文件，不直接编辑。
 - `pala.css` 和 `pala.js` 仅影响本专题。沿用网站字体、底色、图片查看器；地图复用 Natural Earth 公有领域底图，键盘可操作，缺少脚本／底图时仍保留图录和馆址链接。
@@ -34,3 +37,9 @@ python3 scripts/check_pala_browser.py http://127.0.0.1:8774
 作者确认：3264、3266、3268、3270均在MFAH的Living with the Gods借展中拍摄；3276在纽约大都会，3298在新奥尔良。日期未提供，留空。两件同题八大事迹碑分别为Met 2009.541与SAMA借展L.2019.4.1。
 
 檀香山展签清晰记有4315.1，题为童子文殊，未给具体产地和石种，列为相关作品。阿克兰野猪化身的馆藏号尚待核录。私人收藏不补写未公布的编号和原寺院。
+
+## 第一轮本地精修（2026-11-23）
+
+首轮审阅时保留本地；2026-11-23用户随后授权提交部署。封面采用3300全图，原24件/48张/12馆/9条共用身份不变。新增11处原片局部、22张WebP约2.5MB，已上传既有R2并逐张核对公开响应的SHA256。仓库仅保留裁切参数与公开URL；本地衍生图保存在 `museum/pala-stone-assets/images/details/`。原片未改写，裁切未补画或放大。
+
+当前共31页。`REVIEW_2026-11-23.md` 记录内容范围、证据缺口与验收。截图保存在 `/tmp/pala-refine/final/`，四封面候选比较在 `/tmp/pala-refine/covers-1440.jpg` 和 `covers-390.jpg`。

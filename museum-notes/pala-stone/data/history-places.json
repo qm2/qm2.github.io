@@ -1,0 +1,84 @@
+[
+  {
+    "id": "bodhgaya",
+    "name": "菩提伽耶",
+    "english": "Bodh Gaya",
+    "lat": 24.69528,
+    "lon": 84.99389,
+    "type": "成道圣地",
+    "period": "佛成道记忆；现存寺院主要承继5—6世纪建筑传统，并历经修缮",
+    "text": "菩提树与金刚座使这里成为佛教朝圣的核心地点。把触地的手与树冠合看，能够理解雕像怎样唤起圣地。",
+    "relation": "以成道题材相联系，不表示作品出土于此",
+    "works": [
+      "w1579",
+      "w1488"
+    ],
+    "source": "H-BODH",
+    "coordinate_source": "H-BODH"
+  },
+  {
+    "id": "nalanda",
+    "name": "那烂陀",
+    "english": "Nalanda",
+    "lat": 25.13667,
+    "lon": 85.44389,
+    "type": "寺院与修学中心",
+    "period": "5—13世纪的长期发展，帕拉时期继续受供养",
+    "text": "在比哈尔南部，寺院与佛塔反复营建。提婆波罗的五村供养，将这里与东南亚王室建立的寺院相联。[[H-DEVA]]",
+    "relation": "馆方列为可能与那烂陀有关的作品",
+    "works": [
+      "w1508",
+      "p3266"
+    ],
+    "source": "H-NALANDA",
+    "coordinate_source": "H-NALANDA"
+  },
+  {
+    "id": "vikramashila",
+    "name": "超戒寺",
+    "english": "Vikramashila",
+    "lat": 25.324,
+    "lon": 87.284,
+    "type": "寺院与修学中心",
+    "period": "达摩波罗时期创立；11世纪阿底峡与之相关",
+    "text": "位于比哈尔东部Antichak。教学、译传与寺院供养在这里汇合；它帮助理解图像与知识怎样进入喜马拉雅地区。",
+    "relation": "可联系东印度佛教图像观看；本辑没有确认出土于此的作品",
+    "works": [
+      "w1510"
+    ],
+    "source": "H-VIKRAMA",
+    "coordinate_source": "G-VIKRAMA"
+  },
+  {
+    "id": "kurkihar",
+    "name": "俱利诃尔",
+    "english": "Kurkihar",
+    "lat": 24.83143,
+    "lon": 85.25352,
+    "type": "造像遗存地点",
+    "period": "9—12世纪石雕与金属造像传统",
+    "text": "村落位于伽耶东北。石雕与金属造像为比较当地手艺提供材料；Huntington强调它与那烂陀的联系，也辨别地方特点。",
+    "relation": "展签将西雅图佛联系到此地附近，保留“可能”",
+    "works": [
+      "w1649"
+    ],
+    "source": "H-HUNTINGTON",
+    "coordinate_source": "G-KURKIHAR"
+  },
+  {
+    "id": "somapura",
+    "name": "索摩补罗",
+    "english": "Somapura / Paharpur",
+    "lat": 25.03333,
+    "lon": 88.98333,
+    "type": "大型寺院遗址",
+    "period": "达摩波罗创建；至12世纪为重要中心",
+    "text": "今孟加拉国帕哈尔普尔，中央建筑被僧房围绕，陶饰布满台基。这一环境让我们理解孟加拉寺院对营建与造像的长期需要。",
+    "relation": "本收藏中孟加拉地区作品的历史背景；不是出土对应",
+    "works": [
+      "w1698"
+    ],
+    "source": "H-SOMAPURA",
+    "coordinate_source": "H-SOMAPURA"
+  }
+]
