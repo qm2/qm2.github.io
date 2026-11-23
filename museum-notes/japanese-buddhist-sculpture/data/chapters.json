@@ -1,7 +1,7 @@
 [
   {
     "id": "00-foreword",
-    "title": "华丽中的宁静",
+    "title": "东瀛佛影",
     "file": "content/00-foreword.md",
     "source_ids": []
   },
@@ -18,7 +18,7 @@
   },
   {
     "id": "02-body",
-    "title": "木胎、身体与光：从平安早期到后期",
+    "title": "身体的组织：从平安到镰仓与南北朝",
     "file": "content/02-body.md",
     "source_ids": [
       "S-KNM-STYLE",

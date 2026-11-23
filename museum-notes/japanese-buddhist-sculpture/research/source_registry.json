@@ -718,5 +718,77 @@
     "access_status": "已读寺院官网正文；用于人物与宗派背景，不作为本件雕像原寺证明",
     "type": "temple_history",
     "checked_on": "2026-11-22"
+  },
+  "S-BPCJ-KOSHUN": {
+    "id": "S-BPCJ-KOSHUN",
+    "title": "日本放送番组中心：1990年克利夫兰专题节目目录",
+    "url": "https://www.bpcj.or.jp/program/detail/004720/",
+    "access_status": "已读节目目录，其列“阿弥陀如来立像（康俊作）”；未观看节目。",
+    "type": "broadcast_catalogue",
+    "checked_on": "2026-11-22"
+  },
+  "S-CMA-AMIDA-PAPER": {
+    "id": "S-CMA-AMIDA-PAPER",
+    "title": "田中義恭、Kimiko Steiner、Michael R. Cunningham：The Statue of Amida Nyorai (Amitabha) Made by Kōshun，CMA Bulletin 80.10（1993），378–393页",
+    "url": "https://www.jstor.org/stable/25161434",
+    "access_status": "书目由CMA打印版核对；JSTOR入口未取得可读全文。未据此释读铭记或确认助手汉字。",
+    "type": "bibliography_only",
+    "checked_on": "2026-11-22"
+  },
+  "S-CMA-PRINT": {
+    "id": "S-CMA-PRINT",
+    "title": "CMA：1960.197打印版及正式书目",
+    "url": "https://www.clevelandart.org/print/art/1960.197",
+    "access_status": "已读馆方正文及书目；书目存在不等于已读其中论文。",
+    "type": "museum_record",
+    "checked_on": "2026-11-22"
+  },
+  "S-TOKYO-KOSHUN": {
+    "id": "S-TOKYO-KOSHUN",
+    "title": "东京大学史料编纂所：《东寺文书十三》介绍",
+    "url": "https://www.hi.u-tokyo.ac.jp/publication/syoho/38/pub_komonjo-iewake-10-13/",
+    "access_status": "已读研究介绍中同名康俊的辨识问题；所涉14世纪活动不能直接归给本件1269年的制作者。",
+    "type": "research_summary",
+    "checked_on": "2026-11-22"
+  },
+  "S-OSAKA-HOKKYO": {
+    "id": "S-OSAKA-HOKKYO",
+    "title": "大阪历史博物馆：快庆阿弥陀与法桥位说明",
+    "url": "https://www.osakamushis.jp/news/2008/shiteibunkazai/shiteibunkazai_item.html",
+    "access_status": "已读馆方说明；用于快庆汉字及位阶术语背景，该馆所述像不是金贝尔或CMA本件。",
+    "type": "museum_essay",
+    "checked_on": "2026-11-22"
+  },
+  "S-KIM-50": {
+    "id": "S-KIM-50",
+    "title": "金贝尔50周年官方专题：Standing Shaka Buddha",
+    "url": "https://50.kimbellart.org/collection/",
+    "access_status": "已读有关左足、衣褶和截金的馆方说明；本页未沿用其唯一性及褒评。",
+    "type": "museum_essay",
+    "checked_on": "2026-11-22"
+  },
+  "S-YALE-KAIKEI": {
+    "id": "S-YALE-KAIKEI",
+    "title": "Yale University Press：Artistic Innovation and Sacred Empowerment in Kamakura Sculpture（2016）",
+    "url": "https://yalebooks.yale.edu/2016/03/18/artistic-innovation-and-sacred-empowerment-in-kamakura-sculpture/",
+    "access_status": "已读公开文章中金贝尔像的署名位置、材料及法眼称号；未据此声称读过整部展览图录。",
+    "type": "publisher_essay",
+    "checked_on": "2026-11-22"
+  },
+  "S-KNM-JP": {
+    "id": "S-KNM-JP",
+    "title": "京都国立博物馆：定朝様と慶派の仏像（日文）",
+    "url": "https://www.kyohaku.go.jp/old/jp/theme/floor1_2/f1_2_koremade/scu_20160614.html",
+    "access_status": "已读馆方展览说明及湛慶汉字；不是檀香山像确定归属的证据。",
+    "type": "museum_essay",
+    "checked_on": "2026-11-22"
+  },
+  "S-JP-HISTORY": {
+    "id": "S-JP-HISTORY",
+    "title": "日本国立国会图书馆／Japan Search：Buddhist Statues in Japan (Asuka–Kamakura periods)",
+    "url": "https://jpsearch.go.jp/en/gallery/ndl-mkMbqXaBAWO",
+    "access_status": "已读公共文化资料导览，用于分期、定朝与密教背景。",
+    "type": "cultural_guide",
+    "checked_on": "2026-11-22"
   }
 }

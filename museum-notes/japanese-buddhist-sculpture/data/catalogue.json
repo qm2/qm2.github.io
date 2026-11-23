@@ -54,7 +54,7 @@
       }
     ],
     "cover_photo_path": "photos/j01/Image_20261122201739_3115_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
     "materials_summary": "木、金属、彩绘、金饰、水晶嵌眼",
@@ -80,7 +80,11 @@
     "url_slug": "j01",
     "essay_path": "content/works/j01.md",
     "essay_title": "六面六臂之下，牛背仍然安稳",
-    "chapter_id": "wrath"
+    "chapter_id": "wrath",
+    "short_title": "休斯顿·大威德明王骑牛像",
+    "date_short": "13世纪后半叶",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j02",
@@ -137,10 +141,10 @@
       }
     ],
     "cover_photo_path": "photos/j02/Image_20261122201739_3117_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "确年",
-    "materials_summary": "桧木、金饰；智拳印",
+    "materials_summary": "桧木、金饰",
     "viewing_museum_id": "MFAH",
     "viewing_evidence": "用户本轮明确确认：两件均在休斯顿美术馆观看",
     "personal_highlight": false,
@@ -160,7 +164,11 @@
     "research_date": "2026-11-22",
     "publish_title": "大日如来坐像",
     "timeline_enabled": true,
-    "url_slug": "j02"
+    "url_slug": "j02",
+    "short_title": "休斯顿·大日如来坐像",
+    "date_short": "1105年",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j03",
@@ -215,7 +223,7 @@
       }
     ],
     "cover_photo_path": "photos/j03/Image_20261122201739_3119_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
     "materials_summary": "木，残存漆与金箔",
@@ -241,7 +249,11 @@
     "url_slug": "j03",
     "essay_path": "content/works/j03.md",
     "essay_title": "八世纪末的观音：跨海之后的木头",
-    "chapter_id": "crossing"
+    "chapter_id": "crossing",
+    "short_title": "吉美·观音菩萨立像",
+    "date_short": "8世纪末—9世纪初",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j04",
@@ -298,10 +310,10 @@
       }
     ],
     "cover_photo_path": "photos/j04/Image_20261122201739_3121_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "3121画面后方的大型胸像；与前方小坐像是两件作品，共用一张展签照片，不能合并成一尊",
+    "materials_summary": "木、漆、金箔",
     "viewing_museum_id": "GUIMET",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": false,
@@ -321,7 +333,14 @@
     "research_date": "2026-11-22",
     "publish_title": "阿弥陀佛胸像",
     "timeline_enabled": true,
-    "url_slug": "j04"
+    "url_slug": "j04",
+    "short_title": "吉美·阿弥陀佛胸像",
+    "date_short": "11世纪后半叶",
+    "date_note": "",
+    "evidence_notes": [
+      "与前方小坐像同框，但分别登记；本批编号信息尚待核对。"
+    ],
+    "image_relation": "合照后方的胸像"
   },
   {
     "id": "j05",
@@ -378,10 +397,10 @@
       }
     ],
     "cover_photo_path": "photos/j04/Image_20261122201739_3121_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "3121画面前方较小的坐像",
+    "materials_summary": "木、残存彩绘",
     "viewing_museum_id": "GUIMET",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": false,
@@ -401,7 +420,14 @@
     "research_date": "2026-11-22",
     "publish_title": "阿弥陀佛坐像",
     "timeline_enabled": true,
-    "url_slug": "j05"
+    "url_slug": "j05",
+    "short_title": "吉美·阿弥陀佛坐像",
+    "date_short": "11—12世纪",
+    "date_note": "",
+    "evidence_notes": [
+      "与后方胸像同框，但分别登记；本批编号信息尚待核对。"
+    ],
+    "image_relation": "合照前方的小坐像"
   },
   {
     "id": "j06",
@@ -456,10 +482,10 @@
       }
     ],
     "cover_photo_path": "photos/j06/Image_20261122201739_3123_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "阿弥陀佛与观音、势至",
+    "materials_summary": "木、漆、金饰、彩绘、截金",
     "viewing_museum_id": "GUIMET",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": false,
@@ -479,7 +505,11 @@
     "research_date": "2026-11-22",
     "publish_title": "阿弥陀三尊来迎像",
     "timeline_enabled": true,
-    "url_slug": "j06"
+    "url_slug": "j06",
+    "short_title": "吉美·阿弥陀三尊来迎像",
+    "date_short": "镰仓时期（1185—1333）",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j07",
@@ -490,7 +520,7 @@
     "date_display": "19世纪",
     "year_start": 1800,
     "year_end": 1899,
-    "period_bucket": "15—19世纪",
+    "period_bucket": "室町至江户（14—19世纪）",
     "category": "如来",
     "accession": "MG 26296",
     "photo_numbers": [
@@ -534,7 +564,7 @@
       }
     ],
     "cover_photo_path": "photos/j07/Image_20261122201739_3125_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
     "materials_summary": "木、金饰、彩绘",
@@ -557,7 +587,11 @@
     "research_date": "2026-11-22",
     "publish_title": "阿弥陀佛坐像（禅定印）",
     "timeline_enabled": true,
-    "url_slug": "j07"
+    "url_slug": "j07",
+    "short_title": "吉美·阿弥陀佛坐像（禅定印）",
+    "date_short": "19世纪",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j08",
@@ -568,7 +602,7 @@
     "date_display": "18世纪；数据库宽记1603—1867",
     "year_start": 1700,
     "year_end": 1799,
-    "period_bucket": "15—19世纪",
+    "period_bucket": "室町至江户（14—19世纪）",
     "category": "青铜对照",
     "accession": "M.C. 2078",
     "photo_numbers": [
@@ -600,10 +634,10 @@
     ],
     "labels": [],
     "cover_photo_path": "photos/j08/Image_20261122201739_3127_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "青铜，高440厘米",
+    "materials_summary": "青铜",
     "viewing_museum_id": "CERNUSCHI",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": true,
@@ -626,7 +660,11 @@
     "url_slug": "j08",
     "essay_path": "content/works/j08.md",
     "essay_title": "从目黑到巴黎：一尊青铜大佛的后来生活",
-    "chapter_id": "survival"
+    "chapter_id": "survival",
+    "short_title": "赛努奇·目黑大佛／阿弥陀佛坐像",
+    "date_short": "18世纪；数据库宽记1603—1867",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j09",
@@ -683,10 +721,10 @@
       }
     ],
     "cover_photo_path": "photos/j09/Image_20261122201739_3128_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "日本桧木；左手药壶是辨识线索",
+    "materials_summary": "日本桧木",
     "viewing_museum_id": "DALLAS",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": false,
@@ -706,7 +744,11 @@
     "research_date": "2026-11-22",
     "publish_title": "药师如来立像",
     "timeline_enabled": true,
-    "url_slug": "j09"
+    "url_slug": "j09",
+    "short_title": "达拉斯·药师如来立像",
+    "date_short": "约1150年",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j10",
@@ -761,10 +803,10 @@
       }
     ],
     "cover_photo_path": "photos/j10/Image_20261122201739_3130_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "木与金漆；来迎手印",
+    "materials_summary": "木、金漆",
     "viewing_museum_id": "DALLAS",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": true,
@@ -787,7 +829,11 @@
     "url_slug": "j10",
     "essay_path": "content/works/j10.md",
     "essay_title": "举起的右手：达拉斯的阿弥陀如来",
-    "chapter_id": "pureland"
+    "chapter_id": "pureland",
+    "short_title": "达拉斯·阿弥陀如来立像",
+    "date_short": "约1175—1200年",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j11",
@@ -844,7 +890,7 @@
       }
     ],
     "cover_photo_path": "photos/j11/Image_20261122201739_3132_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
     "materials_summary": "寄木造，木、漆、金箔、彩绘",
@@ -870,7 +916,11 @@
     "url_slug": "j11",
     "essay_path": "content/works/j11.md",
     "essay_title": "不动，并非没有力量",
-    "chapter_id": "wrath"
+    "chapter_id": "wrath",
+    "short_title": "大都会·不动明王立像",
+    "date_short": "12世纪",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j12",
@@ -964,10 +1014,10 @@
       }
     ],
     "cover_photo_path": "photos/j12/Image_20261122201739_3134_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "这里保留一组观看记录，下设五件／尊组成资料",
+    "materials_summary": "木、漆、金饰、彩绘；胁侍另记水晶嵌饰",
     "viewing_museum_id": "MET",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": true,
@@ -990,7 +1040,11 @@
     "url_slug": "j12",
     "essay_path": "content/works/j12.md",
     "essay_title": "并置的三尊，与头顶的飞天",
-    "chapter_id": "pureland"
+    "chapter_id": "pureland",
+    "short_title": "大都会·阿弥陀三尊与飞天：展厅陈设",
+    "date_short": "诸像分别为11世纪末—13世纪",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j13",
@@ -1047,10 +1101,10 @@
       }
     ],
     "cover_photo_path": "photos/j13/Image_20261122201739_3137_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "木、漆、金箔；智拳印，背后尖叶形光背",
+    "materials_summary": "木、漆、金箔",
     "viewing_museum_id": "MET",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": true,
@@ -1073,7 +1127,11 @@
     "url_slug": "j13",
     "essay_path": "content/works/j13.md",
     "essay_title": "一枚智拳印，与密密展开的光背",
-    "chapter_id": "body"
+    "chapter_id": "body",
+    "short_title": "大都会·大日如来坐像",
+    "date_short": "12世纪",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j14",
@@ -1130,10 +1188,10 @@
       }
     ],
     "cover_photo_path": "photos/j14/Image_20261122201739_3139_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "桧木一木造；原有漆、彩绘及可能的金箔，现露木胎",
+    "materials_summary": "桧木；原有漆、彩绘，可能施金箔",
     "viewing_museum_id": "MET",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": false,
@@ -1156,7 +1214,11 @@
     "url_slug": "j14",
     "essay_path": "content/works/j14.md",
     "essay_title": "裸木之美，和它原先的颜色",
-    "chapter_id": "body"
+    "chapter_id": "body",
+    "short_title": "大都会·观音菩萨立像",
+    "date_short": "11世纪中叶",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j15",
@@ -1211,7 +1273,7 @@
       }
     ],
     "cover_photo_path": "photos/j15/Image_20261122201739_3141_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
     "materials_summary": "木、漆、金箔、截金、彩绘",
@@ -1234,7 +1296,11 @@
     "research_date": "2026-11-22",
     "publish_title": "地藏菩萨立像",
     "timeline_enabled": true,
-    "url_slug": "j15"
+    "url_slug": "j15",
+    "short_title": "大都会·地藏菩萨立像",
+    "date_short": "12世纪末—13世纪中叶",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j16",
@@ -1291,10 +1357,10 @@
       }
     ],
     "cover_photo_path": "photos/j16/Image_20261122201739_3143_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "南北朝时期；木、漆、金箔及金属装饰",
+    "materials_summary": "木、漆、金箔、金属装饰",
     "viewing_museum_id": "MET",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": true,
@@ -1317,7 +1383,11 @@
     "url_slug": "j16",
     "essay_path": "content/works/j16.md",
     "essay_title": "十一面之下，一张沉静的脸",
-    "chapter_id": "body"
+    "chapter_id": "body",
+    "short_title": "大都会·十一面观音立像",
+    "date_short": "14世纪中—晚期",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j17",
@@ -1328,7 +1398,7 @@
     "date_display": "室町时期；展签1392—1568，官网1392—1573",
     "year_start": 1392,
     "year_end": 1573,
-    "period_bucket": "12世纪末—14世纪",
+    "period_bucket": "室町至江户（14—19世纪）",
     "category": "如来",
     "accession": "31-141/1",
     "photo_numbers": [
@@ -1400,10 +1470,10 @@
       }
     ],
     "cover_photo_path": "photos/j17/Image_20261122201739_3145_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "漆木金饰；三张分别适合看面貌、展厅尺度与全身",
+    "materials_summary": "木、漆、金饰",
     "viewing_museum_id": "NELSON",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": true,
@@ -1426,7 +1496,11 @@
     "url_slug": "j17",
     "essay_path": "content/works/j17.md",
     "essay_title": "大坐佛前：迟来的形式，仍然动人",
-    "chapter_id": "pureland"
+    "chapter_id": "pureland",
+    "short_title": "纳尔逊·阿弥陀如来坐像",
+    "date_short": "室町时期",
+    "date_note": "宽泛时代归属，详见资料",
+    "evidence_notes": []
   },
   {
     "id": "j18",
@@ -1481,7 +1555,7 @@
       }
     ],
     "cover_photo_path": "photos/j18/Image_20261122201739_3149_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
     "materials_summary": "木、残漆、彩绘、金饰",
@@ -1504,7 +1578,11 @@
     "research_date": "2026-11-22",
     "publish_title": "太鼓架残件（左方）",
     "timeline_enabled": true,
-    "url_slug": "j18"
+    "url_slug": "j18",
+    "short_title": "纳尔逊·太鼓架残件（左方）",
+    "date_short": "1150—1200年",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j19",
@@ -1574,10 +1652,10 @@
       }
     ],
     "cover_photo_path": "photos/j19/Image_20261122201739_3151_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "一木造；手部和足趾为后补",
+    "materials_summary": "木（一木造）",
     "viewing_museum_id": "NELSON",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": false,
@@ -1600,7 +1678,13 @@
     "url_slug": "j19",
     "essay_path": "content/works/j19.md",
     "essay_title": "一尊早期地藏，和后来伸出的手",
-    "chapter_id": "crossing"
+    "chapter_id": "crossing",
+    "short_title": "纳尔逊·地藏菩萨立像",
+    "date_short": "9—10世纪",
+    "date_note": "",
+    "evidence_notes": [
+      "馆方记载手部和足趾为后补。"
+    ]
   },
   {
     "id": "j20",
@@ -1655,7 +1739,7 @@
       }
     ],
     "cover_photo_path": "photos/j20/Image_20261122201739_3154_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
     "materials_summary": "木，残存彩绘",
@@ -1678,7 +1762,11 @@
     "research_date": "2026-11-22",
     "publish_title": "忿怒尊头像（身份未定）",
     "timeline_enabled": true,
-    "url_slug": "j20"
+    "url_slug": "j20",
+    "short_title": "纳尔逊·忿怒尊头像（身份未定）",
+    "date_short": "镰仓时期（1185—1333）",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j21",
@@ -1746,10 +1834,10 @@
       }
     ],
     "cover_photo_path": "photos/j21/Image_20261122201739_3156_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "一木雕躯干，手臂另接；光背与台座为后修",
+    "materials_summary": "木",
     "viewing_museum_id": "NELSON",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": false,
@@ -1769,7 +1857,13 @@
     "research_date": "2026-11-22",
     "publish_title": "观音菩萨立像",
     "timeline_enabled": true,
-    "url_slug": "j21"
+    "url_slug": "j21",
+    "short_title": "纳尔逊·观音菩萨立像",
+    "date_short": "8—9世纪",
+    "date_note": "",
+    "evidence_notes": [
+      "躯干由一木雕成，手臂另接；光背与台座为后修。"
+    ]
   },
   {
     "id": "j22",
@@ -1824,10 +1918,10 @@
       }
     ],
     "cover_photo_path": "photos/j22/Image_20261122201739_3159_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "榧木一木造，残存彩与金",
+    "materials_summary": "榧木，残存彩与金",
     "viewing_museum_id": "CMA",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": false,
@@ -1850,7 +1944,11 @@
     "url_slug": "j22",
     "essay_path": "content/works/j22.md",
     "essay_title": "榧木里的日光：交流与地方选择",
-    "chapter_id": "crossing"
+    "chapter_id": "crossing",
+    "short_title": "克利夫兰·日光菩萨坐像",
+    "date_short": "约800年",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j23",
@@ -1959,10 +2057,10 @@
       }
     ],
     "cover_photo_path": "photos/j23/Image_20261122201739_3161_19.jpg",
-    "artist": "Kōshun；Koshin、Joshun协作（汉字名不据罗马字猜写）",
+    "artist": "康俊（Kōshun）主作；Koshin、Joshun协作",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "确年",
-    "materials_summary": "Kōshun主作，Koshin、Joshun协作；桧木、漆彩、金、截金、水晶嵌眼",
+    "materials_summary": "桧木、漆、彩绘、金、截金、水晶嵌眼与石英",
     "viewing_museum_id": "CMA",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": true,
@@ -1985,7 +2083,28 @@
     "url_slug": "j23",
     "essay_path": "content/works/j23.md",
     "essay_title": "衣上金线，像内人名：1269年的阿弥陀",
-    "chapter_id": "pureland"
+    "chapter_id": "pureland",
+    "short_title": "克利夫兰·阿弥陀如来立像",
+    "date_short": "1269年",
+    "date_note": "",
+    "evidence_notes": [],
+    "maker_credits": [
+      {
+        "maker_id": "koshun",
+        "role": "主作",
+        "attribution": "馆方明确列名"
+      },
+      {
+        "maker_id": "koshin",
+        "role": "协作",
+        "attribution": "馆方 assisted by"
+      },
+      {
+        "maker_id": "joshun",
+        "role": "协作",
+        "attribution": "馆方 assisted by"
+      }
+    ]
   },
   {
     "id": "j24",
@@ -2055,10 +2174,10 @@
       }
     ],
     "cover_photo_path": "photos/j24/Image_20261122201739_3167_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "桧木、漆；现行官网加入金属构件",
+    "materials_summary": "桧木、漆、金属构件（馆方记录）",
     "person_year_start": 1207,
     "person_year_end": 1298,
     "person_life_note": "日本文化厅记1207—1298；CMA说明记1203—1298。与雕像断代分开。",
@@ -2084,7 +2203,11 @@
     "url_slug": "j24",
     "essay_path": "content/works/j24.md",
     "essay_title": "坐在木椅上的人：心地觉心",
-    "chapter_id": "people"
+    "chapter_id": "people",
+    "short_title": "克利夫兰·法灯圆明国师／心地觉心坐像",
+    "date_short": "约1295—1315年",
+    "date_note": "另有展签断代",
+    "evidence_notes": []
   },
   {
     "id": "j25",
@@ -2193,10 +2316,10 @@
       }
     ],
     "cover_photo_path": "photos/j25/Image_20261122201739_3170_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "木、漆、金饰；原在兴福寺周边子院",
+    "materials_summary": "木、漆、金饰",
     "viewing_museum_id": "CMA",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": true,
@@ -2219,7 +2342,11 @@
     "url_slug": "j25",
     "essay_path": "content/works/j25.md",
     "essay_title": "失去一只手，留下一个问题",
-    "chapter_id": "survival"
+    "chapter_id": "survival",
+    "short_title": "克利夫兰·如来坐像（尊名未定）",
+    "date_short": "12世纪",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j26",
@@ -2274,7 +2401,7 @@
       }
     ],
     "cover_photo_path": "photos/j26/Image_20261122201739_3176_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
     "materials_summary": "木、黑漆及红色颜料",
@@ -2297,7 +2424,11 @@
     "research_date": "2026-11-22",
     "publish_title": "爱染明王坐像",
     "timeline_enabled": true,
-    "url_slug": "j26"
+    "url_slug": "j26",
+    "short_title": "克利夫兰·爱染明王坐像",
+    "date_short": "14世纪初",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j27",
@@ -2352,10 +2483,10 @@
       }
     ],
     "cover_photo_path": "photos/j27/Image_20261122201739_3178_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "一木造，漆与残彩；厚实、隆起的衣褶适合与12世纪较浅的衣纹对读",
+    "materials_summary": "木、漆、残存彩绘",
     "viewing_museum_id": "CMA",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": false,
@@ -2378,7 +2509,11 @@
     "url_slug": "j27",
     "essay_path": "content/works/j27.md",
     "essay_title": "约900年的衣褶，为什么如此有重量",
-    "chapter_id": "body"
+    "chapter_id": "body",
+    "short_title": "克利夫兰·释迦牟尼坐像",
+    "date_short": "约900年",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j28",
@@ -2433,10 +2568,10 @@
       }
     ],
     "cover_photo_path": "photos/j28/Image_20261122201739_3180_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "漆木；单腿高抬、扬臂的姿势是本组最鲜明的动势之一",
+    "materials_summary": "木、漆",
     "viewing_museum_id": "CMA",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": false,
@@ -2459,7 +2594,11 @@
     "url_slug": "j28",
     "essay_path": "content/works/j28.md",
     "essay_title": "山中显现的力量：藏王权现",
-    "chapter_id": "wrath"
+    "chapter_id": "wrath",
+    "short_title": "克利夫兰·藏王权现立像",
+    "date_short": "13世纪",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j29",
@@ -2514,7 +2653,7 @@
       }
     ],
     "cover_photo_path": "photos/j29/Image_20261122201739_3182_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
     "materials_summary": "木、漆、彩绘、水晶嵌眼",
@@ -2537,7 +2676,11 @@
     "research_date": "2026-11-22",
     "publish_title": "二岁圣德太子像",
     "timeline_enabled": true,
-    "url_slug": "j29"
+    "url_slug": "j29",
+    "short_title": "克利夫兰·二岁圣德太子像",
+    "date_short": "14世纪初",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j30",
@@ -2592,7 +2735,7 @@
       }
     ],
     "cover_photo_path": "photos/j30/Image_20261122201739_3184_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
     "materials_summary": "木、金漆",
@@ -2615,7 +2758,11 @@
     "research_date": "2026-11-22",
     "publish_title": "大日如来坐像",
     "timeline_enabled": true,
-    "url_slug": "j30"
+    "url_slug": "j30",
+    "short_title": "檀香山·大日如来坐像",
+    "date_short": "10世纪初",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j31",
@@ -2670,7 +2817,7 @@
       }
     ],
     "cover_photo_path": "photos/j31/Image_20261122201739_3186_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
     "materials_summary": "木、彩绘与金饰",
@@ -2693,7 +2840,11 @@
     "research_date": "2026-11-22",
     "publish_title": "爱染明王坐像",
     "timeline_enabled": true,
-    "url_slug": "j31"
+    "url_slug": "j31",
+    "short_title": "檀香山·爱染明王坐像",
+    "date_short": "约14世纪；展签列镰仓时期",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j32",
@@ -2748,10 +2899,10 @@
       }
     ],
     "cover_photo_path": "photos/j32/Image_20261122201739_3188_19.jpg",
-    "artist": "传湛庆（Attributed to Tankei）",
+    "artist": "传湛庆（Tankei）",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "展签Attributed to Tankei，必须保留“传／归于”而非确定亲作；木、铜与金",
+    "materials_summary": "木、铜、金",
     "viewing_museum_id": "HONOLULU",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": false,
@@ -2771,11 +2922,24 @@
     "research_date": "2026-11-22",
     "publish_title": "十一面观音立像（传湛庆）",
     "timeline_enabled": true,
-    "url_slug": "j32"
+    "url_slug": "j32",
+    "short_title": "檀香山·十一面观音立像（传湛庆）",
+    "date_short": "13世纪",
+    "date_note": "",
+    "evidence_notes": [
+      "展签归属为 Attributed to Tankei（传湛庆），并非确定署名。"
+    ],
+    "maker_credits": [
+      {
+        "maker_id": "tankei",
+        "role": "推定作者",
+        "attribution": "传／Attributed to"
+      }
+    ]
   },
   {
     "id": "j33",
-    "title_zh": "来迎观音立像（定庆周边）",
+    "title_zh": "来迎观音立像（Jōkei周边）",
     "museum_code": "HONOLULU",
     "collection_museum": "檀香山艺术博物馆",
     "viewing_museum": "檀香山艺术博物馆",
@@ -2826,10 +2990,10 @@
       }
     ],
     "cover_photo_path": "photos/j33/Image_20261122201739_3190_19.jpg",
-    "artist": "定庆周边（Circle of Jōkei）；日文汉字名待进一步文献确认",
+    "artist": "Jōkei周边（Circle of Jōkei）",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "展签Circle of Jōkei；木、漆与金",
+    "materials_summary": "木、漆、金",
     "viewing_museum_id": "HONOLULU",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": false,
@@ -2847,9 +3011,22 @@
     "is_comparison_only": false,
     "is_ritual_object": false,
     "research_date": "2026-11-22",
-    "publish_title": "来迎观音立像（定庆周边）",
+    "publish_title": "来迎观音立像（Jōkei周边）",
     "timeline_enabled": true,
-    "url_slug": "j33"
+    "url_slug": "j33",
+    "short_title": "檀香山·来迎观音立像（Jōkei周边）",
+    "date_short": "13世纪",
+    "date_note": "",
+    "evidence_notes": [
+      "展签作 Circle of Jōkei，表示归于其周边。本件所指仏师的汉字与具体人物仍待馆方或专题文献确认。"
+    ],
+    "maker_credits": [
+      {
+        "maker_id": "jokei",
+        "role": "风格与工房关联",
+        "attribution": "周边／Circle of"
+      }
+    ]
   },
   {
     "id": "j34",
@@ -2904,7 +3081,7 @@
       }
     ],
     "cover_photo_path": "photos/j34/Image_20261122201739_3192_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
     "materials_summary": "木、漆",
@@ -2927,7 +3104,11 @@
     "research_date": "2026-11-22",
     "publish_title": "地藏菩萨坐像",
     "timeline_enabled": true,
-    "url_slug": "j34"
+    "url_slug": "j34",
+    "short_title": "檀香山·地藏菩萨坐像",
+    "date_short": "13世纪",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j35",
@@ -2938,7 +3119,7 @@
     "date_display": "15世纪",
     "year_start": 1400,
     "year_end": 1499,
-    "period_bucket": "15—19世纪",
+    "period_bucket": "室町至江户（14—19世纪）",
     "category": "如来",
     "accession": "2849",
     "photo_numbers": [
@@ -2982,7 +3163,7 @@
       }
     ],
     "cover_photo_path": "photos/j35/Image_20261122201739_3194_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
     "materials_summary": "木、金饰",
@@ -3008,7 +3189,11 @@
     "url_slug": "j35",
     "essay_path": "content/works/j35.md",
     "essay_title": "十五世纪的来迎：檀香山的长身阿弥陀",
-    "chapter_id": "pureland"
+    "chapter_id": "pureland",
+    "short_title": "檀香山·阿弥陀佛立像",
+    "date_short": "15世纪",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j36",
@@ -3063,7 +3248,7 @@
       }
     ],
     "cover_photo_path": "photos/j36/Image_20261122201739_3196_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
     "materials_summary": "木、漆与金",
@@ -3086,7 +3271,11 @@
     "research_date": "2026-11-22",
     "publish_title": "地藏菩萨立像",
     "timeline_enabled": true,
-    "url_slug": "j36"
+    "url_slug": "j36",
+    "short_title": "檀香山·地藏菩萨立像",
+    "date_short": "12—13世纪",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j37",
@@ -3141,10 +3330,10 @@
       }
     ],
     "cover_photo_path": "photos/j37/Image_20261122201739_3198_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "木；合掌坐姿",
+    "materials_summary": "木",
     "viewing_museum_id": "HONOLULU",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": false,
@@ -3164,7 +3353,11 @@
     "research_date": "2026-11-22",
     "publish_title": "势至菩萨坐像",
     "timeline_enabled": true,
-    "url_slug": "j37"
+    "url_slug": "j37",
+    "short_title": "檀香山·势至菩萨坐像",
+    "date_short": "10—11世纪",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j38",
@@ -3175,7 +3368,7 @@
     "date_display": "17世纪",
     "year_start": 1600,
     "year_end": 1699,
-    "period_bucket": "15—19世纪",
+    "period_bucket": "室町至江户（14—19世纪）",
     "category": "祖师／人物",
     "accession": "1804.1",
     "photo_numbers": [
@@ -3219,7 +3412,7 @@
       }
     ],
     "cover_photo_path": "photos/j38/Image_20261122201739_3200_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
     "materials_summary": "漆木",
@@ -3242,7 +3435,11 @@
     "research_date": "2026-11-22",
     "publish_title": "青年圣德太子像",
     "timeline_enabled": true,
-    "url_slug": "j38"
+    "url_slug": "j38",
+    "short_title": "檀香山·青年圣德太子像",
+    "date_short": "17世纪",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j39",
@@ -3300,10 +3497,10 @@
       }
     ],
     "cover_photo_path": "photos/j39/Image_20261122201739_3202_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "木；所拍一尊属于原来的一对门神",
+    "materials_summary": "木",
     "viewing_museum_id": "FREER",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": false,
@@ -3323,7 +3520,11 @@
     "research_date": "2026-11-22",
     "publish_title": "家原寺护法立像",
     "timeline_enabled": true,
-    "url_slug": "j39"
+    "url_slug": "j39",
+    "short_title": "弗里尔·家原寺护法立像",
+    "date_short": "镰仓时期",
+    "date_note": "来源记录另联系约1235—1245年",
+    "evidence_notes": []
   },
   {
     "id": "j40",
@@ -3419,10 +3620,10 @@
       }
     ],
     "cover_photo_path": "photos/j40/Image_20261122201739_3204_19.jpg",
-    "artist": "快庆（Kaikei），展签确定归属",
+    "artist": "快庆（Kaikei／快慶）",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "漆木金饰；快庆作品",
+    "materials_summary": "木、漆、金饰",
     "viewing_museum_id": "KIMBELL",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": true,
@@ -3445,7 +3646,18 @@
     "url_slug": "j40",
     "essay_path": "content/works/j40.md",
     "essay_title": "快庆的释迦：衣褶像水，脚步却很轻",
-    "chapter_id": "pureland"
+    "chapter_id": "pureland",
+    "short_title": "金贝尔·释迦牟尼立像（快庆）",
+    "date_short": "约1210年",
+    "date_note": "",
+    "evidence_notes": [],
+    "maker_credits": [
+      {
+        "maker_id": "kaikei",
+        "role": "制作者",
+        "attribution": "馆方明确归属"
+      }
+    ]
   },
   {
     "id": "j41",
@@ -3515,7 +3727,7 @@
       }
     ],
     "cover_photo_path": "photos/j41/Image_20261122201739_3209_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
     "materials_summary": "木、残存金饰与彩绘",
@@ -3541,7 +3753,11 @@
     "url_slug": "j41",
     "essay_path": "content/works/j41.md",
     "essay_title": "托腮的如意轮，与水月观音的相似和分别",
-    "chapter_id": "people"
+    "chapter_id": "people",
+    "short_title": "金贝尔·如意轮观音坐像",
+    "date_short": "约1230—1250年",
+    "date_note": "另有展签断代",
+    "evidence_notes": []
   },
   {
     "id": "j42",
@@ -3598,7 +3814,7 @@
       }
     ],
     "cover_photo_path": "photos/j42/Image_20261122201739_3212_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
     "materials_summary": "彩绘木雕",
@@ -3624,7 +3840,11 @@
     "url_slug": "j42",
     "essay_path": "content/works/j42.md",
     "essay_title": "看似僧人，原来是八幡神",
-    "chapter_id": "people"
+    "chapter_id": "people",
+    "short_title": "金贝尔·僧形八幡神坐像",
+    "date_short": "11世纪（馆方）",
+    "date_note": "展签另作12世纪",
+    "evidence_notes": []
   },
   {
     "id": "j43",
@@ -3635,7 +3855,7 @@
     "date_display": "1780年；照片展签18世纪",
     "year_start": 1780,
     "year_end": 1780,
-    "period_bucket": "15—19世纪",
+    "period_bucket": "室町至江户（14—19世纪）",
     "category": "明王",
     "accession": "29-96-346",
     "photo_numbers": [
@@ -3681,10 +3901,10 @@
       }
     ],
     "cover_photo_path": "photos/j43/Image_20261122203531_3214_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "确年",
-    "materials_summary": "木、黑红金漆；官网记来自和歌山高野山",
+    "materials_summary": "木、黑红金漆",
     "viewing_museum_id": "PENN",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": false,
@@ -3704,7 +3924,11 @@
     "research_date": "2026-11-22",
     "publish_title": "不动明王坐像",
     "timeline_enabled": true,
-    "url_slug": "j43"
+    "url_slug": "j43",
+    "short_title": "宾大·不动明王坐像",
+    "date_short": "1780年",
+    "date_note": "展签概记18世纪",
+    "evidence_notes": []
   },
   {
     "id": "j44",
@@ -3715,7 +3939,7 @@
     "date_display": "照片展签18世纪",
     "year_start": 1700,
     "year_end": 1799,
-    "period_bucket": "15—19世纪",
+    "period_bucket": "室町至江户（14—19世纪）",
     "category": "童子／胁侍",
     "accession": "待核（展签小字）",
     "photo_numbers": [
@@ -3759,10 +3983,10 @@
       }
     ],
     "cover_photo_path": "photos/j44/Image_20261122203531_3216_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "木、彩色粉底层；红肤、姿势活跃",
+    "materials_summary": "木、彩色粉底层",
     "viewing_museum_id": "PENN",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": false,
@@ -3782,7 +4006,11 @@
     "research_date": "2026-11-22",
     "publish_title": "制多迦童子立像",
     "timeline_enabled": true,
-    "url_slug": "j44"
+    "url_slug": "j44",
+    "short_title": "宾大·制多迦童子立像",
+    "date_short": "照片展签18世纪",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j45",
@@ -3793,7 +4021,7 @@
     "date_display": "官网19世纪；照片展签18世纪",
     "year_start": 1800,
     "year_end": 1899,
-    "period_bucket": "15—19世纪",
+    "period_bucket": "室町至江户（14—19世纪）",
     "category": "童子／胁侍",
     "accession": "29-96-337",
     "photo_numbers": [
@@ -3839,10 +4067,10 @@
       }
     ],
     "cover_photo_path": "photos/j45/Image_20261122203531_3218_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "木、粉底层、彩绘、漆与金；双手合掌",
+    "materials_summary": "木、粉底层、彩绘、漆、金",
     "viewing_museum_id": "PENN",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": false,
@@ -3862,7 +4090,11 @@
     "research_date": "2026-11-22",
     "publish_title": "矜羯罗童子立像",
     "timeline_enabled": true,
-    "url_slug": "j45"
+    "url_slug": "j45",
+    "short_title": "宾大·矜羯罗童子立像",
+    "date_short": "19世纪（馆方）",
+    "date_note": "展签另作18世纪",
+    "evidence_notes": []
   },
   {
     "id": "j46",
@@ -3917,7 +4149,7 @@
       }
     ],
     "cover_photo_path": "photos/j46/Image_20261122203531_3220_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
     "materials_summary": "木、彩绘、水晶嵌眼",
@@ -3940,7 +4172,11 @@
     "research_date": "2026-11-22",
     "publish_title": "二岁圣德太子像",
     "timeline_enabled": true,
-    "url_slug": "j46"
+    "url_slug": "j46",
+    "short_title": "西雅图·二岁圣德太子像",
+    "date_short": "约1300年",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j47",
@@ -3995,10 +4231,10 @@
       }
     ],
     "cover_photo_path": "photos/j47/Image_20261122203531_3222_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "木、粉底层、彩绘；足下地天的支承关系是辨识重点",
+    "materials_summary": "木、粉底层、彩绘",
     "viewing_museum_id": "SEATTLE",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": false,
@@ -4018,7 +4254,11 @@
     "research_date": "2026-11-22",
     "publish_title": "兜跋毗沙门天立像",
     "timeline_enabled": true,
-    "url_slug": "j47"
+    "url_slug": "j47",
+    "short_title": "西雅图·兜跋毗沙门天立像",
+    "date_short": "10世纪末",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j48",
@@ -4073,10 +4313,10 @@
       }
     ],
     "cover_photo_path": "photos/j48/Image_20261122203531_3224_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "一木造",
+    "materials_summary": "木（一木造）",
     "viewing_museum_id": "SEATTLE",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": false,
@@ -4096,7 +4336,11 @@
     "research_date": "2026-11-22",
     "publish_title": "如来立像（展签未定尊名）",
     "timeline_enabled": true,
-    "url_slug": "j48"
+    "url_slug": "j48",
+    "short_title": "西雅图·如来立像（展签未定尊名）",
+    "date_short": "12世纪",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j49",
@@ -4151,10 +4395,10 @@
       }
     ],
     "cover_photo_path": "photos/j49/Image_20261122203531_3226_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "木、残存彩绘；智拳印",
+    "materials_summary": "木、残存彩绘",
     "viewing_museum_id": "SEATTLE",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": false,
@@ -4174,7 +4418,11 @@
     "research_date": "2026-11-22",
     "publish_title": "大日如来坐像",
     "timeline_enabled": true,
-    "url_slug": "j49"
+    "url_slug": "j49",
+    "short_title": "西雅图·大日如来坐像",
+    "date_short": "12世纪",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j50",
@@ -4182,7 +4430,7 @@
     "museum_code": "PORTLAND",
     "collection_museum": "波特兰艺术博物馆",
     "viewing_museum": "波特兰艺术博物馆",
-    "date_display": "12世纪末—13世纪初；基座17—19世纪",
+    "date_display": "像身：12世纪末—13世纪初；基座：17—19世纪",
     "year_start": 1175,
     "year_end": 1225,
     "period_bucket": "12世纪末—14世纪",
@@ -4231,10 +4479,10 @@
       }
     ],
     "cover_photo_path": "photos/j50/Image_20261122203531_3228_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "桧木、漆彩、金、镀金金属件；本体与基座断代必须分开，不能用较晚基座年代给整尊定年",
+    "materials_summary": "桧木、漆彩、金、镀金金属件",
     "viewing_museum_id": "PORTLAND",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": false,
@@ -4254,7 +4502,11 @@
     "research_date": "2026-11-22",
     "publish_title": "持国天立像",
     "timeline_enabled": true,
-    "url_slug": "j50"
+    "url_slug": "j50",
+    "short_title": "波特兰·持国天立像",
+    "date_short": "像身：12世纪末—13世纪初",
+    "date_note": "基座：17—19世纪",
+    "evidence_notes": []
   },
   {
     "id": "j51",
@@ -4324,10 +4576,10 @@
       }
     ],
     "cover_photo_path": "photos/j51/Image_20261122203531_3230_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "木、金与漆；3231是Awakened Ones展厅说明中的中央作品资料，虽非紧贴雕像的小展签，仍可配对",
+    "materials_summary": "木、金、漆",
     "viewing_museum_id": "SEATTLE",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": true,
@@ -4350,7 +4602,13 @@
     "url_slug": "j51",
     "essay_path": "content/works/j51.md",
     "essay_title": "约1130年：金漆之下的安定身体",
-    "chapter_id": "pureland"
+    "chapter_id": "pureland",
+    "short_title": "西雅图·阿弥陀佛坐像",
+    "date_short": "约1130年",
+    "date_note": "",
+    "evidence_notes": [
+      "配对依据为 Awakened Ones 展厅说明中的中央作品资料，并与西雅图馆藏2011.39互核。该照片是展厅说明，不是紧贴雕像的小展签。"
+    ]
   },
   {
     "id": "j52",
@@ -4405,10 +4663,10 @@
       }
     ],
     "cover_photo_path": "photos/j52/Image_20261122203531_3233_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "木、粉底层、彩绘、金、镀金金属件；残缺手臂仍保留原来多臂结构",
+    "materials_summary": "木、粉底层、彩绘、金、镀金金属件",
     "viewing_museum_id": "SAMA",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": true,
@@ -4431,7 +4689,11 @@
     "url_slug": "j52",
     "essay_path": "content/works/j52.md",
     "essay_title": "爱染明王：把欲望放进修行的问题",
-    "chapter_id": "wrath"
+    "chapter_id": "wrath",
+    "short_title": "圣安东尼奥·爱染明王坐像",
+    "date_short": "镰仓晚期，14世纪",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j53",
@@ -4486,10 +4748,10 @@
       }
     ],
     "cover_photo_path": "photos/j53/Image_20261122203531_3235_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "桧木，残存粉底和彩绘；与西雅图兜跋毗沙门天及波特兰持国天比较持物、足下和姿态",
+    "materials_summary": "桧木，残存粉底和彩绘",
     "viewing_museum_id": "SAMA",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": false,
@@ -4509,7 +4771,11 @@
     "research_date": "2026-11-22",
     "publish_title": "毗沙门天立像",
     "timeline_enabled": true,
-    "url_slug": "j53"
+    "url_slug": "j53",
+    "short_title": "圣安东尼奥·毗沙门天立像",
+    "date_short": "12世纪",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j54",
@@ -4564,10 +4830,10 @@
       }
     ],
     "cover_photo_path": "photos/j54/Image_20261122203531_3237_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "一木造，彩绘与漆",
+    "materials_summary": "木、彩绘、漆",
     "viewing_museum_id": "MFAH",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": false,
@@ -4587,7 +4853,11 @@
     "research_date": "2026-11-22",
     "publish_title": "不动明王立像",
     "timeline_enabled": true,
-    "url_slug": "j54"
+    "url_slug": "j54",
+    "short_title": "休斯顿·不动明王立像",
+    "date_short": "10—11世纪",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j55",
@@ -4598,7 +4868,7 @@
     "date_display": "17世纪",
     "year_start": 1600,
     "year_end": 1699,
-    "period_bucket": "15—19世纪",
+    "period_bucket": "室町至江户（14—19世纪）",
     "category": "菩萨／观音",
     "accession": "2004.22.4",
     "photo_numbers": [
@@ -4642,10 +4912,10 @@
       }
     ],
     "cover_photo_path": "photos/j55/Image_20261122203531_3239_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "桧木、漆、金与水晶镶嵌；名称Shō Kannon据展签，勿与十一面或如意轮观音混同",
+    "materials_summary": "桧木、漆、金、水晶镶嵌",
     "viewing_museum_id": "SAMA",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": false,
@@ -4665,7 +4935,11 @@
     "research_date": "2026-11-22",
     "publish_title": "圣观音坐像",
     "timeline_enabled": true,
-    "url_slug": "j55"
+    "url_slug": "j55",
+    "short_title": "圣安东尼奥·圣观音坐像",
+    "date_short": "17世纪",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j56",
@@ -4676,7 +4950,7 @@
     "date_display": "18世纪末",
     "year_start": 1775,
     "year_end": 1799,
-    "period_bucket": "15—19世纪",
+    "period_bucket": "室町至江户（14—19世纪）",
     "category": "来迎／组合",
     "accession": "2013.38.262",
     "photo_numbers": [
@@ -4746,10 +5020,10 @@
       }
     ],
     "cover_photo_path": "photos/j56/Image_20261122203531_3241_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "木、金、彩绘、金属、硬石；丰厚云座与放下一腿的阿弥陀很适合与吉美三尊及Met陈设比较",
+    "materials_summary": "木、金、彩绘、金属、硬石",
     "viewing_museum_id": "SAMA",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": false,
@@ -4769,7 +5043,11 @@
     "research_date": "2026-11-22",
     "publish_title": "阿弥陀三尊来迎像",
     "timeline_enabled": true,
-    "url_slug": "j56"
+    "url_slug": "j56",
+    "short_title": "圣安东尼奥·阿弥陀三尊来迎像",
+    "date_short": "18世纪末",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j57",
@@ -4824,10 +5102,10 @@
       }
     ],
     "cover_photo_path": "photos/j57/Image_20261122203531_3245_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "木、残彩与金；展签从来迎手印辨识为阿弥陀",
+    "materials_summary": "木、残彩、金",
     "viewing_museum_id": "SAMA",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": false,
@@ -4847,7 +5125,11 @@
     "research_date": "2026-11-22",
     "publish_title": "阿弥陀佛立像",
     "timeline_enabled": true,
-    "url_slug": "j57"
+    "url_slug": "j57",
+    "short_title": "圣安东尼奥·阿弥陀佛立像",
+    "date_short": "12世纪末",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j58",
@@ -4858,7 +5140,7 @@
     "date_display": "17世纪",
     "year_start": 1600,
     "year_end": 1699,
-    "period_bucket": "15—19世纪",
+    "period_bucket": "室町至江户（14—19世纪）",
     "category": "护法",
     "accession": "2004.22.1.a-b",
     "photo_numbers": [
@@ -4915,7 +5197,7 @@
       }
     ],
     "cover_photo_path": "photos/j58/Image_20261122203531_3247_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
     "materials_summary": "桧木、漆、彩绘与水晶嵌眼",
@@ -4938,7 +5220,11 @@
     "research_date": "2026-11-22",
     "publish_title": "仁王一对",
     "timeline_enabled": true,
-    "url_slug": "j58"
+    "url_slug": "j58",
+    "short_title": "圣安东尼奥·仁王一对",
+    "date_short": "17世纪",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j59",
@@ -4949,7 +5235,7 @@
     "date_display": "17世纪",
     "year_start": 1600,
     "year_end": 1699,
-    "period_bucket": "15—19世纪",
+    "period_bucket": "室町至江户（14—19世纪）",
     "category": "菩萨／地藏",
     "accession": "2004.22.5",
     "photo_numbers": [
@@ -5045,10 +5331,10 @@
       }
     ],
     "cover_photo_path": "photos/j59/Image_20261122203531_3250_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
-    "materials_summary": "桧木、漆彩、截金与水晶嵌眼；正背侧与袈裟纹样齐全，是理解背面装饰的重要一组",
+    "materials_summary": "桧木、漆彩、截金、水晶嵌眼",
     "viewing_museum_id": "SAMA",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": true,
@@ -5071,7 +5357,11 @@
     "url_slug": "j59",
     "essay_path": "content/works/j59.md",
     "essay_title": "绕到地藏背后：金色袈裟的另一面",
-    "chapter_id": "pureland"
+    "chapter_id": "pureland",
+    "short_title": "圣安东尼奥·地藏菩萨立像",
+    "date_short": "17世纪",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j60",
@@ -5082,7 +5372,7 @@
     "date_display": "19世纪后半叶",
     "year_start": 1850,
     "year_end": 1899,
-    "period_bucket": "15—19世纪",
+    "period_bucket": "室町至江户（14—19世纪）",
     "category": "仪式／器物",
     "accession": "98.8.2.a-n",
     "photo_numbers": [
@@ -5165,7 +5455,7 @@
       }
     ],
     "cover_photo_path": "photos/j60/Image_20261122203531_3256_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "范围／约年",
     "materials_summary": "木、漆、金与镀金铜件",
@@ -5188,7 +5478,11 @@
     "research_date": "2026-11-22",
     "publish_title": "家用佛坛（Butsudan）",
     "timeline_enabled": true,
-    "url_slug": "j60"
+    "url_slug": "j60",
+    "short_title": "圣安东尼奥·家用佛坛（Butsudan）",
+    "date_short": "19世纪后半叶",
+    "date_note": "",
+    "evidence_notes": []
   },
   {
     "id": "j61",
@@ -5199,7 +5493,7 @@
     "date_display": "1472年",
     "year_start": 1472,
     "year_end": 1472,
-    "period_bucket": "15—19世纪",
+    "period_bucket": "室町至江户（14—19世纪）",
     "category": "如来",
     "accession": "92.193",
     "photo_numbers": [
@@ -5246,10 +5540,10 @@
       }
     ],
     "cover_photo_path": "photos/j61/Image_20261122203531_3261_19.jpg",
-    "artist": "Kōei / Unkei IX（Kōei／九代运庆）；不要与初代运庆混淆",
+    "artist": "Kōei（Unkei IX／九代运庆）",
     "ownership_note": "馆方馆藏记录",
     "date_precision": "确年",
-    "materials_summary": "Kōei (Unkei IX)，木、残存彩绘",
+    "materials_summary": "木、残存彩绘",
     "viewing_museum_id": "MFAH",
     "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
     "personal_highlight": false,
@@ -5272,7 +5566,20 @@
     "url_slug": "j61",
     "essay_path": "content/works/j61.md",
     "essay_title": "1472年，另一个“运庆”的名字",
-    "chapter_id": "survival"
+    "chapter_id": "survival",
+    "short_title": "休斯顿·阿弥陀佛坐像（Kōei／九代运庆）",
+    "date_short": "1472年",
+    "date_note": "",
+    "evidence_notes": [
+      "Kōei 的汉字本次未核实；Unkei IX 是馆方对15世纪制作者的称谓，与镰仓初期运庆分别记录。"
+    ],
+    "maker_credits": [
+      {
+        "maker_id": "koei",
+        "role": "制作者",
+        "attribution": "馆方明确归属"
+      }
+    ]
   },
   {
     "id": "j62",
@@ -5315,7 +5622,7 @@
     ],
     "labels": [],
     "cover_photo_path": "photos/j62/Image_20261122203815_3263_19.jpg",
-    "artist": "展签未记作者",
+    "artist": "作者不详",
     "ownership_note": "馆方Credit Line：Lent by Mrs. Saundra Neubardt；不是沃尔特斯自有藏品。",
     "date_precision": "世纪断代",
     "materials_summary": "木与漆塑（馆方：wood, bulked lacquer）",
@@ -5343,6 +5650,12 @@
     "source_ids": [
       "S-WALTERS-SAICHO",
       "U-WALTERS-MATCH"
+    ],
+    "short_title": "沃尔特斯·最澄（传教大师）坐像",
+    "date_short": "13世纪",
+    "date_note": "镰仓时期",
+    "evidence_notes": [
+      "本批没有该像的现场展签照片。作品对应据作者提供的观看记录；年代、材料及借展署名据沃尔特斯馆方记录。"
     ]
   }
 ]

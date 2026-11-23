@@ -10,7 +10,7 @@
     "role": "用户记忆较深的作品（无排名）",
     "viewing_museum_id": "MFAH",
     "collection_museum_id": "MIA",
-    "route": "/japanese-buddhist-sculpture/j01/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j01/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -25,7 +25,7 @@
     "role": "完整索引",
     "viewing_museum_id": "MFAH",
     "collection_museum_id": "BOSTON",
-    "route": "/japanese-buddhist-sculpture/j02/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j02/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -40,7 +40,7 @@
     "role": "研究补选",
     "viewing_museum_id": "GUIMET",
     "collection_museum_id": "GUIMET",
-    "route": "/japanese-buddhist-sculpture/j03/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j03/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -55,7 +55,7 @@
     "role": "完整索引",
     "viewing_museum_id": "GUIMET",
     "collection_museum_id": "GUIMET",
-    "route": "/japanese-buddhist-sculpture/j04/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j04/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -70,7 +70,7 @@
     "role": "完整索引",
     "viewing_museum_id": "GUIMET",
     "collection_museum_id": "GUIMET",
-    "route": "/japanese-buddhist-sculpture/j05/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j05/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -85,7 +85,7 @@
     "role": "完整索引",
     "viewing_museum_id": "GUIMET",
     "collection_museum_id": "GUIMET",
-    "route": "/japanese-buddhist-sculpture/j06/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j06/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -100,7 +100,7 @@
     "role": "完整索引",
     "viewing_museum_id": "GUIMET",
     "collection_museum_id": "GUIMET",
-    "route": "/japanese-buddhist-sculpture/j07/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j07/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -115,7 +115,7 @@
     "role": "用户记忆较深的作品（无排名）",
     "viewing_museum_id": "CERNUSCHI",
     "collection_museum_id": "CERNUSCHI",
-    "route": "/japanese-buddhist-sculpture/j08/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j08/",
     "comparison_only": true,
     "ritual_object": false
   },
@@ -130,7 +130,7 @@
     "role": "完整索引",
     "viewing_museum_id": "DALLAS",
     "collection_museum_id": "DALLAS",
-    "route": "/japanese-buddhist-sculpture/j09/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j09/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -145,7 +145,7 @@
     "role": "用户记忆较深的作品（无排名）",
     "viewing_museum_id": "DALLAS",
     "collection_museum_id": "DALLAS",
-    "route": "/japanese-buddhist-sculpture/j10/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j10/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -160,7 +160,7 @@
     "role": "用户记忆较深的作品（无排名）",
     "viewing_museum_id": "MET",
     "collection_museum_id": "MET",
-    "route": "/japanese-buddhist-sculpture/j11/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j11/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -175,7 +175,7 @@
     "role": "用户记忆较深的作品（无排名）",
     "viewing_museum_id": "MET",
     "collection_museum_id": "MET",
-    "route": "/japanese-buddhist-sculpture/j12/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j12/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -190,7 +190,7 @@
     "role": "用户记忆较深的作品（无排名）",
     "viewing_museum_id": "MET",
     "collection_museum_id": "MET",
-    "route": "/japanese-buddhist-sculpture/j13/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j13/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -205,7 +205,7 @@
     "role": "研究补选",
     "viewing_museum_id": "MET",
     "collection_museum_id": "MET",
-    "route": "/japanese-buddhist-sculpture/j14/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j14/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -220,7 +220,7 @@
     "role": "完整索引",
     "viewing_museum_id": "MET",
     "collection_museum_id": "MET",
-    "route": "/japanese-buddhist-sculpture/j15/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j15/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -235,7 +235,7 @@
     "role": "用户记忆较深的作品（无排名）",
     "viewing_museum_id": "MET",
     "collection_museum_id": "MET",
-    "route": "/japanese-buddhist-sculpture/j16/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j16/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -250,7 +250,7 @@
     "role": "用户记忆较深的作品（无排名）",
     "viewing_museum_id": "NELSON",
     "collection_museum_id": "NELSON",
-    "route": "/japanese-buddhist-sculpture/j17/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j17/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -265,7 +265,7 @@
     "role": "完整索引",
     "viewing_museum_id": "NELSON",
     "collection_museum_id": "NELSON",
-    "route": "/japanese-buddhist-sculpture/j18/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j18/",
     "comparison_only": false,
     "ritual_object": true
   },
@@ -280,7 +280,7 @@
     "role": "研究补选",
     "viewing_museum_id": "NELSON",
     "collection_museum_id": "NELSON",
-    "route": "/japanese-buddhist-sculpture/j19/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j19/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -295,7 +295,7 @@
     "role": "完整索引",
     "viewing_museum_id": "NELSON",
     "collection_museum_id": "NELSON",
-    "route": "/japanese-buddhist-sculpture/j20/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j20/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -310,7 +310,7 @@
     "role": "完整索引",
     "viewing_museum_id": "NELSON",
     "collection_museum_id": "NELSON",
-    "route": "/japanese-buddhist-sculpture/j21/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j21/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -325,7 +325,7 @@
     "role": "研究补选",
     "viewing_museum_id": "CMA",
     "collection_museum_id": "CMA",
-    "route": "/japanese-buddhist-sculpture/j22/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j22/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -340,7 +340,7 @@
     "role": "用户记忆较深的作品（无排名）",
     "viewing_museum_id": "CMA",
     "collection_museum_id": "CMA",
-    "route": "/japanese-buddhist-sculpture/j23/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j23/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -355,7 +355,7 @@
     "role": "用户记忆较深的作品（无排名）",
     "viewing_museum_id": "CMA",
     "collection_museum_id": "CMA",
-    "route": "/japanese-buddhist-sculpture/j24/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j24/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -370,7 +370,7 @@
     "role": "用户记忆较深的作品（无排名）",
     "viewing_museum_id": "CMA",
     "collection_museum_id": "CMA",
-    "route": "/japanese-buddhist-sculpture/j25/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j25/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -385,7 +385,7 @@
     "role": "完整索引",
     "viewing_museum_id": "CMA",
     "collection_museum_id": "CMA",
-    "route": "/japanese-buddhist-sculpture/j26/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j26/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -400,7 +400,7 @@
     "role": "研究补选",
     "viewing_museum_id": "CMA",
     "collection_museum_id": "CMA",
-    "route": "/japanese-buddhist-sculpture/j27/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j27/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -415,7 +415,7 @@
     "role": "研究补选",
     "viewing_museum_id": "CMA",
     "collection_museum_id": "CMA",
-    "route": "/japanese-buddhist-sculpture/j28/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j28/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -430,7 +430,7 @@
     "role": "完整索引",
     "viewing_museum_id": "CMA",
     "collection_museum_id": "CMA",
-    "route": "/japanese-buddhist-sculpture/j29/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j29/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -445,7 +445,7 @@
     "role": "完整索引",
     "viewing_museum_id": "HONOLULU",
     "collection_museum_id": "HONOLULU",
-    "route": "/japanese-buddhist-sculpture/j30/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j30/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -460,7 +460,7 @@
     "role": "完整索引",
     "viewing_museum_id": "HONOLULU",
     "collection_museum_id": "HONOLULU",
-    "route": "/japanese-buddhist-sculpture/j31/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j31/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -475,13 +475,13 @@
     "role": "完整索引",
     "viewing_museum_id": "HONOLULU",
     "collection_museum_id": "HONOLULU",
-    "route": "/japanese-buddhist-sculpture/j32/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j32/",
     "comparison_only": false,
     "ritual_object": false
   },
   {
     "id": "j33",
-    "title": "来迎观音立像（定庆周边）",
+    "title": "来迎观音立像（Jōkei周边）",
     "date_display": "13世纪",
     "year_start": 1200,
     "year_end": 1299,
@@ -490,7 +490,7 @@
     "role": "完整索引",
     "viewing_museum_id": "HONOLULU",
     "collection_museum_id": "HONOLULU",
-    "route": "/japanese-buddhist-sculpture/j33/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j33/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -505,7 +505,7 @@
     "role": "完整索引",
     "viewing_museum_id": "HONOLULU",
     "collection_museum_id": "HONOLULU",
-    "route": "/japanese-buddhist-sculpture/j34/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j34/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -520,7 +520,7 @@
     "role": "用户记忆较深的作品（无排名）",
     "viewing_museum_id": "HONOLULU",
     "collection_museum_id": "HONOLULU",
-    "route": "/japanese-buddhist-sculpture/j35/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j35/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -535,7 +535,7 @@
     "role": "完整索引",
     "viewing_museum_id": "HONOLULU",
     "collection_museum_id": "HONOLULU",
-    "route": "/japanese-buddhist-sculpture/j36/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j36/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -550,7 +550,7 @@
     "role": "完整索引",
     "viewing_museum_id": "HONOLULU",
     "collection_museum_id": "HONOLULU",
-    "route": "/japanese-buddhist-sculpture/j37/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j37/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -565,7 +565,7 @@
     "role": "完整索引",
     "viewing_museum_id": "HONOLULU",
     "collection_museum_id": "HONOLULU",
-    "route": "/japanese-buddhist-sculpture/j38/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j38/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -580,7 +580,7 @@
     "role": "完整索引",
     "viewing_museum_id": "FREER",
     "collection_museum_id": "FREER",
-    "route": "/japanese-buddhist-sculpture/j39/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j39/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -595,7 +595,7 @@
     "role": "用户记忆较深的作品（无排名）",
     "viewing_museum_id": "KIMBELL",
     "collection_museum_id": "KIMBELL",
-    "route": "/japanese-buddhist-sculpture/j40/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j40/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -610,7 +610,7 @@
     "role": "研究补选",
     "viewing_museum_id": "KIMBELL",
     "collection_museum_id": "KIMBELL",
-    "route": "/japanese-buddhist-sculpture/j41/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j41/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -625,7 +625,7 @@
     "role": "研究补选",
     "viewing_museum_id": "KIMBELL",
     "collection_museum_id": "KIMBELL",
-    "route": "/japanese-buddhist-sculpture/j42/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j42/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -640,7 +640,7 @@
     "role": "完整索引",
     "viewing_museum_id": "PENN",
     "collection_museum_id": "PENN",
-    "route": "/japanese-buddhist-sculpture/j43/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j43/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -655,7 +655,7 @@
     "role": "完整索引",
     "viewing_museum_id": "PENN",
     "collection_museum_id": "PENN",
-    "route": "/japanese-buddhist-sculpture/j44/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j44/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -670,7 +670,7 @@
     "role": "完整索引",
     "viewing_museum_id": "PENN",
     "collection_museum_id": "PENN",
-    "route": "/japanese-buddhist-sculpture/j45/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j45/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -685,7 +685,7 @@
     "role": "完整索引",
     "viewing_museum_id": "SEATTLE",
     "collection_museum_id": "SEATTLE",
-    "route": "/japanese-buddhist-sculpture/j46/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j46/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -700,7 +700,7 @@
     "role": "完整索引",
     "viewing_museum_id": "SEATTLE",
     "collection_museum_id": "SEATTLE",
-    "route": "/japanese-buddhist-sculpture/j47/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j47/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -715,7 +715,7 @@
     "role": "完整索引",
     "viewing_museum_id": "SEATTLE",
     "collection_museum_id": "SEATTLE",
-    "route": "/japanese-buddhist-sculpture/j48/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j48/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -730,14 +730,14 @@
     "role": "完整索引",
     "viewing_museum_id": "SEATTLE",
     "collection_museum_id": "SEATTLE",
-    "route": "/japanese-buddhist-sculpture/j49/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j49/",
     "comparison_only": false,
     "ritual_object": false
   },
   {
     "id": "j50",
     "title": "持国天立像",
-    "date_display": "12世纪末—13世纪初；基座17—19世纪",
+    "date_display": "像身：12世纪末—13世纪初；基座：17—19世纪",
     "year_start": 1175,
     "year_end": 1225,
     "enabled": true,
@@ -745,7 +745,7 @@
     "role": "完整索引",
     "viewing_museum_id": "PORTLAND",
     "collection_museum_id": "PORTLAND",
-    "route": "/japanese-buddhist-sculpture/j50/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j50/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -760,7 +760,7 @@
     "role": "用户记忆较深的作品（无排名）",
     "viewing_museum_id": "SEATTLE",
     "collection_museum_id": "SEATTLE",
-    "route": "/japanese-buddhist-sculpture/j51/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j51/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -775,7 +775,7 @@
     "role": "用户记忆较深的作品（无排名）",
     "viewing_museum_id": "SAMA",
     "collection_museum_id": "SAMA",
-    "route": "/japanese-buddhist-sculpture/j52/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j52/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -790,7 +790,7 @@
     "role": "完整索引",
     "viewing_museum_id": "SAMA",
     "collection_museum_id": "SAMA",
-    "route": "/japanese-buddhist-sculpture/j53/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j53/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -805,7 +805,7 @@
     "role": "完整索引",
     "viewing_museum_id": "MFAH",
     "collection_museum_id": "MFAH",
-    "route": "/japanese-buddhist-sculpture/j54/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j54/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -820,7 +820,7 @@
     "role": "完整索引",
     "viewing_museum_id": "SAMA",
     "collection_museum_id": "SAMA",
-    "route": "/japanese-buddhist-sculpture/j55/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j55/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -835,7 +835,7 @@
     "role": "完整索引",
     "viewing_museum_id": "SAMA",
     "collection_museum_id": "SAMA",
-    "route": "/japanese-buddhist-sculpture/j56/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j56/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -850,7 +850,7 @@
     "role": "完整索引",
     "viewing_museum_id": "SAMA",
     "collection_museum_id": "SAMA",
-    "route": "/japanese-buddhist-sculpture/j57/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j57/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -865,7 +865,7 @@
     "role": "完整索引",
     "viewing_museum_id": "SAMA",
     "collection_museum_id": "SAMA",
-    "route": "/japanese-buddhist-sculpture/j58/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j58/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -880,7 +880,7 @@
     "role": "用户记忆较深的作品（无排名）",
     "viewing_museum_id": "SAMA",
     "collection_museum_id": "SAMA",
-    "route": "/japanese-buddhist-sculpture/j59/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j59/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -895,7 +895,7 @@
     "role": "完整索引",
     "viewing_museum_id": "SAMA",
     "collection_museum_id": "SAMA",
-    "route": "/japanese-buddhist-sculpture/j60/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j60/",
     "comparison_only": false,
     "ritual_object": true
   },
@@ -910,7 +910,7 @@
     "role": "研究补选",
     "viewing_museum_id": "MFAH",
     "collection_museum_id": "MFAH",
-    "route": "/japanese-buddhist-sculpture/j61/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j61/",
     "comparison_only": false,
     "ritual_object": false
   },
@@ -925,7 +925,7 @@
     "role": "完整索引",
     "viewing_museum_id": "WALTERS",
     "collection_museum_id": "NEUBARDT",
-    "route": "/japanese-buddhist-sculpture/j62/",
+    "route": "/museum-notes/japanese-buddhist-sculpture/j62/",
     "comparison_only": false,
     "ritual_object": false
   }

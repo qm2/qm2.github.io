@@ -1,0 +1,135 @@
+[
+  {
+    "id": "koshun",
+    "display": "康俊（Kōshun）",
+    "original_han": "康俊",
+    "romanized": "Kōshun",
+    "role": "主作",
+    "activity": "13世纪中叶（CMA）",
+    "name_sources": [
+      "S-CMA-AMIDA",
+      "S-BPCJ-KOSHUN"
+    ],
+    "identity_status": "姓名汉字有节目档案支持；本像铭记汉字原文未直接核读。同名14世纪人物的生平不作移用。",
+    "note": "1269年克利夫兰阿弥陀的主作，馆方另记法桥称号。",
+    "works": [
+      "j23"
+    ]
+  },
+  {
+    "id": "koshin",
+    "display": "Koshin",
+    "original_han": null,
+    "romanized": "Koshin",
+    "role": "协作",
+    "activity": "13世纪中叶（CMA）",
+    "name_sources": [
+      "S-CMA-AMIDA"
+    ],
+    "identity_status": "汉字及具体生平待核；拼写照馆方。",
+    "note": "馆方明确列为1269年阿弥陀的协作者，分工未见公开说明。",
+    "works": [
+      "j23"
+    ]
+  },
+  {
+    "id": "joshun",
+    "display": "Joshun",
+    "original_han": null,
+    "romanized": "Joshun",
+    "role": "协作",
+    "activity": "13世纪中叶（CMA）",
+    "name_sources": [
+      "S-CMA-AMIDA"
+    ],
+    "identity_status": "汉字及具体生平待核；拼写照馆方。",
+    "note": "馆方明确列为1269年阿弥陀的协作者，分工未见公开说明。",
+    "works": [
+      "j23"
+    ]
+  },
+  {
+    "id": "jocho",
+    "display": "定朝（Jōchō）",
+    "original_han": "定朝",
+    "romanized": "Jōchō",
+    "role": "历史参照",
+    "activity": "11世纪",
+    "name_sources": [
+      "S-KNM-JP",
+      "S-TNM-UNKEI"
+    ],
+    "identity_status": "本站没有确定为定朝亲作的作品；“定朝样”指影响及样式参照。",
+    "note": "平安时期仏师，1053年平等院凤凰堂阿弥陀的作者。其比例、温和面貌及造像方法成为后继工房的重要参照。",
+    "works": [
+      "j51"
+    ]
+  },
+  {
+    "id": "kaikei",
+    "display": "快庆（Kaikei／快慶）",
+    "original_han": "快慶",
+    "romanized": "Kaikei",
+    "role": "制作者",
+    "activity": "12世纪末—13世纪初",
+    "name_sources": [
+      "S-OSAKA-HOKKYO",
+      "S-YALE-KAIKEI",
+      "S-KIM-50"
+    ],
+    "identity_status": "金贝尔作品归属据馆方及署名研究；不与运庆合并为一人。",
+    "note": "镰仓初期活跃的仏师。金贝尔释迦左足榫部的署名由研究者记录，带有法眼称号。",
+    "works": [
+      "j40"
+    ]
+  },
+  {
+    "id": "tankei",
+    "display": "湛庆（Tankei／湛慶）",
+    "original_han": "湛慶",
+    "romanized": "Tankei",
+    "role": "推定作者",
+    "activity": "13世纪",
+    "name_sources": [
+      "S-KNM-JP",
+      "L3189"
+    ],
+    "identity_status": "本件展签为“传／Attributed to”，不作确定亲作。",
+    "note": "日本馆方资料使用“湛慶”汉字。檀香山十一面观音保留展签的推定归属。",
+    "works": [
+      "j32"
+    ]
+  },
+  {
+    "id": "jokei",
+    "display": "Jōkei",
+    "original_han": null,
+    "romanized": "Jōkei",
+    "role": "周边归属",
+    "activity": "具体人物待核",
+    "name_sources": [
+      "L3191"
+    ],
+    "identity_status": "展签作 Circle of Jōkei；本件所指同名仏师尚待确认，暂保留罗马字。",
+    "note": "“周边”说明风格或制作环境的关联，比亲作归属宽。",
+    "works": [
+      "j33"
+    ]
+  },
+  {
+    "id": "koei",
+    "display": "Kōei（Unkei IX／九代运庆）",
+    "original_han": null,
+    "romanized": "Kōei / Unkei IX",
+    "role": "制作者",
+    "activity": "15世纪；本件1472年",
+    "name_sources": [
+      "S-MFAH-KOEI"
+    ],
+    "identity_status": "Kōei汉字未核。九代运庆与镰仓初期运庆分别记录，不据称谓补写完整家系。",
+    "note": "休斯顿1472年阿弥陀的馆方作者名；这一作品体现了后世对制作者名号与传统的承接。",
+    "works": [
+      "j61"
+    ]
+  }
+]
