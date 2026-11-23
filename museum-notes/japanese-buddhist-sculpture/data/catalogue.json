@@ -664,7 +664,16 @@
     "short_title": "赛努奇·目黑大佛／阿弥陀佛坐像",
     "date_short": "18世纪；数据库宽记1603—1867",
     "date_note": "",
-    "evidence_notes": []
+    "evidence_notes": [],
+    "dimensions": [
+      {
+        "scope": "馆方尺寸（未分列部件）",
+        "height_cm": 440,
+        "width_cm": 255,
+        "display": "馆方尺寸：高440 × 宽255厘米（未分列部件）",
+        "source": "S-CER-DIMENSIONS"
+      }
+    ]
   },
   {
     "id": "j09",
@@ -1131,7 +1140,29 @@
     "short_title": "大都会·大日如来坐像",
     "date_short": "12世纪",
     "date_note": "",
-    "evidence_notes": []
+    "evidence_notes": [],
+    "dimensions": [
+      {
+        "scope": "像身",
+        "height_cm": 92.4,
+        "width_cm": 69.9,
+        "depth_cm": 49.8,
+        "display": "像身高92.4 × 宽69.9 × 深49.8厘米",
+        "source": "S-MET-DAI"
+      },
+      {
+        "scope": "连基座",
+        "height_cm": 161.9,
+        "display": "连基座高161.9厘米",
+        "source": "S-MET-DAI"
+      },
+      {
+        "scope": "连基座与光背",
+        "height_cm": 218.4,
+        "display": "连基座与光背高218.4厘米",
+        "source": "S-MET-DAI"
+      }
+    ]
   },
   {
     "id": "j14",
@@ -1500,7 +1531,16 @@
     "short_title": "纳尔逊·阿弥陀如来坐像",
     "date_short": "室町时期",
     "date_note": "宽泛时代归属，详见资料",
-    "evidence_notes": []
+    "evidence_notes": [],
+    "dimensions": [
+      {
+        "scope": "馆方教学资料（未分列台座）",
+        "height_cm": 279.4,
+        "original_value": "110 inches (height)",
+        "display": "馆方教学资料：高279.4厘米（110英寸，未分列台座）",
+        "source": "S-NEL-DIMENSIONS"
+      }
+    ]
   },
   {
     "id": "j18",
@@ -2104,6 +2144,14 @@
         "role": "协作",
         "attribution": "馆方 assisted by"
       }
+    ],
+    "dimensions": [
+      {
+        "scope": "整体",
+        "height_cm": 94.6,
+        "display": "整体高94.6厘米",
+        "source": "S-CMA-AMIDA"
+      }
     ]
   },
   {
@@ -2513,7 +2561,17 @@
     "short_title": "克利夫兰·释迦牟尼坐像",
     "date_short": "约900年",
     "date_note": "",
-    "evidence_notes": []
+    "evidence_notes": [],
+    "dimensions": [
+      {
+        "scope": "作品",
+        "height_cm": 57.2,
+        "width_cm": 46.4,
+        "depth_cm": 38.1,
+        "display": "高57.2 × 宽46.4 × 深38.1厘米",
+        "source": "S-CMA-SHAKA"
+      }
+    ]
   },
   {
     "id": "j28",
@@ -5570,14 +5628,22 @@
     "short_title": "休斯顿·阿弥陀佛坐像（Kōei／九代运庆）",
     "date_short": "1472年",
     "date_note": "",
-    "evidence_notes": [
-      "Kōei 的汉字本次未核实；Unkei IX 是馆方对15世纪制作者的称谓，与镰仓初期运庆分别记录。"
-    ],
+    "evidence_notes": [],
     "maker_credits": [
       {
         "maker_id": "koei",
         "role": "制作者",
         "attribution": "馆方明确归属"
+      }
+    ],
+    "dimensions": [
+      {
+        "scope": "整体",
+        "height_cm": 53.3,
+        "width_cm": 45.1,
+        "depth_cm": 41,
+        "display": "整体高53.3 × 宽45.1 × 深41厘米",
+        "source": "S-MFAH-KOEI-OBJECT"
       }
     ]
   },

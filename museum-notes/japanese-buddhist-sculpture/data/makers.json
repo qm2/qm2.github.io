@@ -77,7 +77,7 @@
       "S-YALE-KAIKEI",
       "S-KIM-50"
     ],
-    "identity_status": "金贝尔作品归属据馆方及署名研究；不与运庆合并为一人。",
+    "identity_status": "金贝尔作品归属据馆方及署名研究。",
     "note": "镰仓初期活跃的仏师。金贝尔释迦左足榫部的署名由研究者记录，带有法眼称号。",
     "works": [
       "j40"
@@ -124,10 +124,11 @@
     "role": "制作者",
     "activity": "15世纪；本件1472年",
     "name_sources": [
-      "S-MFAH-KOEI"
+      "S-MFAH-KOEI",
+      "S-MFAH-KOEI-OBJECT"
     ],
-    "identity_status": "Kōei汉字未核。九代运庆与镰仓初期运庆分别记录，不据称谓补写完整家系。",
-    "note": "休斯顿1472年阿弥陀的馆方作者名；这一作品体现了后世对制作者名号与传统的承接。",
+    "identity_status": "姓名沿用馆方罗马字Kōei；汉字尚待核实。",
+    "note": "MFAH公布的1472年头内墨书释文，将Kōei、九代运庆与七条佛所相联系。",
     "works": [
       "j61"
     ]

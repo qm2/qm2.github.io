@@ -7,7 +7,7 @@ ROOT=Path(__file__).resolve().parents[1];BASE=ROOT/'museum-notes/japanese-buddhi
 TITLE='东瀛佛影';SUB='日本佛教木雕：木胎、金彩与亲见札记'
 def build():
  load=lambda n:json.loads((BASE/'data'/n).read_text())
- museum_readings=load('museum-reading-notes.json');compare_readings=load('comparison-readings.json');makers=load('makers.json');maker_by={m['id']:m for m in makers};history_guide=load('history-guide.json');display_notes=load('display-notes.json');works=load('catalogue.json');by={w['id']:w for w in works};media=load('media.json');sources=json.loads((BASE/'research/source_registry.json').read_text());essays={x['work_id']:x for x in load('essays.json')};chapters=load('chapters.json');comparisons=load('comparisons.json');selection=load('selections.json');museums=load('viewing-museums.geojson')['features'];hist=load('historical-context.geojson')['features']
+ research_notes=load('research-notes.json');museum_readings=load('museum-reading-notes.json');compare_readings=load('comparison-readings.json');makers=load('makers.json');maker_by={m['id']:m for m in makers};history_guide=load('history-guide.json');display_notes=load('display-notes.json');works=load('catalogue.json');by={w['id']:w for w in works};media=load('media.json');sources=json.loads((BASE/'research/source_registry.json').read_text());essays={x['work_id']:x for x in load('essays.json')};chapters=load('chapters.json');comparisons=load('comparisons.json');selection=load('selections.json');museums=load('viewing-museums.geojson')['features'];hist=load('historical-context.geojson')['features']
  # Keep canonical source photo mappings; the full-body display choice is editorial only.
  full={w['id']:w['main_photo'] for w in works};full['j19']=3152
  caps={3135:'侧看三尊、飞天与展厅中的间距',3146:'展厅远景：坐像与周围空间',3147:'面容、双手与坐姿近照',3151:'地藏面容与胸前衣褶近照',3152:'地藏立像全貌，玻璃反光保留',3157:'面容、衣纹与光背近照',3162:'胸腹以下层叠衣纹与金色细线',3163:'侧面：手势与衣服离开身体的距离',3164:'背面：袈裟沿身体垂下',3165:'衣饰近照：细密纹样与衣缘',3168:'侧面：坐椅、宽袍与头部轮廓',3171:'侧面：身体、莲座与光背',3172:'斜侧面：抬手与坐姿',3173:'台座近照：莲瓣与下方结构',3174:'面部、胸前衣褶及残存金饰',3205:'上半身与镂空光背近照',3206:'面容、举手与光背近照',3207:'垂落衣褶近照',3210:'背面：躯干、衣褶与残存彩饰',3232:'面容、胸腹与双手近照',3242:'侧看云座上的三尊',3243:'三尊与云气近照',3247:'仁王一对中的一尊',3248:'仁王一对中的另一尊',3251:'绕到背后：袈裟展开的形状',3252:'侧面：锡杖与身体的关系',3253:'背部袈裟近照：纹样的分区',3254:'前侧衣纹与装饰近照',3257:'佛坛打开后的内部空间',3258:'中央佛像与供具近照',3259:'中央佛像、莲座与悬挂饰件'}
@@ -82,11 +82,15 @@ def build():
    items.append('<li>'+ (f'<a href="{u}">{e(name)}</a>' if u else e(name)) +f' · <a href="{URL}sources/#{k}">资料说明</a></li>')
   return '<details class="jw-sources"><summary>资料与来源</summary><ol>'+''.join(items)+'</ol></details>' if items else ''
  def textkeys(file):return re.findall(r'\[((?:S-|U-)[A-Z0-9-]+|L\d+)\]',(BASE/file).read_text().split('\n---')[0])
+ def dimensions(w,short=False):
+  ds=w.get("dimensions",[])
+  if short and w["id"]=="j13":ds=[ds[0],ds[-1]]
+  return "；".join(inline(d["display"]+"["+d["source"]+"]") for d in ds)
  def facts(w):
   fields=[('年代',w['date_display']),('材料',w['materials_summary']),('作者',w['artist']),('收藏',w['collection_museum']),('编号',w['accession']),('亲见',w['viewing_museum'])]
   if w.get('ownership_note') and w['ownership_note']!='馆方馆藏记录':fields.append(('收藏说明',w['ownership_note']))
   if w.get('evidence_notes'):fields.append(('资料札记','；'.join(w['evidence_notes'])))
-  return '<dl class="jw-facts">'+''.join(f'<div><dt>{k}</dt><dd>{e(str(v))}</dd></div>' for k,v in fields)+'</dl>'
+  return '<dl class="jw-facts">'+''.join(f'<div><dt>{k}</dt><dd>{e(str(v))}</dd></div>' for k,v in fields)+(f'<div><dt>尺寸</dt><dd>{dimensions(w)}</dd></div>' if w.get('dimensions') else '')+'</dl>'
  def maker_info(w):
   credits=w.get('maker_credits',[])
   if not credits:return ''
@@ -119,10 +123,16 @@ def build():
  body+='</div></section><section class="jw-section" id="readings"><h2>二十五篇细读</h2><div class="jw-reading-list">'+''.join(f'<a href="{href(wid)}"><span>{e(by[wid]["short_title"])}</span>{e(x["title"])}</a>' for wid,x in essays.items())+'</div></section>'
  body+='<section class="jw-section jw-entry-pair"><div><h2>所见地图与年表</h2><p>十五处观看馆址，六十二条作品／组合档案。一件作品的年代、收藏地与我看见它的地方，分别留下来。</p><a href="atlas/">打开地图、年代与完整图录</a></div><div><h2>放在一起看</h2><p>同一尊格的不同身体，木与铜的不同重量。十组并看，把衣纹、手印和表面的疑问带回具体作品。</p><a href="compare/">进入十组并看</a><p><a href="guide/">怎样看木雕：观看与工艺</a></p></div></section>'
  write('',TITLE,body)
- # Chapters, all supplied narrative retained.
- for ch in chapters[1:7]:
+ # Six chapters continue in reading order.
+ for idx,ch in enumerate(chapters[1:7]):
   key=ch['id'][3:];wid=chcover[key];ids=[w['id'] for w in works if w.get('chapter_id')==key];mentioned=re.findall(r'\bj\d{2}\b',(BASE/ch['file']).read_text().split('\n---')[0]);ids=list(dict.fromkeys(ids+mentioned))
   b=heading(ch['title'])+'<div class="jw-full">'+figure(full[wid],by[wid],eager=True)+'</div><article class="jw-prose">'+reading(ch['file'])+'</article>'+refs(textkeys(ch['file']))+'<section class="jw-section"><h2>本章的作品</h2>'+grid(ids)+'</section>'
+  b+='<nav class="jw-chapter-nav" aria-label="章节前后导航">'
+  for target,label,rel in [(idx-1,'上一章','prev'),(idx+1,'下一章','next')]:
+   if 0<=target<6:
+    other=chapters[1:7][target];b+=f'<a rel="{rel}" href="{URL}{other["id"]}/"><small>{label}</small>{e(other["title"])}</a>'
+  if idx==5:b+=f'<a href="{URL}guide/"><small>继续温习</small>历史与工艺</a>'
+  b+='</nav>'
   write(ch['id'],ch['title'],b,full[wid])
  ch=chapters[-1];write('guide','历史与工艺：怎样看木雕',heading('历史与工艺','从一处细节，回到整个身体')+'<nav class="jw-localnav"><a href="#history">历史路标</a><a href="#makers">仏师与协作</a><a href="../atlas/#timeline">所见作品年表</a></nav>'+'<article class="jw-prose">'+reading('content/07-looking-and-technique.md')+'</article>'+refs(textkeys('content/07-looking-and-technique.md'))+history_html()+makers_html())
  # Every record has a stable page. Readings interleave actual detail photographs.
@@ -131,6 +141,7 @@ def build():
   if wid=='j58':b+='<div class="jw-pair">'+''.join(figure(n,w,eager=i==0) for i,n in enumerate(w['photo_numbers']))+'</div>'
   else:b+='<div class="jw-full'+(' jw-wide' if wid=='j12' else '')+'">'+figure(full[wid],w,eager=True)+'</div>'
   b+='<div class="jw-core">'+f'<p>{e(w["materials_summary"])} · {e(w["artist"])}</p><p>收藏：{e(w["collection_museum"])}'+(f'｜亲见：{e(w["viewing_museum"])}' if w['collection_museum']!=w['viewing_museum'] else '')+'</p>'+ (f'<p><a href="#label">{e(w["date_note"])}</a></p>' if w['date_note'] else '')+'</div>'
+  if w.get('dimensions'):b+='<p class="jw-dimensions">'+dimensions(w,True)+'</p>'
   extra=[n for n in w['photo_numbers'] if n!=full[wid]] if wid!='j58' else []
   if entry:
    explicit=bool(re.search(r'^::(?:photo|pair|diagram) ',(BASE/entry['file']).read_text(),re.M));placed={int(n) for n in re.findall(r'^::photo j\d{2} (\d+)',(BASE/entry['file']).read_text(),re.M)};extra=[n for n in extra if n not in placed]
@@ -141,9 +152,11 @@ def build():
      n=extra.pop(0);b+='<div class="jw-detail">'+figure(n,w)+'</div>'
   else:b+='<div class="jw-prose"><p>'+inline(display_notes.get(wid,w['notes']))+'</p></div>'
   if extra:b+='<section class="jw-section"><h2>再换一个距离</h2><div class="jw-pair">'+''.join(figure(n,w) for n in extra)+'</div></section>'
+  for note in research_notes.get(wid,[]):b+='<details class="jw-sources jw-research-note"><summary>'+e(note['title'])+'</summary><div class="jw-prose">'+markdown(note['text'])+'</div></details>'
   b+='<details class="jw-label" id="label"><summary>作品资料与现场展签</summary>'+facts(w)+''.join(figure(p['number'],w,'现场展签') for p in w['labels'])+'</details>'
   b+=maker_info(w)
   keys=textkeys(entry['file']) if entry else [];keys+=['L'+str(p['number']) for p in w['labels'] if 'L'+str(p['number']) in sources]
+  keys+=[d['source'] for d in w.get('dimensions',[])];keys+=re.findall(r'\[((?:S-|U-)[A-Z0-9-]+|L\d+)\]',json.dumps(research_notes.get(wid,[]),ensure_ascii=False))
   b+=refs(keys)
   if w['source_urls']:b+='<p class="jw-caption">馆藏及相关记录：'+ ' · '.join(f'<a href="{e(u)}">{e(u.split("/")[2])}</a>' for u in w['source_urls'])+'</p>'
   related=[c for c in comparisons if wid in c['record_ids']];b+='<nav class="jw-localnav" aria-label="继续观看">'+''.join(f'<a href="{URL}compare/#{c["id"]}">{e(c["title"])}</a>' for c in related)
@@ -163,6 +176,7 @@ def build():
    if c['id']=='c08':b+=f'<h3><a href="{href(w)}">{e(w["short_title"])}</a></h3><div class="jw-front-back">'+''.join(figure(n,w,cap) for n,cap in zip(cr['pairs'][wid],['正面 · 同件作品','背面 · 同件作品']))+'</div>'
    else:b+=figure(full[wid],w)+f'<h3><a href="{href(w)}">{e(w["short_title"])}</a></h3>'
    b+=f'<p class="jw-caption">{e(w["date_short"])} · {e(w["materials_summary"])}</p>'
+   if w.get('dimensions'):b+='<p class="jw-caption">'+dimensions(w,True)+'</p>'
    if wid in cr.get('observations',{}):b+='<p class="jw-comparison-note">'+inline(cr['observations'][wid])+'</p>'
    d=cr.get('details',{}).get(wid)
    if d:
@@ -170,22 +184,22 @@ def build():
     if 'position'in d:fig=fig.replace('class="jw-figure"',f'class="jw-figure jw-crop" style="--focus:{d["position"]}"')
     b+='<details class="jw-comparison-detail"><summary>再看衣饰局部</summary>'+fig+'</details>'
    b+='</div>'
-  if c['id']=='c09':b+='<div class="jw-prose"><figure class="jw-figure"><a data-photo href="/museum-notes/buddhist-sculpture/images/nelson-215.jpg" data-caption="南海观音 · 纳尔逊—阿特金斯艺术博物馆，34-10｜Merton现场摄影"><img src="/museum-notes/buddhist-sculpture/images/nelson-215.jpg" alt="纳尔逊南海观音完整坐姿，Merton摄" width="1279" height="1706" loading="lazy"></a><figcaption>南海观音 · 纳尔逊—阿特金斯艺术博物馆，34-10｜Merton摄；沿用水月观音专题原图。</figcaption></figure><h3><a href="/museum-notes/water-moon-guanyin/#object-215">回到水月观音专题</a></h3><p>从托腮、膝部与支撑的手看起，再把持物与馆方名称放回观察。现有水月观音作品保留各自的记录与页面。</p></div>'
+  if c['id']=='c09':b+='<div class="jw-prose"><figure class="jw-figure"><a data-photo href="/museum-notes/buddhist-sculpture/images/nelson-215.jpg" data-caption="南海观音 · 纳尔逊—阿特金斯艺术博物馆，34-10｜Merton现场摄影"><img src="/museum-notes/buddhist-sculpture/images/nelson-215.jpg" alt="纳尔逊南海观音完整坐姿，Merton摄" width="1279" height="1706" loading="lazy"></a><figcaption>南海观音 · 纳尔逊—阿特金斯艺术博物馆，34-10｜Merton摄；沿用水月观音专题原图。</figcaption></figure><h3><a href="/museum-notes/water-moon-guanyin/#object-215">回到水月观音专题</a></h3></div>'
 
   b+='</div>'
   if cr.get('conclusion'):b+='<div class="jw-prose"><p>'+inline(cr['conclusion'])+'</p></div>'
   keys=re.findall(r'\[((?:S-|U-)[A-Z0-9-]+|L\d+)\]',json.dumps(cr,ensure_ascii=False));b+=refs(keys)+'</section>'
  write('compare','放在一起看',b)
  # Sources retain the supplied study's explicit reading scope.
- b=heading('资料与来源','作品信息据现场展签、馆方记录与相关研究整理')+'<div class="jw-prose"><p>本站照片均为Merton现场拍摄。各来源分别说明研究时实际查阅的范围；索引、摘要与未读书目分别注明，不等同于查阅全文。个人观看与造型分析不冒充馆方定论。</p></div>'
+ b=heading('资料与来源','作品信息据现场展签、馆方记录与相关研究整理')+'<div class="jw-prose"><p>本站照片均为Merton现场拍摄。资料按作品与问题列出，说明各自支持的信息；未阅全文的文献标作延伸阅读。</p></div>'
  for k,s in sources.items():
   name='现场展签' if k.startswith('L') else s['title'];u=source_url(k)
-  b+=f'<details class="jw-source" id="{k}"><summary>{e(name)}</summary><p>{e(s["access_status"])}</p>'+ (f'<p><a href="{u}">打开'+('展签原图' if k.startswith('L') else '来源')+'</a></p>' if u else '<p>据作者提供的观看或作品对应记录。</p>')+'</details>'
- b+='<section class="jw-prose jw-section"><h2>延伸阅读</h2><p>Nishikawa, Kyotaro & Emily J. Sano, <i>The Great Age of Japanese Buddhist Sculpture, AD 600–1300</i>，Kimbell Art Museum，1982。仅核书目信息，未阅全文；不据此补写单件断代或来源。</p></section>'
+  b+=f'<details class="jw-source" id="{k}"><summary>{e(name)}</summary><p>{e(s["reader_note"])}</p>'+ (f'<p><a href="{u}">打开'+('展签原图' if k.startswith('L') else '来源')+'</a></p>' if u else '<p>据作者提供的观看或作品对应记录。</p>')+'</details>'
+ b+='<section class="jw-prose jw-section"><h2>延伸阅读</h2><p>Nishikawa, Kyotaro & Emily J. Sano, <i>The Great Age of Japanese Buddhist Sculpture, AD 600–1300</i>，Kimbell Art Museum，1982。已核书目，未阅全文。</p></section>'
  write('sources','资料与来源',b)
  # Atlas: all content is server-rendered; JS adds shared filtering and map selection.
  def options(vals,key=None):return '<option value="">全部</option>'+''.join(f'<option value="{e(v)}">{e(v)}</option>' for v in sorted(set(vals),key=key))
- b=heading('所见造像','博物馆地图 · 年代时间线 · 完整图录')+'<p class="jw-prose">'+str(len(works))+'条作品／组合档案，'+str(len(media))+'张现场照片，'+str(len(museums))+'处实际观看馆址。地图记录观看地点，收藏与历史关联另列；参观日期未由照片文件名推定。</p>'
+ b=heading('所见造像','博物馆地图 · 年代时间线 · 完整图录')+'<p class="jw-prose">'+str(len(works))+'条作品／组合档案，'+str(len(media))+'张现场照片，'+str(len(museums))+'处观看馆址。地图记录相遇的地方，年表与图录可按年代、形象和博物馆一起重看。</p>'
  b+='<form class="jw-filters" id="jw-filters" hidden><label>找作品、人物或馆藏号<input id="jw-search" type="search" placeholder="例如：阿弥陀、快庆、1269"></label><label>观看馆<select id="jw-museum"><option value="">全部</option>'+''.join(f'<option value="{f["properties"]["id"]}">{e(f["properties"]["name_zh"])}</option>' for f in museums)+'</select></label><label>年代<select id="jw-period">'+options([w['period_bucket'] for w in works],key=lambda v:min(w['year_start'] for w in works if w['period_bucket']==v))+'</select></label><label>形象<select id="jw-subject">'+options([w['category'] for w in works])+'</select></label><label>阅读<select id="jw-reading"><option value="">全部</option><option value="personal">记忆较深</option><option value="essay">有精读</option></select></label><button type="reset">清除条件</button></form><p id="jw-count" aria-live="polite">62条档案</p><p id="jw-empty" hidden>没有符合条件的作品。可以减少筛选条件，或清除后重看。</p>'
  b+='<nav class="jw-localnav"><a href="#map">观看地图</a><a href="#timeline">年代时间线</a><a href="#catalogue">完整图录</a><a href="#context">历史地点</a></nav><section id="map" class="jw-section"><h2>我在哪里看过</h2><div id="jw-map-box" hidden><p class="jw-caption">地图视角（只改变地图范围，保留筛选条件）</p><div class="jw-map-tools"><button type="button" data-map="all">所有馆址</button><button type="button" data-map="america">美国本土</button><button type="button" data-map="east">美国东部</button><button type="button" data-map="texas">德州</button><button type="button" data-map="paris">巴黎</button><button type="button" data-map="hawaii">夏威夷</button></div><p id="jw-map-status" role="status"></p><p id="jw-map-empty" hidden>这个地图视角内没有符合当前条件的馆址。<button type="button" id="jw-map-clear">清除筛选</button>，或选择“所有馆址”。</p><svg id="jw-map" viewBox="0 0 1000 450" role="group" aria-label="博物馆地图；可选择馆址或放大聚合点"></svg><p class="jw-caption">底图：<a href="https://www.naturalearthdata.com/">Natural Earth</a>，公有领域。馆址为约略中心；聚合圆点的数字表示馆址数，不是作品数；点击可放大。地图与以下馆址列表使用同一组记录。</p></div><div class="jw-museums">'
  for f in museums:

@@ -53,3 +53,13 @@ Five essays (j22/j23/j40/j51/j59), six illustrated chapters and c01/c04/c05/c07/
 - Catalogue CSV and legacy timeline exports now regenerate from canonical identity/date fields, avoiding stale names. Original research prose in intake notes is retained; it is not printed as a material description.
 
 Timeline: chronological period menu, sticky year axis and work-name/thumbnail column; horizontal scrolling only within the chart, vertical scrolling follows the document. A loose period and two differing source dates use distinct notation. Empty map views expose the selected filters and a reset button. Screenshot/HTTP artifacts: `/tmp/japanese-wood-round2/`. Touch verification uses Chromium mobile emulation and CDP touch input, not physical-device testing.
+
+## Third reading, 23 November 2026
+
+Six chapters and25essays edited for more concrete prose; personal foreword, core data, all photographs and stable URLs retained. Added temple tradition, Kakushin travel, wisdom-fist explanation, Kōei inscription and five comparison conclusions. Six works now carry verified dimensions with scope/source; no estimates from photos.
+
+- `data/research-notes.json`: folded research scope and meaningful uncertainties.
+- `research/source_registry.json`: public `reader_note` separated from retained internal access logs.
+- `catalogue.json` optional `dimensions`: scope, numeric centimeters, display string and source ID; generated work and comparison views share this record.
+- Six chapter previous/next links derive from existing order.
+- Run `python3 scripts/check_japanese_wood_round3.py http://127.0.0.1:8774` alongside established checks. Evidence and remaining limitations: `research/round3-review.md`.

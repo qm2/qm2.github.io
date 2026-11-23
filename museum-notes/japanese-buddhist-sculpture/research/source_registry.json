@@ -5,7 +5,8 @@
     "url": "https://collections.artsmia.org/art/116725/daiitoku-myo-the-wisdom-king-of-awe-inspiring-power-japan",
     "access_status": "已读馆方可读索引；直接打开无可读正文",
     "type": "museum_record",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "馆藏记录可读索引：尊格、多重肢体与西方阿弥陀的联系。"
   },
   "S-CER": {
     "id": "S-CER",
@@ -13,7 +14,8 @@
     "url": "https://www.cernuschi.paris.fr/fr/collections/collections-japonaises/bronzes/buddha-amida-amitabha",
     "access_status": "馆方可读索引与巴黎博物馆记录互核",
     "type": "museum_record",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "馆方与巴黎博物馆记录：幡龙寺来源、1871年购藏及拆卸运输。"
   },
   "S-MET-FUDO": {
     "id": "S-MET-FUDO",
@@ -21,7 +23,8 @@
     "url": "https://www.metmuseum.org/art/collection/search/44842",
     "access_status": "已查馆方记录或可读正文",
     "type": "museum_record",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "馆藏记录：六块掏空木材的构造、九品寺原供背景及材料。"
   },
   "S-KINGS": {
     "id": "S-KINGS",
@@ -29,7 +32,8 @@
     "url": "https://www.metmuseum.org/es/essays/kings-of-brightness-in-japanese-esoteric-buddhist-art",
     "access_status": "已查馆方记录或可读正文",
     "type": "museum_essay",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "馆方文章：明王的密教背景及剑、索等图像线索。"
   },
   "S-MET-ATT": {
     "id": "S-MET-ATT",
@@ -37,7 +41,8 @@
     "url": "https://www.metmuseum.org/art/collection/search/49107",
     "access_status": "已查馆方记录或可读正文",
     "type": "museum_record",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "馆藏记录：胁侍菩萨年代与来迎图像；配合各件展签说明今天的组合陈设。"
   },
   "S-MET-DAI": {
     "id": "S-MET-DAI",
@@ -45,7 +50,8 @@
     "url": "https://www.metmuseum.org/art/collection/search/44838",
     "access_status": "已查馆方记录或可读正文",
     "type": "museum_record",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "馆藏记录：智拳印解释、材料、像身及连基座光背的尺寸。"
   },
   "S-MET-11": {
     "id": "S-MET-11",
@@ -53,7 +59,8 @@
     "url": "https://www.metmuseum.org/art/collection/search/44893",
     "access_status": "已查馆方记录或可读正文",
     "type": "museum_record",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "馆藏记录：九品寺背景、衣饰与面容的断代依据、残缺情况。"
   },
   "S-NEL-AMIDA": {
     "id": "S-NEL-AMIDA",
@@ -61,7 +68,8 @@
     "url": "https://art.nelson-atkins.org/objects/28559/amida-nyorai-amitabha-buddha",
     "access_status": "上一轮已读馆方记录；本轮重开超时，未据失败结果更改旧资料",
     "type": "museum_record",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "馆藏记录：年代、材料及平安后期样式的延续。"
   },
   "S-NEL-JIZO": {
     "id": "S-NEL-JIZO",
@@ -69,7 +77,8 @@
     "url": "https://art.nelson-atkins.org/objects/692/jizo-bosatsu-ksitigarbha-bodhisattva",
     "access_status": "上一轮已读馆方可读索引；本轮重开超时",
     "type": "museum_record",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "馆藏记录可读索引：早期断代、一木造及手、足趾后补。"
   },
   "S-CMA-AMIDA": {
     "id": "S-CMA-AMIDA",
@@ -77,7 +86,8 @@
     "url": "https://www.clevelandart.org/art/1960.197",
     "access_status": "已查馆方记录或可读正文",
     "type": "museum_record",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "馆藏记录：康俊与协作者、像内经文和结缘名单、1269年及33日记录、材料与整体高度。"
   },
   "S-CMA-KAK": {
     "id": "S-CMA-KAK",
@@ -85,7 +95,8 @@
     "url": "https://www.clevelandart.org/art/1970.67",
     "access_status": "已查馆方记录或可读正文",
     "type": "museum_record",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "馆藏记录：觉心像的身份、面容与雕刻断代；人物生年另与文化厅记录对照。"
   },
   "S-CMA-SEATED": {
     "id": "S-CMA-SEATED",
@@ -93,7 +104,8 @@
     "url": "https://www.clevelandart.org/art/1973.85",
     "access_status": "已查馆方记录或可读正文",
     "type": "museum_record",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "馆藏记录：后补左手、1906年旧照及药师或释迦的尊名判断。"
   },
   "S-CMA-NIKKO": {
     "id": "S-CMA-NIKKO",
@@ -101,7 +113,8 @@
     "url": "https://www.clevelandart.org/art/1961.48",
     "access_status": "已查馆方记录或可读正文",
     "type": "museum_record",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "馆藏记录：榧木、姿态与中国雕刻的联系、日光与药师组像的关系。"
   },
   "S-CMA-SHAKA": {
     "id": "S-CMA-SHAKA",
@@ -109,7 +122,8 @@
     "url": "https://www.clevelandart.org/art/1986.7",
     "access_status": "已查馆方记录或可读正文",
     "type": "museum_record",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "馆藏记录：约900年断代、一木造、隆起衣褶与尺寸。"
   },
   "S-CMA-ZAO": {
     "id": "S-CMA-ZAO",
@@ -117,7 +131,8 @@
     "url": "https://www.clevelandart.org/art/1973.105",
     "access_status": "已查馆方记录或可读正文",
     "type": "museum_record",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "馆藏记录：藏王权现的动作、役行者与吉野山岳信仰背景。"
   },
   "S-KIM-SHAKA": {
     "id": "S-KIM-SHAKA",
@@ -125,7 +140,8 @@
     "url": "https://kimbellart.org/collection/ap-198401-abc",
     "access_status": "已读馆方可读索引；直接打开403",
     "type": "museum_record",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "馆藏记录可读索引：快庆归属、释迦身份、材料与年代。"
   },
   "S-KIM-NYO": {
     "id": "S-KIM-NYO",
@@ -133,7 +149,8 @@
     "url": "https://kimbellart.org/collection/ap-198515",
     "access_status": "已读馆方可读索引；直接打开403",
     "type": "museum_record",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "馆藏记录可读索引：如意轮身份、多臂、宝珠、法轮与缺失部分。"
   },
   "S-KIM-HACHI": {
     "id": "S-KIM-HACHI",
@@ -141,7 +158,8 @@
     "url": "https://kimbellart.org/collection/ap-198119",
     "access_status": "已读馆方可读索引；直接打开403",
     "type": "museum_record",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "馆藏记录可读索引：僧形八幡及神佛关系；官网与现场展签断代并列。"
   },
   "S-SEA-AMIDA": {
     "id": "S-SEA-AMIDA",
@@ -149,7 +167,8 @@
     "url": "https://art.seattleartmuseum.org/objects/27280/amida-buddha",
     "access_status": "已查馆方记录或可读正文",
     "type": "museum_record",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "馆藏记录：寄木结构、京都地区造像背景与后来的收藏经过。"
   },
   "S-MET-KANNON": {
     "id": "S-MET-KANNON",
@@ -157,7 +176,8 @@
     "url": "https://www.metmuseum.org/art/collection/search/851372",
     "access_status": "已查馆方记录或可读正文",
     "type": "museum_record",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "馆藏记录：一木造、桧木及原有漆彩、可能的金箔装饰。"
   },
   "S-WOOD": {
     "id": "S-WOOD",
@@ -165,7 +185,8 @@
     "url": "https://link.springer.com/article/10.1186/s10086-022-02020-x",
     "access_status": "已读开放获取正文；非馆藏全体统计",
     "type": "research_article",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "已阅开放获取全文。波士顿美术馆九件雕刻的木材鉴定研究；用于材料背景与检测方法，具体采样范围见日光菩萨页研究札记。"
   },
   "S-TNM-UNKEI": {
     "id": "S-TNM-UNKEI",
@@ -173,7 +194,8 @@
     "url": "https://www.tnm.jp/modules/r_free_page/index.php?id=1861&lang=en",
     "access_status": "已查馆方记录或可读正文",
     "type": "museum_exhibition_essay",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "展览说明：奈良寺院重建、运庆活动及仏师背景。"
   },
   "S-KNM-STYLE": {
     "id": "S-KNM-STYLE",
@@ -181,7 +203,8 @@
     "url": "https://www.kyohaku.go.jp/old/eng/theme/floor1_2/past/scu_20160614.html",
     "access_status": "已查馆方记录或可读正文",
     "type": "museum_exhibition_essay",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "展览说明：定朝样、温和面貌、浅衣纹与庆派。"
   },
   "S-MET-KOREA": {
     "id": "S-MET-KOREA",
@@ -189,7 +212,8 @@
     "url": "https://www.metmuseum.org/ko/essays/korean-buddhist-sculpture-5th-9th-century",
     "access_status": "已读馆方可读索引及原文摘要",
     "type": "museum_essay",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "已阅馆方可读索引及摘要：朝鲜半岛与日本的佛教艺术交流。"
   },
   "S-MET-KYOTO": {
     "id": "S-MET-KYOTO",
@@ -197,7 +221,8 @@
     "url": "https://www.metmuseum.org/exhibitions/listings/2019/kyoto-capital-artistic-imagination/exhibition-guide",
     "access_status": "已查馆方记录或可读正文",
     "type": "museum_exhibition_essay",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "馆方展览导览：日本佛教艺术、净土与来迎等背景。"
   },
   "S-JP-KAK": {
     "id": "S-JP-KAK",
@@ -205,7 +230,8 @@
     "url": "https://kunishitei.bunka.go.jp/bsys/maindetails/201/7265",
     "access_status": "已读官方记录正文；用于人物生卒与入宋背景，不作CMA木像来源证明",
     "type": "government_cultural_record",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "文化财记录：觉心人物生卒、入宋与归国活动；所录袈裟是另一件文物。"
   },
   "S-MFAH-KOEI": {
     "id": "S-MFAH-KOEI",
@@ -213,7 +239,8 @@
     "url": "https://static.mfah.com/documents/koei---amida-buddha-japanese.4227821031685014481.pdf",
     "access_status": "已查馆方研究指南可读索引，未核全文所列书目",
     "type": "museum_research_guide",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "馆方研究指南索引：1472年Kōei阿弥陀的研究书目，所列著作未逐项核读。"
   },
   "L3116": {
     "id": "L3116",
@@ -221,7 +248,8 @@
     "url": "../../photos/j01/Image_20261122201739_3116_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3118": {
     "id": "L3118",
@@ -229,7 +257,8 @@
     "url": "../../photos/j02/Image_20261122201739_3118_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3120": {
     "id": "L3120",
@@ -237,7 +266,8 @@
     "url": "../../photos/j03/Image_20261122201739_3120_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3122": {
     "id": "L3122",
@@ -245,7 +275,8 @@
     "url": "../../photos/j04/Image_20261122201739_3122_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3124": {
     "id": "L3124",
@@ -253,7 +284,8 @@
     "url": "../../photos/j06/Image_20261122201739_3124_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3126": {
     "id": "L3126",
@@ -261,7 +293,8 @@
     "url": "../../photos/j07/Image_20261122201739_3126_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3129": {
     "id": "L3129",
@@ -269,7 +302,8 @@
     "url": "../../photos/j09/Image_20261122201739_3129_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3131": {
     "id": "L3131",
@@ -277,7 +311,8 @@
     "url": "../../photos/j10/Image_20261122201739_3131_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3133": {
     "id": "L3133",
@@ -285,7 +320,8 @@
     "url": "../../photos/j11/Image_20261122201739_3133_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3136": {
     "id": "L3136",
@@ -293,7 +329,8 @@
     "url": "../../photos/j12/Image_20261122201739_3136_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3138": {
     "id": "L3138",
@@ -301,7 +338,8 @@
     "url": "../../photos/j13/Image_20261122201739_3138_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3140": {
     "id": "L3140",
@@ -309,7 +347,8 @@
     "url": "../../photos/j14/Image_20261122201739_3140_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3142": {
     "id": "L3142",
@@ -317,7 +356,8 @@
     "url": "../../photos/j15/Image_20261122201739_3142_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3144": {
     "id": "L3144",
@@ -325,7 +365,8 @@
     "url": "../../photos/j16/Image_20261122201739_3144_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3148": {
     "id": "L3148",
@@ -333,7 +374,8 @@
     "url": "../../photos/j17/Image_20261122201739_3148_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3150": {
     "id": "L3150",
@@ -341,7 +383,8 @@
     "url": "../../photos/j18/Image_20261122201739_3150_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3153": {
     "id": "L3153",
@@ -349,7 +392,8 @@
     "url": "../../photos/j19/Image_20261122201739_3153_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3155": {
     "id": "L3155",
@@ -357,7 +401,8 @@
     "url": "../../photos/j20/Image_20261122201739_3155_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3158": {
     "id": "L3158",
@@ -365,7 +410,8 @@
     "url": "../../photos/j21/Image_20261122201739_3158_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3160": {
     "id": "L3160",
@@ -373,7 +419,8 @@
     "url": "../../photos/j22/Image_20261122201739_3160_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3166": {
     "id": "L3166",
@@ -381,7 +428,8 @@
     "url": "../../photos/j23/Image_20261122201739_3166_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3169": {
     "id": "L3169",
@@ -389,7 +437,8 @@
     "url": "../../photos/j24/Image_20261122201739_3169_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3175": {
     "id": "L3175",
@@ -397,7 +446,8 @@
     "url": "../../photos/j25/Image_20261122201739_3175_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3177": {
     "id": "L3177",
@@ -405,7 +455,8 @@
     "url": "../../photos/j26/Image_20261122201739_3177_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3179": {
     "id": "L3179",
@@ -413,7 +464,8 @@
     "url": "../../photos/j27/Image_20261122201739_3179_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3181": {
     "id": "L3181",
@@ -421,7 +473,8 @@
     "url": "../../photos/j28/Image_20261122201739_3181_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3183": {
     "id": "L3183",
@@ -429,7 +482,8 @@
     "url": "../../photos/j29/Image_20261122201739_3183_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3185": {
     "id": "L3185",
@@ -437,7 +491,8 @@
     "url": "../../photos/j30/Image_20261122201739_3185_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3187": {
     "id": "L3187",
@@ -445,7 +500,8 @@
     "url": "../../photos/j31/Image_20261122201739_3187_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3189": {
     "id": "L3189",
@@ -453,7 +509,8 @@
     "url": "../../photos/j32/Image_20261122201739_3189_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3191": {
     "id": "L3191",
@@ -461,7 +518,8 @@
     "url": "../../photos/j33/Image_20261122201739_3191_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3193": {
     "id": "L3193",
@@ -469,7 +527,8 @@
     "url": "../../photos/j34/Image_20261122201739_3193_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3195": {
     "id": "L3195",
@@ -477,7 +536,8 @@
     "url": "../../photos/j35/Image_20261122201739_3195_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3197": {
     "id": "L3197",
@@ -485,7 +545,8 @@
     "url": "../../photos/j36/Image_20261122201739_3197_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3199": {
     "id": "L3199",
@@ -493,7 +554,8 @@
     "url": "../../photos/j37/Image_20261122201739_3199_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3201": {
     "id": "L3201",
@@ -501,7 +563,8 @@
     "url": "../../photos/j38/Image_20261122201739_3201_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3203": {
     "id": "L3203",
@@ -509,7 +572,8 @@
     "url": "../../photos/j39/Image_20261122201739_3203_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3208": {
     "id": "L3208",
@@ -517,7 +581,8 @@
     "url": "../../photos/j40/Image_20261122201739_3208_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3211": {
     "id": "L3211",
@@ -525,7 +590,8 @@
     "url": "../../photos/j41/Image_20261122201739_3211_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3213": {
     "id": "L3213",
@@ -533,7 +599,8 @@
     "url": "../../photos/j42/Image_20261122201739_3213_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3215": {
     "id": "L3215",
@@ -541,7 +608,8 @@
     "url": "../../photos/j43/Image_20261122203531_3215_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3217": {
     "id": "L3217",
@@ -549,7 +617,8 @@
     "url": "../../photos/j44/Image_20261122203531_3217_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3219": {
     "id": "L3219",
@@ -557,7 +626,8 @@
     "url": "../../photos/j45/Image_20261122203531_3219_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3221": {
     "id": "L3221",
@@ -565,7 +635,8 @@
     "url": "../../photos/j46/Image_20261122203531_3221_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3223": {
     "id": "L3223",
@@ -573,7 +644,8 @@
     "url": "../../photos/j47/Image_20261122203531_3223_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3225": {
     "id": "L3225",
@@ -581,7 +653,8 @@
     "url": "../../photos/j48/Image_20261122203531_3225_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3227": {
     "id": "L3227",
@@ -589,7 +662,8 @@
     "url": "../../photos/j49/Image_20261122203531_3227_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3229": {
     "id": "L3229",
@@ -597,7 +671,8 @@
     "url": "../../photos/j50/Image_20261122203531_3229_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3231": {
     "id": "L3231",
@@ -605,7 +680,8 @@
     "url": "../../photos/j51/Image_20261122203531_3231_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3234": {
     "id": "L3234",
@@ -613,7 +689,8 @@
     "url": "../../photos/j52/Image_20261122203531_3234_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3236": {
     "id": "L3236",
@@ -621,7 +698,8 @@
     "url": "../../photos/j53/Image_20261122203531_3236_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3238": {
     "id": "L3238",
@@ -629,7 +707,8 @@
     "url": "../../photos/j54/Image_20261122203531_3238_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3240": {
     "id": "L3240",
@@ -637,7 +716,8 @@
     "url": "../../photos/j55/Image_20261122203531_3240_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3244": {
     "id": "L3244",
@@ -645,7 +725,8 @@
     "url": "../../photos/j56/Image_20261122203531_3244_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3246": {
     "id": "L3246",
@@ -653,7 +734,8 @@
     "url": "../../photos/j57/Image_20261122203531_3246_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3249": {
     "id": "L3249",
@@ -661,7 +743,8 @@
     "url": "../../photos/j58/Image_20261122203531_3249_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3255": {
     "id": "L3255",
@@ -669,7 +752,8 @@
     "url": "../../photos/j59/Image_20261122203531_3255_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3260": {
     "id": "L3260",
@@ -677,7 +761,8 @@
     "url": "../../photos/j60/Image_20261122203531_3260_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "L3262": {
     "id": "L3262",
@@ -685,15 +770,17 @@
     "url": "../../photos/j61/Image_20261122203531_3262_19.jpg",
     "access_status": "已看图；目录摘要经人工核对，非逐字全译",
     "type": "user_photo_label",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "现场展签与说明原图；可对照作品资料。"
   },
   "U-VISIT": {
     "id": "U-VISIT",
-    "title": "用户确认：Mia大威德与波士顿大日均在休斯顿美术馆亲见",
+    "title": "作者观展记录：两件借展作品在休斯顿亲见",
     "url": null,
     "access_status": "本轮用户明确回复",
     "type": "user_statement",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "观看地点据作者观展记录：两件借展作品均在休斯顿美术馆亲见。"
   },
   "S-WALTERS-SAICHO": {
     "id": "S-WALTERS-SAICHO",
@@ -701,15 +788,17 @@
     "url": "https://art.thewalters.org/object/TL.1974.35/",
     "access_status": "已读馆方正文；页面没有作品图片。作品对应另据用户本轮补充同图比对。",
     "type": "museum_record",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "馆藏正文：最澄像年代与身份。馆方页面未附图；自拍对应另据作者提供的比对记录。"
   },
   "U-WALTERS-MATCH": {
     "id": "U-WALTERS-MATCH",
-    "title": "用户补充：网上图片与自拍一致，标为镰仓Saicho，并指向TL.1974.35",
+    "title": "作者提供的最澄像图片对应记录（TL.1974.35）",
     "url": null,
     "access_status": "本轮用户提供；第三方图片本身未独立取得",
     "type": "user_statement",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "作品对应据作者提供的网上图片与自拍比对；第三方图片未独立核验。"
   },
   "S-ENRYAKUJI": {
     "id": "S-ENRYAKUJI",
@@ -717,7 +806,8 @@
     "url": "https://www.hieizan.or.jp/about/founders.html",
     "access_status": "已读寺院官网正文；用于人物与宗派背景，不作为本件雕像原寺证明",
     "type": "temple_history",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "寺院人物介绍：最澄入唐求法及日本天台宗背景。"
   },
   "S-BPCJ-KOSHUN": {
     "id": "S-BPCJ-KOSHUN",
@@ -725,7 +815,8 @@
     "url": "https://www.bpcj.or.jp/program/detail/004720/",
     "access_status": "已读节目目录，其列“阿弥陀如来立像（康俊作）”；未观看节目。",
     "type": "broadcast_catalogue",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "节目目录明确列作“康俊作”；姓名汉字依据。"
   },
   "S-CMA-AMIDA-PAPER": {
     "id": "S-CMA-AMIDA-PAPER",
@@ -733,7 +824,8 @@
     "url": "https://www.jstor.org/stable/25161434",
     "access_status": "书目由CMA打印版核对；JSTOR入口未取得可读全文。未据此释读铭记或确认助手汉字。",
     "type": "bibliography_only",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "延伸阅读：已核书目，未阅全文。"
   },
   "S-CMA-PRINT": {
     "id": "S-CMA-PRINT",
@@ -741,7 +833,8 @@
     "url": "https://www.clevelandart.org/print/art/1960.197",
     "access_status": "已读馆方正文及书目；书目存在不等于已读其中论文。",
     "type": "museum_record",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "馆方正文及正式参考书目；用于核对1993年专题论文的出版信息。"
   },
   "S-TOKYO-KOSHUN": {
     "id": "S-TOKYO-KOSHUN",
@@ -749,7 +842,8 @@
     "url": "https://www.hi.u-tokyo.ac.jp/publication/syoho/38/pub_komonjo-iewake-10-13/",
     "access_status": "已读研究介绍中同名康俊的辨识问题；所涉14世纪活动不能直接归给本件1269年的制作者。",
     "type": "research_summary",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "已阅研究介绍：14世纪同名康俊的辨识问题，供姓名研究参照。"
   },
   "S-OSAKA-HOKKYO": {
     "id": "S-OSAKA-HOKKYO",
@@ -757,7 +851,8 @@
     "url": "https://www.osakamushis.jp/news/2008/shiteibunkazai/shiteibunkazai_item.html",
     "access_status": "已读馆方说明；用于快庆汉字及位阶术语背景，该馆所述像不是金贝尔或CMA本件。",
     "type": "museum_essay",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "馆方说明：快庆汉字及法桥位阶；所述阿弥陀为另一件作品。"
   },
   "S-KIM-50": {
     "id": "S-KIM-50",
@@ -765,7 +860,8 @@
     "url": "https://50.kimbellart.org/collection/",
     "access_status": "已读有关左足、衣褶和截金的馆方说明；本页未沿用其唯一性及褒评。",
     "type": "museum_essay",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "馆方专题：金贝尔释迦的左足、衣褶、花卉及几何纹样、截金。"
   },
   "S-YALE-KAIKEI": {
     "id": "S-YALE-KAIKEI",
@@ -773,7 +869,8 @@
     "url": "https://yalebooks.yale.edu/2016/03/18/artistic-innovation-and-sacred-empowerment-in-kamakura-sculpture/",
     "access_status": "已读公开文章中金贝尔像的署名位置、材料及法眼称号；未据此声称读过整部展览图录。",
     "type": "publisher_essay",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "已阅出版社公开文章：金贝尔释迦左足榫部署名、法眼称号与材料。相关整部图录未阅。"
   },
   "S-KNM-JP": {
     "id": "S-KNM-JP",
@@ -781,7 +878,8 @@
     "url": "https://www.kyohaku.go.jp/old/jp/theme/floor1_2/f1_2_koremade/scu_20160614.html",
     "access_status": "已读馆方展览说明及湛慶汉字；不是檀香山像确定归属的证据。",
     "type": "museum_essay",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "馆方日文展览说明：定朝样、庆派及“湛慶”姓名汉字。"
   },
   "S-JP-HISTORY": {
     "id": "S-JP-HISTORY",
@@ -789,6 +887,52 @@
     "url": "https://jpsearch.go.jp/en/gallery/ndl-mkMbqXaBAWO",
     "access_status": "已读公共文化资料导览，用于分期、定朝与密教背景。",
     "type": "cultural_guide",
-    "checked_on": "2026-11-22"
+    "checked_on": "2026-11-22",
+    "reader_note": "公共文化资料导览：飞鸟至镰仓的分期、定朝与密教背景。"
+  },
+  "S-KINPUSEN": {
+    "id": "S-KINPUSEN",
+    "title": "金峯山寺：寺院、修验道与藏王权现",
+    "url": "https://www.kinpusen.or.jp/about/",
+    "reader_note": "寺院官网：役行者祈愿、三尊显现与藏王权现的寺传。",
+    "access_status": "已读公开正文或指定资料页",
+    "type": "temple_history",
+    "checked_on": "2026-11-23"
+  },
+  "S-MLIT-KAKUSHIN": {
+    "id": "S-MLIT-KAKUSHIN",
+    "title": "日本观光厅：兴国寺多语言解说（2023）",
+    "url": "https://www.mlit.go.jp/tagengo-db/R5-00634.html",
+    "reader_note": "机构人物介绍：觉心1249年入宋、参无门慧开及1254年归国。",
+    "access_status": "已读公开正文或指定资料页",
+    "type": "government_cultural_record",
+    "checked_on": "2026-11-23"
+  },
+  "S-MFAH-KOEI-OBJECT": {
+    "id": "S-MFAH-KOEI-OBJECT",
+    "title": "MFAH：Kōei（Unkei IX），Amida，1472，92.193",
+    "url": "https://emuseum.mfah.org/objects/18035/amida",
+    "reader_note": "馆藏记录及馆方公布的头内墨书英文释意：1472年、四国松山、Daisan-ji、九代运庆与七条佛所；日文原刻尚未核读。",
+    "access_status": "已核完整检索索引；直开403。墨书英文释文及尺寸可读，日文原刻未见。",
+    "type": "museum_record",
+    "checked_on": "2026-11-23"
+  },
+  "S-NEL-DIMENSIONS": {
+    "id": "S-NEL-DIMENSIONS",
+    "title": "纳尔逊－阿特金斯：Asian Art, Teacher Resource Guide，第6页",
+    "url": "https://blobcdn.nelson-atkins.org/wpmediablob/2017/02/Asian-Art-Teacher-Resource-Guide.pdf",
+    "reader_note": "已核第6页作品说明：31-141/1高110英寸，本站换算279.4厘米；资料未分列台座高度。",
+    "access_status": "已读公开正文或指定资料页",
+    "type": "museum_education",
+    "checked_on": "2026-11-23"
+  },
+  "S-CER-DIMENSIONS": {
+    "id": "S-CER-DIMENSIONS",
+    "title": "赛努奇：L’écriture chinoise 教师资料，第7页",
+    "url": "https://www.cernuschi.paris.fr/sites/default/files/ecriture_chinoise_ver2.pdf",
+    "reader_note": "已核第7页：M.C.2078高440厘米、宽255厘米及展厅设计背景；未分列各部件尺寸。",
+    "access_status": "已读公开正文或指定资料页",
+    "type": "museum_education",
+    "checked_on": "2026-11-23"
   }
 }
