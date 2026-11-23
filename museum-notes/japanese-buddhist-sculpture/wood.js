@@ -1,0 +1,38 @@
+(() => {
+ 'use strict';
+ const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+ function reveal(){let id;try{id=decodeURIComponent(location.hash.slice(1));}catch{return;}const el=document.getElementById(id);if(!el)return;let p=el;while(p){if(p.tagName==='DETAILS')p.open=true;p=p.parentElement;}requestAnimationFrame(()=>el.scrollIntoView({block:'start'}));}
+ window.addEventListener('hashchange',reveal);if(location.hash)reveal();
+ if(!$('#jw-filters'))return;
+ const base='/museum-notes/japanese-buddhist-sculpture/';
+ async function start(){
+  const [records,viewing,history]=await Promise.all(['atlas-index.json','viewing-museums.geojson','historical-context.geojson'].map(n=>fetch(base+'data/'+n).then(r=>{if(!r.ok)throw Error(n);return r.json();})));
+  const controls={q:$('#jw-search'),museum:$('#jw-museum'),period:$('#jw-period'),subject:$('#jw-subject'),reading:$('#jw-reading')};let filtered=records,mapDraw=()=>{},activeBounds=[-165,12,13,60],land=null;
+  $('#jw-filters').hidden=false;
+  function stateFromUrl(){const p=new URLSearchParams(location.search);for(const[k,el]of Object.entries(controls)){el.value=p.get(k)||'';if(el.tagName==='SELECT'&&el.selectedIndex<0)el.value='';}}
+  function apply(save){const s=Object.fromEntries(Object.entries(controls).map(([k,v])=>[k,v.value]));const words=s.q.toLocaleLowerCase().trim().split(/\s+/).filter(Boolean);
+   filtered=records.filter(w=>words.every(t=>w.search.toLocaleLowerCase().includes(t))&&(!s.museum||s.museum===w.viewing_museum_id)&&(!s.period||s.period===w.period_bucket)&&(!s.subject||s.subject===w.category)&&(!s.reading||(s.reading==='personal'?w.personal_highlight:w.essay)));
+   const ids=new Set(filtered.map(w=>w.id));$$('[data-record-id]').forEach(x=>x.hidden=!ids.has(x.dataset.recordId));$$('[data-related-id]').forEach(x=>x.hidden=!ids.has(x.dataset.relatedId));
+   $$('[data-museum-panel]').forEach(x=>{const count=filtered.filter(w=>w.viewing_museum_id===x.dataset.museumPanel).length;x.hidden=count===0;x.querySelector('.jw-museum-count').textContent=count+'条';if(s.museum===x.dataset.museumPanel)x.open=true;});
+   $('#jw-count').textContent=filtered.length+' / '+records.length+'条档案';$('#jw-empty').hidden=filtered.length>0;mapDraw();
+   if(save){const u=new URL(location.href);Object.entries(s).forEach(([k,v])=>v?u.searchParams.set(k,v):u.searchParams.delete(k));window.history.pushState(null,'',u);}
+  }
+  stateFromUrl();apply(false);Object.values(controls).forEach(el=>el.addEventListener(el.type==='search'?'input':'change',()=>apply(true)));$('#jw-filters').addEventListener('submit',e=>e.preventDefault());$('#jw-filters').addEventListener('reset',()=>{setTimeout(()=>{apply(true);},0);});window.addEventListener('popstate',()=>{stateFromUrl();apply(false);});
+  // Offline-capable map: local Natural Earth geometry, no remote tile service.
+  try{land=await fetch('/museum-notes/homer/data/ne_110m_land.geojson').then(r=>r.json());}catch{return;}
+  const NS='http://www.w3.org/2000/svg';function node(tag,attrs={}){const n=document.createElementNS(NS,tag);Object.entries(attrs).forEach(([k,v])=>n.setAttribute(k,v));return n;}
+  function render(svg,bounds,features,select,cluster=true,onzoom=null){
+   svg.replaceChildren();let [west,south,east,north]=bounds;const W=1000,H=450,pad=35,cos=Math.cos((south+north)/2*Math.PI/180);let sx=(W-2*pad)/((east-west)*cos),sy=(H-2*pad)/(north-south);let scale=Math.min(sx,sy);const cx=(west+east)/2,cy=(south+north)/2;const proj=([lon,lat])=>[W/2+(lon-cx)*cos*scale,H/2-(lat-cy)*scale];
+   const clip=node('clipPath',{id:svg.id+'-clip'});clip.append(node('rect',{width:W,height:H}));const defs=node('defs');defs.append(clip);svg.append(defs);const terrain=node('g',{'clip-path':`url(#${svg.id}-clip)`});
+   land.features.forEach(f=>{const polys=f.geometry.type==='Polygon'?[f.geometry.coordinates]:f.geometry.coordinates;polys.forEach(rings=>{const d=rings.map(r=>r.map((xy,i)=>{const p=proj(xy);return (i?'L':'M')+p.map(n=>n.toFixed(2)).join(',');}).join('')+'Z').join('');terrain.append(node('path',{d,class:'jw-map-land'}));});});svg.append(terrain);
+   const mobile=svg.clientWidth<650;const points=features.map(f=>({f,p:proj(f.geometry.coordinates)})).filter(x=>x.p[0]>=15&&x.p[0]<=W-15&&x.p[1]>=15&&x.p[1]<=H-15);const groups=[];
+   points.forEach(pt=>{const g=cluster&&groups.find(g=>Math.hypot(g[0].p[0]-pt.p[0],g[0].p[1]-pt.p[1])<(mobile?70:42));if(g)g.push(pt);else groups.push([pt]);});
+   groups.forEach(group=>{const pt=group[0],multi=group.length>1,p=pt.p,name=multi?group.map(x=>x.f.properties.name_zh).join('、'):pt.f.properties.name_zh;const g=node('g',{class:'jw-map-marker',role:'button',tabindex:0,'aria-label':multi?`放大 ${group.length} 个相邻馆址：${name}`:name,'aria-pressed':String(!multi&&controls.museum.value===pt.f.properties.id)});g.append(node('circle',{cx:p[0],cy:p[1],r:mobile?60:20,style:'fill:transparent;stroke:none'}));g.append(node('circle',{cx:p[0],cy:p[1],r:multi?(mobile?24:16):(mobile?18:10)}));const t=node('text',{x:p[0]+(multi?0:16),y:p[1]+(mobile?13:5),'text-anchor':multi?'middle':'start',class:multi?'jw-cluster-label':''});t.textContent=multi?group.length:(pt.f.properties.city||pt.f.properties.name_zh.split('：')[0]);if(!multi&&east-west>100)t.textContent='';if(east-west<1&&!multi)t.textContent=pt.f.properties.name_zh; if(mobile)t.setAttribute('style','font-size:40px');g.append(t);const title=node('title');title.textContent=name;g.append(title);
+    const run=()=>{if(multi){const cs=group.map(x=>x.f.geometry.coordinates);const xs=cs.map(x=>x[0]),ys=cs.map(x=>x[1]);const dx=Math.max(...xs)-Math.min(...xs),dy=Math.max(...ys)-Math.min(...ys);const next=[Math.min(...xs)-Math.max(dx*.3,.008),Math.min(...ys)-Math.max(dy*.3,.008),Math.max(...xs)+Math.max(dx*.3,.008),Math.max(...ys)+Math.max(dy*.3,.008)];if(onzoom)onzoom(next);else{activeBounds=next;mapDraw();}}else select(pt.f);};g.addEventListener('click',run);g.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();run();}});svg.append(g);});
+  }
+  mapDraw=()=>{const fs=viewing.features.filter(f=>filtered.some(w=>w.viewing_museum_id===f.properties.id));render($('#jw-map'),activeBounds,fs,f=>{controls.museum.value=f.properties.id;apply(true);const panel=document.getElementById('museum-'+f.properties.id);panel.open=true;panel.scrollIntoView({block:'start',behavior:'smooth'});});};
+  $('#jw-map-box').hidden=false;mapDraw();const presets={all:[-165,12,13,60],america:[-128,24,-65,52],east:[-84,36,-70,44],texas:[-100,28,-94,34],paris:[2.28,48.853,2.325,48.888],hawaii:[-158.3,21.15,-157.6,21.6]};$$('[data-map]').forEach(btn=>btn.addEventListener('click',()=>{activeBounds=presets[btn.dataset.map];mapDraw();$$('[data-map]').forEach(x=>x.setAttribute('aria-pressed',String(x===btn)));}));
+  const box=$('#jw-context-map');box.hidden=false;const toolbar=document.createElement('div');toolbar.className='jw-map-tools';box.append(toolbar);const svg=node('svg',{viewBox:'0 0 1000 450',id:'jw-historical-map',role:'group','aria-label':'日本历史地点，提供信仰与寺院背景'});box.append(svg);let hb=[130,31,143,38];const drawHistory=()=>render(svg,hb,history.features,f=>{const el=document.getElementById('context-'+f.properties.id);el.open=true;el.scrollIntoView({block:'start'});},true,next=>{hb=next;drawHistory();});for(const [label,bounds] of [['全部历史地点',[130,31,143,38]],['近畿',[135.4,34.1,136.1,35.2]],['宇佐',[130.9,33.3,131.6,33.8]],['东京目黑',[139.5,35.5,139.9,35.8]]]){const btn=document.createElement('button');btn.type='button';btn.textContent=label;btn.onclick=()=>{hb=bounds;drawHistory();};toolbar.append(btn);}drawHistory();
+ }
+ start().catch(()=>{const msg=document.createElement('p');msg.textContent='交互索引暂未加载；下方完整图录与馆址列表仍可阅读。';$('#jw-filters').after(msg);});
+})();

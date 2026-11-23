@@ -1,0 +1,286 @@
+[
+  {
+    "work_id": "j01",
+    "title": "六面六臂之下，牛背仍然安稳",
+    "chapter_id": "wrath",
+    "file": "content/works/j01.md",
+    "source_ids": [
+      "S-MIA",
+      "U-VISIT"
+    ],
+    "character_count": 439,
+    "public_status": "有出处的编辑稿；发布前保留限定语"
+  },
+  {
+    "work_id": "j08",
+    "title": "从目黑到巴黎：一尊青铜大佛的后来生活",
+    "chapter_id": "survival",
+    "file": "content/works/j08.md",
+    "source_ids": [
+      "S-CER"
+    ],
+    "character_count": 491,
+    "public_status": "有出处的编辑稿；发布前保留限定语"
+  },
+  {
+    "work_id": "j10",
+    "title": "举起的右手：达拉斯的阿弥陀如来",
+    "chapter_id": "pureland",
+    "file": "content/works/j10.md",
+    "source_ids": [
+      "L3131"
+    ],
+    "character_count": 450,
+    "public_status": "有出处的编辑稿；发布前保留限定语"
+  },
+  {
+    "work_id": "j11",
+    "title": "不动，并非没有力量",
+    "chapter_id": "wrath",
+    "file": "content/works/j11.md",
+    "source_ids": [
+      "S-MET-FUDO",
+      "S-KINGS"
+    ],
+    "character_count": 438,
+    "public_status": "有出处的编辑稿；发布前保留限定语"
+  },
+  {
+    "work_id": "j12",
+    "title": "并置的三尊，与头顶的飞天",
+    "chapter_id": "pureland",
+    "file": "content/works/j12.md",
+    "source_ids": [
+      "L3136",
+      "S-MET-ATT"
+    ],
+    "character_count": 401,
+    "public_status": "有出处的编辑稿；发布前保留限定语"
+  },
+  {
+    "work_id": "j13",
+    "title": "一枚智拳印，与密密展开的光背",
+    "chapter_id": "body",
+    "file": "content/works/j13.md",
+    "source_ids": [
+      "S-MET-DAI"
+    ],
+    "character_count": 428,
+    "public_status": "有出处的编辑稿；发布前保留限定语"
+  },
+  {
+    "work_id": "j16",
+    "title": "十一面之下，一张沉静的脸",
+    "chapter_id": "body",
+    "file": "content/works/j16.md",
+    "source_ids": [
+      "S-MET-11"
+    ],
+    "character_count": 413,
+    "public_status": "有出处的编辑稿；发布前保留限定语"
+  },
+  {
+    "work_id": "j17",
+    "title": "大坐佛前：迟来的形式，仍然动人",
+    "chapter_id": "pureland",
+    "file": "content/works/j17.md",
+    "source_ids": [
+      "S-NEL-AMIDA"
+    ],
+    "character_count": 432,
+    "public_status": "有出处的编辑稿；发布前保留限定语"
+  },
+  {
+    "work_id": "j23",
+    "title": "衣上金线，像内人名：1269年的阿弥陀",
+    "chapter_id": "pureland",
+    "file": "content/works/j23.md",
+    "source_ids": [
+      "S-CMA-AMIDA"
+    ],
+    "character_count": 411,
+    "public_status": "有出处的编辑稿；发布前保留限定语"
+  },
+  {
+    "work_id": "j24",
+    "title": "坐在木椅上的人：心地觉心",
+    "chapter_id": "people",
+    "file": "content/works/j24.md",
+    "source_ids": [
+      "S-JP-KAK",
+      "S-CMA-KAK"
+    ],
+    "character_count": 546,
+    "public_status": "有出处的编辑稿；发布前保留限定语"
+  },
+  {
+    "work_id": "j25",
+    "title": "失去一只手，留下一个问题",
+    "chapter_id": "survival",
+    "file": "content/works/j25.md",
+    "source_ids": [
+      "S-CMA-SEATED",
+      "L3175"
+    ],
+    "character_count": 426,
+    "public_status": "有出处的编辑稿；发布前保留限定语"
+  },
+  {
+    "work_id": "j35",
+    "title": "十五世纪的来迎：檀香山的长身阿弥陀",
+    "chapter_id": "pureland",
+    "file": "content/works/j35.md",
+    "source_ids": [
+      "L3195"
+    ],
+    "character_count": 418,
+    "public_status": "有出处的编辑稿；发布前保留限定语"
+  },
+  {
+    "work_id": "j40",
+    "title": "快庆的释迦：衣褶像水，脚步却很轻",
+    "chapter_id": "pureland",
+    "file": "content/works/j40.md",
+    "source_ids": [
+      "S-KIM-SHAKA",
+      "S-TNM-UNKEI"
+    ],
+    "character_count": 383,
+    "public_status": "有出处的编辑稿；发布前保留限定语"
+  },
+  {
+    "work_id": "j51",
+    "title": "约1130年：金漆之下的安定身体",
+    "chapter_id": "pureland",
+    "file": "content/works/j51.md",
+    "source_ids": [
+      "S-SEA-AMIDA",
+      "S-KNM-STYLE"
+    ],
+    "character_count": 397,
+    "public_status": "有出处的编辑稿；发布前保留限定语"
+  },
+  {
+    "work_id": "j52",
+    "title": "爱染明王：把欲望放进修行的问题",
+    "chapter_id": "wrath",
+    "file": "content/works/j52.md",
+    "source_ids": [
+      "L3234"
+    ],
+    "character_count": 412,
+    "public_status": "有出处的编辑稿；发布前保留限定语"
+  },
+  {
+    "work_id": "j59",
+    "title": "绕到地藏背后：金色袈裟的另一面",
+    "chapter_id": "pureland",
+    "file": "content/works/j59.md",
+    "source_ids": [
+      "L3255"
+    ],
+    "character_count": 399,
+    "public_status": "有出处的编辑稿；发布前保留限定语"
+  },
+  {
+    "work_id": "j03",
+    "title": "八世纪末的观音：跨海之后的木头",
+    "chapter_id": "crossing",
+    "file": "content/works/j03.md",
+    "source_ids": [
+      "L3120",
+      "S-MET-KOREA"
+    ],
+    "character_count": 410,
+    "public_status": "有出处的编辑稿；发布前保留限定语"
+  },
+  {
+    "work_id": "j14",
+    "title": "裸木之美，和它原先的颜色",
+    "chapter_id": "body",
+    "file": "content/works/j14.md",
+    "source_ids": [
+      "S-MET-KANNON"
+    ],
+    "character_count": 391,
+    "public_status": "有出处的编辑稿；发布前保留限定语"
+  },
+  {
+    "work_id": "j19",
+    "title": "一尊早期地藏，和后来伸出的手",
+    "chapter_id": "crossing",
+    "file": "content/works/j19.md",
+    "source_ids": [
+      "S-NEL-JIZO"
+    ],
+    "character_count": 347,
+    "public_status": "有出处的编辑稿；发布前保留限定语"
+  },
+  {
+    "work_id": "j22",
+    "title": "榧木里的日光：交流与地方选择",
+    "chapter_id": "crossing",
+    "file": "content/works/j22.md",
+    "source_ids": [
+      "S-CMA-NIKKO",
+      "S-WOOD"
+    ],
+    "character_count": 419,
+    "public_status": "有出处的编辑稿；发布前保留限定语"
+  },
+  {
+    "work_id": "j27",
+    "title": "约900年的衣褶，为什么如此有重量",
+    "chapter_id": "body",
+    "file": "content/works/j27.md",
+    "source_ids": [
+      "S-CMA-SHAKA"
+    ],
+    "character_count": 375,
+    "public_status": "有出处的编辑稿；发布前保留限定语"
+  },
+  {
+    "work_id": "j28",
+    "title": "山中显现的力量：藏王权现",
+    "chapter_id": "wrath",
+    "file": "content/works/j28.md",
+    "source_ids": [
+      "S-CMA-ZAO"
+    ],
+    "character_count": 410,
+    "public_status": "有出处的编辑稿；发布前保留限定语"
+  },
+  {
+    "work_id": "j41",
+    "title": "托腮的如意轮，与水月观音的相似和分别",
+    "chapter_id": "people",
+    "file": "content/works/j41.md",
+    "source_ids": [
+      "S-KIM-NYO"
+    ],
+    "character_count": 428,
+    "public_status": "有出处的编辑稿；发布前保留限定语"
+  },
+  {
+    "work_id": "j42",
+    "title": "看似僧人，原来是八幡神",
+    "chapter_id": "people",
+    "file": "content/works/j42.md",
+    "source_ids": [
+      "S-KIM-HACHI"
+    ],
+    "character_count": 405,
+    "public_status": "有出处的编辑稿；发布前保留限定语"
+  },
+  {
+    "work_id": "j61",
+    "title": "1472年，另一个“运庆”的名字",
+    "chapter_id": "survival",
+    "file": "content/works/j61.md",
+    "source_ids": [
+      "S-MFAH-KOEI"
+    ],
+    "character_count": 438,
+    "public_status": "有出处的编辑稿；发布前保留限定语"
+  }
+]

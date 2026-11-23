@@ -1,0 +1,178 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "NARA",
+        "name_zh": "奈良：兴福寺与东大寺",
+        "role": "historical_context",
+        "record_ids": [
+          "j25",
+          "j40"
+        ],
+        "relation_note": "时代背景与寺院重建；j25兴福寺关联有展签依据，不将所有庆派像标成这里出土",
+        "source": "S-TNM-UNKEI",
+        "coordinate_note": "约略背景定位，不表示文物精确出土地"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.8398,
+          34.685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "UJI",
+        "name_zh": "宇治：平等院",
+        "role": "historical_context",
+        "record_ids": [
+          "j51",
+          "j17"
+        ],
+        "relation_note": "理解定朝传统的背景作品，不是本批两尊坐像的已证原寺",
+        "source": "S-KNM-STYLE",
+        "coordinate_note": "约略背景定位，不表示文物精确出土地"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.8077,
+          34.8893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KYOTO",
+        "name_zh": "京都",
+        "role": "historical_context",
+        "record_ids": [
+          "j11",
+          "j13",
+          "j16"
+        ],
+        "relation_note": "九品寺关联及平安文化背景；城市级约坐标",
+        "source": "S-MET-FUDO",
+        "coordinate_note": "约略背景定位，不表示文物精确出土地"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7681,
+          35.0116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "SHITENNOJI",
+        "name_zh": "大阪：四天王寺",
+        "role": "historical_context",
+        "record_ids": [
+          "j23"
+        ],
+        "relation_note": "j23像内记录所述制作地点，非仅风格关联",
+        "source": "S-CMA-AMIDA",
+        "coordinate_note": "约略背景定位，不表示文物精确出土地"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.516,
+          34.6545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "YOSHINO",
+        "name_zh": "吉野／金峯山信仰圈",
+        "role": "historical_context",
+        "record_ids": [
+          "j28"
+        ],
+        "relation_note": "藏王权现信仰关联地，不是该馆藏像的已证出土地",
+        "source": "S-CMA-ZAO",
+        "coordinate_note": "约略背景定位，不表示文物精确出土地"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.8588,
+          34.3685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KOYASAN",
+        "name_zh": "高野山",
+        "role": "historical_context",
+        "record_ids": [
+          "j43",
+          "j45"
+        ],
+        "relation_note": "宾大作品馆方来源记录关联，勿向所有同柜童子自动外推",
+        "source": "https://collections.penn.museum/collections/object/11056",
+        "coordinate_note": "约略背景定位，不表示文物精确出土地"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.585,
+          34.213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "USA",
+        "name_zh": "宇佐",
+        "role": "historical_context",
+        "record_ids": [
+          "j42"
+        ],
+        "relation_note": "八幡信仰背景地，不是本件已证原寺",
+        "source": "S-KIM-HACHI",
+        "coordinate_note": "约略背景定位，不表示文物精确出土地"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.3777,
+          33.5261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MEGURO",
+        "name_zh": "东京目黑",
+        "role": "historical_context",
+        "record_ids": [
+          "j08"
+        ],
+        "relation_note": "幡龙寺与青铜大佛的馆方来源叙述；城区级约坐标",
+        "source": "S-CER",
+        "coordinate_note": "约略背景定位，不表示文物精确出土地"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7158,
+          35.6334
+        ]
+      }
+    }
+  ]
+}

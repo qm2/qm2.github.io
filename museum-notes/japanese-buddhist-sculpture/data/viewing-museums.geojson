@@ -1,0 +1,473 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MFAH",
+        "name_zh": "休斯顿美术馆",
+        "city": "Houston",
+        "country": "美国",
+        "role": "viewed_at",
+        "record_ids": [
+          "j01",
+          "j02",
+          "j54",
+          "j61"
+        ],
+        "record_count": 4,
+        "personal_highlight_ids": [
+          "j01"
+        ],
+        "loan_ids": [
+          "j01",
+          "j02"
+        ],
+        "website": "https://www.mfah.org/",
+        "coordinate_note": "约略馆区中心；人工整理，供低倍率地图定位，非实测入口坐标",
+        "visit_date": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3905,
+          29.7256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GUIMET",
+        "name_zh": "巴黎吉美博物馆",
+        "city": "Paris",
+        "country": "法国",
+        "role": "viewed_at",
+        "record_ids": [
+          "j03",
+          "j04",
+          "j05",
+          "j06",
+          "j07"
+        ],
+        "record_count": 5,
+        "personal_highlight_ids": [],
+        "loan_ids": [],
+        "website": "https://www.guimet.fr/fr/acces-et-horaires",
+        "coordinate_note": "约略馆区中心；人工整理，供低倍率地图定位，非实测入口坐标",
+        "visit_date": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2938,
+          48.8653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "CERNUSCHI",
+        "name_zh": "巴黎塞努奇博物馆",
+        "city": "Paris",
+        "country": "法国",
+        "role": "viewed_at",
+        "record_ids": [
+          "j08"
+        ],
+        "record_count": 1,
+        "personal_highlight_ids": [
+          "j08"
+        ],
+        "loan_ids": [],
+        "website": "https://www.cernuschi.paris.fr/",
+        "coordinate_note": "约略馆区中心；人工整理，供低倍率地图定位，非实测入口坐标",
+        "visit_date": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3127,
+          48.8797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "DALLAS",
+        "name_zh": "达拉斯艺术博物馆",
+        "city": "Dallas",
+        "country": "美国",
+        "role": "viewed_at",
+        "record_ids": [
+          "j09",
+          "j10"
+        ],
+        "record_count": 2,
+        "personal_highlight_ids": [
+          "j10"
+        ],
+        "loan_ids": [],
+        "website": "https://dma.org/",
+        "coordinate_note": "约略馆区中心；人工整理，供低倍率地图定位，非实测入口坐标",
+        "visit_date": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.801,
+          32.7876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MET",
+        "name_zh": "纽约大都会艺术博物馆",
+        "city": "New York",
+        "country": "美国",
+        "role": "viewed_at",
+        "record_ids": [
+          "j11",
+          "j12",
+          "j13",
+          "j14",
+          "j15",
+          "j16"
+        ],
+        "record_count": 6,
+        "personal_highlight_ids": [
+          "j11",
+          "j12",
+          "j13",
+          "j16"
+        ],
+        "loan_ids": [],
+        "website": "https://www.metmuseum.org/",
+        "coordinate_note": "约略馆区中心；人工整理，供低倍率地图定位，非实测入口坐标",
+        "visit_date": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9632,
+          40.7794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "NELSON",
+        "name_zh": "纳尔逊－阿特金斯艺术博物馆",
+        "city": "Kansas City",
+        "country": "美国",
+        "role": "viewed_at",
+        "record_ids": [
+          "j17",
+          "j18",
+          "j19",
+          "j20",
+          "j21"
+        ],
+        "record_count": 5,
+        "personal_highlight_ids": [
+          "j17"
+        ],
+        "loan_ids": [],
+        "website": "https://www.nelson-atkins.org/",
+        "coordinate_note": "约略馆区中心；人工整理，供低倍率地图定位，非实测入口坐标",
+        "visit_date": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5809,
+          39.045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "CMA",
+        "name_zh": "克利夫兰艺术博物馆",
+        "city": "Cleveland",
+        "country": "美国",
+        "role": "viewed_at",
+        "record_ids": [
+          "j22",
+          "j23",
+          "j24",
+          "j25",
+          "j26",
+          "j27",
+          "j28",
+          "j29"
+        ],
+        "record_count": 8,
+        "personal_highlight_ids": [
+          "j23",
+          "j24",
+          "j25"
+        ],
+        "loan_ids": [],
+        "website": "https://www.clevelandart.org/",
+        "coordinate_note": "约略馆区中心；人工整理，供低倍率地图定位，非实测入口坐标",
+        "visit_date": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6116,
+          41.509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "HONOLULU",
+        "name_zh": "檀香山艺术博物馆",
+        "city": "Honolulu",
+        "country": "美国",
+        "role": "viewed_at",
+        "record_ids": [
+          "j30",
+          "j31",
+          "j32",
+          "j33",
+          "j34",
+          "j35",
+          "j36",
+          "j37",
+          "j38"
+        ],
+        "record_count": 9,
+        "personal_highlight_ids": [
+          "j35"
+        ],
+        "loan_ids": [],
+        "website": "https://honolulumuseum.org/",
+        "coordinate_note": "约略馆区中心；人工整理，供低倍率地图定位，非实测入口坐标",
+        "visit_date": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.8488,
+          21.3036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "FREER",
+        "name_zh": "国立亚洲艺术博物馆·Freer馆",
+        "city": "Washington, DC",
+        "country": "美国",
+        "role": "viewed_at",
+        "record_ids": [
+          "j39"
+        ],
+        "record_count": 1,
+        "personal_highlight_ids": [],
+        "loan_ids": [],
+        "website": "https://asia.si.edu/",
+        "coordinate_note": "约略馆区中心；人工整理，供低倍率地图定位，非实测入口坐标",
+        "visit_date": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0271,
+          38.888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "KIMBELL",
+        "name_zh": "金贝尔艺术博物馆",
+        "city": "Fort Worth",
+        "country": "美国",
+        "role": "viewed_at",
+        "record_ids": [
+          "j40",
+          "j41",
+          "j42"
+        ],
+        "record_count": 3,
+        "personal_highlight_ids": [
+          "j40"
+        ],
+        "loan_ids": [],
+        "website": "https://kimbellart.org/",
+        "coordinate_note": "约略馆区中心；人工整理，供低倍率地图定位，非实测入口坐标",
+        "visit_date": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.3652,
+          32.7488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PENN",
+        "name_zh": "宾夕法尼亚大学博物馆",
+        "city": "Philadelphia",
+        "country": "美国",
+        "role": "viewed_at",
+        "record_ids": [
+          "j43",
+          "j44",
+          "j45"
+        ],
+        "record_count": 3,
+        "personal_highlight_ids": [],
+        "loan_ids": [],
+        "website": "https://www.penn.museum/",
+        "coordinate_note": "约略馆区中心；人工整理，供低倍率地图定位，非实测入口坐标",
+        "visit_date": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1915,
+          39.9492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "SEATTLE",
+        "name_zh": "西雅图亚洲艺术博物馆",
+        "city": "Seattle",
+        "country": "美国",
+        "role": "viewed_at",
+        "record_ids": [
+          "j46",
+          "j47",
+          "j48",
+          "j49",
+          "j51"
+        ],
+        "record_count": 5,
+        "personal_highlight_ids": [
+          "j51"
+        ],
+        "loan_ids": [],
+        "website": "https://www.seattleartmuseum.org/visit/asian-art-museum",
+        "coordinate_note": "约略馆区中心；人工整理，供低倍率地图定位，非实测入口坐标",
+        "visit_date": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.314,
+          47.6302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "PORTLAND",
+        "name_zh": "波特兰艺术博物馆",
+        "city": "Portland",
+        "country": "美国",
+        "role": "viewed_at",
+        "record_ids": [
+          "j50"
+        ],
+        "record_count": 1,
+        "personal_highlight_ids": [],
+        "loan_ids": [],
+        "website": "https://portlandartmuseum.org/",
+        "coordinate_note": "约略馆区中心；人工整理，供低倍率地图定位，非实测入口坐标",
+        "visit_date": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6836,
+          45.5163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "SAMA",
+        "name_zh": "圣安东尼奥艺术博物馆",
+        "city": "San Antonio",
+        "country": "美国",
+        "role": "viewed_at",
+        "record_ids": [
+          "j52",
+          "j53",
+          "j55",
+          "j56",
+          "j57",
+          "j58",
+          "j59",
+          "j60"
+        ],
+        "record_count": 8,
+        "personal_highlight_ids": [
+          "j52",
+          "j59"
+        ],
+        "loan_ids": [],
+        "website": "https://www.samuseum.org/",
+        "coordinate_note": "约略馆区中心；人工整理，供低倍率地图定位，非实测入口坐标",
+        "visit_date": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.4822,
+          29.4373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "WALTERS",
+        "name_zh": "沃尔特斯艺术博物馆",
+        "city": "Baltimore",
+        "country": "美国",
+        "role": "viewed_at",
+        "record_ids": [
+          "j62"
+        ],
+        "record_count": 1,
+        "personal_highlight_ids": [],
+        "loan_ids": [
+          "j62"
+        ],
+        "website": "https://thewalters.org/",
+        "coordinate_note": "约略馆区中心；人工整理，供低倍率地图定位，非实测入口坐标",
+        "visit_date": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6159,
+          39.2965
+        ]
+      }
+    }
+  ]
+}

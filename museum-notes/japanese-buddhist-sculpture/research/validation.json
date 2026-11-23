@@ -1,0 +1,22 @@
+{
+  "records": 62,
+  "unique_original_images": 149,
+  "artwork_images": 90,
+  "label_images": 59,
+  "original_sha256_match": 149,
+  "personal_memorable_records": 16,
+  "curatorial_additions": 9,
+  "work_essays": 25,
+  "narrative_chapters": 6,
+  "other_guides": 2,
+  "actual_viewing_venues": 15,
+  "map_coverage_records": 62,
+  "timeline_records": 62,
+  "timeline_locatable_records": 62,
+  "source_entries": 90,
+  "internal_file_links_checked": 379,
+  "inline_javascript_syntax_files": 2,
+  "decoded_preview_thumbnails": 41,
+  "browser_rendering_tested": false,
+  "validation_date": "2026-11-22"
+}

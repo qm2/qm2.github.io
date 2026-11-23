@@ -1,0 +1,722 @@
+{
+  "S-MIA": {
+    "id": "S-MIA",
+    "title": "Mia：Daiitoku Myōō（2013.29.1a-g）",
+    "url": "https://collections.artsmia.org/art/116725/daiitoku-myo-the-wisdom-king-of-awe-inspiring-power-japan",
+    "access_status": "已读馆方可读索引；直接打开无可读正文",
+    "type": "museum_record",
+    "checked_on": "2026-11-22"
+  },
+  "S-CER": {
+    "id": "S-CER",
+    "title": "塞努奇：目黑阿弥陀大佛（M.C.2078）",
+    "url": "https://www.cernuschi.paris.fr/fr/collections/collections-japonaises/bronzes/buddha-amida-amitabha",
+    "access_status": "馆方可读索引与巴黎博物馆记录互核",
+    "type": "museum_record",
+    "checked_on": "2026-11-22"
+  },
+  "S-MET-FUDO": {
+    "id": "S-MET-FUDO",
+    "title": "Met：不动明王（1975.268.163）",
+    "url": "https://www.metmuseum.org/art/collection/search/44842",
+    "access_status": "已查馆方记录或可读正文",
+    "type": "museum_record",
+    "checked_on": "2026-11-22"
+  },
+  "S-KINGS": {
+    "id": "S-KINGS",
+    "title": "Met：Kings of Brightness in Japanese Esoteric Buddhist Art",
+    "url": "https://www.metmuseum.org/es/essays/kings-of-brightness-in-japanese-esoteric-buddhist-art",
+    "access_status": "已查馆方记录或可读正文",
+    "type": "museum_essay",
+    "checked_on": "2026-11-22"
+  },
+  "S-MET-ATT": {
+    "id": "S-MET-ATT",
+    "title": "Met：胁侍观音（12.134.17）",
+    "url": "https://www.metmuseum.org/art/collection/search/49107",
+    "access_status": "已查馆方记录或可读正文",
+    "type": "museum_record",
+    "checked_on": "2026-11-22"
+  },
+  "S-MET-DAI": {
+    "id": "S-MET-DAI",
+    "title": "Met：大日如来（26.118a,b）",
+    "url": "https://www.metmuseum.org/art/collection/search/44838",
+    "access_status": "已查馆方记录或可读正文",
+    "type": "museum_record",
+    "checked_on": "2026-11-22"
+  },
+  "S-MET-11": {
+    "id": "S-MET-11",
+    "title": "Met：十一面观音（1975.268.167）",
+    "url": "https://www.metmuseum.org/art/collection/search/44893",
+    "access_status": "已查馆方记录或可读正文",
+    "type": "museum_record",
+    "checked_on": "2026-11-22"
+  },
+  "S-NEL-AMIDA": {
+    "id": "S-NEL-AMIDA",
+    "title": "Nelson：阿弥陀（31-141/1）",
+    "url": "https://art.nelson-atkins.org/objects/28559/amida-nyorai-amitabha-buddha",
+    "access_status": "上一轮已读馆方记录；本轮重开超时，未据失败结果更改旧资料",
+    "type": "museum_record",
+    "checked_on": "2026-11-22"
+  },
+  "S-NEL-JIZO": {
+    "id": "S-NEL-JIZO",
+    "title": "Nelson：地藏（31-141/2）",
+    "url": "https://art.nelson-atkins.org/objects/692/jizo-bosatsu-ksitigarbha-bodhisattva",
+    "access_status": "上一轮已读馆方可读索引；本轮重开超时",
+    "type": "museum_record",
+    "checked_on": "2026-11-22"
+  },
+  "S-CMA-AMIDA": {
+    "id": "S-CMA-AMIDA",
+    "title": "CMA：1269年阿弥陀",
+    "url": "https://www.clevelandart.org/art/1960.197",
+    "access_status": "已查馆方记录或可读正文",
+    "type": "museum_record",
+    "checked_on": "2026-11-22"
+  },
+  "S-CMA-KAK": {
+    "id": "S-CMA-KAK",
+    "title": "CMA：法灯圆明国师",
+    "url": "https://www.clevelandart.org/art/1970.67",
+    "access_status": "已查馆方记录或可读正文",
+    "type": "museum_record",
+    "checked_on": "2026-11-22"
+  },
+  "S-CMA-SEATED": {
+    "id": "S-CMA-SEATED",
+    "title": "CMA：如来坐像",
+    "url": "https://www.clevelandart.org/art/1973.85",
+    "access_status": "已查馆方记录或可读正文",
+    "type": "museum_record",
+    "checked_on": "2026-11-22"
+  },
+  "S-CMA-NIKKO": {
+    "id": "S-CMA-NIKKO",
+    "title": "CMA：日光菩萨",
+    "url": "https://www.clevelandart.org/art/1961.48",
+    "access_status": "已查馆方记录或可读正文",
+    "type": "museum_record",
+    "checked_on": "2026-11-22"
+  },
+  "S-CMA-SHAKA": {
+    "id": "S-CMA-SHAKA",
+    "title": "CMA：约900年释迦",
+    "url": "https://www.clevelandart.org/art/1986.7",
+    "access_status": "已查馆方记录或可读正文",
+    "type": "museum_record",
+    "checked_on": "2026-11-22"
+  },
+  "S-CMA-ZAO": {
+    "id": "S-CMA-ZAO",
+    "title": "CMA：藏王权现",
+    "url": "https://www.clevelandart.org/art/1973.105",
+    "access_status": "已查馆方记录或可读正文",
+    "type": "museum_record",
+    "checked_on": "2026-11-22"
+  },
+  "S-KIM-SHAKA": {
+    "id": "S-KIM-SHAKA",
+    "title": "金贝尔：快庆释迦（AP1984.01）",
+    "url": "https://kimbellart.org/collection/ap-198401-abc",
+    "access_status": "已读馆方可读索引；直接打开403",
+    "type": "museum_record",
+    "checked_on": "2026-11-22"
+  },
+  "S-KIM-NYO": {
+    "id": "S-KIM-NYO",
+    "title": "金贝尔：如意轮观音（AP1985.15）",
+    "url": "https://kimbellart.org/collection/ap-198515",
+    "access_status": "已读馆方可读索引；直接打开403",
+    "type": "museum_record",
+    "checked_on": "2026-11-22"
+  },
+  "S-KIM-HACHI": {
+    "id": "S-KIM-HACHI",
+    "title": "金贝尔：僧形八幡神（AP1981.19）",
+    "url": "https://kimbellart.org/collection/ap-198119",
+    "access_status": "已读馆方可读索引；直接打开403",
+    "type": "museum_record",
+    "checked_on": "2026-11-22"
+  },
+  "S-SEA-AMIDA": {
+    "id": "S-SEA-AMIDA",
+    "title": "西雅图：阿弥陀（2011.39）",
+    "url": "https://art.seattleartmuseum.org/objects/27280/amida-buddha",
+    "access_status": "已查馆方记录或可读正文",
+    "type": "museum_record",
+    "checked_on": "2026-11-22"
+  },
+  "S-MET-KANNON": {
+    "id": "S-MET-KANNON",
+    "title": "Met：观音（2021.116a,b）",
+    "url": "https://www.metmuseum.org/art/collection/search/851372",
+    "access_status": "已查馆方记录或可读正文",
+    "type": "museum_record",
+    "checked_on": "2026-11-22"
+  },
+  "S-WOOD": {
+    "id": "S-WOOD",
+    "title": "Tazuru, Mertz, Itoh & Sugiyama (2022), Wood identification of Japanese and Chinese wooden statues owned by the Museum of Fine Arts, Boston, USA",
+    "url": "https://link.springer.com/article/10.1186/s10086-022-02020-x",
+    "access_status": "已读开放获取正文；非馆藏全体统计",
+    "type": "research_article",
+    "checked_on": "2026-11-22"
+  },
+  "S-TNM-UNKEI": {
+    "id": "S-TNM-UNKEI",
+    "title": "东京国立博物馆：UNKEI—The Great Master of Buddhist Sculpture（2017）",
+    "url": "https://www.tnm.jp/modules/r_free_page/index.php?id=1861&lang=en",
+    "access_status": "已查馆方记录或可读正文",
+    "type": "museum_exhibition_essay",
+    "checked_on": "2026-11-22"
+  },
+  "S-KNM-STYLE": {
+    "id": "S-KNM-STYLE",
+    "title": "京都国立博物馆：Buddhist Sculpture of the Jōchō Style and the Kei School（2016）",
+    "url": "https://www.kyohaku.go.jp/old/eng/theme/floor1_2/past/scu_20160614.html",
+    "access_status": "已查馆方记录或可读正文",
+    "type": "museum_exhibition_essay",
+    "checked_on": "2026-11-22"
+  },
+  "S-MET-KOREA": {
+    "id": "S-MET-KOREA",
+    "title": "Met：Korean Buddhist Sculpture (5th–9th Century), Soyoung Lee（2002）",
+    "url": "https://www.metmuseum.org/ko/essays/korean-buddhist-sculpture-5th-9th-century",
+    "access_status": "已读馆方可读索引及原文摘要",
+    "type": "museum_essay",
+    "checked_on": "2026-11-22"
+  },
+  "S-MET-KYOTO": {
+    "id": "S-MET-KYOTO",
+    "title": "Met：Kyoto: Capital of Artistic Imagination, Exhibition Guide",
+    "url": "https://www.metmuseum.org/exhibitions/listings/2019/kyoto-capital-artistic-imagination/exhibition-guide",
+    "access_status": "已查馆方记录或可读正文",
+    "type": "museum_exhibition_essay",
+    "checked_on": "2026-11-22"
+  },
+  "S-JP-KAK": {
+    "id": "S-JP-KAK",
+    "title": "日本文化厅：无本觉心所用九条袈裟及人物说明",
+    "url": "https://kunishitei.bunka.go.jp/bsys/maindetails/201/7265",
+    "access_status": "已读官方记录正文；用于人物生卒与入宋背景，不作CMA木像来源证明",
+    "type": "government_cultural_record",
+    "checked_on": "2026-11-22"
+  },
+  "S-MFAH-KOEI": {
+    "id": "S-MFAH-KOEI",
+    "title": "MFAH Hirsch Library：Amida by Koei, 1472（92.193）",
+    "url": "https://static.mfah.com/documents/koei---amida-buddha-japanese.4227821031685014481.pdf",
+    "access_status": "已查馆方研究指南可读索引，未核全文所列书目",
+    "type": "museum_research_guide",
+    "checked_on": "2026-11-22"
+  },
+  "L3116": {
+    "id": "L3116",
+    "title": "Qingxi现场拍摄展签／说明 3116",
+    "url": "../../photos/j01/Image_20261122201739_3116_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3118": {
+    "id": "L3118",
+    "title": "Qingxi现场拍摄展签／说明 3118",
+    "url": "../../photos/j02/Image_20261122201739_3118_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3120": {
+    "id": "L3120",
+    "title": "Qingxi现场拍摄展签／说明 3120",
+    "url": "../../photos/j03/Image_20261122201739_3120_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3122": {
+    "id": "L3122",
+    "title": "Qingxi现场拍摄展签／说明 3122",
+    "url": "../../photos/j04/Image_20261122201739_3122_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3124": {
+    "id": "L3124",
+    "title": "Qingxi现场拍摄展签／说明 3124",
+    "url": "../../photos/j06/Image_20261122201739_3124_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3126": {
+    "id": "L3126",
+    "title": "Qingxi现场拍摄展签／说明 3126",
+    "url": "../../photos/j07/Image_20261122201739_3126_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3129": {
+    "id": "L3129",
+    "title": "Qingxi现场拍摄展签／说明 3129",
+    "url": "../../photos/j09/Image_20261122201739_3129_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3131": {
+    "id": "L3131",
+    "title": "Qingxi现场拍摄展签／说明 3131",
+    "url": "../../photos/j10/Image_20261122201739_3131_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3133": {
+    "id": "L3133",
+    "title": "Qingxi现场拍摄展签／说明 3133",
+    "url": "../../photos/j11/Image_20261122201739_3133_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3136": {
+    "id": "L3136",
+    "title": "Qingxi现场拍摄展签／说明 3136",
+    "url": "../../photos/j12/Image_20261122201739_3136_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3138": {
+    "id": "L3138",
+    "title": "Qingxi现场拍摄展签／说明 3138",
+    "url": "../../photos/j13/Image_20261122201739_3138_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3140": {
+    "id": "L3140",
+    "title": "Qingxi现场拍摄展签／说明 3140",
+    "url": "../../photos/j14/Image_20261122201739_3140_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3142": {
+    "id": "L3142",
+    "title": "Qingxi现场拍摄展签／说明 3142",
+    "url": "../../photos/j15/Image_20261122201739_3142_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3144": {
+    "id": "L3144",
+    "title": "Qingxi现场拍摄展签／说明 3144",
+    "url": "../../photos/j16/Image_20261122201739_3144_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3148": {
+    "id": "L3148",
+    "title": "Qingxi现场拍摄展签／说明 3148",
+    "url": "../../photos/j17/Image_20261122201739_3148_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3150": {
+    "id": "L3150",
+    "title": "Qingxi现场拍摄展签／说明 3150",
+    "url": "../../photos/j18/Image_20261122201739_3150_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3153": {
+    "id": "L3153",
+    "title": "Qingxi现场拍摄展签／说明 3153",
+    "url": "../../photos/j19/Image_20261122201739_3153_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3155": {
+    "id": "L3155",
+    "title": "Qingxi现场拍摄展签／说明 3155",
+    "url": "../../photos/j20/Image_20261122201739_3155_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3158": {
+    "id": "L3158",
+    "title": "Qingxi现场拍摄展签／说明 3158",
+    "url": "../../photos/j21/Image_20261122201739_3158_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3160": {
+    "id": "L3160",
+    "title": "Qingxi现场拍摄展签／说明 3160",
+    "url": "../../photos/j22/Image_20261122201739_3160_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3166": {
+    "id": "L3166",
+    "title": "Qingxi现场拍摄展签／说明 3166",
+    "url": "../../photos/j23/Image_20261122201739_3166_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3169": {
+    "id": "L3169",
+    "title": "Qingxi现场拍摄展签／说明 3169",
+    "url": "../../photos/j24/Image_20261122201739_3169_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3175": {
+    "id": "L3175",
+    "title": "Qingxi现场拍摄展签／说明 3175",
+    "url": "../../photos/j25/Image_20261122201739_3175_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3177": {
+    "id": "L3177",
+    "title": "Qingxi现场拍摄展签／说明 3177",
+    "url": "../../photos/j26/Image_20261122201739_3177_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3179": {
+    "id": "L3179",
+    "title": "Qingxi现场拍摄展签／说明 3179",
+    "url": "../../photos/j27/Image_20261122201739_3179_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3181": {
+    "id": "L3181",
+    "title": "Qingxi现场拍摄展签／说明 3181",
+    "url": "../../photos/j28/Image_20261122201739_3181_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3183": {
+    "id": "L3183",
+    "title": "Qingxi现场拍摄展签／说明 3183",
+    "url": "../../photos/j29/Image_20261122201739_3183_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3185": {
+    "id": "L3185",
+    "title": "Qingxi现场拍摄展签／说明 3185",
+    "url": "../../photos/j30/Image_20261122201739_3185_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3187": {
+    "id": "L3187",
+    "title": "Qingxi现场拍摄展签／说明 3187",
+    "url": "../../photos/j31/Image_20261122201739_3187_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3189": {
+    "id": "L3189",
+    "title": "Qingxi现场拍摄展签／说明 3189",
+    "url": "../../photos/j32/Image_20261122201739_3189_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3191": {
+    "id": "L3191",
+    "title": "Qingxi现场拍摄展签／说明 3191",
+    "url": "../../photos/j33/Image_20261122201739_3191_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3193": {
+    "id": "L3193",
+    "title": "Qingxi现场拍摄展签／说明 3193",
+    "url": "../../photos/j34/Image_20261122201739_3193_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3195": {
+    "id": "L3195",
+    "title": "Qingxi现场拍摄展签／说明 3195",
+    "url": "../../photos/j35/Image_20261122201739_3195_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3197": {
+    "id": "L3197",
+    "title": "Qingxi现场拍摄展签／说明 3197",
+    "url": "../../photos/j36/Image_20261122201739_3197_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3199": {
+    "id": "L3199",
+    "title": "Qingxi现场拍摄展签／说明 3199",
+    "url": "../../photos/j37/Image_20261122201739_3199_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3201": {
+    "id": "L3201",
+    "title": "Qingxi现场拍摄展签／说明 3201",
+    "url": "../../photos/j38/Image_20261122201739_3201_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3203": {
+    "id": "L3203",
+    "title": "Qingxi现场拍摄展签／说明 3203",
+    "url": "../../photos/j39/Image_20261122201739_3203_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3208": {
+    "id": "L3208",
+    "title": "Qingxi现场拍摄展签／说明 3208",
+    "url": "../../photos/j40/Image_20261122201739_3208_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3211": {
+    "id": "L3211",
+    "title": "Qingxi现场拍摄展签／说明 3211",
+    "url": "../../photos/j41/Image_20261122201739_3211_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3213": {
+    "id": "L3213",
+    "title": "Qingxi现场拍摄展签／说明 3213",
+    "url": "../../photos/j42/Image_20261122201739_3213_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3215": {
+    "id": "L3215",
+    "title": "Qingxi现场拍摄展签／说明 3215",
+    "url": "../../photos/j43/Image_20261122203531_3215_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3217": {
+    "id": "L3217",
+    "title": "Qingxi现场拍摄展签／说明 3217",
+    "url": "../../photos/j44/Image_20261122203531_3217_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3219": {
+    "id": "L3219",
+    "title": "Qingxi现场拍摄展签／说明 3219",
+    "url": "../../photos/j45/Image_20261122203531_3219_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3221": {
+    "id": "L3221",
+    "title": "Qingxi现场拍摄展签／说明 3221",
+    "url": "../../photos/j46/Image_20261122203531_3221_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3223": {
+    "id": "L3223",
+    "title": "Qingxi现场拍摄展签／说明 3223",
+    "url": "../../photos/j47/Image_20261122203531_3223_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3225": {
+    "id": "L3225",
+    "title": "Qingxi现场拍摄展签／说明 3225",
+    "url": "../../photos/j48/Image_20261122203531_3225_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3227": {
+    "id": "L3227",
+    "title": "Qingxi现场拍摄展签／说明 3227",
+    "url": "../../photos/j49/Image_20261122203531_3227_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3229": {
+    "id": "L3229",
+    "title": "Qingxi现场拍摄展签／说明 3229",
+    "url": "../../photos/j50/Image_20261122203531_3229_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3231": {
+    "id": "L3231",
+    "title": "Qingxi现场拍摄展签／说明 3231",
+    "url": "../../photos/j51/Image_20261122203531_3231_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3234": {
+    "id": "L3234",
+    "title": "Qingxi现场拍摄展签／说明 3234",
+    "url": "../../photos/j52/Image_20261122203531_3234_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3236": {
+    "id": "L3236",
+    "title": "Qingxi现场拍摄展签／说明 3236",
+    "url": "../../photos/j53/Image_20261122203531_3236_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3238": {
+    "id": "L3238",
+    "title": "Qingxi现场拍摄展签／说明 3238",
+    "url": "../../photos/j54/Image_20261122203531_3238_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3240": {
+    "id": "L3240",
+    "title": "Qingxi现场拍摄展签／说明 3240",
+    "url": "../../photos/j55/Image_20261122203531_3240_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3244": {
+    "id": "L3244",
+    "title": "Qingxi现场拍摄展签／说明 3244",
+    "url": "../../photos/j56/Image_20261122203531_3244_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3246": {
+    "id": "L3246",
+    "title": "Qingxi现场拍摄展签／说明 3246",
+    "url": "../../photos/j57/Image_20261122203531_3246_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3249": {
+    "id": "L3249",
+    "title": "Qingxi现场拍摄展签／说明 3249",
+    "url": "../../photos/j58/Image_20261122203531_3249_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3255": {
+    "id": "L3255",
+    "title": "Qingxi现场拍摄展签／说明 3255",
+    "url": "../../photos/j59/Image_20261122203531_3255_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3260": {
+    "id": "L3260",
+    "title": "Qingxi现场拍摄展签／说明 3260",
+    "url": "../../photos/j60/Image_20261122203531_3260_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "L3262": {
+    "id": "L3262",
+    "title": "Qingxi现场拍摄展签／说明 3262",
+    "url": "../../photos/j61/Image_20261122203531_3262_19.jpg",
+    "access_status": "已看图；目录摘要经人工核对，非逐字全译",
+    "type": "user_photo_label",
+    "checked_on": "2026-11-22"
+  },
+  "U-VISIT": {
+    "id": "U-VISIT",
+    "title": "用户确认：Mia大威德与波士顿大日均在休斯顿美术馆亲见",
+    "url": null,
+    "access_status": "本轮用户明确回复",
+    "type": "user_statement",
+    "checked_on": "2026-11-22"
+  },
+  "S-WALTERS-SAICHO": {
+    "id": "S-WALTERS-SAICHO",
+    "title": "Walters：Figure of Buddhist Monk Saicho (767–822)，TL.1974.35",
+    "url": "https://art.thewalters.org/object/TL.1974.35/",
+    "access_status": "已读馆方正文；页面没有作品图片。作品对应另据用户本轮补充同图比对。",
+    "type": "museum_record",
+    "checked_on": "2026-11-22"
+  },
+  "U-WALTERS-MATCH": {
+    "id": "U-WALTERS-MATCH",
+    "title": "用户补充：网上图片与自拍一致，标为镰仓Saicho，并指向TL.1974.35",
+    "url": null,
+    "access_status": "本轮用户提供；第三方图片本身未独立取得",
+    "type": "user_statement",
+    "checked_on": "2026-11-22"
+  },
+  "S-ENRYAKUJI": {
+    "id": "S-ENRYAKUJI",
+    "title": "比叡山延历寺：祖师最澄",
+    "url": "https://www.hieizan.or.jp/about/founders.html",
+    "access_status": "已读寺院官网正文；用于人物与宗派背景，不作为本件雕像原寺证明",
+    "type": "temple_history",
+    "checked_on": "2026-11-22"
+  }
+}

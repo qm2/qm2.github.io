@@ -167,3 +167,6 @@ build_ten_kings()
 
 from build_gusu import build as build_gusu
 build_gusu()
+
+from build_japanese_wood import build as build_japanese_wood
+build_japanese_wood()

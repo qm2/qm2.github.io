@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "MIA",
+        "name_zh": "明尼阿波利斯艺术博物馆（收藏机构）",
+        "role": "collection_only",
+        "record_ids": [
+          "j01"
+        ],
+        "visited_in_this_dataset": false,
+        "website": "https://collections.artsmia.org/",
+        "coordinate_note": "约略馆区中心；此图层不代表用户到访"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.2741,
+          44.9585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "BOSTON",
+        "name_zh": "波士顿美术馆（收藏机构）",
+        "role": "collection_only",
+        "record_ids": [
+          "j02"
+        ],
+        "visited_in_this_dataset": false,
+        "website": "https://www.mfa.org/",
+        "coordinate_note": "约略馆区中心；此图层不代表用户到访"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0942,
+          42.3394
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,5348 @@
+[
+  {
+    "id": "j01",
+    "title_zh": "大威德明王骑牛像",
+    "museum_code": "MIA",
+    "collection_museum": "明尼阿波利斯艺术博物馆（Mia）",
+    "viewing_museum": "休斯顿美术馆",
+    "date_display": "13世纪后半叶",
+    "year_start": 1250,
+    "year_end": 1299,
+    "period_bucket": "12世纪末—14世纪",
+    "category": "明王",
+    "accession": "2013.29.1a-g",
+    "photo_numbers": [
+      3115
+    ],
+    "label_numbers": [
+      3116
+    ],
+    "notes": "木、金属、彩绘、金饰、水晶嵌眼。六面、六臂、六足与牛座值得从不同方向理解；藏馆有明确记录，用户确认在休斯顿美术馆观看。",
+    "evidence_status": "照片／展签＋已查馆方或研究资料",
+    "source_urls": [
+      "https://collections.artsmia.org/art/116725/daiitoku-myo-the-wisdom-king-of-awe-inspiring-power-japan"
+    ],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3115,
+    "photos": [
+      {
+        "number": 3115,
+        "original_filename": "Image_20261122201739_3115_19.jpg",
+        "path": "photos/j01/Image_20261122201739_3115_19.jpg",
+        "record_ids": [
+          "j01"
+        ],
+        "sha256": "fb1de3391b1fe33427077f229deca3a7e714c9daa17d715044074448d23d234d",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3116,
+        "original_filename": "Image_20261122201739_3116_19.jpg",
+        "path": "photos/j01/Image_20261122201739_3116_19.jpg",
+        "record_ids": [
+          "j01"
+        ],
+        "sha256": "5626a659d32d5a0db2d4882e2b6196631223c265122659771db80b6f17b081aa",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j01/Image_20261122201739_3115_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "木、金属、彩绘、金饰、水晶嵌眼",
+    "viewing_museum_id": "MFAH",
+    "viewing_evidence": "用户本轮明确确认：两件均在休斯顿美术馆观看",
+    "personal_highlight": true,
+    "curatorial_addition": false,
+    "selection_role": "用户记忆较深的作品（无排名）",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j01/",
+    "reading_depth": "essay",
+    "subject_tags": [
+      "明王"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "大威德明王骑牛像",
+    "timeline_enabled": true,
+    "url_slug": "j01",
+    "essay_path": "content/works/j01.md",
+    "essay_title": "六面六臂之下，牛背仍然安稳",
+    "chapter_id": "wrath"
+  },
+  {
+    "id": "j02",
+    "title_zh": "大日如来坐像",
+    "museum_code": "BOSTON",
+    "collection_museum": "波士顿美术馆（MFA）",
+    "viewing_museum": "休斯顿美术馆",
+    "date_display": "1105年",
+    "year_start": 1105,
+    "year_end": 1105,
+    "period_bucket": "11—12世纪",
+    "category": "如来",
+    "accession": "11.11428",
+    "photo_numbers": [
+      3117
+    ],
+    "label_numbers": [
+      3118
+    ],
+    "notes": "桧木、金饰；智拳印。展签明确为1105年，不是波士顿另尊1149年的大日如来。照片展签采用借展署名格式，用户确认在休斯顿美术馆观看。",
+    "evidence_status": "照片／展签＋已查馆方或研究资料",
+    "source_urls": [
+      "https://link.springer.com/article/10.1186/s10086-022-02020-x"
+    ],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3117,
+    "photos": [
+      {
+        "number": 3117,
+        "original_filename": "Image_20261122201739_3117_19.jpg",
+        "path": "photos/j02/Image_20261122201739_3117_19.jpg",
+        "record_ids": [
+          "j02"
+        ],
+        "sha256": "58a9644cd3c886781a38d16a6b9250bca174a8968cdc3dc9ee088d89f4dc8fe1",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3118,
+        "original_filename": "Image_20261122201739_3118_19.jpg",
+        "path": "photos/j02/Image_20261122201739_3118_19.jpg",
+        "record_ids": [
+          "j02"
+        ],
+        "sha256": "1f5799164caad02260926d46566776424274e624e8514704287390c3b5218a8b",
+        "width": 1702,
+        "height": 1276,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j02/Image_20261122201739_3117_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "确年",
+    "materials_summary": "桧木、金饰；智拳印",
+    "viewing_museum_id": "MFAH",
+    "viewing_evidence": "用户本轮明确确认：两件均在休斯顿美术馆观看",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j02/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "如来"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "大日如来坐像",
+    "timeline_enabled": true,
+    "url_slug": "j02"
+  },
+  {
+    "id": "j03",
+    "title_zh": "观音菩萨立像",
+    "museum_code": "GUIMET",
+    "collection_museum": "巴黎吉美博物馆",
+    "viewing_museum": "巴黎吉美博物馆",
+    "date_display": "8世纪末—9世纪初",
+    "year_start": 775,
+    "year_end": 825,
+    "period_bucket": "8—10世纪",
+    "category": "菩萨／观音",
+    "accession": "MA 6279",
+    "photo_numbers": [
+      3119
+    ],
+    "label_numbers": [
+      3120
+    ],
+    "notes": "木，残存漆与金箔。展签同时写奈良时期和跨入9世纪的年代，目录保留原始范围；不强行限定在794年前。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3119,
+    "photos": [
+      {
+        "number": 3119,
+        "original_filename": "Image_20261122201739_3119_19.jpg",
+        "path": "photos/j03/Image_20261122201739_3119_19.jpg",
+        "record_ids": [
+          "j03"
+        ],
+        "sha256": "aed9dd4d1bfedcef44cbca8c4ccd19350ce00eeb7d74b13d09134841b82f735c",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3120,
+        "original_filename": "Image_20261122201739_3120_19.jpg",
+        "path": "photos/j03/Image_20261122201739_3120_19.jpg",
+        "record_ids": [
+          "j03"
+        ],
+        "sha256": "e0f119eefe5b90727e2adc82305c03316b2f22430c69084875edcb644891c251",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j03/Image_20261122201739_3119_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "木，残存漆与金箔",
+    "viewing_museum_id": "GUIMET",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": true,
+    "selection_role": "研究补选",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j03/",
+    "reading_depth": "essay",
+    "subject_tags": [
+      "菩萨／观音"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "观音菩萨立像",
+    "timeline_enabled": true,
+    "url_slug": "j03",
+    "essay_path": "content/works/j03.md",
+    "essay_title": "八世纪末的观音：跨海之后的木头",
+    "chapter_id": "crossing"
+  },
+  {
+    "id": "j04",
+    "title_zh": "阿弥陀佛胸像",
+    "museum_code": "GUIMET",
+    "collection_museum": "巴黎吉美博物馆",
+    "viewing_museum": "巴黎吉美博物馆",
+    "date_display": "11世纪后半叶",
+    "year_start": 1050,
+    "year_end": 1099,
+    "period_bucket": "11—12世纪",
+    "category": "如来",
+    "accession": "待核（3122展签小字模糊）",
+    "photo_numbers": [
+      3121
+    ],
+    "label_numbers": [
+      3122
+    ],
+    "notes": "3121画面后方的大型胸像；与前方小坐像是两件作品，共用一张展签照片，不能合并成一尊。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3121,
+    "photos": [
+      {
+        "number": 3121,
+        "original_filename": "Image_20261122201739_3121_19.jpg",
+        "path": "photos/j04/Image_20261122201739_3121_19.jpg",
+        "record_ids": [
+          "j04",
+          "j05"
+        ],
+        "sha256": "8e93d912ca7e5f490ab0da4e03ba44722859d49c6c7148ae76a46742bae55e99",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3122,
+        "original_filename": "Image_20261122201739_3122_19.jpg",
+        "path": "photos/j04/Image_20261122201739_3122_19.jpg",
+        "record_ids": [
+          "j04",
+          "j05"
+        ],
+        "sha256": "23548f3503e2619e5adfb825ca8af36719e03952b497332b40c820099b34251a",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j04/Image_20261122201739_3121_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "3121画面后方的大型胸像；与前方小坐像是两件作品，共用一张展签照片，不能合并成一尊",
+    "viewing_museum_id": "GUIMET",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j04/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "如来"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "阿弥陀佛胸像",
+    "timeline_enabled": true,
+    "url_slug": "j04"
+  },
+  {
+    "id": "j05",
+    "title_zh": "阿弥陀佛坐像",
+    "museum_code": "GUIMET",
+    "collection_museum": "巴黎吉美博物馆",
+    "viewing_museum": "巴黎吉美博物馆",
+    "date_display": "11—12世纪",
+    "year_start": 1000,
+    "year_end": 1199,
+    "period_bucket": "11—12世纪",
+    "category": "如来",
+    "accession": "待核（3122展签小字模糊）",
+    "photo_numbers": [
+      3121
+    ],
+    "label_numbers": [
+      3122
+    ],
+    "notes": "3121画面前方较小的坐像。木，残存彩绘；与后方胸像分开建档。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3121,
+    "photos": [
+      {
+        "number": 3121,
+        "original_filename": "Image_20261122201739_3121_19.jpg",
+        "path": "photos/j04/Image_20261122201739_3121_19.jpg",
+        "record_ids": [
+          "j04",
+          "j05"
+        ],
+        "sha256": "8e93d912ca7e5f490ab0da4e03ba44722859d49c6c7148ae76a46742bae55e99",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3122,
+        "original_filename": "Image_20261122201739_3122_19.jpg",
+        "path": "photos/j04/Image_20261122201739_3122_19.jpg",
+        "record_ids": [
+          "j04",
+          "j05"
+        ],
+        "sha256": "23548f3503e2619e5adfb825ca8af36719e03952b497332b40c820099b34251a",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j04/Image_20261122201739_3121_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "3121画面前方较小的坐像",
+    "viewing_museum_id": "GUIMET",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j05/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "如来"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "阿弥陀佛坐像",
+    "timeline_enabled": true,
+    "url_slug": "j05"
+  },
+  {
+    "id": "j06",
+    "title_zh": "阿弥陀三尊来迎像",
+    "museum_code": "GUIMET",
+    "collection_museum": "巴黎吉美博物馆",
+    "viewing_museum": "巴黎吉美博物馆",
+    "date_display": "镰仓时期（1185—1333）",
+    "year_start": 1185,
+    "year_end": 1333,
+    "period_bucket": "12世纪末—14世纪",
+    "category": "来迎／组合",
+    "accession": "MG 26298",
+    "photo_numbers": [
+      3123
+    ],
+    "label_numbers": [
+      3124
+    ],
+    "notes": "阿弥陀佛与观音、势至。木、漆、彩绘、金饰及截金；按一组建档，不将展签仅给出的时代收窄为某个世纪。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3123,
+    "photos": [
+      {
+        "number": 3123,
+        "original_filename": "Image_20261122201739_3123_19.jpg",
+        "path": "photos/j06/Image_20261122201739_3123_19.jpg",
+        "record_ids": [
+          "j06"
+        ],
+        "sha256": "f1fb9b6f61636bb6961266e97ba9ebc89ead106e776452877f53dcfe74d3bb63",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3124,
+        "original_filename": "Image_20261122201739_3124_19.jpg",
+        "path": "photos/j06/Image_20261122201739_3124_19.jpg",
+        "record_ids": [
+          "j06"
+        ],
+        "sha256": "307b598baf7e0ee1efe26a71c69576e746045a1ce080ebafef1a0f5ac8341d36",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j06/Image_20261122201739_3123_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "阿弥陀佛与观音、势至",
+    "viewing_museum_id": "GUIMET",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j06/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "来迎／组合"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "阿弥陀三尊来迎像",
+    "timeline_enabled": true,
+    "url_slug": "j06"
+  },
+  {
+    "id": "j07",
+    "title_zh": "阿弥陀佛坐像（禅定印）",
+    "museum_code": "GUIMET",
+    "collection_museum": "巴黎吉美博物馆",
+    "viewing_museum": "巴黎吉美博物馆",
+    "date_display": "19世纪",
+    "year_start": 1800,
+    "year_end": 1899,
+    "period_bucket": "15—19世纪",
+    "category": "如来",
+    "accession": "MG 26296",
+    "photo_numbers": [
+      3125
+    ],
+    "label_numbers": [
+      3126
+    ],
+    "notes": "木、金饰、彩绘。适合与中世坐像比较体量和衣纹；此处的阿弥陀身份来自展签。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3125,
+    "photos": [
+      {
+        "number": 3125,
+        "original_filename": "Image_20261122201739_3125_19.jpg",
+        "path": "photos/j07/Image_20261122201739_3125_19.jpg",
+        "record_ids": [
+          "j07"
+        ],
+        "sha256": "95f431768fd784b60d0be169d5a061962d63687607e4ea1a0a0641d0d34bd211",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3126,
+        "original_filename": "Image_20261122201739_3126_19.jpg",
+        "path": "photos/j07/Image_20261122201739_3126_19.jpg",
+        "record_ids": [
+          "j07"
+        ],
+        "sha256": "95f2bb3241d08ead42e06459774f474e0bcf4a37c59d44256356d10093c26bf2",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j07/Image_20261122201739_3125_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "木、金饰、彩绘",
+    "viewing_museum_id": "GUIMET",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j07/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "如来"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "阿弥陀佛坐像（禅定印）",
+    "timeline_enabled": true,
+    "url_slug": "j07"
+  },
+  {
+    "id": "j08",
+    "title_zh": "目黑大佛／阿弥陀佛坐像",
+    "museum_code": "CERNUSCHI",
+    "collection_museum": "巴黎塞努奇博物馆",
+    "viewing_museum": "巴黎塞努奇博物馆",
+    "date_display": "18世纪；数据库宽记1603—1867",
+    "year_start": 1700,
+    "year_end": 1799,
+    "period_bucket": "15—19世纪",
+    "category": "青铜对照",
+    "accession": "M.C. 2078",
+    "photo_numbers": [
+      3127
+    ],
+    "label_numbers": [],
+    "notes": "青铜，高440厘米。用户已确认观看地点；官方资料确认来自东京目黑幡龙寺。作为材质对照保留，不计入木雕核心。",
+    "evidence_status": "照片／展签＋已查馆方或研究资料",
+    "source_urls": [
+      "https://www.cernuschi.paris.fr/fr/collections/collections-japonaises/bronzes/buddha-amida-amitabha",
+      "https://www.parismuseescollections.paris.fr/fr/musee-cernuschi/oeuvres/buddha-amida-amitabha"
+    ],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3127,
+    "photos": [
+      {
+        "number": 3127,
+        "original_filename": "Image_20261122201739_3127_19.jpg",
+        "path": "photos/j08/Image_20261122201739_3127_19.jpg",
+        "record_ids": [
+          "j08"
+        ],
+        "sha256": "1dc205a5bb9b58cef404827e7d51abf13a1a630308bc3a79be8af0865ccd9a60",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [],
+    "cover_photo_path": "photos/j08/Image_20261122201739_3127_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "青铜，高440厘米",
+    "viewing_museum_id": "CERNUSCHI",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": true,
+    "curatorial_addition": false,
+    "selection_role": "用户记忆较深的作品（无排名）",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j08/",
+    "reading_depth": "essay",
+    "subject_tags": [
+      "青铜对照"
+    ],
+    "is_wood_figure": false,
+    "material_group": "bronze",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": true,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "目黑大佛／阿弥陀佛坐像",
+    "timeline_enabled": true,
+    "url_slug": "j08",
+    "essay_path": "content/works/j08.md",
+    "essay_title": "从目黑到巴黎：一尊青铜大佛的后来生活",
+    "chapter_id": "survival"
+  },
+  {
+    "id": "j09",
+    "title_zh": "药师如来立像",
+    "museum_code": "DALLAS",
+    "collection_museum": "达拉斯艺术博物馆",
+    "viewing_museum": "达拉斯艺术博物馆",
+    "date_display": "约1150年",
+    "year_start": 1140,
+    "year_end": 1160,
+    "period_bucket": "11—12世纪",
+    "category": "如来",
+    "accession": "1985.116.A-C",
+    "photo_numbers": [
+      3128
+    ],
+    "label_numbers": [
+      3129
+    ],
+    "notes": "日本桧木；左手药壶是辨识线索。展签与馆方发布的作品介绍可相互核对；官网别名Healing Buddha with Lotus。",
+    "evidence_status": "照片／展签＋已查馆方或研究资料",
+    "source_urls": [
+      "https://artsandculture.google.com/asset/healing-buddha-with-lotus/EwFAsjgRToSkRQ"
+    ],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3128,
+    "photos": [
+      {
+        "number": 3128,
+        "original_filename": "Image_20261122201739_3128_19.jpg",
+        "path": "photos/j09/Image_20261122201739_3128_19.jpg",
+        "record_ids": [
+          "j09"
+        ],
+        "sha256": "d8b53cd005f954c153785e5bc0959012f8b36d1d6bf1df58e631e95a09faeab2",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3129,
+        "original_filename": "Image_20261122201739_3129_19.jpg",
+        "path": "photos/j09/Image_20261122201739_3129_19.jpg",
+        "record_ids": [
+          "j09"
+        ],
+        "sha256": "e87ab5924fab9b8692d3d0ca30bd4404e36420f508e1ee5c4f9592004dd9c0a4",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j09/Image_20261122201739_3128_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "日本桧木；左手药壶是辨识线索",
+    "viewing_museum_id": "DALLAS",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j09/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "如来"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "药师如来立像",
+    "timeline_enabled": true,
+    "url_slug": "j09"
+  },
+  {
+    "id": "j10",
+    "title_zh": "阿弥陀如来立像",
+    "museum_code": "DALLAS",
+    "collection_museum": "达拉斯艺术博物馆",
+    "viewing_museum": "达拉斯艺术博物馆",
+    "date_display": "约1175—1200年",
+    "year_start": 1175,
+    "year_end": 1200,
+    "period_bucket": "12世纪末—14世纪",
+    "category": "如来",
+    "accession": "1978.26.A-B",
+    "photo_numbers": [
+      3130
+    ],
+    "label_numbers": [
+      3131
+    ],
+    "notes": "木与金漆；来迎手印。与药师立像可作同馆对照；编号从照片展签读取。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3130,
+    "photos": [
+      {
+        "number": 3130,
+        "original_filename": "Image_20261122201739_3130_19.jpg",
+        "path": "photos/j10/Image_20261122201739_3130_19.jpg",
+        "record_ids": [
+          "j10"
+        ],
+        "sha256": "1abb693c4554825594bc84bd0f96b1309d0ce52e56d85677c4a8dbf352874a56",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3131,
+        "original_filename": "Image_20261122201739_3131_19.jpg",
+        "path": "photos/j10/Image_20261122201739_3131_19.jpg",
+        "record_ids": [
+          "j10"
+        ],
+        "sha256": "7fdd5960c4a2152c4d75f5f2dde6cb9327e20b7f83b6ebd8d9dfd34093519faa",
+        "width": 1702,
+        "height": 1276,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j10/Image_20261122201739_3130_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "木与金漆；来迎手印",
+    "viewing_museum_id": "DALLAS",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": true,
+    "curatorial_addition": false,
+    "selection_role": "用户记忆较深的作品（无排名）",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j10/",
+    "reading_depth": "essay",
+    "subject_tags": [
+      "如来"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "阿弥陀如来立像",
+    "timeline_enabled": true,
+    "url_slug": "j10",
+    "essay_path": "content/works/j10.md",
+    "essay_title": "举起的右手：达拉斯的阿弥陀如来",
+    "chapter_id": "pureland"
+  },
+  {
+    "id": "j11",
+    "title_zh": "不动明王立像",
+    "museum_code": "MET",
+    "collection_museum": "纽约大都会艺术博物馆",
+    "viewing_museum": "纽约大都会艺术博物馆",
+    "date_display": "12世纪",
+    "year_start": 1100,
+    "year_end": 1199,
+    "period_bucket": "11—12世纪",
+    "category": "明王",
+    "accession": "1975.268.163",
+    "photo_numbers": [
+      3132
+    ],
+    "label_numbers": [
+      3133
+    ],
+    "notes": "寄木造，木、漆、金箔、彩绘。展签说明由六块掏空木材构成，原在京都西北九品寺；不能与快庆的不动明王坐像混淆。",
+    "evidence_status": "照片／展签＋已查馆方或研究资料",
+    "source_urls": [
+      "https://www.metmuseum.org/art/collection/search/44842"
+    ],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3132,
+    "photos": [
+      {
+        "number": 3132,
+        "original_filename": "Image_20261122201739_3132_19.jpg",
+        "path": "photos/j11/Image_20261122201739_3132_19.jpg",
+        "record_ids": [
+          "j11"
+        ],
+        "sha256": "fa5cfa112c08d0b359174aa56a1bc9bf8640a45281efa4be87b669b3d9c02297",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3133,
+        "original_filename": "Image_20261122201739_3133_19.jpg",
+        "path": "photos/j11/Image_20261122201739_3133_19.jpg",
+        "record_ids": [
+          "j11"
+        ],
+        "sha256": "c7cb48a2ca851427cbcb05c4d62e782d12289345f21f0ef630bacefdf5c25db9",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j11/Image_20261122201739_3132_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "寄木造，木、漆、金箔、彩绘",
+    "viewing_museum_id": "MET",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": true,
+    "curatorial_addition": false,
+    "selection_role": "用户记忆较深的作品（无排名）",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j11/",
+    "reading_depth": "essay",
+    "subject_tags": [
+      "明王"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "不动明王立像",
+    "timeline_enabled": true,
+    "url_slug": "j11",
+    "essay_path": "content/works/j11.md",
+    "essay_title": "不动，并非没有力量",
+    "chapter_id": "wrath"
+  },
+  {
+    "id": "j12",
+    "title_zh": "阿弥陀三尊与飞天：展厅陈设",
+    "museum_code": "MET",
+    "collection_museum": "纽约大都会艺术博物馆",
+    "viewing_museum": "纽约大都会艺术博物馆",
+    "date_display": "诸像分别为11世纪末—13世纪",
+    "year_start": 1075,
+    "year_end": 1299,
+    "period_bucket": "11—12世纪",
+    "category": "来迎／组合",
+    "accession": "19.140；12.134.17、18；2015.300.251a、b",
+    "photo_numbers": [
+      3134,
+      3135
+    ],
+    "label_numbers": [
+      3136
+    ],
+    "notes": "这里保留一组观看记录，下设五件／尊组成资料。不同年代与入藏来源，不能仅凭并置断言为原配一套。",
+    "evidence_status": "照片／展签＋已查馆方或研究资料",
+    "source_urls": [
+      "https://www.metmuseum.org/art/collection/search/49107",
+      "https://www.metmuseum.org/art/collection/search/49108"
+    ],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3134,
+    "components": [
+      {
+        "title": "阿弥陀佛",
+        "accession": "19.140",
+        "date": "约1250年"
+      },
+      {
+        "title": "观音菩萨",
+        "accession": "12.134.17",
+        "date": "12世纪末—13世纪"
+      },
+      {
+        "title": "势至菩萨",
+        "accession": "12.134.18",
+        "date": "12世纪末—13世纪"
+      },
+      {
+        "title": "飞天一对",
+        "accession": "2015.300.251a,b",
+        "date": "11世纪末—12世纪初",
+        "count": 2
+      }
+    ],
+    "photos": [
+      {
+        "number": 3134,
+        "original_filename": "Image_20261122201739_3134_19.jpg",
+        "path": "photos/j12/Image_20261122201739_3134_19.jpg",
+        "record_ids": [
+          "j12"
+        ],
+        "sha256": "4871236855a2081e1d4a94c10ee01f463009fd9f470ffd7a662480184b49b1b6",
+        "width": 1702,
+        "height": 1276,
+        "role": "artwork"
+      },
+      {
+        "number": 3135,
+        "original_filename": "Image_20261122201739_3135_19.jpg",
+        "path": "photos/j12/Image_20261122201739_3135_19.jpg",
+        "record_ids": [
+          "j12"
+        ],
+        "sha256": "f179dc922a346c0d511dd704bde37d42aea8501f98358907b588e25586171524",
+        "width": 1702,
+        "height": 1276,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3136,
+        "original_filename": "Image_20261122201739_3136_19.jpg",
+        "path": "photos/j12/Image_20261122201739_3136_19.jpg",
+        "record_ids": [
+          "j12"
+        ],
+        "sha256": "d29edfc984a849b27a360fd9b7e9b392961fac58af3351f9cdcba1d4148d107e",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j12/Image_20261122201739_3134_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "这里保留一组观看记录，下设五件／尊组成资料",
+    "viewing_museum_id": "MET",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": true,
+    "curatorial_addition": false,
+    "selection_role": "用户记忆较深的作品（无排名）",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j12/",
+    "reading_depth": "essay",
+    "subject_tags": [
+      "来迎／组合"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "阿弥陀三尊与飞天：展厅陈设",
+    "timeline_enabled": true,
+    "url_slug": "j12",
+    "essay_path": "content/works/j12.md",
+    "essay_title": "并置的三尊，与头顶的飞天",
+    "chapter_id": "pureland"
+  },
+  {
+    "id": "j13",
+    "title_zh": "大日如来坐像",
+    "museum_code": "MET",
+    "collection_museum": "纽约大都会艺术博物馆",
+    "viewing_museum": "纽约大都会艺术博物馆",
+    "date_display": "12世纪",
+    "year_start": 1100,
+    "year_end": 1199,
+    "period_bucket": "11—12世纪",
+    "category": "如来",
+    "accession": "26.118a,b",
+    "photo_numbers": [
+      3137
+    ],
+    "label_numbers": [
+      3138
+    ],
+    "notes": "木、漆、金箔；智拳印，背后尖叶形光背。可与波士顿1105年及西雅图12世纪大日像比较。",
+    "evidence_status": "照片／展签＋已查馆方或研究资料",
+    "source_urls": [
+      "https://www.metmuseum.org/exhibitions/listings/2009/japanese-mandalas/photo-gallery"
+    ],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3137,
+    "photos": [
+      {
+        "number": 3137,
+        "original_filename": "Image_20261122201739_3137_19.jpg",
+        "path": "photos/j13/Image_20261122201739_3137_19.jpg",
+        "record_ids": [
+          "j13"
+        ],
+        "sha256": "9dd68b162e6d3e7c1a9d7462fa02166b1a5f7c0f5c62ed0b925f85516ce0ddbd",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3138,
+        "original_filename": "Image_20261122201739_3138_19.jpg",
+        "path": "photos/j13/Image_20261122201739_3138_19.jpg",
+        "record_ids": [
+          "j13"
+        ],
+        "sha256": "950d3d8cc71c3ac1ddc09fd98cd5d7153c69abf649a17428f1c20d3f5e04a9fc",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j13/Image_20261122201739_3137_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "木、漆、金箔；智拳印，背后尖叶形光背",
+    "viewing_museum_id": "MET",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": true,
+    "curatorial_addition": false,
+    "selection_role": "用户记忆较深的作品（无排名）",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j13/",
+    "reading_depth": "essay",
+    "subject_tags": [
+      "如来"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "大日如来坐像",
+    "timeline_enabled": true,
+    "url_slug": "j13",
+    "essay_path": "content/works/j13.md",
+    "essay_title": "一枚智拳印，与密密展开的光背",
+    "chapter_id": "body"
+  },
+  {
+    "id": "j14",
+    "title_zh": "观音菩萨立像",
+    "museum_code": "MET",
+    "collection_museum": "纽约大都会艺术博物馆",
+    "viewing_museum": "纽约大都会艺术博物馆",
+    "date_display": "11世纪中叶",
+    "year_start": 1030,
+    "year_end": 1070,
+    "period_bucket": "11—12世纪",
+    "category": "菩萨／观音",
+    "accession": "2021.116a,b",
+    "photo_numbers": [
+      3139
+    ],
+    "label_numbers": [
+      3140
+    ],
+    "notes": "桧木一木造；原有漆、彩绘及可能的金箔，现露木胎。素木外观不等于最初就是素木像。",
+    "evidence_status": "照片／展签＋已查馆方或研究资料",
+    "source_urls": [
+      "https://www.metmuseum.org/art/collection/search/851372"
+    ],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3139,
+    "photos": [
+      {
+        "number": 3139,
+        "original_filename": "Image_20261122201739_3139_19.jpg",
+        "path": "photos/j14/Image_20261122201739_3139_19.jpg",
+        "record_ids": [
+          "j14"
+        ],
+        "sha256": "f05c9aee1214af95a955e7fbdde36739a038dfbb56322fcab81af390905735e5",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3140,
+        "original_filename": "Image_20261122201739_3140_19.jpg",
+        "path": "photos/j14/Image_20261122201739_3140_19.jpg",
+        "record_ids": [
+          "j14"
+        ],
+        "sha256": "d503ddaa80097fa002d0bab7c846cc3acd882b9147339c394ab3e97b395e5016",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j14/Image_20261122201739_3139_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "桧木一木造；原有漆、彩绘及可能的金箔，现露木胎",
+    "viewing_museum_id": "MET",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": true,
+    "selection_role": "研究补选",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j14/",
+    "reading_depth": "essay",
+    "subject_tags": [
+      "菩萨／观音"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "观音菩萨立像",
+    "timeline_enabled": true,
+    "url_slug": "j14",
+    "essay_path": "content/works/j14.md",
+    "essay_title": "裸木之美，和它原先的颜色",
+    "chapter_id": "body"
+  },
+  {
+    "id": "j15",
+    "title_zh": "地藏菩萨立像",
+    "museum_code": "MET",
+    "collection_museum": "纽约大都会艺术博物馆",
+    "viewing_museum": "纽约大都会艺术博物馆",
+    "date_display": "12世纪末—13世纪中叶",
+    "year_start": 1175,
+    "year_end": 1250,
+    "period_bucket": "12世纪末—14世纪",
+    "category": "菩萨／地藏",
+    "accession": "18.93",
+    "photo_numbers": [
+      3141
+    ],
+    "label_numbers": [
+      3142
+    ],
+    "notes": "木、漆、金箔、截金、彩绘。锡杖、宝珠与下摆残存装饰值得细看；不是另一尊快庆的Burke Jizō。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3141,
+    "photos": [
+      {
+        "number": 3141,
+        "original_filename": "Image_20261122201739_3141_19.jpg",
+        "path": "photos/j15/Image_20261122201739_3141_19.jpg",
+        "record_ids": [
+          "j15"
+        ],
+        "sha256": "85b291d8879604f0ed8d62bb3b13af2f3eb1c99f2bcfd0315726155dcfa7e69b",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3142,
+        "original_filename": "Image_20261122201739_3142_19.jpg",
+        "path": "photos/j15/Image_20261122201739_3142_19.jpg",
+        "record_ids": [
+          "j15"
+        ],
+        "sha256": "c06267be2c8159e58e1af31c824629d5cbf393c0be46f62bded776b16bddc6ab",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j15/Image_20261122201739_3141_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "木、漆、金箔、截金、彩绘",
+    "viewing_museum_id": "MET",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j15/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "菩萨／地藏"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "地藏菩萨立像",
+    "timeline_enabled": true,
+    "url_slug": "j15"
+  },
+  {
+    "id": "j16",
+    "title_zh": "十一面观音立像",
+    "museum_code": "MET",
+    "collection_museum": "纽约大都会艺术博物馆",
+    "viewing_museum": "纽约大都会艺术博物馆",
+    "date_display": "14世纪中—晚期",
+    "year_start": 1333,
+    "year_end": 1399,
+    "period_bucket": "12世纪末—14世纪",
+    "category": "菩萨／观音",
+    "accession": "1975.268.167",
+    "photo_numbers": [
+      3143
+    ],
+    "label_numbers": [
+      3144
+    ],
+    "notes": "南北朝时期；木、漆、金箔及金属装饰。展签联系庆派影响，原供于九品寺；“庆派影响”不等于某位庆派名家亲作。",
+    "evidence_status": "照片／展签＋已查馆方或研究资料",
+    "source_urls": [
+      "https://www.metmuseum.org/art/collection/search/44893"
+    ],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3143,
+    "photos": [
+      {
+        "number": 3143,
+        "original_filename": "Image_20261122201739_3143_19.jpg",
+        "path": "photos/j16/Image_20261122201739_3143_19.jpg",
+        "record_ids": [
+          "j16"
+        ],
+        "sha256": "5741a9bc9a04cffeef6c3f73bef4609b4373f691f2f11d3e0bfbe05e761085af",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3144,
+        "original_filename": "Image_20261122201739_3144_19.jpg",
+        "path": "photos/j16/Image_20261122201739_3144_19.jpg",
+        "record_ids": [
+          "j16"
+        ],
+        "sha256": "f5d9d144db804c6cd0a152a14443b0066794498382a038baec10fd8f5cc1b274",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j16/Image_20261122201739_3143_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "南北朝时期；木、漆、金箔及金属装饰",
+    "viewing_museum_id": "MET",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": true,
+    "curatorial_addition": false,
+    "selection_role": "用户记忆较深的作品（无排名）",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j16/",
+    "reading_depth": "essay",
+    "subject_tags": [
+      "菩萨／观音"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "十一面观音立像",
+    "timeline_enabled": true,
+    "url_slug": "j16",
+    "essay_path": "content/works/j16.md",
+    "essay_title": "十一面之下，一张沉静的脸",
+    "chapter_id": "body"
+  },
+  {
+    "id": "j17",
+    "title_zh": "阿弥陀如来坐像",
+    "museum_code": "NELSON",
+    "collection_museum": "纳尔逊－阿特金斯艺术博物馆",
+    "viewing_museum": "纳尔逊－阿特金斯艺术博物馆",
+    "date_display": "室町时期；展签1392—1568，官网1392—1573",
+    "year_start": 1392,
+    "year_end": 1573,
+    "period_bucket": "12世纪末—14世纪",
+    "category": "如来",
+    "accession": "31-141/1",
+    "photo_numbers": [
+      3145,
+      3146,
+      3147
+    ],
+    "label_numbers": [
+      3148
+    ],
+    "notes": "漆木金饰；三张分别适合看面貌、展厅尺度与全身。时代边界的不同写法照录，不当作具体制作年。",
+    "evidence_status": "照片／展签＋已查馆方或研究资料",
+    "source_urls": [
+      "https://art.nelson-atkins.org/objects/28559/amida-nyorai-amitabha-buddha"
+    ],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3145,
+    "photos": [
+      {
+        "number": 3145,
+        "original_filename": "Image_20261122201739_3145_19.jpg",
+        "path": "photos/j17/Image_20261122201739_3145_19.jpg",
+        "record_ids": [
+          "j17"
+        ],
+        "sha256": "b9aac4167f653929b0a1133c0d811ae38e3b9b74a81d56bf9edabeb572e41e2f",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      },
+      {
+        "number": 3146,
+        "original_filename": "Image_20261122201739_3146_19.jpg",
+        "path": "photos/j17/Image_20261122201739_3146_19.jpg",
+        "record_ids": [
+          "j17"
+        ],
+        "sha256": "6dcf72a3b426aa28a823a10ca3b1fd544c03f747b984889b5ff7fa9f01486b85",
+        "width": 960,
+        "height": 1280,
+        "role": "artwork"
+      },
+      {
+        "number": 3147,
+        "original_filename": "Image_20261122201739_3147_19.jpg",
+        "path": "photos/j17/Image_20261122201739_3147_19.jpg",
+        "record_ids": [
+          "j17"
+        ],
+        "sha256": "127c8e4a2b1d225a4df4bd72462053a81df98c086d500879b985ee3b753c47a1",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3148,
+        "original_filename": "Image_20261122201739_3148_19.jpg",
+        "path": "photos/j17/Image_20261122201739_3148_19.jpg",
+        "record_ids": [
+          "j17"
+        ],
+        "sha256": "1b381d8b9220ce24ced6a6ced9cb4598cd52e620d8e443c652be84a60207af03",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j17/Image_20261122201739_3145_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "漆木金饰；三张分别适合看面貌、展厅尺度与全身",
+    "viewing_museum_id": "NELSON",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": true,
+    "curatorial_addition": false,
+    "selection_role": "用户记忆较深的作品（无排名）",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j17/",
+    "reading_depth": "essay",
+    "subject_tags": [
+      "如来"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "阿弥陀如来坐像",
+    "timeline_enabled": true,
+    "url_slug": "j17",
+    "essay_path": "content/works/j17.md",
+    "essay_title": "大坐佛前：迟来的形式，仍然动人",
+    "chapter_id": "pureland"
+  },
+  {
+    "id": "j18",
+    "title_zh": "太鼓架残件（左方）",
+    "museum_code": "NELSON",
+    "collection_museum": "纳尔逊－阿特金斯艺术博物馆",
+    "viewing_museum": "纳尔逊－阿特金斯艺术博物馆",
+    "date_display": "1150—1200年",
+    "year_start": 1150,
+    "year_end": 1200,
+    "period_bucket": "11—12世纪",
+    "category": "仪式／器物",
+    "accession": "F81-16",
+    "photo_numbers": [
+      3149
+    ],
+    "label_numbers": [
+      3150
+    ],
+    "notes": "木、残漆、彩绘、金饰。寺院与宫廷舞乐的观看背景；不是佛像光背，不列入造像数量。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3149,
+    "photos": [
+      {
+        "number": 3149,
+        "original_filename": "Image_20261122201739_3149_19.jpg",
+        "path": "photos/j18/Image_20261122201739_3149_19.jpg",
+        "record_ids": [
+          "j18"
+        ],
+        "sha256": "9d8ffbd03e01d609fead9b56746f2b0e2bb942e2f7168301c76835c2f838c1bc",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3150,
+        "original_filename": "Image_20261122201739_3150_19.jpg",
+        "path": "photos/j18/Image_20261122201739_3150_19.jpg",
+        "record_ids": [
+          "j18"
+        ],
+        "sha256": "b3666fa0bf7ec7f5ff866edda1d0b60c5a59902ed441756fe22a828fb77893cb",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j18/Image_20261122201739_3149_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "木、残漆、彩绘、金饰",
+    "viewing_museum_id": "NELSON",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j18/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "仪式／器物"
+    ],
+    "is_wood_figure": false,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": true,
+    "research_date": "2026-11-22",
+    "publish_title": "太鼓架残件（左方）",
+    "timeline_enabled": true,
+    "url_slug": "j18"
+  },
+  {
+    "id": "j19",
+    "title_zh": "地藏菩萨立像",
+    "museum_code": "NELSON",
+    "collection_museum": "纳尔逊－阿特金斯艺术博物馆",
+    "viewing_museum": "纳尔逊－阿特金斯艺术博物馆",
+    "date_display": "9—10世纪",
+    "year_start": 800,
+    "year_end": 999,
+    "period_bucket": "8—10世纪",
+    "category": "菩萨／地藏",
+    "accession": "31-141/2",
+    "photo_numbers": [
+      3151,
+      3152
+    ],
+    "label_numbers": [
+      3153
+    ],
+    "notes": "一木造；手部和足趾为后补。与大都会镰仓地藏以及圣安东尼奥江户地藏构成跨时代对照。",
+    "evidence_status": "照片／展签＋已查馆方或研究资料",
+    "source_urls": [
+      "https://art.nelson-atkins.org/objects/692/jizo-bosatsu-ksitigarbha-bodhisattva"
+    ],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3151,
+    "photos": [
+      {
+        "number": 3151,
+        "original_filename": "Image_20261122201739_3151_19.jpg",
+        "path": "photos/j19/Image_20261122201739_3151_19.jpg",
+        "record_ids": [
+          "j19"
+        ],
+        "sha256": "abb45f19f7be2a76230be608f50a5c5b0efea6ed736de62eb7344e333cfebef6",
+        "width": 960,
+        "height": 1280,
+        "role": "artwork"
+      },
+      {
+        "number": 3152,
+        "original_filename": "Image_20261122201739_3152_19.jpg",
+        "path": "photos/j19/Image_20261122201739_3152_19.jpg",
+        "record_ids": [
+          "j19"
+        ],
+        "sha256": "340a88dddb94a3b992781c1cd4fd19f0465d726543897049e8ac2510a8d57a84",
+        "width": 960,
+        "height": 1280,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3153,
+        "original_filename": "Image_20261122201739_3153_19.jpg",
+        "path": "photos/j19/Image_20261122201739_3153_19.jpg",
+        "record_ids": [
+          "j19"
+        ],
+        "sha256": "38a8cb241d39daa7eec2d5bf5418e30013bdde7c5c5ea6d5127db98ffb62de04",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j19/Image_20261122201739_3151_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "一木造；手部和足趾为后补",
+    "viewing_museum_id": "NELSON",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": true,
+    "selection_role": "研究补选",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j19/",
+    "reading_depth": "essay",
+    "subject_tags": [
+      "菩萨／地藏"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "地藏菩萨立像",
+    "timeline_enabled": true,
+    "url_slug": "j19",
+    "essay_path": "content/works/j19.md",
+    "essay_title": "一尊早期地藏，和后来伸出的手",
+    "chapter_id": "crossing"
+  },
+  {
+    "id": "j20",
+    "title_zh": "忿怒尊头像（身份未定）",
+    "museum_code": "NELSON",
+    "collection_museum": "纳尔逊－阿特金斯艺术博物馆",
+    "viewing_museum": "纳尔逊－阿特金斯艺术博物馆",
+    "date_display": "镰仓时期（1185—1333）",
+    "year_start": 1185,
+    "year_end": 1333,
+    "period_bucket": "12世纪末—14世纪",
+    "category": "护法",
+    "accession": "33-1682",
+    "photo_numbers": [
+      3154
+    ],
+    "label_numbers": [
+      3155
+    ],
+    "notes": "木，残存彩绘。馆方展签明确说明身躯已失，无法确定具体身份；不擅命名为仁王或某一天王。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3154,
+    "photos": [
+      {
+        "number": 3154,
+        "original_filename": "Image_20261122201739_3154_19.jpg",
+        "path": "photos/j20/Image_20261122201739_3154_19.jpg",
+        "record_ids": [
+          "j20"
+        ],
+        "sha256": "d4c0cad13e349d8f46af40c089e0538897fc86c55bcb04959e3d9a4aa0fcc1ff",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3155,
+        "original_filename": "Image_20261122201739_3155_19.jpg",
+        "path": "photos/j20/Image_20261122201739_3155_19.jpg",
+        "record_ids": [
+          "j20"
+        ],
+        "sha256": "d32b8152936c1f4bc98582d6cb40728ef04ff1d101ea5b1b67d6a76417bd395a",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j20/Image_20261122201739_3154_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "木，残存彩绘",
+    "viewing_museum_id": "NELSON",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j20/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "护法"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "忿怒尊头像（身份未定）",
+    "timeline_enabled": true,
+    "url_slug": "j20"
+  },
+  {
+    "id": "j21",
+    "title_zh": "观音菩萨立像",
+    "museum_code": "NELSON",
+    "collection_museum": "纳尔逊－阿特金斯艺术博物馆",
+    "viewing_museum": "纳尔逊－阿特金斯艺术博物馆",
+    "date_display": "8—9世纪",
+    "year_start": 700,
+    "year_end": 899,
+    "period_bucket": "8—10世纪",
+    "category": "菩萨／观音",
+    "accession": "31-129",
+    "photo_numbers": [
+      3156,
+      3157
+    ],
+    "label_numbers": [
+      3158
+    ],
+    "notes": "一木雕躯干，手臂另接；光背与台座为后修。拍摄的两张全身可择较正的一张作主图。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3156,
+    "photos": [
+      {
+        "number": 3156,
+        "original_filename": "Image_20261122201739_3156_19.jpg",
+        "path": "photos/j21/Image_20261122201739_3156_19.jpg",
+        "record_ids": [
+          "j21"
+        ],
+        "sha256": "e01e903659793c9c3c6fb73aad8a040882e7e99ef0c99a2e81133f4930feb1f4",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      },
+      {
+        "number": 3157,
+        "original_filename": "Image_20261122201739_3157_19.jpg",
+        "path": "photos/j21/Image_20261122201739_3157_19.jpg",
+        "record_ids": [
+          "j21"
+        ],
+        "sha256": "124e78ad87b4ebcbafda397a31a2a99ae98a8ace44bd7991db7ca1946a414ab5",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3158,
+        "original_filename": "Image_20261122201739_3158_19.jpg",
+        "path": "photos/j21/Image_20261122201739_3158_19.jpg",
+        "record_ids": [
+          "j21"
+        ],
+        "sha256": "89dbfce0e167a2febe0d103cde29a62ff99cc5d497366b6cdf0b25879c11c13d",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j21/Image_20261122201739_3156_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "一木雕躯干，手臂另接；光背与台座为后修",
+    "viewing_museum_id": "NELSON",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j21/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "菩萨／观音"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "观音菩萨立像",
+    "timeline_enabled": true,
+    "url_slug": "j21"
+  },
+  {
+    "id": "j22",
+    "title_zh": "日光菩萨坐像",
+    "museum_code": "CMA",
+    "collection_museum": "克利夫兰艺术博物馆",
+    "viewing_museum": "克利夫兰艺术博物馆",
+    "date_display": "约800年",
+    "year_start": 780,
+    "year_end": 820,
+    "period_bucket": "8—10世纪",
+    "category": "菩萨／其他",
+    "accession": "1961.48",
+    "photo_numbers": [
+      3159
+    ],
+    "label_numbers": [
+      3160
+    ],
+    "notes": "榧木一木造，残存彩与金。展签认为可能原与月光菩萨共同胁侍药师；“可能”须保留。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3159,
+    "photos": [
+      {
+        "number": 3159,
+        "original_filename": "Image_20261122201739_3159_19.jpg",
+        "path": "photos/j22/Image_20261122201739_3159_19.jpg",
+        "record_ids": [
+          "j22"
+        ],
+        "sha256": "9eecec9eb00c376df33b3a1f6898a431f0d4d1217cc6706ad1edabf43be1501f",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3160,
+        "original_filename": "Image_20261122201739_3160_19.jpg",
+        "path": "photos/j22/Image_20261122201739_3160_19.jpg",
+        "record_ids": [
+          "j22"
+        ],
+        "sha256": "d9ad1fa6139fb0390aa6cbe5101c0976c379c686e63aa45ad3b342debd546605",
+        "width": 1702,
+        "height": 1276,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j22/Image_20261122201739_3159_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "榧木一木造，残存彩与金",
+    "viewing_museum_id": "CMA",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": true,
+    "selection_role": "研究补选",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j22/",
+    "reading_depth": "essay",
+    "subject_tags": [
+      "菩萨／其他"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "日光菩萨坐像",
+    "timeline_enabled": true,
+    "url_slug": "j22",
+    "essay_path": "content/works/j22.md",
+    "essay_title": "榧木里的日光：交流与地方选择",
+    "chapter_id": "crossing"
+  },
+  {
+    "id": "j23",
+    "title_zh": "阿弥陀如来立像",
+    "museum_code": "CMA",
+    "collection_museum": "克利夫兰艺术博物馆",
+    "viewing_museum": "克利夫兰艺术博物馆",
+    "date_display": "1269年",
+    "year_start": 1269,
+    "year_end": 1269,
+    "period_bucket": "12世纪末—14世纪",
+    "category": "如来",
+    "accession": "1960.197",
+    "photo_numbers": [
+      3161,
+      3162,
+      3163,
+      3164,
+      3165
+    ],
+    "label_numbers": [
+      3166
+    ],
+    "notes": "Kōshun主作，Koshin、Joshun协作；桧木、漆彩、金、截金、水晶嵌眼。照片覆盖正侧背与衣纹，是最完整的工艺阅读材料之一。",
+    "evidence_status": "照片／展签＋已查馆方或研究资料",
+    "source_urls": [
+      "https://www.clevelandart.org/art/1960.197"
+    ],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3161,
+    "photos": [
+      {
+        "number": 3161,
+        "original_filename": "Image_20261122201739_3161_19.jpg",
+        "path": "photos/j23/Image_20261122201739_3161_19.jpg",
+        "record_ids": [
+          "j23"
+        ],
+        "sha256": "98dfa510789d413db4b897865568f1bc3dd33d2204ed3324b03c40bac8b455c2",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      },
+      {
+        "number": 3162,
+        "original_filename": "Image_20261122201739_3162_19.jpg",
+        "path": "photos/j23/Image_20261122201739_3162_19.jpg",
+        "record_ids": [
+          "j23"
+        ],
+        "sha256": "0ad764551d217e422b749f363125f6faaacd6e4c2337f6743bed8ff8b966b533",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      },
+      {
+        "number": 3163,
+        "original_filename": "Image_20261122201739_3163_19.jpg",
+        "path": "photos/j23/Image_20261122201739_3163_19.jpg",
+        "record_ids": [
+          "j23"
+        ],
+        "sha256": "2b79a23b33e7dbdc112f9c3a3122553d35f74f259242c0c18c1038368301fde3",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      },
+      {
+        "number": 3164,
+        "original_filename": "Image_20261122201739_3164_19.jpg",
+        "path": "photos/j23/Image_20261122201739_3164_19.jpg",
+        "record_ids": [
+          "j23"
+        ],
+        "sha256": "da797e6e7f133197cf38d28db4a5406d1cfb7345bf9008c36abf643142a89600",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      },
+      {
+        "number": 3165,
+        "original_filename": "Image_20261122201739_3165_19.jpg",
+        "path": "photos/j23/Image_20261122201739_3165_19.jpg",
+        "record_ids": [
+          "j23"
+        ],
+        "sha256": "de9e21bd985e83d25255535d4ccc700d7696f5e846a2081f93613b2f47ea224f",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3166,
+        "original_filename": "Image_20261122201739_3166_19.jpg",
+        "path": "photos/j23/Image_20261122201739_3166_19.jpg",
+        "record_ids": [
+          "j23"
+        ],
+        "sha256": "3ec83a72637203424b0cd46a550b4863e60b8b8a71bf4fc207689ca0814b80bd",
+        "width": 1702,
+        "height": 1276,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j23/Image_20261122201739_3161_19.jpg",
+    "artist": "Kōshun；Koshin、Joshun协作（汉字名不据罗马字猜写）",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "确年",
+    "materials_summary": "Kōshun主作，Koshin、Joshun协作；桧木、漆彩、金、截金、水晶嵌眼",
+    "viewing_museum_id": "CMA",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": true,
+    "curatorial_addition": false,
+    "selection_role": "用户记忆较深的作品（无排名）",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j23/",
+    "reading_depth": "essay",
+    "subject_tags": [
+      "如来"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "阿弥陀如来立像",
+    "timeline_enabled": true,
+    "url_slug": "j23",
+    "essay_path": "content/works/j23.md",
+    "essay_title": "衣上金线，像内人名：1269年的阿弥陀",
+    "chapter_id": "pureland"
+  },
+  {
+    "id": "j24",
+    "title_zh": "法灯圆明国师／心地觉心坐像",
+    "museum_code": "CMA",
+    "collection_museum": "克利夫兰艺术博物馆",
+    "viewing_museum": "克利夫兰艺术博物馆",
+    "date_display": "官网约1295—1315年；照片展签1286—1333",
+    "year_start": 1295,
+    "year_end": 1315,
+    "period_bucket": "12世纪末—14世纪",
+    "category": "祖师／人物",
+    "accession": "1970.67",
+    "photo_numbers": [
+      3167,
+      3168
+    ],
+    "label_numbers": [
+      3169
+    ],
+    "notes": "桧木、漆；现行官网加入金属构件。人物生卒1203—1298与雕像制作年代分开记录，勿将展签日期当成生卒。 人物生年有资料差异：日本文化厅1207、CMA1203；与雕像断代分开。",
+    "evidence_status": "照片／展签＋已查馆方或研究资料",
+    "source_urls": [
+      "https://www.clevelandart.org/art/1970.67"
+    ],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3167,
+    "photos": [
+      {
+        "number": 3167,
+        "original_filename": "Image_20261122201739_3167_19.jpg",
+        "path": "photos/j24/Image_20261122201739_3167_19.jpg",
+        "record_ids": [
+          "j24"
+        ],
+        "sha256": "e6e578b52cace15790efc838276320ac7094f3b3bd6f316776027649d1b62215",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      },
+      {
+        "number": 3168,
+        "original_filename": "Image_20261122201739_3168_19.jpg",
+        "path": "photos/j24/Image_20261122201739_3168_19.jpg",
+        "record_ids": [
+          "j24"
+        ],
+        "sha256": "c0dea1ae16711378ebe778b45f5e5ecc88a141f306fe8b6337360745b36ec246",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3169,
+        "original_filename": "Image_20261122201739_3169_19.jpg",
+        "path": "photos/j24/Image_20261122201739_3169_19.jpg",
+        "record_ids": [
+          "j24"
+        ],
+        "sha256": "888817b7104ec4bddbd3f825006477f1fe049be16a70be87587565aa3e45ed89",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j24/Image_20261122201739_3167_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "桧木、漆；现行官网加入金属构件",
+    "person_year_start": 1207,
+    "person_year_end": 1298,
+    "person_life_note": "日本文化厅记1207—1298；CMA说明记1203—1298。与雕像断代分开。",
+    "viewing_museum_id": "CMA",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": true,
+    "curatorial_addition": false,
+    "selection_role": "用户记忆较深的作品（无排名）",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j24/",
+    "reading_depth": "essay",
+    "subject_tags": [
+      "祖师／人物"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "法灯圆明国师／心地觉心坐像",
+    "timeline_enabled": true,
+    "url_slug": "j24",
+    "essay_path": "content/works/j24.md",
+    "essay_title": "坐在木椅上的人：心地觉心",
+    "chapter_id": "people"
+  },
+  {
+    "id": "j25",
+    "title_zh": "如来坐像（尊名未定）",
+    "museum_code": "CMA",
+    "collection_museum": "克利夫兰艺术博物馆",
+    "viewing_museum": "克利夫兰艺术博物馆",
+    "date_display": "12世纪",
+    "year_start": 1100,
+    "year_end": 1199,
+    "period_bucket": "11—12世纪",
+    "category": "如来",
+    "accession": "1973.85.a-c",
+    "photo_numbers": [
+      3170,
+      3171,
+      3172,
+      3173,
+      3174
+    ],
+    "label_numbers": [
+      3175
+    ],
+    "notes": "木、漆、金饰；原在兴福寺周边子院。左手为后补，馆方保留药师或释迦的可能，不宜擅定阿弥陀。",
+    "evidence_status": "照片／展签＋已查馆方或研究资料",
+    "source_urls": [
+      "https://www.clevelandart.org/art/1973.85"
+    ],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3170,
+    "photos": [
+      {
+        "number": 3170,
+        "original_filename": "Image_20261122201739_3170_19.jpg",
+        "path": "photos/j25/Image_20261122201739_3170_19.jpg",
+        "record_ids": [
+          "j25"
+        ],
+        "sha256": "e0467365f9b0ff2d01ac3852fc8e2c054402501520e9f42149729e3ccd4ffa15",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      },
+      {
+        "number": 3171,
+        "original_filename": "Image_20261122201739_3171_19.jpg",
+        "path": "photos/j25/Image_20261122201739_3171_19.jpg",
+        "record_ids": [
+          "j25"
+        ],
+        "sha256": "d400f9719dee24bcf3e358406e09edd4d71c3b06aaa963abf2726d457ef143b9",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      },
+      {
+        "number": 3172,
+        "original_filename": "Image_20261122201739_3172_19.jpg",
+        "path": "photos/j25/Image_20261122201739_3172_19.jpg",
+        "record_ids": [
+          "j25"
+        ],
+        "sha256": "3c5129cb76acb880332883bd0da1d1b16770e9948dfc5f5c110eab34030b0f79",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      },
+      {
+        "number": 3173,
+        "original_filename": "Image_20261122201739_3173_19.jpg",
+        "path": "photos/j25/Image_20261122201739_3173_19.jpg",
+        "record_ids": [
+          "j25"
+        ],
+        "sha256": "2efda69c3a5525d6ce3d0f2a5acefc3e3144cfc5c9eb8d7601e999acbf4f68af",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      },
+      {
+        "number": 3174,
+        "original_filename": "Image_20261122201739_3174_19.jpg",
+        "path": "photos/j25/Image_20261122201739_3174_19.jpg",
+        "record_ids": [
+          "j25"
+        ],
+        "sha256": "332e0fb9528a9ef1695c868df9865c1ac107f1366e84de6a0500169229139d68",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3175,
+        "original_filename": "Image_20261122201739_3175_19.jpg",
+        "path": "photos/j25/Image_20261122201739_3175_19.jpg",
+        "record_ids": [
+          "j25"
+        ],
+        "sha256": "6cae2eb440fba445bba4e0e3eaf278e088763c6ab103258f5ec16c4120eea64a",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j25/Image_20261122201739_3170_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "木、漆、金饰；原在兴福寺周边子院",
+    "viewing_museum_id": "CMA",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": true,
+    "curatorial_addition": false,
+    "selection_role": "用户记忆较深的作品（无排名）",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j25/",
+    "reading_depth": "essay",
+    "subject_tags": [
+      "如来"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "如来坐像（尊名未定）",
+    "timeline_enabled": true,
+    "url_slug": "j25",
+    "essay_path": "content/works/j25.md",
+    "essay_title": "失去一只手，留下一个问题",
+    "chapter_id": "survival"
+  },
+  {
+    "id": "j26",
+    "title_zh": "爱染明王坐像",
+    "museum_code": "CMA",
+    "collection_museum": "克利夫兰艺术博物馆",
+    "viewing_museum": "克利夫兰艺术博物馆",
+    "date_display": "14世纪初",
+    "year_start": 1300,
+    "year_end": 1333,
+    "period_bucket": "12世纪末—14世纪",
+    "category": "明王",
+    "accession": "1987.185",
+    "photo_numbers": [
+      3176
+    ],
+    "label_numbers": [
+      3177
+    ],
+    "notes": "木、黑漆及红色颜料。六臂残存，头冠狮口与缺失基座可提示原状。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3176,
+    "photos": [
+      {
+        "number": 3176,
+        "original_filename": "Image_20261122201739_3176_19.jpg",
+        "path": "photos/j26/Image_20261122201739_3176_19.jpg",
+        "record_ids": [
+          "j26"
+        ],
+        "sha256": "d3240292403af33570a9be2b10bc27252f99d11bb68d03fe4c50ba47b08070bb",
+        "width": 1702,
+        "height": 1276,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3177,
+        "original_filename": "Image_20261122201739_3177_19.jpg",
+        "path": "photos/j26/Image_20261122201739_3177_19.jpg",
+        "record_ids": [
+          "j26"
+        ],
+        "sha256": "95915bfbbf5c75c4841faaf430108005169102a6bbbe614b081874dbe8dfa3ed",
+        "width": 1702,
+        "height": 1276,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j26/Image_20261122201739_3176_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "木、黑漆及红色颜料",
+    "viewing_museum_id": "CMA",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j26/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "明王"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "爱染明王坐像",
+    "timeline_enabled": true,
+    "url_slug": "j26"
+  },
+  {
+    "id": "j27",
+    "title_zh": "释迦牟尼坐像",
+    "museum_code": "CMA",
+    "collection_museum": "克利夫兰艺术博物馆",
+    "viewing_museum": "克利夫兰艺术博物馆",
+    "date_display": "约900年",
+    "year_start": 880,
+    "year_end": 920,
+    "period_bucket": "8—10世纪",
+    "category": "如来",
+    "accession": "1986.7",
+    "photo_numbers": [
+      3178
+    ],
+    "label_numbers": [
+      3179
+    ],
+    "notes": "一木造，漆与残彩；厚实、隆起的衣褶适合与12世纪较浅的衣纹对读。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3178,
+    "photos": [
+      {
+        "number": 3178,
+        "original_filename": "Image_20261122201739_3178_19.jpg",
+        "path": "photos/j27/Image_20261122201739_3178_19.jpg",
+        "record_ids": [
+          "j27"
+        ],
+        "sha256": "2f0129080153c9fc6289263d855e6ddeafe942100dde109d66eb2eda77ee24c0",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3179,
+        "original_filename": "Image_20261122201739_3179_19.jpg",
+        "path": "photos/j27/Image_20261122201739_3179_19.jpg",
+        "record_ids": [
+          "j27"
+        ],
+        "sha256": "46677986f09facd5477b7a212a9c39d5f9e13c2d9471cb78e1ff37cf3e6d5895",
+        "width": 1702,
+        "height": 1276,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j27/Image_20261122201739_3178_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "一木造，漆与残彩；厚实、隆起的衣褶适合与12世纪较浅的衣纹对读",
+    "viewing_museum_id": "CMA",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": true,
+    "selection_role": "研究补选",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j27/",
+    "reading_depth": "essay",
+    "subject_tags": [
+      "如来"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "释迦牟尼坐像",
+    "timeline_enabled": true,
+    "url_slug": "j27",
+    "essay_path": "content/works/j27.md",
+    "essay_title": "约900年的衣褶，为什么如此有重量",
+    "chapter_id": "body"
+  },
+  {
+    "id": "j28",
+    "title_zh": "藏王权现立像",
+    "museum_code": "CMA",
+    "collection_museum": "克利夫兰艺术博物馆",
+    "viewing_museum": "克利夫兰艺术博物馆",
+    "date_display": "13世纪",
+    "year_start": 1200,
+    "year_end": 1299,
+    "period_bucket": "12世纪末—14世纪",
+    "category": "神佛／山岳",
+    "accession": "1973.105",
+    "photo_numbers": [
+      3180
+    ],
+    "label_numbers": [
+      3181
+    ],
+    "notes": "漆木；单腿高抬、扬臂的姿势是本组最鲜明的动势之一。单列山岳信仰入口，不硬塞入明王类。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3180,
+    "photos": [
+      {
+        "number": 3180,
+        "original_filename": "Image_20261122201739_3180_19.jpg",
+        "path": "photos/j28/Image_20261122201739_3180_19.jpg",
+        "record_ids": [
+          "j28"
+        ],
+        "sha256": "d0437b6469fe0926b380fddb732a737ece833d09afe0c064e512e24e4a8048bf",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3181,
+        "original_filename": "Image_20261122201739_3181_19.jpg",
+        "path": "photos/j28/Image_20261122201739_3181_19.jpg",
+        "record_ids": [
+          "j28"
+        ],
+        "sha256": "2014bc0f62925beb271b4f4f91939d1c8de2834381551f633e1bbc23ce13b48c",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j28/Image_20261122201739_3180_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "漆木；单腿高抬、扬臂的姿势是本组最鲜明的动势之一",
+    "viewing_museum_id": "CMA",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": true,
+    "selection_role": "研究补选",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j28/",
+    "reading_depth": "essay",
+    "subject_tags": [
+      "神佛／山岳"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "藏王权现立像",
+    "timeline_enabled": true,
+    "url_slug": "j28",
+    "essay_path": "content/works/j28.md",
+    "essay_title": "山中显现的力量：藏王权现",
+    "chapter_id": "wrath"
+  },
+  {
+    "id": "j29",
+    "title_zh": "二岁圣德太子像",
+    "museum_code": "CMA",
+    "collection_museum": "克利夫兰艺术博物馆",
+    "viewing_museum": "克利夫兰艺术博物馆",
+    "date_display": "14世纪初",
+    "year_start": 1300,
+    "year_end": 1333,
+    "period_bucket": "12世纪末—14世纪",
+    "category": "祖师／人物",
+    "accession": "1989.76",
+    "photo_numbers": [
+      3182
+    ],
+    "label_numbers": [
+      3183
+    ],
+    "notes": "木、漆、彩绘、水晶嵌眼。合掌幼童像；与西雅图另一尊二岁太子及檀香山青年太子相互索引。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3182,
+    "photos": [
+      {
+        "number": 3182,
+        "original_filename": "Image_20261122201739_3182_19.jpg",
+        "path": "photos/j29/Image_20261122201739_3182_19.jpg",
+        "record_ids": [
+          "j29"
+        ],
+        "sha256": "50969ac0cfe1946414cc5a0968dbf8cdd84e8c0a06fb4d2824e34d77b56219fb",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3183,
+        "original_filename": "Image_20261122201739_3183_19.jpg",
+        "path": "photos/j29/Image_20261122201739_3183_19.jpg",
+        "record_ids": [
+          "j29"
+        ],
+        "sha256": "1457e607028f8e59a5edfe77c9c954623947fbf2f31ace5ca798ad1331d5ae31",
+        "width": 1702,
+        "height": 1276,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j29/Image_20261122201739_3182_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "木、漆、彩绘、水晶嵌眼",
+    "viewing_museum_id": "CMA",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j29/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "祖师／人物"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "二岁圣德太子像",
+    "timeline_enabled": true,
+    "url_slug": "j29"
+  },
+  {
+    "id": "j30",
+    "title_zh": "大日如来坐像",
+    "museum_code": "HONOLULU",
+    "collection_museum": "檀香山艺术博物馆",
+    "viewing_museum": "檀香山艺术博物馆",
+    "date_display": "10世纪初",
+    "year_start": 900,
+    "year_end": 933,
+    "period_bucket": "8—10世纪",
+    "category": "如来",
+    "accession": "2652.1",
+    "photo_numbers": [
+      3184
+    ],
+    "label_numbers": [
+      3185
+    ],
+    "notes": "木、金漆。智拳印与华丽台座／光背可分别记录；不能把台座和本体未经查证地认作同一年代。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3184,
+    "photos": [
+      {
+        "number": 3184,
+        "original_filename": "Image_20261122201739_3184_19.jpg",
+        "path": "photos/j30/Image_20261122201739_3184_19.jpg",
+        "record_ids": [
+          "j30"
+        ],
+        "sha256": "1915ae8ace8724610d0c899fe63addb4a563a495a19ebc02c7ab1ea477f87612",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3185,
+        "original_filename": "Image_20261122201739_3185_19.jpg",
+        "path": "photos/j30/Image_20261122201739_3185_19.jpg",
+        "record_ids": [
+          "j30"
+        ],
+        "sha256": "aba4534d1b824d3eb7f4f27fe2cfb3de2ca79ef48e196e380789559de26ec680",
+        "width": 1707,
+        "height": 1280,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j30/Image_20261122201739_3184_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "木、金漆",
+    "viewing_museum_id": "HONOLULU",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j30/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "如来"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "大日如来坐像",
+    "timeline_enabled": true,
+    "url_slug": "j30"
+  },
+  {
+    "id": "j31",
+    "title_zh": "爱染明王坐像",
+    "museum_code": "HONOLULU",
+    "collection_museum": "檀香山艺术博物馆",
+    "viewing_museum": "檀香山艺术博物馆",
+    "date_display": "约14世纪；展签列镰仓时期",
+    "year_start": 1300,
+    "year_end": 1399,
+    "period_bucket": "12世纪末—14世纪",
+    "category": "明王",
+    "accession": "7042.1",
+    "photo_numbers": [
+      3186
+    ],
+    "label_numbers": [
+      3187
+    ],
+    "notes": "木、彩绘与金饰。保留展签“约14世纪”和时代称谓的交界，不进一步收窄到1333年以前。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3186,
+    "photos": [
+      {
+        "number": 3186,
+        "original_filename": "Image_20261122201739_3186_19.jpg",
+        "path": "photos/j31/Image_20261122201739_3186_19.jpg",
+        "record_ids": [
+          "j31"
+        ],
+        "sha256": "e4ba7f0d0d3348fd815bde0518b2509185e5933d6d5c25a71380326c71f096af",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3187,
+        "original_filename": "Image_20261122201739_3187_19.jpg",
+        "path": "photos/j31/Image_20261122201739_3187_19.jpg",
+        "record_ids": [
+          "j31"
+        ],
+        "sha256": "c46b78bbf74d9705806873f8965608edb3ae4da7bab168872fd03bd9021d925e",
+        "width": 1280,
+        "height": 959,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j31/Image_20261122201739_3186_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "木、彩绘与金饰",
+    "viewing_museum_id": "HONOLULU",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j31/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "明王"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "爱染明王坐像",
+    "timeline_enabled": true,
+    "url_slug": "j31"
+  },
+  {
+    "id": "j32",
+    "title_zh": "十一面观音立像（传湛庆）",
+    "museum_code": "HONOLULU",
+    "collection_museum": "檀香山艺术博物馆",
+    "viewing_museum": "檀香山艺术博物馆",
+    "date_display": "13世纪",
+    "year_start": 1200,
+    "year_end": 1299,
+    "period_bucket": "12世纪末—14世纪",
+    "category": "菩萨／观音",
+    "accession": "3153.1",
+    "photo_numbers": [
+      3188
+    ],
+    "label_numbers": [
+      3189
+    ],
+    "notes": "展签Attributed to Tankei，必须保留“传／归于”而非确定亲作；木、铜与金。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3188,
+    "photos": [
+      {
+        "number": 3188,
+        "original_filename": "Image_20261122201739_3188_19.jpg",
+        "path": "photos/j32/Image_20261122201739_3188_19.jpg",
+        "record_ids": [
+          "j32"
+        ],
+        "sha256": "8d51e0751c2447ac547e5be2b45aa3b5ee20ced72bdde9ee1ddb6e0b1fec24a6",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3189,
+        "original_filename": "Image_20261122201739_3189_19.jpg",
+        "path": "photos/j32/Image_20261122201739_3189_19.jpg",
+        "record_ids": [
+          "j32"
+        ],
+        "sha256": "0085f222d7c3c3cabc3ef4cabd51a27155bacd6206c3c613ef7585723a891315",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j32/Image_20261122201739_3188_19.jpg",
+    "artist": "传湛庆（Attributed to Tankei）",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "展签Attributed to Tankei，必须保留“传／归于”而非确定亲作；木、铜与金",
+    "viewing_museum_id": "HONOLULU",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j32/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "菩萨／观音"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "十一面观音立像（传湛庆）",
+    "timeline_enabled": true,
+    "url_slug": "j32"
+  },
+  {
+    "id": "j33",
+    "title_zh": "来迎观音立像（定庆周边）",
+    "museum_code": "HONOLULU",
+    "collection_museum": "檀香山艺术博物馆",
+    "viewing_museum": "檀香山艺术博物馆",
+    "date_display": "13世纪",
+    "year_start": 1200,
+    "year_end": 1299,
+    "period_bucket": "12世纪末—14世纪",
+    "category": "菩萨／观音",
+    "accession": "7142.1",
+    "photo_numbers": [
+      3190
+    ],
+    "label_numbers": [
+      3191
+    ],
+    "notes": "展签Circle of Jōkei；木、漆与金。前倾、持承莲座的姿势适合讨论迎接信众的空间关系。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3190,
+    "photos": [
+      {
+        "number": 3190,
+        "original_filename": "Image_20261122201739_3190_19.jpg",
+        "path": "photos/j33/Image_20261122201739_3190_19.jpg",
+        "record_ids": [
+          "j33"
+        ],
+        "sha256": "d8669a8d76c6e8f731908d31cc4df2b94d80a1befea3ed5711adbedccca59269",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3191,
+        "original_filename": "Image_20261122201739_3191_19.jpg",
+        "path": "photos/j33/Image_20261122201739_3191_19.jpg",
+        "record_ids": [
+          "j33"
+        ],
+        "sha256": "e59ee38233b318b73440e6eb3616cd2e30d0220b0563e5393ad063e3ce944eac",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j33/Image_20261122201739_3190_19.jpg",
+    "artist": "定庆周边（Circle of Jōkei）；日文汉字名待进一步文献确认",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "展签Circle of Jōkei；木、漆与金",
+    "viewing_museum_id": "HONOLULU",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j33/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "菩萨／观音"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "来迎观音立像（定庆周边）",
+    "timeline_enabled": true,
+    "url_slug": "j33"
+  },
+  {
+    "id": "j34",
+    "title_zh": "地藏菩萨坐像",
+    "museum_code": "HONOLULU",
+    "collection_museum": "檀香山艺术博物馆",
+    "viewing_museum": "檀香山艺术博物馆",
+    "date_display": "13世纪",
+    "year_start": 1200,
+    "year_end": 1299,
+    "period_bucket": "12世纪末—14世纪",
+    "category": "菩萨／地藏",
+    "accession": "2865",
+    "photo_numbers": [
+      3192
+    ],
+    "label_numbers": [
+      3193
+    ],
+    "notes": "木、漆。与同馆地藏立像分开建档，不因同一尊格而合并。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3192,
+    "photos": [
+      {
+        "number": 3192,
+        "original_filename": "Image_20261122201739_3192_19.jpg",
+        "path": "photos/j34/Image_20261122201739_3192_19.jpg",
+        "record_ids": [
+          "j34"
+        ],
+        "sha256": "e3fc93fea9ce563fce5d2dc9c8767f8d545ac13e272db74635d958c9666cd0e4",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3193,
+        "original_filename": "Image_20261122201739_3193_19.jpg",
+        "path": "photos/j34/Image_20261122201739_3193_19.jpg",
+        "record_ids": [
+          "j34"
+        ],
+        "sha256": "e74952da89e3ea589c89ded78245b696487398ede1416d2a75a619847320fb70",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j34/Image_20261122201739_3192_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "木、漆",
+    "viewing_museum_id": "HONOLULU",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j34/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "菩萨／地藏"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "地藏菩萨坐像",
+    "timeline_enabled": true,
+    "url_slug": "j34"
+  },
+  {
+    "id": "j35",
+    "title_zh": "阿弥陀佛立像",
+    "museum_code": "HONOLULU",
+    "collection_museum": "檀香山艺术博物馆",
+    "viewing_museum": "檀香山艺术博物馆",
+    "date_display": "15世纪",
+    "year_start": 1400,
+    "year_end": 1499,
+    "period_bucket": "15—19世纪",
+    "category": "如来",
+    "accession": "2849",
+    "photo_numbers": [
+      3194
+    ],
+    "label_numbers": [
+      3195
+    ],
+    "notes": "木、金饰。细长站姿、舟形光背；展签没有提供具体雕刻师。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3194,
+    "photos": [
+      {
+        "number": 3194,
+        "original_filename": "Image_20261122201739_3194_19.jpg",
+        "path": "photos/j35/Image_20261122201739_3194_19.jpg",
+        "record_ids": [
+          "j35"
+        ],
+        "sha256": "c41dbe43fbc3da11fc39fe7924e29636f90faeea7355ecbbfa26528c24183e1d",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3195,
+        "original_filename": "Image_20261122201739_3195_19.jpg",
+        "path": "photos/j35/Image_20261122201739_3195_19.jpg",
+        "record_ids": [
+          "j35"
+        ],
+        "sha256": "91afd767778fdd3c844cb9cb8e2c2b6303a4539dfccdee75dbe7d6bed164f8fd",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j35/Image_20261122201739_3194_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "木、金饰",
+    "viewing_museum_id": "HONOLULU",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": true,
+    "curatorial_addition": false,
+    "selection_role": "用户记忆较深的作品（无排名）",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j35/",
+    "reading_depth": "essay",
+    "subject_tags": [
+      "如来"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "阿弥陀佛立像",
+    "timeline_enabled": true,
+    "url_slug": "j35",
+    "essay_path": "content/works/j35.md",
+    "essay_title": "十五世纪的来迎：檀香山的长身阿弥陀",
+    "chapter_id": "pureland"
+  },
+  {
+    "id": "j36",
+    "title_zh": "地藏菩萨立像",
+    "museum_code": "HONOLULU",
+    "collection_museum": "檀香山艺术博物馆",
+    "viewing_museum": "檀香山艺术博物馆",
+    "date_display": "12—13世纪",
+    "year_start": 1100,
+    "year_end": 1299,
+    "period_bucket": "11—12世纪",
+    "category": "菩萨／地藏",
+    "accession": "2565.1",
+    "photo_numbers": [
+      3196
+    ],
+    "label_numbers": [
+      3197
+    ],
+    "notes": "木、漆与金。平安末至镰仓初的跨期范围照录；手部与法器不从照片外观推断原配。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3196,
+    "photos": [
+      {
+        "number": 3196,
+        "original_filename": "Image_20261122201739_3196_19.jpg",
+        "path": "photos/j36/Image_20261122201739_3196_19.jpg",
+        "record_ids": [
+          "j36"
+        ],
+        "sha256": "1b88be01373ddf28b9ffc021fe5057ce5ed673859f43cdfdb421930dfd30358d",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3197,
+        "original_filename": "Image_20261122201739_3197_19.jpg",
+        "path": "photos/j36/Image_20261122201739_3197_19.jpg",
+        "record_ids": [
+          "j36"
+        ],
+        "sha256": "c946cfc4a8451b0ab5dc86c56d853f0069a22e0dbbfcd0a0461456a825ff2ecb",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j36/Image_20261122201739_3196_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "木、漆与金",
+    "viewing_museum_id": "HONOLULU",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j36/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "菩萨／地藏"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "地藏菩萨立像",
+    "timeline_enabled": true,
+    "url_slug": "j36"
+  },
+  {
+    "id": "j37",
+    "title_zh": "势至菩萨坐像",
+    "museum_code": "HONOLULU",
+    "collection_museum": "檀香山艺术博物馆",
+    "viewing_museum": "檀香山艺术博物馆",
+    "date_display": "10—11世纪",
+    "year_start": 900,
+    "year_end": 1099,
+    "period_bucket": "8—10世纪",
+    "category": "菩萨／其他",
+    "accession": "3019",
+    "photo_numbers": [
+      3198
+    ],
+    "label_numbers": [
+      3199
+    ],
+    "notes": "木；合掌坐姿。照片有窗光与隔玻璃反光，作为图像档案保留，后期选封面需谨慎。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3198,
+    "photos": [
+      {
+        "number": 3198,
+        "original_filename": "Image_20261122201739_3198_19.jpg",
+        "path": "photos/j37/Image_20261122201739_3198_19.jpg",
+        "record_ids": [
+          "j37"
+        ],
+        "sha256": "a727471f4116b1b45d0c65a2eed8d24bfb7fbdd3dbd5c7bee225a9c7d6bbf8f4",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3199,
+        "original_filename": "Image_20261122201739_3199_19.jpg",
+        "path": "photos/j37/Image_20261122201739_3199_19.jpg",
+        "record_ids": [
+          "j37"
+        ],
+        "sha256": "61d89937818104c79f555f5d382dbad352e246f8f9d1fafbb6784c25077245c1",
+        "width": 1280,
+        "height": 960,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j37/Image_20261122201739_3198_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "木；合掌坐姿",
+    "viewing_museum_id": "HONOLULU",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j37/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "菩萨／其他"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "势至菩萨坐像",
+    "timeline_enabled": true,
+    "url_slug": "j37"
+  },
+  {
+    "id": "j38",
+    "title_zh": "青年圣德太子像",
+    "museum_code": "HONOLULU",
+    "collection_museum": "檀香山艺术博物馆",
+    "viewing_museum": "檀香山艺术博物馆",
+    "date_display": "17世纪",
+    "year_start": 1600,
+    "year_end": 1699,
+    "period_bucket": "15—19世纪",
+    "category": "祖师／人物",
+    "accession": "1804.1",
+    "photo_numbers": [
+      3200
+    ],
+    "label_numbers": [
+      3201
+    ],
+    "notes": "漆木。与两尊幼童太子的年龄形象对照；不能把人物生活年代等同于此像年代。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3200,
+    "photos": [
+      {
+        "number": 3200,
+        "original_filename": "Image_20261122201739_3200_19.jpg",
+        "path": "photos/j38/Image_20261122201739_3200_19.jpg",
+        "record_ids": [
+          "j38"
+        ],
+        "sha256": "8eb7e058503459c53e181bb95150e032a9232198c3e4400e004eebc1d75a8444",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3201,
+        "original_filename": "Image_20261122201739_3201_19.jpg",
+        "path": "photos/j38/Image_20261122201739_3201_19.jpg",
+        "record_ids": [
+          "j38"
+        ],
+        "sha256": "805208972e9943a016aca44ca8aee4b34558392b22aa7144dcb486e05fb34d80",
+        "width": 1707,
+        "height": 1280,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j38/Image_20261122201739_3200_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "漆木",
+    "viewing_museum_id": "HONOLULU",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j38/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "祖师／人物"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "青年圣德太子像",
+    "timeline_enabled": true,
+    "url_slug": "j38"
+  },
+  {
+    "id": "j39",
+    "title_zh": "家原寺护法立像",
+    "museum_code": "FREER",
+    "collection_museum": "华盛顿国立亚洲艺术博物馆（Freer）",
+    "viewing_museum": "华盛顿国立亚洲艺术博物馆（Freer）",
+    "date_display": "镰仓时期；馆方来源记录联系约1235—1245",
+    "year_start": 1185,
+    "year_end": 1333,
+    "period_bucket": "12世纪末—14世纪",
+    "category": "护法",
+    "accession": "F1949.20",
+    "photo_numbers": [
+      3202
+    ],
+    "label_numbers": [
+      3203
+    ],
+    "notes": "木；所拍一尊属于原来的一对门神。另一尊未有独立近照，不在本档案伪造照片记录。",
+    "evidence_status": "照片／展签＋已查馆方或研究资料",
+    "source_urls": [
+      "https://asia.si.edu/explore-art-culture/collections/search/edanmdm%3Afsg_F1949.20/",
+      "https://asia.si.edu/education/educator-resources/encountering-religion-in-asian-art/explore-by-object/object/guardian-figures/"
+    ],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3202,
+    "photos": [
+      {
+        "number": 3202,
+        "original_filename": "Image_20261122201739_3202_19.jpg",
+        "path": "photos/j39/Image_20261122201739_3202_19.jpg",
+        "record_ids": [
+          "j39"
+        ],
+        "sha256": "d790c6b9fdc2acddd5703761813c21e0880f2c1fb425c9567da22d2b11bd216f",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3203,
+        "original_filename": "Image_20261122201739_3203_19.jpg",
+        "path": "photos/j39/Image_20261122201739_3203_19.jpg",
+        "record_ids": [
+          "j39"
+        ],
+        "sha256": "20db8dc456206c7b8095cc0f87c590ce2a04e2f643bcabd2ea24691d87ffda68",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j39/Image_20261122201739_3202_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "木；所拍一尊属于原来的一对门神",
+    "viewing_museum_id": "FREER",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j39/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "护法"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "家原寺护法立像",
+    "timeline_enabled": true,
+    "url_slug": "j39"
+  },
+  {
+    "id": "j40",
+    "title_zh": "释迦牟尼立像（快庆）",
+    "museum_code": "KIMBELL",
+    "collection_museum": "金贝尔艺术博物馆",
+    "viewing_museum": "金贝尔艺术博物馆",
+    "date_display": "约1210年",
+    "year_start": 1200,
+    "year_end": 1220,
+    "period_bucket": "12世纪末—14世纪",
+    "category": "如来",
+    "accession": "AP 1984.01 a,b,c",
+    "photo_numbers": [
+      3204,
+      3205,
+      3206,
+      3207
+    ],
+    "label_numbers": [
+      3208
+    ],
+    "notes": "漆木金饰；快庆作品。四张含全身、头胸与衣纹；手印、微前进的左足及截金适合精读。",
+    "evidence_status": "照片／展签＋已查馆方或研究资料",
+    "source_urls": [
+      "https://kimbellart.org/collection/ap-198401-abc"
+    ],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3204,
+    "photos": [
+      {
+        "number": 3204,
+        "original_filename": "Image_20261122201739_3204_19.jpg",
+        "path": "photos/j40/Image_20261122201739_3204_19.jpg",
+        "record_ids": [
+          "j40"
+        ],
+        "sha256": "c67f2bc234b714adc520b4df40a439686d89b51167b03fd840408c14775b122d",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      },
+      {
+        "number": 3205,
+        "original_filename": "Image_20261122201739_3205_19.jpg",
+        "path": "photos/j40/Image_20261122201739_3205_19.jpg",
+        "record_ids": [
+          "j40"
+        ],
+        "sha256": "9c48b8e8a5f34b838e380d8bc94a247068d15cbadf551a974e5fdf5b19b189f7",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      },
+      {
+        "number": 3206,
+        "original_filename": "Image_20261122201739_3206_19.jpg",
+        "path": "photos/j40/Image_20261122201739_3206_19.jpg",
+        "record_ids": [
+          "j40"
+        ],
+        "sha256": "ad675fc588a7ad1d60955561721e0e42ba0c82d9e770cd699f15c25b0b175f4a",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      },
+      {
+        "number": 3207,
+        "original_filename": "Image_20261122201739_3207_19.jpg",
+        "path": "photos/j40/Image_20261122201739_3207_19.jpg",
+        "record_ids": [
+          "j40"
+        ],
+        "sha256": "7cc487d50b943ab6e13670d6083d090e3833d4750236d2ba2d47f5d7d2d65108",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3208,
+        "original_filename": "Image_20261122201739_3208_19.jpg",
+        "path": "photos/j40/Image_20261122201739_3208_19.jpg",
+        "record_ids": [
+          "j40"
+        ],
+        "sha256": "9baa7ce0a7d452557759fbb1126ec6f6263fb405fd5d4d354cad7fe60cc575d5",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j40/Image_20261122201739_3204_19.jpg",
+    "artist": "快庆（Kaikei），展签确定归属",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "漆木金饰；快庆作品",
+    "viewing_museum_id": "KIMBELL",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": true,
+    "curatorial_addition": false,
+    "selection_role": "用户记忆较深的作品（无排名）",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j40/",
+    "reading_depth": "essay",
+    "subject_tags": [
+      "如来"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "释迦牟尼立像（快庆）",
+    "timeline_enabled": true,
+    "url_slug": "j40",
+    "essay_path": "content/works/j40.md",
+    "essay_title": "快庆的释迦：衣褶像水，脚步却很轻",
+    "chapter_id": "pureland"
+  },
+  {
+    "id": "j41",
+    "title_zh": "如意轮观音坐像",
+    "museum_code": "KIMBELL",
+    "collection_museum": "金贝尔艺术博物馆",
+    "viewing_museum": "金贝尔艺术博物馆",
+    "date_display": "官网约1230—1250；照片展签约1225—1250",
+    "year_start": 1225,
+    "year_end": 1250,
+    "period_bucket": "12世纪末—14世纪",
+    "category": "菩萨／观音",
+    "accession": "AP 1985.15",
+    "photo_numbers": [
+      3209,
+      3210
+    ],
+    "label_numbers": [
+      3211
+    ],
+    "notes": "如意轮观音；官网约1230—1250年，现场展签约1225—1250年。木、残存金饰与彩绘；有正背照片。不可因自在坐姿改名水月观音。",
+    "evidence_status": "用户展签＋官网可读索引核对",
+    "source_urls": [
+      "https://kimbellart.org/collection/ap-198515"
+    ],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3209,
+    "photos": [
+      {
+        "number": 3209,
+        "original_filename": "Image_20261122201739_3209_19.jpg",
+        "path": "photos/j41/Image_20261122201739_3209_19.jpg",
+        "record_ids": [
+          "j41"
+        ],
+        "sha256": "9fb6bd592d718a31e27cb56f44e0aea29eaa49e3dae3d7bff4140d125abb3cb7",
+        "width": 960,
+        "height": 1280,
+        "role": "artwork"
+      },
+      {
+        "number": 3210,
+        "original_filename": "Image_20261122201739_3210_19.jpg",
+        "path": "photos/j41/Image_20261122201739_3210_19.jpg",
+        "record_ids": [
+          "j41"
+        ],
+        "sha256": "ca8cee52f83ab3f7e8786ee248da7b34d15515f41ba8b922547fe94eb7a7a403",
+        "width": 960,
+        "height": 1280,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3211,
+        "original_filename": "Image_20261122201739_3211_19.jpg",
+        "path": "photos/j41/Image_20261122201739_3211_19.jpg",
+        "record_ids": [
+          "j41"
+        ],
+        "sha256": "7beb96f7834b7e76b7d89ede4a43fd350b14257e7384d7a87363eeb10beda22b",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j41/Image_20261122201739_3209_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "木、残存金饰与彩绘",
+    "viewing_museum_id": "KIMBELL",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": true,
+    "selection_role": "研究补选",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j41/",
+    "reading_depth": "essay",
+    "subject_tags": [
+      "菩萨／观音"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "如意轮观音坐像",
+    "timeline_enabled": true,
+    "url_slug": "j41",
+    "essay_path": "content/works/j41.md",
+    "essay_title": "托腮的如意轮，与水月观音的相似和分别",
+    "chapter_id": "people"
+  },
+  {
+    "id": "j42",
+    "title_zh": "僧形八幡神坐像",
+    "museum_code": "KIMBELL",
+    "collection_museum": "金贝尔艺术博物馆",
+    "viewing_museum": "金贝尔艺术博物馆",
+    "date_display": "官网11世纪；照片展签12世纪",
+    "year_start": 1000,
+    "year_end": 1199,
+    "period_bucket": "11—12世纪",
+    "category": "神佛／山岳",
+    "accession": "AP 1981.19",
+    "photo_numbers": [
+      3212
+    ],
+    "label_numbers": [
+      3213
+    ],
+    "notes": "僧形八幡神；官网为11世纪、AP 1981.19，现场展签写12世纪。彩绘木雕，神佛关系核心案例；不是未名禅僧。",
+    "evidence_status": "用户展签＋官网可读索引核对；断代版本不同",
+    "source_urls": [
+      "https://kimbellart.org/collection/ap-198119"
+    ],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3212,
+    "photos": [
+      {
+        "number": 3212,
+        "original_filename": "Image_20261122201739_3212_19.jpg",
+        "path": "photos/j42/Image_20261122201739_3212_19.jpg",
+        "record_ids": [
+          "j42"
+        ],
+        "sha256": "a9c00dd3fe3e456063e10eeee57a12c42a02e3c0bd62c212d673a776142d7065",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3213,
+        "original_filename": "Image_20261122201739_3213_19.jpg",
+        "path": "photos/j42/Image_20261122201739_3213_19.jpg",
+        "record_ids": [
+          "j42"
+        ],
+        "sha256": "f8da0596e46be04fa52f19ed20848faad7385f3271116be90f5341d20870ace7",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j42/Image_20261122201739_3212_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "彩绘木雕",
+    "viewing_museum_id": "KIMBELL",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": true,
+    "selection_role": "研究补选",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j42/",
+    "reading_depth": "essay",
+    "subject_tags": [
+      "神佛／山岳"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "僧形八幡神坐像",
+    "timeline_enabled": true,
+    "url_slug": "j42",
+    "essay_path": "content/works/j42.md",
+    "essay_title": "看似僧人，原来是八幡神",
+    "chapter_id": "people"
+  },
+  {
+    "id": "j43",
+    "title_zh": "不动明王坐像",
+    "museum_code": "PENN",
+    "collection_museum": "宾夕法尼亚大学博物馆",
+    "viewing_museum": "宾夕法尼亚大学博物馆",
+    "date_display": "1780年；照片展签18世纪",
+    "year_start": 1780,
+    "year_end": 1780,
+    "period_bucket": "15—19世纪",
+    "category": "明王",
+    "accession": "29-96-346",
+    "photo_numbers": [
+      3214
+    ],
+    "label_numbers": [
+      3215
+    ],
+    "notes": "木、黑红金漆；官网记来自和歌山高野山。与两童子有同柜观看关系，原配关系仍须另外核查。",
+    "evidence_status": "照片／展签＋已查馆方或研究资料",
+    "source_urls": [
+      "https://collections.penn.museum/collections/object/11056"
+    ],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3214,
+    "photos": [
+      {
+        "number": 3214,
+        "original_filename": "Image_20261122203531_3214_19.jpg",
+        "path": "photos/j43/Image_20261122203531_3214_19.jpg",
+        "record_ids": [
+          "j43"
+        ],
+        "sha256": "20095addab1a701afd819da5b9d4796d41bfe0456e0475be17f416381afd83e2",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3215,
+        "original_filename": "Image_20261122203531_3215_19.jpg",
+        "path": "photos/j43/Image_20261122203531_3215_19.jpg",
+        "record_ids": [
+          "j43"
+        ],
+        "sha256": "e0d8977944ddcf9c942062fc384e25f90fa2ff17ecbd30df478e2abe3e2e9b71",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j43/Image_20261122203531_3214_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "确年",
+    "materials_summary": "木、黑红金漆；官网记来自和歌山高野山",
+    "viewing_museum_id": "PENN",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j43/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "明王"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "不动明王坐像",
+    "timeline_enabled": true,
+    "url_slug": "j43"
+  },
+  {
+    "id": "j44",
+    "title_zh": "制多迦童子立像",
+    "museum_code": "PENN",
+    "collection_museum": "宾夕法尼亚大学博物馆",
+    "viewing_museum": "宾夕法尼亚大学博物馆",
+    "date_display": "照片展签18世纪",
+    "year_start": 1700,
+    "year_end": 1799,
+    "period_bucket": "15—19世纪",
+    "category": "童子／胁侍",
+    "accession": "待核（展签小字）",
+    "photo_numbers": [
+      3216
+    ],
+    "label_numbers": [
+      3217
+    ],
+    "notes": "木、彩色粉底层；红肤、姿势活跃。名称依据展签，不凭肤色单独判断；与矜羯罗并列。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3216,
+    "photos": [
+      {
+        "number": 3216,
+        "original_filename": "Image_20261122203531_3216_19.jpg",
+        "path": "photos/j44/Image_20261122203531_3216_19.jpg",
+        "record_ids": [
+          "j44"
+        ],
+        "sha256": "e520bcd7103ba55c7acf99690f4db8f21dd1c3067aca59bdba9313c42e7db0bf",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3217,
+        "original_filename": "Image_20261122203531_3217_19.jpg",
+        "path": "photos/j44/Image_20261122203531_3217_19.jpg",
+        "record_ids": [
+          "j44"
+        ],
+        "sha256": "2647145cc50de9e2edeb7747898b56891841962e2faf87f51604f0576a35b367",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j44/Image_20261122203531_3216_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "木、彩色粉底层；红肤、姿势活跃",
+    "viewing_museum_id": "PENN",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j44/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "童子／胁侍"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "制多迦童子立像",
+    "timeline_enabled": true,
+    "url_slug": "j44"
+  },
+  {
+    "id": "j45",
+    "title_zh": "矜羯罗童子立像",
+    "museum_code": "PENN",
+    "collection_museum": "宾夕法尼亚大学博物馆",
+    "viewing_museum": "宾夕法尼亚大学博物馆",
+    "date_display": "官网19世纪；照片展签18世纪",
+    "year_start": 1800,
+    "year_end": 1899,
+    "period_bucket": "15—19世纪",
+    "category": "童子／胁侍",
+    "accession": "29-96-337",
+    "photo_numbers": [
+      3218
+    ],
+    "label_numbers": [
+      3219
+    ],
+    "notes": "木、粉底层、彩绘、漆与金；双手合掌。馆方现行记录与现场展签断代冲突，两者均保留，不静默统一。",
+    "evidence_status": "照片／展签＋已查馆方或研究资料",
+    "source_urls": [
+      "https://collections.penn.museum/collections/object/303810"
+    ],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3218,
+    "photos": [
+      {
+        "number": 3218,
+        "original_filename": "Image_20261122203531_3218_19.jpg",
+        "path": "photos/j45/Image_20261122203531_3218_19.jpg",
+        "record_ids": [
+          "j45"
+        ],
+        "sha256": "c05ace7111b954fd586db244a7c75e4e81de637aacdf815ef0d4f329637d239d",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3219,
+        "original_filename": "Image_20261122203531_3219_19.jpg",
+        "path": "photos/j45/Image_20261122203531_3219_19.jpg",
+        "record_ids": [
+          "j45"
+        ],
+        "sha256": "0b2161cc8275dd262b16a74c4b8ec20f50f452574a1fc3de968c07b728fd35fa",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j45/Image_20261122203531_3218_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "木、粉底层、彩绘、漆与金；双手合掌",
+    "viewing_museum_id": "PENN",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j45/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "童子／胁侍"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "矜羯罗童子立像",
+    "timeline_enabled": true,
+    "url_slug": "j45"
+  },
+  {
+    "id": "j46",
+    "title_zh": "二岁圣德太子像",
+    "museum_code": "SEATTLE",
+    "collection_museum": "西雅图亚洲艺术博物馆",
+    "viewing_museum": "西雅图亚洲艺术博物馆",
+    "date_display": "约1300年",
+    "year_start": 1280,
+    "year_end": 1320,
+    "period_bucket": "12世纪末—14世纪",
+    "category": "祖师／人物",
+    "accession": "36.22",
+    "photo_numbers": [
+      3220
+    ],
+    "label_numbers": [
+      3221
+    ],
+    "notes": "木、彩绘、水晶嵌眼。与克利夫兰幼童太子是两尊不同作品，适合并排辨别脸型与身体比例。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3220,
+    "photos": [
+      {
+        "number": 3220,
+        "original_filename": "Image_20261122203531_3220_19.jpg",
+        "path": "photos/j46/Image_20261122203531_3220_19.jpg",
+        "record_ids": [
+          "j46"
+        ],
+        "sha256": "2b244dc07814ebb31e50f69263672adebb3496feac38bbaf606b056d60b99b61",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3221,
+        "original_filename": "Image_20261122203531_3221_19.jpg",
+        "path": "photos/j46/Image_20261122203531_3221_19.jpg",
+        "record_ids": [
+          "j46"
+        ],
+        "sha256": "7b850b0a8df5fdf430d1b8165ee14b99ad9f13129c4d7e692c3d8fb665c8bfcd",
+        "width": 1707,
+        "height": 1280,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j46/Image_20261122203531_3220_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "木、彩绘、水晶嵌眼",
+    "viewing_museum_id": "SEATTLE",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j46/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "祖师／人物"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "二岁圣德太子像",
+    "timeline_enabled": true,
+    "url_slug": "j46"
+  },
+  {
+    "id": "j47",
+    "title_zh": "兜跋毗沙门天立像",
+    "museum_code": "SEATTLE",
+    "collection_museum": "西雅图亚洲艺术博物馆",
+    "viewing_museum": "西雅图亚洲艺术博物馆",
+    "date_display": "10世纪末",
+    "year_start": 975,
+    "year_end": 999,
+    "period_bucket": "8—10世纪",
+    "category": "护法",
+    "accession": "48.179",
+    "photo_numbers": [
+      3222
+    ],
+    "label_numbers": [
+      3223
+    ],
+    "notes": "木、粉底层、彩绘；足下地天的支承关系是辨识重点。不能只按普通天王或仁王归类。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3222,
+    "photos": [
+      {
+        "number": 3222,
+        "original_filename": "Image_20261122203531_3222_19.jpg",
+        "path": "photos/j47/Image_20261122203531_3222_19.jpg",
+        "record_ids": [
+          "j47"
+        ],
+        "sha256": "81c5cc843e28c19f238a6a4dd846a762e60ba2120ec95deb6e368392fa649d65",
+        "width": 960,
+        "height": 1280,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3223,
+        "original_filename": "Image_20261122203531_3223_19.jpg",
+        "path": "photos/j47/Image_20261122203531_3223_19.jpg",
+        "record_ids": [
+          "j47"
+        ],
+        "sha256": "71ab55e3de9dd6c51784e3283718580cce4d724467521eb91f1bcd20c7cf7d35",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j47/Image_20261122203531_3222_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "木、粉底层、彩绘；足下地天的支承关系是辨识重点",
+    "viewing_museum_id": "SEATTLE",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j47/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "护法"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "兜跋毗沙门天立像",
+    "timeline_enabled": true,
+    "url_slug": "j47"
+  },
+  {
+    "id": "j48",
+    "title_zh": "如来立像（展签未定尊名）",
+    "museum_code": "SEATTLE",
+    "collection_museum": "西雅图亚洲艺术博物馆",
+    "viewing_museum": "西雅图亚洲艺术博物馆",
+    "date_display": "12世纪",
+    "year_start": 1100,
+    "year_end": 1199,
+    "period_bucket": "11—12世纪",
+    "category": "如来",
+    "accession": "60.74",
+    "photo_numbers": [
+      3224
+    ],
+    "label_numbers": [
+      3225
+    ],
+    "notes": "一木造。展签仅称Standing Buddha，暂不据相貌指定为释迦或阿弥陀。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3224,
+    "photos": [
+      {
+        "number": 3224,
+        "original_filename": "Image_20261122203531_3224_19.jpg",
+        "path": "photos/j48/Image_20261122203531_3224_19.jpg",
+        "record_ids": [
+          "j48"
+        ],
+        "sha256": "3c98a9ff9a35f6b4b44624848692aca833f457e68bec3cd18d4912665ba5544b",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3225,
+        "original_filename": "Image_20261122203531_3225_19.jpg",
+        "path": "photos/j48/Image_20261122203531_3225_19.jpg",
+        "record_ids": [
+          "j48"
+        ],
+        "sha256": "eec652cd72d8352c917083c59ab6247f88c5284ff68702441b7473eecbb166a6",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j48/Image_20261122203531_3224_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "一木造",
+    "viewing_museum_id": "SEATTLE",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j48/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "如来"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "如来立像（展签未定尊名）",
+    "timeline_enabled": true,
+    "url_slug": "j48"
+  },
+  {
+    "id": "j49",
+    "title_zh": "大日如来坐像",
+    "museum_code": "SEATTLE",
+    "collection_museum": "西雅图亚洲艺术博物馆",
+    "viewing_museum": "西雅图亚洲艺术博物馆",
+    "date_display": "12世纪",
+    "year_start": 1100,
+    "year_end": 1199,
+    "period_bucket": "11—12世纪",
+    "category": "如来",
+    "accession": "35.70",
+    "photo_numbers": [
+      3226
+    ],
+    "label_numbers": [
+      3227
+    ],
+    "notes": "木、残存彩绘；智拳印。与檀香山、大都会、波士顿大日像形成跨馆比较。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3226,
+    "photos": [
+      {
+        "number": 3226,
+        "original_filename": "Image_20261122203531_3226_19.jpg",
+        "path": "photos/j49/Image_20261122203531_3226_19.jpg",
+        "record_ids": [
+          "j49"
+        ],
+        "sha256": "ce11b290964331082fba50bc4e654150a56559516f22e407f6b0aa3009892e84",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3227,
+        "original_filename": "Image_20261122203531_3227_19.jpg",
+        "path": "photos/j49/Image_20261122203531_3227_19.jpg",
+        "record_ids": [
+          "j49"
+        ],
+        "sha256": "0c5e9ba9c460dfe6bb05629d57ff0500ce71c5b13a4cf3ecb3c177aa1b1f3cff",
+        "width": 1707,
+        "height": 1280,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j49/Image_20261122203531_3226_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "木、残存彩绘；智拳印",
+    "viewing_museum_id": "SEATTLE",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j49/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "如来"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "大日如来坐像",
+    "timeline_enabled": true,
+    "url_slug": "j49"
+  },
+  {
+    "id": "j50",
+    "title_zh": "持国天立像",
+    "museum_code": "PORTLAND",
+    "collection_museum": "波特兰艺术博物馆",
+    "viewing_museum": "波特兰艺术博物馆",
+    "date_display": "12世纪末—13世纪初；基座17—19世纪",
+    "year_start": 1175,
+    "year_end": 1225,
+    "period_bucket": "12世纪末—14世纪",
+    "category": "护法",
+    "accession": "2014.51.1a-d",
+    "photo_numbers": [
+      3228
+    ],
+    "label_numbers": [
+      3229
+    ],
+    "notes": "桧木、漆彩、金、镀金金属件；本体与基座断代必须分开，不能用较晚基座年代给整尊定年。",
+    "evidence_status": "照片展签＋公开现场照片馆址核对",
+    "source_urls": [
+      "https://commons.wikimedia.org/wiki/File:Jikokuten,_one_of_the_four_guardian_kings,_Japan,_Kamakura_period,_late_1100s_to_early_1200s_AD,_cypress_wood,_lacquer,_polychrome,_gold,_gilt_metal_-_Portland_Art_Museum_-_Portland,_Oregon_-_DSC08495.jpg"
+    ],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3228,
+    "photos": [
+      {
+        "number": 3228,
+        "original_filename": "Image_20261122203531_3228_19.jpg",
+        "path": "photos/j50/Image_20261122203531_3228_19.jpg",
+        "record_ids": [
+          "j50"
+        ],
+        "sha256": "e72126f31a7ecaad760d11200b8219f8a246c3b223b05fb38c9903f09dc996b9",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3229,
+        "original_filename": "Image_20261122203531_3229_19.jpg",
+        "path": "photos/j50/Image_20261122203531_3229_19.jpg",
+        "record_ids": [
+          "j50"
+        ],
+        "sha256": "6b91aed28ec1351f61d2089952bdf09a7862779ded2a8b64ff1c36447a9013a2",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j50/Image_20261122203531_3228_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "桧木、漆彩、金、镀金金属件；本体与基座断代必须分开，不能用较晚基座年代给整尊定年",
+    "viewing_museum_id": "PORTLAND",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j50/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "护法"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "持国天立像",
+    "timeline_enabled": true,
+    "url_slug": "j50"
+  },
+  {
+    "id": "j51",
+    "title_zh": "阿弥陀佛坐像",
+    "museum_code": "SEATTLE",
+    "collection_museum": "西雅图亚洲艺术博物馆",
+    "viewing_museum": "西雅图亚洲艺术博物馆",
+    "date_display": "约1130年",
+    "year_start": 1120,
+    "year_end": 1140,
+    "period_bucket": "11—12世纪",
+    "category": "如来",
+    "accession": "2011.39",
+    "photo_numbers": [
+      3230,
+      3232
+    ],
+    "label_numbers": [
+      3231
+    ],
+    "notes": "木、金与漆；3231是Awakened Ones展厅说明中的中央作品资料，虽非紧贴雕像的小展签，仍可配对。",
+    "evidence_status": "照片／展厅说明＋官网核对",
+    "source_urls": [
+      "https://art.seattleartmuseum.org/objects/27280/amida-buddha"
+    ],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3230,
+    "photos": [
+      {
+        "number": 3230,
+        "original_filename": "Image_20261122203531_3230_19.jpg",
+        "path": "photos/j51/Image_20261122203531_3230_19.jpg",
+        "record_ids": [
+          "j51"
+        ],
+        "sha256": "b04d2945054c42f357a6bd8128ae464f1d21d5d34083b1962a6fbc024395c2f1",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      },
+      {
+        "number": 3232,
+        "original_filename": "Image_20261122203531_3232_19.jpg",
+        "path": "photos/j51/Image_20261122203531_3232_19.jpg",
+        "record_ids": [
+          "j51"
+        ],
+        "sha256": "2f55647277889d4e0e7857ba0d0a10d4e88041b1e89b3513a7066183de24f962",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3231,
+        "original_filename": "Image_20261122203531_3231_19.jpg",
+        "path": "photos/j51/Image_20261122203531_3231_19.jpg",
+        "record_ids": [
+          "j51"
+        ],
+        "sha256": "3539f6cee6220f0a22bd033cd4a28dcd7d102b5e51b1d388d98840897d6b657b",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j51/Image_20261122203531_3230_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "木、金与漆；3231是Awakened Ones展厅说明中的中央作品资料，虽非紧贴雕像的小展签，仍可配对",
+    "viewing_museum_id": "SEATTLE",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": true,
+    "curatorial_addition": false,
+    "selection_role": "用户记忆较深的作品（无排名）",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j51/",
+    "reading_depth": "essay",
+    "subject_tags": [
+      "如来"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "阿弥陀佛坐像",
+    "timeline_enabled": true,
+    "url_slug": "j51",
+    "essay_path": "content/works/j51.md",
+    "essay_title": "约1130年：金漆之下的安定身体",
+    "chapter_id": "pureland"
+  },
+  {
+    "id": "j52",
+    "title_zh": "爱染明王坐像",
+    "museum_code": "SAMA",
+    "collection_museum": "圣安东尼奥艺术博物馆",
+    "viewing_museum": "圣安东尼奥艺术博物馆",
+    "date_display": "镰仓晚期，14世纪",
+    "year_start": 1300,
+    "year_end": 1333,
+    "period_bucket": "12世纪末—14世纪",
+    "category": "明王",
+    "accession": "91.20",
+    "photo_numbers": [
+      3233
+    ],
+    "label_numbers": [
+      3234
+    ],
+    "notes": "木、粉底层、彩绘、金、镀金金属件；残缺手臂仍保留原来多臂结构。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3233,
+    "photos": [
+      {
+        "number": 3233,
+        "original_filename": "Image_20261122203531_3233_19.jpg",
+        "path": "photos/j52/Image_20261122203531_3233_19.jpg",
+        "record_ids": [
+          "j52"
+        ],
+        "sha256": "7f423fb177c5d2ead664b50798b3c14408475ec1848e7ed35e86f91b4f7d8138",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3234,
+        "original_filename": "Image_20261122203531_3234_19.jpg",
+        "path": "photos/j52/Image_20261122203531_3234_19.jpg",
+        "record_ids": [
+          "j52"
+        ],
+        "sha256": "df9f0d5aa387ad64c6571f3123904f0e8a80c8484570c8728ffa3511989226b1",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j52/Image_20261122203531_3233_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "木、粉底层、彩绘、金、镀金金属件；残缺手臂仍保留原来多臂结构",
+    "viewing_museum_id": "SAMA",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": true,
+    "curatorial_addition": false,
+    "selection_role": "用户记忆较深的作品（无排名）",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j52/",
+    "reading_depth": "essay",
+    "subject_tags": [
+      "明王"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "爱染明王坐像",
+    "timeline_enabled": true,
+    "url_slug": "j52",
+    "essay_path": "content/works/j52.md",
+    "essay_title": "爱染明王：把欲望放进修行的问题",
+    "chapter_id": "wrath"
+  },
+  {
+    "id": "j53",
+    "title_zh": "毗沙门天立像",
+    "museum_code": "SAMA",
+    "collection_museum": "圣安东尼奥艺术博物馆",
+    "viewing_museum": "圣安东尼奥艺术博物馆",
+    "date_display": "12世纪",
+    "year_start": 1100,
+    "year_end": 1199,
+    "period_bucket": "11—12世纪",
+    "category": "护法",
+    "accession": "88.25",
+    "photo_numbers": [
+      3235
+    ],
+    "label_numbers": [
+      3236
+    ],
+    "notes": "桧木，残存粉底和彩绘；与西雅图兜跋毗沙门天及波特兰持国天比较持物、足下和姿态。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3235,
+    "photos": [
+      {
+        "number": 3235,
+        "original_filename": "Image_20261122203531_3235_19.jpg",
+        "path": "photos/j53/Image_20261122203531_3235_19.jpg",
+        "record_ids": [
+          "j53"
+        ],
+        "sha256": "3a521a58eb444071b9ff13aa8e63eea401c00484579d0e55391f52c34fb718fe",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3236,
+        "original_filename": "Image_20261122203531_3236_19.jpg",
+        "path": "photos/j53/Image_20261122203531_3236_19.jpg",
+        "record_ids": [
+          "j53"
+        ],
+        "sha256": "6d61d834187c20aff958fa9c47fdb53b18311084907a22bd151f805591582529",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j53/Image_20261122203531_3235_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "桧木，残存粉底和彩绘；与西雅图兜跋毗沙门天及波特兰持国天比较持物、足下和姿态",
+    "viewing_museum_id": "SAMA",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j53/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "护法"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "毗沙门天立像",
+    "timeline_enabled": true,
+    "url_slug": "j53"
+  },
+  {
+    "id": "j54",
+    "title_zh": "不动明王立像",
+    "museum_code": "MFAH",
+    "collection_museum": "休斯顿美术馆",
+    "viewing_museum": "休斯顿美术馆",
+    "date_display": "10—11世纪",
+    "year_start": 900,
+    "year_end": 1099,
+    "period_bucket": "8—10世纪",
+    "category": "明王",
+    "accession": "2022.5.2.a-d",
+    "photo_numbers": [
+      3237
+    ],
+    "label_numbers": [
+      3238
+    ],
+    "notes": "一木造，彩绘与漆。火焰光背、岩座、索与剑可逐项观察；展签平安时期起讫有异于常用纪年，目录以世纪范围为主。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3237,
+    "photos": [
+      {
+        "number": 3237,
+        "original_filename": "Image_20261122203531_3237_19.jpg",
+        "path": "photos/j54/Image_20261122203531_3237_19.jpg",
+        "record_ids": [
+          "j54"
+        ],
+        "sha256": "ce5ae380c4c4b5c95e467ca0f8ca7ccda5fe6bcaba7dc1640547c9b2229ddeba",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3238,
+        "original_filename": "Image_20261122203531_3238_19.jpg",
+        "path": "photos/j54/Image_20261122203531_3238_19.jpg",
+        "record_ids": [
+          "j54"
+        ],
+        "sha256": "bc2023d32885af6691d123e0fa3889e9a6223bc58471384afe20503da675b778",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j54/Image_20261122203531_3237_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "一木造，彩绘与漆",
+    "viewing_museum_id": "MFAH",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j54/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "明王"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "不动明王立像",
+    "timeline_enabled": true,
+    "url_slug": "j54"
+  },
+  {
+    "id": "j55",
+    "title_zh": "圣观音坐像",
+    "museum_code": "SAMA",
+    "collection_museum": "圣安东尼奥艺术博物馆",
+    "viewing_museum": "圣安东尼奥艺术博物馆",
+    "date_display": "17世纪",
+    "year_start": 1600,
+    "year_end": 1699,
+    "period_bucket": "15—19世纪",
+    "category": "菩萨／观音",
+    "accession": "2004.22.4",
+    "photo_numbers": [
+      3239
+    ],
+    "label_numbers": [
+      3240
+    ],
+    "notes": "桧木、漆、金与水晶镶嵌；名称Shō Kannon据展签，勿与十一面或如意轮观音混同。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3239,
+    "photos": [
+      {
+        "number": 3239,
+        "original_filename": "Image_20261122203531_3239_19.jpg",
+        "path": "photos/j55/Image_20261122203531_3239_19.jpg",
+        "record_ids": [
+          "j55"
+        ],
+        "sha256": "00a4e760b100776f2e4cfb7fb79d68f7e67ad2f30446b62d97436004f0cd135a",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3240,
+        "original_filename": "Image_20261122203531_3240_19.jpg",
+        "path": "photos/j55/Image_20261122203531_3240_19.jpg",
+        "record_ids": [
+          "j55"
+        ],
+        "sha256": "c9423bc013e14e6861f93edb0e7dcb97ea647c46bd22054f0d867911daf3ab34",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j55/Image_20261122203531_3239_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "桧木、漆、金与水晶镶嵌；名称Shō Kannon据展签，勿与十一面或如意轮观音混同",
+    "viewing_museum_id": "SAMA",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j55/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "菩萨／观音"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "圣观音坐像",
+    "timeline_enabled": true,
+    "url_slug": "j55"
+  },
+  {
+    "id": "j56",
+    "title_zh": "阿弥陀三尊来迎像",
+    "museum_code": "SAMA",
+    "collection_museum": "圣安东尼奥艺术博物馆",
+    "viewing_museum": "圣安东尼奥艺术博物馆",
+    "date_display": "18世纪末",
+    "year_start": 1775,
+    "year_end": 1799,
+    "period_bucket": "15—19世纪",
+    "category": "来迎／组合",
+    "accession": "2013.38.262",
+    "photo_numbers": [
+      3241,
+      3242,
+      3243
+    ],
+    "label_numbers": [
+      3244
+    ],
+    "notes": "木、金、彩绘、金属、硬石；丰厚云座与放下一腿的阿弥陀很适合与吉美三尊及Met陈设比较。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3241,
+    "photos": [
+      {
+        "number": 3241,
+        "original_filename": "Image_20261122203531_3241_19.jpg",
+        "path": "photos/j56/Image_20261122203531_3241_19.jpg",
+        "record_ids": [
+          "j56"
+        ],
+        "sha256": "b24784ebc9ac767f556130b267f8bd311203a00b774df638642d373216ed2fc5",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      },
+      {
+        "number": 3242,
+        "original_filename": "Image_20261122203531_3242_19.jpg",
+        "path": "photos/j56/Image_20261122203531_3242_19.jpg",
+        "record_ids": [
+          "j56"
+        ],
+        "sha256": "92255fdbf7c9c6bd6e54033b1add6abddea463a7d569ac749d616187485f3047",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      },
+      {
+        "number": 3243,
+        "original_filename": "Image_20261122203531_3243_19.jpg",
+        "path": "photos/j56/Image_20261122203531_3243_19.jpg",
+        "record_ids": [
+          "j56"
+        ],
+        "sha256": "7e65b4edd43080fc7356fe4b9a9d7c0ffb098e6080da0d9f3ccb4366b3ab5875",
+        "width": 1707,
+        "height": 1280,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3244,
+        "original_filename": "Image_20261122203531_3244_19.jpg",
+        "path": "photos/j56/Image_20261122203531_3244_19.jpg",
+        "record_ids": [
+          "j56"
+        ],
+        "sha256": "db4ea1723ba061a0ed2d352dae222db9547e0cc63afc0e48e6772bc586781e46",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j56/Image_20261122203531_3241_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "木、金、彩绘、金属、硬石；丰厚云座与放下一腿的阿弥陀很适合与吉美三尊及Met陈设比较",
+    "viewing_museum_id": "SAMA",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j56/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "来迎／组合"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "阿弥陀三尊来迎像",
+    "timeline_enabled": true,
+    "url_slug": "j56"
+  },
+  {
+    "id": "j57",
+    "title_zh": "阿弥陀佛立像",
+    "museum_code": "SAMA",
+    "collection_museum": "圣安东尼奥艺术博物馆",
+    "viewing_museum": "圣安东尼奥艺术博物馆",
+    "date_display": "12世纪末",
+    "year_start": 1175,
+    "year_end": 1199,
+    "period_bucket": "12世纪末—14世纪",
+    "category": "如来",
+    "accession": "2012.1",
+    "photo_numbers": [
+      3245
+    ],
+    "label_numbers": [
+      3246
+    ],
+    "notes": "木、残彩与金；展签从来迎手印辨识为阿弥陀。与DMA、CMA立像可横向比较。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3245,
+    "photos": [
+      {
+        "number": 3245,
+        "original_filename": "Image_20261122203531_3245_19.jpg",
+        "path": "photos/j57/Image_20261122203531_3245_19.jpg",
+        "record_ids": [
+          "j57"
+        ],
+        "sha256": "ea464c08e15727b17d8694ccadcba648710b9aadc86d0a16039e69b4738fb59c",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3246,
+        "original_filename": "Image_20261122203531_3246_19.jpg",
+        "path": "photos/j57/Image_20261122203531_3246_19.jpg",
+        "record_ids": [
+          "j57"
+        ],
+        "sha256": "623b1f424dc1c8ee7ec6a369f9bc6a0fa1e126d306a7c4afcfc62eb378e0f83c",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j57/Image_20261122203531_3245_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "木、残彩与金；展签从来迎手印辨识为阿弥陀",
+    "viewing_museum_id": "SAMA",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j57/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "如来"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "阿弥陀佛立像",
+    "timeline_enabled": true,
+    "url_slug": "j57"
+  },
+  {
+    "id": "j58",
+    "title_zh": "仁王一对",
+    "museum_code": "SAMA",
+    "collection_museum": "圣安东尼奥艺术博物馆",
+    "viewing_museum": "圣安东尼奥艺术博物馆",
+    "date_display": "17世纪",
+    "year_start": 1600,
+    "year_end": 1699,
+    "period_bucket": "15—19世纪",
+    "category": "护法",
+    "accession": "2004.22.1.a-b",
+    "photo_numbers": [
+      3247,
+      3248
+    ],
+    "label_numbers": [
+      3249
+    ],
+    "notes": "桧木、漆、彩绘与水晶嵌眼。一组含两尊，各有独立照片；不将两张误作同一尊的不同角度。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3247,
+    "photos": [
+      {
+        "number": 3247,
+        "original_filename": "Image_20261122203531_3247_19.jpg",
+        "path": "photos/j58/Image_20261122203531_3247_19.jpg",
+        "record_ids": [
+          "j58"
+        ],
+        "sha256": "7a638873f5d8eca402808010d596f3ccdde5178b2635c7207861369f24b1db43",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      },
+      {
+        "number": 3248,
+        "original_filename": "Image_20261122203531_3248_19.jpg",
+        "path": "photos/j58/Image_20261122203531_3248_19.jpg",
+        "record_ids": [
+          "j58"
+        ],
+        "sha256": "38d25b6c0d2dfa22fbeacf4f29fe3d7279e3113c506038451d6a22657de3b4ef",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3249,
+        "original_filename": "Image_20261122203531_3249_19.jpg",
+        "path": "photos/j58/Image_20261122203531_3249_19.jpg",
+        "record_ids": [
+          "j58"
+        ],
+        "sha256": "b1518ba827483081563b5a2960235e749047594a0cefdd664a01c2f31221f048",
+        "width": 1707,
+        "height": 1280,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j58/Image_20261122203531_3247_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "桧木、漆、彩绘与水晶嵌眼",
+    "viewing_museum_id": "SAMA",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j58/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "护法"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "仁王一对",
+    "timeline_enabled": true,
+    "url_slug": "j58"
+  },
+  {
+    "id": "j59",
+    "title_zh": "地藏菩萨立像",
+    "museum_code": "SAMA",
+    "collection_museum": "圣安东尼奥艺术博物馆",
+    "viewing_museum": "圣安东尼奥艺术博物馆",
+    "date_display": "17世纪",
+    "year_start": 1600,
+    "year_end": 1699,
+    "period_bucket": "15—19世纪",
+    "category": "菩萨／地藏",
+    "accession": "2004.22.5",
+    "photo_numbers": [
+      3250,
+      3251,
+      3252,
+      3253,
+      3254
+    ],
+    "label_numbers": [
+      3255
+    ],
+    "notes": "桧木、漆彩、截金与水晶嵌眼；正背侧与袈裟纹样齐全，是理解背面装饰的重要一组。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3250,
+    "photos": [
+      {
+        "number": 3250,
+        "original_filename": "Image_20261122203531_3250_19.jpg",
+        "path": "photos/j59/Image_20261122203531_3250_19.jpg",
+        "record_ids": [
+          "j59"
+        ],
+        "sha256": "3e59f45ad75c8a815654966bb115ae93e96519713baefc41f96f41b53ea1f4a1",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      },
+      {
+        "number": 3251,
+        "original_filename": "Image_20261122203531_3251_19.jpg",
+        "path": "photos/j59/Image_20261122203531_3251_19.jpg",
+        "record_ids": [
+          "j59"
+        ],
+        "sha256": "265ae327efbe8fa92990dd6d4772cca8886060e7f25ba6e37f3de4998a81bde9",
+        "width": 960,
+        "height": 1280,
+        "role": "artwork"
+      },
+      {
+        "number": 3252,
+        "original_filename": "Image_20261122203531_3252_19.jpg",
+        "path": "photos/j59/Image_20261122203531_3252_19.jpg",
+        "record_ids": [
+          "j59"
+        ],
+        "sha256": "f7774fb29b7d5f9136ae5db3fee5de93c964f730cbf412e87ee162b7f19f7bfd",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      },
+      {
+        "number": 3253,
+        "original_filename": "Image_20261122203531_3253_19.jpg",
+        "path": "photos/j59/Image_20261122203531_3253_19.jpg",
+        "record_ids": [
+          "j59"
+        ],
+        "sha256": "557e081ba63c52c4ea630354b7fa2e9ed8377fafd0f8233175ef33a20da5b792",
+        "width": 960,
+        "height": 1280,
+        "role": "artwork"
+      },
+      {
+        "number": 3254,
+        "original_filename": "Image_20261122203531_3254_19.jpg",
+        "path": "photos/j59/Image_20261122203531_3254_19.jpg",
+        "record_ids": [
+          "j59"
+        ],
+        "sha256": "b3540c4425ae6efcd9dacad394e9480c92f140e8f585239744445d5513b1e6f4",
+        "width": 960,
+        "height": 1280,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3255,
+        "original_filename": "Image_20261122203531_3255_19.jpg",
+        "path": "photos/j59/Image_20261122203531_3255_19.jpg",
+        "record_ids": [
+          "j59"
+        ],
+        "sha256": "666614f6b6bd4f4f03455cdd86e2ec4ea387daa9b80930c1c72ed6c381e0bca9",
+        "width": 1702,
+        "height": 1276,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j59/Image_20261122203531_3250_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "桧木、漆彩、截金与水晶嵌眼；正背侧与袈裟纹样齐全，是理解背面装饰的重要一组",
+    "viewing_museum_id": "SAMA",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": true,
+    "curatorial_addition": false,
+    "selection_role": "用户记忆较深的作品（无排名）",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j59/",
+    "reading_depth": "essay",
+    "subject_tags": [
+      "菩萨／地藏"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "地藏菩萨立像",
+    "timeline_enabled": true,
+    "url_slug": "j59",
+    "essay_path": "content/works/j59.md",
+    "essay_title": "绕到地藏背后：金色袈裟的另一面",
+    "chapter_id": "pureland"
+  },
+  {
+    "id": "j60",
+    "title_zh": "家用佛坛（Butsudan）",
+    "museum_code": "SAMA",
+    "collection_museum": "圣安东尼奥艺术博物馆",
+    "viewing_museum": "圣安东尼奥艺术博物馆",
+    "date_display": "19世纪后半叶",
+    "year_start": 1850,
+    "year_end": 1899,
+    "period_bucket": "15—19世纪",
+    "category": "仪式／器物",
+    "accession": "98.8.2.a-n",
+    "photo_numbers": [
+      3256,
+      3257,
+      3258,
+      3259
+    ],
+    "label_numbers": [
+      3260
+    ],
+    "notes": "木、漆、金与镀金铜件。以整体器物建档，内部各小像未经独立资料不逐尊断代或强定身份。",
+    "evidence_status": "照片展签整理",
+    "source_urls": [],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3256,
+    "photos": [
+      {
+        "number": 3256,
+        "original_filename": "Image_20261122203531_3256_19.jpg",
+        "path": "photos/j60/Image_20261122203531_3256_19.jpg",
+        "record_ids": [
+          "j60"
+        ],
+        "sha256": "89709cb7bfbc7dc3fe48f7468c6eb28afac8c986126f6b26f70067b8f12d7d51",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      },
+      {
+        "number": 3257,
+        "original_filename": "Image_20261122203531_3257_19.jpg",
+        "path": "photos/j60/Image_20261122203531_3257_19.jpg",
+        "record_ids": [
+          "j60"
+        ],
+        "sha256": "238bd0c721d6511a982a4800389c325dbd3457291419b2e25b8a3c1603ebe31e",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      },
+      {
+        "number": 3258,
+        "original_filename": "Image_20261122203531_3258_19.jpg",
+        "path": "photos/j60/Image_20261122203531_3258_19.jpg",
+        "record_ids": [
+          "j60"
+        ],
+        "sha256": "d87e8686ac77cfd424d51fd7df6b13933008697c594c1ae532be082657b6cc48",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      },
+      {
+        "number": 3259,
+        "original_filename": "Image_20261122203531_3259_19.jpg",
+        "path": "photos/j60/Image_20261122203531_3259_19.jpg",
+        "record_ids": [
+          "j60"
+        ],
+        "sha256": "d4a199acbee57342f95dd44aded89db10056aedfd6b6b22e6e5eae95d400364a",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3260,
+        "original_filename": "Image_20261122203531_3260_19.jpg",
+        "path": "photos/j60/Image_20261122203531_3260_19.jpg",
+        "record_ids": [
+          "j60"
+        ],
+        "sha256": "4cf6756c62d0302e99f317d74acf0a84865ea5eb4bfb48966740aec0ce13bd10",
+        "width": 1280,
+        "height": 1707,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j60/Image_20261122203531_3256_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "范围／约年",
+    "materials_summary": "木、漆、金与镀金铜件",
+    "viewing_museum_id": "SAMA",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j60/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "仪式／器物"
+    ],
+    "is_wood_figure": false,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": true,
+    "research_date": "2026-11-22",
+    "publish_title": "家用佛坛（Butsudan）",
+    "timeline_enabled": true,
+    "url_slug": "j60"
+  },
+  {
+    "id": "j61",
+    "title_zh": "阿弥陀佛坐像（Kōei／九代运庆）",
+    "museum_code": "MFAH",
+    "collection_museum": "休斯顿美术馆",
+    "viewing_museum": "休斯顿美术馆",
+    "date_display": "1472年",
+    "year_start": 1472,
+    "year_end": 1472,
+    "period_bucket": "15—19世纪",
+    "category": "如来",
+    "accession": "92.193",
+    "photo_numbers": [
+      3261
+    ],
+    "label_numbers": [
+      3262
+    ],
+    "notes": "Kōei (Unkei IX)，木、残存彩绘。九代运庆不是12—13世纪的初代运庆；失去双手，读像需结合残迹与文献。",
+    "evidence_status": "照片／展签＋已查馆方或研究资料",
+    "source_urls": [
+      "https://emuseum.mfah.org/objects/18035/amida",
+      "https://static.mfah.com/documents/koei---amida-buddha-japanese.4227821031685014481.pdf"
+    ],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3261,
+    "photos": [
+      {
+        "number": 3261,
+        "original_filename": "Image_20261122203531_3261_19.jpg",
+        "path": "photos/j61/Image_20261122203531_3261_19.jpg",
+        "record_ids": [
+          "j61"
+        ],
+        "sha256": "82d856c1b750ca717cd6e70d42541cb2cc639594351baa91ee6da6fc72332a3f",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [
+      {
+        "number": 3262,
+        "original_filename": "Image_20261122203531_3262_19.jpg",
+        "path": "photos/j61/Image_20261122203531_3262_19.jpg",
+        "record_ids": [
+          "j61"
+        ],
+        "sha256": "cb5e66ae511d9952bf01c896a36ed1ab583c56f30c149978fb77780c6516922e",
+        "width": 1702,
+        "height": 1276,
+        "role": "label"
+      }
+    ],
+    "cover_photo_path": "photos/j61/Image_20261122203531_3261_19.jpg",
+    "artist": "Kōei / Unkei IX（Kōei／九代运庆）；不要与初代运庆混淆",
+    "ownership_note": "馆方馆藏记录",
+    "date_precision": "确年",
+    "materials_summary": "Kōei (Unkei IX)，木、残存彩绘",
+    "viewing_museum_id": "MFAH",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": true,
+    "selection_role": "研究补选",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j61/",
+    "reading_depth": "essay",
+    "subject_tags": [
+      "如来"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "阿弥陀佛坐像（Kōei／九代运庆）",
+    "timeline_enabled": true,
+    "url_slug": "j61",
+    "essay_path": "content/works/j61.md",
+    "essay_title": "1472年，另一个“运庆”的名字",
+    "chapter_id": "survival"
+  },
+  {
+    "id": "j62",
+    "title_zh": "最澄（传教大师）坐像",
+    "museum_code": "NEUBARDT",
+    "collection_museum": "Saundra Neubardt夫人收藏（借展沃尔特斯）",
+    "viewing_museum": "巴尔的摩沃尔特斯艺术博物馆",
+    "date_display": "13世纪，镰仓时期",
+    "year_start": 1200,
+    "year_end": 1299,
+    "period_bucket": "12世纪末—14世纪",
+    "category": "祖师／人物",
+    "accession": "TL.1974.35",
+    "photo_numbers": [
+      3263
+    ],
+    "label_numbers": [],
+    "notes": "按用户补充的网上同图比对，对应馆方TL.1974.35：最澄（Saichō／Saicho，传教大师）坐像，13世纪、镰仓时期，木与漆塑。像主生活于8—9世纪，雕像是数百年后的祖师纪念像；人物年代与雕像断代分开。由Saundra Neubardt夫人借展，观看地点为沃尔特斯。官网仍无图，本次图像对应依据为用户补充确认。",
+    "evidence_status": "馆方记录＋用户补充网上同图比对；官网仍无图",
+    "source_urls": [
+      "https://art.thewalters.org/object/TL.1974.35/"
+    ],
+    "favorite": null,
+    "personal_observation": null,
+    "main_photo": 3263,
+    "date_is_candidate": false,
+    "photos": [
+      {
+        "number": 3263,
+        "original_filename": "Image_20261122203815_3263_19.jpg",
+        "path": "photos/j62/Image_20261122203815_3263_19.jpg",
+        "record_ids": [
+          "j62"
+        ],
+        "sha256": "7fde91a77f4cb580200dd38dc58efb0eac16e83f9c69b28bc4ea8e94b5225e8b",
+        "width": 1280,
+        "height": 1707,
+        "role": "artwork"
+      }
+    ],
+    "labels": [],
+    "cover_photo_path": "photos/j62/Image_20261122203815_3263_19.jpg",
+    "artist": "展签未记作者",
+    "ownership_note": "馆方Credit Line：Lent by Mrs. Saundra Neubardt；不是沃尔特斯自有藏品。",
+    "date_precision": "世纪断代",
+    "materials_summary": "木与漆塑（馆方：wood, bulked lacquer）",
+    "viewing_museum_id": "WALTERS",
+    "viewing_evidence": "用户说明这批均为亲见照片；馆址按展签和对应藏馆归组，非从照片导出时间推参观日期",
+    "personal_highlight": false,
+    "curatorial_addition": false,
+    "selection_role": "完整索引",
+    "visit_date": null,
+    "route": "/japanese-buddhist-sculpture/j62/",
+    "reading_depth": "catalogue",
+    "subject_tags": [
+      "祖师／人物"
+    ],
+    "is_wood_figure": true,
+    "material_group": "wood_and_mixed_materials",
+    "work_count_unit": "档案条目；成组作品不折算为单尊数量",
+    "is_comparison_only": false,
+    "is_ritual_object": false,
+    "research_date": "2026-11-22",
+    "publish_title": "最澄（传教大师）坐像",
+    "timeline_enabled": true,
+    "url_slug": "j62",
+    "identity_evidence": "用户本轮表示已在网上找到与自拍一致的图片，标为镰仓时期Saicho；据此与TL.1974.35对应。本轮未独立取得该第三方图片。",
+    "source_ids": [
+      "S-WALTERS-SAICHO",
+      "U-WALTERS-MATCH"
+    ]
+  }
+]

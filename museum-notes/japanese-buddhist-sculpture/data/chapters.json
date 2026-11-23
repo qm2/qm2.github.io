@@ -1,0 +1,78 @@
+[
+  {
+    "id": "00-foreword",
+    "title": "华丽中的宁静",
+    "file": "content/00-foreword.md",
+    "source_ids": []
+  },
+  {
+    "id": "01-crossing",
+    "title": "跨海而来的形象，在木中获得新的身体",
+    "file": "content/01-crossing.md",
+    "source_ids": [
+      "S-MET-KOREA",
+      "S-MET-KYOTO",
+      "L3120",
+      "S-CMA-NIKKO"
+    ]
+  },
+  {
+    "id": "02-body",
+    "title": "木胎、身体与光：从平安早期到后期",
+    "file": "content/02-body.md",
+    "source_ids": [
+      "S-KNM-STYLE",
+      "S-MET-FUDO",
+      "S-SEA-AMIDA",
+      "S-TNM-UNKEI"
+    ]
+  },
+  {
+    "id": "03-pureland",
+    "title": "面向人的金身：阿弥陀与来迎",
+    "file": "content/03-pureland.md",
+    "source_ids": [
+      "S-MET-KYOTO"
+    ]
+  },
+  {
+    "id": "04-wrath",
+    "title": "保护的身体：不动、爱染与山中的权现",
+    "file": "content/04-wrath.md",
+    "source_ids": [
+      "S-KINGS",
+      "S-CMA-ZAO"
+    ]
+  },
+  {
+    "id": "05-people",
+    "title": "神、人和祖师：谁坐在我们面前",
+    "file": "content/05-people.md",
+    "source_ids": [
+      "S-MET-KYOTO",
+      "S-KIM-HACHI",
+      "L3183",
+      "L3221",
+      "L3201",
+      "S-ENRYAKUJI",
+      "S-WALTERS-SAICHO"
+    ]
+  },
+  {
+    "id": "06-survival",
+    "title": "从寺院到展厅：幸存也有自己的历史",
+    "file": "content/06-survival.md",
+    "source_ids": [
+      "S-WOOD"
+    ]
+  },
+  {
+    "id": "07-looking-and-technique",
+    "title": "怎样看木雕：从一处细节回到整个身体",
+    "file": "content/07-looking-and-technique.md",
+    "source_ids": [
+      "S-WOOD",
+      "S-CMA-AMIDA"
+    ]
+  }
+]
