@@ -1725,7 +1725,7 @@
     },
     {
       "work_id": "w1581",
-      "title_zh": "俱利诃尔不动佛",
+      "title_zh": "库基哈尔不动佛",
       "title_en": "Akshobhya, Buddha of the East",
       "date_start": 875,
       "date_end": 899,
@@ -1749,7 +1749,7 @@
         "c2"
       ],
       "collection": "克利夫兰美术馆",
-      "search": "俱利诃尔不动佛 Akshobhya, Buddha of the East 1970.10 青铜嵌银与铜 克利夫兰美术馆 克利夫兰美术馆",
+      "search": "库基哈尔不动佛 Akshobhya, Buddha of the East 1970.10 青铜嵌银与铜 克利夫兰美术馆 克利夫兰美术馆",
       "material": "金属",
       "theme": "佛",
       "reading_unit_ids": [
@@ -4765,7 +4765,7 @@
     },
     {
       "place_id": "kurkihar",
-      "label_zh": "俱利诃尔相关地区",
+      "label_zh": "库基哈尔相关地区",
       "latitude": 24.8,
       "longitude": 85.3,
       "radius_km": 45,

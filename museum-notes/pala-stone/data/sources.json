@@ -100,7 +100,7 @@
   "O3284": {
     "title": "纳尔逊—阿特金斯 · 戴冠佛首",
     "url": "https://art.nelson-atkins.org/objects/31270/head-of-a-crowned-buddha",
-    "read_status": "本轮已打开并阅读馆方完整收藏史及展览记录",
+    "read_status": "已阅读馆方收藏史及展览记录",
     "used_for": "对象资料及文中相应说明",
     "checked_on": "2026-11-23"
   },
@@ -184,7 +184,7 @@
   "O3300": {
     "title": "金贝尔艺术博物馆 · 空行观音",
     "url": "https://kimbellart.org/collection/ap-197013",
-    "read_status": "直接打开返回403；本轮使用已核过的本站记录及新展签",
+    "read_status": "官网访问受限；作品说明依据现场展签与既有馆藏资料整理。",
     "used_for": "馆方进一步阅读入口",
     "checked_on": "2026-11-23"
   },
@@ -212,7 +212,7 @@
   "O3306": {
     "title": "圣安东尼奥美术馆 · 象头神",
     "url": "https://sanantonio.emuseum.com/objects/3426/ganesha",
-    "read_status": "馆方条目正文经检索返回内容核对；直接打开返回403",
+    "read_status": "参阅馆方条目的检索存档正文；官网直连访问受限。",
     "used_for": "对象资料及文中相应说明",
     "checked_on": "2026-11-23"
   },
@@ -283,7 +283,7 @@
     "title": "大都会 · 象头神故事与礼拜背景",
     "url": "https://www.metmuseum.org/art/collection/search/38584",
     "read_status": "已阅读相关正文／段落",
-    "used_for": "象头由来的常见传说；只用于故事背景，不将该件尼泊尔铜像特征移到本件",
+    "used_for": "象头神故事与礼拜背景",
     "checked_on": "2026-11-23"
   },
   "H-VARAHA": {
@@ -346,20 +346,20 @@
     "title": "大都会 · 阿底峡肖像研究说明",
     "url": "https://www.metmuseum.org/art/collection/search/38006",
     "read_status": "已阅读网页正文及相关条目",
-    "used_for": "阿底峡与超戒寺及1042年赴藏；仅用于人物背景，不增列本站亲见作品",
+    "used_for": "阿底峡与超戒寺的关系及1042年赴藏的人物背景",
     "checked_on": "2026-11-23"
   },
   "H-HUNTINGTON": {
     "title": "Susan L. Huntington · The “Pāla-Sena” Schools of Sculpture，Brill，1984",
     "url": "https://www.academia.edu/43266236/Huntington_Pala_Sena_Schools_of_Sculpture_Pt_1_of_2",
-    "read_status": "本轮实际阅读公开文本的导论开篇、俱利诃尔石雕章节（印刷页102—104附近）及金属章节（141—143附近）；未通读全书。公开文本有OCR错误，未用来抄录铭文。",
-    "used_for": "“帕拉—塞那”名称与王室委托的区别；俱利诃尔石雕与金属造像的地方特点",
+    "read_status": "参阅范围：公开文本的导论开篇、库基哈尔石雕章节（印刷页102—104附近）及金属章节（141—143附近），未通读全书。OCR文本存在错误，不作为铭文录文依据。",
+    "used_for": "“帕拉—塞那”名称与王室委托的区别；库基哈尔石雕与金属造像的地方特点",
     "checked_on": "2026-11-23"
   },
   "H-ASI": {
     "title": "印度考古局 · History",
     "url": "https://asi.nic.in/EN/history-view",
-    "read_status": "已阅读历史页面相关段落；不是本辑作品出土证明",
+    "read_status": "参阅印度考古局机构史相关段落",
     "used_for": "1861年起的古迹调查、1871年恢复机构",
     "checked_on": "2026-11-23"
   },
@@ -373,7 +373,7 @@
   "O3286-API": {
     "title": "克利夫兰公开馆藏API · 1935.146",
     "url": "https://openaccess-api.clevelandart.org/api/artworks/?accession_number=1935.146",
-    "read_status": "已读取馆方API的provenance及citations字段，未据此声称读过列举论文",
+    "read_status": "依据馆方开放数据中的收藏史与参考书目；所列论文尚未逐篇查阅。",
     "used_for": "Heeramaneck Galleries售出、1935年购入；所列论文仅作后续研究线索",
     "checked_on": "2026-11-23"
   },
@@ -381,7 +381,7 @@
     "title": "Chazen Museum · 1969年帕拉艺术展参展记录",
     "url": "https://chazen.wisc.edu/collection/15334/iva-and-parvt-ummahehvara/",
     "read_status": "已阅读网页正文及相关条目",
-    "used_for": "独立核对Iowa展览名称及1969年11月1日至12月3日展期；不将此件加入亲见图录",
+    "used_for": "爱荷华展览名称及1969年11月1日至12月3日展期",
     "checked_on": "2026-11-23"
   },
   "B-IOWA": {
@@ -402,7 +402,7 @@
     "title": "GeoNames · Kurkihar，1265499",
     "url": "https://www.geonames.org/1265499/kurkihar.html",
     "read_status": "核对公开地名记录的坐标；直连不稳定",
-    "used_for": "俱利诃尔村落定位，24.83143,85.25352；不是每件石像的出土坐标",
+    "used_for": "库基哈尔村落定位，24.83143,85.25352；不是每件石像的出土坐标",
     "checked_on": "2026-11-23"
   },
   "G-RIVER": {
@@ -415,8 +415,8 @@
   "H-SUCIMUKHA": {
     "title": "费城艺术博物馆 · Khasarpana Avalokiteshvara",
     "url": "https://www.philamuseum.org/objects/46283",
-    "read_status": "已阅读馆方正文；比较作品未加入个人图录，未使用其照片",
-    "used_for": "针口饿鬼名称及观音右手施甘露的同类图像解释；不是金贝尔本件的收藏或产地记录",
+    "read_status": "已阅读馆方正文，作为同类图像的比较资料",
+    "used_for": "针口饿鬼名称及观音右手施甘露的图像解释",
     "checked_on": "2026-11-23"
   }
 }
