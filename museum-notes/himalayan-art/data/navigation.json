@@ -43,7 +43,7 @@
       "region_ids": [
         "pala-bihar"
       ],
-      "display_museum_id": null,
+      "display_museum_id": "mfah",
       "collection_museum_id": null,
       "map_enabled": true,
       "map_associations": [
@@ -58,9 +58,9 @@
       "chapter_ids": [
         "c2"
       ],
-      "collection": "私人收藏；展出地点待核",
-      "search": "佛自忉利天降下 Buddha Descending from the Trayastrimsha Heaven   私人收藏；展出地点待核 私人收藏；展出地点待核",
-      "material": "其他／未详",
+      "collection": "私人收藏 · 在休斯顿美术馆展出",
+      "search": "佛自忉利天降下 Buddha Descending from the Trayastrimsha Heaven  黑石 私人收藏 休斯顿美术馆",
+      "material": "石",
       "theme": "佛",
       "reading_unit_ids": []
     },
@@ -629,8 +629,8 @@
         "c2"
       ],
       "collection": "私人收藏；在大都会借展 · 在纽约大都会艺术博物馆展出",
-      "search": "世间自在观音 Bodhisattva Lokanatha Avalokiteshvara  黑石 私人收藏；在大都会借展 纽约大都会艺术博物馆",
-      "material": "石",
+      "search": "世间自在观音 Bodhisattva Lokanatha Avalokiteshvara  黑色绿泥石 私人收藏；在大都会借展 纽约大都会艺术博物馆",
+      "material": "泥塑",
       "theme": "观音",
       "reading_unit_ids": [
         "u07"

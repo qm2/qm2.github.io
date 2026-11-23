@@ -3,6 +3,7 @@
 Static pages for the existing GitHub Pages site. No client dependencies or build service.
 
 - `/museum-notes/`: cross-cultural notebook entrance.
+- `/museum-notes/pala-stone/`: 帕拉黑石造像，24件亲见作品、48张自拍、十二家观看馆址；五条阅读线索、神话故事、历史导览与四组并看。9件复用喜马拉雅权威ID。见 [专题说明](pala-stone/README.md)。
 - `/museum-notes/greek-roman-bronzes/`: 18 bronze viewing groups, four themes, history, comparison and museum/date atlas. See [topic documentation](greek-roman-bronzes/README.md). Rebuilds with the main museum generator.
 - `/museum-notes/images-and-vows/`: fifteen South/North dynasties stone sculptures, five narrative chapters and eight published inscription texts. See [topic documentation](images-and-vows/README.md). Rebuilds with the main museum generator.
 - `/museum-notes/himalayan-art/`: six chapters, 24 close readings and a data-driven geographic guide. See [topic documentation](himalayan-art/README.md) for image permissions, stable work IDs, filtering, checks and adding future visits. Regenerate with `python3 scripts/build_himalayan.py` or the full museum build.

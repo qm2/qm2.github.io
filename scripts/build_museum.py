@@ -170,3 +170,6 @@ build_gusu()
 
 from build_japanese_wood import build as build_japanese_wood
 build_japanese_wood()
+
+from build_pala_stone import build as build_pala_stone
+build_pala_stone()

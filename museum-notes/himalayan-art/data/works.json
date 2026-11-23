@@ -101,7 +101,7 @@
     "tier": "catalogue",
     "scope": "himalayan",
     "religious_context": "Buddhist",
-    "editorial_notes": "私人收藏，展出馆待核。展签把缘起偈称为四圣谛，正文应据铭文研究核查后说明。",
+    "editorial_notes": "私人收藏；作者于2026-11-23确认观看地点为休斯顿Living with the Gods展览。日期是整理确认日，不是参观日。展签的缘起偈说明不作为四圣谛释文。",
     "metadata_basis": "photographed_label",
     "verification_status": "photo_label_checked",
     "source_ids": [],
@@ -114,8 +114,8 @@
     "label_source_ids": [
       "L_h1477"
     ],
-    "materials_display": null,
-    "material_status": "not_transcribed_see_label",
+    "materials_display": "黑石",
+    "material_status": "photographed_label_checked",
     "reading_unit_ids": [],
     "chapter_ids": [
       "c2"
@@ -136,9 +136,9 @@
       }
     ],
     "collection_museum_id": null,
-    "display_museum_id": null,
-    "collection_label": "私人收藏；展出地点待核",
-    "museum_label": "私人收藏；展出地点待核",
+    "display_museum_id": "mfah",
+    "collection_label": "私人收藏",
+    "museum_label": "休斯顿美术馆",
     "has_shared_frame": false,
     "default_gallery_photos": [
       "h1476"
@@ -150,8 +150,9 @@
     "primary_path": "images/originals/h1476.jpg",
     "thumbnail_path": "images/h1476-400.webp",
     "reader_notes": [
-      "私人收藏，现场展出机构尚未确认。"
-    ]
+      "作者在休斯顿美术馆Living with the Gods展览中观看。"
+    ],
+    "material_evidence_url": "https://images.mertonmuseum.com/museum-notes/pala-stone/originals/Image_20261123140251_3269_19.jpg"
   },
   {
     "work_id": "w1478",
@@ -1429,7 +1430,7 @@
       "L_h1519",
       "L_h1511"
     ],
-    "materials_display": "黑石",
+    "materials_display": "黑色绿泥石",
     "material_status": "reviewed",
     "reading_unit_ids": [
       "u07"
@@ -1470,7 +1471,8 @@
     "thumbnail_path": "images/h1518-400.webp",
     "reader_notes": [
       "私人收藏，借展于大都会艺术博物馆。"
-    ]
+    ],
+    "material_evidence_url": "https://images.mertonmuseum.com/museum-notes/pala-stone/originals/Image_20261123140251_3279_19.jpg"
   },
   {
     "work_id": "w1512",

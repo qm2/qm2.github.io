@@ -133,6 +133,8 @@ def build(base=BASE, integrate=True):
         return '<section class="ha-details"><h2>靠近一点</h2><div class="ha-plates">'+''.join(fig(n,caps.get(n,w['title_zh']+' · 现场细部'),pre) for n in ns)+'</div></section>'
     def write(route,title,body,photo='h1677'):
         dest=base/route;dest.mkdir(parents=True,exist_ok=True);(dest/'index.html').write_text(shell(title,body,bool(route),photo))
+    pala_path=ROOT/'museum-notes/pala-stone/data/catalogue.json'
+    pala_ids={w['canonical_ref']['work_id'] for w in json.loads(pala_path.read_text()) if w.get('canonical_ref')} if pala_path.exists() else set()
     # Individual records: unchanged original photographs and compact label-based facts.
     for w in records:
         wid=w['work_id'];photo=w['primary_photo'];body=f'<nav class="breadcrumbs"><a href="../">喜马拉雅艺术</a><span>/</span><a href="../#catalogue">亲见目录</a></nav><header class="ha-heading"><p class="eyebrow">OBJECT NOTE</p><h1>{e(w["title_zh"])}</h1><p>{e(w["date_label"])}</p></header>'
@@ -164,6 +166,7 @@ def build(base=BASE, integrate=True):
                     if v.get(key,'').strip():body+='<h3>'+label+'</h3><p>'+e(v[key])+'</p>'
                 body+='</article>'
             body+='</section>'
+        if wid in pala_ids:body+=f'<p class="ha-prose"><a href="../../pala-stone/{wid}/">新照片与细读：帕拉黑石造像 →</a></p>'
         body+=history_links(wid)+refs(w['source_ids']);write(wid,w['title_zh'],body,photo)
     # Stable aliases retain old URLs without creating another work or photo record.
     for old,target in aliases.items():

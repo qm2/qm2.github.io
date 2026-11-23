@@ -1,0 +1,554 @@
+[
+  {
+    "id": "p3264",
+    "photo": 3264,
+    "label": 3265,
+    "group": "related",
+    "religion": "佛教",
+    "chapter": "life",
+    "region": "印度：中央邦或比哈尔（馆方注明两种可能）",
+    "date_start": 1000,
+    "date_end": 1099,
+    "source_ids": [
+      "L3265",
+      "O3264"
+    ],
+    "visit_date": null,
+    "title": "佛陀诞生",
+    "title_en": "Birth of the Buddha",
+    "date": "11世纪",
+    "medium": "黑石",
+    "collection": "纽约大都会",
+    "viewing_museum_id": "mfah",
+    "accession": "2007.305",
+    "notes": [
+      "馆方产地为中央邦或比哈尔；作为地域延展收入。"
+    ],
+    "viewing_context": "Living with the Gods",
+    "viewing_basis": "作者在本轮对话确认"
+  },
+  {
+    "id": "p3266",
+    "photo": 3266,
+    "label": 3267,
+    "group": "core",
+    "religion": "佛教",
+    "chapter": "life",
+    "region": "比哈尔，可能与那烂陀有关",
+    "date_start": 900,
+    "date_end": 999,
+    "source_ids": [
+      "L3267",
+      "O3266"
+    ],
+    "visit_date": null,
+    "title": "佛传八大事迹碑",
+    "title_en": "Eight Great Events",
+    "date": "10世纪",
+    "medium": "黑色片岩，有金彩痕迹",
+    "collection": "纽约大都会",
+    "viewing_museum_id": "mfah",
+    "accession": "2009.541",
+    "dimensions": "28.1 × 17.8 × 1.9厘米",
+    "viewing_context": "Living with the Gods",
+    "viewing_basis": "作者在本轮对话确认"
+  },
+  {
+    "id": "w1476",
+    "photo": 3268,
+    "label": 3269,
+    "group": "core",
+    "religion": "佛教",
+    "chapter": "life",
+    "region": "印度东北部，比哈尔",
+    "date_start": 800,
+    "date_end": 899,
+    "source_ids": [
+      "L3269"
+    ],
+    "visit_date": null,
+    "canonical_ref": {
+      "topic": "himalayan-art",
+      "work_id": "w1476"
+    },
+    "short_title": "佛自忉利天降下"
+  },
+  {
+    "id": "p3270",
+    "photo": 3270,
+    "label": 3271,
+    "group": "core",
+    "religion": "印度教",
+    "chapter": "vishnu",
+    "region": "印度东北部；展签置于帕拉艺术语境",
+    "date_start": 1075,
+    "date_end": 1099,
+    "source_ids": [
+      "L3271"
+    ],
+    "visit_date": null,
+    "title": "野猪化身毗湿奴",
+    "title_en": "Varaha",
+    "date": "11世纪后期",
+    "medium": "千枚岩 phyllite",
+    "collection": "阿克兰艺术博物馆（Ackland）",
+    "viewing_museum_id": "mfah",
+    "accession": null,
+    "notes": [
+      "馆藏号尚待补录。"
+    ],
+    "viewing_context": "Living with the Gods",
+    "viewing_basis": "作者在本轮对话确认"
+  },
+  {
+    "id": "w1488",
+    "photo": 3272,
+    "label": 3273,
+    "group": "core",
+    "religion": "佛教",
+    "chapter": "life",
+    "region": "印度，帕拉时期",
+    "date_start": 900,
+    "date_end": 999,
+    "source_ids": [
+      "L3273"
+    ],
+    "visit_date": null,
+    "canonical_ref": {
+      "topic": "himalayan-art",
+      "work_id": "w1488"
+    },
+    "short_title": "释迦牟尼降魔"
+  },
+  {
+    "id": "w1508",
+    "photo": 3274,
+    "label": 3275,
+    "group": "core",
+    "religion": "佛教",
+    "chapter": "people",
+    "region": "比哈尔，可能与那烂陀有关",
+    "date_start": 1000,
+    "date_end": 1099,
+    "source_ids": [
+      "L3275",
+      "O3274"
+    ],
+    "visit_date": null,
+    "canonical_ref": {
+      "topic": "himalayan-art",
+      "work_id": "w1508"
+    },
+    "short_title": "佛初转法轮"
+  },
+  {
+    "id": "p3276",
+    "photo": 3276,
+    "label": 3277,
+    "group": "earlier",
+    "religion": "佛教",
+    "chapter": "compassion",
+    "region": "比哈尔",
+    "date_start": 675,
+    "date_end": 725,
+    "source_ids": [
+      "L3277",
+      "O3276"
+    ],
+    "visit_date": null,
+    "title": "观音立像",
+    "title_en": "Avalokiteshvara",
+    "date": "7世纪末—8世纪初",
+    "medium": "片岩 schist",
+    "collection": "纽约亚洲协会",
+    "viewing_museum_id": "met",
+    "accession": "1979.10",
+    "viewing_basis": "作者在本轮对话确认"
+  },
+  {
+    "id": "w1510",
+    "photo": 3278,
+    "label": 3279,
+    "group": "core",
+    "religion": "佛教",
+    "chapter": "compassion",
+    "region": "比哈尔，帕拉时期",
+    "date_start": 1075,
+    "date_end": 1125,
+    "source_ids": [
+      "L3279"
+    ],
+    "visit_date": null,
+    "canonical_ref": {
+      "topic": "himalayan-art",
+      "work_id": "w1510"
+    },
+    "short_title": "世间自在观音"
+  },
+  {
+    "id": "p3280",
+    "photo": 3280,
+    "label": 3281,
+    "group": "core",
+    "religion": "印度教",
+    "chapter": "power",
+    "region": "比哈尔，可能为伽耶地区",
+    "date_start": 850,
+    "date_end": 899,
+    "source_ids": [
+      "L3281",
+      "O3280"
+    ],
+    "visit_date": null,
+    "title": "难近母降伏水牛魔",
+    "title_en": "Durga Mahishasuramardini",
+    "date": "9世纪后半",
+    "medium": "黑色千枚岩（展签）；片岩（馆方网页）",
+    "collection": "纽约大都会",
+    "viewing_museum_id": "met",
+    "accession": "2016.650",
+    "dimensions": "像高99.1厘米；含底座高108厘米；宽53.3、深17.8厘米"
+  },
+  {
+    "id": "w1662",
+    "photo": 3282,
+    "label": 3283,
+    "group": "core",
+    "religion": "佛教",
+    "chapter": "life",
+    "region": "印度东北部，比哈尔",
+    "date_start": 800,
+    "date_end": 999,
+    "source_ids": [
+      "L3283"
+    ],
+    "visit_date": null,
+    "canonical_ref": {
+      "topic": "himalayan-art",
+      "work_id": "w1662"
+    },
+    "short_title": "触地印坐佛"
+  },
+  {
+    "id": "p3284",
+    "photo": 3284,
+    "label": 3285,
+    "group": "core",
+    "religion": "佛教",
+    "chapter": "people",
+    "region": "印度东北部，比哈尔",
+    "date_start": 975,
+    "date_end": 1025,
+    "source_ids": [
+      "L3285",
+      "O3284"
+    ],
+    "visit_date": null,
+    "title": "戴冠佛首",
+    "title_en": "Head of a Crowned Buddha",
+    "date": "10世纪末—11世纪初",
+    "medium": "片岩 schist",
+    "collection": "纳尔逊—阿特金斯",
+    "viewing_museum_id": "nelson",
+    "accession": "43-16",
+    "dimensions": "39.37 × 26.67 × 21.59厘米"
+  },
+  {
+    "id": "w1579",
+    "photo": 3286,
+    "label": 3287,
+    "group": "core",
+    "religion": "佛教",
+    "chapter": "life",
+    "region": "比哈尔，Tetravan",
+    "date_start": 800,
+    "date_end": 899,
+    "source_ids": [
+      "L3287",
+      "O3286"
+    ],
+    "visit_date": null,
+    "canonical_ref": {
+      "topic": "himalayan-art",
+      "work_id": "w1579"
+    },
+    "short_title": "触地印佛"
+  },
+  {
+    "id": "p3288",
+    "photo": 3288,
+    "label": 3289,
+    "group": "earlier",
+    "religion": "印度教",
+    "chapter": "vishnu",
+    "region": "印度东北部，比哈尔",
+    "date_start": 300,
+    "date_end": 399,
+    "source_ids": [
+      "L3289",
+      "O3288"
+    ],
+    "visit_date": null,
+    "title": "毗湿奴乘迦楼罗",
+    "title_en": "Vishnu Riding Garuda",
+    "date": "公元4世纪（馆方网页作300年代）",
+    "medium": "片岩 schist",
+    "collection": "克利夫兰美术馆",
+    "viewing_museum_id": "cleveland",
+    "accession": "1961.46",
+    "dimensions": "81.3 × 47厘米"
+  },
+  {
+    "id": "p3290",
+    "photo": 3290,
+    "label": 3291,
+    "group": "related",
+    "religion": "佛教",
+    "chapter": "compassion",
+    "region": "印度；展签未注明具体地区或帕拉王朝",
+    "date_start": 800,
+    "date_end": 899,
+    "source_ids": [
+      "L3291"
+    ],
+    "visit_date": null,
+    "title": "童子文殊",
+    "title_en": "Manjusri Kumara",
+    "date": "9世纪",
+    "medium": "石材未细分，仅标 Stone",
+    "collection": "檀香山艺术博物馆",
+    "viewing_museum_id": "honolulu",
+    "accession": "4315.1",
+    "notes": [
+      "展签列9世纪、印度、石材；帕拉归属及具体石种留待馆方进一步资料。"
+    ]
+  },
+  {
+    "id": "w1649",
+    "photo": 3292,
+    "label": 3293,
+    "group": "core",
+    "religion": "佛教",
+    "chapter": "life",
+    "region": "比哈尔，可能俱利诃尔附近",
+    "date_start": 825,
+    "date_end": 875,
+    "source_ids": [
+      "L3293"
+    ],
+    "visit_date": null,
+    "canonical_ref": {
+      "topic": "himalayan-art",
+      "work_id": "w1649"
+    },
+    "short_title": "降魔成道佛"
+  },
+  {
+    "id": "p3294",
+    "photo": 3294,
+    "label": 3295,
+    "group": "core",
+    "religion": "印度教",
+    "chapter": "vishnu",
+    "region": "孟加拉国，达卡地区",
+    "date_start": 1000,
+    "date_end": 1099,
+    "source_ids": [
+      "L3295",
+      "O3294"
+    ],
+    "visit_date": null,
+    "title": "毗湿奴与诸化身",
+    "title_en": "Vishnu with Avatars",
+    "date": "11世纪",
+    "medium": "黑色片岩 black schist",
+    "collection": "史密森尼国立亚洲艺术博物馆",
+    "viewing_museum_id": "nmaa",
+    "accession": "S1992.59",
+    "dimensions": "105.2 × 52.5 × 28.7厘米"
+  },
+  {
+    "id": "p3296",
+    "photo": 3296,
+    "label": 3297,
+    "group": "core",
+    "religion": "印度教",
+    "chapter": "vishnu",
+    "region": "孟加拉国或印度",
+    "date_start": 1125,
+    "date_end": 1175,
+    "source_ids": [
+      "L3297",
+      "O3296"
+    ],
+    "visit_date": null,
+    "title": "迦楼罗",
+    "title_en": "Garuda",
+    "date": "约1150年",
+    "medium": "千枚岩 phyllite",
+    "collection": "史密森尼国立亚洲艺术博物馆",
+    "viewing_museum_id": "nmaa",
+    "accession": "F1990.9",
+    "dimensions": "53 × 38 × 28厘米"
+  },
+  {
+    "id": "p3298",
+    "photo": 3298,
+    "label": 3299,
+    "group": "core",
+    "religion": "印度教",
+    "chapter": "vishnu",
+    "region": "印度孟加拉",
+    "date_start": 1025,
+    "date_end": 1075,
+    "source_ids": [
+      "L3299"
+    ],
+    "visit_date": null,
+    "title": "毗湿奴",
+    "title_en": "Vishnu",
+    "date": "11世纪中叶",
+    "medium": "片岩 schist",
+    "collection": "新奥尔良美术馆",
+    "viewing_museum_id": "noma",
+    "accession": "76.458",
+    "notes": [
+      "展签记Frederick M. Stafford夫妇捐赠。"
+    ],
+    "viewing_basis": "作者在本轮对话确认"
+  },
+  {
+    "id": "w1698",
+    "photo": 3300,
+    "label": 3301,
+    "group": "core",
+    "religion": "佛教",
+    "chapter": "compassion",
+    "region": "孟加拉，帕拉时期",
+    "date_start": 1000,
+    "date_end": 1199,
+    "source_ids": [
+      "L3301"
+    ],
+    "visit_date": null,
+    "canonical_ref": {
+      "topic": "himalayan-art",
+      "work_id": "w1698"
+    },
+    "short_title": "空行观音"
+  },
+  {
+    "id": "p3302",
+    "photo": 3302,
+    "label": 3303,
+    "group": "core",
+    "religion": "印度教",
+    "chapter": "vishnu",
+    "region": "西孟加拉或比哈尔",
+    "date_start": 1000,
+    "date_end": 1199,
+    "source_ids": [
+      "L3303"
+    ],
+    "visit_date": null,
+    "title": "毗湿奴碑像",
+    "title_en": "Vishnu stele",
+    "date": "11—12世纪",
+    "medium": "绿泥石 chlorite",
+    "collection": "圣安东尼奥美术馆",
+    "viewing_museum_id": "sama",
+    "accession": "2002.12"
+  },
+  {
+    "id": "sama-08",
+    "photo": 3304,
+    "label": 3305,
+    "group": "core",
+    "religion": "佛教",
+    "chapter": "life",
+    "region": "比哈尔",
+    "date_start": 900,
+    "date_end": 999,
+    "source_ids": [
+      "L3305"
+    ],
+    "visit_date": null,
+    "canonical_ref": {
+      "topic": "himalayan-art",
+      "work_id": "sama-08"
+    },
+    "short_title": "佛传八大事迹碑"
+  },
+  {
+    "id": "p3306",
+    "photo": 3306,
+    "label": 3307,
+    "group": "core",
+    "religion": "印度教",
+    "chapter": "power",
+    "region": "印度孟加拉，帕拉时期",
+    "date_start": 1000,
+    "date_end": 1099,
+    "source_ids": [
+      "L3307",
+      "O3306"
+    ],
+    "visit_date": null,
+    "title": "象头神",
+    "title_en": "Ganesha",
+    "date": "11世纪",
+    "medium": "绿泥石 chlorite",
+    "collection": "圣安东尼奥美术馆",
+    "viewing_museum_id": "sama",
+    "accession": "91.15",
+    "dimensions": "高95.3厘米"
+  },
+  {
+    "id": "p3308",
+    "photo": 3308,
+    "label": 3309,
+    "group": "core",
+    "religion": "佛教",
+    "chapter": "people",
+    "region": "印度比哈尔",
+    "date_start": 900,
+    "date_end": 1099,
+    "source_ids": [
+      "L3309",
+      "O3308"
+    ],
+    "visit_date": null,
+    "title": "释迦牟尼与供养人",
+    "title_en": "Buddha Shakyamuni with Devotee",
+    "date": "10—11世纪",
+    "medium": "片岩 schist",
+    "collection": "沃尔特斯艺术博物馆",
+    "viewing_museum_id": "walters",
+    "accession": "25.263",
+    "dimensions": "27.9 × 18.5 × 8.7厘米"
+  },
+  {
+    "id": "p3310",
+    "photo": 3310,
+    "label": 3311,
+    "group": "core",
+    "religion": "印度教",
+    "chapter": "vishnu",
+    "region": "孟加拉国或印度西孟加拉",
+    "date_start": 1000,
+    "date_end": 1099,
+    "source_ids": [
+      "L3311",
+      "O3310"
+    ],
+    "visit_date": null,
+    "title": "毗湿奴乘迦楼罗",
+    "title_en": "Vishnu Riding Garuda",
+    "date": "约11世纪",
+    "medium": "灰色片岩 gray schist",
+    "collection": "沃尔特斯艺术博物馆",
+    "viewing_museum_id": "walters",
+    "accession": "25.242",
+    "dimensions": "65 × 28 × 7.6厘米（不含展台）"
+  }
+]
