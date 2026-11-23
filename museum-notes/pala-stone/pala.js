@@ -43,3 +43,21 @@
 })();
 // Progressive timeline filter; static cards and place links remain usable without JS.
 (()=>{const tools=document.getElementById('ps-time-filters');if(!tools)return;tools.hidden=false;const records=[...document.querySelectorAll('[data-time-work]')];const apply=()=>{const faith=new URL(location.href).searchParams.get('faith')||'';let n=0;for(const r of records){r.hidden=!!faith&&r.dataset.faith!==faith;if(!r.hidden)n++;}for(const b of tools.querySelectorAll('button'))b.setAttribute('aria-pressed',String(b.dataset.time===faith));document.getElementById('ps-time-count').textContent=`当前${n}件作品`;};tools.addEventListener('click',e=>{const b=e.target.closest('[data-time]');if(!b)return;const u=new URL(location.href);if(b.dataset.time)u.searchParams.set('faith',b.dataset.time);else u.searchParams.delete('faith');history.pushState({},'',u);apply();});window.addEventListener('popstate',apply);apply();})();
+
+// Keep horizontal navigation within reach while reading the long century columns.
+(()=>{
+ const track=document.getElementById('ps-time-track');if(!track)return;
+ const nav=document.querySelector('.ps-time-navigation'),prev=document.getElementById('ps-time-prev'),next=document.getElementById('ps-time-next'),period=document.getElementById('ps-time-period');
+ const columns=[...track.querySelectorAll('.ps-century')];
+ const update=()=>{prev.disabled=track.scrollLeft<=2;next.disabled=track.scrollLeft>=track.scrollWidth-track.clientWidth-2;};
+ const move=left=>track.scrollTo({left,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
+ prev.addEventListener('click',()=>move(track.scrollLeft-Math.max(245,track.clientWidth*.8)));
+ next.addEventListener('click',()=>move(track.scrollLeft+Math.max(245,track.clientWidth*.8)));
+ period.addEventListener('change',()=>{
+  if(period.value==='')return;
+  const column=columns[Number(period.value)];
+  move(track.scrollLeft+column.getBoundingClientRect().left-track.getBoundingClientRect().left);
+ });
+ track.addEventListener('scroll',update,{passive:true});
+ new ResizeObserver(update).observe(track);nav.hidden=false;update();
+})();

@@ -49,7 +49,26 @@ with sync_playwright() as p:
   assert 'faith=' in page.url;page.reload();assert page.locator('[data-time="印度教"]').get_attribute('aria-pressed')=='true'
   page.locator('[data-time="佛教"]').click();page.go_back();assert page.locator('[data-time="印度教"]').get_attribute('aria-pressed')=='true'
   page.locator('[data-time=""]').click();assert page.locator('[data-time-work]:visible').count()==24
-  page.locator('.ps-timeline').evaluate('(el)=>el.scrollLeft=el.scrollWidth');assert page.locator('.ps-timeline').evaluate('(el)=>el.scrollLeft>0')
+  page.goto(BASE+'guide/')
+  track=page.locator('.ps-timeline')
+  page.emulate_media(reduced_motion='reduce')
+  page.evaluate("window.scrollTo(0,document.getElementById('ps-time-track').getBoundingClientRect().top+scrollY+350)")
+  page.evaluate('()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)))')
+  nav=page.locator('.ps-time-navigation');assert abs(nav.bounding_box()['y'])<2
+  y=page.evaluate('scrollY');button=page.locator('#ps-time-next').bounding_box();page.mouse.click(button['x']+button['width']/2,button['y']+button['height']/2)
+  page.wait_for_function("document.getElementById('ps-time-track').scrollLeft>0")
+  assert abs(page.evaluate('scrollY')-y)<2
+  page.locator('#ps-time-period').evaluate('(el)=>el.focus({preventScroll:true})');page.keyboard.press('End');page.keyboard.press('Enter')
+  page.wait_for_function("document.getElementById('ps-time-next').disabled")
+  assert abs(page.evaluate('scrollY')-y)<2
+  page.screenshot(path=str(OUT/f'timeline-sticky-{width}.png'))
+  page.locator('#ps-time-period').select_option('0')
+  page.wait_for_function("document.getElementById('ps-time-prev').disabled")
+  page.locator('#ps-time-next').focus();page.keyboard.press('Enter')
+  page.wait_for_function("document.getElementById('ps-time-track').scrollLeft>0")
+  page.locator('#ps-time-prev').click();page.wait_for_function("document.getElementById('ps-time-prev').disabled")
+  track.evaluate('(el)=>el.scrollLeft=el.scrollWidth');assert track.evaluate('(el)=>el.scrollLeft>0')
+  assert not page.evaluate('document.documentElement.scrollWidth>innerWidth+1')
   page.goto(BASE+'w1698/');page.locator('.ps-detail a[data-photo]').first.click();page.locator('#large-photo').evaluate('(i)=>i.decode()');assert '局部' in page.locator('#lightbox-caption').inner_text();page.keyboard.press('Escape')
   page.locator('.ps-detail figcaption a').first.click();page.locator('#large-photo').evaluate('(i)=>i.decode()');assert 'originals/' in page.locator('#large-photo').get_attribute('src');page.keyboard.press('Escape')
   print('PASS',width,'layouts, map/cluster, filter/back/reload, sort, original/label lightbox, captions and sources',flush=True);page.close()
