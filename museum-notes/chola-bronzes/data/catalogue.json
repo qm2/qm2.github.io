@@ -122,7 +122,7 @@
     "id": "c05",
     "title": "乌玛",
     "title_en": "Uma",
-    "viewing_museum_id": "dallas",
+    "viewing_museum_id": "mfah",
     "collection": "达拉斯艺术博物馆",
     "accession": "2007.1295",
     "date": "约1125年",
@@ -141,7 +141,7 @@
     "group": "core",
     "object_count": 1,
     "visit_date": null,
-    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "viewing_evidence": "作者于2026-11-24纠正：在休斯顿美术馆亲见，非达拉斯现场；参观日期未提供",
     "source_ids": [
       "L05"
     ]
@@ -150,7 +150,7 @@
     "id": "c06",
     "title": "湿婆舞王",
     "title_en": "Shiva Nataraja",
-    "viewing_museum_id": "dallas",
+    "viewing_museum_id": "mfah",
     "collection": "达拉斯艺术博物馆",
     "accession": "73.77",
     "date": "13世纪",
@@ -169,7 +169,7 @@
     "group": "core",
     "object_count": 1,
     "visit_date": null,
-    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "viewing_evidence": "作者于2026-11-24纠正：在休斯顿美术馆亲见，非达拉斯现场；参观日期未提供",
     "source_ids": [
       "L06"
     ]
