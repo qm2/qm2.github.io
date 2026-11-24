@@ -1051,5 +1051,81 @@
     "source_ids": [
       "L36"
     ]
+  },
+  {
+    "id": "c37",
+    "title": "纳加帕蒂南佛立像",
+    "title_en": "Standing Buddha",
+    "viewing_museum_id": "noma",
+    "collection": "新奥尔良美术馆",
+    "accession": "2021.98",
+    "date": "10世纪",
+    "date_start": 900,
+    "date_end": 999,
+    "date_precision": "range",
+    "photo": "noma_10c_buddha_crop",
+    "label": "noma_10c_label_crop",
+    "photos": [
+      "noma_10c_buddha_crop",
+      "noma_10c_label_crop",
+      "noma_three_buddhas_case"
+    ],
+    "medium": "铜合金",
+    "region": "印度，泰米尔纳德邦，纳加帕蒂南（Nagapattinam）",
+    "religion": "佛教",
+    "group": "core",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者在新奥尔良美术馆的现场照片及展签",
+    "source_ids": [
+      "L37"
+    ],
+    "credit": "Abhishek Bhansali赠",
+    "notes": [
+      "Abhishek Bhansali赠",
+      "尺寸与完整递藏记录尚待补充。",
+      "按展签年代与地域纳入朱罗时期；展签未写王朝或具体寺院。"
+    ],
+    "photo_captions": {
+      "noma_three_buddhas_case": "展柜合照：左为7世纪释迦牟尼，中央为10世纪佛立像；右侧犍陀罗像仅为陈列背景"
+    }
+  },
+  {
+    "id": "c38",
+    "title": "释迦牟尼佛立像",
+    "title_en": "Buddha Shākyamuni",
+    "viewing_museum_id": "noma",
+    "collection": "Dr. Siddharth K. Bhansali私人收藏",
+    "accession": null,
+    "date": "7世纪",
+    "date_start": 600,
+    "date_end": 699,
+    "date_precision": "range",
+    "photo": "noma_7c_buddha_full",
+    "label": "noma_7c_buddha_label",
+    "photos": [
+      "noma_7c_buddha_full",
+      "noma_7c_buddha_label",
+      "noma_three_buddhas_case"
+    ],
+    "medium": "铜合金",
+    "region": "印度，泰米尔纳德邦",
+    "religion": "佛教",
+    "group": "pre_chola",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者在新奥尔良美术馆的现场照片及展签",
+    "source_ids": [
+      "L38"
+    ],
+    "credit": "私人收藏借展于新奥尔良美术馆",
+    "notes": [
+      "私人收藏借展于新奥尔良美术馆",
+      "尺寸与完整递藏记录尚待补充。",
+      "7世纪的前史对照，早于帝国朱罗王朝；不指定帕拉瓦王朝。"
+    ],
+    "photo_captions": {
+      "noma_three_buddhas_case": "展柜合照：左为7世纪释迦牟尼，中央为10世纪佛立像；右侧犍陀罗像仅为陈列背景"
+    }
   }
 ]

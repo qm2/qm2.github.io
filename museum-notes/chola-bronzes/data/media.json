@@ -2177,5 +2177,129 @@
         "height": 1707
       }
     ]
+  },
+  "noma_7c_buddha_full": {
+    "id": "noma_7c_buddha_full",
+    "original_filename": "noma_7c_buddha_full.jpg",
+    "source_folder": "photos",
+    "sha256": "74a052812782fcfe47090d7fd843bb2f0e01d6b910d931079fd161f1450d1b71",
+    "width": 960,
+    "height": 1280,
+    "role": "artwork",
+    "is_original": true,
+    "original_url": "https://images.mertonmuseum.com/museum-notes/chola-bronzes/originals/noma_7c_buddha_full.jpg",
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/chola-bronzes/images/noma_7c_buddha_full-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/chola-bronzes/images/noma_7c_buddha_full-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/chola-bronzes/images/noma_7c_buddha_full-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ]
+  },
+  "noma_7c_buddha_label": {
+    "id": "noma_7c_buddha_label",
+    "original_filename": "noma_7c_buddha_label.jpg",
+    "source_folder": "photos",
+    "sha256": "1a4c7c4ff00e99a243484692a1e59fde69becf9010ee329528d4093eb1da7df5",
+    "width": 1280,
+    "height": 1707,
+    "role": "label",
+    "is_original": true,
+    "original_url": "https://images.mertonmuseum.com/museum-notes/chola-bronzes/originals/noma_7c_buddha_label.jpg",
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/chola-bronzes/images/noma_7c_buddha_label-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/chola-bronzes/images/noma_7c_buddha_label-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/chola-bronzes/images/noma_7c_buddha_label-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ]
+  },
+  "noma_three_buddhas_case": {
+    "id": "noma_three_buddhas_case",
+    "original_filename": "noma_three_buddhas_case.jpg",
+    "source_folder": "photos",
+    "sha256": "8d62b21da50d35d63f5d2c9e53867bad21fc5d780fff41297b5dbe86dca47231",
+    "width": 1280,
+    "height": 1707,
+    "role": "gallery",
+    "is_original": true,
+    "original_url": "https://images.mertonmuseum.com/museum-notes/chola-bronzes/originals/noma_three_buddhas_case.jpg",
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/chola-bronzes/images/noma_three_buddhas_case-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/chola-bronzes/images/noma_three_buddhas_case-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/chola-bronzes/images/noma_three_buddhas_case-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ]
+  },
+  "noma_10c_buddha_crop": {
+    "id": "noma_10c_buddha_crop",
+    "original_filename": "noma_10c_buddha_crop.jpg",
+    "source_folder": "derived",
+    "sha256": "8870a8644a2714c7b2a7ef273de40a73bb68be3abc97903ffbdc3ef2d176c4a6",
+    "width": 164,
+    "height": 382,
+    "role": "artwork_crop",
+    "is_original": false,
+    "original_url": "https://images.mertonmuseum.com/museum-notes/chola-bronzes/derived/noma_10c_buddha_crop.jpg",
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/chola-bronzes/images/noma_10c_buddha_crop-164.webp",
+        "width": 164,
+        "height": 382
+      }
+    ],
+    "derived_from": "noma_three_buddhas_case",
+    "display_note": "由展柜合照裁切；点击查看完整原片"
+  },
+  "noma_10c_label_crop": {
+    "id": "noma_10c_label_crop",
+    "original_filename": "noma_10c_label_crop.jpg",
+    "source_folder": "derived",
+    "sha256": "4b6e1a1d1899550fc089c6b67e2a397553a11021b1599e8a397acf9a305c2380",
+    "width": 321,
+    "height": 170,
+    "role": "label_crop",
+    "is_original": false,
+    "original_url": "https://images.mertonmuseum.com/museum-notes/chola-bronzes/derived/noma_10c_label_crop.jpg",
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/chola-bronzes/images/noma_10c_label_crop-321.webp",
+        "width": 321,
+        "height": 170
+      }
+    ],
+    "derived_from": "noma_three_buddhas_case",
+    "display_note": "由展柜合照裁切；点击查看完整原片"
   }
 }

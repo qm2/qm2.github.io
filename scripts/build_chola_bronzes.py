@@ -7,20 +7,20 @@ ROOT=Path(__file__).resolve().parents[1]
 BASE=ROOT/'museum-notes/chola-bronzes'
 URL='/museum-notes/chola-bronzes/'
 TITLE='朱罗青铜造像'
-GROUPS={'core':'朱罗时期','extension':'晚期与延续'}
+GROUPS={'core':'朱罗时期','pre_chola':'前朱罗对照','extension':'晚期与延续'}
 def load(n):return json.loads((BASE/'data'/f'{n}.json').read_text())
 def build():
  works=load('catalogue');by={w['id']:w for w in works};media=load('media');sources=load('sources');museums=load('museums');mb={m['museum_id']:m for m in museums};readings=load('readings');stories=load('stories');chapters=load('chapters');details=load('details')
  revision=hashlib.sha256(b''.join(p.read_bytes() for p in sorted((BASE/'data').glob('*.json')) if p.name!='atlas-index.json')+(BASE/'chola.js').read_bytes()+(BASE/'chola.css').read_bytes()).hexdigest()[:10]
- total=sum(w['object_count'] for w in works)
- count=f'{len(works)}组观看对象 · {total}件造像 · {len(media)}张现场照片'
+ total=sum(w['object_count'] for w in works); photo_total=sum(p.get('is_original',True) for p in media.values())
+ count=f'{len(works)}组观看对象 · {total}件造像 · {photo_total}张现场照片'
  def href(w):return URL+(w if isinstance(w,str) else w['id'])+'/'
  def image(n,alt,eager=False,small=False):
   p=media[str(n)];vs=p['variants'];v=vs[0 if small else min(1,len(vs)-1)]
-  return f'<img src="{v["url"]}" srcset="'+', '.join(f'{v["url"]} {v["width"]}w' for v in vs)+f'" sizes="'+('(max-width:650px) 44vw, 270px' if small else '(max-width:650px) 92vw, 580px')+f'" width="{p["width"]}" height="{p["height"]}" alt="{e(alt)}" loading="'+('eager" fetchpriority="high' if eager else 'lazy')+'" decoding="async">'
+  return (f'<img style="max-width:min(100%, {p["width"]}px)"' if p["width"]<400 else '<img')+f' src="{v["url"]}" srcset="'+', '.join(f'{v["url"]} {v["width"]}w' for v in vs)+f'" sizes="'+('(max-width:650px) 44vw, 270px' if small else '(max-width:650px) 92vw, 580px')+f'" width="{p["width"]}" height="{p["height"]}" alt="{e(alt)}" loading="'+('eager" fetchpriority="high' if eager else 'lazy')+'" decoding="async">'
  def fig(w,n=None,cap=None,eager=False):
-  n=n or w['photo'];p=media[str(n)];cap=cap or w['title']+' · '+w['date'];txt=cap+'｜Merton摄于'+mb[w['viewing_museum_id']]['label_zh'];full=p['variants'][-1]['url'] if p.get('rotation') else p['original_url']
-  return f'<figure class="cb-figure"><a data-photo href="{full}" data-caption="{e(txt)}">{image(n,txt,eager)}</a><figcaption>{e(txt)}'+(f' · <a href="{p["original_url"]}">原始文件</a>' if p.get('rotation') else '')+'</figcaption></figure>'
+  n=n or w['photo'];p=media[str(n)];cap=cap or w['title']+' · '+w['date'];txt=cap+(' · '+p['display_note'] if p.get('display_note') else '')+'｜Merton摄于'+mb[w['viewing_museum_id']]['label_zh'];full=media[p['derived_from']]['original_url'] if p.get('derived_from') else p['variants'][-1]['url'] if p.get('rotation') else p['original_url']
+  return f'<figure class="cb-figure" style="max-width:min(100%, {p["width"]}px)"><a data-photo href="{full}" data-caption="{e(txt)}">{image(n,txt,eager)}</a><figcaption>{e(txt)}'+(f' · <a href="{p["original_url"]}">原始文件</a>' if p.get('rotation') else '')+'</figcaption></figure>'
  def detail_fig(d):
   v=d['variants'];cap=d['caption']+' · 原片局部，Merton摄';full=media[str(d['photo'])]['original_url']
   return f'<figure class="cb-detail"><a data-photo href="{v[-1]["url"]}" data-caption="{e(cap)}"><img src="{v[0]["url"]}" srcset="'+', '.join(f'{i["url"]} {i["width"]}w' for i in v)+f'" sizes="(max-width:650px) 88vw, 350px" width="{d["width"]}" height="{d["height"]}" loading="lazy" alt="{e(cap)}"></a><figcaption>{e(cap)} <a data-photo href="{full}" data-caption="完整原片">查看完整原片</a></figcaption></figure>'
@@ -46,7 +46,7 @@ def build():
  b+=f'<section class="cb-section" id="map"><div class="cb-section-heading"><div><p class="eyebrow">WHERE I SAW THEM</p><h2>在{len(museums)}家博物馆相遇</h2></div><a href="atlas/">完整图录与筛选 →</a></div>'+mapbox()+museum_buttons+'</section>'
  b+='<section class="cb-section" id="chapters"><p class="eyebrow">SIX WAYS OF LOOKING</p><h2>从一个姿态，走进一个故事</h2><nav class="cb-localnav">'+''.join(f'<a href="#{c["id"]}">{e(c["title"])}</a>' for c in chapters)+'</nav>'
  for i,ch in enumerate(chapters):
-  w=by[ch['cover']];b+=f'<article class="cb-chapter" id="{ch["id"]}"><div class="cb-feature">'+fig(w)+f'<div class="cb-prose"><p class="eyebrow">0{i+1}</p><h2>{e(ch["title"])}</h2><p>{e(ch["text"])}</p><p><a href="{href(w)}">细看：{e(w["title"])} →</a></p></div></div>'+grid([k for k in ch['works'] if k!=ch['cover']])+'</article>'
+  w=by[ch['cover']];b+=f'<article class="cb-chapter" id="{ch["id"]}"><div class="cb-feature">'+fig(w)+f'<div class="cb-prose"><p class="eyebrow">0{i+1}</p><h2>{e(ch["title"])}</h2><p>{e(ch["text"])}</p><p><a href="{href(w)}">细看：{e(w["title"])} →</a></p></div></div>'+grid([k for k in ch['works'] if k!=ch['cover']])+(f'<p><a href="{ch["background_link"]}">{e(ch["background_label"])}</a></p>' if ch.get('background_link') else '')+'</article>'
  b+='</section><section class="cb-section cb-paths"><div><h2>铜像怎样走出神庙</h2><p>王朝、诗人、工匠与供养者：把身体放回它曾经生活的世界。</p><a href="guide/">历史与观看 →</a></div><div><h2>换一件，继续看</h2><p>看两位音乐家失去的琴，三位圣童指向神的手，以及不同舞王的平衡。</p><a href="compare/">六组并看 →</a></div></section>'
  write('',TITLE,b)
  for i,w in enumerate(works):
@@ -61,6 +61,7 @@ def build():
   linked=[s for s in stories if w['id'] in s['works']]
   if linked:b+='<aside class="cb-prose cb-story-links"><p>认识这个故事：'+' · '.join(f'<a href="{URL}stories/#{s["id"]}">{e(s["title"])}</a>' for s in linked)+'</p></aside>'
   fields=[('年代',w['date']),('地域',w['region']),('材料',w['medium']),('收藏／借出',w['collection']),('馆藏号',w.get('accession') or '展签未列'),('亲见地点',mb[w['viewing_museum_id']]['label_zh'])]
+  if w.get('credit'):fields.append(('入藏／借展',w['credit']))
   if w.get('dimensions'):fields.append(('尺寸',w['dimensions']))
   if w.get('viewing_context'):fields.append(('观看场合',w['viewing_context']))
   if w['object_count']>1:fields.append(('组合',f'{w["object_count"]}件单体，作为一组观看记录'))
@@ -69,8 +70,9 @@ def build():
   for n in w.get('provenance_photos',[]):b+=fig(w,n,'馆方归还与借展说明')
   b+='</details>'
   extras=[n for n in w['photos'] if n not in [w['photo'],w['label'],3387 if w['id']=='c20' else -1,3380 if w['id']=='c33' else -1]+w.get('provenance_photos',[])]
-  if extras:b+='<details class="cb-notes"><summary>其余现场照片 · '+str(len(extras))+'张</summary>'+''.join(fig(w,n,{3324:'另一张完整舞姿',3326:'展厅中的大型舞王',3352:'两尊立像上身 · 另一现场视角'}.get(n,'现场补充视角')) for n in extras)+'</details>'
+  if extras:b+='<details class="cb-notes"><summary>其余现场照片 · '+str(len(extras))+'张</summary>'+''.join(fig(w,n,{3324:'另一张完整舞姿',3326:'展厅中的大型舞王',3352:'两尊立像上身 · 另一现场视角'}.get(n,w.get('photo_captions',{}).get(str(n),'现场补充视角'))) for n in extras)+'</details>'
   b+=refs(w['source_ids']+re.findall(r'\[\[([A-Z0-9-]+)\]\]',json.dumps(r,ensure_ascii=False)))
+  b+=('<p class="cb-prose"><a href="'+URL+'guide/#buddhist-port">海港里的佛陀：南印度佛教背景</a></p>' if w['religion']=='佛教' else '')
   b+='<nav class="cb-localnav"><a href="'+URL+'guide/#timeline">年代与作品</a><a href="'+URL+'guide/#processions">神像与巡游</a><a href="'+URL+'atlas/?museum='+w['viewing_museum_id']+'#catalogue">回到观看馆</a></nav><section class="cb-section"><h2>放在一起看</h2>'+grid(r['related'])+'</section><nav class="cb-sequence" aria-label="前后作品">'
   if i:b+=f'<a href="{href(works[i-1])}">← {e(works[i-1]["title"])}</a>'
   b+='<a href="'+URL+'atlas/">完整图录</a>'
@@ -83,13 +85,14 @@ def build():
  b=heading('历史与观看','从南印度的神庙，到眼前的一次相遇')+'<nav class="cb-localnav"><a href="#timeline">沿年代重看</a>'+''.join(f'<a href="#{h["id"]}">{e(h["title"])}</a>' for h in load('history'))+'</nav>'
  for h in load('history'):
   b+=f'<section class="cb-section" id="{h["id"]}"><div class="cb-feature">'+fig(by[h['work']])+'<div class="cb-prose"><h2>'+e(h['title'])+'</h2>'+''.join('<p>'+inline(p)+'</p>' for p in h['paragraphs'])+'<p><a href="'+href(h['work'])+'">回到这件作品 →</a></p></div></div></section>'
- periods=[('10世纪','c10'),('11世纪','c11'),('12世纪','c12'),('13世纪','c13'),('晚期与延续','later'),('宽年代范围','broad')]
+ periods=[('7世纪 · 前史','early'),('10世纪','c10'),('11世纪','c11'),('12世纪','c12'),('13世纪','c13'),('晚期与延续','later'),('宽年代范围','broad')]
  def period(w):
+  if w['group']=='pre_chola':return 'early'
   if w['group']=='extension':return 'later'
   if w['date_precision']=='broad_period':return 'broad'
   mid=(w['date_start']+w['date_end'])/2
   return 'c10' if mid<1000 else 'c11' if mid<1100 else 'c12' if mid<1200 else 'c13'
- b+='<section class="cb-section" id="timeline"><h2>沿年代重看</h2><p class="cb-prose">按馆方年代范围的中点安排位置，原有约年与范围仍显示在卡片上；宽断代及晚期延续另列。向下阅读时，切换控件会留在上方。</p><nav class="cb-time-navigation" hidden aria-label="切换时间线年代"><button type="button" id="cb-time-prev" aria-controls="cb-time-track">← 前一段</button><label for="cb-time-period" class="cb-time-label">跳至时期</label><select id="cb-time-period" aria-controls="cb-time-track" aria-label="跳至时期"><option value="">选择时期</option>'+''.join(f'<option value="{j}">{name}</option>' for j,(name,_) in enumerate(periods))+'</select><button type="button" id="cb-time-next" aria-controls="cb-time-track">后一段 →</button></nav><div class="cb-timeline" id="cb-time-track" tabindex="0" aria-label="横向年代图录">'
+ b+='<section class="cb-section" id="timeline"><h2>沿年代重看</h2><p class="cb-prose">按馆方年代范围的中点安排位置，原有约年与范围仍显示在卡片上；前史、宽断代及晚期延续另列。向下阅读时，切换控件会留在上方。</p><nav class="cb-time-navigation" hidden aria-label="切换时间线年代"><button type="button" id="cb-time-prev" aria-controls="cb-time-track">← 前一段</button><label for="cb-time-period" class="cb-time-label">跳至时期</label><select id="cb-time-period" aria-controls="cb-time-track" aria-label="跳至时期"><option value="">选择时期</option>'+''.join(f'<option value="{j}">{name}</option>' for j,(name,_) in enumerate(periods))+'</select><button type="button" id="cb-time-next" aria-controls="cb-time-track">后一段 →</button></nav><div class="cb-timeline" id="cb-time-track" tabindex="0" aria-label="横向年代图录">'
  for name,key in periods:b+='<section class="cb-century"><h3>'+name+'</h3>'+''.join(grid([w['id']]) for w in sorted(works,key=lambda w:w['date_start']) if period(w)==key)+'</section>'
  b+='</div></section><section class="cb-section cb-prose"><h2>下次看展，可以先问四件事</h2><p>它在做什么动作？手里原本拿着什么？谁站在它旁边？台座怎样让它固定或移动？拍完整身体、侧面与背面，再拍最喜欢的局部和完整展签，下一次就能从这些线索继续读。</p><a href="../atlas/">带着问题回到图录 →</a></section>'
  write('guide','历史与观看',b,3379)
@@ -98,8 +101,8 @@ def build():
   b+=f'<section class="cb-section" id="{p["id"]}"><h2>{e(p["title"])}</h2><p class="cb-prose">{e(p["text"])}</p><div class="cb-comparison">'+''.join('<div>'+fig(by[k])+'<p><a href="'+href(k)+'">'+e(by[k]['title'])+' · 进入细读</a></p></div>' for k in p['works'])+'</div></section>'
  write('compare','放在一起看',b,3364)
  b=heading('所见地图与完整图录',count)+f'<p class="cb-prose">作品分布在{len(museums)}家亲见博物馆。两组各含两尊，因此观看组数与单体数分别统计；休斯顿的罗摩、华盛顿归还后借展的舞王，以及私人借展作品，都另列收藏关系。</p>'
- b+='<form id="cb-filters" class="cb-filters" hidden><label>名称、神祇、馆藏号<input id="cb-search" type="search" placeholder="例如：湿婆、Sambandar、1961.94"></label><label>观看馆<select id="cb-museum"><option value="">全部博物馆</option>'+''.join(f'<option value="{m["museum_id"]}">{e(m["label_zh"])}</option>' for m in museums)+'</select></label><label>信仰<select id="cb-religion"><option value="">全部</option><option>印度教</option><option>耆那教</option></select></label><label>范围<select id="cb-group"><option value="">全部作品</option>'+''.join(f'<option value="{k}">{v}</option>' for k,v in GROUPS.items())+'</select></label><label>排列<select id="cb-sort"><option value="catalogue">图录顺序</option><option value="date">年代由早至晚</option><option value="museum">观看博物馆</option></select></label><button type="reset">清除条件</button></form><p id="cb-result-count" aria-live="polite">全部'+str(len(works))+'组</p><section id="map" class="cb-section"><h2>博物馆分布</h2>'+mapbox()+museum_buttons+'</section><section id="catalogue" class="cb-section"><h2>完整图录</h2><p id="cb-empty" hidden>没有符合条件的作品，可以减少条件或清除筛选。</p><div class="cb-grid cb-catalogue">'
- for w in works:b+=f'<article id="{w["id"]}" data-record-id="{w["id"]}">'+card(w)+f'<p class="cb-caption">{e(GROUPS[w["group"]])} · {e(w["religion"])} · {len(w["photos"])}张照片'+(' · 2件组合' if w['object_count']==2 else '')+'</p></article>'
+ b+='<form id="cb-filters" class="cb-filters" hidden><label>名称、神祇、馆藏号<input id="cb-search" type="search" placeholder="例如：湿婆、Sambandar、1961.94"></label><label>观看馆<select id="cb-museum"><option value="">全部博物馆</option>'+''.join(f'<option value="{m["museum_id"]}">{e(m["label_zh"])}</option>' for m in museums)+'</select></label><label>信仰<select id="cb-religion"><option value="">全部</option><option>印度教</option><option>耆那教</option><option>佛教</option></select></label><label>范围<select id="cb-group"><option value="">全部作品</option>'+''.join(f'<option value="{k}">{v}</option>' for k,v in GROUPS.items())+'</select></label><label>排列<select id="cb-sort"><option value="catalogue">图录顺序</option><option value="date">年代由早至晚</option><option value="museum">观看博物馆</option></select></label><button type="reset">清除条件</button></form><p id="cb-result-count" aria-live="polite">全部'+str(len(works))+'组</p><section id="map" class="cb-section"><h2>博物馆分布</h2>'+mapbox()+museum_buttons+'</section><section id="catalogue" class="cb-section"><h2>完整图录</h2><p id="cb-empty" hidden>没有符合条件的作品，可以减少条件或清除筛选。</p><div class="cb-grid cb-catalogue">'
+ for w in works:b+=f'<article id="{w["id"]}" data-record-id="{w["id"]}">'+card(w)+f'<p class="cb-caption">{e(GROUPS[w["group"]])} · {e(w["religion"])} · {sum(media[str(n)].get("is_original",True) for n in w["photos"])}张原片'+(' · 2件组合' if w['object_count']==2 else '')+'</p></article>'
  write('atlas','所见地图与完整图录',b+'</div></section>')
  public=[{k:w.get(k) for k in ['id','title','title_en','date','date_start','date_end','medium','collection','viewing_museum_id','accession','group','religion','object_count']}|{'url':href(w),'image':media[str(w['photo'])]['variants'][0]['url'],'width':media[str(w['photo'])]['width'],'height':media[str(w['photo'])]['height'],'search':' '.join(str(w.get(k) or '') for k in ['title','title_en','date','region','medium','collection','accession'])+' '+mb[w['viewing_museum_id']]['label_zh']} for w in works]
  (BASE/'data/atlas-index.json').write_text(json.dumps(public,ensure_ascii=False,indent=2)+'\n')
@@ -112,5 +115,5 @@ def build():
  assert '</section></main>' in s;s=s.replace('</section></main>','<!-- chola-bronzes -->'+entry+'<!-- /chola-bronzes --></section></main>');p.write_text(s)
  p=ROOT/'museum-notes/index.html';s=p.read_text();s=re.sub(r'<!-- chola-bronzes-home -->.*?<!-- /chola-bronzes-home -->','',s,flags=re.S);assert '<!-- /pala-stone-home -->' in s
  s=s.replace('<!-- /pala-stone-home -->','<!-- /pala-stone-home --><!-- chola-bronzes-home --><p class="featured-note"><a href="chola-bronzes/">新辑：朱罗青铜造像｜神的舞步，人的赞歌</a></p><!-- /chola-bronzes-home -->');p.write_text(s)
- print(f'Chola bronzes: {len(works)} groups / {total} objects / {len(media)} photos / {len(museums)} viewing museums; 42 pages.')
+ print(f'Chola bronzes: {len(works)} groups / {total} objects / {photo_total} photos / {len(museums)} viewing museums; {len(works)+6} pages.')
 if __name__=='__main__':build()

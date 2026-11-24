@@ -5,7 +5,7 @@ import hashlib,json,shutil,sys
 from concurrent.futures import ThreadPoolExecutor
 BASE=Path(__file__).resolve().parents[1]/'museum-notes/chola-bronzes'
 def prepare(pack,out):
- out.mkdir(exist_ok=True,parents=True);media={};manifest=[]
+ out.mkdir(exist_ok=True,parents=True);media=json.loads((BASE/'data/media.json').read_text()) if (BASE/'data/media.json').exists() else {};manifest=[]
  labels={w['label'] for w in json.loads((BASE/'data/catalogue.json').read_text())}|{3372}
  paths=sorted(p for p in pack.rglob('*.jpg') if p.name.startswith('Image_'))
  assert len(paths)==78

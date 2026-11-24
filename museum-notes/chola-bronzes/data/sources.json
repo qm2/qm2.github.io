@@ -432,5 +432,33 @@
     "used_for": "铜像的成组关系、供养者与巡游传统；本件年代仍采用各馆更新后的记录。",
     "read_status": "已阅读公开正文；未将文后所列图书视为已读。",
     "checked_on": "2026-11-23"
+  },
+  "L37": {
+    "title": "新奥尔良美术馆 · 佛立像2021.98现场展签",
+    "photo": "noma_10c_label_crop",
+    "read_status": "已查看作者提供的展签与完整陈列照片；未取得独立在线对象记录。",
+    "used_for": "题名、年代、材质、地域及收藏／借展关系。",
+    "checked_on": "2026-11-23"
+  },
+  "L38": {
+    "title": "新奥尔良美术馆 · 7世纪释迦牟尼佛借展展签",
+    "photo": "noma_7c_buddha_label",
+    "read_status": "已查看作者提供的展签与完整陈列照片；未取得独立在线对象记录。",
+    "used_for": "题名、年代、材质、地域及收藏／借展关系。",
+    "checked_on": "2026-11-23"
+  },
+  "TAMIL-BUDDHISM": {
+    "title": "K. Mavali Rajan、Palas Kumar Saha，Early Buddhist Sites in the East Coast of Tamil Nadu，Heritage 8.2（2020），175—192页",
+    "url": "https://heritageuniversityofkerala.com/JournalPDF/Volume8.2/9.pdf",
+    "read_status": "阅读公开PDF中纳加帕蒂南部分（180—183页）；文中引用的铜板铭文与旧著录未另行逐篇核读。",
+    "used_for": "海港、室利佛逝相关供养、朱陀摩尼寺与村庄收入支持。作为区域历史背景，不是本件出土或寺院归属证据。",
+    "checked_on": "2026-11-23"
+  },
+  "CHENNAI-BUDDHISM": {
+    "title": "金奈政府博物馆 · Buddhist Bronzes（第3页）",
+    "url": "https://www.chennaimuseum.org/draft/gallery/01/05/051/budd3.htm",
+    "read_status": "已阅读公开对象说明，重点为纳加帕蒂南弥勒像的底座固定孔与巡游解释。",
+    "used_for": "其他佛教铜像的礼仪用途；不将其尺寸、发现记录或巡游用途移用于NOMA佛立像。",
+    "checked_on": "2026-11-23"
   }
 }
