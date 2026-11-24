@@ -19,7 +19,7 @@ def build():
   p=media[str(n)];vs=p['variants'];v=vs[0 if small else min(1,len(vs)-1)]
   return (f'<img style="max-width:min(100%, {p["width"]}px)"' if p["width"]<400 else '<img')+f' src="{v["url"]}" srcset="'+', '.join(f'{v["url"]} {v["width"]}w' for v in vs)+f'" sizes="'+('(max-width:650px) 44vw, 270px' if small else '(max-width:650px) 92vw, 580px')+f'" width="{p["width"]}" height="{p["height"]}" alt="{e(alt)}" loading="'+('eager" fetchpriority="high' if eager else 'lazy')+'" decoding="async">'
  def fig(w,n=None,cap=None,eager=False):
-  n=n or w['photo'];p=media[str(n)];cap=cap or w['title']+' · '+w['date'];txt=cap+(' · '+p['display_note'] if p.get('display_note') else '')+'｜Merton摄于'+mb[w['viewing_museum_id']]['label_zh'];full=media[p['derived_from']]['original_url'] if p.get('derived_from') else p['variants'][-1]['url'] if p.get('rotation') else p['original_url']
+  n=n or w['photo'];p=media[str(n)];cap=cap or w['title']+' · '+w['date']+(' · 双尊正面合影' if w['id']=='c20' and n==3352 else '');txt=cap+(' · '+p['display_note'] if p.get('display_note') else '')+'｜Merton摄于'+mb[w['viewing_museum_id']]['label_zh'];full=media[p['derived_from']]['original_url'] if p.get('derived_from') else p['variants'][-1]['url'] if p.get('rotation') else p['original_url']
   return f'<figure class="cb-figure{" cb-small-original" if p["width"]<400 else ""}"><a data-photo href="{full}" data-caption="{e(txt)}">{image(n,txt,eager)}</a><figcaption>{e(txt)}'+(f' · <a href="{p["original_url"]}">原始文件</a>' if p.get('rotation') else '')+'</figcaption></figure>'
  def detail_fig(d):
   v=d['variants'];cap=d['caption']+' · 原片局部，Merton摄';full=media[str(d['photo'])]['original_url']
@@ -55,7 +55,7 @@ def build():
    svg+=f'<a href="#place-{p["id"]}" aria-label="{i} {e(p["title"])}"><title>{e(p["title"])} · {e(p["name_en"])}</title><circle cx="{x+dx:.1f}" cy="{y+dy:.1f}" r="17"/><text x="{x+dx:.1f}" y="{y+dy+6:.1f}" class="cb-map-number">{i}</text></a>'
   return '<section class="cb-section" id="tamil-map"><p class="eyebrow">THE KAVERI DELTA</p><h2>从河谷到海港</h2><p class="cb-prose">这张地图定位历史背景中的寺城、海港与工艺中心。编号可打开地点说明及相关作品；美国博物馆地图仍记录我实际观看的地方。</p><div class="cb-history-map">'+svg+'</svg></div><p class="cb-caption">现代河道与海岸：Natural Earth，公有领域；城镇：GeoNames，CC BY 4.0；三座世界遗产神庙：UNESCO。现代河道只作地理参照，不复原朱罗时代水系或疆域。<a href="'+URL+'sources/#GEONAMES">数据说明</a></p><div class="cb-place-index">'+''.join(f'<a href="#place-{p["id"]}">{i}. {e(p["title"])}</a>' for i,p in enumerate(load('places'),1))+'</div>'+''.join(f'<details class="cb-notes cb-place" id="place-{p["id"]}"><summary>{i}. {e(p["title"])}'+(' · '+e(p['name_en']) if p['name_en']!=p['title'] else '')+'</summary><p>'+inline(p['text'])+'</p><p class="cb-caption">'+e(p['coordinate_note'])+'</p><p class="cb-caption">回到亲见作品：</p>'+grid(p['works'])+'</details>' for i,p in enumerate(load('places'),1))+'</section>'
  museum_buttons='<div class="cb-museum-buttons">'+''.join(f'<a href="{URL}atlas/?museum={m["museum_id"]}#catalogue">{e(m["city"])} · {sum(w["viewing_museum_id"]==m["museum_id"] for w in works)}组</a>' for m in museums)+'</div>'
- b='<section class="cb-hero"><div>'+heading(TITLE,'神的舞步，人的赞歌')+'<div class="cb-prose"><p>抬起的一只脚，指向天空的手，举到嘴边的手指。这些铜像在不同的博物馆里与我相遇，也把观看带向南印度的神庙、史诗和歌声。</p><p>湿婆可以狂舞，也可以弹琴；英雄能够搬山，也会低下头。沿着身体与动作慢慢看，陌生的神名便有了可以记住的性格。</p></div><p class="cb-caption">'+count+'</p><nav class="cb-localnav"><a href="#chapters">六条阅读线索</a><a href="guide/#timeline">沿年代重看</a></nav></div>'+fig(by['c20'],eager=True)+'</section>'
+ b='<section class="cb-hero"><div>'+heading(TITLE,'神的舞步，人的赞歌')+'<div class="cb-prose"><p>抬起的一只脚，指向天空的手，举到嘴边的手指。这些铜像在不同的博物馆里与我相遇，也把观看带向南印度的神庙、史诗和歌声。</p><p>湿婆可以狂舞，也可以弹琴；英雄能够搬山，也会低下头。沿着身体与动作慢慢看，陌生的神名便有了可以记住的性格。</p></div><p class="cb-caption">'+count+'</p><nav class="cb-localnav"><a href="#chapters">六条阅读线索</a><a href="guide/#timeline">沿年代重看</a></nav></div>'+fig(by['c29'],eager=True)+'</section>'
  b+='<section class="cb-section"><p class="eyebrow">FIVE PLACES TO BEGIN</p><h2>先停在这五件</h2><p class="cb-prose">从两尊相伴的身体，到一个低首的英雄；从女神的可能身份，到神像的归还。每一件，都有不止一个值得靠近的地方。</p><div class="cb-picks">'+''.join(card(by[k]) for k in ['c20','c27','c10','c23','c29'])+'</div></section>'
  b+='<nav class="cb-reading-paths" aria-label="专题深读">'+''.join('<a href="'+a['slug']+'/"><span>专题深读</span>'+e(a['title'])+' →</a>' for a in load('essays'))+'</nav>'
  b+=f'<section class="cb-section" id="map"><div class="cb-section-heading"><div><p class="eyebrow">WHERE I SAW THEM</p><h2>在{len(museums)}家博物馆相遇</h2></div><a href="atlas/">完整图录与筛选 →</a></div>'+mapbox()+museum_buttons+'</section>'
@@ -69,7 +69,7 @@ def build():
    continue
   w=by[ch['cover']];b+=f'<article class="cb-chapter" id="{ch["id"]}"><div class="cb-feature">'+fig(w)+f'<div class="cb-prose"><p class="eyebrow">0{i+1}</p><h2>{e(ch["title"])}</h2><p>{e(ch["text"])}</p><p><a href="{href(w)}">细看：{e(w["title"])} →</a></p></div></div>'+grid([k for k in ch['works'] if k!=ch['cover']])+(f'<p><a href="{ch["background_link"]}">{e(ch["background_label"])}</a></p>' if ch.get('background_link') else '')+'</article>'
  b+='</section><section class="cb-section cb-paths"><div><h2>铜像怎样走出神庙</h2><p>王朝、诗人、工匠与供养者：把身体放回它曾经生活的世界。</p><a href="guide/">历史与观看 →</a></div><div><h2>换一件，继续看</h2><p>看两位音乐家失去的琴，三位圣童指向神的手，以及不同舞王的平衡。</p><a href="compare/">八组并看 →</a></div></section>'
- write('',TITLE,b,3386)
+ write('',TITLE,b,by['c29']['photo'])
  for i,w in enumerate(works):
   r=readings[w['id']];b=heading(w['title'],w['title_en'])+f'<p class="cb-meta">{e(w["date"])} · {e(w["region"])}</p><div class="cb-full">'+fig(w,eager=True)+'</div><article class="cb-prose"><p class="cb-lead">'+inline(r['lead'])+'</p>'
   for si,sec in enumerate(r['sections']):
@@ -91,7 +91,7 @@ def build():
   for n in w.get('provenance_photos',[]):b+=fig(w,n,'馆方归还与借展说明')
   b+='</details>'
   extras=[n for n in w['photos'] if n not in [w['photo'],w['label'],3387 if w['id']=='c20' else -1,3380 if w['id']=='c33' else -1]+w.get('provenance_photos',[])]
-  if extras:b+='<details class="cb-notes"><summary>其余现场照片 · '+str(len(extras))+'张</summary>'+''.join(fig(w,n,{3324:'另一张完整舞姿',3326:'展厅中的大型舞王',3352:'两尊立像上身 · 另一现场视角'}.get(n,w.get('photo_captions',{}).get(str(n),'现场补充视角'))) for n in extras)+'</details>'
+  if extras:b+='<details class="cb-notes"><summary>其余现场照片 · '+str(len(extras))+'张</summary>'+''.join(fig(w,n,{3324:'另一张完整舞姿',3326:'展厅中的大型舞王',3386:'两尊立像全身与台座 · 侧前方视角'}.get(n,w.get('photo_captions',{}).get(str(n),'现场补充视角'))) for n in extras)+'</details>'
   if w.get('backgrounds'):b+='<nav class="cb-localnav" aria-label="相关背景">'+''.join('<a href="'+URL+x['href']+'">'+e(x['title'])+' →</a>' for x in w['backgrounds'])+'</nav>'
   b+=refs(w['source_ids']+re.findall(r'\[\[([A-Z0-9-]+)\]\]',json.dumps(r,ensure_ascii=False)))
   b+=('<p class="cb-prose"><a href="'+URL+'guide/#buddhist-port">海港里的佛陀：南印度佛教背景</a></p>' if w['religion']=='佛教' else '')

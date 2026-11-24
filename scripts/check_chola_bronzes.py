@@ -22,7 +22,7 @@ for k,m in media.items():
 assert set(media)=={str(x) for x in counts};assert len(ms)==12
 assert by['c02']['viewing_museum_id']=='mfah' and by['c02']['collection']=='费城艺术博物馆'
 assert by['c04']['accession']=='62.265' and by['c17']['accession']=='1969.117'
-assert by['c20']['photos']==[3352,3353,3386,3387] and by['c20']['photo']==3386
+assert by['c20']['photos']==[3352,3353,3386,3387] and by['c20']['photo']==3352
 assert by['c29']['ownership_status']=='returned_to_india_on_loan'
 assert by['c24']['group']==by['c35']['group']=='extension'
 assert not any(w['visit_date'] for w in ws)
