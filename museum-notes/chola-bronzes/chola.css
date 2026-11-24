@@ -15,3 +15,23 @@
 .cb-picks{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:22px;margin-top:30px}.cb-picks .cb-card h3{font-size:18px}.cb-picks .cb-card img{background:transparent}.cb-comparison{align-items:start}.cb-prose>.cb-figure{margin-top:30px;margin-bottom:35px}.cb-notes>.cb-figure{margin-bottom:25px}
 @media(max-width:950px){.cb-picks{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:650px){.cb-picks{grid-template-columns:repeat(2,minmax(0,1fr));gap:25px 16px}.cb-picks .cb-card h3{font-size:17px}}
+
+/* Shared artwork frames keep small originals honest and captions in the flow. */
+.cb-image-frame{display:flex;align-items:center;justify-content:center;aspect-ratio:3/4;background:#ece8df;width:100%;overflow:hidden}
+.cb-card .cb-image-frame img{display:block;width:auto;height:auto;max-height:100%;max-width:100%;aspect-ratio:auto;object-fit:contain;object-position:center}
+.cb-small-original>a{display:flex;justify-content:center;align-items:center;min-height:420px;background:#ece8df;padding:18px}
+.cb-small-original img{width:auto;max-height:100%;object-fit:contain}
+.cb-small-original{width:min(100%,400px)}
+.cb-faith-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:48px;margin:36px 0}
+.cb-faith-pair>section{min-width:0}.cb-faith-image{height:505px;display:flex;align-items:start;justify-content:center}
+.cb-faith-image .cb-figure{width:100%;max-width:none}.cb-faith-image .cb-figure>a{height:435px;min-height:0;padding:20px;background:#ece8df;display:flex;align-items:center;justify-content:center}
+.cb-faith-image img{height:auto;width:auto;max-height:395px;max-width:100%;object-fit:contain}
+.cb-faith-pair h3,.cb-boundary h3{font:26px/1.5 var(--serif);font-weight:500;margin:0 0 10px}.cb-faith-pair p{font:16px/1.95 var(--serif)}.cb-faith-pair .cb-meta{font:12px/1.8 var(--sans)}.cb-faith-pair a{font-size:14px}
+.cb-boundary{border-top:1px solid var(--line);padding-top:30px}.cb-boundary .cb-grid{grid-template-columns:repeat(3,minmax(0,1fr));max-width:840px;margin:auto}.cb-boundary .cb-prose{margin-left:0}
+.cb-reading-paths{display:flex;gap:22px;border-top:1px solid var(--line);padding:24px 0 30px}.cb-reading-paths>a{flex:1;font:19px/1.8 var(--serif)}.cb-reading-paths span{display:block;font:10px/1.8 var(--sans);color:var(--muted);margin-bottom:6px}
+.cb-poem{margin:30px 0;padding:18px 24px;border-left:2px solid #aa9274;background:transparent}.cb-poem footer{font:12px/1.9 var(--sans);color:var(--muted)}.cb-poem [lang=ta]{font:19px/2 sans-serif}.cb-essay-works .cb-grid{grid-template-columns:repeat(2,minmax(0,1fr));max-width:550px}.cb-century .cb-image-frame{height:210px;aspect-ratio:auto}.cb-century .cb-card img{height:auto;max-height:200px}.cb-event{font:13px/1.9 var(--serif);padding:13px 0;border-bottom:1px solid var(--line)}
+@media(max-width:650px){.cb-faith-pair{grid-template-columns:1fr;gap:38px}.cb-faith-image{height:auto;margin-bottom:22px}.cb-faith-image .cb-figure>a{height:420px}.cb-faith-image img{max-height:380px}.cb-boundary .cb-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.cb-reading-paths{flex-direction:column;gap:16px}.cb-reading-paths>a{font-size:18px}.cb-reading-paths span{display:inline;margin-right:12px}.cb-small-original>a{min-height:410px}.cb-poem{padding:10px 15px}.cb-comparison:has(>div:nth-child(4)){grid-template-columns:1fr}}
+
+.cb-coast{fill:none;stroke:#a9ad9c;stroke-width:2}.cb-place-index{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px 24px;font:14px/1.8 var(--serif);margin:25px 0}.cb-place-index a{padding:6px 0}.cb-history-map .cb-map-number{pointer-events:none}.cb-place summary{overflow-wrap:anywhere}@media(max-width:650px){.cb-place-index{grid-template-columns:1fr 1fr;font-size:13px}.cb-history-map svg{min-width:0}.cb-history-map circle{r:23px}.cb-history-map .cb-map-number{font-size:26px}.cb-history-map .cb-region-label,.cb-history-map .cb-river-label{font-size:22px}}
+
+@media(max-width:650px){.cb-place-index a{min-height:44px;display:flex;align-items:center}.cb-history-map .cb-region-label,.cb-history-map .cb-river-label{font-size:27px}}

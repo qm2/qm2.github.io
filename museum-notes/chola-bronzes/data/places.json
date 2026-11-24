@@ -1,0 +1,128 @@
+[
+  {
+    "id": "thanjavur",
+    "title": "坦贾武尔",
+    "name_en": "Thanjavur",
+    "lat": 10.783861,
+    "lon": 79.131583,
+    "coordinate_note": "UNESCO世界遗产神庙坐标",
+    "text": "1010年完成的布里哈迪斯瓦拉神庙，由拉贾拉贾一世营建。墙上的供养铭文把铜像、珠宝与维持礼仪的资源联系起来。[[UNESCO]][[TEACHER]]",
+    "works": [
+      "c27",
+      "c20"
+    ]
+  },
+  {
+    "id": "gangaikondacholapuram",
+    "title": "康凯康达秋里斯瓦拉姆",
+    "name_en": "Gangaikondacholapuram",
+    "lat": 11.206361,
+    "lon": 79.449139,
+    "coordinate_note": "UNESCO世界遗产神庙坐标",
+    "text": "拉金德拉一世的新都与大神庙。UNESCO将神庙完成时间记为1035年；与坦贾武尔并看，可以理解11世纪王权与宗教营造的规模。[[UNESCO]]",
+    "works": [
+      "c03"
+    ]
+  },
+  {
+    "id": "darasuram",
+    "title": "达拉苏拉姆",
+    "name_en": "Darasuram",
+    "lat": 10.948333,
+    "lon": 79.356944,
+    "coordinate_note": "UNESCO世界遗产神庙坐标",
+    "text": "12世纪拉贾拉贾二世营建的艾拉瓦德斯瓦拉神庙。朱罗的历史不止是10—11世纪的高峰，后来的建筑、铜像和礼拜仍在发展。[[UNESCO]]",
+    "works": [
+      "c22"
+    ]
+  },
+  {
+    "id": "chidambaram",
+    "title": "奇丹巴拉姆",
+    "name_en": "Chidambaram",
+    "lat": 11.39933,
+    "lon": 79.69144,
+    "coordinate_note": "GeoNames 1274256，城镇中心",
+    "text": "舞王礼拜的重要中心。湿婆的欢喜之舞与这里的寺庙传统紧密相连；本站舞王像可作图像参照，不据此归入这座寺庙。[[FIVE-ACTS]]",
+    "works": [
+      "c03",
+      "c29"
+    ]
+  },
+  {
+    "id": "nagapattinam",
+    "title": "纳加帕蒂南",
+    "name_en": "Nagapattinam",
+    "lat": 10.76377,
+    "lon": 79.84313,
+    "coordinate_note": "GeoNames 1262260，城镇中心",
+    "text": "印度洋海路上的佛教中心。朱陀摩尼寺与室利佛逝王室、朱罗国王供养有关；NOMA的10世纪佛立像展签明确联系这一地区。[[TAMIL-BUDDHISM]][[L37]]",
+    "works": [
+      "c37",
+      "c38"
+    ]
+  },
+  {
+    "id": "karaikal",
+    "title": "卡赖卡尔",
+    "name_en": "Karaikal",
+    "lat": 10.91667,
+    "lon": 79.83333,
+    "coordinate_note": "GeoNames 1267887，城镇中心",
+    "text": "女诗人卡赖卡尔母亲的名字，保留着海港的地名。圣传从这里的家庭生活讲起，她的诗则把读者带向湿婆起舞的火葬场。[[TEACHER]][[SAINT-POETRY]]",
+    "works": [
+      "c10"
+    ]
+  },
+  {
+    "id": "tiruvarur",
+    "title": "Tiruvarur",
+    "name_en": "Tiruvarur",
+    "lat": 10.77269,
+    "lon": 79.6368,
+    "coordinate_note": "GeoNames 1254589，城镇中心",
+    "text": "泰米尔赞歌反复吟唱的寺城。以本地语言称颂有名字的神与场所，让信仰拥有可以行走、停留与重返的地理。[[TEVARAM-TIRUVARUR]]",
+    "works": [
+      "c09",
+      "c19"
+    ]
+  },
+  {
+    "id": "tiruvenkadu",
+    "title": "Tiruvenkadu",
+    "name_en": "Tiruvenkadu",
+    "lat": 11.1737,
+    "lon": 79.8105,
+    "coordinate_note": "公开地理坐标（Wikipedia）；市政资料核对地点",
+    "text": "这里的Swetharanyeswarar湿婆庙见于泰米尔湿婆赞歌传统。把地点与圣徒铜像联系起来，是理解赞歌生活的背景，不是给本辑铜像指定出土地。[[VENKADU]]",
+    "works": [
+      "c11",
+      "c28"
+    ]
+  },
+  {
+    "id": "swamimalai",
+    "title": "Swamimalai",
+    "name_en": "Swamimalai",
+    "lat": 10.95747,
+    "lon": 79.32931,
+    "coordinate_note": "GeoNames 1255283，城镇中心",
+    "text": "今天仍传承失蜡铸造的城镇。2002年展览教师资源记录当地工匠塑蜡、包模、浇注和修整的过程，可与铜像的指尖、饰物和衣边对照阅读。[[TEACHER]]",
+    "works": [
+      "c25",
+      "c33"
+    ]
+  },
+  {
+    "id": "tirutturaippundi",
+    "title": "Tirutturaippundi",
+    "name_en": "Tirutturaippundi",
+    "lat": 10.52819,
+    "lon": 79.63268,
+    "coordinate_note": "GeoNames 1254341，城镇中心；非寺庙测绘坐标",
+    "text": "Sri Bhava Aushadesvara神庙在这一地区。1957年旧照片确认了华盛顿舞王当时在寺中的所在；点位只标地区，精确寺址未另作测绘定位。[[NMAA-DANCE]]",
+    "works": [
+      "c29"
+    ]
+  }
+]

@@ -24,8 +24,16 @@
     "visit_date": null,
     "viewing_evidence": "作者确认的现场观看；日期未提供",
     "source_ids": [
-      "L01"
-    ]
+      "L01",
+      "DMA-DANCE"
+    ],
+    "backgrounds": [
+      {
+        "href": "dance/",
+        "title": "湿婆为何舞蹈"
+      }
+    ],
+    "dimensions": "87.63 × 71.76 × 24.77厘米（整体，馆方）"
   },
   {
     "id": "c02",
@@ -86,7 +94,13 @@
       "L03",
       "MET-DANCE"
     ],
-    "dimensions": "高68.3厘米；环直径56.5厘米（馆方）"
+    "dimensions": "高68.3厘米；环直径56.5厘米（馆方）",
+    "backgrounds": [
+      {
+        "href": "dance/",
+        "title": "湿婆为何舞蹈"
+      }
+    ]
   },
   {
     "id": "c04",
@@ -123,7 +137,7 @@
     "title": "乌玛",
     "title_en": "Uma",
     "viewing_museum_id": "mfah",
-    "collection": "达拉斯艺术博物馆",
+    "collection": "休斯顿美术馆",
     "accession": "2007.1295",
     "date": "约1125年",
     "date_start": 1125,
@@ -144,14 +158,16 @@
     "viewing_evidence": "作者于2026-11-24纠正：在休斯顿美术馆亲见，非达拉斯现场；参观日期未提供",
     "source_ids": [
       "L05"
-    ]
+    ],
+    "notes": [],
+    "credit": "Agnes Cullen Arnold Endowment购藏（现场展签）"
   },
   {
     "id": "c06",
     "title": "湿婆舞王",
     "title_en": "Shiva Nataraja",
     "viewing_museum_id": "mfah",
-    "collection": "达拉斯艺术博物馆",
+    "collection": "休斯顿美术馆",
     "accession": "73.77",
     "date": "13世纪",
     "date_start": 1200,
@@ -171,8 +187,18 @@
     "visit_date": null,
     "viewing_evidence": "作者于2026-11-24纠正：在休斯顿美术馆亲见，非达拉斯现场；参观日期未提供",
     "source_ids": [
-      "L06"
-    ]
+      "L06",
+      "MFAH-DANCE"
+    ],
+    "backgrounds": [
+      {
+        "href": "dance/",
+        "title": "湿婆为何舞蹈"
+      }
+    ],
+    "notes": [],
+    "credit": "Carol与Robert Straus捐赠（现场展签）",
+    "dimensions": "74.3 × 53.3 × 22.9厘米（整体，馆方）"
   },
   {
     "id": "c07",
@@ -181,10 +207,10 @@
     "viewing_museum_id": "nelson",
     "collection": "纳尔逊—阿特金斯艺术博物馆",
     "accession": "34-7",
-    "date": "朱罗时期（展签列850—1278年）",
-    "date_start": 850,
-    "date_end": 1278,
-    "date_precision": "broad_period",
+    "date": "13世纪早期",
+    "date_start": 1200,
+    "date_end": 1230,
+    "date_precision": "range",
     "photo": 3325,
     "label": 3327,
     "photos": [
@@ -201,7 +227,18 @@
     "visit_date": null,
     "viewing_evidence": "作者确认的现场观看；日期未提供",
     "source_ids": [
-      "L07"
+      "L07",
+      "NELSON-DANCE-LARGE"
+    ],
+    "backgrounds": [
+      {
+        "href": "dance/",
+        "title": "湿婆为何舞蹈"
+      }
+    ],
+    "dimensions": "87 × 69.85 × 33.02厘米（整体，馆方）",
+    "notes": [
+      "现场展签列朱罗王朝850—1278年的范围，当前馆方对象页细化为13世纪早期。"
     ]
   },
   {
@@ -258,11 +295,17 @@
     "viewing_evidence": "作者确认的现场观看；日期未提供",
     "source_ids": [
       "L09"
+    ],
+    "backgrounds": [
+      {
+        "href": "saints/",
+        "title": "把赞歌铸成身体"
+      }
     ]
   },
   {
     "id": "c10",
-    "title": "苦行女圣徒",
+    "title": "卡赖卡尔母亲（Karaikkal Ammaiyar）",
     "title_en": "Karaikkal Ammaiyar",
     "viewing_museum_id": "nelson",
     "collection": "纳尔逊—阿特金斯艺术博物馆",
@@ -287,11 +330,21 @@
     "source_ids": [
       "L10",
       "NELSON-SAINT"
+    ],
+    "backgrounds": [
+      {
+        "href": "saints/",
+        "title": "把赞歌铸成身体"
+      },
+      {
+        "href": "afterlives/",
+        "title": "离开神庙以后"
+      }
     ]
   },
   {
     "id": "c11",
-    "title": "神庙的守护圣徒",
+    "title": "圣徒 Chandikeshvara",
     "title_en": "Chandikeshvara",
     "viewing_museum_id": "nelson",
     "collection": "纳尔逊—阿特金斯艺术博物馆",
@@ -315,6 +368,16 @@
     "viewing_evidence": "作者确认的现场观看；日期未提供",
     "source_ids": [
       "L11"
+    ],
+    "backgrounds": [
+      {
+        "href": "saints/",
+        "title": "把赞歌铸成身体"
+      },
+      {
+        "href": "afterlives/",
+        "title": "离开神庙以后"
+      }
     ]
   },
   {
@@ -342,8 +405,16 @@
     "visit_date": null,
     "viewing_evidence": "作者确认的现场观看；日期未提供",
     "source_ids": [
-      "L12"
-    ]
+      "L12",
+      "NELSON-DANCE-SMALL"
+    ],
+    "backgrounds": [
+      {
+        "href": "dance/",
+        "title": "湿婆为何舞蹈"
+      }
+    ],
+    "dimensions": "33.5 × 24.77厘米（整体，馆方）"
   },
   {
     "id": "c13",
@@ -518,7 +589,7 @@
   },
   {
     "id": "c19",
-    "title": "诗人圣徒",
+    "title": "诗人圣徒 Manikkavachakar",
     "title_en": "Manikkavachakar",
     "viewing_museum_id": "cleveland",
     "collection": "克利夫兰美术馆",
@@ -543,6 +614,12 @@
     "source_ids": [
       "L19",
       "CMA-POET"
+    ],
+    "backgrounds": [
+      {
+        "href": "saints/",
+        "title": "把赞歌铸成身体"
+      }
     ]
   },
   {
@@ -607,7 +684,17 @@
       "L21",
       "CMA-DANCE"
     ],
-    "dimensions": "113 × 102 × 30厘米（馆方）"
+    "dimensions": "113 × 102 × 30厘米（馆方）",
+    "backgrounds": [
+      {
+        "href": "dance/",
+        "title": "湿婆为何舞蹈"
+      },
+      {
+        "href": "afterlives/",
+        "title": "离开神庙以后"
+      }
+    ]
   },
   {
     "id": "c22",
@@ -695,6 +782,12 @@
     "source_ids": [
       "L24",
       "WALTERS"
+    ],
+    "backgrounds": [
+      {
+        "href": "afterlives/",
+        "title": "离开神庙以后"
+      }
     ]
   },
   {
@@ -813,6 +906,12 @@
     "viewing_evidence": "作者确认的现场观看；日期未提供",
     "source_ids": [
       "L28"
+    ],
+    "backgrounds": [
+      {
+        "href": "saints/",
+        "title": "把赞歌铸成身体"
+      }
     ]
   },
   {
@@ -842,11 +941,23 @@
     "viewing_evidence": "作者确认的现场观看；日期未提供",
     "source_ids": [
       "L29",
-      "RETURN"
+      "RETURN",
+      "NMAA-DANCE"
     ],
     "ownership_status": "returned_to_india_on_loan",
     "provenance_photos": [
       3372
+    ],
+    "dimensions": "70.8 × 53.3 × 24.6厘米（整体，馆方）",
+    "backgrounds": [
+      {
+        "href": "dance/",
+        "title": "湿婆为何舞蹈"
+      },
+      {
+        "href": "afterlives/",
+        "title": "离开神庙以后"
+      }
     ]
   },
   {
@@ -965,7 +1076,13 @@
       "L33",
       "KIMBELL"
     ],
-    "dimensions": "85.7 × 34 × 32.7厘米（馆方）"
+    "dimensions": "85.7 × 34 × 32.7厘米（馆方）",
+    "backgrounds": [
+      {
+        "href": "afterlives/",
+        "title": "离开神庙以后"
+      }
+    ]
   },
   {
     "id": "c34",
@@ -1022,6 +1139,12 @@
     "source_ids": [
       "L35",
       "ALLEN"
+    ],
+    "backgrounds": [
+      {
+        "href": "saints/",
+        "title": "把赞歌铸成身体"
+      }
     ]
   },
   {

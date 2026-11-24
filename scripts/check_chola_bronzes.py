@@ -11,6 +11,10 @@ assert len(ws)==38 and sum(w['object_count'] for w in ws)==40
 counts=Counter(str(n) for w in ws for n in w['photos']);assert all(counts[str(n)]==1 for n in range(3312,3390))
 assert counts['noma_three_buddhas_case']==2
 assert len([m for m in media.values() if m.get('is_original',True)])==81
+assert by['c05']['collection']==by['c06']['collection']=='休斯顿美术馆'
+assert len(load('places'))==10 and len(load('essays'))==3
+assert load('chapters')[-1]['title']=='同一片土地，不同的修行'
+assert len(load('comparisons')[0]['works'])==7
 assert by['c37']['accession']=='2021.98' and by['c37']['group']=='core'
 assert by['c38']['group']=='pre_chola' and by['c38']['accession'] is None
 for k,m in media.items():
@@ -24,7 +28,7 @@ assert by['c24']['group']==by['c35']['group']=='extension'
 assert not any(w['visit_date'] for w in ws)
 ids=[id for ch in load('chapters') for id in ch['works']];assert len(ids)==38 and set(ids)==set(by)
 for w in ws:assert w['photo'] in w['photos'] and w['label'] in w['photos']
-for name in ['readings','stories','history']:
+for name in ['readings','stories','history','essays','places','events','comparisons']:
  for key in re.findall(r'\[\[([A-Z0-9-]+)\]\]',json.dumps(load(name),ensure_ascii=False)):assert key in sources,key
 for d in load('details'):
  assert d['photo'] in by[d['work']]['photos']
@@ -47,6 +51,6 @@ for p in BASE.rglob('index.html'):
    if target not in cache:cache[target]=set(Page(target.read_text()).ids)
    assert unquote(u.fragment) in cache[target],(p,url)
   nlinks+=1
-assert len(list(BASE.rglob('index.html')))==44
+assert len(list(BASE.rglob('index.html')))==47
 for parent in ['index.html','south-asian-art/index.html']:assert 'chola-bronzes/' in (ROOT/'museum-notes'/parent).read_text()
-print(f'PASS: 38 groups, 40 objects, 81 originals (one shared display photo), 12 museums, 44 pages, {nlinks} local links; source and crop references valid.')
+print(f'PASS: 38 groups, 40 objects, 81 originals (one shared display photo), 12 museums, 47 pages, {nlinks} local links; source and crop references valid.')

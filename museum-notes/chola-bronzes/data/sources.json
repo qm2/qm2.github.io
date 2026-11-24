@@ -276,7 +276,7 @@
     "title": "纳尔逊—阿特金斯艺术博物馆／馆方资料 · 苦行女圣徒",
     "url": "https://art.nelson-atkins.org/objects/17654/karaikkal-ammaiyar-a-hindu-saint",
     "used_for": "本件年代、身份、图像解释及有记录的收藏信息。",
-    "read_status": "已核对公开记录中的基本资料与早期展览题名；人物故事主要据现场展签，未阅读该页所列旧展览图录。",
+    "read_status": "已阅读馆方对象正文、收藏来源和展览史；未将页面列出的旧图录视作已读。",
     "checked_on": "2026-11-23"
   },
   "CMA-TRIDENT": {
@@ -460,5 +460,159 @@
     "read_status": "已阅读公开对象说明，重点为纳加帕蒂南弥勒像的底座固定孔与巡游解释。",
     "used_for": "其他佛教铜像的礼仪用途；不将其尺寸、发现记录或巡游用途移用于NOMA佛立像。",
     "checked_on": "2026-11-23"
+  },
+  "TEACHER": {
+    "title": "The Sensuous and the Sacred: A Resource for Teachers，American Federation of Arts，2002",
+    "url": "https://www.rarebooksocietyofindia.org/book_archive/196174216674_10150434296806675.pdf",
+    "read_status": "直接阅读教师资源的神庙、礼拜、圣徒、铸造及卡赖卡尔母亲段落；这不是展览图录全文。诗歌经此册转引，不将其引用的1988年专著列为直接阅读。",
+    "used_for": "神庙供养、仪式、失蜡铸造和卡赖卡尔母亲。",
+    "checked_on": "2026-11-24"
+  },
+  "SAINT-POETRY": {
+    "title": "Karen Pechilis，Revisiting the Experiential World of Women’s Bhakti Poetry，Religions 14(6)，788，2023",
+    "url": "https://www.mdpi.com/2077-1444/14/6/788",
+    "read_status": "阅读公开论文中关于卡赖卡尔母亲及火葬场诗歌的讨论。",
+    "used_for": "卡赖卡尔母亲自身诗歌与后世圣传的区别。",
+    "checked_on": "2026-11-24"
+  },
+  "TEVARAM": {
+    "title": "Project Madurai：Sambandar，Tevaram，第一卷第一首（1.1.1）",
+    "url": "https://projectmadurai.org/pm_etexts/utf8/pmuni0150.html",
+    "read_status": "核读电子版1.1.1；仅节引短语，不转录整首。",
+    "used_for": "第一首赞歌中的“窃心者”；保留泰米尔原文，中文为本站译意。",
+    "checked_on": "2026-11-24"
+  },
+  "SAINT-TRADITION": {
+    "title": "Lakshmi Chandrashekar Subramanian，South India’s Bhakti Saints，Himalayan Academy",
+    "url": "https://www.himalayanacademy.com/media/books/south-india-bhakti-saints_ei/web/toc.html",
+    "read_status": "阅读有关四位湿婆派诗人、赞歌集与圣传的公开段落；作为当代宗教传统叙述使用。",
+    "used_for": "赞歌结集与圣徒传说。",
+    "checked_on": "2026-11-24"
+  },
+  "CHANDESHA": {
+    "title": "纳尔逊—阿特金斯：Chandikeshvara，50-19",
+    "url": "https://art.nelson-atkins.org/objects/1526/chandikeshvara-a-hindu-saint",
+    "read_status": "已直接阅读公开正文。",
+    "used_for": "乳供、斧与寺庙守护者的传说；卢芹斋与1950年入藏。",
+    "checked_on": "2026-11-24"
+  },
+  "DYNASTY": {
+    "title": "P. Bhaskar Reddy，The Cholas，Outlines of Indian History，INFLIBNET",
+    "url": "https://ebooks.inflibnet.ac.in/icp01/chapter/the-cholas/",
+    "read_status": "已直接阅读公开正文。",
+    "used_for": "9世纪兴起、帝国扩展与13世纪结束的历史框架。",
+    "checked_on": "2026-11-24"
+  },
+  "FIVE-ACTS": {
+    "title": "UCLA MANAS：Nataraja",
+    "url": "https://southasia.ucla.edu/religions/avatars-divinities/nataraja/",
+    "read_status": "已直接阅读公开正文。",
+    "used_for": "湿婆五种活动与奇丹巴拉姆；网页转引Coomaraswamy，未据此宣称读过所列版本全书。",
+    "checked_on": "2026-11-24"
+  },
+  "COLLECTING": {
+    "title": "Tim Gihring，Collecting the Subcontinent，Minneapolis Institute of Art，2021",
+    "url": "https://new.artsmia.org/stories/collecting-the-subcontinent-how-south-asian-art-evolved-under-colonialism",
+    "read_status": "已直接阅读公开正文。",
+    "used_for": "Coomaraswamy与舞王在欧美博物馆中的传播。",
+    "checked_on": "2026-11-24"
+  },
+  "EXHIBITION": {
+    "title": "史密森尼：The Sensuous and the Sacred，2002—2003",
+    "url": "https://asia-archive.si.edu/exhibition/the-sensuous-and-the-sacred-chola-bronzes-from-south-india/",
+    "read_status": "已直接阅读公开正文。",
+    "used_for": "以丝绸、饰物、诗歌和声音重建观看背景的策展。",
+    "checked_on": "2026-11-24"
+  },
+  "NMAA-DANCE": {
+    "title": "史密森尼馆藏记录：Shiva Nataraja，F2003.2",
+    "url": "https://www.si.edu/object/shiva-nataraja-lord-dance%3Afsg_F2003.2",
+    "read_status": "已直接阅读公开正文。",
+    "used_for": "1957年原寺照片、1973年前后至2002年纽约画廊、2026年所有权及尺寸。",
+    "checked_on": "2026-11-24"
+  },
+  "GEONAMES": {
+    "title": "GeoNames：城市地名数据（CC BY 4.0）",
+    "url": "https://download.geonames.org/export/dump/",
+    "read_status": "读取cities500地名数据；世界遗产神庙另据UNESCO坐标。",
+    "used_for": "泰米尔地图城镇中心位置；不是文物出土坐标。",
+    "checked_on": "2026-11-24"
+  },
+  "NATURAL-EARTH": {
+    "title": "Natural Earth：1:10m 河道与海岸线，公有领域",
+    "url": "https://www.naturalearthdata.com/",
+    "read_status": "提取Cauvery河道和泰米尔东岸；现代河道不代表朱罗时代每一条支流。",
+    "used_for": "考弗里河与东海岸底图，裁切自地理数据，未手绘古代路线。",
+    "checked_on": "2026-11-24"
+  },
+  "VENKADU": {
+    "title": "Mayiladuthurai Municipality：Places of Interest",
+    "url": "https://www.tnurbantree.tn.gov.in/mayiladuthurai/places-of-interest/",
+    "read_status": "已直接阅读公开正文。",
+    "used_for": "Tiruvenkadu的湿婆神庙及其与泰米尔赞歌的联系。",
+    "checked_on": "2026-11-24"
+  },
+  "HANUMAN-STORY": {
+    "title": "Wereldmuseum Leiden：Hanuman Travels the Globe",
+    "url": "https://leiden.wereldmuseum.nl/en/collection-stories/hanuman-travels-globe",
+    "used_for": "罗摩、悉多与哈奴曼的寻访、信物故事。",
+    "read_status": "已阅读公开故事条目。",
+    "checked_on": "2026-11-24"
+  },
+  "HANUMAN-MOUNTAIN": {
+    "title": "LACMA：Hanuman Carrying the Mountain of Medicinal Herbs，M.89.159.1",
+    "url": "https://collections.lacma.org/object/69937",
+    "used_for": "药山与罗摩营救悉多的故事。",
+    "read_status": "核对公开对象题名与馆方说明，未使用该馆图片。",
+    "checked_on": "2026-11-24"
+  },
+  "TEVARAM-TIRUVARUR": {
+    "title": "Project Madurai：Sambandar，Tevaram，第一卷第二部分",
+    "url": "https://projectmadurai.org/pm_etexts/utf8/pmuni0151.html",
+    "used_for": "Tiruvarur（திருவாரூர்）相关赞歌的地名参照。",
+    "read_status": "核对电子版篇目中的地名，不据此推定铜像制作地点。",
+    "checked_on": "2026-11-24"
+  },
+  "DMA-DANCE": {
+    "title": "达拉斯艺术博物馆：Shiva Nataraja，2000.377",
+    "url": "https://dma.org/art/collection/object/5322506",
+    "used_for": "舞王的整体尺寸与年代。",
+    "read_status": "已核对馆方公开记录。",
+    "checked_on": "2026-11-24"
+  },
+  "MFAH-DANCE": {
+    "title": "休斯顿美术馆：Shiva Nataraja，73.77",
+    "url": "https://emuseum.mfah.org/objects/252/visit",
+    "used_for": "收藏馆与尺寸。",
+    "read_status": "核对馆方索引记录及作者现场展签3323；对象页直接访问有限制。",
+    "checked_on": "2026-11-24"
+  },
+  "NELSON-DANCE-LARGE": {
+    "title": "纳尔逊—阿特金斯：Shiva Nataraja，34-7",
+    "url": "https://art.nelson-atkins.org/objects/23552/shiva-nataraja-the-lord-of-dance",
+    "used_for": "当前13世纪早期断代、尺寸；与现场宽年代展签并存。",
+    "read_status": "直接读取馆方对象记录。",
+    "checked_on": "2026-11-24"
+  },
+  "NELSON-DANCE-SMALL": {
+    "title": "纳尔逊—阿特金斯：Shiva Nataraja，50-20",
+    "url": "https://art.nelson-atkins.org/objects/1527/shiva-nataraja-the-lord-of-dance",
+    "used_for": "13世纪舞王的尺寸。",
+    "read_status": "直接读取馆方对象记录。",
+    "checked_on": "2026-11-24"
+  },
+  "QUEEN-HISTORY": {
+    "title": "S. R. Balasubrahmanyam，Early Chola Temples：Sembiyan Mahadevi",
+    "url": "https://www.wisdomlib.org/south-asia/book/early-chola-temples/d/doc210418.html",
+    "used_for": "王后与Gandaraditya、Uttama的关系。",
+    "read_status": "阅读公开电子转载的相关章节，不将其引用的全部铭文列作独立核读。",
+    "checked_on": "2026-11-24"
+  },
+  "NAYANMAR-CANON": {
+    "title": "Karen Pechilis，Nāyaṉmār，Oxford Bibliographies in Hinduism（2012）",
+    "url": "https://academic.oup.com/reference/62357/reference-article-abstract/554515140?login=false",
+    "used_for": "六十三位圣徒、12世纪Periya Puranam及其在Tirumurai中的位置。",
+    "read_status": "阅读公开Introduction摘录；未取得付费条目全文。",
+    "checked_on": "2026-11-24"
   }
 }

@@ -8,8 +8,8 @@
 - `data/media.json`：81张原片及2张包内裁切的文件名、SHA256、照片角色、尺寸、公开URL与响应式衍生图。同一原片只保存一次，展柜合照可由多个对象引用；3386、3387归c20，不新增作品。
 - `data/details.json`：6个由原片生成的局部，保留像素裁切范围，不放大、不去反光、不改色。c20另用3387现场近照，c33另用3380背面全图。
 - `data/museums.json`：12家实际观看博物馆，含借展地点。坐标仅供现代馆址导航，复用本站已采用的机构定位，新加达拉斯与奥伯林。
-- `data/readings.json`：逐件文章。`stories.json`为9组神与圣徒，`history.json`为6段历史导览，`chapters.json`为首页6章，`comparisons.json`为6组并看，`sources.json`记录实际阅读范围。
-- `atlas-index.json`及44个HTML页面由构建生成。年代栏按年代范围中点归类，c07宽断代单列，c24/c35延续单列。顶部吸附按钮与时期选择器避免寻找底部滚动条。
+- `data/readings.json`：逐件文章。`stories.json`为9组神与圣徒，`history.json`为7段历史导览，`chapters.json`为首页6章，`comparisons.json`为8组并看，`sources.json`记录实际阅读范围。
+- `atlas-index.json`及47个HTML页面由构建生成。年代栏按年代范围中点归类，c24/c35延续单列。顶部吸附按钮与时期选择器避免寻找底部滚动条。
 
 ## 已核实的重要修正
 
@@ -29,7 +29,7 @@
 
 主要研究为现场展签及CMA、Met、NMAA、Kimbell、Walters、SAM、PMA、Allen馆方记录；UNESCO神庙页面、NMAA神庙／巡游导览提供历史背景。直接阅读Dehejia《The Very Idea of a Portrait》（Ars Orientalis 28，1998）41—44页关于王后与圣徒的讨论；不转载论文图片，不冒称阅读其全部引文。
 
-尚待继续研究：c07的具体世纪；c31的具体耆那身份与编号；乌玛的王后肖像说；多数作品的原神庙、工坊和完整递藏链。Nelson女圣徒已核对公开记录中的基本资料与早期展览题名；故事依据现场展签，不把网上列出的旧著录当作已读全文。
+尚待继续研究：c31的具体耆那身份与编号；乌玛的王后肖像说；多数作品的原神庙、工坊和完整递藏链。Nelson女圣徒已核对公开记录中的基本资料与早期展览题名；故事依据现场展签，不把网上列出的旧著录当作已读全文。
 
 ## 构建与增补
 
@@ -38,6 +38,7 @@ python3 scripts/build_chola_bronzes.py
 python3 scripts/check_chola_bronzes.py
 python3 scripts/build_museum.py
 python3 scripts/check_chola_browser.py http://127.0.0.1:8765
+python3 scripts/check_chola_refinement_browser.py http://127.0.0.1:8765
 ```
 
 完整构建在帕拉之后生成此专题，并在南亚艺术目录（沿用同一issue-link）和博物馆首页插入入口。CSS/JS仅使用cb前缀，不改其他专题组件。图片查看复用Caravaggio通用查看器。
@@ -67,4 +68,15 @@ python3 scripts/check_chola_browser.py http://127.0.0.1:8765
 
 增补验收：全站构建成功；44页、1385条本地链接通过；1440/768/390像素浏览器检查通过，包括佛教筛选、NOMA五组计数、原图及展签灯箱、浏览器返回、7世纪前史时间栏和顶部切换。时间线改为自动横向列，后续新增时期无需修改列数。截图仍在`/tmp/chola-browser/`。原78张照片重生成时保留增补media记录。
 
-2026-11-24：作者纠正c05乌玛（2007.1295）、c06舞王（73.77）均在休斯顿美术馆观看，收藏仍为达拉斯艺术博物馆；没有据此补写展览名称或参观日期。地图与图注同步更新：MFAH 3组、Dallas 1组，专题总数不变。
+2026-11-24：作者纠正c05乌玛（2007.1295）、c06舞王（73.77）均在休斯顿美术馆观看，收藏信息在本次复核展签与MFAH馆录后亦更正为休斯顿美术馆；没有据此补写展览名称或参观日期。地图与图注同步更新：MFAH 3组、Dallas 1组，专题总数不变。
+
+
+## 第一轮精修（2026-11-24）
+
+用户随后授权直接提交、部署。新增saints、dance、afterlives三篇导览，essays.json集中维护；places.json及tamil-geography.geojson用于泰米尔历史地图（10处，Natural Earth河道/海岸、GeoNames及UNESCO坐标，许可见来源）；events.json为作品时间线加入历史背景。
+
+首页改用CMA双尊完整照片3386；第六章为佛教与耆那教双主视觉，下方单列前史与晚期延续。c37仍限164像素原生宽度，统一背景框与图注，放大回到原展柜合照。c07按馆方现行记录更新为13世纪早期，旧展签宽年代保留；c05/c06馆藏与观看均核为MFAH。
+
+重点扩写c20、c27、c10、c23、c29，新增圣徒诗歌与七尊舞王尺寸比较。阅读2002年展览教师资源、Dehejia肖像论文相关章节、Pechilis论文、馆方资料及原典公开文本；未取得的学术专著不列作已读全文。
+
+本次验收：全站构建通过；47页、1663条本地链接及38组/40件/81原片检查通过；帕拉31页回归通过。常规浏览器检查与精修专项均覆盖1440/768/390像素；图注、双主视觉、原图/展签查看、地图键盘、筛选/浏览器返回、历史地点锚点与新增文章导航通过。截图归档于 `/home/qingxi/museum/chola-review-2026-11-24/`。
