@@ -91,7 +91,7 @@ def build():
   for n in w.get('provenance_photos',[]):b+=fig(w,n,'馆方归还与借展说明')
   b+='</details>'
   extras=[n for n in w['photos'] if n not in [w['photo'],w['label'],3387 if w['id']=='c20' else -1,3380 if w['id']=='c33' else -1]+w.get('provenance_photos',[])]
-  if extras:b+='<details class="cb-notes"><summary>其余现场照片 · '+str(len(extras))+'张</summary>'+''.join(fig(w,n,{3324:'另一张完整舞姿',3326:'展厅中的大型舞王',3386:'两尊立像全身与台座 · 侧前方视角'}.get(n,w.get('photo_captions',{}).get(str(n),'现场补充视角'))) for n in extras)+'</details>'
+  if extras:b+='<details class="cb-notes"><summary>其余现场照片 · '+str(len(extras))+'张</summary>'+''.join(fig(w,n,{3324:'另一张完整舞姿',3326:'展厅中的大型舞王',3352:'两尊立像正面合影 · 上身与衣饰'}.get(n,w.get('photo_captions',{}).get(str(n),'现场补充视角'))) for n in extras)+'</details>'
   if w.get('backgrounds'):b+='<nav class="cb-localnav" aria-label="相关背景">'+''.join('<a href="'+URL+x['href']+'">'+e(x['title'])+' →</a>' for x in w['backgrounds'])+'</nav>'
   b+=refs(w['source_ids']+re.findall(r'\[\[([A-Z0-9-]+)\]\]',json.dumps(r,ensure_ascii=False)))
   b+=('<p class="cb-prose"><a href="'+URL+'guide/#buddhist-port">海港里的佛陀：南印度佛教背景</a></p>' if w['religion']=='佛教' else '')
