@@ -1,0 +1,164 @@
+[
+  {
+    "id": "dance-face",
+    "work": "c03",
+    "photo": 3316,
+    "box_pixels": [
+      307,
+      273,
+      973,
+      871
+    ],
+    "after_section": 1,
+    "caption": "面容与横过胸前的手臂：剧烈舞姿中保留安定",
+    "width": 666,
+    "height": 598,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/chola-bronzes/images/details/dance-face-360.webp",
+        "width": 360,
+        "height": 323
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/chola-bronzes/images/details/dance-face-666.webp",
+        "width": 666,
+        "height": 598
+      }
+    ]
+  },
+  {
+    "id": "saint-cymbals",
+    "work": "c10",
+    "photo": 3332,
+    "box_pixels": [
+      243,
+      85,
+      998,
+      888
+    ],
+    "after_section": 1,
+    "caption": "面容、肋骨与手中小钹：身体衰瘦，伴奏的动作仍在",
+    "width": 755,
+    "height": 803,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/chola-bronzes/images/details/saint-cymbals-360.webp",
+        "width": 360,
+        "height": 383
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/chola-bronzes/images/details/saint-cymbals-755.webp",
+        "width": 755,
+        "height": 803
+      }
+    ]
+  },
+  {
+    "id": "half-body",
+    "work": "c17",
+    "photo": 3346,
+    "box_pixels": [
+      346,
+      376,
+      832,
+      1314
+    ],
+    "after_section": 0,
+    "caption": "冠饰、胸部与衣裙：左右两侧呈现不同身体特征",
+    "width": 486,
+    "height": 938,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/chola-bronzes/images/details/half-body-360.webp",
+        "width": 360,
+        "height": 695
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/chola-bronzes/images/details/half-body-486.webp",
+        "width": 486,
+        "height": 938
+      }
+    ]
+  },
+  {
+    "id": "hanuman-hand-v2",
+    "work": "c23",
+    "photo": 3358,
+    "box_pixels": [
+      230,
+      26,
+      1050,
+      1041
+    ],
+    "after_section": 0,
+    "caption": "靠近嘴边的手与前倾肩膀：英雄主动收起力量",
+    "width": 820,
+    "height": 1015,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/chola-bronzes/images/details/hanuman-hand-v2-360.webp",
+        "width": 360,
+        "height": 446
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/chola-bronzes/images/details/hanuman-hand-v2-820.webp",
+        "width": 820,
+        "height": 1015
+      }
+    ]
+  },
+  {
+    "id": "uma-face-v2",
+    "work": "c27",
+    "photo": 3366,
+    "box_pixels": [
+      320,
+      26,
+      986,
+      939
+    ],
+    "after_section": 0,
+    "caption": "从高冠、面容到缓缓下垂的肩线",
+    "width": 666,
+    "height": 913,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/chola-bronzes/images/details/uma-face-v2-360.webp",
+        "width": 360,
+        "height": 494
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/chola-bronzes/images/details/uma-face-v2-666.webp",
+        "width": 666,
+        "height": 913
+      }
+    ]
+  },
+  {
+    "id": "sambandar-v2",
+    "work": "c28",
+    "photo": 3368,
+    "box_pixels": [
+      32,
+      205,
+      1274,
+      1161
+    ],
+    "after_section": 0,
+    "caption": "指向上方的手与展开的另一臂：赞歌成为舞姿",
+    "width": 1242,
+    "height": 956,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/chola-bronzes/images/details/sambandar-v2-360.webp",
+        "width": 360,
+        "height": 277
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/chola-bronzes/images/details/sambandar-v2-900.webp",
+        "width": 900,
+        "height": 693
+      }
+    ]
+  }
+]

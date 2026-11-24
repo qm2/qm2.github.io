@@ -173,3 +173,6 @@ build_japanese_wood()
 
 from build_pala_stone import build as build_pala_stone
 build_pala_stone()
+
+from build_chola_bronzes import build as build_chola_bronzes
+build_chola_bronzes()

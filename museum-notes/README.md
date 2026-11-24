@@ -153,3 +153,7 @@ New `/museum-notes/xiangtangshan/` unit: 24 attributed sculptures, 1 separately 
 ## South Asian art / Khajuraho, 2026-10-25
 
 `khajuraho/` adds eight works from five museums, sixteen unchanged original photo/label images and one separately credited CC0 site photograph. Historical background and four representative temples precede three object groups. Place attribution, original architectural role and uncertain temple provenance remain separate; Chinese naming follows the reviewed glossary and user-requested 昌德拉 / 克久拉霍. `build_museum.py` regenerates the topic, `south-asian-art/` and homepage entrance. See [research and intake](khajuraho/README.md); run `python3 scripts/check_khajuraho.py`.
+
+## South Asian art / Chola bronzes, 2026-11-23
+
+`chola-bronzes/` adds 36 viewing groups (38 sculptures), 78 personal photographs and 12 confirmed viewing museums. Six chapters, nine deity/saint stories, six comparisons, historical guide and sticky chronological navigation share structured records. The Houston Rama loan, NMAA returned/borrowed Nataraja and private loans keep ownership separate from viewing. See [topic documentation](chola-bronzes/README.md) for intake corrections and research limits. Rebuilt by `build_museum.py`; verify with `check_chola_bronzes.py` and `check_chola_browser.py`. Images remain on the existing R2 image domain, outside Git.

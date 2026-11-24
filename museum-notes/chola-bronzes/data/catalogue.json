@@ -1,0 +1,1055 @@
+[
+  {
+    "id": "c01",
+    "title": "湿婆舞王",
+    "title_en": "Shiva Nataraja",
+    "viewing_museum_id": "dallas",
+    "collection": "达拉斯艺术博物馆",
+    "accession": "2000.377",
+    "date": "11世纪",
+    "date_start": 1000,
+    "date_end": 1099,
+    "date_precision": "range",
+    "photo": 3312,
+    "label": 3313,
+    "photos": [
+      3312,
+      3313
+    ],
+    "medium": "青铜",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "印度教",
+    "group": "core",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L01"
+    ]
+  },
+  {
+    "id": "c02",
+    "title": "罗摩",
+    "title_en": "Rama",
+    "viewing_museum_id": "mfah",
+    "collection": "费城艺术博物馆",
+    "accession": "W1982-106-1",
+    "date": "约975年",
+    "date_start": 975,
+    "date_end": 975,
+    "date_precision": "approximate",
+    "photo": 3314,
+    "label": 3315,
+    "photos": [
+      3314,
+      3315
+    ],
+    "medium": "铜合金",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "印度教",
+    "group": "core",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L02",
+      "PMA"
+    ],
+    "viewing_context": "休斯顿美术馆 Living with the Gods 借展",
+    "dimensions": "81.3 × 37.5 × 25.4厘米（馆方）"
+  },
+  {
+    "id": "c03",
+    "title": "湿婆舞王",
+    "title_en": "Shiva as Lord of Dance (Nataraja)",
+    "viewing_museum_id": "met",
+    "collection": "纽约大都会艺术博物馆",
+    "accession": "1987.80.1",
+    "date": "11世纪晚期",
+    "date_start": 1075,
+    "date_end": 1099,
+    "date_precision": "range",
+    "photo": 3316,
+    "label": 3317,
+    "photos": [
+      3316,
+      3317
+    ],
+    "medium": "铜合金",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "印度教",
+    "group": "core",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L03",
+      "MET-DANCE"
+    ],
+    "dimensions": "高68.3厘米；环直径56.5厘米（馆方）"
+  },
+  {
+    "id": "c04",
+    "title": "站立毗湿奴",
+    "title_en": "Standing Vishnu",
+    "viewing_museum_id": "met",
+    "collection": "纽约大都会艺术博物馆",
+    "accession": "62.265",
+    "date": "10世纪第三季度",
+    "date_start": 950,
+    "date_end": 974,
+    "date_precision": "range",
+    "photo": 3318,
+    "label": 3319,
+    "photos": [
+      3318,
+      3319
+    ],
+    "medium": "铜合金",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "印度教",
+    "group": "core",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L04",
+      "MET-VISHNU"
+    ],
+    "dimensions": "高85.7厘米（馆方）"
+  },
+  {
+    "id": "c05",
+    "title": "乌玛",
+    "title_en": "Uma",
+    "viewing_museum_id": "dallas",
+    "collection": "达拉斯艺术博物馆",
+    "accession": "2007.1295",
+    "date": "约1125年",
+    "date_start": 1125,
+    "date_end": 1125,
+    "date_precision": "approximate",
+    "photo": 3320,
+    "label": 3321,
+    "photos": [
+      3320,
+      3321
+    ],
+    "medium": "青铜",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "印度教",
+    "group": "core",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L05"
+    ]
+  },
+  {
+    "id": "c06",
+    "title": "湿婆舞王",
+    "title_en": "Shiva Nataraja",
+    "viewing_museum_id": "dallas",
+    "collection": "达拉斯艺术博物馆",
+    "accession": "73.77",
+    "date": "13世纪",
+    "date_start": 1200,
+    "date_end": 1299,
+    "date_precision": "range",
+    "photo": 3322,
+    "label": 3323,
+    "photos": [
+      3322,
+      3323
+    ],
+    "medium": "青铜",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "印度教",
+    "group": "core",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L06"
+    ]
+  },
+  {
+    "id": "c07",
+    "title": "湿婆舞王",
+    "title_en": "Shiva Nataraja",
+    "viewing_museum_id": "nelson",
+    "collection": "纳尔逊—阿特金斯艺术博物馆",
+    "accession": "34-7",
+    "date": "朱罗时期（展签列850—1278年）",
+    "date_start": 850,
+    "date_end": 1278,
+    "date_precision": "broad_period",
+    "photo": 3325,
+    "label": 3327,
+    "photos": [
+      3324,
+      3325,
+      3326,
+      3327
+    ],
+    "medium": "青铜",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "印度教",
+    "group": "core",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L07"
+    ]
+  },
+  {
+    "id": "c08",
+    "title": "安坐湿婆",
+    "title_en": "Shiva Seated at Ease",
+    "viewing_museum_id": "nelson",
+    "collection": "纳尔逊—阿特金斯艺术博物馆",
+    "accession": "61-7",
+    "date": "12世纪",
+    "date_start": 1100,
+    "date_end": 1199,
+    "date_precision": "range",
+    "photo": 3328,
+    "label": 3329,
+    "photos": [
+      3328,
+      3329
+    ],
+    "medium": "青铜",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "印度教",
+    "group": "core",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L08"
+    ]
+  },
+  {
+    "id": "c09",
+    "title": "圣童森班达尔",
+    "title_en": "Sambandar",
+    "viewing_museum_id": "nelson",
+    "collection": "纳尔逊—阿特金斯艺术博物馆",
+    "accession": "34-5",
+    "date": "13世纪",
+    "date_start": 1200,
+    "date_end": 1299,
+    "date_precision": "range",
+    "photo": 3330,
+    "label": 3331,
+    "photos": [
+      3330,
+      3331
+    ],
+    "medium": "青铜",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "印度教",
+    "group": "core",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L09"
+    ]
+  },
+  {
+    "id": "c10",
+    "title": "苦行女圣徒",
+    "title_en": "Karaikkal Ammaiyar",
+    "viewing_museum_id": "nelson",
+    "collection": "纳尔逊—阿特金斯艺术博物馆",
+    "accession": "33-533",
+    "date": "11世纪",
+    "date_start": 1000,
+    "date_end": 1099,
+    "date_precision": "range",
+    "photo": 3332,
+    "label": 3333,
+    "photos": [
+      3332,
+      3333
+    ],
+    "medium": "青铜",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "印度教",
+    "group": "core",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L10",
+      "NELSON-SAINT"
+    ]
+  },
+  {
+    "id": "c11",
+    "title": "神庙的守护圣徒",
+    "title_en": "Chandikeshvara",
+    "viewing_museum_id": "nelson",
+    "collection": "纳尔逊—阿特金斯艺术博物馆",
+    "accession": "50-19",
+    "date": "11世纪",
+    "date_start": 1000,
+    "date_end": 1099,
+    "date_precision": "range",
+    "photo": 3334,
+    "label": 3335,
+    "photos": [
+      3334,
+      3335
+    ],
+    "medium": "青铜",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "印度教",
+    "group": "core",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L11"
+    ]
+  },
+  {
+    "id": "c12",
+    "title": "湿婆舞王",
+    "title_en": "Shiva Nataraja",
+    "viewing_museum_id": "nelson",
+    "collection": "纳尔逊—阿特金斯艺术博物馆",
+    "accession": "50-20",
+    "date": "13世纪",
+    "date_start": 1200,
+    "date_end": 1299,
+    "date_precision": "range",
+    "photo": 3336,
+    "label": 3337,
+    "photos": [
+      3336,
+      3337
+    ],
+    "medium": "青铜",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "印度教",
+    "group": "core",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L12"
+    ]
+  },
+  {
+    "id": "c13",
+    "title": "帕尔瓦蒂",
+    "title_en": "Parvati",
+    "viewing_museum_id": "nelson",
+    "collection": "纳尔逊—阿特金斯艺术博物馆",
+    "accession": "50-18",
+    "date": "约10世纪",
+    "date_start": 900,
+    "date_end": 999,
+    "date_precision": "range",
+    "photo": 3338,
+    "label": 3339,
+    "photos": [
+      3338,
+      3339
+    ],
+    "medium": "青铜",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "印度教",
+    "group": "core",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L13"
+    ]
+  },
+  {
+    "id": "c14",
+    "title": "湿婆与帕尔瓦蒂",
+    "title_en": "Shiva and Parvati",
+    "viewing_museum_id": "nelson",
+    "collection": "纳尔逊—阿特金斯艺术博物馆",
+    "accession": "34-8、34-9",
+    "date": "12世纪",
+    "date_start": 1100,
+    "date_end": 1199,
+    "date_precision": "range",
+    "photo": 3340,
+    "label": 3341,
+    "photos": [
+      3340,
+      3341
+    ],
+    "medium": "青铜",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "印度教",
+    "group": "core",
+    "object_count": 2,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L14"
+    ]
+  },
+  {
+    "id": "c15",
+    "title": "象头神",
+    "title_en": "Ganesha",
+    "viewing_museum_id": "nelson",
+    "collection": "纳尔逊—阿特金斯艺术博物馆",
+    "accession": "62-14",
+    "date": "10世纪末—11世纪初",
+    "date_start": 975,
+    "date_end": 1025,
+    "date_precision": "range",
+    "photo": 3342,
+    "label": 3343,
+    "photos": [
+      3342,
+      3343
+    ],
+    "medium": "青铜",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "印度教",
+    "group": "core",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L15"
+    ]
+  },
+  {
+    "id": "c16",
+    "title": "瑜伽人狮",
+    "title_en": "Yoga Narasimha",
+    "viewing_museum_id": "nelson",
+    "collection": "纳尔逊—阿特金斯艺术博物馆",
+    "accession": "63-2",
+    "date": "约12世纪",
+    "date_start": 1100,
+    "date_end": 1199,
+    "date_precision": "range",
+    "photo": 3344,
+    "label": 3345,
+    "photos": [
+      3344,
+      3345
+    ],
+    "medium": "青铜",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "印度教",
+    "group": "core",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L16"
+    ]
+  },
+  {
+    "id": "c17",
+    "title": "半女湿婆三叉戟",
+    "title_en": "Trident with Ardhanarishvara",
+    "viewing_museum_id": "cleveland",
+    "collection": "克利夫兰美术馆",
+    "accession": "1969.117",
+    "date": "约1050年",
+    "date_start": 1050,
+    "date_end": 1050,
+    "date_precision": "approximate",
+    "photo": 3346,
+    "label": 3347,
+    "photos": [
+      3346,
+      3347
+    ],
+    "medium": "青铜",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "印度教",
+    "group": "core",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L17",
+      "CMA-TRIDENT"
+    ],
+    "dimensions": "高39.6厘米（馆方）"
+  },
+  {
+    "id": "c18",
+    "title": "迦梨",
+    "title_en": "Kali",
+    "viewing_museum_id": "cleveland",
+    "collection": "克利夫兰美术馆",
+    "accession": "1956.7",
+    "date": "10—11世纪",
+    "date_start": 900,
+    "date_end": 1099,
+    "date_precision": "range",
+    "photo": 3348,
+    "label": 3349,
+    "photos": [
+      3348,
+      3349
+    ],
+    "medium": "青铜",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "印度教",
+    "group": "core",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L18",
+      "CMA-KALI"
+    ]
+  },
+  {
+    "id": "c19",
+    "title": "诗人圣徒",
+    "title_en": "Manikkavachakar",
+    "viewing_museum_id": "cleveland",
+    "collection": "克利夫兰美术馆",
+    "accession": "1967.148",
+    "date": "12—13世纪",
+    "date_start": 1100,
+    "date_end": 1299,
+    "date_precision": "range",
+    "photo": 3350,
+    "label": 3351,
+    "photos": [
+      3350,
+      3351
+    ],
+    "medium": "青铜",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "印度教",
+    "group": "core",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L19",
+      "CMA-POET"
+    ]
+  },
+  {
+    "id": "c20",
+    "title": "湿婆与帕尔瓦蒂",
+    "title_en": "Shiva and Parvati",
+    "viewing_museum_id": "cleveland",
+    "collection": "克利夫兰美术馆",
+    "accession": "1961.94",
+    "date": "约1020—1040年",
+    "date_start": 1020,
+    "date_end": 1040,
+    "date_precision": "range",
+    "photo": 3386,
+    "label": 3353,
+    "photos": [
+      3352,
+      3353,
+      3386,
+      3387
+    ],
+    "medium": "青铜",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "印度教",
+    "group": "core",
+    "object_count": 2,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L20",
+      "CMA-PAIR"
+    ],
+    "notes": [
+      "现行馆录定为约1020—1040年；现场旧展签写约950—960年，保留展签原片供对读。两尊合用一个馆藏号，不将3386、3387重复计作新作品。"
+    ]
+  },
+  {
+    "id": "c21",
+    "title": "湿婆舞王",
+    "title_en": "Shiva Nataraja",
+    "viewing_museum_id": "cleveland",
+    "collection": "克利夫兰美术馆",
+    "accession": "1930.331",
+    "date": "11世纪",
+    "date_start": 1000,
+    "date_end": 1099,
+    "date_precision": "range",
+    "photo": 3354,
+    "label": 3355,
+    "photos": [
+      3354,
+      3355
+    ],
+    "medium": "青铜",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "印度教",
+    "group": "core",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L21",
+      "CMA-DANCE"
+    ],
+    "dimensions": "113 × 102 × 30厘米（馆方）"
+  },
+  {
+    "id": "c22",
+    "title": "瑜伽人狮",
+    "title_en": "Yoga Narasimha",
+    "viewing_museum_id": "cleveland",
+    "collection": "克利夫兰美术馆",
+    "accession": "1973.187",
+    "date": "约1250年",
+    "date_start": 1250,
+    "date_end": 1250,
+    "date_precision": "approximate",
+    "photo": 3356,
+    "label": 3357,
+    "photos": [
+      3356,
+      3357
+    ],
+    "medium": "青铜",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "印度教",
+    "group": "core",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L22",
+      "CMA-LION"
+    ]
+  },
+  {
+    "id": "c23",
+    "title": "神猴哈奴曼",
+    "title_en": "Hanuman",
+    "viewing_museum_id": "cleveland",
+    "collection": "克利夫兰美术馆",
+    "accession": "1980.26",
+    "date": "约1000年",
+    "date_start": 1000,
+    "date_end": 1000,
+    "date_precision": "approximate",
+    "photo": 3358,
+    "label": 3359,
+    "photos": [
+      3358,
+      3359
+    ],
+    "medium": "青铜",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "印度教",
+    "group": "core",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L23",
+      "CMA-HANUMAN"
+    ],
+    "dimensions": "高58.4厘米（馆方）"
+  },
+  {
+    "id": "c24",
+    "title": "安坐湿婆",
+    "title_en": "Shiva / Festival Image of Shiva",
+    "viewing_museum_id": "walters",
+    "collection": "沃尔特斯艺术博物馆",
+    "accession": "54.3084",
+    "date": "约1300年",
+    "date_start": 1300,
+    "date_end": 1300,
+    "date_precision": "approximate",
+    "photo": 3360,
+    "label": 3361,
+    "photos": [
+      3360,
+      3361
+    ],
+    "medium": "铜合金",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "印度教",
+    "group": "extension",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L24",
+      "WALTERS"
+    ]
+  },
+  {
+    "id": "c25",
+    "title": "持琴湿婆",
+    "title_en": "Vinadhara: Shiva as Lord of Music and Knowledge",
+    "viewing_museum_id": "seattle",
+    "collection": "西雅图亚洲艺术博物馆／SAM",
+    "accession": "64.55",
+    "date": "11世纪初",
+    "date_start": 1000,
+    "date_end": 1025,
+    "date_precision": "range",
+    "photo": 3362,
+    "label": 3363,
+    "photos": [
+      3362,
+      3363
+    ],
+    "medium": "青铜",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "印度教",
+    "group": "core",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L25",
+      "SAM"
+    ]
+  },
+  {
+    "id": "c26",
+    "title": "持琴湿婆",
+    "title_en": "Shiva as Lord of Music (Vinadhara)",
+    "viewing_museum_id": "nmaa",
+    "collection": "史密森尼国立亚洲艺术博物馆",
+    "accession": "F1997.28",
+    "date": "约950年",
+    "date_start": 950,
+    "date_end": 950,
+    "date_precision": "approximate",
+    "photo": 3364,
+    "label": 3365,
+    "photos": [
+      3364,
+      3365
+    ],
+    "medium": "青铜",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "印度教",
+    "group": "core",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L26"
+    ]
+  },
+  {
+    "id": "c27",
+    "title": "乌玛：可能的王后肖像",
+    "title_en": "Uma / Queen Sembiyan Mahadevi",
+    "viewing_museum_id": "nmaa",
+    "collection": "史密森尼国立亚洲艺术博物馆",
+    "accession": "F1929.84",
+    "date": "约990年",
+    "date_start": 990,
+    "date_end": 990,
+    "date_precision": "approximate",
+    "photo": 3366,
+    "label": 3367,
+    "photos": [
+      3366,
+      3367
+    ],
+    "medium": "青铜",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "印度教",
+    "group": "core",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L27",
+      "UMA"
+    ],
+    "notes": [
+      "年代约990年沿现场展签；馆方教育页概列10世纪。Sembiyan Mahadevi 王后肖像说是学者提出的解释。"
+    ],
+    "dimensions": "107.3 × 33.4 × 25.7厘米（馆方）"
+  },
+  {
+    "id": "c28",
+    "title": "圣童森班达尔",
+    "title_en": "Sambandar",
+    "viewing_museum_id": "nmaa",
+    "collection": "史密森尼国立亚洲艺术博物馆",
+    "accession": "F1976.5",
+    "date": "12世纪",
+    "date_start": 1100,
+    "date_end": 1199,
+    "date_precision": "range",
+    "photo": 3368,
+    "label": 3369,
+    "photos": [
+      3368,
+      3369
+    ],
+    "medium": "青铜",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "印度教",
+    "group": "core",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L28"
+    ]
+  },
+  {
+    "id": "c29",
+    "title": "湿婆舞王",
+    "title_en": "Shiva Nataraja",
+    "viewing_museum_id": "nmaa",
+    "collection": "印度政府；长期借展史密森尼国立亚洲艺术博物馆",
+    "accession": "F2003.2（原馆藏号）",
+    "date": "约990年",
+    "date_start": 990,
+    "date_end": 990,
+    "date_precision": "approximate",
+    "photo": 3370,
+    "label": 3371,
+    "photos": [
+      3370,
+      3371,
+      3372
+    ],
+    "medium": "青铜",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "印度教",
+    "group": "core",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L29",
+      "RETURN"
+    ],
+    "ownership_status": "returned_to_india_on_loan",
+    "provenance_photos": [
+      3372
+    ]
+  },
+  {
+    "id": "c30",
+    "title": "站立帕尔瓦蒂",
+    "title_en": "Standing Parvati",
+    "viewing_museum_id": "noma",
+    "collection": "新奥尔良美术馆",
+    "accession": "2005.182",
+    "date": "10—11世纪",
+    "date_start": 900,
+    "date_end": 1099,
+    "date_precision": "range",
+    "photo": 3373,
+    "label": 3374,
+    "photos": [
+      3373,
+      3374
+    ],
+    "medium": "铜合金",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "印度教",
+    "group": "core",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L30"
+    ]
+  },
+  {
+    "id": "c31",
+    "title": "耆那教圣者立像",
+    "title_en": "Jina",
+    "viewing_museum_id": "noma",
+    "collection": "Dr. Siddharth K. Bhansali 收藏；新奥尔良借展",
+    "accession": null,
+    "date": "13世纪",
+    "date_start": 1200,
+    "date_end": 1299,
+    "date_precision": "range",
+    "photo": 3375,
+    "label": 3376,
+    "photos": [
+      3375,
+      3376
+    ],
+    "medium": "铜合金",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "耆那教",
+    "group": "core",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L31"
+    ],
+    "notes": [
+      "现场展签未列馆藏号，也未指认具体哪位耆那。"
+    ]
+  },
+  {
+    "id": "c32",
+    "title": "站立湿婆",
+    "title_en": "Standing Shiva",
+    "viewing_museum_id": "noma",
+    "collection": "新奥尔良美术馆",
+    "accession": "2019.80",
+    "date": "11世纪",
+    "date_start": 1000,
+    "date_end": 1099,
+    "date_precision": "range",
+    "photo": 3377,
+    "label": 3378,
+    "photos": [
+      3377,
+      3378
+    ],
+    "medium": "青铜，银及鎏金装饰（据展签）",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "印度教",
+    "group": "core",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L32"
+    ]
+  },
+  {
+    "id": "c33",
+    "title": "毗湿奴",
+    "title_en": "Vishnu",
+    "viewing_museum_id": "kimbell",
+    "collection": "金贝尔艺术博物馆",
+    "accession": "AG1970.01",
+    "date": "13世纪",
+    "date_start": 1200,
+    "date_end": 1299,
+    "date_precision": "range",
+    "photo": 3379,
+    "label": 3381,
+    "photos": [
+      3379,
+      3380,
+      3381
+    ],
+    "medium": "青铜",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "印度教",
+    "group": "core",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L33",
+      "KIMBELL"
+    ],
+    "dimensions": "85.7 × 34 × 32.7厘米（馆方）"
+  },
+  {
+    "id": "c34",
+    "title": "坐姿帕尔瓦蒂",
+    "title_en": "Parvati",
+    "viewing_museum_id": "sama",
+    "collection": "Rose Marie 与 John L. Hendry III 收藏；圣安东尼奥借展",
+    "accession": "L.2019.4.2",
+    "date": "11世纪",
+    "date_start": 1000,
+    "date_end": 1099,
+    "date_precision": "range",
+    "photo": 3382,
+    "label": 3383,
+    "photos": [
+      3382,
+      3383
+    ],
+    "medium": "青铜",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "印度教",
+    "group": "core",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L34"
+    ]
+  },
+  {
+    "id": "c35",
+    "title": "圣童森班达尔",
+    "title_en": "The Child-saint Sambandar (Tirujñāna Saṁbandha)",
+    "viewing_museum_id": "allen",
+    "collection": "艾伦纪念美术馆",
+    "accession": "1968.4",
+    "date": "13—14世纪",
+    "date_start": 1200,
+    "date_end": 1399,
+    "date_precision": "range",
+    "photo": 3384,
+    "label": 3385,
+    "photos": [
+      3384,
+      3385
+    ],
+    "medium": "青铜",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "印度教",
+    "group": "extension",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L35",
+      "ALLEN"
+    ]
+  },
+  {
+    "id": "c36",
+    "title": "南迪圣牛",
+    "title_en": "Nandi",
+    "viewing_museum_id": "nmaa",
+    "collection": "史密森尼国立亚洲艺术博物馆",
+    "accession": "F1985.30",
+    "date": "12世纪",
+    "date_start": 1100,
+    "date_end": 1199,
+    "date_precision": "range",
+    "photo": 3388,
+    "label": 3389,
+    "photos": [
+      3388,
+      3389
+    ],
+    "medium": "青铜",
+    "region": "印度南部，泰米尔纳德",
+    "religion": "印度教",
+    "group": "core",
+    "object_count": 1,
+    "visit_date": null,
+    "viewing_evidence": "作者确认的现场观看；日期未提供",
+    "source_ids": [
+      "L36"
+    ]
+  }
+]

@@ -1,0 +1,125 @@
+[
+  {
+    "museum_id": "dallas",
+    "label_zh": "达拉斯艺术博物馆",
+    "name_en": "Dallas Museum of Art",
+    "city": "达拉斯",
+    "latitude": 32.788,
+    "longitude": -96.801,
+    "url": "https://dma.org/",
+    "coordinates_precision": "institution_navigation",
+    "coordinate_source": "本站喜马拉雅艺术馆址数据"
+  },
+  {
+    "museum_id": "mfah",
+    "label_zh": "休斯顿美术馆",
+    "name_en": "The Museum of Fine Arts, Houston",
+    "city": "休斯顿",
+    "latitude": 29.726,
+    "longitude": -95.39,
+    "url": "https://www.mfah.org/",
+    "coordinates_precision": "institution_navigation"
+  },
+  {
+    "museum_id": "met",
+    "label_zh": "纽约大都会艺术博物馆",
+    "name_en": "The Metropolitan Museum of Art",
+    "city": "纽约",
+    "latitude": 40.779,
+    "longitude": -73.963,
+    "url": "https://www.metmuseum.org/",
+    "coordinates_precision": "institution_navigation"
+  },
+  {
+    "museum_id": "nelson",
+    "label_zh": "纳尔逊—阿特金斯艺术博物馆",
+    "name_en": "The Nelson-Atkins Museum of Art",
+    "city": "堪萨斯城",
+    "latitude": 39.045,
+    "longitude": -94.581,
+    "url": "https://nelson-atkins.org/",
+    "coordinates_precision": "institution_navigation"
+  },
+  {
+    "museum_id": "cleveland",
+    "label_zh": "克利夫兰美术馆",
+    "name_en": "Cleveland Museum of Art",
+    "city": "克利夫兰",
+    "latitude": 41.509,
+    "longitude": -81.612,
+    "url": "https://www.clevelandart.org/",
+    "coordinates_precision": "institution_navigation"
+  },
+  {
+    "museum_id": "walters",
+    "label_zh": "沃尔特斯艺术博物馆",
+    "name_en": "The Walters Art Museum",
+    "city": "巴尔的摩",
+    "latitude": 39.297,
+    "longitude": -76.616,
+    "url": "https://thewalters.org/",
+    "coordinates_precision": "institution_navigation"
+  },
+  {
+    "museum_id": "seattle",
+    "label_zh": "西雅图亚洲艺术博物馆／SAM",
+    "name_en": "Seattle Asian Art Museum / Seattle Art Museum",
+    "city": "西雅图",
+    "latitude": 47.63,
+    "longitude": -122.315,
+    "url": "https://www.seattleartmuseum.org/",
+    "coordinates_precision": "institution_navigation"
+  },
+  {
+    "museum_id": "nmaa",
+    "label_zh": "史密森尼国立亚洲艺术博物馆",
+    "name_en": "National Museum of Asian Art",
+    "city": "华盛顿",
+    "latitude": 38.888,
+    "longitude": -77.027,
+    "url": "https://asia.si.edu/",
+    "coordinates_precision": "institution_navigation"
+  },
+  {
+    "museum_id": "noma",
+    "label_zh": "新奥尔良美术馆",
+    "name_en": "New Orleans Museum of Art",
+    "city": "新奥尔良",
+    "latitude": 29.9865,
+    "longitude": -90.0932,
+    "url": "https://noma.org/",
+    "coordinates_precision": "institution_navigation"
+  },
+  {
+    "museum_id": "kimbell",
+    "label_zh": "金贝尔艺术博物馆",
+    "name_en": "Kimbell Art Museum",
+    "city": "沃思堡",
+    "latitude": 32.749,
+    "longitude": -97.365,
+    "url": "https://kimbellart.org/",
+    "coordinates_precision": "institution_navigation"
+  },
+  {
+    "museum_id": "sama",
+    "label_zh": "圣安东尼奥美术馆",
+    "name_en": "San Antonio Museum of Art",
+    "city": "圣安东尼奥",
+    "latitude": 29.437,
+    "longitude": -98.482,
+    "url": "https://www.samuseum.org/",
+    "coordinates_precision": "institution_navigation"
+  },
+  {
+    "museum_id": "allen",
+    "label_zh": "艾伦纪念美术馆",
+    "name_en": "Allen Memorial Art Museum, Oberlin College",
+    "city": "奥伯林",
+    "latitude": 41.2934,
+    "longitude": -82.2164,
+    "url": "https://amam.oberlin.edu/",
+    "coordinates_precision": "approximate_institution_navigation",
+    "coordinate_source": "https://amam.oberlin.edu/visit",
+    "address": "87 North Main Street, Oberlin, OH 44074"
+  }
+]
