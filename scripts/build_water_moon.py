@@ -21,7 +21,7 @@ def topic_info(root=ROOT):
                 intro='以宋辽金前后的观音木雕为主线，从观看地图与近代收藏记录回到每尊像；另设延展小辑，比较不同姿态与材料。',
                 ids=guide['core_ids']+guide['extended_ids'],core_ids=guide['core_ids'],
                 extended_ids=guide['extended_ids'],extended_url='extended/',hero=215,
-                note='主线保留截至波特兰的八尊木雕；波特兰13—14世纪像作为相邻时期参照。其余四件收在延展看，作品ID与原记录不变。')
+                note=f'主线保留截至波特兰的八尊木雕；波特兰13—14世纪像作为相邻时期参照。另有{len(guide["extended_ids"])}件收在延展看，作品ID与原记录不变。')
 
 
 def land_paths(geo, bounds, width, height):
@@ -48,7 +48,7 @@ def build(root=ROOT, objects=None, museums=None, render=None, viewer=lightbox, s
     render=render or partial(render_card,museums=museums)
     guide=load_guide(root)
     core,extra=guide['core_ids'],guide['extended_ids']
-    by_id={int(o['id'].split('-')[1]):o for o in objects}
+    by_id={(int(o['id'][7:]) if o['id'][7:].isdigit() else o['id'][7:]):o for o in objects}
     assert not set(core)&set(extra)
     assert len(core+extra)==len(set(core+extra))
     assert set(m['museum_id'] for m in guide['map']['museums'])=={by_id[n]['museum'] for n in core}
@@ -107,14 +107,14 @@ def build(root=ROOT, objects=None, museums=None, render=None, viewer=lightbox, s
             records.append(mini(rec['work'],content))
         dealers.append(f'''<details class="wm-dealer" id="dealer-{dealer['id']}"><summary><span class="wm-dealer-label">{e(dealer['name'])}<small>{e(dealer['english'])} · {len(dealer['records'])} 件相关作品</small></span><span class="wm-disclosure" aria-hidden="true">＋</span></summary><div class="wm-dealer-body"><p>{e(dealer['intro'])}</p><div class="wm-records">{''.join(records)}</div></div></details>''')
     dealer_section=f'''<section class="wrap wm-section" id="dealers"><p class="eyebrow">ANOTHER WAY TO CONNECT</p><h2>沿着古董商的名字重看</h2><p class="wm-lead">有些相隔很远的作品，在近代收藏记录里又碰到一起。这里按经手人的名字并看，分别说明交易、收藏与捐赠；相关作品来自主线，也来自延展。</p>{''.join(dealers)}<p class="source">这些是各馆已公布的流转片段，并不能据此确定同一寺院、作坊或完整离散路线。其余作品暂不归入商人组；没有记录，也不等于没有经手关系。</p></section>'''
-    extensions=f'''<section class="wrap wm-section" id="extensions"><p class="eyebrow">FURTHER LOOKING</p><h2><a href="extended/">延展看：水月图像的不同材料 →</a></h2><p class="wm-lead">从宾大的宽厚木雕，转向干漆、金属与覆金漆塑。四件作品移到独立小辑，保留各自的全图、札记与资料。</p><div class="wm-extension-grid">{''.join(mini(n,legacy=True) for n in extra)}</div></section>'''
+    extensions=f'''<section class="wrap wm-section" id="extensions"><p class="eyebrow">FURTHER LOOKING</p><h2><a href="extended/">延展看：水月图像的不同材料 →</a></h2><p class="wm-lead">从宾大的宽厚木雕，转向青白瓷、干漆、金属与覆金漆塑。{len(extra)}件作品收在独立小辑，保留各自的全图、札记与资料。</p><div class="wm-extension-grid">{''.join(mini(n,legacy=True) for n in extra)}</div></section>'''
     def relocated(extended=False):
         prefix='../../' if extended else '../'
         return '<aside class="wrap editorial-note">'+''.join(f'<p id="object-{x["id"]}" data-extension-target="{prefix}{x["path"]}#object-{x["id"]}"><a href="{prefix}{x["path"]}#object-{x["id"]}">{e(x["title"])} →</a>：{e(x["reason"])}</p>' for x in guide.get('relocated',[]))+'</aside>'
     ending='''<section class="wrap topic-next"><h2>接着看</h2><a href="../song-liao-jin-wood/">五代至元木雕 →</a><a href="../dry-lacquer/">干漆与漆塑 →</a><a href="../yixian-luohan/">易县三彩罗汉 →</a></section>'''
     path=root/'museum-notes/water-moon-guanyin';(path/'extended').mkdir(parents=True,exist_ok=True)
     (path/'index.html').write_text(shell('水月观音',intro+poem+map_section+collection+dealer_section+extensions+relocated()+ending))
-    ext_intro=f'''<nav class="breadcrumbs wrap" aria-label="当前位置"><a href="../">水月观音</a><span>/</span><span>延展看</span></nav><header class="wrap wm-extension-header"><p class="eyebrow">FURTHER LOOKING</p><h1>延展看</h1><p class="subtitle">水月图像的延展</p><p>一膝抬起的姿态，在不同的材料与年代里，形成了不同的体量与衣纹。这里从宾大木雕继续看向干漆、金属与漆塑；各件年代仍沿用馆方记录，材料与样式并不排成单一的演变顺序。</p><nav class="wm-nav" aria-label="延展导览"><a href="../#collection">← 八尊木雕主线</a><a href="../#museum-map">观看地图</a><a href="../#dealers">古董商线索</a><a href="#collection">细看四件作品 ↓</a></nav></header>'''
+    ext_intro=f'''<nav class="breadcrumbs wrap" aria-label="当前位置"><a href="../">水月观音</a><span>/</span><span>延展看</span></nav><header class="wrap wm-extension-header"><p class="eyebrow">FURTHER LOOKING</p><h1>延展看</h1><p class="subtitle">水月图像的延展</p><p>一膝抬起的姿态，在不同的材料与年代里，形成了不同的体量与衣纹。这里从宾大木雕继续看向青白瓷、干漆、金属与漆塑；各件年代仍沿用馆方记录，材料与样式并不排成单一的演变顺序。</p><nav class="wm-nav" aria-label="延展导览"><a href="../#collection">← 八尊木雕主线</a><a href="../#museum-map">观看地图</a><a href="../#dealers">古董商线索</a><a href="#collection">细看{len(extra)}件作品 ↓</a></nav></header>'''
     ext_cards=''.join('<section class="wm-extension-work"><p class="wm-lead">'+e(guide['extension_notes'][str(n)])+'</p>'+card(n,i,True)+'</section>' for i,n in enumerate(extra))
     ext_body=ext_intro+f'<section class="wrap collection" id="collection"><div class="collection-heading"><h2>姿态之外，再看材料</h2><p>{len(extra)} 件作品</p></div><div class="wm-extension-works">{ext_cards}</div></section><section class="wrap topic-next"><a href="../">← 回到水月观音主辑</a><a href="../../dry-lacquer/">干漆与漆塑造像 →</a></section>'
     (path/'extended/index.html').write_text(shell('延展看 · 水月观音',ext_body+relocated(True),True))

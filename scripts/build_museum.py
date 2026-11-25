@@ -13,7 +13,7 @@ from functools import partial
 from sculpture_cards import render_card as sculpture_card, lightbox
 render_card = partial(sculpture_card, museums=museums)
 materials = [
-    ('ceramic', '陶瓷造像', '三彩釉陶与炻器造像，逐件保留馆方材料记录。'),
+    ('ceramic', '陶瓷造像', '三彩釉陶、炻器与瓷塑，逐件保留馆方材料记录。'),
     ('wood', '木雕', '以木为主要结构，保留彩绘、贴金与后世修整的记录。'),
     ('lacquer', '干漆与漆塑', '夹纻干漆与其他漆塑分别注明，细看不同的成形方式。'),
     ('stone', '石雕', '从砂岩到石灰岩，记录石质、雕刻与残存色彩。'),

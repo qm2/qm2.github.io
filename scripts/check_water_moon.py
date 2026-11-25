@@ -49,7 +49,7 @@ topic=next(t for t in metadata['topics'] if t['id']=='water-moon-guanyin')
 assert topic['ids']==g['core_ids']+g['extended_ids']
 assert topic['core_ids']==g['core_ids']
 assert all(by_id[w]['photo'] in (BASE/('index.html' if w in main.works else 'extended/index.html')).read_text() for w in main.works+ext.works)
-print('PASS: 8 main / 4 extension; canonical photos, museum map, provenance edges, local images, links, anchors and metadata.')
+print('PASS: 8 main / 5 extension; canonical photos, museum map, provenance edges, local images, links, anchors and metadata.')
 
 assert 'object-199' not in main.works+ext.works
 assert by_id['object-194480']['museum']=='bma'

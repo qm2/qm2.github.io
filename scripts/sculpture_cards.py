@@ -13,6 +13,12 @@ def render_card(o, i, image_prefix="images/", *, museums):
     if o['url']: detail += f'<p class="source"><a href="{e(o["url"])}" target="_blank" rel="noopener noreferrer">{e(o.get("source_title", "馆方藏品记录"))} ↗</a></p>'
     for photo in o.get('related_photos', []):
         detail += f'<figure class="related-photo"><a class="photo-link" href="{photo.get("original_url") or asset_url(image_prefix,photo["photo"])}" data-caption="{e(photo["caption"])}" aria-label="放大照片：{e(photo["caption"])}"><img src="{asset_url(image_prefix,photo["photo"])}"{responsive_attributes(photo)} alt="{e(photo["caption"])}" width="{photo["width"]}" height="{photo["height"]}" loading="lazy"><span class="photo-hint">查看大图 ↗</span></a><figcaption>{e(photo["caption"])}</figcaption></figure>'
+    for group in o.get('photo_groups', []):
+        detail += '<details class="sc-photo-group"><summary>'+e(group['title'])+'</summary><div class="sc-detail-gallery">'
+        for photo in group['photos']:
+            url=photo.get('original_url') or asset_url(image_prefix,photo['photo'])
+            detail += f'<figure><a class="photo-link" href="{url}" data-caption="{e(photo["caption"])}" aria-label="放大：{e(photo["caption"])}"><img src="{asset_url(image_prefix,photo["photo"])}"{responsive_attributes(photo, "(max-width:650px) 42vw, 320px")} alt="{e(photo["caption"])}" width="{photo["width"]}" height="{photo["height"]}" loading="lazy"></a><figcaption>{e(photo["caption"])}</figcaption></figure>'
+        detail += '</div></details>'
     if o.get('archived_photos'):
         detail += '<details class="previous-photos"><summary>此前观看的照片</summary>'
         for photo in o['archived_photos']:

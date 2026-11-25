@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22",
+  "updated": "2026-11-24",
   "museums": {
     "rijks": [
       "荷兰国立博物馆",
@@ -437,10 +437,11 @@
     },
     {
       "id": "object-217",
-      "photo": "nelson-217.jpg",
-      "source_photo": "Image_20260920173556_217_19.jpg",
+      "photo": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/nelson-51-42/full-front-900.webp",
+      "source_photo": "400d7780f30fbbcd1b4905e376bcbbc3.jpg",
       "label_photos": [
-        "Image_20260920173601_219_19.jpg"
+        "Image_20260920173601_219_19.jpg",
+        "43f4d27e2da5b304d5150e008b1b68af.jpg"
       ],
       "museum": "nelson",
       "title": "菩萨立像",
@@ -454,15 +455,69 @@
       "story": "展签记载，封闭背腔内发现一份折叠文书，记录此像于1348年修缮、重彩，并列出工匠、施主及“大云寺禅堂”的名称。",
       "url": "",
       "caveat": "",
-      "width": 1279,
-      "height": 1706
+      "width": 1280,
+      "height": 1707,
+      "archived_photos": [
+        {
+          "photo": "nelson-217.jpg",
+          "source_photo": "Image_20260920173556_217_19.jpg",
+          "width": 1279,
+          "height": 1706,
+          "caption": "此前观看的正面照片"
+        }
+      ],
+      "original_url": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/originals/nelson-51-42/full-front.jpg",
+      "variants": [
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/nelson-51-42/full-front-400.webp",
+          "width": 400
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/nelson-51-42/full-front-900.webp",
+          "width": 900
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/nelson-51-42/full-front-1280.webp",
+          "width": 1280
+        }
+      ],
+      "photo_groups": [
+        {
+          "title": "现场展签 · 51-42",
+          "photos": [
+            {
+              "source_photo": "43f4d27e2da5b304d5150e008b1b68af.jpg",
+              "original_url": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/originals/nelson-51-42/label.jpg",
+              "width": 1280,
+              "height": 1707,
+              "caption": "金代菩萨立像现场展签，51-42",
+              "variants": [
+                {
+                  "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/nelson-51-42/label-400.webp",
+                  "width": 400
+                },
+                {
+                  "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/nelson-51-42/label-900.webp",
+                  "width": 900
+                },
+                {
+                  "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/nelson-51-42/label-1280.webp",
+                  "width": 1280
+                }
+              ],
+              "photo": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/nelson-51-42/label-900.webp"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "object-218",
       "photo": "nelson-218.jpg",
       "source_photo": "Image_20260920173558_218_19.jpg",
       "label_photos": [
-        "Image_20260920173601_219_19.jpg"
+        "Image_20260920173601_219_19.jpg",
+        "ea9557045eafa24501c313462bac4b5e.jpg"
       ],
       "museum": "nelson",
       "title": "观音菩萨头像",
@@ -477,14 +532,44 @@
       "url": "",
       "caveat": "",
       "width": 1279,
-      "height": 1706
+      "height": 1706,
+      "photo_groups": [
+        {
+          "title": "现场展签 · 62-2",
+          "photos": [
+            {
+              "source_photo": "ea9557045eafa24501c313462bac4b5e.jpg",
+              "original_url": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/originals/nelson-62-2/label.jpg",
+              "width": 1280,
+              "height": 1707,
+              "caption": "金代观音菩萨头像现场展签，62-2；顶部51-42属于相邻作品",
+              "variants": [
+                {
+                  "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/nelson-62-2/label-400.webp",
+                  "width": 400
+                },
+                {
+                  "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/nelson-62-2/label-900.webp",
+                  "width": 900
+                },
+                {
+                  "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/nelson-62-2/label-1280.webp",
+                  "width": 1280
+                }
+              ],
+              "photo": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/nelson-62-2/label-900.webp"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "object-220",
-      "photo": "nelson-220.jpg",
-      "source_photo": "Image_20260920173603_220_19.jpg",
+      "photo": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/nelson-59-70/full-body-main-900.webp",
+      "source_photo": "0b47688265a743fce0dcb1817e2652e0.jpg",
       "label_photos": [
-        "Image_20260920173607_222_19.jpg"
+        "Image_20260920173607_222_19.jpg",
+        "729fd64402e48e81d44c69070e1d260f.jpg"
       ],
       "museum": "nelson",
       "title": "观音菩萨立像",
@@ -498,8 +583,61 @@
       "story": "展签认为，它可能曾站在三尊造像中央主尊的一侧；冠中的小佛是馆方辨认为观音的依据。",
       "url": "",
       "caveat": "",
-      "width": 1279,
-      "height": 1706
+      "width": 1280,
+      "height": 1707,
+      "related_photos": [
+        {
+          "photo": "nelson-220.jpg",
+          "source_photo": "Image_20260920173603_220_19.jpg",
+          "width": 1279,
+          "height": 1706,
+          "caption": "上半身：面容、胸饰与肩部衣带"
+        }
+      ],
+      "original_url": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/originals/nelson-59-70/full-body-main.jpg",
+      "variants": [
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/nelson-59-70/full-body-main-400.webp",
+          "width": 400
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/nelson-59-70/full-body-main-900.webp",
+          "width": 900
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/nelson-59-70/full-body-main-1280.webp",
+          "width": 1280
+        }
+      ],
+      "photo_groups": [
+        {
+          "title": "现场展签 · 59-70",
+          "photos": [
+            {
+              "source_photo": "729fd64402e48e81d44c69070e1d260f.jpg",
+              "original_url": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/originals/nelson-59-70/label.jpg",
+              "width": 1280,
+              "height": 1707,
+              "caption": "元代观音菩萨立像现场展签，59-70",
+              "variants": [
+                {
+                  "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/nelson-59-70/label-400.webp",
+                  "width": 400
+                },
+                {
+                  "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/nelson-59-70/label-900.webp",
+                  "width": 900
+                },
+                {
+                  "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/nelson-59-70/label-1280.webp",
+                  "width": 1280
+                }
+              ],
+              "photo": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/nelson-59-70/label-900.webp"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "object-227",
@@ -550,7 +688,8 @@
       "photo": "cleveland-233.jpg",
       "source_photo": "Image_20260920173828_233_19.jpg",
       "label_photos": [
-        "Image_20260920173829_234_19.jpg"
+        "Image_20260920173829_234_19.jpg",
+        "10ab5b1ea56605aef5bce3e9ed911305.jpg"
       ],
       "museum": "cleveland",
       "title": "十一面观音",
@@ -565,7 +704,129 @@
       "url": "https://www.clevelandart.org/art/1981.53",
       "caveat": "",
       "width": 1279,
-      "height": 1706
+      "height": 1706,
+      "photo_groups": [
+        {
+          "title": "四处局部 · 面容、冠饰与衣纹",
+          "photos": [
+            {
+              "source_photo": "9d9a8f7012efb51c2a9d05cc3e10ca3b.jpg",
+              "original_url": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/originals/cleveland-1981-53/face-crown.jpg",
+              "width": 1280,
+              "height": 1707,
+              "caption": "面容与层叠冠部：低垂的眼睑和上方小面孔",
+              "variants": [
+                {
+                  "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/cleveland-1981-53/face-crown-400.webp",
+                  "width": 400
+                },
+                {
+                  "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/cleveland-1981-53/face-crown-900.webp",
+                  "width": 900
+                },
+                {
+                  "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/cleveland-1981-53/face-crown-1280.webp",
+                  "width": 1280
+                }
+              ],
+              "photo": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/cleveland-1981-53/face-crown-900.webp"
+            },
+            {
+              "source_photo": "7b128ba99913d058ea9eca62a54fbb96.jpg",
+              "original_url": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/originals/cleveland-1981-53/lower-drapery.jpg",
+              "width": 1280,
+              "height": 1707,
+              "caption": "腰裙近照：金色衣缘与红绿残彩",
+              "variants": [
+                {
+                  "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/cleveland-1981-53/lower-drapery-400.webp",
+                  "width": 400
+                },
+                {
+                  "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/cleveland-1981-53/lower-drapery-900.webp",
+                  "width": 900
+                },
+                {
+                  "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/cleveland-1981-53/lower-drapery-1280.webp",
+                  "width": 1280
+                }
+              ],
+              "photo": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/cleveland-1981-53/lower-drapery-900.webp"
+            },
+            {
+              "source_photo": "be69f5e63c4faa1ce7a445c825b324ca.jpg",
+              "original_url": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/originals/cleveland-1981-53/upper-oblique-a.jpg",
+              "width": 1280,
+              "height": 1707,
+              "caption": "斜侧上身：面容、胸饰与腰间衣带",
+              "variants": [
+                {
+                  "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/cleveland-1981-53/upper-oblique-a-400.webp",
+                  "width": 400
+                },
+                {
+                  "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/cleveland-1981-53/upper-oblique-a-900.webp",
+                  "width": 900
+                },
+                {
+                  "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/cleveland-1981-53/upper-oblique-a-1280.webp",
+                  "width": 1280
+                }
+              ],
+              "photo": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/cleveland-1981-53/upper-oblique-a-900.webp"
+            },
+            {
+              "source_photo": "cd6fad8611dcb865a327e943fc6167c2.jpg",
+              "original_url": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/originals/cleveland-1981-53/upper-oblique-b.jpg",
+              "width": 1280,
+              "height": 1707,
+              "caption": "另一斜侧：肩臂与躯干的轮廓",
+              "variants": [
+                {
+                  "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/cleveland-1981-53/upper-oblique-b-400.webp",
+                  "width": 400
+                },
+                {
+                  "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/cleveland-1981-53/upper-oblique-b-900.webp",
+                  "width": 900
+                },
+                {
+                  "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/cleveland-1981-53/upper-oblique-b-1280.webp",
+                  "width": 1280
+                }
+              ],
+              "photo": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/cleveland-1981-53/upper-oblique-b-900.webp"
+            }
+          ]
+        },
+        {
+          "title": "现场展签 · 1981.53",
+          "photos": [
+            {
+              "source_photo": "10ab5b1ea56605aef5bce3e9ed911305.jpg",
+              "original_url": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/originals/cleveland-1981-53/label.jpg",
+              "width": 1280,
+              "height": 1707,
+              "caption": "十一面观音现场展签，1981.53",
+              "variants": [
+                {
+                  "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/cleveland-1981-53/label-400.webp",
+                  "width": 400
+                },
+                {
+                  "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/cleveland-1981-53/label-900.webp",
+                  "width": 900
+                },
+                {
+                  "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/cleveland-1981-53/label-1280.webp",
+                  "width": 1280
+                }
+              ],
+              "photo": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/cleveland-1981-53/label-900.webp"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "object-257",
@@ -1436,6 +1697,52 @@
           ],
           "photo": "https://images.mertonmuseum.com/museum-notes/water-moon-guanyin/bma-1944-80/previews/db7c2ba176f4a895d932e776783b992e-1600.webp",
           "caption": "水月观音现场展签 · BMA 1944.80"
+        }
+      ]
+    },
+    {
+      "source_photo": "df1931a5bcefe71151a5db6ef1e3c25b.jpg",
+      "original_url": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/originals/nelson-35-5/full-front.jpg",
+      "width": 1280,
+      "height": 1707,
+      "variants": [
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/nelson-35-5/full-front-400.webp",
+          "width": 400
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/nelson-35-5/full-front-900.webp",
+          "width": 900
+        },
+        {
+          "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/nelson-35-5/full-front-1280.webp",
+          "width": 1280
+        }
+      ],
+      "photo": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/previews/nelson-35-5/full-front-900.webp",
+      "id": "object-nelson-35-5",
+      "museum": "nelson",
+      "title": "青白瓷观音坐像",
+      "original_title": "Guanyin Bodhisattva",
+      "date": "元，约1298年",
+      "material": "青白瓷（影青釉瓷）",
+      "material_group": "ceramic",
+      "group": "seated",
+      "accession": "35-5",
+      "label_photos": [
+        "6ff3ce5848bcd4c999c2f4733bdfadc0.jpg"
+      ],
+      "observation": "一膝支起，右臂搭在膝上，左手撑住座面。低垂的眼睑、胸前的珠饰与柔软的衣带，使浅色釉面上的明暗也显得细腻。",
+      "story": "熟悉的自在坐姿，在这里以瓷塑呈现。下裙并非通体覆釉，局部露出较温暖的胎色。现场展签提出，这可能与原计划施彩有关，也可能出于施釉问题。底部所记、对应1298—1299年的日期，为同类元代瓷塑的断代提供了参照。",
+      "caveat": "馆方线上年代为约1298年，现场展签写约1298—1299年。本站按自在坐图像将它纳入“延展看”，馆方原题名为Guanyin Bodhisattva。",
+      "url": "https://art.nelson-atkins.org/objects/2138/guanyin-bodhisattva",
+      "source_title": "纳尔逊－阿特金斯：35-5馆藏记录",
+      "note_sections": [
+        {
+          "title": "尺寸与入藏",
+          "text": "高51.44、宽30.48、深19.69厘米。1935年经Laurence Sickman购入，购藏资金来自William Rockhill Nelson Trust。",
+          "url": "https://art.nelson-atkins.org/objects/2138/guanyin-bodhisattva",
+          "source_title": "馆方尺寸与来源记录"
         }
       ]
     }

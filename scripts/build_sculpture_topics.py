@@ -68,7 +68,7 @@ def build(root, objects, museums, render_card, lightbox):
         'object-205':'明代青铜观音，待金属造像专题。',
         'object-221':'明代青铜菩萨，待金属造像专题。'}
     assert set(by_id)-selected == set(archive_reasons), 'Every unselected work needs an explicit review.'
-    coverage=[dict(id=o['id'],title=o['title'],topics=[t['id'] for t in topics if int(o['id'].split('-')[1]) in t['ids']],archive_reason=archive_reasons.get(o['id'],'')) for o in objects]
+    coverage=[dict(id=o['id'],title=o['title'],topics=[t['id'] for t in topics if o['id'] in {f'object-{n}' for n in t['ids']}],archive_reason=archive_reasons.get(o['id'],'')) for o in objects]
     (root/'museum-notes/buddhist-sculpture/data/topic-coverage.json').write_text(json.dumps(coverage,ensure_ascii=False,indent=2)+'\n')
     (root/'museum-notes/buddhist-sculpture/data/topics.json').write_text(json.dumps({'updated':'2026-10-08','topics':topics,'planned':[],'archived_ids':[o['id'] for o in objects if o['id'] not in selected]},ensure_ascii=False,indent=2)+'\n')
     print(f'Built {len(topics)} curated sculpture topics, {len(selected)} selected works; retained archive URLs.')
