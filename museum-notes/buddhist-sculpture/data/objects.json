@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "museums": {
     "rijks": [
       "荷兰国立博物馆",
@@ -452,20 +452,11 @@
       "group": "bodhisattva",
       "accession": "51-42",
       "observation": "衣带沿身体翻转，深刻的衣纹在展厅光线下形成鲜明的明暗。",
-      "story": "展签记载，封闭背腔内发现一份折叠文书，记录此像于1348年修缮、重彩，并列出工匠、施主及“大云寺禅堂”的名称。",
-      "url": "",
-      "caveat": "",
+      "story": "这尊菩萨像背的封闭空腔里，保存着一份折叠文书。瞿炼刊出的释文记至正九年五月，即1349年：当时重妆的是佛与菩萨三尊像。雕刻之后，重新施彩、整修与供奉还在继续；这张纸留下的，是造像在元代被照料的一次记录。",
+      "url": "https://art.nelson-atkins.org/objects/18434/standing-bodhisattva",
+      "caveat": "作品仍依馆方列为金代。馆方展签和网页记1348年及“大云寺禅堂”；瞿炼刊布墨书则释为1349年、太云禅院。此处研究札记采用后者，同时保留现场展签供对照。重妆日期不等于雕刻日期。",
       "width": 1280,
       "height": 1707,
-      "archived_photos": [
-        {
-          "photo": "nelson-217.jpg",
-          "source_photo": "Image_20260920173556_217_19.jpg",
-          "width": 1279,
-          "height": 1706,
-          "caption": "此前观看的正面照片"
-        }
-      ],
       "original_url": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/revisits/2026-11-24/originals/nelson-51-42/full-front.jpg",
       "variants": [
         {
@@ -509,7 +500,66 @@
             }
           ]
         }
-      ]
+      ],
+      "inscription": {
+        "title": "像腹里的重妆记录",
+        "photo": {
+          "photo": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/research/nelson-51-42/inscription-900.webp",
+          "original_url": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/research/nelson-51-42/nelson-51-42-consecration-inscription.png",
+          "width": 1227,
+          "height": 981,
+          "caption": "纳尔逊51-42像内发现的墨书。图源：瞿炼《金元时期晋南“汾河木雕流派”的风格及演变》，《故宫博物院院刊》2017年第2期，第74页，图四；非本站作者拍摄。",
+          "alt": "纳尔逊51-42菩萨立像像内墨书，右起竖行书写，记至正九年重妆及太云禅院；论文图版，非作者拍摄",
+          "variants": [
+            {
+              "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/research/nelson-51-42/inscription-400.webp",
+              "width": 400
+            },
+            {
+              "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/research/nelson-51-42/inscription-900.webp",
+              "width": 900
+            },
+            {
+              "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/research/nelson-51-42/inscription-1227.webp",
+              "width": 1227
+            }
+          ]
+        },
+        "transcription": "大元国弟十帝至正九年五月日重\n妆佛菩萨圣像三尊\n待诏冯小大补\n妆待诏本县辛村並南样社\n辛待诏景待诏等\n本寺僧银尊宿琛尚座\n体讲主演讲主爱讲主\n並大众等三十众施工\n敕赐太云禅院置",
+        "transcription_note": "据瞿炼刊布释文分九行录入，保留“弟”“並”等原字；断行不等于现代句读。",
+        "translation": "元至正九年五月，为佛、菩萨三尊圣像重新妆銮。记名者包括待诏冯小大，以及本县辛村、南样社的辛、景姓补妆工匠，另列本寺僧人与大众。末尾说明由敕赐太云禅院置办。",
+        "reading_note": "“重妆”指重新妆銮、施彩等维护。“待诏”在这里是工匠称谓，记录的是此次元代重妆的参与者。“补”与下一行的“妆”要连读；人名、僧职相连，今译只转述大意。“三尊”没有交代每尊的具体身份。",
+        "source_url": "https://www.dpm.org.cn/Uploads/File/2018/05/31/u5b0fa73682e93.pdf",
+        "source_title": "瞿炼，2017，页73—74、图四"
+      },
+      "note_sections": [
+        {
+          "title": "从太云禅院找到泰云寺",
+          "text": "瞿炼将文中的太云禅院、南样社，与广胜寺及水神庙碑记对照，考证为洪洞县石桥村的泰云寺。这让一尊离开殿堂的木像，重新有了可以追寻的供奉地点。",
+          "url": "https://www.dpm.org.cn/Uploads/File/2018/05/31/u5b0fa73682e93.pdf#page=4",
+          "source_title": "瞿炼，2017，页73—75"
+        },
+        {
+          "title": "木雕与壁画之间的工匠线索",
+          "text": "1324年水神庙壁画题记中的南样景彦政，与1349年墨书中的景待诏，提示了地方匠户的联系。瞿炼据此讨论绘画和造像的关联；这还不能确定两人就是同一个人。",
+          "url": "https://www.dpm.org.cn/Uploads/File/2018/05/31/u5b0fa73682e93.pdf#page=4",
+          "source_title": "瞿炼，2017，页74"
+        },
+        {
+          "title": "寺史旁读：慧宽托寺祭祖",
+          "text": "论文还引1261年碑记：慧宽在亲属亡故后，捐田给太云禅院，并托寺僧祭祖。这是寺史背景，并非像内又一份文书。",
+          "url": "https://www.dpm.org.cn/Uploads/File/2018/05/31/u5b0fa73682e93.pdf#page=4",
+          "source_title": "瞿炼，2017，页74"
+        },
+        {
+          "title": "研究出处",
+          "text": "瞿炼：《金元时期晋南“汾河木雕流派”的风格及演变》，《故宫博物院院刊》2017年第2期（总190期），页71—80；本尊重点见页73—75，图三、图四见页74。",
+          "url": "https://www.dpm.org.cn/journal/246738.html",
+          "source_title": "故宫博物院：论文及PDF"
+        }
+      ],
+      "source_title": "纳尔逊—阿特金斯博物馆 · 51-42",
+      "photo_credit": "基本信息据现场展签与馆方记录整理；现场照片 © Merton；墨书图来源见图注。"
     },
     {
       "id": "object-218",

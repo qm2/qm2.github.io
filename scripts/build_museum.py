@@ -53,7 +53,7 @@ html=f'''<!doctype html>
 <article><span class="chapter-number">03</span><h3>从寺院走进博物馆</h3><p>有些来源只能追溯到近代市场。卢芹斋经手过纳尔逊馆的南海观音；山中商会则出现在沃尔特斯佛像的记录中。每条线索都落实到具体作品。</p><a href="#object-238">看山中商会经手的佛坐像 ↗</a></article></div></section>
 <div class="wrap">{material_nav()}</div>
 {collection_markup(objects)}
-<aside class="editorial-note wrap"><h2>关于这一辑</h2><p>照片均为Merton在博物馆参观时拍摄，作品资料见各件展签记录与所附文献。相近的自在坐姿，在各馆有“水月观音”“南海观音”等不同题名。</p><p class="source">首辑整理：2026年9月 · 持续补充</p></aside>
+<aside class="editorial-note wrap"><h2>关于这一辑</h2><p>现场照片由Merton在博物馆参观时拍摄，引用的文献图单独署明来源。作品资料见各件展签记录与所附文献。相近的自在坐姿，在各馆有“水月观音”“南海观音”等不同题名。</p><p class="source">首辑整理：2026年9月 · 持续补充</p></aside>
 </main><footer class="site-footer wrap"><a href="../">← 返回博物馆首页</a><span>Merton · 博物馆札记</span><a href="#top">回到顶部 ↑</a></footer>
 {lightbox}
 </body></html>'''
@@ -81,7 +81,7 @@ for key,name,description in materials:
 <body id="top"><a class="skip-link" href="#collection">跳至藏品</a><header class="site-header"><a class="signature" href="../">Merton</a><nav aria-label="主导航"><a href="../chinese-buddhist-art/">中国佛教艺术</a><a href="../buddhist-sculpture/">自在之姿专题</a></nav></header>
 <main><nav class="breadcrumbs wrap" aria-label="当前位置"><a href="../">博物馆札记</a><span>/</span><a href="../chinese-buddhist-art/">中国佛教艺术</a><span>/</span><span>{name}</span></nav><section class="category-header wrap"><p class="eyebrow">MUSEUM NOTES / MATERIAL</p><h1>{name}</h1><p class="index-intro">{description}</p><p class="category-count">{len(selection)} 件造像 · 持续补充</p>{material_nav(active=key)}</section>
 {collection_markup(selection, '../buddhist-sculpture/images/')}
-<aside class="editorial-note wrap"><h2>材料与归类</h2><p>彩绘、贴金与髹漆属于表面处理时，作品仍按主要结构归类。夹纻干漆与其他漆塑单列；多种材料共同成形的作品另列“复合材料”。具体工艺以每件作品的展签和札记为准。</p><p>馆名记录观看地点；借展作品的所属收藏见作品资料。</p></aside></main><footer class="site-footer wrap"><a href="../chinese-buddhist-art/">← 返回中国佛教艺术</a><span>摄影 / Merton</span><a href="#top">回到顶部 ↑</a></footer>{lightbox}</body></html>''')
+<aside class="editorial-note wrap"><h2>材料与归类</h2><p>彩绘、贴金与髹漆属于表面处理时，作品仍按主要结构归类。夹纻干漆与其他漆塑单列；多种材料共同成形的作品另列“复合材料”。具体工艺以每件作品的展签和札记为准。</p><p>馆名记录观看地点；借展作品的所属收藏见作品资料。</p></aside></main><footer class="site-footer wrap"><a href="../chinese-buddhist-art/">← 返回中国佛教艺术</a><span>{"现场摄影 / Merton；文献图见图注" if any(o.get("inscription") for o in selection) else "摄影 / Merton"}</span><a href="#top">回到顶部 ↑</a></footer>{lightbox}</body></html>''')
 print(f'Generated notebook, collection ({len(objects)} objects), and {len(materials)} material pages.')
 
 sections = json.loads((ROOT/'museum-notes'/'sections.json').read_text())

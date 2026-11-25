@@ -5,6 +5,14 @@ from museum_assets import asset_url, responsive_attributes
 def render_card(o, i, image_prefix="images/", *, museums):
     m,city,en=museums[o['museum']]
     detail = f'<p>{e(o["story"])}</p>' if o['story'] else ''
+    if o.get('inscription'):
+        ins = o['inscription']
+        photo = ins['photo']
+        variants = dict(photo, variants=[dict(v, path=asset_url(image_prefix,v['path'])) for v in photo.get('variants',[])])
+        original = photo.get('original_url') or asset_url(image_prefix,photo['original_photo'])
+        detail = f'<h4>{e(ins["title"])}</h4>' + detail
+        detail += f'''<figure class="sc-inscription-image"><a class="photo-link" href="{e(original)}" data-caption="{e(photo['caption'])}" aria-label="放大墨书图"><img src="{asset_url(image_prefix,photo['photo'])}"{responsive_attributes(variants)} width="{photo['width']}" height="{photo['height']}" alt="{e(photo['alt'])}" loading="lazy"><span class="photo-hint">查看原图 ↗</span></a><figcaption>{e(photo['caption'])} <a href="{e(ins['source_url'])}" target="_blank" rel="noopener noreferrer">论文图四 ↗</a></figcaption></figure>
+        <details class="sc-inscription-text"><summary>装藏文书：九行释文与今译</summary><p class="source">{e(ins['transcription_note'])}</p><h4>释文</h4><p class="sc-transcription">{e(ins['transcription'])}</p><h4>今译</h4><p>{e(ins['translation'])}</p><p>{e(ins['reading_note'])}</p><p class="source"><a href="{e(ins['source_url'])}" target="_blank" rel="noopener noreferrer">{e(ins['source_title'])} ↗</a></p></details>'''
     for section in o.get('note_sections', []):
         detail += f'<section class="note-section"><h4>{e(section["title"])}</h4><p>{e(section["text"])}</p></section>'
         if section.get('url'):
@@ -25,7 +33,7 @@ def render_card(o, i, image_prefix="images/", *, museums):
             url=photo.get('original_url') or asset_url(image_prefix,photo['photo'])
             detail += f'<figure class="related-photo"><a class="photo-link" href="{url}" data-caption="{e(photo["caption"])}"><img src="{asset_url(image_prefix,photo["photo"])}" alt="{e(photo["caption"])}" width="{photo["width"]}" height="{photo["height"]}" loading="lazy"></a><figcaption>{e(photo["caption"])}</figcaption></figure>'
         detail += '</details>'
-    detail += '<p class="source">基本信息据现场展签整理；照片 © Merton。</p>'
+    detail += '<p class="source">'+e(o.get('photo_credit','基本信息据现场展签整理；照片 © Merton。'))+'</p>'
     personal = ''
     for note in o.get('personal_notes', []):
         if not note.get('text', '').strip():
