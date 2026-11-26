@@ -14,7 +14,16 @@ def render_card(o, i, image_prefix="images/", *, museums):
         detail += f'''<figure class="sc-inscription-image"><a class="photo-link" href="{e(original)}" data-caption="{e(photo['caption'])}" aria-label="放大墨书图"><img src="{asset_url(image_prefix,photo['photo'])}"{responsive_attributes(variants)} width="{photo['width']}" height="{photo['height']}" alt="{e(photo['alt'])}" loading="lazy"><span class="photo-hint">查看原图 ↗</span></a><figcaption>{e(photo['caption'])} <a href="{e(ins['source_url'])}" target="_blank" rel="noopener noreferrer">论文图四 ↗</a></figcaption></figure>
         <details class="sc-inscription-text"><summary>装藏文书：九行释文与今译</summary><p class="source">{e(ins['transcription_note'])}</p><h4>释文</h4><p class="sc-transcription">{e(ins['transcription'])}</p><h4>今译</h4><p>{e(ins['translation'])}</p><p>{e(ins['reading_note'])}</p><p class="source"><a href="{e(ins['source_url'])}" target="_blank" rel="noopener noreferrer">{e(ins['source_title'])} ↗</a></p></details>'''
     for section in o.get('note_sections', []):
-        detail += f'<section class="note-section"><h4>{e(section["title"])}</h4><p>{e(section["text"])}</p></section>'
+        detail += f'<section class="note-section"><h4>{e(section["title"])}</h4>'
+        if section.get('subtitle'):
+            detail += f'<h5>{e(section["subtitle"])}</h5>'
+        detail += f'<p>{e(section["text"])}</p>'
+        if section.get('photo'):
+            photo = section['photo']
+            detail += f'<figure class="related-photo"><a class="photo-link" href="{photo.get("original_url") or asset_url(image_prefix,photo["photo"])}" data-caption="{e(photo["caption"])}" aria-label="放大照片：{e(photo["caption"])}"><img src="{asset_url(image_prefix,photo["photo"])}"{responsive_attributes(photo)} alt="{e(photo["caption"])}" width="{photo["width"]}" height="{photo["height"]}" loading="lazy"><span class="photo-hint">查看大图 ↗</span></a><figcaption>{e(photo["caption"])}</figcaption></figure>'
+        if section.get('transcription'):
+            detail += f'<blockquote class="sc-colophon"><p>{e(section["transcription"])}</p></blockquote><p class="source">{e(section["transcription_source"])}</p><p>{e(section["interpretation"])}</p>'
+        detail += '</section>'
         if section.get('url'):
             detail += f'<p class="source"><a href="{e(section["url"])}" target="_blank" rel="noopener noreferrer">{e(section["source_title"])} ↗</a></p>'
     if o['caveat']: detail += f'<p class="record-note">{e(o["caveat"])}</p>'
