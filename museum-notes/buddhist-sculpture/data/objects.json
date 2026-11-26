@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "museums": {
     "rijks": [
       "荷兰国立博物馆",
@@ -169,7 +169,85 @@
       "url": "https://www.rijksmuseum.nl/en/collection/object/Guanyin--f0a89d281d74f34cb0df0f13a22d4e00",
       "caveat": "",
       "width": 1706,
-      "height": 1279
+      "height": 1279,
+      "note_sections": [
+        {
+          "title": "1930年的一张老照片",
+          "text": "1930年，霍明志在北京出版《达古斋古证录》，第299页刊出的正是今天在阿姆斯特丹所见的这尊观音。2002年荷兰国立博物馆的专题研究再次引用了这张照片，注明它摄于北京，时间为1929年或之前。高冠、低垂的视线、倚膝的右臂与舒展的坐姿，让现场所见与近百年前的影像彼此对应。",
+          "photo": {
+            "photo": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/research/rijks-195/rijks-guanyin-daguzhai-1930-photo-900.webp",
+            "width": 1280,
+            "height": 1640,
+            "sha256": "f194b1ab90bae8c56a5a86050a39e6e1a25714a5dd45433abfc7e84566e0104a",
+            "variants": [
+              {
+                "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/research/rijks-195/rijks-guanyin-daguzhai-1930-photo-400.webp",
+                "width": 400
+              },
+              {
+                "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/research/rijks-195/rijks-guanyin-daguzhai-1930-photo-900.webp",
+                "width": 900
+              },
+              {
+                "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/research/rijks-195/rijks-guanyin-daguzhai-1930-photo-1280.webp",
+                "width": 1280
+              }
+            ],
+            "caption": "观音坐像的早期照片，摄于北京，1929年或之前；刊于霍明志《达古斋古证录》（1930），第299页。文献图，非本人拍摄。",
+            "alt": "荷兰国立博物馆观音坐像的早期黑白照片，高冠，右臂倚膝，表面保留繁密覆饰。",
+            "original_url": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/research/rijks-195/rijks-guanyin-daguzhai-1930-photo.jpg"
+          },
+          "url": "https://bulletin.rijksmuseum.nl/article/download/19993/21659/49378#page=18",
+          "source_title": "Lorne等，2002，页380—381、图16"
+        },
+        {
+          "title": "表面的变化",
+          "text": "老照片里的表面覆饰与今天并不相同。造像1946年曾接受移除覆纸及涂层等修复处理；它如今的面貌，也包含了长期供奉、重饰和近代修复留下的历史。",
+          "url": "https://bulletin.rijksmuseum.nl/article/download/19993/21659/49378#page=18",
+          "source_title": "Lorne等，2002，页381—383：1946年的修复"
+        },
+        {
+          "title": "旧图题与今天的断代",
+          "text": "原书图题作“六朝木像”，法文作“Statue en bois, (Liou-Tch’ao).”。这是1930年图录中的旧断代；本页仍沿用约1100—1200年。老书页在这里保存的是造像的早期影像与当时的认识。"
+        },
+        {
+          "title": "文献出处",
+          "text": "Paul Houo-Ming-Tse（霍明志），Preuves des antiquités de Chine《达古斋古证录》，北京，1930年，第299页。Aleth Lorne、Petra Rösch、Pauline Lunsingh Scheurleer：“The Chinese Wooden Sculpture of Guanyin: New Technical and Art Historical Insights”，The Rijksmuseum Bulletin 50，第3期（2002），页364—389；老照片见页381、图16。",
+          "url": "https://bulletin.rijksmuseum.nl/article/view/19993",
+          "source_title": "荷兰国立博物馆馆刊 · 论文与全文入口"
+        }
+      ],
+      "photo_groups": [
+        {
+          "title": "查看完整书页 · 《达古斋古证录》第299页",
+          "photos": [
+            {
+              "photo": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/research/rijks-195/daguzhai-1930-page-299-900.webp",
+              "width": 1280,
+              "height": 1880,
+              "sha256": "42e9e23f4a818f2c520610260608faef7996f4c2f643039f44d560255ab8e181",
+              "variants": [
+                {
+                  "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/research/rijks-195/daguzhai-1930-page-299-400.webp",
+                  "width": 400
+                },
+                {
+                  "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/research/rijks-195/daguzhai-1930-page-299-900.webp",
+                  "width": 900
+                },
+                {
+                  "path": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/research/rijks-195/daguzhai-1930-page-299-1280.webp",
+                  "width": 1280
+                }
+              ],
+              "caption": "《达古斋古证录》第299页原页，图题为“六朝木像”。这一旧断代与本页采用的约1100—1200年不同。用户提供电子本，非本人拍摄。",
+              "alt": "1930年《达古斋古证录》第299页，包含观音老照片、六朝木像图题及法文说明。",
+              "original_url": "https://images.mertonmuseum.com/museum-notes/buddhist-sculpture/research/rijks-195/daguzhai-1930-page-299.jpg"
+            }
+          ]
+        }
+      ],
+      "photo_credit": "现场摄影 © Merton；文献图来源另见图注。"
     },
     {
       "id": "object-235",

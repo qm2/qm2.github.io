@@ -2,6 +2,12 @@
 from html import escape as e
 from museum_assets import asset_url, responsive_attributes
 
+def photo_attributes(photo, prefix, sizes="(max-width:650px) 92vw, (max-width:1000px) 80vw, 900px"):
+    record = dict(photo)
+    if photo.get('variants'):
+        record['variants'] = [dict(v, path=asset_url(prefix,v['path'])) for v in photo['variants']]
+    return responsive_attributes(record, sizes)
+
 def render_card(o, i, image_prefix="images/", *, museums):
     m,city,en=museums[o['museum']]
     detail = f'<p>{e(o["story"])}</p>' if o['story'] else ''
@@ -20,7 +26,7 @@ def render_card(o, i, image_prefix="images/", *, museums):
         detail += f'<p>{e(section["text"])}</p>'
         if section.get('photo'):
             photo = section['photo']
-            detail += f'<figure class="related-photo"><a class="photo-link" href="{photo.get("original_url") or asset_url(image_prefix,photo["photo"])}" data-caption="{e(photo["caption"])}" aria-label="放大照片：{e(photo["caption"])}"><img src="{asset_url(image_prefix,photo["photo"])}"{responsive_attributes(photo)} alt="{e(photo["caption"])}" width="{photo["width"]}" height="{photo["height"]}" loading="lazy"><span class="photo-hint">查看大图 ↗</span></a><figcaption>{e(photo["caption"])}</figcaption></figure>'
+            detail += f'<figure class="related-photo"><a class="photo-link" href="{photo.get("original_url") or asset_url(image_prefix,photo.get("original_photo",photo["photo"]))}" data-caption="{e(photo["caption"])}" aria-label="放大照片：{e(photo["caption"])}"><img src="{asset_url(image_prefix,photo["photo"])}"{photo_attributes(photo,image_prefix)} alt="{e(photo.get("alt",photo["caption"]))}" width="{photo["width"]}" height="{photo["height"]}" loading="lazy"><span class="photo-hint">查看大图 ↗</span></a><figcaption>{e(photo["caption"])}</figcaption></figure>'
         if section.get('transcription'):
             detail += f'<blockquote class="sc-colophon"><p>{e(section["transcription"])}</p></blockquote><p class="source">{e(section["transcription_source"])}</p><p>{e(section["interpretation"])}</p>'
         detail += '</section>'
@@ -29,18 +35,18 @@ def render_card(o, i, image_prefix="images/", *, museums):
     if o['caveat']: detail += f'<p class="record-note">{e(o["caveat"])}</p>'
     if o['url']: detail += f'<p class="source"><a href="{e(o["url"])}" target="_blank" rel="noopener noreferrer">{e(o.get("source_title", "馆方藏品记录"))} ↗</a></p>'
     for photo in o.get('related_photos', []):
-        detail += f'<figure class="related-photo"><a class="photo-link" href="{photo.get("original_url") or asset_url(image_prefix,photo["photo"])}" data-caption="{e(photo["caption"])}" aria-label="放大照片：{e(photo["caption"])}"><img src="{asset_url(image_prefix,photo["photo"])}"{responsive_attributes(photo)} alt="{e(photo["caption"])}" width="{photo["width"]}" height="{photo["height"]}" loading="lazy"><span class="photo-hint">查看大图 ↗</span></a><figcaption>{e(photo["caption"])}</figcaption></figure>'
+        detail += f'<figure class="related-photo"><a class="photo-link" href="{photo.get("original_url") or asset_url(image_prefix,photo.get("original_photo",photo["photo"]))}" data-caption="{e(photo["caption"])}" aria-label="放大照片：{e(photo["caption"])}"><img src="{asset_url(image_prefix,photo["photo"])}"{photo_attributes(photo,image_prefix)} alt="{e(photo.get("alt",photo["caption"]))}" width="{photo["width"]}" height="{photo["height"]}" loading="lazy"><span class="photo-hint">查看大图 ↗</span></a><figcaption>{e(photo["caption"])}</figcaption></figure>'
     for group in o.get('photo_groups', []):
         detail += '<details class="sc-photo-group"><summary>'+e(group['title'])+'</summary><div class="sc-detail-gallery">'
         for photo in group['photos']:
-            url=photo.get('original_url') or asset_url(image_prefix,photo['photo'])
-            detail += f'<figure><a class="photo-link" href="{url}" data-caption="{e(photo["caption"])}" aria-label="放大：{e(photo["caption"])}"><img src="{asset_url(image_prefix,photo["photo"])}"{responsive_attributes(photo, "(max-width:650px) 42vw, 320px")} alt="{e(photo["caption"])}" width="{photo["width"]}" height="{photo["height"]}" loading="lazy"></a><figcaption>{e(photo["caption"])}</figcaption></figure>'
+            url=photo.get('original_url') or asset_url(image_prefix,photo.get('original_photo',photo['photo']))
+            detail += f'<figure><a class="photo-link" href="{url}" data-caption="{e(photo["caption"])}" aria-label="放大：{e(photo["caption"])}"><img src="{asset_url(image_prefix,photo["photo"])}"{photo_attributes(photo,image_prefix, "(max-width:650px) 42vw, 320px")} alt="{e(photo.get("alt",photo["caption"]))}" width="{photo["width"]}" height="{photo["height"]}" loading="lazy"></a><figcaption>{e(photo["caption"])}</figcaption></figure>'
         detail += '</div></details>'
     if o.get('archived_photos'):
         detail += '<details class="previous-photos"><summary>此前观看的照片</summary>'
         for photo in o['archived_photos']:
-            url=photo.get('original_url') or asset_url(image_prefix,photo['photo'])
-            detail += f'<figure class="related-photo"><a class="photo-link" href="{url}" data-caption="{e(photo["caption"])}"><img src="{asset_url(image_prefix,photo["photo"])}" alt="{e(photo["caption"])}" width="{photo["width"]}" height="{photo["height"]}" loading="lazy"></a><figcaption>{e(photo["caption"])}</figcaption></figure>'
+            url=photo.get('original_url') or asset_url(image_prefix,photo.get('original_photo',photo['photo']))
+            detail += f'<figure class="related-photo"><a class="photo-link" href="{url}" data-caption="{e(photo["caption"])}"><img src="{asset_url(image_prefix,photo["photo"])}" alt="{e(photo.get("alt",photo["caption"]))}" width="{photo["width"]}" height="{photo["height"]}" loading="lazy"></a><figcaption>{e(photo["caption"])}</figcaption></figure>'
         detail += '</details>'
     detail += '<p class="source">'+e(o.get('photo_credit','基本信息据现场展签整理；照片 © Merton。'))+'</p>'
     personal = ''
