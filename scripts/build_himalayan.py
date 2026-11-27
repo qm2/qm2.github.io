@@ -94,7 +94,7 @@ def build(base=BASE, integrate=True):
     def facts(w):
         rel={'regional_attribution':'地域归属','candidate_origin':'候选制作地区','style_and_candidate_origin':'风格联系／候选制作地区'}
         assoc='；'.join(pb[a['place_id']]['label_zh']+'（'+rel.get(a['relationship'],'相关地区')+'）' for a in w['map_associations'])
-        fields=[('原题名',w['title_en']),('年代',w['date_label']),('材料',w.get('materials_display') or '尚未核录'),('尺寸',w.get('dimensions_display')),('收藏／展出',collection(w)),('馆藏号',w.get('accession')),('地区与传统',assoc)]
+        fields=[('原题名',w['title_en']),('年代',w['date_label']),('材料',w.get('materials_display') or '尚未核录'),('尺寸',w.get('dimensions_display')),('收藏／展出',collection(w)),('馆藏号',w.get('accession')),('原馆藏号',w.get('former_accession')),('地区与传统',assoc)]
         return '<dl class="ha-facts">'+''.join(f'<dt>{k}</dt><dd>{e(v)}</dd>' for k,v in fields if v)+'</dl>'
     def links(w):return '<p class="ha-note">'+' · '.join(f'<a href="{e(a["href"])}">{e(a["label"])} →</a>' for a in w.get('site_links',[]))+'</p>' if w.get('site_links') else ''
     def notes(w):return ''.join('<p class="ha-note">'+e(t)+'</p>' for t in w['reader_notes'])

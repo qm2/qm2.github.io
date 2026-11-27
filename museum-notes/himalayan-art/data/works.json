@@ -1420,7 +1420,10 @@
     "editorial_notes": "同一私人借展作品重复拍摄，1518暂选主图；不是两件不同观音。",
     "metadata_basis": "photographed_label",
     "verification_status": "photo_label_checked",
-    "source_ids": [],
+    "source_ids": [
+      "S1510-PAL",
+      "S1510-1922"
+    ],
     "uncertainties": [],
     "primary_selection_reason": "1518底座完整、周边留白较均衡；1510主体更满但底沿紧。两照面部仍受展厅顶光影响。",
     "input_group_id": "met-private",
@@ -1440,12 +1443,21 @@
     ],
     "exchange_extension": false,
     "date_values_usage": "date_start/end仅用于宽年代筛选；以date_label及date_history呈现学术断代，不作为精确制作年。",
-    "date_history": [],
+    "date_history": [
+      {
+        "source": "大都会现场展签；Pal，2017",
+        "date": "约1100年"
+      },
+      {
+        "source": "佳士得Lot 233，2017",
+        "date": "12世纪"
+      }
+    ],
     "origin_status": "region_only",
-    "origin_note": "按照片展签的地域／风格归属登记；不是完整来源史。",
+    "origin_note": "印度东北部，比哈尔（现场展签）；原寺院未详。",
     "scope_basis": "related_eastern_indian_tradition",
     "style_region_ids": [],
-    "research_state": "reading_draft",
+    "research_state": "researched",
     "map_associations": [
       {
         "place_id": "pala-bihar",
@@ -1455,7 +1467,7 @@
     ],
     "collection_museum_id": null,
     "display_museum_id": "met",
-    "collection_label": "私人收藏；在大都会借展",
+    "collection_label": "私人收藏",
     "museum_label": "纽约大都会艺术博物馆",
     "has_shared_frame": false,
     "default_gallery_photos": [
@@ -1470,9 +1482,22 @@
     "primary_path": "images/originals/h1518.jpg",
     "thumbnail_path": "images/h1518-400.webp",
     "reader_notes": [
-      "私人收藏，借展于大都会艺术博物馆。"
+      "私人收藏借展于纽约大都会；原波士顿美术馆编号22.381不是大都会馆藏号。",
+      "纽约佳士得，2017年3月14日，Lot 233；公布成交价24,663,500美元。"
     ],
-    "material_evidence_url": "https://images.mertonmuseum.com/museum-notes/pala-stone/originals/Image_20261123140251_3279_19.jpg"
+    "material_evidence_url": "https://images.mertonmuseum.com/museum-notes/pala-stone/originals/Image_20261123140251_3279_19.jpg",
+    "dimensions_display": "高147.4厘米（2017年佳士得测量）",
+    "former_accession": "波士顿美术馆22.381（1922—1935）",
+    "catalogue_paragraphs": [
+      "高冠与珠饰、斜伸的右腿和卷曲莲茎，使这尊大型观音在重量之中保留柔和的转折。大都会现场照与2017年佳士得Lot 233、1922年馆刊图8的残损及构图一致，可对应为原波士顿美术馆22.381号藏品。",
+      "1922年入藏、1935年售出，随后经过纽约拍卖与意大利私人收藏，再以私人借展身份进入大都会。完整的图像比较、库玛拉斯瓦米与1935年馆藏替换的讨论，集中收在帕拉专题精读。"
+    ],
+    "site_links": [
+      {
+        "label": "重点精读：一尊观音的百年旅程",
+        "href": "/museum-notes/pala-stone/w1510/"
+      }
+    ]
   },
   {
     "work_id": "w1512",

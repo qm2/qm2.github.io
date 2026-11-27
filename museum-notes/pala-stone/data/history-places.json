@@ -41,13 +41,15 @@
     "lon": 87.284,
     "type": "寺院与修学中心",
     "period": "达摩波罗时期创立；11世纪阿底峡与之相关",
-    "text": "位于比哈尔东部Antichak。教学、译传与寺院供养在这里汇合；它帮助理解图像与知识怎样进入喜马拉雅地区。",
-    "relation": "可联系东印度佛教图像观看；本辑没有确认出土于此的作品",
-    "works": [
-      "w1510"
-    ],
+    "text": "位于比哈尔东部Antichak。11世纪阿底峡与这里相关；约1100年前后，无畏生护的著作题记又称他为超戒寺学者。寺院中的教学、仪轨与图像知识，帮助理解东印度与喜马拉雅地区的联系。[[R1510-HORI]]",
+    "relation": "这里是时代背景地点；世间自在观音的制作地仅定位到比哈尔地区，原寺院未详。",
+    "works": [],
     "source": "H-VIKRAMA",
-    "coordinate_source": "G-VIKRAMA"
+    "coordinate_source": "G-VIKRAMA",
+    "reading_link": {
+      "href": "../w1510/#monasteries",
+      "label": "参读：约1100年的大寺院与世间自在观音"
+    }
   },
   {
     "id": "kurkihar",

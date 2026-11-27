@@ -1454,5 +1454,29 @@
       "sama-25"
     ],
     "claims": "本次现场展签；基本身份、年代、材质及出借信息。"
+  },
+  {
+    "source_id": "S1510-PAL",
+    "url": "https://www.christies.com/en/lot/lot-6061734",
+    "title": "Pratapaditya Pal，Lokanatha and Coomaraswamy: A Tale of a Divine World Savior and a Mortal Curator，2017，佳士得Lot 233",
+    "work_ids": [
+      "w1510"
+    ],
+    "claims": "已阅读全文及16条脚注；另核对原拍卖图录的配图、图注与来源表。 本件图像、约1100年的判断、可能的礼拜组合、1935年馆藏替换解释及收藏史。文中转引的著作未一概视为直接查阅。",
+    "kind": "research",
+    "checked_on": "2026-11-26",
+    "primary": true
+  },
+  {
+    "source_id": "S1510-1922",
+    "url": "https://archive.org/details/jstor-4169825",
+    "title": "A. K. Coomaraswamy，Buddhist Sculpture: Recent Acquisitions，MFA Bulletin 20:120，1922，页45–53，尤其页45、49图8、51",
+    "work_ids": [
+      "w1510"
+    ],
+    "claims": "已取得JSTOR Early Journal Content扫描本，核读本件相关段落与图8；JSTOR书目另见stable/4169825。 1922年购入、George Bruce Upton Fund、Padmapani旧题及历史照片。扫描本首页明示允许非商业网上再发布；原文及图版在美国已属公有领域。",
+    "kind": "research",
+    "checked_on": "2026-11-26",
+    "primary": true
   }
 ]

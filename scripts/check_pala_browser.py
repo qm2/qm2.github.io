@@ -10,12 +10,12 @@ with sync_playwright() as p:
   page=browser.new_page(viewport={'width':width,'height':950});page.on('pageerror',lambda error:errors.append(str(error)))
   page.add_init_script("document.addEventListener('DOMContentLoaded',()=>{document.documentElement.style.scrollBehavior='auto'})")
   page.goto(BASE.replace('pala-stone/','south-asian-art/'))
-  assert page.locator('.notebook-index > .issue-link').count()==3
+  assert page.locator('.notebook-index > .issue-link').count()==4
   for selector in ['', ' > img', ' > div']:
    boxes=[el.bounding_box() for el in page.locator('.notebook-index > .issue-link'+selector).all()]
    assert max(v['x'] for v in boxes)-min(v['x'] for v in boxes)<1
    assert max(v['width'] for v in boxes)-min(v['width'] for v in boxes)<1
-  routes=['','atlas/','compare/','guide/','journeys/','w1698/','w1508/','stories/','p3280/','p3308/','p3294/']
+  routes=['','atlas/','compare/','guide/','journeys/','w1698/','w1510/','w1508/','stories/','p3280/','p3308/','p3294/']
   if width==1440:routes=[str(f.parent.relative_to(B))+'/' for f in B.rglob('index.html')];routes=[''if s=='./'else s for s in routes]
   for slug in routes:
    r=page.goto(BASE+slug,wait_until='domcontentloaded');assert r.status==200,(slug,r.status)
@@ -71,6 +71,23 @@ with sync_playwright() as p:
   assert not page.evaluate('document.documentElement.scrollWidth>innerWidth+1')
   page.goto(BASE+'w1698/');page.locator('.ps-detail a[data-photo]').first.click();page.locator('#large-photo').evaluate('(i)=>i.decode()');assert '局部' in page.locator('#lightbox-caption').inner_text();page.keyboard.press('Escape')
   page.locator('.ps-detail figcaption a').first.click();page.locator('#large-photo').evaluate('(i)=>i.decode()');assert 'originals/' in page.locator('#large-photo').get_attribute('src');page.keyboard.press('Escape')
+  page.goto(BASE+'w1510/#boston');page.locator('.ps-research-comparison').scroll_into_view_if_needed()
+  for im in page.locator('.ps-research-comparison img').all():im.evaluate('(i)=>i.decode()')
+  for f in page.locator('.ps-research-comparison figure').all():
+   box=f.locator('img').bounding_box();cap=f.locator('figcaption').bounding_box()
+   assert abs(box['x']-cap['x'])<2 and abs(box['width']-cap['width'])<2
+   assert 0<=cap['y']-box['y']-box['height']<20
+  page.screenshot(path=str(OUT/f'w1510-history-{width}.png'))
+  page.locator('.ps-historical a[data-photo]').click();page.locator('#large-photo').evaluate('(i)=>i.decode()')
+  assert '1922' in page.locator('#lightbox-caption').inner_text() and '非本站现场摄影' in page.locator('#lightbox-caption').inner_text()
+  page.locator('#zoom-toggle').click();assert page.locator('#zoom-toggle').get_attribute('aria-pressed')=='true';page.keyboard.press('Escape')
+  page.goto(BASE+'w1510/#provenance');page.wait_for_function("document.getElementById('provenance').open")
+  assert page.locator('#provenance li').count()==10
+  page.locator('#record summary').click();assert '原馆藏号' in page.locator('#record').inner_text() and '147.4' in page.locator('#record').inner_text()
+  page.goto(BASE+'w1510/');page.locator('.ps-full img').evaluate('(i)=>i.decode()');page.screenshot(path=str(OUT/f'w1510-opening-{width}.png'))
+  page.locator('.ps-detail-row').scroll_into_view_if_needed();page.locator('.ps-detail img').evaluate('(i)=>i.decode()');page.screenshot(path=str(OUT/f'w1510-detail-{width}.png'))
+  page.goto(BASE+'compare/#lokanatha');assert page.locator('#lokanatha .ps-figure').count()==2
+  page.goto(BASE+'atlas/');page.locator('#ps-search').fill('22.381');page.wait_for_function("document.querySelector('#ps-result-count').textContent.startsWith('当前1件')");assert page.locator('[data-record-id]:visible').get_attribute('data-record-id')=='w1510'
   print('PASS',width,'layouts, map/cluster, filter/back/reload, sort, original/label lightbox, captions and sources',flush=True);page.close()
  ctx=browser.new_context(java_script_enabled=False,viewport={'width':390,'height':844});page=ctx.new_page();page.goto(BASE+'atlas/');assert page.locator('[data-record-id]').count()==24;assert page.locator('.ps-museum-buttons a').count()==12;ctx.close()
  page=browser.new_page();page.route('**/ne_110m_land.geojson',lambda route:route.abort());page.goto(BASE+'atlas/');page.wait_for_selector('#ps-filters:not([hidden])');assert page.locator('[data-record-id]').count()==24;assert page.locator('.ps-museum-buttons a').count()==12;page.close()

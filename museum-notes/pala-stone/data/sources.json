@@ -418,5 +418,82 @@
     "read_status": "已阅读馆方正文，作为同类图像的比较资料",
     "used_for": "针口饿鬼名称及观音右手施甘露的图像解释",
     "checked_on": "2026-11-23"
+  },
+  "R1510-PAL": {
+    "title": "Pratapaditya Pal，Lokanatha and Coomaraswamy: A Tale of a Divine World Savior and a Mortal Curator，2017，佳士得Lot 233",
+    "url": "https://www.christies.com/en/lot/lot-6061734",
+    "read_status": "已阅读全文及16条脚注；另核对原拍卖图录的配图、图注与来源表。",
+    "used_for": "本件图像、约1100年的判断、可能的礼拜组合、1935年馆藏替换解释及收藏史。文中转引的著作未一概视为直接查阅。",
+    "checked_on": "2026-11-26"
+  },
+  "R1510-SALE": {
+    "title": "佳士得，2017年3月16日成交后访谈",
+    "url": "https://www.christies.com/en/stories/newimport/2017/5-minutes-with/leiko-coyle-with-a-south-east-asian-pala-figure-8088",
+    "read_status": "已阅读全文并查看作品全图与细节。",
+    "used_for": "2017年3月14日成交价24,663,500美元；当时南亚艺术品拍卖纪录；整块石雕及背部空间。",
+    "checked_on": "2026-11-26"
+  },
+  "R1510-1922": {
+    "title": "A. K. Coomaraswamy，Buddhist Sculpture: Recent Acquisitions，MFA Bulletin 20:120，1922，页45–53，尤其页45、49图8、51",
+    "url": "https://archive.org/details/jstor-4169825",
+    "read_status": "已取得JSTOR Early Journal Content扫描本，核读本件相关段落与图8；JSTOR书目另见stable/4169825。",
+    "used_for": "1922年购入、George Bruce Upton Fund、Padmapani旧题及历史照片。扫描本首页明示允许非商业网上再发布；原文及图版在美国已属公有领域。",
+    "checked_on": "2026-11-26"
+  },
+  "R1510-1923": {
+    "title": "A. K. Coomaraswamy，Catalogue of the Indian Collections… Part II: Sculpture，1923，页78、图版XXXVI",
+    "url": "https://noolaham.net/project/817/81689/81689.pdf",
+    "read_status": "直接核读第78页；该扫描本图版XXXVI黑化，图版另通过2017年拍卖图录第46页所翻印的原页核对。",
+    "used_for": "22.381、Padmapani、旧著录材质与地域、1.52米旧测值；不以旧记录覆盖今天展签与拍卖测量。",
+    "checked_on": "2026-11-26"
+  },
+  "R1510-CATALOGUE": {
+    "title": "佳士得2017年拍卖图录，Lot 233；Pal图5所列MFA 35.40",
+    "url": "https://online.flipbuilder.com/mpdm/mitk/files/basic-html/page55.html",
+    "read_status": "核对阅读器第48、55页（印刷页46、53）及相关配图；全文与官网文章交叉核读。",
+    "used_for": "1923年图版翻印；1935年购入立像的馆藏号35.40与图像。尚未取得该件可独立核读的MFA官方单件页。",
+    "checked_on": "2026-11-26"
+  },
+  "R1510-KIMBELL": {
+    "title": "金贝尔艺术博物馆，Bodhisattva Khasarpana Lokeshvara，AP 1970.13",
+    "url": "https://kimbellart.org/collection/ap-197013",
+    "read_status": "已读取馆方完整条目，结合本站3300、3301现场照与展签。",
+    "used_for": "空行观音的眷属、残存化佛、尺寸及来源。直接自动请求有403限制，检索服务可读取馆方正文。",
+    "checked_on": "2026-11-26"
+  },
+  "R1510-HORI": {
+    "title": "Shin’ichirō Hori，Dating of Abhayākaragupta’s Three Works…，Bulletin of the International Institute for Buddhist Studies 5，2022，页13–19",
+    "url": "https://www.jstage.jst.go.jp/article/biibs/5/0/5_13/_pdf/-char/en",
+    "read_status": "已阅读全文、表格与注释。",
+    "used_for": "罗摩波罗与无畏生护的年代关系；题记称无畏生护为超戒寺学者。只作时代参照，不用于确定本像原寺院。",
+    "checked_on": "2026-11-26"
+  },
+  "R1510-VAJRAVALI": {
+    "title": "David Jackson、Christian Luczanits，Mandala of Manjuvajra of the Vajravali Set Commissioned in Memory of Lama Dampa，Project Himalayan Art，2023",
+    "url": "https://rubinmuseum.org/projecthimalayanart/essays/mandala-of-manjuvajra-of-the-vajravali-set-commissioned-in-memory-of-lama-dampa/",
+    "read_status": "已阅读正文及相关注释，重点为Mandalas of the Vajravali与The Beri Painting Style两节。",
+    "used_for": "Vajrāvalī与Niṣpannayogāvalī的分工，以及东印度图像与仪轨在西藏的延续。",
+    "checked_on": "2026-11-26"
+  },
+  "R1510-NALANDA": {
+    "title": "UNESCO，那烂陀大寺考古遗址",
+    "url": "https://whc.unesco.org/en/list/1502/",
+    "read_status": "已阅读遗址说明与突出普遍价值段落。",
+    "used_for": "那烂陀的寺院、教育、佛殿与艺术遗存；不作为本像出土地证据。",
+    "checked_on": "2026-11-26"
+  },
+  "R1510-COO": {
+    "title": "American Institute for Sri Lankan Studies，Coomaraswamy Albums",
+    "url": "https://www.aisls.org/coomaraswamy-albums/",
+    "read_status": "已阅读公开说明及传记简介。",
+    "used_for": "库玛拉斯瓦米1877–1947年，1917–1947年在波士顿美术馆任职。",
+    "checked_on": "2026-11-26"
+  },
+  "R1510-KEVORKIAN": {
+    "title": "Yelena Rakic，Kevorkian, Hagop，Encyclopaedia Iranica，2020",
+    "url": "https://www.iranicaonline.org/articles/kevorkian-hagop/",
+    "read_status": "已阅读完整条目；未另称核读其转引的档案或专著。",
+    "used_for": "商人、收藏者与博物馆间的联系，主要近东／伊斯兰艺术业务及收藏中的印度古物；基金会与后续拍卖。",
+    "checked_on": "2026-11-26"
   }
 }

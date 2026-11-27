@@ -1,6 +1,6 @@
 # 帕拉黑石造像
 
-24件作品、48张作者现场照片；20件核心、2件地域延展、2件前史比较。五条阅读线索、24篇短文、神话参考、历史导览、六组并看、十二家观看博物馆的地图与完整图录。
+24件作品、48张作者现场照片；20件核心、2件地域延展、2件前史比较。五条阅读线索、24篇作品札记、神话参考、历史导览、七组并看、十二家观看博物馆的地图与完整图录。
 
 ## 编辑与生成
 
@@ -10,7 +10,7 @@
 - `data/museums.json`：实际观看馆址；作品收藏机构另列。地图不代表古代制作地或出土地。
 - `content/guide.md`：历史与观看；`content/journeys.md`：黑石的远行。
 - `data/history-places.json` / `history-periods.json`：历史地点与年代背景，相关作品复用catalogue，现代河道复用本站Natural Earth数据。
-- `data/comparisons.json` / `provenance-routes.json`：六组并看与三条有记录的收藏时间线。
+- `data/comparisons.json` / `provenance-routes.json`：七组并看与四条有记录的收藏时间线。
 - `data/details.json`：原片局部、裁切范围、原片校验和、实际像素尺寸。`scripts/prepare_pala_details.py` 可重新生成。
 - `data/sources.json`：具体来源、查阅范围、核对日期。`[[来源ID]]` 生成短引用，原资料集中列在资料页。
 - `data/atlas-index.json` 是生成文件，不直接编辑。
@@ -43,3 +43,9 @@ python3 scripts/check_pala_browser.py http://127.0.0.1:8774
 首轮审阅时保留本地；2026-11-23用户随后授权提交部署。封面采用3300全图，原24件/48张/12馆/9条共用身份不变。新增11处原片局部、22张WebP约2.5MB，已上传既有R2并逐张核对公开响应的SHA256。仓库仅保留裁切参数与公开URL；本地衍生图保存在 `museum/pala-stone-assets/images/details/`。原片未改写，裁切未补画或放大。
 
 当前共31页。`REVIEW_2026-11-23.md` 记录内容范围、证据缺口与验收。截图保存在 `/tmp/pala-refine/final/`，四封面候选比较在 `/tmp/pala-refine/covers-1440.jpg` 和 `covers-390.jpg`。
+
+### w1510：1922年出版照片与收藏史
+
+`himalayan-art/data/works.json`继续维护作品身份、尺寸与原波士顿编号；本站`readings.json`维护长文，`provenance-routes.json`共用收藏时间线。1935年立像35.40的编号据Pal图5，官方单件记录尚待查得。
+
+`research-images.json`单列1922年馆刊第49页图8，来自JSTOR Early Journal Content / Internet Archive的原刊扫描（美国公有领域），不计入48张现场摄影。它与现场3278号并看；冠部、身体局部仍来自3278原片，未补画。外部历史影像及衍生图上传R2，原刊、提取记录和上传校验保存在本机`museum/w1510-research-assets`，不向Git加入整本PDF或拍卖图录图片。来源的实际查阅范围见`sources.json`。

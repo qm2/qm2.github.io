@@ -51,7 +51,7 @@ def main():
     if unquote(parts.fragment) not in cache[key]:bad.append((str(p),u,'missing anchor'))
  assert not bad,bad
  assert not list(BASE.rglob('*.jpg'))
- details=load('details');assert len(details)==11
+ details=load('details');assert len(details)==12
  for d in details:
   assert d['work'] in by and str(d['photo']) in media
   assert d['source_sha256']==media[str(d['photo'])]['sha256']
@@ -64,7 +64,14 @@ def main():
     with Image.open(image) as im:assert im.size==(v['width'],v['height'])
    assert v['width']<=d['width'] and v['height']<=d['height']
  assert not list(BASE.rglob('*.webp'))
+ assert by['w1510']['dimensions'].startswith('高147.4') and '22.381' in by['w1510']['former_accession']
+ assert by['w1510']['accession'] is None and by['w1510']['viewing_museum_id']=='met'
+ research=load('research-images');assert len(research)==1 and research[0]['source_id'] in sources
+ assert research[0]['work']=='w1510' and 'Public domain' in research[0]['rights']
+ assert all(v['width']<=research[0]['width'] for v in research[0]['variants'])
+ assert len([r for r in load('provenance-routes') if r['work']=='w1510'])==1
  assert {w for c in load('comparisons') for w in c['works']}<=set(by)
+ assert 'w1510' not in next(p for p in load('history-places') if p['id']=='vikramashila')['works']
  for place in load('history-places'):
   assert set(place['works'])<=set(by) and place['source'] in sources and place['coordinate_source'] in sources
  timeline=Page((BASE/'guide/index.html').read_text())

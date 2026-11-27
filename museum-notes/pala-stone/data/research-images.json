@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1510-1922",
+    "work": "w1510",
+    "width": 914,
+    "height": 1504,
+    "original_url": "https://images.mertonmuseum.com/museum-notes/pala-stone/research/1510-1922/1510-1922-original.jpg",
+    "source": "https://archive.org/download/jstor-4169825/4169825.pdf",
+    "source_id": "R1510-1922",
+    "caption": "1922年馆刊第49页，图8：当时题为Padmapani。鼻部尚未修复。",
+    "credit": "波士顿美术馆历史出版照片；1922年美国出版物，公有领域。扫描由JSTOR Early Journal Content／Internet Archive提供；非本站现场摄影。",
+    "rights": "Public domain in the United States: published in 1922. Source scan also carries JSTOR Early Journal Content noncommercial redistribution notice.",
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/pala-stone/research/1510-1922/1510-1922-400.webp",
+        "width": 400,
+        "height": 658,
+        "sha256": "d704f27243ee304c68ca441854d08f4a0df8401d48adc2b234b60fb6d48a9d0e"
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/pala-stone/research/1510-1922/1510-1922-800.webp",
+        "width": 800,
+        "height": 1316,
+        "sha256": "62f7ffbc89786f046dffff4e3faa0a14aa54c2942921c114f59d7031d011d9b3"
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/pala-stone/research/1510-1922/1510-1922-914.webp",
+        "width": 914,
+        "height": 1504,
+        "sha256": "8a1a77a001bef131b4b3464ac99b4194e0a816c2c54c888d9a6be0fc68cd18a1"
+      }
+    ]
+  }
+]

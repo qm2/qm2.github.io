@@ -172,18 +172,23 @@
     "group": "core",
     "religion": "佛教",
     "chapter": "compassion",
-    "region": "比哈尔，帕拉时期",
+    "region": "印度东北部，比哈尔；帕拉晚期",
     "date_start": 1075,
     "date_end": 1125,
     "source_ids": [
-      "L3279"
+      "L3279",
+      "R1510-PAL",
+      "R1510-SALE",
+      "R1510-1922",
+      "R1510-1923"
     ],
     "visit_date": null,
     "canonical_ref": {
       "topic": "himalayan-art",
       "work_id": "w1510"
     },
-    "short_title": "世间自在观音"
+    "short_title": "世间自在观音",
+    "viewing_context": "私人收藏借展；纽约大都会艺术博物馆"
   },
   {
     "id": "p3280",

@@ -12,3 +12,8 @@
 .ps-time-navigation button,.ps-time-navigation select{min-height:44px;border:1px solid var(--line);border-radius:2px;padding:8px 12px;background:var(--paper,#f7f3eb);color:var(--ink);font:13px var(--sans)}
 .ps-time-navigation button{cursor:pointer}.ps-time-navigation button:disabled{opacity:.4;cursor:default}.ps-time-label{font:12px var(--sans);color:var(--muted);margin-left:auto}.ps-time-navigation select:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
 @media(max-width:650px){.ps-time-navigation{gap:8px}.ps-time-label{display:none}.ps-time-navigation select{flex:1;min-width:0}.ps-time-navigation button{padding:8px;white-space:nowrap}}
+
+/* Historical comparisons retain their own credits and natural proportions. */
+.ps-reading-nav{border-block:1px solid var(--line);padding:14px 0;margin:32px 0;font:13px/1.8 var(--sans)}
+.ps-prose section[id]{scroll-margin-top:28px}.ps-research-comparison{align-items:start;gap:25px;margin:32px 0 12px}.ps-research-comparison figcaption{font-size:11px;line-height:1.9}.ps-research-comparison+.ps-caption{font:12px/1.8 var(--sans)}
+@media(max-width:650px){.ps-research-comparison{gap:28px}.ps-reading-nav{display:grid;gap:3px}.ps-reading-nav a{min-height:38px}.ps-prose>.ps-deck{font-size:20px}}

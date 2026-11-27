@@ -394,5 +394,41 @@
         "sha256": "acb93191b63087e039b3336f0d8ed90e0e14d5c48144ff43d38edb2de5046515"
       }
     ]
+  },
+  {
+    "id": "1510-body",
+    "work": "w1510",
+    "photo": 3278,
+    "after_section": 1,
+    "caption": "高束的发辫、层叠珠链与平滑胸腹；两臂内侧的透空使躯干从背板中凸显。",
+    "source_sha256": "576146a874bc189ff8dcc22b95b78f89c0e497ced1cf77cb937a4ffd19611e30",
+    "pixel_box": [
+      282,
+      35,
+      1035,
+      960
+    ],
+    "box": [
+      0.2203125,
+      0.020503807850029292,
+      0.80859375,
+      0.562390158172232
+    ],
+    "width": 753,
+    "height": 925,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/pala-stone/images/details/1510-body-360.webp",
+        "width": 360,
+        "height": 442,
+        "sha256": "efb4636e26698f8857b70e448b697265b12b77c949d716ab3b4b6835058eabb3"
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/pala-stone/images/details/1510-body-753.webp",
+        "width": 753,
+        "height": 925,
+        "sha256": "836e47e9828a6847d8cc9ebe9e02595e89cc1a6ddd867ff12a5ec23c1dcabf57"
+      }
+    ]
   }
 ]
