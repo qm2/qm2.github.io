@@ -1,0 +1,139 @@
+{
+  "large-pala-guanyin": {
+    "id": "large-pala-guanyin",
+    "title": "接近真人尺度的帕拉观音",
+    "paragraphs": [
+      "147.4厘米的世间自在观音，与124.9厘米的金贝尔空行观音，已经让观看从手中的小像转向身体与空间的相遇。Pal将前者视为大型帕拉雕塑中难得的存例；其价值不只在高度，也在一整块石材中保留下来的柔和躯干、透空与细密珠饰。[[R1510-PAL]][[R1510-KIMBELL]]",
+      "放回更广的研究中，大型观音并非孤例。亚洲协会将其139.1厘米的空行观音解释为曾置于建筑壁龛中的造像；Huntington记述Surajpur像在她调查时仍供奉于村中小庙。这些线索让我们想到殿堂里抬头相望、近前礼敬的距离，而不只是展柜中的尺寸。[[R-SCALE-ASIA]][[H-HUNTINGTON]]"
+    ],
+    "scale_note": "横条使用同一厘米比例，比较著录的整件高度，不是主尊身体的净高。背屏、台座、坐立姿态及残缺情况不同；这里是七件研究样本，不是全球存世数量或排名。",
+    "objects": [
+      {
+        "key": "w1510",
+        "kind": "亲见核心",
+        "title": "世间自在观音",
+        "record": "私人收藏，大都会借展；原MFA 22.381",
+        "date": "约1100年",
+        "region": "比哈尔",
+        "medium": "黑色绿泥石",
+        "height_cm": 147.4,
+        "height_label": "147.4厘米",
+        "url": "/museum-notes/pala-stone/w1510/",
+        "sources": [
+          "R1510-PAL",
+          "L3279"
+        ]
+      },
+      {
+        "key": "w1698",
+        "kind": "亲见核心",
+        "title": "金贝尔空行观音",
+        "record": "AP 1970.13",
+        "date": "约11—12世纪",
+        "region": "东印度",
+        "medium": "灰色片岩",
+        "height_cm": 124.9,
+        "height_label": "124.9厘米",
+        "url": "/museum-notes/pala-stone/w1698/",
+        "sources": [
+          "R1510-KIMBELL"
+        ]
+      },
+      {
+        "key": "asia-1979-39",
+        "kind": "研究对照",
+        "title": "亚洲协会空行观音",
+        "record": "1979.39",
+        "date": "11世纪末—12世纪初",
+        "region": "孟加拉",
+        "medium": "千枚岩",
+        "height_cm": 139.1,
+        "height_label": "139.1厘米",
+        "url": "https://asiasociety.qi-cms.com/web/museum/collection/explore/1979-039-bodhisattva-avalokiteshvara-in-the-form-of-khasarpana-lokeshvara/page/3",
+        "sources": [
+          "R-SCALE-ASIA"
+        ]
+      },
+      {
+        "key": "nalanda-00007",
+        "kind": "研究对照",
+        "title": "那烂陀博物馆空行观音",
+        "record": "00007；Huntington图137",
+        "date": "11世纪晚期（Huntington）",
+        "region": "那烂陀",
+        "medium": "黑石",
+        "height_cm": 125,
+        "height_label": "约125厘米",
+        "url": "https://www.academia.edu/43266236/Huntington_Pala_Sena_Schools_of_Sculpture_Pt_1_of_2",
+        "sources": [
+          "H-HUNTINGTON"
+        ]
+      },
+      {
+        "key": "surajpur",
+        "kind": "研究对照",
+        "title": "Surajpur空行观音",
+        "record": "Huntington图138",
+        "date": "11世纪末—12世纪初",
+        "region": "那烂陀附近Surajpur村",
+        "medium": "黑石",
+        "height_cm": 137,
+        "height_label": "约137厘米",
+        "url": "https://www.academia.edu/43266236/Huntington_Pala_Sena_Schools_of_Sculpture_Pt_1_of_2",
+        "sources": [
+          "H-HUNTINGTON"
+        ]
+      },
+      {
+        "key": "indian-a24123",
+        "kind": "研究对照",
+        "title": "Ghosrawan四臂观音立像",
+        "record": "Indian Museum A24123；Huntington图140",
+        "date": "约9世纪（Huntington）",
+        "region": "Ghosrawan出土",
+        "medium": "黑石",
+        "height_cm": 275,
+        "height_label": "约275厘米",
+        "url": "https://www.academia.edu/43266236/Huntington_Pala_Sena_Schools_of_Sculpture_Pt_1_of_2",
+        "sources": [
+          "H-HUNTINGTON"
+        ]
+      },
+      {
+        "key": "indian-5859",
+        "kind": "研究对照",
+        "title": "库基哈尔观音",
+        "record": "Indian Museum 5859/A25160",
+        "date": "约10世纪",
+        "region": "库基哈尔（Kurkihar，亦译俱利诃尔）",
+        "medium": "石",
+        "height_cm": 110.5,
+        "height_label": "110.5厘米",
+        "url": "https://museumsofindia.gov.in/repository/record/im_kol-5859-A25160-16071",
+        "sources": [
+          "R-SCALE-INDIA"
+        ]
+      }
+    ],
+    "notes": [
+      "那烂陀00007及Surajpur两像为立像；Ghosrawan像也是立像。Huntington以样式比较将前两件放在11世纪晚期至12世纪初，却将更高的Ghosrawan像放在约9世纪：体量并不构成由早到晚递增的序列。[[H-HUNTINGTON]]",
+      "那烂陀00007的高度与断代在此沿用Huntington图137；VMIS的Asher档案展览图注另标9—10世纪。两种判断并存，不以较大的尺寸决定年代。[[H-HUNTINGTON]][[R-SCALE-NALANDA]]"
+    ],
+    "provenance_title": "两件观音，同一位纽约商人",
+    "provenance": "亚洲协会与金贝尔的两尊空行观音，都曾经过Ben Heller。洛克菲勒三世于1967年从他手中购入前者，1979年遗赠亚洲协会；金贝尔艺术基金会则于1970年从Ben Heller, Inc.购入后者。这个交点把两件作品接入20世纪美国亚洲艺术收藏的网络，也提醒我们把私人购藏与博物馆入藏的年份分别记住。[[R-SCALE-ASIA]][[R1510-KIMBELL]]",
+    "cross_title": "再回到宋辽金的木雕观音",
+    "cross_text": "回看公元1100年前后及宋辽金时期的大型木雕水月观音，同样可以沿身体的偏转、垂下的腿和伸展的手臂，体会自在姿态如何让慈悲显得可亲。帕拉石像的莲座与眷属，中国木雕的岩座与残彩，又给这种身体不同的礼拜环境。这是一种跨地域的观看比较；各件的原寺院与具体用途，仍沿各自作品资料理解。",
+    "cross_link": {
+      "href": "/museum-notes/water-moon-guanyin/",
+      "label": "宋辽金木雕水月观音：从莲座走向岩座"
+    },
+    "sources": [
+      "R1510-PAL",
+      "R1510-KIMBELL",
+      "R-SCALE-ASIA",
+      "H-HUNTINGTON",
+      "R-SCALE-INDIA",
+      "R-SCALE-NALANDA"
+    ]
+  }
+}

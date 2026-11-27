@@ -49,3 +49,7 @@ python3 scripts/check_pala_browser.py http://127.0.0.1:8774
 `himalayan-art/data/works.json`继续维护作品身份、尺寸与原波士顿编号；本站`readings.json`维护长文，`provenance-routes.json`共用收藏时间线。1935年立像35.40的编号据Pal图5，官方单件记录尚待查得。
 
 `research-images.json`单列1922年馆刊第49页图8，来自JSTOR Early Journal Content / Internet Archive的原刊扫描（美国公有领域），不计入48张现场摄影。它与现场3278号并看；冠部、身体局部仍来自3278原片，未补画。外部历史影像及衍生图上传R2，原刊、提取记录和上传校验保存在本机`museum/w1510-research-assets`，不向Git加入整本PDF或拍卖图录图片。来源的实际查阅范围见`sources.json`。
+
+### 大型观音研究模块
+
+`data/research-modules.json`保存两件亲见核心与五件馆外研究对照的尺寸、来源及短文；w1510与compare/lokanatha通过`research_module`引用同一记录。对照不会写入catalogue、atlas-index、亲见地图或数量。比例条使用整件著录高度，固定300厘米上限，不模拟主尊人体身高。Huntington本次查阅范围为图目137、138、140和正文115—116、119页；NMMA refId 227714请求超时，未列为已读依据。

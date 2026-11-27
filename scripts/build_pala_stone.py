@@ -59,6 +59,15 @@ def build():
         return re.sub(r'\[\[([A-Z0-9-]+)\]\]',sub,e(text))
     def refs(keys):
         return '<details class="ps-notes"><summary>资料与来源</summary><ul>'+''.join(f'<li><a href="{e(source_link(k))}">{e(sources[k]["title"])}</a> · <a href="{URL}sources/#{k}">查阅说明</a></li>' for k in dict.fromkeys(keys))+'</ul></details>'
+    def research_module(key):
+        m=load('research-modules')[key];out=f'<aside class="ps-research-module" id="{m["id"]}" aria-labelledby="{m["id"]}-title"><p class="eyebrow">尺度与礼拜 · 研究札记</p><h3 id="{m["id"]}-title">{e(m["title"])}</h3>'
+        out+=''.join('<p>'+inline(p)+'</p>' for p in m['paragraphs'])
+        out+=f'<details class="ps-notes ps-scale-notes" id="{m["id"]}-sizes"><summary>展开七件作品的高度与研究出处</summary><p class="ps-caption">五件馆外研究对照不计入亲见图录。{e(m["scale_note"])}</p><div class="ps-scale-axis" aria-hidden="true"><span>0</span><span>150</span><span>300厘米</span></div><ol class="ps-scale-list">'
+        for o in m['objects']:
+            out+=f'<li data-scale-key="{o["key"]}" data-height="{o["height_cm"]}"><div class="ps-scale-heading"><a href="{e(o["url"])}">{e(o["title"])}</a><strong>{e(o["height_label"])}</strong></div><div class="ps-scale-track" aria-hidden="true"><span style="width:{o["height_cm"]/3:.4f}%"></span></div><p class="ps-scale-meta">{e(o["kind"])} · {e(o["record"])}<br>{e(o["date"])} · {e(o["region"])} · {e(o["medium"])} '+inline(''.join(f'[[{k}]]' for k in o['sources']))+'</p></li>'
+        out+='</ol>'+''.join('<p class="ps-caption">'+inline(p)+'</p>' for p in m['notes'])+'</details>'
+        out+=f'<h4>{e(m["provenance_title"])}</h4><p>'+inline(m['provenance'])+f'</p><h4>{e(m["cross_title"])}</h4><p>{e(m["cross_text"])}</p><p class="ps-caption"><a href="{m["cross_link"]["href"]}">{e(m["cross_link"]["label"])} →</a></p></aside>'
+        return out
     def heading(t,deck=''):
         return f'<header class="ps-heading"><p class="eyebrow">PALA STONE SCULPTURE · A MUSEUM NOTEBOOK</p><h1>{e(t)}</h1>'+ (f'<p class="ps-deck">{e(deck)}</p>' if deck else '')+'</header>'
     def shell(t,b,slug='',cover=3300):
@@ -96,6 +105,7 @@ def build():
             matched=[d for d in details if d['work']==w['id'] and d['after_section']==si]
             if matched:b+='<div class="ps-detail-row">'+''.join(detail_fig(d) for d in matched)+'</div>'
             if section.get('historical_compare'):b+='<div class="ps-comparison ps-research-comparison"><div>'+historical_fig(section['historical_compare'])+'</div><div>'+fig(w,cap='今日面貌：发髻、两臂断口与莲茎可与旧照片相互核对')+'</div></div><p class="ps-caption">两张照片按版面缩放，拍摄角度不同；可分别点击放大。现代现场照未作修复或补画。</p>'
+            if section.get('research_module'):b+=research_module(section['research_module'])
             if section.get('route'):
                 route=next(r for r in load('provenance-routes') if r['work']==w['id'])
                 b+='<details class="ps-notes" id="provenance"><summary>展开收藏史时间线：1922年至今</summary>'+route_list(route)+'</details>'
@@ -111,7 +121,7 @@ def build():
         if r.get('notes'):b+=''.join('<p class="ps-caption">'+e(n)+'</p>' for n in r['notes'])
         if w.get('notes'):b+=''.join('<p class="ps-caption">'+e(n)+'</p>' for n in w['notes'])
         b+=fig(w,w['label'],'现场展签')+'</details>'
-        keys=w['source_ids']+re.findall(r'\[\[([A-Z0-9-]+)\]\]',json.dumps(r,ensure_ascii=False));b+=refs(keys)
+        keys=w['source_ids']+[k for section in r['sections'] if section.get('research_module') for k in load('research-modules')[section['research_module']]['sources']]+re.findall(r'\[\[([A-Z0-9-]+)\]\]',json.dumps(r,ensure_ascii=False));b+=refs(keys)
         if w.get('canonical_url'):b+='<p class="ps-prose ps-caption">同一件作品也收在<a href="'+w['canonical_url']+'">喜马拉雅艺术作品档案</a>；这里从新照片继续看东印度的故事。</p>'
         b+='<nav class="ps-localnav"><a href="'+URL+'guide/#homeland">历史地图</a><a href="'+URL+'guide/#timeline">年代与作品</a><a href="'+URL+'journeys/">收藏史</a></nav>'
         b+='<section class="ps-section"><h2>放在一起看</h2>'+grid(r['related'])+'</section><nav class="ps-sequence" aria-label="前后作品">'
@@ -135,7 +145,7 @@ def build():
     pairs=[(p['id'],p['title'],p['works'],p['text'],p['source']) for p in load('comparisons')]
     b=heading('放在一起看','同一动作、不同身体；同一信仰、不同的参与者')+'<p class="ps-caption">照片按阅读需要缩放，不表示实物等大。点击可放大现场全图。</p><nav class="ps-localnav">'+''.join(f'<a href="#{pid}">{e(t)}</a>' for pid,t,_,_,_ in pairs)+'</nav>'
     for pid,t,ids,text,key in pairs:
-        b+=f'<section id="{pid}" class="ps-section"><h2>{e(t)}</h2><div class="ps-comparison">'+''.join('<div>'+fig(by[i])+f'<p><a href="{href(i)}">{e(by[i]["title"])} · 进入细读</a></p></div>' for i in ids)+'</div><p class="ps-prose">'+inline(text+f'[[{key}]]')+'</p>'+('<div class="ps-detail-row">'+''.join(detail_fig(d) for d in details if d['id'] in next(p['details'] for p in load('comparisons') if p['id']==pid))+'</div>')+'</section>'
+        b+=f'<section id="{pid}" class="ps-section"><h2>{e(t)}</h2><div class="ps-comparison">'+''.join('<div>'+fig(by[i])+f'<p><a href="{href(i)}">{e(by[i]["title"])} · 进入细读</a></p></div>' for i in ids)+'</div><p class="ps-prose">'+inline(text+f'[[{key}]]')+'</p>'+('<div class="ps-detail-row">'+''.join(detail_fig(d) for d in details if d['id'] in next(p['details'] for p in load('comparisons') if p['id']==pid))+'</div>')+(('<div class="ps-prose">'+research_module(pair['research_module'])+'</div>') if (pair:=next(p for p in load('comparisons') if p['id']==pid)).get('research_module') else '')+'</section>'
     write('compare','放在一起看',b,3288)
     # Atlas: accessible static catalogue first, map and linked filters enhance it.
     b=heading('所见地图与图录',f'{len(works)}件作品 · {len(museums)}家观看博物馆 · {len(media)}张现场照片')+'<p class="ps-prose">地图留下看见它们的地方。四件休斯顿借展作品的收藏方另列在作品资料中；两件更早的造像与两件相关作品，也保留各自的年代和归属。</p>'

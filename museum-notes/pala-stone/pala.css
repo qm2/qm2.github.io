@@ -17,3 +17,16 @@
 .ps-reading-nav{border-block:1px solid var(--line);padding:14px 0;margin:32px 0;font:13px/1.8 var(--sans)}
 .ps-prose section[id]{scroll-margin-top:28px}.ps-research-comparison{align-items:start;gap:25px;margin:32px 0 12px}.ps-research-comparison figcaption{font-size:11px;line-height:1.9}.ps-research-comparison+.ps-caption{font:12px/1.8 var(--sans)}
 @media(max-width:650px){.ps-research-comparison{gap:28px}.ps-reading-nav{display:grid;gap:3px}.ps-reading-nav a{min-height:38px}.ps-prose>.ps-deck{font-size:20px}}
+
+/* Shared, text-first research note; catalogue identities remain separate. */
+.ps-research-module{margin:35px 0;padding:25px 0 18px;border-block:1px solid var(--line);scroll-margin-top:25px;font:16px/1.95 var(--serif)}
+.ps-research-module>.eyebrow{font:10px/1.7 var(--sans);letter-spacing:.13em;color:var(--muted);margin:0 0 12px}
+.ps-research-module h3{font:26px/1.5 var(--serif);margin:0 0 20px}.ps-research-module h4{font:19px/1.6 var(--serif);margin:26px 0 8px}
+.ps-scale-list{list-style:none;padding:0;margin:15px 0 22px}.ps-scale-list>li{padding:0 0 18px;margin:0 0 17px;border-bottom:1px solid var(--line)}
+.ps-scale-heading{display:flex;justify-content:space-between;gap:18px;font:15px/1.7 var(--serif)}.ps-scale-heading strong{font:13px/1.9 var(--sans);white-space:nowrap;font-weight:500}
+.ps-scale-track{height:7px;background:var(--line);margin:11px 0 9px}.ps-scale-track>span{display:block;height:100%;background:#8a7460}
+.ps-scale-axis{display:grid;grid-template-columns:repeat(3,1fr);font:11px/1.8 var(--sans);color:var(--muted);margin-top:23px}
+.ps-research-module .ps-scale-meta{font:12px/1.8 var(--sans);color:var(--muted);margin:0}
+@media(max-width:650px){.ps-research-module h3{font-size:23px}.ps-scale-heading{gap:12px}.ps-research-module{padding-top:22px}.ps-scale-heading>a{min-width:0}}
+
+.ps-scale-axis span:nth-child(2){text-align:center}.ps-scale-axis span:last-child{text-align:right}

@@ -352,8 +352,8 @@
   "H-HUNTINGTON": {
     "title": "Susan L. Huntington · The “Pāla-Sena” Schools of Sculpture，Brill，1984",
     "url": "https://www.academia.edu/43266236/Huntington_Pala_Sena_Schools_of_Sculpture_Pt_1_of_2",
-    "read_status": "参阅范围：公开文本的导论开篇、库基哈尔石雕章节（印刷页102—104附近）及金属章节（141—143附近），未通读全书。OCR文本存在错误，不作为铭文录文依据。",
-    "used_for": "“帕拉—塞那”名称与王室委托的区别；库基哈尔石雕与金属造像的地方特点",
+    "read_status": "参阅范围：公开文本的导论开篇、库基哈尔石雕章节（印刷页102—104附近）及金属章节（141—143附近），未通读全书。OCR文本存在错误，不作为铭文录文依据。；另核读图目137、138、140及正文第115—116、119页的公开文本，讨论那烂陀、Surajpur与Ghosrawan；未据OCR释读铭文。",
+    "used_for": "“帕拉—塞那”名称与王室委托的区别；库基哈尔石雕与金属造像的地方特点；三件大型观音的高度、站姿、断代及作者观察到的供奉环境。",
     "checked_on": "2026-11-23"
   },
   "H-ASI": {
@@ -458,7 +458,7 @@
     "title": "金贝尔艺术博物馆，Bodhisattva Khasarpana Lokeshvara，AP 1970.13",
     "url": "https://kimbellart.org/collection/ap-197013",
     "read_status": "已读取馆方完整条目，结合本站3300、3301现场照与展签。",
-    "used_for": "空行观音的眷属、残存化佛、尺寸及来源。直接自动请求有403限制，检索服务可读取馆方正文。",
+    "used_for": "空行观音的眷属、残存化佛、尺寸及来源。直接自动请求有403限制，检索服务可读取馆方正文。；高124.9厘米，Ben Heller, Inc.经手后于1970年由Kimbell Art Foundation购入。",
     "checked_on": "2026-11-26"
   },
   "R1510-HORI": {
@@ -494,6 +494,27 @@
     "url": "https://www.iranicaonline.org/articles/kevorkian-hagop/",
     "read_status": "已阅读完整条目；未另称核读其转引的档案或专著。",
     "used_for": "商人、收藏者与博物馆间的联系，主要近东／伊斯兰艺术业务及收藏中的印度古物；基金会与后续拍卖。",
+    "checked_on": "2026-11-26"
+  },
+  "R-SCALE-ASIA": {
+    "title": "亚洲协会，空行观音，1979.39",
+    "url": "https://asiasociety.qi-cms.com/web/museum/collection/explore/1979-039-bodhisattva-avalokiteshvara-in-the-form-of-khasarpana-lokeshvara/page/3",
+    "read_status": "已核读馆方CMS公开条目的基本资料、建筑壁龛说明及来源记录。",
+    "used_for": "139.1厘米、千枚岩、孟加拉及断代；1967年洛克菲勒三世向Ben Heller购入，1979年遗赠亚洲协会。",
+    "checked_on": "2026-11-26"
+  },
+  "R-SCALE-INDIA": {
+    "title": "Indian Museum，观音，5859/A25160",
+    "url": "https://museumsofindia.gov.in/repository/record/im_kol-5859-A25160-16071",
+    "read_status": "已阅读印度博物馆国家门户对象记录。",
+    "used_for": "库基哈尔来源、约10世纪、高110.5厘米及说法姿态。馆方材料仅记Stone，未细分石种。",
+    "checked_on": "2026-11-26"
+  },
+  "R-SCALE-NALANDA": {
+    "title": "VMIS / CA&A，Situating the Great Monastery of Nalanda Through the Asher Archive",
+    "url": "https://aims.vmis.in/caa-exhibitions/exhibition/situating-the-great-monastery-of-nalanda-through-the-asher-archive/",
+    "read_status": "核读雕塑部分及00007号图注。",
+    "used_for": "记录00007号另有9—10世纪的公开断代，与Huntington的11世纪晚期判断分列。",
     "checked_on": "2026-11-26"
   }
 }

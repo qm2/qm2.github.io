@@ -50,6 +50,13 @@ def main():
     if key not in cache:cache[key]=set(Page(f.read_text()).ids)
     if unquote(parts.fragment) not in cache[key]:bad.append((str(p),u,'missing anchor'))
  assert not bad,bad
+ module=load('research-modules')['large-pala-guanyin']
+ assert len(module['objects'])==7 and sum(o['kind']=='研究对照' for o in module['objects'])==5
+ assert {o['key'] for o in module['objects'] if o['kind']=='研究对照'}.isdisjoint(by)
+ assert [o['height_cm'] for o in module['objects']]==[147.4,124.9,139.1,125,137,275,110.5]
+ for o in module['objects']:assert all(k in sources for k in o['sources'])
+ for slug in ['w1510','compare']:
+  html=(BASE/slug/'index.html').read_text();assert html.count('id="large-pala-guanyin"')==1 and html.count('data-scale-key=')==7
  assert not list(BASE.rglob('*.jpg'))
  details=load('details');assert len(details)==12
  for d in details:
