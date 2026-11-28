@@ -1,0 +1,414 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.99,
+          10.96
+        ]
+      },
+      "properties": {
+        "id": "phnom-da",
+        "name_zh": "Phnom Da／达山",
+        "relation_type": "known_site",
+        "record_ids": [
+          "C02"
+        ],
+        "related_record_ids": [],
+        "source_ids": [
+          "S02",
+          "S24"
+        ],
+        "coordinate_precision": "schematic_rounded_0.01_degree; regional_pins_broader",
+        "note": "约略遗址点；非洞窟定位"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.98,
+          11.0
+        ]
+      },
+      "properties": {
+        "id": "angkor-borei",
+        "name_zh": "Angkor Borei／吴哥波雷",
+        "relation_type": "context_site",
+        "record_ids": [],
+        "related_record_ids": [
+          "C02"
+        ],
+        "source_ids": [
+          "S24"
+        ],
+        "coordinate_precision": "schematic_rounded_0.01_degree; regional_pins_broader",
+        "note": "背景城市；不把所有Phnom Da像标为城内出土"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8,
+          13.43
+        ]
+      },
+      "properties": {
+        "id": "west-mebon",
+        "name_zh": "西梅奔与西池",
+        "relation_type": "known_site",
+        "record_ids": [
+          "W03",
+          "W04"
+        ],
+        "related_record_ids": [],
+        "source_ids": [
+          "S01"
+        ],
+        "coordinate_precision": "schematic_rounded_0.01_degree; regional_pins_broader",
+        "note": "岛寺约略点"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.87,
+          13.41
+        ]
+      },
+      "properties": {
+        "id": "angkor-wat",
+        "name_zh": "吴哥窟",
+        "relation_type": "prototype_site",
+        "record_ids": [
+          "G02"
+        ],
+        "related_record_ids": [],
+        "source_ids": [
+          "现场3537",
+          "S23"
+        ],
+        "coordinate_precision": "schematic_rounded_0.01_degree; regional_pins_broader",
+        "note": "翻模原型地点，不是现存翻模的古代出土点"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.86,
+          13.44
+        ]
+      },
+      "properties": {
+        "id": "bayon",
+        "name_zh": "巴戎寺",
+        "relation_type": "prototype_site",
+        "record_ids": [
+          "G03",
+          "G08",
+          "G12"
+        ],
+        "related_record_ids": [],
+        "source_ids": [
+          "现场3539、3549、3557"
+        ],
+        "coordinate_precision": "schematic_rounded_0.01_degree; regional_pins_broader",
+        "note": "翻模／模型的原型；不把所有巴戎风格作品挂到此点"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.87,
+          13.46
+        ]
+      },
+      "properties": {
+        "id": "preah-khan-angkor",
+        "name_zh": "吴哥圣剑寺 Preah Khan",
+        "relation_type": "known_site",
+        "record_ids": [
+          "G01"
+        ],
+        "related_record_ids": [
+          "C01"
+        ],
+        "source_ids": [
+          "S06",
+          "S16"
+        ],
+        "coordinate_precision": "schematic_rounded_0.01_degree; regional_pins_broader",
+        "note": "与Preah Khan of Kompong Svay分开"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.96,
+          13.6
+        ]
+      },
+      "properties": {
+        "id": "banteay-srei",
+        "name_zh": "女王宫 Banteay Srei",
+        "relation_type": "known_site",
+        "record_ids": [
+          "G04"
+        ],
+        "related_record_ids": [],
+        "source_ids": [
+          "S07"
+        ],
+        "coordinate_precision": "schematic_rounded_0.01_degree; regional_pins_broader",
+        "note": "只有G04有明确该寺来源；风格同名作品不自动加入"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.04,
+          12.87
+        ]
+      },
+      "properties": {
+        "id": "sambor-prei-kuk",
+        "name_zh": "三波坡雷古 Sambor Prei Kuk",
+        "relation_type": "known_site",
+        "record_ids": [
+          "G05"
+        ],
+        "related_record_ids": [],
+        "source_ids": [
+          "现场3543"
+        ],
+        "coordinate_precision": "schematic_rounded_0.01_degree; regional_pins_broader",
+        "note": "本像10世纪，遗址本身更早"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.75,
+          13.4
+        ]
+      },
+      "properties": {
+        "id": "preah-khan-kompong-svay",
+        "name_zh": "Preah Khan of Kompong Svay",
+        "relation_type": "known_site",
+        "record_ids": [
+          "G06",
+          "G09",
+          "G11"
+        ],
+        "related_record_ids": [],
+        "source_ids": [
+          "现场3545、3551、3555"
+        ],
+        "coordinate_precision": "schematic_rounded_0.01_degree; regional_pins_broader",
+        "note": "与吴哥圣剑寺不同；G14保留旧省名不强行匹配"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.86,
+          13.45
+        ]
+      },
+      "properties": {
+        "id": "royal-palace",
+        "name_zh": "吴哥城王宫台阶",
+        "relation_type": "known_site",
+        "record_ids": [
+          "G13"
+        ],
+        "related_record_ids": [],
+        "source_ids": [
+          "现场3559"
+        ],
+        "coordinate_precision": "schematic_rounded_0.01_degree; regional_pins_broader",
+        "note": "区域点"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.87,
+          13.45
+        ]
+      },
+      "properties": {
+        "id": "preah-pithu",
+        "name_zh": "吴哥城 Preah Pithu",
+        "relation_type": "known_site",
+        "record_ids": [
+          "G15"
+        ],
+        "related_record_ids": [],
+        "source_ids": [
+          "现场3563"
+        ],
+        "coordinate_precision": "schematic_rounded_0.01_degree; regional_pins_broader",
+        "note": "区域点"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.1,
+          14.07
+        ]
+      },
+      "properties": {
+        "id": "banteay-chhmar",
+        "name_zh": "班迭奇马 Banteay Chhmar",
+        "relation_type": "known_site",
+        "record_ids": [
+          "N02"
+        ],
+        "related_record_ids": [
+          "C01"
+        ],
+        "source_ids": [
+          "现场3581、3595"
+        ],
+        "coordinate_precision": "schematic_rounded_0.01_degree; regional_pins_broader",
+        "note": "C01只是候选来源，不能画确定路线"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.95,
+          14.49
+        ]
+      },
+      "properties": {
+        "id": "plai-bat-ii",
+        "name_zh": "Plai Bat II／传统Prakhon Chai青铜群",
+        "relation_type": "known_findspot",
+        "record_ids": [
+          "M02"
+        ],
+        "related_record_ids": [
+          "K01"
+        ],
+        "source_ids": [
+          "S08",
+          "S10"
+        ],
+        "coordinate_precision": "schematic_rounded_0.01_degree; regional_pins_broader",
+        "note": "约略区域点；K01是传统群归属，不能把关联画成已证明单件来源"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.1,
+          14.8
+        ]
+      },
+      "properties": {
+        "id": "buriram-region",
+        "name_zh": "泰国东北部武里南府",
+        "relation_type": "region_only",
+        "record_ids": [
+          "C04"
+        ],
+        "related_record_ids": [
+          "K01"
+        ],
+        "source_ids": [
+          "S09",
+          "S11",
+          "S12"
+        ],
+        "coordinate_precision": "schematic_rounded_0.01_degree; regional_pins_broader",
+        "note": "大范围示意，不能显示成精确出土地"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.03,
+          15.8
+        ]
+      },
+      "properties": {
+        "id": "chaiyaphum-region",
+        "name_zh": "泰国猜也奔府",
+        "relation_type": "region_only",
+        "record_ids": [
+          "K02"
+        ],
+        "related_record_ids": [],
+        "source_ids": [
+          "现场3649"
+        ],
+        "coordinate_precision": "schematic_rounded_0.01_degree; regional_pins_broader",
+        "note": "省域示意；不是考古发现点"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.54,
+          13.78
+        ]
+      },
+      "properties": {
+        "id": "koh-ker",
+        "name_zh": "贡开 Koh Ker",
+        "relation_type": "style_context_only",
+        "record_ids": [],
+        "related_record_ids": [
+          "N04",
+          "C06",
+          "C08"
+        ],
+        "source_ids": [
+          "S25",
+          "现场3585、3605、3609"
+        ],
+        "coordinate_precision": "schematic_rounded_0.01_degree; regional_pins_broader",
+        "note": "风格与时代参考点，不据此认定作品出土地"
+      }
+    }
+  ],
+  "metadata": {
+    "note": "坐标供专题地图示意；不是考古测绘。实线只用于明确原址关系；区域、风格和候选关联须采用不同图例。无原址信息的作品仅显示在观看馆地图中。"
+  }
+}

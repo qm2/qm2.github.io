@@ -176,3 +176,6 @@ build_pala_stone()
 
 from build_chola_bronzes import build as build_chola_bronzes
 build_chola_bronzes()
+
+from build_khmer_art import build as build_khmer_art
+build_khmer_art()

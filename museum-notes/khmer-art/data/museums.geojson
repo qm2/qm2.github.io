@@ -1,0 +1,272 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.35,
+          48.86
+        ]
+      },
+      "properties": {
+        "id": "guimet",
+        "city_zh": "巴黎",
+        "museum": "吉美亚洲艺术博物馆",
+        "coordinate_precision": "city_center_approximate",
+        "record_ids": [
+          "G01",
+          "G02",
+          "G03",
+          "G04",
+          "G05",
+          "G06",
+          "G07",
+          "G08",
+          "G09",
+          "G10",
+          "G11",
+          "G12",
+          "G13",
+          "G14",
+          "G15"
+        ],
+        "note": "城市定位点；表示用户观看地点，不等同于当前收藏归属或当前在展。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8,
+          32.78
+        ]
+      },
+      "properties": {
+        "id": "dma",
+        "city_zh": "达拉斯",
+        "museum": "达拉斯艺术博物馆",
+        "coordinate_precision": "city_center_approximate",
+        "record_ids": [
+          "D01",
+          "D02"
+        ],
+        "note": "城市定位点；表示用户观看地点，不等同于当前收藏归属或当前在展。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0,
+          40.71
+        ]
+      },
+      "properties": {
+        "id": "met",
+        "city_zh": "纽约",
+        "museum": "纽约大都会艺术博物馆",
+        "coordinate_precision": "city_center_approximate",
+        "record_ids": [
+          "M01",
+          "M02",
+          "M03"
+        ],
+        "note": "城市定位点；表示用户观看地点，不等同于当前收藏归属或当前在展。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.37,
+          29.76
+        ]
+      },
+      "properties": {
+        "id": "mfah",
+        "city_zh": "休斯顿",
+        "museum": "休斯顿美术馆",
+        "coordinate_precision": "city_center_approximate",
+        "record_ids": [
+          "H01",
+          "H02"
+        ],
+        "note": "城市定位点；表示用户观看地点，不等同于当前收藏归属或当前在展。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.58,
+          39.1
+        ]
+      },
+      "properties": {
+        "id": "nelson",
+        "city_zh": "堪萨斯城",
+        "museum": "纳尔逊－阿特金斯艺术博物馆",
+        "coordinate_precision": "city_center_approximate",
+        "record_ids": [
+          "N01",
+          "N02",
+          "N03",
+          "N04",
+          "N05",
+          "N06",
+          "N07",
+          "N08"
+        ],
+        "note": "城市定位点；表示用户观看地点，不等同于当前收藏归属或当前在展。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.69,
+          41.5
+        ]
+      },
+      "properties": {
+        "id": "cma",
+        "city_zh": "克利夫兰",
+        "museum": "克利夫兰美术馆",
+        "coordinate_precision": "city_center_approximate",
+        "record_ids": [
+          "C01",
+          "C02",
+          "C03",
+          "C04",
+          "C05",
+          "C06",
+          "C07",
+          "C08",
+          "C09",
+          "C10",
+          "C11"
+        ],
+        "note": "城市定位点；表示用户观看地点，不等同于当前收藏归属或当前在展。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.86,
+          21.31
+        ]
+      },
+      "properties": {
+        "id": "homa",
+        "city_zh": "檀香山",
+        "museum": "檀香山艺术博物馆",
+        "coordinate_precision": "city_center_approximate",
+        "record_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06"
+        ],
+        "note": "城市定位点；表示用户观看地点，不等同于当前收藏归属或当前在展。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.33,
+          47.61
+        ]
+      },
+      "properties": {
+        "id": "sam",
+        "city_zh": "西雅图",
+        "museum": "西雅图艺术博物馆／亚洲艺术博物馆",
+        "coordinate_precision": "city_center_approximate",
+        "record_ids": [
+          "S01",
+          "S02",
+          "S03"
+        ],
+        "note": "城市定位点；表示用户观看地点，不等同于当前收藏归属或当前在展。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.04,
+          38.91
+        ]
+      },
+      "properties": {
+        "id": "nmaa",
+        "city_zh": "华盛顿",
+        "museum": "史密森尼国立亚洲艺术博物馆",
+        "coordinate_precision": "city_center_approximate",
+        "record_ids": [
+          "W01",
+          "W02",
+          "W03",
+          "W04"
+        ],
+        "note": "城市定位点；表示用户观看地点，不等同于当前收藏归属或当前在展。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.33,
+          32.76
+        ]
+      },
+      "properties": {
+        "id": "kimbell",
+        "city_zh": "沃思堡",
+        "museum": "金贝尔艺术博物馆",
+        "coordinate_precision": "city_center_approximate",
+        "record_ids": [
+          "K01",
+          "K02",
+          "K03"
+        ],
+        "note": "城市定位点；表示用户观看地点，不等同于当前收藏归属或当前在展。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.49,
+          29.42
+        ]
+      },
+      "properties": {
+        "id": "sama",
+        "city_zh": "圣安东尼奥",
+        "museum": "圣安东尼奥美术馆",
+        "coordinate_precision": "city_center_approximate",
+        "record_ids": [
+          "A01"
+        ],
+        "note": "城市定位点；表示用户观看地点，不等同于当前收藏归属或当前在展。"
+      }
+    }
+  ]
+}

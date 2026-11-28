@@ -3,6 +3,7 @@
 Static pages for the existing GitHub Pages site. No client dependencies or build service.
 
 - `/museum-notes/`: cross-cultural notebook entrance.
+- `/museum-notes/khmer-art/`: 高棉艺术，58条作品与展示记录、120张自拍、11家观看机构；五组个人重点、佛教形象细读、观看馆与原址双地图、年代与全图录。见[专题说明](khmer-art/README.md)。
 - `/museum-notes/pala-stone/`: 帕拉黑石造像，24件亲见作品、48张自拍、十二家观看馆址；五条阅读线索、神话故事、历史导览与四组并看。9件复用喜马拉雅权威ID。见 [专题说明](pala-stone/README.md)。
 - `/museum-notes/greek-roman-bronzes/`: 18 bronze viewing groups, four themes, history, comparison and museum/date atlas. See [topic documentation](greek-roman-bronzes/README.md). Rebuilds with the main museum generator.
 - `/museum-notes/images-and-vows/`: fifteen South/North dynasties stone sculptures, five narrative chapters and eight published inscription texts. See [topic documentation](images-and-vows/README.md). Rebuilds with the main museum generator.

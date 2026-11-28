@@ -1,0 +1,2961 @@
+[
+  {
+    "id": "G01",
+    "title_zh": "圣剑寺巨人栏杆：执那伽的天神",
+    "title_en": "Causeway of Giants: deva holding naga",
+    "museum_seen_id": "guimet",
+    "museum_seen": "吉美亚洲艺术博物馆",
+    "city_seen": "巴黎",
+    "owner": "吉美亚洲艺术博物馆",
+    "visit_date": null,
+    "date_display": "12世纪末—13世纪初",
+    "year_start": 1175,
+    "year_end": 1225,
+    "material": "砂岩",
+    "style": "巴戎",
+    "origin_display": "吴哥圣剑寺 Preah Khan",
+    "accession": "MG 18102; MG 18103; MG 24615–24617",
+    "image_numbers": [
+      3534
+    ],
+    "label_numbers": [
+      3535
+    ],
+    "summary_zh": "这组大型雕刻原属跨越护城河的进寺道路。平静的天神与凶猛的阿修罗分列两侧，拉住多头那伽，把乳海神话变成可穿行的空间。",
+    "look_for_zh": "先看手如何环住蛇身，再看巨人与多头蛇的比例。",
+    "source_ids": [
+      "S06"
+    ],
+    "record_kind": "ancient_object",
+    "priority": "core",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3534_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3535_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3534_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [
+      {
+        "site_id": "preah-khan-angkor",
+        "relation": "known_site"
+      }
+    ],
+    "museum_pin_id": "guimet",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "architecture",
+    "material_group": "stone",
+    "reading_ids": [
+      "guimet"
+    ],
+    "status": "recorded"
+  },
+  {
+    "id": "G02",
+    "title_zh": "吴哥窟西入口大门翻模与组合复原",
+    "title_en": "Cast reconstruction of the west entrance doorway, Angkor Wat",
+    "museum_seen_id": "guimet",
+    "museum_seen": "吉美亚洲艺术博物馆",
+    "city_seen": "巴黎",
+    "owner": "吉美亚洲艺术博物馆",
+    "visit_date": null,
+    "date_display": "19世纪末；原型为12世纪上半叶",
+    "year_start": 1880,
+    "year_end": 1900,
+    "material": "翻模及再翻模构件",
+    "style": "原型：吴哥窟",
+    "origin_display": "原型：吴哥窟西入口中央塔",
+    "accession": "MO 3C.141",
+    "image_numbers": [
+      3536
+    ],
+    "label_numbers": [
+      3537
+    ],
+    "summary_zh": "展签说明由 Joseph Ghilardi 取模，Delaporte 组织组合；重复装饰由翻模复制补足，并非原门原样拆迁。门内陈列立像另属一件，未据此合并身份。",
+    "look_for_zh": "完整保留门框两侧与上部，观察门楣中央的卧毗湿奴。",
+    "source_ids": [],
+    "record_kind": "historic_cast",
+    "priority": "core",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3536_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3537_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3536_19.jpg",
+    "timeline_lane": "modern_display",
+    "origin_map_links": [
+      {
+        "site_id": "angkor-wat",
+        "relation": "prototype_site"
+      }
+    ],
+    "museum_pin_id": "guimet",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "architecture",
+    "material_group": "other",
+    "reading_ids": [
+      "guimet"
+    ],
+    "status": "recorded"
+  },
+  {
+    "id": "G03",
+    "title_zh": "巴戎塔人面翻模及展厅环境",
+    "title_en": "Casts of Bayon tower faces and gallery view",
+    "museum_seen_id": "guimet",
+    "museum_seen": "吉美亚洲艺术博物馆",
+    "city_seen": "巴黎",
+    "owner": "吉美亚洲艺术博物馆",
+    "visit_date": null,
+    "date_display": "19世纪末；原型为12世纪末—13世纪初",
+    "year_start": 1888,
+    "year_end": 1897,
+    "material": "着色石膏翻模",
+    "style": "原型：巴戎",
+    "origin_display": "原型：吴哥城巴戎寺",
+    "accession": "MO 4.49",
+    "image_numbers": [
+      3538
+    ],
+    "label_numbers": [
+      3539
+    ],
+    "summary_zh": "人面取自不同塔的模具，曾组成一座现实中并不存在的展厅塔。照片还含多件雕塑，作为环境图保留，不自动逐件计入藏品数。",
+    "look_for_zh": "利用小型雕塑与巨型人面的对比恢复现场尺度。",
+    "source_ids": [],
+    "record_kind": "historic_cast",
+    "priority": "core",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3538_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3539_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3538_19.jpg",
+    "timeline_lane": "modern_display",
+    "origin_map_links": [
+      {
+        "site_id": "bayon",
+        "relation": "prototype_site"
+      }
+    ],
+    "museum_pin_id": "guimet",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "architecture",
+    "material_group": "other",
+    "reading_ids": [
+      "guimet"
+    ],
+    "status": "recorded"
+  },
+  {
+    "id": "G04",
+    "title_zh": "女王宫山墙：孙陀与优波孙陀争夺天女",
+    "title_en": "Sunda and Upasunda fighting over Tilottama",
+    "museum_seen_id": "guimet",
+    "museum_seen": "吉美亚洲艺术博物馆",
+    "city_seen": "巴黎",
+    "owner": "吉美亚洲艺术博物馆",
+    "visit_date": null,
+    "date_display": "约967年",
+    "year_start": 960,
+    "year_end": 980,
+    "material": "粉红砂岩",
+    "style": "女王宫 Banteay Srei",
+    "origin_display": "女王宫东部塔门",
+    "accession": "MG 18913",
+    "image_numbers": [
+      3540
+    ],
+    "label_numbers": [
+      3541
+    ],
+    "summary_zh": "《摩诃婆罗多》中的兄弟阿修罗为天女争斗；细密植物、曲线边框与人物动作共同组成山墙叙事。中文照片是修复背景展板，身份由馆方藏品页补足。",
+    "look_for_zh": "先辨中央树和两侧争斗人物，再看边缘那伽与叶饰。",
+    "source_ids": [
+      "S07"
+    ],
+    "record_kind": "ancient_object",
+    "priority": "core",
+    "verification": "official_record_and_photo_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3540_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3541_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3540_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [
+      {
+        "site_id": "banteay-srei",
+        "relation": "known_site"
+      }
+    ],
+    "museum_pin_id": "guimet",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "architecture",
+    "material_group": "stone",
+    "reading_ids": [
+      "guimet"
+    ],
+    "status": "recorded"
+  },
+  {
+    "id": "G05",
+    "title_zh": "毗湿奴马头化身（或为 Hayagriva）",
+    "title_en": "Vishnu as Hayagriva (?)",
+    "museum_seen_id": "guimet",
+    "museum_seen": "吉美亚洲艺术博物馆",
+    "city_seen": "巴黎",
+    "owner": "吉美亚洲艺术博物馆",
+    "visit_date": null,
+    "date_display": "10世纪第三季度",
+    "year_start": 950,
+    "year_end": 975,
+    "material": "砂岩",
+    "style": "比粒寺 Pre Rup",
+    "origin_display": "Sambor Prei Kuk",
+    "accession": "MG 18099",
+    "image_numbers": [
+      3542
+    ],
+    "label_numbers": [
+      3543
+    ],
+    "summary_zh": "展签以问号保留马头化身识别。来自早于吴哥的寺址，但雕像本身属10世纪，不能把地点年代直接当作品年代。",
+    "look_for_zh": "马头、冠饰、短裙与躯干的过渡。",
+    "source_ids": [],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3542_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3543_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3542_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [
+      {
+        "site_id": "sambor-prei-kuk",
+        "relation": "known_site"
+      }
+    ],
+    "museum_pin_id": "guimet",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "sculpture",
+    "material_group": "stone",
+    "reading_ids": [],
+    "status": "recorded"
+  },
+  {
+    "id": "G06",
+    "title_zh": "那伽上的宝冠佛",
+    "title_en": "Crowned Buddha seated on a naga",
+    "museum_seen_id": "guimet",
+    "museum_seen": "吉美亚洲艺术博物馆",
+    "city_seen": "巴黎",
+    "owner": "吉美亚洲艺术博物馆",
+    "visit_date": null,
+    "date_display": "12世纪前三季度",
+    "year_start": 1100,
+    "year_end": 1175,
+    "material": "砂岩",
+    "style": "吴哥窟",
+    "origin_display": "柏威夏省 Preah Khan of Kompong Svay",
+    "accession": "MG 18127",
+    "image_numbers": [
+      3544
+    ],
+    "label_numbers": [
+      3545
+    ],
+    "summary_zh": "宝冠佛坐在盘蛇上，多头蛇形成背屏。馆方展签提醒此类图像未必都只是目真邻陀救佛故事，也可能有更普遍的象征意义。",
+    "look_for_zh": "宝冠、蛇盘与外展蛇首之间的形状呼应。",
+    "source_ids": [],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3544_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3545_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3544_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [
+      {
+        "site_id": "preah-khan-kompong-svay",
+        "relation": "known_site"
+      }
+    ],
+    "museum_pin_id": "guimet",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "sculpture",
+    "material_group": "stone",
+    "reading_ids": [
+      "buddhist-images"
+    ],
+    "status": "recorded"
+  },
+  {
+    "id": "G07",
+    "title_zh": "Vat Kralanh 门楣：湿婆与帕尔瓦蒂骑南迪",
+    "title_en": "Lintel with Shiva and Parvati on Nandin",
+    "museum_seen_id": "guimet",
+    "museum_seen": "吉美亚洲艺术博物馆",
+    "city_seen": "巴黎",
+    "owner": "吉美亚洲艺术博物馆",
+    "visit_date": null,
+    "date_display": "11世纪",
+    "year_start": 1000,
+    "year_end": 1099,
+    "material": "砂岩",
+    "style": "巴方",
+    "origin_display": "吴哥 Vat Kralanh",
+    "accession": "MG 17488",
+    "image_numbers": [
+      3546
+    ],
+    "label_numbers": [
+      3547
+    ],
+    "summary_zh": "门楣中央的湿婆夫妇骑在牛背上，下方是 kala 兽面；向两侧卷展的枝叶把小型神像嵌入巨大装饰体系。",
+    "look_for_zh": "从中央小像向兽面和左右卷草逐层辨读。",
+    "source_ids": [],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3546_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3547_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3546_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [],
+    "museum_pin_id": "guimet",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "architecture",
+    "material_group": "stone",
+    "reading_ids": [],
+    "status": "recorded"
+  },
+  {
+    "id": "G08",
+    "title_zh": "巴戎寺百分之一模型",
+    "title_en": "1:100 model of the Bayon",
+    "museum_seen_id": "guimet",
+    "museum_seen": "吉美亚洲艺术博物馆",
+    "city_seen": "巴黎",
+    "owner": "吉美亚洲艺术博物馆",
+    "visit_date": null,
+    "date_display": "19世纪；古代建筑原型属巴戎时期",
+    "year_start": 1800,
+    "year_end": 1899,
+    "material": "纸板、纸、金属及多种材料",
+    "style": "古建筑模型",
+    "origin_display": "原型：吴哥城巴戎寺",
+    "accession": null,
+    "image_numbers": [
+      3548
+    ],
+    "label_numbers": [
+      3549
+    ],
+    "summary_zh": "近代制作的建筑模型，用来帮助理解多塔、多层院落的空间，不作为古代高棉雕塑。",
+    "look_for_zh": "从正轴入口沿庭院看向密集塔群。",
+    "source_ids": [],
+    "record_kind": "historic_model",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3548_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3549_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3548_19.jpg",
+    "timeline_lane": "modern_display",
+    "origin_map_links": [
+      {
+        "site_id": "bayon",
+        "relation": "prototype_site"
+      }
+    ],
+    "museum_pin_id": "guimet",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "architecture",
+    "material_group": "other",
+    "reading_ids": [],
+    "status": "recorded"
+  },
+  {
+    "id": "G09",
+    "title_zh": "迦楼罗制伏多头那伽栏杆端饰",
+    "title_en": "Garuda mastering a multiheaded naga",
+    "museum_seen_id": "guimet",
+    "museum_seen": "吉美亚洲艺术博物馆",
+    "city_seen": "巴黎",
+    "owner": "吉美亚洲艺术博物馆",
+    "visit_date": null,
+    "date_display": "12世纪末—13世纪初",
+    "year_start": 1175,
+    "year_end": 1225,
+    "material": "砂岩",
+    "style": "巴戎",
+    "origin_display": "Preah Thkol，Preah Khan of Kompong Svay",
+    "accession": "MG 18107",
+    "image_numbers": [
+      3550
+    ],
+    "label_numbers": [
+      3551
+    ],
+    "summary_zh": "人鸟合体的迦楼罗与蛇首形成大型建筑端饰。它与吴哥圣剑寺的巨人栏杆不是同一原址。",
+    "look_for_zh": "看鸟爪、翅膀和扇形蛇首怎样连成整体。",
+    "source_ids": [],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3550_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3551_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3550_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [
+      {
+        "site_id": "preah-khan-kompong-svay",
+        "relation": "known_site"
+      }
+    ],
+    "museum_pin_id": "guimet",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "architecture",
+    "material_group": "stone",
+    "reading_ids": [],
+    "status": "recorded"
+  },
+  {
+    "id": "G10",
+    "title_zh": "佛头",
+    "title_en": "Head of Buddha",
+    "museum_seen_id": "guimet",
+    "museum_seen": "吉美亚洲艺术博物馆",
+    "city_seen": "巴黎",
+    "owner": "吉美亚洲艺术博物馆",
+    "visit_date": null,
+    "date_display": "12世纪末—13世纪初",
+    "year_start": 1175,
+    "year_end": 1225,
+    "material": "砂岩",
+    "style": "巴戎",
+    "origin_display": "吴哥城，暹粒省",
+    "accession": null,
+    "image_numbers": [
+      3552
+    ],
+    "label_numbers": [
+      3553
+    ],
+    "summary_zh": "宽厚面部与低垂双眼提供巴戎时期的近距离观察。",
+    "look_for_zh": "嘴角、眼睑、耳垂与冠状头饰。",
+    "source_ids": [],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3552_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3553_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3552_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [],
+    "museum_pin_id": "guimet",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "sculpture",
+    "material_group": "stone",
+    "reading_ids": [],
+    "status": "recorded"
+  },
+  {
+    "id": "G11",
+    "title_zh": "守门神",
+    "title_en": "Dvarapala",
+    "museum_seen_id": "guimet",
+    "museum_seen": "吉美亚洲艺术博物馆",
+    "city_seen": "巴黎",
+    "owner": "吉美亚洲艺术博物馆",
+    "visit_date": null,
+    "date_display": "12世纪末—13世纪初",
+    "year_start": 1175,
+    "year_end": 1225,
+    "material": "砂岩",
+    "style": "巴戎",
+    "origin_display": "Preah Thkol，Preah Khan of Kompong Svay",
+    "accession": "展签作 MG 18106；与G13同号，待核",
+    "image_numbers": [
+      3554
+    ],
+    "label_numbers": [
+      3555
+    ],
+    "summary_zh": "持棍守门神体现寺院入口的防护功能。展签登记号与另一件那伽端饰重复，保留冲突供后续核对。",
+    "look_for_zh": "双手、长棍与双脚构成垂直中轴。",
+    "source_ids": [],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3554_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3555_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3554_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [
+      {
+        "site_id": "preah-khan-kompong-svay",
+        "relation": "known_site"
+      }
+    ],
+    "museum_pin_id": "guimet",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "sculpture",
+    "material_group": "stone",
+    "reading_ids": [],
+    "status": "recorded"
+  },
+  {
+    "id": "G12",
+    "title_zh": "舞蹈天女浮雕翻模",
+    "title_en": "Cast of dancing female deities",
+    "museum_seen_id": "guimet",
+    "museum_seen": "吉美亚洲艺术博物馆",
+    "city_seen": "巴黎",
+    "owner": "吉美亚洲艺术博物馆",
+    "visit_date": null,
+    "date_display": "1923年翻模；原型属12世纪末—13世纪初",
+    "year_start": 1923,
+    "year_end": 1923,
+    "material": "翻模",
+    "style": "原型：巴戎",
+    "origin_display": "原型：巴戎寺外墙门上部",
+    "accession": "MA 4.81",
+    "image_numbers": [
+      3556
+    ],
+    "label_numbers": [
+      3557
+    ],
+    "summary_zh": "这是古代浮雕的近代翻模，可用于讨论动作、服饰与装饰节奏。",
+    "look_for_zh": "并排人物的抬臂、屈膝和珠饰节奏。",
+    "source_ids": [],
+    "record_kind": "historic_cast",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3556_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3557_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3556_19.jpg",
+    "timeline_lane": "modern_display",
+    "origin_map_links": [
+      {
+        "site_id": "bayon",
+        "relation": "prototype_site"
+      }
+    ],
+    "museum_pin_id": "guimet",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "architecture",
+    "material_group": "other",
+    "reading_ids": [],
+    "status": "recorded"
+  },
+  {
+    "id": "G13",
+    "title_zh": "王宫前台阶多头那伽栏杆端饰",
+    "title_en": "Multiheaded naga balustrade finial",
+    "museum_seen_id": "guimet",
+    "museum_seen": "吉美亚洲艺术博物馆",
+    "city_seen": "巴黎",
+    "owner": "吉美亚洲艺术博物馆",
+    "visit_date": null,
+    "date_display": "12世纪前三季度",
+    "year_start": 1100,
+    "year_end": 1175,
+    "material": "砂岩",
+    "style": "吴哥窟",
+    "origin_display": "吴哥城王宫前台阶",
+    "accession": "展签作 MG 18106；与G11同号，待核",
+    "image_numbers": [
+      3558
+    ],
+    "label_numbers": [
+      3559
+    ],
+    "summary_zh": "多头蛇展开为扇形，属于栏杆末端构件；展签登记号存在重复。",
+    "look_for_zh": "中央高蛇首与两侧逐渐降低的蛇首。",
+    "source_ids": [],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3558_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3559_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3558_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [
+      {
+        "site_id": "royal-palace",
+        "relation": "known_site"
+      }
+    ],
+    "museum_pin_id": "guimet",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "architecture",
+    "material_group": "stone",
+    "reading_ids": [],
+    "status": "recorded"
+  },
+  {
+    "id": "G14",
+    "title_zh": "毗湿奴奉献纪念柱",
+    "title_en": "Votive monument to Vishnu",
+    "museum_seen_id": "guimet",
+    "museum_seen": "吉美亚洲艺术博物馆",
+    "city_seen": "巴黎",
+    "owner": "吉美亚洲艺术博物馆",
+    "visit_date": null,
+    "date_display": "12世纪前三季度",
+    "year_start": 1100,
+    "year_end": 1175,
+    "material": "砂岩",
+    "style": "吴哥窟",
+    "origin_display": "展签作 Preah Khan，旧 Kompong Thom 省",
+    "accession": "MG 18104",
+    "image_numbers": [
+      3560
+    ],
+    "label_numbers": [
+      3561
+    ],
+    "summary_zh": "展签称柱身包含1020尊微型毗湿奴，顶端四面山墙展示不同形态。精确原址暂保留馆方旧省名写法。",
+    "look_for_zh": "先看整体柱形，再放大整齐排列的小像。",
+    "source_ids": [],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3560_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3561_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3560_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [],
+    "museum_pin_id": "guimet",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "architecture",
+    "material_group": "stone",
+    "reading_ids": [],
+    "status": "recorded"
+  },
+  {
+    "id": "G15",
+    "title_zh": "Preah Pithu 门楣",
+    "title_en": "Lintel from Preah Pithu",
+    "museum_seen_id": "guimet",
+    "museum_seen": "吉美亚洲艺术博物馆",
+    "city_seen": "巴黎",
+    "owner": "吉美亚洲艺术博物馆",
+    "visit_date": null,
+    "date_display": "12世纪中叶",
+    "year_start": 1125,
+    "year_end": 1175,
+    "material": "砂岩",
+    "style": "吴哥窟",
+    "origin_display": "吴哥城 Preah Pithu",
+    "accession": "MG 18856; MA 12727",
+    "image_numbers": [
+      3562
+    ],
+    "label_numbers": [
+      3563
+    ],
+    "summary_zh": "同一门楣具有两条入藏记录，作为一组展示处理。",
+    "look_for_zh": "中央叙事与两侧密集植物卷饰。",
+    "source_ids": [],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3562_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3563_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3562_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [
+      {
+        "site_id": "preah-pithu",
+        "relation": "known_site"
+      }
+    ],
+    "museum_pin_id": "guimet",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "architecture",
+    "material_group": "stone",
+    "reading_ids": [],
+    "status": "recorded"
+  },
+  {
+    "id": "D01",
+    "title_zh": "阿修罗头",
+    "title_en": "Asura",
+    "museum_seen_id": "dma",
+    "museum_seen": "达拉斯艺术博物馆",
+    "city_seen": "达拉斯",
+    "owner": "达拉斯艺术博物馆",
+    "visit_date": null,
+    "date_display": "12世纪末—13世纪初",
+    "year_start": 1175,
+    "year_end": 1225,
+    "material": "砂岩",
+    "style": "巴戎",
+    "origin_display": "柬埔寨",
+    "accession": "1994.256",
+    "image_numbers": [
+      3564
+    ],
+    "label_numbers": [
+      3565
+    ],
+    "summary_zh": "凶猛的表情与高冠呼应大型进寺道路的巨人形象。",
+    "look_for_zh": "鼓眼、獠牙与层层发冠。",
+    "source_ids": [],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3564_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3565_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3564_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [],
+    "museum_pin_id": "dma",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "sculpture",
+    "material_group": "stone",
+    "reading_ids": [],
+    "status": "recorded"
+  },
+  {
+    "id": "D02",
+    "title_zh": "那伽护佛青铜像",
+    "title_en": "Buddha sheltered by naga",
+    "museum_seen_id": "dma",
+    "museum_seen": "达拉斯艺术博物馆",
+    "city_seen": "达拉斯",
+    "owner": "达拉斯艺术博物馆",
+    "visit_date": null,
+    "date_display": "12世纪末—13世纪初",
+    "year_start": 1175,
+    "year_end": 1225,
+    "material": "青铜",
+    "style": "巴戎",
+    "origin_display": "柬埔寨",
+    "accession": "2005.3.a–c",
+    "image_numbers": [
+      3566
+    ],
+    "label_numbers": [
+      3567
+    ],
+    "summary_zh": "蛇盘形成佛座，蛇首如伞盖张开；可与吉美及休斯顿同题材比较。",
+    "look_for_zh": "蛇首背屏与佛冠的高低层次。",
+    "source_ids": [],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3566_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3567_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3566_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [],
+    "museum_pin_id": "dma",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "sculpture",
+    "material_group": "bronze",
+    "reading_ids": [
+      "buddhist-images"
+    ],
+    "status": "recorded"
+  },
+  {
+    "id": "M01",
+    "title_zh": "女神立像，或为难近母",
+    "title_en": "Standing Female Deity, probably Durga",
+    "museum_seen_id": "met",
+    "museum_seen": "纽约大都会艺术博物馆",
+    "city_seen": "纽约",
+    "owner": "纽约大都会艺术博物馆",
+    "visit_date": null,
+    "date_display": "7世纪末—8世纪初",
+    "year_start": 675,
+    "year_end": 725,
+    "material": "石",
+    "style": "Prasat Andet",
+    "origin_display": "柬埔寨",
+    "accession": "2000.531",
+    "image_numbers": [
+      3568
+    ],
+    "label_numbers": [
+      3569
+    ],
+    "summary_zh": "宽阔正面与饱满体量体现前吴哥大型供奉像的力量；身份保留“或为”。",
+    "look_for_zh": "身体与长裙几乎连续，衣纹以低浮雕暗示。",
+    "source_ids": [],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3568_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3569_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3568_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [],
+    "museum_pin_id": "met",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "sculpture",
+    "material_group": "stone",
+    "reading_ids": [],
+    "status": "recorded"
+  },
+  {
+    "id": "M02",
+    "title_zh": "四臂观音立像",
+    "title_en": "Bodhisattva Avalokiteshvara",
+    "museum_seen_id": "met",
+    "museum_seen": "纽约大都会艺术博物馆",
+    "city_seen": "纽约",
+    "owner": "纽约大都会艺术博物馆",
+    "visit_date": null,
+    "date_display": "8世纪第二季度",
+    "year_start": 725,
+    "year_end": 750,
+    "material": "铜合金，嵌银及玻璃或黑曜石",
+    "style": "泰国东北部早期青铜传统",
+    "origin_display": "泰国武里南府 Lahan Sai，Plai Bat II",
+    "accession": "67.234",
+    "image_numbers": [
+      3570
+    ],
+    "label_numbers": [
+      3571
+    ],
+    "summary_zh": "发冠中的阿弥陀佛标明观音身份。修长裸露躯干、短腰衣和少量饰物体现苦行菩萨形象；含锡合金新铸时较为银亮。",
+    "look_for_zh": "头发小化佛、四臂展开、细长双腿与裸露上身。",
+    "source_ids": [
+      "S08",
+      "S10"
+    ],
+    "record_kind": "ancient_object",
+    "priority": "core",
+    "verification": "official_record_and_photo_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3570_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3571_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3570_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [
+      {
+        "site_id": "plai-bat-ii",
+        "relation": "known_findspot"
+      }
+    ],
+    "museum_pin_id": "met",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": {
+      "height": 142.2,
+      "width": 57.2,
+      "depth": 38.7
+    },
+    "category": "sculpture",
+    "material_group": "bronze",
+    "reading_ids": [
+      "early-bronzes",
+      "buddhist-images"
+    ],
+    "status": "recorded"
+  },
+  {
+    "id": "M03",
+    "title_zh": "喜金刚胸像",
+    "title_en": "Bust of Hevajra",
+    "museum_seen_id": "met",
+    "museum_seen": "纽约大都会艺术博物馆",
+    "city_seen": "纽约",
+    "owner": "纽约大都会艺术博物馆",
+    "visit_date": null,
+    "date_display": "12世纪末—13世纪初",
+    "year_start": 1175,
+    "year_end": 1225,
+    "material": "石",
+    "style": "巴戎",
+    "origin_display": "吴哥；传称吴哥城东门附近",
+    "accession": "36.96.4",
+    "image_numbers": [
+      3572
+    ],
+    "label_numbers": [
+      3573
+    ],
+    "summary_zh": "多面密教尊神残像，展签保留具体发现位置的传称性质，亦说明部分表面似未完成。",
+    "look_for_zh": "多个面孔怎样围绕正面展开。",
+    "source_ids": [
+      "S13"
+    ],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3572_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3573_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3572_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [],
+    "museum_pin_id": "met",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "sculpture",
+    "material_group": "stone",
+    "reading_ids": [],
+    "status": "recorded"
+  },
+  {
+    "id": "H01",
+    "title_zh": "般若佛母青铜立像",
+    "title_en": "Prajnaparamita",
+    "museum_seen_id": "mfah",
+    "museum_seen": "休斯顿美术馆",
+    "city_seen": "休斯顿",
+    "owner": "Xuzhou Collection of Buddhist Art；现场于MFAH展出",
+    "visit_date": null,
+    "date_display": "约1200年",
+    "year_start": 1175,
+    "year_end": 1225,
+    "material": "青铜",
+    "style": "巴戎",
+    "origin_display": "柬埔寨",
+    "accession": null,
+    "image_numbers": [
+      3574
+    ],
+    "label_numbers": [
+      3575
+    ],
+    "summary_zh": "手持莲花与经卷，代表智慧。作为与佛及另一菩萨组成三尊的可能结构来理解，不把与某王室成员的关联写成确定肖像。",
+    "look_for_zh": "胸前饰物、垂直裙纹与双手持物。",
+    "source_ids": [
+      "S14"
+    ],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3574_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3575_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3574_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [],
+    "museum_pin_id": "mfah",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "sculpture",
+    "material_group": "bronze",
+    "reading_ids": [
+      "buddhist-images"
+    ],
+    "status": "recorded"
+  },
+  {
+    "id": "H02",
+    "title_zh": "七头那伽护佛青铜像",
+    "title_en": "Buddha Protected by a Seven-Headed Serpent",
+    "museum_seen_id": "mfah",
+    "museum_seen": "休斯顿美术馆",
+    "city_seen": "休斯顿",
+    "owner": "Xuzhou Collection of Buddhist Art；现场于MFAH展出",
+    "visit_date": null,
+    "date_display": "约1200年",
+    "year_start": 1175,
+    "year_end": 1225,
+    "material": "青铜",
+    "style": "巴戎",
+    "origin_display": "柬埔寨",
+    "accession": null,
+    "image_numbers": [
+      3576
+    ],
+    "label_numbers": [
+      3577
+    ],
+    "summary_zh": "佛在蛇盘上结跏趺坐，盘蛇与护罩让水与庇护成为造像的一部分。",
+    "look_for_zh": "较小佛身与宽大蛇屏之间的比例。",
+    "source_ids": [
+      "S14"
+    ],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3576_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3577_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3576_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [],
+    "museum_pin_id": "mfah",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "sculpture",
+    "material_group": "bronze",
+    "reading_ids": [
+      "buddhist-images"
+    ],
+    "status": "recorded"
+  },
+  {
+    "id": "N01",
+    "title_zh": "目真邻陀龙王护佛",
+    "title_en": "Buddha Sheltered by the Serpent King Muchalinda",
+    "museum_seen_id": "nelson",
+    "museum_seen": "纳尔逊－阿特金斯艺术博物馆",
+    "city_seen": "堪萨斯城",
+    "owner": "纳尔逊－阿特金斯艺术博物馆",
+    "visit_date": null,
+    "date_display": "11世纪",
+    "year_start": 1000,
+    "year_end": 1099,
+    "material": "灰砂岩",
+    "style": "巴方",
+    "origin_display": "柬埔寨",
+    "accession": "30-26",
+    "image_numbers": [
+      3578
+    ],
+    "label_numbers": [
+      3579
+    ],
+    "summary_zh": "蛇盘托住端坐佛身；与后来更华丽的宝冠佛相比，这尊重在安静、清楚的体量。",
+    "look_for_zh": "躯干、双腿与三层蛇盘的几何关系。",
+    "source_ids": [
+      "S15"
+    ],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3578_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3579_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3578_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [],
+    "museum_pin_id": "nelson",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "sculpture",
+    "material_group": "stone",
+    "reading_ids": [
+      "buddhist-images"
+    ],
+    "status": "recorded"
+  },
+  {
+    "id": "N02",
+    "title_zh": "观音头：班迭奇马",
+    "title_en": "Head of the Bodhisattva Avalokitesvara",
+    "museum_seen_id": "nelson",
+    "museum_seen": "纳尔逊－阿特金斯艺术博物馆",
+    "city_seen": "堪萨斯城",
+    "owner": "纳尔逊－阿特金斯艺术博物馆",
+    "visit_date": null,
+    "date_display": "12世纪末—13世纪",
+    "year_start": 1175,
+    "year_end": 1299,
+    "material": "灰砂岩",
+    "style": "巴戎",
+    "origin_display": "柬埔寨班迭奇马 Banteay Chhmar",
+    "accession": "30-34",
+    "image_numbers": [
+      3580
+    ],
+    "label_numbers": [
+      3581
+    ],
+    "summary_zh": "发冠小化佛识别观音身份，闭眼与微笑是最适合近看的部分。",
+    "look_for_zh": "发髻里的阿弥陀佛与眼唇的细微弧线。",
+    "source_ids": [],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3580_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3581_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3580_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [
+      {
+        "site_id": "banteay-chhmar",
+        "relation": "known_site"
+      }
+    ],
+    "museum_pin_id": "nelson",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "sculpture",
+    "material_group": "stone",
+    "reading_ids": [
+      "buddhist-images"
+    ],
+    "status": "recorded"
+  },
+  {
+    "id": "N03",
+    "title_zh": "天女柱饰残件",
+    "title_en": "Pillar Fragment with a Heavenly Maiden (Devata)",
+    "museum_seen_id": "nelson",
+    "museum_seen": "纳尔逊－阿特金斯艺术博物馆",
+    "city_seen": "堪萨斯城",
+    "owner": "纳尔逊－阿特金斯艺术博物馆",
+    "visit_date": null,
+    "date_display": "13世纪末—14世纪初",
+    "year_start": 1275,
+    "year_end": 1325,
+    "material": "灰砂岩",
+    "style": "后期高棉",
+    "origin_display": "柬埔寨",
+    "accession": "49-21",
+    "image_numbers": [
+      3582
+    ],
+    "label_numbers": [
+      3583
+    ],
+    "summary_zh": "纵向柱饰中的天女把人体纳入建筑边界。",
+    "look_for_zh": "尖形装饰框与人物姿态的关系。",
+    "source_ids": [],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3582_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3583_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3582_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [],
+    "museum_pin_id": "nelson",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "architecture",
+    "material_group": "stone",
+    "reading_ids": [],
+    "status": "recorded"
+  },
+  {
+    "id": "N04",
+    "title_zh": "迦楼罗军旗饰",
+    "title_en": "Battle Standard Emblem Representing Garuda",
+    "museum_seen_id": "nelson",
+    "museum_seen": "纳尔逊－阿特金斯艺术博物馆",
+    "city_seen": "堪萨斯城",
+    "owner": "纳尔逊－阿特金斯艺术博物馆",
+    "visit_date": null,
+    "date_display": "10世纪",
+    "year_start": 900,
+    "year_end": 999,
+    "material": "青铜",
+    "style": "贡开 Koh Ker",
+    "origin_display": "柬埔寨",
+    "accession": "88-27",
+    "image_numbers": [
+      3584
+    ],
+    "label_numbers": [
+      3585
+    ],
+    "summary_zh": "人鸟混合形象可能曾装在军旗上，具有王权与战争胜利的寓意。",
+    "look_for_zh": "抬起的双臂、鸟喙和腰间衣饰。",
+    "source_ids": [],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3584_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3585_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3584_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [
+      {
+        "site_id": "koh-ker",
+        "relation": "associated_or_tentative"
+      }
+    ],
+    "museum_pin_id": "nelson",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "ritual",
+    "material_group": "bronze",
+    "reading_ids": [],
+    "status": "recorded"
+  },
+  {
+    "id": "N05",
+    "title_zh": "因陀罗骑三头象门楣残件",
+    "title_en": "Lintel Fragment with Indra on his Three-Headed Elephant",
+    "museum_seen_id": "nelson",
+    "museum_seen": "纳尔逊－阿特金斯艺术博物馆",
+    "city_seen": "堪萨斯城",
+    "owner": "纳尔逊－阿特金斯艺术博物馆",
+    "visit_date": null,
+    "date_display": "10世纪下半叶",
+    "year_start": 950,
+    "year_end": 999,
+    "material": "浅黄砂岩",
+    "style": "女王宫",
+    "origin_display": "柬埔寨",
+    "accession": "49-20",
+    "image_numbers": [
+      3586
+    ],
+    "label_numbers": [
+      3587
+    ],
+    "summary_zh": "骑象的因陀罗被浓密卷饰框起，可与举山故事中的降雨神联系阅读。",
+    "look_for_zh": "三头象在构图下部如何展开。",
+    "source_ids": [],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3586_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3587_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3586_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [],
+    "museum_pin_id": "nelson",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "architecture",
+    "material_group": "stone",
+    "reading_ids": [],
+    "status": "recorded"
+  },
+  {
+    "id": "N06",
+    "title_zh": "搅拌乳海门楣",
+    "title_en": "Lintel Depicting the Churning of the Ocean of Milk",
+    "museum_seen_id": "nelson",
+    "museum_seen": "纳尔逊－阿特金斯艺术博物馆",
+    "city_seen": "堪萨斯城",
+    "owner": "纳尔逊－阿特金斯艺术博物馆",
+    "visit_date": null,
+    "date_display": "11世纪",
+    "year_start": 1000,
+    "year_end": 1099,
+    "material": "浅黄砂岩",
+    "style": "巴方",
+    "origin_display": "柬埔寨",
+    "accession": "48-18",
+    "image_numbers": [
+      3588
+    ],
+    "label_numbers": [
+      3589
+    ],
+    "summary_zh": "天神与阿修罗借蛇身为绳搅动乳海，横向的动作很适合装饰门楣。",
+    "look_for_zh": "蛇身的连续曲线与一排拉拽者的姿势。",
+    "source_ids": [],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3588_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3589_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3588_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [],
+    "museum_pin_id": "nelson",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "architecture",
+    "material_group": "stone",
+    "reading_ids": [],
+    "status": "recorded"
+  },
+  {
+    "id": "N07",
+    "title_zh": "男性立像，或为湿婆",
+    "title_en": "Standing Male Figure",
+    "museum_seen_id": "nelson",
+    "museum_seen": "纳尔逊－阿特金斯艺术博物馆",
+    "city_seen": "堪萨斯城",
+    "owner": "纳尔逊－阿特金斯艺术博物馆",
+    "visit_date": null,
+    "date_display": "11世纪",
+    "year_start": 1000,
+    "year_end": 1099,
+    "material": "灰砂岩，残留金箔",
+    "style": "巴方",
+    "origin_display": "柬埔寨",
+    "accession": "46-34",
+    "image_numbers": [
+      3590
+    ],
+    "label_numbers": [
+      3591
+    ],
+    "summary_zh": "展签仅依据发式暂识为湿婆；残存金箔提醒我们石像曾有不同表面效果。",
+    "look_for_zh": "发髻、腰裙与身体的柔和转折。",
+    "source_ids": [],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3590_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3591_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3590_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [],
+    "museum_pin_id": "nelson",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "sculpture",
+    "material_group": "stone",
+    "reading_ids": [],
+    "status": "recorded"
+  },
+  {
+    "id": "N08",
+    "title_zh": "那伽护佛头部残件",
+    "title_en": "Head of Buddha sheltered by Muchalinda",
+    "museum_seen_id": "nelson",
+    "museum_seen": "纳尔逊－阿特金斯艺术博物馆",
+    "city_seen": "堪萨斯城",
+    "owner": "纳尔逊－阿特金斯艺术博物馆",
+    "visit_date": null,
+    "date_display": "14世纪",
+    "year_start": 1300,
+    "year_end": 1399,
+    "material": "灰石灰岩，残黑色颜料",
+    "style": "华富里／后巴戎",
+    "origin_display": "泰国东北部",
+    "accession": "60-78",
+    "image_numbers": [
+      3592
+    ],
+    "label_numbers": [
+      3593
+    ],
+    "summary_zh": "呈现高棉艺术在今泰国地区延续与变化的较晚阶段。",
+    "look_for_zh": "宽阔面孔、突出耳朵与高冠。",
+    "source_ids": [],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3592_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3593_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3592_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [],
+    "museum_pin_id": "nelson",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "sculpture",
+    "material_group": "stone",
+    "reading_ids": [],
+    "status": "recorded"
+  },
+  {
+    "id": "C01",
+    "title_zh": "巨型天神头",
+    "title_en": "Colossal head of a deva",
+    "museum_seen_id": "cma",
+    "museum_seen": "克利夫兰美术馆",
+    "city_seen": "克利夫兰",
+    "owner": "克利夫兰美术馆",
+    "visit_date": null,
+    "date_display": "约1200年",
+    "year_start": 1175,
+    "year_end": 1225,
+    "material": "砂岩",
+    "style": "巴戎",
+    "origin_display": "馆网：吴哥圣剑寺；现场展签：或为班迭奇马",
+    "accession": "2011.147",
+    "image_numbers": [
+      3594
+    ],
+    "label_numbers": [
+      3595
+    ],
+    "summary_zh": "与寺院护城河进路的乳海神话相连；展签含数字复原图和2024年原址照片。 馆网与现场原址归属有差异，暂在地图用区域性关联，不画确定来源路线。",
+    "look_for_zh": "从巨型头部想象一整列拉蛇者。",
+    "source_ids": [
+      "S16"
+    ],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3594_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3595_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3594_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [
+      {
+        "site_id": "preah-khan-angkor",
+        "relation": "associated_or_tentative"
+      },
+      {
+        "site_id": "banteay-chhmar",
+        "relation": "associated_or_tentative"
+      }
+    ],
+    "museum_pin_id": "cma",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "sculpture",
+    "material_group": "stone",
+    "reading_ids": [],
+    "status": "recorded"
+  },
+  {
+    "id": "C02",
+    "title_zh": "克里希纳举起戈瓦尔丹山",
+    "title_en": "Krishna Lifting Mount Govardhan",
+    "museum_seen_id": "cma",
+    "museum_seen": "克利夫兰美术馆",
+    "city_seen": "克利夫兰",
+    "owner": "克利夫兰美术馆",
+    "visit_date": null,
+    "date_display": "约600年",
+    "year_start": 575,
+    "year_end": 625,
+    "material": "砂岩",
+    "style": "Phnom Da 前吴哥",
+    "origin_display": "柬埔寨南部茶胶省 Phnom Da",
+    "accession": "1973.106",
+    "image_numbers": [
+      3596
+    ],
+    "label_numbers": [
+      3597
+    ],
+    "summary_zh": "举起山体保护人群与牛群。照片带有原址洞窟复原图，适合把像、山与洪水环境连起来。",
+    "look_for_zh": "先沿左手看到上方石框，再回看躯干倾斜与轻松的表情。",
+    "source_ids": [
+      "S02",
+      "S03",
+      "S04"
+    ],
+    "record_kind": "ancient_object",
+    "priority": "core",
+    "verification": "official_record_and_photo_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3596_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3597_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3596_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [
+      {
+        "site_id": "phnom-da",
+        "relation": "known_site"
+      },
+      {
+        "site_id": "angkor-borei",
+        "relation": "associated_or_tentative"
+      }
+    ],
+    "museum_pin_id": "cma",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": {
+      "height": 203.1,
+      "width": 68,
+      "depth": 55.5
+    },
+    "category": "sculpture",
+    "material_group": "stone",
+    "reading_ids": [
+      "krishna"
+    ],
+    "status": "recorded"
+  },
+  {
+    "id": "C03",
+    "title_zh": "胜乐金刚与空行母两尊",
+    "title_en": "Shamvara and a Dakini",
+    "museum_seen_id": "cma",
+    "museum_seen": "克利夫兰美术馆",
+    "city_seen": "克利夫兰",
+    "owner": "克利夫兰美术馆",
+    "visit_date": null,
+    "date_display": "约1100年",
+    "year_start": 1075,
+    "year_end": 1125,
+    "material": "青铜",
+    "style": "吴哥",
+    "origin_display": "柬埔寨吴哥",
+    "accession": "1985.92.1–2",
+    "image_numbers": [
+      3598
+    ],
+    "label_numbers": [
+      3599
+    ],
+    "summary_zh": "两尊密教造像踩伏象征烦恼的形象，可与喜马拉雅艺术中的密教题材互相参照。",
+    "look_for_zh": "姿态、踩踏对象与原已失去的持物位置。",
+    "source_ids": [],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 2,
+    "image_paths": [
+      "photos/Image_20261127221137_3598_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3599_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3598_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [],
+    "museum_pin_id": "cma",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "sculpture",
+    "material_group": "bronze",
+    "reading_ids": [],
+    "status": "recorded"
+  },
+  {
+    "id": "C04",
+    "title_zh": "早期菩萨与观音两尊",
+    "title_en": "Bodhisattva and Avalokiteshvara",
+    "museum_seen_id": "cma",
+    "museum_seen": "克利夫兰美术馆",
+    "city_seen": "克利夫兰",
+    "owner": "克利夫兰美术馆",
+    "visit_date": null,
+    "date_display": "菩萨：8世纪；观音：7世纪",
+    "year_start": 600,
+    "year_end": 799,
+    "material": "青铜；青铜与银合金",
+    "style": "Pra Khon Chai 风格",
+    "origin_display": "泰国东北部武里南府",
+    "accession": "2011.152; 1977.178",
+    "image_numbers": [
+      3600
+    ],
+    "label_numbers": [
+      3601
+    ],
+    "summary_zh": "左侧为残臂菩萨，右侧为观音。展签使用“风格”一词；不把两件均当作已确证出自同一窖藏。",
+    "look_for_zh": "左像断臂的铸造芯与右像的修长体态。",
+    "source_ids": [
+      "S11",
+      "S12"
+    ],
+    "record_kind": "ancient_object",
+    "priority": "supporting",
+    "verification": "label_checked",
+    "physical_object_count": 2,
+    "image_paths": [
+      "photos/Image_20261127221137_3600_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3601_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3600_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [
+      {
+        "site_id": "buriram-region",
+        "relation": "region_only"
+      }
+    ],
+    "museum_pin_id": "cma",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "sculpture",
+    "material_group": "bronze",
+    "reading_ids": [
+      "early-bronzes"
+    ],
+    "status": "recorded"
+  },
+  {
+    "id": "C05",
+    "title_zh": "迦楼罗门楣",
+    "title_en": "Lintel with Garuda",
+    "museum_seen_id": "cma",
+    "museum_seen": "克利夫兰美术馆",
+    "city_seen": "克利夫兰",
+    "owner": "克利夫兰美术馆",
+    "visit_date": null,
+    "date_display": "馆网875–925年；现场展签约875–975年",
+    "year_start": 875,
+    "year_end": 925,
+    "material": "砂岩",
+    "style": "早期吴哥",
+    "origin_display": "柬埔寨",
+    "accession": "1967.37",
+    "image_numbers": [
+      3602
+    ],
+    "label_numbers": [
+      3603
+    ],
+    "summary_zh": "半人半鸟的迦楼罗制住蛇尾，卷草中出现小型女像。馆网与现场年代范围稍有差别，记录两者。",
+    "look_for_zh": "寻找鸟喙、蛇首和枝叶中的小人物。",
+    "source_ids": [
+      "S17"
+    ],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3602_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3603_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3602_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [],
+    "museum_pin_id": "cma",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "architecture",
+    "material_group": "stone",
+    "reading_ids": [],
+    "status": "recorded"
+  },
+  {
+    "id": "C06",
+    "title_zh": "飞行哈努曼与哈努曼旗饰",
+    "title_en": "Flying Hanuman and Hanuman standard ornament",
+    "museum_seen_id": "cma",
+    "museum_seen": "克利夫兰美术馆",
+    "city_seen": "克利夫兰",
+    "owner": "克利夫兰美术馆",
+    "visit_date": null,
+    "date_display": "飞行像：10世纪；旗饰：12世纪",
+    "year_start": 900,
+    "year_end": 1199,
+    "material": "青铜",
+    "style": "贡开／巴戎",
+    "origin_display": "柬埔寨",
+    "accession": "1987.43; 1991.169",
+    "image_numbers": [
+      3604
+    ],
+    "label_numbers": [
+      3605
+    ],
+    "summary_zh": "两尊猴神动作不同：一尊飞行救援，一尊以强有力姿态作为旗饰。",
+    "look_for_zh": "抬臂、伸腿、尾巴与身体平衡。",
+    "source_ids": [],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 2,
+    "image_paths": [
+      "photos/Image_20261127221137_3604_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3605_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3604_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [
+      {
+        "site_id": "koh-ker",
+        "relation": "associated_or_tentative"
+      }
+    ],
+    "museum_pin_id": "cma",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "sculpture",
+    "material_group": "bronze",
+    "reading_ids": [],
+    "status": "recorded"
+  },
+  {
+    "id": "C07",
+    "title_zh": "王室女性像",
+    "title_en": "Royal female figure",
+    "museum_seen_id": "cma",
+    "museum_seen": "克利夫兰美术馆",
+    "city_seen": "克利夫兰",
+    "owner": "克利夫兰美术馆",
+    "visit_date": null,
+    "date_display": "11世纪末",
+    "year_start": 1075,
+    "year_end": 1099,
+    "material": "局部鎏金青铜",
+    "style": "吴哥",
+    "origin_display": "柬埔寨",
+    "accession": "1982.51",
+    "image_numbers": [
+      3606
+    ],
+    "label_numbers": [
+      3607
+    ],
+    "summary_zh": "身份尚不能确定；局部鎏金让首饰与深色身体形成对比，帮助想象高棉雕塑原来的华丽外观。",
+    "look_for_zh": "金色颈饰、腰带与皮肤色表面的对比。",
+    "source_ids": [],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3606_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3607_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3606_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [],
+    "museum_pin_id": "cma",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "sculpture",
+    "material_group": "bronze",
+    "reading_ids": [],
+    "status": "recorded"
+  },
+  {
+    "id": "C08",
+    "title_zh": "难近母降伏水牛魔",
+    "title_en": "Durga as the Slayer of the Buffalo Demon",
+    "museum_seen_id": "cma",
+    "museum_seen": "克利夫兰美术馆",
+    "city_seen": "克利夫兰",
+    "owner": "克利夫兰美术馆",
+    "visit_date": null,
+    "date_display": "10世纪",
+    "year_start": 900,
+    "year_end": 999,
+    "material": "青铜",
+    "style": "或为贡开",
+    "origin_display": "柬埔寨，或为贡开",
+    "accession": "1996.27",
+    "image_numbers": [
+      3608
+    ],
+    "label_numbers": [
+      3609
+    ],
+    "summary_zh": "难近母已经战胜敌人，脚下是水牛魔头部；四臂与较平静的站姿表现胜利后的力量。",
+    "look_for_zh": "脚下牛头、裙腰宽折与四臂对称。",
+    "source_ids": [],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3608_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3609_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3608_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [
+      {
+        "site_id": "koh-ker",
+        "relation": "associated_or_tentative"
+      }
+    ],
+    "museum_pin_id": "cma",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "sculpture",
+    "material_group": "bronze",
+    "reading_ids": [],
+    "status": "recorded"
+  },
+  {
+    "id": "C09",
+    "title_zh": "轿舆挂钩",
+    "title_en": "Palanquin hook",
+    "museum_seen_id": "cma",
+    "museum_seen": "克利夫兰美术馆",
+    "city_seen": "克利夫兰",
+    "owner": "克利夫兰美术馆",
+    "visit_date": null,
+    "date_display": "约1175–1230年",
+    "year_start": 1175,
+    "year_end": 1230,
+    "material": "青铜",
+    "style": "吴哥",
+    "origin_display": "柬埔寨，或为吴哥",
+    "accession": "1982.12",
+    "image_numbers": [
+      3610
+    ],
+    "label_numbers": [
+      3611
+    ],
+    "summary_zh": "3610照片同时拍到多件轿舆构件。本条对应3611展签的小型挂钩：端部为迦楼罗面，中央有持剑与抬腿的舞者；左右大型挂钩另列C11。",
+    "look_for_zh": "先用3611展签辨认小型挂钩，不把其年代套给左右成对大挂钩。",
+    "source_ids": [
+      "S26"
+    ],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3610_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3611_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3610_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [],
+    "museum_pin_id": "cma",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "ritual",
+    "material_group": "bronze",
+    "reading_ids": [],
+    "status": "recorded"
+  },
+  {
+    "id": "C10",
+    "title_zh": "成对那伽端饰（仅拍展签）",
+    "title_en": "Pair of naga finials — label only",
+    "museum_seen_id": "cma",
+    "museum_seen": "克利夫兰美术馆",
+    "city_seen": "克利夫兰",
+    "owner": "克利夫兰美术馆",
+    "visit_date": null,
+    "date_display": "12世纪",
+    "year_start": 1100,
+    "year_end": 1199,
+    "material": "青铜",
+    "style": "吴哥",
+    "origin_display": "柬埔寨，或为吴哥",
+    "accession": "1987.14",
+    "image_numbers": [],
+    "label_numbers": [
+      3612
+    ],
+    "summary_zh": "仅有展签，没有可确认的物件照片；保留为记录，不用邻件挂钩照片代替。",
+    "look_for_zh": "可读展签理解轿杆与那伽端饰。",
+    "source_ids": [
+      "S18"
+    ],
+    "record_kind": "label_only",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [],
+    "label_paths": [
+      "photos/Image_20261127221137_3612_19.jpg"
+    ],
+    "hero_image": null,
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [],
+    "museum_pin_id": "cma",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "ritual",
+    "material_group": "bronze",
+    "reading_ids": [],
+    "status": "label_only"
+  },
+  {
+    "id": "C11",
+    "title_zh": "成对装饰轿舆挂钩与吊环",
+    "title_en": "Pair of Decorated Palanquin Hooks and Rings",
+    "museum_seen_id": "cma",
+    "museum_seen": "克利夫兰美术馆",
+    "city_seen": "克利夫兰",
+    "owner": "克利夫兰美术馆",
+    "visit_date": null,
+    "date_display": "1100–1175年",
+    "year_start": 1100,
+    "year_end": 1175,
+    "material": "青铜",
+    "style": "吴哥窟",
+    "origin_display": "柬埔寨",
+    "accession": "2011.142.1–2",
+    "image_numbers": [
+      3610
+    ],
+    "label_numbers": [],
+    "summary_zh": "同框左右大型镂空蛇形挂钩，悬吊花枝状环。与中间另一个年代更晚的小挂钩区分，馆方条目可核对形状与一件藏号。",
+    "look_for_zh": "蛇形挂钩向内回卷，吊环分成花茎般的三瓣。",
+    "source_ids": [
+      "S27"
+    ],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "official_record_and_photo_checked",
+    "physical_object_count": 2,
+    "image_paths": [
+      "photos/Image_20261127221137_3610_19.jpg"
+    ],
+    "label_paths": [],
+    "hero_image": "photos/Image_20261127221137_3610_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [],
+    "museum_pin_id": "cma",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "ritual",
+    "material_group": "bronze",
+    "reading_ids": [],
+    "status": "recorded"
+  },
+  {
+    "id": "O01",
+    "title_zh": "放光观音躯干",
+    "title_en": "Radiating Lokeshvara Bodhisattva",
+    "museum_seen_id": "homa",
+    "museum_seen": "檀香山艺术博物馆",
+    "city_seen": "檀香山",
+    "owner": "檀香山艺术博物馆",
+    "visit_date": null,
+    "date_display": "12—13世纪",
+    "year_start": 1100,
+    "year_end": 1299,
+    "material": "砂岩",
+    "style": "高棉／巴戎相关",
+    "origin_display": "柬埔寨",
+    "accession": "4483.1",
+    "image_numbers": [
+      3613
+    ],
+    "label_numbers": [
+      3614
+    ],
+    "summary_zh": "躯干上密布小佛，把观音的慈悲表现为遍及全身的形象网络。",
+    "look_for_zh": "放大胸部密集小佛，保留身体全轮廓。",
+    "source_ids": [],
+    "record_kind": "ancient_object",
+    "priority": "supporting",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3613_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3614_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3613_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [],
+    "museum_pin_id": "homa",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "sculpture",
+    "material_group": "stone",
+    "reading_ids": [
+      "buddhist-images"
+    ],
+    "status": "recorded"
+  },
+  {
+    "id": "O02",
+    "title_zh": "多头那伽端饰",
+    "title_en": "Naga Finial",
+    "museum_seen_id": "homa",
+    "museum_seen": "檀香山艺术博物馆",
+    "city_seen": "檀香山",
+    "owner": "檀香山艺术博物馆",
+    "visit_date": null,
+    "date_display": "10世纪",
+    "year_start": 900,
+    "year_end": 999,
+    "material": "砂岩",
+    "style": "女王宫",
+    "origin_display": "柬埔寨",
+    "accession": "12949.1",
+    "image_numbers": [
+      3615
+    ],
+    "label_numbers": [
+      3616
+    ],
+    "summary_zh": "扇形蛇首是桥梁、栏杆与神圣边界的重要装饰。",
+    "look_for_zh": "中央蛇首与尖形外轮廓。",
+    "source_ids": [],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3615_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3616_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3615_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [],
+    "museum_pin_id": "homa",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "architecture",
+    "material_group": "stone",
+    "reading_ids": [],
+    "status": "recorded"
+  },
+  {
+    "id": "O03",
+    "title_zh": "般若佛母立像",
+    "title_en": "Prajnaparamita",
+    "museum_seen_id": "homa",
+    "museum_seen": "檀香山艺术博物馆",
+    "city_seen": "檀香山",
+    "owner": "檀香山艺术博物馆",
+    "visit_date": null,
+    "date_display": "约1200年",
+    "year_start": 1175,
+    "year_end": 1225,
+    "material": "砂岩",
+    "style": "巴戎",
+    "origin_display": "柬埔寨",
+    "accession": "12,596.1",
+    "image_numbers": [
+      3617
+    ],
+    "label_numbers": [
+      3618
+    ],
+    "summary_zh": "下垂眼睛与手中莲花构成宁静的智慧女神形象。",
+    "look_for_zh": "面部、胸部与裙摆的纵向节奏。",
+    "source_ids": [],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3617_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3618_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3617_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [],
+    "museum_pin_id": "homa",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "sculpture",
+    "material_group": "stone",
+    "reading_ids": [
+      "buddhist-images"
+    ],
+    "status": "recorded"
+  },
+  {
+    "id": "O04",
+    "title_zh": "佛坐像碑",
+    "title_en": "Stele with Seated Buddha",
+    "museum_seen_id": "homa",
+    "museum_seen": "檀香山艺术博物馆",
+    "city_seen": "檀香山",
+    "owner": "檀香山艺术博物馆",
+    "visit_date": null,
+    "date_display": "12世纪",
+    "year_start": 1100,
+    "year_end": 1199,
+    "material": "砂岩",
+    "style": "高棉",
+    "origin_display": "柬埔寨或泰国东北部",
+    "accession": "6702.1",
+    "image_numbers": [
+      3619
+    ],
+    "label_numbers": [
+      3620
+    ],
+    "summary_zh": "佛像坐在层级台座上，展签把台座解释为宇宙山；两侧下部有天界人物。",
+    "look_for_zh": "佛身、层台与花叶华盖的上下结构。",
+    "source_ids": [],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3619_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3620_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3619_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [],
+    "museum_pin_id": "homa",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "sculpture",
+    "material_group": "stone",
+    "reading_ids": [],
+    "status": "recorded"
+  },
+  {
+    "id": "O05",
+    "title_zh": "搅拌乳海青铜端饰",
+    "title_en": "Finial depicting the Churning of the Sea of Milk",
+    "museum_seen_id": "homa",
+    "museum_seen": "檀香山艺术博物馆",
+    "city_seen": "檀香山",
+    "owner": "檀香山艺术博物馆",
+    "visit_date": null,
+    "date_display": "约1200年",
+    "year_start": 1175,
+    "year_end": 1225,
+    "material": "青铜",
+    "style": "吴哥",
+    "origin_display": "柬埔寨",
+    "accession": "5804.1",
+    "image_numbers": [
+      3621
+    ],
+    "label_numbers": [
+      3622
+    ],
+    "summary_zh": "小型端饰把乳海神话压缩为中央毗湿奴与两侧拉蛇者。",
+    "look_for_zh": "中央轴、盘绕的蛇与两侧人物的拉力。",
+    "source_ids": [],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3621_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3622_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3621_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [],
+    "museum_pin_id": "homa",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "ritual",
+    "material_group": "bronze",
+    "reading_ids": [],
+    "status": "recorded"
+  },
+  {
+    "id": "O06",
+    "title_zh": "佛与两位立像石碑（暂名）",
+    "title_en": "Stele with Buddha and two standing deities — provisional",
+    "museum_seen_id": "homa",
+    "museum_seen": "檀香山艺术博物馆",
+    "city_seen": "檀香山",
+    "owner": "檀香山艺术博物馆",
+    "visit_date": null,
+    "date_display": "待核；暂不编入精确年代",
+    "year_start": null,
+    "year_end": null,
+    "material": "石（目视）",
+    "style": "待核",
+    "origin_display": "观看组别推定为檀香山；无配套展签",
+    "accession": null,
+    "image_numbers": [
+      3623
+    ],
+    "label_numbers": [],
+    "summary_zh": "照片可见上方坐佛与下方两立像。二级图像资料有佛、观音与般若佛母的相似作品，尚无馆方条目匹配，因此保留暂名。",
+    "look_for_zh": "上层佛座与下层两人物的层次。",
+    "source_ids": [],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "identity_pending",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3623_19.jpg"
+    ],
+    "label_paths": [],
+    "hero_image": "photos/Image_20261127221137_3623_19.jpg",
+    "timeline_lane": "undated",
+    "origin_map_links": [],
+    "museum_pin_id": "homa",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "sculpture",
+    "material_group": "stone",
+    "reading_ids": [],
+    "status": "pending"
+  },
+  {
+    "id": "S01",
+    "title_zh": "神像头部，或为毗湿奴",
+    "title_en": "Head, probably of Vishnu",
+    "museum_seen_id": "sam",
+    "museum_seen": "西雅图艺术博物馆／亚洲艺术博物馆",
+    "city_seen": "西雅图",
+    "owner": "西雅图艺术博物馆／亚洲艺术博物馆",
+    "visit_date": null,
+    "date_display": "现场：9世纪末—10世纪初；馆网：9世纪初—10世纪初",
+    "year_start": 800,
+    "year_end": 925,
+    "material": "砂岩",
+    "style": "馆网列 Koh Ker",
+    "origin_display": "柬埔寨",
+    "accession": "51.99",
+    "image_numbers": [
+      3624
+    ],
+    "label_numbers": [],
+    "summary_zh": "同一照片含作品与可读展签。馆网与现场起始年代有差异，保留两种表述。",
+    "look_for_zh": "圆筒冠、冠带和面部的细密纹样。",
+    "source_ids": [
+      "S19"
+    ],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3624_19.jpg"
+    ],
+    "label_paths": [],
+    "hero_image": "photos/Image_20261127221137_3624_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [],
+    "museum_pin_id": "sam",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "sculpture",
+    "material_group": "stone",
+    "reading_ids": [],
+    "status": "recorded"
+  },
+  {
+    "id": "S02",
+    "title_zh": "举臂观音胸像",
+    "title_en": "Lokeshvara with raised arm",
+    "museum_seen_id": "sam",
+    "museum_seen": "西雅图艺术博物馆／亚洲艺术博物馆",
+    "city_seen": "西雅图",
+    "owner": "西雅图艺术博物馆／亚洲艺术博物馆",
+    "visit_date": null,
+    "date_display": "11世纪",
+    "year_start": 1000,
+    "year_end": 1099,
+    "material": "石",
+    "style": "高棉",
+    "origin_display": "柬埔寨",
+    "accession": "34.68",
+    "image_numbers": [
+      3625
+    ],
+    "label_numbers": [
+      3626
+    ],
+    "summary_zh": "发冠小佛识别观音，头向一侧转动，断臂原高举，与常见正面垂臂立像有所不同。",
+    "look_for_zh": "面部转向与肩线的微妙不对称。",
+    "source_ids": [
+      "S20"
+    ],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3625_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3626_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3625_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [],
+    "museum_pin_id": "sam",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "sculpture",
+    "material_group": "stone",
+    "reading_ids": [
+      "buddhist-images"
+    ],
+    "status": "recorded"
+  },
+  {
+    "id": "S03",
+    "title_zh": "象头神坐像",
+    "title_en": "Ganesha seated",
+    "museum_seen_id": "sam",
+    "museum_seen": "西雅图艺术博物馆／亚洲艺术博物馆",
+    "city_seen": "西雅图",
+    "owner": "西雅图艺术博物馆／亚洲艺术博物馆",
+    "visit_date": null,
+    "date_display": "约13世纪",
+    "year_start": 1200,
+    "year_end": 1299,
+    "material": "石",
+    "style": "高棉",
+    "origin_display": "柬埔寨",
+    "accession": "34.67",
+    "image_numbers": [
+      3627
+    ],
+    "label_numbers": [
+      3628
+    ],
+    "summary_zh": "智慧、开端与排除障碍的象头神；以展签中的甜食和断牙线索帮助辨识。",
+    "look_for_zh": "象鼻、腹部与手中的甜食。",
+    "source_ids": [],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3627_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3628_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3627_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [],
+    "museum_pin_id": "sam",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "sculpture",
+    "material_group": "stone",
+    "reading_ids": [],
+    "status": "recorded"
+  },
+  {
+    "id": "W01",
+    "title_zh": "十一面二十二臂般若佛母",
+    "title_en": "Prajnaparamita (Perfection of Wisdom)",
+    "museum_seen_id": "nmaa",
+    "museum_seen": "史密森尼国立亚洲艺术博物馆",
+    "city_seen": "华盛顿",
+    "owner": "柬埔寨王国；在华盛顿借展观看",
+    "visit_date": null,
+    "date_display": "约1200年",
+    "year_start": 1175,
+    "year_end": 1225,
+    "material": "铜合金",
+    "style": "巴戎",
+    "origin_display": "柬埔寨",
+    "accession": "曾藏号 S2015.26",
+    "image_numbers": [
+      3629
+    ],
+    "label_numbers": [
+      3630
+    ],
+    "summary_zh": "多层头部和扇形手臂使智慧被表现为向各方向展开的力量。现场展签明确为柬埔寨王国借展，不作为美国现藏品统计。 馆方记录：2025年12月办理退藏，2026年3月完成移转，后回借展示。",
+    "look_for_zh": "逐层数头部、观察两组主要手臂与外侧卷起的手臂。",
+    "source_ids": [
+      "S21"
+    ],
+    "record_kind": "ancient_object",
+    "priority": "supporting",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3629_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127221137_3630_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127221137_3629_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [],
+    "museum_pin_id": "nmaa",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "sculpture",
+    "material_group": "bronze",
+    "reading_ids": [
+      "buddhist-images"
+    ],
+    "status": "recorded"
+  },
+  {
+    "id": "W02",
+    "title_zh": "门楣：蛇，还是藤蔓？",
+    "title_en": "Lintel — Snake or Vine?",
+    "museum_seen_id": "nmaa",
+    "museum_seen": "史密森尼国立亚洲艺术博物馆",
+    "city_seen": "华盛顿",
+    "owner": "史密森尼国立亚洲艺术博物馆",
+    "visit_date": null,
+    "date_display": "12世纪",
+    "year_start": 1100,
+    "year_end": 1199,
+    "material": "砂岩",
+    "style": "高棉相关",
+    "origin_display": "泰国北部或柬埔寨",
+    "accession": null,
+    "image_numbers": [
+      3631
+    ],
+    "label_numbers": [],
+    "summary_zh": "现场展签把波状纹样放在蛇形与卷草之间讨论；照片含整体与小字展签，藏号尚未清晰读出。",
+    "look_for_zh": "沿横向曲线看它如何在叶、蛇与兽首之间变化。",
+    "source_ids": [],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127221137_3631_19.jpg"
+    ],
+    "label_paths": [],
+    "hero_image": "photos/Image_20261127221137_3631_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [],
+    "museum_pin_id": "nmaa",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "architecture",
+    "material_group": "stone",
+    "reading_ids": [],
+    "status": "recorded"
+  },
+  {
+    "id": "W03",
+    "title_zh": "西梅奔卧毗湿奴",
+    "title_en": "Vishnu Reclining on the Serpent Ananta",
+    "museum_seen_id": "nmaa",
+    "museum_seen": "史密森尼国立亚洲艺术博物馆",
+    "city_seen": "华盛顿",
+    "owner": "柬埔寨国家博物馆，金边；华盛顿特展借展",
+    "visit_date": null,
+    "date_display": "11世纪下半叶",
+    "year_start": 1050,
+    "year_end": 1099,
+    "material": "青铜，汞鎏金",
+    "style": "吴哥／巴方时代相关",
+    "origin_display": "吴哥西池中央岛寺西梅奔 West Mebon",
+    "accession": "胸像 GA.5387；另有多件残片号",
+    "image_numbers": [
+      3632,
+      3633,
+      3634,
+      3635,
+      3642
+    ],
+    "label_numbers": [
+      3636,
+      3637,
+      3638,
+      3639,
+      3640,
+      3641
+    ],
+    "summary_zh": "全景、头部、背部与残片构成观察序列；西池和岛寺让宇宙海神话具有真实地景。小残片是否归位仍须按展板逐项区分。",
+    "look_for_zh": "托头的手、轻闭的眼、背部补片与未接合残片。",
+    "source_ids": [
+      "S01",
+      "S22"
+    ],
+    "record_kind": "ancient_object",
+    "priority": "hero",
+    "verification": "official_exhibition_and_photo_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127231928_3632_19.jpg",
+      "photos/Image_20261127231928_3633_19.jpg",
+      "photos/Image_20261127231928_3634_19.jpg",
+      "photos/Image_20261127231928_3635_19.jpg",
+      "photos/Image_20261127231928_3642_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127231928_3636_19.jpg",
+      "photos/Image_20261127231928_3637_19.jpg",
+      "photos/Image_20261127231928_3638_19.jpg",
+      "photos/Image_20261127231928_3639_19.jpg",
+      "photos/Image_20261127231928_3640_19.jpg",
+      "photos/Image_20261127231928_3641_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127231928_3632_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [
+      {
+        "site_id": "west-mebon",
+        "relation": "known_site"
+      }
+    ],
+    "museum_pin_id": "nmaa",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": {
+      "scope": "原来／展览提示的总体尺度",
+      "approx_length": 600,
+      "not_intact": true
+    },
+    "category": "sculpture",
+    "material_group": "bronze",
+    "reading_ids": [
+      "west-mebon"
+    ],
+    "status": "recorded"
+  },
+  {
+    "id": "W04",
+    "title_zh": "西梅奔伴随出土的右手与踝部残件",
+    "title_en": "A right hand and an ankle, found with the West Mebon bronzes",
+    "museum_seen_id": "nmaa",
+    "museum_seen": "史密森尼国立亚洲艺术博物馆",
+    "city_seen": "华盛顿",
+    "owner": "柬埔寨国家博物馆，金边；华盛顿特展借展",
+    "visit_date": null,
+    "date_display": "11世纪下半叶",
+    "year_start": 1050,
+    "year_end": 1099,
+    "material": "青铜",
+    "style": "吴哥",
+    "origin_display": "西梅奔 West Mebon",
+    "accession": "GA.5467; GA.2085",
+    "image_numbers": [
+      3643
+    ],
+    "label_numbers": [
+      3644
+    ],
+    "summary_zh": "成分与大像相符，但尺寸太小，不能直接当作卧毗湿奴的右手和脚。展签说可能属于梵天或吉祥天女，保留解释弹性。",
+    "look_for_zh": "手部与背景大像的尺寸对照。",
+    "source_ids": [
+      "S01"
+    ],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 2,
+    "image_paths": [
+      "photos/Image_20261127231928_3643_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127231928_3644_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127231928_3643_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [
+      {
+        "site_id": "west-mebon",
+        "relation": "known_site"
+      }
+    ],
+    "museum_pin_id": "nmaa",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "sculpture",
+    "material_group": "bronze",
+    "reading_ids": [
+      "west-mebon"
+    ],
+    "status": "recorded"
+  },
+  {
+    "id": "K01",
+    "title_zh": "四臂弥勒青铜立像",
+    "title_en": "The Bodhisattva Maitreya",
+    "museum_seen_id": "kimbell",
+    "museum_seen": "金贝尔艺术博物馆",
+    "city_seen": "沃思堡",
+    "owner": "金贝尔艺术博物馆",
+    "visit_date": null,
+    "date_display": "8世纪末",
+    "year_start": 775,
+    "year_end": 800,
+    "material": "青铜",
+    "style": "泰国东北部早期青铜传统",
+    "origin_display": "泰国武里南府；传统归入 Prakhon Chai 群",
+    "accession": "AP 1965.01",
+    "image_numbers": [
+      3645,
+      3646
+    ],
+    "label_numbers": [
+      3647
+    ],
+    "summary_zh": "发髻前小塔识别弥勒，修长躯体与极简短裙强调苦行形象。与Met观音同属相关艺术传统，但不是同一尊或同一尊神。",
+    "look_for_zh": "正面看四臂与小塔，再看背面头发和身体轮廓。",
+    "source_ids": [
+      "S09",
+      "S10"
+    ],
+    "record_kind": "ancient_object",
+    "priority": "core",
+    "verification": "official_record_and_photo_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127231928_3645_19.jpg",
+      "photos/Image_20261127231928_3646_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127231928_3647_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127231928_3645_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [
+      {
+        "site_id": "plai-bat-ii",
+        "relation": "associated_or_tentative"
+      },
+      {
+        "site_id": "buriram-region",
+        "relation": "associated_or_tentative"
+      }
+    ],
+    "museum_pin_id": "kimbell",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": {
+      "height": 122.5,
+      "width": 51,
+      "depth": 31.5
+    },
+    "category": "sculpture",
+    "material_group": "bronze",
+    "reading_ids": [
+      "early-bronzes"
+    ],
+    "status": "recorded"
+  },
+  {
+    "id": "K02",
+    "title_zh": "宝座上的佛陀",
+    "title_en": "Buddha Enthroned",
+    "museum_seen_id": "kimbell",
+    "museum_seen": "金贝尔艺术博物馆",
+    "city_seen": "沃思堡",
+    "owner": "金贝尔艺术博物馆",
+    "visit_date": null,
+    "date_display": "约1180–1220年",
+    "year_start": 1180,
+    "year_end": 1220,
+    "material": "青铜",
+    "style": "泰国高棉／晚期吴哥",
+    "origin_display": "现场展签：泰国猜也奔府 Chaiyaphum",
+    "accession": "AP 1966.09",
+    "image_numbers": [
+      3648
+    ],
+    "label_numbers": [
+      3649
+    ],
+    "summary_zh": "带宝冠、珠饰与高耸尖形背屏的大型佛像。整组高度约175.7厘米；“18件铸件组成”来自馆方技术研究。",
+    "look_for_zh": "佛身与背屏的比例、触地右手及冠饰。",
+    "source_ids": [
+      "S05"
+    ],
+    "record_kind": "ancient_object",
+    "priority": "core",
+    "verification": "official_record_and_photo_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127231928_3648_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127231928_3649_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127231928_3648_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [
+      {
+        "site_id": "chaiyaphum-region",
+        "relation": "region_only"
+      }
+    ],
+    "museum_pin_id": "kimbell",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": {
+      "height": 175.7,
+      "width": 65.7,
+      "depth": 41.3,
+      "scope": "整组，含背屏及座部"
+    },
+    "category": "sculpture",
+    "material_group": "bronze",
+    "reading_ids": [
+      "enthroned-buddha"
+    ],
+    "status": "recorded"
+  },
+  {
+    "id": "A01",
+    "title_zh": "天人承托的烛台",
+    "title_en": "Candlestick supported by Buddhist angel, or apsara",
+    "museum_seen_id": "sama",
+    "museum_seen": "圣安东尼奥美术馆",
+    "city_seen": "圣安东尼奥",
+    "owner": "圣安东尼奥美术馆",
+    "visit_date": null,
+    "date_display": "12—13世纪",
+    "year_start": 1100,
+    "year_end": 1299,
+    "material": "青铜",
+    "style": "巴戎",
+    "origin_display": "柬埔寨",
+    "accession": "2003.40.4",
+    "image_numbers": [
+      3650
+    ],
+    "label_numbers": [
+      3651
+    ],
+    "summary_zh": "跪姿人物把灯座举到头顶，显示神圣形象如何与实用仪式器物结合。",
+    "look_for_zh": "双臂、头顶承托与烛杯的承重关系。",
+    "source_ids": [],
+    "record_kind": "ancient_object",
+    "priority": "catalogue",
+    "verification": "label_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/Image_20261127231928_3650_19.jpg"
+    ],
+    "label_paths": [
+      "photos/Image_20261127231928_3651_19.jpg"
+    ],
+    "hero_image": "photos/Image_20261127231928_3650_19.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [],
+    "museum_pin_id": "sama",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": null,
+    "category": "ritual",
+    "material_group": "bronze",
+    "reading_ids": [],
+    "status": "recorded"
+  },
+  {
+    "id": "K03",
+    "title_zh": "Harihara：毗湿奴与湿婆合体像",
+    "title_en": "Harihara",
+    "museum_seen_id": "kimbell",
+    "museum_seen": "金贝尔艺术博物馆",
+    "city_seen": "沃思堡",
+    "owner": "金贝尔艺术博物馆",
+    "visit_date": null,
+    "date_display": "约675–700年",
+    "year_start": 675,
+    "year_end": 700,
+    "material": "砂岩（现场展签）；馆网广义列为石",
+    "style": "前吴哥，Prasat Andet风格",
+    "origin_display": "柬埔寨磅湛 Kompong Cham（现场展签）；具体原属寺庙未列",
+    "accession": "AP 1988.01",
+    "image_numbers": [],
+    "label_numbers": [],
+    "summary_zh": "毗湿奴与湿婆合为一体：像自身右侧的盘曲发绺代表湿婆，左侧平滑高冠代表毗湿奴；修长躯干、简洁腰衣与细腻肌肉塑造体现前吴哥风格。",
+    "look_for_zh": "从观者左侧的盘曲发绺看向右侧平滑高冠，再看额头半只第三眼，以及腰腹、腰带和扇形衣褶。",
+    "source_ids": [
+      "S30"
+    ],
+    "record_kind": "ancient_object",
+    "priority": "supporting",
+    "verification": "official_record_and_photo_checked",
+    "physical_object_count": 1,
+    "image_paths": [
+      "photos/d1162d7376874af2bf11cee843a4c5c7.jpg"
+    ],
+    "label_paths": [
+      "photos/b813a861ca7b52cfe018fea821060356.jpg"
+    ],
+    "hero_image": "photos/d1162d7376874af2bf11cee843a4c5c7.jpg",
+    "timeline_lane": "ancient_art",
+    "origin_map_links": [],
+    "museum_pin_id": "kimbell",
+    "visit_date_note": "未提供；文件导出时间不作为参观日期",
+    "dimensions_cm": {
+      "height": 115.6,
+      "width": 53,
+      "depth": 28
+    },
+    "photo_number_note": "本次新图无原批3534–3651序号，以完整文件名配对；空number数组不表示缺少照片。",
+    "provenance": [
+      {
+        "date": "1968年起",
+        "name": "Douglas A. J. Latchford，曼谷",
+        "source_id": "S30"
+      },
+      {
+        "date": "1987",
+        "name": "L & R Entwistle & Co., Ltd.，伦敦，购入",
+        "source_id": "S30"
+      },
+      {
+        "date": "1988",
+        "name": "Kimbell Art Foundation，沃思堡，购入",
+        "source_id": "S30"
+      }
+    ],
+    "geographic_note": "Prasat Andet为风格名称；不可将其自动写成该寺出土，亦不填精确出土地坐标。",
+    "image_keys": [
+      "k03-front"
+    ],
+    "label_keys": [
+      "k03-label"
+    ],
+    "reading_ids": [],
+    "category": "sculpture",
+    "material_group": "stone",
+    "status": "confirmed",
+    "sections": [
+      {
+        "title": "一具身体，两位神",
+        "paragraphs": [
+          "从观者左侧看，盘曲的发绺属于湿婆；右侧平滑的高冠则属于毗湿奴。两种头饰沿中轴接合，下方的面孔和身体仍然连成一体。Hari是毗湿奴，Hara是湿婆，Harihara把两位神的力量结合在同一具身体里。[[S30]]",
+          "额头还刻有半只属于湿婆的第三眼。照片里，这处细节不如头饰醒目；辨认它时可以对照展签，再放大原片。胸口到腰腹的起伏柔和，装饰集中于腰带与垂下的衣褶，裸露的上身因此显得修长。"
+        ]
+      },
+      {
+        "title": "放回前吴哥的石雕之间",
+        "paragraphs": [
+          "与克利夫兰约600年的举山克里希纳相比，这尊像稍晚。克里希纳的身体随举山的动作转动，Harihara则以正面站姿呈现两位神的结合。可以并看它们细腻的人体塑造和相对简洁的衣饰，再转向金贝尔的早期青铜弥勒，看看石与铜怎样分别组织修长的身体。",
+          "展签以Prasat Andet风格描述本件，并将地域记为磅湛。这是观看造型的坐标，具体原属寺庙仍未列出。[[S30]]"
+        ]
+      }
+    ],
+    "related_ids": [
+      "C02",
+      "K01"
+    ]
+  }
+]

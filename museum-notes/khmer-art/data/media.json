@@ -1,0 +1,4457 @@
+{
+  "3534": {
+    "number": 3534,
+    "path": "photos/Image_20261127221137_3534_19.jpg",
+    "sha256": "86647a5fa4abd6e1fe4baa7af1052e194ae3b4c5054b9d8a2f103cb3df0dc145",
+    "bytes": 239624,
+    "width": 1702,
+    "height": 1276,
+    "assignments": [
+      {
+        "record_id": "G01",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3534_19.jpg",
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3534-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3534-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3534-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "圣剑寺巨人栏杆：执那伽的天神 · 现场全图",
+    "museum_seen": "吉美亚洲艺术博物馆"
+  },
+  "3535": {
+    "number": 3535,
+    "path": "photos/Image_20261127221137_3535_19.jpg",
+    "sha256": "815c15b82f2a4be88a07ebb6f84c54f5b2831218235dc04f41a6ef5a69ba407c",
+    "bytes": 340615,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "G01",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3535_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3535-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3535-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3535-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "圣剑寺巨人栏杆：执那伽的天神 · 现场展签",
+    "museum_seen": "吉美亚洲艺术博物馆"
+  },
+  "3536": {
+    "number": 3536,
+    "path": "photos/Image_20261127221137_3536_19.jpg",
+    "sha256": "c16bc37eec910b4dd4424877f12edf02c2f7a27de5db1b5bd17e6f51fe0f12bd",
+    "bytes": 509896,
+    "width": 1702,
+    "height": 1276,
+    "assignments": [
+      {
+        "record_id": "G02",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3536_19.jpg",
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3536-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3536-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3536-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "吴哥窟大门的19世纪翻模组合；门内像为另一件陈列",
+    "museum_seen": "吉美亚洲艺术博物馆"
+  },
+  "3537": {
+    "number": 3537,
+    "path": "photos/Image_20261127221137_3537_19.jpg",
+    "sha256": "337c98e2b728a913041b6c2cb02cf875977a867619397d7ef89ccb027849480e",
+    "bytes": 289271,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "G02",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3537_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3537-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3537-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3537-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "吴哥窟西入口大门翻模与组合复原 · 现场展签",
+    "museum_seen": "吉美亚洲艺术博物馆"
+  },
+  "3538": {
+    "number": 3538,
+    "path": "photos/Image_20261127221137_3538_19.jpg",
+    "sha256": "d6f3ca61e20e1c36894b3dfeb901efb4182c0d4dc0ba88ec075fcb00d7b5cd3e",
+    "bytes": 233803,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "G03",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3538_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3538-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3538-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3538-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "吉美展厅：高处的巴戎塔人面翻模与前景雕塑",
+    "museum_seen": "吉美亚洲艺术博物馆"
+  },
+  "3539": {
+    "number": 3539,
+    "path": "photos/Image_20261127221137_3539_19.jpg",
+    "sha256": "e2eb4d6ad0a3c1b173da7ea1316dd695420d3c93558008922f31d9aa7f9f3bdf",
+    "bytes": 217430,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "G03",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3539_19.jpg",
+    "rotation": 90,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3539-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3539-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3539-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "巴戎塔人面翻模及展厅环境 · 现场展签",
+    "museum_seen": "吉美亚洲艺术博物馆"
+  },
+  "3540": {
+    "number": 3540,
+    "path": "photos/Image_20261127221137_3540_19.jpg",
+    "sha256": "34d0d7ed3caddc22ae0ae96a452c19a4d29d20c3c28970c94f2173d617a9983d",
+    "bytes": 604000,
+    "width": 1702,
+    "height": 1276,
+    "assignments": [
+      {
+        "record_id": "G04",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3540_19.jpg",
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3540-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3540-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3540-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "女王宫山墙：孙陀与优波孙陀争夺天女 · 现场全图",
+    "museum_seen": "吉美亚洲艺术博物馆"
+  },
+  "3541": {
+    "number": 3541,
+    "path": "photos/Image_20261127221137_3541_19.jpg",
+    "sha256": "b387e7e8e4089312be42ca376afb57d46a9c279212230fd83386c1e9a124f256",
+    "bytes": 328035,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "G04",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3541_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3541-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3541-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3541-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "女王宫修复背景展板",
+    "museum_seen": "吉美亚洲艺术博物馆"
+  },
+  "3542": {
+    "number": 3542,
+    "path": "photos/Image_20261127221137_3542_19.jpg",
+    "sha256": "4a39bd5543a8d8086aec02beef760f8c45df8069f74898bd68358886231f79c7",
+    "bytes": 292928,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "G05",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3542_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3542-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3542-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3542-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "毗湿奴马头化身（或为 Hayagriva） · 现场全图",
+    "museum_seen": "吉美亚洲艺术博物馆"
+  },
+  "3543": {
+    "number": 3543,
+    "path": "photos/Image_20261127221137_3543_19.jpg",
+    "sha256": "76dfe6f704535875edd017909d9a2f4ec33a8b0b572f51b73bf9e64767216748",
+    "bytes": 333489,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "G05",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3543_19.jpg",
+    "rotation": 90,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3543-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3543-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3543-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "毗湿奴马头化身（或为 Hayagriva） · 现场展签",
+    "museum_seen": "吉美亚洲艺术博物馆"
+  },
+  "3544": {
+    "number": 3544,
+    "path": "photos/Image_20261127221137_3544_19.jpg",
+    "sha256": "7ce8cdec89a06f896f4089d07825a799455e143d4ec4e1f4bb82749e50ccbd85",
+    "bytes": 313811,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "G06",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3544_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3544-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3544-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3544-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "那伽上的宝冠佛 · 现场全图",
+    "museum_seen": "吉美亚洲艺术博物馆"
+  },
+  "3545": {
+    "number": 3545,
+    "path": "photos/Image_20261127221137_3545_19.jpg",
+    "sha256": "7c02166090b006fdba747df2b201b821d895f04232513bfecb50f1a1806d0b72",
+    "bytes": 260796,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "G06",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3545_19.jpg",
+    "rotation": 90,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3545-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3545-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3545-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "那伽上的宝冠佛 · 现场展签",
+    "museum_seen": "吉美亚洲艺术博物馆"
+  },
+  "3546": {
+    "number": 3546,
+    "path": "photos/Image_20261127221137_3546_19.jpg",
+    "sha256": "418422a15f20360cff547e7eee00be9b89ec2591a0b234958c890cbae9aacedc",
+    "bytes": 513384,
+    "width": 1702,
+    "height": 1276,
+    "assignments": [
+      {
+        "record_id": "G07",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3546_19.jpg",
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3546-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3546-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3546-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "Vat Kralanh 门楣：湿婆与帕尔瓦蒂骑南迪 · 现场全图",
+    "museum_seen": "吉美亚洲艺术博物馆"
+  },
+  "3547": {
+    "number": 3547,
+    "path": "photos/Image_20261127221137_3547_19.jpg",
+    "sha256": "16461cb91ee035139b3924e71bd9d6bc973f642f440640f2b1fe69f57d25e4d5",
+    "bytes": 96375,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "G07",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3547_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3547-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3547-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3547-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "Vat Kralanh 门楣：湿婆与帕尔瓦蒂骑南迪 · 现场展签",
+    "museum_seen": "吉美亚洲艺术博物馆"
+  },
+  "3548": {
+    "number": 3548,
+    "path": "photos/Image_20261127221137_3548_19.jpg",
+    "sha256": "84cfa73c35a6864d33c3638ff03b731f72a548aaaab318523576ee60ed32c403",
+    "bytes": 434967,
+    "width": 1702,
+    "height": 1276,
+    "assignments": [
+      {
+        "record_id": "G08",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3548_19.jpg",
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3548-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3548-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3548-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "巴戎寺百分之一模型 · 现场全图",
+    "museum_seen": "吉美亚洲艺术博物馆"
+  },
+  "3549": {
+    "number": 3549,
+    "path": "photos/Image_20261127221137_3549_19.jpg",
+    "sha256": "729f4e3f8d3e46145315ce31713077f44b1a51744fc31c9320928e426580d535",
+    "bytes": 249400,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "G08",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3549_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3549-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3549-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3549-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "巴戎寺百分之一模型 · 现场展签",
+    "museum_seen": "吉美亚洲艺术博物馆"
+  },
+  "3550": {
+    "number": 3550,
+    "path": "photos/Image_20261127221137_3550_19.jpg",
+    "sha256": "3552975d7f8a4e2a892d30d509894b8b4f0761aa671010b6bc4604d612f681c7",
+    "bytes": 339606,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "G09",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3550_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3550-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3550-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3550-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "迦楼罗制伏多头那伽栏杆端饰 · 现场全图",
+    "museum_seen": "吉美亚洲艺术博物馆"
+  },
+  "3551": {
+    "number": 3551,
+    "path": "photos/Image_20261127221137_3551_19.jpg",
+    "sha256": "9086a3eae7399d1a118b6f9151aa8bfed60c5c7a5098d8176969aff742e1ab32",
+    "bytes": 207507,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "G09",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3551_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3551-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3551-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3551-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "迦楼罗制伏多头那伽栏杆端饰 · 现场展签",
+    "museum_seen": "吉美亚洲艺术博物馆"
+  },
+  "3552": {
+    "number": 3552,
+    "path": "photos/Image_20261127221137_3552_19.jpg",
+    "sha256": "f05c65cd47eafe17eb6ba64cb0ac591bd7cdfe85626788dd08986f36b897f933",
+    "bytes": 259260,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "G10",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3552_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3552-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3552-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3552-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "佛头 · 现场全图",
+    "museum_seen": "吉美亚洲艺术博物馆"
+  },
+  "3553": {
+    "number": 3553,
+    "path": "photos/Image_20261127221137_3553_19.jpg",
+    "sha256": "4f0001ee2f43259f215c00d1a14c287b4b150605dd2eb379d6ce7dda856ac5ae",
+    "bytes": 418092,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "G10",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3553_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3553-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3553-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3553-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "佛头 · 现场展签",
+    "museum_seen": "吉美亚洲艺术博物馆"
+  },
+  "3554": {
+    "number": 3554,
+    "path": "photos/Image_20261127221137_3554_19.jpg",
+    "sha256": "8dedae5c0cb4081cadbed1101f8bd825f6e05f593fa766504ac0921f79feee06",
+    "bytes": 165080,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "G11",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3554_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3554-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3554-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3554-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "守门神 · 现场全图",
+    "museum_seen": "吉美亚洲艺术博物馆"
+  },
+  "3555": {
+    "number": 3555,
+    "path": "photos/Image_20261127221137_3555_19.jpg",
+    "sha256": "0480f446f47ccd15493ad6caf4976e4006aaa00635143287f3f8afe0fbcacf0f",
+    "bytes": 138448,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "G11",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3555_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3555-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3555-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3555-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "守门神 · 现场展签",
+    "museum_seen": "吉美亚洲艺术博物馆"
+  },
+  "3556": {
+    "number": 3556,
+    "path": "photos/Image_20261127221137_3556_19.jpg",
+    "sha256": "023cd561a0481c1b36222715d246c7e334a5c615f87af4bef2653683609f5cc3",
+    "bytes": 360376,
+    "width": 1702,
+    "height": 1276,
+    "assignments": [
+      {
+        "record_id": "G12",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3556_19.jpg",
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3556-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3556-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3556-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "舞蹈天女浮雕翻模 · 现场全图",
+    "museum_seen": "吉美亚洲艺术博物馆"
+  },
+  "3557": {
+    "number": 3557,
+    "path": "photos/Image_20261127221137_3557_19.jpg",
+    "sha256": "d5265fbb9da96096a2a5103c2fff2769dd54f9c41bdb5d69bbb98a2665fc8ad3",
+    "bytes": 118666,
+    "width": 1702,
+    "height": 1276,
+    "assignments": [
+      {
+        "record_id": "G12",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3557_19.jpg",
+    "rotation": -90,
+    "display_width": 1276,
+    "display_height": 1702,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3557-v2-400.webp",
+        "width": 400,
+        "height": 534
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3557-v2-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3557-v2-1276.webp",
+        "width": 1276,
+        "height": 1702
+      }
+    ],
+    "caption": "舞蹈天女浮雕翻模 · 现场展签",
+    "museum_seen": "吉美亚洲艺术博物馆",
+    "derivative_version": "-v2"
+  },
+  "3558": {
+    "number": 3558,
+    "path": "photos/Image_20261127221137_3558_19.jpg",
+    "sha256": "61270a097df8c6b006030c3f2a8473d7d32c84f069d5b11e5cb55d2ab56c7958",
+    "bytes": 452451,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "G13",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3558_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3558-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3558-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3558-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "王宫前台阶多头那伽栏杆端饰 · 现场全图",
+    "museum_seen": "吉美亚洲艺术博物馆"
+  },
+  "3559": {
+    "number": 3559,
+    "path": "photos/Image_20261127221137_3559_19.jpg",
+    "sha256": "72a208070a371b477bbc4d488c87d9925f34af8e7ea33b8f5644acf7bbffc711",
+    "bytes": 222834,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "G13",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3559_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3559-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3559-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3559-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "王宫前台阶多头那伽栏杆端饰 · 现场展签",
+    "museum_seen": "吉美亚洲艺术博物馆"
+  },
+  "3560": {
+    "number": 3560,
+    "path": "photos/Image_20261127221137_3560_19.jpg",
+    "sha256": "49ff3648f051c76c73e5c64f9e14647e1aba2f0c6b0eb784e99cad4895fc7e2f",
+    "bytes": 381341,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "G14",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3560_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3560-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3560-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3560-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "毗湿奴奉献纪念柱 · 现场全图",
+    "museum_seen": "吉美亚洲艺术博物馆"
+  },
+  "3561": {
+    "number": 3561,
+    "path": "photos/Image_20261127221137_3561_19.jpg",
+    "sha256": "0d298eef138dd156a708f1dd94e9cf73e74c8c130535fa578af2d0e134536896",
+    "bytes": 168980,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "G14",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3561_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3561-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3561-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3561-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "毗湿奴奉献纪念柱 · 现场展签",
+    "museum_seen": "吉美亚洲艺术博物馆"
+  },
+  "3562": {
+    "number": 3562,
+    "path": "photos/Image_20261127221137_3562_19.jpg",
+    "sha256": "64388115be11c475358c1a2ad19f3c0a10a8e0cc28031224b7f80df121e15f92",
+    "bytes": 410276,
+    "width": 1702,
+    "height": 1276,
+    "assignments": [
+      {
+        "record_id": "G15",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3562_19.jpg",
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3562-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3562-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3562-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "Preah Pithu 门楣 · 现场全图",
+    "museum_seen": "吉美亚洲艺术博物馆"
+  },
+  "3563": {
+    "number": 3563,
+    "path": "photos/Image_20261127221137_3563_19.jpg",
+    "sha256": "24bf4c60bd944a17dc211f1e09597f3248d2fe1c94573c7e3dcd66d5a5c741d7",
+    "bytes": 300825,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "G15",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3563_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3563-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3563-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3563-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "Preah Pithu 门楣 · 现场展签",
+    "museum_seen": "吉美亚洲艺术博物馆"
+  },
+  "3564": {
+    "number": 3564,
+    "path": "photos/Image_20261127221137_3564_19.jpg",
+    "sha256": "71489415c779b0b63a7bca3175f9ffdcf17b9fbdddadd313937fffec2ba8d1f7",
+    "bytes": 216257,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "D01",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3564_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3564-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3564-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3564-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "阿修罗头 · 现场全图",
+    "museum_seen": "达拉斯艺术博物馆"
+  },
+  "3565": {
+    "number": 3565,
+    "path": "photos/Image_20261127221137_3565_19.jpg",
+    "sha256": "ab42fd05ff49ec1add5b98dbf0369492b8dfe689dd5d6d16e5a1e4be37afeb49",
+    "bytes": 198960,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "D01",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3565_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3565-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3565-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3565-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "阿修罗头 · 现场展签",
+    "museum_seen": "达拉斯艺术博物馆"
+  },
+  "3566": {
+    "number": 3566,
+    "path": "photos/Image_20261127221137_3566_19.jpg",
+    "sha256": "e8b3fa98989ce479dd9add28dfe1ee5dd5c070fe03fcff7312becbd51ea5ba72",
+    "bytes": 270036,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "D02",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3566_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3566-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3566-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3566-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "那伽护佛青铜像 · 现场全图",
+    "museum_seen": "达拉斯艺术博物馆"
+  },
+  "3567": {
+    "number": 3567,
+    "path": "photos/Image_20261127221137_3567_19.jpg",
+    "sha256": "e157230aecf63745de5821868e47058ceaf5de4607862229f609d5f70185f236",
+    "bytes": 176432,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "D02",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3567_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3567-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3567-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3567-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "那伽护佛青铜像 · 现场展签",
+    "museum_seen": "达拉斯艺术博物馆"
+  },
+  "3568": {
+    "number": 3568,
+    "path": "photos/Image_20261127221137_3568_19.jpg",
+    "sha256": "33764eb9b776d9abfb5a4f15ebb5155a9b343d37711aa462c64c7fc9e60f3a35",
+    "bytes": 144916,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "M01",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3568_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3568-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3568-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3568-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "女神立像，或为难近母 · 现场全图",
+    "museum_seen": "纽约大都会艺术博物馆"
+  },
+  "3569": {
+    "number": 3569,
+    "path": "photos/Image_20261127221137_3569_19.jpg",
+    "sha256": "0170fef20bae613d7d7dd3c0bd009d511b871c8242be22fadce7e47e0089a446",
+    "bytes": 213989,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "M01",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3569_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3569-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3569-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3569-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "女神立像，或为难近母 · 现场展签",
+    "museum_seen": "纽约大都会艺术博物馆"
+  },
+  "3570": {
+    "number": 3570,
+    "path": "photos/Image_20261127221137_3570_19.jpg",
+    "sha256": "872e0c5932c42cb3b0989cddb2b2e3c13211c2f9b1370cc56e5287542a8946f2",
+    "bytes": 155836,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "M02",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3570_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3570-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3570-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3570-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "四臂观音立像 · 现场全图",
+    "museum_seen": "纽约大都会艺术博物馆"
+  },
+  "3571": {
+    "number": 3571,
+    "path": "photos/Image_20261127221137_3571_19.jpg",
+    "sha256": "87c3e46df903510bd45939b99cc5908a9d293e574608caba81673d614bb54b3e",
+    "bytes": 230205,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "M02",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3571_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3571-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3571-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3571-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "四臂观音立像 · 现场展签",
+    "museum_seen": "纽约大都会艺术博物馆"
+  },
+  "3572": {
+    "number": 3572,
+    "path": "photos/Image_20261127221137_3572_19.jpg",
+    "sha256": "fd0543f7f7d3f66a436986d1cd35a5dcef5c74e00b4a2c4b8c738ab19d8820a4",
+    "bytes": 217217,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "M03",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3572_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3572-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3572-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3572-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "喜金刚胸像 · 现场全图",
+    "museum_seen": "纽约大都会艺术博物馆"
+  },
+  "3573": {
+    "number": 3573,
+    "path": "photos/Image_20261127221137_3573_19.jpg",
+    "sha256": "f40337e10f7b58fdb34a556af47f1702c0f2eb54a8e1b3d48a89295c26f07172",
+    "bytes": 294143,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "M03",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3573_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3573-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3573-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3573-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "喜金刚胸像 · 现场展签",
+    "museum_seen": "纽约大都会艺术博物馆"
+  },
+  "3574": {
+    "number": 3574,
+    "path": "photos/Image_20261127221137_3574_19.jpg",
+    "sha256": "1376bf0322fdf15162452ae3b40f5b0d3728f0050631a58667b720ecce401774",
+    "bytes": 204386,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "H01",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3574_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3574-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3574-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3574-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "般若佛母青铜立像 · 现场全图",
+    "museum_seen": "休斯顿美术馆"
+  },
+  "3575": {
+    "number": 3575,
+    "path": "photos/Image_20261127221137_3575_19.jpg",
+    "sha256": "21ed0b05c284f70ef266abccb88971197552213dce8315045752268842b2e068",
+    "bytes": 201927,
+    "width": 1702,
+    "height": 1276,
+    "assignments": [
+      {
+        "record_id": "H01",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3575_19.jpg",
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3575-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3575-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3575-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "般若佛母青铜立像 · 现场展签",
+    "museum_seen": "休斯顿美术馆"
+  },
+  "3576": {
+    "number": 3576,
+    "path": "photos/Image_20261127221137_3576_19.jpg",
+    "sha256": "ff84cc60a74a9b21d67a22f736aa9b79f8bab2e817762db59d7dc8aa75d7ce0c",
+    "bytes": 299318,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "H02",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3576_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3576-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3576-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3576-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "七头那伽护佛青铜像 · 现场全图",
+    "museum_seen": "休斯顿美术馆"
+  },
+  "3577": {
+    "number": 3577,
+    "path": "photos/Image_20261127221137_3577_19.jpg",
+    "sha256": "48ba10857f90473d35d69d7661d547e95d51f36faef0588954316d784377c651",
+    "bytes": 246261,
+    "width": 1702,
+    "height": 1276,
+    "assignments": [
+      {
+        "record_id": "H02",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3577_19.jpg",
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3577-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3577-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3577-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "七头那伽护佛青铜像 · 现场展签",
+    "museum_seen": "休斯顿美术馆"
+  },
+  "3578": {
+    "number": 3578,
+    "path": "photos/Image_20261127221137_3578_19.jpg",
+    "sha256": "0ed59cdc87049f368f3adb7f07f230c1d1a9caa10e032fc9fa437b177d82bf98",
+    "bytes": 290272,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "N01",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3578_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3578-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3578-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3578-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "目真邻陀龙王护佛 · 现场全图",
+    "museum_seen": "纳尔逊－阿特金斯艺术博物馆"
+  },
+  "3579": {
+    "number": 3579,
+    "path": "photos/Image_20261127221137_3579_19.jpg",
+    "sha256": "4e8e92777d69c30ffb199e39d7546f5b9e8b78b05d2c6a36b9e265ea7c50de24",
+    "bytes": 164345,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "N01",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3579_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3579-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3579-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3579-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "目真邻陀龙王护佛 · 现场展签",
+    "museum_seen": "纳尔逊－阿特金斯艺术博物馆"
+  },
+  "3580": {
+    "number": 3580,
+    "path": "photos/Image_20261127221137_3580_19.jpg",
+    "sha256": "fb22552d9e6438ba1ccb2069597dd48c33df5f7c2cd86f6e510efcb9db537fe9",
+    "bytes": 250680,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "N02",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3580_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3580-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3580-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3580-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "观音头：班迭奇马 · 现场全图",
+    "museum_seen": "纳尔逊－阿特金斯艺术博物馆"
+  },
+  "3581": {
+    "number": 3581,
+    "path": "photos/Image_20261127221137_3581_19.jpg",
+    "sha256": "905819660905a967df99c70b37f00a6e508c5ba72c29ccf635bf07d862c6b092",
+    "bytes": 237854,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "N02",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3581_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3581-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3581-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3581-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "观音头：班迭奇马 · 现场展签",
+    "museum_seen": "纳尔逊－阿特金斯艺术博物馆"
+  },
+  "3582": {
+    "number": 3582,
+    "path": "photos/Image_20261127221137_3582_19.jpg",
+    "sha256": "ba6a006b75b60a5d307e0ea40f155542977c2673d1af7af1725d32f0c7b36533",
+    "bytes": 395551,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "N03",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3582_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3582-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3582-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3582-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "天女柱饰残件 · 现场全图",
+    "museum_seen": "纳尔逊－阿特金斯艺术博物馆"
+  },
+  "3583": {
+    "number": 3583,
+    "path": "photos/Image_20261127221137_3583_19.jpg",
+    "sha256": "8141d2d260a38a42ce8df912da125494945ce68b6c34a5c7c72cbf3866a18586",
+    "bytes": 231352,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "N03",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3583_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3583-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3583-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3583-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "天女柱饰残件 · 现场展签",
+    "museum_seen": "纳尔逊－阿特金斯艺术博物馆"
+  },
+  "3584": {
+    "number": 3584,
+    "path": "photos/Image_20261127221137_3584_19.jpg",
+    "sha256": "9a7737dc1fc495c34a6efbb9e88e9cc87f62b3426dd4234ab09cc03ec10b08ff",
+    "bytes": 225992,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "N04",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3584_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3584-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3584-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3584-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "迦楼罗军旗饰 · 现场全图",
+    "museum_seen": "纳尔逊－阿特金斯艺术博物馆"
+  },
+  "3585": {
+    "number": 3585,
+    "path": "photos/Image_20261127221137_3585_19.jpg",
+    "sha256": "79c837ba4eb7d4d46a9b636a3929fae9e4009ce85f1005ff5b7abe7e155215b8",
+    "bytes": 273407,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "N04",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3585_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3585-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3585-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3585-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "迦楼罗军旗饰 · 现场展签",
+    "museum_seen": "纳尔逊－阿特金斯艺术博物馆"
+  },
+  "3586": {
+    "number": 3586,
+    "path": "photos/Image_20261127221137_3586_19.jpg",
+    "sha256": "225178bc6b25e14c89eb5e4d77e65e2c9aab784c83eba83fb2d77c4babd1855c",
+    "bytes": 447799,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "N05",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3586_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3586-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3586-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3586-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "因陀罗骑三头象门楣残件 · 现场全图",
+    "museum_seen": "纳尔逊－阿特金斯艺术博物馆"
+  },
+  "3587": {
+    "number": 3587,
+    "path": "photos/Image_20261127221137_3587_19.jpg",
+    "sha256": "b63aa45603b65485cbe850050e645669ca4be5001ab0ee489881cd86d4fa2e14",
+    "bytes": 224817,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "N05",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3587_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3587-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3587-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3587-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "因陀罗骑三头象门楣残件 · 现场展签",
+    "museum_seen": "纳尔逊－阿特金斯艺术博物馆"
+  },
+  "3588": {
+    "number": 3588,
+    "path": "photos/Image_20261127221137_3588_19.jpg",
+    "sha256": "9f82db03c82feface2201eb26bc2fffe60c0c1a06271ca3e8cbcdb2d24d1fcb6",
+    "bytes": 399007,
+    "width": 1702,
+    "height": 1276,
+    "assignments": [
+      {
+        "record_id": "N06",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3588_19.jpg",
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3588-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3588-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3588-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "搅拌乳海门楣 · 现场全图",
+    "museum_seen": "纳尔逊－阿特金斯艺术博物馆"
+  },
+  "3589": {
+    "number": 3589,
+    "path": "photos/Image_20261127221137_3589_19.jpg",
+    "sha256": "6ba898d8b9f07a53f00d0c99318b6712b73a3d149555abbf96446e267ffa89fe",
+    "bytes": 236252,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "N06",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3589_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3589-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3589-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3589-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "搅拌乳海门楣 · 现场展签",
+    "museum_seen": "纳尔逊－阿特金斯艺术博物馆"
+  },
+  "3590": {
+    "number": 3590,
+    "path": "photos/Image_20261127221137_3590_19.jpg",
+    "sha256": "552a9383f91f65569b1ab2f6da00c47cc8cd8aab813247a591eb83b8d980145e",
+    "bytes": 253089,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "N07",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3590_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3590-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3590-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3590-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "男性立像，或为湿婆 · 现场全图",
+    "museum_seen": "纳尔逊－阿特金斯艺术博物馆"
+  },
+  "3591": {
+    "number": 3591,
+    "path": "photos/Image_20261127221137_3591_19.jpg",
+    "sha256": "388735f14343cc5feacafa1ca5c3163c922634a33d805b159c98b032b3384a5b",
+    "bytes": 202990,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "N07",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3591_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3591-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3591-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3591-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "男性立像，或为湿婆 · 现场展签",
+    "museum_seen": "纳尔逊－阿特金斯艺术博物馆"
+  },
+  "3592": {
+    "number": 3592,
+    "path": "photos/Image_20261127221137_3592_19.jpg",
+    "sha256": "72e41bc7b5bd3db138b4e6fb1ced201dc22a0415b05fc2ede87e194c0e3caf6c",
+    "bytes": 422905,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "N08",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3592_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3592-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3592-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3592-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "那伽护佛头部残件 · 现场全图",
+    "museum_seen": "纳尔逊－阿特金斯艺术博物馆"
+  },
+  "3593": {
+    "number": 3593,
+    "path": "photos/Image_20261127221137_3593_19.jpg",
+    "sha256": "3fca6655a381026967bf695a53d526ddfcae39a31dd88f5e630f0086f65511b2",
+    "bytes": 251883,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "N08",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3593_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3593-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3593-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3593-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "那伽护佛头部残件 · 现场展签",
+    "museum_seen": "纳尔逊－阿特金斯艺术博物馆"
+  },
+  "3594": {
+    "number": 3594,
+    "path": "photos/Image_20261127221137_3594_19.jpg",
+    "sha256": "39c1cc93ed4d9186334e9890dadd23237c02b3b74b9394d4cb9f84c358b67e46",
+    "bytes": 352525,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "C01",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3594_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3594-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3594-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3594-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "巨型天神头 · 现场全图",
+    "museum_seen": "克利夫兰美术馆"
+  },
+  "3595": {
+    "number": 3595,
+    "path": "photos/Image_20261127221137_3595_19.jpg",
+    "sha256": "de191448c2fc8bc15aacaae6977dbb60c963fe403af4262fc79073bf6e978739",
+    "bytes": 209384,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "C01",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3595_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3595-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3595-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3595-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "巨型天神头 · 现场展签",
+    "museum_seen": "克利夫兰美术馆"
+  },
+  "3596": {
+    "number": 3596,
+    "path": "photos/Image_20261127221137_3596_19.jpg",
+    "sha256": "fb24c07485c16e293ead8c13ed0ae9dcb5d29b29f7a3d81923ebffdf30f25e69",
+    "bytes": 197716,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "C02",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3596_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3596-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3596-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3596-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "克里希纳举起戈瓦尔丹山 · 现场全图",
+    "museum_seen": "克利夫兰美术馆"
+  },
+  "3597": {
+    "number": 3597,
+    "path": "photos/Image_20261127221137_3597_19.jpg",
+    "sha256": "ceb29eccd42ea3b2c3b3d8165d06b6a1a99f14c1f1eb1bf3db4b76dc80669186",
+    "bytes": 278249,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "C02",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3597_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3597-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3597-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3597-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "举山克里希纳展签：含馆方原址洞窟复原示意",
+    "museum_seen": "克利夫兰美术馆"
+  },
+  "3598": {
+    "number": 3598,
+    "path": "photos/Image_20261127221137_3598_19.jpg",
+    "sha256": "85d88f49cd07cf6e836a850a9273d5ad08c4c14d5444802ef34047a8726b3f93",
+    "bytes": 436800,
+    "width": 1707,
+    "height": 1280,
+    "assignments": [
+      {
+        "record_id": "C03",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3598_19.jpg",
+    "rotation": 0,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3598-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3598-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3598-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "胜乐金刚与空行母两尊 · 现场全图",
+    "museum_seen": "克利夫兰美术馆"
+  },
+  "3599": {
+    "number": 3599,
+    "path": "photos/Image_20261127221137_3599_19.jpg",
+    "sha256": "cdd6a4f1af04b88516de6c49aca93dc07fa078b73ff46ec1f663ef2eaaa64a43",
+    "bytes": 242702,
+    "width": 1707,
+    "height": 1280,
+    "assignments": [
+      {
+        "record_id": "C03",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3599_19.jpg",
+    "rotation": 0,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3599-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3599-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3599-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "胜乐金刚与空行母两尊 · 现场展签",
+    "museum_seen": "克利夫兰美术馆"
+  },
+  "3600": {
+    "number": 3600,
+    "path": "photos/Image_20261127221137_3600_19.jpg",
+    "sha256": "1f1a93855386f25a8011274845f1b08209f4e003f766bd14cee1bf4cff3b06da",
+    "bytes": 317086,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "C04",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3600_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3600-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3600-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3600-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "左：残臂菩萨；右：观音。两尊分别保留身份与年代",
+    "museum_seen": "克利夫兰美术馆"
+  },
+  "3601": {
+    "number": 3601,
+    "path": "photos/Image_20261127221137_3601_19.jpg",
+    "sha256": "e60ce9377b2d70816d4b0f6b58acda21ceff81b2136a5f2b1fb48343c40e3915",
+    "bytes": 240590,
+    "width": 1707,
+    "height": 1280,
+    "assignments": [
+      {
+        "record_id": "C04",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3601_19.jpg",
+    "rotation": 0,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3601-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3601-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3601-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "早期菩萨与观音两尊 · 现场展签",
+    "museum_seen": "克利夫兰美术馆"
+  },
+  "3602": {
+    "number": 3602,
+    "path": "photos/Image_20261127221137_3602_19.jpg",
+    "sha256": "55bd3bb8a6b4310bf1531b79954a4a2ed12f112df3addb2b59f2d4334f8cbb2f",
+    "bytes": 352971,
+    "width": 1702,
+    "height": 1276,
+    "assignments": [
+      {
+        "record_id": "C05",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3602_19.jpg",
+    "rotation": 0,
+    "display_width": 1702,
+    "display_height": 1276,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3602-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3602-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3602-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "迦楼罗门楣 · 现场全图",
+    "museum_seen": "克利夫兰美术馆"
+  },
+  "3603": {
+    "number": 3603,
+    "path": "photos/Image_20261127221137_3603_19.jpg",
+    "sha256": "8e08ee72ab89e2a3eb30dc365a7647440a68e423fcda43c708810571b374da44",
+    "bytes": 283445,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "C05",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3603_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3603-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3603-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3603-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "迦楼罗门楣 · 现场展签",
+    "museum_seen": "克利夫兰美术馆"
+  },
+  "3604": {
+    "number": 3604,
+    "path": "photos/Image_20261127221137_3604_19.jpg",
+    "sha256": "141834cffb729790a03f63cc447b3bfaa26554783dc7f79de386b490550e6991",
+    "bytes": 510211,
+    "width": 1707,
+    "height": 1280,
+    "assignments": [
+      {
+        "record_id": "C06",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3604_19.jpg",
+    "rotation": 0,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3604-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3604-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3604-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "飞行哈努曼与哈努曼旗饰，同框两件作品",
+    "museum_seen": "克利夫兰美术馆"
+  },
+  "3605": {
+    "number": 3605,
+    "path": "photos/Image_20261127221137_3605_19.jpg",
+    "sha256": "1e515bc149fe81879e45d3e04c2a8e7c377626a27dc2170896f2030ebf97a5aa",
+    "bytes": 323463,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "C06",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3605_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3605-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3605-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3605-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "飞行哈努曼与哈努曼旗饰 · 现场展签",
+    "museum_seen": "克利夫兰美术馆"
+  },
+  "3606": {
+    "number": 3606,
+    "path": "photos/Image_20261127221137_3606_19.jpg",
+    "sha256": "24fa22050cb54e1ebc19e582f2d3bd4956e17b8e94506f6e8d2ddcc8ff3aec43",
+    "bytes": 213473,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "C07",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3606_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3606-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3606-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3606-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "王室女性像 · 现场全图",
+    "museum_seen": "克利夫兰美术馆"
+  },
+  "3607": {
+    "number": 3607,
+    "path": "photos/Image_20261127221137_3607_19.jpg",
+    "sha256": "21089a91e1fbbb3a81950565d7eb0e9a0478cb5bd55f98b22d6cf97f2bbf787a",
+    "bytes": 234442,
+    "width": 1707,
+    "height": 1280,
+    "assignments": [
+      {
+        "record_id": "C07",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3607_19.jpg",
+    "rotation": 0,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3607-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3607-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3607-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "王室女性像 · 现场展签",
+    "museum_seen": "克利夫兰美术馆"
+  },
+  "3608": {
+    "number": 3608,
+    "path": "photos/Image_20261127221137_3608_19.jpg",
+    "sha256": "2f33313eb831a57006be495991240708e26ab98b0e712e8b0fffef8b7fffe05c",
+    "bytes": 137488,
+    "width": 960,
+    "height": 1280,
+    "assignments": [
+      {
+        "record_id": "C08",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3608_19.jpg",
+    "rotation": 0,
+    "display_width": 960,
+    "display_height": 1280,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3608-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3608-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3608-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "caption": "难近母降伏水牛魔 · 现场全图",
+    "museum_seen": "克利夫兰美术馆"
+  },
+  "3609": {
+    "number": 3609,
+    "path": "photos/Image_20261127221137_3609_19.jpg",
+    "sha256": "727375c34ca598e90739e9755d267f9168896daeeb64fbc624b09e7c362484ee",
+    "bytes": 284578,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "C08",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3609_19.jpg",
+    "rotation": 90,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3609-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3609-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3609-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "难近母降伏水牛魔 · 现场展签",
+    "museum_seen": "克利夫兰美术馆"
+  },
+  "3610": {
+    "number": 3610,
+    "path": "photos/Image_20261127221137_3610_19.jpg",
+    "sha256": "f68b1e56888e521443275c57cbbbac252b841a2581c5b1c43deb2f0211f1fd66",
+    "bytes": 233282,
+    "width": 1707,
+    "height": 1280,
+    "assignments": [
+      {
+        "record_id": "C09",
+        "role": "object_or_detail"
+      },
+      {
+        "record_id": "C11",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3610_19.jpg",
+    "rotation": 0,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3610-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3610-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3610-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "轿舆构件合照：中央小挂钩为C09，左右大挂钩为C11",
+    "museum_seen": "克利夫兰美术馆"
+  },
+  "3611": {
+    "number": 3611,
+    "path": "photos/Image_20261127221137_3611_19.jpg",
+    "sha256": "0a8ace27c0e9df3aebdc35a0ab54af92fa878ae1ffc83be0c9e927080ee28446",
+    "bytes": 203430,
+    "width": 1707,
+    "height": 1280,
+    "assignments": [
+      {
+        "record_id": "C09",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3611_19.jpg",
+    "rotation": 0,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3611-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3611-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3611-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "轿舆挂钩 · 现场展签",
+    "museum_seen": "克利夫兰美术馆"
+  },
+  "3612": {
+    "number": 3612,
+    "path": "photos/Image_20261127221137_3612_19.jpg",
+    "sha256": "609d35d5da7fa62cc310b900106e632b9b6177802fcac7e3566d3d4eaba685bf",
+    "bytes": 233970,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "C10",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3612_19.jpg",
+    "rotation": -90,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3612-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3612-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3612-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "成对那伽端饰展签；没有对应的独立实物照片",
+    "museum_seen": "克利夫兰美术馆"
+  },
+  "3613": {
+    "number": 3613,
+    "path": "photos/Image_20261127221137_3613_19.jpg",
+    "sha256": "1647d60bde51e862cad51370a8325b87fe4be9e153b3a8dbc6945719e67b02fd",
+    "bytes": 431525,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "O01",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3613_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3613-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3613-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3613-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "放光观音躯干 · 现场全图",
+    "museum_seen": "檀香山艺术博物馆"
+  },
+  "3614": {
+    "number": 3614,
+    "path": "photos/Image_20261127221137_3614_19.jpg",
+    "sha256": "30e0f273c6b103e404b1dd793844b7a2b47b208f396ea267cf10b5e79ebe0cb2",
+    "bytes": 132353,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "O01",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3614_19.jpg",
+    "rotation": 90,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3614-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3614-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3614-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "放光观音躯干 · 现场展签",
+    "museum_seen": "檀香山艺术博物馆"
+  },
+  "3615": {
+    "number": 3615,
+    "path": "photos/Image_20261127221137_3615_19.jpg",
+    "sha256": "1d9434bd10711ce60588565c2c441fcaf858c63476043bbe312dba174728640f",
+    "bytes": 348070,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "O02",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3615_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3615-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3615-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3615-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "多头那伽端饰 · 现场全图",
+    "museum_seen": "檀香山艺术博物馆"
+  },
+  "3616": {
+    "number": 3616,
+    "path": "photos/Image_20261127221137_3616_19.jpg",
+    "sha256": "c68ba4cafce5945ed86d6533ea16c9a3834b14568b54fa2f3be11b1c7ea5877c",
+    "bytes": 179867,
+    "width": 1707,
+    "height": 1280,
+    "assignments": [
+      {
+        "record_id": "O02",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3616_19.jpg",
+    "rotation": 0,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3616-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3616-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3616-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "多头那伽端饰 · 现场展签",
+    "museum_seen": "檀香山艺术博物馆"
+  },
+  "3617": {
+    "number": 3617,
+    "path": "photos/Image_20261127221137_3617_19.jpg",
+    "sha256": "9585cb60607465198978b2cab08e809018eae4086a98cfdb61136e100c6fbbc8",
+    "bytes": 206728,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "O03",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3617_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3617-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3617-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3617-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "般若佛母立像 · 现场全图",
+    "museum_seen": "檀香山艺术博物馆"
+  },
+  "3618": {
+    "number": 3618,
+    "path": "photos/Image_20261127221137_3618_19.jpg",
+    "sha256": "1c32fb976912f3b400abdc538f5f9d4e9f3f5aec601a6299d0e5813a01a22a88",
+    "bytes": 204171,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "O03",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3618_19.jpg",
+    "rotation": 90,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3618-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3618-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3618-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "般若佛母立像 · 现场展签",
+    "museum_seen": "檀香山艺术博物馆"
+  },
+  "3619": {
+    "number": 3619,
+    "path": "photos/Image_20261127221137_3619_19.jpg",
+    "sha256": "9f2ca4c68e8cf01f4e177d8b54fe0233c6fdbd096b2d8d94652a6272dc5a987f",
+    "bytes": 460114,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "O04",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3619_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3619-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3619-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3619-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "佛坐像碑 · 现场全图",
+    "museum_seen": "檀香山艺术博物馆"
+  },
+  "3620": {
+    "number": 3620,
+    "path": "photos/Image_20261127221137_3620_19.jpg",
+    "sha256": "2e881e771e0f5e645bf37522dc64a64aebf7113f0e82be3bbe0c606adc902d42",
+    "bytes": 147309,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "O04",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3620_19.jpg",
+    "rotation": 90,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3620-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3620-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3620-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "佛坐像碑 · 现场展签",
+    "museum_seen": "檀香山艺术博物馆"
+  },
+  "3621": {
+    "number": 3621,
+    "path": "photos/Image_20261127221137_3621_19.jpg",
+    "sha256": "40a223ebc5793d0d17c309c4bb3c1a3875c90f84c87b869d88781936e6924e52",
+    "bytes": 214687,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "O05",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3621_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3621-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3621-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3621-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "搅拌乳海青铜端饰 · 现场全图",
+    "museum_seen": "檀香山艺术博物馆"
+  },
+  "3622": {
+    "number": 3622,
+    "path": "photos/Image_20261127221137_3622_19.jpg",
+    "sha256": "49d1f9683b299564b1c7358b426078294deb53b4d7f6d09dc24bc61e97158879",
+    "bytes": 229215,
+    "width": 1707,
+    "height": 1280,
+    "assignments": [
+      {
+        "record_id": "O05",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3622_19.jpg",
+    "rotation": 0,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3622-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3622-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3622-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "搅拌乳海青铜端饰 · 现场展签",
+    "museum_seen": "檀香山艺术博物馆"
+  },
+  "3623": {
+    "number": 3623,
+    "path": "photos/Image_20261127221137_3623_19.jpg",
+    "sha256": "f89694e6e7c43a2db680db4500aed2971e25543fb8b258745686595f0ff0dda6",
+    "bytes": 412090,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "O06",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3623_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3623-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3623-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3623-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "佛与两位立像石碑，具体身份与年代待核",
+    "museum_seen": "檀香山艺术博物馆"
+  },
+  "3624": {
+    "number": 3624,
+    "path": "photos/Image_20261127221137_3624_19.jpg",
+    "sha256": "c258fa130ce60639cf2a77e7872705eaead45bd8674a6b9d33a8baab124a007b",
+    "bytes": 117398,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "S01",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3624_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3624-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3624-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3624-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "神像头部与现场展签，同一张照片",
+    "museum_seen": "西雅图艺术博物馆／亚洲艺术博物馆"
+  },
+  "3625": {
+    "number": 3625,
+    "path": "photos/Image_20261127221137_3625_19.jpg",
+    "sha256": "657c42b7070c1bafd433b5ecb0f0c4923450971b42f09cf1561aaa79f1a591c5",
+    "bytes": 182795,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "S02",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3625_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3625-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3625-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3625-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "举臂观音胸像 · 现场全图",
+    "museum_seen": "西雅图艺术博物馆／亚洲艺术博物馆"
+  },
+  "3626": {
+    "number": 3626,
+    "path": "photos/Image_20261127221137_3626_19.jpg",
+    "sha256": "f99a33fb325d833d90c9ac6e32c3fb09d637073be355072bcf5578090c2f9cae",
+    "bytes": 150793,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "S02",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3626_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3626-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3626-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3626-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "举臂观音胸像 · 现场展签",
+    "museum_seen": "西雅图艺术博物馆／亚洲艺术博物馆"
+  },
+  "3627": {
+    "number": 3627,
+    "path": "photos/Image_20261127221137_3627_19.jpg",
+    "sha256": "a461a63cdb299a5233933be59fb7025dbf602065e5fbc4260444d822f5a3f070",
+    "bytes": 165182,
+    "width": 1024,
+    "height": 1366,
+    "assignments": [
+      {
+        "record_id": "S03",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3627_19.jpg",
+    "rotation": 0,
+    "display_width": 1024,
+    "display_height": 1366,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3627-400.webp",
+        "width": 400,
+        "height": 534
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3627-900.webp",
+        "width": 900,
+        "height": 1201
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3627-1024.webp",
+        "width": 1024,
+        "height": 1366
+      }
+    ],
+    "caption": "象头神坐像 · 现场全图",
+    "museum_seen": "西雅图艺术博物馆／亚洲艺术博物馆"
+  },
+  "3628": {
+    "number": 3628,
+    "path": "photos/Image_20261127221137_3628_19.jpg",
+    "sha256": "3817c0a95d02a2682e96b833437c10dfae9a474fcb2f12ca4b1337ae48eacd00",
+    "bytes": 278685,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "S03",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3628_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3628-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3628-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3628-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "象头神坐像 · 现场展签",
+    "museum_seen": "西雅图艺术博物馆／亚洲艺术博物馆"
+  },
+  "3629": {
+    "number": 3629,
+    "path": "photos/Image_20261127221137_3629_19.jpg",
+    "sha256": "317c81f56a89d483e24d468e8c5d2418b0a4aa469b17de6c4f2238e09c8c1551",
+    "bytes": 215036,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "W01",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3629_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3629-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3629-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3629-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "十一面二十二臂般若佛母 · 现场全图",
+    "museum_seen": "史密森尼国立亚洲艺术博物馆"
+  },
+  "3630": {
+    "number": 3630,
+    "path": "photos/Image_20261127221137_3630_19.jpg",
+    "sha256": "f6ffa9439d9b6e0bcf879766be6a17626112d25175989069f998d14dd54c38ee",
+    "bytes": 213735,
+    "width": 1707,
+    "height": 1280,
+    "assignments": [
+      {
+        "record_id": "W01",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3630_19.jpg",
+    "rotation": 0,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3630-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3630-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3630-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "十一面二十二臂般若佛母 · 现场展签",
+    "museum_seen": "史密森尼国立亚洲艺术博物馆"
+  },
+  "3631": {
+    "number": 3631,
+    "path": "photos/Image_20261127221137_3631_19.jpg",
+    "sha256": "6545534c4c9372086cf5f78b4225418ec982ba6ec8b9b5cbe579f80b6ca003df",
+    "bytes": 335460,
+    "width": 1707,
+    "height": 1280,
+    "assignments": [
+      {
+        "record_id": "W02",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127221137_3631_19.jpg",
+    "rotation": 0,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3631-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3631-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3631-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "门楣全貌与现场展签，同一张照片",
+    "museum_seen": "史密森尼国立亚洲艺术博物馆"
+  },
+  "3632": {
+    "number": 3632,
+    "path": "photos/Image_20261127231928_3632_19.jpg",
+    "sha256": "53108a2e15d82b9a7102155566b9099d9d45ff7cc047e321af0a7efb600848d2",
+    "bytes": 176305,
+    "width": 1707,
+    "height": 1280,
+    "assignments": [
+      {
+        "record_id": "W03",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127231928_3632_19.jpg",
+    "rotation": 0,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3632-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3632-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3632-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "西梅奔卧毗湿奴残件的整体陈列",
+    "museum_seen": "史密森尼国立亚洲艺术博物馆"
+  },
+  "3633": {
+    "number": 3633,
+    "path": "photos/Image_20261127231928_3633_19.jpg",
+    "sha256": "342c5f30cadbfeeb196f4fa5fd8b165298ae5b378f5bb5777d313044336322b9",
+    "bytes": 350229,
+    "width": 1707,
+    "height": 1280,
+    "assignments": [
+      {
+        "record_id": "W03",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127231928_3633_19.jpg",
+    "rotation": 0,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3633-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3633-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3633-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "卧毗湿奴头部、托头手臂与胸前饰物，现场近照",
+    "museum_seen": "史密森尼国立亚洲艺术博物馆"
+  },
+  "3634": {
+    "number": 3634,
+    "path": "photos/Image_20261127231928_3634_19.jpg",
+    "sha256": "4d2fab6a2f08d90e351e8fe9c4f810fb4485415971f3b5ad1c256daa8487b82d",
+    "bytes": 458503,
+    "width": 1707,
+    "height": 1280,
+    "assignments": [
+      {
+        "record_id": "W03",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127231928_3634_19.jpg",
+    "rotation": 0,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3634-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3634-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3634-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "卧毗湿奴背面：肩背破口与接合处",
+    "museum_seen": "史密森尼国立亚洲艺术博物馆"
+  },
+  "3635": {
+    "number": 3635,
+    "path": "photos/Image_20261127231928_3635_19.jpg",
+    "sha256": "21ebee3a1a09037ab33d471bcdccafac59736288ec73609726aa0aebe19f19cd",
+    "bytes": 453296,
+    "width": 1707,
+    "height": 1280,
+    "assignments": [
+      {
+        "record_id": "W03",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127231928_3635_19.jpg",
+    "rotation": 0,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3635-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3635-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3635-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "卧毗湿奴背面：胸腹残存金属与内部空腔",
+    "museum_seen": "史密森尼国立亚洲艺术博物馆"
+  },
+  "3636": {
+    "number": 3636,
+    "path": "photos/Image_20261127231928_3636_19.jpg",
+    "sha256": "7b56952eecf3f17a90f767e19f45f4fecdadcbb076ee6c429ef870c8d944af93",
+    "bytes": 234037,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "W03",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127231928_3636_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3636-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3636-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3636-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "卧毗湿奴的作品与发现说明",
+    "museum_seen": "史密森尼国立亚洲艺术博物馆"
+  },
+  "3637": {
+    "number": 3637,
+    "path": "photos/Image_20261127231928_3637_19.jpg",
+    "sha256": "fef82bb385bc44a0c0e8c0ccd1bcd806a2ed7df3c478dd31b82188e6679fddeb",
+    "bytes": 200636,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "W03",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127231928_3637_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3637-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3637-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3637-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "卧毗湿奴技术研究展板",
+    "museum_seen": "史密森尼国立亚洲艺术博物馆"
+  },
+  "3638": {
+    "number": 3638,
+    "path": "photos/Image_20261127231928_3638_19.jpg",
+    "sha256": "fac175b5fc4ddc014dad125f72877bfe35a1e33201403a2e13ffe5635173d81f",
+    "bytes": 182811,
+    "width": 1707,
+    "height": 1280,
+    "assignments": [
+      {
+        "record_id": "W03",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127231928_3638_19.jpg",
+    "rotation": 0,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3638-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3638-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3638-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "西梅奔岛寺的馆方复原示意与说明",
+    "museum_seen": "史密森尼国立亚洲艺术博物馆"
+  },
+  "3639": {
+    "number": 3639,
+    "path": "photos/Image_20261127231928_3639_19.jpg",
+    "sha256": "8610e9ba0f3ee022d4d3dd80de5cf65fb52f96ab9033f8bdb9122f95d2a4e7fd",
+    "bytes": 210795,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "W03",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127231928_3639_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3639-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3639-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3639-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "馆方背景展板：神话与艺术；非另计的亲见画作",
+    "museum_seen": "史密森尼国立亚洲艺术博物馆"
+  },
+  "3640": {
+    "number": 3640,
+    "path": "photos/Image_20261127231928_3640_19.jpg",
+    "sha256": "1f6c4d8e6a6644f1564e5d66eb8a53daf6db27e2f8bd6060afc2191a652d061b",
+    "bytes": 122415,
+    "width": 1707,
+    "height": 1280,
+    "assignments": [
+      {
+        "record_id": "W03",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127231928_3640_19.jpg",
+    "rotation": 0,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3640-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3640-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3640-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "西梅奔发现与研究的展厅背景墙",
+    "museum_seen": "史密森尼国立亚洲艺术博物馆"
+  },
+  "3641": {
+    "number": 3641,
+    "path": "photos/Image_20261127231928_3641_19.jpg",
+    "sha256": "9ce9c898640f5bc534d91e22576c055857578a0739e009b135f7d9c8d314f163",
+    "bytes": 154083,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "W03",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127231928_3641_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3641-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3641-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3641-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "吴哥城市与水利环境说明",
+    "museum_seen": "史密森尼国立亚洲艺术博物馆"
+  },
+  "3642": {
+    "number": 3642,
+    "path": "photos/Image_20261127231928_3642_19.jpg",
+    "sha256": "802bfbbfe39a11f27d5cdb08a3f53a1d5d8c003f515b60ddd7a0340128a1b8db",
+    "bytes": 178020,
+    "width": 1707,
+    "height": 1280,
+    "assignments": [
+      {
+        "record_id": "W03",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127231928_3642_19.jpg",
+    "rotation": 0,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3642-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3642-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3642-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "卧毗湿奴未归位残片及现场说明",
+    "museum_seen": "史密森尼国立亚洲艺术博物馆"
+  },
+  "3643": {
+    "number": 3643,
+    "path": "photos/Image_20261127231928_3643_19.jpg",
+    "sha256": "1be592dd787eed9a82b92af3cbdbbcfe3137b7a8bbd78f082cae3b6abd5fa9c6",
+    "bytes": 94669,
+    "width": 960,
+    "height": 1280,
+    "assignments": [
+      {
+        "record_id": "W04",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127231928_3643_19.jpg",
+    "rotation": 0,
+    "display_width": 960,
+    "display_height": 1280,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3643-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3643-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3643-960.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "caption": "西梅奔同地出土的右手与踝部残件，另列W04",
+    "museum_seen": "史密森尼国立亚洲艺术博物馆"
+  },
+  "3644": {
+    "number": 3644,
+    "path": "photos/Image_20261127231928_3644_19.jpg",
+    "sha256": "4e1e75613861eb2c7a7986090f765e7543f3adfae28e199eaf8564b740253646",
+    "bytes": 176818,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "W04",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127231928_3644_19.jpg",
+    "rotation": 90,
+    "display_width": 1707,
+    "display_height": 1280,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3644-400.webp",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3644-900.webp",
+        "width": 900,
+        "height": 675
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3644-1600.webp",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "caption": "伴随残件展签：尺寸不足以接入大像",
+    "museum_seen": "史密森尼国立亚洲艺术博物馆"
+  },
+  "3645": {
+    "number": 3645,
+    "path": "photos/Image_20261127231928_3645_19.jpg",
+    "sha256": "1936a0fde93a22c112557beb57b0b86d7d7a84aea4b29b8f3b472db0ab04f745",
+    "bytes": 211715,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "K01",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127231928_3645_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3645-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3645-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3645-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "金贝尔四臂弥勒正面：完整站姿",
+    "museum_seen": "金贝尔艺术博物馆"
+  },
+  "3646": {
+    "number": 3646,
+    "path": "photos/Image_20261127231928_3646_19.jpg",
+    "sha256": "b53a382d3a914c1843cb473fc1ff27c3686578884f5893bee4a36dbfb86a8cfa",
+    "bytes": 145479,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "K01",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127231928_3646_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3646-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3646-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3646-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "金贝尔四臂弥勒背面：发绺与躯干",
+    "museum_seen": "金贝尔艺术博物馆"
+  },
+  "3647": {
+    "number": 3647,
+    "path": "photos/Image_20261127231928_3647_19.jpg",
+    "sha256": "66baac92d67925e43294ed29ea03db0445b55aa8c0ba43cc879e780220484cc6",
+    "bytes": 169718,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "K01",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127231928_3647_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3647-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3647-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3647-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "四臂弥勒青铜立像 · 现场展签",
+    "museum_seen": "金贝尔艺术博物馆"
+  },
+  "3648": {
+    "number": 3648,
+    "path": "photos/Image_20261127231928_3648_19.jpg",
+    "sha256": "3cd4fae0797368bc3fc0d95afb106fff97e2ab1762996fb6702460817b0799d4",
+    "bytes": 261739,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "K02",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127231928_3648_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3648-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3648-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3648-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "宝座佛全貌：保留尖顶、佛身与台座",
+    "museum_seen": "金贝尔艺术博物馆"
+  },
+  "3649": {
+    "number": 3649,
+    "path": "photos/Image_20261127231928_3649_19.jpg",
+    "sha256": "0940fd56b1add762c91eae4425be292d29b7ec31e8459817304077db2dc79c66",
+    "bytes": 251264,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "K02",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127231928_3649_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3649-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3649-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3649-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "宝座上的佛陀 · 现场展签",
+    "museum_seen": "金贝尔艺术博物馆"
+  },
+  "3650": {
+    "number": 3650,
+    "path": "photos/Image_20261127231928_3650_19.jpg",
+    "sha256": "b706da4d1b4e57d340087b8d709c30add4c903e5227da94e692fd7a284d26ed9",
+    "bytes": 172531,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "A01",
+        "role": "object_or_detail"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127231928_3650_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3650-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3650-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3650-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "天人承托的烛台 · 现场全图",
+    "museum_seen": "圣安东尼奥美术馆"
+  },
+  "3651": {
+    "number": 3651,
+    "path": "photos/Image_20261127231928_3651_19.jpg",
+    "sha256": "3277d150b74748b23f6974680882ddfbb41059a0e5fe7190e043fd085fba91bc",
+    "bytes": 236645,
+    "width": 1280,
+    "height": 1707,
+    "assignments": [
+      {
+        "record_id": "A01",
+        "role": "label_or_context"
+      }
+    ],
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/Image_20261127231928_3651_19.jpg",
+    "rotation": 0,
+    "display_width": 1280,
+    "display_height": 1707,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3651-400.webp",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3651-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/3651-1280.webp",
+        "width": 1280,
+        "height": 1707
+      }
+    ],
+    "caption": "天人承托的烛台 · 现场展签",
+    "museum_seen": "圣安东尼奥美术馆"
+  },
+  "k03-front": {
+    "path": "photos/d1162d7376874af2bf11cee843a4c5c7.jpg",
+    "original_filename": "d1162d7376874af2bf11cee843a4c5c7.jpg",
+    "role": "object_front",
+    "record_id": "K03",
+    "bytes": 200284,
+    "sha256": "7bffd74ace5ce7b7ef999cb3d977316667b3d9c98a1f31e667bb582f3aac55c6",
+    "key": "k03-front",
+    "package": "khmer-kimbell-harihara-addendum",
+    "number": null,
+    "width": 1279,
+    "height": 1706,
+    "assignments": [
+      {
+        "record_id": "K03",
+        "role": "object_front"
+      }
+    ],
+    "caption": "Harihara：毗湿奴与湿婆合体像 · 现场全图",
+    "museum_seen": "金贝尔艺术博物馆",
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/d1162d7376874af2bf11cee843a4c5c7.jpg",
+    "rotation": 0,
+    "display_width": 1279,
+    "display_height": 1706,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/k03-front-400.webp",
+        "width": 400,
+        "height": 534
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/k03-front-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/k03-front-1279.webp",
+        "width": 1279,
+        "height": 1706
+      }
+    ]
+  },
+  "k03-label": {
+    "path": "photos/b813a861ca7b52cfe018fea821060356.jpg",
+    "original_filename": "b813a861ca7b52cfe018fea821060356.jpg",
+    "role": "museum_label",
+    "record_id": "K03",
+    "bytes": 181807,
+    "sha256": "b608f253ec7cae50d1774c73012eb9441daaebdeea9fd2b2e9d230b551b126f3",
+    "key": "k03-label",
+    "package": "khmer-kimbell-harihara-addendum",
+    "number": null,
+    "width": 1279,
+    "height": 1706,
+    "assignments": [
+      {
+        "record_id": "K03",
+        "role": "museum_label"
+      }
+    ],
+    "caption": "Harihara：毗湿奴与湿婆合体像 · 现场展签",
+    "museum_seen": "金贝尔艺术博物馆",
+    "original_url": "https://images.mertonmuseum.com/museum-notes/khmer-art/originals/b813a861ca7b52cfe018fea821060356.jpg",
+    "rotation": 0,
+    "display_width": 1279,
+    "display_height": 1706,
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/k03-label-400.webp",
+        "width": 400,
+        "height": 534
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/k03-label-900.webp",
+        "width": 900,
+        "height": 1200
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/k03-label-1279.webp",
+        "width": 1279,
+        "height": 1706
+      }
+    ]
+  }
+}
