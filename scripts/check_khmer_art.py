@@ -36,6 +36,15 @@ def main():
  for f in ['origins.geojson','museums.geojson']:
   for x in load(f)['features']:
    assert all(i in by for i in x['properties']['record_ids']+x['properties'].get('related_record_ids',[]))
+ details=load('details.json');assert len(details)==8
+ for d in details:
+  m=media[d['photo']];assert d['source_sha256']==m['sha256']
+  x0,y0,x1,y1=d['box'];assert 0<=x0<x1<=m['width'] and 0<=y0<y1<=m['height']
+  assert d['width']==x1-x0 and d['height']==y1-y0 and d['max_width']<=d['width']
+  assert all(v['width']<=d['width'] for v in d['variants'])
+ assert by['G02']['display_components'][0]['accession']=='MA 5063'
+ assert by['G02']['timeline_lane']=='modern_display'
+ assert all(t.get('date_display') and t['era'] in ['ancient','modern'] for t in load('context_timeline.json'))
  cache={};bad=[];pages=list(BASE.rglob('index.html'));assert len(pages)==69,len(pages)
  for p in pages:
   h=Page(p.read_text());assert len(h.ids)==len(set(h.ids)),(p,'duplicate ids')

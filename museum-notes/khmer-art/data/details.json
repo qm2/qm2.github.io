@@ -1,0 +1,253 @@
+[
+  {
+    "id": "cave",
+    "photo": "3597",
+    "box": [
+      247,
+      1100,
+      956,
+      1490
+    ],
+    "max_width": 620,
+    "caption": "洞窟中的举山神：馆方数字复原示意，裁自现场展签；洞口中的雕像把举山的动作与岩壁联系起来。",
+    "markers": [],
+    "width": 709,
+    "height": 390,
+    "source_sha256": "ceb29eccd42ea3b2c3b3d8165d06b6a1a99f14c1f1eb1bf3db4b76dc80669186",
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/detail-cave-v1-320.webp",
+        "width": 320,
+        "height": 176
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/detail-cave-v1-709.webp",
+        "width": 709,
+        "height": 390
+      }
+    ],
+    "credit": "数字建模：Dale Utt；LiDAR与摄影测量：David Koczan、Konstanty Kulik、Michał Mierzejewski。现场展签摄影：Merton。"
+  },
+  {
+    "id": "avalokiteshvara",
+    "photo": "3570",
+    "box": [
+      520,
+      120,
+      775,
+      470
+    ],
+    "max_width": 200,
+    "caption": "大都会观音：发冠中央的小化佛是辨认观音的线索。",
+    "markers": [
+      [
+        56,
+        25,
+        "1",
+        "小化佛"
+      ]
+    ],
+    "width": 255,
+    "height": 350,
+    "source_sha256": "872e0c5932c42cb3b0989cddb2b2e3c13211c2f9b1370cc56e5287542a8946f2",
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/detail-avalokiteshvara-v1-255.webp",
+        "width": 255,
+        "height": 350
+      }
+    ]
+  },
+  {
+    "id": "maitreya",
+    "photo": "3645",
+    "box": [
+      510,
+      15,
+      745,
+      410
+    ],
+    "max_width": 200,
+    "caption": "金贝尔弥勒：发髻前的小塔，与观音冠中的佛像不同。",
+    "markers": [
+      [
+        46,
+        23,
+        "1",
+        "小塔"
+      ]
+    ],
+    "width": 235,
+    "height": 395,
+    "source_sha256": "1936a0fde93a22c112557beb57b0b86d7d7a84aea4b29b8f3b472db0ab04f745",
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/detail-maitreya-v1-235.webp",
+        "width": 235,
+        "height": 395
+      }
+    ]
+  },
+  {
+    "id": "buddha-face",
+    "photo": "3648",
+    "box": [
+      515,
+      635,
+      750,
+      960
+    ],
+    "max_width": 210,
+    "caption": "佛面：低垂的双眼与弧形唇线，被冠带和耳饰围住。",
+    "markers": [],
+    "width": 235,
+    "height": 325,
+    "source_sha256": "3cd4fae0797368bc3fc0d95afb106fff97e2ab1762996fb6702460817b0799d4",
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/detail-buddha-face-v1-235.webp",
+        "width": 235,
+        "height": 325
+      }
+    ]
+  },
+  {
+    "id": "buddha-hand",
+    "photo": "3648",
+    "box": [
+      380,
+      1100,
+      745,
+      1380
+    ],
+    "max_width": 300,
+    "caption": "手印：右手沿膝部向下，左手安放在腿上。",
+    "markers": [],
+    "width": 365,
+    "height": 280,
+    "source_sha256": "3cd4fae0797368bc3fc0d95afb106fff97e2ab1762996fb6702460817b0799d4",
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/detail-buddha-hand-v1-320.webp",
+        "width": 320,
+        "height": 245
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/detail-buddha-hand-v1-365.webp",
+        "width": 365,
+        "height": 280
+      }
+    ]
+  },
+  {
+    "id": "buddha-throne",
+    "photo": "3648",
+    "box": [
+      335,
+      1370,
+      900,
+      1695
+    ],
+    "max_width": 400,
+    "caption": "宝座：正中人物、两侧卷饰与层叠座沿，构成向两边展开的基部。",
+    "markers": [],
+    "width": 565,
+    "height": 325,
+    "source_sha256": "3cd4fae0797368bc3fc0d95afb106fff97e2ab1762996fb6702460817b0799d4",
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/detail-buddha-throne-v1-320.webp",
+        "width": 320,
+        "height": 184
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/detail-buddha-throne-v1-565.webp",
+        "width": 565,
+        "height": 325
+      }
+    ]
+  },
+  {
+    "id": "harihara",
+    "photo": "k03-front",
+    "box": [
+      485,
+      0,
+      800,
+      500
+    ],
+    "max_width": 280,
+    "caption": "同一张面孔上方，观者左侧为湿婆的盘发，右侧为毗湿奴的高冠。",
+    "markers": [
+      [
+        31,
+        25,
+        "1",
+        "湿婆：盘发"
+      ],
+      [
+        72,
+        25,
+        "2",
+        "毗湿奴：高冠"
+      ]
+    ],
+    "width": 315,
+    "height": 500,
+    "source_sha256": "7bffd74ace5ce7b7ef999cb3d977316667b3d9c98a1f31e667bb582f3aac55c6",
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/detail-harihara-v1-315.webp",
+        "width": 315,
+        "height": 500
+      }
+    ]
+  },
+  {
+    "id": "pediment",
+    "photo": "3540",
+    "box": [
+      560,
+      545,
+      1150,
+      990
+    ],
+    "max_width": 540,
+    "caption": "1、3为争斗的孙陀与优波孙陀兄弟，2为天女Tilottama。两侧人物扭转的身体与举臂，将冲突展开。",
+    "markers": [
+      [
+        24,
+        40,
+        "1",
+        "兄弟之一"
+      ],
+      [
+        50,
+        45,
+        "2",
+        "天女 Tilottama"
+      ],
+      [
+        76,
+        40,
+        "3",
+        "兄弟之一"
+      ]
+    ],
+    "width": 590,
+    "height": 445,
+    "source_sha256": "34d0d7ed3caddc22ae0ae96a452c19a4d29d20c3c28970c94f2173d617a9983d",
+    "variants": [
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/detail-pediment-v1-320.webp",
+        "width": 320,
+        "height": 241
+      },
+      {
+        "url": "https://images.mertonmuseum.com/museum-notes/khmer-art/images/detail-pediment-v1-590.webp",
+        "width": 590,
+        "height": 445
+      }
+    ]
+  }
+]

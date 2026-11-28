@@ -327,5 +327,21 @@
     "retrieval": "官方搜索索引返回藏品正文；直接打开403，未声称完整页面可访问",
     "checked_date": "2026-11-27",
     "implementation_review": "已目视整像与展签；2026-11-27复核馆方搜索索引中的年代、藏号、尺寸、图像解释与收藏履历。直接藏品页返回403。"
+  },
+  {
+    "id": "S31",
+    "title": "Guimet｜Angkor Royal Bronzes: Art of the Divine（2025展览新闻稿）",
+    "url": "https://www.guimet.fr/sites/default/files/2025-03/press-release-ankgor-royal-bronzes-guimet-museum.pdf",
+    "used_for": "西梅奔卧毗湿奴2024年在法国的科学分析与修复、2025年与修复残件共同展出。",
+    "retrieval": "馆方两页英文新闻稿全文。",
+    "implementation_review": "2026-11-28核读；仅用于现代修复及展览史，不采用新闻稿的概括性排他判断。"
+  },
+  {
+    "id": "S32",
+    "title": "Guimet｜Bodhisattva Avalokiteshvara，MA 5063",
+    "url": "https://www.guimet.fr/fr/nos-collections/asie-du-sud-est/bodhisattva-avalokiteshvara",
+    "used_for": "G02门内观音立像的身份、7世纪年代、砂岩材质及Phnom Da风格；馆方地域记为越南Tan Long（Soc Trang省）。",
+    "retrieval": "官方馆藏页全文与官方作品照片。",
+    "implementation_review": "2026-11-28与3536现场照片核对，冠中小佛、腰衣、双手支撑及莲台相符。外部图片仅用于核对。"
   }
 ]

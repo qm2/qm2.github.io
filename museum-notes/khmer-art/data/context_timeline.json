@@ -5,7 +5,9 @@
     "record_ids": [
       "C02"
     ],
-    "source_id": "S02"
+    "source_id": "S02",
+    "date_display": "约600年",
+    "era": "ancient"
   },
   {
     "year": 675,
@@ -13,7 +15,9 @@
     "record_ids": [
       "K03"
     ],
-    "source_id": "S30"
+    "source_id": "S30",
+    "date_display": "约675—700年",
+    "era": "ancient"
   },
   {
     "year": 725,
@@ -21,13 +25,17 @@
     "record_ids": [
       "M02"
     ],
-    "source_id": "S08"
+    "source_id": "S08",
+    "date_display": "8世纪第二季度",
+    "era": "ancient"
   },
   {
     "year": 802,
     "title": "吴哥时期传统分期起点",
     "record_ids": [],
-    "source_id": "S23"
+    "source_id": "S23",
+    "date_display": "802年",
+    "era": "ancient"
   },
   {
     "year": 928,
@@ -37,7 +45,9 @@
       "C06",
       "C08"
     ],
-    "source_id": "S25"
+    "source_id": "S25",
+    "date_display": "928—944年",
+    "era": "ancient"
   },
   {
     "year": 967,
@@ -45,7 +55,9 @@
     "record_ids": [
       "G04"
     ],
-    "source_id": "S07"
+    "source_id": "S07",
+    "date_display": "约967年",
+    "era": "ancient"
   },
   {
     "year": 1050,
@@ -53,7 +65,9 @@
     "record_ids": [
       "W03"
     ],
-    "source_id": "S01"
+    "source_id": "S01",
+    "date_display": "11世纪下半叶",
+    "era": "ancient"
   },
   {
     "year": 1180,
@@ -61,7 +75,9 @@
     "record_ids": [
       "K02"
     ],
-    "source_id": "S05"
+    "source_id": "S05",
+    "date_display": "约1180—1220年",
+    "era": "ancient"
   },
   {
     "year": 1200,
@@ -71,13 +87,17 @@
       "O01",
       "H01"
     ],
-    "source_id": "现场展签"
+    "source_id": "现场展签",
+    "date_display": "12世纪末—13世纪",
+    "era": "ancient"
   },
   {
     "year": 1431,
     "title": "传统历史分期的重要节点；不代表吴哥艺术与宗教生活突然终止",
     "record_ids": [],
-    "source_id": "S23"
+    "source_id": "S23",
+    "date_display": "1431年",
+    "era": "ancient"
   },
   {
     "year": 1881,
@@ -85,7 +105,9 @@
     "record_ids": [
       "G02"
     ],
-    "source_id": "现场3537"
+    "source_id": "现场3537",
+    "date_display": "1881年",
+    "era": "modern"
   },
   {
     "year": 1923,
@@ -93,7 +115,9 @@
     "record_ids": [
       "G12"
     ],
-    "source_id": "现场3557"
+    "source_id": "现场3557",
+    "date_display": "1923年",
+    "era": "modern"
   },
   {
     "year": 1936,
@@ -101,7 +125,9 @@
     "record_ids": [
       "W03"
     ],
-    "source_id": "S01"
+    "source_id": "S01",
+    "date_display": "1936年",
+    "era": "modern"
   },
   {
     "year": 1964,
@@ -110,7 +136,9 @@
       "M02",
       "K01"
     ],
-    "source_id": "S10"
+    "source_id": "S10",
+    "date_display": "1964—1965年",
+    "era": "modern"
   },
   {
     "year": 2021,
@@ -118,20 +146,26 @@
     "record_ids": [
       "C02"
     ],
-    "source_id": "S03"
+    "source_id": "S03",
+    "date_display": "2021年",
+    "era": "modern"
   },
   {
     "year": 2024,
     "title": "Prakhon Chai来源研究在线发表",
     "record_ids": [],
-    "source_id": "S10"
+    "source_id": "S10",
+    "date_display": "2024年",
+    "era": "modern"
   },
   {
     "year": 2026,
-    "title": "华盛顿Vishnu’s Cosmic Ocean；个人确切到访日未提供",
+    "title": "华盛顿《Vishnu’s Cosmic Ocean》展览",
     "record_ids": [
       "W03"
     ],
-    "source_id": "S22"
+    "source_id": "S22",
+    "date_display": "2026年",
+    "era": "modern"
   }
 ]
